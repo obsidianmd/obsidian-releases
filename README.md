@@ -1,0 +1,1 @@
+## This repo is used to keep track of releases for Obsidian.
