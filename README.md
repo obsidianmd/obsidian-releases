@@ -1,21 +1,29 @@
-### Obsidian Sample Plugin
+## Obsidian Sample Plugin
 
 This is a sample plugin for Obsidian (https://obsidian.md).
 
 This project uses Typescript to provide type checking and documentation.
-The repo contains the latest plugin API (obsidian.d.ts) in Typescript Definition format, which contains JSDoc comments describing what it does.
+The repo contains the latest plugin API (obsidian.d.ts) in Typescript Definition format, which contains TSDoc comments describing what it does.
 
-#### How to use
+**Note:** The Obsidian API is still in early alpha and is subject to change at any time!
+
+### Compatibility
+
+Custom plugins are only available for Obsidian v0.9.7+.
+
+The current API of this repo targets Obsidian **v0.9.7**. 
+
+### How to use
 
 - Clone this repo.
 - `npm i` or `yarn` to install dependencies
 - `npm run dev` to start compilation in watch mode.
 
-#### How to install the plugin
+### How to install the plugin
 
 - Copy over `main.js`, `styles.css`, `manifest.json` to your vault `vault/.obsidian/plugins/plugin-id/`.
 
-#### Plugin structure
+### Plugin structure
 
 `manifest.json`
  
