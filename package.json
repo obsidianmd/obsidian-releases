@@ -1,0 +1,18 @@
+{
+  "name": "obsidian-sample-plugin",
+  "version": "0.9.7",
+  "description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+  "main": "main.js",
+  "scripts": {
+    "dev": "tsc --project tsconfig.json -w",
+    "build": "tsc --project tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/codemirror": "0.0.98",
+    "@types/node": "^14.14.2",
+    "typescript": "^4.0.3"
+  }
+}
