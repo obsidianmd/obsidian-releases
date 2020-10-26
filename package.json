@@ -4,15 +4,20 @@
   "description": "This is a sample plugin for Obsidian (https://obsidian.md)",
   "main": "main.js",
   "scripts": {
-    "dev": "tsc --project tsconfig.json -w",
-    "build": "tsc --project tsconfig.json"
+    "dev": "rollup --config rollup.config.js -w",
+    "build": "rollup --config rollup.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "obsidian": "https://github.com/obsidianmd/obsidian-api/tarball/master",
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-typescript": "^6.0.0",
     "@types/node": "^14.14.2",
+    "obsidian": "https://github.com/obsidianmd/obsidian-api/tarball/master",
+    "rollup": "^2.32.1",
+    "tslib": "^2.0.3",
     "typescript": "^4.0.3"
   }
 }

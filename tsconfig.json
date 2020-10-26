@@ -3,11 +3,12 @@
     "baseUrl": ".",
     "inlineSourceMap": true,
     "inlineSources": true,
-    "module": "CommonJS",
+    "module": "ESNext",
     "target": "es5",
     "allowJs": true,
     "noImplicitAny": true,
     "moduleResolution": "node",
+    "importHelpers": true,
     "lib": [
       "dom",
       "es5",
