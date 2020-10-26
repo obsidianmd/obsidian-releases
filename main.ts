@@ -1,6 +1,6 @@
-import { App, CustomPlugin, Modal, Notice, PluginSettingTab, Setting } from 'obsidian';
+import { App, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
 
-export default class MyPlugin extends CustomPlugin {
+export default class MyPlugin extends Plugin {
 	onInit() {
 
 	}
