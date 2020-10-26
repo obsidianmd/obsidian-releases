@@ -7,12 +7,6 @@ The repo contains the latest plugin API (obsidian.d.ts) in Typescript Definition
 
 **Note:** The Obsidian API is still in early alpha and is subject to change at any time!
 
-### Compatibility
-
-Custom plugins are only available for Obsidian v0.9.7+.
-
-The current API of this repo targets Obsidian **v0.9.7**. 
-
 ### How to use
 
 - Clone this repo.
