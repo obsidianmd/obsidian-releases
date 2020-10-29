@@ -3,9 +3,21 @@
 This is a sample plugin for Obsidian (https://obsidian.md).
 
 This project uses Typescript to provide type checking and documentation.
-The repo contains the latest plugin API (obsidian.d.ts) in Typescript Definition format, which contains TSDoc comments describing what it does.
+The repo depends on the latest plugin API (obsidian.d.ts) in Typescript Definition format, which contains TSDoc comments describing what it does.
 
 **Note:** The Obsidian API is still in early alpha and is subject to change at any time!
+
+### Releasing new releases
+
+- Update your `manifest.json` with your new version number, such as `1.0.1`.
+- Create new GitHub release. Use your version number as the "Tag version". Use the exact version number, don't include the prefix `v`.
+- Upload the files `manifest.json`, `main.js`, `styles.css` as binary attachments.
+- Publish the release.
+
+### Adding your plugin to the community plugin list
+
+- Publish an initial version.
+- Make a pull request at https://github.com/obsidianmd/obsidian-releases to add your plugin.
 
 ### How to use
 
@@ -13,9 +25,9 @@ The repo contains the latest plugin API (obsidian.d.ts) in Typescript Definition
 - `npm i` or `yarn` to install dependencies
 - `npm run dev` to start compilation in watch mode.
 
-### How to install the plugin
+### Manually installing the plugin
 
-- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `vault/.obsidian/plugins/plugin-id/`.
+- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
 
 ### API Documentation
 
