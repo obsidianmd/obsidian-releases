@@ -35,8 +35,14 @@ export default class MyPlugin extends Plugin {
 		this.addSettingTab(new SampleSettingTab(this.app, this));
 
 		this.registerEvent(this.app.on('codemirror', (cm: CodeMirror.Editor) => {
-			// Modify CodeMirror here...
+			console.log('codemirror', cm);
 		}));
+
+		this.registerDomEvent(document, 'click', (evt: MouseEvent) => {
+			console.log('click', evt);
+		});
+
+		this.registerInterval(window.setInterval(() => console.log('setInterval'), 5 * 60 * 1000));
 	}
 
 	onunload() {
