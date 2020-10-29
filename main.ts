@@ -33,6 +33,10 @@ export default class MyPlugin extends Plugin {
 		});
 
 		this.addSettingTab(new SampleSettingTab(this.app, this));
+
+		this.registerEvent(this.app.on('codemirror', (cm: CodeMirror.Editor) => {
+			// Modify CodeMirror here...
+		}));
 	}
 
 	onunload() {
