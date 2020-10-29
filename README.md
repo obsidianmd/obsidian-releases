@@ -10,13 +10,14 @@ The repo depends on the latest plugin API (obsidian.d.ts) in Typescript Definiti
 ### Releasing new releases
 
 - Update your `manifest.json` with your new version number, such as `1.0.1`.
-- Create new GitHub release. Use your version number as the "Tag version". Use the exact version number, don't include the prefix `v`.
+- Create new GitHub release using your new version number as the "Tag version". Use the exact version number, don't include a prefix `v`. See here for an example: https://github.com/obsidianmd/obsidian-sample-plugin/releases
 - Upload the files `manifest.json`, `main.js`, `styles.css` as binary attachments.
 - Publish the release.
 
 ### Adding your plugin to the community plugin list
 
 - Publish an initial version.
+- Make sure you have a `README.md` file in the root of your repo.
 - Make a pull request at https://github.com/obsidianmd/obsidian-releases to add your plugin.
 
 ### How to use
