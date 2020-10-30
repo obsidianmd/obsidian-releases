@@ -1,10 +1,6 @@
 import { App, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
 
 export default class MyPlugin extends Plugin {
-	onInit() {
-
-	}
-
 	onload() {
 		console.log('loading plugin');
 
