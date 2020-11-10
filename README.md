@@ -7,9 +7,19 @@ The repo depends on the latest plugin API (obsidian.d.ts) in Typescript Definiti
 
 **Note:** The Obsidian API is still in early alpha and is subject to change at any time!
 
+This sample plugin demonstrates some of the basic functionality the plugin API can do.
+- Changes the default font color to red using `styles.css`.
+- Adds a ribbon icon, which shows a Notice when clicked.
+- Adds a command "Open Sample Modal" which opens a Modal.
+- Adds a plugin setting tab to the settings page.
+- Registers a global click event and output 'click' to the console.
+- Registers a global interval which logs 'setInterval' to the console.
+
+
 ### Releasing new releases
 
-- Update your `manifest.json` with your new version number, such as `1.0.1`.
+- Update your `manifest.json` with your new version number, such as `1.0.1`, and the minimum Obsidian version required for your latest release.
+- Update your `versions.json` file with `"new-plugin-version": "minimum-obsidian-version"` so older versions of Obsidian can download an older version of your plugin that's compatible.
 - Create new GitHub release using your new version number as the "Tag version". Use the exact version number, don't include a prefix `v`. See here for an example: https://github.com/obsidianmd/obsidian-sample-plugin/releases
 - Upload the files `manifest.json`, `main.js`, `styles.css` as binary attachments.
 - Publish the release.
