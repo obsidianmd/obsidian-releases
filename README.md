@@ -20,5 +20,6 @@ The order of this list is not kept, please add your plugin to the end of the lis
 - The `name` field is used for searching.
 - When the user opens the detail page of your plugin, Obsidian will pull the `manifest.json` and `README.md` from your GitHub repo using the specified branch (or `master`).
 - The `manifest.json` in your repo will only be used to figure out the latest version. Actual files are fetched from your GitHub releases.
+- If your `manifest.json` requires a version of Obsidian that's higher than the running app, your `versions.json` will be consulted to find the latest version of your plugin that is compatible.
 - When the user chooses to install your plugin, Obsidian will look for your GitHub releases tagged identically to the version inside `manifest.json`.
 - Obsidian will download `manifest.json`, `main.js`, and `styles.css` (if available), and store them in the proper location inside the vault.
