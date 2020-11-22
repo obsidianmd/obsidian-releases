@@ -1,0 +1,1055 @@
+.theme-dark
+{
+  --background-primary: #2f3136;
+  --background-primary-alt: #3b3f48;/*#464a53;*/
+  --background-secondary: #202225;
+  --background-secondary-alt: #0c1018d1;
+  --text-normal: #bbc0c5;/* 正文 #ccd0d5;#bbc0c5;*/
+  --text-graph: #dde0e5;
+  --dot-graph: #bbc0c5;
+  --text-faint: #a09b80;/* 三角折叠符号;*/
+  --text-title-h1: #939bd6;
+  --text-title-h2: #ba7390;
+  --text-title-h3: #b78b60;
+  --text-title-h4: #a79645;/*a79645;*/
+  --text-title-h5: #859676;
+  --text-title-h6: #799097; /*#797077;*/
+  --text-link: #59a2c5;
+  --text-a: #59a2c5;
+  --text-a-hover: #b3a14b;
+  --text-muted: #bbc0c5;/* 标题非激活状态 #a5a5a5*/
+  --text-mark: #686028;/* 预览高亮*/
+  --pre-code: #272524d9;/* #272524d9*/
+  --text-highlight-bg: #686028;/* 编辑窗口高亮*/
+  --interactive-accent: #a79040; /* 标题栏激活状态亮纹 */
+  --interactive-before: #5e6565;
+  --background-modifier-border: #92a1a17a;
+  --blockquote-border: #6a7070; /* rgba(77, 60, 166, .6);*/
+  --text-accent: #ff9640ba;
+  --interactive-accent-rgb: #fe8019;
+  --text-selection: #406488; /*#682f36;506468;文字选中时的颜色*/
+}
+
+
+/**********************/
+/*graph-view #图谱*/
+/**********************/
+
+#graph-view-canvas .links {
+  stroke: var(--interactive-accent-rgb) !important; /*--interactive-accent-rgb*/
+}
+
+strong {
+  color: #cac4bc;/* #bbc0c5;#ba946d;*/
+  font-weight: 550;
+}
+
+em {
+  color: #baa76d;
+}
+
+mark {
+  background-color: var(--text-mark) !important;
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+
+
+/**********************/
+/*background of graph view pane*/
+/**********************/
+
+.workspace-leaf-content[data-type = "graph"] .view-content{
+  background-color: var(--background-primary);
+}
+
+/*filled color for the circle when not hover*/
+.graph-view.color-fill {
+  color: #a79040;
+}
+
+/*color for the circle stroke */
+.graph-view.color-circle {
+  color: none;
+}
+
+/*color for the connecting line when not hover*/
+.graph-view.color-line {
+  color: #191935;
+}
+
+/*color for texts*/
+.graph-view.color-text {
+  color: var(--text-graph);
+}
+
+/*filled color for the circle when hover*/
+.graph-view.color-fill-highlight {
+  color: #f3bf88;
+}
+
+/*color for the connecting line when hover*/
+.graph-view.color-line-highlight {
+  color: #59a2c5;
+}
+
+
+/**********************/
+/*blockquote #引用块*/
+/**********************/
+
+/*.markdown-preview-view blockquote, .cm-s-obsidian pre.HyperMD-quote-1 {
+  border:none;
+  border-left: 3px solid currentcolor;
+}*/
+
+
+
+
+
+
+/**********************/
+/*horizontal line #水平线*/
+/**********************/
+
+.markdown-preview-view hr {
+  margin-top: 0.5em;
+  margin-bottom: 24px;
+  height: 1.5px;
+  opacity: 0.5;
+}
+
+
+/**********************/
+/* Odds and Ends #标签*/
+/**********************/
+
+/* Tag pillbox - common settings for editor left, editor right and preview */
+.cm-s-obsidian span.cm-hashtag-begin, 
+.cm-s-obsidian span.cm-hashtag-end,
+a.tag {
+  background-color: #464a53 !important;
+  color: #bbc0c5 !important;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  text-decoration: none;
+  font-family: var(--font-family-editor);
+  font-size: 0.95em;
+}
+
+/* Tag Color in PREVIEW MODE */
+a.tag {
+  background-color: #464a53 !important;
+  border: none;
+  color: #bbc0c5 !important;
+  font-size: 13.5px;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 14px;
+}
+
+/* Tag Color in EDITOR MODE */
+.cm-hashtag {
+  color: #799097 !important;
+  border-radius: 0px;
+  background-color: #464a53 !important;
+  padding: 0px 0px;
+  cursor: pointer;
+}
+
+/* Tag editor left side pillbox */
+.cm-s-obsidian span.cm-hashtag-begin {
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	padding-left: 8px;
+}
+
+/* Tag editor right side pillbox */
+.cm-s-obsidian span.cm-hashtag-end {
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding-right: 10px;
+}
+
+
+/* SEARCH BAR */
+.side-dock-panels-container {
+  background-color: rgb(32, 32, 36) !important;
+  color: #bbc0c5;
+}
+
+
+
+
+/**********************/
+/* links and brackets #超链接*/
+/**********************/
+
+
+/* link */
+a,
+.internal-link,
+.cm-hmd-internal-link,	
+.cm-link,
+.cm-formatting-link
+{
+  color: var(--text-a) !important;
+  text-decoration: none !important;
+  font-family: Avenir !important;
+}
+
+/* 未创笔记的建链接 */
+.markdown-preview-view .internal-link.is-unresolved {
+  color: var(--text-a) !important; /*var(--text-title-h6) !important;*/
+  opacity: 0.75;
+}
+
+/* link hover color */
+a:hover,
+.internal-link:hover
+{
+  color: var(--text-a-hover) !important;
+  text-decoration: none !important;
+}
+
+
+/* make external links italics to differentiate */
+/* a:not(.internal-link) {
+  font-style: italic;
+}*/
+
+
+/* icons at top of panes*/
+.file-view-actions a
+{
+  color: var(--text-muted) !important;
+}
+
+.file-view-actions a:hover
+{
+  color: var(--text-a) !important;
+}
+
+
+
+/* html tags in editor */
+.cm-tag
+{
+  color: var(--text-accent) !important;
+}
+
+/* code blocks in preview */
+pre code
+{
+  padding: 6px !important;
+  line-height: normal;
+  display: block;
+  background-color: var(--pre-code) !important;
+}
+
+.markdown-preview-view pre
+{
+  padding: 0px !important;
+}
+
+/* in-line code for editor and preview and code block for editor*/
+code,
+.cm-inline-code
+{
+  background-color: var(--pre-code) !important;
+  color: var(--text-muted) !important;
+  bottom: 0px !important;
+}
+
+/* code and code blocks for preview */
+.markdown-preview-view code
+{
+  font-size: 13.5px;
+}
+
+/**********/
+/* tables #表格*/
+/**********/
+th
+{
+  font-weight: 800 !important;
+}
+
+thead
+{
+  border-bottom: 2.2px solid var(--background-modifier-border);
+}
+
+.table
+{
+  background-color: var(--background-secondary-alt);
+  border: 1px solid var(--background-modifier-border);
+  padding: 4px;
+  line-height: normal;
+  display: block;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+/* embedded images */
+img
+{
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+/*************/
+/* checkboxes #任务清单*/
+/*************/
+
+
+
+
+/* task lists! (DEATH AU - I'm proud of this, but could use improvement) */
+.markdown-preview-view .task-list-item-checkbox {
+    -webkit-appearance: none; 
+    top: 3px !important;
+    position: relative;
+    width: 1.15em;
+    height: 1.15em;
+    margin: 1px;
+    box-shadow: 0 0 0.12em #fff900;
+}
+.markdown-preview-view .task-list-item-checkbox:checked::before {
+    content: '✓';
+    position: absolute;
+    color: #c1a601;
+    font-size:1em;
+    line-height: 1.25em;
+    width:1.2em;
+    text-align:center;
+    text-shadow: 0 0 0.5em var(--accent-2);
+}
+
+.markdown-preview-view .task-list-item-checkbox
+{
+  margin-left:7px;
+  left:-6px;
+  filter:none;	
+ /*-去除任务列表框颜色 #任务清单*/
+}
+
+
+/* Editor view - task list, color and veritcal align */
+.cm-s-obsidian span.cm-formatting-task {
+  color: var(--text-accent);
+  font-size: 0.85em;
+  font-weight: 500;
+  position: relative;
+  top: -0.12em;
+}
+
+
+.markdown-preview-view .task-list-item-checkbox
+{
+  top: 0px;
+}
+
+
+.checkbox-container {
+    background-color: #5dbcd2;
+    border-radius: 14px;
+    display: inline-block;
+    height: 22px;
+    position: relative;
+    top: 4px;
+    user-select: none;
+    width: 42px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15);
+    transition: background 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border 0.15s ease-in-out, opacity 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.checkbox-container.is-enabled {
+    background-color: #5dbcd2;
+}
+
+.markdown-preview-view mark {
+    color: #bbc0c5;
+    background-color: #5dbcd2;
+    }
+
+
+
+
+
+
+
+
+/*************/
+/* side dock SPECIAL STUFF #侧边栏*/
+/*************/
+
+
+
+
+.side-dock-ribbon-tab, .side-dock-ribbon-action {
+
+}
+.side-dock-ribbon-tab.is-active {
+  color: #bdbaa8 !important;
+}
+.side-dock-ribbon-tab.is-active .side-dock-ribbon-tab-inner:hover {
+  color: #337AB7 !important;
+  background-color: #182026;
+}
+
+.nav-file-title {  
+  color: #aaaaaa !important;/* 文件列表名称颜色 */
+  background-color: rgb(32, 32, 36);
+  }
+
+.nav-folder-title {  
+  color: #bfbfbf !important;
+  background-color: rgb(32, 32, 36);
+  }
+  
+  .nav-file-title:hover {
+  color: #59a2c5 !important;
+}
+
+.search-result-file-title {  
+  color: #d1c1a1 !important; /* 搜索结果标题颜色 */
+  background-color: rgb(32, 32, 36); /* 搜索结果标题背景颜色 */
+  }
+
+.search-result-file-matched-text {  
+  color: #59a2c5 !important;
+  background-color: rgb(32, 32, 36);
+  }
+
+
+.nav-file-tag{ color: #59a2c5; } for the PNG text, but can't specifically target "PNG", just all of those filetype tags.
+.nav-file.is-active .nav-file-tag { color: #59a2c5; }
+
+
+
+
+
+/* side dock text, like file names and backlink context #侧边栏*/
+.side-dock-panels-container *
+{
+  font-size: 13px !important;
+}
+
+
+
+/* side dock titles at top */
+.side-dock-title
+{
+  font-size: 20px !important;
+  font-weight: 800 !important;
+}
+
+
+
+/* hover actions on side dock navigation */
+.side-dock-ribbon-tab:hover,
+.side-dock-ribbon-tab-inner:hover,
+.side-dock-ribbon-action:hover,
+.side-dock-ribbon-action.is-active:hover,
+.nav-action-button:hover,
+.side-dock-collapse-btn:hover
+{
+  color: var(--text-a);
+}
+
+/* condense line spacing on file explorer title list. also avoids character-level word breaks */
+.nav-file-title-content,
+.search-result-file-title,
+.search-result-file-match
+{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: normal !important;
+  word-break: keep-all;
+}
+
+/* clean up side bar empty state (e.g. unlinked mentions) */
+.search-empty-state
+{
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: normal;
+}
+
+
+
+
+
+
+/* font for everything outside of editor/preview panes */
+.app-container
+{
+  font-family: var(--font-family-preview);
+}
+
+.status-bar-item
+{
+  font-family: var(--font-family-preview);
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+/******************/
+/* editor section */
+/******************/
+
+
+
+
+/* normal text outside of headings and code #正文 */
+.cm-s-obsidian
+{
+  font-family: var(--font-family-editor);
+  font-size: 15px;
+  color: var(--text-normal);
+  padding-left: 2% !important;
+  padding-right: 2% !important;
+}
+
+.mod-single-child .cm-s-obsidian
+{
+  font-family: var(--font-family-editor);
+  font-size: 15px;
+  color: var(--text-normal);
+  padding-left: 4% !important;
+  padding-right: 4% !important;
+}
+
+/* headings #标题*/
+.cm-header-1
+{
+  font-family: var(--font-family-editor);
+  font-weight: 500;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--text-title-h1);
+}
+
+.cm-header-2
+{
+  font-family: var(--font-family-editor);
+  font-weight: 500;
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--text-title-h2);
+}
+
+.cm-header-3
+{
+  font-family: var(--font-family-editor);
+  font-weight: 500;
+  font-size: 23px;
+  font-weight: bold;
+  color: var(--text-title-h3);
+}
+
+.cm-header-4
+{
+  font-family: var(--font-family-editor);
+  font-weight: 500;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-title-h4);
+}
+
+.cm-header-5
+{
+  font-family: var(--font-family-editor);
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-title-h5);
+}
+
+.cm-header-6
+{
+  font-family: var(--font-family-editor);
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-title-h6);
+}
+
+/* .cm-strong {
+  color: #ba946d;
+  font-weight: bold;
+}*/
+
+.cm-em {
+  color: #baa76d;
+}
+
+/* This is the dashes in bullets. Color does not work, 
+but font weight does. */
+.cm-formatting-list {
+  color: #848994;
+  font-weight: 700;
+} 
+
+
+
+/* Changing size/color of the header hashtags ## */
+.cm-formatting-header {
+/*  color: var(--text-faint);*/
+  font-size: 0.6em; 
+}
+
+
+
+
+
+
+
+/******************/
+/* preview section */
+/******************/
+
+
+
+
+
+
+/* headings #标题*/
+.markdown-preview-view h1
+{
+  font-family: var(--font-family-preview);
+  font-weight: 500;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--text-title-h1);
+}
+
+.markdown-preview-view h2
+{
+  font-family: var(--font-family-preview);
+  font-weight: 500;
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--text-title-h2);
+}
+
+.markdown-preview-view h3
+{
+  font-family: var(--font-family-preview);
+  font-weight: 500;
+  font-size: 23px;
+  font-weight: bold;
+  color: var(--text-title-h3);
+}
+
+.markdown-preview-view h4
+{
+  font-family: var(--font-family-preview);
+  font-weight: 500;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-title-h4);
+}
+
+.markdown-preview-view h5
+{
+  font-family: var(--font-family-preview);
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-title-h5);
+}
+
+.markdown-preview-view h6
+{
+  font-family: var(--font-family-preview);
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-title-h6);
+}
+
+
+
+
+
+
+
+
+/* remove secondary scroll bar in editor that comes from adding variable padding */
+.CodeMirror-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* clean up side bar empty state (e.g. unlinked mentions) */
+.search-empty-state
+{
+  width: auto;
+  padding-left: 10px;
+  padding-right: 5px;
+  line-height: normal;
+}
+
+
+
+
+
+
+/******************/
+/* Editor Code Appearance #代码块 */
+/******************/
+
+.CodeMirror-code span.cm-inline-code {     
+	color: #e1e2e3 !important;
+}
+
+
+
+    /******************/
+    /* Editor Code - from death-au */
+    /* i think this just adds a border to inline code in editor mode */
+    /******************/
+
+
+.cm-s-obsidian span.cm-inline-code {
+  border: 1px solid #525660;
+  border-radius: 4px;
+  background-color: #555961 !important; 
+}
+.cm-s-obsidian span.cm-formatting-code.cm-inline-code {
+  border-right-width: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.cm-s-obsidian span.cm-formatting-code.cm-inline-code + span.cm-inline-code {
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+
+.cm-s-obsidian span.cm-formatting-code.cm-inline-code + span.cm-inline-code + span.cm-formatting-code.cm-inline-code {
+  border-left-width: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-right-width: 1px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+
+/* Editor CodeBlock TEXT Appearance - */
+.cm-s-obsidian pre.HyperMD-codeblock {     
+	color: #e1e2e3 !important;
+}
+
+
+
+
+
+/******************/
+/* Preview Code Appearance #代码块*/
+/******************/
+
+
+
+.markdown-preview-view code {
+color: #d5dadd !important;
+background-color: #555961 !important;  /*预览 Code BG */
+bottom: -0.1px !important;
+}
+
+
+/* Naked Embeds  #嵌入块*/
+/******************/
+.markdown-embed-title { display:none; }
+.markdown-preview-view .markdown-embed-content>:first-child { margin-top: 0; font-size:1em; }/* remove the first heading:display:none; */
+.markdown-preview-view .markdown-embed-content>:last-child { margin-bottom: 0; }
+
+.markdown-preview-view .markdown-embed-content { /* 不限高度，去掉滚动条, not work in v0.9.x */
+  max-height: unset;
+}
+
+.markdown-preview-view .markdown-embed-content {
+  margin-bottom: 0px; margin-top: 0px;  }
+
+.markdown-embed-link {
+color: #59a2c5 !important;
+right: 2px !important;
+}
+
+.markdown-embed-link:hover {
+color: #b3a14b !important;
+}
+
+.markdown-preview-view .markdown-embed /* embed 嵌入格式 */
+{ 
+  border-width: 0.5px;  border-left: 0; border-right: 0;
+  border-radius: 0px; 
+  padding-left: 0px !important; padding-right: 0px !important;
+  margin-top:0px; margin-bottom:0px;
+  background-color: None;
+} /*#323439;*/
+
+.markdown-embed /* embed hover预览格式 */
+{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+
+/*====bigger link popup preview  === #超链接弹窗 =*/
+.popover.hover-popover {
+    transform: scale(0.95); /* makes the content smaller */
+    max-height: 600px;    /* was 300 */
+    min-height: 100px;
+    width: 450px;     /* was 400 */
+    background-color:#39393f;
+    border-color: #59595f;
+}
+
+
+
+/*============隐藏sidebar stripe  ======== #侧边栏  */
+.workspace-ribbon.is-collapsed:not(:hover) .workspace-ribbon-collapse-btn, 
+.workspace-ribbon.is-collapsed:not(:hover) .side-dock-actions, 
+.workspace-ribbon.is-collapsed:not(:hover) .side-dock-settings {display:none;}
+.workspace-ribbon.is-collapsed:not(:hover) {width: 0;}
+.workspace-split.mod-left-split[style="width: 0px;"] {margin-left: 0;}
+.workspace-split.mod-right-split[style="width: 0px;"] {margin-right: 0;}
+.workspace-ribbon {transition: none}
+
+
+/*---------------------------------*/
+/* BULLET POINT RELATIONSHIP LINES #列表 */
+/*---------------------------------*/
+.cm-hmd-list-indent .cm-tab,
+ul ul {
+  position: relative;
+}
+.cm-hmd-list-indent .cm-tab::before,
+ul ul::before {
+  content: "";
+  border-left: 1px solid rgba(100, 100, 120, 0.6);/*最后一个数为透明度*/
+  position: absolute;
+}
+.cm-hmd-list-indent .cm-tab::before {
+  left: 3.5px; /* 调节编辑模式下线的左缩进 */
+  top: -4.5px;
+  bottom: -4px;
+}
+ul ul::before {
+  left: -13px; /* 调节预览模式下线的左缩进 */
+  top: 0;
+  bottom: 0;
+}
+
+.cm-hmd-list-indent .cm-tab,
+ol ol { /* 有序列表 */
+  position: relative;
+}
+.cm-hmd-list-indent .cm-tab::before,
+ol ol::before {
+  content: "";
+  border-left: 1px solid rgba(100, 100, 120, 0.6);/*最后一个数为透明度*/
+  position: absolute;
+}
+.cm-hmd-list-indent .cm-tab::before {
+  left: 3.5px; /* 调节编辑模式下线的左缩进 */
+  top: -4.5px;
+  bottom: -4px;
+}
+ol ol::before {
+  left: -13px; /* 调节预览模式下线的左缩进 */
+  top: 0;
+  bottom: 0;
+}
+
+.cm-hmd-list-indent .cm-tab,
+ol ul { /* 有序列表 */
+  position: relative;
+}
+.cm-hmd-list-indent .cm-tab::before,
+ol ul::before {
+  content: "";
+  border-left: 1px solid rgba(100, 100, 120, 0.6);/*最后一个数为透明度*/
+  position: absolute;
+}
+.cm-hmd-list-indent .cm-tab::before {
+  left: 3.5px; /* 调节编辑模式下线的左缩进 */
+  top: -4.5px;
+  bottom: -4px;
+}
+ol ul::before {
+  left: -13px; /* 调节预览模式下线的左缩进 */
+  top: 0;
+  bottom: 0;
+}
+
+.cm-hmd-list-indent .cm-tab,
+ul ol { /* 有序列表 */
+  position: relative;
+}
+.cm-hmd-list-indent .cm-tab::before,
+ul ol::before {
+  content: "";
+  border-left: 1px solid rgba(100, 100, 120, 0.6);/*最后一个数为透明度*/
+  position: absolute;
+}
+.cm-hmd-list-indent .cm-tab::before {
+  left: 3.5px; /* 调节编辑模式下线的左缩进 */
+  top: -4.5px;
+  bottom: -4px;
+}
+ul ol::before {
+  left: -13px; /* 调节预览模式下线的左缩进 */
+  top: 0;
+  bottom: 0;
+}
+
+
+/*-------------------------------------*/
+ /* 在编辑模式中将无序 #列表 转化为圆点 */
+/*-------------------------------------*/
+ /* Unordered lists: turn into bullets as you type in edit mode */
+span.cm-formatting-list-ul {
+    visibility: hidden !important;
+   }
+  /*hieu: no idea if this would affect preview bullet color, but some useful css to play with? */    
+span.cm-formatting-list-ul:before {
+    content: '• ';
+    color: var(--text-normal); /*change to your color pref */
+    visibility: visible !important;
+    margin-left: 0.1rem;  /* 调节点的右缩进 */
+    margin-right: -0.22rem;  /*调文字的左缩进 */
+    padding-inline-start: 0px;
+   }
+
+
+
+/*-------------------------------------*/
+/* 减少 #列表 缩进 Ajust list indent In preview mode*/
+/*-------------------------------------*/
+ol {
+    padding-inline-start: 30px;
+}
+ul {
+    padding-inline-start: 30px;
+}
+
+/*-------------------------------------*/
+ /* #大纲面板 的关系线 #侧边栏 relationship line of outline */
+/*-------------------------------------*/
+.outline .collapsible-item-children {
+   margin-left: 20px;
+   border-left: 1px solid rgba(165,165,165,0.2);
+   transition:all 0.5s ease-in-out;
+
+  padding-left: 6px;
+}
+
+
+/*-------------------------------------*/
+ /* #水平线 所见即所得 hr line*/
+/*-------------------------------------*/
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-hr {
+    color: transparent;
+}
+
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-hr:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: var(--text-selection);
+    left: 0;
+    top: 50%;
+    opacity: 0.8;
+}
+
+/*-------------------------------------*/
+ /* #引用块 （Quote block WYSIWYG）见即所得 */
+/*-------------------------------------*/
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-quote {
+    color: transparent;
+}
+
+div:not(.CodeMirror-activeline)>.HyperMD-quote {
+    border-left: 5px solid var(--blockquote-border);
+    padding-left: 13px !important;
+    margin-left: 0px;
+    margin-top: 0em;
+}
+
+/*-------------------------------------*/
+ /* #引用块 在空一行（>）时将空行以间隔其显示出来 */
+/*-------------------------------------*/
+blockquote, p:not(:last-child) {
+    padding-bottom: 0.7em;
+}
+
+
+
+/*-------------------------------------*/
+ /* Clutter free edit mode，标记符号 #所见即所得*/
+/*-------------------------------------*/
+/* inline formatting, link targets and [[ ]] disappears if not active line*/
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url,
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-hmd-barelink,
+/*div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-comment*/ {
+    display: none !important;
+}
+/* highlight (==) not visible anymore if not active line */
+div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-formatting-highlight.cm-highlight {
+   font-size: 1em;
+   color: transparent;
+}
+
+
+
+
+/* Make subtler folding gutter arrows#折叠箭头 */
+.CodeMirror-foldgutter-folded:after, .CodeMirror-foldgutter-open:after {
+  opacity: 0.8;
+  font-size: 50%;
+}
+
+.CodeMirror-foldgutter-folded:hover:after, .CodeMirror-foldgutter-open:hover:after {
+  opacity: 1;
+  font-size: 50%;
+}
+
+.CodeMirror-foldgutter-folded:after {
+  content: "\25BA";
+}
+
+.CodeMirror-foldgutter-open:after {
+  content: "\25BC";
+}
