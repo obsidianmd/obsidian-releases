@@ -339,10 +339,25 @@
         "branch": "main"
     },
     {
+        "id": "dangerzone-writing-plugin",
+        "name": "Dangerzone Writing",
+        "author": "Alexis Rondeau",
+        "description": "This plugin is dangerous! When you start it, you have to write without stopping for 100 seconds. If you stop, think and look around, after 3 seconds the plugin will DELETE what you've written in this note.",
+        "repo": "akaalias/dangerzone-writing-plugin"
+    },
+    {
+        "id": "maximise-active-pane-obsidian",
+        "name": "Maximise Active Pane",
+        "author": "death_au",
+        "description": "Simply fills the workspace with the active pane",
+        "repo": "deathau/maximise-active-pane-obsidian",
+        "branch": "main"
+    },
+    {
         "id": "mrj-add-codemirror-matchbrackets",
         "name": "Add Codemirror's matchbrackets.js",
-        "description": "This plugins adds matchbrackets.js which allows to use `di[` or `ya(` commands in Vim mode ",
+        "description": "This plugins adds matchbrackets.js which allows to use `di[` or `ya(` commands in Vim mode",
         "author": "MrJackphil",
-        "repo": "mrjackphil/obsidian-obsidian-add-codemirror-matchbrackets"
+        "repo": "mrjackphil/obsidian-add-codemirror-matchbrackets"
     }
 ]
