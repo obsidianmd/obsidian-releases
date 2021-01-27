@@ -413,8 +413,8 @@
         "name": "Footlinks",
         "author": "Daha",
         "description": "Extracts urls from main text to footer.",
-        "repo":"DahaWong/obsidian-footlinks",
-        "branch":"main"
+        "repo": "DahaWong/obsidian-footlinks",
+        "branch": "main"
     },
     {
         "id": "obsidian-mind-map",
@@ -437,8 +437,8 @@
         "name": "Completed Area",
         "author": "Daha",
         "description": "Move completed to-do items to a seperate completed area.",
-        "repo":"DahaWong/obsidian-completed-area",
-        "branch":"main"
+        "repo": "DahaWong/obsidian-completed-area",
+        "branch": "main"
     },
     {
         "id": "obsidian-citation-plugin",
@@ -589,7 +589,6 @@
         "author": "Alexis Rondeau",
         "description": "Extract highlights, underlines and annotations from your PDFs into Obsidian",
         "repo": "akaalias/obsidian-extract-pdf-highlights"
-
     },
     {
         "id": "youhavebeenstaring-plugin",
@@ -604,7 +603,7 @@
         "author": "avirut",
         "description": "Generate notes from templates using YAML front-matter",
         "repo": "avirut/obsidian-metatemplates"
-    },  
+    },
     {
         "id": "obsidian-query2table",
         "name": "query2table",
@@ -656,7 +655,80 @@
         "branch": "main"
     },
     {
-        "id": "obsidian-query-language",
+        "id": "obsidian-icons-plugin",
+        "name": "Icons Plugin",
+        "author": "Camillo Visini",
+        "description": "Add icons to your notes",
+        "repo": "visini/obsidian-icons-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "folder-note-plugin",
+        "name": "Folder Note",
+        "author": "xpgo",
+        "description": "Add description note to a folder",
+        "repo": "xpgo/obsidian-folder-note-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "vantage-obsidian",
+        "name": "Vantage - Advanced search builder",
+        "author": "ryanjamurphy",
+        "description": "Build advanced search queries in Obsidian.",
+        "repo": "ryanjamurphy/vantage-obsidian"
+    },
+    {
+        "id": "obsidian-sort-and-permute-lines",
+        "name": "Sort & Permute lines",
+        "description": "Sort and Permute lines in whole file or selection.",
+        "author": "Vinzent",
+        "repo": "Vinzent03/obsidian-sort-and-permute-lines"
+    },
+    {
+        "id": "obsidian-min3ditorhotkeys-plugin",
+        "name": "Min3ditorHotkeys",
+        "author": "Davor Sauer",
+        "description": "Additional editor hotkeys inspired by coding editors",
+        "repo": "d-sauer/Obsidian-Min3ditorHotkeys-plugin"
+    },
+    {
+        "id": "obsidian-jsonifier",
+        "name": "JSONifier",
+        "author": "Kjell Connelly",
+        "description": "JSON.stringify() or JSON.parse() highlighted text and copy to clipboard.",
+        "repo": "KjellConnelly/obsidian-jsonifier"
+    },
+    {
+        "id": "things-logbook",
+        "name": "Things Logbook",
+        "author": "liamcain",
+        "description": "Sync your Things logbook with your daily notes",
+        "repo": "liamcain/obsidian-things-logbook",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-shortcuts-for-starred-files",
+        "name": "Shortcuts for starred files",
+        "description": "Set an individual hotkey for the first 9 starred files and open them just with your keyboard.",
+        "author": "Vinzent",
+        "repo": "Vinzent03/obsidian-shortcuts-for-starred-files"
+    },
+    {
+        "id": "obsidian-filename-heading-sync",
+        "name": "Filename Heading Sync",
+        "description": "Obsidian plugin for keeping the filename with the first heading of a file in sync",
+        "author": "dvcrn",
+        "repo": "dvcrn/obsidian-filename-heading-sync"
+    },
+    {
+        "id": "obsidian-orthography",
+        "name": "Obsidian Orthography",
+        "author": "denisoed",
+        "description": "Obsidian plugin to check & fix orthography errors in text",
+        "repo": "denisoed/obsidian-orthography"
+    },
+    {
+       "id": "obsidian-query-language",
         "name": "Obsidian Query Language",
         "author": "Joost Plattel",
         "description": "This plugin allows you to query notes and represent data within Obsidian",
