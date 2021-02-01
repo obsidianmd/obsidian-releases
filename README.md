@@ -1,25 +1,23 @@
-## This repo is used to keep track of releases for Obsidian.
+转换内部链接
 
-Until Silver piggybacked the community themes onto it.
+## 基本功能
+一，鼠标划选文本后，点击快捷键，可视文本内容来添加或删除[[ ]]语法符号。
 
-## Community Plugins
+1，若指定文本中没有[ ] * " \ | / < >等特殊符号，则在文本两端添加[[和]]符号；
 
-To add your plugin to the list, make a pull request to the `community-plugins.json` file.
-The order of this list is not kept, please add your plugin to the end of the list.
+2，若选定文本中含有成对的[[ ]]符号，则直接去除；
 
-- `id`: A unique ID for your plugin. Make sure this is the same one you have in your `manifest.json`.
-- `name`: The name of your plugin. This will be used to search for your plugin.
-- `author`: The author's name.
-- `description`: A short description of what your plugin does.
-- `repo`: The GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
-- `branch`: (optional) A branch if you prefer to use a specific branch of your repo. Defaults to `master`.
+3，若涉及文本中含有未成对的[[或]]符号，则不进行处理；
 
-### How community plugins are pulled
+二，自定义设置
 
-- Obsidian will read the list of plugins in `community-plugins.json`.
-- The `name` field is used for searching.
-- When the user opens the detail page of your plugin, Obsidian will pull the `manifest.json` and `README.md` from your GitHub repo using the specified branch (or `master`).
-- The `manifest.json` in your repo will only be used to figure out the latest version. Actual files are fetched from your GitHub releases.
-- If your `manifest.json` requires a version of Obsidian that's higher than the running app, your `versions.json` will be consulted to find the latest version of your plugin that is compatible.
-- When the user chooses to install your plugin, Obsidian will look for your GitHub releases tagged identically to the version inside `manifest.json`.
-- Obsidian will download `manifest.json`, `main.js`, and `styles.css` (if available), and store them in the proper location inside the vault.
+1，插件选项：允许设置[[附加字符来选择标题列表；
+
+2，插件选项：允许设置、，。\s等连续标题的分隔符号；
+
+3，快捷键：默认为Alt + Z，可从快捷键面板中自定义热键。
+
+## 声明
+此插件系改编自[RTL Support](https://github.com/esm7/obsidian-rtl) 和[obsidian-sort-and-permute-lines](https://github.com/Vinzent03/obsidian-sort-and-permute-lines)两款插件，仅向原开发者致以诚挚的谢意。
+
+新人初学，水平有限，欢迎各位Obsidian爱好者指正。
