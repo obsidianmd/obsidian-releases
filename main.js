@@ -289,17 +289,9 @@ var SettingsTab = /** @class */ (function (_super) {
                 });
             }); });
         });
-        /*
-        new obsidian.Setting(containerEl)
-            .setName('未选中文本时可上屏 [[ + 附加字符')
-            .setDesc('可筛选形成部分标题列表，建议指定Moc索引标题前缀，最终形如 [[0 ')
-        	.addToggle(function (toggle) { return toggle.setValue(_this.settings.rememberPerFile)
-            .onChange(function (value) {
-            _this.settings.rememberPerFile = value;
-            _this.plugin.saveSettings();
-            _this.plugin.调整方向到当前文件();
-        }); });
-        */
+
+
+
         new obsidian.Setting(containerEl)
             .setName('分隔符号')
             .setDesc('需要转换的连续多个笔记标题的分隔符号，默认为中文顿号。')
