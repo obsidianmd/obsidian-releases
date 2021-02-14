@@ -1,19 +1,12 @@
----
-name: New plugin
-about: Submit your plugin to the Community Gallery
-title: ""
-labels: plugin
-assignees: ""
----
+# [ ] I am submitting a new Community Theme
 
 ## Repo URL
-
 <!--- Paste a link to your repo here for easy access -->
 
+# [ ] I am submitting a new Community Plugin
+
 ## Release Checklist
-
 <!--- Confirm that you have done the following before submitting your plugin -->
-
 - [ ] I have tested this on Windows, macOS, and Linux (if applicable)
 - [ ] The Github release contains all required files
   - [ ] `main.js`
