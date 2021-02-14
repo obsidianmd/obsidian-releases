@@ -1,0 +1,10 @@
+{
+  "name": "obsidian-community-releases",
+  "scripts": {
+    "lint": "eslint . --ext .json"
+  },
+  "devDependencies": {
+    "eslint": "7.20.0",
+    "eslint-plugin-json": "2.1.2"
+  }
+}
