@@ -1,8 +1,8 @@
 ---
 name: New plugin
-about: Submit a plugin to the Community Theme Gallery
+about: Submit your plugin to the Community Gallery
 title: ""
-labels: theme, needs-review
+labels: plugin
 assignees: ""
 ---
 

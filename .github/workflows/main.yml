@@ -4,13 +4,9 @@ on:
   push:
     branches:
       - "master"
-    paths:
-      - "**.json"
   pull_request:
     branches:
       - "master"
-    paths:
-      - "**.json"
 
 jobs:
   lint-json:
