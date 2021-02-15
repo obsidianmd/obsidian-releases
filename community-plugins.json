@@ -203,8 +203,7 @@
         "name": "System Dark Mode",
         "author": "@kepano",
         "description": "Automatically use the operating system's setting to switch between light and dark mode",
-        "repo": "kepano/obsidian-system-dark-mode",
-        "branch": "master"
+        "repo": "kepano/obsidian-system-dark-mode"
     },
     {
         "id": "obsidian-discordrpc",
@@ -511,8 +510,7 @@
         "name": "Snippets plugin",
         "author": "Pelao",
         "description": "Execute simple scripts/snippets from obsidian. This plugin is experimental",
-        "repo": "cristianvasquez/obsidian-snippets-plugin",
-        "branch": "master"
+        "repo": "cristianvasquez/obsidian-snippets-plugin"
     },
     {
         "id": "obsidian-california-coast-settings",
@@ -527,8 +525,7 @@
         "name": "Temple",
         "author": "garyng",
         "description": "A plugin for templating in Obsidian, powered by Nunjucks.",
-        "repo": "garyng/obsidian-temple",
-        "branch": "master"
+        "repo": "garyng/obsidian-temple"
     },
     {
         "id": "pdf-to-markdown-plugin",
@@ -551,8 +548,7 @@
         "name": "Obsidian Charts",
         "author": "phibr0 / Rythm",
         "description": "This Plugin lets you create Charts with Chartist as its backend!",
-        "repo": "phibr0/obsidian-charts",
-        "branch": "master"
+        "repo": "phibr0/obsidian-charts"
     },
     {
         "id": "discordian-plugin",
@@ -740,16 +736,14 @@
         "name": "Journey",
         "author": "Alexis Rondeau",
         "description": "Discover the story between your notes",
-        "repo": "akaalias/obsidian-journey-plugin",
-        "branch": "master"
+        "repo": "akaalias/obsidian-journey-plugin"
     },
     {
         "id": "tag-wrangler",
         "name": "Tag Wrangler",
         "author": "PJ Eby",
         "description": "Rename, delete, toggle, and search tags from the tag pane",
-        "repo": "pjeby/tag-wrangler",
-        "branch": "master"
+        "repo": "pjeby/tag-wrangler"
     },
     {
         "id": "better-pdf-plugin",
@@ -766,10 +760,80 @@
         "repo": "blacksmithgu/obsidian-dataview"
     },
     {
-        "id": "block-render-plugin",
-        "name": "Block Render",
-        "author": "xpgo",
-        "description": "Render different code blocks in a note file to specific preview.",
-        "repo": "xpgo/obsidian-block-render-plugin"
+        "id": "periodic-notes",
+        "name": "Periodic Notes",
+        "author": "liamcain",
+        "description": "Create/manage your daily, weekly, and monthly notes",
+        "repo": "liamcain/obsidian-periodic-notes",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-show-file-path",
+        "name": "Show Current File Path",
+        "author": "Ravi Mashru",
+        "description": "Show the full path of the currently open file in the status bar",
+        "repo": "ravimashru/obsidian-show-file-path",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-paper-cut",
+        "name": "PaperCut",
+        "author": "darakah",
+        "description": "Express an idea in the simplest possible way ... or else",
+        "repo": "Darakah/obsidian-paper-cut"
+    },
+    {
+        "id": "obsidian-comments",
+        "name": "Comments",
+        "author": "darakah",
+        "description": "Add, track and easily navigate between a note's Comments",
+        "repo": "Darakah/obsidian-comments-plugin"
+    },
+    {
+        "id": "ini-obsidian",
+        "name": "ini Editor",
+        "author": "death_au",
+        "description": "Edit ini files in Obsidian",
+        "repo": "deathau/ini-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "various-complements",
+        "name": "Various Complements",
+        "author": "tadashi-aikawa",
+        "description": "This plugin enables you to complement input in markdown files",
+        "repo": "tadashi-aikawa/obsidian-various-complements-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-timelines",
+        "name": "Timelines",
+        "author": "darakah",
+        "description": "Create a timeline view of all notes with the specified combination of tags",
+        "repo": "Darakah/obsidian-timelines",
+        "branch": "main"
+    },
+    {
+        "id": "txt-as-md-obsidian",
+        "name": "txt as md",
+        "author": "death_au",
+        "description": "Edit txt files as markdown in Obsidian",
+        "repo": "deathau/txt-as-md-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "note-folder-autorename",
+        "name": "Note Folder Autorename",
+        "author": "PJ Eby",
+        "description": "Turn notes into folders and automaticaly move/rename their folders when they move or are renamed",
+        "repo": "pjeby/note-folder-autorename"
+    },
+    {
+        "id": "daily-activity",
+        "name": "Daily Activity",
+        "description": "This outputs a list of the files changed/created today in the active file",
+        "author": "trydalch",
+        "repo": "trydalch/obsidian-daily-activity"
+>>>>>>> upstream/master
     }
 ]
