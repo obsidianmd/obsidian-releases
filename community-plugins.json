@@ -203,8 +203,7 @@
         "name": "System Dark Mode",
         "author": "@kepano",
         "description": "Automatically use the operating system's setting to switch between light and dark mode",
-        "repo": "kepano/obsidian-system-dark-mode",
-        "branch": "master"
+        "repo": "kepano/obsidian-system-dark-mode"
     },
     {
         "id": "obsidian-discordrpc",
@@ -511,8 +510,7 @@
         "name": "Snippets plugin",
         "author": "Pelao",
         "description": "Execute simple scripts/snippets from obsidian. This plugin is experimental",
-        "repo": "cristianvasquez/obsidian-snippets-plugin",
-        "branch": "master"
+        "repo": "cristianvasquez/obsidian-snippets-plugin"
     },
     {
         "id": "obsidian-california-coast-settings",
@@ -527,8 +525,7 @@
         "name": "Temple",
         "author": "garyng",
         "description": "A plugin for templating in Obsidian, powered by Nunjucks.",
-        "repo": "garyng/obsidian-temple",
-        "branch": "master"
+        "repo": "garyng/obsidian-temple"
     },
     {
         "id": "pdf-to-markdown-plugin",
@@ -551,8 +548,7 @@
         "name": "Obsidian Charts",
         "author": "phibr0 / Rythm",
         "description": "This Plugin lets you create Charts with Chartist as its backend!",
-        "repo": "phibr0/obsidian-charts",
-        "branch": "master"
+        "repo": "phibr0/obsidian-charts"
     },
     {
         "id": "discordian-plugin",
@@ -740,16 +736,14 @@
         "name": "Journey",
         "author": "Alexis Rondeau",
         "description": "Discover the story between your notes",
-        "repo": "akaalias/obsidian-journey-plugin",
-        "branch": "master"
+        "repo": "akaalias/obsidian-journey-plugin"
     },
     {
         "id": "tag-wrangler",
         "name": "Tag Wrangler",
         "author": "PJ Eby",
         "description": "Rename, delete, toggle, and search tags from the tag pane",
-        "repo": "pjeby/tag-wrangler",
-        "branch": "master"
+        "repo": "pjeby/tag-wrangler"
     },
     {
         "id": "better-pdf-plugin",
@@ -787,8 +781,8 @@
         "author": "darakah",
         "description": "Express an idea in the simplest possible way ... or else",
         "repo": "Darakah/obsidian-paper-cut"
-  },
-  {
+    },
+    {
         "id": "obsidian-comments",
         "name": "Comments",
         "author": "darakah",
@@ -811,7 +805,7 @@
         "repo": "tadashi-aikawa/obsidian-various-complements-plugin",
         "branch": "main"
     },
-    { 
+    {
         "id": "obsidian-timelines",
         "name": "Timelines",
         "author": "darakah",
@@ -834,12 +828,26 @@
         "description": "Turn notes into folders and automaticaly move/rename their folders when they move or are renamed",
         "repo": "pjeby/note-folder-autorename",
         "branch": "master"
+    }
+    {
+        "id": "daily-activity",
+        "name": "Daily Activity",
+        "description": "This outputs a list of the files changed/created today in the active file",
+        "author": "trydalch",
+        "repo": "trydalch/obsidian-daily-activity"
+    },
+    {
+        "id": "obsidian-daily-stats",
+        "name": "Daily Stats",
+        "description": "Track your daily word count",
+        "author": "Dhruvik Parikh",
+        "repo": "dhruvik7/obsidian-daily-stats"
     },
     {
         "id": "open-note-to-window-title",
         "name": "Active note to window title",
-        "author": "Joost Plattel",
         "description": "This plugin shows the current open note in the window title",
+        "author": "Joost Plattel",
         "repo": "jplattel/open-note-to-window-title",
         "branch": "main"
     }
