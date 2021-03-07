@@ -20,11 +20,12 @@ This sample plugin demonstrates some of the basic functionality the plugin API c
 Quick starting guide for new plugin devs:
 
 - Make a copy of this repo as a template with the "Use this template" button.
-- Clone your repo to a local development folder. For convenience, you can place this folder in your `.obsidian/plugin/your-plugin-name` folder.
+- Clone your repo to a local development folder. For convenience, you can place this folder in your `.obsidian/plugins/your-plugin-name` folder.
 - Install NodeJS, then run `npm i` in the command line under your repo folder.
 - Run `npm run dev` to compile your plugin from `main.ts` to `main.js`.
 - Make changes to `main.ts` (or create new `.ts` files). Those changes should be automatically compiled into `main.js`.
 - Reload Obsidian to load the new version of your plugin.
+- Enable plugin in settings window.
 
 ### Releasing new releases
 
