@@ -6,6 +6,10 @@
 
 # [ ] I am submitting a new Community Plugin
 
+## Repo URL
+
+<!--- Paste a link to your repo here for easy access -->
+
 ## Release Checklist
 
 <!--- Confirm that you have done the following before submitting your plugin -->
