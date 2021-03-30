@@ -742,7 +742,7 @@
         "id": "tag-wrangler",
         "name": "Tag Wrangler",
         "author": "PJ Eby",
-        "description": "Rename, delete, toggle, and search tags from the tag pane",
+        "description": "Rename, merge, toggle, and search tags from the tag pane",
         "repo": "pjeby/tag-wrangler"
     },
     {
@@ -1066,19 +1066,68 @@
         "repo": "derwish-pro/obsidian-unique-attachments"
     },
     {
-
-          "id": "obsidian-dice-roller",
-          "name": "Dice Roller",
-          "description": "Inline dice rolling for Obsidian.md",
-          "author": "Jeremy Valentine",
-          "repo": "valentine195/obsidian-dice-roller"
+        "id": "obsidian-dice-roller",
+        "name": "Dice Roller",
+        "description": "Inline dice rolling for Obsidian.md",
+        "author": "Jeremy Valentine",
+        "repo": "valentine195/obsidian-dice-roller"
     },
     {
-
-          "id": "obsidian-admonition",
+        "id": "obsidian-languagetool-plugin",
+        "name": "LanguageTool Integration",
+        "description": "advanced spell/grammar checks with the help of language-tool",
+        "author": "Clemens Ertle",
+        "repo": "Clemens-E/obsidian-languagetool-plugin"
+    },
+    {   "id": "obsidian-commits",
+        "name": "Commits",
+        "description": "Track & show commits in obsidian vault or specified project.",
+        "author": "darakah",
+        "repo": "Darakah/obsidian-commits",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-outliner",
+        "name": "Obsidian Outliner Plugin",
+        "description": "Accelerate your lists.",
+        "author": "Viacheslav Slinko",
+        "repo": "vslinko/obsidian-outliner",
+        "branch": "main"
+    },
+    {
+        "id": "extract-url",
+        "name": "Extract url content",
+        "description": "Extract url converting content into markdown",
+        "author": "Stephen Solka",
+        "repo": "trashhalo/obsidian-extract-url"
+    },
+    {
+        "id": "find-and-replace-in-selection",
+        "name": "Find and replace in selection",
+        "description": "Finds what you are looking for in the selected text and replaces it with the specified text",
+        "author": "Dmitry Savosh",
+        "repo": "derwish-pro/obsidian-find-and-replace-in-selection"
+    },
+    {
+        "id": "buttons",
+        "name": "Buttons",
+        "description": "Create Buttons in your Obsidian notes to run commands, open links, and insert templates",
+        "author": "Sam Morrison",
+        "repo": "shabegom/buttons",
+        "branch": "main"
+    },
+    {
+        "id": "todo-txt",
+        "name": "Todo.txt support",
+        "description": "Native support for todo.txt files",
+        "author": "Stephen Solka",
+        "repo": "trashhalo/obsidian-todo-txt"
+    },
+    {
+        "id": "obsidian-admonition",
 	      "name": "Admonition",
-          "description": "Admonition block-styled content for Obsidian.md",
-          "author": "Jeremy Valentine",
-          "repo": "valentine195/obsidian-admonition"
+        "description": "Admonition block-styled content for Obsidian.md",
+        "author": "Jeremy Valentine",
+        "repo": "valentine195/obsidian-admonition"
     }
 ]
