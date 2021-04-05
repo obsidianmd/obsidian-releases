@@ -1079,7 +1079,8 @@
         "author": "Clemens Ertle",
         "repo": "Clemens-E/obsidian-languagetool-plugin"
     },
-    {   "id": "obsidian-commits",
+    {
+        "id": "obsidian-commits",
         "name": "Commits",
         "description": "Track & show commits in obsidian vault or specified project.",
         "author": "darakah",
@@ -1088,8 +1089,8 @@
     },
     {
         "id": "obsidian-outliner",
-        "name": "Obsidian Outliner Plugin",
-        "description": "Accelerate your lists.",
+        "name": "Outliner",
+        "description": "Work with your lists like in Workflowy or RoamResearch.",
         "author": "Viacheslav Slinko",
         "repo": "vslinko/obsidian-outliner",
         "branch": "main"
@@ -1125,7 +1126,7 @@
     },
     {
         "id": "obsidian-admonition",
-	      "name": "Admonition",
+        "name": "Admonition",
         "description": "Admonition block-styled content for Obsidian.md",
         "author": "Jeremy Valentine",
         "repo": "valentine195/obsidian-admonition"
@@ -1144,6 +1145,36 @@
         "author": "Liam Cain",
         "repo": "liamcain/obsidian-swipe-navigation",
         "branch": "main"
+    },
+    {
+        "id": "obsidian-hotkeys-for-templates",
+        "name": "Hotkeys for templates",
+        "description": "Add hotkeys to insert specific templates",
+        "author": "Vinzent",
+        "repo": "Vinzent03/obsidian-hotkeys-for-templates"
+    },
+    {
+        "id": "obsidian-style-settings",
+        "name": "Style Settings",
+        "description": "Offers controls for adjusting theme, plugin, and snippet CSS variables",
+        "author": "mgmeyers",
+        "repo": "mgmeyers/obsidian-style-settings",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-embedded-note-titles",
+        "name": "Embedded Note Titles",
+        "author": "mgmeyers",
+        "description": "Inserts the note file name as an H1 heading above each note",
+        "repo": "mgmeyers/obsidian-embedded-note-titles",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-advanced-uri",
+        "name": "Advanced Obsidian URI",
+        "description": "Advanced modes for Obsidian URI",
+        "author": "Vinzent",
+        "repo": "Vinzent03/obsidian-advanced-uri"
     },
     {   "id": "obsidian-fountain",
         "name": "Fountain",
