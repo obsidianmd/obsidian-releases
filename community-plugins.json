@@ -513,14 +513,6 @@
         "repo": "cristianvasquez/obsidian-snippets-plugin"
     },
     {
-        "id": "obsidian-california-coast-settings",
-        "name": "California Coast Theme",
-        "author": "mgmeyers",
-        "description": "Settings plugin for the California Coast theme.",
-        "repo": "mgmeyers/obsidian-california-coast-settings",
-        "branch": "main"
-    },
-    {
         "id": "obsidian-temple",
         "name": "Temple",
         "author": "garyng",
@@ -1185,11 +1177,33 @@
         "branch": "main"
     },
     {
+        "id": "cm-chs-patch",
+        "name": "Word Splitting for Simplified Chinese in Edit Mode",
+        "author": "AidenLx",
+        "description": "A patch for Obsidian's built-in CodeMirror Editor to support Simplified Chinese word splitting",
+        "repo": "alx-plugins/cm-chs-patch",
+        "branch": "main"
+    },
+    {
+        "id": "table-extended",
+        "name": "Table Extended",
+        "author": "AidenLx",
+        "description": "Enable extended table support with MultiMarkdown 6 syntax",
+        "repo": "alx-plugins/table-extended"
+    },
+    {
+        "id": "privacy-glasses",
+        "name": "Privacy Glasses",
+        "description": "Provides a ribbon icon and command to blur onscreen text for better privacy",
+        "author": "Jill Alberts",
+        "repo": "jillalberts/privacy-glasses",
+        "branch": "main"
+    },
+    {
         "id": "obsidian-readwise",
         "name": "Readwise",
         "description": "Sync Readwise highlights into your notes",
         "author": "renehernandez",
         "repo": "renehernandez/obsidian-readwise",
-        "branch": "main"
     }
 ]
