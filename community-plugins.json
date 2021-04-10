@@ -513,14 +513,6 @@
         "repo": "cristianvasquez/obsidian-snippets-plugin"
     },
     {
-        "id": "obsidian-california-coast-settings",
-        "name": "California Coast Theme",
-        "author": "mgmeyers",
-        "description": "Settings plugin for the California Coast theme.",
-        "repo": "mgmeyers/obsidian-california-coast-settings",
-        "branch": "main"
-    },
-    {
         "id": "obsidian-temple",
         "name": "Temple",
         "author": "garyng",
@@ -1079,7 +1071,8 @@
         "author": "Clemens Ertle",
         "repo": "Clemens-E/obsidian-languagetool-plugin"
     },
-    {   "id": "obsidian-commits",
+    {
+        "id": "obsidian-commits",
         "name": "Commits",
         "description": "Track & show commits in obsidian vault or specified project.",
         "author": "darakah",
@@ -1125,7 +1118,7 @@
     },
     {
         "id": "obsidian-admonition",
-	      "name": "Admonition",
+        "name": "Admonition",
         "description": "Admonition block-styled content for Obsidian.md",
         "author": "Jeremy Valentine",
         "repo": "valentine195/obsidian-admonition"
@@ -1152,11 +1145,65 @@
         "author": "Vinzent",
         "repo": "Vinzent03/obsidian-hotkeys-for-templates"
     },
-    { 
+    {
+        "id": "obsidian-style-settings",
+        "name": "Style Settings",
+        "description": "Offers controls for adjusting theme, plugin, and snippet CSS variables",
+        "author": "mgmeyers",
+        "repo": "mgmeyers/obsidian-style-settings",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-embedded-note-titles",
+        "name": "Embedded Note Titles",
+        "author": "mgmeyers",
+        "description": "Inserts the note file name as an H1 heading above each note",
+        "repo": "mgmeyers/obsidian-embedded-note-titles",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-advanced-uri",
+        "name": "Advanced Obsidian URI",
+        "description": "Advanced modes for Obsidian URI",
+        "author": "Vinzent",
+        "repo": "Vinzent03/obsidian-advanced-uri"
+    },
+    {
+        "id": "obsidian-fountain",
+        "name": "Fountain",
+        "description": "Fountain Support for Obsidian",
+        "author": "darakah",
+        "repo": "Darakah/obsidian-fountain",
+        "branch": "main"
+    },
+    {
+        "id": "cm-chs-patch",
+        "name": "Word Splitting for Simplified Chinese in Edit Mode",
+        "author": "AidenLx",
+        "description": "A patch for Obsidian's built-in CodeMirror Editor to support Simplified Chinese word splitting",
+        "repo": "alx-plugins/cm-chs-patch",
+        "branch": "main"
+    },
+    {
+        "id": "table-extended",
+        "name": "Table Extended",
+        "author": "AidenLx",
+        "description": "Enable extended table support with MultiMarkdown 6 syntax",
+        "repo": "alx-plugins/table-extended"
+    },
+    {
+        "id": "privacy-glasses",
+        "name": "Privacy Glasses",
+        "description": "Provides a ribbon icon and command to blur onscreen text for better privacy",
+        "author": "Jill Alberts",
+        "repo": "jillalberts/privacy-glasses",
+        "branch": "main"
+    },
+    {
         "id": "obsidian-highlightpublicnotes-plugin",
-	    "name": "Highlight Public Notes",
-	    "description": "This plugin warns that a note is public (based on a frontmatter attribute) by colorizing the note red.",
-    	"author": "dennis seidel",
-	    "repo": "dennisseidel/highlightpublicnotes-obsidian-plugin"
+        "name": "Highlight Public Notes",
+        "description": "This plugin warns that a note is public (based on a frontmatter attribute) by colorizing the note red.",
+        "author": "dennis seidel",
+        "repo": "dennisseidel/highlightpublicnotes-obsidian-plugin"
     }
 ]
