@@ -1200,10 +1200,48 @@
         "branch": "main"
     },
     {
+        "id": "obsidian-highlightpublicnotes-plugin",
+        "name": "Highlight Public Notes",
+        "description": "This plugin warns that a note is public (based on a frontmatter attribute) by colorizing the note red.",
+        "author": "dennis seidel",
+        "repo": "dennisseidel/highlightpublicnotes-obsidian-plugin"
+    },
+    {
+        "id": "media-extended",
+        "name": "Media Extended",
+        "author": "AidenLx",
+        "description": "Improve media (video/audio) playing in Obsidian",
+        "repo": "alx-plugins/media-extended",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-regex-pipeline",
+        "name": "Regex Pipeline",
+        "description": "Allows users setup custom regex rules to automatically format notes",
+        "author": "No3371",
+        "repo": "No3371/obsidian-regex-pipeline"
+    },
+    {
+        "id": "juggl",
+        "name": "Juggl",
+        "author": "Emile van Krieken",
+        "description": "Adds a completely interactive, stylable and expandable graph view to Obsidian.",
+        "repo": "HEmile/juggl",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-spaced-repetition",
+        "name": "Spaced Repetition",
+        "description": "Fight the forgetting curve & note aging by reviewing notes using spaced repetition on Obsidian.md",
+        "author": "Stephen Mwangi",
+        "repo": "st3v3nmw/obsidian-spaced-repetition"
+    },
+    {
         "id": "obsidian-readwise",
         "name": "Readwise",
         "description": "Sync Readwise highlights into your notes",
         "author": "renehernandez",
         "repo": "renehernandez/obsidian-readwise",
+        "branch": "main"
     }
 ]
