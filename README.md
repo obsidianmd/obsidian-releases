@@ -26,6 +26,7 @@ Quick starting guide for new plugin devs:
 - Make changes to `main.ts` (or create new `.ts` files). Those changes should be automatically compiled into `main.js`.
 - Reload Obsidian to load the new version of your plugin.
 - Enable plugin in settings window.
+- For updates to the Obsidian API run `npm update` in the command line under your repo folder.
 
 ### Releasing new releases
 
