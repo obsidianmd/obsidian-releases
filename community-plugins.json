@@ -75,6 +75,14 @@
         "branch": "main"
     },
     {
+        "id": "ledger-obsidian",
+        "name": "Ledger",
+        "author": "Tony Grosinger",
+        "description": "Plain text accounting",
+        "repo": "tgrosinger/ledger-obsidian",
+        "branch": "main"
+    },
+    {
         "id": "note-refactor-obsidian",
         "name": "Note Refactor",
         "author": "James Lynch",
@@ -1272,8 +1280,7 @@
         "name": "Excalidraw",
         "author": "Zsolt Viczian",
         "description": "An Obsidian plugin to edit and view Excalidraw drawings",
-        "repo": "zsviczian/obsidian-excalidraw-plugin",
-        "branch": "main"
+        "repo": "zsviczian/obsidian-excalidraw-plugin"
     },
     {
         "id": "obsidian-auto-link-title",
@@ -1297,6 +1304,13 @@
         "description": "Create markdown-backed Kanban boards in Obsidian",
         "repo": "mgmeyers/obsidian-kanban",
         "branch": "main"
+    },
+    {
+        "id": "obsidian-kindle-plugin",
+        "name": "Kindle Highlights",
+        "description": "An Obsidian plugin for syncing your Kindle book highlights using your Amazon login",
+        "author": "Hady Osman",
+        "repo": "hadynz/obsidian-kindle-plugin"
     },
     {
         "id": "obsidian-advanced-links-plugin",
