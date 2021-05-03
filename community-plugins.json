@@ -75,6 +75,14 @@
         "branch": "main"
     },
     {
+        "id": "ledger-obsidian",
+        "name": "Ledger",
+        "author": "Tony Grosinger",
+        "description": "Plain text accounting",
+        "repo": "tgrosinger/ledger-obsidian",
+        "branch": "main"
+    },
+    {
         "id": "note-refactor-obsidian",
         "name": "Note Refactor",
         "author": "James Lynch",
@@ -84,7 +92,7 @@
     {
         "id": "calendar",
         "name": "Calendar",
-        "author": "liamcain",
+        "author": "Liam Cain",
         "description": "Simple calendar widget for Obsidian",
         "repo": "liamcain/obsidian-calendar-plugin"
     },
@@ -513,14 +521,6 @@
         "repo": "cristianvasquez/obsidian-snippets-plugin"
     },
     {
-        "id": "obsidian-california-coast-settings",
-        "name": "California Coast Theme",
-        "author": "mgmeyers",
-        "description": "Settings plugin for the California Coast theme.",
-        "repo": "mgmeyers/obsidian-california-coast-settings",
-        "branch": "main"
-    },
-    {
         "id": "obsidian-temple",
         "name": "Temple",
         "author": "garyng",
@@ -689,7 +689,7 @@
     {
         "id": "things-logbook",
         "name": "Things Logbook",
-        "author": "liamcain",
+        "author": "Liam Cain",
         "description": "Sync your Things logbook with your daily notes",
         "repo": "liamcain/obsidian-things-logbook",
         "branch": "main"
@@ -762,7 +762,7 @@
     {
         "id": "periodic-notes",
         "name": "Periodic Notes",
-        "author": "liamcain",
+        "author": "Liam Cain",
         "description": "Create/manage your daily, weekly, and monthly notes",
         "repo": "liamcain/obsidian-periodic-notes",
         "branch": "main"
@@ -1079,7 +1079,8 @@
         "author": "Clemens Ertle",
         "repo": "Clemens-E/obsidian-languagetool-plugin"
     },
-    {   "id": "obsidian-commits",
+    {
+        "id": "obsidian-commits",
         "name": "Commits",
         "description": "Track & show commits in obsidian vault or specified project.",
         "author": "darakah",
@@ -1088,8 +1089,8 @@
     },
     {
         "id": "obsidian-outliner",
-        "name": "Obsidian Outliner Plugin",
-        "description": "Accelerate your lists.",
+        "name": "Outliner",
+        "description": "Work with your lists like in Workflowy or RoamResearch.",
         "author": "Viacheslav Slinko",
         "repo": "vslinko/obsidian-outliner",
         "branch": "main"
@@ -1125,7 +1126,7 @@
     },
     {
         "id": "obsidian-admonition",
-	      "name": "Admonition",
+        "name": "Admonition",
         "description": "Admonition block-styled content for Obsidian.md",
         "author": "Jeremy Valentine",
         "repo": "valentine195/obsidian-admonition"
@@ -1136,5 +1137,210 @@
         "description": "Track tags and texts in your dialy notes",
         "author": "pyrochlore",
         "repo": "pyrochlore/obsidian-tracker"
+    },
+    {
+        "id": "swipe-navigation",
+        "name": "Swipe Navigation",
+        "description": "Two-finger swipe to navigate through your note history",
+        "author": "Liam Cain",
+        "repo": "liamcain/obsidian-swipe-navigation",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-hotkeys-for-templates",
+        "name": "Hotkeys for templates",
+        "description": "Add hotkeys to insert specific templates",
+        "author": "Vinzent",
+        "repo": "Vinzent03/obsidian-hotkeys-for-templates"
+    },
+    {
+        "id": "obsidian-style-settings",
+        "name": "Style Settings",
+        "description": "Offers controls for adjusting theme, plugin, and snippet CSS variables",
+        "author": "mgmeyers",
+        "repo": "mgmeyers/obsidian-style-settings",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-embedded-note-titles",
+        "name": "Embedded Note Titles",
+        "author": "mgmeyers",
+        "description": "Inserts the note file name as an H1 heading above each note",
+        "repo": "mgmeyers/obsidian-embedded-note-titles",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-advanced-uri",
+        "name": "Advanced Obsidian URI",
+        "description": "Advanced modes for Obsidian URI",
+        "author": "Vinzent",
+        "repo": "Vinzent03/obsidian-advanced-uri"
+    },
+    {
+        "id": "obsidian-fountain",
+        "name": "Fountain",
+        "description": "Fountain Support for Obsidian",
+        "author": "darakah",
+        "repo": "Darakah/obsidian-fountain",
+        "branch": "main"
+    },
+    {
+        "id": "cm-chs-patch",
+        "name": "Word Splitting for Simplified Chinese in Edit Mode",
+        "author": "AidenLx",
+        "description": "A patch for Obsidian's built-in CodeMirror Editor to support Simplified Chinese word splitting",
+        "repo": "alx-plugins/cm-chs-patch",
+        "branch": "main"
+    },
+    {
+        "id": "table-extended",
+        "name": "Table Extended",
+        "author": "AidenLx",
+        "description": "Enable extended table support with MultiMarkdown 6 syntax",
+        "repo": "alx-plugins/table-extended"
+    },
+    {
+        "id": "privacy-glasses",
+        "name": "Privacy Glasses",
+        "description": "Provides a ribbon icon and command to blur onscreen text for better privacy",
+        "author": "Jill Alberts",
+        "repo": "jillalberts/privacy-glasses",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-highlightpublicnotes-plugin",
+        "name": "Highlight Public Notes",
+        "description": "This plugin warns that a note is public (based on a frontmatter attribute) by colorizing the note red.",
+        "author": "dennis seidel",
+        "repo": "dennisseidel/highlightpublicnotes-obsidian-plugin"
+    },
+    {
+        "id": "media-extended",
+        "name": "Media Extended",
+        "author": "AidenLx",
+        "description": "Improve media (video/audio) playing in Obsidian",
+        "repo": "alx-plugins/media-extended",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-regex-pipeline",
+        "name": "Regex Pipeline",
+        "description": "Allows users setup custom regex rules to automatically format notes",
+        "author": "No3371",
+        "repo": "No3371/obsidian-regex-pipeline"
+    },
+    {
+        "id": "juggl",
+        "name": "Juggl",
+        "author": "Emile van Krieken",
+        "description": "Adds a completely interactive, stylable and expandable graph view to Obsidian.",
+        "repo": "HEmile/juggl",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-spaced-repetition",
+        "name": "Spaced Repetition",
+        "description": "Fight the forgetting curve & note aging by reviewing notes using spaced repetition on Obsidian.md",
+        "author": "Stephen Mwangi",
+        "repo": "st3v3nmw/obsidian-spaced-repetition"
+    },
+    {
+        "id": "obsidian-readwise",
+        "name": "Readwise",
+        "description": "Sync Readwise highlights into your notes",
+        "author": "renehernandez",
+        "repo": "renehernandez/obsidian-readwise",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-tabs",
+        "name": "Obsidian Tabs",
+        "author": "foreveryone",
+        "description": "New panes are opened in a tabbed view.",
+        "repo": "gitobsidiantutorial/obsidian-tabs"
+    },
+    {
+        "id": "obsidian-icon-swapper",
+        "name": "Icon Swapper",
+        "author": "mgmeyers",
+        "description": "Allows swapping out Obsidian's default icons",
+        "repo": "mgmeyers/obsidian-icon-swapper",
+        "branch": "main"
+    },
+    {
+        "id": "mdx-as-md-obsidian",
+        "name": "mdx as md",
+        "author": "Nikolay Kozhukharenko",
+        "description": "Edit mdx files as markdown in Obsidian",
+        "repo": "mkozhukharenko/mdx-as-md-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin",
+        "name": "Excalidraw",
+        "author": "Zsolt Viczian",
+        "description": "An Obsidian plugin to edit and view Excalidraw drawings",
+        "repo": "zsviczian/obsidian-excalidraw-plugin"
+    },
+    {
+        "id": "obsidian-auto-link-title",
+        "name": "Auto Link Title",
+        "description": "This plugin automatically fetches the titles of links from the web",
+        "author": "Matt Furden",
+        "repo": "zolrath/obsidian-auto-link-title",
+        "branch": "main"
+    },
+    {
+        "id": "python-lab-plugin",
+        "name": "Python lab plugin",
+        "description": "An interface to experiment with python scripts and more.",
+        "author": "Cristian Vasquez",
+        "repo": "cristianvasquez/obsidian-lab"
+    },
+    {
+        "id": "obsidian-kanban",
+        "name": "Kanban",
+        "author": "mgmeyers",
+        "description": "Create markdown-backed Kanban boards in Obsidian",
+        "repo": "mgmeyers/obsidian-kanban",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-kindle-plugin",
+        "name": "Kindle Highlights",
+        "description": "An Obsidian plugin for syncing your Kindle book highlights using your Amazon login",
+        "author": "Hady Osman",
+        "repo": "hadynz/obsidian-kindle-plugin"
+    },
+    {
+        "id": "obsidian-metatable",
+        "name": "Metatable",
+        "description": "Display the whole frontmatter section as a collapsible table",
+        "author": "Arnau Siches",
+        "repo": "arnau/obsidian-metatable",
+        "branch": "main"
+    },
+    {
+        "id": "oz-image-plugin",
+        "name": "Ozan's Image in Editor Plugin",
+        "author": "Ozan Tellioglu",
+        "description": "You can view images inside of the Editor as soon as you paste without a necessity to preview the note.",
+        "repo": "ozntel/oz-image-in-editor-obsidian"
+    },
+    {
+        "id": "obsidian-recall",
+        "name": "Recall",
+        "description": "A flexible and configurable spaced repetition plugin with multiple algorithms to choose from.",
+        "author": "Martin Jirlow",
+        "repo": "martin-jw/obsidian-recall",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-tidy-footnotes",
+        "name": "Tidy Footnotes",
+        "description": "Tidy your footnotes seamlessly.",
+        "author": "Charlie Chao",
+        "repo": "charliecm/obsidian-tidy-footnotes",
+        "branch": "main"
     }
 ]
