@@ -1134,7 +1134,7 @@
     {
         "id": "obsidian-tracker",
         "name": "Tracker",
-        "description": "Track tags and texts in your dialy notes",
+        "description": "Tracks occurrences and numbers in your notes",
         "author": "pyrochlore",
         "repo": "pyrochlore/obsidian-tracker"
     },
@@ -1240,7 +1240,7 @@
     {
         "id": "obsidian-spaced-repetition",
         "name": "Spaced Repetition",
-        "description": "Fight the forgetting curve & note aging by reviewing notes using spaced repetition on Obsidian.md",
+        "description": "Fight the forgetting curve by reviewing flashcards & entire notes.",
         "author": "Stephen Mwangi",
         "repo": "st3v3nmw/obsidian-spaced-repetition"
     },
@@ -1306,9 +1306,16 @@
         "branch": "main"
     },
     {
+        "id": "obsidian-incremental-writing",
+        "name": "Incremental Writing",
+        "author": "Jamesb | Experimental Learning",
+        "description": "Incrementally review notes and blocks over time.",
+        "repo": "bjsi/incremental-writing"
+    },
+    {
         "id": "obsidian-kindle-plugin",
         "name": "Kindle Highlights",
-        "description": "An Obsidian plugin for syncing your Kindle book highlights using your Amazon login",
+        "description": "Sync your Kindle book highlights using your Amazon login or uploading your My Clippings file",
         "author": "Hady Osman",
         "repo": "hadynz/obsidian-kindle-plugin"
     },
@@ -1341,6 +1348,14 @@
         "description": "Tidy your footnotes seamlessly.",
         "author": "Charlie Chao",
         "repo": "charliecm/obsidian-tidy-footnotes",
+        "branch": "main"
+    },
+    {
+        "id": "beeminder-word-count-plugin",
+        "name": "Beeminder Word Count Plugin",
+        "description": "Post word counts directly from obsidian md file to Beeminder",
+        "author": "Yuta Miyama",
+        "repo": "kenzan100/beeminder-obsidian-word-count",
         "branch": "main"
     },
     {
