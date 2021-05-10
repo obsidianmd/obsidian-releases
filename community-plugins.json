@@ -1306,9 +1306,16 @@
         "branch": "main"
     },
     {
+        "id": "obsidian-incremental-writing",
+        "name": "Incremental Writing",
+        "author": "Jamesb | Experimental Learning",
+        "description": "Incrementally review notes and blocks over time.",
+        "repo": "bjsi/incremental-writing"
+    },
+    {
         "id": "obsidian-kindle-plugin",
         "name": "Kindle Highlights",
-        "description": "An Obsidian plugin for syncing your Kindle book highlights using your Amazon login",
+        "description": "Sync your Kindle book highlights using your Amazon login or uploading your My Clippings file",
         "author": "Hady Osman",
         "repo": "hadynz/obsidian-kindle-plugin"
     },
@@ -1344,13 +1351,26 @@
         "branch": "main"
     },
     {
-        "id": "obsidian_focus_mode",
+        "id": "beeminder-word-count-plugin",
+        "name": "Beeminder Word Count Plugin",
+        "description": "Post word counts directly from obsidian md file to Beeminder",
+        "author": "Yuta Miyama",
+        "repo": "kenzan100/beeminder-obsidian-word-count",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-indent-lines",
+        "name": "Indentation Lines",
+        "description": "Creates connection-lines for ordered and unordered lists.",
+        "author": "Nikolas Sturm",
+        "repo": "Arch-Storm/obsidian-indent-lines",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-focus-mode",
         "name": "Focus Mode",
-        "version": "1.1.3",
-        "minAppVersion": "0.9.12",
         "description": "Add Focus Mode to Obsidian.",
         "author": "ryanpcmcquen",
-        "repo": "ryanpcmcquen/obsidian_focus_mode",
-        "branch": "master"
+        "repo": "ryanpcmcquen/obsidian_focus_mode"
     }
 ]
