@@ -75,6 +75,14 @@
         "branch": "main"
     },
     {
+        "id": "ledger-obsidian",
+        "name": "Ledger",
+        "author": "Tony Grosinger",
+        "description": "Plain text accounting",
+        "repo": "tgrosinger/ledger-obsidian",
+        "branch": "main"
+    },
+    {
         "id": "note-refactor-obsidian",
         "name": "Note Refactor",
         "author": "James Lynch",
@@ -1126,7 +1134,7 @@
     {
         "id": "obsidian-tracker",
         "name": "Tracker",
-        "description": "Track tags and texts in your dialy notes",
+        "description": "Tracks occurrences and numbers in your notes",
         "author": "pyrochlore",
         "repo": "pyrochlore/obsidian-tracker"
     },
@@ -1232,15 +1240,196 @@
     {
         "id": "obsidian-spaced-repetition",
         "name": "Spaced Repetition",
-        "description": "Fight the forgetting curve & note aging by reviewing notes using spaced repetition on Obsidian.md",
+        "description": "Fight the forgetting curve by reviewing flashcards & entire notes.",
         "author": "Stephen Mwangi",
         "repo": "st3v3nmw/obsidian-spaced-repetition"
+    },
+    {
+        "id": "obsidian-readwise",
+        "name": "Readwise",
+        "description": "Sync Readwise highlights into your notes",
+        "author": "renehernandez",
+        "repo": "renehernandez/obsidian-readwise",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-tabs",
+        "name": "Obsidian Tabs",
+        "author": "foreveryone",
+        "description": "New panes are opened in a tabbed view.",
+        "repo": "gitobsidiantutorial/obsidian-tabs"
+    },
+    {
+        "id": "obsidian-icon-swapper",
+        "name": "Icon Swapper",
+        "author": "mgmeyers",
+        "description": "Allows swapping out Obsidian's default icons",
+        "repo": "mgmeyers/obsidian-icon-swapper",
+        "branch": "main"
+    },
+    {
+        "id": "mdx-as-md-obsidian",
+        "name": "mdx as md",
+        "author": "Nikolay Kozhukharenko",
+        "description": "Edit mdx files as markdown in Obsidian",
+        "repo": "mkozhukharenko/mdx-as-md-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-excalidraw-plugin",
+        "name": "Excalidraw",
+        "author": "Zsolt Viczian",
+        "description": "An Obsidian plugin to edit and view Excalidraw drawings",
+        "repo": "zsviczian/obsidian-excalidraw-plugin"
+    },
+    {
+        "id": "obsidian-auto-link-title",
+        "name": "Auto Link Title",
+        "description": "This plugin automatically fetches the titles of links from the web",
+        "author": "Matt Furden",
+        "repo": "zolrath/obsidian-auto-link-title",
+        "branch": "main"
+    },
+    {
+        "id": "python-lab-plugin",
+        "name": "Python lab plugin",
+        "description": "An interface to experiment with python scripts and more.",
+        "author": "Cristian Vasquez",
+        "repo": "cristianvasquez/obsidian-lab"
+    },
+    {
+        "id": "obsidian-kanban",
+        "name": "Kanban",
+        "author": "mgmeyers",
+        "description": "Create markdown-backed Kanban boards in Obsidian",
+        "repo": "mgmeyers/obsidian-kanban",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-incremental-writing",
+        "name": "Incremental Writing",
+        "author": "Jamesb | Experimental Learning",
+        "description": "Incrementally review notes and blocks over time.",
+        "repo": "bjsi/incremental-writing"
+    },
+    {
+        "id": "obsidian-kindle-plugin",
+        "name": "Kindle Highlights",
+        "description": "Sync your Kindle book highlights using your Amazon login or uploading your My Clippings file",
+        "author": "Hady Osman",
+        "repo": "hadynz/obsidian-kindle-plugin"
+    },
+    {
+        "id": "obsidian-metatable",
+        "name": "Metatable",
+        "description": "Display the whole frontmatter section as a collapsible table",
+        "author": "Arnau Siches",
+        "repo": "arnau/obsidian-metatable",
+        "branch": "main"
+    },
+    {
+        "id": "oz-image-plugin",
+        "name": "Ozan's Image in Editor Plugin",
+        "author": "Ozan Tellioglu",
+        "description": "You can view images inside of the Editor as soon as you paste without a necessity to preview the note.",
+        "repo": "ozntel/oz-image-in-editor-obsidian"
+    },
+    {
+        "id": "obsidian-recall",
+        "name": "Recall",
+        "description": "A flexible and configurable spaced repetition plugin with multiple algorithms to choose from.",
+        "author": "Martin Jirlow",
+        "repo": "martin-jw/obsidian-recall",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-tidy-footnotes",
+        "name": "Tidy Footnotes",
+        "description": "Tidy your footnotes seamlessly.",
+        "author": "Charlie Chao",
+        "repo": "charliecm/obsidian-tidy-footnotes",
+        "branch": "main"
+    },
+    {
+        "id": "beeminder-word-count-plugin",
+        "name": "Beeminder Word Count Plugin",
+        "description": "Post word counts directly from obsidian md file to Beeminder",
+        "author": "Yuta Miyama",
+        "repo": "kenzan100/beeminder-obsidian-word-count",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-indent-lines",
+        "name": "Indentation Lines",
+        "description": "Creates connection-lines for ordered and unordered lists.",
+        "author": "Nikolas Sturm",
+        "repo": "Arch-Storm/obsidian-indent-lines",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-qrcode-plugin",
+        "name": "QR Code Generator Plugin",
+        "description": "This is a QR Code Generator",
+        "author": "Rudi Häusler",
+        "repo": "rudimuc/obsidian-qrcode",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-focus-mode",
+        "name": "Focus Mode",
+        "description": "Add Focus Mode to Obsidian.",
+        "author": "ryanpcmcquen",
+        "repo": "ryanpcmcquen/obsidian-focus-mode"
+    },
+    {
+        "id": "obsidian-underline",
+        "name": "Underline",
+        "description": "Add underline with shortcut",
+        "author": "Benature",
+        "repo": "Benature/obsidian-underline",
+        "branch": "main"
+    },
+    {
+        "id": "oz-clear-unused-images",
+        "name": "Clear Unused Images",
+        "author": "Ozan Tellioglu",
+        "description": "Clear the images that you are not using anymore in your markdown notes to save space.",
+        "repo": "ozntel/oz-clear-unused-images-obsidian"
+    },
+    {
+        "id": "obsidian-markdown-furigana",
+        "name": "Markdown Furigana",
+        "description": "Simple Markdown to Furigana Rendering Plugin for Obsidian.",
+        "author": "Steven Kraft",
+        "repo": "steven-kraft/obsidian-markdown-furigana"
+    },
+    {
+        "id": "obsidian-2hop-links-plugin",
+        "name": "2Hop Links Plugin",
+        "author": "Tokuhiro Matsuno",
+        "description": "This plugin will display the page linked 2hop ahead.",
+        "repo": "tokuhirom/obsidian-2hop-links-plugin"
+    },
+    {
+        "id": "obsidian-image-auto-upload-plugin",
+        "name": "Image auto upload Plugin",
+        "description": "This plugin uploads images from your clipboard by PicGo",
+        "author": "renmu123",
+        "repo": "renmu123/obsidian-image-auto-upload-plugin"
+    },
+    {
+        "id": "obsidian-org-mode",
+        "name": "Org Mode",
+        "description": "Add Org Mode support to Obsidian.",
+        "author": "ryanpcmcquen",
+        "repo": "ryanpcmcquen/obsidian-org-mode"
     },
     {
         "id": "obsidian-open-link-with",
         "name": "Open Link With",
         "description": "Open external link with specific browser in Obsidian",
         "author": "MamoruDS",
-        "repo": "MamoruDS/obsidian-releases"
+        "repo": "MamoruDS/obsidian-open-link-with",
+        "branch": "main"
     }
 ]
