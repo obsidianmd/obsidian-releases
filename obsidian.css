@@ -1,8 +1,17 @@
-.cm-s-obsidian span.cm-formatting-link {
-    color: #00b0ff;
+.search-result-file-matched-text {
+color: #dedede;
+    background-color: #be1e9685;
 }
 
 
+.cm-s-obsidian span.obsidian-search-match-highlight {
+color: #dedede;
+    background-color: #be1e9685;
+}
+
+.cm-s-obsidian span.cm-formatting-link {
+    color: #00b0ff;
+}
 
 
 .markdown-preview-view h1, .markdown-preview-view h2, .markdown-preview-view h3, .markdown-preview-view h4, .markdown-preview-view h5, .markdown-preview-view h6 {
