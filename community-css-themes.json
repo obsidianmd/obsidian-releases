@@ -28,13 +28,6 @@
         "modes": ["dark"]
     },
     {
-        "name": "Clean theme",
-        "author": "kmaasrud",
-        "repo": "kmaasrud/clean-theme-obsidian",
-        "screenshot": "media/light.jpg",
-        "modes": ["dark", "light"]
-    },
-    {
         "name": "Dracula for Obsidian",
         "author": "jarodise",
         "repo": "jarodise/Dracula-for-Obsidian.md",
@@ -87,7 +80,7 @@
         "name": "Solarized",
         "author": "Slowbad",
         "repo": "Slowbad/obsidian-solarized",
-        "screenshot": "light.png",
+        "screenshot": "screenshot.png",
         "modes": ["dark", "light"]
     },
     {
@@ -319,28 +312,29 @@
         "author": "mgmeyers",
         "repo": "mgmeyers/obsidian-california-coast-theme",
         "screenshot": "screenshots/04.png",
-        "compatibleModes": ["dark", "light"]
+        "modes": ["dark", "light"],
+        "branch": "main"
     },
     {
         "name": "Discordian",
         "author": "radekkozak",
         "repo": "radekkozak/discordian",
         "screenshot": "media/screenshots/discordian-full-mode.png",
-        "compatibleModes": ["dark"]
+        "modes": ["dark"]
     },
     {
         "name": "Al Dente",
         "author": "chad-bennett",
         "repo": "chad-bennett/al-dente-obsidian-theme",
         "screenshot": "aldente-screenshot.png",
-        "compatibleModes": ["light"]
+        "modes": ["light"]
     },
     {
         "name": "Wasp",
         "author": "Santi Younger",
         "repo": "santiyounger/Wasp-Obsidian-Theme",
         "screenshot": "img/wasp-dark.png",
-        "compatibleModes": ["dark", "light"],
+        "modes": ["dark", "light"],
         "branch": "main"
     },
     {
@@ -348,7 +342,7 @@
         "author": "David Golding",
         "repo": "davidgolding/obsidian-big-sur-aesthetic",
         "screenshot": "screenshot-hybrid.png",
-        "compatibleModes": ["dark", "light"],
+        "modes": ["dark", "light"],
         "branch": "main"
     },
     {
@@ -356,7 +350,7 @@
         "author": "lukauskas",
         "repo": "lukauskas/obsidian-highlighter-theme",
         "screenshot": "screenshots/screenshot-themes-panel.png",
-        "compatibleModes": ["light"],
+        "modes": ["light"],
         "branch": "main"
     },
     {
@@ -364,7 +358,7 @@
         "author": "SlRvb",
         "repo": "SlRvb/Obsidian--ITS-Theme",
         "screenshot": "ITS.png",
-        "compatibleModes": ["dark", "light"],
+        "modes": ["dark", "light"],
         "branch": "main"
     },
     {
@@ -372,7 +366,7 @@
         "author": "Wiktoria Mielcarek",
         "repo": "Braweria/Spectrum",
         "screenshot": "SpectrumPreview.png",
-        "compatibleModes": ["dark", "light"],
+        "modes": ["dark", "light"],
         "branch": "main"
     },
     {
@@ -380,7 +374,7 @@
         "author": "Andrew Lisowski",
         "repo": "hipstersmoothie/hipstersmoothie-obsidian-theme",
         "screenshot": "hipstersmoothie-obsidian-theme.png",
-        "compatibleModes": ["dark"],
+        "modes": ["dark"],
         "branch": "main"
     },
     {
@@ -388,7 +382,53 @@
         "author": "Hung-Su Nguyen",
         "repo": "hungsu/vileplume-obsidian",
         "screenshot": "Vileplume.png",
-        "compatibleModes": ["dark"],
+        "modes": ["dark"],
         "branch": "main"
+    },
+    {
+        "name": "Aurora",
+        "author": "TriDiamond",
+        "repo": "auroral-ui/aurora-obsidian-md",
+        "screenshot": "screenshots/screenshot-1.png",
+        "modes": ["dark"],
+        "branch": "main"
+    },
+    {
+        "name": "Iceberg",
+        "author": "izumin5210",
+        "repo": "izumin5210/obsidian-iceberg",
+        "screenshot": "screenshot.png",
+        "modes": ["dark"],
+        "branch": "main"
+    },
+    {
+        "name": "Night Owl",
+        "author": "Ben Hong",
+        "repo": "bencodezen/obsidian-night-owl-theme",
+        "screenshot": "obsidian-night-owl-theme.png",
+        "modes": ["dark"],
+        "branch": "main"
+    },
+    {
+        "name": "Yin and Yang",
+        "author": "Chetachi E.",
+        "repo": "chetachiezikeuzor/Yin-and-Yang-Theme",
+        "screenshot": "assets/screenshot.png",
+        "modes": ["dark", "light"],
+        "branch": "main"
+    },
+    {
+        "name": "Golden Topaz",
+        "author": "Mouth on Cloud",
+        "repo": "shaggyfeng/obsidian-Golden-Topaz-theme",
+        "screenshot": "screenshot.png",
+        "modes": ["dark", "light"]
+    },
+    {
+        "name": "Pink Topaz",
+        "author": "Mouth on Could",
+        "repo": "shaggyfeng/obsidian-Pink-topaz-theme",
+        "screenshot": "screenshot.png",
+        "modes": ["dark", "light"]
     }
 ]
