@@ -111,13 +111,6 @@
         "repo": "mrjackphil/obsidian-jump-to-link"
     },
     {
-        "id": "mrj-backlinks-in-document",
-        "name": "Backlinks into the document",
-        "author": "MrJackphil",
-        "description": "A hacky workaround which put backlinks section into the document",
-        "repo": "mrjackphil/obsidian-backlinks-in-document"
-    },
-    {
         "id": "obsidian-reading-time",
         "name": "Reading Time",
         "author": "avr",
@@ -1139,14 +1132,6 @@
         "repo": "pyrochlore/obsidian-tracker"
     },
     {
-        "id": "swipe-navigation",
-        "name": "Swipe Navigation",
-        "description": "Two-finger swipe to navigate through your note history",
-        "author": "Liam Cain",
-        "repo": "liamcain/obsidian-swipe-navigation",
-        "branch": "main"
-    },
-    {
         "id": "obsidian-hotkeys-for-templates",
         "name": "Hotkeys for templates",
         "description": "Add hotkeys to insert specific templates",
@@ -1484,8 +1469,87 @@
         "branch": "main"
     },
     {
+        "id": "readwise-mirror",
+        "name": "Readwise Mirror",
+        "description": "Mirror your Readwise library directly into an Obsidian vault",
+        "author": "jsonmartin",
+        "repo": "jsonMartin/readwise-mirror"
+    },
+    {
+        "id": "obsidian-auto-pair-chinese-symbol",
+        "name": "Auto pair chinese symbol",
+        "description": "Auto pair chinese symbol",
+        "author": "renmu123",
+        "repo": "renmu123/obsidian-auto-pair-chinese-symbol"
+    },
+    {
+        "id": "obsidian-pomodoro-plugin",
+        "name": "Obsidian Pomodoro Plugin",
+        "description": "This is a simple pomodoro plugin for Obsidian.",
+        "author": "Tokuhiro Matsuno",
+        "repo": "tokuhirom/obsidian-pomodoro-plugin"
+    },
+    {
+        "id": "obsidian-5e-statblocks",
+        "name": "5e Statblocks",
+        "description": "Create 5e styled statblocks in Obsidian.md",
+        "author": "Jeremy Valentine",
+        "repo": "valentine195/obsidian-5e-statblocks"
+    },
+    {
+        "id": "obsidian-zoom",
+        "name": "Zoom",
+        "description": "Zoom into heading and lists.",
+        "author": "Viacheslav Slinko",
+        "repo": "vslinko/obsidian-zoom",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-collapse-all-plugin",
+        "name": "Collapse All",
+        "description": "This plugin adds a button to collapse all folders in the file explorer.",
+        "author": "OfficerHalf",
+        "repo": "OfficerHalf/obsidian-collapse-all",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-chartsview-plugin",
+        "name": "Charts View",
+        "description": "A charts view plugin for Obsidian, based on Ant Design Charts which is a React chart library.",
+        "author": "caronchen",
+        "repo": "caronchen/obsidian-chartsview-plugin"
+    },
+    {
+        "id": "obsidian-dictionary-plugin",
+        "name": "Obsidian Dictionary",
+        "description": "This is a simple dictionary for the Obsidian Note-Taking Tool.",
+        "author": "phibr0",
+        "repo": "phibr0/obsidian-dictionary"
+    },
+    {
+        "id": "liquid-templates",
+        "name": "Liquid Templates",
+        "author": "Diomede Tripicchio",
+        "description": "Create your templates with LiquidJS tags support",
+        "repo": "oeN/liquid-template"
+    },
+    {
+          "id": "better-fn",
+          "name": "Better footnote",
+          "description": "Footnote popover for Obsidian",
+          "author": "AidenLx",
+          "repo": "alx-plugins/better-fn"
+    },
+    {
+        "id": "metaedit",
+        "name": "MetaEdit",
+        "description": "MetaEdit helps you manage your metadata.",
+        "author": "Christian B. B. Houmann",
+        "repo": "chhoumann/MetaEdit"
+    },
+    {
         "id": "obsidian-static-file-server",
-        "name": "React Components",
+        "name": "Static File Server",
         "description": "Host obsidian subfolders as static file servers.",
         "author": "Elias Sundqvist",
         "repo": "elias-sundqvist/obsidian-static-file-server"
