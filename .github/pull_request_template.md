@@ -4,6 +4,15 @@
 
 <!--- Paste a link to your repo here for easy access -->
 
+## Theme checklist
+
+- [ ] Your repo contains all required files (please *do not* add them to our `obsidian-releases` repo)
+  - [ ] `obsidian.css`
+  - [ ] The screenshot file you pointed to
+- [ ] You have indicated which modes (dark, light, or both) are compatible with your theme
+- [ ] If you're not using the `master` branch (legacy), please indicate
+
+
 # [ ] I am submitting a new Community Plugin
 
 ## Repo URL
