@@ -10,6 +10,7 @@
   - [ ] `obsidian.css`
   - [ ] The screenshot file you pointed to
 - [ ] You have indicated which modes (dark, light, or both) are compatible with your theme
+- [ ] You have added a license in the LICENSE file
 - [ ] If you're not using the `master` branch (legacy), please indicate
 
 
@@ -31,3 +32,4 @@
 - [ ] Github release name matches the exact version number specified in your manifest.json (_**Note:** Use the exact version number, don't include a prefix `v`_)
 - [ ] The `id` in my `manifest.json` matches the `id` in the `community-plugins.json` file.
 - [ ] README clearly describes the plugins purpose and provides clear usage instructions.
+- [ ] You have added a license in the LICENSE file
