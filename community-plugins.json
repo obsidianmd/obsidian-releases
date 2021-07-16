@@ -329,7 +329,7 @@
     {
         "id": "cycle-through-panes",
         "name": "Cycle through Panes",
-        "author": "Vinadon & Rythm",
+        "author": "Vinadon & phibr0",
         "description": "Cycle through your open Panes with `ctrl + Tab`, just like with Tabs in your Browser!",
         "repo": "phibr0/cycle-through-panes"
     },
@@ -539,7 +539,7 @@
     {
         "id": "obsidian-charts",
         "name": "Obsidian Charts",
-        "author": "phibr0 / Rythm",
+        "author": "phibr0",
         "description": "This Plugin lets you create Charts with Chartist as its backend!",
         "repo": "phibr0/obsidian-charts"
     },
@@ -693,13 +693,6 @@
         "description": "Set an individual hotkey for the first 9 starred files and open them just with your keyboard.",
         "author": "Vinzent",
         "repo": "Vinzent03/obsidian-shortcuts-for-starred-files"
-    },
-    {
-        "id": "obsidian-filename-heading-sync",
-        "name": "Filename Heading Sync",
-        "description": "Obsidian plugin for keeping the filename with the first heading of a file in sync",
-        "author": "dvcrn",
-        "repo": "dvcrn/obsidian-filename-heading-sync"
     },
     {
         "id": "obsidian-orthography",
@@ -1174,7 +1167,7 @@
         "name": "Word Splitting for Simplified Chinese in Edit Mode",
         "author": "AidenLx",
         "description": "A patch for Obsidian's built-in CodeMirror Editor to support Simplified Chinese word splitting",
-        "repo": "alx-plugins/cm-chs-patch",
+        "repo": "aidenlx/cm-chs-patch",
         "branch": "main"
     },
     {
@@ -1182,7 +1175,7 @@
         "name": "Table Extended",
         "author": "AidenLx",
         "description": "Enable extended table support with MultiMarkdown 6 syntax",
-        "repo": "alx-plugins/table-extended"
+        "repo": "aidenlx/table-extended"
     },
     {
         "id": "privacy-glasses",
@@ -1204,7 +1197,7 @@
         "name": "Media Extended",
         "author": "AidenLx",
         "description": "Improve media (video/audio) playing in Obsidian",
-        "repo": "alx-plugins/media-extended",
+        "repo": "aidenlx/media-extended",
         "branch": "main"
     },
     {
@@ -1521,8 +1514,8 @@
     },
     {
         "id": "obsidian-dictionary-plugin",
-        "name": "Obsidian Dictionary",
-        "description": "This is a simple dictionary for the Obsidian Note-Taking Tool.",
+        "name": "Dictionary",
+        "description": "This is a multilingual Dictionary for the Obsidian Note-Taking Tool.",
         "author": "phibr0",
         "repo": "phibr0/obsidian-dictionary"
     },
@@ -1538,7 +1531,7 @@
         "name": "Better footnote",
         "description": "Footnote popover for Obsidian",
         "author": "AidenLx",
-        "repo": "alx-plugins/better-fn"
+        "repo": "aidenlx/better-fn"
     },
     {
         "id": "obsidian-dropbox-backups",
@@ -1664,13 +1657,6 @@
         "repo": "vanadium23/obsidian-advanced-new-file"
     },
     {
-        "id": "extended-context-menu",
-        "name": "Extended Context Menu",
-        "description": "This Plugin adds a API for other Plugins to create better Custom Context Menus in Obsidians Editor.",
-        "author": "phibr0",
-        "repo": "phibr0/obsidian-extended-context-menu"
-    },
-    {
         "id": "file-explorer-note-count",
         "name": "File Explorer Note Count",
         "author": "Ozan Tellioglu",
@@ -1737,10 +1723,60 @@
         "repo": "kzhovn/statusbar-pomo-obsidian"
     },
     {
+        "id": "obsidian-kroki",
+        "name": "Kroki",
+        "author": "Greg Zuro",
+        "description": "Render Kroki diagrams.",
+        "repo": "gregzuro/obsidian-kroki"
+    },
+    {
+        "id": "obsidian-timeline",
+        "name": "Timeline",
+        "author": "George Butco",
+        "description": "Used to build great timelines",
+        "repo": "George-debug/obsidian-timeline"
+    },
+    {
+        "id": "obsidian-map-view",
+        "name": "Map View",
+        "author": "esm",
+        "description": "An interactive map view for your notes.",
+        "repo": "esm7/obsidian-map-view"
+    },
+    {
+        "id": "copy-url-in-preview",
+        "name": "Copy URL in preview",
+        "author": "NomarCub",
+        "description": "Copy URL context menu in preview mode",
+        "repo": "NomarCub/obsidian-copy-url-in-preview"
+    },
+    {
+        "id": "initiative-tracker",
+        "name": "Initiative Tracker",
+        "author": "Jeremy Valentine",
+        "description": "TTRPG Initiative Tracker for Obsidian.md",
+        "repo": "valentine195/obsidian-initiative-tracker"
+    },
+    {
+        "id": "obsidian-cursor-location-plugin",
+        "name": "Cursor Location",
+        "author": "Sean Slater",
+        "description": "This displays the location of the cursor (character and line number).",
+        "repo": "spslater/obsidian-cursor-location-plugin"
+    },
+    {
+        "id": "obsidian-enhancing-mindmap",
+        "name": "Enhancing mindmap",
+        "author": "Mark",
+        "description": "This is a enhancing mindmap plugin for obsidian. You can edit mindmap on markdown.",
+        "repo": "MarkMindCkm/obsidian-enhancing-mindmap",
+        "branch": "main"
+    },
+    {
         "id": "breadcrumbs",
         "name": "Breadcrumbs",
         "author": "SkepticMystic",
         "description": "Visualise the hierarchy of your vault using a breadcrumb trail or matrix view",
         "repo": "SkepticMystic/breadcrumbs"
-    }        
+    }
 ]
