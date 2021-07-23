@@ -5,6 +5,9 @@
 
 <!--- Paste a link to your repo here for easy access -->
 
+Link to plugin or theme: 
+
+
 ## Theme checklist
 
 <!--- Confirm that you have done the following before submitting your theme -->
