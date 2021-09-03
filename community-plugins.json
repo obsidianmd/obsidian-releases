@@ -1815,7 +1815,7 @@
         "repo": "publicus/obsidian-paste-to-current-indentation"
     },
     {
-        "id": "obsimian",
+        "id": "obsimian-exporter",
         "name": "Obsimian",
         "author": "Oliver Lade",
         "description": "Obsidian simulation framework for testing Obsidian plugins.",
@@ -2127,10 +2127,142 @@
         "repo": "phibr0/obsidian-relative-find"
     },
     {
+        "id": "obsidian-image-toolkit",
+        "name": "Obsidian Image Toolkit",
+        "description": "When you click an image, it will be displayed in a popup layer and you can view, drag, zoom, rotate the image.",
+        "author": "sissilab",
+        "repo": "sissilab/obsidian-image-toolkit"
+    },
+    {
+        "id": "obsidian-shellcommands",
+        "name": "Shell commands",
+        "description": "You can predefine system commands that you want to run frequently, and assign hotkeys for them. For example open external applications.",
+        "author": "Jarkko Linnanvirta",
+        "repo": "Taitava/obsidian-shellcommands",
+        "branch": "main"
+    },
+    {
+        "id": "hover-external-link",
+        "name": "Hover External Link",
+        "description": "Hover on external links to see the destination URL.",
+        "author": "Jamie Brynes",
+        "repo": "jamiebrynes7/obsidian-hover-external-link"
+    },
+    {
+        "id": "obsidian-codemirror-options",
+        "name": "CodeMirror Options",
+        "author": "nothingislost",
+        "description": "Configure various CodeMirror options such as text selection behavior and syntax highlighting",
+        "repo": "nothingislost/obsidian-codemirror-options",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-code-block-enhancer",
+        "name": "Code Block Enhancer",
+        "description": "Enhance obsidian markdown code block,provides copy button,linenumber,language name tip and so on.",
+        "author": "hafuhafu",
+        "repo": "nyable/obsidian-code-block-enhancer"
+    },
+    {
+        "id": "obsidian-copy-block-link",
+        "name": "Copy Block Link",
+        "author": "mgmeyers",
+        "description": "Get links to blocks and headings from Obsidian's right click menu.",
+        "repo": "mgmeyers/obsidian-copy-block-link",
+        "branch": "main"
+    },
+    {
+        "id": "drawio-obsidian",
+        "name": "Diagrams",
+        "description": "Create and edit Draw.io diagrams in obsidian",
+        "author": "Sam Greenhalgh",
+        "repo": "zapthedingbat/drawio-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-vim-im-switch-plugin",
+        "name": "Vim Input Method Switch",
+        "description": "Switch input method with fcitx-remote when Vim keymap is enabled.",
+        "author": "yuanotes",
+        "repo": "yuanotes/obsidian-vim-im-switch-plugin"
+    },
+    {
+        "id": "luhman",
+        "name": "Luhman",
+        "author": "Dylan Elliott",
+        "description": "Commands for handling a zettelkasten with Luhman-style IDs as filenames",
+        "repo": "Dyldog/luhman-obsidian-plugin"
+    },
+    {
+        "id": "obsidian-daily-named-folder",
+        "name": "Daily Named Folder",
+        "author": "Nemo Andrea",
+        "description": "Like daily notes, but nested in a daily folder with a oneline summary. Better for attachment management & glanceability.",
+        "repo": "nemoandrea/obsidian-daily-named-folder"
+    },
+    {
+        "id": "obsidian-trello",
+        "name": "Obsidian Trello",
+        "description": "Connect Trello cards to Obsidian notes.",
+        "author": "OfficerHalf",
+        "repo": "OfficerHalf/obsidian-trello",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-annotator",
+        "name": "Annotator",
+        "description": "A plugin for reading and annotating PDFs and EPUBs in obsidian.",
+        "author": "Elias Sundqvist",
+        "repo": "elias-sundqvist/obsidian-annotator"
+    },
+    {
+        "id": "customjs",
+        "name": "CustomJS",
+        "author": "Sam Lewis",
+        "description": "Reuse custom javascript across desktop and mobile.",
+        "repo": "samlewis0602/obsidian-custom-js"
+    },
+    {
+        "id": "random-structural-diary-plugin",
+        "name": "Random Structural Diary",
+        "description": "This is a plugin for picking random questions from prepared question list. It allows you answer on different questions each time.",
+        "author": "Timur Sidoriuk",
+        "repo": "ShockThunder/RandomStructuralDiary"
+    },
+    {
+        "id": "obsidian-file-link",
+        "name": "Obsidian File Link",
+        "description": "This plugin lets you create simple file links in your notes.",
+        "author": "Marc Julian Schwarz",
+        "repo": "marcjulianschwarz/obsidian-file-link"
+    },
+    {
+        "id": "quick-explorer",
+        "name": "Quick Explorer",
+        "description": "Perform file explorer operations (and see your current file path) from the title bar, using the mouse or keyboard",
+        "author": "PJ Eby",
+        "repo": "pjeby/quick-explorer"
+    },
+    {
+        "id": "obsidian-banners",
+        "name": "Banners",
+        "author": "Danny Hernandez",
+        "description": "Add banner images to your notes!",
+        "repo": "noatpad/obsidian-banners"
+    },
+    {
+        "id": "obsidian-jump-to-date-plugin",
+        "name": "Obsidian42 - Jump-to-Date",
+        "description": "Popup calendar for quickly navigating dates.",
+        "author": "TfTHacker",
+        "repo": "TfTHacker/obsidian42-jump-to-date"
+    },
+    {
         "id": "obsidian-icon-folder",
         "name": "Obsidian Icon Folder",
         "author": "FlorianWoelki",
         "description": "This plugin allows you to add icons to your folders.",
-        "repo": "FlorianWoelki/obsidian-icon-folder"
+        "repo": "FlorianWoelki/obsidian-icon-folder",
+        "branch": "main"
     }
 ]
