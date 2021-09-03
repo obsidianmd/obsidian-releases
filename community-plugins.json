@@ -1815,7 +1815,7 @@
         "repo": "publicus/obsidian-paste-to-current-indentation"
     },
     {
-        "id": "obsimian",
+        "id": "obsimian-exporter",
         "name": "Obsimian",
         "author": "Oliver Lade",
         "description": "Obsidian simulation framework for testing Obsidian plugins.",
@@ -2068,6 +2068,180 @@
         "author": "phibr0",
         "description": "This Plugin provides a go to Line Command",
         "repo": "phibr0/obsidian-go-to-line"
+    },
+    {
+        "id": "open-with",
+        "name": "Open with",
+        "author": "phibr0",
+        "description": "This Plugin allows you to add multiple other programs to open notes with.",
+        "repo": "phibr0/obsidian-open-with"
+    },
+    {
+        "id": "editor-commands-remap",
+        "name": "Editor Commands Remap",
+        "description": "Map hotkeys to editor commands.",
+        "author": "cactus5",
+        "repo": "c4ctus5/editor-commands-remap"
+    },
+    {
+        "id": "obsidian-command-alias-plugin",
+        "name": "Command Alias",
+        "description": "This plugin gives aliases to Obsidian commands.",
+        "author": "@Yajamon",
+        "repo": "yajamon/obsidian-command-alias-plugin"
+    },
+    {
+        "id": "obsidian-rich-links",
+        "name": "Obsidian Rich Links",
+        "author": "dhamaniasad",
+        "description": "Rich Links plugin that allows you to convert URLs in your notes to rich link previews",
+        "repo": "dhamaniasad/obsidian-rich-links"
+    },
+    {
+        "id": "ObsidianAnkiSync",
+        "name": "Obsidian Anki Sync",
+        "author": "debanjandhar12",
+        "description": "Obsidian plugin to make flashcards and sync them to Anki.",
+        "repo": "debanjandhar12/Obsidian-Anki-Sync",
+        "branch": "main"
+    },
+    {
+        "id": "window-collapse",
+        "name": "Window Collapse",
+        "author": "Guilherme Quental",
+        "description": "This plugin provides an easy way to collapse the sidebars without going fullscreen.",
+        "repo": "gquental/obsidian-window-collapse"
+    },
+    {
+        "id": "tag-page-preview",
+        "name": "Tag Page Preview",
+        "author": "aidurber",
+        "description": "Clicking a tag opens a dialog listing pages that use that tag",
+        "repo": "aidurber/tag-page-preview"
+    },
+    {
+        "id": "obsidian-relative-find",
+        "name": "Relative Find",
+        "author": "phibr0",
+        "description": "This Plugin lets you search relative to your Cursor Position.",
+        "repo": "phibr0/obsidian-relative-find"
+    },
+    {
+        "id": "obsidian-image-toolkit",
+        "name": "Obsidian Image Toolkit",
+        "description": "When you click an image, it will be displayed in a popup layer and you can view, drag, zoom, rotate the image.",
+        "author": "sissilab",
+        "repo": "sissilab/obsidian-image-toolkit"
+    },
+    {
+        "id": "obsidian-shellcommands",
+        "name": "Shell commands",
+        "description": "You can predefine system commands that you want to run frequently, and assign hotkeys for them. For example open external applications.",
+        "author": "Jarkko Linnanvirta",
+        "repo": "Taitava/obsidian-shellcommands",
+        "branch": "main"
+    },
+    {
+        "id": "hover-external-link",
+        "name": "Hover External Link",
+        "description": "Hover on external links to see the destination URL.",
+        "author": "Jamie Brynes",
+        "repo": "jamiebrynes7/obsidian-hover-external-link"
+    },
+    {
+        "id": "obsidian-codemirror-options",
+        "name": "CodeMirror Options",
+        "author": "nothingislost",
+        "description": "Configure various CodeMirror options such as text selection behavior and syntax highlighting",
+        "repo": "nothingislost/obsidian-codemirror-options",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-code-block-enhancer",
+        "name": "Code Block Enhancer",
+        "description": "Enhance obsidian markdown code block,provides copy button,linenumber,language name tip and so on.",
+        "author": "hafuhafu",
+        "repo": "nyable/obsidian-code-block-enhancer"
+    },
+    {
+        "id": "obsidian-copy-block-link",
+        "name": "Copy Block Link",
+        "author": "mgmeyers",
+        "description": "Get links to blocks and headings from Obsidian's right click menu.",
+        "repo": "mgmeyers/obsidian-copy-block-link",
+        "branch": "main"
+    },
+    {
+        "id": "drawio-obsidian",
+        "name": "Diagrams",
+        "description": "Create and edit Draw.io diagrams in obsidian",
+        "author": "Sam Greenhalgh",
+        "repo": "zapthedingbat/drawio-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-vim-im-switch-plugin",
+        "name": "Vim Input Method Switch",
+        "description": "Switch input method with fcitx-remote when Vim keymap is enabled.",
+        "author": "yuanotes",
+        "repo": "yuanotes/obsidian-vim-im-switch-plugin"
+    },
+    {
+        "id": "luhman",
+        "name": "Luhman",
+        "author": "Dylan Elliott",
+        "description": "Commands for handling a zettelkasten with Luhman-style IDs as filenames",
+        "repo": "Dyldog/luhman-obsidian-plugin"
+    },
+    {
+        "id": "obsidian-daily-named-folder",
+        "name": "Daily Named Folder",
+        "author": "Nemo Andrea",
+        "description": "Like daily notes, but nested in a daily folder with a oneline summary. Better for attachment management & glanceability.",
+        "repo": "nemoandrea/obsidian-daily-named-folder"
+    },
+    {
+        "id": "obsidian-trello",
+        "name": "Obsidian Trello",
+        "description": "Connect Trello cards to Obsidian notes.",
+        "author": "OfficerHalf",
+        "repo": "OfficerHalf/obsidian-trello",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-annotator",
+        "name": "Annotator",
+        "description": "A plugin for reading and annotating PDFs and EPUBs in obsidian.",
+        "author": "Elias Sundqvist",
+        "repo": "elias-sundqvist/obsidian-annotator"
+    },
+    {
+        "id": "customjs",
+        "name": "CustomJS",
+        "author": "Sam Lewis",
+        "description": "Reuse custom javascript across desktop and mobile.",
+        "repo": "samlewis0602/obsidian-custom-js"
+    },
+    {
+        "id": "random-structural-diary-plugin",
+        "name": "Random Structural Diary",
+        "description": "This is a plugin for picking random questions from prepared question list. It allows you answer on different questions each time.",
+        "author": "Timur Sidoriuk",
+        "repo": "ShockThunder/RandomStructuralDiary"
+    },
+    {
+        "id": "obsidian-file-link",
+        "name": "Obsidian File Link",
+        "description": "This plugin lets you create simple file links in your notes.",
+        "author": "Marc Julian Schwarz",
+        "repo": "marcjulianschwarz/obsidian-file-link"
+    },
+    {
+        "id": "quick-explorer",
+        "name": "Quick Explorer",
+        "description": "Perform file explorer operations (and see your current file path) from the title bar, using the mouse or keyboard",
+        "author": "PJ Eby",
+        "repo": "pjeby/quick-explorer"
     },
     {
         "id": "obsidian-banners",
