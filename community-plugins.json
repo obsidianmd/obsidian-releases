@@ -1316,7 +1316,7 @@
         "id": "oz-image-plugin",
         "name": "Ozan's Image in Editor Plugin",
         "author": "Ozan Tellioglu",
-        "description": "You can view images inside of the Editor as soon as you paste without a necessity to preview the note.",
+        "description": "View Images, Transclusions, iFrames and PDF Files within the Editor without a necessity to switch to Preview.",
         "repo": "ozntel/oz-image-in-editor-obsidian"
     },
     {
@@ -1752,9 +1752,9 @@
     },
     {
         "id": "copy-url-in-preview",
-        "name": "Copy URL in preview",
+        "name": "Copy Image and URL in Preview",
         "author": "NomarCub",
-        "description": "Copy URL context menu in preview mode",
+        "description": "Copy Image and Copy URL context menu in preview mode",
         "repo": "NomarCub/obsidian-copy-url-in-preview"
     },
     {
@@ -1812,7 +1812,7 @@
         "name": "Paste to Current Indentation",
         "author": "Jacob Levernier",
         "description": "This plugin allows pasting and marking text as block-quotes at any level of indentation.",
-        "repo": "publicus/obsidian-paste-to-current-indentation"
+        "repo": "jglev/obsidian-paste-to-current-indentation"
     },
     {
         "id": "obsimian-exporter",
@@ -1945,7 +1945,7 @@
         "name": "Apply Patterns",
         "author": "Jacob Levernier",
         "description": "Apply custom patterns of find-and-replace in succession to text.",
-        "repo": "publicus/obsidian-apply-patterns-plugin",
+        "repo": "jglev/obsidian-apply-patterns-plugin",
         "branch": "main"
     },
     {
@@ -2286,6 +2286,67 @@
         "author": "tillahoffmann",
         "description": "Run python code in Obsidian using jupyter.",
         "repo": "tillahoffmann/obsidian-jupyter"
+    },
+    {
+        "id": "obsidian-hackernews",
+        "name": "HackerNews",
+        "author": "arpitbbhayani",
+        "description": "Periodically fetches and displays top stories from HackerNews.",
+        "repo": "arpitbbhayani/obsidian-hackernews"
+    },
+    {
+        "id": "obsidian-reset-font-size",
+        "name": "Reset Font Size",
+        "author": "luckman212",
+        "description": "Adds button and command to reset the font size back to its default value.",
+        "repo": "luckman212/obsidian-reset-font-size",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-dynamic-toc",
+        "name": "Dynamic Table of Contents",
+        "author": "aidurber",
+        "description": "An Obsidian plugin to generate Tables of Contents that stay up to date with your document outline.",
+        "repo": "aidurber/obsidian-plugin-dynamic-toc",
+        "branch": "main"
+    },
+    {
+        "id": "podcast-note",
+        "name": "Podcast Note",
+        "author": "Marc Julian Schwarz",
+        "description": "Podcast Note lets you automatically add podcast information to your notes.",
+        "repo": "marcjulianschwarz/obsidian-podcast-note",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-stille",
+        "name": "Stille",
+        "author": "Michael Lee",
+        "description": "Focus on your writing, a section at a time.",
+        "repo": "michaellee/stille"
+    },
+    {
+        "id": "block-reference-count",
+        "name": "Block Reference Counts",
+        "description": "Creates a button with the number of references to a given block, link, or header. Clicking the button shows a table of references in your vault",
+        "author": "shabegom",
+        "repo": "shabegom/obsidian-reference-count"
+    },
+    {
+        "id": "obsidian-markmind",
+        "name": "Obsidian markmind",
+        "author": "Mark",
+        "description": "Mind map, outline and pdf annotate tool for Obsidian. (Closed Source)",
+        "repo": "MarkMindCkm/obsidian-markmind",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-carry-forward",
+        "name": "Carry-Forward",
+        "author": "Jacob Levernier",
+        "description": "Copy text from a note, linking back to its copied source, or copy a link to a note block.",
+        "repo": "jglev/obsidian-carry-forward",
+        "branch": "main"
     },
     {
         "id": "obsidian-task-archiver",
