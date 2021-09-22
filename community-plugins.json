@@ -1920,9 +1920,9 @@
     },
     {
         "id": "obsidian-pocket",
-        "name": "Pocket reading list integration",
+        "name": "Pocket integration",
         "author": "Nimalan Mahendran",
-        "description": "Access your Pocket list entries and create notes for them easily",
+        "description": "Access your Pocket reading list entries and create notes for them easily",
         "repo": "nybbles/obsidian-pocket"
     },
     {
@@ -2349,11 +2349,38 @@
         "branch": "main"
     },
     {
+        "id": "obsidian-task-archiver",
+        "name": "Obsidian Task Archiver",
+        "description": "Move completed tasks to an archive with a date tree",
+        "author": "ivan-lednev",
+        "repo": "ivan-lednev/obsidian-task-archiver"
+    },
+    {
+        "id": "obsidian-card-view-mode",
+        "name": "Card View Mode",
+        "description": "Enable to view your notes as cards.",
+        "author": "PADAone",
+        "repo": "yo-goto/obsidian-card-view-mode"
+    },
+    {
+        "id": "scales-chords",
+        "name": "Scales and Chords",
+        "description": "Capture musical tab notation in your Obsidian vault. Chords become clickable links to modal images (provided by scales-chords.com)",
+        "author": "egradman",
+        "repo": "egradman/scales-chords"
+    },
+    {
+        "id": "copy-note",
+        "name": "Enhance Copy Note",
+        "author": "kzhovn",
+        "description": "Augments native Obsidian note copying.",
+        "repo": "kzhovn/copy-command-obsidian"
+    },
+    {
         "id": "customizable-menu",
         "name": "Customizable Menu",
         "author": "kzhovn",
         "description": "Allows you to add any command to Obsidian's right-click menu.",
-        "repo": "kzhovn/obsidian-customizable-menu",
-        "branch": "main"
+        "repo": "kzhovn/obsidian-customizable-menu"
     }
 ]
