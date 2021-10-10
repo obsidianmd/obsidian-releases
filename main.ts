@@ -102,7 +102,7 @@ class SampleSettingTab extends PluginSettingTab {
 			.setDesc('It\'s a secret')
 			.addText(text => text
 				.setPlaceholder('Enter your secret')
-				.setValue('')
+				.setValue(this.plugin.settings.mySetting)
 				.onChange(async (value) => {
 					console.log('Secret: ' + value);
 					this.plugin.settings.mySetting = value;
