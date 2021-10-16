@@ -2008,7 +2008,7 @@
     {
         "id": "obsidian-linter",
         "name": "Linter",
-        "description": "This Obsidian plugin applies consistent styling to your markdown files.",
+        "description": "Formats and styles your notes.",
         "author": "Victor Tao",
         "repo": "platers/obsidian-linter"
     },
@@ -2503,18 +2503,18 @@
         "branch": "main"
     },
     {
-        "id": "linked-data-vocabularies",
-        "name": "Linked Data Vocabularies (SKOS)",
-        "description": "Use structured linked data as metadata in your notes.",
-        "author": "kometenstaub",
-        "repo": "kometenstaub/obsidian-linked-data-vocabularies"
-    },
-    {
         "id": "map-of-content",
         "name": "Map of Content",
         "description": "Automatically generate a Map of Content for your vault",
         "author": "Robin Haupt",
         "repo": "Robin-Haupt-1/Obsidian-Map-of-Content",
         "branch": "main"
+    },
+    {
+        "id": "obsidian-local-images",
+        "name": "Local images",
+        "description": "Local Images plugin finds all links to external images in your notes, then downloads and saves images locally, and finally adjusts the image links in your notes to point to the saved image files.",
+        "author": "catalysm, aleksey-rezvov",
+        "repo": "aleksey-rezvov/obsidian-local-images"
     }
 ]
