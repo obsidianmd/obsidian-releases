@@ -1,23 +1,20 @@
 {
-  "name": "obsidian-sample-plugin",
-  "version": "0.12.0",
-  "description": "This is a sample plugin for Obsidian (https://obsidian.md)",
-  "main": "main.js",
-  "scripts": {
-    "dev": "rollup --config rollup.config.js -w",
-    "build": "rollup --config rollup.config.js --environment BUILD:production"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "@rollup/plugin-commonjs": "^18.0.0",
-    "@rollup/plugin-node-resolve": "^11.2.1",
-    "@rollup/plugin-typescript": "^8.2.1",
-    "@types/node": "^14.14.37",
-    "obsidian": "^0.12.0",
-    "rollup": "^2.32.1",
-    "tslib": "^2.2.0",
-    "typescript": "^4.2.4"
-  }
+    "name": "obsidian-sample-plugin",
+    "version": "0.12.0",
+    "description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+    "main": "main.js",
+    "scripts": {
+        "dev": "esbuild main.ts --bundle --external:obsidian --outdir=.  --target=es2016 --format=cjs --sourcemap=inline --watch",
+        "build": "esbuild main.ts --bundle --external:obsidian --outdir=.  --target=es2016 --format=cjs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^16.11.1",
+        "esbuild": "0.13.8",
+        "obsidian": "^0.12.17",
+        "tslib": "2.3.1",
+        "typescript": "4.4.4"
+    }
 }
