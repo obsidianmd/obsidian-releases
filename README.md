@@ -1,6 +1,6 @@
 ## This repo is used to keep track of releases for Obsidian.
 
-Until Silver piggybacked the community themes onto it.
+Until Silver piggybacked the community themes onto it. And also community plugins. And then snippets.
 
 ## Community Plugins
 
