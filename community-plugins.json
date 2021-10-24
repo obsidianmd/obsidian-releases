@@ -1827,7 +1827,7 @@
         "name": "Find & Replace in Selection",
         "description": "Replace text within your current selection",
         "author": "TClark1011",
-        "repo":"TClark1011/obsidian-find-and-replace-in-selection",
+        "repo": "TClark1011/obsidian-find-and-replace-in-selection",
         "branch": "main"
     },
     {
@@ -1980,7 +1980,7 @@
     {
         "id": "obsidian-toggl-integration",
         "name": "Toggl Track Integration",
-        "description": "Add integration with the Toggl Track API to manage your timers inside Obsidian." ,
+        "description": "Add integration with the Toggl Track API to manage your timers inside Obsidian.",
         "author": "Maxime Cannoodt",
         "repo": "mcndt/obsidian-toggl-integration"
     },
@@ -2417,7 +2417,7 @@
         "id": "marginnote-companion",
         "name": "MarginNote Companion",
         "description": "An Obsidian plugin to bridge MarginNote 3 and Obsidian",
-        "author": "AidenLx",      
+        "author": "AidenLx",
         "repo": "aidenlx/marginnote-companion"
     },
     {
@@ -2516,6 +2516,169 @@
         "description": "Local Images plugin finds all links to external images in your notes, then downloads and saves images locally, and finally adjusts the image links in your notes to point to the saved image files.",
         "author": "catalysm, aleksey-rezvov",
         "repo": "aleksey-rezvov/obsidian-local-images"
+    },
+    {
+        "id": "obsidian-vocabulary-view",
+        "name": "Vocabulary View",
+        "description": "Write down some words with their explanations and preview them in a vocabulary test style",
+        "author": "nnshi-s",
+        "repo": "nnshi-s/obsidian-vocabulary-view-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian42-brat",
+        "name": "Obsidian42 - BRAT",
+        "description": "Easily install a beta version of a plugin for testing.",
+        "author": "TfTHacker",
+        "repo": "TfTHacker/obsidian42-brat",
+        "branch": "main"
+    },
+    {
+        "id": "snippet-commands-obsidian",
+        "name": "Snippet Commands",
+        "author": "death_au",
+        "description": "Registers custom css snippets as commands (which you can bind hotkeys to)",
+        "repo": "deathau/snippet-commands-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-javascript-init",
+        "name": "JavaScript Init",
+        "description": "Run JavaScript when Obsidian loads, or any other time.",
+        "author": "ryanpcmcquen",
+        "repo": "ryanpcmcquen/obsidian-javascript-init"
+    },
+    {
+        "id": "key-promoter",
+        "name": "Key Promoter",
+        "description": "Learn keyboard shortcuts by showing them when using the mouse",
+        "author": "Johannes Theiner",
+        "repo": "joethei/obsidian-key-promoter"
+    },
+    {
+        "id": "obsidian-livesync",
+        "name": "Obsidian Live sync",
+        "author": "vorotamoroz",
+        "description": "Reflect your vault changes to some other devices immediately. Please make sure to disable other synchronize solutions to avoid content corruption or duplication.",
+        "repo": "vrtmrz/obsidian-livesync",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-plotly",
+        "name": "Plotly",
+        "author": "Dmitriy Shulha",
+        "description": "With this plugin you can embed Plotly charts in your notes.",
+        "repo": "Dmitriy-Shulha/obsidian-plotly"
+    },
+    {
+        "id": "obsidian-wikipedia",
+        "name": "Wikipedia",
+        "description": "Get the first section of Wikipedia for a note title or search term.",
+        "author": "Jonathan Miller",
+        "repo": "jmilldotdev/obsidian-wikipedia"
+    },
+    {
+        "id": "obsidian-vale",
+        "name": "Vale",
+        "description": "Check your document for style consistency using Vale.",
+        "author": "Marcus Olsson",
+        "repo": "marcusolsson/obsidian-vale",
+        "branch": "main"
+    },
+    {
+        "id": "lumberjack-obsidian",
+        "name": "Lumberjack 🪓🪵",
+        "description": "Log your thoughts! Lumberjack adds URL commands to help you axe inefficiency and get right to writing.",
+        "author": "ryanjamurphy",
+        "repo": "ryanjamurphy/lumberjack-obsidian"
+    },
+    {
+        "id": "obsidian-link-converter",
+        "name": "Obsidian Link Converter",
+        "description": "Scan all your links in the vault and convert them to your desired format.",
+        "author": "Ozan Tellioglu",
+        "repo": "ozntel/obsidian-link-converter",
+        "branch": "main"
+    },
+    {
+        "id": "mysnippets-plugin",
+        "name": "MySnippets",
+        "description": "MySnippets is a plugin that adds a status bar menu allowing the user to quickly toggle their snippets on and off 🖌.",
+        "author": "Chetachi",
+        "repo": "chetachiezikeuzor/MySnippets-Plugin"
+    },
+    {
+        "id": "obsidian-hypothesis-plugin",
+        "name": "Hypothesis Highlights",
+        "description": "Sync your Hypothesis highlights",
+        "author": "weichenw",
+        "repo": "weichenw/obsidian-hypothesis-plugin"
+    },
+    {
+        "id": "obsidian-another-quick-switcher",
+        "name": "Another Quick Switcher",
+        "author": "tadashi-aikawa",
+        "description": "This is an Obsidian plugin which is another choice of Quick switcher.",
+        "repo": "tadashi-aikawa/obsidian-another-quick-switcher"
+    },
+    {
+        "id": "link-headers-directly",
+        "name": "Link Headers Directly",
+        "description": "When a header is linked, preview mode will show only the header, and not the note name.",
+        "author": "Signynt",
+        "repo": "Signynt/link-headers-directly"
+    },
+    {
+        "id": "meld-calc",
+        "name": "Meld Calc",
+        "description": "Do math! Evaluate math expressions within your notes.",
+        "author": "meld-cp",
+        "repo": "meld-cp/obsidian-calc",
+        "branch": "main"
+    },
+    {
+        "id": "tabout",
+        "name": "Tabout",
+        "author": "phibr0",
+        "description": "Easily 'tab out' of Links or other Markdown Formatting Characters.",
+        "repo": "phibr0/obsidian-tabout"
+    },
+    {
+        "id": "obsidian-pipe-tricks",
+        "name": "Pipe tricks",
+        "description": "Add support for Wikilink pipe tricks.",
+        "author": "Marcus Olsson",
+        "repo": "marcusolsson/obsidian-pipe-tricks",
+        "branch": "main"
+    },
+    {
+        "id": "fantasy-calendar",
+        "name": "Fantasy Calendar",
+        "description": "Fantasy calendars in Obsidian!",
+        "author": "Jeremy Valentine",
+        "repo": "valentine195/obsidian-fantasy-calendar"
+    },
+    {
+        "id": "obsidian-pikt",
+        "name": "Pikt",
+        "description": "An obsidian plugin to render pikchr codeblocks ",
+        "author": "Arnau Siches",
+        "repo": "arnau/obsidian-pikt",
+        "branch": "main"
+    },
+    {
+        "id": "improved-vimcursor",
+        "name": "Improved VimCursor",
+        "author": "hhhapz",
+        "description": "An improved experience with the cursor in obsidian",
+        "repo": "hhhapz/improved-obsidian-vimcursor"
+    },
+    {
+        "id": "quote-of-the-day",
+        "name": "Quote of the Day",
+        "description": "Inserts random quotes in the editor",
+        "author": "Florin Bobis",
+        "repo": "twentytwokhz/quote-of-the-day"
     },
     {
         "id": "obsidian-limelight",
