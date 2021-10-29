@@ -4,9 +4,9 @@ on:
   pull_request:
     branches:
       - "master"
-    paths:
-      - 'community-plugins.json'
-      - '.github/scripts/validatePlugin.mjs'
+    # Add this later on
+    # paths:
+    #   - 'community-plugins.json'
 
 jobs:
   lint-json:
