@@ -12,9 +12,11 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^16.11.1",
-		"esbuild": "0.13.8",
+		"esbuild": "0.13.11",
 		"obsidian": "^0.12.17",
 		"tslib": "2.3.1",
-		"typescript": "4.4.4"
+		"typescript": "4.4.4",
+		"@typescript-eslint/eslint-plugin": "^5.2.0",
+		"@typescript-eslint/parser": "^5.2.0"
 	}
 }
