@@ -25,9 +25,19 @@ jobs:
             const plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
             const plugin = plugins[plugins.length - 1];
 
-            let reply = `### Hello ${plugin.author}! <a href="https://obsidian.md"><img align="right" height="30px" src="https://user-images.githubusercontent.com/59741989/139557624-63e6e31f-e617-4041-89ae-78b534a8de5c.png"/></a>\n**I found the following Errors in your Plugin, ${plugin.name}:**\n\n`;
+            const errors = [];
+            const addError = (error) => {
+              errors.push(`:x: ${error}\n`)
+            }
+            const generateMessage = () => {
+              let reply = `### Hello ${plugin.author}! <a href="https://obsidian.md"><img align="right" height="30px" src="https://user-images.githubusercontent.com/59741989/139557624-63e6e31f-e617-4041-89ae-78b534a8de5c.png"/></a>\n**I found the following Errors in your Plugin, ${plugin.name}:**\n\n`;
+              errors.forEach((e) => reply += e);
+              reply += `\n---\n<sup>This check was done automatically and might not be correct. If something went wrong, please ping \`@phibr0\`.`;
+              return reply;
+            }
+            
             if (context.payload.pull_request.changed_files > 1) {
-                reply += `:x: You modified other Files.\n`
+                addError('You modified other Files.');
             }
 
             await axios.get(`https://api.github.com/repos/${plugin.repo}`)
@@ -35,27 +45,27 @@ jobs:
                 await axios.get(`https://api.github.com/repos/${plugin.repo}/releases`)
                   .then(async (releases) => {
                     if(!releases.data[0].assets.find(p => p.name == "main.js")) {
-                      reply += 'Your latest Release is missing the `main.js` File.\n';
+                      addError('Your latest Release is missing the `main.js` File.');
                     }
                     if(!releases.data[0].assets.find(p => p.name == "manifest.json")) {
-                      reply += ':x: Your latest Release is missing the `manifest.json` File.\n';
+                      addError('Your latest Release is missing the `manifest.json` File.');
                     }
                     await axios.get(`https://raw.githubusercontent.com/${plugin.repo}/${plugin.branch ? plugin.branch : 'master'}/manifest.json`)
                       .then((value) => {
                           if(value.data.id != plugin.id) {
-                            reply += ':x: Plugin ID mismatch, the ID in this Repo is not the same as the one in your Repo.\n';
+                            addError('Plugin ID mismatch, the ID in this Repo is not the same as the one in your Repo.');
                           }
                         })
-                      .catch((error) => reply += `:x: You don't have a \`manifest.json\` at the root of your Repo.\n<details><summary>Log</summary><pre>${error}</pre></details>\n`);
+                      .catch((error) => addError(`You don't have a \`manifest.json\` at the root of your Repo.\n<details><summary>Log</summary><pre>${error}</pre></details>`));
                   });
               })
-              .catch((error) => reply += `:x: It seems like you made a typo in the repository field.\n<details><summary>Log</summary><pre>${error}</pre></details>\n`);
+              .catch((error) => addError(`It seems like you made a typo in the repository field.\n<details><summary>Log</summary><pre>${error}</pre></details>`));
 
-            reply += `\n---\n<sup>This check was done automatically and might not be correct. If something went wrong, please ping \`@phibr0\`.`;
-
-            await github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: reply
-            });
+            if(errors.length > 0) {
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: generateMessage()
+              });
+            }
