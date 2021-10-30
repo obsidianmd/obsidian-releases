@@ -1,0 +1,61 @@
+name: Plugin Validation
+
+on:
+  pull_request:
+    branches:
+      - "master"
+    paths:
+      - 'community-plugins.json'
+
+jobs:
+  plugin-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - run: npm install axios
+      - uses: actions/github-script@v5
+        with:
+          script: |
+            const fs = require('fs');
+            const axios = require('axios');
+            const author = context.payload.sender.login
+            const plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
+            const plugin = plugins[plugins.length - 1];
+
+            let reply = `### Hello ${plugin.author}! <a href="https://obsidian.md"><img align="right" height="30px" src="https://user-images.githubusercontent.com/59741989/139557624-63e6e31f-e617-4041-89ae-78b534a8de5c.png"/></a>\n**I found the following Errors in your Plugin, ${plugin.name}:**\n\n`;
+            if (context.payload.pull_request.changed_files > 1) {
+                reply += `:x: You modified other Files.\n`
+            }
+
+            await axios.get(`https://api.github.com/repos/${plugin.repo}`)
+              .then(async () => {
+                await axios.get(`https://api.github.com/repos/${plugin.repo}/releases`)
+                  .then(async (releases) => {
+                    if(!releases.data[0].assets.find(p => p.name == "main.js")) {
+                      reply += 'Your latest Release is missing the `main.js` File.\n';
+                    }
+                    if(!releases.data[0].assets.find(p => p.name == "manifest.json")) {
+                      reply += ':x: Your latest Release is missing the `manifest.json` File.\n';
+                    }
+                    await axios.get(`https://raw.githubusercontent.com/${plugin.repo}/${plugin.branch ? plugin.branch : 'master'}/manifest.json`)
+                      .then((value) => {
+                          if(value.data.id != plugin.id) {
+                            reply += ':x: Plugin ID mismatch, the ID in this Repo is not the same as the one in your Repo.\n';
+                          }
+                        })
+                      .catch((error) => reply += `:x: You don't have a \`manifest.json\` at the root of your Repo.\n<details><summary>Log</summary><pre>${error}</pre></details>\n`);
+                  });
+              })
+              .catch((error) => reply += `:x: It seems like you made a typo in the repository field.\n<details><summary>Log</summary><pre>${error}</pre></details>\n`);
+
+            reply += `\n---\n<sup>This check was done automatically and might not be correct. If something went wrong, please ping \`@phibr0\`.`;
+
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: reply
+            });
