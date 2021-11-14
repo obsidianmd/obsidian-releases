@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "nldates-obsidian",
         "name": "Natural Language Dates",
         "author": "Argentina Ortega Sainz",
@@ -1109,13 +1108,6 @@
         "author": "Sam Morrison",
         "repo": "shabegom/buttons",
         "branch": "main"
-    },
-    {
-        "id": "todo-txt",
-        "name": "Todo.txt support",
-        "description": "Native support for todo.txt files",
-        "author": "Stephen Solka",
-        "repo": "trashhalo/obsidian-todo-txt"
     },
     {
         "id": "obsidian-admonition",
@@ -2557,9 +2549,9 @@
     },
     {
         "id": "obsidian-livesync",
-        "name": "Obsidian Live sync",
+        "name": "Self-hosted LiveSync",
         "author": "vorotamoroz",
-        "description": "Reflect your vault changes to some other devices immediately. Please make sure to disable other synchronize solutions to avoid content corruption or duplication.",
+        "description": "Community implementation of self-hosted livesync. Reflect your vault changes to some other devices immediately. Please make sure to disable other synchronize solutions to avoid content corruption or duplication.",
         "repo": "vrtmrz/obsidian-livesync",
         "branch": "main"
     },
@@ -2738,6 +2730,87 @@
         "description": "Translate code blocks into simple English using Machine Learning with the Stenography API",
         "author": "bramses",
         "repo": "bramses/stenography-obsidian"
+    },
+    {
+        "id": "obsidian-webhooks",
+        "name": "Obsidian Webhooks",
+        "author": "Stephen Solka",
+        "description": "Plugin and service that connects your editor to the internet of things through webhooks.",
+        "repo": "trashhalo/obsidian-webhooks"
+    },
+    {
+        "id": "obsidian-tweet-to-markdown",
+        "name": "Tweet to Markdown",
+        "description": "Save tweets as Markdown files, along with their images, polls, etc.",
+        "author": "kbravh",
+        "repo": "kbravh/obsidian-tweet-to-markdown",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-habitica-integration",
+        "name": "Habitica Sync",
+        "description": "This plugin helps integrate Habitica user tasks and stats into Obsidian",
+        "author": "Leoh and Ran",
+        "repo": "SuperChamp234/habitica-sync",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-oura-plugin",
+        "name": "Oura Plugin for Obsidian",
+        "description": "A plugin for importing oura ring data into a note",
+        "author": "Andrew Lombardi",
+        "repo": "kinabalu/obsidian-oura-plugin"
+    },
+    {
+        "id": "obsidian-metacopy",
+        "name": "Metacopy",
+        "description": "Copy the value of a frontmatter key.",
+        "author": "Mara",
+        "repo": "Mara-Li/obsidian-metacopy"
+    },
+    {
+        "id": "obsidian-image-caption",
+        "name": "Image Caption",
+        "description": "Add caption to images.",
+        "author": "bicarlsen",
+        "repo": "bicarlsen/obsidian_image_caption",
+        "branch": "main"
+    }, 
+    {
+        "id": "graph-analysis",
+        "name": "Graph Analysis",
+        "description": "Find hidden connections between notes in your vault using cool graph algorithms",
+        "author": "SkepticMystic & Emile",
+        "repo": "SkepticMystic/graph-analysis"
+    },
+    {
+        "id": "obsidian-custom-attachment-location",
+        "name": "Custom Attachment Location",
+        "description": "Customize attachment location with variables($filename, $data, etc) like typora.",
+        "author": "RainCat1998",
+        "repo": "RainCat1998/obsidian-custom-attachment-location"
+    },
+    {
+        "id": "cryptsidian",
+        "name": "Cryptsidian",
+        "description": "Encrypt all files in your Obsidian Vault with a password.",
+        "author": "triumphantomato",
+        "repo": "triumphantomato/cryptsidian",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-crypto-lookup",
+        "name": "Crypto Lookup for Obsidian",
+        "description": "A plugin for Obsidian which uses the Cryptonator API to pull back prices for crypto in a target currency",
+        "author": "Andrew Lombardi",
+        "repo": "kinabalu/obsidian-crypto-lookup"
+    },
+    {
+        "id": "copy-as-latex",
+        "name": "Copy as Latex",
+        "description": "Plugin to quickly copy markdown as Latex, with citations",
+        "author": "mo-seph",
+        "repo": "mo-seph/obsidian-copy-as-latex"
     },
     {
         "id": "obsidian-auto-split",
