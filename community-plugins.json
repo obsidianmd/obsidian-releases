@@ -1110,13 +1110,6 @@
         "branch": "main"
     },
     {
-        "id": "todo-txt",
-        "name": "Todo.txt support",
-        "description": "Native support for todo.txt files",
-        "author": "Stephen Solka",
-        "repo": "trashhalo/obsidian-todo-txt"
-    },
-    {
         "id": "obsidian-admonition",
         "name": "Admonition",
         "description": "Admonition block-styled content for Obsidian.md",
@@ -2556,9 +2549,9 @@
     },
     {
         "id": "obsidian-livesync",
-        "name": "Obsidian Live sync",
+        "name": "Self-hosted LiveSync",
         "author": "vorotamoroz",
-        "description": "Reflect your vault changes to some other devices immediately. Please make sure to disable other synchronize solutions to avoid content corruption or duplication.",
+        "description": "Community implementation of self-hosted livesync. Reflect your vault changes to some other devices immediately. Please make sure to disable other synchronize solutions to avoid content corruption or duplication.",
         "repo": "vrtmrz/obsidian-livesync",
         "branch": "main"
     },
@@ -2806,10 +2799,31 @@
         "branch": "main"
     },
     {
+        "id": "obsidian-crypto-lookup",
+        "name": "Crypto Lookup for Obsidian",
+        "description": "A plugin for Obsidian which uses the Cryptonator API to pull back prices for crypto in a target currency",
+        "author": "Andrew Lombardi",
+        "repo": "kinabalu/obsidian-crypto-lookup"
+    },
+    {
+        "id": "copy-as-latex",
+        "name": "Copy as Latex",
+        "description": "Plugin to quickly copy markdown as Latex, with citations",
+        "author": "mo-seph",
+        "repo": "mo-seph/obsidian-copy-as-latex"
+    },
+    {
+        "id": "obsidian-auto-split",
+        "name": "Auto Split",
+        "description": "Open notes with split editor & preview",
+        "author": "James Sartelle",
+        "repo": "jsartelle/obsidian-auto-split"
+    },
+    {
         "id": "obsidian-word-sprint",
         "name": "Word Sprint for Obsidian",
         "description": "Word Sprint for Obsidian plugin for your writing projects like Nanowrimo",
         "author": "Andrew Lombardi",
         "repo": "kinabalu/obsidian-word-sprint"
-    }    
+    }
 ]
