@@ -1,4 +1,3 @@
-<!--- Delete this section if submitting a theme -->
 # I am submitting a new Community Plugin
 
 ## Repo URL
@@ -13,8 +12,6 @@ Link to my plugin:
   - [ ]  Linux
   - [ ]  Android _(if applicable)_
   - [ ]  iOS _(if applicable)_
-
-<!--- Confirm that you have done the following before submitting your plugin -->
 - [ ] My GitHub release contains all required files
   - [ ] `main.js`
   - [ ] `manifest.json`
