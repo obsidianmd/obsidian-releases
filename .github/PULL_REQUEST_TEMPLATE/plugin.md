@@ -7,10 +7,14 @@
 Link to my plugin:
 
 ## Release Checklist
+- [ ] I have tested the plugin on
+  - [ ]  Windows
+  - [ ]  macOS
+  - [ ]  Linux
+  - [ ]  Android _(if applicable)_
+  - [ ]  iOS _(if applicable)_
 
 <!--- Confirm that you have done the following before submitting your plugin -->
-- [ ] I have tested this on Windows, macOS, and Linux _(if applicable)_
-- [ ] I have tested this on Android and iOS _(if applicable)_
 - [ ] My GitHub release contains all required files
   - [ ] `main.js`
   - [ ] `manifest.json`
