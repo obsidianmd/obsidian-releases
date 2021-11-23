@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "nldates-obsidian",
         "name": "Natural Language Dates",
         "author": "Argentina Ortega Sainz",
@@ -540,7 +539,7 @@
         "id": "obsidian-charts",
         "name": "Obsidian Charts",
         "author": "phibr0",
-        "description": "This Plugin lets you create Charts with Chartist as its backend!",
+        "description": "This Plugin lets you easily create Charts within Obsidian!",
         "repo": "phibr0/obsidian-charts"
     },
     {
@@ -1109,13 +1108,6 @@
         "author": "Sam Morrison",
         "repo": "shabegom/buttons",
         "branch": "main"
-    },
-    {
-        "id": "todo-txt",
-        "name": "Todo.txt support",
-        "description": "Native support for todo.txt files",
-        "author": "Stephen Solka",
-        "repo": "trashhalo/obsidian-todo-txt"
     },
     {
         "id": "obsidian-admonition",
@@ -2446,7 +2438,7 @@
         "id": "obsidian-editor-shortcuts",
         "name": "Code Editor Shortcuts",
         "author": "Tim Hor",
-        "description": "Add keyboard shortcuts (hotkeys) commonly found in code editors such as Visual Studio Code or Sublime Text",
+        "description": "Add keyboard shortcuts (hotkeys) commonly found in code editors such as Visual Studio Code (vscode) or Sublime Text",
         "repo": "timhor/obsidian-editor-shortcuts"
     },
     {
@@ -2557,9 +2549,9 @@
     },
     {
         "id": "obsidian-livesync",
-        "name": "Obsidian Live sync",
+        "name": "Self-hosted LiveSync",
         "author": "vorotamoroz",
-        "description": "Reflect your vault changes to some other devices immediately. Please make sure to disable other synchronize solutions to avoid content corruption or duplication.",
+        "description": "Community implementation of self-hosted livesync. Reflect your vault changes to some other devices immediately. Please make sure to disable other synchronize solutions to avoid content corruption or duplication.",
         "repo": "vrtmrz/obsidian-livesync",
         "branch": "main"
     },
@@ -2620,6 +2612,294 @@
         "author": "tadashi-aikawa",
         "description": "This is an Obsidian plugin which is another choice of Quick switcher.",
         "repo": "tadashi-aikawa/obsidian-another-quick-switcher"
+    },
+    {
+        "id": "link-headers-directly",
+        "name": "Link Headers Directly",
+        "description": "When a header is linked, preview mode will show only the header, and not the note name.",
+        "author": "Signynt",
+        "repo": "Signynt/link-headers-directly"
+    },
+    {
+        "id": "meld-calc",
+        "name": "Meld Calc",
+        "description": "Do math! Evaluate math expressions within your notes.",
+        "author": "meld-cp",
+        "repo": "meld-cp/obsidian-calc",
+        "branch": "main"
+    },
+    {
+        "id": "tabout",
+        "name": "Tabout",
+        "author": "phibr0",
+        "description": "Easily 'tab out' of Links or other Markdown Formatting Characters.",
+        "repo": "phibr0/obsidian-tabout"
+    },
+    {
+        "id": "obsidian-pipe-tricks",
+        "name": "Pipe tricks",
+        "description": "Add support for Wikilink pipe tricks.",
+        "author": "Marcus Olsson",
+        "repo": "marcusolsson/obsidian-pipe-tricks",
+        "branch": "main"
+    },
+    {
+        "id": "fantasy-calendar",
+        "name": "Fantasy Calendar",
+        "description": "Fantasy calendars in Obsidian!",
+        "author": "Jeremy Valentine",
+        "repo": "valentine195/obsidian-fantasy-calendar"
+    },
+    {
+        "id": "obsidian-pikt",
+        "name": "Pikt",
+        "description": "An obsidian plugin to render pikchr codeblocks ",
+        "author": "Arnau Siches",
+        "repo": "arnau/obsidian-pikt",
+        "branch": "main"
+    },
+    {
+        "id": "improved-vimcursor",
+        "name": "Improved VimCursor",
+        "author": "hhhapz",
+        "description": "An improved experience with the cursor in obsidian",
+        "repo": "hhhapz/improved-obsidian-vimcursor"
+    },
+    {
+        "id": "quote-of-the-day",
+        "name": "Quote of the Day",
+        "description": "Inserts random quotes in the editor",
+        "author": "Florin Bobis",
+        "repo": "twentytwokhz/quote-of-the-day"
+    },
+    {
+        "id": "obsidian-audio-speed-plugin",
+        "name": "Audio Speed Plugin",
+        "description": "Change the playback rate of audio files during markdown preview.",
+        "author": "kaizau",
+        "repo": "kaizau/obsidian-audio-speed-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-limelight",
+        "name": "Limelight",
+        "description": "Spotlight your active pane",
+        "author": "Scott Mikula",
+        "repo": "smikula/obsidian-limelight"
+    },
+    {
+        "id": "prompt",
+        "name": "Prompt",
+        "author": "Hung-Su Nguyen",
+        "description": "Show inspirational prompts, from a prompt file in your vault.",
+        "repo": "hungsu/obsidian-prompt"
+    },
+    {
+        "id": "obsidian-link-archive",
+        "name": "Link Archive",
+        "author": "Tamás Deme",
+        "description": "This plugin archives links in your note so they're available to you even if the original site goes down or gets removed.",
+        "repo": "tomzorz/obsidian-link-archive"
+    },
+    {
+        "id": "obsidian-chess",
+        "name": "Obsidian Chess",
+        "author": "pmorim",
+        "description": "All you need to create your Chess related notes",
+        "repo": "pmorim/obsidian-chess",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-html-tags-autocomplete",
+        "name": "HTML Tags Autocomplete",
+        "description": "Automatically add closing HTML tags.",
+        "author": "bicarlsen",
+        "repo": "bicarlsen/obsidian_html_tags_autocomplete",
+        "branch": "main"
+    },
+    {
+        "id": "advanced-cursors",
+        "name": "Advanced Cursors",
+        "description": "Use multiple cursors even more powerfully.",
+        "author": "SkepticMystic",
+        "repo": "SkepticMystic/advanced-cursors"
+    },
+    {
+        "id": "stenography-obsidian",
+        "name": "Stenography",
+        "description": "Translate code blocks into simple English using Machine Learning with the Stenography API",
+        "author": "bramses",
+        "repo": "bramses/stenography-obsidian"
+    },
+    {
+        "id": "obsidian-webhooks",
+        "name": "Obsidian Webhooks",
+        "author": "Stephen Solka",
+        "description": "Plugin and service that connects your editor to the internet of things through webhooks.",
+        "repo": "trashhalo/obsidian-webhooks"
+    },
+    {
+        "id": "obsidian-tweet-to-markdown",
+        "name": "Tweet to Markdown",
+        "description": "Save tweets as Markdown files, along with their images, polls, etc.",
+        "author": "kbravh",
+        "repo": "kbravh/obsidian-tweet-to-markdown",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-habitica-integration",
+        "name": "Habitica Sync",
+        "description": "This plugin helps integrate Habitica user tasks and stats into Obsidian",
+        "author": "Leoh and Ran",
+        "repo": "SuperChamp234/habitica-sync",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-oura-plugin",
+        "name": "Oura Plugin for Obsidian",
+        "description": "A plugin for importing oura ring data into a note",
+        "author": "Andrew Lombardi",
+        "repo": "kinabalu/obsidian-oura-plugin"
+    },
+    {
+        "id": "obsidian-metacopy",
+        "name": "Metacopy",
+        "description": "Copy the value of a frontmatter key.",
+        "author": "Mara",
+        "repo": "Mara-Li/obsidian-metacopy"
+    },
+    {
+        "id": "obsidian-image-caption",
+        "name": "Image Caption",
+        "description": "Add caption to images.",
+        "author": "bicarlsen",
+        "repo": "bicarlsen/obsidian_image_caption",
+        "branch": "main"
+    },
+    {
+        "id": "graph-analysis",
+        "name": "Graph Analysis",
+        "description": "Find hidden connections between notes in your vault using cool graph algorithms",
+        "author": "SkepticMystic & Emile",
+        "repo": "SkepticMystic/graph-analysis"
+    },
+    {
+        "id": "obsidian-custom-attachment-location",
+        "name": "Custom Attachment Location",
+        "description": "Customize attachment location with variables($filename, $data, etc) like typora.",
+        "author": "RainCat1998",
+        "repo": "RainCat1998/obsidian-custom-attachment-location"
+    },
+    {
+        "id": "cryptsidian",
+        "name": "Cryptsidian",
+        "description": "Encrypt all files in your Obsidian Vault with a password.",
+        "author": "triumphantomato",
+        "repo": "triumphantomato/cryptsidian",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-crypto-lookup",
+        "name": "Crypto Lookup for Obsidian",
+        "description": "A plugin for Obsidian which uses the Cryptonator API to pull back prices for crypto in a target currency",
+        "author": "Andrew Lombardi",
+        "repo": "kinabalu/obsidian-crypto-lookup"
+    },
+    {
+        "id": "copy-as-latex",
+        "name": "Copy as Latex",
+        "description": "Plugin to quickly copy markdown as Latex, with citations",
+        "author": "mo-seph",
+        "repo": "mo-seph/obsidian-copy-as-latex"
+    },
+    {
+        "id": "obsidian-auto-split",
+        "name": "Auto Split",
+        "description": "Open notes with split editor & preview",
+        "author": "James Sartelle",
+        "repo": "jsartelle/obsidian-auto-split"
+    },
+    {
+        "id": "obsidian-word-sprint",
+        "name": "Word Sprint for Obsidian",
+        "description": "Word Sprint for Obsidian plugin for your writing projects like Nanowrimo",
+        "author": "Andrew Lombardi",
+        "repo": "kinabalu/obsidian-word-sprint"
+    },
+    {
+        "id": "copy-publish-url",
+        "name": "Copy Publish URL",
+        "description": "Copies the URL of the corresponding note on your Publish site to the clipboard.",
+        "author": "kometenstaub",
+        "repo": "kometenstaub/copy-publish-url",
+        "branch": "main"
+    },
+    {
+        "id": "card-board",
+        "name": "CardBoard",
+        "author": "roovo",
+        "description": "Display markdown tasks on kanban-style boards.",
+        "repo": "roovo/obsidian-card-board",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-bible-reference",
+        "name": "Bible Reference",
+        "description": "Taking Bible Study note in Obsidian.md application easily. Automatically suggesting Bible Verses as references.",
+        "author": "tim-hub",
+        "repo": "tim-hub/obsidian-bible-reference"
+    },
+    {
+        "id": "obsidian-sentence-navigator",
+        "name": "Sentence Navigator",
+        "author": "Tim Hor & Andrew Brown",
+        "description": "Manipulate sentences as a unit of movement",
+        "repo": "timhor/obsidian-sentence-navigator"
+    },
+    {
+        "id": "language-translator",
+        "name": "Language Translator",
+        "description": "An Obsidian plugin to translate selected text in the desired language.",
+        "author": "Florin Bobis",
+        "repo": "twentytwokhz/language-translator"
+    },
+    {
+        "id": "obsidian-extra-md-commands",
+        "name": "Extra Markdown Commands",
+        "description": "Adds various commands, e.g. for __bold__ or <cite>.",
+        "author": "pseudometa",
+        "repo": "chrisgrieser/obsidian-extra-md-commands"
+    },
+    {
+        "id": "customizable-page-header-buttons",
+        "name": "Customizable Page Header",
+        "description": "Add buttons for executing commands to the page header.",
+        "author": "kometenstaub",
+        "repo": "kometenstaub/customizable-page-header-buttons",
+        "branch": "main"
+    },
+    {
+        "id": "auto-class",
+        "name": "Auto Class",
+        "description": "Automatically apply CSS classes to markdown views based on a note's path.",
+        "author": "OfficerHalf",
+        "repo": "OfficerHalf/obsidian-auto-class",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-cloudinary-uploader",
+        "name": "Obsidian Cloudinary Uploader",
+        "author": "Jordan Handy",
+        "description": "Upload pasted images from your clipboard to Cloudinary",
+        "repo": "jordanhandy/obsidian-cloudinary-uploader",
+        "branch": "main"
+    },
+    {
+        "id": "rss-reader",
+        "name": "RSS Reader",
+        "description": "Read articles from RSS feeds and incorporate them into your notes",
+        "author": "Johannes Theiner",
+        "repo": "joethei/obsidian-rss"
     },
     {
         "id": "mousewheel-image-zoom",
