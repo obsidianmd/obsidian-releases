@@ -2,6 +2,8 @@
 
 This repo is used for keeping releases of Obsidian as well as our community plugins & themes directories. Obsidian is not open source software and this repo _DOES NOT_ contain the source code of Obsidian.
 
+This repo does not accept issues, if you have questions or issues with plugins, please go to their own repo to file them. If you have questions or issues about core Obsidian itself, please post them to our community: https://obsidian.md/community
+
 ## Submit your plugin or theme
 
 When opening a pull request, please switch to preview mode and select the option to go through our submission checklist. Submit your entry by following the convention in the JSON file and we will review your submission.
