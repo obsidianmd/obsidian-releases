@@ -1,8 +1,14 @@
-## This repo is used to keep track of releases for Obsidian.
+## About this repo
 
-Until Silver piggybacked the community themes onto it. And also community plugins. And then snippets.
+This repo is used for keeping releases of Obsidian as well as our community plugins & themes directories. Obsidian is not open source software and this repo _DOES NOT_ contain the source code of Obsidian.
 
-## Community Plugins
+## Submit your plugin or theme
+
+When opening a pull request, please switch to preview mode and select the option to go through our submission checklist. Submit your entry by following the convention in the JSON file and we will review your submission.
+
+Thanks for submitting your creations!
+
+### Community Plugins format
 
 To add your plugin to the list, make a pull request to the `community-plugins.json` file.
 The order of this list is not kept, please add your plugin to the end of the list.
