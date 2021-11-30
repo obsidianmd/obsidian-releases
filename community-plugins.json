@@ -520,14 +520,6 @@
         "repo": "garyng/obsidian-temple"
     },
     {
-        "id": "pdf-to-markdown-plugin",
-        "name": "PDF to Markdown",
-        "author": "Alexis Rondeau",
-        "description": "Save a PDF's text (headings, paragraphs, lists, etc.) to a Markdown file.",
-        "repo": "akaalias/obsidian-extract-pdf",
-        "branch": "main"
-    },
-    {
         "id": "obsidian-relative-line-numbers",
         "name": "Relative Line Numbers",
         "author": "Nadav Spiegelman",
@@ -1108,13 +1100,6 @@
         "author": "Sam Morrison",
         "repo": "shabegom/buttons",
         "branch": "main"
-    },
-    {
-        "id": "todo-txt",
-        "name": "Todo.txt support",
-        "description": "Native support for todo.txt files",
-        "author": "Stephen Solka",
-        "repo": "trashhalo/obsidian-todo-txt"
     },
     {
         "id": "obsidian-admonition",
@@ -2151,7 +2136,7 @@
         "id": "obsidian-codemirror-options",
         "name": "CodeMirror Options",
         "author": "nothingislost",
-        "description": "Configure various CodeMirror options such as text selection behavior and syntax highlighting",
+        "description": "Enhance Obsidian's desktop edit mode with features such as WYSIWYG / Live Preview, Syntax Highlighting, and more.",
         "repo": "nothingislost/obsidian-codemirror-options",
         "branch": "main"
     },
@@ -2445,7 +2430,7 @@
         "id": "obsidian-editor-shortcuts",
         "name": "Code Editor Shortcuts",
         "author": "Tim Hor",
-        "description": "Add keyboard shortcuts (hotkeys) commonly found in code editors such as Visual Studio Code or Sublime Text",
+        "description": "Add keyboard shortcuts (hotkeys) commonly found in code editors such as Visual Studio Code (vscode) or Sublime Text",
         "repo": "timhor/obsidian-editor-shortcuts"
     },
     {
@@ -2782,7 +2767,7 @@
         "author": "bicarlsen",
         "repo": "bicarlsen/obsidian_image_caption",
         "branch": "main"
-    }, 
+    },
     {
         "id": "graph-analysis",
         "name": "Graph Analysis",
@@ -2806,10 +2791,142 @@
         "branch": "main"
     },
     {
+        "id": "obsidian-crypto-lookup",
+        "name": "Crypto Lookup for Obsidian",
+        "description": "A plugin for Obsidian which uses the Cryptonator API to pull back prices for crypto in a target currency",
+        "author": "Andrew Lombardi",
+        "repo": "kinabalu/obsidian-crypto-lookup"
+    },
+    {
+        "id": "copy-as-latex",
+        "name": "Copy as Latex",
+        "description": "Plugin to quickly copy markdown as Latex, with citations",
+        "author": "mo-seph",
+        "repo": "mo-seph/obsidian-copy-as-latex"
+    },
+    {
+        "id": "obsidian-auto-split",
+        "name": "Auto Split",
+        "description": "Open notes with split editor & preview",
+        "author": "James Sartelle",
+        "repo": "jsartelle/obsidian-auto-split"
+    },
+    {
+        "id": "obsidian-word-sprint",
+        "name": "Word Sprint for Obsidian",
+        "description": "Word Sprint for Obsidian plugin for your writing projects like Nanowrimo",
+        "author": "Andrew Lombardi",
+        "repo": "kinabalu/obsidian-word-sprint"
+    },
+    {
+        "id": "copy-publish-url",
+        "name": "Copy Publish URL",
+        "description": "Copies the URL of the corresponding note on your Publish site to the clipboard.",
+        "author": "kometenstaub",
+        "repo": "kometenstaub/copy-publish-url",
+        "branch": "main"
+    },
+    {
+        "id": "card-board",
+        "name": "CardBoard",
+        "author": "roovo",
+        "description": "Display markdown tasks on kanban-style boards.",
+        "repo": "roovo/obsidian-card-board",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-bible-reference",
+        "name": "Bible Reference",
+        "description": "Taking Bible Study note in Obsidian.md application easily. Automatically suggesting Bible Verses as references.",
+        "author": "tim-hub",
+        "repo": "tim-hub/obsidian-bible-reference"
+    },
+    {
+        "id": "obsidian-sentence-navigator",
+        "name": "Sentence Navigator",
+        "author": "Tim Hor & Andrew Brown",
+        "description": "Manipulate sentences as a unit of movement",
+        "repo": "timhor/obsidian-sentence-navigator"
+    },
+    {
+        "id": "language-translator",
+        "name": "Language Translator",
+        "description": "An Obsidian plugin to translate selected text in the desired language.",
+        "author": "Florin Bobis",
+        "repo": "twentytwokhz/language-translator"
+    },
+    {
+        "id": "obsidian-extra-md-commands",
+        "name": "Extra Markdown Commands",
+        "description": "Adds various commands, e.g. for __bold__ or <cite>.",
+        "author": "pseudometa",
+        "repo": "chrisgrieser/obsidian-extra-md-commands"
+    },
+    {
+        "id": "customizable-page-header-buttons",
+        "name": "Customizable Page Header",
+        "description": "Add buttons for executing commands to the page header.",
+        "author": "kometenstaub",
+        "repo": "kometenstaub/customizable-page-header-buttons",
+        "branch": "main"
+    },
+    {
+        "id": "auto-class",
+        "name": "Auto Class",
+        "description": "Automatically apply CSS classes to markdown views based on a note's path.",
+        "author": "OfficerHalf",
+        "repo": "OfficerHalf/obsidian-auto-class",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-cloudinary-uploader",
+        "name": "Obsidian Cloudinary Uploader",
+        "author": "Jordan Handy",
+        "description": "Upload pasted images from your clipboard to Cloudinary",
+        "repo": "jordanhandy/obsidian-cloudinary-uploader",
+        "branch": "main"
+    },
+    {
+        "id": "rss-reader",
+        "name": "RSS Reader",
+        "description": "Read articles from RSS feeds and incorporate them into your notes",
+        "author": "Johannes Theiner",
+        "repo": "joethei/obsidian-rss"
+    },
+    {
+        "id": "mousewheel-image-zoom",
+        "name": "Mousewheel Image zoom",
+        "description": "This plugin enables you to increase/decrease the size of an image by scrolling",
+        "author": "Nico Jeske",
+        "repo": "nicojeske/mousewheel-image-zoom"
+    },
+    {
+        "id": "obsidian-flexible-pomo",
+        "name": "Flexible Pomodoro For Obsidian",
+        "description": "Adds a pomodoro timer to your status bar. This pomodoro has additional options such as early log and extend.",
+        "author": "grassbl8d",
+        "repo": "grassbl8d/flexible-pomo-obsidian"
+    },
+    {
+        "id": "obsidian-lineup-builder",
+        "name": "Lineup Builder",
+        "description": "Build football lineups in Obsidian.",
+        "author": "James Fallon",
+        "repo": "James-Fallon/obsidian-lineup-builder"
+    },
+    {
+        "id": "reveal-active-file-button",
+        "name": "Reveal Active File Button",
+        "description": "Add a button to the top of the File Explorer, to reveal the active file.",
+        "author": "Clare Macrae",
+        "repo": "claremacrae/reveal-active-file-button-plugin",
+        "branch": "main"
+    },
+    {
         "id": "obsidian-structured-plugin",
         "name": "Structured Plugin",
-        "description": "Structured plugin. Create hierarchy in notes using . ",
+        "description": "Structured plugin. Create hierarchy in notes using \".\"",
         "author": "dobrovolsky",
-        "repo": "dobrovolsky/obsidain-structure",
-   }
+        "repo": "dobrovolsky/obsidain-structure"
+    }
 ]
