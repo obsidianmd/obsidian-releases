@@ -520,14 +520,6 @@
         "repo": "garyng/obsidian-temple"
     },
     {
-        "id": "pdf-to-markdown-plugin",
-        "name": "PDF to Markdown",
-        "author": "Alexis Rondeau",
-        "description": "Save a PDF's text (headings, paragraphs, lists, etc.) to a Markdown file.",
-        "repo": "akaalias/obsidian-extract-pdf",
-        "branch": "main"
-    },
-    {
         "id": "obsidian-relative-line-numbers",
         "name": "Relative Line Numbers",
         "author": "Nadav Spiegelman",
@@ -2144,7 +2136,7 @@
         "id": "obsidian-codemirror-options",
         "name": "CodeMirror Options",
         "author": "nothingislost",
-        "description": "Configure various CodeMirror options such as text selection behavior and syntax highlighting",
+        "description": "Enhance Obsidian's desktop edit mode with features such as WYSIWYG / Live Preview, Syntax Highlighting, and more.",
         "repo": "nothingislost/obsidian-codemirror-options",
         "branch": "main"
     },
@@ -2902,10 +2894,46 @@
         "repo": "joethei/obsidian-rss"
     },
     {
-	"id": "obsidian-tressel",
-	"name": "Tressel Sync for Obsidian",
-	"description": "Official Tressel plugin to sync/export your tweets and threads into Obsidian",
-	"author": "Tressel",
-	"repo": "aseem-thakar/obsidian-tressel"
+        "id": "obsidian-tressel",
+        "name": "Tressel Sync for Obsidian",
+        "description": "Official Tressel plugin to sync/export your tweets and threads into Obsidian",
+        "author": "Tressel",
+        "repo": "aseem-thakar/obsidian-tressel"
+    },
+    {
+        "id": "mousewheel-image-zoom",
+        "name": "Mousewheel Image zoom",
+        "description": "This plugin enables you to increase/decrease the size of an image by scrolling",
+        "author": "Nico Jeske",
+        "repo": "nicojeske/mousewheel-image-zoom"
+    },
+    {
+        "id": "obsidian-flexible-pomo",
+        "name": "Flexible Pomodoro For Obsidian",
+        "description": "Adds a pomodoro timer to your status bar. This pomodoro has additional options such as early log and extend.",
+        "author": "grassbl8d",
+        "repo": "grassbl8d/flexible-pomo-obsidian"
+    },
+    {
+        "id": "obsidian-lineup-builder",
+        "name": "Lineup Builder",
+        "description": "Build football lineups in Obsidian.",
+        "author": "James Fallon",
+        "repo": "James-Fallon/obsidian-lineup-builder"
+    },
+    {
+        "id": "reveal-active-file-button",
+        "name": "Reveal Active File Button",
+        "description": "Add a button to the top of the File Explorer, to reveal the active file.",
+        "author": "Clare Macrae",
+        "repo": "claremacrae/reveal-active-file-button-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-structured-plugin",
+        "name": "Structured Plugin",
+        "description": "Structured plugin. Create hierarchy in notes using \".\"",
+        "author": "dobrovolsky",
+        "repo": "dobrovolsky/obsidain-structure"
     }
 ]
