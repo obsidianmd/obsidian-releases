@@ -1,6 +1,8 @@
 ## About this repo
 
-This repo is used for keeping releases of Obsidian as well as our community plugins & themes directories. Obsidian is not open source software and this repo _DOES NOT_ contain the source code of Obsidian.
+This repo is used for hosting public releases of Obsidian, as well as our community plugins & themes directories.
+
+Obsidian is not open source software and this repo _DOES NOT_ contain the source code of Obsidian. However, if you wish to contribute to Obsidian, you can easily do so with our extensive plugin system. A plugin guide can be found here: https://marcus.se.net/obsidian-plugin-docs/
 
 This repo does not accept issues, if you have questions or issues with plugins, please go to their own repo to file them. If you have questions or issues about core Obsidian itself, please post them to our community: https://obsidian.md/community
 
@@ -9,6 +11,8 @@ This repo does not accept issues, if you have questions or issues with plugins, 
 When opening a pull request, please switch to preview mode and select the option to go through our submission checklist. Submit your entry by following the convention in the JSON file and we will review your submission.
 
 Thanks for submitting your creations!
+
+You can find a detailed explanation for submitting your [plugin here](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/How+to+add+your+plugin+to+the+community+plugin+list) and your [theme here](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/How+to+add+your+theme+to+the+community+theme+store).
 
 ### Community Plugins format
 
