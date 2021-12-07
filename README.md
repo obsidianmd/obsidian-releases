@@ -12,6 +12,8 @@ When opening a pull request, please switch to preview mode and select the option
 
 Thanks for submitting your creations!
 
+You can find a detailed explanation for submitting your [plugin here](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/How+to+add+your+plugin+to+the+community+plugin+list) and your [theme here](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/How+to+add+your+theme+to+the+community+theme+store).
+
 ### Community Plugins format
 
 To add your plugin to the list, make a pull request to the `community-plugins.json` file.
