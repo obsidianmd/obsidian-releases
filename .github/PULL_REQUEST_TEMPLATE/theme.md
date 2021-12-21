@@ -15,6 +15,6 @@ Link to my theme:
   - [ ] The screenshot file.
 - [ ] I have indicated which modes (dark, light, or both) are compatible with my theme.
 - [ ] I have added a license in the LICENSE file.
-- [ ] My project respects and is compatible with the original license of any code from other themes that I use.
+- [ ] My project respects and is compatible with the original license of any code from other themes that I'm using.
       I have given proper attribution to these other themes in my `README.md`.
 - [ ] If my repo is not using the `master` branch, please indicate in `community-themes.json` with `"branch": "main"`.
