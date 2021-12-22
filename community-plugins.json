@@ -520,14 +520,6 @@
         "repo": "garyng/obsidian-temple"
     },
     {
-        "id": "pdf-to-markdown-plugin",
-        "name": "PDF to Markdown",
-        "author": "Alexis Rondeau",
-        "description": "Save a PDF's text (headings, paragraphs, lists, etc.) to a Markdown file.",
-        "repo": "akaalias/obsidian-extract-pdf",
-        "branch": "main"
-    },
-    {
         "id": "obsidian-relative-line-numbers",
         "name": "Relative Line Numbers",
         "author": "Nadav Spiegelman",
@@ -793,7 +785,7 @@
         "id": "various-complements",
         "name": "Various Complements",
         "author": "tadashi-aikawa",
-        "description": "This plugin enables you to complement input in markdown files",
+        "description": "This plugin enables you to complete words like the auto-completion of IDE",
         "repo": "tadashi-aikawa/obsidian-various-complements-plugin",
         "branch": "main"
     },
@@ -2144,7 +2136,7 @@
         "id": "obsidian-codemirror-options",
         "name": "CodeMirror Options",
         "author": "nothingislost",
-        "description": "Configure various CodeMirror options such as text selection behavior and syntax highlighting",
+        "description": "Enhance Obsidian's desktop edit mode with features such as WYSIWYG / Live Preview, Syntax Highlighting, and more.",
         "repo": "nothingislost/obsidian-codemirror-options",
         "branch": "main"
     },
@@ -2438,7 +2430,7 @@
         "id": "obsidian-editor-shortcuts",
         "name": "Code Editor Shortcuts",
         "author": "Tim Hor",
-        "description": "Add keyboard shortcuts (hotkeys) commonly found in code editors such as Visual Studio Code or Sublime Text",
+        "description": "Add keyboard shortcuts (hotkeys) commonly found in code editors such as Visual Studio Code (vscode) or Sublime Text",
         "repo": "timhor/obsidian-editor-shortcuts"
     },
     {
@@ -2775,7 +2767,7 @@
         "author": "bicarlsen",
         "repo": "bicarlsen/obsidian_image_caption",
         "branch": "main"
-    }, 
+    },
     {
         "id": "graph-analysis",
         "name": "Graph Analysis",
@@ -2804,6 +2796,285 @@
         "description": "A plugin for Obsidian which uses the Cryptonator API to pull back prices for crypto in a target currency",
         "author": "Andrew Lombardi",
         "repo": "kinabalu/obsidian-crypto-lookup"
+    },
+    {
+        "id": "copy-as-latex",
+        "name": "Copy as Latex",
+        "description": "Plugin to quickly copy markdown as Latex, with citations",
+        "author": "mo-seph",
+        "repo": "mo-seph/obsidian-copy-as-latex"
+    },
+    {
+        "id": "obsidian-auto-split",
+        "name": "Auto Split",
+        "description": "Open notes with split editor & preview",
+        "author": "James Sartelle",
+        "repo": "jsartelle/obsidian-auto-split"
+    },
+    {
+        "id": "obsidian-word-sprint",
+        "name": "Word Sprint for Obsidian",
+        "description": "Word Sprint for Obsidian plugin for your writing projects like Nanowrimo",
+        "author": "Andrew Lombardi",
+        "repo": "kinabalu/obsidian-word-sprint"
+    },
+    {
+        "id": "copy-publish-url",
+        "name": "Copy Publish URL",
+        "description": "Copies the URL of the corresponding note on your Publish site to the clipboard.",
+        "author": "kometenstaub",
+        "repo": "kometenstaub/copy-publish-url",
+        "branch": "main"
+    },
+    {
+        "id": "card-board",
+        "name": "CardBoard",
+        "author": "roovo",
+        "description": "Display markdown tasks on kanban-style boards.",
+        "repo": "roovo/obsidian-card-board",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-bible-reference",
+        "name": "Bible Reference",
+        "description": "Taking Bible Study note in Obsidian.md application easily. Automatically suggesting Bible Verses as references.",
+        "author": "tim-hub",
+        "repo": "tim-hub/obsidian-bible-reference"
+    },
+    {
+        "id": "obsidian-sentence-navigator",
+        "name": "Sentence Navigator",
+        "author": "Tim Hor & Andrew Brown",
+        "description": "Manipulate sentences as a unit of movement",
+        "repo": "timhor/obsidian-sentence-navigator"
+    },
+    {
+        "id": "language-translator",
+        "name": "Language Translator",
+        "description": "An Obsidian plugin to translate selected text in the desired language.",
+        "author": "Florin Bobis",
+        "repo": "twentytwokhz/language-translator"
+    },
+    {
+        "id": "obsidian-extra-md-commands",
+        "name": "Extra Markdown Commands",
+        "description": "Adds various commands, e.g. for __bold__ or <cite>.",
+        "author": "pseudometa",
+        "repo": "chrisgrieser/obsidian-extra-md-commands"
+    },
+    {
+        "id": "customizable-page-header-buttons",
+        "name": "Customizable Page Header",
+        "description": "Add buttons for executing commands to the page header.",
+        "author": "kometenstaub",
+        "repo": "kometenstaub/customizable-page-header-buttons",
+        "branch": "main"
+    },
+    {
+        "id": "auto-class",
+        "name": "Auto Class",
+        "description": "Automatically apply CSS classes to markdown views based on a note's path.",
+        "author": "OfficerHalf",
+        "repo": "OfficerHalf/obsidian-auto-class",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-cloudinary-uploader",
+        "name": "Obsidian Cloudinary Uploader",
+        "author": "Jordan Handy",
+        "description": "Upload pasted images from your clipboard to Cloudinary",
+        "repo": "jordanhandy/obsidian-cloudinary-uploader",
+        "branch": "main"
+    },
+    {
+        "id": "rss-reader",
+        "name": "RSS Reader",
+        "description": "Read articles from RSS feeds and incorporate them into your notes",
+        "author": "Johannes Theiner",
+        "repo": "joethei/obsidian-rss"
+    },
+    {
+        "id": "mousewheel-image-zoom",
+        "name": "Mousewheel Image zoom",
+        "description": "This plugin enables you to increase/decrease the size of an image by scrolling",
+        "author": "Nico Jeske",
+        "repo": "nicojeske/mousewheel-image-zoom"
+    },
+    {
+        "id": "obsidian-flexible-pomo",
+        "name": "Flexible Pomodoro For Obsidian",
+        "description": "Adds a pomodoro timer to your status bar. This pomodoro has additional options such as early log and extend.",
+        "author": "grassbl8d",
+        "repo": "grassbl8d/flexible-pomo-obsidian"
+    },
+    {
+        "id": "obsidian-lineup-builder",
+        "name": "Lineup Builder",
+        "description": "Build football lineups in Obsidian.",
+        "author": "James Fallon",
+        "repo": "James-Fallon/obsidian-lineup-builder"
+    },
+    {
+        "id": "reveal-active-file-button",
+        "name": "Reveal Active File Button",
+        "description": "Add a button to the top of the File Explorer, to reveal the active file.",
+        "author": "Clare Macrae",
+        "repo": "claremacrae/reveal-active-file-button-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-structured-plugin",
+        "name": "Structured Plugin",
+        "description": "Structured plugin. Create hierarchy in notes using \".\"",
+        "author": "dobrovolsky",
+        "repo": "dobrovolsky/obsidain-structure"
+    },
+    {
+        "id": "cooklang-obsidian",
+        "name": "CookLang Editor",
+        "description": "Edit and display CookLang recipes in Obsidian",
+        "author": "death_au",
+        "repo": "deathau/cooklang-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "highlightr-plugin",
+        "name": "Highlightr",
+        "description": "A minimal and aesthetically pleasing highlighting menu that makes color-coded highlighting much easier with a configurable assortment of highlight colors 🎨.",
+        "author": "Chetachi",
+        "repo": "chetachiezikeuzor/Highlightr-Plugin"
+    },
+    {
+        "id": "remotely-save",
+        "name": "Remotely Save",
+        "author": "fyears",
+        "description": "Yet another unofficial plugin allowing users to sync notes between local device and the cloud service (S3, Dropbox, webdav).",
+        "repo": "fyears/remotely-save"
+    },
+    {
+        "id": "obsidian-notes-from-template",
+        "name": "From Template",
+        "description": "Create new notes from Templates - for each Template, provides a Command to trigger it, and a form to fill in any variables in the template",
+        "author": "mo-seph",
+        "repo":"mo-seph/obsidian-note-from-template"
+    },
+    {
+        "id": "obsidian-overdue",
+        "name": "Overdue",
+        "description": "Marks items as [[Overdue]] if they are not checked off by their due date",
+        "author": "Peter Parente",
+        "repo": "parente/obsidian-overdue",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-dialogue-plugin",
+        "name": "Dialogue",
+        "description": "Create dialogues in Markdown.",
+        "author": "Jakub Holub",
+        "repo": "holubj/obsidian-dialogue-plugin"
+    },
+    {
+        "id": "obsidian-title-serial-number-plugin",
+        "name": "Title Serial Number Plugin",
+        "description": "This plugin adds serial numbers to your markdown title.",
+        "author": "Domenic",
+        "repo": "yalvhe2009/obsidian-title-serial-number-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-theme-design-utilities",
+        "name": "Theme Design Utilities",
+        "description": "Some utilities and Quality-of-Life features for designers of Obsidian themes.",
+        "author": "pseudometa",
+        "repo": "chrisgrieser/obsidian-theme-design-utilities"
+    },
+    {
+        "id": "generic-initiative-tracker",
+        "name": "Generic Initiative Tracker",
+        "description": "TTRPG Generic Initiative Tracker",
+        "author": "Beau Shinkle",
+        "repo": "beaushinkle/obsidian-generic-initiative-tracker",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-ankibridge",
+        "name": "AnkiBridge",
+        "description": "Yet Another Anki Bridge. Focuses on a strict grammar and integrity of your data",
+        "author": "JeppeKlitgaard",
+        "repo": "JeppeKlitgaard/ObsidianAnkiBridge"
+    },
+    {
+        "id": "obsidian-tressel",
+        "name": "Tressel Sync for Obsidian",
+        "description": "Official Tressel plugin to sync/export your tweets and threads into Obsidian",
+        "author": "Tressel",
+        "repo": "aseem-thakar/obsidian-tressel"
+    },
+    {
+        "id": "image-window",
+        "name": "Image Window",
+        "description": "Allow images to be opened in new Obsidian windows.",
+        "author": "Jeremy Valentine",
+        "repo": "valentine195/obsidian-image-window"
+    },
+    {
+        "id": "obsidian-tts",
+        "name": "Text to Speech",
+        "description": "Text to speech for Obsidian. Hear your notes.",
+        "author": "Johannes Theiner",
+        "repo": "joethei/obsidian-tts"
+    },
+    {
+        "id": "link-favicon",
+        "name": "Link Favicons",
+        "description": "See the favicon for a linked website.",
+        "author": "Johannes Theiner",
+        "repo": "joethei/obsidian-link-favicon"
+    },
+    {
+        "id": "get-info-plugin",
+        "name": "Get Info",
+        "description": "Get Info is a plugin that tucks a menu inside your status bar and shows helpful information for your chosen file 📄.",
+        "author": "Chetachi",
+        "repo": "chetachiezikeuzor/Get-Info-Plugin"
+    },
+    {
+        "id": "matter",
+        "name": "Matter",
+        "author": "Matter",
+        "description": "Official Matter Obsidian integration.",
+        "repo": "getmatterapp/obsidian-matter"
+    },
+    {
+        "id": "linked-data-helper",
+        "name": "Linked Data Helper",
+        "description": "Generate the necessary data for Linked Data Vocabularies.",
+        "author": "kometenstaub",
+        "repo": "kometenstaub/linked-data-helper",
+        "branch": "main"
+    },
+    {
+        "id": "linked-data-vocabularies",
+        "name": "Linked Data Vocabularies",
+        "description": "Add linked data to the YAML of your notes.",
+        "author": "kometenstaub",
+        "repo": "kometenstaub/obsidian-linked-data-vocabularies",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-regex-replace",
+        "name": "Regex Find and Replace",
+        "description": "Provides a Find/Replace dialog which optionally supports regular expressions and scope (full document or text selection).",
+        "author": "Martin Eder",
+        "repo": "Gru80/obsidian-regex-replace"
+    },
+    {
+        "id": "obsidian-wordpress",
+        "name": "Publish to WordPress for Obsidian",
+        "description": "A plugin to publish your Obsidian documents to WordPress",
+        "author": "devbean",
+        "repo": "devbean/obsidian-wordpress",
+        "branch": "main"
     },
     {
         "id": "obsidian-icon-shortcodes",
