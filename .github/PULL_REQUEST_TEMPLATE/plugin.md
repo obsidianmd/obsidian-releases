@@ -21,3 +21,5 @@ Link to my plugin:
 - [ ] My README.md describes the plugin's purpose and provides clear usage instructions.
 - [ ] I have read the tips in https://github.com/obsidianmd/obsidian-releases/blob/master/plugin-review.md and have self-reviewed my plugin to avoid these common pitfalls.
 - [ ] I have added a license in the LICENSE file.
+- [ ] My project respects and is compatible with the original license of any code from other plugins that I'm using.
+      I have given proper attribution to these other projects in my `README.md`.

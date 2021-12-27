@@ -785,7 +785,7 @@
         "id": "various-complements",
         "name": "Various Complements",
         "author": "tadashi-aikawa",
-        "description": "This plugin enables you to complement input in markdown files",
+        "description": "This plugin enables you to complete words like the auto-completion of IDE",
         "repo": "tadashi-aikawa/obsidian-various-complements-plugin",
         "branch": "main"
     },
@@ -2948,7 +2948,7 @@
         "id": "remotely-save",
         "name": "Remotely Save",
         "author": "fyears",
-        "description": "Yet another unofficial plugin allowing users to sync notes between local device and the cloud service.",
+        "description": "Yet another unofficial plugin allowing users to sync notes between local device and the cloud service (S3, Dropbox, webdav).",
         "repo": "fyears/remotely-save"
     },
     {
@@ -3044,6 +3044,44 @@
         "author": "Matter",
         "description": "Official Matter Obsidian integration.",
         "repo": "getmatterapp/obsidian-matter"
+    },
+    {
+        "id": "linked-data-helper",
+        "name": "Linked Data Helper",
+        "description": "Generate the necessary data for Linked Data Vocabularies.",
+        "author": "kometenstaub",
+        "repo": "kometenstaub/linked-data-helper",
+        "branch": "main"
+    },
+    {
+        "id": "linked-data-vocabularies",
+        "name": "Linked Data Vocabularies",
+        "description": "Add linked data to the YAML of your notes.",
+        "author": "kometenstaub",
+        "repo": "kometenstaub/obsidian-linked-data-vocabularies",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-regex-replace",
+        "name": "Regex Find and Replace",
+        "description": "Provides a Find/Replace dialog which optionally supports regular expressions and scope (full document or text selection).",
+        "author": "Martin Eder",
+        "repo": "Gru80/obsidian-regex-replace"
+    },
+    {
+        "id": "obsidian-wordpress",
+        "name": "Publish to WordPress for Obsidian",
+        "description": "A plugin to publish your Obsidian documents to WordPress",
+        "author": "devbean",
+        "repo": "devbean/obsidian-wordpress",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-icon-shortcodes",
+        "name": "Icon Shortcodes",
+        "description": "Insert emoji and custom icons with shortcodes",
+        "author": "AidenLx",
+        "repo": "aidenlx/obsidian-icon-shortcodes"
     },
     {
         "id": "obsidian-tagfolder",
