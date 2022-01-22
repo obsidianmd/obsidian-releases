@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": "nldates-obsidian",
         "name": "Natural Language Dates",
         "author": "Argentina Ortega Sainz",
@@ -960,7 +961,7 @@
         "name": "Code block from selection",
         "description": "Adds code block for the selected text.",
         "author": "Dmitry Savosh",
-        "repo": "derwish-pro/obsidian-code-block-from-selection"
+        "repo": "dy-sh/obsidian-code-block-from-selection"
     },
     {
         "id": "format-hotkeys-obsidian",
@@ -982,7 +983,7 @@
         "name": "Remember cursor position",
         "description": "Remember cursor and scroll position for each note",
         "author": "Dmitry Savosh",
-        "repo": "derwish-pro/obsidian-remember-cursor-position"
+        "repo": "dy-sh/obsidian-remember-cursor-position"
     },
     {
         "id": "pane-relief",
@@ -1018,7 +1019,7 @@
         "name": "Consistent attachments and links",
         "description": "Move note attachments and update links automatically",
         "author": "Dmitry Savosh",
-        "repo": "derwish-pro/obsidian-consistent-attachments-and-links"
+        "repo": "dy-sh/obsidian-consistent-attachments-and-links"
     },
     {
         "id": "obsidian-plantuml",
@@ -1047,7 +1048,7 @@
         "name": "Unique attachments",
         "description": "Rename attachments, making their names unique (based on hashing of file content)",
         "author": "Dmitry Savosh",
-        "repo": "derwish-pro/obsidian-unique-attachments"
+        "repo": "dy-sh/obsidian-unique-attachments"
     },
     {
         "id": "obsidian-dice-roller",
@@ -1091,7 +1092,7 @@
         "name": "Find and replace in selection",
         "description": "Finds what you are looking for in the selected text and replaces it with the specified text",
         "author": "Dmitry Savosh",
-        "repo": "derwish-pro/obsidian-find-and-replace-in-selection"
+        "repo": "dy-sh/obsidian-find-and-replace-in-selection"
     },
     {
         "id": "buttons",
@@ -1475,8 +1476,8 @@
     },
     {
         "id": "obsidian-5e-statblocks",
-        "name": "5e Statblocks",
-        "description": "Create 5e styled statblocks in Obsidian.md",
+        "name": "TTRPG Statblocks",
+        "description": "Create TTRPG styled statblocks in Obsidian.md",
         "author": "Jeremy Valentine",
         "repo": "valentine195/obsidian-5e-statblocks"
     },
@@ -2956,7 +2957,7 @@
         "name": "From Template",
         "description": "Create new notes from Templates - for each Template, provides a Command to trigger it, and a form to fill in any variables in the template",
         "author": "mo-seph",
-        "repo":"mo-seph/obsidian-note-from-template"
+        "repo": "mo-seph/obsidian-note-from-template"
     },
     {
         "id": "obsidian-overdue",
@@ -3124,7 +3125,7 @@
     {
         "id": "quoth",
         "name": "Quoth",
-        "description": "More flexible embedding.",
+        "description": "More flexible embedding. Embed precise selections, inline embeds, optionally include author and title.",
         "author": "Eric Rykwalder",
         "repo": "erykwalder/quoth",
         "branch": "main"
@@ -3197,10 +3198,69 @@
         "branch": "main"
     },
     {
+        "id": "obsidian-timestamper",
+        "name": "TimeStamper",
+        "description": "Insert a customized or predefined time- or date-stamp at the current cursor position.",
+        "author": "Martin Eder",
+        "repo": "Gru80/obsidian-timestamper"
+    },
+    {
+        "id": "obsidian-import-json",
+        "name": "JSON Importer",
+        "author": "farling42",
+        "description": "Import a JSON file containing an array of data, creating notes from a Handlebars template file",
+        "repo": "farling42/obsidian-import-json"
+    },
+    {
+        "id": "import-foundry",
+        "name": "Foundry world Importer",
+        "author": "farling42",
+        "description": "Imports your journal entries from your selected Foundry VTT world into a folder within your Obsidian Vault",
+        "repo": "farling42/obsidian-import-foundry"
+    },
+    {
+        "id": "obsidian-attachment-name-formatting",
+        "name": "Attachment Name Formatting",
+        "description": "Formatting attachments name (filename attachmentType indexNumber.xxx)",
+        "author": "JYC333",
+        "repo": "JYC333/obsidian-attachment-name-formatting"
+    },
+    {
+        "id": "obsidian-completr",
+        "name": "Completr",
+        "author": "tth05",
+        "description": "This plugin provides advanced auto-completion functionality for Obsidian",
+        "repo": "tth05/obsidian-completr"
+    },
+    {
+        "id": "obsidian-binary-file-manager-plugin",
+        "name": "Binary File Manager",
+        "description": "Detects new binary files in the vault and create markdown files with metadata.",
+        "author": "qawatake",
+        "repo": "qawatake/obsidian-binary-file-manager-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-local-file-interface-plugin",
+        "name": "Local File Interface",
+        "description": "Provides commands for moving files in and out of the vault",
+        "author": "qawatake",
+        "repo": "qawatake/obsidian-local-file-interface-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-siteswap",
+        "name": "Siteswap",
+        "description": "Visualize Juggling Pattern Siteswap via the JugglingLab gif server.",
+        "author": "Tim Dresser",
+        "repo": "tdresser/obsidian-siteswap",
+        "branch": "main"
+    },
+    {
         "id": "obsidian-tweaks",
         "name": "ObsidianTweaks",
         "description": "A small plugin that implements some sorely missed features",
         "author": "Jeppe Klitgaard",
-        "repo": "https://github.com/JeppeKlitgaard/ObsidianTweaks"
+        "repo": "JeppeKlitgaard/ObsidianTweaks"
     }
 ]
