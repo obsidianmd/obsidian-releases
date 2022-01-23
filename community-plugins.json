@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": "nldates-obsidian",
         "name": "Natural Language Dates",
         "author": "Argentina Ortega Sainz",
@@ -174,14 +175,6 @@
         "author": "ryanjamurphy",
         "description": "Add a link to the current note to a daily note on a future date (or a past date, you time traveller).",
         "repo": "ryanjamurphy/review-obsidian"
-    },
-    {
-        "id": "obsidian-advanced-appearance",
-        "name": "Advanced Appearance",
-        "author": "@kepano",
-        "description": "Change colors, fonts and other cosmetic settings",
-        "repo": "kepano/obsidian-advanced-appearance",
-        "branch": "main"
     },
     {
         "id": "obsidian-hider",
@@ -960,7 +953,7 @@
         "name": "Code block from selection",
         "description": "Adds code block for the selected text.",
         "author": "Dmitry Savosh",
-        "repo": "derwish-pro/obsidian-code-block-from-selection"
+        "repo": "dy-sh/obsidian-code-block-from-selection"
     },
     {
         "id": "format-hotkeys-obsidian",
@@ -982,7 +975,7 @@
         "name": "Remember cursor position",
         "description": "Remember cursor and scroll position for each note",
         "author": "Dmitry Savosh",
-        "repo": "derwish-pro/obsidian-remember-cursor-position"
+        "repo": "dy-sh/obsidian-remember-cursor-position"
     },
     {
         "id": "pane-relief",
@@ -1018,7 +1011,7 @@
         "name": "Consistent attachments and links",
         "description": "Move note attachments and update links automatically",
         "author": "Dmitry Savosh",
-        "repo": "derwish-pro/obsidian-consistent-attachments-and-links"
+        "repo": "dy-sh/obsidian-consistent-attachments-and-links"
     },
     {
         "id": "obsidian-plantuml",
@@ -1047,7 +1040,7 @@
         "name": "Unique attachments",
         "description": "Rename attachments, making their names unique (based on hashing of file content)",
         "author": "Dmitry Savosh",
-        "repo": "derwish-pro/obsidian-unique-attachments"
+        "repo": "dy-sh/obsidian-unique-attachments"
     },
     {
         "id": "obsidian-dice-roller",
@@ -1091,7 +1084,7 @@
         "name": "Find and replace in selection",
         "description": "Finds what you are looking for in the selected text and replaces it with the specified text",
         "author": "Dmitry Savosh",
-        "repo": "derwish-pro/obsidian-find-and-replace-in-selection"
+        "repo": "dy-sh/obsidian-find-and-replace-in-selection"
     },
     {
         "id": "buttons",
@@ -1475,8 +1468,8 @@
     },
     {
         "id": "obsidian-5e-statblocks",
-        "name": "5e Statblocks",
-        "description": "Create 5e styled statblocks in Obsidian.md",
+        "name": "TTRPG Statblocks",
+        "description": "Create TTRPG styled statblocks in Obsidian.md",
         "author": "Jeremy Valentine",
         "repo": "valentine195/obsidian-5e-statblocks"
     },
@@ -2956,7 +2949,7 @@
         "name": "From Template",
         "description": "Create new notes from Templates - for each Template, provides a Command to trigger it, and a form to fill in any variables in the template",
         "author": "mo-seph",
-        "repo":"mo-seph/obsidian-note-from-template"
+        "repo": "mo-seph/obsidian-note-from-template"
     },
     {
         "id": "obsidian-overdue",
@@ -3097,7 +3090,7 @@
         "author": "MSzturc",
         "description": "Create markdown-based presentations in Obsidian",
         "repo": "MSzturc/obsidian-advanced-slides",
-        "branch": "main" 
+        "branch": "main"
     },
     {
         "id": "obsidian-graphviz",
@@ -3139,7 +3132,7 @@
     {
         "id": "obsidian-plaintext",
         "name": "Plaintext for Obsidian",
-        "description": "Allow opening specified files as plaintext",
+        "description": "Allow opening specified files as plaintext.",
         "author": "dbarenholz",
         "repo": "dbarenholz/obsidian-plaintext"
     },
@@ -3223,6 +3216,80 @@
         "description": "Formatting attachments name (filename attachmentType indexNumber.xxx)",
         "author": "JYC333",
         "repo": "JYC333/obsidian-attachment-name-formatting"
+    },
+    {
+        "id": "obsidian-completr",
+        "name": "Completr",
+        "author": "tth05",
+        "description": "This plugin provides advanced auto-completion functionality for Obsidian",
+        "repo": "tth05/obsidian-completr"
+    },
+    {
+        "id": "obsidian-binary-file-manager-plugin",
+        "name": "Binary File Manager",
+        "description": "Detects new binary files in the vault and create markdown files with metadata.",
+        "author": "qawatake",
+        "repo": "qawatake/obsidian-binary-file-manager-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-local-file-interface-plugin",
+        "name": "Local File Interface",
+        "description": "Provides commands for moving files in and out of the vault",
+        "author": "qawatake",
+        "repo": "qawatake/obsidian-local-file-interface-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-siteswap",
+        "name": "Siteswap",
+        "description": "Visualize Juggling Pattern Siteswap via the JugglingLab gif server.",
+        "author": "Tim Dresser",
+        "repo": "tdresser/obsidian-siteswap",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-tweaks",
+        "name": "ObsidianTweaks",
+        "description": "Adds some convenient tweaks including improved toggling and ergonomic commands",
+        "author": "Jeppe Klitgaard",
+        "repo": "JeppeKlitgaard/ObsidianTweaks"
+    },
+    {
+        "id": "obsidian-wordle",
+        "name": "Wordle for Obsidian",
+        "description": "Creates a view where you can play Wordle.",
+        "author": "dbarenholz",
+        "repo": "dbarenholz/obsidian-wordle"
+    },
+    {
+        "id": "obsidian-memos",
+        "name": "Obsidian Memos",
+        "description": "A plugin works perfect with your journal",
+        "author": "Quorafind",
+        "repo": "quorafind/obsidian-memos",
+        "branch": "main"
+    },
+    {
+        "id": "para-shortcuts",
+        "name": "PARA Shortcuts",
+        "description": "This plugin serves usefull commands to setup and manage your knowledge using the PARA method.",
+        "author": "gOAT",
+        "repo": "gOATiful/para-shortcuts"
+    },
+    {
+        "id": "13th-age-statblocks",
+        "name": "13th Age statblocks",
+        "author": "ben",
+        "description": "Render 13th Age statblocks in Obsidian.",
+        "repo": "ben/obsidian-13th-age-statblocks"
+    },
+    {
+        "id": "obsidian-dynamic-highlights",
+        "name": "Dynamic Highlights",
+        "description": "Dynamically highlight text based on cursor selection or search query with full regex, mobile, and live preview support",
+        "author": "nothingislost",
+        "repo": "nothingislost/obsidian-dynamic-highlights"
     },
     {
         "id": "obsidian-koreader-plugin",
