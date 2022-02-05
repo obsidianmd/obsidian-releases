@@ -3350,10 +3350,46 @@
         "branch": "main"
     },
     {
+        "id": "obsidian-file-info-plugin",
+        "name": "File Info Panel",
+        "description": "Creates a File Info view that displays the active file's date created, date modified, file size, and links to open the file in its native application and to open the file's folder.",
+        "author": "CattailNu",
+        "repo": "CattailNu/obsidian-file-info-panel-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-topic-linking",
+        "name": "Topic Linking",
+        "author": "Liam Magee",
+        "description": "Convert PDF files and web links to Markdown, and create topics from Markdown",
+        "repo": "liammagee/obsidian-topic-linking"
+    },
+    {
+        "id": "multi-column-markdown",
+        "name": "Multi-Column Markdown",
+        "author": "Cameron Robinson",
+        "description": "Create markdown documents with multiple columns of content viewable within Obsidian's preview mode.",
+        "repo": "ckRobinson/multi-column_markdown"
+    },
+    {
+        "id": "copy-as-html",
+        "name": "Copy as HTML",
+        "author": "Bailey Jennings",
+        "description": "This is a simple plugin that converts the selected markdown to HTML and copies it to the clipboard.",
+        "repo": "jenningsb2/copy-as-html"
+    },
+    {
+        "id": "obsidian-frontmatter-tag-suggest",
+        "name": "Frontmatter Tag Sugest",
+        "description": "Autocompletes tags in the frontmatter tags field",
+        "author": "Jonathan Miller",
+        "repo": "jmilldotdev/obsidian-frontmatter-tag-suggest"
+    },
+    {
         "id": "simple-note-quiz",
         "name": "Simple note quiz",
         "author": "dorisxx",
         "description": "Start a simple quiz on your current note.",
-        "repo": "dorisxx/Obsidian-simple-note-quiz",
+        "repo": "dorisxx/Obsidian-simple-note-quiz"
     }
 ]
