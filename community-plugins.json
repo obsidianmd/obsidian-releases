@@ -3380,7 +3380,7 @@
     },
     {
         "id": "obsidian-frontmatter-tag-suggest",
-        "name": "Frontmatter Tag Sugest",
+        "name": "Frontmatter Tag Suggest",
         "description": "Autocompletes tags in the frontmatter tags field",
         "author": "Jonathan Miller",
         "repo": "jmilldotdev/obsidian-frontmatter-tag-suggest"
@@ -3422,10 +3422,68 @@
         "repo": "thisdotrob/obsidian-relativenumber-plugin"
     },
     {
+        "id": "obsidian-core-search-assistant-plugin",
+        "name": "Core Search Assistant",
+        "description": "Enhance built-in search: keyboard interface, card preview, bigger preview",
+        "author": "qawatake",
+        "repo": "qawatake/obsidian-core-search-assistant-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-save-as-gist",
+        "name": "Save as Gist",
+        "author": "ghedamat",
+        "description": "Save current note as a GitHub Gist",
+        "repo": "ghedamat/obsidian-save-as-gist"
+    },
+    {
+        "id": "obsidian-divide-and-conquer",
+        "name": "Divide & Conquer",
+        "author": "pseudometa",
+        "description": "Commands for bulk enabling/disabling of plugins. Useful for debugging when you have many plugins.",
+        "repo": "chrisgrieser/obsidian-divide-and-conquer"
+    },
+    {
+        "id": "obsidian-excel-to-markdown-table",
+        "name": "Excel to Markdown Table",
+        "author": "Ganessh Kumar R P",
+        "description": "An Obsidian plugin to paste data from Microsoft Excel, Google Sheets, Apple Numbers and LibreOffice Calc as Markdown tables in Obsidian editor.",
+        "repo": "ganesshkumar/obsidian-excel-to-markdown-table"
+    },
+    {
+        "id": "obsidian-power-search",
+        "name": "Power Search",
+        "author": "Aviral Batra",
+        "description": "Searches notes based on current line",
+        "repo": "aviral-batra/obsidian-power-search"
+    },
+    {
+        "id": "tag-word-cloud",
+        "name": "Tag, Word & Link Cloud",
+        "author": "Johannes Theiner",
+        "description": "Show a cloud of your tags/words/links",
+        "repo": "joethei/obsidian-tagcloud"
+    },
+    {
+        "id": "persistent-graph",
+        "name": "Persistent Graph",
+        "author": "Sanqui",
+        "description": "Save and restore the positions of nodes on your graph.",
+        "repo": "Sanqui/obsidian-persistent-graph"
+    },
+    {
+        "id": "auto-note-mover",
+        "name": "Auto Note Mover",
+        "author": "faru",
+        "description": "Auto Note Mover will automatically move the active notes to their respective folders according to the rules.",
+        "repo": "farux/obsidian-auto-note-mover",
+        "branch": "main"
+    },
+    {
         "id": "insert-heading-link",
         "name": "Insert Heading Link",
         "author": "Signynt",
-        "description": "Add a Link to a Heading.",
+        "description": "Add a command to create a Link to a Heading.",
         "repo": "signynt/insert-heading-link"
     }
 ]
