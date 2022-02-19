@@ -3198,7 +3198,7 @@
     },
     {
         "id": "obsidian-import-json",
-        "name": "JSON Importer",
+        "name": "JSON/CSV Importer",
         "author": "farling42",
         "description": "Import a JSON file containing an array of data, creating notes from a Handlebars template file",
         "repo": "farling42/obsidian-import-json"
@@ -3509,10 +3509,17 @@
         "branch": "main"
     },
     {
+        "id": "alx-folder-note-folderv",
+        "name": "AidenLx's Folder Note - folderv Component",
+        "description": "Optional `folderv` Component for alx-folder-note",
+        "author": "AidenLx",
+        "repo": "aidenlx/alx-folder-note-folderv"
+    },
+    {
         "id": "obsidian-advanced-selection",
         "name": "Advanced Selection",
         "author": "Yu Wang",
-	    "description": "More flexible ways to select texts in Obsidian Editor",
+  	    "description": "More flexible ways to select texts in Obsidian Editor",
         "repo": "anselmwang/obsidian-advanced-selection"
     }
 ]
