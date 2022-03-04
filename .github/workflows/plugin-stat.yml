@@ -20,10 +20,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Create report file
-      - name: Commit report
+      - name: Commit updates
         run: |
-          git config --global user.name 'Obsidian Bot'
-          git config --global user.email 'admin@obsidian.md'
+          git config --local user.name 'Obsidian Bot'
+          git config --local user.email 'admin@obsidian.md'
           git commit -am "Update plugin stats"
           git push
