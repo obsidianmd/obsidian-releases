@@ -21,10 +21,10 @@ jobs:
           node-version: 16.x
       - run: |
           git checkout -b update-plugin-stats
-          echo 'Test new file' > foo.txt
           git config --local user.name 'Obsidian Bot'
           git config --local user.email 'admin@obsidian.md'
+          touch foo.txt
           git commit -am "chore: Update plugin stats"
-          git push
+          git push --set-upstream origin master
         env:
           gh_token: ${{ secrets.GH_TOKEN }}
