@@ -4,6 +4,8 @@ name: Pull plugin stats
 #   schedule:
 #     - cron: "0 0 * * *"
 
+# node update-stats.js
+
 # run it on closing PR to test the workflow, will remove once it works
 on:
   pull_request:
@@ -19,7 +21,7 @@ jobs:
           node-version: 16.x
       - run: |
           git checkout -b update-plugin-stats
-          node update-stats.js
+          echo 'Test new file' > foo.txt
           git config --local user.name 'Obsidian Bot'
           git config --local user.email 'admin@obsidian.md'
           git commit -am "chore: Update plugin stats"
