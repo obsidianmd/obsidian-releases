@@ -19,15 +19,9 @@ jobs:
           node-version: 16.x
       - run: |
           node update-stats.js
-        env:
-          gh_token: ${{ secrets.GH_TOKEN }}
-  commit:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Commit updates
-        run: |
           git config --local user.name 'Obsidian Bot'
           git config --local user.email 'admin@obsidian.md'
           git commit -am "chore: Update plugin stats"
           git push
+        env:
+          gh_token: ${{ secrets.GH_TOKEN }}
