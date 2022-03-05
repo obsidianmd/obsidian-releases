@@ -1,8 +1,13 @@
 name: Pull plugin stats
 
+# on:
+#   schedule:
+#     - cron: "0 0 * * *"
+
+# run it on closing PR to test the workflow, will remove once it works
 on:
-  schedule:
-    - cron: "0 0 * * *"
+  pull_request:
+    types: [closed]
 
 jobs:
   pull-stats:
@@ -12,10 +17,10 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 16.x
+      - run: |
+          node update-stats.js
         env:
           gh_token: ${{ secrets.GH_TOKEN }}
-        run: |
-          node update-stats.js
   commit:
     runs-on: ubuntu-latest
     steps:
