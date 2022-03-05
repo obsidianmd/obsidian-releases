@@ -7,7 +7,7 @@ name: Pull plugin stats
 # run it on closing PR to test the workflow, will remove once it works
 on:
   pull_request:
-    types: [closed]
+    types: [opened, closed]
 
 jobs:
   pull-stats:
