@@ -27,6 +27,6 @@ jobs:
           touch foo.txt
           git add .
           git commit -m "chore: Update plugin stats"
-          git push origin master
+          git push origin HEAD:master
         env:
           gh_token: ${{ secrets.GH_TOKEN }}
