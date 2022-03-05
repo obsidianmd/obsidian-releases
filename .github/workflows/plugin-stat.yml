@@ -1,15 +1,13 @@
 name: Pull plugin stats
 
-# on:
-#   schedule:
-#     - cron: "0 0 * * *"
-
-# node update-stats.js
+on:
+  schedule:
+    - cron: "*/10 * * * *"
 
 # run it on closing PR to test the workflow, will remove once it works
-on:
-  pull_request:
-    types: [opened, closed, synchronize]
+# on:
+#   pull_request:
+#     types: [opened, closed, synchronize]
 
 jobs:
   pull-stats:
@@ -20,12 +18,11 @@ jobs:
         with:
           node-version: 16.x
       - run: | 
-          git pull origin HEAD:master
           git config --local user.name 'Obsidian Bot'
           git config --local user.email 'admin@obsidian.md'
-          touch foo.txt
+          node update-stats.js
           git add .
           git commit -m "chore: Update plugin stats"
-          git push origin HEAD:master
+          git push
         env:
           gh_token: ${{ secrets.GH_TOKEN }}
