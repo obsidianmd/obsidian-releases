@@ -20,6 +20,7 @@ jobs:
         with:
           node-version: 16.x
       - run: | 
+          git pull origin HEAD:master
           git config --local user.name 'Obsidian Bot'
           git config --local user.email 'admin@obsidian.md'
           touch foo.txt
