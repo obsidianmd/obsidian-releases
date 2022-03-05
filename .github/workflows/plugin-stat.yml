@@ -19,13 +19,12 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 16.x
-      - run: |
-          git checkout -b update-plugin-stats
+      - run: | 
           git config --local user.name 'Obsidian Bot'
           git config --local user.email 'admin@obsidian.md'
           touch foo.txt
           git add .
           git commit -m "chore: Update plugin stats"
-          git push --set-upstream origin master
+          git push origin master
         env:
           gh_token: ${{ secrets.GH_TOKEN }}
