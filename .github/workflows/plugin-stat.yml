@@ -15,20 +15,16 @@ jobs:
   pull-stats:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-            ref: ${{ github.head_ref }}
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v2
         with:
           node-version: 16.x
       - run: | 
-          git checkout -b plugin-stats-chores
-          git pull origin HEAD:master
           git config --local user.name 'Obsidian Bot'
           git config --local user.email 'admin@obsidian.md'
           touch foo.txt
           git add .
           git commit -m "chore: Update plugin stats"
-          git push origin HEAD:master
+          git push
         env:
           gh_token: ${{ secrets.GH_TOKEN }}
