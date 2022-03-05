@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 16.x
       - run: |
-          git checkout master
+          git branch
           node update-stats.js
           git config --local user.name 'Obsidian Bot'
           git config --local user.email 'admin@obsidian.md'
