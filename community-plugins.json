@@ -930,8 +930,8 @@
         "id": "obsidian-footnotes",
         "name": "Footnote Shortcut",
         "description": "Makes creating footnotes in Obsidian more fun!",
-        "author": "Alexis Rondeau",
-        "repo": "akaalias/obsidian-footnotes"
+        "author": "Alexis Rondeau, Micha Brugger",
+        "repo": "MichaBrugger/obsidian-footnotes"
     },
     {
         "id": "obsidian-gallery",
@@ -3198,7 +3198,7 @@
     },
     {
         "id": "obsidian-import-json",
-        "name": "JSON Importer",
+        "name": "JSON/CSV Importer",
         "author": "farling42",
         "description": "Import a JSON file containing an array of data, creating notes from a Handlebars template file",
         "repo": "farling42/obsidian-import-json"
@@ -3456,6 +3456,102 @@
         "author": "Aviral Batra",
         "description": "Searches notes based on current line",
         "repo": "aviral-batra/obsidian-power-search"
+    },
+    {
+        "id": "tag-word-cloud",
+        "name": "Tag, Word & Link Cloud",
+        "author": "Johannes Theiner",
+        "description": "Show a cloud of your tags/words/links",
+        "repo": "joethei/obsidian-tagcloud"
+    },
+    {
+        "id": "persistent-graph",
+        "name": "Persistent Graph",
+        "author": "Sanqui",
+        "description": "Save and restore the positions of nodes on your graph.",
+        "repo": "Sanqui/obsidian-persistent-graph"
+    },
+    {
+        "id": "auto-note-mover",
+        "name": "Auto Note Mover",
+        "author": "faru",
+        "description": "Auto Note Mover will automatically move the active notes to their respective folders according to the rules.",
+        "repo": "farux/obsidian-auto-note-mover",
+        "branch": "main"
+    },
+    {
+        "id": "insert-heading-link",
+        "name": "Insert Heading Link",
+        "author": "Signynt",
+        "description": "Add a command to create a Link to a Heading.",
+        "repo": "Signynt/insert-heading-link"
+    },
+    {
+        "id": "settings-search",
+        "name": "Settings Search",
+        "author": "Jeremy Valentine",
+        "description": "Globally search settings in Obsidian.md",
+        "repo": "valentine195/obsidian-settings-search"
+    },
+    {
+        "id": "obsidian-footnote-indicator",
+        "name": "Footnote & Citation Indicator",
+        "author": "pseudometa",
+        "description": "Indicates the presence of footnotes in the gutter. Displays footnote and citation counts in the status bar.",
+        "repo": "chrisgrieser/obsidian-footnote-indicator"
+    },
+    {
+        "id": "japanese-word-splitter",
+        "name": "Word Splitting for Japanese in Edit Mode",
+        "author": "sonarAIT",
+        "description": "A patch for Obsidian's built-in CodeMirror Editor to support Japanese word splitting",
+        "repo": "sonarAIT/cm-japanese-patch",
+        "branch": "main"
+    },
+    {
+        "id": "alx-folder-note-folderv",
+        "name": "AidenLx's Folder Note - folderv Component",
+        "description": "Optional `folderv` Component for alx-folder-note",
+        "author": "AidenLx",
+        "repo": "aidenlx/alx-folder-note-folderv"
+    },
+    {
+        "id": "obsidian-chevereto-image-uploader",
+        "name": "Chevereto Image Uploader for Obsidian",
+        "description": "This plugin uploads images in your clipboard to chevereto.",
+        "author": "kkzzhizhou",
+        "repo": "kkzzhizhou/obsidian-chevereto-image-uploader",
+        "branch": "main"
+    },
+    {
+        "id": "todoist-text",
+        "name": "Todoist Text",
+        "author": "Wes Moncrief",
+        "description": "This obsidian plugin integrates your Todoist tasks with markdown checkboxes.",
+        "repo": "wesmoncrief/obsidian-todoist-text"
+    },
+    {
+        "id": "big-calendar",
+        "name": "Big Calendar",
+        "author": "Boninall",
+        "description": "A big calendar for Obsidian. All events from your daily notes OR tasks used TASKS/DATAVIEW/KANBAN format.",
+        "repo": "quorafind/obsidian-big-calendar"
+    },
+    {
+        "id": "sekund",
+        "name": "Obsidian Social (Sekund)",
+        "author": "Candide Kemmler",
+        "description": "Share notes and gather feedback",
+        "repo": "Sekund/sekund-plugin-react",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-command-palette-minus-plugin",
+        "name": "Command Palette--",
+        "author": "qawatake",
+        "description": "Command palette without unwanted commands",
+        "repo": "qawatake/obsidian-command-palette-minus-plugin",
+        "branch": "main"
     },
     {
         "id": "obsidian-remember-file-state",
