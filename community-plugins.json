@@ -3266,7 +3266,7 @@
         "id": "obsidian-memos",
         "name": "Obsidian Memos",
         "description": "A plugin works perfect with your journal",
-        "author": "Quorafind",
+        "author": "Boninall",
         "repo": "quorafind/obsidian-memos",
         "branch": "main"
     },
@@ -3663,6 +3663,72 @@
         "description": "Tools for effectively folding markdown sections in Obsidian",
         "repo": "liamcain/obsidian-creases",
         "branch": "main"
+    },
+    {
+        "id": "obsidian-kobo-highlights-importer-plugin",
+        "name": "Kobo Highlights Importer",
+        "author": "Flavio Cordari",
+        "description": "Import highlights from Kobo devices",
+        "repo": "bitwiseops/obsidian-kobo-highlights-import"
+    },
+    {
+        "id": "obsidian-dynamic-embed",
+        "name": "Obsidian Dynamic Embed",
+        "author": "Ivaylo Dimitrov Dabravin",
+        "description": "Embed snippets, templates and any linkable by delegating the current scope to the embedded file, treating it as content instead of a reference.",
+        "repo": "dybrawin/obsidian-dynamic-embed"
+    },
+    {
+        "id": "obsidian-steemit",
+        "name": "Publish to Steemit",
+        "author": "anpigon",
+        "description": "A plugin for publishing Obsidian documents to Steemit.",
+        "repo": "anpigon/obsidian-steemit-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-kindle-export",
+        "name": "Kindle Export",
+        "author": "Simeon Stanek",
+        "description": "Export your notes to your Kindle, including embedded notes and images.",
+        "repo": "SimeonLukas/obsidian-kindle-export",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-search-everywhere-plugin",
+        "name": "Search Everywhere",
+        "author": "Mom0",
+        "description": "Search Everywhere with pressing Double Shift like in IntelliJ",
+        "repo": "mom0aut/obsidian-search-everywhere"
+    },
+    {
+        "id": "obsidian-textgenerator-plugin",
+        "name": "Text Generator",
+        "description": "Text generator is a handy plugin that helps you generate text content using GPT-3 (OpenAI).",
+        "author": "Noureddine Haouari",
+        "repo": "nhaouari/obsidian-textgenerator-plugin"
+    },
+    {
+        "id": "markdown-table-editor",
+        "name": "Markdown Table Editor",
+        "author": "Ganessh Kumar R P",
+        "description": "An Obsidian plugin to provide an editor for Markdown tables. It can open CSV, Microsoft Excel/Google Sheets data as Markdown tables from Obsidian Markdown editor.",
+        "repo": "ganesshkumar/obsidian-table-editor"
+    },
+    {
+        "id": "obsidian-vim-multibyte-char-search",
+        "name": "Vim Multibyte Char Search",
+        "author": "anselmwang",
+        "description": "Search multibyte characters by the first character of corresponding ASCII encoding of input method. For example, for Chinese, search by the first character of Pinyin.",
+        "repo": "anselmwang/obsidian-vim-multibyte-char-search",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-extract-pdf-annotations",
+        "name": "Extract PDF Annotations",
+        "author": "Franz Achermann",
+        "description": "Extract PDF Annotations (Notes and Highlights) and sort them by topics",
+        "repo": "munach/obsidian-extract-pdf-annotations"
     },
     {
         "id": "obsidian-file-cleaner",
