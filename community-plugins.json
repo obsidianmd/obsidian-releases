@@ -371,13 +371,6 @@
         "branch": "main"
     },
     {
-        "id": "mrj-add-codemirror-matchbrackets",
-        "name": "Add Codemirror's matchbrackets.js",
-        "description": "This plugins adds matchbrackets.js which allows to use `di[` or `ya(` commands in Vim mode",
-        "author": "MrJackphil",
-        "repo": "mrjackphil/obsidian-add-codemirror-matchbrackets"
-    },
-    {
         "id": "obsidian-juliandate",
         "name": "Julian Date Quick Insert",
         "author": "thek3nger",
@@ -2849,13 +2842,6 @@
         "repo": "twentytwokhz/language-translator"
     },
     {
-        "id": "obsidian-extra-md-commands",
-        "name": "Extra Markdown Commands",
-        "description": "Adds various commands, e.g. for __bold__ or <cite>.",
-        "author": "pseudometa",
-        "repo": "chrisgrieser/obsidian-extra-md-commands"
-    },
-    {
         "id": "customizable-page-header-buttons",
         "name": "Customizable Page Header",
         "description": "Add buttons for executing commands to the page header.",
@@ -3266,7 +3252,7 @@
         "id": "obsidian-memos",
         "name": "Obsidian Memos",
         "description": "A plugin works perfect with your journal",
-        "author": "Quorafind",
+        "author": "Boninall",
         "repo": "quorafind/obsidian-memos",
         "branch": "main"
     },
@@ -3552,6 +3538,190 @@
         "description": "Command palette without unwanted commands",
         "repo": "qawatake/obsidian-command-palette-minus-plugin",
         "branch": "main"
+    },
+    {
+        "id": "obsidian-remember-file-state",
+        "name": "Remember File State",
+        "author": "Ludovic Chabant",
+        "description": "Remembers cursor position, selection, scrolling, and more for each file",
+        "repo": "ludovicchabant/obsidian-remember-file-state"
+    },
+    {
+        "id": "obsidian-things-link",
+        "name": "Things Link",
+        "author": "@gavmn",
+        "description": "Seamlessly link an Obsidian Note to a Things Project",
+        "repo": "gavinmn/obsidian-things-link"
+    },
+    {
+        "id": "markdown-shortcuts",
+        "name": "Markdown shortcuts",
+        "author": "Jules Guesnon",
+        "description": "Allows to write markdown from shortcuts",
+        "repo": "JulesGuesnon/obsidian-markdown-shortcuts"
+    },
+    {
+        "id": "digitalgarden",
+        "name": "Digital Garden",
+        "description": "Publish your notes to a digital garden for others to enjoy.",
+        "author": "Ole Eskild Steensen",
+        "repo": "oleeskild/obsidian-digital-garden",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-living-graph",
+        "name": "Living Graph",
+        "description": "A for-fun graph plugin",
+        "author": "Garrett",
+        "repo": "geoffreysflaminglasersword/obsidian-living-graph",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-hotkeys-chords",
+        "name": "Hotkeys Chords",
+        "author": "Dario Balboni",
+        "description": "Configurable hotkeys chords to activate obsidian commands",
+        "repo": "trenta3/obsidian-hotkeys-chords"
+    },
+    {
+        "id": "obsidian-key-sequence-shortcut",
+        "name": "Key Sequence Shortcut",
+        "author": "anselmwang",
+        "description": "Execute obsidian commands with short key sequences. For example, 'tp' for 'Toggle Preview' and 'tb' for 'Toggle Sidebar'. Easier to remember.",
+        "repo": "anselmwang/obsidian-key-sequence-shortcut",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-full-calendar",
+        "name": "Full Calendar",
+        "author": "Davis Haupt (@davish)",
+        "description": "Keep events and manage your calendar alongside all your other notes in your Obsidian Vault.",
+        "repo": "davish/obsidian-full-calendar",
+        "branch": "main"
+    },
+    {
+        "id": "heatmap-calendar",
+        "name": "Heatmap Calendar",
+        "author": "Richard Slettevoll",
+        "description": "Activity Year Overview for DataviewJS, Github style – Track Goals, Progress, Habits, Tasks, Exercise, Finances, \"Dont Break the Chain\" etc.",
+        "repo": "Richardsl/heatmap-calendar-obsidian"
+    },
+    {
+        "id": "obsidian-daily-notes-new-tab",
+        "name": "Daily notes new tab",
+        "author": "Reorx",
+        "description": "Add command and sidebar button to open daily notes in new tab",
+        "repo": "reorx/obsidian-daily-notes-new-tab"
+    },
+    {
+        "id": "obsidian-advanced-new-folder",
+        "name": "Obsidian Advanced New Folder",
+        "description": "This plugin lets you choose where to create a new folder.",
+        "author": "Piotr Yordanov",
+        "repo": "piotryordanov/obsidian-advanced-new-folder"
+    },
+    {
+        "id": "obsidian-mark-and-select",
+        "name": "Mark and Select",
+        "author": "anselmwang",
+        "description": "Allow users to set mark, move cursors freely and select from mark to cursor position",
+        "repo": "anselmwang/obsidian-mark-and-select"
+    },
+    {
+        "id": "obsidian-bible-linker",
+        "name": "Bible Linker",
+        "author": "Jakub Kuchejda",
+        "description": "Link multiple bible verses easily",
+        "repo": "kuchejak/obsidian-bible-linker-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-circuitjs",
+        "name": "Obsidian CircuitJS",
+        "author": "Steven Gann",
+        "description": "Embeds CircuitJS circuit simulations into notes",
+        "repo": "StevenGann/obsidian-circuitjs"
+    },
+    {
+        "id": "creases",
+        "name": "Creases",
+        "author": "Liam Cain",
+        "description": "Tools for effectively folding markdown sections in Obsidian",
+        "repo": "liamcain/obsidian-creases",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-kobo-highlights-importer-plugin",
+        "name": "Kobo Highlights Importer",
+        "author": "Flavio Cordari",
+        "description": "Import highlights from Kobo devices",
+        "repo": "bitwiseops/obsidian-kobo-highlights-import"
+    },
+    {
+        "id": "obsidian-dynamic-embed",
+        "name": "Obsidian Dynamic Embed",
+        "author": "Ivaylo Dimitrov Dabravin",
+        "description": "Embed snippets, templates and any linkable by delegating the current scope to the embedded file, treating it as content instead of a reference.",
+        "repo": "dybrawin/obsidian-dynamic-embed"
+    },
+    {
+        "id": "obsidian-steemit",
+        "name": "Publish to Steemit",
+        "author": "anpigon",
+        "description": "A plugin for publishing Obsidian documents to Steemit.",
+        "repo": "anpigon/obsidian-steemit-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-kindle-export",
+        "name": "Kindle Export",
+        "author": "Simeon Stanek",
+        "description": "Export your notes to your Kindle, including embedded notes and images.",
+        "repo": "SimeonLukas/obsidian-kindle-export",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-search-everywhere-plugin",
+        "name": "Search Everywhere",
+        "author": "Mom0",
+        "description": "Search Everywhere with pressing Double Shift like in IntelliJ",
+        "repo": "mom0aut/obsidian-search-everywhere"
+    },
+    {
+        "id": "obsidian-textgenerator-plugin",
+        "name": "Text Generator",
+        "description": "Text generator is a handy plugin that helps you generate text content using GPT-3 (OpenAI).",
+        "author": "Noureddine Haouari",
+        "repo": "nhaouari/obsidian-textgenerator-plugin"
+    },
+    {
+        "id": "markdown-table-editor",
+        "name": "Markdown Table Editor",
+        "author": "Ganessh Kumar R P",
+        "description": "An Obsidian plugin to provide an editor for Markdown tables. It can open CSV, Microsoft Excel/Google Sheets data as Markdown tables from Obsidian Markdown editor.",
+        "repo": "ganesshkumar/obsidian-table-editor"
+    },
+    {
+        "id": "obsidian-vim-multibyte-char-search",
+        "name": "Vim Multibyte Char Search",
+        "author": "anselmwang",
+        "description": "Search multibyte characters by the first character of corresponding ASCII encoding of input method. For example, for Chinese, search by the first character of Pinyin.",
+        "repo": "anselmwang/obsidian-vim-multibyte-char-search",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-extract-pdf-annotations",
+        "name": "Extract PDF Annotations",
+        "author": "Franz Achermann",
+        "description": "Extract PDF Annotations (Notes and Highlights) and sort them by topics",
+        "repo": "munach/obsidian-extract-pdf-annotations"
+    },
+    {
+        "id": "obsidian-file-cleaner",
+        "name": "File Cleaner",
+        "author": "Johnson0907",
+        "description": "Help you to clean empty files and unused attachments in the vault.",
+        "repo": "Johnson0907/obsidian-file-cleaner"
     },
     {
         "id": "obsidian-card-view-switcher-plugin",
