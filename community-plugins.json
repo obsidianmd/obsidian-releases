@@ -371,13 +371,6 @@
         "branch": "main"
     },
     {
-        "id": "mrj-add-codemirror-matchbrackets",
-        "name": "Add Codemirror's matchbrackets.js",
-        "description": "This plugins adds matchbrackets.js which allows to use `di[` or `ya(` commands in Vim mode",
-        "author": "MrJackphil",
-        "repo": "mrjackphil/obsidian-add-codemirror-matchbrackets"
-    },
-    {
         "id": "obsidian-juliandate",
         "name": "Julian Date Quick Insert",
         "author": "thek3nger",
@@ -3562,7 +3555,7 @@
     },
     {
         "id": "markdown-shortcuts",
-        "name": "Marjdown shortcuts",
+        "name": "Markdown shortcuts",
         "author": "Jules Guesnon",
         "description": "Allows to write markdown from shortcuts",
         "repo": "JulesGuesnon/obsidian-markdown-shortcuts"
@@ -3602,7 +3595,7 @@
         "id": "obsidian-full-calendar",
         "name": "Full Calendar",
         "author": "Davis Haupt (@davish)",
-        "description": "Obsidian integration with Full Calendar (fullcalendar.io) to keep, manage, and visualize events alongside your other notes in your Vault.",
+        "description": "Keep events and manage your calendar alongside all your other notes in your Obsidian Vault.",
         "repo": "davish/obsidian-full-calendar",
         "branch": "main"
     },
@@ -3729,6 +3722,43 @@
         "author": "Johnson0907",
         "description": "Help you to clean empty files and unused attachments in the vault.",
         "repo": "Johnson0907/obsidian-file-cleaner"
+    },
+    {
+        "id": "obsidian-card-view-switcher-plugin",
+        "name": "Card View Switcher",
+        "author": "qawatake",
+        "description": "Quick switcher with card view",
+        "repo": "qawatake/obsidian-card-view-switcher-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "novel-word-count",
+        "name": "Novel Word Count",
+        "author": "Isaac Lyman",
+        "description": "Displays a word or page count for each file, folder and vault in the File Explorer pane.",
+        "repo": "isaaclyman/novel-word-count-obsidian"
+    },
+    {
+        "id": "heycalmdown-navigate-cursor-history",
+        "name": "Navigate Cursor History",
+        "author": "heycalmdown",
+        "description": "This plugin remembers the recent cursor positions history and allows you to jump to them back and forth like VSCode",
+        "repo": "heycalmdown/navigate-cursor-history",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-matrix",
+        "name": "Obsidian matrix",
+        "author": "Jonas Mohr",
+        "description": "Utility to easily create LaTeX matrices",
+        "repo": "NastyGamer/obsidian-matrix"
+    },
+    {
+        "id": "waypoint",
+        "name": "Waypoint",
+        "author": "Idrees Hassan",
+        "description": "Easily generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags!",
+        "repo": "IdreesInc/Waypoint"
     },
     {
         "id": "lapel",

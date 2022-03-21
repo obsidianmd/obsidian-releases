@@ -11,6 +11,7 @@ on:
 
 jobs:
   pull-stats:
+    if: github.repository == 'obsidianmd/obsidian-releases'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
