@@ -2626,7 +2626,7 @@
         "name": "Fantasy Calendar",
         "description": "Fantasy calendars in Obsidian!",
         "author": "Jeremy Valentine",
-        "repo": "valentine195/obsidian-fantasy-calendar"
+        "repo": "fantasycalendar/obsidian-fantasy-calendar"
     },
     {
         "id": "obsidian-pikt",
@@ -2928,7 +2928,7 @@
         "name": "Remotely Save",
         "author": "fyears",
         "description": "Yet another unofficial plugin allowing users to sync notes between local device and the cloud service (S3, Dropbox, webdav, OneDrive).",
-        "repo": "fyears/remotely-save"
+        "repo": "remotely-save/remotely-save"
     },
     {
         "id": "obsidian-notes-from-template",
@@ -2991,8 +2991,8 @@
     },
     {
         "id": "image-window",
-        "name": "Image Window",
-        "description": "Allow images to be opened in new Obsidian windows.",
+        "name": "Second Window",
+        "description": "Allow images & notes to be viewed in new Obsidian windows.",
         "author": "Jeremy Valentine",
         "repo": "valentine195/obsidian-image-window"
     },
@@ -3722,6 +3722,87 @@
         "author": "Johnson0907",
         "description": "Help you to clean empty files and unused attachments in the vault.",
         "repo": "Johnson0907/obsidian-file-cleaner"
+    },
+    {
+        "id": "obsidian-card-view-switcher-plugin",
+        "name": "Card View Switcher",
+        "author": "qawatake",
+        "description": "Quick switcher with card view",
+        "repo": "qawatake/obsidian-card-view-switcher-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "novel-word-count",
+        "name": "Novel Word Count",
+        "author": "Isaac Lyman",
+        "description": "Displays a word or page count for each file, folder and vault in the File Explorer pane.",
+        "repo": "isaaclyman/novel-word-count-obsidian"
+    },
+    {
+        "id": "heycalmdown-navigate-cursor-history",
+        "name": "Navigate Cursor History",
+        "author": "heycalmdown",
+        "description": "This plugin remembers the recent cursor positions history and allows you to jump to them back and forth like VSCode",
+        "repo": "heycalmdown/navigate-cursor-history",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-matrix",
+        "name": "Obsidian matrix",
+        "author": "Jonas Mohr",
+        "description": "Utility to easily create LaTeX matrices",
+        "repo": "NastyGamer/obsidian-matrix"
+    },
+    {
+        "id": "waypoint",
+        "name": "Waypoint",
+        "author": "Idrees Hassan",
+        "description": "Easily generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags!",
+        "repo": "IdreesInc/Waypoint"
+    },
+    {
+        "id": "obsidian-hover-editor",
+        "name": "Hover Editor",
+        "author": "NothingIsLost",
+        "description": "Transform the Page Preview hover popover into a fully working editor instance",
+        "repo": "nothingislost/obsidian-hover-editor"
+    },
+    {
+        "id": "obsidian-screwdriver",
+        "name": "Screwdriver",
+        "author": "vorotamoroz",
+        "description": "Utility to put any files in and out under your vault.",
+        "repo": "vrtmrz/obsidian-screwdriver",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-version-history-diff",
+        "name": "Version History Diff (Sync, File Recovery & Git)",
+        "description": "Diff the version history of the core Sync and File Recovery plugins and Git for the active file. Adds a command to open the core Sync version history as well.",
+        "author": "kometenstaub",
+        "repo": "kometenstaub/obsidian-version-history-diff",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-format-code",
+        "name": "Format code blocks of various languages",
+        "author": "iVariable",
+        "description": "This plugin introduces commands to format code (internally uses prettier)",
+        "repo": "iVariable/Obsidian-Format-Code"
+    },
+    {
+        "id": "obsidian-buttondown-plugin",
+        "name": "Buttondown",
+        "author": "caro401",
+        "description": "Send your notes to your buttondown.email account as email drafts.",
+        "repo": "caro401/obsidian-buttondown"
+    },
+    {
+        "id": "lapel",
+        "name": "Lapel",
+        "author": "Liam Cain",
+        "description": "Show the heading levels in the gutter of the editor",
+        "repo": "liamcain/obsidian-lapel"
     },
     {
         "id": "obsidian-desmos",
