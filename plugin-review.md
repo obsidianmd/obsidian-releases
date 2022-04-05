@@ -140,6 +140,41 @@ if (file instanceof TFile) {
 }
 ```
 
+## Editor
+
+### How to change/reconfigure your CM6 extensions
+
+If you're registering a cm6 editor extension using `registerEditorExtension`, there might be times where you want to reconfigure it, for example, when a setting is changed.
+
+To do so, the easiest way is to use an array extension, update the array when it needs reconfiguring, and finally call `Workspace.updateOptions()`.
+
+```ts
+class MyPlugin extends Plugin {
+  private editorExtension: Extension[] = [];
+
+  onload() {
+    //...
+
+    this.registerEditorExtension(this.editorExtension);
+  }
+
+  updateEditorExtension() {
+    // Empty the array while keeping the same reference
+    // (Don't create a new array here)
+    this.editorExtension.length = 0;
+
+    // Create new editor extension
+    let myNewExtension = this.createEditorExtension();
+    // Add it to the array
+    this.editorExtension.push(myNewExtension);
+
+    // Flush the changes to all editors
+    this.app.workspace.updateOptions();
+  }
+}
+
+```
+
 ## TypeScript
 
 ### Avoid `innerHTML`, `outerHTML` and `insertAdjacentHTML`
