@@ -888,7 +888,8 @@
         "repo": "tingmelvin/willemstad-x",
         "screenshot": "img/Willemstad-X.png",
         "modes": ["dark", "light"],
-        "branch": "main"
+        "branch": "main",
+        "publish": true
     },
     {
         "name": "Royal Velvet",
@@ -913,5 +914,21 @@
         "screenshot": "Overview.jpg",
         "modes": ["dark"],
         "branch": "main"
+    },
+    {
+        "name": "Mado 11",
+        "author": "hydescarf",
+        "repo": "hydescarf/Obsidian-Theme-Mado-11",
+        "screenshot": "cover.png",
+        "modes": ["dark", "light"],
+        "branch": "main"
+    },
+    {
+      "name": "Everblush",
+      "author": "Mangeshrex",
+      "repo": "Everblush/Obsidian",
+      "screenshot": "preview.png",
+      "modes": ["dark"],
+      "branch": "main"
     }
 ]
