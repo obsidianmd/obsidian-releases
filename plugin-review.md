@@ -132,7 +132,7 @@ Do this instead:
 ```ts
 const filePath = 'folder/file.md';
 
-const file = app.vault.getAbstractFile(filePath);
+const file = app.vault.getAbstractFileByPath(filePath);
 
 // Check if it exists and is of the correct type
 if (file instanceof TFile) {
