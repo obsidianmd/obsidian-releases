@@ -1485,7 +1485,7 @@
     {
         "id": "obsidian-chartsview-plugin",
         "name": "Charts View",
-        "description": "A charts view plugin for Obsidian, based on Ant Design Charts which is a React chart library.",
+        "description": "Data visualization solution in Obsidian, support plots and graphs.",
         "author": "caronchen",
         "repo": "caronchen/obsidian-chartsview-plugin"
     },
@@ -3199,7 +3199,7 @@
         "id": "obsidian-completr",
         "name": "Completr",
         "author": "tth05",
-        "description": "This plugin provides advanced auto-completion functionality for Obsidian",
+        "description": "This plugin provides advanced auto-completion functionality for LaTeX, Frontmatter and standard writing.",
         "repo": "tth05/obsidian-completr"
     },
     {
@@ -3599,11 +3599,11 @@
         "repo": "Richardsl/heatmap-calendar-obsidian"
     },
     {
-        "id": "obsidian-daily-notes-new-tab",
-        "name": "Daily notes new tab",
+        "id": "obsidian-daily-notes-opener",
+        "name": "Daily notes opener",
         "author": "Reorx",
-        "description": "Add command and sidebar button to open daily notes in new tab",
-        "repo": "reorx/obsidian-daily-notes-new-tab"
+        "description": "Easily open daily notes and periodic notes in new pane; customize periodic notes background; quick append new line to daily notes.",
+        "repo": "reorx/obsidian-daily-notes-opener"
     },
     {
         "id": "obsidian-advanced-new-folder",
@@ -3897,10 +3897,234 @@
         "repo": "adifyr/obsidian-chat-view"
     },
     {
-        "id": "obsidian-translator",
-        "name": "Translator",
-        "author": "Haifeng Lu",
-        "description": "This is a plugin for Obsidian to translate selected text.",
-        "repo": "luhaifeng666/obsidian-translator"
+        "id": "obsidian-doubleshift",
+        "name": "Doubleshift",
+        "author": "Qwyntex",
+        "description": "Open the command palette by pressing Double Shift like in IntelliJ",
+        "repo": "qwyntex/doubleshift"
+    },
+    {
+        "id": "obsidian-list-modified",
+        "name": "List Modified",
+        "author": "Francis Kafieh",
+        "description": "A simple obsidian plugin that links all modified files meeting certain criteria to a daily note",
+        "repo": "franciskafieh/obsidian-list-modified"
+    },
+    {
+        "id": "obsidian-latex-suite",
+        "name": "Latex Suite",
+        "author": "artisticat1",
+        "description": "Make typesetting LaTeX math as fast as handwriting",
+        "repo": "artisticat1/obsidian-latex-suite",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-better-codeblock",
+        "name": "Better CodeBlock",
+        "author": "StarGrey",
+        "description": "Add title, line numbers, and collapse button to code blocks in reading view",
+        "repo": "stargrey/obsidian-better-codeblock",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-wordnik",
+        "name": "Obsidian Wordnik Definitions",
+        "author": "Henry Gustafson",
+        "description": "Grabs information from Wordnik for a topic and brings it into Obsidian notes",
+        "repo": "lizard-heart/obsidian-wordnik-definitions"
+    },
+    {
+        "id": "typing-speed",
+        "name": "Typing speed",
+        "author": "supercyp",
+        "description": "A plugin for showing the current typing speed in the status bar",
+        "repo": "supercip971/obsidian-typing-speed"
+    },
+    {
+        "id": "obsidian-google-tasks",
+        "name": "Obsidian Google Tasks",
+        "author": "YukiGasai",
+        "description": "Interact with your Google Tasks from inside Obsidian",
+        "repo": "YukiGasai/obsidian-google-tasks"
+    },
+    {
+        "id": "obsidian-jtab",
+        "name": "Obsidian jTab",
+        "author": "davfive",
+        "description": "Add guitar chords and tabs to your notes with jTab codeblocks",
+        "repo": "davfive/obsidian-jtab",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-book-search-plugin",
+        "name": "Book Search",
+        "author": "anpigon",
+        "description": "Helps you find books and create notes.",
+        "repo": "anpigon/obsidian-book-search-plugin"
+    },
+    {
+        "id": "obsidian-paste-image-rename",
+        "name": "Paste image rename",
+        "author": "Reorx",
+        "description": "Rename image after pasting, support name pattern and auto renaming.",
+        "repo": "reorx/obsidian-paste-image-rename"
+    },
+    {
+        "id": "obsidian-scroll-offset",
+        "name": "Scroll Offset",
+        "author": "Lijyze",
+        "description": "Preserve custom distances before or after cursor.",
+        "repo": "lijyze/scroll-offset"
+    },
+    {
+        "id": "obsius-publish",
+        "name": "Obsius Publish",
+        "author": "Jon Grythe Stødle",
+        "description": "Make single notes instantly available on the web.",
+        "repo": "jonstodle/obsius-obsidian-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-snippet-downloader",
+        "name": "Snippet Downloader",
+        "author": "Mara-Li",
+        "description": "A obsidian's plugin to help to manage css snippets (download / update) from repository",
+        "repo": "Mara-Li/obsidian-snippet-downloader"
+    },
+    {
+        "id": "execute-code",
+        "name": "Execute Code",
+        "author": "twibiral",
+        "description": "Allows to execute code snippets within a note.",
+        "repo": "twibiral/obsidian-execute-code"
+    },
+    {
+        "id": "obsidian-badge",
+        "name": "Obsidian Badge",
+        "description": "This is a plugin to show badge for Obsidian.",
+        "author": "Jun Lin",
+        "repo": "linjunpop/obsidian-badge"
+    },
+    {
+        "id": "kr-book-info-plugin",
+        "name": "Korean Book Info Plugin",
+        "author": "kmsk99",
+        "description": "A plugin that crawls Yes24 to get book information.",
+        "repo": "kmsk99/kr-book-info-plugin"
+    },
+    {
+        "id": "obsidian-drag-n-drop-plugin",
+        "name": "Drag-n-Drop for blocks",
+        "author": "Artem Barmin",
+        "description": "Allow moving/copying/and creation embeds for blocks with drag-n-drop just like Logseq or Roam",
+        "repo": "artem-barmin/obsidian-block-drag-n-drop"
+    },
+    {
+        "id": "obsidian-link-embed",
+        "name": "Link Embed",
+        "author": "SErAphLi",
+        "description": "This plugin allow you to convert URLs in your notes into embeded previews.",
+        "repo": "Seraphli/obsidian-link-embed",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-columns",
+        "name": "Obsidian Columns",
+        "author": "Trevor Nichols",
+        "description": "Allows you to create columns in Obsidian Markdown",
+        "repo": "tnichols217/obsidian-columns",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-mkdocs-publisher",
+        "name": "Mkdocs Publisher",
+        "author": "Mara-Li",
+        "description": "Obsidian's Mkdocs Publisher is an association between a github actions and a Material mkdocs template to get a personal wiki site based on your Obsidian Vault.",
+        "repo": "Mara-Li/obsidian-mkdocs-publisher-plugin"
+    },
+    {
+        "id": "obsidian-notion-video",
+        "name": "Notion Video Embed",
+        "author": "lastknightcoder",
+        "description": "embed your notion video in obsidian",
+        "repo": "LastKnightCoder/obsidian-notion-video"
+    },
+    {
+        "id": "obsidian-math-plus",
+        "name": "Obsidian Math+",
+        "author": "Oscar Capraro",
+        "description": "This is an Obsidian plugin for taking math notes using Excalidraw.",
+        "repo": "ocapraro/obsidian-math-plus"
+    },
+    {
+        "id": "obsidian-todoist-link",
+        "name": "Todoist Link",
+        "author": "dennisseidel",
+        "description": "Create Todoist tasks and projects including bidirectional links from Obsidian",
+        "repo": "dennisseidel/obsidian-todoist-link"
+    },
+    {
+        "id": "obsidian-rewarder",
+        "name": "Rewarder",
+        "author": "Gustav Gnosspelius",
+        "description": "Gives you rewards for completing tasks/todos, highly configurable.",
+        "repo": "Gnopps/obsidian-rewarder"
+    },
+    {
+        "id": "obsidian-calibre-plugin",
+        "name": "Calibre",
+        "description": "This plugin allows you to access your calibre libraries and read books directly in Obsidian.",
+        "author": "caronchen",
+        "repo": "caronchen/obsidian-calibre-plugin"
+    },
+    {
+        "id": "omnisearch",
+        "name": "Omnisearch",
+        "author": "Simon Cambier",
+        "description": "A search engine that just works",
+        "repo": "scambier/obsidian-omnisearch"
+    },
+    {
+        "id": "plugins-galore",
+        "name": "Plugins Galore",
+        "author": "dylanpizzo",
+        "description": "This is an Obsidian plugin to allow easily sideloading other plugins.",
+        "repo": "dylanpizzo/obsidian-plugins-galore",
+        "branch": "main"
+    },
+    {
+        "id": "auto-card-link",
+        "name": "Auto Card Link",
+        "author": "Nekoshita Yuki",
+        "description": "Automatically fetches metadata from a url and makes it as a card-styled link.",
+        "repo": "nekoshita/obsidian-auto-card-link"
+    },
+    {
+        "id": "notion-like-tables",
+        "name": "Notion-Like Tables",
+        "author": "Trey Wallis",
+        "description": "Create markdown tables using an interface similar to that found in Notion.so.",
+        "repo": "trey-wallis/obsidian-notion-like-tables"
+    },
+    {
+        "id": "auto-moc",
+        "name": "AutoMOC",
+        "author": "Diego Alcantara",
+        "description": "Looks for missing linked mentions to the current note and imports them into the current note.",
+        "repo": "dalcantara7/obsidian-auto-moc"
+    },
+    {
+        "id": "obsidian-paste-png-to-jpeg",
+        "name": "Paste image Png to Jpeg",
+        "author": "musug",
+        "description": "Screenshot png to jpeg and compress and rename.",
+        "repo": "musug/obsidian-paste-png-to-jpeg"
+    },
+    {
+      "id": "obsidian-translator",
+      "name": "Translator",
+      "author": "Haifeng Lu",
+      "description": "This is a plugin for Obsidian to translate selected text.",
+      "repo": "luhaifeng666/obsidian-translator"
     }
 ]

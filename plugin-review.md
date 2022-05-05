@@ -119,7 +119,9 @@ While the file operations in the Adapter API are often more familiar to many dev
 
 ### Avoid iterating all files to find a file by its path
 
- This is inefficient, especially for large vaults.
+This is inefficient, especially for large vaults.
+
+If you are running into problems because `Vault.getAbstractFileByPath` returns a `TAbstractFile` instead of a `TFile`, you can run a `if (file instanceof TFile)` check to have it converted to a `TFile`, like the example below.
 
 **Don't** do this:
 
@@ -132,11 +134,11 @@ Do this instead:
 ```ts
 const filePath = 'folder/file.md';
 
-const file = app.vault.getAbstractFile(filePath);
+const file = app.vault.getAbstractFileByPath(filePath);
 
 // Check if it exists and is of the correct type
 if (file instanceof TFile) {
-  // file is guaranteed to be a TFile within this scope.
+  // file is automatically casted to TFile within this scope.
 }
 ```
 
