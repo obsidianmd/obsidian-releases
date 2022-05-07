@@ -3,7 +3,7 @@
 ## Repo URL
 
 <!--- Paste a link to your repo here for easy access -->
-Link to my plugin:
+Link to my plugin: https://github.com/juliang22/ObsidianYoutubeTimestampNotes
 
 ## Release Checklist
 - [ ] I have tested the plugin on
