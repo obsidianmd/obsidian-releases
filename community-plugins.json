@@ -1485,7 +1485,7 @@
     {
         "id": "obsidian-chartsview-plugin",
         "name": "Charts View",
-        "description": "A charts view plugin for Obsidian, based on Ant Design Charts which is a React chart library.",
+        "description": "Data visualization solution in Obsidian, support plots and graphs.",
         "author": "caronchen",
         "repo": "caronchen/obsidian-chartsview-plugin"
     },
@@ -4091,6 +4091,41 @@
         "description": "This is an Obsidian plugin to allow easily sideloading other plugins.",
         "repo": "dylanpizzo/obsidian-plugins-galore",
         "branch": "main"
+    },
+    {
+        "id": "auto-card-link",
+        "name": "Auto Card Link",
+        "author": "Nekoshita Yuki",
+        "description": "Automatically fetches metadata from a url and makes it as a card-styled link.",
+        "repo": "nekoshita/obsidian-auto-card-link"
+    },
+    {
+        "id": "notion-like-tables",
+        "name": "Notion-Like Tables",
+        "author": "Trey Wallis",
+        "description": "Create markdown tables using an interface similar to that found in Notion.so.",
+        "repo": "trey-wallis/obsidian-notion-like-tables"
+    },
+    {
+        "id": "auto-moc",
+        "name": "AutoMOC",
+        "author": "Diego Alcantara",
+        "description": "Looks for missing linked mentions to the current note and imports them into the current note.",
+        "repo": "dalcantara7/obsidian-auto-moc"
+    },
+    {
+        "id": "obsidian-paste-png-to-jpeg",
+        "name": "Paste image Png to Jpeg",
+        "author": "musug",
+        "description": "Screenshot png to jpeg and compress and rename.",
+        "repo": "musug/obsidian-paste-png-to-jpeg"
+    },
+    {
+        "id": "obsidian-folder-index",
+        "name": "Folder Index",
+        "author": "turulix",
+        "description": "Automatic MOC for folders",
+        "repo": "turulix/obsidian-folder-index"
     },
     {
         "id": "obsidian-filename-emoji-remover",
