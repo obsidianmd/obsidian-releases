@@ -83,7 +83,7 @@ jobs:
             }
 
             if (errors.length > 0) {
-              let message = `#### Hello ${plugin.author}! <a href="https://obsidian.md"><img align="right" height="30px" src="https://user-images.githubusercontent.com/59741989/139557624-63e6e31f-e617-4041-89ae-78b534a8de5c.png"/></a>\n**I found the following errors in your plugin, ${plugin.name}:**\n\n${errors.join('\n')}\n\n---\n<sup>This check was done automatically.`;
+              let message = `#### Hello ${author}! <a href="https://obsidian.md"><img align="right" height="30px" src="https://user-images.githubusercontent.com/59741989/139557624-63e6e31f-e617-4041-89ae-78b534a8de5c.png"/></a>\n**I found the following errors in your plugin, ${plugin.name}:**\n\n${errors.join('\n')}\n\n---\n<sup>This check was done automatically.`;
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
