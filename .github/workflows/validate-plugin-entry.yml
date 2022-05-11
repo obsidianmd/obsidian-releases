@@ -19,7 +19,7 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const author = context.payload.sender.login;
+            const author = context.payload.pull_request.user.login;
             const plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
             const plugin = plugins[plugins.length - 1];
 
