@@ -1,7 +1,7 @@
 name: Validate Plugin Entry
 
 on:
-  pull_request:
+  pull_request_target:
     branches:
       - master
     paths:
@@ -15,6 +15,7 @@ jobs:
       - uses: actions/setup-node@v2
       - uses: actions/github-script@v6
         with:
+          ref: "refs/pull/${{ github.event.number }}/merge"
           script: |
             const fs = require('fs');
             const author = context.payload.sender.login;
