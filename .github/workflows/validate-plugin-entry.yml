@@ -1,7 +1,7 @@
 name: Validate Plugin Entry
 
 on:
-  pull_request:
+  pull_request_target:
     branches:
       - master
     paths:
@@ -12,12 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: "refs/pull/${{ github.event.number }}/merge"
       - uses: actions/setup-node@v2
       - uses: actions/github-script@v6
         with:
           script: |
             const fs = require('fs');
-            const author = context.payload.sender.login;
+            const author = context.payload.pull_request.user.login;
             const plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
             const plugin = plugins[plugins.length - 1];
 
