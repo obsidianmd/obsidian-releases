@@ -4140,6 +4140,14 @@
         "description": "This is an ePub reader plugin for Obsidian. Can open document with \".epub\" file extension.",
         "author": "caronchen",
         "repo": "caronchen/obsidian-epub-plugin"
+    },  
+    {
+        "id": "obsidian-pandoc-reference-list",
+        "name": "Pandoc Reference List",
+        "author": "mgmeyers",
+        "description": "Displays a formatted reference in the sidebar for each pandoc citekey present in the current document.",
+        "repo": "mgmeyers/obsidian-pandoc-reference-list",
+        "branch": "main"
     },
     {
         "id": "obsidian-meta-title-filename-plugin",
@@ -4147,5 +4155,5 @@
         "author": "Snezhig",
         "description": "Let you use data from meta block as a filename",
         "repo": "Snezhig/obsidian-meta-title-filename"
-    }    
+    }  
 ]
