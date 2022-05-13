@@ -1,7 +1,7 @@
 name: Validate Plugin Entry
 
 on:
-  pull_request:
+  pull_request_target:
     branches:
       - master
     paths:
@@ -12,12 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: "refs/pull/${{ github.event.number }}/merge"
       - uses: actions/setup-node@v2
       - uses: actions/github-script@v6
         with:
           script: |
             const fs = require('fs');
-            const author = context.payload.sender.login;
+            const author = context.payload.pull_request.user.login;
             const plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
             const plugin = plugins[plugins.length - 1];
 
@@ -39,6 +41,7 @@ jobs:
             }
 
             let [owner, repo] = repoInfo;
+            let manifest = {};
             console.log(`Repo info: ${owner}/${repo}`);
 
             if (owner.toLowerCase() !== author.toLowerCase()) {
@@ -51,9 +54,25 @@ jobs:
               }
 
               try {
-                let release = await github.rest.repos.getLatestRelease({
+                let manifestFile = await github.rest.repos.getContent({
                   owner,
                   repo,
+                  path: 'manifest.json',
+                });
+
+                manifest = JSON.parse(Buffer.from(manifestFile.data.content, 'base64').toString('utf-8'));
+                if (manifest.id != plugin.id) {
+                  addError('Plugin ID mismatch, the ID in this repo is not the same as the one in your repo.');
+                }
+              } catch (e) {
+                addError(`You don't have a \`manifest.json\` at the root of your repo.`);
+              }
+
+              try {
+                let release = await github.rest.repos.getReleaseByTag({
+                  owner,
+                  repo,
+                  tag: manifest.version,
                 });
 
                 const assets = release.data.assets || [];
@@ -63,27 +82,13 @@ jobs:
                 if (!assets.find(p => p.name === 'manifest.json')) {
                   addError('Your latest Release is missing the `manifest.json` file.');
                 }
-                try {
-                  let manifestFile = await github.rest.repos.getContent({
-                    owner,
-                    repo,
-                    path: 'manifest.json',
-                  });
-
-                  let manifest = JSON.parse(Buffer.from(manifestFile.data.content, 'base64').toString('utf-8'));
-                  if (manifest.id != plugin.id) {
-                    addError('Plugin ID mismatch, the ID in this repo is not the same as the one in your repo.');
-                  }
-                } catch (e) {
-                  addError(`You don't have a \`manifest.json\` at the root of your repo.`);
-                }
               } catch (e) {
                 addError(`It seems like you made a typo in the repository field \`${plugin.repo}\`.\n<details><summary>Log</summary><pre>${escapeHtml(e.toString())}</pre></details>`);
               }
             }
 
             if (errors.length > 0) {
-              let message = `#### Hello ${plugin.author}! <a href="https://obsidian.md"><img align="right" height="30px" src="https://user-images.githubusercontent.com/59741989/139557624-63e6e31f-e617-4041-89ae-78b534a8de5c.png"/></a>\n**I found the following errors in your plugin, ${plugin.name}:**\n\n${errors.join('\n')}\n\n---\n<sup>This check was done automatically.`;
+              let message = `#### Hello ${author}! <a href="https://obsidian.md"><img align="right" height="30px" src="https://user-images.githubusercontent.com/59741989/139557624-63e6e31f-e617-4041-89ae-78b534a8de5c.png"/></a>\n**I found the following errors in your plugin, ${plugin.name}:**\n\n${errors.join('\n')}\n\n---\n<sup>This check was done automatically.`;
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
@@ -92,12 +97,14 @@ jobs:
               });
               core.setFailed("Failed to validate plugin");
             } else {
-              await github.rest.issues.addLabels({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                labels: ['Ready for review']
-              });
+              if (context.payload.pull_request.labels.indexOf('Changes requested') === -1) {
+                await github.rest.issues.addLabels({
+                  issue_number: context.issue.number,
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  labels: ['Ready for review']
+                });
+              }
             }
     permissions:
       contents: write
