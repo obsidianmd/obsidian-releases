@@ -995,7 +995,7 @@
         "id": "text-snippets-obsidian",
         "name": "Text Snippets",
         "author": "Ariana Khitrova",
-        "description": "Snippets for faster typing",
+        "description": "Snippets for faster typing. Allows you to replace text templates, create your own, and expand text shortcuts.",
         "repo": "ArianaKhit/text-snippets-obsidian",
         "branch": "main"
     },
@@ -4127,11 +4127,39 @@
         "description": "Automatic MOC for folders",
         "repo": "turulix/obsidian-folder-index"
     },
+        "id": "obsidian-filename-emoji-remover",
+        "name": "Filename Emoji Remover",
+        "author": "Yüksel Tolun",
+        "description": "This is a simple plugin to automatically remove emojis from filenames. Main purpose is to get rid of Dropbox sync issues for Readwise imported content",
+        "repo": "YTolun/obsidian-filename-emoji-remover"
+    },
     {
-      "id": "obsidian-bellboy",
+        "id": "obsidian-epub-plugin",
+        "name": "ePub Reader",
+        "description": "This is an ePub reader plugin for Obsidian. Can open document with \".epub\" file extension.",
+        "author": "caronchen",
+        "repo": "caronchen/obsidian-epub-plugin"
+    },
+    {
+        "id": "obsidian-pandoc-reference-list",
+        "name": "Pandoc Reference List",
+        "author": "mgmeyers",
+        "description": "Displays a formatted reference in the sidebar for each pandoc citekey present in the current document.",
+        "repo": "mgmeyers/obsidian-pandoc-reference-list",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-enhancing-export",
+        "name": "Obsidian Enhancing Export",
+        "author": "YISH",
+        "description": "A enhancing export plugin base on pandoc for Obsidian. It allows to export to formats like Html, DOCX, ePub and PDF or Hugo.",
+        "repo": "mokeyish/obsidian-enhancing-export"
+  },
+  {
+        "id": "obsidian-bellboy",
         "name": "Bellboy",
         "author": "Shaked Lokits (shaked@melio.com)",
         "description": "Opinionated file structure manager.",
         "repo": "shakedlokits/obsidian-bellboy"
-    }
+  }
 ]
