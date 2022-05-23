@@ -4187,10 +4187,26 @@
         "branch": "master"
     },
     {
-        "id": "obsidian-meta-title-filename-plugin",
-        "name": "Meta title filenames",
+        "id": "obsidian-upcoming",
+        "name": "Upcoming",
+        "description": "Open upcoming daily notes in their own panes.",
+        "author": "Charlie Chao",
+        "repo": "charliecm/obsidian-upcoming",
+        "branch": "main"
+    },
+    {
+        "id": "nuke-orphans",
+        "name": "Nuke Orphans",
+        "author": "Sandorex",
+        "description": "Plugin that trashes orphaned files and attachments",
+        "repo": "sandorex/nuke-orphans-plugin"
+    },
+    {
+        "id": "obsidian-front-matter-title-plugin",
+        "name": "Front Matter Title",
         "author": "Snezhig",
-        "description": "Let you use data from meta block as a filename",
-        "repo": "Snezhig/obsidian-meta-title-filename"
+        "description": "Lets you define a title in frontmatter to be displayed as the filename",
+        "repo": "Snezhig/obsidian-front-matter-title"
     }
+  
 ]
