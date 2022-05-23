@@ -4156,11 +4156,24 @@
         "description": "A enhancing export plugin base on pandoc for Obsidian. It allows to export to formats like Html, DOCX, ePub and PDF or Hugo.",
         "repo": "mokeyish/obsidian-enhancing-export"
   },
+        "id": "enlightenment-obsidian",
+        "name": "Enlightenment",
+        "description": "Pay attention to what you're paying attention to. Enlightenment adds a 'zen mode' for Preview, hiding the contents of your notes except for what's underneath your pointer.",
+        "author": "ryanjamurphy",
+        "repo": "ryanjamurphy/enlightenment-obsidian"
+  },
   {
-	"id": "obsidian-ics"
-    "name": "Obsidian ICS Plugin",
-    "author": "muness",
-	"description": "Adds events from calendar ics published on the web to daily note on demand.  Daily Note or Periodic Notes plugins: specifically it gets the date to search for events during from the currently open daily note."
-    "repo": "muness/obsidian-ics"
+        "id": "obsidian-release-timeline",
+        "name": "Release Timeline",
+        "author": "cakechaser",
+        "description": "Release timeline rendered based on notes metadata with a dataview-like syntax.",
+        "repo": "cakechaser/obsidian-release-timeline"
+  },
+  {
+        "id": "obsidian-ics"
+        "name": "Obsidian ICS Plugin",
+        "author": "muness",
+        "description": "Adds events from calendar ics published on the web to daily note on demand.  Daily Note or Periodic Notes plugins: specifically it gets the date to search for events during from the currently open daily note."
+        "repo": "muness/obsidian-ics"
   }
 ]
