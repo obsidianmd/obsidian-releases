@@ -14,10 +14,27 @@ Thanks for submitting your creations!
 
 You can find a detailed explanation for submitting your [plugin here](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/How+to+add+your+plugin+to+the+community+plugin+list) and your [theme here](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/How+to+add+your+theme+to+the+community+theme+store).
 
+## Community Theme
+
+To add your theme to our theme store, make a pull request to the `community-css-theme.json` file. Please add your theme to the end of the list.
+
+- `name`: a unique name for your theme. Must not collide with other themes.
+- `author`: the author's name for display.
+- `repo`: the GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
+- `screenshot`: path to the screenshot of your theme.
+- `modes`: if your theme supports both dark and light mode, put `["dark", "light"]`. Otherwise, put `["dark"]` if your theme only supports dark mode, or  `["light"]` if your theme only supports light mode.
+- `branch`: which branch to use for your reposity. You can omit it if you're using `master`.
+- `publish`: if your theme supports Obsidian Publish, set this to `true`. Omit it otherwise.
+
+To get your theme compatible with Obsidian Publish, you can now use `applyCss` and `applyCssByLink` to test out your CSS in the developer console of Obsidian Publish sites, so that you don't actually need to own sites to test your `publish.css`. You can test it out on our help site here: https://help.obsidian.md/
+
+`applyCss` takes a CSS string, you can use backtick (template strings) for multiline CSS. `applyCssByLink` takes a link and loads the CSS, would recommend GitHub raw file URLs.
+
+## Community Plugin
+
 ### Community Plugins format
 
-To add your plugin to the list, make a pull request to the `community-plugins.json` file.
-The order of this list is not kept, please add your plugin to the end of the list.
+To add your plugin to the list, make a pull request to the `community-plugins.json` file. Please add your plugin to the end of the list.
 
 - `id`: A unique ID for your plugin. Make sure this is the same one you have in your `manifest.json`.
 - `name`: The name of your plugin.
