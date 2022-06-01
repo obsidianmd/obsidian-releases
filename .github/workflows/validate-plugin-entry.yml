@@ -30,6 +30,11 @@ jobs:
               console.log('Found issue: ' + error);
             };
 
+            if (context.payload.pull_request.additions <= context.payload.pull_request.deletions) {
+              // Don't run any validation checks if the user is just modifying existing plugin config
+              return;
+            }
+
             if (context.payload.pull_request.changed_files > 1) {
               addError('You modified files other than `community-plugins.json`.');
             }
