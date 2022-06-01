@@ -1433,9 +1433,9 @@
     {
         "id": "obsidian-tasks-plugin",
         "name": "Tasks",
-        "author": "Martin Schenck",
+        "author": "Martin Schenck and Clare Macrae",
         "description": "Task management for Obsidian",
-        "repo": "schemar/obsidian-tasks",
+        "repo": "obsidian-tasks-group/obsidian-tasks",
         "branch": "main"
     },
     {
@@ -1724,7 +1724,7 @@
         "id": "copy-url-in-preview",
         "name": "Copy Image and URL in Preview",
         "author": "NomarCub",
-        "description": "Copy Image and Copy URL context menu in preview mode",
+        "description": "Copy Image, Copy URL and Open PDF externally context menu in preview mode",
         "repo": "NomarCub/obsidian-copy-url-in-preview"
     },
     {
@@ -4155,22 +4155,22 @@
         "author": "YISH",
         "description": "A enhancing export plugin base on pandoc for Obsidian. It allows to export to formats like Html, DOCX, ePub and PDF or Hugo.",
         "repo": "mokeyish/obsidian-enhancing-export"
-  },
-  {
+    },
+    {
         "id": "enlightenment-obsidian",
         "name": "Enlightenment",
         "description": "Pay attention to what you're paying attention to. Enlightenment adds a 'zen mode' for Preview, hiding the contents of your notes except for what's underneath your pointer.",
         "author": "ryanjamurphy",
         "repo": "ryanjamurphy/enlightenment-obsidian"
-  },
-  {
+    },
+    {
         "id": "obsidian-release-timeline",
         "name": "Release Timeline",
         "author": "cakechaser",
         "description": "Release timeline rendered based on notes metadata with a dataview-like syntax.",
         "repo": "cakechaser/obsidian-release-timeline"
-  },
-  {
+    },
+    {
         "id": "obsidian-folder-focus-mode",
         "name": "Folder Focus Mode",
         "author": "grochowski",
@@ -4207,6 +4207,64 @@
         "author": "Snezhig",
         "description": "Lets you define a title in frontmatter to be displayed as the filename",
         "repo": "Snezhig/obsidian-front-matter-title"
+    },
+    {
+        "id": "obsidian-bellboy",
+        "name": "Bellboy",
+        "author": "Shaked Lokits",
+        "description": "Opinionated file structure manager.",
+        "repo": "shakedlokits/obsidian-bellboy"
+    },
+    {
+        "id": "obsidian-functionplot",
+        "name": "Function Plot",
+        "author": "leonhma",
+        "description": "Render mathematical functions in a markdown codeblock.",
+        "repo": "leonhma/obsidian-functionplot"
+    },
+    {
+        "id": "obsidian-note-autocreator",
+        "name": "Note Auto Creator",
+        "author": "Simon T. Clement",
+        "description": "Automatically create notes when links are created to them.",
+        "repo": "SimonTC/obsidian-note-autocreation"
+    },
+    {
+
+        "id": "local-quotes",
+        "name": "Local Quotes",
+        "author": "ka1tzyu",
+        "description": "Collect your quotes from all over the repository and embed them in different locations with refresh delays.",
+        "repo": "ka1tzyu/local-quotes"
+    },
+    {
+        "id": "obsidian-state-switcher",
+        "name": "State Switcher",
+        "author": "Lijyze",
+        "description": "Allow you switch value of specific field within custom value set, so you won't make mistake.",
+        "repo": "lijyze/obsidian-state-switcher"
+    },
+    {
+        "id": "obsidian-media-db-plugin",
+        "name": "Media DB Plugin",
+        "author": "Moritz Jung",
+        "description": "A plugin that can query multiple APIs for movies, series, anime, games, music releases and wiki articles, and import them into your vault.",
+        "repo": "mProjectsCode/obsidian-media-db-plugin",
+        "branch": "release"
+    },
+    {
+        "id": "obsidian-sequence-hotkeys",
+        "name": "Sequence Hotkeys",
+        "author": "Ruan Moolman",
+        "description": "This plugin allows you to set hotkeys with key sequences instead of a single chord.",
+        "repo": "moolmanruan/obsidian-sequence-hotkeys"
+    },
+    {
+        "id": "tasks-packrat-plugin",
+        "name": "Packrat",
+        "author": "Thomas Herden",
+        "description": "Manage completed instances of recurring tasks that were created and completed using the Tasks plugin.",
+        "repo": "therden/packrat"
     },
     {
         "id": "obsidian-zotero",
