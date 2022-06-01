@@ -1433,9 +1433,9 @@
     {
         "id": "obsidian-tasks-plugin",
         "name": "Tasks",
-        "author": "Martin Schenck",
+        "author": "Martin Schenck and Clare Macrae",
         "description": "Task management for Obsidian",
-        "repo": "schemar/obsidian-tasks",
+        "repo": "obsidian-tasks-group/obsidian-tasks",
         "branch": "main"
     },
     {
@@ -1724,7 +1724,7 @@
         "id": "copy-url-in-preview",
         "name": "Copy Image and URL in Preview",
         "author": "NomarCub",
-        "description": "Copy Image and Copy URL context menu in preview mode",
+        "description": "Copy Image, Copy URL and Open PDF externally context menu in preview mode",
         "repo": "NomarCub/obsidian-copy-url-in-preview"
     },
     {
@@ -3833,10 +3833,10 @@
     },
     {
         "id": "obsidian-zotero-desktop-connector",
-        "name": "Zotero Desktop Connector",
+        "name": "Zotero Integration",
         "author": "mgmeyers",
-        "description": "Insert citations, bibliographies, and notes directly from Zotero desktop.",
-        "repo": "mgmeyers/obsidian-zotero-desktop-connector",
+        "description": "Insert and import citations, bibliographies, notes, and PDF annotations from Zotero.",
+        "repo": "mgmeyers/obsidian-zotero-integration",
         "branch": "main"
     },
     {
@@ -4037,10 +4037,10 @@
     },
     {
         "id": "obsidian-mkdocs-publisher",
-        "name": "Mkdocs Publisher",
+        "name": "Github Publisher",
         "author": "Mara-Li",
-        "description": "Obsidian's Mkdocs Publisher is an association between a github actions and a Material mkdocs template to get a personal wiki site based on your Obsidian Vault.",
-        "repo": "Mara-Li/obsidian-mkdocs-publisher-plugin"
+        "description": "Github Publisher is a plugin that help you to send file in a configured Github Repository, based on a frontmatter entry state.",
+        "repo": "Mara-Li/obsidian-github-publisher"
     },
     {
         "id": "obsidian-notion-video",
@@ -4207,6 +4207,27 @@
         "author": "Snezhig",
         "description": "Lets you define a title in frontmatter to be displayed as the filename",
         "repo": "Snezhig/obsidian-front-matter-title"
+    },
+    {
+        "id": "obsidian-bellboy",
+        "name": "Bellboy",
+        "author": "Shaked Lokits",
+        "description": "Opinionated file structure manager.",
+        "repo": "shakedlokits/obsidian-bellboy"
+    },
+    {
+        "id": "obsidian-functionplot",
+        "name": "Function Plot",
+        "author": "leonhma",
+        "description": "Render mathematical functions in a markdown codeblock.",
+        "repo": "leonhma/obsidian-functionplot"
+    },
+    {
+        "id": "obsidian-note-autocreator",
+        "name": "Note Auto Creator",
+        "author": "Simon T. Clement",
+        "description": "Automatically create notes when links are created to them.",
+        "repo": "SimonTC/obsidian-note-autocreation"
     },
     {
         "id": "local-quotes",
