@@ -995,7 +995,7 @@
         "id": "text-snippets-obsidian",
         "name": "Text Snippets",
         "author": "Ariana Khitrova",
-        "description": "Snippets for faster typing",
+        "description": "Snippets for faster typing. Allows you to replace text templates, create your own, and expand text shortcuts.",
         "repo": "ArianaKhit/text-snippets-obsidian",
         "branch": "main"
     },
@@ -1433,9 +1433,9 @@
     {
         "id": "obsidian-tasks-plugin",
         "name": "Tasks",
-        "author": "Martin Schenck",
+        "author": "Martin Schenck and Clare Macrae",
         "description": "Task management for Obsidian",
-        "repo": "schemar/obsidian-tasks",
+        "repo": "obsidian-tasks-group/obsidian-tasks",
         "branch": "main"
     },
     {
@@ -1485,7 +1485,7 @@
     {
         "id": "obsidian-chartsview-plugin",
         "name": "Charts View",
-        "description": "A charts view plugin for Obsidian, based on Ant Design Charts which is a React chart library.",
+        "description": "Data visualization solution in Obsidian, support plots and graphs.",
         "author": "caronchen",
         "repo": "caronchen/obsidian-chartsview-plugin"
     },
@@ -1724,7 +1724,7 @@
         "id": "copy-url-in-preview",
         "name": "Copy Image and URL in Preview",
         "author": "NomarCub",
-        "description": "Copy Image and Copy URL context menu in preview mode",
+        "description": "Copy Image, Copy URL and Open PDF externally context menu in preview mode",
         "repo": "NomarCub/obsidian-copy-url-in-preview"
     },
     {
@@ -3025,22 +3025,6 @@
         "repo": "getmatterapp/obsidian-matter"
     },
     {
-        "id": "linked-data-helper",
-        "name": "Linked Data Helper",
-        "description": "Generate the necessary data for Linked Data Vocabularies.",
-        "author": "kometenstaub",
-        "repo": "kometenstaub/linked-data-helper",
-        "branch": "main"
-    },
-    {
-        "id": "linked-data-vocabularies",
-        "name": "Linked Data Vocabularies",
-        "description": "Add linked data to the YAML of your notes.",
-        "author": "kometenstaub",
-        "repo": "kometenstaub/obsidian-linked-data-vocabularies",
-        "branch": "main"
-    },
-    {
         "id": "obsidian-regex-replace",
         "name": "Regex Find and Replace",
         "description": "Provides a Find/Replace dialog which optionally supports regular expressions and scope (full document or text selection).",
@@ -3199,7 +3183,7 @@
         "id": "obsidian-completr",
         "name": "Completr",
         "author": "tth05",
-        "description": "This plugin provides advanced auto-completion functionality for Obsidian",
+        "description": "This plugin provides advanced auto-completion functionality for LaTeX, Frontmatter and standard writing.",
         "repo": "tth05/obsidian-completr"
     },
     {
@@ -3833,10 +3817,10 @@
     },
     {
         "id": "obsidian-zotero-desktop-connector",
-        "name": "Zotero Desktop Connector",
+        "name": "Zotero Integration",
         "author": "mgmeyers",
-        "description": "Insert citations, bibliographies, and notes directly from Zotero desktop.",
-        "repo": "mgmeyers/obsidian-zotero-desktop-connector",
+        "description": "Insert and import citations, bibliographies, notes, and PDF annotations from Zotero.",
+        "repo": "mgmeyers/obsidian-zotero-integration",
         "branch": "main"
     },
     {
@@ -3918,10 +3902,422 @@
         "repo": "artisticat1/obsidian-latex-suite",
         "branch": "main"
     },
+    {
+        "id": "obsidian-better-codeblock",
+        "name": "Better CodeBlock",
+        "author": "StarGrey",
+        "description": "Add title, line numbers, and collapse button to code blocks in reading view",
+        "repo": "stargrey/obsidian-better-codeblock",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-wordnik",
+        "name": "Obsidian Wordnik Definitions",
+        "author": "Henry Gustafson",
+        "description": "Grabs information from Wordnik for a topic and brings it into Obsidian notes",
+        "repo": "lizard-heart/obsidian-wordnik-definitions"
+    },
+    {
+        "id": "typing-speed",
+        "name": "Typing speed",
+        "author": "supercyp",
+        "description": "A plugin for showing the current typing speed in the status bar",
+        "repo": "supercip971/obsidian-typing-speed"
+    },
+    {
+        "id": "obsidian-google-tasks",
+        "name": "Obsidian Google Tasks",
+        "author": "YukiGasai",
+        "description": "Interact with your Google Tasks from inside Obsidian",
+        "repo": "YukiGasai/obsidian-google-tasks"
+    },
+    {
+        "id": "obsidian-jtab",
+        "name": "Obsidian jTab",
+        "author": "davfive",
+        "description": "Add guitar chords and tabs to your notes with jTab codeblocks",
+        "repo": "davfive/obsidian-jtab",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-book-search-plugin",
+        "name": "Book Search",
+        "author": "anpigon",
+        "description": "Helps you find books and create notes.",
+        "repo": "anpigon/obsidian-book-search-plugin"
+    },
+    {
+        "id": "obsidian-paste-image-rename",
+        "name": "Paste image rename",
+        "author": "Reorx",
+        "description": "Rename image after pasting, support name pattern and auto renaming.",
+        "repo": "reorx/obsidian-paste-image-rename"
+    },
+    {
+        "id": "obsidian-scroll-offset",
+        "name": "Scroll Offset",
+        "author": "Lijyze",
+        "description": "Preserve custom distances before or after cursor.",
+        "repo": "lijyze/scroll-offset"
+    },
+    {
+        "id": "obsius-publish",
+        "name": "Obsius Publish",
+        "author": "Jon Grythe Stødle",
+        "description": "Make single notes instantly available on the web.",
+        "repo": "jonstodle/obsius-obsidian-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-snippet-downloader",
+        "name": "Snippet Downloader",
+        "author": "Mara-Li",
+        "description": "A obsidian's plugin to help to manage css snippets (download / update) from repository",
+        "repo": "Mara-Li/obsidian-snippet-downloader"
+    },
+    {
+        "id": "execute-code",
+        "name": "Execute Code",
+        "author": "twibiral",
+        "description": "Allows to execute code snippets within a note.",
+        "repo": "twibiral/obsidian-execute-code"
+    },
+    {
+        "id": "obsidian-badge",
+        "name": "Obsidian Badge",
+        "description": "This is a plugin to show badge for Obsidian.",
+        "author": "Jun Lin",
+        "repo": "linjunpop/obsidian-badge"
+    },
+    {
+        "id": "kr-book-info-plugin",
+        "name": "Korean Book Info Plugin",
+        "author": "kmsk99",
+        "description": "A plugin that crawls Yes24 to get book information.",
+        "repo": "kmsk99/kr-book-info-plugin"
+    },
+    {
+        "id": "obsidian-drag-n-drop-plugin",
+        "name": "Drag-n-Drop for blocks",
+        "author": "Artem Barmin",
+        "description": "Allow moving/copying/and creation embeds for blocks with drag-n-drop just like Logseq or Roam",
+        "repo": "artem-barmin/obsidian-block-drag-n-drop"
+    },
+    {
+        "id": "obsidian-link-embed",
+        "name": "Link Embed",
+        "author": "SErAphLi",
+        "description": "This plugin allow you to convert URLs in your notes into embeded previews.",
+        "repo": "Seraphli/obsidian-link-embed",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-columns",
+        "name": "Obsidian Columns",
+        "author": "Trevor Nichols",
+        "description": "Allows you to create columns in Obsidian Markdown",
+        "repo": "tnichols217/obsidian-columns",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-mkdocs-publisher",
+        "name": "Github Publisher",
+        "author": "Mara-Li",
+        "description": "Github Publisher is a plugin that help you to send file in a configured Github Repository, based on a frontmatter entry state.",
+        "repo": "Mara-Li/obsidian-github-publisher"
+    },
+    {
+        "id": "obsidian-notion-video",
+        "name": "Notion Video Embed",
+        "author": "lastknightcoder",
+        "description": "embed your notion video in obsidian",
+        "repo": "LastKnightCoder/obsidian-notion-video"
+    },
+    {
+        "id": "obsidian-math-plus",
+        "name": "Obsidian Math+",
+        "author": "Oscar Capraro",
+        "description": "This is an Obsidian plugin for taking math notes using Excalidraw.",
+        "repo": "ocapraro/obsidian-math-plus"
+    },
+    {
+        "id": "obsidian-todoist-link",
+        "name": "Todoist Link",
+        "author": "dennisseidel",
+        "description": "Create Todoist tasks and projects including bidirectional links from Obsidian",
+        "repo": "dennisseidel/obsidian-todoist-link"
+    },
+    {
+        "id": "obsidian-rewarder",
+        "name": "Rewarder",
+        "author": "Gustav Gnosspelius",
+        "description": "Gives you rewards for completing tasks/todos, highly configurable.",
+        "repo": "Gnopps/obsidian-rewarder"
+    },
+    {
+        "id": "obsidian-calibre-plugin",
+        "name": "Calibre",
+        "description": "This plugin allows you to access your calibre libraries and read books directly in Obsidian.",
+        "author": "caronchen",
+        "repo": "caronchen/obsidian-calibre-plugin"
+    },
+    {
+        "id": "omnisearch",
+        "name": "Omnisearch",
+        "author": "Simon Cambier",
+        "description": "A search engine that just works",
+        "repo": "scambier/obsidian-omnisearch"
+    },
+    {
+        "id": "plugins-galore",
+        "name": "Plugins Galore",
+        "author": "dylanpizzo",
+        "description": "This is an Obsidian plugin to allow easily sideloading other plugins.",
+        "repo": "dylanpizzo/obsidian-plugins-galore",
+        "branch": "main"
+    },
+    {
+        "id": "auto-card-link",
+        "name": "Auto Card Link",
+        "author": "Nekoshita Yuki",
+        "description": "Automatically fetches metadata from a url and makes it as a card-styled link.",
+        "repo": "nekoshita/obsidian-auto-card-link"
+    },
+    {
+        "id": "notion-like-tables",
+        "name": "Notion-Like Tables",
+        "author": "Trey Wallis",
+        "description": "Create markdown tables using an interface similar to that found in Notion.so.",
+        "repo": "trey-wallis/obsidian-notion-like-tables"
+    },
+    {
+        "id": "auto-moc",
+        "name": "AutoMOC",
+        "author": "Diego Alcantara",
+        "description": "Looks for missing linked mentions to the current note and imports them into the current note.",
+        "repo": "dalcantara7/obsidian-auto-moc"
+    },
+    {
+        "id": "obsidian-paste-png-to-jpeg",
+        "name": "Paste image Png to Jpeg",
+        "author": "musug",
+        "description": "Screenshot png to jpeg and compress and rename.",
+        "repo": "musug/obsidian-paste-png-to-jpeg"
+    },
+    {
+        "id": "obsidian-folder-index",
+        "name": "Folder Index",
+        "author": "turulix",
+        "description": "Automatic MOC for folders",
+        "repo": "turulix/obsidian-folder-index"
+    },
+    {
+        "id": "obsidian-filename-emoji-remover",
+        "name": "Filename Emoji Remover",
+        "author": "Yüksel Tolun",
+        "description": "This is a simple plugin to automatically remove emojis from filenames. Main purpose is to get rid of Dropbox sync issues for Readwise imported content",
+        "repo": "YTolun/obsidian-filename-emoji-remover"
+    },
+    {
+        "id": "obsidian-epub-plugin",
+        "name": "ePub Reader",
+        "description": "This is an ePub reader plugin for Obsidian. Can open document with \".epub\" file extension.",
+        "author": "caronchen",
+        "repo": "caronchen/obsidian-epub-plugin"
+    },
+    {
+        "id": "obsidian-pandoc-reference-list",
+        "name": "Pandoc Reference List",
+        "author": "mgmeyers",
+        "description": "Displays a formatted reference in the sidebar for each pandoc citekey present in the current document.",
+        "repo": "mgmeyers/obsidian-pandoc-reference-list",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-enhancing-export",
+        "name": "Obsidian Enhancing Export",
+        "author": "YISH",
+        "description": "A enhancing export plugin base on pandoc for Obsidian. It allows to export to formats like Html, DOCX, ePub and PDF or Hugo.",
+        "repo": "mokeyish/obsidian-enhancing-export"
+    },
+    {
+        "id": "enlightenment-obsidian",
+        "name": "Enlightenment",
+        "description": "Pay attention to what you're paying attention to. Enlightenment adds a 'zen mode' for Preview, hiding the contents of your notes except for what's underneath your pointer.",
+        "author": "ryanjamurphy",
+        "repo": "ryanjamurphy/enlightenment-obsidian"
+    },
+    {
+        "id": "obsidian-release-timeline",
+        "name": "Release Timeline",
+        "author": "cakechaser",
+        "description": "Release timeline rendered based on notes metadata with a dataview-like syntax.",
+        "repo": "cakechaser/obsidian-release-timeline"
+    },
+    {
+        "id": "obsidian-folder-focus-mode",
+        "name": "Folder Focus Mode",
+        "author": "grochowski",
+        "description": "Focus file explorer on chosen folder and its files and subdirectories, while hiding all the other elements.",
+        "repo": "grochowski/obsidian-folder-focus-mode",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-bbcode",
+        "name": "BBCode Convertor",
+        "author": "Alex Lockhart",
+        "description": "Convert Markdown files to BBCode",
+        "repo": "salockhart/obsidian-bbcode",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-upcoming",
+        "name": "Upcoming",
+        "description": "Open upcoming daily notes in their own panes.",
+        "author": "Charlie Chao",
+        "repo": "charliecm/obsidian-upcoming",
+        "branch": "main"
+    },
+    {
+        "id": "nuke-orphans",
+        "name": "Nuke Orphans",
+        "author": "Sandorex",
+        "description": "Plugin that trashes orphaned files and attachments",
+        "repo": "sandorex/nuke-orphans-plugin"
+    },
+    {
+        "id": "obsidian-front-matter-title-plugin",
+        "name": "Front Matter Title",
+        "author": "Snezhig",
+        "description": "Lets you define a title in frontmatter to be displayed as the filename",
+        "repo": "Snezhig/obsidian-front-matter-title"
+    },
+    {
+        "id": "obsidian-bellboy",
+        "name": "Bellboy",
+        "author": "Shaked Lokits",
+        "description": "Opinionated file structure manager.",
+        "repo": "shakedlokits/obsidian-bellboy"
+    },
+    {
+        "id": "obsidian-functionplot",
+        "name": "Function Plot",
+        "author": "leonhma",
+        "description": "Render mathematical functions in a markdown codeblock.",
+        "repo": "leonhma/obsidian-functionplot"
+    },
+    {
+        "id": "obsidian-note-autocreator",
+        "name": "Note Auto Creator",
+        "author": "Simon T. Clement",
+        "description": "Automatically create notes when links are created to them.",
+        "repo": "SimonTC/obsidian-note-autocreation"
+    },
+    {
+        "id": "local-quotes",
+        "name": "Local Quotes",
+        "author": "ka1tzyu",
+        "description": "Collect your quotes from all over the repository and embed them in different locations with refresh delays.",
+        "repo": "ka1tzyu/local-quotes"
+    },
+    {
+        "id": "obsidian-state-switcher",
+        "name": "State Switcher",
+        "author": "Lijyze",
+        "description": "Allow you switch value of specific field within custom value set, so you won't make mistake.",
+        "repo": "lijyze/obsidian-state-switcher"
+    },
+    {
+        "id": "obsidian-media-db-plugin",
+        "name": "Media DB Plugin",
+        "author": "Moritz Jung",
+        "description": "A plugin that can query multiple APIs for movies, series, anime, games, music releases and wiki articles, and import them into your vault.",
+        "repo": "mProjectsCode/obsidian-media-db-plugin",
+        "branch": "release"
+    },
+    {
+        "id": "obsidian-sequence-hotkeys",
+        "name": "Sequence Hotkeys",
+        "author": "Ruan Moolman",
+        "description": "This plugin allows you to set hotkeys with key sequences instead of a single chord.",
+        "repo": "moolmanruan/obsidian-sequence-hotkeys"
+    },
+    {
+        "id": "tasks-packrat-plugin",
+        "name": "Packrat",
+        "author": "Thomas Herden",
+        "description": "Manage completed instances of recurring tasks that were created and completed using the Tasks plugin.",
+        "repo": "therden/packrat"
+    },
+    {
+        "id": "excalibrain",
+        "name": "ExcaliBrain",
+        "author": "Zsolt Viczian",
+        "description": "ExcaliBrain is inspired by TheBrain and Breadcrumbs. It is an interactive, structured mind-map of your Obsidian Vault generated based on the folders and files in your Vault by interpreting the links, dataview fields, tags and YAML front matter in your markdown files.",
+        "repo": "zsviczian/excalibrain"
+    },
+    {
+        "id": "obsidian-expand-bullet",
+        "name": "Expand Bullet",
+        "author": "Boninall",
+        "description": "A plugin for transforming bullet content into note.",
+        "repo": "quorafind/Obsidian-Expand-Bullet"
+    },
+    {
+        "id": "dbfolder",
+        "name": "Database folder",
+        "author": "RafaelGB",
+        "description": "Folder with the capability to store and retrieve data from a folder like database",
+        "repo": "RafaelGB/obsidian-db-folder"
+    },
+    {
+        "id": "obsidian-advanced-codeblock",
+        "name": "Advanced Codeblock",
+        "author": "Lijyze",
+        "description": "Add additional features to code blocks.",
+        "repo": "lijyze/obsidian-advanced-codeblock"
+    },
+    {
+        "id": "booksidian-plugin",
+        "name": "Booksidian",
+        "author": "Micha Brugger",
+        "description": "A plugin to connect your Goodreads shelves to your Obsidian vault.",
+        "repo": "MichaBrugger/booksidian_plugin",
+        "branch": "master"
+    },
+    {
+        "id": "simple-dice-roller",
+        "name": "Simple Dice Roller",
+        "author": "yeeshue99",
+        "description": "A plug and play solution that allows you to average and simulate dice formulas.",
+        "repo": "yeeshue99/SimpleDiceRoller"
+    },
+    {
+        "id": "obsidian-camera",
+        "name": "Obsidian Camera",
+        "author": "Aldrin Jenson",
+        "description": "Create and save Snaps or Video Recordings directly from Obsidian-Desktop",
+        "repo": "aldrinjenson/obsidian-camera"
+    },
+    {
+        "id": "obsidian-markbase",
+        "name": "Markbase for Obsidian",
+        "author": "Markbase",
+        "description": "Official Markbase plugin to share your Obsidian notes online in your own digital garden",
+        "repo": "markbaseteam/obsidian-markbase"
+    },
+    {
+        "id": "obsidian-user-plugins",
+        "name": "User Plugins",
+        "author": "mnowotnik",
+        "description": "Use js files or snippets to code your own quick and dirty plugins",
+        "repo": "mnowotnik/obsidian-user-plugins"
+    },
+    {
         "id": "obsidian-ghost-publish",
         "name": "Obsidian Ghost Publish",
         "author": "@jaynguyens",
         "description": "Publish to Ghost site with a single click.",
         "repo": "jaynguyens/obsidian-ghost-publish"
-
+    }
 ]
