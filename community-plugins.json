@@ -3025,22 +3025,6 @@
         "repo": "getmatterapp/obsidian-matter"
     },
     {
-        "id": "linked-data-helper",
-        "name": "Linked Data Helper",
-        "description": "Generate the necessary data for Linked Data Vocabularies.",
-        "author": "kometenstaub",
-        "repo": "kometenstaub/linked-data-helper",
-        "branch": "main"
-    },
-    {
-        "id": "linked-data-vocabularies",
-        "name": "Linked Data Vocabularies",
-        "description": "Add linked data to the YAML of your notes.",
-        "author": "kometenstaub",
-        "repo": "kometenstaub/obsidian-linked-data-vocabularies",
-        "branch": "main"
-    },
-    {
         "id": "obsidian-regex-replace",
         "name": "Regex Find and Replace",
         "description": "Provides a Find/Replace dialog which optionally supports regular expressions and scope (full document or text selection).",
@@ -4040,7 +4024,7 @@
         "name": "Github Publisher",
         "author": "Mara-Li",
         "description": "Github Publisher is a plugin that help you to send file in a configured Github Repository, based on a frontmatter entry state.",
-        "repo": "Mara-Li/obsidian-github-publisher"
+        "repo": "obsidianMkdocs/obsidian-github-publisher"
     },
     {
         "id": "obsidian-notion-video",
@@ -4328,6 +4312,13 @@
         "author": "mnowotnik",
         "description": "Use js files or snippets to code your own quick and dirty plugins",
         "repo": "mnowotnik/obsidian-user-plugins"
+    },
+    {
+        "id": "obsidian-ghost-publish",
+        "name": "Obsidian Ghost Publish",
+        "author": "@jaynguyens",
+        "description": "Publish to Ghost site with a single click",
+        "repo": "jaynguyens/obsidian-ghost-publish"
     },
     {
         "id": "obsidian-timestamp-notes",
