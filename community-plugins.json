@@ -3025,22 +3025,6 @@
         "repo": "getmatterapp/obsidian-matter"
     },
     {
-        "id": "linked-data-helper",
-        "name": "Linked Data Helper",
-        "description": "Generate the necessary data for Linked Data Vocabularies.",
-        "author": "kometenstaub",
-        "repo": "kometenstaub/linked-data-helper",
-        "branch": "main"
-    },
-    {
-        "id": "linked-data-vocabularies",
-        "name": "Linked Data Vocabularies",
-        "description": "Add linked data to the YAML of your notes.",
-        "author": "kometenstaub",
-        "repo": "kometenstaub/obsidian-linked-data-vocabularies",
-        "branch": "main"
-    },
-    {
         "id": "obsidian-regex-replace",
         "name": "Regex Find and Replace",
         "description": "Provides a Find/Replace dialog which optionally supports regular expressions and scope (full document or text selection).",
@@ -4040,7 +4024,7 @@
         "name": "Github Publisher",
         "author": "Mara-Li",
         "description": "Github Publisher is a plugin that help you to send file in a configured Github Repository, based on a frontmatter entry state.",
-        "repo": "Mara-Li/obsidian-github-publisher"
+        "repo": "obsidianMkdocs/obsidian-github-publisher"
     },
     {
         "id": "obsidian-notion-video",
@@ -4333,7 +4317,144 @@
         "id": "obsidian-douban-plugin",
         "name": "Douban",
         "author": "Wanxp",
-	"description": "This is a plugin that can import movies, books or musics info data from Douban for Obsidian .",
+        "description": "This is a plugin that can import movies, books or musics info data from Douban for Obsidian .",
         "repo": "Wanxp/obsidian-douban"
+    },
+    {
+        "id": "obsidian-ghost-publish",
+        "name": "Obsidian Ghost Publish",
+        "author": "@jaynguyens",
+        "description": "Publish to Ghost site with a single click",
+        "repo": "jaynguyens/obsidian-ghost-publish"
+    },
+    {
+        "id": "obsidian-timestamp-notes",
+        "name": "Timestamp Notes",
+        "author": "Julian Grunauer",
+        "description": "This plugin allows side-by-side notetaking with videos. Annotate your notes with timestamps to directly control the video and remember where each note comes from.",
+        "repo": "juliang22/ObsidianTimestampNotes"
+    },
+    {
+        "id": "linkify",
+        "name": "Linkify",
+        "author": "Matthew Chan",
+        "description": "Converts matching text into links",
+        "repo": "matthewhchan/linkify",
+        "branch": "main"
+    },
+    {
+        "id": "braincache",
+        "name": "braincache",
+        "author": "XSPGMike",
+        "description": "Create braincache flashcards from Obsidian",
+        "repo": "XSPGMike/braincache_obsidian"
+    },
+    {
+        "id": "obsidian-share-as-gist",
+        "name": "Share as Gist",
+        "author": "timrogers",
+        "description": "Shares an Obsidian note as a GitHub.com gist",
+        "repo": "timrogers/obsidian-share-as-gist"
+    },
+    {
+        "id": "code-block-plugin",
+        "name": "Code Block",
+        "author": "Patrik Lindefors",
+        "description": "A plugin that converts text into code blocks with automatic language detection.",
+        "repo": "paddan/code-block-plugin"
+    },
+    {
+        "id": "obsidian-google-lookup",
+        "name": "Google Calendar and Contacts Lookup",
+        "author": "ntawileh",
+        "description": "Import contact and calendar event information from your Google account",
+        "repo": "ntawileh/obsidian-google-lookup",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-stack-overflow",
+        "name": "Stack Overflow Answers",
+        "description": "Copy and Paste Stack Overflow answers directly into Obsidian.",
+        "author": "bramses",
+        "repo": "bramses/obsidian-stack-overflow"
+    },
+    {
+        "id": "obsidian-redirect",
+        "name": "Redirect",
+        "author": "Jacob Levernier",
+        "description": "Facilitate management of especially non-markdown files, by allowing aliases to be set on any file.",
+        "repo": "jglev/obsidian-redirect",
+        "branch": "main"
+    },
+    {
+        "id": "zotero-bridge",
+        "name": "Zotero Bridge",
+        "author": "Shmavon Gazanchyan",
+        "description": "Obsidian plugin to integrate with Zotero through ZotServer",
+        "repo": "vanakat/zotero-bridge"
+    },
+    {
+        "id": "wielder",
+        "name": "Wielder",
+        "author": "victorb",
+        "description": "Clojure/ClojureScript inside your Obsidian documents!",
+        "repo": "victorb/obsidian-wielder"
+    },
+    {
+        "id": "obsidian-to-notion",
+        "name": "Obsidian shared to Notion",
+        "author": "Easychris",
+        "description": "This is a  plugin for Obsidian. This plugin share obsidian md file to notion with notion api",
+        "repo": "Easychris/obsidian-to-notion"
+    },
+    {
+        "id": "obsidian-image-gallery",
+        "name": "Image Gallery",
+        "author": "Luca Orio",
+        "description": "A zero setup masonry image gallery for Obsidian",
+        "repo": "lucaorio/obsidian-image-gallery"
+    },
+    {
+      "id": "obsidian-thumbnails",
+      "name": "Thumbnails",
+      "author": "Michael Harris",
+      "description": "Insert youtube thumbnails into your notes",
+      "repo": "Meikul/obsidian-thumbnails"
+    },
+    {
+        "id": "obsidian-table-to-csv-exporter",
+        "name": "Table to CSV Exporter",
+        "author": "Stefan Wolfrum",
+        "description": "This plugin allows for exporting tables from a pane in reading mode into CSV files.",
+        "repo": "metawops/obsidian-table-to-csv-export",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-task-progress-bar",
+        "name": "Task Progress Bar",
+        "author": "Boninall",
+        "description": "A task progress bar plugin for tasks in Obsidian.",
+        "repo": "quorafind/obsidian-task-progress-bar"
+    },
+    {
+      "id": "scroll-speed",
+      "name": "Scroll Speed",
+      "author": "Florian Ludewig",
+      "description": "This plugin allows you to change the scroll speed inside Obsidian notes.",
+      "repo": "flolu/obsidian-scroll-speed"
+    },
+    {
+        "id": "obsidian-translator",
+        "name": "Translator",
+        "author": "Haifeng Lu",
+        "description": "This is a plugin for Obsidian to translate selected text.",
+        "repo": "luhaifeng666/obsidian-translator"
+    },
+    {
+        "id": "obsidian-echarts",
+        "name": "echarts",
+        "author": "windily-cloud && Cuman",
+        "description": "Render echarts in obsidian",
+        "repo": "cumany/obsidian-echarts"
     }
 ]
