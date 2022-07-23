@@ -1816,13 +1816,6 @@
         "branch": "main"
     },
     {
-        "id": "plugin-changelogs",
-        "name": "Plugin Changelogs",
-        "author": "phibr0",
-        "description": "Read Plugin Changelogs inside Obsidian",
-        "repo": "phibr0/obsidian-plugin-changelogs"
-    },
-    {
         "id": "advanced-toolbar",
         "name": "Advanced Mobile Toolbar",
         "author": "phibr0",
@@ -1941,13 +1934,6 @@
         "repo": "Creling/obsidian-activity-logger"
     },
     {
-        "id": "customizable-sidebar",
-        "name": "Customizable Sidebar",
-        "description": "This Plugin allows to add any Command to Obsidian's Sidebar Ribbon.",
-        "author": "phibr0",
-        "repo": "phibr0/obsidian-customizable-sidebar"
-    },
-    {
         "id": "obsidian-toggl-integration",
         "name": "Toggl Track Integration",
         "description": "Add integration with the Toggl Track API to manage your timers inside Obsidian.",
@@ -1960,13 +1946,6 @@
         "description": "Add description, summary and more info to folders with folder notes.",
         "author": "AidenLx",
         "repo": "aidenlx/alx-folder-note"
-    },
-    {
-        "id": "macro-plugin",
-        "name": "Macros",
-        "author": "phibr0",
-        "description": "Group multiple Commands into one Macro and set delays.",
-        "repo": "phibr0/obsidian-macros"
     },
     {
         "id": "obsidian-hide-sidebars-when-narrow",
@@ -4548,5 +4527,28 @@
         "author": "Marcus Geduld",
         "description": "Opens a modal with scrollable content of all documents that contain a specific tag or tags.",
         "repo": "mgeduld/obsidian-tagged-documents-viewer"
+    },
+    {
+       "id": "obsidian-trim-whitespace",
+        "name": "Trim Whitespace",
+        "author": "Zack Lovatt",
+        "description": "Trims unnecessary whitespace from your Obsidian documents",
+        "repo": "zlovatt/obsidian-trim-whitespace",
+        "branch": "main"
+    },
+    {
+        "id": "ninja-cursor",
+        "name": "Ninja Cursor",
+        "author": "vorotamoroz",
+        "description": "The plugin which enhance cursor visiblity.",
+        "repo": "vrtmrz/ninja-cursor",
+        "branch": "main"
+    },
+    {
+        "id": "cmdr",
+        "name": "Commander",
+        "author": "Johnny✨ and phibr0",
+        "description": "Customize your workspace by adding commands /everywhere/",
+        "repo": "phibr0/obsidian-commander"
     }
 ]
