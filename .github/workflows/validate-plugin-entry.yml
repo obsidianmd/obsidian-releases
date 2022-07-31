@@ -30,6 +30,11 @@ jobs:
               console.log('Found issue: ' + error);
             };
 
+            if (context.payload.pull_request.additions <= context.payload.pull_request.deletions) {
+              // Don't run any validation checks if the user is just modifying existing plugin config
+              return;
+            }
+
             if (context.payload.pull_request.changed_files > 1) {
               addError('You modified files other than `community-plugins.json`.');
             }
@@ -83,7 +88,7 @@ jobs:
                   addError('Your latest Release is missing the `manifest.json` file.');
                 }
               } catch (e) {
-                addError(`It seems like you made a typo in the repository field \`${plugin.repo}\`.\n<details><summary>Log</summary><pre>${escapeHtml(e.toString())}</pre></details>`);
+                addError(`Unable to find a release with the tag "${manifest.version}". Make sure that the manifest.json file in your repo points to the correct Github Release\n<details><summary>Log</summary><pre>${escapeHtml(e.toString())}</pre></details>`);
               }
             }
 
