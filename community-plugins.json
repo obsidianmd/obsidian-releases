@@ -1722,9 +1722,9 @@
     },
     {
         "id": "copy-url-in-preview",
-        "name": "Copy Image and URL in Preview",
+        "name": "Copy Image and URL context menu",
         "author": "NomarCub",
-        "description": "Copy Image, Copy URL and Open PDF externally context menu in preview mode",
+        "description": "Copy Image, Copy URL and Open PDF externally context menu in reading view (formerly preview mode)",
         "repo": "NomarCub/obsidian-copy-url-in-preview"
     },
     {
@@ -4502,10 +4502,10 @@
     },
     {
         "id": "obsidian-text-expander-js",
-        "name": "Text Expander JS",
+        "name": "Inline Scripts",
         "author": "Jonathan Heard",
-        "description": "Type text shortcuts that expand into javascript generated text.",
-        "repo": "jon-heard/obsidian-text-expander-js"
+        "description": "Type text shortcuts which are then replaced with JavaScript generated text.",
+        "repo": "jon-heard/obsidian-inline-scripts"
     },
     {
         "id": "metadata-menu",
@@ -4543,5 +4543,71 @@
         "author": "Johnny✨ and phibr0",
         "description": "Customize your workspace by adding commands /everywhere/",
         "repo": "phibr0/obsidian-commander"
+    },
+    {
+        "id": "obsidian-attendance",
+        "name": "Obsidian Attendance",
+        "author": "Tiim",
+        "description": "Helps you take attendance directly inside of your notes.",
+        "repo": "Tiim/obsidian-attendance"
+    },
+    {
+        "id": "OA-file-hider",
+        "name": "File Hider",
+        "author": "Oliver Akins",
+        "description": "Allows you to hide files and folders from the Obsidian file explorer if you don't want to see them anymore.",
+        "repo": "Oliver-Akins/file-hider",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-sidebar-toggler",
+        "name": "Sidebar Toggler",
+        "author": "pseudometa",
+        "description": "Finer control of the Obsidian sidebars. To be used with an external window manager.",
+        "repo": "chrisgrieser/obsidian-sidebar-toggler"
+    },
+    {
+        "id": "obsidian-path-finder",
+        "name": "Path Finder",
+        "author": "jerrywcy",
+        "description": "A plugin that can find all paths between two notes and render them as graph or text.",
+        "repo": "jerrywcy/obsidian-path-finder"
+    },
+    {
+        "id": "obsidian-focus-plugin",
+        "name": "Focus and Highlight",
+        "author": "BO YI TSAI",
+        "description": "A plugin for Obsidian that will highlight and focus on the currently selected heading",
+        "repo": "nagi1999a/obsidian-focus-plugin",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-file-cooker",
+        "name": "File Cooker",
+        "author": "iuian",
+        "description": "Deal batch notes from Search results、current file、Dataview query string...",
+        "repo": "ivaneye/obsidian-files-cooker"
+    },
+    {
+        "id": "hard-breaks",
+        "name": "Hard Breaks",
+        "author": "Börge Kiss",
+        "description": "Turn soft line breaks in Markdown into hard line breaks",
+        "repo": "bkis/obsidian-hard-breaks"
+    },
+    {
+        "id": "open-related-url",
+        "name": "Open Related Url",
+        "author": "Dan Pickett",
+        "description": "Opens URLs found in a note's YAML frontmatter",
+        "repo": "dpickett/open-related-url",
+        "branch": "master"
+    },
+    {
+        "id": "podnotes",
+        "name": "PodNotes",
+        "author": "Christian B. B. Houmann",
+        "description": "Write notes on podcasts with ease.",
+        "repo": "chhoumann/podnotes"
     }
 ]
