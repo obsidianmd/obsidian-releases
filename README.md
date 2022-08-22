@@ -20,6 +20,9 @@ Once you have the repo locally on your computer, there are a couple of placehold
   }
   ```
 
+2. Also inside the manifest.json file, you can include your name under next to the "author" field.
+
+After you have those fields configured, all that's left to do is add your styles! All of your CSS needs to be inside the file `theme.css` which is located at root of your repository.
 
 ## Adding your theme to the Theme Gallery
 
