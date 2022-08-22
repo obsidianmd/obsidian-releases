@@ -1,4 +1,4 @@
-This is a sample plugin for Obsidian ([https://obsidian.md](https://obsidian.md/)).
+This is a sample theme for Obsidian ([https://obsidian.md](https://obsidian.md/)).
 
 ## First Time publishing a theme?
 
