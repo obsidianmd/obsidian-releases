@@ -31,7 +31,7 @@ After you have those fields configured, all that's left to do is add your styles
 Inside the repository, include a screenshot thumbnail of your theme. You can name the file anything, for example `screenshot.png`. This image will be used for the small preview in the theme list.
 
 Your screenshot file should be `16:9` aspect ratio.
-Recommend size 512x384.
+The recommended size is 512x288.
 
 ### Submit your theme for review
 
