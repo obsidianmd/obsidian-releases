@@ -1949,10 +1949,10 @@
     },
     {
         "id": "obsidian-hide-sidebars-when-narrow",
-        "name": "Hide Sidebars When Narrow",
-        "author": "Michael Hanson",
-        "description": "Automatically hides the sidebars when your window is narrow.",
-        "repo": "mybuddymichael/obsidian-hide-sidebars-when-narrow"
+        "name": "Hide Sidebars on Window Resize",
+        "author": "NomarCub, Michael Hanson",
+        "description": "Automatically hides the sidebars when your window is narrow on window resize",
+        "repo": "NomarCub/obsidian-hide-sidebars-on-window-resize"
     },
     {
         "id": "obsidian-linter",
@@ -2085,7 +2085,7 @@
     {
         "id": "obsidian-shellcommands",
         "name": "Shell commands",
-        "description": "You can predefine system commands that you want to run frequently, and assign hotkeys for them. For example open external applications.",
+        "description": "Define system commands that you want to execute via command palette, hotkeys, URI links or automated events. E.g. open external applications or perform automated file modifications.",
         "author": "Jarkko Linnanvirta",
         "repo": "Taitava/obsidian-shellcommands",
         "branch": "main"
@@ -2608,14 +2608,6 @@
         "repo": "fantasycalendar/obsidian-fantasy-calendar"
     },
     {
-        "id": "obsidian-pikt",
-        "name": "Pikt",
-        "description": "An obsidian plugin to render pikchr codeblocks ",
-        "author": "Arnau Siches",
-        "repo": "arnau/obsidian-pikt",
-        "branch": "main"
-    },
-    {
         "id": "improved-vimcursor",
         "name": "Improved VimCursor",
         "author": "hhhapz",
@@ -2722,8 +2714,8 @@
         "id": "obsidian-metacopy",
         "name": "Metacopy",
         "description": "Copy the value of a frontmatter key.",
-        "author": "Mara",
-        "repo": "Mara-Li/obsidian-metacopy"
+        "author": "Mara-Li",
+        "repo": "Lisandra-dev/obsidian-metacopy"
     },
     {
         "id": "obsidian-image-caption",
@@ -2966,7 +2958,7 @@
         "name": "Tressel Sync for Obsidian",
         "description": "Official Tressel plugin to sync/export your tweets and threads into Obsidian",
         "author": "Tressel",
-        "repo": "aseem-thakar/obsidian-tressel"
+        "repo": "tresselteam/obsidian-tressel"
     },
     {
         "id": "image-window",
@@ -3952,7 +3944,7 @@
         "name": "Snippet Downloader",
         "author": "Mara-Li",
         "description": "A obsidian's plugin to help to manage css snippets (download / update) from repository",
-        "repo": "Mara-Li/obsidian-snippet-downloader"
+        "repo": "Lisandra-dev/obsidian-snippet-downloader"
     },
     {
         "id": "execute-code",
@@ -4195,9 +4187,9 @@
     {
         "id": "local-quotes",
         "name": "Local Quotes",
-        "author": "ka1tzyu",
+        "author": "decatetsu",
         "description": "Collect your quotes from all over the repository and embed them in different locations with refresh delays.",
-        "repo": "ka1tzyu/local-quotes"
+        "repo": "decatetsu/local-quotes"
     },
     {
         "id": "obsidian-state-switcher",
@@ -4283,7 +4275,7 @@
         "name": "Markbase for Obsidian",
         "author": "Markbase",
         "description": "Official Markbase plugin to share your Obsidian notes online in your own digital garden",
-        "repo": "markbaseteam/obsidian-markbase"
+        "repo": "markbase-obsidian/obsidian-markbase"
     },
     {
         "id": "obsidian-user-plugins",
@@ -4522,7 +4514,7 @@
         "repo": "dominiczaq/obsidian-plugin-time-diff"
     },
     {
-        "id": "obsidian-trim-whitespace",
+       "id": "obsidian-trim-whitespace",
         "name": "Trim Whitespace",
         "author": "Zack Lovatt",
         "description": "Trims unnecessary whitespace from your Obsidian documents",
@@ -4609,6 +4601,65 @@
         "author": "Christian B. B. Houmann",
         "description": "Write notes on podcasts with ease.",
         "repo": "chhoumann/podnotes"
+    },
+    {
+        "id": "obsidian-meeting-notes",
+        "name": "Meeting notes",
+        "author": "Tim Hiller",
+        "description": "Automatically create meeting notes in a specified folder.",
+        "repo": "TimHi/obsidian-meeting-notes"
+    },
+    {
+        "id": "obsidian-plugin-tagged-documents-viewer",
+        "name": "Tagged Documents Viewer",
+        "author": "Marcus Geduld",
+        "description": "Opens a modal with scrollable content of all documents that contain a specific tag or tags.",
+        "repo": "mgeduld/obsidian-tagged-documents-viewer"
+    },
+    {
+        "id": "simple-note-review",
+        "name": "Simple Note Review",
+        "author": "dartungar",
+        "description": "Simple, customizable plugin for easy note review, resurfacing  & repetition.",
+        "repo": "dartungar/obsidian-simple-note-review",
+        "branch": "main"
+    },
+    {
+        "id": "better-inline-fields",
+        "name": "Better Inline Fields",
+        "author": "David Sarman",
+        "description": "Enhances Dataview style inline fields",
+        "repo": "dsarman/better-inline-fields"
+    },
+    {
+        "id": "no-dupe-leaves",
+        "name": "No Dupe Leaves",
+        "author": "Simon Cambier",
+        "description": "Don't reopen notes that are already open",
+        "repo": "scambier/obsidian-no-dupe-leaves"
+    },
+    {
+        "id": "obsidian-open-file-by-magic-date",
+        "name": "Open File by Magic Date",
+        "author": "simplgy",
+        "description": "Define a hotkey and Moment.js pattern for the file that is most important to you (eg: your daily/weekly/monthly note).",
+        "repo": "simplgy/obsidian-open-file-by-magic-date"
+    },
+    {
+        "id": "obsidian-heading-shifter",
+        "name": "Heading Shifter",
+        "author": "kasahala",
+        "description": "Easily Shift and Change markdown headings.",
+        "repo": "k4a-dev/obsidian-heading-shifter",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-group-snippets",
+        "name": "Group Snippets",
+        "author": "Mara-Li",
+        "description": "Create folder of snippets to activate them in one click !",
+        "repo": "Lisandra-dev/obsidian-group-snippets",
+        "branch": "master"
     },
     {
         "id": "obsidian-raindrop-highlights",
