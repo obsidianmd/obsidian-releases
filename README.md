@@ -23,7 +23,6 @@ To add your theme to our theme store, make a pull request to the `community-css-
 - `repo`: the GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
 - `screenshot`: path to the screenshot of your theme.
 - `modes`: if your theme supports both dark and light mode, put `["dark", "light"]`. Otherwise, put `["dark"]` if your theme only supports dark mode, or  `["light"]` if your theme only supports light mode.
-- `branch`: which branch to use for your reposity. You can omit it if you're using `master`.
 - `publish`: if your theme supports Obsidian Publish, set this to `true`. Omit it otherwise.
 
 To get your theme compatible with Obsidian Publish, you can now use `applyCss` and `applyCssByLink` to test out your CSS in the developer console of Obsidian Publish sites, so that you don't actually need to own sites to test your `publish.css`. You can test it out on our help site here: https://help.obsidian.md/
@@ -41,13 +40,12 @@ To add your plugin to the list, make a pull request to the `community-plugins.js
 - `author`: The author's name.
 - `description`: A short description of what your plugin does.
 - `repo`: The GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
-- `branch`: (optional) A branch if you prefer to use a specific branch of your repo. Defaults to `master`.
 
 ### How community plugins are pulled
 
 - Obsidian will read the list of plugins in `community-plugins.json`.
 - The `name`, `author` and `description` fields are used for searching.
-- When the user opens the detail page of your plugin, Obsidian will pull the `manifest.json` and `README.md` from your GitHub repo using the specified branch (or `master`).
+- When the user opens the detail page of your plugin, Obsidian will pull the `manifest.json` and `README.md` from your GitHub repo).
 - The `manifest.json` in your repo will only be used to figure out the latest version. Actual files are fetched from your GitHub releases.
 - If your `manifest.json` requires a version of Obsidian that's higher than the running app, your `versions.json` will be consulted to find the latest version of your plugin that is compatible.
 - When the user chooses to install your plugin, Obsidian will look for your GitHub releases tagged identically to the version inside `manifest.json`.
