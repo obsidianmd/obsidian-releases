@@ -2608,14 +2608,6 @@
         "repo": "fantasycalendar/obsidian-fantasy-calendar"
     },
     {
-        "id": "obsidian-pikt",
-        "name": "Pikt",
-        "description": "An obsidian plugin to render pikchr codeblocks ",
-        "author": "Arnau Siches",
-        "repo": "arnau/obsidian-pikt",
-        "branch": "main"
-    },
-    {
         "id": "improved-vimcursor",
         "name": "Improved VimCursor",
         "author": "hhhapz",
@@ -2722,8 +2714,8 @@
         "id": "obsidian-metacopy",
         "name": "Metacopy",
         "description": "Copy the value of a frontmatter key.",
-        "author": "Mara",
-        "repo": "Mara-Li/obsidian-metacopy"
+        "author": "Mara-Li",
+        "repo": "Lisandra-dev/obsidian-metacopy"
     },
     {
         "id": "obsidian-image-caption",
@@ -2966,7 +2958,7 @@
         "name": "Tressel Sync for Obsidian",
         "description": "Official Tressel plugin to sync/export your tweets and threads into Obsidian",
         "author": "Tressel",
-        "repo": "aseem-thakar/obsidian-tressel"
+        "repo": "tresselteam/obsidian-tressel"
     },
     {
         "id": "image-window",
@@ -3608,9 +3600,9 @@
     {
         "id": "obsidian-kobo-highlights-importer-plugin",
         "name": "Kobo Highlights Importer",
-        "author": "Flavio Cordari",
+        "author": "Kevin Hellemun & Flavio Cordari",
         "description": "Import highlights from Kobo devices",
-        "repo": "bitwiseops/obsidian-kobo-highlights-import"
+        "repo": "OGKevin/obsidian-kobo-highlights-import"
     },
     {
         "id": "obsidian-dynamic-embed",
@@ -3952,7 +3944,7 @@
         "name": "Snippet Downloader",
         "author": "Mara-Li",
         "description": "A obsidian's plugin to help to manage css snippets (download / update) from repository",
-        "repo": "Mara-Li/obsidian-snippet-downloader"
+        "repo": "Lisandra-dev/obsidian-snippet-downloader"
     },
     {
         "id": "execute-code",
@@ -4195,9 +4187,9 @@
     {
         "id": "local-quotes",
         "name": "Local Quotes",
-        "author": "ka1tzyu",
+        "author": "decatetsu",
         "description": "Collect your quotes from all over the repository and embed them in different locations with refresh delays.",
-        "repo": "ka1tzyu/local-quotes"
+        "repo": "decatetsu/local-quotes"
     },
     {
         "id": "obsidian-state-switcher",
@@ -4283,7 +4275,7 @@
         "name": "Markbase for Obsidian",
         "author": "Markbase",
         "description": "Official Markbase plugin to share your Obsidian notes online in your own digital garden",
-        "repo": "markbaseteam/obsidian-markbase"
+        "repo": "markbase-obsidian/obsidian-markbase"
     },
     {
         "id": "obsidian-user-plugins",
@@ -4394,11 +4386,11 @@
         "repo": "lucaorio/obsidian-image-gallery"
     },
     {
-      "id": "obsidian-thumbnails",
-      "name": "Thumbnails",
-      "author": "Michael Harris",
-      "description": "Insert youtube thumbnails into your notes",
-      "repo": "Meikul/obsidian-thumbnails"
+        "id": "obsidian-thumbnails",
+        "name": "Thumbnails",
+        "author": "Michael Harris",
+        "description": "Insert youtube thumbnails into your notes",
+        "repo": "Meikul/obsidian-thumbnails"
     },
     {
         "id": "obsidian-table-to-csv-exporter",
@@ -4416,11 +4408,11 @@
         "repo": "quorafind/obsidian-task-progress-bar"
     },
     {
-      "id": "scroll-speed",
-      "name": "Scroll Speed",
-      "author": "Florian Ludewig",
-      "description": "This plugin allows you to change the scroll speed inside Obsidian notes.",
-      "repo": "flolu/obsidian-scroll-speed"
+        "id": "scroll-speed",
+        "name": "Scroll Speed",
+        "author": "Florian Ludewig",
+        "description": "This plugin allows you to change the scroll speed inside Obsidian notes.",
+        "repo": "flolu/obsidian-scroll-speed"
     },
     {
         "id": "obsidian-translator",
@@ -4511,7 +4503,7 @@
         "id": "metadata-menu",
         "name": "Metadata Menu",
         "author": "mdelobelle",
-        "description": "Adds options to file and link context menu to change metadatas of the target note.",
+        "description": "For data quality enthusiasts and dataview users: access and manage the metadata of your notes",
         "repo": "mdelobelle/metadatamenu"
     },
     {
@@ -4522,7 +4514,7 @@
         "repo": "dominiczaq/obsidian-plugin-time-diff"
     },
     {
-       "id": "obsidian-trim-whitespace",
+        "id": "obsidian-trim-whitespace",
         "name": "Trim Whitespace",
         "author": "Zack Lovatt",
         "description": "Trims unnecessary whitespace from your Obsidian documents",
@@ -4658,7 +4650,7 @@
         "name": "Heading Shifter",
         "author": "kasahala",
         "description": "Easily Shift and Change markdown headings.",
-        "repo": "k4a-dev/obsidian-heading-shifter",
+        "repo": "k4a-l/obsidian-heading-shifter",
         "branch": "master"
     },
     {
@@ -4666,8 +4658,39 @@
         "name": "Group Snippets",
         "author": "Mara-Li",
         "description": "Create folder of snippets to activate them in one click !",
-        "repo": "Mara-Li/obsidian-group-snippets",
+        "repo": "Lisandra-dev/obsidian-group-snippets",
         "branch": "master"
+    },
+    {
+        "id": "obsidian-raindrop-highlights",
+        "name": "Raindrop Highlights",
+        "author": "kaiiiz",
+        "description": "Sync your Raindrop.io highlights.",
+        "repo": "kaiiiz/obsidian-raindrop-highlights-plugin"
+    },
+    {
+        "id": "obisidian-note-linker",
+        "name": "Note Linker",
+        "author": "Alexander Weichart",
+        "description": "Automatically find and create new links between notes.",
+        "repo": "AlexW00/obsidian-note-linker",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-dashing-cursor",
+        "name": "Dashing Cursor",
+        "author": "Shukai Ni",
+        "description": "Enables dashing cursor that follows the page scroll",
+        "repo": "9r0x/obsidian-dashing-cursor",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-embedded-note-paths",
+        "name": "Embedded Note Paths",
+        "author": "b0o",
+        "description": "Inserts the note file path above each note.",
+        "repo": "b0o/obsidian-embedded-note-paths",
+        "branch": "main"
     },
     {
         "id": "obsidian-quickshare",
