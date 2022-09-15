@@ -16,8 +16,8 @@
     {
         "id": "obsidian-git",
         "name": "Obsidian Git",
-        "author": "Denis Olehov",
-        "description": "Backup your vault with git.",
+        "author": "Vinzent, (Denis Olehov)",
+        "description": "Backup your vault with Git",
         "repo": "denolehov/obsidian-git"
     },
     {
@@ -2275,13 +2275,6 @@
         "repo": "michaellee/stille"
     },
     {
-        "id": "block-reference-count",
-        "name": "Block Reference Counts",
-        "description": "Creates a button with the number of references to a given block, link, or header. Clicking the button shows a table of references in your vault",
-        "author": "shabegom",
-        "repo": "shabegom/obsidian-reference-count"
-    },
-    {
         "id": "obsidian-markmind",
         "name": "Obsidian markmind",
         "author": "Mark",
@@ -4386,11 +4379,11 @@
         "repo": "lucaorio/obsidian-image-gallery"
     },
     {
-      "id": "obsidian-thumbnails",
-      "name": "Thumbnails",
-      "author": "Michael Harris",
-      "description": "Insert youtube thumbnails into your notes",
-      "repo": "Meikul/obsidian-thumbnails"
+        "id": "obsidian-thumbnails",
+        "name": "Thumbnails",
+        "author": "Michael Harris",
+        "description": "Insert youtube thumbnails into your notes",
+        "repo": "Meikul/obsidian-thumbnails"
     },
     {
         "id": "obsidian-table-to-csv-exporter",
@@ -4408,11 +4401,11 @@
         "repo": "quorafind/obsidian-task-progress-bar"
     },
     {
-      "id": "scroll-speed",
-      "name": "Scroll Speed",
-      "author": "Florian Ludewig",
-      "description": "This plugin allows you to change the scroll speed inside Obsidian notes.",
-      "repo": "flolu/obsidian-scroll-speed"
+        "id": "scroll-speed",
+        "name": "Scroll Speed",
+        "author": "Florian Ludewig",
+        "description": "This plugin allows you to change the scroll speed inside Obsidian notes.",
+        "repo": "flolu/obsidian-scroll-speed"
     },
     {
         "id": "obsidian-translator",
@@ -4503,7 +4496,7 @@
         "id": "metadata-menu",
         "name": "Metadata Menu",
         "author": "mdelobelle",
-        "description": "Adds options to file and link context menu to change metadatas of the target note.",
+        "description": "For data quality enthusiasts and dataview users: access and manage the metadata of your notes",
         "repo": "mdelobelle/metadatamenu"
     },
     {
@@ -4514,7 +4507,7 @@
         "repo": "dominiczaq/obsidian-plugin-time-diff"
     },
     {
-       "id": "obsidian-trim-whitespace",
+        "id": "obsidian-trim-whitespace",
         "name": "Trim Whitespace",
         "author": "Zack Lovatt",
         "description": "Trims unnecessary whitespace from your Obsidian documents",
@@ -4691,6 +4684,90 @@
         "description": "Inserts the note file path above each note.",
         "repo": "b0o/obsidian-embedded-note-paths",
         "branch": "main"
+    },
+    {
+        "id": "obsidian-quickshare",
+        "name": "QuickShare",
+        "author": "Maxime Cannoodt (@mcndt)",
+        "description": "Securely share your Obsidian notes with one click. Notes are end-to-end encrypted. No API keys or configuration required.",
+        "repo": "mcndt/obsidian-quickshare",
+        "branch": "master"
+    },
+    {
+        "id": "rpg-manager",
+        "name": "RPG Manager",
+        "author": "Carlo Nicora",
+        "description": "Tabletop role playing game campaign manager.",
+        "repo": "carlonicora/obsidian-rpg-manager"
+    },
+    {
+      "id": "literate-haskell",
+      "name": "Literate Haskell",
+      "description": "An obsidian plugin for integrating `.lhs` files into your PKM.",
+      "author": "James Jensen",
+      "repo": "jajaperson/obsidian-literate-haskell",
+      "branch": "master"
+    },
+    {
+        "id": "embed-code-file",
+        "name": "Embed Code File",
+        "author": "Abdullah Almariah",
+        "description": "Embed code file from vault using code blocks",
+        "repo": "almariah/embed-code-file",
+        "branch": "main"
+    },
+    {
+      "id": "obsidian-bulk-rename-plugin",
+      "name": "Bulk Rename",
+      "author": "Oleg Lustenko",
+      "description": "Now You Can Rename Files Based On Pattern",
+      "repo": "OlegLustenko/obsidian-bulk-rename",
+      "branch": "master"
+    },
+    {
+        "id": "obsidian-agile-task-notes",
+        "name": "Agile Task Notes",
+        "author": "BoxThatBeat",
+        "description": "Import your tasks from your TFS (Azure or Jira) to take notes on them and make todo-lists!",
+        "repo": "BoxThatBeat/obsidian-agile-task-notes"
+    },
+    {
+        "id": "new-tab-default-page",
+        "name": "New Tab Default Page",
+        "author": "pseudometa",
+        "description": "Open a note of your choice when creating a new tab, like in the browser.",
+        "repo": "chrisgrieser/new-tab-default-page"
+    },
+    {
+        "id": "obsidian-open-in-other-editor",
+        "name": "Open In Other Editor",
+        "author": "Yekingyan",
+        "description": "Open current active file in gVim or VScode.",
+        "repo": "yekingyan/obsidian-open-in-other-editor",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-simple-mention",
+        "name": "Simple Mention",
+        "author": "der-tobi",
+        "description": "Get highlighted mentions and mention suggestions. Find all occurrences of a mention",
+        "repo": "der-tobi/obsidian-simple-mention"
+    },
+    {
+        "id": "obsidian-auto-hide",
+        "name": "Auto Hide",
+        "author": "skelato1",
+        "description": "Collapse sidebars when clicking on the editor/viewer panel",
+        "repo": "skelato1/obsidian-auto-hide",
+        "branch": "master"
+    },
+    {
+        "id": "janitor",
+        "name": "Janitor",
+        "author": "Gabriele Cannata",
+        "description": "Performs cleanup tasks on the Obsidian vault",
+        "repo": "Canna71/obsidian-janitor",
+        "branch": "master"
     },
     {
         "id": "script-launcher",
