@@ -2275,6 +2275,13 @@
         "repo": "michaellee/stille"
     },
     {
+        "id": "block-reference-count",
+        "name": "Block Reference Counts",
+        "description": "Creates a button with the number of references to a given block, link, or header. Clicking the button shows a table of references in your vault",
+        "author": "shabegom",
+        "repo": "shabegom/obsidian-reference-count"
+    },
+    {
         "id": "obsidian-markmind",
         "name": "Obsidian markmind",
         "author": "Mark",
@@ -4744,75 +4751,5 @@
         "author": "Cuman",
         "description": "The Editing Toolbar  is modified from cmenu, which provides more powerful customization settings and has many built-in editing commands to be a MS Word-like toolbar editing experience.",
         "repo": "cumany/Cmenu-Toolbar"
-    }
-    {
-        "id": "obsidian-open-in-other-editor",
-        "name": "Open In Other Editor",
-        "author": "Yekingyan",
-        "description": "Open current active file in gVim or VScode.",
-        "repo": "yekingyan/obsidian-open-in-other-editor",
-        "branch": "master"
-    },
-    {
-        "id": "obsidian-simple-mention",
-        "name": "Simple Mention",
-        "author": "der-tobi",
-        "description": "Get highlighted mentions and mention suggestions. Find all occurrences of a mention",
-        "repo": "der-tobi/obsidian-simple-mention"
-    },
-    {
-        "id": "obsidian-auto-hide",
-        "name": "Auto Hide",
-        "author": "skelato1",
-        "description": "Collapse sidebars when clicking on the editor/viewer panel",
-        "repo": "skelato1/obsidian-auto-hide",
-        "branch": "master"
-    },
-    {
-        "id": "janitor",
-        "name": "Janitor",
-        "author": "Gabriele Cannata",
-        "description": "Performs cleanup tasks on the Obsidian vault",
-        "repo": "Canna71/obsidian-janitor",
-        "branch": "master"
-    },
-    {
-        "id": "script-launcher",
-        "name": "Script Launcher",
-        "author": "Alessandro Ruggiero",
-        "description": "This plugin allows you to launch scripts from the Obsidian app. You can add scripts shortcuts on your bottom bar and launch them with just one click!",
-        "repo": "AlessandroRuggiero/script-launcher",
-        "branch": "master"
-    },
-    {
-        "id": "obsidian-party",
-        "name": "Party🎉",
-        "author": "Shap Po",
-        "description": "An implementation of party.js for Obsidian. Create confetti & sparkles in your notes!",
-        "repo": "shap-po/obsidian-party"
-    },
-    {
-        "id": "obsidian-day-and-night",
-        "name": "Day and Night",
-        "author": "Kevin Patel",
-        "description": "An Obsidian plugin to automatically toggle themes between day theme and night theme on a set time schedule.",
-        "repo": "CyberT17/obsidian-day-and-night",
-        "branch": "master"
-    },
-    {
-        "id": "obsidian-tikzjax",
-        "name": "TikZJax",
-        "author": "artisticat1",
-        "description": "Render LaTeX and TikZ diagrams in your notes.",
-        "repo": "artisticat1/obsidian-tikzjax",
-        "branch": "main"
-    },
-    {
-        "id": "todoist-completed-tasks-plugin",
-        "name": "Todoist completed tasks",
-        "author": "Andrew 'Ledary' Kulishov",
-        "description": "Fetches completed tasks from todoist API and adds them to the Obsidian note.",
-        "repo": "Ledaryy/obsidian-todoist-completed-tasks",
-        "branch": "master"
     }
 ]
