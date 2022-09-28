@@ -3890,7 +3890,7 @@
     },
     {
         "id": "obsidian-google-tasks",
-        "name": "Obsidian Google Tasks",
+        "name": "Google Tasks",
         "author": "YukiGasai",
         "description": "Interact with your Google Tasks from inside Obsidian",
         "repo": "YukiGasai/obsidian-google-tasks"
@@ -4747,9 +4747,95 @@
         "branch": "master"
     },
     {
+        "id": "obsidian-simple-mention",
+        "name": "Simple Mention",
+        "author": "der-tobi",
+        "description": "Get highlighted mentions and mention suggestions. Find all occurrences of a mention",
+        "repo": "der-tobi/obsidian-simple-mention"
+    },
+    {
+        "id": "obsidian-auto-hide",
+        "name": "Auto Hide",
+        "author": "skelato1",
+        "description": "Collapse sidebars when clicking on the editor/viewer panel",
+        "repo": "skelato1/obsidian-auto-hide",
+        "branch": "master"
+    },
+    {
+        "id": "janitor",
+        "name": "Janitor",
+        "author": "Gabriele Cannata",
+        "description": "Performs cleanup tasks on the Obsidian vault",
+        "repo": "Canna71/obsidian-janitor",
+        "branch": "master"
+    },
+    {
+        "id": "script-launcher",
+        "name": "Script Launcher",
+        "author": "Alessandro Ruggiero",
+        "description": "This plugin allows you to launch scripts from the Obsidian app. You can add scripts shortcuts on your bottom bar and launch them with just one click!",
+        "repo": "AlessandroRuggiero/script-launcher",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-party",
+        "name": "Party🎉",
+        "author": "Shap Po",
+        "description": "An implementation of party.js for Obsidian. Create confetti & sparkles in your notes!",
+        "repo": "shap-po/obsidian-party"
+    },
+    {
+        "id": "obsidian-day-and-night",
+        "name": "Day and Night",
+        "author": "Kevin Patel",
+        "description": "An Obsidian plugin to automatically toggle themes between day theme and night theme on a set time schedule.",
+        "repo": "CyberT17/obsidian-day-and-night",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-tikzjax",
+        "name": "TikZJax",
+        "author": "artisticat1",
+        "description": "Render LaTeX and TikZ diagrams in your notes.",
+        "repo": "artisticat1/obsidian-tikzjax",
+        "branch": "main"
+    },
+    {
+        "id": "todoist-completed-tasks-plugin",
+        "name": "Todoist completed tasks",
+        "author": "Andrew 'Ledary' Kulishov",
+        "description": "Fetches completed tasks from todoist API and adds them to the Obsidian note.",
+        "repo": "Ledaryy/obsidian-todoist-completed-tasks",
+        "branch": "master"
+    },
+    {
+        "id": "quick-snippets-and-navigation",
+        "name": "Quick snippets and navigation",
+        "author": "@aciq",
+        "description": "Keyboard navigation up/down for headings\n- Configurable default code block and callout\n- Copy code block via keyboard shortcut",
+        "repo": "aciq/obsidian-keyboard-shortcuts",
+        "branch": "main"
+    },
+    {
+        "id": "google-calendar",
+        "name": "Google Calendar",
+        "author": "YukiGasai",
+        "description": "Interact with your Google Calendar from inside Obsidian",
+        "repo": "YukiGasai/obsidian-google-calendar",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-copy-search-url",
+        "name": "Copy Search URL",
+        "author": "Carlo Zottmann",
+        "description": "Adds a button to the search view for copying the Obsidian search URL.",
+        "repo": "czottmann/obsidian-copy-search-url",
+        "branch": "main"
+    },
+    {
         "id": "custom-sort",
         "name": "Custom File Explorer sorting",
-        "author": "SebastianMC <SebastianMC.github@gmail.com>",
+        "author": "SebastianMC",
         "description": "Allows for manual and automatic, config-driven reordering and sorting of files and folders in File Explorer",
         "repo": "SebastianMC/obsidian-custom-sort",
         "branch": "master"
