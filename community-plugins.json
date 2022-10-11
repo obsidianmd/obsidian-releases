@@ -4832,12 +4832,90 @@
         "repo": "czottmann/obsidian-copy-search-url",
         "branch": "main"
     },
-	{
+    {
+        "id": "simple-time-tracker",
+        "name": "Super Simple Time Tracker",
+        "author": "Ellpeck",
+        "description": "Multi-purpose time trackers for your notes!",
+        "repo": "Ellpeck/ObsidianSimpleTimeTracker"
+    },
+    {
+        "id": "blockquote-levels",
+        "name": "Blockquote Levels",
+        "author": "Carlo Zottmann",
+        "description": "Adds commands for increasing/decreasing the blockquote level of the current line or selection(s).",
+        "repo": "czottmann/obsidian-blockquote-levels",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-system-theme",
+        "name": "System Theme",
+        "author": "jgauth",
+        "description": "Plugin to automatically update to system theme.",
+        "repo": "jgauth/obsidian-system-theme",
+        "branch": "master"
+    },
+    {
+        "id": "custom-sort",
+        "name": "Custom File Explorer sorting",
+        "author": "SebastianMC",
+        "description": "Allows for manual and automatic, config-driven reordering and sorting of files and folders in File Explorer",
+        "repo": "SebastianMC/obsidian-custom-sort",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-table-generator",
+        "name": "Table Generator",
+        "author": "Boninall",
+        "description": "A plugin for generate markdown table quickly like Typora.",
+        "repo": "quorafind/obsidian-table-generator",
+        "branch": "master"
+    },
+    {
+        "id": "aosr",
+        "name": "Aosr",
+        "author": "linanwx",
+        "description": "Another obsidian spaced repetition. It uses flashcards to help review and remember knowledge.",
+        "repo": "linanwx/aosr"
+    },
+    {
+        "id": "obsidian-meta-bind-plugin",
+        "name": "Meta Bind Plugin",
+        "author": "Moritz Jung",
+        "description": "This plugin can create input fields inside your notes and bind them to metadata fields.",
+        "repo": "mProjectsCode/obsidian-meta-bind-plugin",
+        "branch": "release"
+    },
+    {
+        "id": "microblog-publish-plugin",
+        "name": "Micro.publish",
+        "author": "Otavio Cordeiro",
+        "description": "Publish notes to Micro.blog.",
+        "repo": "otaviocc/obsidian-microblog",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-sakana-widget",
+        "name": "Sakana Widget",
+        "author": "Boninall",
+        "description": "Add the Sakana! Widget to your own Obsidian!",
+        "repo": "Quorafind/obsidian-sakana-widget",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-min-width",
+        "name": "Min Width",
+        "author": "doitian",
+        "description": "Set the Minimum Width of the Active Pane.",
+        "repo": "doitian/obsidian-min-width",
+        "branch": "master"
+    },
+    {
         "id": "onyx-boox-extractor",
         "name": "Onyx Boox Annotation & Highlight Extractor",
         "description": "This plugin extracts annotations and highlights files exported from Onyx Boox tablets, and converts them to reference, literature and permanent notes fitting to the Zettelkasten method.",
         "author": "Akos Balasko",
         "repo": "akosbalasko/Onyx-Boox-Annotation-Highlight-Extractor",
-		"branch": "master"
+		    "branch": "master"
     }
 ]
