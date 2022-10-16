@@ -4900,14 +4900,14 @@
         "description": "This plugin extracts annotations and highlights files exported from Onyx Boox tablets, and converts them to reference, literature and permanent notes fitting to the Zettelkasten method.",
         "author": "Akos Balasko",
         "repo": "akosbalasko/Onyx-Boox-Annotation-Highlight-Extractor",
-		    "branch": "master"
+		"branch": "master"
     },
 	{
-	"id": "qmd-as-md-obsidian"
-    "name": "Support for viewing and editing qmd files",
-    "author": "Daniel Borek",
-	"description": "This plugin provide initial support for viewing files with .qmd extension. QMD files contain a combination of markdown and executable code cells and are a format supported by Quarto open source publishing system."
-    "repo": "https://github.com/danieltomasz/qmd-as-md-obsidian",
-	"branch": "master"
+        "id": "qmd-as-md-obsidian",
+        "name": "qmd as md",
+        "author": "Daniel Borek",
+        "description": "This plugin provides an initial support for viewing files with .qmd extension. QMD files contain a combination of markdown and executable code cells and are a format supported by Quarto open source publishing system.",
+        "repo": "danieltomasz/qmd-as-md-obsidian",
+        "branch": "master"
 }
 ]
