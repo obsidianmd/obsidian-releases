@@ -25,8 +25,8 @@
         "name": "Obsidian Nord",
         "author": "insanum",
         "repo": "insanum/obsidian_nord",
-        "screenshot": "screen.png",
-        "modes": ["dark"]
+        "screenshot": "dark.png",
+        "modes": ["dark", "light"]
     },
     {
         "name": "Dracula for Obsidian",
@@ -250,8 +250,7 @@
         "author": "Whyl",
         "repo": "whyt-byte/Blue-Topaz_Obsidian-css",
         "screenshot": "preview_Blue Topaz.png",
-        "modes": ["dark", "light"],
-        "legacy": true
+        "modes": ["dark", "light"]
     },
     {
         "name": "Reverie",
@@ -429,8 +428,7 @@
         "author": "sergey",
         "repo": "sergey900553/obsidian_githublike_theme",
         "screenshot": "screenshot.png",
-        "modes": ["dark"],
-        "legacy": true
+        "modes": ["dark"]
     },
     {
         "name": "Mammoth",
@@ -524,9 +522,8 @@
         "name": "Shimmering Focus",
         "author": "pseudometa",
         "repo": "chrisgrieser/shimmering-focus",
-        "screenshot": "docs/images/Promo%20Screenshot/promo-screenshot.png",
-        "modes": ["dark", "light"],
-        "legacy": true
+        "screenshot": "assets/promo-screenshot.png",
+        "modes": ["dark", "light"]
     },
     {
         "name": "Firefly",
@@ -723,8 +720,7 @@
         "author": "crashmoney",
         "repo": "crashmoney/obsidian-typewriter",
         "screenshot": "cover.jpg",
-        "modes": ["dark", "light"],
-        "legacy": true
+        "modes": ["dark", "light"]
     },
     {
         "name": "WilcoxOne",
@@ -743,11 +739,10 @@
     },
     {
         "name": "Dracula Official",
-        "author": "Zeno Rocha & Andy Byers",
+        "author": "Dracula",
         "repo": "dracula/obsidian",
         "screenshot": "screenshot.png",
-        "modes": ["dark"],
-        "legacy": true
+        "modes": ["dark"]
     },
     {
         "name": "Nebula",
@@ -804,10 +799,9 @@
     {
         "name": "Catppuccin",
         "author": "Marshall Beckrich",
-        "repo": "mbeckrich/obsidian",
+        "repo": "catppuccin/obsidian",
         "screenshot": "assets/screenshot.png",
-        "modes": ["dark"],
-        "legacy": true
+        "modes": ["dark", "light"]
     },
     {
         "name": "Theme-That-Shall-Not-Be-Named",
@@ -945,5 +939,19 @@
         "repo": "hydescarf/Obsidian-Theme-Mado-Miniflow",
         "screenshot": "cover-light.png",
         "modes": ["dark", "light"]
+    },
+    {
+        "name": "Silence",
+        "author": "Luke Ruokaismaki",
+        "repo": "luke-rmaki/silence-obsidian",
+        "screenshot": "Screenshot.png",
+        "modes": ["dark"]
+    },
+    {
+        "name": "Dayspring",
+        "author": "Eric Rykwalder",
+        "repo": "erykwalder/dayspring-theme",
+        "screenshot": "screenshots/thumbnail.png",
+        "modes": ["light"]
     }
 ]
