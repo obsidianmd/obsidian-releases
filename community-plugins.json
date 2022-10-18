@@ -1117,14 +1117,6 @@
         "branch": "main"
     },
     {
-        "id": "obsidian-embedded-note-titles",
-        "name": "Embedded Note Titles",
-        "author": "mgmeyers",
-        "description": "Inserts the note file name as an H1 heading above each note",
-        "repo": "mgmeyers/obsidian-embedded-note-titles",
-        "branch": "main"
-    },
-    {
         "id": "obsidian-advanced-uri",
         "name": "Advanced Obsidian URI",
         "description": "Advanced modes for Obsidian URI",
@@ -2806,14 +2798,6 @@
         "repo": "twentytwokhz/language-translator"
     },
     {
-        "id": "customizable-page-header-buttons",
-        "name": "Customizable Page Header and Title Bar",
-        "description": "Add buttons for executing commands to the page header and the title bar (on desktop).",
-        "author": "kometenstaub",
-        "repo": "kometenstaub/customizable-page-header-buttons",
-        "branch": "main"
-    },
-    {
         "id": "auto-class",
         "name": "Auto Class",
         "description": "Automatically apply CSS classes to markdown views based on a note's path.",
@@ -3675,7 +3659,7 @@
         "id": "novel-word-count",
         "name": "Novel Word Count",
         "author": "Isaac Lyman",
-        "description": "Displays a word or page count for each file, folder and vault in the File Explorer pane.",
+        "description": "Displays a word count, page count, creation date, or other statistic for each file, folder and vault in the File Explorer pane.",
         "repo": "isaaclyman/novel-word-count-obsidian"
     },
     {
@@ -4701,12 +4685,12 @@
         "repo": "carlonicora/obsidian-rpg-manager"
     },
     {
-      "id": "literate-haskell",
-      "name": "Literate Haskell",
-      "description": "An obsidian plugin for integrating `.lhs` files into your PKM.",
-      "author": "James Jensen",
-      "repo": "jajaperson/obsidian-literate-haskell",
-      "branch": "master"
+        "id": "literate-haskell",
+        "name": "Literate Haskell",
+        "description": "An obsidian plugin for integrating `.lhs` files into your PKM.",
+        "author": "James Jensen",
+        "repo": "jajaperson/obsidian-literate-haskell",
+        "branch": "master"
     },
     {
         "id": "embed-code-file",
@@ -4717,12 +4701,12 @@
         "branch": "main"
     },
     {
-      "id": "obsidian-bulk-rename-plugin",
-      "name": "Bulk Rename",
-      "author": "Oleg Lustenko",
-      "description": "Now You Can Rename Files Based On Pattern",
-      "repo": "OlegLustenko/obsidian-bulk-rename",
-      "branch": "master"
+        "id": "obsidian-bulk-rename-plugin",
+        "name": "Bulk Rename",
+        "author": "Oleg Lustenko",
+        "description": "Now You Can Rename Files Based On Pattern",
+        "repo": "OlegLustenko/obsidian-bulk-rename",
+        "branch": "master"
     },
     {
         "id": "obsidian-agile-task-notes",
@@ -4840,11 +4824,153 @@
         "repo": "Ellpeck/ObsidianSimpleTimeTracker"
     },
     {
-        "id" : "dynamic-rtl",
-        "name" : "Dynamic RTL",
+        "id": "blockquote-levels",
+        "name": "Blockquote Levels",
+        "author": "Carlo Zottmann",
+        "description": "Adds commands for increasing/decreasing the blockquote level of the current line or selection(s).",
+        "repo": "czottmann/obsidian-blockquote-levels",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-system-theme",
+        "name": "System Theme",
+        "author": "jgauth",
+        "description": "Plugin to automatically update to system theme.",
+        "repo": "jgauth/obsidian-system-theme",
+        "branch": "master"
+    },
+    {
+        "id": "custom-sort",
+        "name": "Custom File Explorer sorting",
+        "author": "SebastianMC",
+        "description": "Allows for manual and automatic, config-driven reordering and sorting of files and folders in File Explorer",
+        "repo": "SebastianMC/obsidian-custom-sort",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-table-generator",
+        "name": "Table Generator",
+        "author": "Boninall",
+        "description": "A plugin for generate markdown table quickly like Typora.",
+        "repo": "quorafind/obsidian-table-generator",
+        "branch": "master"
+    },
+    {
+        "id": "aosr",
+        "name": "Aosr",
+        "author": "linanwx",
+        "description": "Another obsidian spaced repetition. It uses flashcards to help review and remember knowledge.",
+        "repo": "linanwx/aosr"
+    },
+    {
+        "id": "obsidian-meta-bind-plugin",
+        "name": "Meta Bind Plugin",
+        "author": "Moritz Jung",
+        "description": "This plugin can create input fields inside your notes and bind them to metadata fields.",
+        "repo": "mProjectsCode/obsidian-meta-bind-plugin",
+        "branch": "release"
+    },
+    {
+        "id": "microblog-publish-plugin",
+        "name": "Micro.publish",
+        "author": "Otavio Cordeiro",
+        "description": "Publish notes to Micro.blog.",
+        "repo": "otaviocc/obsidian-microblog",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-sakana-widget",
+        "name": "Sakana Widget",
+        "author": "Boninall",
+        "description": "Add the Sakana! Widget to your own Obsidian!",
+        "repo": "Quorafind/obsidian-sakana-widget",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-min-width",
+        "name": "Min Width",
+        "author": "doitian",
+        "description": "Set the Minimum Width of the Active Pane.",
+        "repo": "doitian/obsidian-min-width",
+        "branch": "master"
+    },
+    {
+        "id": "onyx-boox-extractor",
+        "name": "Onyx Boox Annotation & Highlight Extractor",
+        "description": "This plugin extracts annotations and highlights files exported from Onyx Boox tablets, and converts them to reference, literature and permanent notes fitting to the Zettelkasten method.",
+        "author": "Akos Balasko",
+        "repo": "akosbalasko/Onyx-Boox-Annotation-Highlight-Extractor",
+		    "branch": "master"
+    },
+    {
+        "id": "chronology",
+        "name": "Chronology",
+        "author": "Gabriele Cannata",
+        "description": "Provides a calendar and a timeline of the notes creation and modification",
+        "repo": "Canna71/obsidian-chronology",
+        "branch": "master"
+    },
+    {
+        "id": "duplicate-line",
+        "name": "Duplicate Line",
+        "author": "1C0D",
+        "description": "To duplicate a line",
+        "repo": "1C0D/duplicate-line-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-toggle-list",
+        "name": "ToggleList",
+        "author": "Lite C",
+        "description": "This is a simple plugin to toggle the checklist states (paragraph/list/checklist/custom sytles...)",
+        "repo": "thingnotok/obsidian-toggle-list",
+        "branch": "master"
+    },
+    {
+        "id": "squiggle",
+        "name": "Squiggle",
+        "author": "Jesse Hoogland",
+        "description": "Probabilistic estimation with Squiggle in your notes.",
+        "repo": "jqhoogland/obsidian-squiggle"
+    },
+    {
+        "id": "obsidian-theme-toggler",
+        "name": "Theme Toggler",
+        "author": "larsmagnus",
+        "description": "Toggle the theme in Obsidian's panels.",
+        "repo": "larsmagnus/obsidian-theme-toggler",
+        "branch": "main"
+    },
+    {
+        "id": "influx",
+        "name": "Influx",
+        "author": "Jens M Gleditsch",
+        "description": "A bullet journaling plugin that aggregates a terse stream of backlinked clippings in the footer of notes.",
+        "repo": "jensmtg/influx",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-week-planner",
+        "name": "Week Planner",
+        "description": "Defines commands for creating planning documents and moving tasks between them.",
+        "author": "Ralf Wirdemann",
+        "repo": "rwirdemann/obsidian-week-planner",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-html-plugin",
+        "name": "HTML Reader",
+        "author": "Nuthrash",
+        "description": "This is a HTML file reader plugin for Obsidian. Can open documents with .html and .htm file extensions.",
+        "repo": "nuthrash/obsidian-html-plugin",
+        "branch": "master"
+    },
+    {
+        "id": "dynamic-rtl",
+        "name": "Dynamic RTL",
         "author": "mwxgaf",
         "description": "Dynamic RTL/LTR direction per line/paragraph, dependant on language!",
-        "repo" : "mwxgaf/obsidian-dynamic-rtl",
-        "branch" : "master"
+        "repo": "mwxgaf/obsidian-dynamic-rtl",
+        "branch": "master"
     }
 ]
