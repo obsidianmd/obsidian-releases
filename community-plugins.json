@@ -1117,14 +1117,6 @@
         "branch": "main"
     },
     {
-        "id": "obsidian-embedded-note-titles",
-        "name": "Embedded Note Titles",
-        "author": "mgmeyers",
-        "description": "Inserts the note file name as an H1 heading above each note",
-        "repo": "mgmeyers/obsidian-embedded-note-titles",
-        "branch": "main"
-    },
-    {
         "id": "obsidian-advanced-uri",
         "name": "Advanced Obsidian URI",
         "description": "Advanced modes for Obsidian URI",
@@ -2806,14 +2798,6 @@
         "repo": "twentytwokhz/language-translator"
     },
     {
-        "id": "customizable-page-header-buttons",
-        "name": "Customizable Page Header and Title Bar",
-        "description": "Add buttons for executing commands to the page header and the title bar (on desktop).",
-        "author": "kometenstaub",
-        "repo": "kometenstaub/customizable-page-header-buttons",
-        "branch": "main"
-    },
-    {
         "id": "auto-class",
         "name": "Auto Class",
         "description": "Automatically apply CSS classes to markdown views based on a note's path.",
@@ -3675,7 +3659,7 @@
         "id": "novel-word-count",
         "name": "Novel Word Count",
         "author": "Isaac Lyman",
-        "description": "Displays a word or page count for each file, folder and vault in the File Explorer pane.",
+        "description": "Displays a word count, page count, creation date, or other statistic for each file, folder and vault in the File Explorer pane.",
         "repo": "isaaclyman/novel-word-count-obsidian"
     },
     {
@@ -4919,11 +4903,19 @@
 		    "branch": "master"
     },
     {
+        "id": "chronology",
+        "name": "Chronology",
+        "author": "Gabriele Cannata",
+        "description": "Provides a calendar and a timeline of the notes creation and modification",
+        "repo": "Canna71/obsidian-chronology",
+        "branch": "master"
+    },
+    {
         "id": "duplicate-line",
         "name": "Duplicate Line",
         "author": "1C0D",
         "description": "To duplicate a line",
-        "repo": "1C0D/duplicate-line",
+        "repo": "1C0D/duplicate-line-obsidian",
         "branch": "main"
     }
 ]
