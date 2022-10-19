@@ -16,7 +16,7 @@ Once you have the repo locally on your computer, there are a couple of placehold
   {
     "name": "Moonstone",
     "version": "0.0.0",
-    "minAppVersion": "0.16.0"
+    "minAppVersion": "1.0.0"
   }
   ```
 
