@@ -3659,7 +3659,7 @@
         "id": "novel-word-count",
         "name": "Novel Word Count",
         "author": "Isaac Lyman",
-        "description": "Displays a word or page count for each file, folder and vault in the File Explorer pane.",
+        "description": "Displays a word count, page count, creation date, or other statistic for each file, folder and vault in the File Explorer pane.",
         "repo": "isaaclyman/novel-word-count-obsidian"
     },
     {
@@ -3832,7 +3832,7 @@
         "id": "obsidian-doubleshift",
         "name": "Doubleshift",
         "author": "Qwyntex",
-        "description": "Open the command palette by pressing Double Shift like in IntelliJ",
+        "description": "Open the command palette by pressing Shift (or any other key) twice like in IntelliJ and create your own shortcuts",
         "repo": "qwyntex/doubleshift"
     },
     {
@@ -3846,7 +3846,7 @@
         "id": "obsidian-latex-suite",
         "name": "Latex Suite",
         "author": "artisticat1",
-        "description": "Make typesetting LaTeX math as fast as handwriting",
+        "description": "Make typesetting LaTeX math as fast as handwriting through snippets, text expansion, and editor enhancements",
         "repo": "artisticat1/obsidian-latex-suite",
         "branch": "main"
     },
@@ -4685,12 +4685,12 @@
         "repo": "carlonicora/obsidian-rpg-manager"
     },
     {
-      "id": "literate-haskell",
-      "name": "Literate Haskell",
-      "description": "An obsidian plugin for integrating `.lhs` files into your PKM.",
-      "author": "James Jensen",
-      "repo": "jajaperson/obsidian-literate-haskell",
-      "branch": "master"
+        "id": "literate-haskell",
+        "name": "Literate Haskell",
+        "description": "An obsidian plugin for integrating `.lhs` files into your PKM.",
+        "author": "James Jensen",
+        "repo": "jajaperson/obsidian-literate-haskell",
+        "branch": "master"
     },
     {
         "id": "embed-code-file",
@@ -4701,12 +4701,12 @@
         "branch": "main"
     },
     {
-      "id": "obsidian-bulk-rename-plugin",
-      "name": "Bulk Rename",
-      "author": "Oleg Lustenko",
-      "description": "Now You Can Rename Files Based On Pattern",
-      "repo": "OlegLustenko/obsidian-bulk-rename",
-      "branch": "master"
+        "id": "obsidian-bulk-rename-plugin",
+        "name": "Bulk Rename",
+        "author": "Oleg Lustenko",
+        "description": "Now You Can Rename Files Based On Pattern",
+        "repo": "OlegLustenko/obsidian-bulk-rename",
+        "branch": "master"
     },
     {
         "id": "obsidian-agile-task-notes",
@@ -4901,5 +4901,76 @@
         "author": "Akos Balasko",
         "repo": "akosbalasko/Onyx-Boox-Annotation-Highlight-Extractor",
 		    "branch": "master"
+    },
+    {
+        "id": "chronology",
+        "name": "Chronology",
+        "author": "Gabriele Cannata",
+        "description": "Provides a calendar and a timeline of the notes creation and modification",
+        "repo": "Canna71/obsidian-chronology",
+        "branch": "master"
+    },
+    {
+        "id": "duplicate-line",
+        "name": "Duplicate Line",
+        "author": "1C0D",
+        "description": "To duplicate a line",
+        "repo": "1C0D/duplicate-line-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-toggle-list",
+        "name": "ToggleList",
+        "author": "Lite C",
+        "description": "This is a simple plugin to toggle the checklist states (paragraph/list/checklist/custom sytles...)",
+        "repo": "thingnotok/obsidian-toggle-list",
+        "branch": "master"
+    },
+    {
+        "id": "squiggle",
+        "name": "Squiggle",
+        "author": "Jesse Hoogland",
+        "description": "Probabilistic estimation with Squiggle in your notes.",
+        "repo": "jqhoogland/obsidian-squiggle"
+    },
+    {
+        "id": "obsidian-theme-toggler",
+        "name": "Theme Toggler",
+        "author": "larsmagnus",
+        "description": "Toggle the theme in Obsidian's panels.",
+        "repo": "larsmagnus/obsidian-theme-toggler",
+        "branch": "main"
+    },
+    {
+        "id": "influx",
+        "name": "Influx",
+        "author": "Jens M Gleditsch",
+        "description": "A bullet journaling plugin that aggregates a terse stream of backlinked clippings in the footer of notes.",
+        "repo": "jensmtg/influx",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-week-planner",
+        "name": "Week Planner",
+        "description": "Defines commands for creating planning documents and moving tasks between them.",
+        "author": "Ralf Wirdemann",
+        "repo": "rwirdemann/obsidian-week-planner",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-html-plugin",
+        "name": "HTML Reader",
+        "author": "Nuthrash",
+        "description": "This is a HTML file reader plugin for Obsidian. Can open documents with .html and .htm file extensions.",
+        "repo": "nuthrash/obsidian-html-plugin",
+        "branch": "master"
+    },
+    {
+        "id": "dynamic-rtl",
+        "name": "Dynamic RTL",
+        "author": "mwxgaf",
+        "description": "Dynamic RTL/LTR direction per line/paragraph, dependant on language!",
+        "repo": "mwxgaf/obsidian-dynamic-rtl",
+        "branch": "master"
     }
 ]
