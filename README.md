@@ -23,7 +23,6 @@ To add your theme to our theme store, make a pull request to the `community-css-
 - `repo`: the GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
 - `screenshot`: path to the screenshot of your theme.
 - `modes`: if your theme supports both dark and light mode, put `["dark", "light"]`. Otherwise, put `["dark"]` if your theme only supports dark mode, or  `["light"]` if your theme only supports light mode.
-- `branch`: which branch to use for your reposity. You can omit it if you're using `master`.
 - `publish`: if your theme supports Obsidian Publish, set this to `true`. Omit it otherwise.
 
 To get your theme compatible with Obsidian Publish, you can now use `applyCss` and `applyCssByLink` to test out your CSS in the developer console of Obsidian Publish sites, so that you don't actually need to own sites to test your `publish.css`. You can test it out on our help site here: https://help.obsidian.md/
@@ -31,6 +30,32 @@ To get your theme compatible with Obsidian Publish, you can now use `applyCss` a
 `applyCss` takes a CSS string, you can use backtick (template strings) for multiline CSS. `applyCssByLink` takes a link and loads the CSS, would recommend GitHub raw file URLs.
 
 ## Community Plugin
+
+### Open source policy
+
+We encourage all plugin developers to open source their plugins, however, we recognize that this may not always be possible.
+
+Closed source plugins must be clearly indicated in the plugin description and readme with the following text:
+
+> This plugin is closed source.
+
+### Advertisement policy
+
+#### Dynamic advertisements
+
+Dynamic advertisements (like Google Ads and others, which load ads from the internet) are not allowed for listed community plugins. We firmly believe that dynamic ads are a poor fit for the Obsidian ecosystem and the principles we follow. In addition, dynamic ads are a huge security risk for our users.
+
+#### Static advertisements
+
+Plugins showing static advertisements (like banners, messages, etc) for a third party must be clearly indicated in the plugin description and readme with the following text:
+
+> This plugin is supported by advertisements.
+
+In addition, advertisements must not show up spontaneously, such as in a pop-up modal, notice, etc. They must only be delivered in the plugin's own interfaces (for example: custom views, settings tab), or be triggered by a deliberate user action (for example: clicking a button that says "learn more").
+
+#### Self advertisements
+
+Plugins showing advertisements for the plugin itself, or for the author of the plugin (for example, asking for donations/support, advertise other plugins from the same author, etc) are allowed, but must follow the same placement and timing policy as static advertisements.
 
 ### Community Plugins format
 
@@ -41,14 +66,20 @@ To add your plugin to the list, make a pull request to the `community-plugins.js
 - `author`: The author's name.
 - `description`: A short description of what your plugin does.
 - `repo`: The GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
-- `branch`: (optional) A branch if you prefer to use a specific branch of your repo. Defaults to `master`.
 
 ### How community plugins are pulled
 
 - Obsidian will read the list of plugins in `community-plugins.json`.
 - The `name`, `author` and `description` fields are used for searching.
-- When the user opens the detail page of your plugin, Obsidian will pull the `manifest.json` and `README.md` from your GitHub repo using the specified branch (or `master`).
+- When the user opens the detail page of your plugin, Obsidian will pull the `manifest.json` and `README.md` from your GitHub repo).
 - The `manifest.json` in your repo will only be used to figure out the latest version. Actual files are fetched from your GitHub releases.
 - If your `manifest.json` requires a version of Obsidian that's higher than the running app, your `versions.json` will be consulted to find the latest version of your plugin that is compatible.
 - When the user chooses to install your plugin, Obsidian will look for your GitHub releases tagged identically to the version inside `manifest.json`.
 - Obsidian will download `manifest.json`, `main.js`, and `styles.css` (if available), and store them in the proper location inside the vault.
+
+### Announcing the First Public Release of your Plugin/Theme
+
+- Once admitted to the plugin/theme browser, you can announce the public availability of your plugin/theme:
+  - [in the forums](https://forum.obsidian.md/c/share-showcase/9) as a showcase, and
+  - [on the Discord Server](https://discord.gg/veuWUTm) in the channel `#updates`. (You need the `developer` role to be able to post in that channel; [you can get that role here](https://discord.com/channels/686053708261228577/702717892533157999/830492034807758859).)
+- You can also announce the first working version of your plugin as a public beta before "officially" submitting it to the plugin/theme browser. That way, you can acquire some beta testers for feedback. It's recommended to use the [BRAT Plugin](https://obsidian.md/plugins?id=obsidian42-brat) to make the installation as easy as possible for interested beta testers.
