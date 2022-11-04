@@ -38,10 +38,19 @@ saveStats();
 				// stats is Array<{tag_name: string, assets: Array<{name: string, download_count}>}>
 
 				console.log(`Received ${releases.length} releases`);
+
+				let latestTs = 0;
+
 				for (let release of releases) {
 					let version = release.tag_name;
 					let assets = release.assets;
 					let downloads = 0;
+
+					let publishTs = new Date(release.published_at).getTime();
+					if (publishTs > latestTs) {
+						latestTs = publishTs;
+					}
+
 					for (let asset of assets) {
 						if (asset.name === 'manifest.json') {
 							downloads = asset.download_count;
@@ -61,6 +70,7 @@ saveStats();
 
 				console.log(`Total downloads: ${total}`);
 				stats['downloads'] = total;
+				stats['latest'] = release.published_at;
 
 				saveStats();
 				break;
