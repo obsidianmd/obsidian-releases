@@ -3,6 +3,7 @@ name: Pull plugin stats
 on:
   schedule:
     - cron: "0 0 * * *"
+  workflow_dispatch: # Put here!!
 
 # run it on closing PR to test the workflow, will remove once it works
 # on:
