@@ -40,6 +40,7 @@ saveStats();
 				console.log(`Received ${releases.length} releases`);
 
 				let latestTs = 0;
+				let latestRelease = '';
 
 				for (let release of releases) {
 					let version = release.tag_name;
@@ -49,6 +50,7 @@ saveStats();
 					let publishTs = new Date(release.published_at).getTime();
 					if (publishTs > latestTs) {
 						latestTs = publishTs;
+						latestRelease = release.published_at;
 					}
 
 					for (let asset of assets) {
@@ -70,7 +72,7 @@ saveStats();
 
 				console.log(`Total downloads: ${total}`);
 				stats['downloads'] = total;
-				stats['latest'] = release.published_at;
+				stats['latest'] = latestRelease;
 
 				saveStats();
 				break;
