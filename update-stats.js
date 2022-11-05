@@ -65,7 +65,7 @@ saveStats();
 
 				let total = 0;
 				for (let version in stats) {
-					if (stats.hasOwnProperty(version) && version !== 'downloads') {
+					if (stats.hasOwnProperty(version) && version !== 'downloads' && version !== 'latest') {
 						total += stats[version];
 					}
 				}
