@@ -328,10 +328,10 @@
     },
     {
         "id": "music-code-blocks",
-        "name": "Music Sheet Code Blocks",
+        "name": "ABC Music Sheet Code Blocks",
         "author": "Til Blechschmidt",
-        "description": "Render music sheets directly from code blocks",
-        "repo": "TilBlechschmidt/obsidian-plugin-abcjs"
+        "description": "Render music sheets directly from code blocks using ABC music notation via abcjs",
+        "repo": "abcjs-music/obsidian-plugin-abcjs"
     },
     {
         "id": "cm-typewriter-scroll-obsidian",
@@ -5224,6 +5224,53 @@
         "description": "Plugin for easily opening new notes in a floating window.",
         "repo": "Pr0dt0s/new-note-new-window",
         "branch": "master"
+    },
+    {
+        "id": "obsidian-awesome-flashcard",
+        "name": "Awesome Flashcard",
+        "author": "AwesomeDog",
+        "description": "Handy Anki integration for Obsidian.",
+        "repo": "AwesomeDog/obsidian-awesome-flashcard",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-daily-note-outline",
+        "name": "Daily Note Outline",
+        "author": "iiz",
+        "description": "Add a custom view which shows outline of multiple daily notes with headings, links, tags and list items",
+        "repo": "iiz00/obsidian-daily-note-outline",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-colorful-tag",
+        "name": "Colorful Tag",
+        "author": "RieN7",
+        "description": "You can easily add prefix or suffix to a tag and change the tag’s background or text color.",
+        "repo": "rien7/obsidian-colorful-tag",
+        "branch": "master"
+    },
+    {
+        "id": "edit-gemini",
+        "name": "Edit Gemini",
+        "author": "Basil_Mori",
+        "description": "Allows the user to edit and create .gmi files.",
+        "repo": "Basil-Mori/obsidian-edit-gemini",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-pretty-bibtex",
+        "name": "Pretty BibTeX",
+        "author": "Sandro Figo",
+        "description": "Shows raw BibTeX bibliography entries in a prettier way",
+        "repo": "sandrofigo/obsidian-pretty-bibtex"
+    },
+    {
+        "id": "frontmatter-links",
+        "name": "Frontmatter Links",
+        "author": "Dion Tryban (Trikzon)",
+        "description": "Renders links in a note's frontmatter as links.",
+        "repo": "Trikzon/obsidian-frontmatter-links",
+        "branch": "main"
     },
     {
         "id": "obsidian-incremental-id",
