@@ -94,7 +94,8 @@
         "name": "Calendar",
         "author": "Liam Cain",
         "description": "Simple calendar widget for Obsidian",
-        "repo": "liamcain/obsidian-calendar-plugin"
+        "repo": "liamcain/obsidian-calendar-plugin",
+        "donation": "https://buymeacoffee.com/liamcain"
     },
     {
         "id": "mrj-text-expand",
@@ -327,10 +328,10 @@
     },
     {
         "id": "music-code-blocks",
-        "name": "Music Sheet Code Blocks",
+        "name": "ABC Music Sheet Code Blocks",
         "author": "Til Blechschmidt",
-        "description": "Render music sheets directly from code blocks",
-        "repo": "TilBlechschmidt/obsidian-plugin-abcjs"
+        "description": "Render music sheets directly from code blocks using ABC music notation via abcjs",
+        "repo": "abcjs-music/obsidian-plugin-abcjs"
     },
     {
         "id": "cm-typewriter-scroll-obsidian",
@@ -1942,7 +1943,7 @@
     {
         "id": "obsidian-linter",
         "name": "Linter",
-        "description": "Formats and styles your notes.",
+        "description": "Formats and styles your notes. It can be used to format YAML tags, aliases, arrays, and metadata; footnotes; headings; spacing; math blocks; regular markdown contents like list, italics, and bold styles; and more with the use of custom rule options as well.",
         "author": "Victor Tao",
         "repo": "platers/obsidian-linter"
     },
@@ -5064,12 +5065,5 @@
         "author": "Samuel Song",
         "description": "Adding dynamic background effects to the Obsidian editor",
         "repo": "samuelsong70/obsidian-dynamic-background"
-    },
-    {
-        "id": "obsidian-auto-glossary",
-        "name": "Auto Glossary",
-        "author": "Ennio Italiano",
-        "description": "Automatically create a glossary of files, an index of files or both.",
-        "repo": "ennioitaliano/obsidian-auto-glossary"
     }
 ]
