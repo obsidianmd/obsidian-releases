@@ -328,10 +328,10 @@
     },
     {
         "id": "music-code-blocks",
-        "name": "Music Sheet Code Blocks",
+        "name": "ABC Music Sheet Code Blocks",
         "author": "Til Blechschmidt",
-        "description": "Render music sheets directly from code blocks",
-        "repo": "TilBlechschmidt/obsidian-plugin-abcjs"
+        "description": "Render music sheets directly from code blocks using ABC music notation via abcjs",
+        "repo": "abcjs-music/obsidian-plugin-abcjs"
     },
     {
         "id": "cm-typewriter-scroll-obsidian",
@@ -1943,7 +1943,7 @@
     {
         "id": "obsidian-linter",
         "name": "Linter",
-        "description": "Formats and styles your notes.",
+        "description": "Formats and styles your notes. It can be used to format YAML tags, aliases, arrays, and metadata; footnotes; headings; spacing; math blocks; regular markdown contents like list, italics, and bold styles; and more with the use of custom rule options as well.",
         "author": "Victor Tao",
         "repo": "platers/obsidian-linter"
     },
@@ -5258,9 +5258,40 @@
         "branch": "master"
     },
     {
+        "id": "obsidian-pretty-bibtex",
+        "name": "Pretty BibTeX",
+        "author": "Sandro Figo",
+        "description": "Shows raw BibTeX bibliography entries in a prettier way",
+        "repo": "sandrofigo/obsidian-pretty-bibtex"
+    },
+    {
+        "id": "frontmatter-links",
+        "name": "Frontmatter Links",
+        "author": "Dion Tryban (Trikzon)",
+        "description": "Renders links in a note's frontmatter as links.",
+        "repo": "Trikzon/obsidian-frontmatter-links",
+        "branch": "main"
+    },
+    {
+        "id": "ava",
+        "name": "Ava",
+        "author": "louis030195",
+        "description": "AI-enhanced reflection in Obsidian",
+        "repo": "louis030195/obsidian-ava",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-scroll-to-top-plugin",
+        "name": "Scroll to Top Plugin",
+        "author": "cloudhao1999",
+        "description": "This is a plugin for Obsidian that adds a button to scroll to the top of the current note.",
+        "repo": "cloudhao1999/obsidian-scroll-to-top-plugin",
+        "branch": "main"
+    }, {
+    
         "id": "page-gallery",
         "name": "Page Gallery",
-        "description": "Creates an embeddable gallery based on selected page contents..",
+        "description": "Creates an embeddable gallery based on selected page contents.",
         "author": "Nathan Clark",
         "repo": "tokenshift/obsidian-page-gallery"
     }
