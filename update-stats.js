@@ -65,14 +65,14 @@ saveStats();
 
 				let total = 0;
 				for (let version in stats) {
-					if (stats.hasOwnProperty(version) && version !== 'downloads' && version !== 'latest') {
+					if (stats.hasOwnProperty(version) && version !== 'downloads' && version !== 'updated') {
 						total += stats[version];
 					}
 				}
 
 				console.log(`Total downloads: ${total}`);
 				stats['downloads'] = total;
-				stats['latest'] = latestRelease;
+				stats['updated'] = latestRelease;
 
 				saveStats();
 				break;
