@@ -51,7 +51,7 @@ module.exports = async ({ github, context, core, probe }) => {
     try {
         const repository = await github.rest.repos.get({ owner, repo });
         if(!repository.data.has_issues) {
-            addError('Your repository does not have issues enabled. Users will not be able to report bugs and request features.');
+            addWarning('Your repository does not have issues enabled. Users will not be able to report bugs and request features.');
         }
     } catch (e) {
         addError(`It seems like you made a typo in the repository field ${theme.repo}`);
@@ -188,5 +188,5 @@ module.exports = async ({ github, context, core, probe }) => {
         }
     }
 
-    return context.payload.client_payload.value
+    return context.payload.client_payload.value;
 }
