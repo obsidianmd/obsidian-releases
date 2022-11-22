@@ -38,10 +38,19 @@ saveStats();
 				// stats is Array<{tag_name: string, assets: Array<{name: string, download_count}>}>
 
 				console.log(`Received ${releases.length} releases`);
+
+				let updated = 0;
+
 				for (let release of releases) {
 					let version = release.tag_name;
 					let assets = release.assets;
 					let downloads = 0;
+
+					let publishTs = new Date(release.published_at).getTime();
+					if (publishTs > updated) {
+						updated = publishTs;
+					}
+
 					for (let asset of assets) {
 						if (asset.name === 'manifest.json') {
 							downloads = asset.download_count;
@@ -54,13 +63,14 @@ saveStats();
 
 				let total = 0;
 				for (let version in stats) {
-					if (stats.hasOwnProperty(version) && version !== 'downloads') {
+					if (stats.hasOwnProperty(version) && version !== 'downloads' && version !== 'updated' && version !== 'latest') {
 						total += stats[version];
 					}
 				}
 
 				console.log(`Total downloads: ${total}`);
 				stats['downloads'] = total;
+				stats['updated'] = updated;
 
 				saveStats();
 				break;
