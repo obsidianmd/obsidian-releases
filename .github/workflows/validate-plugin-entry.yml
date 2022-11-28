@@ -50,7 +50,7 @@ jobs:
             console.log(`Repo info: ${owner}/${repo}`);
 
             if (owner.toLowerCase() !== author.toLowerCase()) {
-              const onBehalfOfOrg = await octokit.rest.orgs
+              const onBehalfOfOrg = await github.rest.orgs
                 .checkMembershipForUser({
                   org: owner.toLowerCase(),
                   username: author.toLowerCase(),
