@@ -38,7 +38,15 @@ module.exports = async ({ github, context, core, probe }) => {
     console.log(`Repo info: ${owner}/${repo}`);
 
     if (owner.toLowerCase() !== author.toLowerCase()) {
-        addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. Last plugin in the list is: ${plugin.repo}`);
+        try {
+            const isInOrg = await github.rest.orgs.checkMembershipForUser({org: owner, username: author});
+            if(!isInOrg) {
+                throw undefined;
+            }
+        }catch(e) {
+            addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. Last plugin in the list is: ${plugin.repo}`);
+        }
+        
     }
     try {
         const repository = await github.rest.repos.get({ owner, repo });
