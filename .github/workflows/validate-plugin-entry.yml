@@ -50,7 +50,16 @@ jobs:
             console.log(`Repo info: ${owner}/${repo}`);
 
             if (owner.toLowerCase() !== author.toLowerCase()) {
-              addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. Last plugin in the list is: ${plugin.repo}`);
+              const onBehalfOfOrg = await github.rest.orgs
+                .checkMembershipForUser({
+                  org: owner.toLowerCase(),
+                  username: author.toLowerCase(),
+                })
+                .then(() => true)
+                .catch(() => false);
+              if (!onBehalfOfOrg) {
+                addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. Last plugin in the list is: ${plugin.repo}`);
+              }
             } else {
               try {
                 await github.rest.repos.get({ owner, repo });
