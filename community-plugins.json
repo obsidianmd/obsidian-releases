@@ -1943,7 +1943,7 @@
     {
         "id": "obsidian-linter",
         "name": "Linter",
-        "description": "Formats and styles your notes.",
+        "description": "Formats and styles your notes. It can be used to format YAML tags, aliases, arrays, and metadata; footnotes; headings; spacing; math blocks; regular markdown contents like list, italics, and bold styles; and more with the use of custom rule options as well.",
         "author": "Victor Tao",
         "repo": "platers/obsidian-linter"
     },
@@ -4007,7 +4007,7 @@
         "id": "omnisearch",
         "name": "Omnisearch",
         "author": "Simon Cambier",
-        "description": "A search engine that just works",
+        "description": "Intelligent search for your notes, PDFs, and OCR for images",
         "repo": "scambier/obsidian-omnisearch"
     },
     {
@@ -4759,7 +4759,7 @@
         "id": "obsidian-party",
         "name": "Party🎉",
         "author": "Shap Po",
-        "description": "An implementation of party.js for Obsidian. Create confetti & sparkles in your notes!",
+        "description": "An implementation of party.js for Obsidian. Create confetti, sparkles, and even custom effects in your notes!",
         "repo": "shap-po/obsidian-party"
     },
     {
@@ -4877,7 +4877,7 @@
         "name": "Sakana Widget",
         "author": "Boninall",
         "description": "Add the Sakana! Widget to your own Obsidian!",
-        "repo": "Quorafind/obsidian-sakana-widget",
+        "repo": "quorafind/obsidian-sakana-widget",
         "branch": "master"
     },
     {
@@ -4894,7 +4894,7 @@
         "description": "This plugin extracts annotations and highlights files exported from Onyx Boox tablets, and converts them to reference, literature and permanent notes fitting to the Zettelkasten method.",
         "author": "Akos Balasko",
         "repo": "akosbalasko/Onyx-Boox-Annotation-Highlight-Extractor",
-		    "branch": "master"
+        "branch": "master"
     },
     {
         "id": "chronology",
@@ -4989,14 +4989,14 @@
         "description": "This plugin retrieves the HTML titles to name the raw URL links.",
         "repo": "zfei/obsidian-url-namer",
         "branch": "master"
-    }, 
+    },
     {
         "id": "obsidian-douban-plugin",
         "name": "Douban",
         "author": "Wanxp",
         "description": "This is a plugin that can import movies/books/musics/notes/games info data from Douban for Obsidian .",
         "repo": "Wanxp/obsidian-douban"
-    }, 
+    },
     {
         "id": "insert-unsplash-image",
         "name": "Image Inserter",
@@ -5004,7 +5004,7 @@
         "description": "Help users easily search and insert images to editors from Unsplash.",
         "repo": "cloudy9101/obsidian-image-inserter",
         "branch": "master"
-    }, 
+    },
     {
         "id": "keyboard-analyzer",
         "name": "Keyboard Analyzer",
@@ -5012,14 +5012,14 @@
         "description": "See and analyse your keyboard hotkeys and shortcuts",
         "repo": "cogscides/obsidian-keyboard-analyzer",
         "branch": "main"
-    }, 
+    },
     {
         "id": "obsidian-plugin-update-tracker",
         "name": "Plugin Update Tracker",
         "author": "Steven Swartz",
         "description": "Know when installed plugins have updates and evaluate the risk of upgrading",
         "repo": "swar8080/obsidian-plugin-update-tracker"
-    }, 
+    },
     {
         "id": "update-relative-links",
         "name": "Update Relative Links",
@@ -5027,14 +5027,14 @@
         "description": "Update relative links.",
         "repo": "val3344/obsidian-update-relative-links",
         "branch": "master"
-    }, 
+    },
     {
         "id": "readavocado-sync",
         "name": "Readavocado Sync",
         "author": "Cyrus Zhang",
         "description": "Sync your Readavocado highlights with Obsidian",
         "repo": "innneang/obsidian-readavocado-sync"
-    }, 
+    },
     {
         "id": "repeat-plugin",
         "name": "Repeat",
@@ -5042,7 +5042,7 @@
         "description": "Review notes using periodic or spaced repetition.",
         "repo": "prncc/obsidian-repeat-plugin",
         "branch": "master"
-    }, 
+    },
     {
         "id": "actions-uri",
         "name": "Actions URI",
@@ -5050,7 +5050,7 @@
         "description": "Adds additional `x-callback-url` endpoints to the app for common actions — it's a clean, super-charged addition to Obsidian URI.",
         "repo": "czottmann/obsidian-actions-uri",
         "branch": "main"
-    }, 
+    },
     {
         "id": "obsidian-projects",
         "name": "Projects",
@@ -5058,14 +5058,14 @@
         "author": "Marcus Olsson",
         "repo": "marcusolsson/obsidian-projects",
         "branch": "main"
-    }, 
+    },
     {
         "id": "obsidian-dynamic-background",
         "name": "Dynamic Background",
         "author": "Samuel Song",
         "description": "Adding dynamic background effects to the Obsidian editor",
         "repo": "samuelsong70/obsidian-dynamic-background"
-    }, 
+    },
     {
         "id": "obsidian-note-content-pusher",
         "name": "New Note Content Pusher",
@@ -5095,11 +5095,11 @@
         "repo": "MohrJonas/obsidian-ocr"
     },
     {
-      "id": "obsidian-gitlab-issues",
-      "name": "Obsidian Gitlab Issues",
-      "author": "Ben Roberts",
-      "description": "Import Gitlab issues into your Obsidian vault.",
-      "repo": "benr77/obsidian-gitlab-issues"
+        "id": "obsidian-gitlab-issues",
+        "name": "Obsidian Gitlab Issues",
+        "author": "Ben Roberts",
+        "description": "Import Gitlab issues into your Obsidian vault.",
+        "repo": "benr77/obsidian-gitlab-issues"
     },
     {
         "id": "obsidian-account-linker",
@@ -5270,6 +5270,174 @@
         "author": "Dion Tryban (Trikzon)",
         "description": "Renders links in a note's frontmatter as links.",
         "repo": "Trikzon/obsidian-frontmatter-links",
+        "branch": "main"
+    },
+    {
+        "id": "ava",
+        "name": "Ava",
+        "author": "louis030195",
+        "description": "AI-enhanced reflection in Obsidian",
+        "repo": "louis030195/obsidian-ava",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-scroll-to-top-plugin",
+        "name": "Scroll to Top Plugin",
+        "author": "cloudhao1999",
+        "description": "This is a plugin for Obsidian that adds a button to scroll to the top of the current note.",
+        "repo": "cloudhao1999/obsidian-scroll-to-top-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-old-note-admonitor",
+        "name": "Old Note Admonitor",
+        "description": "This Obsidian plugin shows warnings if the note has not been updated for over specific days",
+        "author": "tadashi-aikawa",
+        "repo": "tadashi-aikawa/obsidian-old-note-admonitor",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-export-image",
+        "name": "Export Image plugin",
+        "author": "Zhou Hua",
+        "description": "Easily convert your article to image.",
+        "repo": "zhouhua/obsidian-export-image",
+        "branch": "master"
+    },
+    {
+        "id": "page-gallery",
+        "name": "Page Gallery",
+        "description": "Creates an embeddable gallery based on selected page contents.",
+        "author": "Nathan Clark",
+        "repo": "tokenshift/obsidian-page-gallery"
+    },
+    {
+        "id": "obsidian42-strange-new-worlds",
+        "name": "Obsidian42 - Strange New Worlds",
+        "description": "Revealing networked thought and the strange new worlds created by your vault.",
+        "author": "TfTHacker",
+        "repo": "TfTHacker/obsidian42-strange-new-worlds"
+    },
+    {
+        "id": "obsidian-dynbedded",
+        "name": "Dynbedded",
+        "description": "Dynamic Embeds for Obsidian.md",
+        "author": "Marcus Breiden",
+        "repo": "MMoMM-org/obsidian-dynbedded",
+        "branch": "main"
+    },
+    {
+        "id": "copy-document-as-html",
+        "name": "Copy document as HTML",
+        "description": "Copy the current document to clipboard as HTML, including images.",
+        "author": "mvdkwast",
+        "repo": "mvdkwast/obsidian-copy-as-html",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-chorded-hotkeys",
+        "name": "Chorded Hotkeys",
+        "description": "Type multiple letters at the same time to trigger text insertion, template insertion, or command execution.",
+        "author": "Trey Connor Meyers",
+        "repo": "ConnorMeyers/obsidian-chorded-hotkeys"
+    },
+    {
+        "id": "obsidian-dirtreeist",
+        "name": "Dirtreeist",
+        "author": "kasahala",
+        "description": "Render a directory Structure Diagram from a markdown lists in codeblock.",
+        "repo": "k4a-l/obsidian-dirtreeist",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-handlebars",
+        "name": "Obsidian Handlebars Template Plugin",
+        "author": "Sean Quinlan",
+        "description": "This is a plugin for Obsidian that adds support for handlebars template blocks in notes.",
+        "repo": "sbquinlan/obsidian-handlebars"
+    },
+    {
+        "id": "3d-graph",
+        "name": "3D Graph",
+        "author": "Alexander Weichart",
+        "description": "A 3D graph for Obsidian!",
+        "repo": "AlexW00/obsidian-3d-graph",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-relation-pane",
+        "name": "Relation Pane",
+        "author": "mottox2",
+        "description": "Displays a panel that summarize relations between notes.",
+        "repo": "mottox2/obsidian-relation-pane",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-rapid-notes",
+        "name": "Rapid Notes",
+        "description": "Create and place notes quickly in specific folders based on predefined prefixes.",
+        "author": "valteriomon",
+        "repo": "valteriomon/obsidian-rapid-notes",
+        "branch": "master"
+    },
+    {
+        "id": "emo-uploader",
+        "name": "Emo",
+        "author": "yaleiyale",
+        "description": "Embed markdown online file/image links. This plugin is for uploading images to hosting or files to github in Obsidian.",
+        "repo": "yaleiyale/obsidian-emo-uploader",
+        "branch": "main"
+    },
+    {
+        "id": "deepl",
+        "name": "DeepL",
+        "author": "Till Friebe",
+        "description": "Allows translation of selected texts into more than 25 languages with DeepL.",
+        "repo": "friebetill/obsidian-deepl",
+	      "branch": "main"
+    },
+    {
+        "id": "obsidian-quran-lookup",
+        "name": "Quran Lookup",
+        "author": "Abu Ibrahim",
+        "description": "Easily add Quran verses and translations in Obsidian with this text replacement plugin",
+        "repo": "abuibrahim2/quranlookup"
+    },
+    {
+        "id": "sigma",
+        "name": "Obsidian Sigma",
+        "description": "A plugin to enable using obsidian notes as calculation sheets.",
+        "author": "monesga",
+        "repo": "monesga/obsidian-sigma"
+    },
+    {
+        "id": "better-reading-mode",
+        "name": "Bionic Reading",
+        "author": "Boninall",
+        "description": "A plugin to enable bionic reading mode in Live preview mode of Obsidian.",
+        "repo": "quorafind/obsidian-bionic-reading"
+    },
+    {
+        "id": "obsidian-new-bullet-with-time",
+        "name": "New Bullet With Time",
+        "author": "Boninall",
+        "description": "A plugin allows you to auto add current time to new bullet line.",
+        "repo": "quorafind/obisidna-new-bullet-with-time",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-md-to-jira",
+        "name": "Markdown to Jira Converter",
+        "author": "muckmuck",
+        "description": "A plugin for converting notes or selections to jira markup and vice versa",
+        "repo": "muckmuck96/obsidian-md-to-jira"
+    },
+    {
+        "id": "obsidian-achievements",
+        "name": "Achievements",
+        "author": "Zachatoo",
+        "description": "Add achievements to Obsidian.",
+        "repo": "Zachatoo/obsidian-achievements",
         "branch": "main"
     },
     {
