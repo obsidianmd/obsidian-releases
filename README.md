@@ -67,6 +67,24 @@ Quick starting guide for new plugin devs:
 - If your source code is in a folder, such as `src`, you can use eslint with this command to analyze all files in that folder:
   - `eslint .\src\`
 
+## Funding URL
+
+You can include funding URLs where people who use your plugin can financially support it.
+
+The simple way is to set the `fundingUrl` field in your `manifest.json` file.
+
+If you have multiple URLs, you can also do:
+
+```json
+{
+	"authorUrl": "https://obsidian.md",
+    "fundingUrl": {
+        "Buy Me a Coffee": "https://buymeacoffee.com",
+        "GitHub Sponsor": "https://github.com/sponsors",
+        "Patreon": "https://www.patreon.com/"
+    }
+}
+```
 
 ## API Documentation
 
