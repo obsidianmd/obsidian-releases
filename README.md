@@ -31,6 +31,32 @@ To get your theme compatible with Obsidian Publish, you can now use `applyCss` a
 
 ## Community Plugin
 
+### Open source policy
+
+We encourage all plugin developers to open source their plugins, however, we recognize that this may not always be possible.
+
+Closed source plugins must be clearly indicated in the plugin description and readme with the following text:
+
+> This plugin is closed source.
+
+### Advertisement policy
+
+#### Dynamic advertisements
+
+Dynamic advertisements (like Google Ads and others, which load ads from the internet) are not allowed for listed community plugins. We firmly believe that dynamic ads are a poor fit for the Obsidian ecosystem and the principles we follow. In addition, dynamic ads are a huge security risk for our users.
+
+#### Static advertisements
+
+Plugins showing static advertisements (like banners, messages, etc) for a third party must be clearly indicated in the plugin description and readme with the following text:
+
+> This plugin is supported by advertisements.
+
+In addition, advertisements must not show up spontaneously, such as in a pop-up modal, notice, etc. They must only be delivered in the plugin's own interfaces (for example: custom views, settings tab), or be triggered by a deliberate user action (for example: clicking a button that says "learn more").
+
+#### Self advertisements
+
+Plugins showing advertisements for the plugin itself, or for the author of the plugin (for example, asking for donations/support, advertise other plugins from the same author, etc) are allowed, but must follow the same placement and timing policy as static advertisements.
+
 ### Community Plugins format
 
 To add your plugin to the list, make a pull request to the `community-plugins.json` file. Please add your plugin to the end of the list.
