@@ -5563,5 +5563,12 @@
         "description": "This is a markdown export plugin for Obsidian.",
         "author": "bingryan",
         "repo": "bingryan/obsidian-markdown-export-plugin"
+    },
+    {
+        "id": "obsidian-terminal-plugin",
+        "name": "Obsidian Terminal Plugin",
+        "description": "This plugin adds two commands, one for opening the current file in a terminal-based editor (Neovim by default) of your choice in a split below the file in question, and one for opening a terminal within the directory of the current note (or the vault root if no note is selected). It should work on Linux and macOS for now. Planning to allow adding custom commands that runs any terminal-based tool in a split, tab or popout window. Could be used to easily add support for powerful command line based tools such as fzf, ripgrep and of course things such as git-integration etc.",
+        "author": "Joel Eriksson",
+        "repo": "clevcode/obsidian-terminal-plugin"
     }
 ]
