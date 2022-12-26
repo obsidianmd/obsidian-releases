@@ -5289,13 +5289,6 @@
         "branch": "main"
     },
     {
-        "id": "obsidian-transcription",
-        "name": "Transcription",
-        "author": "djmango (Sulaiman Ghori)",
-        "description": "Plugin to create high-quality transcriptions via Whisper from markdown linked audio files",
-        "repo": "djmango/obsidian-transcription"
-    },
-    {
         "id": "obsidian-old-note-admonitor",
         "name": "Old Note Admonitor",
         "description": "This Obsidian plugin shows warnings if the note has not been updated for over specific days",
@@ -5570,5 +5563,12 @@
         "description": "This is a markdown export plugin for Obsidian.",
         "author": "bingryan",
         "repo": "bingryan/obsidian-markdown-export-plugin"
+    },
+    {
+        "id": "obsidian-transcription",
+        "name": "Transcription",
+        "author": "djmango (Sulaiman Ghori)",
+        "description": "Plugin to create high-quality transcriptions via Whisper from markdown linked audio files",
+        "repo": "djmango/obsidian-transcription"
     }
 ]
