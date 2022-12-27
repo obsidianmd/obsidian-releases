@@ -1772,10 +1772,10 @@
     },
     {
         "id": "obsidian-paste-to-current-indentation",
-        "name": "Paste to Current Indentation",
+        "name": "Paste Mode",
         "author": "Jacob Levernier",
-        "description": "This plugin allows pasting and marking text as block-quotes at any level of indentation.",
-        "repo": "jglev/obsidian-paste-to-current-indentation"
+        "description": "Paste content and mark block quotes at any level of indentation.",
+        "repo": "jglev/obsidian-paste-mode"
     },
     {
         "id": "obsimian-exporter",
@@ -5412,10 +5412,10 @@
     },
     {
         "id": "better-reading-mode",
-        "name": "Bionic Reading",
+        "name": "Better Reading Mode",
         "author": "Boninall",
         "description": "A plugin to enable bionic reading mode in Live preview mode of Obsidian.",
-        "repo": "quorafind/obsidian-bionic-reading"
+        "repo": "quorafind/obsidian-better-reading-mode"
     },
     {
         "id": "obsidian-new-bullet-with-time",
@@ -5499,7 +5499,7 @@
         "name": "Double Click Tab",
         "author": "Boninall",
         "description": "A plugin to modify the default behavior when you double click on the tab title, like close tab.",
-        "repo": "Quorafind/Obsidian-Double-Click-Tab",
+        "repo": "quorafind/Obsidian-Double-Click-Tab",
         "branch": "master"
     },
     {
@@ -5518,13 +5518,58 @@
         "repo": "ennioitaliano/obsidian-auto-glossary"
     },
     {
-    
         "id": "samepage",
         "name": "SamePage",
         "description": "Official Obsidian client into the intra tool-for-thought protocol.",
         "author": "SamePage",
         "repo": "samepage-network/obsidian-samepage",
         "branch": "main"
+    },
+    {
+        "id": "numerals",
+        "name": "Numerals",
+        "author": "RyanC",
+        "description": "Numerals turns any code block into an advanced calculator. Evaluates math expressions on each line of a code block, including units, currency, and optional TeX rendering",
+        "repo": "gtg922r/obsidian-numerals",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-plugin-dynamodb",
+        "name": "AWS DynamoDB For Obsidian",
+        "author": "Lee Nattress",
+        "description": "Query AWS DynamoDB and render tables inside documents",
+        "repo": "leenattress/obsidian-plugin-dynamodb",
+        "branch": "main"
+    },
+    {
+        "id": "hidden-folder-obsidian",
+        "name": "Hidden Folder",
+        "author": "ptrsvltns",
+        "description": "Hidden Folder",
+        "repo": "ptrsvltns/hidden-folder-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "make-md",
+        "name": "MAKE.md",
+        "description": "Make.md brings you features that supercharges Obsidian. Sort your files in custom order and add file icons using Spaces. Edit inline embeds with Flow Editor. And style your text and add new markdown blocks without writing markdown using Maker Mode.",
+        "author": "MAKE.md",
+        "repo": "Make-md/makemd",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-markdown-export-plugin",
+        "name": "Obsidian markdown export",
+        "description": "This is a markdown export plugin for Obsidian.",
+        "author": "bingryan",
+        "repo": "bingryan/obsidian-markdown-export-plugin"
+    },
+    {
+        "id": "sync-graph-settings",
+        "name": "Sync Graph Settings",
+        "author": "Xallt",
+        "description": "This is a plugin for syncing Global Graph settings (like Color Groups) to Local Graphs",
+        "repo": "Xallt/sync-graph-settings"
     },
     {
         "id": "writing",
