@@ -5689,12 +5689,48 @@
         "repo": "Fevol/obsidian-translate",
         "branch": "master"
     },
-	{
-	    "id": "keyshots",
+    {
+        "id": "dmn-plugin",
+        "name": "DMN Plugin",
+        "author": "joleaf",
+        "description": "This plugin enables viewing DMNs using dmn-js.",
+        "repo": "joleaf/obsidian-dmn-plugin"
+    },
+    {
+	      "id": "obsidian-fuzzytag",
+        "name": "FuzzyTag",
+        "description": "Fuzzy match autocomplete tags in Frontmatter",
+        "author": "Adrian",
+        "repo": "adriandersen/obsidian-fuzzytag"
+    },
+    {
+        "id": "obsidian-project-garden",
+        "name": "Project Garden",
+        "author": "Ben Goosman",
+        "description": "See all your projects in one place",
+        "repo": "bgoosman/obsidian-project-garden"
+    },
+    {
+        "id": "workona-to-obsidian",
+        "name": "Workona To Obsidian",
+        "author": "Holmes555",
+        "description": "Import Workona resources through generated JSON file.",
+        "repo": "Holmes555/workona-to-obsidian"
+    },
+    {
+        "id": "obsidian-readlater",
+        "name": "Read Later",
+        "author": "Gabriele Cannata",
+        "description": "Synch web pages to markdown and integrate with read-it-later apps (Pocket, Instapaper)",
+        "repo": "Canna71/obsidian-readlater",
+        "branch": "master"
+    },
+    {
+	      "id": "keyshots",
         "name": "Keyshots",
         "description": "Adds classic hotkey/shortcuts commands from popular IDEs like Visual Studio Code or JetBrains Family.",
         "author": "KrazyManJ",
         "repo": "KrazyManJ/obsidian-keyshots",
-		"branch": "master"
-	}
+		    "branch": "master"
+	  }
 ]
