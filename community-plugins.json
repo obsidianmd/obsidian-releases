@@ -5394,7 +5394,7 @@
         "author": "Till Friebe",
         "description": "Allows translation of selected texts into more than 25 languages with DeepL.",
         "repo": "friebetill/obsidian-deepl",
-	      "branch": "main"
+        "branch": "main"
     },
     {
         "id": "obsidian-quran-lookup",
@@ -5635,12 +5635,12 @@
         "branch": "main"
     },
     {
-      "id": "obsidian-autoscroll",
-      "name": "Autoscroll",
-      "author": "Petr Nazarov",
-      "description": "This plugin allows you to automatically scroll down the content with the provided speed",
-      "repo": "petr-nazarov/obsidian-autoscroll",
-      "branch": "master"
+        "id": "obsidian-autoscroll",
+        "name": "Autoscroll",
+        "author": "Petr Nazarov",
+        "description": "This plugin allows you to automatically scroll down the content with the provided speed",
+        "repo": "petr-nazarov/obsidian-autoscroll",
+        "branch": "master"
     },
     {
         "id": "obsidian-stylist",
@@ -5697,7 +5697,7 @@
         "repo": "joleaf/obsidian-dmn-plugin"
     },
     {
-	      "id": "obsidian-fuzzytag",
+        "id": "obsidian-fuzzytag",
         "name": "FuzzyTag",
         "description": "Fuzzy match autocomplete tags in Frontmatter",
         "author": "Adrian",
@@ -5734,11 +5734,43 @@
         "branch": "main"
     },
     {
-	    "id": "keyshots",
+        "id": "obsidian-toggle-case",
+        "name": "Toggle Case",
+        "author": "automattech",
+        "description": "This plugin allows you to set a hotkey to toggle between `lowercase` `UPPERCASE` and `Title Case`",
+        "repo": "MatthewAlner/obsidian-toggle-case",
+        "branch": "master"
+    },
+    {
+        "id": "open-gate",
+        "name": "Open Gate",
+        "author": "DuocNV",
+        "description": "Embed any website to Obsidian, from now all, you have anything you need in one place.",
+        "repo": "nguyenvanduocit/obsidian-open-gate",
+        "branch": "main"
+    },
+    {
+        "id": "canvas-presentation",
+        "name": "Canvas Presentation",
+        "description": "A plugin to help you display cards based on sequence.",
+        "author": "Boninall",
+        "repo": "quorafind/obsidian-canvas-presentation",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-paste-as-html",
+        "name": "Paste As Html",
+        "author": "maotong06",
+        "description": "Paste As Html, Keep the original css style. Paste from web browser",
+        "repo": "maotong06/obsidian-paste-as-html-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "keyshots",
         "name": "Keyshots",
         "description": "Adds classic hotkey/shortcuts commands from popular IDEs like Visual Studio Code or JetBrains Family.",
         "author": "KrazyManJ",
         "repo": "KrazyManJ/obsidian-keyshots",
-		"branch": "master"
-	}
+	    	"branch": "master"
+	  }
 ]
