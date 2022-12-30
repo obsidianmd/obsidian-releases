@@ -4781,9 +4781,10 @@
     {
         "id": "todoist-completed-tasks-plugin",
         "name": "Todoist completed tasks",
-        "author": "Andrew 'Ledary' Kulishov",
-        "description": "Fetches completed tasks from todoist API and adds them to the Obsidian note.",
+        "author": "Andrey Kulishov",
+        "description": "Add completed Todoist tasks to your Obsidian notes",
         "repo": "Ledaryy/obsidian-todoist-completed-tasks",
+	"donation": "https://www.buymeacoffee.com/ledaryy",
         "branch": "master"
     },
     {
@@ -5635,12 +5636,12 @@
         "branch": "main"
     },
     {
-      "id": "obsidian-autoscroll",
-      "name": "Autoscroll",
-      "author": "Petr Nazarov",
-      "description": "This plugin allows you to automatically scroll down the content with the provided speed",
-      "repo": "petr-nazarov/obsidian-autoscroll",
-      "branch": "master"
+        "id": "obsidian-autoscroll",
+        "name": "Autoscroll",
+        "author": "Petr Nazarov",
+        "description": "This plugin allows you to automatically scroll down the content with the provided speed",
+        "repo": "petr-nazarov/obsidian-autoscroll",
+        "branch": "master"
     },
     {
         "id": "obsidian-stylist",
@@ -5724,6 +5725,69 @@
         "description": "Synch web pages to markdown and integrate with read-it-later apps (Pocket, Instapaper)",
         "repo": "Canna71/obsidian-readlater",
         "branch": "master"
+    },
+    {
+        "id": "surfing",
+        "name": "Surfing",
+        "author": "Boninall",
+        "description": "Surf the Net in Obsidian",
+        "repo": "quorafind/obsidian-surfing",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-toggle-case",
+        "name": "Toggle Case",
+        "author": "automattech",
+        "description": "This plugin allows you to set a hotkey to toggle between `lowercase` `UPPERCASE` and `Title Case`",
+        "repo": "MatthewAlner/obsidian-toggle-case",
+        "branch": "master"
+    },
+    {
+        "id": "open-gate",
+        "name": "Open Gate",
+        "author": "DuocNV",
+        "description": "Embed any website to Obsidian, from now all, you have anything you need in one place.",
+        "repo": "nguyenvanduocit/obsidian-open-gate",
+        "branch": "main"
+    },
+    {
+        "id": "canvas-presentation",
+        "name": "Canvas Presentation",
+        "description": "A plugin to help you display cards based on sequence.",
+        "author": "Boninall",
+        "repo": "quorafind/obsidian-canvas-presentation",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-paste-as-html",
+        "name": "Paste As Html",
+        "author": "maotong06",
+        "description": "Paste As Html, Keep the original css style. Paste from web browser",
+        "repo": "maotong06/obsidian-paste-as-html-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "file-forgetting-curve-obsidian",
+        "name": "File Forgetting Curve",
+        "author": "ptrsvltns",
+        "description": "File Forgetting Curve",
+        "repo": "ptrsvltns/file-forgetting-curve-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-basetag",
+        "name": "Base Tag Renderer",
+        "author": "Darren Kuro",
+        "description": "This plugin renders the basename of tags in preview mode.",
+        "repo": "darrenkuro/obsidian-basetag"
+    },
+    {
+        "id": "todo-sort",
+        "name": "Todo sort",
+        "description": "Sort todos by completion status",
+        "author": "Ryan Gomba",
+        "repo": "ryangomba/obsidian-todo-sort",
+        "branch": "main"
     },
     {
         "id": "obsidian-wakatime",
