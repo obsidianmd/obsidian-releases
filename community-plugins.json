@@ -2848,7 +2848,7 @@
         "name": "Structured Plugin",
         "description": "Structured plugin. Create hierarchy in notes using \".\"",
         "author": "dobrovolsky",
-        "repo": "dobrovolsky/obsidain-structure"
+        "repo": "dobrovolsky/obsidian-structure"
     },
     {
         "id": "cooklang-obsidian",
@@ -4781,9 +4781,10 @@
     {
         "id": "todoist-completed-tasks-plugin",
         "name": "Todoist completed tasks",
-        "author": "Andrew 'Ledary' Kulishov",
-        "description": "Fetches completed tasks from todoist API and adds them to the Obsidian note.",
+        "author": "Andrey Kulishov",
+        "description": "Add completed Todoist tasks to your Obsidian notes",
         "repo": "Ledaryy/obsidian-todoist-completed-tasks",
+	"donation": "https://www.buymeacoffee.com/ledaryy",
         "branch": "master"
     },
     {
@@ -5394,7 +5395,7 @@
         "author": "Till Friebe",
         "description": "Allows translation of selected texts into more than 25 languages with DeepL.",
         "repo": "friebetill/obsidian-deepl",
-	      "branch": "main"
+        "branch": "main"
     },
     {
         "id": "obsidian-quran-lookup",
@@ -5635,12 +5636,12 @@
         "branch": "main"
     },
     {
-      "id": "obsidian-autoscroll",
-      "name": "Autoscroll",
-      "author": "Petr Nazarov",
-      "description": "This plugin allows you to automatically scroll down the content with the provided speed",
-      "repo": "petr-nazarov/obsidian-autoscroll",
-      "branch": "master"
+        "id": "obsidian-autoscroll",
+        "name": "Autoscroll",
+        "author": "Petr Nazarov",
+        "description": "This plugin allows you to automatically scroll down the content with the provided speed",
+        "repo": "petr-nazarov/obsidian-autoscroll",
+        "branch": "master"
     },
     {
         "id": "obsidian-stylist",
@@ -5697,7 +5698,7 @@
         "repo": "joleaf/obsidian-dmn-plugin"
     },
     {
-	      "id": "obsidian-fuzzytag",
+        "id": "obsidian-fuzzytag",
         "name": "FuzzyTag",
         "description": "Fuzzy match autocomplete tags in Frontmatter",
         "author": "Adrian",
@@ -5725,12 +5726,168 @@
         "repo": "Canna71/obsidian-readlater",
         "branch": "master"
     },
+    {
+        "id": "surfing",
+        "name": "Surfing",
+        "author": "Boninall",
+        "description": "Surf the Net in Obsidian",
+        "repo": "quorafind/obsidian-surfing",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-toggle-case",
+        "name": "Toggle Case",
+        "author": "automattech",
+        "description": "This plugin allows you to set a hotkey to toggle between `lowercase` `UPPERCASE` and `Title Case`",
+        "repo": "MatthewAlner/obsidian-toggle-case",
+        "branch": "master"
+    },
+    {
+        "id": "open-gate",
+        "name": "Open Gate",
+        "author": "DuocNV",
+        "description": "Embed any website to Obsidian, from now all, you have anything you need in one place.",
+        "repo": "nguyenvanduocit/obsidian-open-gate",
+        "branch": "main"
+    },
+    {
+        "id": "canvas-presentation",
+        "name": "Canvas Presentation",
+        "description": "A plugin to help you display cards based on sequence.",
+        "author": "Boninall",
+        "repo": "quorafind/obsidian-canvas-presentation",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-paste-as-html",
+        "name": "Paste As Html",
+        "author": "maotong06",
+        "description": "Paste As Html, Keep the original css style. Paste from web browser",
+        "repo": "maotong06/obsidian-paste-as-html-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "file-forgetting-curve-obsidian",
+        "name": "File Forgetting Curve",
+        "author": "ptrsvltns",
+        "description": "File Forgetting Curve",
+        "repo": "ptrsvltns/file-forgetting-curve-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-basetag",
+        "name": "Base Tag Renderer",
+        "author": "Darren Kuro",
+        "description": "This plugin renders the basename of tags in preview mode.",
+        "repo": "darrenkuro/obsidian-basetag"
+    },
+    {
+        "id": "todo-sort",
+        "name": "Todo sort",
+        "description": "Sort todos by completion status",
+        "author": "Ryan Gomba",
+        "repo": "ryangomba/obsidian-todo-sort",
+        "branch": "main"
+    },
+    {
+        "id": "keyshots",
+        "name": "Keyshots",
+        "description": "Adds classic hotkey/shortcuts commands from popular IDEs like Visual Studio Code or JetBrains Family.",
+        "author": "KrazyManJ",
+        "repo": "KrazyManJ/obsidian-keyshots",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-wordy",
+        "name": "Wordy",
+        "author": "nqthqn",
+        "description": "Thesaurus, Rhymes and more using the Datamuse API. Find related words easily.",
+        "repo": "nqthqn/obsidian-wordy",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-extlnkhelper-plugin",
+        "name": "External Link Helper",
+        "author": "Jhonghee Park",
+        "description": "This is a plugin for making inserting external links easier to your notes.",
+        "repo": "nakalsio/obsidian-danpung",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-local-images-plus",
+        "name": "Local images plus",
+        "author": "catalysm, aleksey-rezvov, Sergei Korneev",
+        "description": "Local Images plus plugin is a reincarnation of obsidian-local-images which main aim was downloading images in md notes to local storage.",
+        "repo": "Sergei-Korneev/obsidian-local-images-plus",
+        "branch": "main"
+    },
+    {
+        "id": "google-photos",
+        "name": "Google Photos",
+        "author": "Alan Grainger",
+        "description": "Google Photos integration for Obsidian",
+        "repo": "alangrainger/obsidian-google-photos",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-wakatime",
+        "name": "WakaTime",
+        "description": "Automatic time tracking and metrics generated from your Obsidian usage activity.",
+        "author": "WakaTime",
+        "repo": "wakatime/obsidian-wakatime"
+    },
+    {
+        "id": "text-extractor",
+        "name": "Text Extractor",
+        "description": "A (companion) plugin to facilitate the extraction of text from images (OCR) and PDFs.",
+        "author": "Simon Cambier",
+        "repo": "scambier/obsidian-text-extractor"
+    },
+    {
+        "id": "obsidian-review-notes-plugin",
+        "name": "Review Notes Plugin",
+        "author": "tjandy98",
+        "description": "This plugin shows recently modified and newly created files",
+        "repo": "tjandy98/obsidian-review-notes-plugin",
+        "branch": "master"
+    },
+    {
+        "id": "gpt3-notes",
+        "name": "GPT-3 Notes",
+        "author": "micahke",
+        "description": "Generate notes on any subject using OpenAI's GPT-3 language model",
+        "repo": "micahke/obsidian-gpt3-notes",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-audio-notes",
+        "name": "Audio Notes",
+        "author": "Jason Maldonis",
+        "description": "Create notes for audio files.",
+        "repo": "jjmaldonis/obsidian-audio-notes",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-checklist-reset",
+        "name": "Checklist Reset",
+        "author": "Luke Hansford",
+        "description": "Adds a command to reset the state of any checklists in a document",
+        "repo": "lhansford/obsidian-checklist-reset",
+        "branch": "main"
+    },
+    {
+        "id": "mermaid-tools",
+        "name": "Mermaid Tools",
+        "author": "dartungar",
+        "description": "Improved Mermaid.js experience for Obsidian: visual toolbar with common elements & more",
+        "repo": "dartungar/obsidian-mermaid"
+    },
     {	
-	"id": "obsidian-pending-notes",
-	"name": "Pending notes",
-	"author": "Ulises Santana <ulisesantana@gmail.com>",
-	"description": "Obsidian plugin for searching links without notes in your vault.",
-	"repo": "ulisesantana/obsidian-pending-notes",
-	"branch": "master"
+        "id": "obsidian-pending-notes",
+        "name": "Pending notes",
+        "author": "Ulises Santana <ulisesantana@gmail.com>",
+        "description": "Obsidian plugin for searching links without notes in your vault.",
+        "repo": "ulisesantana/obsidian-pending-notes",
+        "branch": "master"
     }
 ]
