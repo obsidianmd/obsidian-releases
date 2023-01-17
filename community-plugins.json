@@ -5277,7 +5277,7 @@
         "id": "ava",
         "name": "Ava",
         "author": "louis030195",
-        "description": "AI-enhanced reflection in Obsidian",
+        "description": "Quickly format your notes with ChatGPT",
         "repo": "louis030195/obsidian-ava",
         "branch": "main"
     },
@@ -5883,6 +5883,191 @@
         "repo": "dartungar/obsidian-mermaid"
     },
     {
+        "id": "boost-link-suggestions",
+        "name": "Boost Link Suggestions",
+        "author": "Jacob Levernier",
+        "description": "Alternative inline link suggester that orders results by link count and manual boosts.",
+        "repo": "jglev/obsidian-boost-link-suggestions"
+    },
+    {
+        "id": "webpage-html-export",
+        "name": "Webpage HTML Export",
+        "author": "Nathan George",
+        "description": "Exports an obsidian document, folder, or vault as an HTML document / webpage / website with correct styling. Also has an interactive embedded dark / light theme toggle, and document outline.",
+        "repo": "KosmosisDire/obsidian-webpage-export",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-file-color",
+        "name": "File Color",
+        "author": "ecustic",
+        "description": "An Obsidian plugin for setting colors on folders and files in the file tree.",
+        "repo": "ecustic/obsidian-file-color",
+        "branch": "master"
+    },
+    {
+        "id": "set-in-obsidian",
+        "name": "Set In Obsidian",
+        "author": "Sandorex",
+        "description": "Plugin for time planning",
+        "repo": "sandorex/set-in-obsidian-plugin",
+        "branch": "master"
+    },
+    {
+        "id": "hugo-preview-obsidian",
+        "name": "Hugo preview obsidian",
+        "author": "fzdwx",
+        "description": "hugo preview for obsidian",
+        "repo": "fzdwx/hugo-preview-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "file-chucker",
+        "name": "File chucker",
+        "description": "Quickly move a file to a new or existing folder, then open the next file.",
+        "author": "Ken Lim",
+        "repo": "kenlim/file-chucker-plugin"
+    },
+    {
+        "id": "hints-plugin",
+        "name": "Hints Flow",
+        "description": "Save data directly to Obsidian with specified template. Capture from Telegram, WhatsApp, Slack, Email, SMS, Raycast and more.",
+        "author": "Hints",
+        "repo": "slpbx/obsidian-plugin",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-archivebox-plugin",
+        "name": "ArchiveBox",
+        "description": "ArchiveBox.io support for external Obsidian links",
+        "author": "invariant",
+        "repo": "invariant/obsidian-archivebox-plugin"
+    },
+    {
+        "id": "quote-share",
+        "name": "Quote Share",
+        "author": "DuocNV",
+        "description": "This plugin allow your to easily generate beautiful gradient images from text and share them on social media",
+        "repo": "nguyenvanduocit/quote-share",
+        "branch": "main"
+    },
+    {
+        "id": "canvas-randomnote",
+        "name": "Canvas Random Note",
+        "description": "Add random notes from your vault to the Obsidian canvas",
+        "author": "jmilldotdev",
+        "repo": "jmilldotdev/obsidian-canvas-randomnote"
+    },
+    {
+        "id": "spoiler-block-obsidian",
+        "name": "Spoiler Block",
+        "author": "AllJavi",
+        "description": "Just a simple obsidian plugin to hide information until you want to reveal it",
+        "repo": "AllJavi/spoiler-block-obsidian",
+	      "branch": "master"
+    },
+    {
+        "id": "terminal",
+        "name": "Terminal",
+        "description": "Open terminals in Obsidian directly.",
+        "author": "polyipseity",
+        "repo": "polyipseity/obsidian-terminal",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-contacts",
+        "name": "Contacts",
+        "description": "Allows to manage and organize contacts.",
+        "author": "vbeskrovnov",
+        "repo": "vbeskrovnov/obsidian-contacts"
+    },
+    {
+        "id": "obsidian-vega",
+        "name": "Vega Visualizations",
+        "author": "Justin Kim",
+        "description": "Create highly-customizable data visualizations like line charts and scatter plots using Vega or Vega-Lite.",
+        "repo": "Some-Regular-Person/obsidian-vega",
+        "branch": "master"
+    },
+    {
+        "id": "link-nodes-in-canvas",
+        "name": "Link Nodes in Canvas",
+        "description": "A plugin for you to add edges between notes in Canvas based on their links.",
+        "author": "Boninall",
+        "repo": "quorafind/obsidian-link-nodes-in-canvas"
+    },
+    {
+        "id": "canvas-css-class",
+        "name": "Canvas CSS class",
+        "description": "Add a CSS class to the canvas, but also other attributes.",
+        "author": "Lisandra-dev",
+        "repo": "Lisandra-dev/obsidian-canvas-css-class"
+    },
+    {
+        "id": "smart-connections",
+        "name": "Smart Connections",
+        "description": "Find links to similar notes using artificial intelligence from OpenAI.",
+        "author": "Brian Petro",
+        "repo": "brianpetro/obsidian-smart-connections",
+        "branch": "main"
+    },
+    {
+        "id": "short-internal-links-to-headings",
+        "name": "Short Internal Links to Headings",
+        "description": "Display internal links to headings as just the heading name.",
+        "author": "Scott Moore",
+        "repo": "scottwillmoore/obsidian-short-internal-links-to-headings",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-hyphenation",
+        "name": "Hyphenation",
+        "description": "Enables justified text and hyphenation",
+        "author": "7596ff",
+        "repo": "7596ff/obsidian-hyphenation",
+        "branch": "main"
+    },
+    {
+        "id": "s3-attachments-storage",
+        "name": "S3 attachments storage",
+        "author": "TechTheAwesome",
+        "description": "An Obsidian plugin for storage and retrieval of media attachments on S3 compatible services.",
+        "repo": "TechTheAwesome/obsidian-s3",
+        "branch": "master"
+    },
+    {
+        "id": "order-list",
+        "name": "Order List",
+        "author": "Henry Gustafson",
+        "description": "Adds 'Order selected list' command to take the selected list and order it by the number at the end.",
+        "repo": "lizard-heart/obsidian-order-list-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-audio-player",
+        "name": "Audio Player",
+        "author": "noonesimg",
+        "description": "Audio player with background playback, bookmarks and wave visualiser instead of the default html5 audio",
+        "repo": "noonesimg/obsidian-audio-player",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-task-marker",
+        "name": "Task Marker",
+        "author": "wenlzhang",
+        "description": "Change task statuses with hotkeys and context menu. Complete, cancel and mark tasks, as well as cycle among selected task statuses.",
+        "repo": "wenlzhang/obsidian-task-marker",
+        "branch": "main"
+    },
+    {
+        "id": "weekly-review",
+        "name": "Weekly Review",
+        "author": "Brandon Boswell",
+        "description": "This is opens all of the files you have created in the last week.",
+        "repo": "brandonkboswell/weekly-review",
+        "branch": "master"
+    },
+    {
         "id": "obsidian-gpt",
         "name": "GPT",
         "description": "GPT & Large Language Model completions in Obsidian editor via API",
@@ -5890,4 +6075,3 @@
         "repo": "jmilldotdev/obsidian-gpt"
     }
 ]
-
