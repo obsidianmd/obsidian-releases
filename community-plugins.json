@@ -1772,10 +1772,10 @@
     },
     {
         "id": "obsidian-paste-to-current-indentation",
-        "name": "Paste to Current Indentation",
+        "name": "Paste Mode",
         "author": "Jacob Levernier",
-        "description": "This plugin allows pasting and marking text as block-quotes at any level of indentation.",
-        "repo": "jglev/obsidian-paste-to-current-indentation"
+        "description": "Paste content and mark block quotes at any level of indentation.",
+        "repo": "jglev/obsidian-paste-mode"
     },
     {
         "id": "obsimian-exporter",
@@ -2380,7 +2380,7 @@
     {
         "id": "obsidian-task-collector",
         "name": "Task Collector (TC)",
-        "description": "Manage completed tasks within a document",
+        "description": "Change task status and collect tasks within a document using hotkeys and context menus.",
         "author": "ebullient",
         "repo": "ebullient/obsidian-task-collector",
         "branch": "main"
@@ -2848,7 +2848,7 @@
         "name": "Structured Plugin",
         "description": "Structured plugin. Create hierarchy in notes using \".\"",
         "author": "dobrovolsky",
-        "repo": "dobrovolsky/obsidain-structure"
+        "repo": "dobrovolsky/obsidian-structure"
     },
     {
         "id": "cooklang-obsidian",
@@ -4781,9 +4781,10 @@
     {
         "id": "todoist-completed-tasks-plugin",
         "name": "Todoist completed tasks",
-        "author": "Andrew 'Ledary' Kulishov",
-        "description": "Fetches completed tasks from todoist API and adds them to the Obsidian note.",
+        "author": "Andrey Kulishov",
+        "description": "Add completed Todoist tasks to your Obsidian notes",
         "repo": "Ledaryy/obsidian-todoist-completed-tasks",
+	"donation": "https://www.buymeacoffee.com/ledaryy",
         "branch": "master"
     },
     {
@@ -5276,7 +5277,7 @@
         "id": "ava",
         "name": "Ava",
         "author": "louis030195",
-        "description": "AI-enhanced reflection in Obsidian",
+        "description": "Quickly format your notes with ChatGPT",
         "repo": "louis030195/obsidian-ava",
         "branch": "main"
     },
@@ -5394,7 +5395,7 @@
         "author": "Till Friebe",
         "description": "Allows translation of selected texts into more than 25 languages with DeepL.",
         "repo": "friebetill/obsidian-deepl",
-	      "branch": "main"
+        "branch": "main"
     },
     {
         "id": "obsidian-quran-lookup",
@@ -5412,10 +5413,10 @@
     },
     {
         "id": "better-reading-mode",
-        "name": "Bionic Reading",
+        "name": "Better Reading Mode",
         "author": "Boninall",
         "description": "A plugin to enable bionic reading mode in Live preview mode of Obsidian.",
-        "repo": "quorafind/obsidian-bionic-reading"
+        "repo": "quorafind/obsidian-better-reading-mode"
     },
     {
         "id": "obsidian-new-bullet-with-time",
@@ -5548,5 +5549,551 @@
         "description": "Hidden Folder",
         "repo": "ptrsvltns/hidden-folder-obsidian",
         "branch": "main"
+    },
+    {
+        "id": "make-md",
+        "name": "MAKE.md",
+        "description": "Make.md brings you features that supercharges Obsidian. Sort your files in custom order and add file icons using Spaces. Edit inline embeds with Flow Editor. And style your text and add new markdown blocks without writing markdown using Maker Mode.",
+        "author": "MAKE.md",
+        "repo": "Make-md/makemd",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-markdown-export-plugin",
+        "name": "Obsidian markdown export",
+        "description": "This is a markdown export plugin for Obsidian.",
+        "author": "bingryan",
+        "repo": "bingryan/obsidian-markdown-export-plugin"
+    },
+    {
+        "id": "sync-graph-settings",
+        "name": "Sync Graph Settings",
+        "author": "Xallt",
+        "description": "This is a plugin for syncing Global Graph settings (like Color Groups) to Local Graphs",
+        "repo": "Xallt/sync-graph-settings"
+    },
+    {
+        "id": "writing",
+        "name": "Writing",
+        "author": "johackim",
+        "description": "Write and format your next book directly from Obsidian",
+        "repo": "johackim/obsidian-writing",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-transcription",
+        "name": "Transcription",
+        "author": "djmango (Sulaiman Ghori)",
+        "description": "Plugin to create high-quality transcriptions via Whisper from markdown linked audio files",
+        "repo": "djmango/obsidian-transcription"
+    },
+    {
+        "id": "obsidian-mindmap-nextgen",
+        "name": "Obsidian Mindmap Nextgen",
+        "author": "VeroCloud Pty Ltd (original by James Lynch)",
+        "description": "A plugin to preview notes as Markmap mind maps",
+        "repo": "verocloud/obsidian-mindmap-nextgen",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-link-opener",
+        "name": "External Link Opener",
+        "description": "Open external links within Obsidian using a modal or a tab.",
+        "author": "zorazrr",
+        "repo": "zorazrr/obsidian-link-opener",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-mathjax-wikilinks",
+        "name": "MathJax WikiLinks",
+        "description": "Allows rendering MathJax in WikiLink aliases.",
+        "author": "Aaron Manning",
+        "repo": "aaron-jack-manning/obsidian-mathjax-wikilinks",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-clipper",
+        "name": "Obsidian Clipper",
+        "author": "John Christopher",
+        "description": "This plugin helps you capture highlights from the web.",
+        "repo": "jgchristopher/obsidian-clipper",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-prozen",
+        "name": "ProZen",
+        "author": "Moskvitin",
+        "description": "Enter Zen mode to focus on writing. The plugin expands current tab to full screen removing everything but content.",
+        "repo": "cmoskvitin/obsidian-prozen",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-aggregator",
+        "name": "Aggregator",
+        "author": "SErAphLi",
+        "description": "This plugin helps you gather information from files, and make a summary in the file.",
+        "repo": "Seraphli/obsidian-aggregator",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-autoscroll",
+        "name": "Autoscroll",
+        "author": "Petr Nazarov",
+        "description": "This plugin allows you to automatically scroll down the content with the provided speed",
+        "repo": "petr-nazarov/obsidian-autoscroll",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-stylist",
+        "name": "Obsidian Stylist",
+        "author": "ixth",
+        "description": "Obsidian plugin that allows to add classes and styles on markdown blocks",
+        "repo": "ixth/obsidian-stylist",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-dataset-aid",
+        "name": "Text Dataset Aid Plugin",
+        "author": "Conner Ohnesorge",
+        "description": "This plugin for obsidian aids in the creation of fine-tuning datasets for language models.",
+        "repo": "conneroisu/Text-Dataset-Aid-Plugin",
+        "branch": "master"
+    },
+    {
+        "id": "chord-lyrics",
+        "name": "Chord Lyrics",
+        "author": "nevernotmove",
+        "description": "Display chord names over lyrics. Supports line wrapping, section headers and auto-detection.",
+        "repo": "nevernotmove/obsidian-chordlyrics"
+    },
+    {
+        "id": "crumbs-obsidian",
+        "name": "Crumbs",
+        "author": "Tony Grosinger",
+        "description": "Breadcrumb navigation",
+        "repo": "tgrosinger/crumbs-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "d2-obsidian",
+        "name": "D2",
+        "description": "The official D2 plugin for Obsidian. D2 is a modern diagram scripting language that turns text to diagrams.",
+        "author": "Terrastruct",
+        "repo": "terrastruct/d2-obsidian",
+        "branch": "master"
+    },
+    {
+        "id": "translate",
+        "name": "Translate",
+        "author": "Fevol",
+        "description": "Translate text and notes with Google Translate, DeepL, Azure, and more.",
+        "repo": "Fevol/obsidian-translate",
+        "branch": "master"
+    },
+    {
+        "id": "dmn-plugin",
+        "name": "DMN Plugin",
+        "author": "joleaf",
+        "description": "This plugin enables viewing DMNs using dmn-js.",
+        "repo": "joleaf/obsidian-dmn-plugin"
+    },
+    {
+        "id": "obsidian-fuzzytag",
+        "name": "FuzzyTag",
+        "description": "Fuzzy match autocomplete tags in Frontmatter",
+        "author": "Adrian",
+        "repo": "adriandersen/obsidian-fuzzytag"
+    },
+    {
+        "id": "obsidian-project-garden",
+        "name": "Project Garden",
+        "author": "Ben Goosman",
+        "description": "See all your projects in one place",
+        "repo": "bgoosman/obsidian-project-garden"
+    },
+    {
+        "id": "workona-to-obsidian",
+        "name": "Workona To Obsidian",
+        "author": "Holmes555",
+        "description": "Import Workona resources through generated JSON file.",
+        "repo": "Holmes555/workona-to-obsidian"
+    },
+    {
+        "id": "obsidian-readlater",
+        "name": "Read Later",
+        "author": "Gabriele Cannata",
+        "description": "Synch web pages to markdown and integrate with read-it-later apps (Pocket, Instapaper)",
+        "repo": "Canna71/obsidian-readlater",
+        "branch": "master"
+    },
+    {
+        "id": "surfing",
+        "name": "Surfing",
+        "author": "Boninall",
+        "description": "Surf the Net in Obsidian",
+        "repo": "quorafind/obsidian-surfing",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-toggle-case",
+        "name": "Toggle Case",
+        "author": "automattech",
+        "description": "This plugin allows you to set a hotkey to toggle between `lowercase` `UPPERCASE` and `Title Case`",
+        "repo": "MatthewAlner/obsidian-toggle-case",
+        "branch": "master"
+    },
+    {
+        "id": "open-gate",
+        "name": "Open Gate",
+        "author": "DuocNV",
+        "description": "Embed any website to Obsidian, from now all, you have anything you need in one place.",
+        "repo": "nguyenvanduocit/obsidian-open-gate",
+        "branch": "main"
+    },
+    {
+        "id": "canvas-presentation",
+        "name": "Canvas Presentation",
+        "description": "A plugin to help you display cards based on sequence.",
+        "author": "Boninall",
+        "repo": "quorafind/obsidian-canvas-presentation",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-paste-as-html",
+        "name": "Paste As Html",
+        "author": "maotong06",
+        "description": "Paste As Html, Keep the original css style. Paste from web browser",
+        "repo": "maotong06/obsidian-paste-as-html-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "file-forgetting-curve-obsidian",
+        "name": "File Forgetting Curve",
+        "author": "ptrsvltns",
+        "description": "File Forgetting Curve",
+        "repo": "ptrsvltns/file-forgetting-curve-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-basetag",
+        "name": "Base Tag Renderer",
+        "author": "Darren Kuro",
+        "description": "This plugin renders the basename of tags in preview mode.",
+        "repo": "darrenkuro/obsidian-basetag"
+    },
+    {
+        "id": "todo-sort",
+        "name": "Todo sort",
+        "description": "Sort todos by completion status",
+        "author": "Ryan Gomba",
+        "repo": "ryangomba/obsidian-todo-sort",
+        "branch": "main"
+    },
+    {
+        "id": "keyshots",
+        "name": "Keyshots",
+        "description": "Adds classic hotkey/shortcuts commands from popular IDEs like Visual Studio Code or JetBrains Family.",
+        "author": "KrazyManJ",
+        "repo": "KrazyManJ/obsidian-keyshots",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-wordy",
+        "name": "Wordy",
+        "author": "nqthqn",
+        "description": "Thesaurus, Rhymes and more using the Datamuse API. Find related words easily.",
+        "repo": "nqthqn/obsidian-wordy",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-extlnkhelper-plugin",
+        "name": "External Link Helper",
+        "author": "Jhonghee Park",
+        "description": "This is a plugin for making inserting external links easier to your notes.",
+        "repo": "nakalsio/obsidian-danpung",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-local-images-plus",
+        "name": "Local images plus",
+        "author": "catalysm, aleksey-rezvov, Sergei Korneev",
+        "description": "Local Images plus plugin is a reincarnation of obsidian-local-images which main aim was downloading images in md notes to local storage.",
+        "repo": "Sergei-Korneev/obsidian-local-images-plus",
+        "branch": "main"
+    },
+    {
+        "id": "google-photos",
+        "name": "Google Photos",
+        "author": "Alan Grainger",
+        "description": "Google Photos integration for Obsidian",
+        "repo": "alangrainger/obsidian-google-photos",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-wakatime",
+        "name": "WakaTime",
+        "description": "Automatic time tracking and metrics generated from your Obsidian usage activity.",
+        "author": "WakaTime",
+        "repo": "wakatime/obsidian-wakatime"
+    },
+    {
+        "id": "text-extractor",
+        "name": "Text Extractor",
+        "description": "A (companion) plugin to facilitate the extraction of text from images (OCR) and PDFs.",
+        "author": "Simon Cambier",
+        "repo": "scambier/obsidian-text-extractor"
+    },
+    {
+        "id": "obsidian-review-notes-plugin",
+        "name": "Review Notes Plugin",
+        "author": "tjandy98",
+        "description": "This plugin shows recently modified and newly created files",
+        "repo": "tjandy98/obsidian-review-notes-plugin",
+        "branch": "master"
+    },
+    {
+        "id": "gpt3-notes",
+        "name": "GPT-3 Notes",
+        "author": "micahke",
+        "description": "Generate notes on any subject using OpenAI's GPT-3 language model",
+        "repo": "micahke/obsidian-gpt3-notes",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-audio-notes",
+        "name": "Audio Notes",
+        "author": "Jason Maldonis",
+        "description": "Create notes for audio files.",
+        "repo": "jjmaldonis/obsidian-audio-notes",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-checklist-reset",
+        "name": "Checklist Reset",
+        "author": "Luke Hansford",
+        "description": "Adds a command to reset the state of any checklists in a document",
+        "repo": "lhansford/obsidian-checklist-reset",
+        "branch": "main"
+    },
+    {
+        "id": "mermaid-tools",
+        "name": "Mermaid Tools",
+        "author": "dartungar",
+        "description": "Improved Mermaid.js experience for Obsidian: visual toolbar with common elements & more",
+        "repo": "dartungar/obsidian-mermaid"
+    },
+    {
+        "id": "boost-link-suggestions",
+        "name": "Boost Link Suggestions",
+        "author": "Jacob Levernier",
+        "description": "Alternative inline link suggester that orders results by link count and manual boosts.",
+        "repo": "jglev/obsidian-boost-link-suggestions"
+    },
+    {
+        "id": "webpage-html-export",
+        "name": "Webpage HTML Export",
+        "author": "Nathan George",
+        "description": "Exports an obsidian document, folder, or vault as an HTML document / webpage / website with correct styling. Also has an interactive embedded dark / light theme toggle, and document outline.",
+        "repo": "KosmosisDire/obsidian-webpage-export",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-file-color",
+        "name": "File Color",
+        "author": "ecustic",
+        "description": "An Obsidian plugin for setting colors on folders and files in the file tree.",
+        "repo": "ecustic/obsidian-file-color",
+        "branch": "master"
+    },
+    {
+        "id": "set-in-obsidian",
+        "name": "Set In Obsidian",
+        "author": "Sandorex",
+        "description": "Plugin for time planning",
+        "repo": "sandorex/set-in-obsidian-plugin",
+        "branch": "master"
+    },
+    {
+        "id": "hugo-preview-obsidian",
+        "name": "Hugo preview obsidian",
+        "author": "fzdwx",
+        "description": "hugo preview for obsidian",
+        "repo": "fzdwx/hugo-preview-obsidian",
+        "branch": "main"
+    },
+    {
+        "id": "file-chucker",
+        "name": "File chucker",
+        "description": "Quickly move a file to a new or existing folder, then open the next file.",
+        "author": "Ken Lim",
+        "repo": "kenlim/file-chucker-plugin"
+    },
+    {
+        "id": "hints-plugin",
+        "name": "Hints Flow",
+        "description": "Save data directly to Obsidian with specified template. Capture from Telegram, WhatsApp, Slack, Email, SMS, Raycast and more.",
+        "author": "Hints",
+        "repo": "slpbx/obsidian-plugin",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-archivebox-plugin",
+        "name": "ArchiveBox",
+        "description": "ArchiveBox.io support for external Obsidian links",
+        "author": "invariant",
+        "repo": "invariant/obsidian-archivebox-plugin"
+    },
+    {
+        "id": "quote-share",
+        "name": "Quote Share",
+        "author": "DuocNV",
+        "description": "This plugin allow your to easily generate beautiful gradient images from text and share them on social media",
+        "repo": "nguyenvanduocit/quote-share",
+        "branch": "main"
+    },
+    {
+        "id": "canvas-randomnote",
+        "name": "Canvas Random Note",
+        "description": "Add random notes from your vault to the Obsidian canvas",
+        "author": "jmilldotdev",
+        "repo": "jmilldotdev/obsidian-canvas-randomnote" 
+    },
+    {
+        "id": "spoiler-block-obsidian",
+        "name": "Spoiler Block",
+        "author": "AllJavi",
+        "description": "Just a simple obsidian plugin to hide information until you want to reveal it",
+        "repo": "AllJavi/spoiler-block-obsidian",
+	      "branch": "master"
+    },
+    {
+        "id": "terminal",
+        "name": "Terminal",
+        "description": "Open terminals in Obsidian directly.",
+        "author": "polyipseity",
+        "repo": "polyipseity/obsidian-terminal",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-contacts",
+        "name": "Contacts",
+        "description": "Allows to manage and organize contacts.",
+        "author": "vbeskrovnov",
+        "repo": "vbeskrovnov/obsidian-contacts"
+    },
+    {
+        "id": "obsidian-vega",
+        "name": "Vega Visualizations",
+        "author": "Justin Kim",
+        "description": "Create highly-customizable data visualizations like line charts and scatter plots using Vega or Vega-Lite.",
+        "repo": "Some-Regular-Person/obsidian-vega",
+        "branch": "master"
+    },
+    {
+        "id": "link-nodes-in-canvas",
+        "name": "Link Nodes in Canvas",
+        "description": "A plugin for you to add edges between notes in Canvas based on their links.",
+        "author": "Boninall",
+        "repo": "quorafind/obsidian-link-nodes-in-canvas"
+    },
+    {
+        "id": "canvas-css-class",
+        "name": "Canvas CSS class",
+        "description": "Add a CSS class to the canvas, but also other attributes.",
+        "author": "Lisandra-dev",
+        "repo": "Lisandra-dev/obsidian-canvas-css-class"
+    },
+    {
+        "id": "smart-connections",
+        "name": "Smart Connections",
+        "description": "Find links to similar notes using artificial intelligence from OpenAI.",
+        "author": "Brian Petro",
+        "repo": "brianpetro/obsidian-smart-connections",
+        "branch": "main"
+    },
+    {
+        "id": "short-internal-links-to-headings",
+        "name": "Short Internal Links to Headings",
+        "description": "Display internal links to headings as just the heading name.",
+        "author": "Scott Moore",
+        "repo": "scottwillmoore/obsidian-short-internal-links-to-headings",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-hyphenation",
+        "name": "Hyphenation",
+        "description": "Enables justified text and hyphenation",
+        "author": "7596ff",
+        "repo": "7596ff/obsidian-hyphenation",
+        "branch": "main"
+    },
+    {
+        "id": "s3-attachments-storage",
+        "name": "S3 attachments storage",
+        "author": "TechTheAwesome",
+        "description": "An Obsidian plugin for storage and retrieval of media attachments on S3 compatible services.",
+        "repo": "TechTheAwesome/obsidian-s3",
+        "branch": "master"
+    },
+    {
+        "id": "order-list",
+        "name": "Order List",
+        "author": "Henry Gustafson",
+        "description": "Adds 'Order selected list' command to take the selected list and order it by the number at the end.",
+        "repo": "lizard-heart/obsidian-order-list-plugin",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-audio-player",
+        "name": "Audio Player",
+        "author": "noonesimg",
+        "description": "Audio player with background playback, bookmarks and wave visualiser instead of the default html5 audio",
+        "repo": "noonesimg/obsidian-audio-player",
+        "branch": "main"
+    },
+    {
+        "id": "obsidian-task-marker",
+        "name": "Task Marker",
+        "author": "wenlzhang",
+        "description": "Change task statuses with hotkeys and context menu. Complete, cancel and mark tasks, as well as cycle among selected task statuses.",
+        "repo": "wenlzhang/obsidian-task-marker",
+        "branch": "main"
+    },
+    {
+        "id": "weekly-review",
+        "name": "Weekly Review",
+        "author": "Brandon Boswell",
+        "description": "This is opens all of the files you have created in the last week.",
+        "repo": "brandonkboswell/weekly-review",
+        "branch": "master"
+    },
+    {
+        "id": "obsidian-gpt",
+        "name": "GPT",
+        "description": "GPT & Large Language Model completions in Obsidian editor via API",
+        "author": "Jonathan Miller",
+        "repo": "jmilldotdev/obsidian-gpt"
+    },
+    {
+        "id": "obsidian-pending-notes",
+        "name": "Pending notes",
+        "author": "Ulises Santana",
+        "description": "Obsidian plugin for searching links without notes in your vault.",
+        "repo": "ulisesantana/obsidian-pending-notes",
+        "branch": "master"
+    },
+    {
+        "id": "email-block-plugin",
+        "name": "Email Block",
+        "author": "joleaf",
+        "description": "This plugin renders an email code block.",
+        "repo": "joleaf/obsidian-email-block-plugin"
+    },
+    {
+        "id": "code-emitter",
+        "name": "Code Emitter",
+        "author": "YISH",
+        "description": "An obsidian plugin that allows code blocks executed interactively in sandbox like jupyter notebooks. Supported language rust、kotlin、python、Javascript、TypeScript etc.",
+        "repo": "mokeyish/obsidian-code-emitter"
     }
 ]
