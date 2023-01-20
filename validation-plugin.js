@@ -22,7 +22,7 @@ module.exports = async ({ github, context, core }) => {
         console.log('Found issue: ' + warning);
     }
 
-    const createMessage = async() => {
+    const createMessage = async(plugin = undefined) => {
         if (errors.length > 0 || warnings.length > 0) {
             let message = `#### Hello ${author}!<a href="https://obsidian.md"><img align="right" height="30px" src="https://user-images.githubusercontent.com/59741989/139557624-63e6e31f-e617-4041-89ae-78b534a8de5c.png"/></a>\n`;
             if(plugin)
@@ -204,6 +204,6 @@ module.exports = async ({ github, context, core }) => {
     if(/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(manifest.author)) {
         addWarning('We generally discourage from including email addresses in the `author` field.');
     }
-    await createMessage();
+    await createMessage(plugin);
     return context.payload.client_payload.value;
 }
