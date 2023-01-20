@@ -1,9 +1,13 @@
 module.exports = async ({ github, context, core, probe }) => {
 
-    const fs = require('fs');
-    const author = context.payload.pull_request.user.login;
-    const plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
-    const plugin = plugins[plugins.length - 1];
+    if (context.payload.pull_request.additions <= context.payload.pull_request.deletions) {
+        // Don't run any validation checks if the user is just modifying existing plugin config
+        return;
+    }
+
+    if (context.payload.pull_request.changed_files > 1) {
+        addError('You modified files other than `community-plugins.json`.');
+    }
 
     const escapeHtml = (unsafe) => unsafe.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
     const errors = [];
@@ -18,14 +22,61 @@ module.exports = async ({ github, context, core, probe }) => {
         console.log('Found issue: ' + warning);
     }
 
-    if (context.payload.pull_request.additions <= context.payload.pull_request.deletions) {
-        // Don't run any validation checks if the user is just modifying existing plugin config
-        return;
+    const createMessage = async() => {
+        if (errors.length > 0 || warnings.length > 0) {
+            let message = `#### Hello ${author}!<a href="https://obsidian.md"><img align="right" height="30px" src="https://user-images.githubusercontent.com/59741989/139557624-63e6e31f-e617-4041-89ae-78b534a8de5c.png"/></a>\n`;
+            message += `**I found the following issues in your plugin, ${plugin.name}:**\n\n`;
+            if (errors.length > 0) {
+                message += `**Errors:**\n\n${errors.join('\n')}\n\n---\n`;
+            }
+            if (warnings.length > 0) {
+                message += `**Warnings:**\n\n${warnings.join('\n')}\n\n---\n`;
+            }
+            message += `<sup>This check was done automatically.</sup>`;
+    
+            await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: message
+            });
+
+            //remove label from previous runs
+            if(context.payload.pull_request.labels.includes('Ready for review')) {
+                await github.rest.issues.removeLabel({
+                    issue_number: context.issue.number,
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    name: 'Ready for review'
+                })
+            }
+
+            core.setFailed("Failed to validate plugin");
+        } 
+        if (errors.length === 0) {
+            if (!context.payload.pull_request.labels.includes('Changes requested')) {
+                await github.rest.issues.addLabels({
+                    issue_number: context.issue.number,
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    labels: ['Ready for review']
+                });
+            }
+        }
     }
 
-    if (context.payload.pull_request.changed_files > 1) {
-        addError('You modified files other than `community-plugins.json`.');
+    const fs = require('fs');
+    const author = context.payload.pull_request.user.login;
+    let plugins = [];
+    try{
+        plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
+    } catch(e) {
+        addError('Could not parse `community-plugins.json`');
+        await createMessage();
+        return context.payload.client_payload.value;
     }
+    
+    const plugin = plugins[plugins.length - 1];
 
     // Validate plugin repo
     let repoInfo = plugin.repo.split('/');
@@ -73,12 +124,18 @@ module.exports = async ({ github, context, core, probe }) => {
             addError('Plugin name mismatch, the name in this repo is not the same as the one in your repo.');
         }
 
-        if (manifest.name.toLowerCase().includes('obsidian')) {
+        if(manifest.name.toLowerCase().startsWith('obsidian')) {
+            addError(`We're asking plugins to avoid using the word "Obsidian" at the start of their plugin name to avoid over-saturating the brand name and reserve the naming for first-party plugins (like Obsidian Publish, Obsidian Sync, etc).`);
+        }else if (manifest.name.toLowerCase().includes('obsidian')) {
             addWarning(`We discourage plugins from including the word "Obsidian" in their name since it's redundant and makes the plugin sidebar harder to visually parse.`);
         }
 
         if (manifest.id.toLowerCase().includes('obsidian')) {
             addWarning(`There's no need to include 'obsidian' in the plugin ID. The ID is used for your plugin's settings folder so it should closely match your plugin name for user convenience.`);
+        }
+
+        if (manifest.name.toLowerCase().includes('plugin')) {
+            addWarning(`We discourage plugins from including the word "Plugin" in their name since it's redundant and makes the plugin sidebar harder to visually parse.`);
         }
 
         if(!(/^[a-z0-9-_]+$/i.test(plugin.id))) {
@@ -97,6 +154,18 @@ module.exports = async ({ github, context, core, probe }) => {
         }
         if(plugin.branch) {
             addWarning('You do not need to include the `branch` parameter when submitting your PR, it is no longer used.');
+        }
+        
+        if(plugin.authorUrl === "https://obsidian.md") {
+            addError(`\`authorUrl\` should not point to the Obsidian Website. If you don't have a website you can just point it to your GitHub profile`);
+        }
+
+        if(plugin.authorUrl.toLowerCase().includes("github.com/" + plugin.repo.toLowerCase())) {
+            addWarning('\`authorUrl\` should not point to the GitHub repository of the plugin');
+        }
+
+        if(plugin.fundingUrl && plugin.fundingUrl === "https://obsidian.md/pricing") {
+            addError('`fundingUrl` should not point to the Obsidian Website, If you don\'t have a link were users can donate to you, you can just omit this.');
         }
 
     } catch (e) {
@@ -133,36 +202,6 @@ module.exports = async ({ github, context, core, probe }) => {
     if(/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(manifest.author)) {
         addWarning('We generally discourage from including email addresses in the `author` field.');
     }
-
-    if (errors.length > 0 || warnings.length > 0) {
-        let message = `#### Hello ${author}!<a href="https://obsidian.md"><img align="right" height="30px" src="https://user-images.githubusercontent.com/59741989/139557624-63e6e31f-e617-4041-89ae-78b534a8de5c.png"/></a>\n`;
-        message += `**I found the following issues in your plugin, ${plugin.name}:**\n\n`;
-        if (errors.length > 0) {
-            message += `**Errors:**\n\n${errors.join('\n')}\n\n---\n`;
-        }
-        if (warnings.length > 0) {
-            message += `**Warnings:**\n\n${warnings.join('\n')}\n\n---\n`;
-        }
-        message += `<sup>This check was done automatically.</sup>`;
-
-        await github.rest.issues.createComment({
-            issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body: message
-        });
-        core.setFailed("Failed to validate plugin");
-    } 
-    if (errors.length === 0) {
-        if (context.payload.pull_request.labels.indexOf('Changes requested') === -1) {
-            await github.rest.issues.addLabels({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                labels: ['Ready for review']
-            });
-        }
-    }
-
+    await createMessage();
     return context.payload.client_payload.value;
 }
