@@ -22,12 +22,15 @@ module.exports = async ({ github, context, core }) => {
         console.log('Found issue: ' + warning);
     }
 
-    const createMessage = async(plugin = undefined) => {
+    const createMessage = async (plugin = undefined) => {
         if (errors.length > 0 || warnings.length > 0) {
             let message = `#### Hello ${author}!<a href="https://obsidian.md"><img align="right" height="30px" src="https://user-images.githubusercontent.com/59741989/139557624-63e6e31f-e617-4041-89ae-78b534a8de5c.png"/></a>\n`;
-            if(plugin)
+            if (plugin) {
                 message += `**I found the following issues in your plugin, ${plugin.name}:**\n\n`;
-            else message += `**I found the following issues in your plugin submission**\n\n`
+            } else {
+                message += `**I found the following issues in your plugin submission**\n\n`;
+            }
+
             if (errors.length > 0) {
                 message += `**Errors:**\n\n${errors.join('\n')}\n\n---\n`;
             }
@@ -35,7 +38,7 @@ module.exports = async ({ github, context, core }) => {
                 message += `**Warnings:**\n\n${warnings.join('\n')}\n\n---\n`;
             }
             message += `<sup>This check was done automatically.</sup>`;
-    
+
             await github.rest.issues.createComment({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
@@ -44,7 +47,7 @@ module.exports = async ({ github, context, core }) => {
             });
 
             //remove label from previous runs
-            if(context.payload.pull_request.labels.includes('Ready for review')) {
+            if (context.payload.pull_request.labels.includes('Ready for review')) {
                 await github.rest.issues.removeLabel({
                     issue_number: context.issue.number,
                     owner: context.repo.owner,
@@ -54,7 +57,7 @@ module.exports = async ({ github, context, core }) => {
             }
 
             core.setFailed("Failed to validate plugin");
-        } 
+        }
         if (errors.length === 0) {
             if (!context.payload.pull_request.labels.includes('Changes requested')) {
                 await github.rest.issues.addLabels({
@@ -70,14 +73,14 @@ module.exports = async ({ github, context, core }) => {
     const fs = require('fs');
     const author = context.payload.pull_request.user.login;
     let plugins = [];
-    try{
+    try {
         plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
-    } catch(e) {
+    } catch (e) {
         addError('Could not parse `community-plugins.json`');
         await createMessage();
-        return context.payload.client_payload.value;
+        return;
     }
-    
+
     const plugin = plugins[plugins.length - 1];
 
     // Validate plugin repo
@@ -92,18 +95,18 @@ module.exports = async ({ github, context, core }) => {
 
     if (owner.toLowerCase() !== author.toLowerCase()) {
         try {
-            const isInOrg = await github.rest.orgs.checkMembershipForUser({org: owner, username: author});
-            if(!isInOrg) {
+            const isInOrg = await github.rest.orgs.checkMembershipForUser({ org: owner, username: author });
+            if (!isInOrg) {
                 throw undefined;
             }
-        }catch(e) {
+        } catch (e) {
             addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. Last plugin in the list is: ${plugin.repo}`);
         }
-        
+
     }
     try {
         const repository = await github.rest.repos.get({ owner, repo });
-        if(!repository.data.has_issues) {
+        if (!repository.data.has_issues) {
             addWarning('Your repository does not have issues enabled. Users will not be able to report bugs and request features.');
         }
     } catch (e) {
@@ -126,9 +129,9 @@ module.exports = async ({ github, context, core }) => {
             addError('Plugin name mismatch, the name in this repo is not the same as the one in your repo.');
         }
 
-        if(manifest.name.toLowerCase().startsWith('obsidian')) {
+        if (manifest.name.toLowerCase().startsWith('obsidian')) {
             addError(`We're asking plugins to avoid using the word "Obsidian" at the start of their plugin name to avoid over-saturating the brand name and reserve the naming for first-party plugins (like Obsidian Publish, Obsidian Sync, etc).`);
-        }else if (manifest.name.toLowerCase().includes('obsidian')) {
+        } else if (manifest.name.toLowerCase().includes('obsidian')) {
             addWarning(`We discourage plugins from including the word "Obsidian" in their name since it's redundant and makes the plugin sidebar harder to visually parse.`);
         }
 
@@ -140,38 +143,38 @@ module.exports = async ({ github, context, core }) => {
             addWarning(`We discourage plugins from including the word "Plugin" in their name since it's redundant and makes the plugin sidebar harder to visually parse.`);
         }
 
-        if(!(/^[a-z0-9-_]+$/i.test(plugin.id))) {
+        if (!(/^[a-z0-9-_]+$/i.test(plugin.id))) {
             addError('The plugin ID is not valid. Only alphanumeric characters and dashes are allowed.');
         }
 
-        if(plugins.filter(p => p.name === plugin.name).length > 1) {
+        if (plugins.filter(p => p.name === plugin.name).length > 1) {
             addError('There is already a plugin with this name.');
         }
 
-        if(plugins.filter(p => p.id === plugin.id).length > 1) {
+        if (plugins.filter(p => p.id === plugin.id).length > 1) {
             addError('There is already a plugin with this ID.');
         }
-        if(plugins.filter(p => p.repo === plugin.repo).length > 1) {
+        if (plugins.filter(p => p.repo === plugin.repo).length > 1) {
             addError(`There is already a entry pointing to the ${plugin.repo} repository.`);
         }
-        if(plugin.branch) {
+        if (plugin.branch) {
             addWarning('You do not need to include the `branch` parameter when submitting your PR, it is no longer used.');
         }
-        
-        if(plugin.authorUrl === "https://obsidian.md") {
+
+        if (plugin.authorUrl === "https://obsidian.md") {
             addError(`\`authorUrl\` should not point to the Obsidian Website. If you don't have a website you can just point it to your GitHub profile`);
         }
 
-        if(plugin.authorUrl.toLowerCase().includes("github.com/" + plugin.repo.toLowerCase())) {
+        if (plugin.authorUrl.toLowerCase().includes("github.com/" + plugin.repo.toLowerCase())) {
             addWarning('\`authorUrl\` should not point to the GitHub repository of the plugin');
         }
 
-        if(plugin.fundingUrl && plugin.fundingUrl === "https://obsidian.md/pricing") {
+        if (plugin.fundingUrl && plugin.fundingUrl === "https://obsidian.md/pricing") {
             addError('`fundingUrl` should not point to the Obsidian Website, If you don\'t have a link were users can donate to you, you can just omit this.');
         }
 
     } catch (e) {
-        addError(`You don't have a \`manifest.json\` at the root of your repo.`);
+        addError(`You don't have a \`manifest.json\` at the root of your repo, or it could not be parsed`);
     }
 
     try {
@@ -192,18 +195,24 @@ module.exports = async ({ github, context, core }) => {
         addError(`Unable to find a release with the tag "${manifest.version}". Make sure that the manifest.json file in your repo points to the correct Github Release\n<details><summary>Log</summary><pre>${escapeHtml(e.toString())}</pre></details>`);
     }
     try {
-        await github.rest.licenses.getForRepo({owner, repo});
-    } catch(e) {
+        await github.rest.licenses.getForRepo({ owner, repo });
+    } catch (e) {
         addWarning('Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.');
     }
 
-    if(!(/^[0-9.]+$/i.test(manifest.version))) {
+    if (!(/^[0-9.]+$/i.test(manifest.version))) {
         addError('Your latest version number is not valid. Only numbers and dots are allowed.');
     }
 
-    if(/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(manifest.author)) {
+    if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(manifest.author)) {
         addWarning('We generally discourage from including email addresses in the `author` field.');
     }
+
+    try {
+        await github.rest.licenses.getForRepo({ owner, repo });
+    } catch (e) {
+        addWarning('Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.');
+    }
+
     await createMessage(plugin);
-    return context.payload.client_payload.value;
 }
