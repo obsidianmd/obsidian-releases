@@ -1,4 +1,4 @@
-module.exports = async ({ github, context, core, probe }) => {
+module.exports = async ({ github, context, core }) => {
 
     if (context.payload.pull_request.additions <= context.payload.pull_request.deletions) {
         // Don't run any validation checks if the user is just modifying existing plugin config
@@ -25,7 +25,9 @@ module.exports = async ({ github, context, core, probe }) => {
     const createMessage = async() => {
         if (errors.length > 0 || warnings.length > 0) {
             let message = `#### Hello ${author}!<a href="https://obsidian.md"><img align="right" height="30px" src="https://user-images.githubusercontent.com/59741989/139557624-63e6e31f-e617-4041-89ae-78b534a8de5c.png"/></a>\n`;
-            message += `**I found the following issues in your plugin, ${plugin.name}:**\n\n`;
+            if(plugin)
+                message += `**I found the following issues in your plugin, ${plugin.name}:**\n\n`;
+            else message += `**I found the following issues in your plugin submission**\n\n`
             if (errors.length > 0) {
                 message += `**Errors:**\n\n${errors.join('\n')}\n\n---\n`;
             }
@@ -102,7 +104,7 @@ module.exports = async ({ github, context, core, probe }) => {
     try {
         const repository = await github.rest.repos.get({ owner, repo });
         if(!repository.data.has_issues) {
-            addError('Your repository does not have issues enabled. Users will not be able to report bugs and request features.');
+            addWarning('Your repository does not have issues enabled. Users will not be able to report bugs and request features.');
         }
     } catch (e) {
         addError(`It seems like you made a typo in the repository field ${plugin.repo}`);
