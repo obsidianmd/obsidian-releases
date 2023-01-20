@@ -1134,7 +1134,7 @@
     },
     {
         "id": "cm-chs-patch",
-        "name": "Word Splitting for Simplified Chinese in Edit Mode",
+        "name": "Word Splitting for Simplified Chinese in Edit Mode and Vim Mode",
         "author": "AidenLx",
         "description": "A patch for Obsidian's built-in CodeMirror Editor to support Simplified Chinese word splitting",
         "repo": "aidenlx/cm-chs-patch",
@@ -2380,7 +2380,7 @@
     {
         "id": "obsidian-task-collector",
         "name": "Task Collector (TC)",
-        "description": "Manage completed tasks within a document",
+        "description": "Change task status and collect tasks within a document using hotkeys and context menus.",
         "author": "ebullient",
         "repo": "ebullient/obsidian-task-collector",
         "branch": "main"
@@ -5956,7 +5956,7 @@
         "name": "Canvas Random Note",
         "description": "Add random notes from your vault to the Obsidian canvas",
         "author": "jmilldotdev",
-        "repo": "jmilldotdev/obsidian-canvas-randomnote"
+        "repo": "jmilldotdev/obsidian-canvas-randomnote" 
     },
     {
         "id": "spoiler-block-obsidian",
@@ -6080,5 +6080,27 @@
         "description": "Randomized vault generator with links between notes, front matter, tags, orphan and leaf notes.",
         "author": "Michael Pedersen",
         "repo": "pedersen/obsidian-testing-vault"
+    },
+    {
+        "id": "obsidian-pending-notes",
+        "name": "Pending notes",
+        "author": "Ulises Santana",
+        "description": "Obsidian plugin for searching links without notes in your vault.",
+        "repo": "ulisesantana/obsidian-pending-notes",
+        "branch": "master"
+    },
+    {
+        "id": "email-block-plugin",
+        "name": "Email Block",
+        "author": "joleaf",
+        "description": "This plugin renders an email code block.",
+        "repo": "joleaf/obsidian-email-block-plugin"
+    },
+    {
+        "id": "code-emitter",
+        "name": "Code Emitter",
+        "author": "YISH",
+        "description": "An obsidian plugin that allows code blocks executed interactively in sandbox like jupyter notebooks. Supported language rust、kotlin、python、Javascript、TypeScript etc.",
+        "repo": "mokeyish/obsidian-code-emitter"
     }
 ]
