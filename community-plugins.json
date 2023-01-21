@@ -5790,14 +5790,6 @@
         "branch": "main"
     },
     {
-        "id": "console",
-        "name": "Console Markdown Plugin",
-        "author": "Daniel Ellermann",
-        "description": "Renders console commands and their output.",
-        "repo": "dellermann/obsidian-console",
-        "branch": "master"
-    },
-    {
         "id": "keyshots",
         "name": "Keyshots",
         "description": "Adds classic hotkey/shortcuts commands from popular IDEs like Visual Studio Code or JetBrains Family.",
@@ -6103,5 +6095,13 @@
         "author": "YISH",
         "description": "An obsidian plugin that allows code blocks executed interactively in sandbox like jupyter notebooks. Supported language rust、kotlin、python、Javascript、TypeScript etc.",
         "repo": "mokeyish/obsidian-code-emitter"
+    },
+    {
+        "id": "console",
+        "name": "Console Markdown Plugin",
+        "author": "Daniel Ellermann",
+        "description": "Renders console commands and their output.",
+        "repo": "dellermann/obsidian-console",
+        "branch": "master"
     }
 ]
