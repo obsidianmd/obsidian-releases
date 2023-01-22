@@ -18,7 +18,7 @@ jobs:
       - uses: actions/github-script@v6
         with:
           script: |
-            const script = require('./validation-plugin.js');
+            const script = require('./validate-plugin.js');
             return await script({github, context, core});
     permissions:
       contents: write
