@@ -1,4 +1,3 @@
-const fs = require('fs');
 module.exports = async ({github, context, core}) => {
     const fs = require('fs');
 
@@ -21,7 +20,7 @@ module.exports = async ({github, context, core}) => {
     }
 
     // Core validation logic
-    await (async() => {
+    await (async () => {
         if (context.payload.pull_request.changed_files > 1) {
             addError('You modified files other than `community-plugins.json`.');
         }
