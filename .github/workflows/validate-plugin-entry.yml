@@ -48,7 +48,7 @@ jobs:
               try {
                 plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
               } catch (e) {
-                addError('Could not parse `community-plugins.json`.');
+                addError('Could not parse `community-plugins.json`, invalid JSON. ' + e.message);
                 return;
               }
 
