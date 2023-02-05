@@ -443,9 +443,9 @@
     {
         "id": "obsidian-latex",
         "name": "Extended MathJax",
-        "author": "Xavier Denis",
+        "author": "Xavier Denis & Ng Wei En",
         "description": "Enables additional MathJax packages and adds a global preamble for MathJax",
-        "repo": "xldenis/obsidian-latex"
+        "repo": "wei2912/obsidian-latex"
     },
     {
         "id": "obsidian-apple-reminders-plugin",
@@ -2563,8 +2563,8 @@
     },
     {
         "id": "obsidian-metacopy",
-        "name": "Metacopy",
-        "description": "Copy the value of a frontmatter key.",
+        "name": "Metacopy & URL",
+        "description": "Copy the value of a frontmatter key and allows to create link from it using various settings.",
         "author": "Mara-Li",
         "repo": "Lisandra-dev/obsidian-metacopy"
     },
@@ -3783,8 +3783,8 @@
         "id": "obsidian-mkdocs-publisher",
         "name": "Github Publisher",
         "author": "Mara-Li",
-        "description": "Github Publisher is a plugin that help you to send file in a configured Github Repository, based on a frontmatter entry state.",
-        "repo": "obsidianMkdocs/obsidian-github-publisher"
+        "description": "Github Publisher helps you to publish your notes on a preconfigured GitHub repository, for free, and more!",
+        "repo": "ObsidianPublisher/obsidian-github-publisher"
     },
     {
         "id": "obsidian-notion-video",
@@ -5549,7 +5549,7 @@
         "id": "obsidian-audio-notes",
         "name": "Audio Notes",
         "author": "Jason Maldonis",
-        "description": "Create notes for audio files.",
+        "description": "Create notes for podcasts and audio files, and automatically generate transcripts while listening so you can quickly take notes on the best parts of the podcast.",
         "repo": "jjmaldonis/obsidian-audio-notes"
     },
     {
@@ -5820,7 +5820,21 @@
         "branch": "master"
     },
     {
-        "id": "canvas-filter",
+        "id": "incremental-id",
+        "name": "Incremental ID",
+        "author": "Adrian Karwowski",
+        "description": "Allow to generate Jira like ids.",
+        "repo": "adziok/obsidian-incremental-id"
+    },
+    {
+        "id": "canvas-mindmap",
+        "name": "Canvas Mindmap",
+        "author": "Boninall",
+        "description": "A plugin to make your canvas work like a mindmap.",
+        "repo": "quorafind/obsidian-canvas-mindmap"
+    },
+    {
+         "id": "canvas-filter",
         "name": "Canvas Filter",
         "author": "Ivan Koshelev",
         "description": "This plugin lets you filter Canvas to only show items of specific color, tags or only connected to currently selected node.",
