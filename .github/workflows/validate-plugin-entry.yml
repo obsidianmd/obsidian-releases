@@ -213,7 +213,7 @@ jobs:
                 message.push(`\n---\n`);
               }
 
-              message.push(`<sup>This check was done automatically.</sup>`);
+              message.push(`<sup>This check was done automatically. To trigger this check again, make a change to your PR and wait a few minutes, or close and re-open it.</sup>`);
 
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
