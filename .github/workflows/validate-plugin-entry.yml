@@ -95,7 +95,7 @@ jobs:
               }
 
               if (plugin.name.toLowerCase().startsWith('obsidian')) {
-                addError(`We're asking plugins to avoid using the word \`Obsidian\` at the start of their plugin name to avoid over-saturating the brand name and reserve the naming for first-party plugins (like Obsidian Publish, Obsidian Sync, etc).`);
+                addError(`Please don't use the word \`Obsidian\` at the start of your plugin name since it's redundant and makes it harder to sort the plugin list.`);
               }
               else if (plugin.name.toLowerCase().includes('obsidian')) {
                 addWarning(`Please don't use the word \`Obsidian\` in your plugin name since it's redundant and adds clutter to the plugin list.`);
@@ -213,7 +213,7 @@ jobs:
                 message.push(`\n---\n`);
               }
 
-              message.push(`<sup>This check was done automatically.</sup>`);
+              message.push(`<sup>This check was done automatically. To trigger this check again, make a change to your PR and wait a few minutes, or close and re-open it.</sup>`);
 
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
