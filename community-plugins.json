@@ -443,9 +443,9 @@
     {
         "id": "obsidian-latex",
         "name": "Extended MathJax",
-        "author": "Xavier Denis",
+        "author": "Xavier Denis & Ng Wei En",
         "description": "Enables additional MathJax packages and adds a global preamble for MathJax",
-        "repo": "xldenis/obsidian-latex"
+        "repo": "wei2912/obsidian-latex"
     },
     {
         "id": "obsidian-apple-reminders-plugin",
@@ -2563,8 +2563,8 @@
     },
     {
         "id": "obsidian-metacopy",
-        "name": "Metacopy",
-        "description": "Copy the value of a frontmatter key.",
+        "name": "Metacopy & URL",
+        "description": "Copy the value of a frontmatter key and allows to create link from it using various settings.",
         "author": "Mara-Li",
         "repo": "Lisandra-dev/obsidian-metacopy"
     },
@@ -2854,13 +2854,6 @@
         "author": "vorotamoroz",
         "description": "Show tags as folder.",
         "repo": "vrtmrz/obsidian-tagfolder"
-    },
-    {
-        "id": "obsidian-advanced-slides",
-        "name": "Advanced Slides",
-        "author": "MSzturc",
-        "description": "Create markdown-based presentations in Obsidian",
-        "repo": "MSzturc/obsidian-advanced-slides"
     },
     {
         "id": "obsidian-graphviz",
@@ -3783,8 +3776,8 @@
         "id": "obsidian-mkdocs-publisher",
         "name": "Github Publisher",
         "author": "Mara-Li",
-        "description": "Github Publisher is a plugin that help you to send file in a configured Github Repository, based on a frontmatter entry state.",
-        "repo": "obsidianMkdocs/obsidian-github-publisher"
+        "description": "Github Publisher helps you to publish your notes on a preconfigured GitHub repository, for free, and more!",
+        "repo": "ObsidianPublisher/obsidian-github-publisher"
     },
     {
         "id": "obsidian-notion-video",
@@ -5549,7 +5542,7 @@
         "id": "obsidian-audio-notes",
         "name": "Audio Notes",
         "author": "Jason Maldonis",
-        "description": "Create notes for audio files.",
+        "description": "Create notes for podcasts and audio files, and automatically generate transcripts while listening so you can quickly take notes on the best parts of the podcast.",
         "repo": "jjmaldonis/obsidian-audio-notes"
     },
     {
@@ -5646,7 +5639,7 @@
     {
         "id": "terminal",
         "name": "Terminal",
-        "description": "Open terminals in Obsidian directly.",
+        "description": "Integrate consoles, shells, and terminals inside Obsidian.",
         "author": "polyipseity",
         "repo": "polyipseity/obsidian-terminal"
     },
@@ -5810,6 +5803,91 @@
         "author": "Debanjum Singh Solanky",
         "description": "Natural, Incremental Search for your Second Brain 🦅",
         "repo": "debanjum/khoj"
+    },
+    {
+        "id": "obsidian-custom-file-extensions-plugin",
+        "name": "Custom File Extensions and Types",
+        "author": "MeepTech",
+        "description": "This plugin allows simple and modular control over what views open what file extensions from the app settings.",
+        "repo": "MeepTech/obsidian-custom-file-extensions-plugin",
+        "branch": "master"
+    },
+    {
+        "id": "incremental-id",
+        "name": "Incremental ID",
+        "author": "Adrian Karwowski",
+        "description": "Allow to generate Jira like ids.",
+        "repo": "adziok/obsidian-incremental-id"
+    },
+    {
+        "id": "canvas-mindmap",
+        "name": "Canvas Mindmap",
+        "author": "Boninall",
+        "description": "A plugin to make your canvas work like a mindmap.",
+        "repo": "quorafind/obsidian-canvas-mindmap"
+    },
+    {
+       "id": "link-exploder",
+        "name": "Link Exploder",
+        "author": "Ben Hughes",
+        "description": "Link Exploder creates a canvas from a note, embedding it's incoming (i.e. backlinks) and outgoing links onto the canvas (as well as the their linked notes).",
+        "repo": "benhughes/obsidian-link-exploder"
+    },
+    {
+        "id": "cycle-in-sidebar",
+        "name": "Cycle In Sidebar",
+        "author": "Houcheng",
+        "description": "This a plugin provides hotkeys to cycle through tabs in the left or right sidebars.",
+        "repo": "houcheng/obsidian-cycle-in-sidebar-plugin"
+    },
+    {
+        "id": "adamantine-pick",
+        "name": "Adamantine Pick",
+        "author": "Urist McMiner",
+        "description": "Embeddable Pikchr diagrams renderer plugin for Obsidian",
+        "repo": "notlibrary/obsidian-adamantine-pick"
+    },
+    {
+         "id": "antidote-grammar-checker-integration",
+         "name": "Antidote Grammar Checker Integration",
+         "author": "Heziode",
+         "description": "Unofficial integration of Antidote, a powerful English and French grammar checker",
+         "repo": "heziode/obsidian-antidote"
+    },
+    {
+         "id": "s3-image-uploader",
+         "name": "S3 Image Uploader",
+         "description": "An image uploader for Obsidian that allows you to self host images on AWS S3.",
+         "author": "jvsteiner",
+         "repo": "jvsteiner/s3-image-uploader"
+    },
+    {
+          "id": "canvas-filter",
+          "name": "Canvas Filter",
+          "author": "Ivan Koshelev",
+          "description": "This plugin lets you filter Canvas to only show items of specific color, tags or only connected to currently selected node.",
+          "repo": "IKoshelev/Obsidian-Canvas-Filter"
+    },
+    {
+        "id": "note-aliases",
+        "name": "Note aliases",
+        "author": "Pulsovi",
+        "description": "This plugin manages aliases of notes in Obsidian.",
+        "repo": "pulsovi/obsidian-note-aliases"
+    },
+    {
+        "id": "obs-text-wrapper",
+        "name": "Text Wrapper",
+        "author": "smx0",
+        "description": "Quickly wrap selected text with HTML tags by using a shortcut or from the command palette",
+        "repo": "smx0/obs-text-wrapper"
+    },
+    {
+        "id": "kill-and-yank",
+        "name": "Kill and Yank",
+        "author": "INOUE Takuya",
+        "description": "Enable kill and yank (like Emacs) in the editor",
+        "repo": "inouetakuya/obsidian-kill-and-yank"
     },
     {
         "id": "double-colon-conceal",
