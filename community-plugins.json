@@ -5725,7 +5725,8 @@
         "name": "Weekly Review",
         "author": "Brandon Boswell",
         "description": "This is opens all of the files you have created in the last week.",
-        "repo": "brandonkboswell/weekly-review"
+        "repo": "brandonkboswell/weekly-review",
+        "branch": "master"
     },
     {
         "id": "obsidian-gpt",
@@ -5855,10 +5856,87 @@
          "repo": "heziode/obsidian-antidote"
     },
     {
+         "id": "s3-image-uploader",
+         "name": "S3 Image Uploader",
+         "description": "An image uploader for Obsidian that allows you to self host images on AWS S3.",
+         "author": "jvsteiner",
+         "repo": "jvsteiner/s3-image-uploader"
+    },
+    {
+          "id": "canvas-filter",
+          "name": "Canvas Filter",
+          "author": "Ivan Koshelev",
+          "description": "This plugin lets you filter Canvas to only show items of specific color, tags or only connected to currently selected node.",
+          "repo": "IKoshelev/Obsidian-Canvas-Filter"
+    },
+    {
+        "id": "note-aliases",
+        "name": "Note aliases",
+        "author": "Pulsovi",
+        "description": "This plugin manages aliases of notes in Obsidian.",
+        "repo": "pulsovi/obsidian-note-aliases"
+    },
+    {
+        "id": "obs-text-wrapper",
+        "name": "Text Wrapper",
+        "author": "smx0",
+        "description": "Quickly wrap selected text with HTML tags by using a shortcut or from the command palette",
+        "repo": "smx0/obs-text-wrapper"
+    },
+    {
+        "id": "kill-and-yank",
+        "name": "Kill and Yank",
+        "author": "INOUE Takuya",
+        "description": "Enable kill and yank (like Emacs) in the editor",
+        "repo": "inouetakuya/obsidian-kill-and-yank"
+    },
+    {
+        "id": "double-colon-conceal",
+        "name": "Double Colon Conceal",
+        "description": "Display double colon (i.e. Dataview inline fields) as a single colon in reading view (preview mode) for more natural experience.",
+        "author": "Michal Srch",
+        "repo": "msrch/obsidian-double-colon-conceal"
+    },
+    {
+        "id": "grappling-hook",
+        "name": "🪝 Grappling Hook",
+        "author": "pseudometa",
+        "description": "Obsidian Plugin for blazingly fast file switching. For people for whom using the Quick Switcher still takes too much time.",
+        "repo": "chrisgrieser/grappling-hook"
+    },
+    {
+        "id": "tag-search",
+        "name": "Tag Search",
+        "author": "R. W. Blickhan",
+        "description": "Fuzzy-find your tags!",
+        "repo": "rwblickhan/obsidian-tag-search"
+    },
+    {
+        "id": "ytranscript",
+        "name": "YTranscript",
+        "author": "Łukasz Strzępek",
+        "description": "Easily fetch transcription for any Youtube video",
+        "repo": "lstrzepek/obsidian-yt-transcript"
+    },
+    {
+        "id": "habit-calendar",
+        "name": "Habit Calendar",
+        "author": "Hedonihilist",
+        "description": "Monthly Habit Calendar for DataviewJS. This plugin helps you render a calendar inside DataviewJS code block, showing your habit status within a month.",
+        "repo": "hedonihilist/obsidian-habit-calendar"
+    },
+    {
+        "id": "console",
+        "name": "Console Markdown Plugin",
+        "author": "Daniel Ellermann",
+        "description": "Renders console commands and their output.",
+        "repo": "dellermann/obsidian-console"
+    },
+    {
         "id": "mathlive",
         "name": "MathLive",
         "author": "Dan Zilberman",
         "description": "Faster and more intuitive MathJax editing using MathLive.",
         "repo": "danzilberdan/obsidian-mathlive"
-    }
+    },
 ]
