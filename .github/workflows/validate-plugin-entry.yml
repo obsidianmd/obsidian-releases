@@ -48,7 +48,7 @@ jobs:
               try {
                 plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
               } catch (e) {
-                addError('Could not parse `community-plugins.json`.');
+                addError('Could not parse `community-plugins.json`, invalid JSON. ' + e.message);
                 return;
               }
 
@@ -84,25 +84,24 @@ jobs:
                 addError(`It seems like you made a typo in the repository field \`${plugin.repo}\`.`);
               }
 
-
-              if (plugin.id.toLowerCase().includes('obsidian')) {
-                addWarning(`Please don't use the word \`obsidian\` in the plugin ID. The ID is used for your plugin's folder so keeping it short and simple avoids clutter and helps with sorting.`);
+              if (plugin.id.toLowerCase().startsWith('obsidian')) {
+                addError(`Please don't use the word \`obsidian\` in the plugin ID. The ID is used for your plugin's folder so keeping it short and simple avoids clutter and helps with sorting.`);
               }
-              if (plugin.id.toLowerCase().includes('plugin')) {
-                addWarning(`Please don't use the word \`plugin\` in the plugin ID. The ID is used for your plugin's folder so keeping it short and simple avoids clutter and helps with sorting.`);
+              if (plugin.id.toLowerCase().endsWith('plugin')) {
+                addError(`Please don't use the word \`plugin\` in the plugin ID. The ID is used for your plugin's folder so keeping it short and simple avoids clutter and helps with sorting.`);
               }
               if (!/^[a-z0-9-_]+$/.test(plugin.id)) {
                 addError('The plugin ID is not valid. Only alphanumeric characters and dashes are allowed.');
               }
 
               if (plugin.name.toLowerCase().startsWith('obsidian')) {
-                addError(`We're asking plugins to avoid using the word \`Obsidian\` at the start of their plugin name to avoid over-saturating the brand name and reserve the naming for first-party plugins (like Obsidian Publish, Obsidian Sync, etc).`);
+                addError(`Please don't use the word \`Obsidian\` at the start of your plugin name since it's redundant and makes it harder to sort the plugin list.`);
               }
               else if (plugin.name.toLowerCase().includes('obsidian')) {
                 addWarning(`Please don't use the word \`Obsidian\` in your plugin name since it's redundant and adds clutter to the plugin list.`);
               }
-              if (plugin.name.toLowerCase().includes('plugin')) {
-                addWarning(`Please don't use the word \`Plugin\` in the plugin  name since it's redundant and adds clutter to the plugin list.`);
+              if (plugin.name.toLowerCase().endsWith('plugin')) {
+                addWarning(`Please don't use the word \`Plugin\` in the plugin name since it's redundant and adds clutter to the plugin list.`);
               }
 
               if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(plugin.author)) {
@@ -114,10 +113,10 @@ jobs:
               }
 
               if (plugin.branch) {
-                addWarning('You do not need to include the `branch` parameter when submitting your PR.');
+                addError('You do not need to include the `branch` parameter when submitting your PR.');
               }
 
-              let validKeys = ['id', 'name', 'description', 'author', 'repo'];
+              let validKeys = ['id', 'name', 'description', 'author', 'repo', 'branch'];
               for (let key in plugin) {
                 if (plugin.hasOwnProperty(key) && validKeys.indexOf(key) === -1) {
                   addError(`Your PR has the invalid \`${key}\` property.`);
@@ -149,10 +148,10 @@ jobs:
 
               if (manifest) {
                 if (manifest.id !== plugin.id) {
-                  addError(`Plugin ID mismatch, the ID in this PR (\`${plugin.id}\`) is not the same as the one in your repo (\`${manifest.id}\`).`);
+                  addError(`Plugin ID mismatch, the ID in this PR (\`${plugin.id}\`) is not the same as the one in your repo (\`${manifest.id}\`). If you just changed your plugin ID, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
                 if (manifest.name !== plugin.name) {
-                  addError(`Plugin name mismatch, the name in this PR (\`${plugin.name}\`) is not the same as the one in your repo (\`${manifest.name}\`).`);
+                  addError(`Plugin name mismatch, the name in this PR (\`${plugin.name}\`) is not the same as the one in your repo (\`${manifest.name}\`). If you just changed your plugin name, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
 
                 if (manifest.authorUrl) {
@@ -207,12 +206,6 @@ jobs:
                 message.push(`**Errors:**\n`);
                 message = message.concat(errors);
                 message.push(`\n---\n`);
-                await github.rest.issues.addLabels({
-                  issue_number: context.issue.number,
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  labels: ['Changes requested'],
-                });
               }
               if (warnings.length > 0) {
                 message.push(`**Warnings:**\n`);
@@ -220,7 +213,7 @@ jobs:
                 message.push(`\n---\n`);
               }
 
-              message.push(`<sup>This check was done automatically.</sup>`);
+              message.push(`<sup>This check was done automatically. Do <b>NOT</b> open a new PR for re-validation. Instead, to trigger this check again, make a change to your PR and wait a few minutes, or close and re-open it.</sup>`);
 
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
@@ -228,30 +221,23 @@ jobs:
                 repo: context.repo.repo,
                 body: message.join('\n'),
               });
-
-              // Remove label from previous runs
-              if (context.payload.pull_request.labels.includes('Ready for review')) {
-                await github.rest.issues.removeLabel({
-                  issue_number: context.issue.number,
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  name: 'Ready for review',
-                })
-              }
             }
 
             if (errors.length > 0) {
               core.setFailed("Failed to validate plugin");
             }
 
-            if (errors.length === 0 && !context.payload.pull_request.labels.includes('Changes requested')) {
-              await github.rest.issues.addLabels({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                labels: ['Ready for review'],
-              });
+            let labels = errors.length > 0 ? ['Validation failed'] : ['Ready for review'];
+            if (context.payload.pull_request.labels.includes('Changes requested')) {
+              labels.push('Changes requested');
             }
+
+            await github.rest.issues.setLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels,
+            });
     permissions:
       contents: read
       issues: write
