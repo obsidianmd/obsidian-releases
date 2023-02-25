@@ -807,7 +807,7 @@
     {
         "id": "obsidian-hotkeys-for-specific-files",
         "name": "Hotkeys for specific files",
-        "description": "Set hotkeys for specific files and open them just with your keyboard.",
+        "description": "Add commands for specific files and open them with a hotkey",
         "author": "Vinzent",
         "repo": "Vinzent03/obsidian-hotkeys-for-specific-files"
     },
@@ -1052,7 +1052,7 @@
     {
         "id": "obsidian-hotkeys-for-templates",
         "name": "Hotkeys for templates",
-        "description": "Add hotkeys to insert specific templates",
+        "description": "Add commands to insert specific templates with a hotkey",
         "author": "Vinzent",
         "repo": "Vinzent03/obsidian-hotkeys-for-templates"
     },
@@ -1065,8 +1065,8 @@
     },
     {
         "id": "obsidian-advanced-uri",
-        "name": "Advanced Obsidian URI",
-        "description": "Advanced modes for Obsidian URI",
+        "name": "Advanced URI",
+        "description": "Control everything in Obsidian with URI",
         "author": "Vinzent",
         "repo": "Vinzent03/obsidian-advanced-uri"
     },
@@ -6001,6 +6001,20 @@
         "description": "Import your Kindle notes in .csv format to Obsidian.",
         "author": "Alvaro Cas",
         "repo": "alvaro-cas/kindle-csv-converter-obsidian"
+    },
+    {
+        "id": "material-symbols",
+        "name": "Material Symbols",
+        "author": "Cristoph Berane",
+        "description": "This plugin adds the material symbols (outlined) to obsidian",
+        "repo": "cberane/obsidian-material-symbols"
+    },
+    {
+        "id": "unicode-search",
+        "name": "Unicode Search",
+        "description": "Search and insert Unicode characters into your editor",
+        "author": "BambusControl",
+        "repo": "BambusControl/obsidian-unicode-search"
     },
     {
         "id": "open-in-new-tab",
