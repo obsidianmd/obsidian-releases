@@ -807,7 +807,7 @@
     {
         "id": "obsidian-hotkeys-for-specific-files",
         "name": "Hotkeys for specific files",
-        "description": "Set hotkeys for specific files and open them just with your keyboard.",
+        "description": "Add commands for specific files and open them with a hotkey",
         "author": "Vinzent",
         "repo": "Vinzent03/obsidian-hotkeys-for-specific-files"
     },
@@ -1052,7 +1052,7 @@
     {
         "id": "obsidian-hotkeys-for-templates",
         "name": "Hotkeys for templates",
-        "description": "Add hotkeys to insert specific templates",
+        "description": "Add commands to insert specific templates with a hotkey",
         "author": "Vinzent",
         "repo": "Vinzent03/obsidian-hotkeys-for-templates"
     },
@@ -1065,8 +1065,8 @@
     },
     {
         "id": "obsidian-advanced-uri",
-        "name": "Advanced Obsidian URI",
-        "description": "Advanced modes for Obsidian URI",
+        "name": "Advanced URI",
+        "description": "Control everything in Obsidian with URI",
         "author": "Vinzent",
         "repo": "Vinzent03/obsidian-advanced-uri"
     },
@@ -5886,7 +5886,7 @@
     {
         "id": "double-colon-conceal",
         "name": "Double Colon Conceal",
-        "description": "Display double colon (i.e. Dataview inline fields) as a single colon in reading view (preview mode) for more natural experience.",
+        "description": "Display double colon (i.e. Dataview inline fields) as a single colon for more natural reading experience.",
         "author": "Michal Srch",
         "repo": "msrch/obsidian-double-colon-conceal"
     },
@@ -5968,6 +5968,112 @@
         "repo": "omnivore-app/obsidian-omnivore"
     },
     {
+        "id": "inbox",
+        "name": "Inbox",
+        "author": "Zachatoo",
+        "description": "Show in app notification on startup if there is data to process in the \"inbox\" note.",
+        "repo": "Zachatoo/obsidian-inbox"
+    },
+    {
+        "id": "text-progress-bar",
+        "name": "Text Progress Bar",
+        "author": "Michael Adams",
+        "description": "Display low-fi text progress bars in your notes.",
+        "repo": "michaeladams/obsidian-text-progress-bar"
+    },
+    {
+        "id": "reading-comments",
+        "name": "Reading comments",
+        "author": "BumbrT",
+        "description": "Plugin allows you to create inline comments while you read books or articles in Obsidian. Comments could be grouped hierarchically by tags.",
+        "repo": "BumbrT/obsidian-reading-comments"
+    },
+    {
+        "id": "progressbar",
+        "name": "ProgressBar",
+        "author": "Wei Zhang",
+        "description": "Render CodeBlock into a ProgressBar based on Time or Manually.",
+        "repo": "zwpaper/obsidian-progressbar"
+    },
+    {
+        "id": "kindle-csv-converter",
+        "name": "Kindle CSV Converter",
+        "description": "Import your Kindle notes in .csv format to Obsidian.",
+        "author": "Alvaro Cas",
+        "repo": "alvaro-cas/kindle-csv-converter-obsidian"
+    },
+    {
+        "id": "material-symbols",
+        "name": "Material Symbols",
+        "author": "Cristoph Berane",
+        "description": "This plugin adds the material symbols (outlined) to obsidian",
+        "repo": "cberane/obsidian-material-symbols"
+    },
+    {
+        "id": "unicode-search",
+        "name": "Unicode Search",
+        "description": "Search and insert Unicode characters into your editor",
+        "author": "BambusControl",
+        "repo": "BambusControl/obsidian-unicode-search"
+    },
+    {
+        "id": "awesome-reader",
+        "name": "Awesome Reader",
+        "author": "AwesomeDog",
+        "description": "Make Obsidian a proper Reader.",
+        "repo": "AwesomeDog/obsidian-awesome-reader"
+    },
+    {
+        "id": "latex-algorithms",
+        "name": "LaTeX Algorithms",
+        "author": "SamZhang02",
+        "description": "Plugin to facilitate writing algorithm blocks in LaTeX",
+        "repo": "SamZhang02/obsidian-latex-algorithms"
+    },
+    {
+        "id": "contextual-comments",
+        "name": "Contextual Comments",
+        "description": "General comments or langage related (in codeblocks) + 2 commands trim end lines (All doc/codeblocks).",
+        "author": "1C0D",
+        "repo": "1C0D/Obsidian-Contextual-Comments"
+    },
+    {
+        "id": "heading-level-indent",
+        "name": "Heading Level Indent",
+        "description": "Indenting content under headers based on their level.",
+        "author": "svonjoi",
+        "repo": "svonjoi/obsidian-heading-level-indent"
+    },
+    {
+        "id": "open-files-with-commands",
+        "name": "Open files with commands",
+        "description": "Create commands that only open one file at the time and that can be used with the commander plugin.",
+        "author": "Lost Paul",
+        "repo": "LostPaul/ob-open-files-with-commands"
+    },
+    {
+        "id": "no-empty-windows",
+        "name": "No Empty Windows",
+        "description": "Closes Obsidian window with cmd+W on Mac when the last tab is closed.",
+        "author": "L Fahn-Lai",
+        "repo": "popscallion/obsidian-no-empty-windows"
+    },
+    {
+        "id": "marp",
+        "name": "Marp",
+        "description": "Plugin for using Marp on Obsidian.",
+        "author": "JichouP",
+        "repo": "JichouP/obsidian-marp-plugin"
+    },
+    {
+        "id": "o2",
+        "name": "O2",
+        "description": "This is a syntax converting plugin to make obsidian markdown syntax compatible with other markdown syntax.",
+        "author": "haril song",
+        "repo": "songkg7/o2"
+    },
+    {
+    
         "id": "mixa",
         "name": "Mixa",
         "author": "Mixa Team",
