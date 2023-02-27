@@ -5886,7 +5886,7 @@
     {
         "id": "double-colon-conceal",
         "name": "Double Colon Conceal",
-        "description": "Display double colon (i.e. Dataview inline fields) as a single colon in reading view (preview mode) for more natural experience.",
+        "description": "Display double colon (i.e. Dataview inline fields) as a single colon for more natural reading experience.",
         "author": "Michal Srch",
         "repo": "msrch/obsidian-double-colon-conceal"
     },
@@ -6043,6 +6043,20 @@
         "description": "Indenting content under headers based on their level.",
         "author": "svonjoi",
         "repo": "svonjoi/obsidian-heading-level-indent"
+    },
+    {
+        "id": "open-files-with-commands",
+        "name": "Open files with commands",
+        "description": "Create commands that only open one file at the time and that can be used with the commander plugin.",
+        "author": "Lost Paul",
+        "repo": "LostPaul/ob-open-files-with-commands"
+    },
+    {
+        "id": "no-empty-windows",
+        "name": "No Empty Windows",
+        "description": "Closes Obsidian window with cmd+W on Mac when the last tab is closed.",
+        "author": "L Fahn-Lai",
+        "repo": "popscallion/obsidian-no-empty-windows"
     },
     {
         "id": "marp",
