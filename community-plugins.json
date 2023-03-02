@@ -5886,7 +5886,7 @@
     {
         "id": "double-colon-conceal",
         "name": "Double Colon Conceal",
-        "description": "Display double colon (i.e. Dataview inline fields) as a single colon in reading view (preview mode) for more natural experience.",
+        "description": "Display double colon (i.e. Dataview inline fields) as a single colon for more natural reading experience.",
         "author": "Michal Srch",
         "repo": "msrch/obsidian-double-colon-conceal"
     },
@@ -5894,7 +5894,7 @@
         "id": "grappling-hook",
         "name": "🪝 Grappling Hook",
         "author": "pseudometa",
-        "description": "Obsidian Plugin for blazingly fast file switching. For people for whom using the Quick Switcher still takes too much time.",
+        "description": "Obsidian Plugin for blazingly fast file switching with starred files. For people for whom using the Quick Switcher still takes too much time.",
         "repo": "chrisgrieser/grappling-hook"
     },
     {
@@ -6050,6 +6050,48 @@
         "description": "Create commands that only open one file at the time and that can be used with the commander plugin.",
         "author": "Lost Paul",
         "repo": "LostPaul/ob-open-files-with-commands"
+    },
+    {
+        "id": "no-empty-windows",
+        "name": "No Empty Windows",
+        "description": "Closes Obsidian window with cmd+W on Mac when the last tab is closed.",
+        "author": "L Fahn-Lai",
+        "repo": "popscallion/obsidian-no-empty-windows"
+    },
+    {
+        "id": "marp",
+        "name": "Marp",
+        "description": "Plugin for using Marp on Obsidian.",
+        "author": "JichouP",
+        "repo": "JichouP/obsidian-marp-plugin"
+    },
+    {
+        "id": "o2",
+        "name": "O2",
+        "description": "This is a syntax converting plugin to make obsidian markdown syntax compatible with other markdown syntax.",
+        "author": "haril song",
+        "repo": "songkg7/o2"
+    },
+    {
+        "id": "close-similar-tabs",
+        "name": "Close Similar Tabs",
+        "author": "1C0D",
+        "description": "Close similar tabs.",
+        "repo": "1C0D/Obsidian-Close-Similar-Tabs"
+    },
+    {
+        "id": "create-note-in-folder",
+        "name": "Create Note in Folder",
+        "author": "Mara-Li",
+        "description": "Add commands to create a note in a specific folder.",
+        "repo": "Lisandra-dev/obsidian-create-note-in-folder"
+    },
+    {
+        "id": "apple-books-highlights",
+        "name": "Apple Books Highlights",
+        "author": "Atif Afzal",
+        "description": "Sync your Apple Books highlights automatically.",
+        "repo": "atfzl/obsidian-apple-books-plugin"
     },
     {
         "id": "msg-handler",
