@@ -5710,7 +5710,7 @@
         "id": "obsidian-task-marker",
         "name": "Task Marker",
         "author": "wenlzhang",
-        "description": "Change task statuses with hotkeys and context menu. Complete, cancel and mark tasks, as well as cycle among selected task statuses.",
+        "description": "Change task status and append text with hotkeys and context menu. Create, complete, cancel and mark tasks, cycle among configured task statuses, and append text (automatically).",
         "repo": "wenlzhang/obsidian-task-marker"
     },
     {
@@ -5724,7 +5724,7 @@
     {
         "id": "obsidian-gpt",
         "name": "GPT",
-        "description": "GPT & Large Language Model completions in Obsidian editor via API",
+        "description": "Obsidian plugin for getting language model completions from ChatGPT, GPT-3, and others",
         "author": "Jonathan Miller",
         "repo": "jmilldotdev/obsidian-gpt"
     },
@@ -6078,6 +6078,62 @@
         "author": "1C0D",
         "description": "Close similar tabs.",
         "repo": "1C0D/Obsidian-Close-Similar-Tabs"
+    },
+    {
+        "id": "create-note-in-folder",
+        "name": "Create Note in Folder",
+        "author": "Mara-Li",
+        "description": "Add commands to create a note in a specific folder.",
+        "repo": "Lisandra-dev/obsidian-create-note-in-folder"
+    },
+    {
+        "id": "apple-books-highlights",
+        "name": "Apple Books Highlights",
+        "author": "Atif Afzal",
+        "description": "Sync your Apple Books highlights automatically.",
+        "repo": "atfzl/obsidian-apple-books-plugin"
+    },
+    {
+        "id": "msg-handler",
+        "name": "MSG Handler",
+        "description": "Easily display and search MSG files from Outlook in your Obsidian Vault",
+        "author": "Ozan Tellioglu",
+        "repo": "ozntel/obsidian-msg-handler"
+    },
+    {
+        "id": "obsidoom",
+        "name": "ObsiDOOM",
+        "author": "twibiral",
+        "description": "Play DOOM and many other retro games in your Obsidian app. You can also play Prince of Persia, Mortal Combat, GTA, Sim City, and Need for Speed.",
+        "repo":"twibiral/ObsiDOOM"
+    },
+    {
+        "id": "advanced-paste",
+        "name": "Advanced Paste",
+        "author": "kxxt",
+        "description": "This plugin provides advanced paste commands and enables you to create custom transforms for pasting.",
+        "repo": "kxxt/obsidian-advanced-paste"
+    },
+    {
+        "id": "aw-watcher-obsidian",
+        "name": "Obsidian-compatible Watcher for ActivityWatch",
+        "author": "Grimmauld",
+        "description": "This is a plugin bridging compatibility between ActivityWatch and Obsidian to allow detailed tracking od time spent in Obsidian.",
+        "repo": "LordGrimmauld/aw-watcher-obsidian"
+    },
+    {
+        "id": "mixa",
+        "name": "Mixa",
+        "author": "Mixa Team",
+        "description": "Publish your notes and blog posts with Mixa directly from Obsidian",
+        "repo": "mixasite/obsidian-mixa"
+    },
+    {
+        "id": "vextab",
+        "name": "Vextab",
+        "author": "Luis Guzman",
+        "description": "An Obsidian plugin for rendering guitar tablature and music notation using Vextab.",
+        "repo": "luigman/obsidian-vextab"
     },
     {
         "id": "mathlive",
