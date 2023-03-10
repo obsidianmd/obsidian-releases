@@ -5710,7 +5710,7 @@
         "id": "obsidian-task-marker",
         "name": "Task Marker",
         "author": "wenlzhang",
-        "description": "Change task statuses with hotkeys and context menu. Complete, cancel and mark tasks, as well as cycle among selected task statuses.",
+        "description": "Change task status and append text with hotkeys and context menu. Create, complete, cancel and mark tasks, cycle among configured task statuses, and append text (automatically).",
         "repo": "wenlzhang/obsidian-task-marker"
     },
     {
@@ -6128,8 +6128,14 @@
         "description": "Publish your notes and blog posts with Mixa directly from Obsidian",
         "repo": "mixasite/obsidian-mixa"
     },
+        "id": "vextab",
+        "name": "Vextab",
+        "author": "Luis Guzman",
+        "description": "An Obsidian plugin for rendering guitar tablature and music notation using Vextab.",
+        "repo": "luigman/obsidian-vextab"
+    },
     {
-        "id": "obsidian-open-weather",
+        "id": "open-weather",
         "name": "OpenWeather",
         "description": "This plugin returns the current weather from OpenWeather in a configurable string format.",
         "author": "willasm",
