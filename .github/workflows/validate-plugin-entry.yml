@@ -232,6 +232,8 @@ jobs:
               labels.push('Changes requested');
             }
 
+            labels.push('plugin');
+
             await github.rest.issues.setLabels({
               issue_number: context.issue.number,
               owner: context.repo.owner,

@@ -1,0 +1,216 @@
+name: Validate Theme Entry
+
+on:
+  pull_request_target:
+    branches:
+      - master
+    paths:
+      - community-css-themes.json
+
+jobs:
+  theme-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: "refs/pull/${{ github.event.number }}/merge"
+      - uses: actions/setup-node@v2
+      - run: npm install probe-image-size
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            const probe = require('probe-image-size');
+            const fs = require('fs');
+
+            if (context.payload.pull_request.additions <= context.payload.pull_request.deletions) {
+                // Don't run any validation checks if the user is just modifying existing theme config
+                return;
+            }
+
+            const errors = [];
+            const addError = (error) => {
+                errors.push(`:x: ${error}`);
+                console.log('Found issue: ' + error);
+            };
+
+            const warnings = [];
+            const addWarning = (warning) => {
+                warnings.push(`:warning: ${warning}`);
+                console.log('Found issue: ' + warning);
+            }
+
+            // core validation logic
+            await (async () => {
+                if (context.payload.pull_request.changed_files > 1) {
+                    addError('You modified files other than `community-css-themes.json`.');
+                }
+
+                const author = context.payload.pull_request.user.login;
+                const themes = JSON.parse(fs.readFileSync('community-css-themes.json', 'utf8'));
+                const theme = themes[themes.length - 1];
+
+                // Validate theme repo
+                let repoInfo = theme.repo.split('/');
+                if (repoInfo.length !== 2) {
+                    addError(`It seems like you made a typo in the repository field ${theme.repo}`);
+                }
+
+                let [owner, repo] = repoInfo;
+                let manifest = {};
+                console.log(`Repo info: ${owner}/${repo}`);
+
+                if (owner.toLowerCase() !== author.toLowerCase()) {
+                    try {
+                        const isInOrg = await github.rest.orgs.checkMembershipForUser({ org: owner, username: author });
+                        if (!isInOrg) {
+                            throw undefined;
+                        }
+                    } catch (e) {
+                        addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. The last plugin in the list is: \`${plugin.repo}\`.`);
+                    }
+                }
+                try {
+                    const repository = await github.rest.repos.get({ owner, repo });
+                    if (!repository.data.has_issues) {
+                        addWarning('Your repository does not have issues enabled.');
+                    }
+                } catch (e) {
+                    addError(`It seems like you made a typo in the repository field ${theme.repo}`);
+                }
+
+                try {
+                    let manifestFile = await github.rest.repos.getContent({
+                        owner,
+                        repo,
+                        path: 'manifest.json',
+                    });
+
+                    manifest = JSON.parse(Buffer.from(manifestFile.data.content, 'base64').toString('utf-8'));
+
+                    if (manifest.name != theme.name) {
+                        addError('Theme name mismatch, the name in this repo is not the same as the one in your repo.');
+                    }
+
+                    if (manifest.name.toLowerCase().includes('obsidian')) {
+                        addWarning(`We discourage themes from including the word "Obsidian" in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
+                    }
+
+                    if (themes.filter(t => t.name === theme.name).length > 1) {
+                        addError('There is already a theme with this name');
+                    }
+
+                    if (themes.filter(t => t.repo === theme.repo).length > 1) {
+                        addError('There is already a entry pointing to the `' + theme.repo + '` repository');
+                    }
+
+                } catch (e) {
+                    addError(`You don't have a \`manifest.json\` at the root of your repo.`);
+                }
+
+                try {
+                    await github.rest.repos.getContent({
+                        owner, repo, path: 'theme.css'
+                    });
+                } catch (e) {
+                    addError('Your repository does not include a `theme.css` file');
+                }
+
+                try {
+                    await github.rest.repos.getContent({
+                        owner, repo, path: 'obsidian.css'
+                    });
+                    addWarning('Your repository includes a `obsidian.css` file, this is only used in legacy versions of Obsidian.');
+                } catch (e) { }
+
+                if (!(/^[0-9.]+$/i.test(manifest.version))) {
+                    addError('Your latest version number is not valid. Only numbers and dots are allowed.');
+                }
+
+                if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(manifest.author)) {
+                    addWarning('We generally discourage from including email addresses in the `author` field.');
+                }
+
+                try {
+                    const screenshot = await github.rest.repos.getContent({
+                        owner, repo, path: theme.screenshot
+                    });
+                    const imageMeta = await probe(screenshot.data.download_url);
+                    if (imageMeta.type !== "png" && imageMeta.type !== "jpg") {
+                        addError('Theme screenshot is not of filetype `.png` or `.jpg`');
+                    }
+                    const recommendedSize = "we generally recommend a size around 512 by 288px";
+                    if (imageMeta.width > 1000 || imageMeta.height > 500) {
+                        addError(`Your theme screenshot is too big, ${recommendedSize}`);
+                    }
+                    if (imageMeta.width < 250 || imageMeta.height < 100) {
+                        addError(`Your theme screenshot is too small, ${recommendedSize}`);
+                    }
+                } catch (e) {
+                    addError('The theme screenshot cannot be found');
+                }
+
+                try {
+                    let release = await github.rest.repos.getReleaseByTag({
+                        owner,
+                        repo,
+                        tag: manifest.version,
+                    });
+
+                    const assets = release.data.assets || [];
+                    if (!assets.find(p => p.name === 'theme.css')) {
+                        addError('Your latest Release is missing the `theme.css` file.');
+                    }
+                    if (!assets.find(p => p.name === 'manifest.json')) {
+                        addError('Your latest Release is missing the `manifest.json` file.');
+                    }
+                } catch (e) { }
+
+                try {
+                    await github.rest.licenses.getForRepo({ owner, repo });
+                } catch (e) {
+                    addWarning('Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.');
+                }
+            })();
+
+
+            if (errors.length > 0 || warnings.length > 0) {
+                let message = [`#### Hello!\n`];
+                message.push(`**I found the following issues in your theme submission**\n`);
+                if (errors.length > 0) {
+                    message.push(`**Errors:**\n`);
+                    message = message.concat(errors);
+                    message.push(`\n---\n`);
+                }
+                if (warnings.length > 0) {
+                    message.push(`**Warnings:**\n`);
+                    message = message.concat(warnings);
+                    message.push(`\n---\n`);
+                }
+                message.push(`<sup>This check was done automatically. Do <b>NOT</b> open a new PR for re-validation. Instead, to trigger this check again, make a change to your PR and wait a few minutes, or close and re-open it.</sup>`);
+
+
+                await github.rest.issues.createComment({
+                    issue_number: context.issue.number,
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    body: message
+                });
+                core.setFailed("Failed to validate theme");
+            }
+
+            let labels = errors.length > 0 ? ['Validation failed'] : ['Ready for review'];
+            if (context.payload.pull_request.labels.includes('Changes requested')) {
+                labels.push('Changes requested');
+            }
+            labels.push('theme');
+
+            await github.rest.issues.setLabels({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels,
+            });
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
