@@ -49,23 +49,23 @@ jobs:
                 const themes = JSON.parse(fs.readFileSync('community-css-themes.json', 'utf8'));
                 const theme = themes[themes.length - 1];
 
-                let prIssue = false;
+                let hasPullRequestError = false;
                 let validPrKeys = ['name', 'author', 'repo', 'screenshot', 'modes'];
                 for (let key in manifest) {
                     if (!validPrKeys.includes(key)) {
                         addError(`Your manifest has the invalid \`${key}\` property.`);
-                        prIssue = true;
+                        hasPullRequestError = true;
                     }
                 }
 
                 for (let key in validManifestKeys) {
                     if (!manifest.hasOwnProperty(key)) {
                         addError(`Your PR does not have the required \`${key}\` property.`);
-                        prIssue = true;
+                        hasPullRequestError = true;
                     }
                 }
 
-                if(prIssue) {
+                if(hasPullRequestError) {
                     return;
                 }
 
@@ -114,23 +114,23 @@ jobs:
                     return;
                 }
 
-                let manifestIssue = false;
+                let hasManifestError = false;
                 let validManifestKeys = ['name', 'minAppVersion', 'author', 'authorUrl'];
                 for (let key in manifest) {
                     if (!validKeys.includes(key) && !key === 'version') {
                         addError(`Your manifest has the invalid \`${key}\` property.`);
-                        manifestIssue = true;
+                        hasManifestError = true;
                     }
                 }
 
                 for (let key in validManifestKeys) {
                     if (!manifest.hasOwnProperty(key)) {
                         addError(`Your manifest does not have the required \`${key}\` property.`);
-                        manifestIssue = true;
+                        hasManifestError = true;
                     }
                 }
 
-                if (manifestIssue) {
+                if (hasManifestError) {
                     return;
                 }
 
