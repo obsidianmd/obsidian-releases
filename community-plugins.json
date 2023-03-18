@@ -5667,7 +5667,7 @@
     {
         "id": "smart-connections",
         "name": "Smart Connections",
-        "description": "Find links to similar notes using artificial intelligence from OpenAI.",
+        "description": "Chat with your notes & find links to similar content using artificial intelligence like OpenAI Embeddings, GPT-3.5 & GPT-4.",
         "author": "Brian Petro",
         "repo": "brianpetro/obsidian-smart-connections"
     },
@@ -6076,7 +6076,7 @@
         "id": "close-similar-tabs",
         "name": "Close Similar Tabs",
         "author": "1C0D",
-        "description": "Close similar tabs.",
+        "description": "Avoid to have a file opened several times in your tabs. (+setting: by window or everywhere)",
         "repo": "1C0D/Obsidian-Close-Similar-Tabs"
     },
     {
@@ -6199,14 +6199,28 @@
         "repo": "HyeonseoNam/obsidian-emoji-titler"
     },
     {
-        "id": "perilous-writing",
-        "name": "Perilous Writing",
-        "description": "Write continuously—or lose all progress.",
-        "author": "Sameer Ismail",
-        "repo": "sameersismail/obsidian-perilous-writing"
+         "id": "perilous-writing",
+         "name": "Perilous Writing",
+         "description": "Write continuously—or lose all progress.",
+         "author": "Sameer Ismail",
+         "repo": "sameersismail/obsidian-perilous-writing"
     },
     {
-        "id": "tiddlywiki-import-export",
+        "id": "ibook",
+        "name": "ibook",
+        "description": "plugin for Apple ibook.",
+        "author": "bingryan",
+        "repo": "bingryan/obsidian-ibook-plugin"
+    },
+    {
+        "id": "floating-highlights",
+        "name": "Floating Highlights",
+        "author": "Karthik S Raju",
+        "description": "Enhanced highlights for Obsidian",
+        "repo": "KarthikRaju391/obsidian-float"
+    },
+    {
+      "id": "tiddlywiki-import-export",
         "name": "Import/Export TiddlyWiki",
         "author": "Lucas Bordeau",
         "description": "Import and export TiddlyWiki from and to Obsidian.",
