@@ -45,27 +45,47 @@ jobs:
                     addError('You modified files other than `community-css-themes.json`.');
                 }
 
-                const author = context.payload.pull_request.user.login;
-                const themes = JSON.parse(fs.readFileSync('community-css-themes.json', 'utf8'));
-                const theme = themes[themes.length - 1];
+                let theme;
 
-                let hasPullRequestError = false;
+                try {
+                    const themes = JSON.parse(fs.readFileSync('community-css-themes.json', 'utf8'));
+                    theme = themes[themes.length - 1];
+
+                } catch (e) {
+                    addError('Could not parse `community-css-themes.json`, invalid JSON. ' + e.message);
+                    return;
+                }
+
+                const author = context.payload.pull_request.user.login;
+                
                 let validPrKeys = ['name', 'author', 'repo', 'screenshot', 'modes'];
                 for (let key in manifest) {
                     if (!validPrKeys.includes(key)) {
                         addError(`Your manifest has the invalid \`${key}\` property.`);
-                        hasPullRequestError = true;
                     }
                 }
 
-                for (let key in validManifestKeys) {
+                let validPRKeys = ['name', 'author', 'repo', 'screenshot', 'modes'];
+                for (let key in validPRKeys) {
                     if (!manifest.hasOwnProperty(key)) {
                         addError(`Your PR does not have the required \`${key}\` property.`);
-                        hasPullRequestError = true;
                     }
                 }
 
-                if(hasPullRequestError) {
+                if (theme.name.toLowerCase().includes('obsidian')) {
+                    addWarning(`We discourage themes from including the word "Obsidian" in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
+                }
+
+                if (themes.filter(t => t.name === theme.name).length > 1) {
+                    addError('There is already a theme with this name');
+                }
+
+                if (themes.filter(t => t.repo === theme.repo).length > 1) {
+                    addError('There is already a entry pointing to the `' + theme.repo + '` repository');
+                }
+
+                // we can't validate further, as there is no repo set
+                if(!theme.hasOwnProperty('repo')) {
                     return;
                 }
 
@@ -114,47 +134,28 @@ jobs:
                     return;
                 }
 
-                let hasManifestError = false;
                 let validManifestKeys = ['name', 'minAppVersion', 'author', 'authorUrl'];
                 for (let key in manifest) {
                     if (!validKeys.includes(key) && !key === 'version') {
                         addError(`Your manifest has the invalid \`${key}\` property.`);
-                        hasManifestError = true;
                     }
                 }
 
                 for (let key in validManifestKeys) {
                     if (!manifest.hasOwnProperty(key)) {
                         addError(`Your manifest does not have the required \`${key}\` property.`);
-                        hasManifestError = true;
                     }
                 }
 
-                if (hasManifestError) {
-                    return;
+                if (manifest.hasOwnProperty('name') && manifest.name != theme.name) {
+                    addError(`Plugin name mismatch, the name in this PR (\`${theme.name}\`) is not the same as the one in your repo (\`${manifest.name}\`). If you just changed your plugin name, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
 
-                if (manifest.name != theme.name) {
-                    addError('Theme name mismatch, the name in this repo is not the same as the one in your repo.');
-                }
-
-                if (manifest.name.toLowerCase().includes('obsidian')) {
-                    addWarning(`We discourage themes from including the word "Obsidian" in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
-                }
-
-                if (themes.filter(t => t.name === theme.name).length > 1) {
-                    addError('There is already a theme with this name');
-                }
-
-                if (themes.filter(t => t.repo === theme.repo).length > 1) {
-                    addError('There is already a entry pointing to the `' + theme.repo + '` repository');
-                }
-
-                    if (!(/^[0-9.]+$/i.test(manifest.version))) {
+                if (manifest.hasOwnProperty('version') && !(/^[0-9.]+$/i.test(manifest.version))) {
                     addError('Your latest version number is not valid. Only numbers and dots are allowed.');
                 }
 
-                if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(manifest.author)) {
+                if (manifest.hasOwnProperty('author') && /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(manifest.author)) {
                     addWarning('We generally discourage from including email addresses in the `author` field.');
                 }
 
