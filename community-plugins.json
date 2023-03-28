@@ -807,7 +807,7 @@
     {
         "id": "obsidian-hotkeys-for-specific-files",
         "name": "Hotkeys for specific files",
-        "description": "Set hotkeys for specific files and open them just with your keyboard.",
+        "description": "Add commands for specific files and open them with a hotkey",
         "author": "Vinzent",
         "repo": "Vinzent03/obsidian-hotkeys-for-specific-files"
     },
@@ -1052,7 +1052,7 @@
     {
         "id": "obsidian-hotkeys-for-templates",
         "name": "Hotkeys for templates",
-        "description": "Add hotkeys to insert specific templates",
+        "description": "Add commands to insert specific templates with a hotkey",
         "author": "Vinzent",
         "repo": "Vinzent03/obsidian-hotkeys-for-templates"
     },
@@ -1065,8 +1065,8 @@
     },
     {
         "id": "obsidian-advanced-uri",
-        "name": "Advanced Obsidian URI",
-        "description": "Advanced modes for Obsidian URI",
+        "name": "Advanced URI",
+        "description": "Control everything in Obsidian with URI",
         "author": "Vinzent",
         "repo": "Vinzent03/obsidian-advanced-uri"
     },
@@ -1380,10 +1380,10 @@
     },
     {
         "id": "obsidian-5e-statblocks",
-        "name": "TTRPG Statblocks",
-        "description": "Create TTRPG styled statblocks in Obsidian.md",
+        "name": "Fantasy Statblocks",
+        "description": "Create Fantasy Statblocks in Obsidian.md",
         "author": "Jeremy Valentine",
-        "repo": "valentine195/obsidian-5e-statblocks"
+        "repo": "valentine195/fantasy-statblocks"
     },
     {
         "id": "obsidian-zoom",
@@ -2856,6 +2856,13 @@
         "repo": "vrtmrz/obsidian-tagfolder"
     },
     {
+        "id": "obsidian-advanced-slides",
+        "name": "Advanced Slides",
+        "author": "MSzturc",
+        "description": "Create markdown-based presentations in Obsidian",
+        "repo": "MSzturc/obsidian-advanced-slides"
+    },
+    {
         "id": "obsidian-graphviz",
         "name": "Obsidian Graphviz",
         "description": "Render Graphviz Diagrams",
@@ -3232,13 +3239,6 @@
         "author": "Jeremy Valentine",
         "description": "Globally search settings in Obsidian.md",
         "repo": "valentine195/obsidian-settings-search"
-    },
-    {
-        "id": "obsidian-footnote-indicator",
-        "name": "Footnote & Citation Indicator",
-        "author": "pseudometa",
-        "description": "Indicates the presence of footnotes in the gutter. Displays footnote and citation counts in the status bar.",
-        "repo": "chrisgrieser/obsidian-footnote-indicator"
     },
     {
         "id": "japanese-word-splitter",
@@ -4318,13 +4318,6 @@
         "author": "Oliver Akins",
         "description": "Allows you to hide files and folders from the Obsidian file explorer if you don't want to see them anymore.",
         "repo": "Oliver-Akins/file-hider"
-    },
-    {
-        "id": "obsidian-sidebar-toggler",
-        "name": "Sidebar Toggler",
-        "author": "pseudometa",
-        "description": "Finer control of the Obsidian sidebars. To be used with an external window manager.",
-        "repo": "chrisgrieser/obsidian-sidebar-toggler"
     },
     {
         "id": "obsidian-path-finder",
@@ -5423,7 +5416,7 @@
         "id": "surfing",
         "name": "Surfing",
         "author": "Boninall",
-        "description": "Surf the Net in Obsidian",
+        "description": "Surf the Net in Obsidian like a web browser.",
         "repo": "quorafind/obsidian-surfing"
     },
     {
@@ -5674,7 +5667,7 @@
     {
         "id": "smart-connections",
         "name": "Smart Connections",
-        "description": "Find links to similar notes using artificial intelligence from OpenAI.",
+        "description": "Chat with your notes & find links to similar content using artificial intelligence like OpenAI Embeddings, GPT-3.5 & GPT-4.",
         "author": "Brian Petro",
         "repo": "brianpetro/obsidian-smart-connections"
     },
@@ -5717,7 +5710,7 @@
         "id": "obsidian-task-marker",
         "name": "Task Marker",
         "author": "wenlzhang",
-        "description": "Change task statuses with hotkeys and context menu. Complete, cancel and mark tasks, as well as cycle among selected task statuses.",
+        "description": "Change task status and append text with hotkeys and context menu. Create, complete, cancel and mark tasks, cycle among configured task statuses, and append text (automatically).",
         "repo": "wenlzhang/obsidian-task-marker"
     },
     {
@@ -5725,12 +5718,13 @@
         "name": "Weekly Review",
         "author": "Brandon Boswell",
         "description": "This is opens all of the files you have created in the last week.",
-        "repo": "brandonkboswell/weekly-review"
+        "repo": "brandonkboswell/weekly-review",
+        "branch": "master"
     },
     {
         "id": "obsidian-gpt",
         "name": "GPT",
-        "description": "GPT & Large Language Model completions in Obsidian editor via API",
+        "description": "Obsidian plugin for getting language model completions from ChatGPT, GPT-3, and others",
         "author": "Jonathan Miller",
         "repo": "jmilldotdev/obsidian-gpt"
     },
@@ -5827,7 +5821,7 @@
         "repo": "quorafind/obsidian-canvas-mindmap"
     },
     {
-       "id": "link-exploder",
+        "id": "link-exploder",
         "name": "Link Exploder",
         "author": "Ben Hughes",
         "description": "Link Exploder creates a canvas from a note, embedding it's incoming (i.e. backlinks) and outgoing links onto the canvas (as well as the their linked notes).",
@@ -5848,25 +5842,25 @@
         "repo": "notlibrary/obsidian-adamantine-pick"
     },
     {
-         "id": "antidote-grammar-checker-integration",
-         "name": "Antidote Grammar Checker Integration",
-         "author": "Heziode",
-         "description": "Unofficial integration of Antidote, a powerful English and French grammar checker",
-         "repo": "heziode/obsidian-antidote"
+        "id": "antidote-grammar-checker-integration",
+        "name": "Antidote Grammar Checker Integration",
+        "author": "Heziode",
+        "description": "Unofficial integration of Antidote, a powerful English and French grammar checker",
+        "repo": "heziode/obsidian-antidote"
     },
     {
-         "id": "s3-image-uploader",
-         "name": "S3 Image Uploader",
-         "description": "An image uploader for Obsidian that allows you to self host images on AWS S3.",
-         "author": "jvsteiner",
-         "repo": "jvsteiner/s3-image-uploader"
+        "id": "s3-image-uploader",
+        "name": "S3 Image Uploader",
+        "description": "An image uploader for Obsidian that allows you to self host images on AWS S3.",
+        "author": "jvsteiner",
+        "repo": "jvsteiner/s3-image-uploader"
     },
     {
-          "id": "canvas-filter",
-          "name": "Canvas Filter",
-          "author": "Ivan Koshelev",
-          "description": "This plugin lets you filter Canvas to only show items of specific color, tags or only connected to currently selected node.",
-          "repo": "IKoshelev/Obsidian-Canvas-Filter"
+        "id": "canvas-filter",
+        "name": "Canvas Filter",
+        "author": "Ivan Koshelev",
+        "description": "This plugin lets you filter Canvas to only show items of specific color, tags or only connected to currently selected node.",
+        "repo": "IKoshelev/Obsidian-Canvas-Filter"
     },
     {
         "id": "note-aliases",
@@ -5892,7 +5886,7 @@
     {
         "id": "double-colon-conceal",
         "name": "Double Colon Conceal",
-        "description": "Display double colon (i.e. Dataview inline fields) as a single colon in reading view (preview mode) for more natural experience.",
+        "description": "Display double colon (i.e. Dataview inline fields) as a single colon for more natural reading experience.",
         "author": "Michal Srch",
         "repo": "msrch/obsidian-double-colon-conceal"
     },
@@ -5900,8 +5894,358 @@
         "id": "grappling-hook",
         "name": "🪝 Grappling Hook",
         "author": "pseudometa",
-        "description": "Obsidian Plugin for blazingly fast file switching. For people for whom using the Quick Switcher still takes too much time.",
+        "description": "Obsidian Plugin for blazingly fast file switching with starred files. For people for whom using the Quick Switcher still takes too much time.",
         "repo": "chrisgrieser/grappling-hook"
+    },
+    {
+        "id": "tag-search",
+        "name": "Tag Search",
+        "author": "R. W. Blickhan",
+        "description": "Fuzzy-find your tags!",
+        "repo": "rwblickhan/obsidian-tag-search"
+    },
+    {
+        "id": "ytranscript",
+        "name": "YTranscript",
+        "author": "Łukasz Strzępek",
+        "description": "Easily fetch transcription for any Youtube video",
+        "repo": "lstrzepek/obsidian-yt-transcript"
+    },
+    {
+        "id": "habit-calendar",
+        "name": "Habit Calendar",
+        "author": "Hedonihilist",
+        "description": "Monthly Habit Calendar for DataviewJS. This plugin helps you render a calendar inside DataviewJS code block, showing your habit status within a month.",
+        "repo": "hedonihilist/obsidian-habit-calendar"
+    },
+    {
+        "id": "console",
+        "name": "Console Markdown Plugin",
+        "author": "Daniel Ellermann",
+        "description": "Renders console commands and their output.",
+        "repo": "dellermann/obsidian-console"
+    },
+    {
+        "id": "quip",
+        "name": "Quip",
+        "author": "sblakey",
+        "description": "Commands to publish Obsidian notes to Quip.com",
+        "repo": "sblakey/obsidian-quip"
+    },
+    {
+        "id": "custom-classes",
+        "name": "Custom Classes",
+        "description": "Add your own HTML classes to chosen Markdown elements directly from your notes.",
+        "author": "Lila Rest",
+        "repo": "LilaRest/obsidian-custom-classes"
+    },
+    {
+        "id": "babashka",
+        "name": "Babashka",
+        "description": "Evaluate Clojure(Script) codeblocks in Babashka.",
+        "author": "Filipe Silva",
+        "repo": "filipesilva/obsidian-babashka"
+    },
+    {
+        "id": "dmn-eval",
+        "name": "DMN Eval",
+        "author": "joleaf",
+        "description": "This plugin enables evaluating/executing DMNs.",
+        "repo": "joleaf/obsidian-dmn-eval-plugin"
+    },
+    {
+        "id": "restore-tab-key",
+        "name": "Restore Tab Key",
+        "author": "jerrymk",
+        "description": "Restore tab key behaviour: tab key inserts a tab, the way it should be.",
+        "repo": "jrymk/restore-tab-key"
+    },
+    {
+        "id": "obsidian-omnivore",
+        "name": "Omnivore",
+        "description": "This is an Omnivore plugin for Obsidian.",
+        "author": "Omnivore",
+        "repo": "omnivore-app/obsidian-omnivore"
+    },
+    {
+        "id": "inbox",
+        "name": "Inbox",
+        "author": "Zachatoo",
+        "description": "Show in app notification on startup if there is data to process in the \"inbox\" note.",
+        "repo": "Zachatoo/obsidian-inbox"
+    },
+    {
+        "id": "text-progress-bar",
+        "name": "Text Progress Bar",
+        "author": "Michael Adams",
+        "description": "Display low-fi text progress bars in your notes.",
+        "repo": "michaeladams/obsidian-text-progress-bar"
+    },
+    {
+        "id": "reading-comments",
+        "name": "Reading comments",
+        "author": "BumbrT",
+        "description": "Plugin allows you to create inline comments while you read books or articles in Obsidian. Comments could be grouped hierarchically by tags.",
+        "repo": "BumbrT/obsidian-reading-comments"
+    },
+    {
+        "id": "progressbar",
+        "name": "ProgressBar",
+        "author": "Wei Zhang",
+        "description": "Render CodeBlock into a ProgressBar based on Time or Manually.",
+        "repo": "zwpaper/obsidian-progressbar"
+    },
+    {
+        "id": "kindle-csv-converter",
+        "name": "Kindle CSV Converter",
+        "description": "Import your Kindle notes in .csv format to Obsidian.",
+        "author": "Alvaro Cas",
+        "repo": "alvaro-cas/kindle-csv-converter-obsidian"
+    },
+    {
+        "id": "material-symbols",
+        "name": "Material Symbols",
+        "author": "Cristoph Berane",
+        "description": "This plugin adds the material symbols (outlined) to obsidian",
+        "repo": "cberane/obsidian-material-symbols"
+    },
+    {
+        "id": "unicode-search",
+        "name": "Unicode Search",
+        "description": "Search and insert Unicode characters into your editor",
+        "author": "BambusControl",
+        "repo": "BambusControl/obsidian-unicode-search"
+    },
+    {
+        "id": "awesome-reader",
+        "name": "Awesome Reader",
+        "author": "AwesomeDog",
+        "description": "Make Obsidian a proper Reader.",
+        "repo": "AwesomeDog/obsidian-awesome-reader"
+    },
+    {
+        "id": "latex-algorithms",
+        "name": "LaTeX Algorithms",
+        "author": "SamZhang02",
+        "description": "Plugin to facilitate writing algorithm blocks in LaTeX",
+        "repo": "SamZhang02/obsidian-latex-algorithms"
+    },
+    {
+        "id": "contextual-comments",
+        "name": "Contextual Comments",
+        "description": "General comments or langage related (in codeblocks) + 2 commands trim end lines (All doc/codeblocks).",
+        "author": "1C0D",
+        "repo": "1C0D/Obsidian-Contextual-Comments"
+    },
+    {
+        "id": "heading-level-indent",
+        "name": "Heading Level Indent",
+        "description": "Indenting content under headers based on their level.",
+        "author": "svonjoi",
+        "repo": "svonjoi/obsidian-heading-level-indent"
+    },
+    {
+        "id": "open-files-with-commands",
+        "name": "Open files with commands",
+        "description": "Create commands that only open one file at the time and that can be used with the commander plugin.",
+        "author": "Lost Paul",
+        "repo": "LostPaul/ob-open-files-with-commands"
+    },
+    {
+        "id": "no-empty-windows",
+        "name": "No Empty Windows",
+        "description": "Closes Obsidian window with cmd+W on Mac when the last tab is closed.",
+        "author": "L Fahn-Lai",
+        "repo": "popscallion/obsidian-no-empty-windows"
+    },
+    {
+        "id": "marp",
+        "name": "Marp",
+        "description": "Plugin for using Marp on Obsidian.",
+        "author": "JichouP",
+        "repo": "JichouP/obsidian-marp-plugin"
+    },
+    {
+        "id": "o2",
+        "name": "O2",
+        "description": "This is a syntax converting plugin to make obsidian markdown syntax compatible with other markdown syntax.",
+        "author": "haril song",
+        "repo": "songkg7/o2"
+    },
+    {
+        "id": "close-similar-tabs",
+        "name": "Close Similar Tabs",
+        "author": "1C0D",
+        "description": "Avoid to have a file opened several times in your tabs. (+setting: by window or everywhere)",
+        "repo": "1C0D/Obsidian-Close-Similar-Tabs"
+    },
+    {
+        "id": "create-note-in-folder",
+        "name": "Create Note in Folder",
+        "author": "Mara-Li",
+        "description": "Add commands to create a note in a specific folder.",
+        "repo": "Lisandra-dev/obsidian-create-note-in-folder"
+    },
+    {
+        "id": "apple-books-highlights",
+        "name": "Apple Books Highlights",
+        "author": "Atif Afzal",
+        "description": "Sync your Apple Books highlights automatically.",
+        "repo": "atfzl/obsidian-apple-books-plugin"
+    },
+    {
+        "id": "msg-handler",
+        "name": "MSG Handler",
+        "description": "Easily display and search MSG files from Outlook in your Obsidian Vault",
+        "author": "Ozan Tellioglu",
+        "repo": "ozntel/obsidian-msg-handler"
+    },
+    {
+        "id": "obsidoom",
+        "name": "ObsiDOOM",
+        "author": "twibiral",
+        "description": "Play DOOM and many other retro games in your Obsidian app. You can also play Prince of Persia, Mortal Combat, GTA, Sim City, and Need for Speed.",
+        "repo": "twibiral/ObsiDOOM"
+    },
+    {
+        "id": "advanced-paste",
+        "name": "Advanced Paste",
+        "author": "kxxt",
+        "description": "This plugin provides advanced paste commands and enables you to create custom transforms for pasting.",
+        "repo": "kxxt/obsidian-advanced-paste"
+    },
+    {
+        "id": "aw-watcher-obsidian",
+        "name": "Obsidian-compatible Watcher for ActivityWatch",
+        "author": "Grimmauld",
+        "description": "This is a plugin bridging compatibility between ActivityWatch and Obsidian to allow detailed tracking od time spent in Obsidian.",
+        "repo": "LordGrimmauld/aw-watcher-obsidian"
+    },
+    {
+        "id": "mixa",
+        "name": "Mixa",
+        "author": "Mixa Team",
+        "description": "Publish your notes and blog posts with Mixa directly from Obsidian",
+        "repo": "mixasite/obsidian-mixa"
+    },
+    {
+        "id": "vextab",
+        "name": "Vextab",
+        "author": "Luis Guzman",
+        "description": "An Obsidian plugin for rendering guitar tablature and music notation using Vextab.",
+        "repo": "luigman/obsidian-vextab"
+    },
+    {
+        "id": "callout-manager",
+        "name": "Callout Manager",
+        "description": "Easily create and customize callouts.",
+        "author": "eth-p",
+        "repo": "eth-p/obsidian-callout-manager"
+    },
+    {
+        "id": "awesome-image",
+        "name": "Awesome Image",
+        "author": "AwesomeDog",
+        "description": "One-stop solution for image management and viewing.",
+        "repo": "AwesomeDog/obsidian-awesome-image"
+    },
+    {
+        "id": "callout-integrator",
+        "author": "Cleoche",
+        "name": "Callout Integrator",
+        "description": "Integrate long blocks of text into callouts",
+        "repo": "Cleoche/obsidian-callout-integrator"
+    },
+    {
+        "id": "emoji-magic",
+        "name": "Emoji Magic",
+        "author": "simplgy",
+        "description": "Easily add emoji, with a powerful keyword search. 🔮 ✨ 🐇",
+        "repo": "simplgy/obsidian-emoji-magic"
+    },
+    {
+        "id": "optimize-canvas-connections",
+        "name": "Optimize Canvas Connections",
+        "author": "Félix Chénier",
+        "description": "A plugin that declutters a canvas by reconnecting notes using their nearest edges.",
+        "repo": "felixchenier/obsidian-optimize-canvas-connections"
+    },
+    {
+        "id": "home-tab",
+        "name": "Home tab",
+        "author": "Renso",
+        "description": "A browser-like search tab for your local files.",
+        "repo": "olrenso/obsidian-home-tab"
+    },
+    {
+        "id": "chatgpt-md",
+        "name": "ChatGPT MD",
+        "author": "Bram Adams",
+        "description": "A (nearly) seamless integration of ChatGPT into Obsidian.",
+        "repo": "bramses/chatgpt-md"
+    },
+    {
+        "id": "open-weather",
+        "name": "OpenWeather",
+        "description": "This plugin returns the current weather from OpenWeather in a configurable string format.",
+        "author": "willasm",
+        "repo": "willasm/obsidian-open-weather"
+    },
+    {
+        "id": "emoji-titler",
+        "name": "Emoji Titler",
+        "description": "This plugin is emoji titler to easily insert an emoji in the title using a keyboard shortcut.",
+        "author": "Hyeonseo Nam",
+        "repo": "HyeonseoNam/obsidian-emoji-titler"
+    },
+    {
+         "id": "perilous-writing",
+         "name": "Perilous Writing",
+         "description": "Write continuously—or lose all progress.",
+         "author": "Sameer Ismail",
+         "repo": "sameersismail/obsidian-perilous-writing"
+    },
+    {
+        "id": "ibook",
+        "name": "ibook",
+        "description": "plugin for Apple ibook.",
+        "author": "bingryan",
+        "repo": "bingryan/obsidian-ibook-plugin"
+    },
+    {
+        "id": "floating-highlights",
+        "name": "Floating Highlights",
+        "author": "Karthik S Raju",
+        "description": "Enhanced highlights for Obsidian",
+        "repo": "KarthikRaju391/obsidian-float"
+    },
+    {
+        "id": "zen",
+        "name": "Zen",
+        "author": "Maxymillion",
+        "description": "A focus mode Obsidian plugin.",
+        "repo": "Maxymillion/zen"
+    },
+    {
+        "id": "nl-fast-image-cleaner",
+        "name": "Fast Image Cleaner",
+        "author": "Nathaniel",
+        "description": "You can quickly delete image(or file,media) attachments and their reference links with the click of a button or right-click menu to adapt to different situations ",
+        "repo": "martinniee/Obsidian-fast-image-cleaner"
+    },
+    {
+        "id": "fantasy-content-generator",
+        "name": "Fantasy Content Generator",
+        "author": "Gregory-Jagermeister",
+        "description": "A Fantasy Content Generator for Obsidian for All Your TTRPG / World Building Needs",
+        "repo": "Gregory-Jagermeister/Fantasy-Content-Generator"
+    },
+    {
+        "id": "tasks-calendar-wrapper",
+        "name": "Tasks Calendar Wrapper",
+        "author": "zhuwenq",
+        "description": "This is a simple wrapper for Obsidian-Tasks-Calendar (https://github.com/702573N/Obsidian-Tasks-Calendar) and Obsidian-Tasks-Timeline (https://github.com/702573N/Obsidian-Tasks-Timeline).",
+        "repo": "Leonezz/obsidian-tasks-calendar-wrapper"
     },
     {
         "id": "awesome-brain-manager",
