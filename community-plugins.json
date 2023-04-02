@@ -3377,7 +3377,7 @@
         "id": "obsidian-bible-linker",
         "name": "Bible Linker",
         "author": "Jakub Kuchejda",
-        "description": "Link multiple bible verses easily",
+        "description": "Link/Copy multiple Bible verses easily using your own Bible files. Compatible with the Bible Study Kit.",
         "repo": "kuchejak/obsidian-bible-linker-plugin"
     },
     {
@@ -6330,12 +6330,19 @@
        "description": "Tools to make Obsidian more into our second brains",
        "author": "pedersen",
        "repo": "pedersen/obsidian-brainframe"
-     },
-     {
+    },
+    {
+       "id": "gemmy",
+       "name": "Gemmy",
+       "description": "Obsidian Unhelper. 2023 April Fool's plugin brought to you by Obsidian.",
+       "author": "Obsidian",
+       "repo": "ericaxu/Gemmy"
+    },
+    {
        "id": "text2anki-openai",
        "name": "text2anki-openai",
        "author": "Mani Batra",
        "description": "This is an obsidian plugin that uses OpenAI to generate flashcards from text and add them to Anki.",
        "repo": "manibatra/obsidian-text2anki-openai"
-     }
+    }
 ]
