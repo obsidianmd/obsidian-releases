@@ -298,8 +298,8 @@
     },
     {
         "id": "find-unlinked-files",
-        "name": "Find unlinked files",
-        "description": "Find files that are not linked anywhere and would otherwise be lost in your vault",
+        "name": "Find orphaned files and broken links",
+        "description": "Find files that are not linked anywhere and would otherwise be lost in your vault. In other words: files with no backlinks.",
         "author": "Vinzent",
         "repo": "Vinzent03/find-unlinked-files",
         "branch": "main"
