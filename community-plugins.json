@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "nldates-obsidian",
         "name": "Natural Language Dates",
         "author": "Argentina Ortega Sainz",
@@ -288,8 +287,8 @@
     },
     {
         "id": "find-unlinked-files",
-        "name": "Find unlinked files",
-        "description": "Find files that are not linked anywhere and would otherwise be lost in your vault",
+        "name": "Find orphaned files and broken links",
+        "description": "Find files that are not linked anywhere and would otherwise be lost in your vault. In other words: files with no backlinks.",
         "author": "Vinzent",
         "repo": "Vinzent03/find-unlinked-files"
     },
@@ -3276,13 +3275,6 @@
         "repo": "quorafind/obsidian-big-calendar"
     },
     {
-        "id": "sekund",
-        "name": "Obsidian Social (Sekund)",
-        "author": "Candide Kemmler",
-        "description": "Share notes and gather feedback",
-        "repo": "Sekund/sekund-plugin-react"
-    },
-    {
         "id": "obsidian-command-palette-minus-plugin",
         "name": "Command Palette--",
         "author": "qawatake",
@@ -5673,10 +5665,10 @@
     },
     {
         "id": "short-internal-links-to-headings",
-        "name": "Short Internal Links to Headings",
-        "description": "Display internal links to headings as just the heading name.",
+        "name": "Short links",
+        "description": "Display short internal links to files, notes, headings, and blocks.",
         "author": "Scott Moore",
-        "repo": "scottwillmoore/obsidian-short-internal-links-to-headings"
+        "repo": "scottwillmoore/obsidian-short-links"
     },
     {
         "id": "obsidian-hyphenation",
@@ -6363,7 +6355,7 @@
         "id": "reveal-file-in-explorer",
         "name": "Reveal file in explorer",
         "author": "1C0D",
-        "description": "Clicking header title reveal active file in explorer",
+        "description": "Clicking header title reveal active file in explorer and (option) when opening file + option to fold other directories",
         "repo": "1C0D/Obsidian-Reveal-File-in-explorer"
     },
     {
@@ -6405,8 +6397,90 @@
         "id": "easy-toggle-sidebars",
         "name": "Easy toggle sidebars",
         "author": "1C0D",
-        "description": "toggle sidebars double-clicking middle mouse button or each sidebar clicking middle mouse button and moving mouse towards the corresponding sidebar.",
+        "description": "toggle both sidebars (double middle mouse click or own shortcut) or each sidebar clicking middle mouse button and moving mouse towards the corresponding sidebar.",
         "repo": "1C0D/obsidian-easy-toggle-sidebars"
+    },
+        "id": "x86-flow-graphing",
+        "name": "x86 Assembly Flow Graphing",
+        "author": "icebear",
+        "description": "This plugin converts well formatted x86 assembly into appropriate flow graphs using Obsidian canvases.",
+        "repo": "dwolfe884/obsidian-x86-flow-graph"
+    },
+    {
+        "id": "search-obsidian-in-google",
+        "name": "Search Obsidian in Google",
+        "description": "A simple plugin to search the current note in Google (or other search engines).",
+        "repo": "qazxcdswe123/search-obsidian-in-google"
+    },
+    {
+        "id": "oz-calendar",
+        "name": "OZ Calendar",
+        "description": "View your notes in Calendar using any YAML key with a date",
+        "author": "Ozan Tellioglu",
+        "repo": "ozntel/oz-calendar"
+    },
+    {
+        "id": "tasks-to-omnifocus",
+        "name": "Send Tasks to OmniFocus",
+        "description": "An Obsidian plugin will extract tasks from the current note and create them in OmniFocus.",
+        "author": "Henry Gustafson",
+        "repo": "lizard-heart/obsidian-to-omnifocus"
+    },
+    {
+        "id": "ai-commander",
+        "name": "AI Commander",
+        "author": "Simon Yang",
+        "description": "Generate audio transcripts, images, and text in context of PDF attachments or web search results using OpenAI and Bing API.",
+        "repo": "yzh503/obsidian-aicommander-plugin"
+    },
+    {
+        "id": "pseudocode-in-obs",
+        "name": "Pseudocode",
+        "author": "Yaotian Liu",
+        "description": "This is an obsidian plugin that helps to render a LaTeX-style pseudocode inside a code block.",
+        "repo": "Yaotian-Liu/obsidian-pseudocode"
+    },
+    {
+        "id": "advanced-merger",
+        "name": "Advanced Merger",
+        "author": "Anto Keinänen",
+        "description": "Merge a folder of notes for easier export.",
+        "repo": "antoKeinanen/obsidian-advanced-merger"
+    },
+    {
+        "id": "unfilled-stats-highlighter",
+        "name": "Unfilled Stats Highlighter",
+        "description": "This plugin is designed to streamline your stat/habit tracking process by automatically identifying and prefixing unfilled stats, making them easier to spot and fill out.",
+        "author": "Zachary Hynes",
+        "repo": "White7292/obsidian-hd-unfilled-stats-highlighter"
+    },
+    {
+        "id": "gpt-assistant",
+        "name": "GPT Assistant",
+        "description": "Use a GPT-3 based model on your notes and get personalized answers from your knowledge base.",
+        "author": "M7mdisk",
+        "repo": "M7mdisk/obsidian-gpt"
+    },
+    {
+        "id": "companion",
+        "name": "Companion",
+        "author": "rizerphe",
+        "description": "A github copilot-like interface for obsidian that can use ChatGPT under the hood.",
+        "repo": "rizerphe/obsidian-companion"
+    },
+    {
+        "id": "get-stock-information",
+        "name": "Get Stock Information",
+        "description": "This plugin takes a stock symbol and returns a callout block with the latest stock information.",
+        "author": "Mike Jongbloet",
+        "repo": "mikejongbloet/obsidian-get-stock-information"
+    },
+    {
+        "id": "frontmatter-alias-display",
+        "name": "Frontmatter Alias Display",
+        "author": "muhammadv-i",
+        "description": "A plugin for Obsidian to show front-matter aliases as display names in the File Explorer.",
+        "repo": "muhammadv-i/obsidian-frontmatter-alias-display"
     },
     {
         "id": "folder-notes",
@@ -6414,5 +6488,5 @@
         "description": "Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion.",
         "author": "Lost Paul",
         "repo": "LostPaul/obsidian-folder-notes"
-    }
+     }
 ]
