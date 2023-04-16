@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "nldates-obsidian",
         "name": "Natural Language Dates",
         "author": "Argentina Ortega Sainz",
@@ -6192,11 +6191,11 @@
         "repo": "HyeonseoNam/obsidian-emoji-titler"
     },
     {
-         "id": "perilous-writing",
-         "name": "Perilous Writing",
-         "description": "Write continuously—or lose all progress.",
-         "author": "Sameer Ismail",
-         "repo": "sameersismail/obsidian-perilous-writing"
+        "id": "perilous-writing",
+        "name": "Perilous Writing",
+        "description": "Write continuously—or lose all progress.",
+        "author": "Sameer Ismail",
+        "repo": "sameersismail/obsidian-perilous-writing"
     },
     {
         "id": "ibook",
@@ -6311,18 +6310,25 @@
         "repo": "artisticat1/focus-active-sentence"
     },
     {
-      "id": "journal-review",
-    	"name": "Journal Review",
-    	"author": "Kageetai",
-    	"description": "Review your daily notes on their anniversaries, like \"what happened today last year\".",
+        "id": "journal-review",
+        "name": "Journal Review",
+        "author": "Kageetai",
+        "description": "Review your daily notes on their anniversaries, like \"what happened today last year\".",
         "repo": "Kageetai/obsidian-plugin-journal-review"
     },
     {
-       "id": "brainframe",
-       "name": "Brainframe",
-       "description": "Tools to make Obsidian more into our second brains",
-       "author": "pedersen",
-       "repo": "pedersen/obsidian-brainframe"
+        "id": "brainframe",
+        "name": "Brainframe",
+        "description": "Tools to make Obsidian more into our second brains",
+        "author": "pedersen",
+        "repo": "pedersen/obsidian-brainframe"
+    },
+    {
+        "id": "gemmy",
+        "name": "Gemmy",
+        "description": "Obsidian Unhelper. 2023 April Fool's plugin brought to you by Obsidian.",
+        "author": "Obsidian",
+        "repo": "ericaxu/Gemmy"
     },
     {
        "id": "gemmy",
@@ -6418,6 +6424,7 @@
     {
         "id": "search-obsidian-in-google",
         "name": "Search Obsidian in Google",
+        "author": "YuNing Chen",
         "description": "A simple plugin to search the current note in Google (or other search engines).",
         "repo": "qazxcdswe123/search-obsidian-in-google"
     },
@@ -6471,10 +6478,38 @@
         "repo": "M7mdisk/obsidian-gpt"
     },
     {
-        "id": "ai-assistant",
-        "name": "AI Assistant",
-        "author": "Quentin Grail",
-        "description": "AI Assistant plugin for Obsidian",
-        "repo": "qgrail/obsidian-ai-assistant"
+        "id": "companion",
+        "name": "Companion",
+        "author": "rizerphe",
+        "description": "A github copilot-like interface for obsidian that can use ChatGPT under the hood.",
+        "repo": "rizerphe/obsidian-companion"
+    },
+    {
+        "id": "get-stock-information",
+        "name": "Get Stock Information",
+        "description": "This plugin takes a stock symbol and returns a callout block with the latest stock information.",
+        "author": "Mike Jongbloet",
+        "repo": "mikejongbloet/obsidian-get-stock-information"
+    },
+    {
+        "id": "frontmatter-alias-display",
+        "name": "Frontmatter Alias Display",
+        "author": "muhammadv-i",
+        "description": "A plugin for Obsidian to show front-matter aliases as display names in the File Explorer.",
+        "repo": "muhammadv-i/obsidian-frontmatter-alias-display"
+    },
+    {
+       "id": "character-insertion",
+       "name": "Character Insertion",
+       "description": "Plugin to insert a specified symbol under the cursor",
+       "author": "TakamiChie",
+       "repo": "TakamiChie/Obsidian_CharacterInsertionPlugin"
+    },
+    {
+      "id": "ai-assistant",
+      "name": "AI Assistant",
+      "author": "Quentin Grail",
+      "description": "AI Assistant plugin for Obsidian",
+      "repo": "qgrail/obsidian-ai-assistant"
     }
 ]
