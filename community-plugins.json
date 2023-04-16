@@ -288,8 +288,8 @@
     },
     {
         "id": "find-unlinked-files",
-        "name": "Find unlinked files",
-        "description": "Find files that are not linked anywhere and would otherwise be lost in your vault",
+        "name": "Find orphaned files and broken links",
+        "description": "Find files that are not linked anywhere and would otherwise be lost in your vault. In other words: files with no backlinks.",
         "author": "Vinzent",
         "repo": "Vinzent03/find-unlinked-files"
     },
@@ -3137,10 +3137,10 @@
     },
     {
         "id": "simple-note-quiz",
-        "name": "Simple note quiz",
-        "author": "dorisxx",
+        "name": "Simple Note Quiz",
+        "author": "beginner137",
         "description": "Start a simple quiz on your current note.",
-        "repo": "dorisxx/Obsidian-simple-note-quiz"
+        "repo": "beginner137/Obsidian-simple-note-quiz"
     },
     {
         "id": "obsidian-local-rest-api",
@@ -3276,13 +3276,6 @@
         "repo": "quorafind/obsidian-big-calendar"
     },
     {
-        "id": "sekund",
-        "name": "Obsidian Social (Sekund)",
-        "author": "Candide Kemmler",
-        "description": "Share notes and gather feedback",
-        "repo": "Sekund/sekund-plugin-react"
-    },
-    {
         "id": "obsidian-command-palette-minus-plugin",
         "name": "Command Palette--",
         "author": "qawatake",
@@ -3377,7 +3370,7 @@
         "id": "obsidian-bible-linker",
         "name": "Bible Linker",
         "author": "Jakub Kuchejda",
-        "description": "Link multiple bible verses easily",
+        "description": "Link/Copy multiple Bible verses easily using your own Bible files. Compatible with the Bible Study Kit.",
         "repo": "kuchejak/obsidian-bible-linker-plugin"
     },
     {
@@ -5667,16 +5660,16 @@
     {
         "id": "smart-connections",
         "name": "Smart Connections",
-        "description": "Find links to similar notes using artificial intelligence from OpenAI.",
+        "description": "Chat with your notes & find links to similar content using artificial intelligence like OpenAI Embeddings, GPT-3.5 & GPT-4.",
         "author": "Brian Petro",
         "repo": "brianpetro/obsidian-smart-connections"
     },
     {
         "id": "short-internal-links-to-headings",
-        "name": "Short Internal Links to Headings",
-        "description": "Display internal links to headings as just the heading name.",
+        "name": "Short links",
+        "description": "Display short internal links to files, notes, headings, and blocks.",
         "author": "Scott Moore",
-        "repo": "scottwillmoore/obsidian-short-internal-links-to-headings"
+        "repo": "scottwillmoore/obsidian-short-links"
     },
     {
         "id": "obsidian-hyphenation",
@@ -5821,7 +5814,7 @@
         "repo": "quorafind/obsidian-canvas-mindmap"
     },
     {
-       "id": "link-exploder",
+        "id": "link-exploder",
         "name": "Link Exploder",
         "author": "Ben Hughes",
         "description": "Link Exploder creates a canvas from a note, embedding it's incoming (i.e. backlinks) and outgoing links onto the canvas (as well as the their linked notes).",
@@ -5842,25 +5835,25 @@
         "repo": "notlibrary/obsidian-adamantine-pick"
     },
     {
-         "id": "antidote-grammar-checker-integration",
-         "name": "Antidote Grammar Checker Integration",
-         "author": "Heziode",
-         "description": "Unofficial integration of Antidote, a powerful English and French grammar checker",
-         "repo": "heziode/obsidian-antidote"
+        "id": "antidote-grammar-checker-integration",
+        "name": "Antidote Grammar Checker Integration",
+        "author": "Heziode",
+        "description": "Unofficial integration of Antidote, a powerful English and French grammar checker",
+        "repo": "heziode/obsidian-antidote"
     },
     {
-         "id": "s3-image-uploader",
-         "name": "S3 Image Uploader",
-         "description": "An image uploader for Obsidian that allows you to self host images on AWS S3.",
-         "author": "jvsteiner",
-         "repo": "jvsteiner/s3-image-uploader"
+        "id": "s3-image-uploader",
+        "name": "S3 Image Uploader",
+        "description": "An image uploader for Obsidian that allows you to self host images on AWS S3.",
+        "author": "jvsteiner",
+        "repo": "jvsteiner/s3-image-uploader"
     },
     {
-          "id": "canvas-filter",
-          "name": "Canvas Filter",
-          "author": "Ivan Koshelev",
-          "description": "This plugin lets you filter Canvas to only show items of specific color, tags or only connected to currently selected node.",
-          "repo": "IKoshelev/Obsidian-Canvas-Filter"
+        "id": "canvas-filter",
+        "name": "Canvas Filter",
+        "author": "Ivan Koshelev",
+        "description": "This plugin lets you filter Canvas to only show items of specific color, tags or only connected to currently selected node.",
+        "repo": "IKoshelev/Obsidian-Canvas-Filter"
     },
     {
         "id": "note-aliases",
@@ -5894,7 +5887,7 @@
         "id": "grappling-hook",
         "name": "🪝 Grappling Hook",
         "author": "pseudometa",
-        "description": "Obsidian Plugin for blazingly fast file switching with starred files. For people for whom using the Quick Switcher still takes too much time.",
+        "description": "Obsidian Plugin for blazingly fast file switching to bookmarked files. For people for whom using the Quick Switcher still takes too much time.",
         "repo": "chrisgrieser/grappling-hook"
     },
     {
@@ -6076,7 +6069,7 @@
         "id": "close-similar-tabs",
         "name": "Close Similar Tabs",
         "author": "1C0D",
-        "description": "Close similar tabs.",
+        "description": "Avoid to have a file opened several times in your tabs. (+setting: by window or everywhere)",
         "repo": "1C0D/Obsidian-Close-Similar-Tabs"
     },
     {
@@ -6105,7 +6098,7 @@
         "name": "ObsiDOOM",
         "author": "twibiral",
         "description": "Play DOOM and many other retro games in your Obsidian app. You can also play Prince of Persia, Mortal Combat, GTA, Sim City, and Need for Speed.",
-        "repo":"twibiral/ObsiDOOM"
+        "repo": "twibiral/ObsiDOOM"
     },
     {
         "id": "advanced-paste",
@@ -6192,6 +6185,243 @@
         "repo": "willasm/obsidian-open-weather"
     },
     {
+        "id": "emoji-titler",
+        "name": "Emoji Titler",
+        "description": "This plugin is emoji titler to easily insert an emoji in the title using a keyboard shortcut.",
+        "author": "Hyeonseo Nam",
+        "repo": "HyeonseoNam/obsidian-emoji-titler"
+    },
+    {
+         "id": "perilous-writing",
+         "name": "Perilous Writing",
+         "description": "Write continuously—or lose all progress.",
+         "author": "Sameer Ismail",
+         "repo": "sameersismail/obsidian-perilous-writing"
+    },
+    {
+        "id": "ibook",
+        "name": "ibook",
+        "description": "plugin for Apple ibook.",
+        "author": "bingryan",
+        "repo": "bingryan/obsidian-ibook-plugin"
+    },
+    {
+        "id": "floating-highlights",
+        "name": "Floating Highlights",
+        "author": "Karthik S Raju",
+        "description": "Enhanced highlights for Obsidian",
+        "repo": "KarthikRaju391/obsidian-float"
+    },
+    {
+        "id": "zen",
+        "name": "Zen",
+        "author": "Maxymillion",
+        "description": "A focus mode Obsidian plugin.",
+        "repo": "Maxymillion/zen"
+    },
+    {
+        "id": "nl-fast-image-cleaner",
+        "name": "Fast Image Cleaner",
+        "author": "Nathaniel",
+        "description": "This plugin allows you to quickly remove image attachment and referenced link from your documents in both LIVE , READ mode by right-click menu",
+        "repo": "martinniee/Obsidian-fast-image-cleaner"
+    },
+    {
+        "id": "fantasy-content-generator",
+        "name": "Fantasy Content Generator",
+        "author": "Gregory-Jagermeister",
+        "description": "A Fantasy Content Generator for Obsidian for All Your TTRPG / World Building Needs",
+        "repo": "Gregory-Jagermeister/Fantasy-Content-Generator"
+    },
+    {
+        "id": "tasks-calendar-wrapper",
+        "name": "Tasks Calendar Wrapper",
+        "author": "zhuwenq",
+        "description": "This is a simple wrapper for Obsidian-Tasks-Calendar (https://github.com/702573N/Obsidian-Tasks-Calendar) and Obsidian-Tasks-Timeline (https://github.com/702573N/Obsidian-Tasks-Timeline).",
+        "repo": "Leonezz/obsidian-tasks-calendar-wrapper"
+    },
+    {
+        "id": "awesome-brain-manager",
+        "name": "Awesome Brain Manager",
+        "description": "A toolkit tries to solve all the trivial problems most people usually encountered in obsidian.",
+        "author": "Juck",
+        "repo": "JuckZ/awesome-brain-manager"
+    },
+    {
+        "id": "open-in-new-tab",
+        "name": "Open In New Tab",
+        "author": "patleeman",
+        "description": "Opens files in new tabs like a browser",
+        "repo": "patleeman/obsidian-open-in-new-tab"
+    },
+    {
+        "id": "commando-command-repeater",
+        "name": "Commando",
+        "description": "Enables repeated calls of a command using defined or per-invocation values",
+        "author": "qaptoR",
+        "repo": "qaptoR/Commando"
+    },
+    {
+        "id": "file-publisher",
+        "name": "File Publisher",
+        "description": "Publishes a file to a given POST api.",
+        "author": "Devin Sackett",
+        "repo": "yiglas/obsidian-file-publisher"
+    },
+    {
+        "id": "global-search-and-replace",
+        "name": "Global Search and Replace",
+        "author": "Mahmoud Fawzy Khalil",
+        "description": "Search and replace in all vault files",
+        "repo": "MahmoudFawzyKhalil/obsidian-global-search-and-replace"
+    },
+    {
+        "id": "image-upload-toolkit",
+        "name": "Image Upload Toolkit",
+        "description": "An obsidian plugin for uploading local images embedded in markdown to remote store and export markdown for publishing to static site. Currently, it supports Imgur and Aliyun OSS.",
+        "author": "Addo Zhang",
+        "repo": "addozhang/obsidian-image-upload-toolkit"
+    },
+    {
+        "id": "gene-ai",
+        "name": "Gene 🧬",
+        "author": "Matiss Jurevics",
+        "description": "A plugin for generating text using the OpenAI API.",
+        "repo": "MatissJurevics/Gene-AI"
+    },
+    {
+        "id": "latex-to-unicode",
+        "name": "LaTeX to unicode converter",
+        "description": "Convert LaTeX commands into unicode sqeuences",
+        "author": "fjdu",
+        "repo": "fjdu/obsidian-latex-unicode"
+    },
+    {
+        "id": "nl-syntax-highlighting",
+        "name": "Natural Language Syntax Highlighting",
+        "description": "Highlight adjectives, nouns, adverbs, verbs, and conjunctions in the editor",
+        "author": "artisticat",
+        "repo": "artisticat1/nl-syntax-highlighting"
+    },
+    {
+        "id": "focus-active-sentence",
+        "name": "Focus Active Sentence",
+        "description": "Highlight the sentence the cursor is currently resting on.",
+        "author": "artisticat",
+        "repo": "artisticat1/focus-active-sentence"
+    },
+    {
+      "id": "journal-review",
+    	"name": "Journal Review",
+    	"author": "Kageetai",
+    	"description": "Review your daily notes on their anniversaries, like \"what happened today last year\".",
+        "repo": "Kageetai/obsidian-plugin-journal-review"
+    },
+    {
+       "id": "brainframe",
+       "name": "Brainframe",
+       "description": "Tools to make Obsidian more into our second brains",
+       "author": "pedersen",
+       "repo": "pedersen/obsidian-brainframe"
+    },
+    {
+       "id": "gemmy",
+       "name": "Gemmy",
+       "description": "Obsidian Unhelper. 2023 April Fool's plugin brought to you by Obsidian.",
+       "author": "Obsidian",
+       "repo": "ericaxu/Gemmy"
+    },
+    {
+        "id": "source-code-note",
+        "name": "Source Code Note",
+        "description": "This plugin can help you organize source code note easily.",
+        "author": "Waiting",
+        "repo": "waiting0324/obsidian-code-note"
+    },
+    {
+        "id": "jelly-snippets",
+        "name": "Jelly Snippets",
+        "author": "Spencer Gouw",
+        "description": "A simple text snippets plugin.",
+        "repo": "rabirabirara/obsidian-jelly-snippets"
+    },
+    {
+        "id": "prioritize",
+        "name": "Prioritize",
+        "author": "EloiMusk",
+        "description": "Prioritize your tasks and notes in Obsidian.",
+        "repo": "EloiMusk/obsidian-prio-plugin"
+    },
+    {
+        "id": "tiddlywiki-import-export",
+        "name": "Import/Export TiddlyWiki",
+        "author": "Lucas Bordeau",
+        "description": "Import and export TiddlyWiki from and to Obsidian.",
+        "repo": "lucasbordeau/obsidian-tiddlywiki"
+    },
+    {
+        "id": "reveal-file-in-explorer",
+        "name": "Reveal file in explorer",
+        "author": "1C0D",
+        "description": "Clicking header title reveal active file in explorer and (option) when opening file + option to fold other directories",
+        "repo": "1C0D/Obsidian-Reveal-File-in-explorer"
+    },
+    {
+        "id": "float-search",
+        "name": "Floating Search",
+        "author": "Boninall",
+        "description": "A plugin for searching text by using Obsidian default search view.",
+        "repo": "quorafind/obsidian-float-search"
+    },
+    {
+        "id": "avatar",
+        "name": "Avatar",
+        "description": "Display an avatar image in your notes.",
+        "author": "froehlichA",
+        "repo": "froehlichA/obsidian-avatar"
+    },
+    {
+        "id": "meld-build",
+        "name": "Meld Build",
+        "description": "Write and execute (sandboxed) JavaScript to render templates, query DataView and create dynamic notes.",
+        "author": "meld-cp",
+        "repo": "meld-cp/obsidian-build"
+    },
+    {
+        "id": "page-properties",
+        "name": "Page Properties",
+        "author": "Anton Bualkh",
+        "description": "Add page properties similar to Logseq",
+        "repo": "necauqua/obsidian-page-properties"
+    },
+    {
+        "id": "testing-vault",
+        "name": "Testing Vault",
+        "description": "Randomized vault generator with links between notes, front matter, tags, orphan and leaf notes.",
+        "author": "Michael Pedersen",
+        "repo": "pedersen/obsidian-testing-vault"
+    },
+    {
+        "id": "easy-toggle-sidebars",
+        "name": "Easy toggle sidebars",
+        "author": "1C0D",
+        "description": "toggle both sidebars (double middle mouse click or own shortcut) or each sidebar clicking middle mouse button and moving mouse towards the corresponding sidebar.",
+        "repo": "1C0D/obsidian-easy-toggle-sidebars"
+    },
+    {
+        "id": "x86-flow-graphing",
+        "name": "x86 Assembly Flow Graphing",
+        "author": "icebear",
+        "description": "This plugin converts well formatted x86 assembly into appropriate flow graphs using Obsidian canvases.",
+        "repo": "dwolfe884/obsidian-x86-flow-graph"
+    },
+    {
+        "id": "search-obsidian-in-google",
+        "name": "Search Obsidian in Google",
+        "description": "A simple plugin to search the current note in Google (or other search engines).",
+        "repo": "qazxcdswe123/search-obsidian-in-google"
+    },
+    {
         "id": "oz-calendar",
         "name": "OZ Calendar",
         "description": "View your notes in Calendar using any YAML key with a date",
@@ -6199,4 +6429,3 @@
         "repo": "ozntel/oz-calendar"
     }
 ]
-
