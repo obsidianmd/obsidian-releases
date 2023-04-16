@@ -288,8 +288,8 @@
     },
     {
         "id": "find-unlinked-files",
-        "name": "Find unlinked files",
-        "description": "Find files that are not linked anywhere and would otherwise be lost in your vault",
+        "name": "Find orphaned files and broken links",
+        "description": "Find files that are not linked anywhere and would otherwise be lost in your vault. In other words: files with no backlinks.",
         "author": "Vinzent",
         "repo": "Vinzent03/find-unlinked-files"
     },
@@ -3137,10 +3137,10 @@
     },
     {
         "id": "simple-note-quiz",
-        "name": "Simple note quiz",
-        "author": "dorisxx",
+        "name": "Simple Note Quiz",
+        "author": "beginner137",
         "description": "Start a simple quiz on your current note.",
-        "repo": "dorisxx/Obsidian-simple-note-quiz"
+        "repo": "beginner137/Obsidian-simple-note-quiz"
     },
     {
         "id": "obsidian-local-rest-api",
@@ -3274,13 +3274,6 @@
         "author": "Boninall",
         "description": "A big calendar for Obsidian. All events from your daily notes OR tasks used TASKS/DATAVIEW/KANBAN format.",
         "repo": "quorafind/obsidian-big-calendar"
-    },
-    {
-        "id": "sekund",
-        "name": "Obsidian Social (Sekund)",
-        "author": "Candide Kemmler",
-        "description": "Share notes and gather feedback",
-        "repo": "Sekund/sekund-plugin-react"
     },
     {
         "id": "obsidian-command-palette-minus-plugin",
@@ -5673,10 +5666,10 @@
     },
     {
         "id": "short-internal-links-to-headings",
-        "name": "Short Internal Links to Headings",
-        "description": "Display internal links to headings as just the heading name.",
+        "name": "Short links",
+        "description": "Display short internal links to files, notes, headings, and blocks.",
         "author": "Scott Moore",
-        "repo": "scottwillmoore/obsidian-short-internal-links-to-headings"
+        "repo": "scottwillmoore/obsidian-short-links"
     },
     {
         "id": "obsidian-hyphenation",
@@ -6337,6 +6330,145 @@
        "description": "Obsidian Unhelper. 2023 April Fool's plugin brought to you by Obsidian.",
        "author": "Obsidian",
        "repo": "ericaxu/Gemmy"
+    },
+    {
+        "id": "source-code-note",
+        "name": "Source Code Note",
+        "description": "This plugin can help you organize source code note easily.",
+        "author": "Waiting",
+        "repo": "waiting0324/obsidian-code-note"
+    },
+    {
+        "id": "jelly-snippets",
+        "name": "Jelly Snippets",
+        "author": "Spencer Gouw",
+        "description": "A simple text snippets plugin.",
+        "repo": "rabirabirara/obsidian-jelly-snippets"
+    },
+    {
+        "id": "prioritize",
+        "name": "Prioritize",
+        "author": "EloiMusk",
+        "description": "Prioritize your tasks and notes in Obsidian.",
+        "repo": "EloiMusk/obsidian-prio-plugin"
+    },
+    {
+        "id": "tiddlywiki-import-export",
+        "name": "Import/Export TiddlyWiki",
+        "author": "Lucas Bordeau",
+        "description": "Import and export TiddlyWiki from and to Obsidian.",
+        "repo": "lucasbordeau/obsidian-tiddlywiki"
+    },
+    {
+        "id": "reveal-file-in-explorer",
+        "name": "Reveal file in explorer",
+        "author": "1C0D",
+        "description": "Clicking header title reveal active file in explorer and (option) when opening file + option to fold other directories",
+        "repo": "1C0D/Obsidian-Reveal-File-in-explorer"
+    },
+    {
+        "id": "float-search",
+        "name": "Floating Search",
+        "author": "Boninall",
+        "description": "A plugin for searching text by using Obsidian default search view.",
+        "repo": "quorafind/obsidian-float-search"
+    },
+    {
+        "id": "avatar",
+        "name": "Avatar",
+        "description": "Display an avatar image in your notes.",
+        "author": "froehlichA",
+        "repo": "froehlichA/obsidian-avatar"
+    },
+    {
+        "id": "meld-build",
+        "name": "Meld Build",
+        "description": "Write and execute (sandboxed) JavaScript to render templates, query DataView and create dynamic notes.",
+        "author": "meld-cp",
+        "repo": "meld-cp/obsidian-build"
+    },
+    {
+        "id": "page-properties",
+        "name": "Page Properties",
+        "author": "Anton Bualkh",
+        "description": "Add page properties similar to Logseq",
+        "repo": "necauqua/obsidian-page-properties"
+    },
+    {
+        "id": "testing-vault",
+        "name": "Testing Vault",
+        "description": "Randomized vault generator with links between notes, front matter, tags, orphan and leaf notes.",
+        "author": "Michael Pedersen",
+        "repo": "pedersen/obsidian-testing-vault"
+    },
+    {
+        "id": "easy-toggle-sidebars",
+        "name": "Easy toggle sidebars",
+        "author": "1C0D",
+        "description": "toggle both sidebars (double middle mouse click or own shortcut) or each sidebar clicking middle mouse button and moving mouse towards the corresponding sidebar.",
+        "repo": "1C0D/obsidian-easy-toggle-sidebars"
+    },
+    {
+        "id": "x86-flow-graphing",
+        "name": "x86 Assembly Flow Graphing",
+        "author": "icebear",
+        "description": "This plugin converts well formatted x86 assembly into appropriate flow graphs using Obsidian canvases.",
+        "repo": "dwolfe884/obsidian-x86-flow-graph"
+    },
+    {
+        "id": "search-obsidian-in-google",
+        "name": "Search Obsidian in Google",
+        "description": "A simple plugin to search the current note in Google (or other search engines).",
+        "repo": "qazxcdswe123/search-obsidian-in-google"
+    },
+    {
+        "id": "oz-calendar",
+        "name": "OZ Calendar",
+        "description": "View your notes in Calendar using any YAML key with a date",
+        "author": "Ozan Tellioglu",
+        "repo": "ozntel/oz-calendar"
+    },
+    {
+        "id": "tasks-to-omnifocus",
+        "name": "Send Tasks to OmniFocus",
+        "description": "An Obsidian plugin will extract tasks from the current note and create them in OmniFocus.",
+        "author": "Henry Gustafson",
+        "repo": "lizard-heart/obsidian-to-omnifocus"
+    },
+    {
+        "id": "ai-commander",
+        "name": "AI Commander",
+        "author": "Simon Yang",
+        "description": "Generate audio transcripts, images, and text in context of PDF attachments or web search results using OpenAI and Bing API.",
+        "repo": "yzh503/obsidian-aicommander-plugin"
+    },
+    {
+        "id": "pseudocode-in-obs",
+        "name": "Pseudocode",
+        "author": "Yaotian Liu",
+        "description": "This is an obsidian plugin that helps to render a LaTeX-style pseudocode inside a code block.",
+        "repo": "Yaotian-Liu/obsidian-pseudocode"
+    },
+    {
+        "id": "advanced-merger",
+        "name": "Advanced Merger",
+        "author": "Anto Keinänen",
+        "description": "Merge a folder of notes for easier export.",
+        "repo": "antoKeinanen/obsidian-advanced-merger"
+    },
+    {
+        "id": "unfilled-stats-highlighter",
+        "name": "Unfilled Stats Highlighter",
+        "description": "This plugin is designed to streamline your stat/habit tracking process by automatically identifying and prefixing unfilled stats, making them easier to spot and fill out.",
+        "author": "Zachary Hynes",
+        "repo": "White7292/obsidian-hd-unfilled-stats-highlighter"
+    },
+    {
+        "id": "gpt-assistant",
+        "name": "GPT Assistant",
+        "description": "Use a GPT-3 based model on your notes and get personalized answers from your knowledge base.",
+        "author": "M7mdisk",
+        "repo": "M7mdisk/obsidian-gpt"
     },
     {
         "id": "companion",
