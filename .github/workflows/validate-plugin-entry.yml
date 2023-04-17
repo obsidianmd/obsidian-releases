@@ -118,7 +118,7 @@ jobs:
                   addError(`Your PR does not have the required \`${key}\` property.`);
                 }
               }
-              for (let key of plugin) {
+              for (let key of Object.keys(plugin)) {
                 if (plugin.hasOwnProperty(key) && validKeys.indexOf(key) === -1) {
                   addError(`Your PR has the invalid \`${key}\` property.`);
                 }
