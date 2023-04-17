@@ -53,7 +53,7 @@ jobs:
               }
 
               const plugin = plugins[plugins.length - 1];
-
+               
               // Validate plugin repo
               let repoInfo = plugin.repo.split('/');
               if (repoInfo.length !== 2) {
@@ -112,11 +112,12 @@ jobs:
                 addWarning(`Your plugin has a long description. Users typically find it difficult to read a very long description, so you should keep it short and concise.`);
               }
 
-              if (plugin.branch) {
-                addError('You do not need to include the `branch` parameter when submitting your PR.');
+              let validKeys = ['id', 'name', 'description', 'author', 'repo'];
+              for (let key in validKeys) {
+                if (!plugin.hasOwnProperty(key)) {
+                  addError(`Your PR does not have the required \`${key}\` property.`);
+                }
               }
-
-              let validKeys = ['id', 'name', 'description', 'author', 'repo', 'branch'];
               for (let key in plugin) {
                 if (plugin.hasOwnProperty(key) && validKeys.indexOf(key) === -1) {
                   addError(`Your PR has the invalid \`${key}\` property.`);
