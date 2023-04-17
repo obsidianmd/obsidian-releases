@@ -113,12 +113,12 @@ jobs:
               }
 
               let validKeys = ['id', 'name', 'description', 'author', 'repo'];
-              for (let key in validKeys) {
+              for (let key of validKeys) {
                 if (!plugin.hasOwnProperty(key)) {
                   addError(`Your PR does not have the required \`${key}\` property.`);
                 }
               }
-              for (let key in plugin) {
+              for (let key of plugin) {
                 if (plugin.hasOwnProperty(key) && validKeys.indexOf(key) === -1) {
                   addError(`Your PR has the invalid \`${key}\` property.`);
                 }
