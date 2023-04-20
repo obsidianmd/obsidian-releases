@@ -1718,7 +1718,7 @@
     "id": "homepage",
     "name": "Homepage",
     "author": "mirnovov",
-    "description": "Open a specfied note on startup.",
+    "description": "Open a specified note, canvas, or workspace on startup, or set it for quick access later.",
     "repo": "mirnovov/obsidian-homepage"
   },
   {
@@ -6489,11 +6489,18 @@
     "repo": "TakamiChie/Obsidian_CharacterInsertionPlugin"
   },
   {
-    "id": "zettelgpt",
-    "name": "ZettelGPT",
-    "author": "Overraddit",
-    "description": "ZettelGPT: Effortlessly generate context-aware answers from ChatGPT within Obsidian, while maintaining a visually clear and organized conversation history.",
-    "repo": "OverRaddit/ZettelGPT",
-    "branch": "main"
+    "id": "whisper",
+    "name": "Whisper",
+    "author": "Nik Danilov",
+    "description": "Hands-Free Note-Taking for Obsidian with Whisper",
+    "repo": "nikdanilov/whisper-obsidian-plugin"
+  },
+  {
+  "id": "zettelgpt",
+  "name": "ZettelGPT",
+  "author": "Overraddit",
+  "description": "ZettelGPT: Effortlessly generate context-aware answers from ChatGPT within Obsidian, while maintaining a visually clear and organized conversation history.",
+  "repo": "OverRaddit/ZettelGPT",
+  "branch": "main"
   }
 ]
