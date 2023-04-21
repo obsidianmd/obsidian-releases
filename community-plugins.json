@@ -1718,7 +1718,7 @@
     "id": "homepage",
     "name": "Homepage",
     "author": "mirnovov",
-    "description": "Open a specfied note on startup.",
+    "description": "Open a specified note, canvas, or workspace on startup, or set it for quick access later.",
     "repo": "mirnovov/obsidian-homepage"
   },
   {
@@ -6487,6 +6487,111 @@
     "description": "Plugin to insert a specified symbol under the cursor",
     "author": "TakamiChie",
     "repo": "TakamiChie/Obsidian_CharacterInsertionPlugin"
+  },
+  {
+    "id": "whisper",
+    "name": "Whisper",
+    "author": "Nik Danilov",
+    "description": "Hands-Free Note-Taking for Obsidian with Whisper",
+    "repo": "nikdanilov/whisper-obsidian-plugin"
+  },
+  {
+    "id": "colorful-note-borders",
+    "name": "Colorful Note Borders",
+    "description": "Add customizable colorful borders to notes based on folder location or frontmatter metadata, enhancing visual organization in Obsidian.",
+    "author": "rusi",
+    "repo": "rusi/obsidian-colorful-note-borders"
+  },
+  {
+    "id": "code-files",
+    "name": "Code Files",
+    "author": "Lukas Bach",
+    "description": "Edit Code Files in Obsidian with VSCode's powerful Monaco Editor",
+    "repo": "lukasbach/obsidian-code-files"
+  },
+  {
+    "id": "flashcard-learning",
+    "name": "Flashcard Learning",
+    "author": "Gaétan Muck",
+    "description": "Improved flashcard learning system",
+    "repo": "gaetanmuck/obsidian-flashcard-learning"
+  },
+  {
+    "id": "any-block",
+    "name": "Any Block",
+    "author": "LincZero",
+    "description": "You can flexibility to create a 'Block' by some means. It also provides some useful features, like `list to table`. ",
+    "repo": "LincZero/obsidian-any-block"
+  },
+  {
+    "id": "wucai-highlights-official",
+    "name": "WuCai highlights Official",
+    "description": "Sync WuCai highlights into your notes",
+    "author": "希果壳五彩",
+    "repo": "makediff/obsidian-wucai"
+  },
+  {
+    "id": "file-order",
+    "name": "File Order",
+    "description": "Use number-prefixes in your file names to define a custom order, and drag-and-drop the files to update that order",
+    "author": "lukasbach",
+    "repo": "lukasbach/obsidian-file-order"
+  },
+  {
+      "id": "no-tabs",
+      "name": "No Tabs",
+      "author": "Tobias Schuster",
+      "description": "Replaces the previous tab when creating a new note",
+      "repo": "TS-Tobias/obsidian-no-tabs"
+  },
+  {
+      "id": "tab-rotator",
+      "name": "Tab Rotator",
+      "author": "Steven Jin",
+      "description": "This plugin rotates opened files to the left or right with a specified interval.",
+      "repo": "autohub7/obsidian-tab-rotator"
+  },
+  {
+      "id": "bulkopen-selected-links",
+      "name": "Bulk open selected links",
+      "author": "Steven Jin",
+      "description": "This plugin allows users to easily open all selected links in edit mode.",
+      "repo": "autohub7/obsidian-open-selected-links"
+  },
+  {
+      "id": "bbawj-semantic-search",
+      "name": "Semantic Search",
+      "author": "bbawj",
+      "description": "Semantic search for files using OpenAI's text embeddings",
+      "repo": "bbawj/obsidian-semantic-search"
+  },
+  {
+      "id": "select-current-line",
+      "name": "Select current line",
+      "author": "Gokul",
+      "description": "Selects the current line where the cursor is placed. Press 'ESC' button to select.",
+      "repo": "gokulk16/select-current-line-plugin"
+  },
+  {
+    "id": "wikipedia-search",
+    "name": "Wikipedia Search",
+    "author": "StrangeGirlMurph",
+    "description": "Search for Wikipedia articles and link them.",
+    "repo": "StrangeGirlMurph/obsidian-wikipedia-search"
+  },
+  { 
+    "id": "vim-toggle",
+    "name": "Vim Toggle",
+    "description": "(It toggles vim on/off) Allows for the the toggling and customization of said toggling within settings.", 
+    "author": "Conner Ohnesorge",
+    "repo": "conneroisu/vim-toggle"
+  },
+  {
+    "id": "draw-harada-method",
+    "name": "Draw Harada Method",
+    "author": "yildbs",
+    "description": "This plugin is used to draw the harada method. Create your own 1 goal, 8 plans, and 64 actions!",
+    "repo": "yildbs/obsidian-harada-method-plugin"
   },
   {
     "id": "marp-slides",
