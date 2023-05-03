@@ -59,14 +59,12 @@ jobs:
                 const author = context.payload.pull_request.user.login;
                 
                 let validPrKeys = ['name', 'author', 'repo', 'screenshot', 'modes'];
-                for (let key in manifest) {
+                for (let key in Object.keys(manifest)) {
                     if (!validPrKeys.includes(key)) {
                         addError(`Your manifest has the invalid \`${key}\` property.`);
                     }
                 }
-
-                let validPRKeys = ['name', 'author', 'repo', 'screenshot', 'modes'];
-                for (let key in validPRKeys) {
+                for (let key in validPrKeys) {
                     if (!manifest.hasOwnProperty(key)) {
                         addError(`Your PR does not have the required \`${key}\` property.`);
                     }
