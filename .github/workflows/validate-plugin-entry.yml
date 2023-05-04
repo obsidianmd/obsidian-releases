@@ -44,8 +44,6 @@ jobs:
                 addError('You modified files other than `community-plugins.json`.');
               }
 
-              const plugin = plugins[plugins.length - 1];
-
               let plugins = [];
               try {
                 plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
@@ -53,6 +51,8 @@ jobs:
                 addError('Could not parse `community-plugins.json`, invalid JSON. ' + e.message);
                 return;
               }
+
+              const plugin = plugins[plugins.length - 1];
 
               let validKeys = ['id', 'name', 'description', 'author', 'repo'];
               for (let key of validKeys) {
