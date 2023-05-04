@@ -44,6 +44,8 @@ jobs:
                 addError('You modified files other than `community-plugins.json`.');
               }
 
+              const plugin = plugins[plugins.length - 1];
+
               let plugins = [];
               try {
                 plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
@@ -63,8 +65,6 @@ jobs:
                   addError(`Your PR has the invalid \`${key}\` property.`);
                 }
               }
-
-              const plugin = plugins[plugins.length - 1];
                
               // Validate plugin repo
               let repoInfo = plugin.repo.split('/');
