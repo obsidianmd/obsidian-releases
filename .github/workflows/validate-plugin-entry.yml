@@ -52,6 +52,8 @@ jobs:
                 return;
               }
 
+              const plugin = plugins[plugins.length - 1];
+
               let validKeys = ['id', 'name', 'description', 'author', 'repo'];
               for (let key of validKeys) {
                 if (!plugin.hasOwnProperty(key)) {
@@ -63,8 +65,6 @@ jobs:
                   addError(`Your PR has the invalid \`${key}\` property.`);
                 }
               }
-
-              const plugin = plugins[plugins.length - 1];
                
               // Validate plugin repo
               let repoInfo = plugin.repo.split('/');
