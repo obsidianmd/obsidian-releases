@@ -53,6 +53,18 @@ jobs:
               }
 
               const plugin = plugins[plugins.length - 1];
+
+              let validKeys = ['id', 'name', 'description', 'author', 'repo'];
+              for (let key of validKeys) {
+                if (!plugin.hasOwnProperty(key)) {
+                  addError(`Your PR does not have the required \`${key}\` property.`);
+                }
+              }
+              for (let key of Object.keys(plugin)) {
+                if (plugin.hasOwnProperty(key) && validKeys.indexOf(key) === -1) {
+                  addError(`Your PR has the invalid \`${key}\` property.`);
+                }
+              }
                
               // Validate plugin repo
               let repoInfo = plugin.repo.split('/');
@@ -110,18 +122,6 @@ jobs:
 
               if (plugin.description.length > 300) {
                 addWarning(`Your plugin has a long description. Users typically find it difficult to read a very long description, so you should keep it short and concise.`);
-              }
-
-              let validKeys = ['id', 'name', 'description', 'author', 'repo'];
-              for (let key of validKeys) {
-                if (!plugin.hasOwnProperty(key)) {
-                  addError(`Your PR does not have the required \`${key}\` property.`);
-                }
-              }
-              for (let key of Object.keys(plugin)) {
-                if (plugin.hasOwnProperty(key) && validKeys.indexOf(key) === -1) {
-                  addError(`Your PR has the invalid \`${key}\` property.`);
-                }
               }
 
               if (plugins.filter(p => p.id === plugin.id).length > 1) {
