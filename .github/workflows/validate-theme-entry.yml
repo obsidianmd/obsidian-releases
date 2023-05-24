@@ -98,7 +98,26 @@ jobs:
                     return;
                 }
 
-                let manifest = {};
+                if (theme.name.toLowerCase().includes('obsidian')) {
+                    addWarning(`We discourage themes from including the word \`Obsidian\` in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
+                }
+                if (theme.name.toLowerCase().includes('theme')) {
+                    addWarning(`We discourage themes from including the word \`theme\` in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
+                }
+
+                if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(theme.author)) {
+                    addWarning('We generally discourage from including email addresses in the `author` field.');
+                }
+
+                if (themes.filter(t => t.name === theme.name).length > 1) {
+                    addError('There is already a theme with this name');
+                }
+
+                if (themes.filter(t => t.repo === theme.repo).length > 1) {
+                    addError('There is already a entry pointing to the `' + theme.repo + '` repository');
+                }
+
+                let manifest = null;
 
                 try {
                     let manifestFile = await github.rest.repos.getContent({
@@ -110,54 +129,37 @@ jobs:
                     manifest = JSON.parse(Buffer.from(manifestFile.data.content, 'base64').toString('utf-8'));
                 } catch (e) {
                     addError(`You don't have a valid \`manifest.json\` at the root of your repo.`);
-                    return;
                 }
 
-                let validManifestKeys = ['name', 'minAppVersion', 'author', 'version'];
+                if (manifest) {
+                    let requiredManifestKeys = ['name', 'minAppVersion', 'author', 'version'];
 
-                for (let key in validManifestKeys) {
-                    if (!manifest.hasOwnProperty(key)) {
-                        addError(`Your manifest does not have the required \`${key}\` property.`);
+                    for (let key in requiredManifestKeys) {
+                        if (!manifest.hasOwnProperty(key)) {
+                            addError(`Your manifest does not have the required \`${key}\` property.`);
+                        }
                     }
-                }
 
-                if (manifest.name !== theme.name) {
-                    addError(`Theme name mismatch, the name in this PR (\`${theme.name}\`) is not the same as the one in your repo (\`${manifest.name}\`). If you just changed your theme name, remember to change it in the manifest.json in your repo, and your latest GitHub release, if you have one.`);
-                }
-                if (manifest.authorUrl) {
-                  if (manifest.authorUrl === "https://obsidian.md") {
-                    addError(`The \`authorUrl\` field in your manifest should not point to the Obsidian Website. If you don't have a website you can just point it to your GitHub profile.`);
-                  }
+                    if (manifest.name !== theme.name) {
+                        addError(`Theme name mismatch, the name in this PR (\`${theme.name}\`) is not the same as the one in your repo (\`${manifest.name}\`). If you just changed your theme name, remember to change it in the manifest.json in your repo, and your latest GitHub release, if you have one.`);
+                    }
+                    if (manifest.authorUrl) {
+                        if (manifest.authorUrl === "https://obsidian.md") {
+                            addError(`The \`authorUrl\` field in your manifest should not point to the Obsidian Website. If you don't have a website you can just point it to your GitHub profile.`);
+                        }
 
-                  if (manifest.authorUrl.toLowerCase().includes("github.com/" + plugin.repo.toLowerCase())) {
-                    addWarning(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the plugin.`);
-                  }
-                }
+                        if (manifest.authorUrl.toLowerCase().includes("github.com/" + plugin.repo.toLowerCase())) {
+                            addWarning(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the plugin.`);
+                        }
+                    }
 
-                if (manifest.fundingUrl && manifest.fundingUrl === "https://obsidian.md/pricing") {
-                  addError(`The \`fundingUrl\` field in your manifest should not point to the Obsidian Website, If you don't have a link were users can donate to you, you can just omit this.`);
-                }
+                    if (manifest.fundingUrl && manifest.fundingUrl === "https://obsidian.md/pricing") {
+                        addError(`The \`fundingUrl\` field in your manifest should not point to the Obsidian Website, If you don't have a link were users can donate to you, you can just omit this.`);
+                    }
 
-                if (!(/^[0-9.]+$/i.test(manifest.version))) {
-                    addError('Your latest version number is not valid. Only numbers and dots are allowed.');
-                }
-
-                if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(theme.author)) {
-                    addWarning('We generally discourage from including email addresses in the `author` field.');
-                }
-
-                if (theme.name.toLowerCase().includes('obsidian')) {
-                    addWarning(`We discourage themes from including the word "Obsidian" in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
-                }
-
-                if (themes.filter(t => t.name === theme.name).length > 1) {
-                    addError('There is already a theme with this name');
-                }
-
-                if (themes.filter(t => t.repo === theme.repo).length > 1) {
-                    addError('There is already a entry pointing to the `' + theme.repo + '` repository');
-                }
-
+                    if (!(/^[0-9.]+$/i.test(manifest.version))) {
+                        addError('Your latest version number is not valid. Only numbers and dots are allowed.');
+                    }
 
                 try {
                     await github.rest.repos.getContent({
@@ -182,7 +184,7 @@ jobs:
                     if (imageMeta.type !== 'png' && imageMeta.type !== 'jpg') {
                         addError('Theme screenshot is not of filetype `.png` or `.jpg`');
                     }
-                    const recommendedSize = 'we generally recommend a size around 512 × 288 pixels';                    
+                    const recommendedSize = `we generally recommend a size around 512 × 288 pixels.\n Detected size: {imageMeta.width} x {imageMeta.height} pixels`                 
                     if (imageMeta.width > 1000 || imageMeta.height > 500) {
                         addError(`Your theme screenshot is too big, ${recommendedSize}`);
                     }
@@ -214,6 +216,7 @@ jobs:
                     } catch (e) { }
 
                 }
+            }
 
                 try {
                     await github.rest.licenses.getForRepo({ owner, repo });
@@ -246,10 +249,10 @@ jobs:
                     repo: context.repo.repo,
                     body: message
                 });
-                if (warnings.length > 0) {
-                    core.setFailed("Failed to validate theme");
-                }   
             }
+            if (errors.length > 0) {
+                core.setFailed("Failed to validate theme");
+            }   
 
             let labels = errors.length > 0 ? ['Validation failed'] : ['Ready for review'];
             if (context.payload.pull_request.labels.includes('Changes requested')) {
