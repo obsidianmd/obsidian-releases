@@ -6699,11 +6699,11 @@
     "repo": "mii-key/obsidian-links"
   },
   {
-      "id": "confluence-integration",
-      "name": "Confluence Integration",
-      "author": "andymac4182",
-      "description": "Publish markdown content from Obsidian to Atlassian Confluence. It supports some Obsidian markdown extensions for richer content.",
-      "repo": "markdown-confluence/obsidian-integration"
+    "id": "confluence-integration",
+    "name": "Confluence Integration",
+    "author": "andymac4182",
+    "description": "Publish markdown content from Obsidian to Atlassian Confluence. It supports some Obsidian markdown extensions for richer content.",
+    "repo": "markdown-confluence/obsidian-integration"
   },
   {
     "id": "copilot",
@@ -6877,8 +6877,21 @@
     "id": "note-highlighter",
     "name": "Note Highlighter",
     "author": "Jeremiah Koeiman",
-    "description": "This plugin will highlight the notes that have 1 or more todos in them.",
+    "description": "Highlights the notes that have 1 or more todos in them.",
     "repo": "JeremiahKoeiman/obsidian-note-highlighter"
+  },
+  {
+    "id": "pubscale",
+    "name": "PubScale",
+    "author": "piriwata",
+    "description": "Seamlessly sync markdown notes into PlanetScale tables.",
+    "repo": "piriwata/pubScale"
+  },
+  {
+    "id": "rofi-helper",
+    "name": "Rofi Helper",
+    "description": "Adds a leaf ID parameter to the URI protocol for switching between open obsidian tabs with Rofi. A sample Rofi script is included.",
+    "author": "digitalsignalperson",
+    "repo": "digitalsignalperson/obsidian-rofi-helper"
   }
 ]
-

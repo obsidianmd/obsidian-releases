@@ -55,15 +55,15 @@ jobs:
                 }
                 const theme = themes[themes.length - 1];
                 
-                let validPrKeys = ['name', 'author', 'repo', 'screenshot', 'modes'];
+                const validPrKeys = ['name', 'author', 'repo', 'screenshot', 'modes'];
                 for (let key in validPrKeys) {
-                    if (!manifest.hasOwnProperty(key)) {
+                    if (!theme.hasOwnProperty(key)) {
                         addError(`Your PR does not have the required \`${key}\` property.`);
                     }
                 }
-                for (let key in Object.keys(manifest)) {
+                for (let key in Object.keys(theme)) {
                     if (!validPrKeys.includes(key)) {
-                        addError(`Your manifest has the invalid \`${key}\` property.`);
+                        addError(`Your PR has the invalid \`${key}\` property.`);
                     }
                 }
 
