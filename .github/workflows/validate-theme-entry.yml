@@ -134,7 +134,7 @@ jobs:
                 if (manifest) {
                     let requiredManifestKeys = ['name', 'minAppVersion', 'author', 'version'];
 
-                    for (let key in requiredManifestKeys) {
+                    for (let key of requiredManifestKeys) {
                         if (!manifest.hasOwnProperty(key)) {
                             addError(`Your manifest does not have the required \`${key}\` property.`);
                         }
