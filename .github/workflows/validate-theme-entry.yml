@@ -56,7 +56,7 @@ jobs:
                 const theme = themes[themes.length - 1];
                 
                 const validPrKeys = ['name', 'author', 'repo', 'screenshot', 'modes'];
-                for (let key pf validPrKeys) {
+                for (let key of validPrKeys) {
                     if (!theme.hasOwnProperty(key)) {
                         addError(`Your PR does not have the required \`${key}\` property.`);
                     }
