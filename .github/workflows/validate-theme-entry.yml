@@ -56,12 +56,12 @@ jobs:
                 const theme = themes[themes.length - 1];
                 
                 const validPrKeys = ['name', 'author', 'repo', 'screenshot', 'modes'];
-                for (let key in validPrKeys) {
+                for (let key of validPrKeys) {
                     if (!theme.hasOwnProperty(key)) {
                         addError(`Your PR does not have the required \`${key}\` property.`);
                     }
                 }
-                for (let key in Object.keys(theme)) {
+                for (let key of Object.keys(theme)) {
                     if (!validPrKeys.includes(key)) {
                         addError(`Your PR has the invalid \`${key}\` property.`);
                     }
@@ -85,7 +85,7 @@ jobs:
                             throw undefined;
                         }
                     } catch (e) {
-                        addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. The last plugin in the list is: \`${plugin.repo}\`.`);
+                        addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. The last theme in the list is: \`${theme.repo}\`.`);
                     }
                 }
                 try {
@@ -134,7 +134,7 @@ jobs:
                 if (manifest) {
                     let requiredManifestKeys = ['name', 'minAppVersion', 'author', 'version'];
 
-                    for (let key in requiredManifestKeys) {
+                    for (let key of requiredManifestKeys) {
                         if (!manifest.hasOwnProperty(key)) {
                             addError(`Your manifest does not have the required \`${key}\` property.`);
                         }
@@ -148,8 +148,8 @@ jobs:
                             addError(`The \`authorUrl\` field in your manifest should not point to the Obsidian Website. If you don't have a website you can just point it to your GitHub profile.`);
                         }
 
-                        if (manifest.authorUrl.toLowerCase().includes("github.com/" + plugin.repo.toLowerCase())) {
-                            addWarning(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the plugin.`);
+                        if (manifest.authorUrl.toLowerCase().includes("github.com/" + theme.repo.toLowerCase())) {
+                            addWarning(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the theme.`);
                         }
                     }
 
@@ -247,7 +247,7 @@ jobs:
                     issue_number: context.issue.number,
                     owner: context.repo.owner,
                     repo: context.repo.repo,
-                    body: message
+                    body: message.join('\n'),
                 });
             }
             if (errors.length > 0) {
