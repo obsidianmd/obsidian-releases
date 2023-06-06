@@ -196,7 +196,7 @@ jobs:
                     }
                     else if (imageMeta.width < 250 || imageMeta.height < 100) {
                         addError(`Your theme screenshot is too small, ${recommendedSize}`);
-                    } else if (imageMeta.width !==512 || image.height !== 288) {
+                    } else if (imageMeta.width !==512 || imageMeta.height !== 288) {
                         addWarning(`Theme theme screenshot size is not optimal, ${recommendedSize}`);
                     }
                 }
