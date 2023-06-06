@@ -176,11 +176,17 @@ jobs:
                     addWarning('Your repository includes a `obsidian.css` file, this is only used in legacy versions of Obsidian.');
                 } catch (e) { }
 
+                let imageMeta = null;
                 try {
                     const screenshot = await github.rest.repos.getContent({
                         owner, repo, path: theme.screenshot
                     });
-                    const imageMeta = await probe(screenshot.data.download_url);
+                    imageMeta = await probe(screenshot.data.download_url);
+                } catch (e) {
+                    console.log(e);
+                    addError('The theme screenshot cannot be found.');
+                }
+                if (imageMeta) {
                     if (imageMeta.type !== 'png' && imageMeta.type !== 'jpg') {
                         addError('Theme screenshot is not of filetype `.png` or `.jpg`');
                     }
@@ -190,12 +196,11 @@ jobs:
                     }
                     else if (imageMeta.width < 250 || imageMeta.height < 100) {
                         addError(`Your theme screenshot is too small, ${recommendedSize}`);
-                    } else if (imageMeta.width !==512 || image.height !== 288) {
+                    } else if (imageMeta.width !==512 || imageMeta.height !== 288) {
                         addWarning(`Theme theme screenshot size is not optimal, ${recommendedSize}`);
                     }
-                } catch (e) {
-                    addError('The theme screenshot cannot be found.');
                 }
+                
 
                 // only validate releases if version is included
                 if (manifest.hasOwnProperty('version')) {
