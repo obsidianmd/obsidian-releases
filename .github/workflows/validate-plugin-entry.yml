@@ -83,7 +83,7 @@ jobs:
                     throw undefined;
                   }
                 } catch (e) {
-                  addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. The last plugin in the list is: \`${plugin.repo}\`.`);
+                  addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. The last plugin in the list is: \`${plugin.repo}\`. If you are submitting from a GitHub org, you need to be a public member of the org.`);
                 }
               }
 
