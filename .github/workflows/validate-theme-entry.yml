@@ -85,7 +85,7 @@ jobs:
                             throw undefined;
                         }
                     } catch (e) {
-                        addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. The last theme in the list is: \`${theme.repo}\`.`);
+                        addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. The last theme in the list is: \`${theme.repo}\`. If you are submitting from a GitHub org, you need to be a public member of the org.`);
                     }
                 }
                 try {
@@ -190,7 +190,7 @@ jobs:
                     if (imageMeta.type !== 'png' && imageMeta.type !== 'jpg') {
                         addError('Theme screenshot is not of filetype `.png` or `.jpg`');
                     }
-                    const recommendedSize = `we generally recommend a size around 512 × 288 pixels.\n Detected size: {imageMeta.width} x {imageMeta.height} pixels`                 
+                    const recommendedSize = `we generally recommend a size around 512 × 288 pixels.\n Detected size: ${imageMeta.width} x ${imageMeta.height} pixels`                 
                     if (imageMeta.width > 1000 || imageMeta.height > 500) {
                         addError(`Your theme screenshot is too big, ${recommendedSize}`);
                     }
