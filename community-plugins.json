@@ -2331,13 +2331,6 @@
     "repo": "jmilldotdev/obsidian-wikipedia"
   },
   {
-    "id": "obsidian-vale",
-    "name": "Vale",
-    "description": "Check your document for style consistency using Vale.",
-    "author": "Marcus Olsson",
-    "repo": "marcusolsson/obsidian-vale"
-  },
-  {
     "id": "lumberjack-obsidian",
     "name": "Lumberjack 🪓 🪵",
     "description": "Log your thoughts! Lumberjack adds URL commands to help you axe inefficiency and get right to writing.",
@@ -2392,13 +2385,6 @@
     "author": "phibr0",
     "description": "Easily 'tab out' of Links or other Markdown Formatting Characters.",
     "repo": "phibr0/obsidian-tabout"
-  },
-  {
-    "id": "obsidian-pipe-tricks",
-    "name": "Pipe tricks",
-    "description": "Add support for Wikilink pipe tricks.",
-    "author": "Marcus Olsson",
-    "repo": "marcusolsson/obsidian-pipe-tricks"
   },
   {
     "id": "fantasy-calendar",
@@ -3739,10 +3725,10 @@
   },
   {
     "id": "notion-like-tables",
-    "name": "Notion-Like Tables",
+    "name": "Dashboards",
     "author": "Trey Wallis",
-    "description": "Create Markdown tables using an interface similar to that found in Notion.",
-    "repo": "trey-wallis/obsidian-notion-like-tables"
+    "description": "Powerful dashboard suite inspired by Notion.so.",
+    "repo": "trey-wallis/obsidian-dashboards"
   },
   {
     "id": "auto-moc",
@@ -5593,13 +5579,6 @@
     "repo": "brandonkboswell/weekly-review"
   },
   {
-    "id": "obsidian-gpt",
-    "name": "GPT",
-    "description": "Get language model completions from ChatGPT, GPT-3, and others.",
-    "author": "Jonathan Miller",
-    "repo": "jmilldotdev/obsidian-gpt"
-  },
-  {
     "id": "obsidian-pending-notes",
     "name": "Pending notes",
     "author": "Ulises Santana",
@@ -5665,9 +5644,9 @@
   {
     "id": "khoj",
     "name": "Khoj",
-    "author": "Debanjum Singh Solanky",
-    "description": "Natural, Incremental Search for your Second Brain.",
-    "repo": "debanjum/khoj"
+    "author": "Khoj AI",
+    "description": "An AI personal assistant for your digital brain.",
+    "repo": "khoj-ai/khoj"
   },
   {
     "id": "obsidian-custom-file-extensions-plugin",
@@ -5864,13 +5843,6 @@
     "author": "Wei Zhang",
     "description": "Render CodeBlock into a ProgressBar based on Time or Manually.",
     "repo": "zwpaper/obsidian-progressbar"
-  },
-  {
-    "id": "kindle-csv-converter",
-    "name": "Kindle CSV Converter",
-    "description": "Import your Kindle notes in .csv format to Obsidian.",
-    "author": "Alvaro Cas",
-    "repo": "alvaro-cas/kindle-csv-converter-obsidian"
   },
   {
     "id": "material-symbols",
@@ -6100,7 +6072,7 @@
     "id": "nl-fast-image-cleaner",
     "name": "Fast Image Cleaner",
     "author": "Nathaniel",
-    "description": "Quickly remove image attachments and referenced links from your documents in both Live Preview and Read mode using the right-click menu.",
+    "description": "This plugin can fast delete image (or video, audio, file .....) attachment and remove referenced link by right clicking on the context menu option. ",
     "repo": "martinniee/Obsidian-fast-image-cleaner"
   },
   {
@@ -6284,7 +6256,7 @@
     "author": "1C0D",
     "description": "toggle both sidebars (double middle mouse click or own shortcut) or each sidebar clicking middle mouse button and moving mouse towards the corresponding sidebar.",
     "repo": "1C0D/obsidian-easy-toggle-sidebars"
-  },  
+  },
   {
     "id": "x86-flow-graphing",
     "name": "x86 Assembly Flow Graphing",
@@ -6467,10 +6439,10 @@
     "description": "Search for Wikipedia articles and link them.",
     "repo": "StrangeGirlMurph/obsidian-wikipedia-search"
   },
-  { 
+  {
     "id": "vim-toggle",
     "name": "Vim Toggle",
-    "description": "(It toggles vim on/off) Allows for the the toggling and customization of said toggling within settings.", 
+    "description": "(It toggles vim on/off) Allows for the the toggling and customization of said toggling within settings.",
     "author": "Conner Ohnesorge",
     "repo": "conneroisu/vim-toggle"
   },
@@ -6599,8 +6571,8 @@
     "author": "Daniele Susino",
     "description": "Speedup latex matrices writing.",
     "repo": "Deltekk/Obsidian-Latex-Matrices"
- },
- {
+  },
+  {
     "id": "smart-rename",
     "name": "Smart Rename",
     "author": "mnaoumov",
@@ -6613,13 +6585,13 @@
     "description": "Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion.",
     "author": "Lost Paul",
     "repo": "LostPaul/obsidian-folder-notes"
- },
- {
-  "id": "pocketbook-cloud-highlight-importer",
-  "name": "Pocketbook Cloud Highlight Importer",
-  "author": "Lena Brüder",
-  "description": "Imports notes and highlights from your Pocketbook Cloud account into your vault.",
-  "repo": "lenalebt/obsidian-pocketbook-cloud-highlight-importer"
+  },
+  {
+    "id": "pocketbook-cloud-highlight-importer",
+    "name": "Pocketbook Cloud Highlight Importer",
+    "author": "Lena Brüder",
+    "description": "Imports notes and highlights from your Pocketbook Cloud account into your vault.",
+    "repo": "lenalebt/obsidian-pocketbook-cloud-highlight-importer"
   },
   {
     "id": "pivotal-tracker-integration",
@@ -6641,8 +6613,8 @@
     "author": "Mani Batra",
     "description": "This is an obsidian plugin that uses OpenAI to generate flashcards from text and add them to Anki.",
     "repo": "manibatra/obsidian-text2anki-openai"
- },
- {
+  },
+  {
     "id": "ultimate-todoist-sync",
     "name": "Ultimate Todoist Sync",
     "description": "This is the best Todoist task synchronization plugin for Obsidian so far.",
@@ -6655,8 +6627,8 @@
     "author": "Galacsh",
     "description": "Enhances reading view. Use arrow keys to fold/unfold elements.",
     "repo": "Galacsh/obsidian-reading-view-enhancer"
- },
- {
+  },
+  {
     "id": "crossbow",
     "name": "Crossbow",
     "description": "Find backlinks in your notes",
@@ -6676,8 +6648,8 @@
     "description": "Runs ocr on images and pastes result in description.",
     "author": "kaffarell",
     "repo": "kaffarell/obsidian-tesseract-ocr"
- },
- {
+  },
+  {
     "id": "gpt-liteinquirer",
     "name": "GPT-LiteInquirer",
     "description": "Experience OpenAI ChatGPT assistance directly within Obsidian, drafting content without interrupting your creative flow.",
@@ -6746,64 +6718,64 @@
     "description": "Meet your open source AI mentor in Obsidian. Ask questions, get answers, and learn new things.",
     "author": "clementpoiret",
     "repo": "clementpoiret/ai-mentor"
- },
- {
+  },
+  {
     "id": "game-search",
     "name": "Game Search",
     "description": "Help insert game metadata into game notes or journals",
     "author": "calvin",
     "repo": "CMorooney/obsidian-game-search-plugin"
- },
- {
+  },
+  {
     "id": "linked-data-vocabularies",
     "name": "Linked Data Vocabularies",
     "author": "kometenstaub",
     "description": "Add Library of Congress Subject Headings (LCSH) as metadata to your notes.",
     "repo": "kometenstaub/linked-data-vocabularies"
- },
- {
+  },
+  {
     "id": "linked-data-helper",
     "name": "Linked Data Helper",
     "author": "kometenstaub",
     "description": "Prepare data needed by Linked Data Vocabularies.",
     "repo": "kometenstaub/linked-data-helper"
- },
- {
+  },
+  {
     "id": "show-diff",
     "name": "Show Diff",
     "author": "Ivan Lednev",
     "description": "Render Git diffs in Obsidian files",
     "repo": "ivan-lednev/obsidian-automatic-changelog"
- },
- {
+  },
+  {
     "id": "markdoc",
     "name": "Markdoc",
     "author": "Maciej Jur",
     "description": "Basic support for Markdoc files.",
     "repo": "kamoshi/obsidian-markdoc"
- },
- {
+  },
+  {
     "id": "colored-text",
     "name": "Colored Text",
     "author": "Erinc Ayaz",
     "description": "Color the selected texts.",
     "repo": "erincayaz/obsidian-colored-text"
- },
- {
+  },
+  {
     "id": "slide-note",
     "name": "Slide Note",
     "author": "Jinyan Xu",
     "description": "Conveniently take notes on PDF course slides :P",
     "repo": "Phantom1003/obsidian-slide-note"
- },
- {
+  },
+  {
     "id": "chem",
     "name": "Chem",
     "author": "Acylation",
     "description": "Providing chemistry supports. Rendering SMILES strings into chemistry structures.",
     "repo": "Acylation/obsidian-chem"
- },
- {
+  },
+  {
     "id": "last-modified-timestamp-in-status-bar",
     "name": "Last Modified Timestamp in Status Bar",
     "author": "Yustynn",
@@ -6837,7 +6809,7 @@
     "description": "Provide the function of fuzzy search using Chinese Pinyin.",
     "author": "lazyloong",
     "repo": "lazyloong/obsidian-fuzzy-chinese"
-  }, 
+  },
   {
     "id": "auto-template-trigger",
     "name": "Auto Template Trigger",
@@ -6896,10 +6868,10 @@
   },
   {
     "id": "plugin-manager",
-	  "name": "Plugin Manager",
-	  "description": "Extends plugin management of Obsidian.",
-	  "author": "ohm-en",
-	  "repo": "ohm-en/obsidian-plugin-manager"
+    "name": "Plugin Manager",
+    "description": "Extends plugin management of Obsidian.",
+    "author": "ohm-en",
+    "repo": "ohm-en/obsidian-plugin-manager"
   },
   {
     "id": "better-mathjax",
@@ -6915,6 +6887,132 @@
     "author": "Mijyuoon",
     "repo": "Mijyuoon/obsidian-ling-gloss"
   },
+  {
+    "id": "brain",
+    "name": "brAIn",
+    "author": "lusob",
+    "description": "A ChatGPT powered chatbot specifically focused on question answering over your Obsidian vault notes.",
+    "repo": "lusob/obsidian-brain"
+  },
+  {
+    "id": "sync-google-calendar",
+    "name": "Sync Google Calendar",
+    "author": "Dexin Qi",
+    "description": "Synchronize events from Google Calendar and manage them like tasks.",
+    "repo": "dexin-qi/obsidian-sync-calendar"
+  },
+  {
+    "id": "share-to-cubox",
+    "name": "Share to Cubox",
+    "description": "Share Obsidian notes to Cubox.",
+    "author": "Redwinam",
+    "repo": "Redwinam/obsidian-cubox"
+  },
+  {
+    "id": "attachment-management",
+    "name": "Attachment Management",
+    "description": "Attachment management plugin to custom the attachment path and auto rename etc.",
+    "author": "trganda",
+    "repo": "trganda/obsidian-attachment-management"
+  },
+  {
+    "id": "chess-study",
+    "name": "Chess Study",
+    "author": "Christoph Lindstädt",
+    "description": "A chess study helper and PGN viewer/editor.",
+    "repo": "chrislicodes/obsidian-chess-study"
+  },
+  {
+    "id": "lskypro-auto-upload",
+    "name": "Image To Lskypro",
+    "author": "NekouTarou",
+    "description": "Auto upload images from clipboard to Lskypro.",
+    "repo": "NekoTarou/lskypro-auto-upload"
+  },
+  {
+    "id": "dendron-tree",
+    "name": "Dendron Tree",
+    "author": "Levi Rizki Saputra",
+    "description": "Add tree for exploring Dendron note.",
+    "repo": "levirs565/obsidian-dendron-tree"
+  },
+  {
+    "id": "silicon",
+    "name": "Silicon AI",
+    "author": "deepfates",
+    "description": "Add some intelligence to your notes with Silicon AI",
+    "repo": "deepfates/silicon"
+  },
+  {
+    "id": "mermaid-helper",
+    "name": "Mermaid.js Helper (OMH)",
+    "description": "plug in that helps in mermaid.js workflow and more",
+    "author": "Francesco Di Cursi",
+    "repo": "FrancescoDiCursi/Mermaid.js-Helper-OMH-plugin"
+  },
+  {
+    "id": "telegram-sync",
+    "name": "Telegram Sync",
+    "description": "Transfer messages and files from Telegram bot to Obsidian.",
+    "author": "Burtasov Volodymyr",
+    "repo": "soberhacker/obsidian-telegram-sync"
+  },
+  {
+    "id": "pieces-for-developers",
+    "name": "Pieces for Developers",
+    "description": "Streamline your coding workflow in Obsidian with the Pieces For Developers plugin, offering powerful features for capturing, managing, translating, and enhancing code snippets. (Closed Source)",
+    "author": "Pieces For Developers",
+    "repo": "pieces-app/obsidian-pieces"
+  },
+  {
+    "id": "blur",
+    "name": "Blur",
+    "description": "Create obfuscated blocks of text.",
+    "author": "@gapmiss",
+    "repo": "gapmiss/blur"
+  },
+  {
+    "id": "canvas-links",
+    "name": "Canvas Links",
+    "author": "aqav",
+    "description": "Add views to show \"outgoing links\" and \"backlinks\" of canvas in Obsidian.",
+    "repo": "aqav/obsidian-canvas-links"
+  },
+  {
+    "id": "hamsterbase",
+    "name": "HamsterBase Official",
+    "author": "HamsterBase",
+    "description": "Official HamsterBase -> Obsidian integration",
+    "repo": "hamsterbase/obsidian-hamsterbase"
+  },
+  {
+    "id": "todotxt",
+    "name": "TodoTxt",
+    "author": "Mark Grimes",
+    "description": "Manage Todo.txt files.",
+    "repo": "mvgrimes/obsidian-todotxt-plugin"
+  },
+  {
+    "id": "arcana",
+    "name": "Arcana",
+    "description": "Supercharge your note-taking through AI-powered insights and suggestions.",
+    "author": "A-F-V",
+    "repo": "A-F-V/obsidian-arcana"
+  },
+  {
+    "id": "auto-anki",
+    "name": "Auto Anki",
+    "author": "ad2969",
+    "description": "Using AI to automate card creation for Spaced Repetion in Anki.",
+    "repo": "ad2969/obsidian-auto-anki"
+  },
+  {
+    "id": "api-request",
+    "name": "APIRequest",
+    "author": "rooyca",
+    "description": "Request and retrieve data from APIs. The responses are delivered in a JSON format for easy integration with your notes.",
+    "repo": "Rooyca/obsidian-api-request"
+  };
   {
     "id": "hackerone",
     "name": "HackerOne",
