@@ -6702,7 +6702,7 @@
     "id": "personal-assistant",
     "name": "Personal Assistant",
     "author": "edony",
-    "description": "Streamline workflows within Obsidian, managing memos and plugins with just one command.",
+    "description": "Streamline workflows within Obsidian, managing memos, formatted records, callouts, frontmatter, local graph, themes and plugins with just one command.",
     "repo": "edonyzpc/personal-assistant"
   },
   {
@@ -6953,8 +6953,8 @@
   {
     "id": "telegram-sync",
     "name": "Telegram Sync",
-    "description": "Transfer messages and files from Telegram bot to Obsidian.",
-    "author": "Burtasov Volodymyr",
+    "description": "Transfer messages and files from Telegram to Obsidian.",
+    "author": "soberhacker",
     "repo": "soberhacker/obsidian-telegram-sync"
   },
   {
@@ -7012,6 +7012,48 @@
     "author": "rooyca",
     "description": "Request and retrieve data from APIs. The responses are delivered in a JSON format for easy integration with your notes.",
     "repo": "Rooyca/obsidian-api-request"
+  },
+  {
+    "id": "link-with-alias",
+    "name": "Link with alias",
+    "author": "Pavel Vojtechovsky",
+    "description": "Creates links and aliases in front matter of target document.",
+    "repo": "pvojtechovsky/obsidian-link-with-alias"
+  },
+  {
+    "id": "hackerone",
+    "name": "HackerOne",
+    "author": "neolex",
+    "description": "This is a HackerOne plugin to fetch your bug reports inside Obsidian.",
+    "repo": "Neolex-Security/obsidian-hackerone"
+  },
+  {
+    "id": "confluence-to-obsidian",
+    "name": "Confluence to Obsidian",
+    "author": "K",
+    "description": "Import Confluence space into Obsidian vault.",
+    "repo": "KkEi34/confluence-to-obsidian-plugin"
+  },
+  {
+    "id": "flashcards-llm",
+    "name": "Flashcards LLM",
+    "author": "Marco Pampaloni",
+    "description": "Use Large Language Models (such as ChatGPT) to automatically generate flashcards from obsidian notes",
+    "repo": "crybot/obsidian-flashcards-llm"
+  },
+  {
+    "id": "recipe-grabber",
+    "name": "Recipe Grabber",
+    "author": "seethroughdev",
+    "description": "Quickly grab the important contents of any online recipe.",
+    "repo": "seethroughdev/obsidian-recipe-grabber"
+  },
+  {
+    "id": "note-archiver",
+    "name": "Note archiver",
+    "author": "thenomadlad",
+    "description": "Tools to archive your notes in another folder",
+    "repo": "thenomadlad/obsidian-note-archiver"
   },
   {
     "id": "tinypng-image",
