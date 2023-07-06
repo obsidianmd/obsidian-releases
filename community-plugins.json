@@ -6702,7 +6702,7 @@
     "id": "personal-assistant",
     "name": "Personal Assistant",
     "author": "edony",
-    "description": "Streamline workflows within Obsidian, managing memos and plugins with just one command.",
+    "description": "Streamline workflows within Obsidian, managing memos, formatted records, callouts, frontmatter, local graph, themes and plugins with just one command.",
     "repo": "edonyzpc/personal-assistant"
   },
   {
@@ -6953,8 +6953,8 @@
   {
     "id": "telegram-sync",
     "name": "Telegram Sync",
-    "description": "Transfer messages and files from Telegram bot to Obsidian.",
-    "author": "Burtasov Volodymyr",
+    "description": "Transfer messages and files from Telegram to Obsidian.",
+    "author": "soberhacker",
     "repo": "soberhacker/obsidian-telegram-sync"
   },
   {
@@ -7012,6 +7012,97 @@
     "author": "rooyca",
     "description": "Request and retrieve data from APIs. The responses are delivered in a JSON format for easy integration with your notes.",
     "repo": "Rooyca/obsidian-api-request"
+  },
+  {
+    "id": "link-with-alias",
+    "name": "Link with alias",
+    "author": "Pavel Vojtechovsky",
+    "description": "Creates links and aliases in front matter of target document.",
+    "repo": "pvojtechovsky/obsidian-link-with-alias"
+  },
+  {
+    "id": "hackerone",
+    "name": "HackerOne",
+    "author": "neolex",
+    "description": "This is a HackerOne plugin to fetch your bug reports inside Obsidian.",
+    "repo": "Neolex-Security/obsidian-hackerone"
+  },
+  {
+    "id": "confluence-to-obsidian",
+    "name": "Confluence to Obsidian",
+    "author": "K",
+    "description": "Import Confluence space into Obsidian vault.",
+    "repo": "KkEi34/confluence-to-obsidian-plugin"
+  },
+  {
+    "id": "flashcards-llm",
+    "name": "Flashcards LLM",
+    "author": "Marco Pampaloni",
+    "description": "Use Large Language Models (such as ChatGPT) to automatically generate flashcards from obsidian notes",
+    "repo": "crybot/obsidian-flashcards-llm"
+  },
+  {
+    "id": "recipe-grabber",
+    "name": "Recipe Grabber",
+    "author": "seethroughdev",
+    "description": "Quickly grab the important contents of any online recipe.",
+    "repo": "seethroughdev/obsidian-recipe-grabber"
+  },
+  {
+    "id": "note-archiver",
+    "name": "Note archiver",
+    "author": "thenomadlad",
+    "description": "Tools to archive your notes in another folder",
+    "repo": "thenomadlad/obsidian-note-archiver"
+  },
+  {
+    "id": "iconoir-icons",
+    "name": "Iconoir Icons",
+    "author": "@gapmiss",
+    "description": "A plugin for creating & displaying customized SVG Iconoir icons.",
+    "repo": "gapmiss/iconoir-icons"
+  },
+  {
+    "id": "automatic-list-styles",
+    "name": "Automatic List Styles",
+    "author": "Max McGuire",
+    "description": "Automatically formats the styles of ordered lists, incrementing the list style for each layer",
+    "repo": "WiseGuru/obsidian-automatic-list-styles"
+  },
+  {
+    "id": "shukuchi",
+    "name": "Shukuchi",
+    "author": "tadashi-aikawa",
+    "description": "Teleport to links (URL or internal link) and jump to their destinations.",
+    "repo": "tadashi-aikawa/shukuchi"
+  },
+  {
+    "id": "chat-stream",
+    "name": "Chat Stream",
+    "author": "Ryan P Smith",
+    "description": "Create branching GPT chats using canvas notes.",
+    "repo": "rpggio/obsidian-chat-stream"
+  },
+  {
+    "id": "blindfold-obsidian",
+    "name": "BlindFold",
+    "author": "my99n",
+    "description": "Fold text by making it completely hidden.",
+    "repo": "vzsky/blindfold-obsidian"
+  },
+  {
+    "id": "findoc",
+    "name": "Financial Doc",
+    "author": "Studio Webux",
+    "description": "Financial Documentation and Tracking using CSV format and Chart.js directly in Obsidian",
+    "repo": "yet-another-tool/obsidian-findoc"
+  },
+  {
+    "id": "file-include",
+    "name": "File Include",
+    "author": "Till Hoffmann",
+    "description": "Include or embed files in Obsidian markdown.",
+    "repo": "tillahoffmann/obsidian-file-include"
   },
   {
     "id": "syncftp",
