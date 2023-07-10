@@ -3725,10 +3725,10 @@
   },
   {
     "id": "notion-like-tables",
-    "name": "Dashboards",
+    "name": "DataLoom",
     "author": "Trey Wallis",
-    "description": "Powerful dashboard suite inspired by Notion.so.",
-    "repo": "trey-wallis/obsidian-dashboards"
+    "description": "Weave together data from diverse sources into a cohesive table view. Inspired by Excel spreadsheets and Notion.so.",
+    "repo": "trey-wallis/obsidian-dataloom"
   },
   {
     "id": "auto-moc",
@@ -5384,9 +5384,9 @@
   },
   {
     "id": "gpt3-notes",
-    "name": "GPT-3 Notes",
+    "name": "GPT Notes",
     "author": "micahke",
-    "description": "Generate notes on any subject using OpenAI's GPT-3 language model.",
+    "description": "Generate notes on any subject using OpenAI's GPT-3.5 and GPT-4 language models.",
     "repo": "micahke/obsidian-gpt3-notes"
   },
   {
@@ -7056,7 +7056,63 @@
     "repo": "thenomadlad/obsidian-note-archiver"
   },
   {
-     "id": "postfix",
+    "id": "iconoir-icons",
+    "name": "Iconoir Icons",
+    "author": "@gapmiss",
+    "description": "A plugin for creating & displaying customized SVG Iconoir icons.",
+    "repo": "gapmiss/iconoir-icons"
+  },
+  {
+    "id": "automatic-list-styles",
+    "name": "Automatic List Styles",
+    "author": "Max McGuire",
+    "description": "Automatically formats the styles of ordered lists, incrementing the list style for each layer",
+    "repo": "WiseGuru/obsidian-automatic-list-styles"
+  },
+  {
+    "id": "shukuchi",
+    "name": "Shukuchi",
+    "author": "tadashi-aikawa",
+    "description": "Teleport to links (URL or internal link) and jump to their destinations.",
+    "repo": "tadashi-aikawa/shukuchi"
+  },
+  {
+    "id": "chat-stream",
+    "name": "Chat Stream",
+    "author": "Ryan P Smith",
+    "description": "Create branching GPT chats using canvas notes.",
+    "repo": "rpggio/obsidian-chat-stream"
+  },
+  {
+    "id": "blindfold-obsidian",
+    "name": "BlindFold",
+    "author": "my99n",
+    "description": "Fold text by making it completely hidden.",
+    "repo": "vzsky/blindfold-obsidian"
+  },
+  {
+    "id": "findoc",
+    "name": "Financial Doc",
+    "author": "Studio Webux",
+    "description": "Financial Documentation and Tracking using CSV format and Chart.js directly in Obsidian",
+    "repo": "yet-another-tool/obsidian-findoc"
+  },
+  {
+    "id": "file-include",
+    "name": "File Include",
+    "author": "Till Hoffmann",
+    "description": "Include or embed files in Obsidian markdown.",
+    "repo": "tillahoffmann/obsidian-file-include"
+  },
+  {
+    "id": "vault-chat",
+    "name": "Vault Chat",
+    "author": "Exo Ascension",
+    "description": "A ChatGPT bot trained on your vault notes. Ask your AI questions about your own thoughts and ideas!",
+    "repo": "exoascension/vault-chat"
+  },
+  {
+    "id": "postfix",
     "name": "Postfix",
     "author": "Bhagya Nirmaan Silva (@bhagyas)",
     "description": "Use postfix completions to automatically format text.",
