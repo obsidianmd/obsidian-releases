@@ -3725,10 +3725,10 @@
   },
   {
     "id": "notion-like-tables",
-    "name": "Dashboards",
+    "name": "DataLoom",
     "author": "Trey Wallis",
-    "description": "Powerful dashboard suite inspired by Notion.so.",
-    "repo": "trey-wallis/obsidian-dashboards"
+    "description": "Weave together data from diverse sources into a cohesive table view. Inspired by Excel spreadsheets and Notion.so.",
+    "repo": "trey-wallis/obsidian-dataloom"
   },
   {
     "id": "auto-moc",
@@ -5845,6 +5845,13 @@
     "repo": "zwpaper/obsidian-progressbar"
   },
   {
+    "id": "kindle-csv-converter",
+    "name": "Kindle CSV Converter",
+    "description": "Import your Kindle notes in .csv format to Obsidian.",
+    "author": "Alvaro Cas",
+    "repo": "alvaro-cas/kindle-csv-converter-obsidian"
+  },
+  {
     "id": "material-symbols",
     "name": "Material Symbols",
     "author": "Cristoph Berane",
@@ -7112,10 +7119,45 @@
     "repo": "exoascension/vault-chat"
   },
   {
+    "id": "memos-sync",
+    "name": "Memos Sync",
+    "author": "hyoban",
+    "description": "Keep in sync with your memos.",
+    "repo": "hyoban/obsidian-memos-plugin"
+  },
+  {
+    "id": "mermaid-themes",
+    "name": "Mermaid Themes",
+    "description": "Alternate support for mermaid.js that supports themeing and customization.",
+    "author": "jvsteiner",
+    "repo": "jvsteiner/mermaid-themes"
+  },
+  {
+    "id": "background-image",
+    "name": "Background Image",
+    "description": "This allows you to specify a remote URL as the background image, and a few settings to tweak the experience..",
+    "author": "shmolf",
+    "repo": "shmolf/obsidian-editor-background"
+  },
+  {
+    "id": "html-server",
+    "name": "Html Server",
+    "author": "Pr0dt0s",
+    "description": "This plugin lets you spin up a local http server to access your vault via a web browser.",
+    "repo": "Pr0dt0s/obsidian-html-server"
+  },
+  {
+    "id": "obsidian-importer",
+    "name": "Importer",
+    "author": "Obsidian",
+    "description": "Import notes from other apps like Evernote.",
+    "repo": "obsidianmd/obsidian-importer"
+  },
+  {
     "id": "markdown-to-slack-message",
     "name": "Markdown to Slack Message",
     "description": "Converts a markdown note to the Slack message blocks that enable you to send to your slack.",
     "author": "Woongshik Choi",
     "repo": "idreamer/markdown-to-slack-message"
- }
+  }
 ]
