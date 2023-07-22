@@ -6880,12 +6880,13 @@
     "author": "Mijyuoon",
     "repo": "Mijyuoon/obsidian-ling-gloss"
   },
-    {
+  {
     "id": "brain",
     "name": "brAIn",
     "author": "lusob",
     "description": "A ChatGPT powered chatbot specifically focused on question answering over your Obsidian vault notes.",
     "repo": "lusob/obsidian-brain"
+
   },
   {
     "id": "sync-google-calendar",
@@ -7061,6 +7062,7 @@
     "author": "Max McGuire",
     "description": "Automatically formats the styles of ordered lists, incrementing the list style for each layer",
     "repo": "WiseGuru/obsidian-automatic-list-styles"
+
   },
   {
     "id": "shukuchi",
@@ -7166,6 +7168,83 @@
     "author": "Ron Kosova",
     "description": "Simple plugin to automatically encode spaces to %20 in Markdown-style links",
     "repo": "rkosova/obsidian-markdown-link-space-encoder"
+  },
+  {
+    "id": "bmo-chatbot",
+    "name": "BMO Chatbot",
+    "description": "Improve your knowledge management with a chatbot that understands context and retrieves relevant information using Large Language Models (LLMs).",
+    "author": "Longy2k",
+    "repo": "longy2k/obsidian-bmo-chatbot"
+  },
+  {
+    "id": "supsub",
+    "name": "SupSub",
+    "author": "Wjgoarxiv",
+    "description": "Easily format superscripts and subscripts in your notes.",
+    "repo": "wjgoarxiv/obsidian-supsub"
+  },
+  {
+    "id": "typst",
+    "name": "Typst Renderer",
+    "author": "fenjalien",
+    "description": "Renders `typst` code blocks and math blocks to images with Typst.",
+    "repo": "fenjalien/obsidian-typst"
+  },
+  {
+    "id": "ai-summary",
+    "name": "AI Notes Summary",
+    "author": "R. Ian Bull (irbull)",
+    "description": "Uses OpenAI to generate a summary of referenced notes.",
+    "repo": "irbull/obsidian-ai-summary"
+  },
+  {
+    "id": "qatt",
+    "name": "Query all the things",
+    "description": "Execute SQL base queries against your data in Obsidian and render it how you want using templates.",
+    "author": "Sytone",
+    "repo": "sytone/obsidian-queryallthethings"
+  },
+  {
+    "id": "lilypond",
+    "name": "Lilypond",
+    "description": "Render Lilypond templates.",
+    "author": "DOT-ASTERISK",
+    "repo": "dot-asterisk-nl/obsidian-lilypond"
+  },
+  {
+    "id": "chemical-structure-renderer",
+    "name": "Chemical Structure Renderer",
+    "description": "Render chemical structures from SMILES strings into PNG or SVG format using Ketcher and Indigo Service.",
+    "author": "xaya1001",
+    "repo": "xaya1001/obsidian-Chemical-Structure-Renderer" 
+  },
+  {
+    "id": "time-ruler",
+    "name": "Time Ruler",
+    "description": "A drag-and-drop time ruler combining the best of a task list and a calendar view (integrates with Tasks, Full Calendar, and Dataview).",
+    "author": "Joshua Tazman Reinier",
+    "repo": "joshuatazrein/obsidian-time-ruler"
+  },
+  {
+    "id": "logstravaganza",
+    "name": "Logstravaganza",
+    "author": "Carlo Zottmann",
+    "description": "A simple proxy for `console.*()` calls which copies log messages and uncaught exceptions to a note.",
+    "repo": "czottmann/obsidian-logstravaganza"
+  },
+  {
+    "id": "markdown-blogger",
+    "name": "Markdown Blogger",
+    "author": "Alexa Fazio",
+    "description": "Allows developers to push markdown notes to their local blog, portfolio, or static site. Works with Astro.js, Next.js, and any other framework configured to render markdown pages.",
+    "repo": "afazio1/obsidian-markdown-blogger"
+  },
+  {
+    "id": "simple-rss",
+    "name": "Simple RSS",
+    "description": "Collect RSS articles into notes.",
+    "author": "Monnierant",
+    "repo": "monnierant/obsidian-simple-rss"
   },
   {
     "id": "show-hidden-files",
