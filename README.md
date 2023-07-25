@@ -49,7 +49,8 @@ Quick starting guide for new plugin devs:
 ## How to use
 
 - Clone this repo.
-- `npm i` or `yarn` to install dependencies
+- Make sure your NodeJS is at least v16 (`node --version`).
+- `npm i` or `yarn` to install dependencies.
 - `npm run dev` to start compilation in watch mode.
 
 ## Manually installing the plugin
