@@ -36,7 +36,7 @@ export default class MyPlugin extends Plugin {
 
 If possible, register any resources using the registration methods from the `Plugin` class, such as example `registerEvent()` or `addCommand()`. That way they are cleaned up automatically when the plugin unloads.
 
-You don't need to resources that are guaranteed to be removed when your plugin unloads. For example, if you register a `mouseenter` listener on a DOM element, the event listener will be garbage-collected when the element goes out of scope.
+You don't need to clean up resources that are guaranteed to be removed when your plugin unloads. For example, if you register a `mouseenter` listener on a DOM element, the event listener will be garbage-collected when the element goes out of scope.
 
 ### Class names
 
