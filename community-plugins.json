@@ -3725,10 +3725,10 @@
   },
   {
     "id": "notion-like-tables",
-    "name": "Dashboards",
+    "name": "DataLoom",
     "author": "Trey Wallis",
-    "description": "Powerful dashboard suite inspired by Notion.so.",
-    "repo": "trey-wallis/obsidian-dashboards"
+    "description": "Weave together data from diverse sources into a cohesive table view. Inspired by Excel spreadsheets and Notion.so.",
+    "repo": "trey-wallis/obsidian-dataloom"
   },
   {
     "id": "auto-moc",
@@ -4830,13 +4830,6 @@
     "repo": "iiz00/obsidian-daily-note-outline"
   },
   {
-    "id": "obsidian-colorful-tag",
-    "name": "Colorful Tag",
-    "author": "RieN7",
-    "description": "You can easily add prefix or suffix to a tag and change the tag’s background or text color.",
-    "repo": "rien7/obsidian-colorful-tag"
-  },
-  {
     "id": "edit-gemini",
     "name": "Edit Gemini",
     "author": "Basil_Mori",
@@ -5157,13 +5150,6 @@
     "description": "Open external links within Obsidian using a modal or a tab.",
     "author": "zorazrr",
     "repo": "zorazrr/obsidian-link-opener"
-  },
-  {
-    "id": "obsidian-mathjax-wikilinks",
-    "name": "MathJax WikiLinks",
-    "description": "Allows rendering MathJax in WikiLink aliases.",
-    "author": "Aaron Manning",
-    "repo": "aaron-jack-manning/obsidian-mathjax-wikilinks"
   },
   {
     "id": "obsidian-clipper",
@@ -5845,6 +5831,13 @@
     "repo": "zwpaper/obsidian-progressbar"
   },
   {
+    "id": "kindle-csv-converter",
+    "name": "Kindle CSV Converter",
+    "description": "Import your Kindle notes in .csv format to Obsidian.",
+    "author": "Alvaro Cas",
+    "repo": "alvaro-cas/kindle-csv-converter-obsidian"
+  },
+  {
     "id": "material-symbols",
     "name": "Material Symbols",
     "author": "Cristoph Berane",
@@ -6436,7 +6429,7 @@
     "id": "wikipedia-search",
     "name": "Wikipedia Search",
     "author": "StrangeGirlMurph",
-    "description": "Search for Wikipedia articles and link them.",
+    "description": "Search, link and open Wikipedia articles, all within the app!",
     "repo": "StrangeGirlMurph/obsidian-wikipedia-search"
   },
   {
@@ -6893,6 +6886,7 @@
     "author": "lusob",
     "description": "A ChatGPT powered chatbot specifically focused on question answering over your Obsidian vault notes.",
     "repo": "lusob/obsidian-brain"
+
   },
   {
     "id": "sync-google-calendar",
@@ -7110,6 +7104,202 @@
     "author": "Exo Ascension",
     "description": "A ChatGPT bot trained on your vault notes. Ask your AI questions about your own thoughts and ideas!",
     "repo": "exoascension/vault-chat"
+  },
+  {
+    "id": "memos-sync",
+    "name": "Memos Sync",
+    "author": "hyoban",
+    "description": "Keep in sync with your memos.",
+    "repo": "hyoban/obsidian-memos-plugin"
+  },
+  {
+    "id": "mermaid-themes",
+    "name": "Mermaid Themes",
+    "description": "Alternate support for mermaid.js that supports themeing and customization.",
+    "author": "jvsteiner",
+    "repo": "jvsteiner/mermaid-themes"
+  },
+  {
+    "id": "background-image",
+    "name": "Background Image",
+    "description": "This allows you to specify a remote URL as the background image, and a few settings to tweak the experience..",
+    "author": "shmolf",
+    "repo": "shmolf/obsidian-editor-background"
+  },
+  {
+    "id": "html-server",
+    "name": "Html Server",
+    "author": "Pr0dt0s",
+    "description": "This plugin lets you spin up a local http server to access your vault via a web browser.",
+    "repo": "Pr0dt0s/obsidian-html-server"
+  },
+  {
+    "id": "obsidian-importer",
+    "name": "Importer",
+    "author": "Obsidian",
+    "description": "Import notes from other apps like Evernote.",
+    "repo": "obsidianmd/obsidian-importer"
+  },
+  {
+    "id": "cloudinary",
+    "name": "Cloudinary",
+    "description": "Upload content(images, videos, audio) to Cloudinary and insert(copy or drag both) them into your notes.",
+    "author": "Uday Samsani, Jordan Handy",
+    "repo": "uday-samsani/obsidian-cloudinary"
+  },
+  {
+    "id": "flowershow",
+    "name": "Flowershow",
+    "author": "Rufus Pollock",
+    "description": "Publish with Flowershow directly from your Obsidian vault.",
+    "repo": "datopian/obsidian-flowershow"
+  },
+  {
+    "id": "movie-obsidian",
+    "name": "Movie",
+    "author": "Onur Ayçiçek",
+    "description": "Search movies info and trailers.",
+    "repo": "onuraycicek/obsidian-movie"
+  },
+  {
+    "id": "markdown-link-space-encoder",
+    "name": "Markdown Link Space Encoder",
+    "author": "Ron Kosova",
+    "description": "Simple plugin to automatically encode spaces to %20 in Markdown-style links",
+    "repo": "rkosova/obsidian-markdown-link-space-encoder"
+  },
+  {
+    "id": "bmo-chatbot",
+    "name": "BMO Chatbot",
+    "description": "Improve your knowledge management with a chatbot that understands context and retrieves relevant information using Large Language Models (LLMs).",
+    "author": "Longy2k",
+    "repo": "longy2k/obsidian-bmo-chatbot"
+  },
+  {
+    "id": "supsub",
+    "name": "SupSub",
+    "author": "Wjgoarxiv",
+    "description": "Easily format superscripts and subscripts in your notes.",
+    "repo": "wjgoarxiv/obsidian-supsub"
+  },
+  {
+    "id": "typst",
+    "name": "Typst Renderer",
+    "author": "fenjalien",
+    "description": "Renders `typst` code blocks and math blocks to images with Typst.",
+    "repo": "fenjalien/obsidian-typst"
+  },
+  {
+    "id": "ai-summary",
+    "name": "AI Notes Summary",
+    "author": "R. Ian Bull (irbull)",
+    "description": "Uses OpenAI to generate a summary of referenced notes.",
+    "repo": "irbull/obsidian-ai-summary"
+  },
+  {
+    "id": "qatt",
+    "name": "Query all the things",
+    "description": "Execute SQL base queries against your data in Obsidian and render it how you want using templates.",
+    "author": "Sytone",
+    "repo": "sytone/obsidian-queryallthethings"
+  },
+  {
+    "id": "lilypond",
+    "name": "Lilypond",
+    "description": "Render Lilypond templates.",
+    "author": "DOT-ASTERISK",
+    "repo": "dot-asterisk-nl/obsidian-lilypond"
+  },
+  {
+    "id": "chemical-structure-renderer",
+    "name": "Chemical Structure Renderer",
+    "description": "Render chemical structures from SMILES strings into PNG or SVG format using Ketcher and Indigo Service.",
+    "author": "xaya1001",
+    "repo": "xaya1001/obsidian-Chemical-Structure-Renderer" 
+  },
+  {
+    "id": "time-ruler",
+    "name": "Time Ruler",
+    "description": "A drag-and-drop time ruler combining the best of a task list and a calendar view (integrates with Tasks, Full Calendar, and Dataview).",
+    "author": "Joshua Tazman Reinier",
+    "repo": "joshuatazrein/obsidian-time-ruler"
+  },
+  {
+    "id": "logstravaganza",
+    "name": "Logstravaganza",
+    "author": "Carlo Zottmann",
+    "description": "A simple proxy for `console.*()` calls which copies log messages and uncaught exceptions to a note.",
+    "repo": "czottmann/obsidian-logstravaganza"
+  },
+  {
+    "id": "markdown-blogger",
+    "name": "Markdown Blogger",
+    "author": "Alexa Fazio",
+    "description": "Allows developers to push markdown notes to their local blog, portfolio, or static site. Works with Astro.js, Next.js, and any other framework configured to render markdown pages.",
+    "repo": "afazio1/obsidian-markdown-blogger"
+  },
+  {
+    "id": "simple-rss",
+    "name": "Simple RSS",
+    "description": "Collect RSS articles into notes.",
+    "author": "Monnierant",
+    "repo": "monnierant/obsidian-simple-rss"
+  },
+  {
+    "id": "quick-links",
+    "name": "Quick Links",
+    "author": "Ian Fisher",
+    "description": "Create quick link shortcuts to Wikipedia and other sites",
+    "repo": "iafisher/obsidian-quick-links"
+  },
+  {
+  	"id": "editor-width-slider",
+  	"name": "Editor Width Slider",
+  	"author": "@MugishoMp",
+  	"description": "Customize Obsidian's editor width with a slider for a tailored editing experience.",
+  	"repo": "MugishoMp/obsidian-editor-width-slider"
+  },
+  {
+   "id": "markdown-tree",
+   "name": "Markdown Tree",
+   "author": "carvah",
+   "description": "Create a beautiful and intuitive directory tree using Markdown-oriented code style using tabs, spaces and enters.",
+   "repo": "carvah/markdown-tree-plugin"
+  },
+  {
+    "id": "auto-front-matter",
+    "name": "Auto Front Matter",
+    "author": "conorzhong",
+    "description": "Auto update front matter",
+    "repo": "conorzhong/obsidian-auto-front-matter"
+  },
+  {
+    "id": "emoji-tags-titler",
+    "name": "EmoTagsTitler",
+    "author": "Cyfine",
+    "description": "Add the emojis contained in the tags to the beginning of the note title.",
+    "repo": "Cyfine/EmoTagsTitler"
+  },
+  {
+    "id": "advanced-random-note",
+    "name": "Advanced Random Note",
+    "author": "Karsten Finderup Pedersen",
+    "description": "Create commands from custom queries to open random notes.",
+    "repo": "karstenpedersen/obsidian-advanced-random-note"
+  },
+  {
+    "id": "git-url",
+    "name": "Git Url",
+    "author": "khuongduy354",
+    "description": "This plugin create a url to your file on your git remote repo ",
+    "repo": "khuongduy354/obsidian-git-url"
+  },
+  {
+    "id": "pf2-action-icons",
+    "name": "Pathfinder 2E Action Icons",
+    "author": "Thiago Coutinho",
+    "description": "This is an plugin for displaying Pathfinder 2E action icons in Obsidian",
+    "repo": "thiagocoutinhor/pf2-action-icons"
   },
   {
     "id": "badges",
