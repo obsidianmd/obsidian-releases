@@ -54,6 +54,18 @@ jobs:
 
               const plugin = plugins[plugins.length - 1];
 
+              let validKeys = ['id', 'name', 'description', 'author', 'repo'];
+              for (let key of validKeys) {
+                if (!plugin.hasOwnProperty(key)) {
+                  addError(`Your PR does not have the required \`${key}\` property.`);
+                }
+              }
+              for (let key of Object.keys(plugin)) {
+                if (plugin.hasOwnProperty(key) && validKeys.indexOf(key) === -1) {
+                  addError(`Your PR has the invalid \`${key}\` property.`);
+                }
+              }
+               
               // Validate plugin repo
               let repoInfo = plugin.repo.split('/');
               if (repoInfo.length !== 2) {
@@ -71,7 +83,7 @@ jobs:
                     throw undefined;
                   }
                 } catch (e) {
-                  addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. The last plugin in the list is: \`${plugin.repo}\`.`);
+                  addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. The last plugin in the list is: \`${plugin.repo}\`. If you are submitting from a GitHub org, you need to be a public member of the org.`);
                 }
               }
 
@@ -95,7 +107,7 @@ jobs:
               }
 
               if (plugin.name.toLowerCase().startsWith('obsidian')) {
-                addError(`We're asking plugins to avoid using the word \`Obsidian\` at the start of their plugin name to avoid over-saturating the brand name and reserve the naming for first-party plugins (like Obsidian Publish, Obsidian Sync, etc).`);
+                addError(`Please don't use the word \`Obsidian\` at the start of your plugin name since it's redundant and makes it harder to sort the plugin list.`);
               }
               else if (plugin.name.toLowerCase().includes('obsidian')) {
                 addWarning(`Please don't use the word \`Obsidian\` in your plugin name since it's redundant and adds clutter to the plugin list.`);
@@ -110,17 +122,6 @@ jobs:
 
               if (plugin.description.length > 300) {
                 addWarning(`Your plugin has a long description. Users typically find it difficult to read a very long description, so you should keep it short and concise.`);
-              }
-
-              if (plugin.branch) {
-                addError('You do not need to include the `branch` parameter when submitting your PR.');
-              }
-
-              let validKeys = ['id', 'name', 'description', 'author', 'repo', 'branch'];
-              for (let key in plugin) {
-                if (plugin.hasOwnProperty(key) && validKeys.indexOf(key) === -1) {
-                  addError(`Your PR has the invalid \`${key}\` property.`);
-                }
               }
 
               if (plugins.filter(p => p.id === plugin.id).length > 1) {
@@ -213,7 +214,7 @@ jobs:
                 message.push(`\n---\n`);
               }
 
-              message.push(`<sup>This check was done automatically.</sup>`);
+              message.push(`<sup>This check was done automatically. Do <b>NOT</b> open a new PR for re-validation. Instead, to trigger this check again, make a change to your PR and wait a few minutes, or close and re-open it.</sup>`);
 
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
@@ -231,6 +232,7 @@ jobs:
             if (context.payload.pull_request.labels.includes('Changes requested')) {
               labels.push('Changes requested');
             }
+            labels.push('plugin');
 
             await github.rest.issues.setLabels({
               issue_number: context.issue.number,
