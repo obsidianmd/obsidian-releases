@@ -14,6 +14,8 @@ Thanks for submitting your creations!
 
 You can find a detailed explanation for submitting your [plugin here](https://docs.obsidian.md/Plugins/Releasing/Submit+your+plugin) and your [theme here](https://docs.obsidian.md/Themes/App+themes/Submit+your+theme).
 
+## Policies
+
 All submissions must conform with our [developer policies](https://docs.obsidian.md/Developer+policies)
 
 ## Community Theme
