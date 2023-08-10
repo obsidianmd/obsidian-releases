@@ -295,10 +295,10 @@
   },
   {
     "id": "cycle-through-panes",
-    "name": "Cycle through Panes",
-    "author": "Vinadon & phibr0",
-    "description": "Cycle through your open panes with `ctrl + Tab`, just like with tabs in your browser!",
-    "repo": "phibr0/cycle-through-panes"
+    "name": "Tab Switcher",
+    "author": "Vinzent & phibr0",
+    "description": "Switch your tabs with Ctrl + Tab in recently used order like in a browser.",
+    "repo": "Vinzent03/tab-switcher"
   },
   {
     "id": "music-code-blocks",
@@ -7103,7 +7103,7 @@
     "author": "Exo Ascension",
     "description": "A ChatGPT bot trained on your vault notes. Ask your AI questions about your own thoughts and ideas!",
     "repo": "exoascension/vault-chat"
-  },
+  }, 
   {
     "id": "memos-sync",
     "name": "Memos Sync",
@@ -7368,7 +7368,7 @@
     "name": "Air Quotes",
     "author": "Alan Grainger",
     "description": "Search and insert quotes from a source text as you type",
-     "repo": "alangrainger/obsidian-air-quotes"
+    "repo": "alangrainger/obsidian-air-quotes"
   },
   {
     "id": "vault-2-book",
@@ -7455,10 +7455,94 @@
     "repo": "Miskamyasa/obsidian-codestats"
   },
   {
+    "id": "css-editor",
+    "name": "CSS Editor",
+    "author": "Zachatoo",
+    "description": "Edit CSS snippet files within Obsidian.",
+    "repo": "Zachatoo/obsidian-css-editor"
+  },
+  {
+    "id": "bulk-exporter",
+    "name": "Bulk Exporter",
+    "author": "symunona",
+    "description": "Filter, Export notes from your vault using metadata into a customizable new structure",
+    "repo": "symunona/obsidian-bulk-exporter"
+  },
+  {
+    "id": "code-styler",
+    "name": "Code Styler",
+    "author": "Mayuran Visakan",
+    "description": "Style codeblocks and inline code in reading view and editing view.",
+    "repo": "mayurankv/Obsidian-Code-Styler"
+  },
+  {
+    "id": "auto-hyperlink",
+    "name": "Auto Hyperlink",
+    "author": "take6",
+    "description": "Insert hyperlink according to user-defined rule",
+    "repo": "take6/obsidian-plugin-auto-hyperlink"
+  },
+  {
+    "id": "quick-plugin-switcher",
+    "name": "Quick Plugin Switcher",
+    "author": "1C0D",
+    "description": "Adds a ribbon icon to quickly switch plugins with filters (all, enabled, disabled, most switched)",
+    "repo": "1C0D/obsidian-quick-plugin-switcher"
+  },
+  {
+    "id": "colored-tags",
+    "name": "Colored Tags",
+    "author": "Pavel Frankov",
+    "description": "Colorizes tags in different colors. The color depends on the tag content. Colors of nested tags are mixed with parent tags. Text color contrast is automatically matched to comply with AA level WCAG 2.1.",
+    "repo": "pfrankov/obsidian-colored-tags"
+  },
+  {
+    "id": "jira-cloud",
+    "name": "Jira Cloud",
+    "author": "OfficerHalf",
+    "description": "An unofficial integration to bring Jira Issues into your Obsidian notes.",
+    "repo": "OfficerHalf/obsidian-jira-cloud"
+  },
+  {
+    "id": "markdown-sync-scroll",
+    "name": "Markdown Sync Scroll",
+    "author": "ProjectXero",
+    "description": "Allow two linked markdown views to scroll synchronously.",
+    "repo": "XeroAlpha/markdown-sync-scroll"
+  },
+  {
+    "id": "ruled-template",
+    "name": "Ruled template",
+    "author": "YPetremann",
+    "description": "This plugin allow to use templates bassed on rules when creating a new file.",
+    "repo": "YPetremann/obsidian-ruled-template"
+  },
+  {
+    "id": "ai-tools",
+    "name": "AI Tools",
+    "author": "solderneer",
+    "description": "Adding powerful semantic search, generative answers, and other AI tools to Obsidian, using Supabase + OpenAI.",
+    "repo": "solderneer/obsidian-ai-tools"
+  },    
+  {
+    "id": "oblogger",
+    "name": "oblogger",
+    "author": "loftTech",
+    "description": "tag explorer and frontmatter logger",
+    "repo": "lofttech/obsidian-oblogger"
+  },    
+  {
+    "id": "simple-canvasearch",
+    "name": "Simple CanvaSearch",
+    "author": "ddalexb",
+    "description": "Quickly fuzzysearch notes, cards and their content and shift focus to them within the currently opened canvas.",
+    "repo": "ddalexb/obsidian-simple-canvasearch"
+  },
+  {
     "id": "fantasy-name",
     "name": "Fantasy name generator",
     "author": "Lukewh",
     "description": "Insert a random fantasy name.",
-    "repo": "lukewh/fantasy-name"
+    "repo": "lukewh/fantasy-name" 
   }
 ]
