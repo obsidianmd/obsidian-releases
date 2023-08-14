@@ -175,13 +175,6 @@
     "repo": "kepano/obsidian-minimal-settings"
   },
   {
-    "id": "obsidian-system-dark-mode",
-    "name": "System Dark Mode",
-    "author": "@kepano",
-    "description": "Automatically use the operating system's setting to switch between light and dark mode.",
-    "repo": "kepano/obsidian-system-dark-mode"
-  },
-  {
     "id": "obsidian-discordrpc",
     "name": "Discord Rich Presence",
     "author": "Luke Leppan",
@@ -295,10 +288,10 @@
   },
   {
     "id": "cycle-through-panes",
-    "name": "Cycle through Panes",
-    "author": "Vinadon & phibr0",
-    "description": "Cycle through your open panes with `ctrl + Tab`, just like with tabs in your browser!",
-    "repo": "phibr0/cycle-through-panes"
+    "name": "Tab Switcher",
+    "author": "Vinzent & phibr0",
+    "description": "Switch your tabs with Ctrl + Tab in recently used order like in a browser.",
+    "repo": "Vinzent03/tab-switcher"
   },
   {
     "id": "music-code-blocks",
@@ -1367,7 +1360,7 @@
   {
     "id": "obsidian-collapse-all-plugin",
     "name": "Collapse All",
-    "description": "Adds a button to collapse all folders in the file explorer.",
+    "description": "Extends collapse/expand all with commands that can be bound to hotkeys.",
     "author": "OfficerHalf",
     "repo": "OfficerHalf/obsidian-collapse-all"
   },
@@ -3610,13 +3603,6 @@
     "author": "Jon Grythe Stødle",
     "description": "Make single notes instantly available on the web.",
     "repo": "jonstodle/obsius-obsidian-plugin"
-  },
-  {
-    "id": "obsidian-snippet-downloader",
-    "name": "Snippet Downloader",
-    "author": "Mara-Li",
-    "description": "A Obsidian's plugin to help to manage CSS snippets (download / update) from repository.",
-    "repo": "Lisandra-dev/obsidian-snippet-downloader"
   },
   {
     "id": "execute-code",
@@ -7136,7 +7122,7 @@
     "id": "obsidian-importer",
     "name": "Importer",
     "author": "Obsidian",
-    "description": "Import notes from other apps like Evernote.",
+    "description": "Import data from Notion, Evernote, Google Keep, Bear, and HTML files.",
     "repo": "obsidianmd/obsidian-importer"
   },
   {
@@ -7170,7 +7156,7 @@
   {
     "id": "bmo-chatbot",
     "name": "BMO Chatbot",
-    "description": "Improve your knowledge management with a chatbot that understands context and retrieves relevant information using Large Language Models (LLMs).",
+    "description": "Generate and brainstorm ideas while creating your notes using Large Language Models (LLMs) such as OpenAI's \"gpt-3.5-turbo\" and \"gpt-4\" for Obsidian.",
     "author": "Longy2k",
     "repo": "longy2k/obsidian-bmo-chatbot"
   },
@@ -7497,13 +7483,6 @@
     "repo": "pfrankov/obsidian-colored-tags"
   },
   {
-    "id": "jira-cloud",
-    "name": "Jira Cloud",
-    "author": "OfficerHalf",
-    "description": "An unofficial integration to bring Jira Issues into your Obsidian notes.",
-    "repo": "OfficerHalf/obsidian-jira-cloud"
-  },
-  {
     "id": "markdown-sync-scroll",
     "name": "Markdown Sync Scroll",
     "author": "ProjectXero",
@@ -7537,6 +7516,13 @@
     "author": "ddalexb",
     "description": "Quickly fuzzysearch notes, cards and their content and shift focus to them within the currently opened canvas.",
     "repo": "ddalexb/obsidian-simple-canvasearch"
+  },
+  {
+    "id": "zettelgpt",
+    "name": "ZettelGPT",
+    "author": "Overraddit",
+    "description": "Effortlessly generate context-aware answers from ChatGPT within Obsidian, while maintaining a visually clear and organized conversation history.",
+    "repo": "OverRaddit/ZettelGPT"
   },
   {
     "id": "invio",
