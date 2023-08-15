@@ -7156,7 +7156,7 @@
   {
     "id": "bmo-chatbot",
     "name": "BMO Chatbot",
-    "description": "Improve your knowledge management with a chatbot that understands context and retrieves relevant information using Large Language Models (LLMs).",
+    "description": "Generate and brainstorm ideas while creating your notes using Large Language Models (LLMs) such as OpenAI's \"gpt-3.5-turbo\" and \"gpt-4\" for Obsidian.",
     "author": "Longy2k",
     "repo": "longy2k/obsidian-bmo-chatbot"
   },
@@ -7483,13 +7483,6 @@
     "repo": "pfrankov/obsidian-colored-tags"
   },
   {
-    "id": "jira-cloud",
-    "name": "Jira Cloud",
-    "author": "OfficerHalf",
-    "description": "An unofficial integration to bring Jira Issues into your Obsidian notes.",
-    "repo": "OfficerHalf/obsidian-jira-cloud"
-  },
-  {
     "id": "markdown-sync-scroll",
     "name": "Markdown Sync Scroll",
     "author": "ProjectXero",
@@ -7516,7 +7509,7 @@
     "author": "loftTech",
     "description": "tag explorer and frontmatter logger",
     "repo": "lofttech/obsidian-oblogger"
-  },    
+  }, 
   {
     "id": "simple-canvasearch",
     "name": "Simple CanvaSearch",
@@ -7530,5 +7523,32 @@
     "author": "Juzekkk",
     "description": "Automatically link notes with commands",
     "repo": "Juzekkk/AutoLinker"
+  },
+    "id": "zettelgpt",
+    "name": "ZettelGPT",
+    "author": "Overraddit",
+    "description": "Effortlessly generate context-aware answers from ChatGPT within Obsidian, while maintaining a visually clear and organized conversation history.",
+    "repo": "OverRaddit/ZettelGPT"
+  },
+  {
+    "id": "invio",
+    "name": "Invio",
+    "author": "frontend-engineering",
+    "description": "Export docs as websites and deploy them to AWS S3 or compatible COS. Invio streamlines the process of publishing, enabling users to easily share their work online.",
+    "repo": "frontend-engineering/Invio"
+  },
+  {
+    "id": "periodic-para",
+    "name": "Periodic PARA",
+    "author": "YiBing Lin",
+    "description": "Assist in practicing the PARA system with periodic notes.",
+    "repo": "quanru/obsidian-periodic-para"
+  },
+  {
+    "id": "source-scanner",
+    "name": "Source Scanner",
+    "author": "Gerrie Myburgh",
+    "description": "Scanner that extracts comments from source and places it in md files",
+    "repo": "gerrie-myburgh/source-scanner"
   }
 ]
