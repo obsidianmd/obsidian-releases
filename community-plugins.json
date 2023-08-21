@@ -7601,7 +7601,7 @@
     "description": "Adds events from calendar ics published on the web to daily note on demand. Gets the date to search for events on from the currently open daily note.",
     "repo": "muness/obsidian-ics"
    },
-  {
+   {
     "id": "fantasy-name",
     "name": "Fantasy name generator",
     "author": "Lukewh",
@@ -7728,9 +7728,37 @@
     "repo": "sneaky-foxes/obsidian-safe-filename-linter"
   },
   {
+    "id": "copy-inline-code",
+    "name": "Copy Inline Code",
+    "author": "Ondrej Zavodny",
+    "description": "Easily copy the contents of an inline code element with a single click.",
+    "repo": "Alddar/obsidian-copy-inline-code-plugin"
+  },
+  {
+    "id": "at-people",
+    "name": "At People",
+    "description": "Use the familiar @ notation to cross link to people files in a people folder.",
+    "author": "Tobias Davis",
+    "repo": "saibotsivad/obsidian-at-people"
+  },
+  {
+    "id": "archwiki-reader",
+    "name": "ArchWiki Reader",
+    "author": "Lucy Gschwantner",
+    "description": "Read any ArchWiki page directly in Obsidian",
+    "repo": "Jackboxx/archwiki-obsidian"
+  },
+  {
+    "id": "easy-bake",
+    "name": "Easy Bake",
+    "author": "mgmeyers",
+    "description": "Easily compile many Obsidian notes down to a single file.",
+    "repo": "mgmeyers/obsidian-easy-bake"
+  },
+  {
     "id": "2hop-links-plus",
     "name": "2Hop Links Plus",
-    "author": "L7Cy",
+    "author": "Tokuhiro Matsuno, L7Cy",
     "description": "Related links up to 2 hops away are displayed in a card format, allowing for easy browsing through connections between notes. Each card contains a preview of the corresponding note.",
     "repo": "L7Cy/obsidian-2hop-links-plus"
   }
