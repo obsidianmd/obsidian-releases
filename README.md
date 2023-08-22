@@ -12,7 +12,11 @@ When opening a pull request, please switch to preview mode and select the option
 
 Thanks for submitting your creations!
 
-You can find a detailed explanation for submitting your [plugin here](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/How+to+add+your+plugin+to+the+community+plugin+list) and your [theme here](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/How+to+add+your+theme+to+the+community+theme+store).
+You can find a detailed explanation for submitting your [plugin here](https://docs.obsidian.md/Plugins/Releasing/Submit+your+plugin) and your [theme here](https://docs.obsidian.md/Themes/App+themes/Submit+your+theme).
+
+## Policies
+
+All submissions must conform with our [developer policies](https://docs.obsidian.md/Developer+policies)
 
 ## Community Theme
 
@@ -25,37 +29,11 @@ To add your theme to our theme store, make a pull request to the `community-css-
 - `modes`: if your theme supports both dark and light mode, put `["dark", "light"]`. Otherwise, put `["dark"]` if your theme only supports dark mode, or  `["light"]` if your theme only supports light mode.
 - `publish`: if your theme supports Obsidian Publish, set this to `true`. Omit it otherwise.
 
-To get your theme compatible with Obsidian Publish, you can now use `applyCss` and `applyCssByLink` to test out your CSS in the developer console of Obsidian Publish sites, so that you don't actually need to own sites to test your `publish.css`. You can test it out on our help site here: https://help.obsidian.md/
+To get your theme compatible with Obsidian Publish, you can use `applyCss` and `applyCssByLink` to test out your CSS in the developer console of Obsidian Publish sites, so that you don't actually need to own sites to test your `publish.css`. You can test it out on our help site here: https://help.obsidian.md/
 
 `applyCss` takes a CSS string, you can use backtick (template strings) for multiline CSS. `applyCssByLink` takes a link and loads the CSS, would recommend GitHub raw file URLs.
 
 ## Community Plugin
-
-### Open source policy
-
-We encourage all plugin developers to open source their plugins, however, we recognize that this may not always be possible.
-
-Closed source plugins must be clearly indicated in the plugin description and readme with the following text:
-
-> This plugin is closed source.
-
-### Advertisement policy
-
-#### Dynamic advertisements
-
-Dynamic advertisements (like Google Ads and others, which load ads from the internet) are not allowed for listed community plugins. We firmly believe that dynamic ads are a poor fit for the Obsidian ecosystem and the principles we follow. In addition, dynamic ads are a huge security risk for our users.
-
-#### Static advertisements
-
-Plugins showing static advertisements (like banners, messages, etc) for a third party must be clearly indicated in the plugin description and readme with the following text:
-
-> This plugin is supported by advertisements.
-
-In addition, advertisements must not show up spontaneously, such as in a pop-up modal, notice, etc. They must only be delivered in the plugin's own interfaces (for example: custom views, settings tab), or be triggered by a deliberate user action (for example: clicking a button that says "learn more").
-
-#### Self advertisements
-
-Plugins showing advertisements for the plugin itself, or for the author of the plugin (for example, asking for donations/support, advertise other plugins from the same author, etc) are allowed, but must follow the same placement and timing policy as static advertisements.
 
 ### Community Plugins format
 
