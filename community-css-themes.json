@@ -590,9 +590,8 @@
     "name": "Cardstock",
     "author": "cassidoo",
     "repo": "cassidoo/cardstock",
-    "screenshot": "screenshot.png",
-    "modes": ["dark", "light"],
-    "legacy": true
+    "screenshot": "miniscreenshot.png",
+    "modes": ["dark", "light"]
   },
   {
     "name": "Pine Forest Berry",
@@ -636,7 +635,8 @@
     "author": "Joschua",
     "repo": "selfire1/obsidian-you-theme",
     "screenshot": "theme-picker.png",
-    "modes": ["dark", "light"]
+    "modes": ["dark", "light"],
+    "legacy": true
   },
   {
     "name": "Ebullientworks",
@@ -908,7 +908,7 @@
   {
     "name": "Encore",
     "author": "Lucas Champagne",
-    "repo": "maldonacho/obsidian-encore-theme",
+    "repo": "carbonateb/obsidian-encore-theme",
     "screenshot": "images/promo-image.png",
     "modes": ["dark", "light"]
   },
@@ -1359,7 +1359,7 @@
     "repo": "oqipoDev/Buena-Vista-Theme",
     "screenshot": "img/thumb.png",
     "modes": ["dark", "light"]
-   },
+  },
   {
     "name": "Simplicity",
     "author": "Thiews",
@@ -1388,14 +1388,14 @@
     "screenshot": "assets/main-demo.png",
     "modes": ["light", "dark"]
   },
-   {
+  {
     "name": "Brutalism",
     "author": "abrahambahez",
     "repo": "abrahambahez/Brutalism",
     "screenshot": "brutalism_dark.png",
     "modes": ["dark", "light"]
   },
-   {
+  {
     "name": "Tokyo Night Storm",
     "author": "arozx",
     "repo": "arozx/obsidian_tokyo-night-storm",
@@ -1457,40 +1457,82 @@
     "repo": "SalemElatar/salem-obsidian-theme",
     "screenshot": "screenshot.png",
     "modes": ["dark", "light"]
- },
- {
+  },
+  {
     "name": "gummy",
     "author": "kneecaps",
     "repo": "7368697661/gummy",
     "screenshot": "preview_thumb.png",
     "modes": ["dark", "light"]
- },
- {
+  },
+  {
     "name": "Feather",
     "author": "MFdev",
     "repo": "MFdev-coder/obsidian-feather",
     "screenshot": "assets/Screenshot.png",
     "modes": ["dark", "light"]
-},
-{
+  },
+  {
     "name": "Comfort Dark",
     "author": "Ooopz",
     "repo": "Ooopz/obsidianmd-theme-comfort-dark",
     "screenshot": "screenshot.png",
     "modes": ["dark"]
-},
-{
+  },
+  {
     "name": "Minimal-Resources",
     "author": "jonsnow231",
     "repo": "jonsnow231/Minimal-Resources",
     "screenshot": "screenshot.png",
     "modes": ["dark"]
-},
-{
-  "name": "Simple",
-  "author": "Diego Eis",
-  "repo": "diegoeis/simple-obsidian",
-  "screenshot": "cover.png",
-  "modes": ["dark", "light"]
-}
+  },
+  {
+    "name": "Simple",
+    "author": "Diego Eis",
+    "repo": "diegoeis/simple-obsidian",
+    "screenshot": "cover.png",
+    "modes": ["dark", "light"]
+  },
+  {
+    "name": "Comfort",
+    "author": "Carrie999",
+    "repo": "Carrie999/comfort",
+    "screenshot": "screenshot.png",
+    "modes": ["light"]
+  },
+  {
+    "name": "NotSwift",
+    "author": "David Roos",
+    "repo": "davidjroos/obsidian-notswift",
+    "screenshot": "screenie.png",
+    "modes": ["dark", "light"]
+  },
+  {
+    "name": "Neo",
+    "author": "labdo",
+    "repo": "lab-do/obsidian-neo",
+    "screenshot": "cover.png",
+    "modes": ["dark", "light"]
+  },
+  {
+    "name": "Vanilla AMOLED",
+    "author": "Sakura Akeno Isayeki",
+    "repo": "SakuraIsayeki/vanilla-amoled-theme",
+    "screenshot": "sample-screenshot-sm.png",
+    "modes": ["dark"]
+  },
+  {
+    "name": "Qlean",
+    "author": "Fro-Q",
+    "repo": "Fro-Q/Qlean",
+    "screenshot": "assets/Qlean.png",
+    "modes": ["dark", "light"]
+  },
+  {
+    "name": "Aura Dark",
+    "author": "ProbablyNot",
+    "repo": "Possibly-Matt/obsidian-aura-theme",
+    "screenshot": "img/aura_dark_diagonal.png",
+    "modes": ["dark"]
+  }
 ]
