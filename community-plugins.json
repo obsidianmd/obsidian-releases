@@ -4438,13 +4438,6 @@
     "repo": "czottmann/obsidian-blockquote-levels"
   },
   {
-    "id": "obsidian-system-theme",
-    "name": "System Theme",
-    "author": "jgauth",
-    "description": "Plugin to automatically update to system theme.",
-    "repo": "jgauth/obsidian-system-theme"
-  },
-  {
     "id": "custom-sort",
     "name": "Custom File Explorer sorting",
     "author": "SebastianMC",
@@ -7782,5 +7775,173 @@
     "author": "Marius Wörfel",
     "description": "Keep track of all birthdays of your family and friends.",
     "repo": "Raboro/Obsidian-Birthday-Tracker-Plugin"
+  },
+  {
+    "id": "lovely-mindmap",
+    "name": "Lovely-Mindmap",
+    "author": "shaun",
+    "description": "Build your own knowledge graph with smiles :-)",
+    "repo": "xincan1949/lovely-mindmap"
+  },
+  {
+    "id": "linkshelf",
+    "name": "LinkShelf",
+    "description": "Save links from your browser directly into Obsidian.",
+    "author": "Joel Sequeira",
+    "repo": "joelseq/obsidian-linkshelf"
+  },
+  {
+    "id": "modules",
+    "name": "Modules",
+    "description": "Load JavaScript and related languages like TypeScript modules from the vault and the Internet.",
+    "author": "polyipseity",
+    "repo": "polyipseity/obsidian-modules"
+  },
+  {
+    "id": "codeblock-tabs",
+    "name": "CodeBlock Tabs",
+    "author": "Jemin Mau",
+    "description": "Create tab group for contiguous CodeBlocks.",
+    "repo": "JeminMau/Obsidian-CodeBlock-Tabs"
+ },
+  {
+    "id": "mdx",
+    "name": "MDX",
+    "author": "Yulei Chen",
+    "description": "Preview MDX in Obsidian, with support for Code Hike.",
+    "repo": "yuleicul/obsidian-mdx"
+  },
+  {
+    "id": "emacs-text-editor",
+    "name": "Emacs text editor",
+    "author": "Klojer",
+    "description": "Partial emulation of Emacs text editor for Obisidian.",
+    "repo": "Klojer/obsidian-emacs-text-editor"
+  },
+  {
+    "id": "waka_time_box",
+    "name": "Waka time box",
+    "author": "complexzeng",
+    "description": "Show daily coding activity from WakaTime.",
+    "repo": "simonla/obsidian_waka_box"
+  },
+  {
+    "id": "codename",
+    "name": "Codename",
+    "author": "dstack",
+    "description": "A plugin to solve the hardest problem - naming things.",
+    "repo": "dstack/obsidian-codename"
+  },
+  {
+    "id": "speech2text-helper",
+    "name": "Speech To Text Keyboard Helper",
+    "author": "mwoz123",
+    "description": "As Google Speech to Text Android keyboard does not handle e.g. _new line_ command, this plugin makes available such commands via Obsidian command pallete.",
+    "repo": "mwoz123/speech-to-text-keyboard-helper" 
+  },
+  {
+    "id": "uncheck-all",
+	  "name": "Uncheck All",
+    "author": "Shahar Har-Shuv",
+    "description": "Uncheck all checkboxes in the current note using one command",
+    "repo": "ShacharHarshuv/obsidian-uncheck-all"
+  },
+  {
+    "id": "voice",
+    "name": "Voice",
+    "author": "Chris Oguntolu",
+    "description": "Listen to your notes being read aloud.",
+    "repo": "chrisurf/obsidian-voice"
+  },
+  {
+    "id": "cloze",
+    "name": "Cloze",
+    "author": "Vikki",
+    "description": "Convert highlights, underlines, bolded texts or any selected texts into clozes.",
+    "repo": "DearVikki/obsidian-cloze-plugin"
+  },
+  {
+    "id": "wikidata-importer",
+    "name": "Wikidata Importer",
+    "author": "Sam Rose",
+    "description": "Import data from Wikidata into your vault.",
+    "repo": "samwho/obsidian-wikidata-importer"
+  },
+  {
+    "id": "copilot-auto-completion",
+    "name": "Copilot auto completion",
+    "author": "Jordi Smit",
+    "description": "Adds a highly configurable copilot-like auto-completion to Obsidian using the ChatGPT API",
+    "repo": "j0rd1smit/obsidian-copilot-auto-completion"
+  },
+  {
+    "id": "unitade",
+    "name": "Unitade",
+    "author": "Falcion",
+    "description": "Effortlessly treat any file extension as note, organize diverse file formats in your vault.",
+    "repo": "Falcion/UnitadeOBSIDIAN"
+  },
+  {
+    "id": "python-scripter",
+    "name": "Python Scripter",
+    "author": "Nick Allison",
+    "description": "Run Python scripts directly as Obsidian commands",
+    "repo": "nickrallison/obsidian-python-scripter"
+  },
+  {
+    "id": "quicknote",
+    "name": "Quick note",
+    "author": "James Greenhalgh MBCS",
+    "description": "Create a quick note in a floating window (on command or by right-clicking the Obsidian app icon)",
+    "repo": "jamesgreenblue/obsidian-quicknote"
+  },
+  {
+    "id": "frontmatter-modified-date",
+    "name": "Update frontmatter modified date",
+    "author": "Alan Grainger",
+    "description": "Automatically update a frontmatter modified date field when the file is modified",
+    "repo": "alangrainger/obsidian-frontmatter-modified-date"
+  },
+  {
+    "id": "multi-tag",
+  	"name": "Multi Tag",
+    "author": "fez-github",
+  	"description": "Adds a tag to multiple notes at once.  Either right-click a folder, or select multiple notes and right-click the selection.",
+    "repo": "fez-github/obsidian-multi-tag"
+  },
+  {
+    "id": "zettelkasten-llm-tools",
+    "name": "Zettelkasten LLM Tools",
+    "author": "Karl Smith",
+    "description": "Zettelkasten note taking powered by Large Language Models (e.g. semantic search).",
+    "repo": "glovguy/obsidian-gpt-zettelkasten"
+  },
+  {
+    "id": "reflection",
+    "name": "Reflection",
+    "author": "Brandon Boswell",
+    "description": "Shows daily and weekly notes from this day in years past.",
+    "repo": "brandonkboswell/reflection"
+  },
+  {
+    "id": "ai-research-assistant",
+    "name": "AI Research Assistant",
+    "author": "Interweb Alchemy",
+    "description": "A Prompt Engineering research utility for generative AI models like OpenAI's ChatGPT that facilitates archiving and searching conversations and live editing a conversation's context/memory.",
+    "repo": "InterwebAlchemy/obsidian-ai-research-assistant"
+  },
+  {
+    "id": "wallabag",
+    "name": "Wallabag",
+    "author": "Hüseyin Zengin",
+    "description": "Sync your Wallabag articles.",
+    "repo": "huseyz/obsidian-wallabag"
+  },
+  {
+    "id": "rev-obsidian-sync-plugin",
+    "name": "Custom Native Sync",
+    "author": "acheong08",
+    "description": "Allows you to self host the native sync API and set the URL in the settings. Used with https://github.com/acheong08/rev-obsidian-sync",
+    "repo": "acheong08/rev-obsidian-sync-plugin"
   }
 ]
