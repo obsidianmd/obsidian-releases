@@ -4438,13 +4438,6 @@
     "repo": "czottmann/obsidian-blockquote-levels"
   },
   {
-    "id": "obsidian-system-theme",
-    "name": "System Theme",
-    "author": "jgauth",
-    "description": "Plugin to automatically update to system theme.",
-    "repo": "jgauth/obsidian-system-theme"
-  },
-  {
     "id": "custom-sort",
     "name": "Custom File Explorer sorting",
     "author": "SebastianMC",
@@ -7601,7 +7594,7 @@
     "description": "Adds events from calendar ics published on the web to daily note on demand. Gets the date to search for events on from the currently open daily note.",
     "repo": "muness/obsidian-ics"
    },
-  {
+   {
     "id": "fantasy-name",
     "name": "Fantasy name generator",
     "author": "Lukewh",
@@ -7726,6 +7719,97 @@
     "author": "sneaky-foxes",
     "description": "Lints filenames for invalid or troublesome characters",
     "repo": "sneaky-foxes/obsidian-safe-filename-linter"
+  },
+  {
+    "id": "copy-inline-code",
+    "name": "Copy Inline Code",
+    "author": "Ondrej Zavodny",
+    "description": "Easily copy the contents of an inline code element with a single click.",
+    "repo": "Alddar/obsidian-copy-inline-code-plugin"
+  },
+  {
+    "id": "at-people",
+    "name": "At People",
+    "description": "Use the familiar @ notation to cross link to people files in a people folder.",
+    "author": "Tobias Davis",
+    "repo": "saibotsivad/obsidian-at-people"
+  },
+  {
+    "id": "archwiki-reader",
+    "name": "ArchWiki Reader",
+    "author": "Lucy Gschwantner",
+    "description": "Read any ArchWiki page directly in Obsidian",
+    "repo": "Jackboxx/archwiki-obsidian"
+  },
+  {
+    "id": "easy-bake",
+    "name": "Easy Bake",
+    "author": "mgmeyers",
+    "description": "Easily compile many Obsidian notes down to a single file.",
+    "repo": "mgmeyers/obsidian-easy-bake"
+  },
+  {
+    "id": "yet-another-obsidian-synchronizer",
+    "name": "Yet Another Obsidian Synchronizer",
+    "author": "Mahyar Mirrashed",
+    "description": "This is yet another obsidian synchronizer that uses Git to synchronize your vault contents across devices.",
+    "repo": "mahyarmirrashed/yaos"
+  },
+  {
+    "id": "finnish-spellcheck",
+    "name": "Finnish Spellcheck",
+    "author": "Anto Keinänen",
+    "description": "Spellchecker for the Finnish language using Voikko. / Oikolukija suomenkielellä, joka hyödyntää Voikkoa.",
+    "repo": "antoKeinanen/obsidian-finnish-spellcheck"
+  },
+  {
+    "id": "execute-python",
+    "name": "Execute Python",
+    "author": "williamechols",
+    "description": "lightweight Python code snippet executor with runtime input support",
+    "repo": "williamechols/obsidian-execute-python"
+  },
+  {
+    "id": "birthday-tracker",
+    "name": "Birthday-Tracker",
+    "author": "Marius Wörfel",
+    "description": "Keep track of all birthdays of your family and friends.",
+    "repo": "Raboro/Obsidian-Birthday-Tracker-Plugin"
+  },
+  {
+    "id": "lovely-mindmap",
+    "name": "Lovely-Mindmap",
+    "author": "shaun",
+    "description": "Build your own knowledge graph with smiles :-)",
+    "repo": "xincan1949/lovely-mindmap"
+  },
+  {
+    "id": "linkshelf",
+    "name": "LinkShelf",
+    "description": "Save links from your browser directly into Obsidian.",
+    "author": "Joel Sequeira",
+    "repo": "joelseq/obsidian-linkshelf"
+  },
+  {
+    "id": "modules",
+    "name": "Modules",
+    "description": "Load JavaScript and related languages like TypeScript modules from the vault and the Internet.",
+    "author": "polyipseity",
+    "repo": "polyipseity/obsidian-modules"
+  },
+  {
+    "id": "codeblock-tabs",
+    "name": "CodeBlock Tabs",
+    "author": "Jemin Mau",
+    "description": "Create tab group for contiguous CodeBlocks.",
+    "repo": "JeminMau/Obsidian-CodeBlock-Tabs"
+ },
+  {
+    "id": "mdx",
+    "name": "MDX",
+    "author": "Yulei Chen",
+    "description": "Preview MDX in Obsidian, with support for Code Hike.",
+    "repo": "yuleicul/obsidian-mdx"
   },
   {
     "id": "emacs-text-editor",
