@@ -228,13 +228,27 @@ jobs:
               core.setFailed("Failed to validate plugin");
             }
 
+            await github.rest.issues.removeLabel({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: 'Validation failed'
+            });
+
+            await github.rest.issues.removeLabel({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: 'Ready for review'
+            });
+
             let labels = errors.length > 0 ? ['Validation failed'] : ['Ready for review'];
             if (context.payload.pull_request.labels.includes('Changes requested')) {
               labels.push('Changes requested');
             }
             labels.push('plugin');
 
-            await github.rest.issues.setLabels({
+            await github.rest.issues.addLabels({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
