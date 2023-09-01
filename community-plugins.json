@@ -7803,7 +7803,7 @@
     "author": "Jemin Mau",
     "description": "Create tab group for contiguous CodeBlocks.",
     "repo": "JeminMau/Obsidian-CodeBlock-Tabs"
- },
+  },
   {
     "id": "mdx",
     "name": "MDX",
@@ -7837,11 +7837,11 @@
     "name": "Speech To Text Keyboard Helper",
     "author": "mwoz123",
     "description": "As Google Speech to Text Android keyboard does not handle e.g. _new line_ command, this plugin makes available such commands via Obsidian command pallete.",
-    "repo": "mwoz123/speech-to-text-keyboard-helper" 
+    "repo": "mwoz123/speech-to-text-keyboard-helper"
   },
   {
     "id": "uncheck-all",
-	  "name": "Uncheck All",
+    "name": "Uncheck All",
     "author": "Shahar Har-Shuv",
     "description": "Uncheck all checkboxes in the current note using one command",
     "repo": "ShacharHarshuv/obsidian-uncheck-all"
@@ -7904,9 +7904,9 @@
   },
   {
     "id": "multi-tag",
-  	"name": "Multi Tag",
+    "name": "Multi Tag",
     "author": "fez-github",
-  	"description": "Adds a tag to multiple notes at once.  Either right-click a folder, or select multiple notes and right-click the selection.",
+    "description": "Adds a tag to multiple notes at once.  Either right-click a folder, or select multiple notes and right-click the selection.",
     "repo": "fez-github/obsidian-multi-tag"
   },
   {
@@ -7950,7 +7950,7 @@
     "author": "Frithjof Gressmann",
     "description": "Zotero API client to sync your Zotero library into your vault",
     "repo": "frthjf/obsidian-zotero-sync-client"
-  },	
+  },
   {
     "id": "harpoon",
     "name": "Harpoon",
@@ -8043,10 +8043,24 @@
     "repo": "hucorz/obsidian-autoLiterature"
   },
   {
-    "id": "zettelflow",
-    "name": "ZettelFlow",
-    "author": "RafaelGB",
-    "description": "Helps you to create and manage your notes in a Zettelkasten way via Canvas.",
-    "repo": "RafaelGB/Obsidian-ZettlelFlow"
+    "id": "local-backup",
+    "name": "Local Backup",
+    "author": "GC Chen",
+    "description": "Automatically creates a backup of the vault on Obsidian starts.",
+    "repo": "cgcel/obsidian-local-backup"
+  },
+  {
+  "id": "chatgpt-definitions",
+	"name": "ChatGPT Definition",
+	"author": "julix14",
+	"description": "Let your AI assistant ChatGPT define words and concepts for you.",
+	"repo": "julix14/chatGPT-Obsidian"
+  },
+  {
+  "id": "zettelflow",
+  "name": "ZettelFlow",
+  "author": "RafaelGB",
+  "description": "Helps you to create and manage your notes in a Zettelkasten way via Canvas.",
+  "repo": "RafaelGB/Obsidian-ZettlelFlow"
   }
 ]
