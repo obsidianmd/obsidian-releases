@@ -142,9 +142,9 @@
   {
     "id": "obsidian-day-planner",
     "name": "Day Planner",
-    "author": "James Lynch",
-    "description": "Day planning and managing pomodoro timers from a task list in a Markdown note.",
-    "repo": "lynchjames/obsidian-day-planner"
+    "author": "James Lynch (continued by Ivan Lednev)",
+    "description": "Day planning from a task list in a Markdown note.",
+    "repo": "ivan-lednev/obsidian-day-planner"
   },
   {
     "id": "cm-editor-syntax-highlight-obsidian",
@@ -7472,7 +7472,7 @@
     "id": "colored-tags",
     "name": "Colored Tags",
     "author": "Pavel Frankov",
-    "description": "Colorizes tags in different colors. The color depends on the tag content. Colors of nested tags are mixed with parent tags. Text color contrast is automatically matched to comply with AA level WCAG 2.1.",
+    "description": "Colorizes tags in different colors to visually distinguish them from each other. Colors of nested tags are mixed with parent tags. Text color contrast is automatically matched to comply with AA level WCAG 2.1",
     "repo": "pfrankov/obsidian-colored-tags"
   },
   {
@@ -7803,7 +7803,7 @@
     "author": "Jemin Mau",
     "description": "Create tab group for contiguous CodeBlocks.",
     "repo": "JeminMau/Obsidian-CodeBlock-Tabs"
- },
+  },
   {
     "id": "mdx",
     "name": "MDX",
@@ -7837,11 +7837,11 @@
     "name": "Speech To Text Keyboard Helper",
     "author": "mwoz123",
     "description": "As Google Speech to Text Android keyboard does not handle e.g. _new line_ command, this plugin makes available such commands via Obsidian command pallete.",
-    "repo": "mwoz123/speech-to-text-keyboard-helper" 
+    "repo": "mwoz123/speech-to-text-keyboard-helper"
   },
   {
     "id": "uncheck-all",
-	  "name": "Uncheck All",
+    "name": "Uncheck All",
     "author": "Shahar Har-Shuv",
     "description": "Uncheck all checkboxes in the current note using one command",
     "repo": "ShacharHarshuv/obsidian-uncheck-all"
@@ -7904,9 +7904,9 @@
   },
   {
     "id": "multi-tag",
-  	"name": "Multi Tag",
+    "name": "Multi Tag",
     "author": "fez-github",
-  	"description": "Adds a tag to multiple notes at once.  Either right-click a folder, or select multiple notes and right-click the selection.",
+    "description": "Adds a tag to multiple notes at once.  Either right-click a folder, or select multiple notes and right-click the selection.",
     "repo": "fez-github/obsidian-multi-tag"
   },
   {
@@ -7950,7 +7950,7 @@
     "author": "Frithjof Gressmann",
     "description": "Zotero API client to sync your Zotero library into your vault",
     "repo": "frthjf/obsidian-zotero-sync-client"
-  },	
+  },
   {
     "id": "harpoon",
     "name": "Harpoon",
@@ -7999,6 +7999,62 @@
     "author": "Liam Riddell",
     "description": "Your Math Maestro! Real-time calculations without AI (e.g. ChatGPT) fuss. From date magic ('Now + 20 days') to arithmetic flair ('10 + 5 / (2 * 2)'), your trusted sidekick in every note. More brilliance on the way!",
     "repo": "LiamRiddell/obsidian-solve"
+  },
+  {
+    "id": "graph-nested-tags",
+    "name": "Nested tags graph",
+    "author": "drpilman",
+    "description": "Links nested tags in graph view",
+    "repo": "drPilman/obsidian-graph-nested-tags"
+  },
+  {
+    "id": "youversion-linker",
+    "name": "YouVersion Linker",
+    "author": "Jaanonim",
+    "description": "Automatically link bible verses in your notes to YouVersion bible.",
+    "repo": "jaanonim/obsidian-youversion-linker"
+  },
+  {
+    "id": "checkbox-reorder",
+    "name": "Checkbox Reorder",
+    "author": "Ivan Knöfler",
+    "description": "Reorder completed checkboxes to the end of the according list.",
+    "repo": "Erl-koenig/obsidian-checkboxReorder"
+  },
+  {
+    "id": "gnome-terminal-loader",
+    "name": "Gnome Terminal Loader",
+    "author": "David Carmichael",
+    "description": "Adds sidebar action icons to quickly open the Gnome Terminal or to have the Gnome Terminal run a Python module.",
+    "repo": "CheeseCake87/gnome-terminal-loader"
+  },
+  {
+     "id": "media-sync",
+    "name": "Media Sync",
+    "author": "fnya",
+    "description": "Downloads images from the image URLs in documents and displays the content.",
+    "repo": "fnya/media-sync"
+  },
+  {
+    "id": "auto-literature",
+    "name": "autoLiterature",
+    "author": "hucorz",
+    "description": "Assist you in taking notes for your literature.",
+    "repo": "hucorz/obsidian-autoLiterature"
+  },
+  {
+    "id": "local-backup",
+    "name": "Local Backup",
+    "author": "GC Chen",
+    "description": "Automatically creates a backup of the vault on Obsidian starts.",
+    "repo": "cgcel/obsidian-local-backup"
+  },
+  {
+  "id": "chatgpt-definitions",
+	"name": "ChatGPT Definition",
+	"author": "julix14",
+	"description": "Let your AI assistant ChatGPT define words and concepts for you.",
+	"repo": "julix14/chatGPT-Obsidian"
   },
   {    
     "id": "typing-assistant",
