@@ -590,9 +590,8 @@
     "name": "Cardstock",
     "author": "cassidoo",
     "repo": "cassidoo/cardstock",
-    "screenshot": "screenshot.png",
-    "modes": ["dark", "light"],
-    "legacy": true
+    "screenshot": "miniscreenshot.png",
+    "modes": ["dark", "light"]
   },
   {
     "name": "Pine Forest Berry",
@@ -636,7 +635,8 @@
     "author": "Joschua",
     "repo": "selfire1/obsidian-you-theme",
     "screenshot": "theme-picker.png",
-    "modes": ["dark", "light"]
+    "modes": ["dark", "light"],
+    "legacy": true
   },
   {
     "name": "Ebullientworks",
@@ -1515,17 +1515,38 @@
     "modes": ["dark", "light"]
   },
   {
-  "name": "Vanilla AMOLED",
-  "author": "Sakura Akeno Isayeki",
-  "repo": "SakuraIsayeki/vanilla-amoled-theme",
-  "screenshot": "sample-screenshot-sm.png",
-  "modes": ["dark"]
+    "name": "Vanilla AMOLED",
+    "author": "Sakura Akeno Isayeki",
+    "repo": "SakuraIsayeki/vanilla-amoled-theme",
+    "screenshot": "sample-screenshot-sm.png",
+    "modes": ["dark"]
   },
   {
     "name": "Qlean",
     "author": "Fro-Q",
     "repo": "Fro-Q/Qlean",
     "screenshot": "assets/Qlean.png",
+    "modes": ["dark", "light"]
+  },
+  {
+    "name": "Aura Dark",
+    "author": "ProbablyNot",
+    "repo": "Possibly-Matt/obsidian-aura-theme",
+    "screenshot": "img/aura_dark_diagonal.png",
+    "modes": ["dark"]
+  },
+  {
+    "name": "Venom",
+    "author": "Fatiger",
+    "repo": "fatiger92/obsidian_venom_theme",
+    "screenshot": "screenshot.png",
+    "modes": ["dark"]
+  },
+  {
+    "name": "Serika",
+    "author": "Warrobot10",
+    "repo": "Warrobot10/Serika-for-obsidian",
+    "screenshot": "Serika.png",
     "modes": ["dark", "light"]
   }
 ]
