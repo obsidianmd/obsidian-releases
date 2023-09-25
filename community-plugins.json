@@ -1176,13 +1176,6 @@
     "repo": "hadynz/obsidian-kindle-plugin"
   },
   {
-    "id": "obsidian-metatable",
-    "name": "Metatable",
-    "description": "Display the whole frontmatter section as a collapsible table.",
-    "author": "Arnau Siches",
-    "repo": "arnau/obsidian-metatable"
-  },
-  {
     "id": "oz-image-plugin",
     "name": "Ozan's Image in Editor Plugin",
     "author": "Ozan Tellioglu",
@@ -2038,10 +2031,10 @@
   },
   {
     "id": "obsidian-icon-folder",
-    "name": "Icon Folder",
+    "name": "Iconize",
     "author": "FlorianWoelki",
-    "description": "Add icons to your folders.",
-    "repo": "FlorianWoelki/obsidian-icon-folder"
+    "description": "Add icons to anything you desire in Obsidian, including files, folders, and text.",
+    "repo": "FlorianWoelki/obsidian-iconize"
   },
   {
     "id": "ghost-fade-focus",
@@ -6370,13 +6363,6 @@
     "repo": "lukasbach/obsidian-file-order"
   },
   {
-    "id": "no-tabs",
-    "name": "No Tabs",
-    "author": "Tobias Schuster",
-    "description": "Replaces the previous tab when creating a new note.",
-    "repo": "TS-Tobias/obsidian-no-tabs"
-  },
-  {
     "id": "tab-rotator",
     "name": "Tab Rotator",
     "author": "Steven Jin",
@@ -7785,10 +7771,10 @@
   },
   {
     "id": "linkshelf",
-    "name": "LinkShelf",
+    "name": "LinkStowr",
     "description": "Save links from your browser directly into Obsidian.",
     "author": "Joel Sequeira",
-    "repo": "joelseq/obsidian-linkshelf"
+    "repo": "joelseq/obsidian-linkstowr"
   },
   {
     "id": "modules",
@@ -7850,7 +7836,7 @@
     "id": "voice",
     "name": "Voice",
     "author": "Chris Oguntolu",
-    "description": "Listen to your notes being read aloud.",
+    "description": "Let your notes talk and speak to you and enhance your Obsidian experience to effortlessly listen to your notes being read aloud and enjoy the power of sound, audio, and speech.",
     "repo": "chrisurf/obsidian-voice"
   },
   {
@@ -8046,7 +8032,7 @@
     "id": "local-backup",
     "name": "Local Backup",
     "author": "GC Chen",
-    "description": "Automatically creates a backup of the vault on Obsidian starts.",
+    "description": "Automatically creates a local backup of the vault.",
     "repo": "cgcel/obsidian-local-backup"
   },
   {
@@ -8155,9 +8141,9 @@
     "repo": "red0orange/obsidian-webdav-file-explorer"
   },
   {
-  	"id": "sheets",
-  	"name": "Sheets Extended",
-  	"author": "NicoNekoru",
+    "id": "sheets",
+    "name": "Sheets Extended",
+    "author": "NicoNekoru",
     "description": "Vertical headers, merged cells, and custom css tables with advanced table compatability",
     "repo": "NicoNekoru/obsidan-advanced-table-xt"
   },
@@ -8176,11 +8162,11 @@
     "repo": "x-Ai/obsidian-nifty-links"
   },
   {
-  	"id": "exercises",
-  	"name": "Exercises",
-  	"author": "AlexCCavaco",
-  	"description": "Create Interactive Exercises along side your Obsidian Notes",
-  	"repo": "AlexCCavaco/obsidian-exercises"
+    "id": "exercises",
+    "name": "Exercises",
+    "author": "AlexCCavaco",
+    "description": "Create Interactive Exercises along side your Obsidian Notes",
+    "repo": "AlexCCavaco/obsidian-exercises"
   },
   {
     "id": "math-booster",
@@ -8272,6 +8258,13 @@
     "author": "James Lynch (continued by Erin Schnabel)",
     "description": "Day planning from a simple task list in a Markdown note (bare bones, preserves the features and behavior of the original plugin)",
     "repo": "ebullient/obsidian-day-planner-og"
+  },
+  {
+    "id": "automatic-table-of-contents",
+    "name": "Automatic Table Of Contents",
+    "author": "Johan Satgé",
+    "description": "Create a table of contents in a note, that updates itself when the note changes",
+    "repo": "johansatge/obsidian-automatic-table-of-contents"
   },
   {
     "id": "tag-page-md",
