@@ -143,7 +143,7 @@
     "id": "obsidian-day-planner",
     "name": "Day Planner",
     "author": "James Lynch (continued by Ivan Lednev)",
-    "description": "Day planning from a task list in a Markdown note.",
+    "description": "Day planning from a task list in a Markdown note with enhanced time block functionality.",
     "repo": "ivan-lednev/obsidian-day-planner"
   },
   {
@@ -1176,13 +1176,6 @@
     "repo": "hadynz/obsidian-kindle-plugin"
   },
   {
-    "id": "obsidian-metatable",
-    "name": "Metatable",
-    "description": "Display the whole frontmatter section as a collapsible table.",
-    "author": "Arnau Siches",
-    "repo": "arnau/obsidian-metatable"
-  },
-  {
     "id": "oz-image-plugin",
     "name": "Ozan's Image in Editor Plugin",
     "author": "Ozan Tellioglu",
@@ -2038,10 +2031,10 @@
   },
   {
     "id": "obsidian-icon-folder",
-    "name": "Icon Folder",
+    "name": "Iconize",
     "author": "FlorianWoelki",
-    "description": "Add icons to your folders.",
-    "repo": "FlorianWoelki/obsidian-icon-folder"
+    "description": "Add icons to anything you desire in Obsidian, including files, folders, and text.",
+    "repo": "FlorianWoelki/obsidian-iconize"
   },
   {
     "id": "ghost-fade-focus",
@@ -6370,13 +6363,6 @@
     "repo": "lukasbach/obsidian-file-order"
   },
   {
-    "id": "no-tabs",
-    "name": "No Tabs",
-    "author": "Tobias Schuster",
-    "description": "Replaces the previous tab when creating a new note.",
-    "repo": "TS-Tobias/obsidian-no-tabs"
-  },
-  {
     "id": "tab-rotator",
     "name": "Tab Rotator",
     "author": "Steven Jin",
@@ -7785,10 +7771,10 @@
   },
   {
     "id": "linkshelf",
-    "name": "LinkShelf",
+    "name": "LinkStowr",
     "description": "Save links from your browser directly into Obsidian.",
     "author": "Joel Sequeira",
-    "repo": "joelseq/obsidian-linkshelf"
+    "repo": "joelseq/obsidian-linkstowr"
   },
   {
     "id": "modules",
@@ -7850,7 +7836,7 @@
     "id": "voice",
     "name": "Voice",
     "author": "Chris Oguntolu",
-    "description": "Listen to your notes being read aloud.",
+    "description": "Let your notes talk and speak to you and enhance your Obsidian experience to effortlessly listen to your notes being read aloud and enjoy the power of sound, audio, and speech.",
     "repo": "chrisurf/obsidian-voice"
   },
   {
@@ -8046,7 +8032,7 @@
     "id": "local-backup",
     "name": "Local Backup",
     "author": "GC Chen",
-    "description": "Automatically creates a backup of the vault on Obsidian starts.",
+    "description": "Automatically creates a local backup of the vault.",
     "repo": "cgcel/obsidian-local-backup"
   },
   {
@@ -8155,9 +8141,9 @@
     "repo": "red0orange/obsidian-webdav-file-explorer"
   },
   {
-  	"id": "sheets",
-  	"name": "Sheets Extended",
-  	"author": "NicoNekoru",
+    "id": "sheets",
+    "name": "Sheets Extended",
+    "author": "NicoNekoru",
     "description": "Vertical headers, merged cells, and custom css tables with advanced table compatability",
     "repo": "NicoNekoru/obsidan-advanced-table-xt"
   },
@@ -8176,11 +8162,11 @@
     "repo": "x-Ai/obsidian-nifty-links"
   },
   {
-  	"id": "exercises",
-  	"name": "Exercises",
-  	"author": "AlexCCavaco",
-  	"description": "Create Interactive Exercises along side your Obsidian Notes",
-  	"repo": "AlexCCavaco/obsidian-exercises"
+    "id": "exercises",
+    "name": "Exercises",
+    "author": "AlexCCavaco",
+    "description": "Create Interactive Exercises along side your Obsidian Notes",
+    "repo": "AlexCCavaco/obsidian-exercises"
   },
   {
     "id": "math-booster",
@@ -8225,10 +8211,58 @@
     "repo": "ms3056/Tokei"
   },
   {
+    "id": "codeblock-template",
+    "name": "Codeblock Template",
+    "author": "Super10",
+    "description": "A template plugin that allows for the reuse of content within Code Blocks, with the ability to utilize variables. ",
+    "repo": "sylcool/obsidian-codeblock-template"
+  },
+  {
+    "id": "2hop-links-plus",
+    "name": "2Hop Links Plus",
+    "author": "Tokuhiro Matsuno, L7Cy",
+    "description": "Related links up to 2 hops away are displayed in a card format, allowing for easy browsing through connections between notes. Each card contains a preview of the corresponding note.",
+    "repo": "L7Cy/obsidian-2hop-links-plus"
+  },
+  {
+    "id": "custom-font-loader",
+    "name": "Custom Font Loader",
+    "author": "Amir Pourmand",
+    "description": "Customize your Obsidian vault with any font you want (+ Support for Android and iOS)",
+    "repo": "pourmand1376/obsidian-custom-font"
+  },
+  {
+    "id": "pickly-page-blend",
+    "name": "Pickly PageBlend",
+    "author": "Dmitrii Mitrichev",
+    "description": "Publish your Obsidian notes in one click.",
+    "repo": "dmitrichev/pickly-page-blend"
+  },
+  {
+    "id": "ai-editor",
+    "name": "AI Editor",
+    "description": "Elevate your Obsidian workflow with customizable LLM actions.",
+    "author": "Zekun Shen",
+    "repo": "buszk/obsidian-ai-editor"
+  },
+  {
+    "id": "workbooks",
+    "name": "Workbooks",
+    "author": "Gabriele Cannata",
+    "description": "Work with Spreadsheets inside your notes",
+    "repo": "Canna71/obsidian-sheets"
+  },
+  {
+    "id": "day-planner-og",
+    "name": "Day Planner (OG)",
+    "author": "James Lynch (continued by Erin Schnabel)",
+    "description": "Day planning from a simple task list in a Markdown note (bare bones, preserves the features and behavior of the original plugin)",
+    "repo": "ebullient/obsidian-day-planner-og"
+  },
+  {
     "id": "zettelflow",
     "name": "ZettelFlow",
     "author": "RafaelGB",
     "description": "Helps you to create and manage your notes in a Zettelkasten way via Canvas.",
     "repo": "RafaelGB/Obsidian-ZettlelFlow"
-  }
 ]
