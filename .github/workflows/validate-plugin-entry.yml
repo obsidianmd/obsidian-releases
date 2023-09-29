@@ -66,12 +66,12 @@ jobs:
                 }
               }
 
-            await github.rest.pulls.update({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-              title: `Add plugin ${plugin.name}`
-            });
+              await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                title: `Add plugin ${plugin.name}`
+              });
                
               // Validate plugin repo
               let repoInfo = plugin.repo.split('/');
