@@ -67,6 +67,13 @@ jobs:
                     }
                 }
 
+              await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                title: `Add theme ${theme.name}`
+              });
+
                 // Validate theme repo
                 let repoInfo = theme.repo.split('/');
                 if (repoInfo.length !== 2) {
