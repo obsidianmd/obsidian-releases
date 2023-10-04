@@ -65,6 +65,13 @@ jobs:
                   addError(`Your PR has the invalid \`${key}\` property.`);
                 }
               }
+
+              await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                title: `Add plugin ${plugin.name}`
+              });
                
               // Validate plugin repo
               let repoInfo = plugin.repo.split('/');
@@ -227,10 +234,25 @@ jobs:
             if (errors.length > 0) {
               core.setFailed("Failed to validate plugin");
             }
-
+            
             let labels = errors.length > 0 ? ['Validation failed'] : ['Ready for review'];
             if (context.payload.pull_request.labels.includes('Changes requested')) {
               labels.push('Changes requested');
+            }
+            if (context.payload.pull_request.labels.includes('Additional review required')) {
+              labels.push('Additional review required');
+            }
+            if (context.payload.pull_request.labels.includes('Minor changes requested')) {
+              labels.push('Minor changes requested');
+            }
+            if (context.payload.pull_request.labels.includes('Requires author rebase')) {
+              labels.push('requires author rebase');
+            }
+            if (context.payload.pull_request.labels.includes('Installation not recommended')) {
+              labels.push('Installation not recommended');
+            }
+            if (context.payload.pull_request.labels.includes('Changes made')) {
+              labels.push('Changes made');
             }
             labels.push('plugin');
 
