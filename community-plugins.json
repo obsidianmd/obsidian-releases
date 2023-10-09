@@ -7322,13 +7322,6 @@
     "repo": "Kevger/obsidian-laws-of-form"
   },
   {
-    "id": "notes-sync-share",
-    "name": "Notes Sync Share",
-    "author": "Alt-er",
-    "description": "Sync and share (publish) your notes in your own private service.",
-    "repo": "Alt-er/obsidian-sync-share"
-  },
-  {
     "id": "nai4obsidian",
     "name": "NAI 4 Obsidian",
     "author": "SGreen",
@@ -8217,9 +8210,6 @@
     "description": "Day planning from a simple task list in a Markdown note (bare bones, preserves the features and behavior of the original plugin)",
     "repo": "ebullient/obsidian-day-planner-og"
   },
-
-
-
   {
     "id": "automatic-table-of-contents",
     "name": "Automatic Table Of Contents",
@@ -8324,6 +8314,237 @@
     "author": "mwoz123",
     "description": "Collection of various utilities (e.g. duplicate empty line remover)",
     "repo": "mwoz123/swiss-army-knife-obsidian"
+  },
+  {
+    "id": "share-to-notionnext",
+    "name": "Share to NotionNext",
+    "author": "EasyChris, jxpeng98",
+    "description": "Shares file to Notion with Notion API for NotionNext web deploy, originally created by EasyChris/obsidian-to-notion.",
+    "repo": "jxpeng98/obsidian-to-NotionNext"
+  },
+  {
+    "id": "inline-math",
+    "name": "No more flickering inline math",
+    "author": "Ryota Ushio",
+    "description": "No longer disturbed by flickering inline math in Obsidian.",
+    "repo": "RyotaUshio/obsidian-inline-math"
+  },
+  {
+    "id": "expiration-date-tracker",
+    "name": "Expiration-Date-Tracker",
+    "author": "Marius Wörfel",
+    "description": "Keep track of all expiration dates, for example, for your groceries.",
+    "repo": "Raboro/obsidian-expiration-date-tracker-plugin"
+  },
+  {
+    "id": "eml-reader",
+    "name": "Email Reader",
+    "description": "Provide a preview mode for embeded `*.eml` files.",
+    "author": "Pulsovi",
+    "repo": "pulsovi/obsidian_eml_reader"
+  },
+  {
+    "id": "size-history",
+    "name": "Size History",
+    "author": "Piotr Borowski",
+    "description": "Admire the growth of your Obsidian vault with a \"hand-drawn\" chart.",
+    "repo": "pbrw/obsidian-size-history"
+  },
+  {
+    "id": "zettelflow",
+    "name": "ZettelFlow",
+    "author": "RafaelGB",
+    "description": "Helps you to create and manage your notes in a Zettelkasten way via Canvas.",
+    "repo": "RafaelGB/Obsidian-ZettelFlow"
+  },
+  {
+    "id": "excel",
+    "name": "Excel",
+    "author": "ljcoder",
+    "description": "Create spreadsheets and easily embed them in Markdown",
+    "repo": "ljcoder2015/obsidian-excel"
+  },
+  {
+    "id": "canvas-send-to-back",
+    "name": "Canvas Send to Back",
+    "author": "Zachatoo",
+    "description": "Send a card in Obsidian Canvas to be behind all other cards.",
+    "repo": "Zachatoo/obsidian-canvas-send-to-back"
+  },
+  {
+    "id": "sync-contacts-macos",
+    "name": "Sync Contacts on macOS",
+    "author": "Marcel Schöckel",
+    "description": "Sync your contacts from macOS to your Obsidian Vault.",
+    "repo": "motschel123/Mac-Contact-Sync-Obsidian"
+  },
+  {
+    "id": "tag-page-md",
+    "name": "Tag Page",
+    "author": "Matthew Sumpter",
+    "description": "Dynamically generate and update tag-specific pages, offering a consolidated view of each tag's references across your vault.",
+    "repo": "mjsumpter/obsidian-tag-page"
+  },
+  {
+    "id": "contentful-publisher",
+    "name": "Contentful Publisher",
+    "author": "Ziya Fenn",
+    "description": "Manage your Contentful content from Obsidian.",
+    "repo": "ziyafenn/obsidian-contentful-publisher"
+  },
+  {
+    "id": "zotlit",
+    "name": "ZotLit",
+    "author": "AidenLx",
+    "description": "Plugin to integrate with Zotero, create literature notes, and insert citations from a Zotero library.",
+    "repo": "PKM-er/obsidian-zotlit"
+  },
+  {
+		"id": "text-transform",
+		"name": "Text Transform",
+		"author": "ipshing",
+		"description": "This plugin adds options to transform text to different casings using keyboard shortcuts.",
+		"repo": "ipshing/obsidian-text-transform"
+  },
+  {
+    "id": "copy-metadata",
+    "name": "Copy Metadata",
+    "author": "wenlzhang",
+    "description": "Copy file metadata, e.g., creation time, to clipboard. Insert copied metadata to file name.",
+    "repo": "wenlzhang/obsidian-copy-metadata"
+  },
+  {
+    "id": "text-conversions",
+    "name": "Text Conversions",
+    "author": "Juan D Frias",
+    "description": "Perform various text conversions on the selected text",
+    "repo": "ironsigma/obsidian-text-conversions"
+  },
+  {
+    "id": "palta-note",
+    "name": "Palta Note",
+    "author": "Niket Shah (mrniket)",
+    "description": "Render Bhatkhande notation for Tabla.",
+    "repo": "mrniket/palta-obsidian-plugin"
+  },
+  {
+    "id": "qb-reader-parser",
+    "name": "QB Reader Parser",
+    "author": "Jacob Barta",
+    "description": "Automatically parse tossups from QB Reader into a format readable by the Obsidian_to_Anki plugin.",
+    "repo": "J-Barta/qb-reader-parser"
+  },
+  {
+    "id": "tags-overview",
+    "name": "Tags Overview",
+    "author": "Christian Wannerstedt",
+    "description": "Adds an extended tags panel where tagged files can be overviewed, filtered and accessed in a simple way.",
+    "repo": "christianwannerstedt/obsidian-tags-overview"
+  },
+  {
+    "id": "next-link",
+    "name": "Next Link",
+    "author": "Juan Luque",
+    "description": "Jump quickly between note links.",
+    "repo": "jdluque/next-link"
+  },
+  {
+    "id": "writing-goals",
+    "name": "Writing Goals",
+    "author": "James Lynch",
+    "description": "Set dynamic writing goals for your notes and folders.",
+    "repo": "lynchjames/obsidian-writing-goals"
+  },
+  {
+    "id": "auto-archive",
+    "name": "Auto Archive",
+    "author": "Shane Burke",
+    "description": "Automatically archive notes once they reach a certain age",
+    "repo": "shanedonburke/obsidian-auto-archive"
+  },
+  {
+    "id": "cardify",
+    "name": "Cardify",
+    "author": "joshuakto",
+    "description": "Create links for blocks in a markdown file and generate markdown file for each link within a folder. Enabling drag-and-drop of cards onto canvas.",
+    "repo": "joshuakto/obsidian-cardify"
+  },
+  {
+    "id": "vocabulary-cards",
+    "name": "Vocabulary Cards",
+    "author": "Eugene Myazin",
+    "description": "An easy way to display vocabulary words as flashcards and as a list.",
+    "repo": "meniam/obsidian-vocabulary-cards"
+  },
+  {
+    "id": "calctex",
+    "name": "Calctex",
+    "author": "Mike",
+    "description": "Calculate LaTeX formulas inside Obsidian.",
+    "repo": "Developer-Mike/calctex"
+  },
+  {
+    "id": "timetracker",
+    "name": "Timetracker",
+    "author": "Nils Dammenhayn",
+    "description": "Adds a stopwatch whose value can be inserted in the editor per hotkey",
+    "repo": "hedgehog1833/obsidian-timetracker"
+  },
+  {
+    "id": "eleven-labs",
+    "name": "Eleven Labs",
+    "author": "Mark Charles",
+    "description": "Turn your Obsidian notes into text-to-speech audio files with Eleven Labs.",
+    "repo": "veritas1/eleven-labs-obsidian-plugin"
+  },
+  {
+    "id": "digital-paper",
+    "name": "digital paper",
+    "author": "Daniel Fernandes",
+    "description": "turn off backspace and undo, just like writing with a pen on real paper.",
+    "repo": "danferns/digital-paper-obsidian-plugin"
+  },
+  {
+    "id": "merge-notes",
+    "name": "Merge Notes",
+    "author": "fnya",
+    "description": "Merge the selected notes.",
+    "repo": "fnya/merge-notes"
+  },
+  {
+    "id": "qiniu-image-uploader",
+    "name": "Qiniu Image Uploader",
+    "author": "Jade Zheng",
+    "description": "Uploads images from your clipboard to qiniu.com and embeds uploaded image to your note.",
+    "repo": "jianzs/obsidian-qiniu-image-uploader"
+  },
+  {
+    "id": "html-tabs",
+  	"name": "HTML Tabs",
+  	"author": "Patrick Tournet",
+  	"description": "Create and render Tabs and tab panels in your notes.",
+    "repo": "ptournet/obsidian-html-tabs"
+  },
+  {
+    "id": "vscode-editor",
+    "name": "VSCode Editor",
+    "author": "Sun Xvming",
+    "description": "Edit Code Files like VSCode.",
+    "repo": "sunxvming/obsidian-vscode-editor"
+  },
+  {
+    "id": "anki-sync-plus",
+    "name": "AnkiSync+",
+    "author": "RochaG0",
+    "description": "Integration between Obsidian and Anki.",
+    "repo": "RochaG07/anki-sync-plus"
+  },
+  {
+    "id": "moviegrabber",
+    "name": "moviegrabber",
+    "author": "Leon Holtmeier",
+    "description": "Grab movie data from public APIs and transform it into notes that can be used with dataview and properties",
+    "repo": "Superschnizel/Obsidian-Moviegrabber"
   },
   {
     "id": "geocoding-properties",
