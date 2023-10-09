@@ -67,13 +67,6 @@ jobs:
                     }
                 }
 
-                await github.rest.pulls.update({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  pull_number: context.issue.number,
-                  title: `Add theme ${theme.name}`
-                });
-
                 // Validate theme repo
                 let repoInfo = theme.repo.split('/');
                 if (repoInfo.length !== 2) {
@@ -235,6 +228,13 @@ jobs:
                 } catch (e) {
                     addWarning('Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.');
                 }
+
+                await github.rest.pulls.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number: context.issue.number,
+                  title: `Add theme: ${theme.name}`
+                });
 
             })();
 

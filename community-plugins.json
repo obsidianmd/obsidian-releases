@@ -7322,13 +7322,6 @@
     "repo": "Kevger/obsidian-laws-of-form"
   },
   {
-    "id": "notes-sync-share",
-    "name": "Notes Sync Share",
-    "author": "Alt-er",
-    "description": "Sync and share (publish) your notes in your own private service.",
-    "repo": "Alt-er/obsidian-sync-share"
-  },
-  {
     "id": "nai4obsidian",
     "name": "NAI 4 Obsidian",
     "author": "SGreen",
@@ -7719,7 +7712,7 @@
     "author": "Marius Wörfel",
     "description": "Keep track of all birthdays of your family and friends.",
     "repo": "Raboro/Obsidian-Birthday-Tracker-Plugin"
-  }, 
+  },
   {
     "id": "lovely-mindmap",
     "name": "Lovely-Mindmap",
@@ -8400,7 +8393,133 @@
     "repo": "ziyafenn/obsidian-contentful-publisher"
   },
   {
-  	"id": "html-tabs",
+    "id": "zotlit",
+    "name": "ZotLit",
+    "author": "AidenLx",
+    "description": "Plugin to integrate with Zotero, create literature notes, and insert citations from a Zotero library.",
+    "repo": "PKM-er/obsidian-zotlit"
+  },
+  {
+		"id": "text-transform",
+		"name": "Text Transform",
+		"author": "ipshing",
+		"description": "This plugin adds options to transform text to different casings using keyboard shortcuts.",
+		"repo": "ipshing/obsidian-text-transform"
+  },
+  {
+    "id": "copy-metadata",
+    "name": "Copy Metadata",
+    "author": "wenlzhang",
+    "description": "Copy file metadata, e.g., creation time, to clipboard. Insert copied metadata to file name.",
+    "repo": "wenlzhang/obsidian-copy-metadata"
+  },
+  {
+    "id": "text-conversions",
+    "name": "Text Conversions",
+    "author": "Juan D Frias",
+    "description": "Perform various text conversions on the selected text",
+    "repo": "ironsigma/obsidian-text-conversions"
+  },
+  {
+    "id": "palta-note",
+    "name": "Palta Note",
+    "author": "Niket Shah (mrniket)",
+    "description": "Render Bhatkhande notation for Tabla.",
+    "repo": "mrniket/palta-obsidian-plugin"
+  },
+  {
+    "id": "qb-reader-parser",
+    "name": "QB Reader Parser",
+    "author": "Jacob Barta",
+    "description": "Automatically parse tossups from QB Reader into a format readable by the Obsidian_to_Anki plugin.",
+    "repo": "J-Barta/qb-reader-parser"
+  },
+  {
+    "id": "tags-overview",
+    "name": "Tags Overview",
+    "author": "Christian Wannerstedt",
+    "description": "Adds an extended tags panel where tagged files can be overviewed, filtered and accessed in a simple way.",
+    "repo": "christianwannerstedt/obsidian-tags-overview"
+  },
+  {
+    "id": "next-link",
+    "name": "Next Link",
+    "author": "Juan Luque",
+    "description": "Jump quickly between note links.",
+    "repo": "jdluque/next-link"
+  },
+  {
+    "id": "writing-goals",
+    "name": "Writing Goals",
+    "author": "James Lynch",
+    "description": "Set dynamic writing goals for your notes and folders.",
+    "repo": "lynchjames/obsidian-writing-goals"
+  },
+  {
+    "id": "auto-archive",
+    "name": "Auto Archive",
+    "author": "Shane Burke",
+    "description": "Automatically archive notes once they reach a certain age",
+    "repo": "shanedonburke/obsidian-auto-archive"
+  },
+  {
+    "id": "cardify",
+    "name": "Cardify",
+    "author": "joshuakto",
+    "description": "Create links for blocks in a markdown file and generate markdown file for each link within a folder. Enabling drag-and-drop of cards onto canvas.",
+    "repo": "joshuakto/obsidian-cardify"
+  },
+  {
+    "id": "vocabulary-cards",
+    "name": "Vocabulary Cards",
+    "author": "Eugene Myazin",
+    "description": "An easy way to display vocabulary words as flashcards and as a list.",
+    "repo": "meniam/obsidian-vocabulary-cards"
+  },
+  {
+    "id": "calctex",
+    "name": "Calctex",
+    "author": "Mike",
+    "description": "Calculate LaTeX formulas inside Obsidian.",
+    "repo": "Developer-Mike/calctex"
+  },
+  {
+    "id": "timetracker",
+    "name": "Timetracker",
+    "author": "Nils Dammenhayn",
+    "description": "Adds a stopwatch whose value can be inserted in the editor per hotkey",
+    "repo": "hedgehog1833/obsidian-timetracker"
+  },
+  {
+    "id": "eleven-labs",
+    "name": "Eleven Labs",
+    "author": "Mark Charles",
+    "description": "Turn your Obsidian notes into text-to-speech audio files with Eleven Labs.",
+    "repo": "veritas1/eleven-labs-obsidian-plugin"
+  },
+  {
+    "id": "digital-paper",
+    "name": "digital paper",
+    "author": "Daniel Fernandes",
+    "description": "turn off backspace and undo, just like writing with a pen on real paper.",
+    "repo": "danferns/digital-paper-obsidian-plugin"
+  },
+  {
+    "id": "merge-notes",
+    "name": "Merge Notes",
+    "author": "fnya",
+    "description": "Merge the selected notes.",
+    "repo": "fnya/merge-notes"
+  },
+  {
+    "id": "qiniu-image-uploader",
+    "name": "Qiniu Image Uploader",
+    "author": "Jade Zheng",
+    "description": "Uploads images from your clipboard to qiniu.com and embeds uploaded image to your note.",
+    "repo": "jianzs/obsidian-qiniu-image-uploader"
+  },
+  {
+    "id": "html-tabs",
   	"name": "HTML Tabs",
   	"author": "Patrick Tournet",
   	"description": "Create and render Tabs and tab panels in your notes.",
