@@ -44,6 +44,10 @@ jobs:
                 addError('You modified files other than `community-plugins.json`.');
               }
 
+              if (context.payload.pull_request.body.includes('Please switch to **Preview** and select one of the following links:')) {
+                addError('You did not follow the pull request template');
+              }
+
               let plugins = [];
               try {
                 plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
