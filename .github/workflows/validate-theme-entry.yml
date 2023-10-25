@@ -45,6 +45,10 @@ jobs:
                     addError('You modified files other than `community-css-themes.json`.');
                 }
 
+                if (context.payload.pull_request.body.includes('Please switch to **Preview** and select one of the following links:')) {
+                  addError('You did not follow the pull request template.');
+                }
+
                 let themes;
 
                 try {
@@ -228,6 +232,13 @@ jobs:
                 } catch (e) {
                     addWarning('Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.');
                 }
+
+                await github.rest.pulls.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number: context.issue.number,
+                  title: `Add theme: ${theme.name}`
+                });
 
             })();
 

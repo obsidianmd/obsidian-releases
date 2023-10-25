@@ -44,6 +44,10 @@ jobs:
                 addError('You modified files other than `community-plugins.json`.');
               }
 
+              if (context.payload.pull_request.body.includes('Please switch to **Preview** and select one of the following links:')) {
+                addError('You did not follow the pull request template');
+              }
+
               let plugins = [];
               try {
                 plugins = JSON.parse(fs.readFileSync('community-plugins.json', 'utf8'));
@@ -65,7 +69,7 @@ jobs:
                   addError(`Your PR has the invalid \`${key}\` property.`);
                 }
               }
-               
+              
               // Validate plugin repo
               let repoInfo = plugin.repo.split('/');
               if (repoInfo.length !== 2) {
@@ -190,6 +194,7 @@ jobs:
                 } catch (e) {
                   addError(`Unable to find a release with the tag \`${manifest.version}\`. Make sure that the version in your manifest.json file in your repo points to the correct Github Release.`);
                 }
+
               }
 
               try {
@@ -197,8 +202,15 @@ jobs:
               } catch (e) {
                 addWarning(`Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.`);
               }
-            })();
 
+               await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                title: `Add plugin: ${plugin.name}`
+              });
+            })();
+            
             if (errors.length > 0 || warnings.length > 0) {
               let message = [`#### Hello!\n`]
               message.push(`**I found the following issues in your plugin submission**\n`);
