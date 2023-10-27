@@ -8592,7 +8592,7 @@
     "id": "share-note",
     "name": "Share Note",
     "author": "Alan Grainger",
-    "description": "Instantly share a note, with the full theme and content exactly like you see in Reading View. Data is shared encrypted by default, and only you and the person you send it to have the key.",
+    "description": "Instantly share/publish a note, with the full theme and content exactly like you see in Obsidian. Data is shared encrypted by default, and only you and the person you send it to have the key.",
     "repo": "alangrainger/obsidian-share"
   },
   {
@@ -8636,6 +8636,13 @@
     "author": "Boninall",
     "description": "Collapse node in canvas.",
     "repo": "quorafind/obsidian-collapse-node"
+  },
+  {
+    "id": "permalink-opener",
+    "name": "Permalink Opener",
+    "author": "@kepano",
+    "description": "Open URLs based on a permalink or slug in the note properties. Useful with static site generator such as Jekyll, Hugo, Eleventy, etc.",
+    "repo": "kepano/obsidian-permalink-opener"
   },
   {
     "id": "json-table",
