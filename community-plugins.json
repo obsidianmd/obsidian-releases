@@ -6195,13 +6195,6 @@
     "repo": "dwolfe884/obsidian-x86-flow-graph"
   },
   {
-    "id": "search-obsidian-in-google",
-    "name": "Search Obsidian in Google",
-    "author": "YuNing Chen",
-    "description": "A simple plugin to search the current note in Google (or other search engines).",
-    "repo": "qazxcdswe123/search-obsidian-in-google"
-  },
-  {
     "id": "oz-calendar",
     "name": "OZ Calendar",
     "description": "View your notes in Calendar using any YAML key with a date.",
@@ -7355,13 +7348,6 @@
     "description": "Keeps an automatic edit history of your notes, review the history, diff against or restore previous edits.",
     "author": "Antonio Tejada",
     "repo": "antoniotejada/obsidian-edit-history"
-  },
-  {
-    "id": "google-bard-assistant",
-    "name": "Google Bard Assistant",
-    "author": "Aldhaneka",
-    "description": "Explore new possibilities of learning with Integration of Google Bard! It's totally free, it also can show images from your question!",
-    "repo": "aldhanekaa/GoogleBardObsidian"
   },
   {
     "id": "memorization",
@@ -8592,8 +8578,8 @@
     "id": "share-note",
     "name": "Share Note",
     "author": "Alan Grainger",
-    "description": "Instantly share a note, with the full theme and content exactly like you see in Reading View. Data is shared encrypted by default, and only you and the person you send it to have the key.",
-    "repo": "alangrainger/obsidian-share"
+    "description": "Instantly share/publish a note, with the full theme and content exactly like you see in Obsidian. Data is shared encrypted by default, and only you and the person you send it to have the key.",
+    "repo": "alangrainger/share-note"
   },
   {
     "id": "todotxt-codeblocks",
@@ -8615,6 +8601,34 @@
     "author": "Jeel Shah",
     "description": "Wrangles your TODOs and puts them at the bottom of the file.",
     "repo": "jeel-shah/todo-wrangler"
+  },
+  {
+    "id": "fold-anywhere",
+    "name": "Fold Anywhere",
+    "author": "Boninall",
+    "description": "Set start and end marker, and then fold any text anywhere in live preview mode.",
+    "repo": "quorafind/obsidian-fold-anywhere"
+  },
+  {
+    "id": "file-property-enhancer",
+    "name": "File Property Enhancer",
+    "author": "Boninall",
+    "description": "Add icons to the file property, and customize the display of the file property.",
+    "repo": "quorafind/obsidian-file-property-enhancer"
+  },
+  {
+    "id": "collapse-node",
+    "name": "Collapse Node",
+    "author": "Boninall",
+    "description": "Collapse node in canvas.",
+    "repo": "quorafind/obsidian-collapse-node"
+  },
+  {
+    "id": "permalink-opener",
+    "name": "Permalink Opener",
+    "author": "@kepano",
+    "description": "Open URLs based on a permalink or slug in the note properties. Useful with static site generator such as Jekyll, Hugo, Eleventy, etc.",
+    "repo": "kepano/obsidian-permalink-opener"
   },
   {
     "id": "tracker-plus",
