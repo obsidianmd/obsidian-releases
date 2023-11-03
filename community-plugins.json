@@ -6195,13 +6195,6 @@
     "repo": "dwolfe884/obsidian-x86-flow-graph"
   },
   {
-    "id": "search-obsidian-in-google",
-    "name": "Search Obsidian in Google",
-    "author": "YuNing Chen",
-    "description": "A simple plugin to search the current note in Google (or other search engines).",
-    "repo": "qazxcdswe123/search-obsidian-in-google"
-  },
-  {
     "id": "oz-calendar",
     "name": "OZ Calendar",
     "description": "View your notes in Calendar using any YAML key with a date.",
@@ -7355,13 +7348,6 @@
     "description": "Keeps an automatic edit history of your notes, review the history, diff against or restore previous edits.",
     "author": "Antonio Tejada",
     "repo": "antoniotejada/obsidian-edit-history"
-  },
-  {
-    "id": "google-bard-assistant",
-    "name": "Google Bard Assistant",
-    "author": "Aldhaneka",
-    "description": "Explore new possibilities of learning with Integration of Google Bard! It's totally free, it also can show images from your question!",
-    "repo": "aldhanekaa/GoogleBardObsidian"
   },
   {
     "id": "memorization",
@@ -8592,8 +8578,8 @@
     "id": "share-note",
     "name": "Share Note",
     "author": "Alan Grainger",
-    "description": "Instantly share a note, with the full theme and content exactly like you see in Reading View. Data is shared encrypted by default, and only you and the person you send it to have the key.",
-    "repo": "alangrainger/obsidian-share"
+    "description": "Instantly share/publish a note, with the full theme and content exactly like you see in Obsidian. Data is shared encrypted by default, and only you and the person you send it to have the key.",
+    "repo": "alangrainger/share-note"
   },
   {
     "id": "todotxt-codeblocks",
@@ -8645,10 +8631,38 @@
     "repo": "kepano/obsidian-permalink-opener"
   },
   {
+    "id": "idorecall",
+    "name": "iDoRecall",
+    "author": "dbhandel",
+    "description": "iDoRecall plugin allows you to create recalls from Obsidian notes",
+    "repo": "iDoRecall/idorecall"
+  },
+  {
+    "id": "recipe-view",
+    "name": "Recipe view",
+    "author": "lachholden",
+    "description": "View your notes as interactive recipe cards while you cook.",
+    "repo": "lachholden/obsidian-recipe-view"
+  },
+  {
+    "id": "modalforms",
+    "name": "Modal forms",
+    "author": "Danielo Rodriguez",
+    "description": "Define forms for capturing data that you will be able to open from anywhere you can run JS",
+    "repo": "danielo515/obsidian-modal-form"
+  },
+  {
+    "id": "table-checkboxes",
+    "name": "Markdown table checkboxes",
+    "author": "DylanGiesberts",
+    "description": "Adds support for stateful checkboxes inside markdown tables.",
+    "repo": "DylanGiesberts/obsidian-table-checkboxes"
+  },
+  {
     "id": "remove-empty-folders",
     "name": "Remove Empty Folders",
     "author": "fnya",
     "description": "Easily remove empty folders.",
     "repo": "fnya/remove-empty-folders"
-  }
+   }
 ]
