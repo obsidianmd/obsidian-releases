@@ -1471,8 +1471,8 @@
   },
   {
     "id": "taskbone-ocr-plugin",
-    "name": "Taskbone OCR",
-    "description": "Extract text from images and make it available for search.",
+    "name": "Taskbone",
+    "description": "Extract text and equations from images and PDFs and make it available for search.",
     "author": "Dominik Schlund",
     "repo": "schlundd/obsidian-ocr-plugin"
   },
@@ -8301,7 +8301,7 @@
     "author": "Medill-East",
     "description": "A plugin for searching and adding bi-directional links to existing content in Obsidian Vault.",
     "repo": "Medill-East/obsidian-content-linker"
-  },
+ },
   {
     "id": "swiss-army-knife",
     "name": "Swiss army knife",
@@ -8784,6 +8784,132 @@
     "author": "b.camphart",
     "description": "Display your obsidian notes in a timeline, based on a given property.",
     "repo": "b-camphart/timeline-view"
+  },
+  {
+    "id": "auto-filename",
+    "name": "Auto Filename",
+    "author": "rcsaquino",
+    "description": "Automatically rename files on the go based on the first x characters of files.",
+    "repo": "rcsaquino/obsidian-auto-filename"
+  },
+  {
+    "id": "csv-codeblock",
+    "name": "CSV Codeblock",
+    "author": "elrindir",
+    "description": "Renders codeblocks with CSV format.",
+    "repo": "elrindir/obsidian-csv-codeblock"
+  },
+  {
+    "id": "discord-message-formatter",
+    "name": "Discord Message Formatter",
+    "author": "Emile Durkheim",
+    "description": "Trivially copy-paste a message from the Discord client into Obsidian and have it perfectly formatted for you.",
+    "repo": "Emile-Durkheim/obsidian_discord_formatter"
+  },
+  {
+    "id": "frontmatter-generator",
+	  "name": "Frontmatter generator",
+    "description": "Generate frontmatter for your notes from JSON and JavaScript",
+	  "author": "Hananoshika Yomaru",
+    "repo" : "HananoshikaYomaru/Obsidian-Frontmatter-Generator"
+  },
+  {
+    "id": "tistory-publisher",
+    "name": "Tistory Publisher",
+    "author": "bekurin",
+    "description": "Easily publish a note in obsidian to tistory.",
+    "repo": "bekurin/tistory-publisher"
+   },
+  {
+    "id": "linkding-importer",
+    "name": "Linkding Importer",
+    "author": "jontstaz",
+    "description": "Imports your bookmarks from Linkding and saves them into a specified file within the Obsidian Vault.",
+    "repo": "jontstaz/obsidian-linkding-importer"
+  },
+  {
+    "id": "auto-reading-mode",
+    "name": "Auto Reading Mode",
+    "author": "Kelvin Cao",
+    "description": "Automatically switches previously opened Markdown pages into reading mode.",
+    "repo": "kelvinc6/auto-reading-mode"
+  },
+  {
+     "id": "studier",
+    "name": "Studier",
+    "description": "Create quizzes for your Obsidian.md notes and learn better",
+    "author": "Alvaro Cas",
+    "repo": "alvaro-cas/studier-obsidian"
+  },
+  {
+    "id": "mochi-cards-pro",
+    "name": "Mochi Cards Pro",
+    "author": "Hayden Carpenter",
+    "description": "Create flashcards on Mochi.cards using the API provided by Mochi's Pro subscription.",
+    "repo": "xHayden/obsidian-mochi-cards-pro"
+  },
+  {
+    "id": "daily-note-pinner",
+    "name": "Daily Note Pinner",
+    "author": "LukeMT",
+    "description": "Pins the Daily Note of the present day. Unpinns all Daily Notes of past and future days.",
+    "repo": "lukemt/obsidian-daily-note-pinner"
+  },
+  {
+    "id": "moon-server-publisher",
+    "name": "Moon server publisher",
+    "author": "Roman Provazník",
+    "description": "Publish your notes directly to Moon server instance.",
+    "repo": "Dzoukr/MoonServerObsidianPlugin"
+  },
+  {
+    "id": "improved-random-note",
+    "name": "Improved Random Note",
+    "author": "ShockThunder",
+    "description": "Improved interaction with the knowledge base in so-called wandering mode by opening specific Random Notes.",
+    "repo": "ShockThunder/improved-random-note"
+  },
+  {
+    "id": "json-table",
+    "name": "JSON table",
+    "author": "Dario Baumberger",
+    "description": "Simply switch between JSON and tables. Generate a table from a JSON string or a URL (which returns JSON) in your notes. Generate JSON from a table in your notes.",
+    "repo": "dario-baumberger/obsidian-json-table"
+  },
+  {
+    "id": "abbreviations",
+    "name": "Abbreviations expander",
+    "author": "Yann POMIE (WoodenMaiden)",
+    "description": "Easily create abbreviations that will be expanded after hitting `Space`",
+    "repo": "WoodenMaiden/obsidian-abbreviations"
+  },
+  {
+    "id": "jira-linker",
+    "name": "Jira Linker",
+    "author": "Steven Zilberberg",
+    "description": "Quickly format a Jira issue tag as a link to you Jira instance.",
+    "repo": "srz2/obsidian-jira-linker"
+  },
+  {
+    "id": "remove-empty-folders",
+    "name": "Remove Empty Folders",
+    "author": "fnya",
+    "description": "Easily remove empty folders.",
+    "repo": "fnya/remove-empty-folders"
+  },
+  {
+    "id": "archive-to-single-note",
+    "name": "Archive/trash to single note",
+    "author": "mwoz123",
+    "description": "Allows to create single file archive/trash and merge(archive) old notes with it.",
+    "repo": "mwoz123/archive-to-single-note"
+  },
+  {
+    "id": "metal-archives",
+    "name": "Metal Archives (Unofficial)",
+    "author": "Vincenzo Caputo",
+    "description": "Create notes about metal bands and album from Metal Archives",
+    "repo": "vincenzocaputo/obsidian-metal-archives-plugin"
   },
   {
     "id": "ical",
