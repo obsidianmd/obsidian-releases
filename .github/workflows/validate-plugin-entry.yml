@@ -38,10 +38,15 @@ jobs:
               console.log('Found issue: ' + warning);
             }
 
+            let plugin;
             // Core validation logic
             await (async () => {
               if (context.payload.pull_request.changed_files > 1) {
                 addError('You modified files other than `community-plugins.json`.');
+              }
+
+              if (context.payload.pull_request.body.includes('Please switch to **Preview** and select one of the following links:')) {
+                addError('You did not follow the pull request template');
               }
 
               let plugins = [];
@@ -52,7 +57,7 @@ jobs:
                 return;
               }
 
-              const plugin = plugins[plugins.length - 1];
+              plugin = plugins[plugins.length - 1];
 
               let validKeys = ['id', 'name', 'description', 'author', 'repo'];
               for (let key of validKeys) {
@@ -198,13 +203,6 @@ jobs:
               } catch (e) {
                 addWarning(`Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.`);
               }
-
-               await github.rest.pulls.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: context.issue.number,
-                title: `Add plugin: ${plugin.name}`
-              });
             })();
             
             if (errors.length > 0 || warnings.length > 0) {
@@ -231,12 +229,26 @@ jobs:
                 body: message.join('\n'),
               });
             }
+            const labels = [];
 
             if (errors.length > 0) {
+              labels.push("Validation failed");
               core.setFailed("Failed to validate plugin");
             }
-            
-            let labels = errors.length > 0 ? ['Validation failed'] : ['Ready for review'];
+
+            if (errors.length === 0) {
+              await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                title: `Add plugin: ${plugin.name}`
+              });
+
+              if(!context.payload.pull_request.labels.includes('Changes requested')) {
+                labels.push("Ready for review");
+              }
+            }
+
             if (context.payload.pull_request.labels.includes('Changes requested')) {
               labels.push('Changes requested');
             }
