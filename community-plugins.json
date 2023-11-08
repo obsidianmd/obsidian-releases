@@ -9036,11 +9036,25 @@
 		"description": "Add properties to multiple notes at once. Either right-click a folder or select multiple notes and right-click the selection.",
 		"repo": "fez-github/obsidian-multi-properties"
 },
-{
+  {
+    "id": "multi-properties",
+    "name": "Multi Properties",
+    "author": "fez-github",
+    "description": "Add properties to multiple notes at once. Either right-click a folder or select multiple notes and right-click the selection.",
+    "repo": "fez-github/obsidian-multi-properties"
+  },
+  {
+    "id": "nothing",
+    "name": "Nothing",
+    "author": "pseudometa",
+    "description": "Adds a no-op command to disable hotkeys.",
+    "repo": "chrisgrieser/obsidian-nothing"
+  },
+  {
     "id": "tag-buddy",
     "name": "Tag Buddy",
     "author": "David Fasullo",
     "description": "Add, edit and remove tags in reading mode. Copy, move or edit tagged blocks in reading and edit mode.",
     "repo": "moremeyou/Obsidian-Tag-Buddy"
-  }
+}
 ]
