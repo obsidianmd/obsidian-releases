@@ -2037,13 +2037,6 @@
     "repo": "aidenlx/folder-note-core"
   },
   {
-    "id": "obsidian-jupyter",
-    "name": "Jupyter",
-    "author": "tillahoffmann",
-    "description": "Run Python code in Obsidian using Jupyter.",
-    "repo": "tillahoffmann/obsidian-jupyter"
-  },
-  {
     "id": "obsidian-hackernews",
     "name": "HackerNews",
     "author": "arpitbbhayani",
@@ -2784,13 +2777,6 @@
     "description": "Add interactive metronomes to your notes.",
     "author": "Curt Grimes",
     "repo": "curtgrimes/obsidian-metronome-plugin"
-  },
-  {
-    "id": "obsidian-plaintext",
-    "name": "Plaintext",
-    "description": "Allow opening specified files as plaintext.",
-    "author": "dbarenholz",
-    "repo": "dbarenholz/obsidian-plaintext"
   },
   {
     "id": "obsidian-wrap-with-shortcuts",
@@ -7577,7 +7563,7 @@
     "id": "obligator",
     "name": "Obligator",
     "author": "Dimitar Dimitrov",
-    "description": "Obligator is a replacement for daily-todos which copies over unchecked todo items under a specified header",
+    "description": "A fully featured replacement for the built-in daily notes plugin. Obligator functions like a virtual bullet journal by copying over unchecked to-do items to your new daily note, along with adding any scheduled items you've set up",
     "repo": "Newbrict/obsidian-obligator"
   },
   {
@@ -9042,6 +9028,83 @@
     "author": "pseudometa",
     "description": "Adds a no-op command to disable hotkeys.",
     "repo": "chrisgrieser/obsidian-nothing"
+  },
+  {
+    "id": "slackify-note",
+    "name": "Slackify Note",
+    "author": "Jeremy Overman",
+    "description": "Converts a note to a Slack-compliant markdown using [slackify-markdown](https://www.npmjs.com/package/slackify-markdown)",
+    "repo": "jeremyoverman/obsidian-slackify-note"
+  },
+  {
+    "id": "timestamp-link",
+    "name": "Timestamp Link",
+    "author": "wenlzhang",
+    "description": "Copy timestamped links to blocks, headings and notes.",
+    "repo": "wenlzhang/obsidian-timestamp-link"
+  },
+  {
+    "id": "keyword-highlighter",
+    "name": "Keyword Highlighter",
+    "author": "Marcel Goldammer",
+    "description": "Automatically highlight specified keywords within your Obsidian notes for enhanced visibility and quick reference.",
+    "repo": "marcel-goldammer/obsidian-keyword-highlighter"
+  },
+  {
+    "id": "zhongwen-block",
+    "name": "Zhongwen Block",
+    "author": "Kodai Matsumoto",
+    "description": "Provides code blocks with features for Chinese learners",
+    "repo": "0918nobita/obsidian-zhongwen-block"
+  },
+  {
+    "id": "vocabulary-highlighter",
+    "name": "Vocabulary Highlighter",
+    "author": "eatgrass",
+    "description": "Hightlight vocabulary based on the word frequency",
+    "repo": "eatgrass/obsidian-vocab-highlighter"
+  },
+  {
+    "id": "zettelkasten-outliner",
+    "name": "Zettelkasten Outliner",
+    "author": "Tyler Suzuki Nelson",
+    "description": "Provides a list representation for your Zettelkasten.",
+    "repo": "tylersuzukinelson/zettelkasten-outliner"
+  },
+  {
+    "id": "quick-tagger",
+    "name": "Quick Tagger",
+    "author": "Gorkycreator",
+    "description": "Add and remove tags quickly. Tag search results, bulk tag, and add dedicated buttons/commands for your favorites!",
+    "repo": "Gorkycreator/obsidian-quick-tagger"
+  },
+  {
+     "id": "editor-autofocus",
+     "name": "Editor Autofocus",
+     "author": "Mgussekloo",
+     "description": "Autofocus the editor when opening a new file.",
+     "repo": "mgussekloo/obsidian-editor-autofocus"
+  },
+  {
+     "id": "note-batcher",
+     "name": "Note Batcher",
+     "author": "MrAnyx",
+     "description": "Create all unresolvered links with a single click.",
+     "repo": "MrAnyx/obsidian-note-batcher"
+  },
+  {
+    "id": "automatic-tags",
+    "name": "Automatic Tags",
+    "author": "Jamalam",
+    "description": "Add tags to new notes automatically based on their path.",
+    "repo": "Jamalam360/obsidian-automatic-tags"
+  },
+  {
+    "id": "epub-importer",
+    "name": "Epub Importer",
+    "author": "aoout",
+    "description": "Import EPUB files as Markdown.",
+    "repo": "aoout/obsidian-epub-importer"
   },
   {
     "id": "spotify-link",
