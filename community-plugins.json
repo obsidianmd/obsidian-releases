@@ -9086,7 +9086,63 @@
      "repo": "mgussekloo/obsidian-editor-autofocus"
   },
   {
-    "id": "edit-mdx",
+     "id": "note-batcher",
+     "name": "Note Batcher",
+     "author": "MrAnyx",
+     "description": "Create all unresolvered links with a single click.",
+     "repo": "MrAnyx/obsidian-note-batcher"
+  },
+  {
+    "id": "automatic-tags",
+    "name": "Automatic Tags",
+    "author": "Jamalam",
+    "description": "Add tags to new notes automatically based on their path.",
+    "repo": "Jamalam360/obsidian-automatic-tags"
+  },
+  {
+    "id": "epub-importer",
+    "name": "Epub Importer",
+    "author": "aoout",
+    "description": "Import EPUB files as Markdown.",
+    "repo": "aoout/obsidian-epub-importer"
+  },
+  {
+    "id": "spotify-link",
+    "name": "Spotify Link",
+    "author": "Studio Webux",
+    "description": "Include the song you're currently listening to in your note.",
+    "repo": "studiowebux/obsidian-spotify-link"
+  },
+  {
+    "id": "barcode-generator",
+    "name": "Barcode Generator",
+    "author": "noxonad",
+    "description": "Generates customizable barcodes into your notes.",
+    "repo": "noxonad/obsidian-barcode-generator"
+  },
+  {
+   "id": "file-index",
+    "name": "File Index",
+    "author": "Steffo",
+    "description": "Create a metadata file about the files present in the Vault.",
+    "repo": "Steffo99/obsidian-file-index"
+  },
+  {
+    "id": "notes-merger",
+  	"name": "Notes Merger",
+  	"author": "Nika Lopusna",
+    "description": "Merge notes into a single markdown document based on index Markdown file.",
+  	"repo": "niffka/notes-merger"
+  },
+  {
+    "id": "file-cleaner-redux",
+    "name": "File Cleaner Redux",
+    "author": "husjon",
+    "description": "Help you to clean empty files and unused attachments in the vault.",
+    "repo": "husjon/obsidian-file-cleaner-redux"
+  },
+  {
+     "id": "edit-mdx",
     "name": "Edit MDX",
     "author": "Tim Peters",
     "description": "Allows the user to edit and create .mdx files.",
