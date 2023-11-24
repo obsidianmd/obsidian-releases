@@ -14,6 +14,7 @@ jobs:
       - uses: actions/setup-node@v2
       - uses: actions/github-script@v6
         with:
+          github-token: ${{ secrets.PLUGIN_STAT_TOKEN }}
           script: |
             let fs = require('fs');
 
@@ -30,6 +31,7 @@ jobs:
             }
 
             (async() => {
+              console.log('Rate limit', (await octokit.rest.rateLimit.get()).data);
               for (let key in plugins) {
                 if (!plugins.hasOwnProperty(key)) {
                   continue;
