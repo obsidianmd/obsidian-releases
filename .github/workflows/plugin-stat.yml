@@ -85,7 +85,6 @@ jobs:
                   stats['updated'] = updated;
 
                   saveStats();
-                  break;
                 } catch (e) {
                   console.log('Failed', e.message);
                 }
