@@ -31,7 +31,7 @@ jobs:
             }
 
             (async() => {
-              console.log('Rate limit', (await octokit.rest.rateLimit.get()).data);
+              console.log('Rate limit', (await github.rest.rateLimit.get()).data);
               for (let key in plugins) {
                 if (!plugins.hasOwnProperty(key)) {
                   continue;
