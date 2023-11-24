@@ -29,10 +29,6 @@ jobs:
               }
             }
 
-            let saveStats = () => fs.writeFileSync('./community-plugin-stats.json', JSON.stringify(newStats, null, 2), 'utf8');
-
-            saveStats();
-
             (async() => {
               for (let key in plugins) {
                 if (!plugins.hasOwnProperty(key)) {
@@ -84,12 +80,12 @@ jobs:
                   stats['downloads'] = total;
                   stats['updated'] = updated;
 
-                  saveStats();
                 } catch (e) {
                   console.log('Failed', e.message);
                 }
               }
 
+              fs.writeFileSync('./community-plugin-stats.json', JSON.stringify(newStats, null, 2), 'utf8')
               console.log('All done!');
             })();
       - run: |
