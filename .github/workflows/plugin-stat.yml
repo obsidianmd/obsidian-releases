@@ -46,10 +46,10 @@ jobs:
                   console.log(`Downloading stats for ${id}`);
                   let stats = newStats[id] = newStats[id] || {};
                   let [owner, repo] = plugin.repo.split('/');
-                  let releases = await github.rest.repos.listReleases({owner, repo});
+                  let releases = (await github.rest.repos.listReleases({owner, repo})).data;
                   // stats is Array<{tag_name: string, assets: Array<{name: string, download_count}>}>
 
-                  console.log(`Received ${releases.length} releases`);
+                  console.log(`Received ${releases.length} releases for ${owner}/${repo}`);
 
                   let updated = 0;
 
