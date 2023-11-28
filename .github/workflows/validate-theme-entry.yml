@@ -45,6 +45,10 @@ jobs:
                     addError('You modified files other than `community-css-themes.json`.');
                 }
 
+                if (context.payload.pull_request.body.includes('Please switch to **Preview** and select one of the following links:')) {
+                  addError('You did not follow the pull request template.');
+                }
+
                 let themes;
 
                 try {
