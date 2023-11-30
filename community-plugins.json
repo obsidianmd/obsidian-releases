@@ -8102,7 +8102,7 @@
     "id": "math-booster",
     "name": "Math Booster",
     "author": "Ryota Ushio",
-    "description": "Turn your Obsidian into LaTeX on steroids. Dynamically numbered theorem environments & equations, theorems/equations live suggestion, showing backlinks to theorems/equations and live-rendering equations inside callouts & quotes.",
+    "description": "Turn your Obsidian into LaTeX on steroids. Dynamically numbered theorem environments & equations, enhanced theorems/equations search & link auto-completion, and live-rendering of equations inside callouts & quotes.",
     "repo": "RyotaUshio/obsidian-math-booster"
   },
   {
@@ -9147,6 +9147,68 @@
     "author": "Tim Peters",
     "description": "Allows the user to edit and create .mdx files.",
     "repo": "timppeters/obsidian-edit-mdx"
+  },
+  {
+   "id": "short-tab-name",
+   "name": "short tab name",
+   "author": "Shumpei Tanaka",
+   "description": "set tab name to short for uid user",
+   "repo": "shumpei-tanaka/obsidian-short-tab-name"
+  },
+  {
+    "id": "run", 
+    "name": "Run",
+    "author": "Hananoshika Yomaru",
+    "description": "Generate Markdown from dataview query and JavaScript.",
+    "repo": "HananoshikaYomaru/obsidian-run"
+  },
+  {
+    "id": "blockier",
+    "name": "Blockier",
+    "author": "blorbb",
+    "description": "Extra block editing utilities.",
+    "repo": "blorbb/obsidian-blockier"
+  },
+  {
+    "id": "colored-tags-wrangler",
+    "name": "Colored Tags Wrangler",
+    "author": "AndreasSasDev",
+    "description": "Assign colors to tags. Has integrations with other plugins, like Kanban.",
+    "repo": "code-of-chaos/obsidian-colored_tags_wrangler"
+  },
+  {
+    "id": "paste-link",
+    "name": "Paste Link",
+    "author": "Jose Elias Alvarez",
+    "description": "Intelligently paste Markdown links.",
+    "repo": "jose-elias-alvarez/obsidian-paste-link"
+  },
+  {
+    "id": "ghcat-reminder",
+    "name": "GChat Reminder",
+    "author": "Anil Erdogan",
+    "description": "Sends notifications to Google Chat Webhook based on due dates in Obsidian tasks.",
+    "repo": "anil-e/obsidian_gchat_plugin"
+  },
+  {
+    "id": "ical",
+    "name": "iCal",
+    "author": "Andrew Brereton",
+    "description": "Scans your vault for tasks that contain dates. Creates an iCal file and stores it in your vault or on Gist. You can then show this calendar in any iCal-compatible client such as Outlook, Google Calendar, Apple Calendar, etc.",
+    "repo": "andrewbrereton/obsidian-to-ical-plugin"
+  },
+  {
+    "id": "desci",
+    "name": "Desci",
+    "author": "Taylor Hulsmans",
+    "description": "Web3, IPFS, and Desci integrations for Obsidian.",
+    "repo": "Obsidian-Desci/Obsidian-Desci"
+  },
+  {
+		"id": "arena",
+		"name": "Are.na unofficial",
+		"author": "0xroko",
+		"description": "Allows you to save Are.na blocks as notes.",
   },
   {
     "id": "datetime-language-changer",
