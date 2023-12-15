@@ -35,13 +35,6 @@
         "repo": "deathau/sliding-panes-obsidian"
     },
     {
-        "id": "cm-show-whitespace-obsidian",
-        "name": "Show Whitespace",
-        "author": "death_au",
-        "description": "Show whitespace in the editor.",
-        "repo": "deathau/cm-show-whitespace-obsidian"
-    },
-    {
         "id": "table-editor-obsidian",
         "name": "Advanced Tables",
         "author": "Tony Grosinger",
@@ -700,13 +693,6 @@
         "repo": "Darakah/obsidian-comments-plugin"
     },
     {
-        "id": "ini-obsidian",
-        "name": "ini Editor",
-        "author": "death_au",
-        "description": "Edit .ini files in Obsidian.",
-        "repo": "deathau/ini-obsidian"
-    },
-    {
         "id": "various-complements",
         "name": "Various Complements",
         "author": "tadashi-aikawa",
@@ -719,13 +705,6 @@
         "author": "darakah",
         "description": "Create a timeline view of all notes with the specified combination of tags.",
         "repo": "Darakah/obsidian-timelines"
-    },
-    {
-        "id": "txt-as-md-obsidian",
-        "name": "txt as md",
-        "author": "death_au",
-        "description": "Edit .txt files as Markdown in Obsidian.",
-        "repo": "deathau/txt-as-md-obsidian"
     },
     {
         "id": "note-folder-autorename",
@@ -3500,13 +3479,6 @@
         "repo": "artisticat1/obsidian-latex-suite"
     },
     {
-        "id": "obsidian-better-codeblock",
-        "name": "Better CodeBlock",
-        "author": "StarGrey",
-        "description": "Add title, line numbers, and collapse button to code blocks in reading view.",
-        "repo": "stargrey/obsidian-better-codeblock"
-    },
-    {
         "id": "obsidian-wordnik",
         "name": "Wordnik Definitions",
         "author": "Henry Gustafson",
@@ -5642,13 +5614,6 @@
         "repo": "chrisgrieser/grappling-hook"
     },
     {
-        "id": "tag-search",
-        "name": "Tag Search",
-        "author": "R. W. Blickhan",
-        "description": "Fuzzy-find your tags!",
-        "repo": "rwblickhan/obsidian-tag-search"
-    },
-    {
         "id": "ytranscript",
         "name": "YTranscript",
         "author": "Łukasz Strzępek",
@@ -7437,7 +7402,7 @@
         "id": "periodic-para",
         "name": "Periodic PARA",
         "author": "YiBing Lin",
-        "description": "Assist in practicing the PARA system with periodic notes.",
+        "description": "Assist in practicing the PARA method with periodic notes and usememos.",
         "repo": "quanru/obsidian-periodic-para"
     },
     {
@@ -9408,10 +9373,52 @@
       "repo": "mmmykhailo/obsidian-daily-icalendar"
     },
     {
-      "id": "quick-preview",
-      "name": "Quick Preview",
+      "id": "auto-displaystyle-inline-math",
+      "name": "Auto-\\displaystyle Inline Math",
       "author": "Ryota Ushio",
-      "description": "Quickly preview a suggestion before selecting it in link suggestions & quick swicher.",
-      "repo": "RyotaUshio/obsidian-quick-preview"
-    }
+      "description": "Automatically make all inline maths \\displaystyle.",
+      "repo": "RyotaUshio/obsidian-auto-displaystyle-inline-math"
+    },
+    {
+     "id": "textanalysis",
+    "name": "Text Analysis",
+    "author": "Miha Kralj",
+    "description": "Real-time text analysis on readability, structure, and complexity, incorporating over 30 indicators.",
+    "repo": "mihakralj/obsidian-textanalysis"
+    },
+    {
+    "id": "minitabs",
+    "name": "Minitabs",
+    "author": "ssjy1919",
+    "description": "Customize a set of nested tabs through code blocks.",
+    "repo": "ssjy1919/Obsidian-minitabs"
+  },
+  {
+    "id": "lyrics",
+    "name": "Lyrics",
+    "author": "eatgrass",
+    "description": "Enhance the audio player with interacive lyrics",
+    "repo": "eatgrass/obsidian-lyrics"
+  },
+  {
+    "id": "show-whitespace-cm6",
+    "name": "Show Whitespace",
+    "author": "Erin Schnabel",
+    "description": "CSS styles and CM6 extensions to highlight whitespace in Source and Live Preview modes",
+    "repo": "ebullient/obsidian-show-whitespace-cm6"
+    },
+    {
+    "id": "rendered-block-link-suggestions",
+    "name": "Rendered Block Link Suggestions",
+    "author": "Ryota Ushio",
+    "description": "Upgrade Obsidian's built-in link suggestions with block markdown rendering.",
+    "repo": "RyotaUshio/obsidian-rendered-block-link-suggestions"
+  },
+  {
+    "id": "quick-preview",
+    "name": "Quick Preview",
+    "author": "Ryota Ushio",
+    "description": "Quickly preview a suggestion before selecting it in link suggestions & quick swicher.",
+    "repo": "RyotaUshio/obsidian-quick-preview"
+  }
 ]
