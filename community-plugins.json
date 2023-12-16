@@ -693,13 +693,6 @@
         "repo": "Darakah/obsidian-comments-plugin"
     },
     {
-        "id": "ini-obsidian",
-        "name": "ini Editor",
-        "author": "death_au",
-        "description": "Edit .ini files in Obsidian.",
-        "repo": "deathau/ini-obsidian"
-    },
-    {
         "id": "various-complements",
         "name": "Various Complements",
         "author": "tadashi-aikawa",
@@ -712,13 +705,6 @@
         "author": "darakah",
         "description": "Create a timeline view of all notes with the specified combination of tags.",
         "repo": "Darakah/obsidian-timelines"
-    },
-    {
-        "id": "txt-as-md-obsidian",
-        "name": "txt as md",
-        "author": "death_au",
-        "description": "Edit .txt files as Markdown in Obsidian.",
-        "repo": "deathau/txt-as-md-obsidian"
     },
     {
         "id": "note-folder-autorename",
@@ -5628,13 +5614,6 @@
         "repo": "chrisgrieser/grappling-hook"
     },
     {
-        "id": "tag-search",
-        "name": "Tag Search",
-        "author": "R. W. Blickhan",
-        "description": "Fuzzy-find your tags!",
-        "repo": "rwblickhan/obsidian-tag-search"
-    },
-    {
         "id": "ytranscript",
         "name": "YTranscript",
         "author": "Łukasz Strzępek",
@@ -9422,17 +9401,38 @@
     "repo": "eatgrass/obsidian-lyrics"
   },
   {
-     "id": "show-whitespace-cm6",
-     "name": "Show Whitespace",
-     "author": "Erin Schnabel",
-     "description": "CSS styles and CM6 extensions to highlight whitespace in Source and Live Preview modes",
-     "repo": "ebullient/obsidian-show-whitespace-cm6"
-   },
-   {
-      "id": "image-helper",
-      "name": "Image Helper",
-      "author": "Chongmyung Park",
-      "description": "Context menu to convert image format in reading view",
-      "repo": "byfun/obsidian-image-helper"
-    }    
+    "id": "show-whitespace-cm6",
+    "name": "Show Whitespace",
+    "author": "Erin Schnabel",
+    "description": "CSS styles and CM6 extensions to highlight whitespace in Source and Live Preview modes",
+    "repo": "ebullient/obsidian-show-whitespace-cm6"
+    },
+    {
+    "id": "rendered-block-link-suggestions",
+    "name": "Rendered Block Link Suggestions",
+    "author": "Ryota Ushio",
+    "description": "Upgrade Obsidian's built-in link suggestions with block markdown rendering.",
+    "repo": "RyotaUshio/obsidian-rendered-block-link-suggestions"
+  },
+  {
+    "id": "quick-preview",
+    "name": "Quick Preview",
+    "author": "Ryota Ushio",
+    "description": "Quickly preview a suggestion before selecting it in link suggestions & quick swicher.",
+    "repo": "RyotaUshio/obsidian-quick-preview"
+  },
+  {
+    "id": "desk",
+    "name": "Desk",
+    "author": "David Landry",
+    "description": "A desk to see notes at a glance in Obsidian. Requires Dataview as a dependency.",
+    "repo": "davidlandry93/obsidian-desk"
+  },
+  {
+    "id": "image-helper",
+    "name": "Image Helper",
+    "author": "Chongmyung Park",
+    "description": "Context menu to convert image format in reading view",
+    "repo": "byfun/obsidian-image-helper"
+  }    
 ]
