@@ -35,13 +35,6 @@
         "repo": "deathau/sliding-panes-obsidian"
     },
     {
-        "id": "cm-show-whitespace-obsidian",
-        "name": "Show Whitespace",
-        "author": "death_au",
-        "description": "Show whitespace in the editor.",
-        "repo": "deathau/cm-show-whitespace-obsidian"
-    },
-    {
         "id": "table-editor-obsidian",
         "name": "Advanced Tables",
         "author": "Tony Grosinger",
@@ -700,13 +693,6 @@
         "repo": "Darakah/obsidian-comments-plugin"
     },
     {
-        "id": "ini-obsidian",
-        "name": "ini Editor",
-        "author": "death_au",
-        "description": "Edit .ini files in Obsidian.",
-        "repo": "deathau/ini-obsidian"
-    },
-    {
         "id": "various-complements",
         "name": "Various Complements",
         "author": "tadashi-aikawa",
@@ -719,13 +705,6 @@
         "author": "darakah",
         "description": "Create a timeline view of all notes with the specified combination of tags.",
         "repo": "Darakah/obsidian-timelines"
-    },
-    {
-        "id": "txt-as-md-obsidian",
-        "name": "txt as md",
-        "author": "death_au",
-        "description": "Edit .txt files as Markdown in Obsidian.",
-        "repo": "deathau/txt-as-md-obsidian"
     },
     {
         "id": "note-folder-autorename",
@@ -3500,13 +3479,6 @@
         "repo": "artisticat1/obsidian-latex-suite"
     },
     {
-        "id": "obsidian-better-codeblock",
-        "name": "Better CodeBlock",
-        "author": "StarGrey",
-        "description": "Add title, line numbers, and collapse button to code blocks in reading view.",
-        "repo": "stargrey/obsidian-better-codeblock"
-    },
-    {
         "id": "obsidian-wordnik",
         "name": "Wordnik Definitions",
         "author": "Henry Gustafson",
@@ -5642,13 +5614,6 @@
         "repo": "chrisgrieser/grappling-hook"
     },
     {
-        "id": "tag-search",
-        "name": "Tag Search",
-        "author": "R. W. Blickhan",
-        "description": "Fuzzy-find your tags!",
-        "repo": "rwblickhan/obsidian-tag-search"
-    },
-    {
         "id": "ytranscript",
         "name": "YTranscript",
         "author": "Łukasz Strzępek",
@@ -7437,7 +7402,7 @@
         "id": "periodic-para",
         "name": "Periodic PARA",
         "author": "YiBing Lin",
-        "description": "Assist in practicing the PARA system with periodic notes.",
+        "description": "Assist in practicing the PARA method with periodic notes and usememos.",
         "repo": "quanru/obsidian-periodic-para"
     },
     {
@@ -9315,6 +9280,153 @@
         "author": "Hananoshika Yomaru",
         "description": "Rule based keep track of your incomplete files",
         "repo": "HananoshikaYomaru/obsidian-incomplete-files"
+    },
+    {
+        "id": "timethings",
+        "name": "Time Things",
+        "author": "Nick Winters",
+        "description": "Shows a clock in the corner. Tracks the total editing time of a note and the last time it was modified.",
+        "repo": "DynamicPlayerSector/timethings"
+    },
+    {
+        "id": "custom-note-width",
+        "name": "Custom Note Width",
+        "author": "0skater0",
+        "description": "Effortlessly change the line width of each note individually. This plugin provides multiple ways to customize the experience, making it both efficient and user-friendly to adjust line widths.",
+        "repo": "0skater0/obsidian-custom-note-width"
+    },
+    {
+        "id": "manictime",
+        "name": "ManicTime",
+        "author": "Finkit d.o.o.",
+        "description": "Sends path of active file to locally installed ManicTime client.",
+        "repo": "manictime/manictime-obsidian"
+    },
+    {
+        "id": "calc-craft",
+        "name": "CalcCraft",
+        "author": "Claudiu Ivan",
+        "description": "Enables table-based calculations with a spreadsheet-like approach, utilizing references. It highlights the dependencies within tables and identifies circular references; has support for array formulas",
+        "repo": "klaudyu/CalcCraft"
+    },
+    {
+        "id": "tag-buddy",
+        "name": "Tag Buddy",
+        "author": "David Fasullo",
+        "description": "Add, edit, and remove tags in reading mode. Copy, move, or edit tagged blocks in reading and edit mode.",
+        "repo": "moremeyou/Obsidian-Tag-Buddy"
+    },
+    {
+        "id": "adjacency-matrix-exporter",
+        "name": "Adjacency Matrix Exporter",
+        "author": "danielegrazzini",
+        "description": "Create a numerical adjacency matrix of your vault in two ways: Absolute and Normalized.",
+        "repo": "danielegrazzini/adjacency-matrix-exporter"
+    },
+    {
+        "id": "key-value-list",
+        "name": "Key-Value List",
+        "author": "Christian Wannerstedt",
+        "description": "Makes it easy to turn lists into neatly formatted key-value lists.",
+        "repo": "christianwannerstedt/obsidian-key-value-list"
+    },
+    {
+        "id": "word-bank",
+        "name": "Word Bank",
+        "author": "TannYuld",
+        "description": "Create a word library from your word files.",
+        "repo": "TannYuld/WordBank"
+    },
+    {
+        "id": "disk-usage",
+        "name": "Disk Usage",
+        "author": "Promptier",
+        "description": "Measures disk usage for tracking size of folders and file types.",
+        "repo": "Promptier/disk-usage"
+    },
+    {
+        "id": "attachment-uploader",
+        "name": "Attachment Uploader",
+        "author": "zhuxining",
+        "description": "Attachment uploader plugin, which allows you customize the upload command, customize upload file type.",
+        "repo": "zhuxining/obsidian-attachment-uploader"
+    },
+    {
+        "id": "formatto-format",
+        "name": "Formatto",
+        "author": "Deca",
+        "description": "Format your markdown document.",
+        "repo": "decaplanet/formatto"
+    },
+    {
+        "id": "chat-cbt",
+        "name": "ChatCBT",
+        "author": "Claire Froelich",
+        "description": "AI-powered journaling assistant for your notes, inspired by cognitive behavioral therapy (CBT)",
+        "repo": "clairefro/obsidian-chat-cbt-plugin"
+    },
+    {
+        "id": "daily-icalendar",
+        "name": "Daily ICalendar",
+        "author": "mmmykhailo",
+        "description": "View calendar events in daily notes.",
+        "repo": "mmmykhailo/obsidian-daily-icalendar"
+    },
+    {
+        "id": "auto-displaystyle-inline-math",
+        "name": "Auto-\\displaystyle Inline Math",
+        "author": "Ryota Ushio",
+        "description": "Automatically make all inline maths \\displaystyle.",
+        "repo": "RyotaUshio/obsidian-auto-displaystyle-inline-math"
+    },
+    {
+        "id": "textanalysis",
+        "name": "Text Analysis",
+        "author": "Miha Kralj",
+        "description": "Real-time text analysis on readability, structure, and complexity, incorporating over 30 indicators.",
+        "repo": "mihakralj/obsidian-textanalysis"
+    },
+    {
+        "id": "minitabs",
+        "name": "Minitabs",
+        "author": "ssjy1919",
+        "description": "Customize a set of nested tabs through code blocks.",
+        "repo": "ssjy1919/Obsidian-minitabs"
+    },
+    {
+        "id": "lyrics",
+        "name": "Lyrics",
+        "author": "eatgrass",
+        "description": "Enhance the audio player with interacive lyrics",
+        "repo": "eatgrass/obsidian-lyrics"
+    },
+    {
+        "id": "show-whitespace-cm6",
+        "name": "Show Whitespace",
+        "author": "Erin Schnabel",
+        "description": "CSS styles and CM6 extensions to highlight whitespace in Source and Live Preview modes",
+        "repo": "ebullient/obsidian-show-whitespace-cm6"
+    },
+    {
+        "id": "rendered-block-link-suggestions",
+        "name": "Rendered Block Link Suggestions",
+        "author": "Ryota Ushio",
+        "description": "Upgrade Obsidian's built-in link suggestions with block markdown rendering.",
+        "repo": "RyotaUshio/obsidian-rendered-block-link-suggestions"
+    },
+    {
+        "id": "quick-preview",
+        "name": "Quick Preview",
+        "author": "Ryota Ushio",
+        "description": "Quickly preview a suggestion before selecting it in link suggestions & quick swicher.",
+        "repo": "RyotaUshio/obsidian-quick-preview"
+    },
+    {
+        "id": "desk",
+        "name": "Desk",
+        "author": "David Landry",
+        "description": "A desk to see notes at a glance in Obsidian. Requires Dataview as a dependency.",
+        "repo": "davidlandry93/obsidian-desk"
     },
     {
         "id": "tmayoff-meals",
