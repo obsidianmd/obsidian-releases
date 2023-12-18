@@ -35,13 +35,6 @@
         "repo": "deathau/sliding-panes-obsidian"
     },
     {
-        "id": "cm-show-whitespace-obsidian",
-        "name": "Show Whitespace",
-        "author": "death_au",
-        "description": "Show whitespace in the editor.",
-        "repo": "deathau/cm-show-whitespace-obsidian"
-    },
-    {
         "id": "table-editor-obsidian",
         "name": "Advanced Tables",
         "author": "Tony Grosinger",
@@ -700,13 +693,6 @@
         "repo": "Darakah/obsidian-comments-plugin"
     },
     {
-        "id": "ini-obsidian",
-        "name": "ini Editor",
-        "author": "death_au",
-        "description": "Edit .ini files in Obsidian.",
-        "repo": "deathau/ini-obsidian"
-    },
-    {
         "id": "various-complements",
         "name": "Various Complements",
         "author": "tadashi-aikawa",
@@ -719,13 +705,6 @@
         "author": "darakah",
         "description": "Create a timeline view of all notes with the specified combination of tags.",
         "repo": "Darakah/obsidian-timelines"
-    },
-    {
-        "id": "txt-as-md-obsidian",
-        "name": "txt as md",
-        "author": "death_au",
-        "description": "Edit .txt files as Markdown in Obsidian.",
-        "repo": "deathau/txt-as-md-obsidian"
     },
     {
         "id": "note-folder-autorename",
@@ -3500,13 +3479,6 @@
         "repo": "artisticat1/obsidian-latex-suite"
     },
     {
-        "id": "obsidian-better-codeblock",
-        "name": "Better CodeBlock",
-        "author": "StarGrey",
-        "description": "Add title, line numbers, and collapse button to code blocks in reading view.",
-        "repo": "stargrey/obsidian-better-codeblock"
-    },
-    {
         "id": "obsidian-wordnik",
         "name": "Wordnik Definitions",
         "author": "Henry Gustafson",
@@ -5642,13 +5614,6 @@
         "repo": "chrisgrieser/grappling-hook"
     },
     {
-        "id": "tag-search",
-        "name": "Tag Search",
-        "author": "R. W. Blickhan",
-        "description": "Fuzzy-find your tags!",
-        "repo": "rwblickhan/obsidian-tag-search"
-    },
-    {
         "id": "ytranscript",
         "name": "YTranscript",
         "author": "Łukasz Strzępek",
@@ -7437,7 +7402,7 @@
         "id": "periodic-para",
         "name": "Periodic PARA",
         "author": "YiBing Lin",
-        "description": "Assist in practicing the PARA system with periodic notes.",
+        "description": "Assist in practicing the PARA method with periodic notes and usememos.",
         "repo": "quanru/obsidian-periodic-para"
     },
     {
@@ -9380,10 +9345,157 @@
       "repo": "Promptier/disk-usage"
     },
     {
-      "id": "gamified-pkm",
-      "name": "Gamificate your PKM",
-      "author": "Andreas Trebing",
-      "description": "Enhance your Personal Knowledge Management with gamification elements. Boost motivation and achieve growth as you engage with your PKM.",
-      "repo": "saertna/obsidian-gamified-pkm"
-    }
+      "id": "attachment-uploader",
+      "name": "Attachment Uploader",
+      "author": "zhuxining",
+      "description": "Attachment uploader plugin, which allows you customize the upload command, customize upload file type.",
+      "repo": "zhuxining/obsidian-attachment-uploader"
+    },
+    {
+      "id": "formatto-format",
+      "name": "Formatto",
+      "author": "Deca",
+      "description": "Format your markdown document.",
+      "repo": "decaplanet/formatto"
+    },
+    {
+      "id": "chat-cbt",
+      "name": "ChatCBT",
+      "author": "Claire Froelich",
+      "description": "AI-powered journaling assistant for your notes, inspired by cognitive behavioral therapy (CBT)",
+      "repo": "clairefro/obsidian-chat-cbt-plugin"
+    },
+    {
+      "id": "daily-icalendar",
+      "name": "Daily ICalendar",
+      "author": "mmmykhailo",
+      "description": "View calendar events in daily notes.",
+      "repo": "mmmykhailo/obsidian-daily-icalendar"
+    },
+    {
+      "id": "auto-displaystyle-inline-math",
+      "name": "Auto-\\displaystyle Inline Math",
+      "author": "Ryota Ushio",
+      "description": "Automatically make all inline maths \\displaystyle.",
+      "repo": "RyotaUshio/obsidian-auto-displaystyle-inline-math"
+    },
+    {
+     "id": "textanalysis",
+    "name": "Text Analysis",
+    "author": "Miha Kralj",
+    "description": "Real-time text analysis on readability, structure, and complexity, incorporating over 30 indicators.",
+    "repo": "mihakralj/obsidian-textanalysis"
+    },
+    {
+    "id": "minitabs",
+    "name": "Minitabs",
+    "author": "ssjy1919",
+    "description": "Customize a set of nested tabs through code blocks.",
+    "repo": "ssjy1919/Obsidian-minitabs"
+  },
+  {
+    "id": "lyrics",
+    "name": "Lyrics",
+    "author": "eatgrass",
+    "description": "Enhance the audio player with interacive lyrics",
+    "repo": "eatgrass/obsidian-lyrics"
+  },
+  {
+    "id": "show-whitespace-cm6",
+    "name": "Show Whitespace",
+    "author": "Erin Schnabel",
+    "description": "CSS styles and CM6 extensions to highlight whitespace in Source and Live Preview modes",
+    "repo": "ebullient/obsidian-show-whitespace-cm6"
+    },
+    {
+    "id": "rendered-block-link-suggestions",
+    "name": "Rendered Block Link Suggestions",
+    "author": "Ryota Ushio",
+    "description": "Upgrade Obsidian's built-in link suggestions with block markdown rendering.",
+    "repo": "RyotaUshio/obsidian-rendered-block-link-suggestions"
+  },
+  {
+    "id": "quick-preview",
+    "name": "Quick Preview",
+    "author": "Ryota Ushio",
+    "description": "Quickly preview a suggestion before selecting it in link suggestions & quick swicher.",
+    "repo": "RyotaUshio/obsidian-quick-preview"
+  },
+  {
+    "id": "desk",
+    "name": "Desk",
+    "author": "David Landry",
+    "description": "A desk to see notes at a glance in Obsidian. Requires Dataview as a dependency.",
+    "repo": "davidlandry93/obsidian-desk"
+  },
+  {
+    "id": "tldraw",
+    "name": "Tldraw",
+    "author": "Sam Alhaqab",
+    "description": "Integrates Tldraw into Obsidian, allowing users to draw and edit content on a virtual whiteboard.",
+    "repo": "holxsam/tldraw-in-obsidian"
+  },
+  {
+    "id": "autocorrect-formatter",
+    "name": "Autocorrect Formatter",
+    "author": "b-yp",
+    "description": "Format Markdown content using Autocorrect.",
+    "repo": "b-yp/obsidian-autocorrect"
+  },
+  {
+    "id": "vim-yank-highlight",
+    "name": "Vim Yank Highlight",
+    "author": "Aleksey Rowan",
+    "description": "Highlight yanked text in Vim mode. Enjoy that subtle animation you've missed so much.",
+    "repo": "aleksey-rowan/obsidian-vim-yank-highlight"
+  },
+  {
+    "id": "tickticksync",
+    "name": "TickTickSync",
+    "author": "thesamim",
+    "description": "Sync TickTick tasks to Obsidian, and Obsidian tasks to TickTick",
+    "repo": "thesamim/TickTickSync"
+  },
+  {
+    "id": "slash-commander",
+    "name": "Slash Commander",
+    "author": "alephpiece",
+    "description": "Customize the slash command list, assign each command an icon.",
+    "repo": "alephpiece/obsidian-slash-commander"
+  },
+  {
+    "id": "custom-save",
+    "name": "Custom save",
+    "author": "Hananoshika Yomaru",
+    "description": "Add custom save actions",
+    "repo": "HananoshikaYomaru/obsidian-custom-save"
+  },
+  {
+    "id": "peerdraft",
+    "name": "Peerdraft",
+    "author": "Peerdraft",
+    "description": "Secure real-time collaboration via secret link",
+    "repo": "peerdraft/obsidian-plugin"
+  },
+  {
+      "id": "note-gallery",
+      "name": "Note Gallery",
+      "author": "Pash Shocky",
+      "description": "A masonry gallery that will visualize your notes, similar to Craft note view.",
+      "repo": "pashashocky/obsidian-note-gallery"
+  },
+  {
+    "id": "smart-title",
+    "name": "Smart Title",
+    "author": "magooup",
+    "description": "Automatically extract tags and aliases from the title.",
+    "repo": "magooup/obsidian-plugin-smart-title"
+  },
+  {
+    "id": "gamified-pkm",
+    "name": "Gamificate your PKM",
+    "author": "Andreas Trebing",
+    "description": "Enhance your Personal Knowledge Management with gamification elements. Boost motivation and achieve growth as you engage with your PKM.",
+    "repo": "saertna/obsidian-gamified-pkm"
+  }
 ]
