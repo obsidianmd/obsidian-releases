@@ -2579,8 +2579,8 @@
         "id": "cooklang-obsidian",
         "name": "CookLang Editor",
         "description": "Edit and display CookLang recipes in Obsidian.",
-        "author": "death_au",
-        "repo": "deathau/cooklang-obsidian"
+        "author": "death_au/cooklang",
+        "repo": "cooklang/cooklang-obsidian"
     },
     {
         "id": "highlightr-plugin",
@@ -8870,10 +8870,10 @@
     },
     {
         "id": "remotely-secure",
-        "name": "Remotely Secure",
+        "name": "Remotely Sync",
         "author": "sboesen",
         "description": "Security fixes for the remotely-save unofficial plugin allowing users to synchronize notes between local device and the cloud service. Not backwards compatible.",
-        "repo": "sboesen/remotely-secure"
+        "repo": "sboesen/remotely-sync"
     },
     {
         "id": "inline-encrypter",
@@ -9418,7 +9418,7 @@
     "id": "quick-preview",
     "name": "Quick Preview",
     "author": "Ryota Ushio",
-    "description": "Quickly preview a suggestion before selecting it in link suggestions & quick swicher.",
+    "description": "Quickly preview a suggestion before selecting it in link suggestions & quick switcher.",
     "repo": "RyotaUshio/obsidian-quick-preview"
   },
   {
@@ -9427,6 +9427,167 @@
     "author": "David Landry",
     "description": "A desk to see notes at a glance in Obsidian. Requires Dataview as a dependency.",
     "repo": "davidlandry93/obsidian-desk"
+  },
+  {
+    "id": "tldraw",
+    "name": "Tldraw",
+    "author": "Sam Alhaqab",
+    "description": "Integrates Tldraw into Obsidian, allowing users to draw and edit content on a virtual whiteboard.",
+    "repo": "holxsam/tldraw-in-obsidian"
+  },
+  {
+    "id": "autocorrect-formatter",
+    "name": "Autocorrect Formatter",
+    "author": "b-yp",
+    "description": "Format Markdown content using Autocorrect.",
+    "repo": "b-yp/obsidian-autocorrect"
+  },
+  {
+    "id": "vim-yank-highlight",
+    "name": "Vim Yank Highlight",
+    "author": "Aleksey Rowan",
+    "description": "Highlight yanked text in Vim mode. Enjoy that subtle animation you've missed so much.",
+    "repo": "aleksey-rowan/obsidian-vim-yank-highlight"
+  },
+  {
+    "id": "tickticksync",
+    "name": "TickTickSync",
+    "author": "thesamim",
+    "description": "Sync TickTick tasks to Obsidian, and Obsidian tasks to TickTick",
+    "repo": "thesamim/TickTickSync"
+  },
+  {
+    "id": "slash-commander",
+    "name": "Slash Commander",
+    "author": "alephpiece",
+    "description": "Customize the slash command list, assign each command an icon.",
+    "repo": "alephpiece/obsidian-slash-commander"
+  },
+  {
+    "id": "custom-save",
+    "name": "Custom save",
+    "author": "Hananoshika Yomaru",
+    "description": "Add custom save actions",
+    "repo": "HananoshikaYomaru/obsidian-custom-save"
+  },
+  {
+    "id": "peerdraft",
+    "name": "Peerdraft",
+    "author": "Peerdraft",
+    "description": "Secure real-time collaboration via secret link",
+    "repo": "peerdraft/obsidian-plugin"
+  },
+  {
+      "id": "note-gallery",
+      "name": "Note Gallery",
+      "author": "Pash Shocky",
+      "description": "A masonry gallery that will visualize your notes, similar to Craft note view.",
+      "repo": "pashashocky/obsidian-note-gallery"
+  },
+  {
+    "id": "smart-title",
+    "name": "Smart Title",
+    "author": "magooup",
+    "description": "Automatically extract tags and aliases from the title.",
+    "repo": "magooup/obsidian-plugin-smart-title"
+  },
+  {
+    "id": "gamified-pkm",
+    "name": "Gamificate your PKM",
+    "author": "Andreas Trebing",
+    "description": "Enhance your Personal Knowledge Management with gamification elements. Boost motivation and achieve growth as you engage with your PKM.",
+    "repo": "saertna/obsidian-gamified-pkm"
+  },
+  {
+    "id": "relax",
+    "name": "R.E.L.A.X.",
+    "description": "Multi-regex management for data linking and batch processing across selection, files, and folders.",
+    "author": "Syr",
+    "repo": "Syr0/R.E.L.A.X."
+  },
+  {
+    "id": "coder",
+    "name": "Encoder/Decoder",
+    "description": "Converts text into base64 format.",
+    "author": "Rudi Häusler",
+    "repo": "rudimuc/obsidian-coder"
+  },
+  {
+    "id": "habit-tracker-21",
+    "name": "Habit Tracker 21",
+    "author": "zoreet",
+    "description": "Your 21-day journey to habit formation simplified",
+    "repo": "zoreet/habit-tracker"
+  },
+  {
+    "id": "math-in-callout",
+    "name": "Better Math in Callouts & Blockquotes",
+    "author": "Ryota Ushio",
+    "description": "Add better Live Preview support for math rendering inside callouts & blockquotes.",
+    "repo": "RyotaUshio/obsidian-math-in-callout"
+  },
+  {
+    "id": "dynamic-line-height-cjk",
+    "name": "Dynamic Line Height for CJK",
+    "author": "Ryota Ushio",
+    "description": "Dynamically adjust line height for lines & paragraphs containing CJK characters.",
+    "repo": "RyotaUshio/obsidian-dynamic-line-height-cjk"
+  },
+  {
+    "id": "pomodoro-timer",
+    "name": "Pomodoro Timer",
+    "author": "eatgrass",
+    "description": "A pomodoro timer that helps manage your daily focus",
+    "repo": "eatgrass/obsidian-pomodoro-timer"
+  },
+  {
+    "id": "vim-im-control",
+    "name": "Vim IM Control",
+    "author": "hideakitai",
+    "description": "Obsidian plugin to switch Input Method when `InsertLeave` and `InsertEnter`. Supports macOS, Windows, and Linux.",
+    "repo": "hideakitai/obsidian-vim-im-control"
+  },
+  {
+    "id": "global-proxy",
+    "name": "Global Proxy",
+    "author": "windingblack",
+    "description": "Use network proxy according to the rules configured in this plugin",
+    "repo": "windingblack/obsidian-global-proxy"
+  },
+  {
+    "id": "subdivider",
+    "name": "Subdivider",
+    "author": "Tricster",
+    "description": "Converts your notes into nested folders, automatically creating separate files for each subheading.",
+    "repo": "MediosZ/obsidian-subdivider"
+  },
+  {
+    "id": "image-helper",
+    "name": "Image Helper",
+    "author": "Chongmyung Park",
+    "description": "Context menu to convert image format in reading view",
+    "repo": "byfun/obsidian-image-helper"
+  },
+  {
+    "id": "highlight-helper",
+    "name": "Highlight Helper",
+    "author": "Chongmyung Park",
+    "description": "Helper to collect highlights",
+    "repo": "byfun/obsidian-highlight-helper"
+  },
+  {
+    "id": "syncread",
+    "name": "syncread-assistant",
+    "description": "Sync articles from the syncread app",
+    "author": "flyer1b",
+    "repo":"flyer1b/LightRead-master"
+  },
+  {
+    "id": "intelligence",
+    "name": "Intelligence",
+    "author": "John Mavrick",
+    "description": "OpenAI GPT Assistants functionality",
+    "repo": "ransurf/obsidian-intelligence"
   },
   {
     "id": "neighbouring-files",

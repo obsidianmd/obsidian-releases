@@ -44,7 +44,13 @@ jobs:
                   console.log(`Downloading stats for ${id} (${plugin.repo})`);
                   let stats = newStats[id] = newStats[id] || {};
                   let [owner, repo] = plugin.repo.split('/');
-                  let releases = (await github.rest.repos.listReleases({owner, repo})).data;
+                  
+                  const releases = [];
+                  const releasesData = github.paginate.iterator(github.rest.repos.listReleases, {owner, repo, per_page: 100});
+                  for await (const { data: data } of releasesData) {
+                    releases.push(...data);
+                  }
+
                   // stats is Array<{tag_name: string, assets: Array<{name: string, download_count}>}>
 
                   let updated = 0;
