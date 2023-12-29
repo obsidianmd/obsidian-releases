@@ -15,7 +15,9 @@ jobs:
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.issue.number }}
           LABELS: Skipped code scan
-      - uses: actions-ecosystem/action-add-assignees@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          assignees: joethei
+      - run: gh issue edit "$NUMBER" --add-assignee "$ASSIGNEE"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          ASSIGNEE: joethei
