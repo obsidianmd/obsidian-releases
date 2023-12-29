@@ -7266,13 +7266,6 @@
         "repo": "SalokinGreen/NAI4Obsidian"
     },
     {
-        "id": "password-protection",
-        "name": "Password Protection",
-        "description": "Protect your private notes and diary with a password, no encrypt, no decrypt.",
-        "author": "Qing Li",
-        "repo": "qing3962/password-protection"
-    },
-    {
         "id": "lds-scriptures-reference",
         "name": "LDS Scriptures Reference",
         "author": "pacokwon",
@@ -9418,7 +9411,7 @@
     "id": "quick-preview",
     "name": "Quick Preview",
     "author": "Ryota Ushio",
-    "description": "Quickly preview a suggestion before selecting it in link suggestions & quick swicher.",
+    "description": "Quickly preview a suggestion before selecting it in link suggestions & quick switcher.",
     "repo": "RyotaUshio/obsidian-quick-preview"
   },
   {
@@ -9553,5 +9546,67 @@
     "author": "HUANG Xiaojun",
     "description": "Synchronize the archived collections in Cubox to Obsidian, allowing synchronization of the content on the first page at a time.",
     "repo": "hxj8059/obsidian-cubox-import"
+  },
+    "id": "global-proxy",
+    "name": "Global Proxy",
+    "author": "windingblack",
+    "description": "Use network proxy according to the rules configured in this plugin",
+    "repo": "windingblack/obsidian-global-proxy"
+  },
+  {
+    "id": "subdivider",
+    "name": "Subdivider",
+    "author": "Tricster",
+    "description": "Converts your notes into nested folders, automatically creating separate files for each subheading.",
+    "repo": "MediosZ/obsidian-subdivider"
+  },
+  {
+    "id": "image-helper",
+    "name": "Image Helper",
+    "author": "Chongmyung Park",
+    "description": "Context menu to convert image format in reading view",
+    "repo": "byfun/obsidian-image-helper"
+  },
+  {
+    "id": "highlight-helper",
+    "name": "Highlight Helper",
+    "author": "Chongmyung Park",
+    "description": "Helper to collect highlights",
+    "repo": "byfun/obsidian-highlight-helper"
+  },
+  {
+    "id": "syncread",
+    "name": "syncread-assistant",
+    "description": "Sync articles from the syncread app",
+    "author": "flyer1b",
+    "repo":"flyer1b/LightRead-master"
+  },
+  {
+    "id": "intelligence",
+    "name": "Intelligence",
+    "author": "John Mavrick",
+    "description": "OpenAI GPT Assistants functionality",
+    "repo": "ransurf/obsidian-intelligence"
+  },
+  {
+    "id": "neighbouring-files",
+    "name": "Neighbouring Files",
+    "author": "Fabian Untermoser",
+    "description": "Navigate to the next and previous file in the current directory",
+    "repo": "FabianUntermoser/obsidian-neighbouring-files-plugin"
+  },
+  {
+    "id": "storyclock",
+    "name": "Storyclock Viewer",
+    "author": "Jonathan Fisher",
+    "description": "Maps timing onto a storyclock. Inspired by Plot Devices Storyclock",
+    "repo": "jonzfisher/obsidian-chronostory"
+  },
+  {
+    "id": "local-gpt",
+    "name": "Local GPT",
+    "author": "Pavel Frankov",
+    "description": "Local GPT assistance for maximum privacy and offline access",
+    "repo": "pfrankov/obsidian-local-gpt"
   }
 ]
