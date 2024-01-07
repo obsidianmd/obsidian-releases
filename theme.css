@@ -1,6 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap");
 
+@keyframes icon_blur {
+	0% {
+		-webkit-filter: blur(0px);
+		filter: blur(0px);
+	}
+	50% {
+		-webkit-filter: blur(5px);
+		filter: blur(5px);
+	}
+	100% {
+		-webkit-filter: blur(0px);
+		filter: blur(0px);
+	}
+}
+
 :root {
 	/* Colors Preset */
 	--color-timberwolf: #d8d9cf;
@@ -35,38 +50,13 @@ body {
 	--h5-font: var(--arvo-bold);
 	--h6-font: var(--arvo-bold);
 
-	.theme-light {
-		--h1-color: var(--color-timberwolf);
-		--h2-color: var(--color-timberwolf);
-		--h3-color: var(--color-timberwolf);
-		--h4-color: var(--color-timberwolf);
-		--h5-color: var(--color-timberwolf);
-		--h6-color: var(--color-timberwolf);
-	}
-	.theme-dark {
-		--h1-color: var(--color-bright-gray);
-		--h2-color: var(--color-bright-gray);
-		--h3-color: var(--color-bright-gray);
-		--h4-color: var(--color-bright-gray);
-		--h5-color: var(--color-bright-gray);
-		--h6-color: var(--color-bright-gray);
-	}
-
 	/* Accents */
 	--accent-h: var(--color-timberwolf);
 	--accent-s: 91%;
 	--accent-l: 55%;
 
-	/* Background Color */
-	.theme-light {
-		--background-primary: var(--color-timberwolf);
-		--background-secondary: var(--color-bright-gray);
-	}
-
 	/* Text */
 	/*TODO : dark mode text selection not working*/
-	--text-highlight-bg: var(--color-light-carmine-pink);
-	--text-selection: var(--color-light-carmine-pink);
 
 	/* Inline Title */
 	--inline-title-color: var(--color-light-carmine-pink);
@@ -83,7 +73,6 @@ body {
 	);
 
 	/* Window frame */
-	--titlebar-background-focused: var(--color-timberwolf);
 	.workspace-tab-header-inner-title {
 		color: var(--color-tulip);
 	}
@@ -95,6 +84,10 @@ body {
 		color: var(--color-tulip);
 		border-radius: 20%;
 		transition: 0.5s;
+	}
+
+	[class*="icon"]:hover {
+		animation: icon_blur 1.2s infinite;
 	}
 
 	.widget-icon {
@@ -131,8 +124,15 @@ body {
 	/* Callout */
 	--callout-border-opacity: 0.7;
 	--callout-radius: 20px;
-	.theme-light {
+
+	/* .theme-light {
 		--callout-content-background: var(--color-bright-gray);
+	} */
+	.callout {
+		transition: all 0.3s ease-in-out;
+	}
+	.callout:hover {
+		background-color: rgba(var(--callout-color), 0.15);
 	}
 
 	/* Scrollbar */
@@ -150,7 +150,56 @@ body {
 	--nav-item-color-hover: var(--color-tulip);
 	--nav-item-padding: 0.25em;
 
+	--nav-indentation-guide-width: 0em;
+
 	/* Button */
 	--background-modifier-error: var(--color-red);
 	--background-modifier-error-hover: var(--color-red);
+
+	/* Tabs */
+	--tab-outline-color: var(--color-light-carmine-pink);
+	--tab-text-color-focused-active-current: var(--color-light-carmine-pink);
+
+	/* Table */
+	--table-header-color: var(--color-light-carmine-pink);
+}
+
+/* Light Color Scheme */
+.theme-light {
+	/* Heading */
+	--h1-color: var(--color-tulip);
+	--h2-color: var(--color-tulip);
+	--h3-color: var(--color-tulip);
+	--h4-color: var(--color-tulip);
+	--h5-color: var(--color-tulip);
+	--h6-color: var(--color-tulip);
+
+	/* Background Color */
+	--background-primary: var(--color-timberwolf);
+	--background-secondary: var(--color-bright-gray);
+
+	/* Text Selection */
+	--text-highlight-bg: var(--color-tulip);
+	--text-selection: var(--color-tulip);
+
+	/* Table */
+	--table-border-color: #000000;
+}
+
+/* Dark Color Scheme */
+.theme-dark {
+	/* Heading */
+	--h1-color: var(--color-bright-gray);
+	--h2-color: var(--color-bright-gray);
+	--h3-color: var(--color-bright-gray);
+	--h4-color: var(--color-bright-gray);
+	--h5-color: var(--color-bright-gray);
+	--h6-color: var(--color-bright-gray);
+
+	/* Text Selection */
+	--text-highlight-bg: var(--color-light-carmine-pink);
+	--text-selection: var(--color-light-carmine-pink);
+
+	/* Table */
+	--table-border-color: #ffffff;
 }
