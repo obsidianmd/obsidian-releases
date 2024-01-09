@@ -162,6 +162,15 @@ body {
 
 	/* Table */
 	--table-header-color: var(--color-light-carmine-pink);
+
+	/* Graph */
+	--graph-text: var(--color-light-carmine-pink);
+	--graph-node: var(--color-light-carmine-pink);
+	--graph-node-focused: var(--color-tulip);
+
+	.graph-view.color-fill-highlight {
+		color: red;
+	}
 }
 
 /* Light Color Scheme */
@@ -184,6 +193,13 @@ body {
 
 	/* Table */
 	--table-border-color: #000000;
+
+	/* Graph */
+	.graph-view.color-line {
+		color: var(--color-tulip);
+	}
+	--graph-node-unresolved: gray;
+	--graph-node-attachment: var(--color-bright-gray);
 }
 
 /* Dark Color Scheme */
@@ -202,4 +218,11 @@ body {
 
 	/* Table */
 	--table-border-color: #ffffff;
+
+	/* Graph */
+	.graph-view.color-line {
+		color: var(--color-timberwolf);
+	}
+	--graph-node-unresolved: var(--color-timberwolf);
+	--graph-node-attachment: rgb(75, 75, 75);
 }
