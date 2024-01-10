@@ -1,18 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap");
 
-@keyframes icon_blur {
+@keyframes zoom-in-zoom-out {
 	0% {
-		-webkit-filter: blur(0px);
-		filter: blur(0px);
+		transform: scale(1, 1);
 	}
 	50% {
-		-webkit-filter: blur(5px);
-		filter: blur(5px);
+		transform: scale(1.25, 1.25);
 	}
 	100% {
-		-webkit-filter: blur(0px);
-		filter: blur(0px);
+		transform: scale(1, 1);
 	}
 }
 
@@ -87,7 +84,7 @@ body {
 	}
 
 	[class*="icon"]:hover {
-		animation: icon_blur 0.8s infinite;
+		animation: zoom-in-zoom-out 0.8s infinite;
 	}
 
 	.widget-icon {
