@@ -1,0 +1,20 @@
+name: 'Close stale PRs'
+on:
+  schedule:
+    - cron: "27 7 * * *"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions/stale@v4
+        with:
+          stale-pr-message: "Hi there, as this PR has not seen any activity in the last 30 days, it will be closed in 30 days unless there are any updates."
+          close-pr-message: "Hi there, to keep things tidy, we're closing PRs after two months of inactivity.\nFeel free to ask us to re-open it when you're ready to continue. Thanks for your understanding!"
+          days-before-stale: 30
+          days-before-close: 30
+          stale-pr-label: stale
+          exempt-pr-labels: Ready for review
+          operations-per-run: 40
