@@ -45,6 +45,10 @@ jobs:
                     addError('You modified files other than `community-css-themes.json`.');
                 }
 
+                if (context.payload.pull_request.body.includes('Please switch to **Preview** and select one of the following links:')) {
+                  addError('You did not follow the pull request template.');
+                }
+
                 let themes;
 
                 try {
@@ -229,6 +233,13 @@ jobs:
                     addWarning('Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.');
                 }
 
+                await github.rest.pulls.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number: context.issue.number,
+                  title: `Add theme: ${theme.name}`
+                });
+
             })();
 
 
@@ -260,8 +271,23 @@ jobs:
             }   
 
             let labels = errors.length > 0 ? ['Validation failed'] : ['Ready for review'];
-            if (context.payload.pull_request.labels.includes('Changes requested')) {
-                labels.push('Changes requested');
+             if (context.payload.pull_request.labels.includes('Changes requested')) {
+              labels.push('Changes requested');
+            }
+            if (context.payload.pull_request.labels.includes('Additional review required')) {
+              labels.push('Additional review required');
+            }
+            if (context.payload.pull_request.labels.includes('Minor changes requested')) {
+              labels.push('Minor changes requested');
+            }
+            if (context.payload.pull_request.labels.includes('Requires author rebase')) {
+              labels.push('requires author rebase');
+            }
+            if (context.payload.pull_request.labels.includes('Installation not recommended')) {
+              labels.push('Installation not recommended');
+            }
+            if (context.payload.pull_request.labels.includes('Changes made')) {
+              labels.push('Changes made');
             }
             labels.push('theme');
 
