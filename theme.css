@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap");
+
+@keyframes zoom-in-zoom-out {
+	0% {
+		transform: scale(1, 1);
+	}
+	50% {
+		transform: scale(1.25, 1.25);
+	}
+	100% {
+		transform: scale(1, 1);
+	}
+}
+
+:root {
+	/* Colors Preset */
+	--color-timberwolf: #d8d9cf;
+	--color-bright-gray: #ededed;
+	--color-tulip: #ff8787;
+	--color-light-carmine-pink: #e26868;
+
+	/* Font Preset */
+	--arvo-bold: "Arvo", serif;
+	--permanent-marker: "Permanent Marker", cursive;
+}
+body {
+	/* Headings */
+	--h1-size: 2em;
+	--h2-size: 1.7em;
+	--h3-size: 1.5em;
+	--h4-size: 1.3em;
+	--h5-size: 1.1em;
+	--h6-size: 0.8em;
+
+	--h1-weight: 400;
+	--h2-weight: 400;
+	--h3-weight: 400;
+	--h4-weight: 400;
+	--h5-weight: 400;
+	--h6-weight: 400;
+
+	--h1-font: var(--arvo-bold);
+	--h2-font: var(--arvo-bold);
+	--h3-font: var(--arvo-bold);
+	--h4-font: var(--arvo-bold);
+	--h5-font: var(--arvo-bold);
+	--h6-font: var(--arvo-bold);
+
+	/* Accents */
+	--accent-h: var(--color-timberwolf);
+	--accent-s: 91%;
+	--accent-l: 55%;
+
+	/* Text */
+	/*TODO : dark mode text selection not working*/
+
+	/* Inline Title */
+	--inline-title-color: var(--color-light-carmine-pink);
+	--inline-title-font: var(--permanent-marker);
+	--inline-title-size: 2.4em;
+	--inline-title-weight: 400;
+
+	/* Text */
+	--text-on-accent: var(--color-tulip);
+	--text-on-accent-inverted: var(--color-tulip);
+	--text-muted: color.mix(
+		var(var(--color-light-carmine-pink)),
+		var(--color-bright-gray)
+	);
+
+	/* Window frame */
+	.workspace-tab-header-inner-title {
+		color: var(--color-tulip);
+	}
+
+	/* Icon */
+	--search-icon-color: var(--color-tulip);
+	[class*="icon"],
+	[class*="titlebar-button"] {
+		color: var(--color-tulip);
+		border-radius: 20%;
+		transition: 0.5s;
+	}
+
+	[class*="icon"]:hover {
+		animation: zoom-in-zoom-out 0.8s infinite;
+	}
+
+	.widget-icon {
+		fill: var(--color-tulip);
+		border-radius: 50%;
+	}
+
+	/* Links */
+	--link-external-color-hover: var(--color-light-carmine-pink);
+	--link-external-color: var(--color-tulip);
+	--link-decoration: none;
+
+	--link-color: var(--color-tulip);
+	--link-color-hover: var(--color-light-carmine-pink);
+	--link-decoration-hover: none; /*overwrite underline*/
+
+	--link-unresolved-color: color.mix(
+		var(--color-timberwolf),
+		var(--color-light-carmine-pink)
+	);
+	--link-unresolved-opacity: 0.6;
+	--link-unresolved-filter: none;
+	--link-unresolved-decoration-style: solid;
+	--link-unresolved-decoration-color: color.mix(
+		var(--color-timberwolf),
+		var(--color-light-carmine-pink)
+	);
+
+	/* Backlinks */
+	.search-result-file-matched-text {
+		background-color: var(--color-tulip);
+	}
+
+	/* Callout */
+	--callout-border-opacity: 0.7;
+	--callout-radius: 20px;
+
+	/* .theme-light {
+		--callout-content-background: var(--color-bright-gray);
+	} */
+	.callout {
+		transition: all 0.3s ease-in-out;
+	}
+	.callout:hover {
+		background-color: rgba(var(--callout-color), 0.15);
+	}
+
+	/* Scrollbar */
+	--scrollbar-bg: var(--color-timberwolf);
+	--scrollbar-thumb-bg: var(--color-tulip);
+	--scrollbar-active-thumb-bg: var(--color-light-carmine-pink);
+
+	/* Navbar */
+	--vault-name-font-size: 1em;
+	--vault-name-color: var(--color-light-carmine-pink);
+	--vault-name-color-hover: var(--color-tulip);
+
+	--nav-item-color-active: var(--color-light-carmine-pink);
+	--nav-item-background-active: var(--color-timberwolf);
+	--nav-item-color-hover: var(--color-tulip);
+	--nav-item-padding: 0.25em;
+
+	--nav-indentation-guide-width: 0em;
+
+	/* Button */
+	--background-modifier-error: var(--color-red);
+	--background-modifier-error-hover: var(--color-red);
+
+	/* Tabs */
+	--tab-outline-color: var(--color-light-carmine-pink);
+	--tab-text-color-focused-active-current: var(--color-light-carmine-pink);
+
+	/* Table */
+	--table-header-color: var(--color-light-carmine-pink);
+
+	/* Graph */
+	--graph-text: var(--color-light-carmine-pink);
+	--graph-node: var(--color-light-carmine-pink);
+	--graph-node-focused: var(--color-tulip);
+
+	.graph-view.color-fill-highlight {
+		color: red;
+	}
+}
+
+/* Light Color Scheme */
+.theme-light {
+	/* Heading */
+	--h1-color: var(--color-tulip);
+	--h2-color: var(--color-tulip);
+	--h3-color: var(--color-tulip);
+	--h4-color: var(--color-tulip);
+	--h5-color: var(--color-tulip);
+	--h6-color: var(--color-tulip);
+
+	/* Background Color */
+	--background-primary: var(--color-timberwolf);
+	--background-secondary: var(--color-bright-gray);
+
+	/* Text Selection */
+	--text-highlight-bg: var(--color-tulip);
+	--text-selection: var(--color-tulip);
+
+	/* Table */
+	--table-border-color: #000000;
+
+	/* Graph */
+	.graph-view.color-line {
+		color: var(--color-tulip);
+	}
+	--graph-node-unresolved: gray;
+	--graph-node-attachment: var(--color-bright-gray);
+}
+
+/* Dark Color Scheme */
+.theme-dark {
+	/* Heading */
+	--h1-color: var(--color-bright-gray);
+	--h2-color: var(--color-bright-gray);
+	--h3-color: var(--color-bright-gray);
+	--h4-color: var(--color-bright-gray);
+	--h5-color: var(--color-bright-gray);
+	--h6-color: var(--color-bright-gray);
+
+	/* Text Selection */
+	--text-highlight-bg: var(--color-light-carmine-pink);
+	--text-selection: var(--color-light-carmine-pink);
+
+	/* Table */
+	--table-border-color: #ffffff;
+
+	/* Graph */
+	.graph-view.color-line {
+		color: var(--color-timberwolf);
+	}
+	--graph-node-unresolved: var(--color-timberwolf);
+	--graph-node-attachment: rgb(75, 75, 75);
+}
