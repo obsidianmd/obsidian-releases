@@ -8729,13 +8729,6 @@
         "repo": "bekurin/tistory-publisher"
     },
     {
-        "id": "linkding-importer",
-        "name": "Linkding Importer",
-        "author": "jontstaz",
-        "description": "Imports your bookmarks from Linkding and saves them into a specified file within the Obsidian Vault.",
-        "repo": "jontstaz/obsidian-linkding-importer"
-    },
-    {
         "id": "auto-reading-mode",
         "name": "Auto Reading Mode",
         "author": "Kelvin Cao",
@@ -9674,10 +9667,18 @@
     "repo": "adiron/obsidian-strip-internal-links"
   },
   {
+
     "id": "ob-clear-unused-images-plus",
     "name": "Clear Unused Images plus",
     "author": "Xie JiangLei",
     "description": "Remove unused image files and attachment files from links",
     "repo": "xjl456852/obsidian-clear-unused-images-plus"
+  },
+  {
+    "id": "git-file-explorer",
+    "name": "Git File Explorer",
+    "author": "Mateus Molina",
+    "description": "Add relevant git information of detected git repostitories to the file explorer",
+    "repo": "MateusMolina/obsidian-git-file-explorer"
   }
 ]
