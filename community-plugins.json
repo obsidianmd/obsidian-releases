@@ -8729,13 +8729,6 @@
         "repo": "bekurin/tistory-publisher"
     },
     {
-        "id": "linkding-importer",
-        "name": "Linkding Importer",
-        "author": "jontstaz",
-        "description": "Imports your bookmarks from Linkding and saves them into a specified file within the Obsidian Vault.",
-        "repo": "jontstaz/obsidian-linkding-importer"
-    },
-    {
         "id": "auto-reading-mode",
         "name": "Auto Reading Mode",
         "author": "Kelvin Cao",
@@ -9667,12 +9660,25 @@
     "description": "Repeat last command or commands. toggle pinned command with tab",
     "repo": "1C0D/obsidian-repeat-last-commands"
   },
-    {
+  {
+    "id": "copy-without-links",
+    "name": "Strip Internal Links",
+    "author": "Adi Ron",
+    "description": "Copies the contents of files or selections within to the clipboard, without internal links",
+    "repo": "adiron/obsidian-strip-internal-links"
+  },
+  {
+    "id": "git-file-explorer",
+    "name": "Git File Explorer",
+    "author": "Mateus Molina",
+    "description": "Add relevant git information of detected git repostitories to the file explorer",
+    "repo": "MateusMolina/obsidian-git-file-explorer"
+  },
+  {
         "id": "vn-memory-lane",
         "name": "MemoryLane",
         "author": "BangCa",
         "description": "Relive and celebrate your life's milestones on a personal, interactive timeline. A nostalgic journey through your history with anniversary reminders and cherished memories.",
         "repo": "bangca85/obsidian-memorylane-plugin"
-  }
-  
+   }
 ]
