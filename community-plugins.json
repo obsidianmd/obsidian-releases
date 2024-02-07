@@ -4635,7 +4635,7 @@
     },
     {
         "id": "obsidian-to-flomo",
-        "name": "Export to Flomo",
+        "name": "Share to Flomo",
         "author": "Xiaoyu Li",
         "description": "Quickly share content to Flomo.",
         "repo": "metal-young/obsidian-to-flomo"
@@ -9737,10 +9737,24 @@
     "repo": "Karakaz/obsidian-paste-from-history"
   },
   {
+    "id": "hanayama-huzzles-tracker",
+    "name": "Hanayama Huzzles Tracker",
+    "author": "Iulian Onofrei",
+    "description": "This scrapes the Hanayama Huzzle webpage builds a Markdown table with the information, and allows you to manually track them using a status column.",
+    "repo": "revolter/obsidian-hanayama-huzzles-tracker-plugin"
+  },
+  {
+     "id": "instapaper",
+    "name": "Instapaper",
+    "author": "Instapaper",
+    "description": "Instapaper integration.",
+    "repo": "Instapaper/obsidian-instapaper"
+  },
+  {    
     "id": "ob2static-site",
     "name": "Static Site MD Exporter",
     "author": "Yunfi",
     "description": "Export specific notes to general Markdown files for static page generator like Hugo, Hexo, Astro and more.",
     "repo": "yy4382/obsidian-static-site-export"
-  }
+  },
 ]
