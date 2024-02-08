@@ -381,7 +381,7 @@
         "id": "obsidian-to-anki-plugin",
         "name": "Export to Anki",
         "author": "Pseudonium",
-        "description": "Anki integration designed for efficient bulk exporting.",
+        "description": "Anki integration designed for efficient bulk exporting. Previously known as Obsidian_to_Anki.",
         "repo": "Pseudonium/Obsidian_to_Anki"
     },
     {
@@ -4635,7 +4635,7 @@
     },
     {
         "id": "obsidian-to-flomo",
-        "name": "Export to Flomo",
+        "name": "Share to Flomo",
         "author": "Xiaoyu Li",
         "description": "Quickly share content to Flomo.",
         "repo": "metal-young/obsidian-to-flomo"
@@ -8478,7 +8478,7 @@
     },
     {
         "id": "todotxt-codeblocks",
-        "name": "Todo.txt Codeblocks",
+        "name": "TodoTxt Codeblocks",
         "author": "Benjamin Nguyen",
         "description": "Manage your tasks inside code blocks according to the Todo.txt specification.",
         "repo": "benjamonnguyen/obsidian-todotxt-codeblocks"
@@ -9708,6 +9708,118 @@
     "description": "Extended reader view support for task lists, including in-progress and won't do task items.",
     "repo": "joeriddles/extended-task-lists"
   },
+  {
+    "id": "ctrl-xa",
+    "name": "Ctrl-XA cycle various items",
+    "author": "nbossard",
+    "description": "Cycle through various items with keyboard shortcuts. Such as days, months, true-false, log level,... anything you need.",
+    "repo": "nbossard/obsidian-CtrlXA"
+  },
+  {
+    "id": "githobs",
+    "name": "GitHobs",
+    "author": "GabAlpha and MarcoG",
+    "description": "Use Obsidian as Github issue editor with logic taken from Git",
+    "repo": "GabAlpha/obsidian-githobs"
+  },
+  {
+    "id": "soundscapes",
+    "name": "Soundscapes",
+    "author": "Andrew McGivery",
+    "description": "Adds a music/ambiance (E.g. lofi, white noise) player to the status bar to help with concentration",
+    "repo": "andrewmcgivery/obsidian-soundscapes"
+  },
+  {
+    "id": "paste-from-history",
+    "name": "Paste From History",
+    "author": "Daniel Karakka",
+    "description": "Paste from the editor's recent clipboard history.",
+    "repo": "Karakaz/obsidian-paste-from-history"
+  },
+  {
+    "id": "hanayama-huzzles-tracker",
+    "name": "Hanayama Huzzles Tracker",
+    "author": "Iulian Onofrei",
+    "description": "This scrapes the Hanayama Huzzle webpage builds a Markdown table with the information, and allows you to manually track them using a status column.",
+    "repo": "revolter/obsidian-hanayama-huzzles-tracker-plugin"
+  },
+  {
+     "id": "instapaper",
+    "name": "Instapaper",
+    "author": "Instapaper",
+    "description": "Instapaper integration.",
+    "repo": "Instapaper/obsidian-instapaper"
+  },
+  {
+    "id": "full-screen-cross-platform",
+    "name": "Full Screen Toggle",
+    "author": "Donkey Pacific",
+    "description": "Toggle fullscreen across all platforms.",
+    "repo": "DonkeyPacific/obsidian-full-screen-cross-platform-plugin"
+  },
+  {
+    "id": "pkvs",
+    "name": "Persistent Key-Value Store",
+    "author": "Ara Adkins",
+    "description": "Provides a persistent key-value store for use in scripts in Obsidian.",
+    "repo": "iamrecursion/obsidian-pkvs"
+  },
+  {
+    "id": "settings-profiles",
+    "name": "Settings profiles",
+    "author": "4Source",
+    "description": "Allows you to create various global settings profiles. You can sync them between different vaults. To keep all your settings in sync, you'll never have to manually adjust them again for every vault you have or create in the future.",
+    "repo": "4Source/settings-profiles-obsidian-plugin"
+  },
+  {
+    "id": "font-size",
+    "name": "Font Size Adjuster",
+    "author": "Ryota Ushio",
+    "description": "Adjust font size via commands.",
+    "repo": "RyotaUshio/obsidian-font-size"
+  },
+  {
+    "id": "create-task",
+    "name": "Create Task",
+    "author": "Simon Knittel",
+    "description": "Create tasks faster from anywhere.",
+    "repo": "simonknittel/obsidian-create-task"
+  },
+  {
+    "id": "timeline-schedule",
+    "name": "Timeline Schedule",
+    "author": "Evan Bonsignori",
+    "description": "Inline timelines generated from human-readable time strings, e.g. 'Walk dog (30min)' in a ```schedule codeblock.",
+    "repo": "Ebonsignori/obsidian-timeline-schedule"
+  },
+  {
+    "id": "cursor-goaway",
+    "name": "cursor-goaway",
+    "author": "Xuer",
+    "description": "Hide the cursor after opening a note",
+    "repo": "liuxingyu521/obsidian-plugin-cursor-goaway"
+  },
+  {
+    "id": "continuous-mode",
+    "name": "Continuous Mode",
+    "author": "Michael Schrauzer",
+    "description": "Displays all open notes in a tab group as a continuous scrollable page (sometimes called Scrivenings mode).",
+    "repo": "gasparschott/obsidian-continuous-mode"
+  },
+  {
+    "id": "multi-state-checkbox-switcher",
+    "name": "Multi State CheckBox Switcher",
+    "author": "KubaMiszcz",
+    "description": "Click to handle multistate checkboxes.",
+    "repo": "KubaMiszcz/MultiStateCheckBoxSwitcher"
+    },
+    {
+    "id": "relay-md",
+    "name": "Relay.md",
+    "description": "Quickly and easily share notes with your team. Uses topics to limit reach so that only team members subscribed to your topics will automatically receive the shared notes straight into their vault!",
+    "author": "xeroc",
+    "repo": "relay-md/relay-md-obsidian-plugin"
+    },
   {
     "id": "apple-books-import-highlights",
     "name": "Apple Books - Import Highlights",
