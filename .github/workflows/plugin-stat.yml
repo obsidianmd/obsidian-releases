@@ -31,7 +31,7 @@ jobs:
             }
 
             (async() => {
-              console.log('Rate limit', (await github.rest.rateLimit.get()).data);
+              console.log('Rate limit', (await github.rest.rateLimit.get()).data.rate);
               for (let key in plugins) {
                 if (!plugins.hasOwnProperty(key)) {
                   continue;
@@ -41,13 +41,17 @@ jobs:
                   let plugin = plugins[key];
                   let id = plugin.id;
 
-                  console.log(`Downloading stats for ${id}`);
+                  console.log(`Downloading stats for ${id} (${plugin.repo})`);
                   let stats = newStats[id] = newStats[id] || {};
                   let [owner, repo] = plugin.repo.split('/');
-                  let releases = (await github.rest.repos.listReleases({owner, repo})).data;
-                  // stats is Array<{tag_name: string, assets: Array<{name: string, download_count}>}>
+                  
+                  const releases = [];
+                  const releasesData = github.paginate.iterator(github.rest.repos.listReleases, {owner, repo, per_page: 100});
+                  for await (const { data: data } of releasesData) {
+                    releases.push(...data);
+                  }
 
-                  console.log(`Received ${releases.length} releases for ${owner}/${repo}`);
+                  // stats is Array<{tag_name: string, assets: Array<{name: string, download_count}>}>
 
                   let updated = 0;
 
@@ -78,7 +82,7 @@ jobs:
                     }
                   }
 
-                  console.log(`Total downloads: ${total}`);
+                  console.log(`Downloads: ${total}   Releases: ${releases.length}`);
                   stats['downloads'] = total;
                   stats['updated'] = updated;
 
