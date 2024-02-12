@@ -8478,7 +8478,7 @@
     },
     {
         "id": "todotxt-codeblocks",
-        "name": "Todo.txt Codeblocks",
+        "name": "TodoTxt Codeblocks",
         "author": "Benjamin Nguyen",
         "description": "Manage your tasks inside code blocks according to the Todo.txt specification.",
         "repo": "benjamonnguyen/obsidian-todotxt-codeblocks"
@@ -9751,10 +9751,171 @@
     "repo": "Instapaper/obsidian-instapaper"
   },
   {
-  "id": "quick-link",
-  "name": "QuickLink",
-  "author": "holyghosst",
-  "description": "Creating quick hyperlinks.",
-  "repo": "holyghosst/QuickLink"
+    "id": "full-screen-cross-platform",
+    "name": "Full Screen Toggle",
+    "author": "Donkey Pacific",
+    "description": "Toggle fullscreen across all platforms.",
+    "repo": "DonkeyPacific/obsidian-full-screen-cross-platform-plugin"
+  },
+  {
+    "id": "pkvs",
+    "name": "Persistent Key-Value Store",
+    "author": "Ara Adkins",
+    "description": "Provides a persistent key-value store for use in scripts in Obsidian.",
+    "repo": "iamrecursion/obsidian-pkvs"
+  },
+  {
+    "id": "settings-profiles",
+    "name": "Settings profiles",
+    "author": "4Source",
+    "description": "Allows you to create various global settings profiles. You can sync them between different vaults. To keep all your settings in sync, you'll never have to manually adjust them again for every vault you have or create in the future.",
+    "repo": "4Source/settings-profiles-obsidian-plugin"
+  },
+  {
+    "id": "font-size",
+    "name": "Font Size Adjuster",
+    "author": "Ryota Ushio",
+    "description": "Adjust font size via commands.",
+    "repo": "RyotaUshio/obsidian-font-size"
+  },
+  {
+    "id": "create-task",
+    "name": "Create Task",
+    "author": "Simon Knittel",
+    "description": "Create tasks faster from anywhere.",
+    "repo": "simonknittel/obsidian-create-task"
+  },
+  {
+    "id": "timeline-schedule",
+    "name": "Timeline Schedule",
+    "author": "Evan Bonsignori",
+    "description": "Inline timelines generated from human-readable time strings, e.g. 'Walk dog (30min)' in a ```schedule codeblock.",
+    "repo": "Ebonsignori/obsidian-timeline-schedule"
+  },
+  {
+    "id": "cursor-goaway",
+    "name": "cursor-goaway",
+    "author": "Xuer",
+    "description": "Hide the cursor after opening a note",
+    "repo": "liuxingyu521/obsidian-plugin-cursor-goaway"
+  },
+  {
+    "id": "continuous-mode",
+    "name": "Continuous Mode",
+    "author": "Michael Schrauzer",
+    "description": "Displays all open notes in a tab group as a continuous scrollable page (sometimes called Scrivenings mode).",
+    "repo": "gasparschott/obsidian-continuous-mode"
+  },
+  {
+    "id": "multi-state-checkbox-switcher",
+    "name": "Multi State CheckBox Switcher",
+    "author": "KubaMiszcz",
+    "description": "Click to handle multistate checkboxes.",
+    "repo": "KubaMiszcz/MultiStateCheckBoxSwitcher"
+  },
+  {
+    "id": "relay-md",
+    "name": "Relay.md",
+    "description": "Quickly and easily share notes with your team. Uses topics to limit reach so that only team members subscribed to your topics will automatically receive the shared notes straight into their vault!",
+    "author": "xeroc",
+    "repo": "relay-md/relay-md-obsidian-plugin"
+  },
+  {
+    "id": "insighta",
+    "name": "InsightA",
+    "author": "Hongjian Tang",
+    "description": "Extract a set of atomic notes from a long article and create MOC by note title using LLM",
+    "repo": "HongjianTang/obsidian-insighta"
+  },
+  {
+    "id": "single-file-daily-notes",
+    "name": "Single File Daily Notes",
+    "author": "Pranav Mangal",
+    "description": "Create and manage daily notes in a single file.",
+    "repo": "pranavmangal/obsidian-single-file-daily-notes"
+  },
+  {
+    "id": "apple-books-import-highlights",
+    "name": "Apple Books - Import Highlights",
+    "author": "bandantonio",
+    "description": "Import your Apple Books highlights and notes to Obsidian.",
+    "repo": "bandantonio/obsidian-apple-books-highlights-plugin"
+  },
+  {
+      "id": "rss-copyist",
+      "name": "RSS Copyist",
+      "author": "aoout",
+      "description": "Get RSS articles as notes.",
+      "repo": "aoout/obsidian-rss-copyist"
+  },
+  {
+    "id": "orgmode-cm6",
+    "name": "Orgmode (CM6)",
+    "author": "Benoit Bazard",
+    "description": "Edit Orgmode files.",
+    "repo": "bbazard/obsidian-orgmode-cm6"
+  },
+  {
+      "id": "vk-group-notifier",
+      "name": "Vk group notifier",
+      "author": "Filichev.Evgeny",
+      "description": "Track news posts from vk.com groups.",
+      "repo": "filichev-evgeny/obsidianvkupdatenotifier"
+  },
+  {
+      "id": "pinyin_replacer",
+      "name": "Pinyin Replacer",
+      "author": "LarrySAL",
+      "description": "Use the Pinyin tones without having to install extra keyboard layouts.",
+      "repo": "LarrySAL/pinyin-replacer"
+  },
+  {
+      "id": "markline",
+      "name": "Markline",
+      "author": "闲耘",
+      "description": "Timeline view from Markdown",
+      "repo": "hotoo/obsidian-markline"
+  },
+  {
+    "id": "youtube-summarizer",
+    "name": "Youtube Summarizer",
+    "author": "ozdemir08",
+    "description": "Summarize Youtube videos using ChatGPT 3.5.",
+    "repo": "ozdemir08/youtube-video-summarizer"
+  },
+  {
+      "id": "semalogic", 
+      "name": "UseSemaLogic",
+      "author": "SemaLogic UG",
+      "description": "Real-time use of the SemaLogic formal language",
+      "repo": "MM-GO/UseSemaLogic"
+  },
+  {
+    "id": "nested-daily-todos",
+    "name": "Nested Daily Todos",
+    "author": "Thomas Brezinski",
+    "description": "Carry over incomplete todos from Daily Notes grouped by headers, with support for nesting and flexible todo states.",
+    "repo": "thomasbrezinski/obsidian-nested-daily-todos"
+  },
+  {
+    "id": "root-folder-context-menu",
+    "name": "Root Folder Context Menu",
+    "author": "mnaoumov",
+    "description": "Enables context menu for vault root folder",
+    "repo": "mnaoumov/obsidian-root-folder-context-menu"
+  },
+  {
+    "id": "daily-note-creator",
+    "name": "Daily note creator",
+    "author": "Mario Holubar",
+    "description": "Automatically creates missing daily notes",
+    "repo": "mario-holubar/obsidian-daily-note-creator"
+  },
+  {
+     "id": "quick-link",
+    "name": "QuickLink",
+    "author": "holyghosst",
+    "description": "Creating quick hyperlinks.",
+    "repo": "holyghosst/QuickLink"
   }
 ]
