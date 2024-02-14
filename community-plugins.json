@@ -9765,17 +9765,234 @@
     "repo": "iamrecursion/obsidian-pkvs"
   },
   {
-      "id": "settings-profiles",
-      "name": "Settings profiles",
-      "author": "4Source",
-      "description": "Allows you to create various global settings profiles. You can sync them between different vaults. To keep all your settings in sync, you'll never have to manually adjust them again for every vault you have or create in the future.",
-      "repo": "4Source/settings-profiles-obsidian-plugin"
+    "id": "settings-profiles",
+    "name": "Settings profiles",
+    "author": "4Source",
+    "description": "Allows you to create various global settings profiles. You can sync them between different vaults. To keep all your settings in sync, you'll never have to manually adjust them again for every vault you have or create in the future.",
+    "repo": "4Source/settings-profiles-obsidian-plugin"
+  },
+  {
+    "id": "font-size",
+    "name": "Font Size Adjuster",
+    "author": "Ryota Ushio",
+    "description": "Adjust font size via commands.",
+    "repo": "RyotaUshio/obsidian-font-size"
+  },
+  {
+    "id": "create-task",
+    "name": "Create Task",
+    "author": "Simon Knittel",
+    "description": "Create tasks faster from anywhere.",
+    "repo": "simonknittel/obsidian-create-task"
+  },
+  {
+    "id": "timeline-schedule",
+    "name": "Timeline Schedule",
+    "author": "Evan Bonsignori",
+    "description": "Inline timelines generated from human-readable time strings, e.g. 'Walk dog (30min)' in a ```schedule codeblock.",
+    "repo": "Ebonsignori/obsidian-timeline-schedule"
+  },
+  {
+    "id": "cursor-goaway",
+    "name": "cursor-goaway",
+    "author": "Xuer",
+    "description": "Hide the cursor after opening a note",
+    "repo": "liuxingyu521/obsidian-plugin-cursor-goaway"
+  },
+  {
+    "id": "continuous-mode",
+    "name": "Continuous Mode",
+    "author": "Michael Schrauzer",
+    "description": "Displays all open notes in a tab group as a continuous scrollable page (sometimes called Scrivenings mode).",
+    "repo": "gasparschott/obsidian-continuous-mode"
+  },
+  {
+    "id": "multi-state-checkbox-switcher",
+    "name": "Multi State CheckBox Switcher",
+    "author": "KubaMiszcz",
+    "description": "Click to handle multistate checkboxes.",
+    "repo": "KubaMiszcz/MultiStateCheckBoxSwitcher"
+  },
+  {
+    "id": "relay-md",
+    "name": "Relay.md",
+    "description": "Quickly and easily share notes with your team. Uses topics to limit reach so that only team members subscribed to your topics will automatically receive the shared notes straight into their vault!",
+    "author": "xeroc",
+    "repo": "relay-md/relay-md-obsidian-plugin"
+  },
+  {
+    "id": "insighta",
+    "name": "InsightA",
+    "author": "Hongjian Tang",
+    "description": "Extract a set of atomic notes from a long article and create MOC by note title using LLM",
+    "repo": "HongjianTang/obsidian-insighta"
+  },
+  {
+    "id": "single-file-daily-notes",
+    "name": "Single File Daily Notes",
+    "author": "Pranav Mangal",
+    "description": "Create and manage daily notes in a single file.",
+    "repo": "pranavmangal/obsidian-single-file-daily-notes"
+  },
+  {
+    "id": "apple-books-import-highlights",
+    "name": "Apple Books - Import Highlights",
+    "author": "bandantonio",
+    "description": "Import your Apple Books highlights and notes to Obsidian.",
+    "repo": "bandantonio/obsidian-apple-books-highlights-plugin"
+  },
+  {
+      "id": "rss-copyist",
+      "name": "RSS Copyist",
+      "author": "aoout",
+      "description": "Get RSS articles as notes.",
+      "repo": "aoout/obsidian-rss-copyist"
+  },
+  {
+    "id": "orgmode-cm6",
+    "name": "Orgmode (CM6)",
+    "author": "Benoit Bazard",
+    "description": "Edit Orgmode files.",
+    "repo": "bbazard/obsidian-orgmode-cm6"
+  },
+  {
+      "id": "vk-group-notifier",
+      "name": "Vk group notifier",
+      "author": "Filichev.Evgeny",
+      "description": "Track news posts from vk.com groups.",
+      "repo": "filichev-evgeny/obsidianvkupdatenotifier"
+  },
+  {
+      "id": "pinyin_replacer",
+      "name": "Pinyin Replacer",
+      "author": "LarrySAL",
+      "description": "Use the Pinyin tones without having to install extra keyboard layouts.",
+      "repo": "LarrySAL/pinyin-replacer"
+  },
+  {
+      "id": "markline",
+      "name": "Markline",
+      "author": "闲耘",
+      "description": "Timeline view from Markdown",
+      "repo": "hotoo/obsidian-markline"
+  },
+  {
+    "id": "youtube-summarizer",
+    "name": "Youtube Summarizer",
+    "author": "ozdemir08",
+    "description": "Summarize Youtube videos using ChatGPT 3.5.",
+    "repo": "ozdemir08/youtube-video-summarizer"
+  },
+  {
+      "id": "semalogic", 
+      "name": "UseSemaLogic",
+      "author": "SemaLogic UG",
+      "description": "Real-time use of the SemaLogic formal language",
+      "repo": "MM-GO/UseSemaLogic"
+  },
+  {
+    "id": "nested-daily-todos",
+    "name": "Nested Daily Todos",
+    "author": "Thomas Brezinski",
+    "description": "Carry over incomplete todos from Daily Notes grouped by headers, with support for nesting and flexible todo states.",
+    "repo": "thomasbrezinski/obsidian-nested-daily-todos"
+  },
+  {
+    "id": "root-folder-context-menu",
+    "name": "Root Folder Context Menu",
+    "author": "mnaoumov",
+    "description": "Enables context menu for vault root folder",
+    "repo": "mnaoumov/obsidian-root-folder-context-menu"
+  },
+  {
+    "id": "daily-note-creator",
+    "name": "Daily note creator",
+    "author": "Mario Holubar",
+    "description": "Automatically creates missing daily notes",
+    "repo": "mario-holubar/obsidian-daily-note-creator"
+  },
+  {
+     "id": "fastimer",
+    "name": "Fastimer",
+    "author": "vkostyanetsky",
+    "description": "Intermittent fasting tracker.",
+    "repo": "vkostyanetsky/ObsidianFastimer"
+  },
+  {
+    "id": "beautitab",
+    "name": "Beautitab",
+    "author": "Andrew McGivery",
+    "description": "Creates a customizable new tab view with beautiful backgrounds, quotes, search, and more.",
+    "repo": "andrewmcgivery/obsidian-beautitab"
+  },
+  {
+     "id": "consecutive-lists",
+    "name": "Consecutive Lists",
+    "author": "Josh Tucker",
+    "description": "Create consecutive lists that are displayed separately in reading mode.",
+    "repo": "jtucker2/obsidian-consecutive-lists"
+  },
+  {
+    "id": "alt-click-to-copy",
+    "name": "Alt-Click to Copy",
+    "author": "Veer Sheth",
+    "description": "Alt-click on codeblocks to copy its data to the clipboard",
+    "repo": "veersheth/obsidian-alt-click-to-copy"
+  },
+  {
+    "id": "hatena",
+    "name": "Hatena Blog Publisher",
+    "author": "Takuro Matsukawa",
+    "description": "Post directly to your Hatena Blog.",
+    "repo": "takmatsukawa/obsidian-hatena"
+  },
+  {
+    "id": "reason",
+    "name": "Reason",
+    "author": "Joshua Pham",
+    "description": "REASON: Retrieve, Extract, And Synthesize Obsidian Notes",
+    "repo": "jshph/obsidian-reason"
+  },
+  {
+      "id": "icloud-contacts",
+      "name": "iCloud Contacts",
+      "author": "Truls Aagaard",
+      "description": "Imports contacts from iCloud and manages a note for each contact.",
+      "repo": "Trulsaa/obsidian-icloud-contacts"
+  },
+  {
+    "id": "dynamic-text-concealer",
+    "name": "Dynamic Text Concealer",
+    "author": "Matt Cole Anderson",
+    "description": "Conceal or replace user-configured text patterns in Live Preview and reading mode.",
+    "repo": "mattcoleanderson/obsidian-dynamic-text-concealer"
+  },
+  {
+    "id": "timelines-revamped",
+    "name": "Timelines (Revamped)",
+    "author": "Sean Lowe",
+    "description": "Generate a chronological timeline in which all 'events' are notes that include a specific tag or set of tags.",
+    "repo": "seanlowe/obsidian-timelines"
+  },
+  {
+    "id": "gemini-assistant",
+    "name": "Gemini Assistant",
+    "author": "eatgrass",
+    "description": "Your Gemini AI assistant",
+    "repo": "eatgrass/obsidian-gemini-assistant"
+  },
+  {
+    "id": "canvas-dailynote",
+    "name": "Canvas Daily Note",
+    "author": "Andrew McGivery",
+    "description": "Add a daily note node to the canvas that will always show today's note.",
+    "repo": "andrewmcgivery/obsidian-canvas-dailynote"
   },
   {
     "id": "contribution-graph",
     "name": "Contribution Graph",
     "author": "vran",
-    "description": "Generate a interactive heatmap graph to visualize and track your productivity",
+    "description": "Generate an interactive heatmap to visualize and track your productivity.",
     "repo": "vran-dev/obsidian-contribution-graph" 
   }
 ]
