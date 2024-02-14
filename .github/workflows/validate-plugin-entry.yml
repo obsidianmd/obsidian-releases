@@ -111,14 +111,11 @@ jobs:
                 addError('The plugin ID is not valid. Only alphanumeric characters and dashes are allowed.');
               }
 
-              if (plugin.name.toLowerCase().startsWith('obsidian')) {
-                addError(`Please don't use the word \`Obsidian\` at the start of your plugin name since it's redundant and makes it harder to sort the plugin list.`);
-              }
               else if (plugin.name.toLowerCase().includes('obsidian')) {
-                addWarning(`Please don't use the word \`Obsidian\` in your plugin name since it's redundant and adds clutter to the plugin list.`);
+                addError(`Please don't use the word \`Obsidian\` in your plugin name since it's redundant and adds clutter to the plugin list.`);
               }
               if (plugin.name.toLowerCase().endsWith('plugin')) {
-                addWarning(`Please don't use the word \`Plugin\` in the plugin name since it's redundant and adds clutter to the plugin list.`);
+                addError(`Please don't use the word \`Plugin\` in the plugin name since it's redundant and adds clutter to the plugin list.`);
               }
 
               if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(plugin.author)) {
@@ -244,28 +241,30 @@ jobs:
                 title: `Add plugin: ${plugin.name}`
               });
 
-              if(!context.payload.pull_request.labels.includes('Changes requested')) {
+              if(!context.payload.pull_request.labels.filter(label => label.name === 'Changes requested').length > 0) {
                 labels.push("Ready for review");
               }
             }
-
-            if (context.payload.pull_request.labels.includes('Changes requested')) {
+            if (context.payload.pull_request.labels.filter(label => label.name === 'Changes requested').length > 0) {
               labels.push('Changes requested');
             }
-            if (context.payload.pull_request.labels.includes('Additional review required')) {
+            if (context.payload.pull_request.labels.filter(label => label.name === 'Additional review required').length > 0) {
               labels.push('Additional review required');
             }
-            if (context.payload.pull_request.labels.includes('Minor changes requested')) {
+            if (context.payload.pull_request.labels.filter(label => label.name === 'Minor changes requested').length > 0) {
               labels.push('Minor changes requested');
             }
-            if (context.payload.pull_request.labels.includes('Requires author rebase')) {
+            if (context.payload.pull_request.labels.filter(label => label.name === 'requires author rebase').length > 0) {
               labels.push('requires author rebase');
             }
-            if (context.payload.pull_request.labels.includes('Installation not recommended')) {
+            if (context.payload.pull_request.labels.filter(label => label.name === 'Installation not recommended').length > 0) {
               labels.push('Installation not recommended');
             }
-            if (context.payload.pull_request.labels.includes('Changes made')) {
+            if (context.payload.pull_request.labels.filter(label => label.name === 'Changes made').length > 0) {
               labels.push('Changes made');
+            }
+            if (context.payload.pull_request.labels.filter(label => label.name === 'Skipped code scan').length > 0) {
+              labels.push('Skipped code scan');
             }
             labels.push('plugin');
 
