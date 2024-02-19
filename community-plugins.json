@@ -9305,9 +9305,9 @@
     {
         "id": "formatto-format",
         "name": "Formatto",
-        "author": "Deca",
+        "author": "Echo",
         "description": "Format your Markdown document.",
-        "repo": "decaplanet/formatto"
+        "repo": "polyecho/formatto"
     },
     {
         "id": "chat-cbt",
@@ -10093,11 +10093,39 @@
     "description": "Rearrange and hide status bar elements.",
     "repo": "Opisek/obsidian-statusbar-organizer"
   },
-  	{
-		"id": "smart-second-brain",
+  {
+    "id" : "image-inline",
+    "name" : "Image Inline",
+    "author" : "Zackary W",
+    "description" : "Paste your image without attachment files",
+    "repo" : "ZackaryW/obsidian-image-inline"
+  },
+  {
+    "id": "task-list",
+    "name": "Task list",
+    "author": "Ted Marozzi",
+    "description": "Enable better task management via lists.",
+    "repo": "ted-marozzi/task-list"
+  },
+  {
+    "id": "share-my-plugin-list",
+    "name": "Share my plugin list",
+    "author": "Benature",
+    "description": "Share the enabled plugins in list/table format.",
+    "repo": "Benature/obsidian-share-my-plugin-list"
+  },
+  {
+    "id": "gpg-encrypt",
+    "name": "GPG Encrypt",
+    "author": "Luis Jaramillo",
+    "description": "GPG encrypt inline text using hotkeys",
+    "repo": "lajg-dev/obsidian-plugin-gpg-inline-encrypt"
+  },
+  {
+    "id": "smart-second-brain",
 		"name": "Smart Second Brain",
 		"author": "Leo310, nicobrauchtgit",
 		"description": "Interact with your privacy focused assistant by leveraging Ollama or OpenAI and making your second brain even smarter.",
 		"repo": "nicobrauchtgit/obsidian-Smart2Brain"
-	}
+  }
 ]
