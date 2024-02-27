@@ -3286,7 +3286,7 @@
         "id": "waypoint",
         "name": "Waypoint",
         "author": "Idrees Hassan",
-        "description": "Easily generate dynamic MOCs in your folder notes. Enables folders to show up in the graph view and removes the need for messy tags!",
+        "description": "Easily generate dynamic MOCs in your folder notes using waypoints. Enables folders to show up in the graph view and removes the need for messy tags!",
         "repo": "IdreesInc/Waypoint"
     },
     {
@@ -9616,7 +9616,7 @@
     "author": "luxmargos",
     "description": "Make the background of cards transparent in canvas files.",
     "repo": "luxmargos/obsidian-canvas-card-bg-remover"
-  },
+  }, 
   {
     "id": "latex-ocr",
     "name": "Latex OCR",
@@ -10241,6 +10241,103 @@
     "repo": "rekby/obsidian-paste-transform"
   },
   {
+    "id": "vn-memory-lane",
+    "name": "MemoryLane",
+    "author": "BangCa",
+    "description": "Relive and celebrate your life's milestones on a personal, interactive timeline. A nostalgic journey through your history with anniversary reminders and cherished memories.",
+    "repo": "bangca85/obsidian-memorylane-plugin"
+  },
+  {
+    "id": "copy-as-source",
+    "name": "Copy as source",
+    "author": "@gapmiss",
+    "description": "Select and copy source HTML in reading view.",
+    "repo": "gapmiss/copy-as-source"
+  },
+  {
+    "id": "alfonso-money-manager",
+    "name": "Alfonso Money Manager",
+    "author": "SmartLifeGPT Innovation",
+    "description": "Alfonso Money Manager data viewer and financial analytics tool",
+    "repo": "smartlife-gpt/alfonso-money-manager-obsidian"
+  },
+  {
+    "id": "pdf-plus",
+    "name": "PDF++",
+    "author": "Ryota Ushio",
+    "description": "The most Obsidian-native PDF annotation tool ever.",
+    "repo": "RyotaUshio/obsidian-pdf-plus"
+  },
+  {
+    "id": "go-up",
+    "name": "Go Up",
+    "author": "JinMu Go",
+    "description": "Quickly navigate to a specified \"parent\" page",
+    "repo": "JinMuGo/obsidian-go-up"
+  },
+  {
+    "id": "format-with-prettier",
+    "name": "Format with Prettier",
+    "author": "Alex Gavrusev",
+    "description": "Format files in your vault using Prettier.",
+    "repo": "alexgavrusev/obsidian-format-with-prettier"
+  },
+  {
+    "id": "image-magician",
+    "name": "Image Magician",
+    "author": "luxmargos",
+    "description": "Supports viewing and exporting various image formats using ImageMagick.",
+    "repo": "luxmargos/obsidian-image-magician-plugin"
+  },
+  {
+    "id": "graphs",
+    "name": "Graphs",
+    "author": "Dylan Hojnoski",
+    "description": "Create interactive graphs by writing YAML",
+    "repo": "DylanHojnoski/obsidian-graphs"
+  },
+  {
+    "id": "card-note",
+    "name": "CardNote",
+    "author": "cycsd",
+    "description": "Quickly extract your thoughts in the Canvas and Excalidraw.",
+    "repo": "cycsd/obsidian-card-note"
+  },
+  {
+    "id": "simple-image-inserter",
+    "name": "Simple Image Inserter",
+    "author": "Joey Holtzman",
+    "description": "Add images from the file system into notes through a built-in file picker.",
+    "repo": "jdholtz/obsidian-image-inserter"
+  },
+  {
+    "id": "graph-link-types",
+    "name": "Graph Link Types",
+    "author": "natefrisch01",
+    "description": "Link types for graph view.",
+    "repo": "natefrisch01/Graph-Link-Types"
+  },
+  {
+    "id": "fix-require-modules",
+    "name": "Fix Require Modules",
+    "author": "mnaoumov",
+    "description": "Fixes `require()` calls for the built-in modules",
+    "repo": "mnaoumov/obsidian-fix-require-modules"
+  },
+  {
+    "id": "auto-definition-link",
+    "name": "Auto Definition Link",
+    "author": "Nolan Carpenter",
+    "description": "Automatically converts text to definition links within the current folder when you type them.",
+    "repo": "nmcarp99/obsidian-auto-definition-link"
+  },
+  {
+    "id": "chord-sheets",
+    "name": "Chord Sheets",
+    "author": "Marcel Schaeben",
+    "description": "Work with chord sheets (chords over lyrics) in your vault: Chord diagrams, transpose, autoscroll and more. Works in Live Preview and reading mode.",
+    "repo": "olvidalo/obsidian-chord-sheets"
+  },{
     "id": "contextual-note-templating",
     "name": "Contextual note templating",
     "author": "Roman Kubiv",
