@@ -1548,9 +1548,9 @@
     },
     {
         "id": "copy-url-in-preview",
-        "name": "Copy Image and URL context menu",
+        "name": "Image Context Menus",
         "author": "NomarCub",
-        "description": "Copy Image, Copy URL and Open PDF externally context menu in reading view.",
+        "description": "Copy, open in default app, show in system explorer, reveal in navigation context menu for images. Also Open PDF externally context menu.",
         "repo": "NomarCub/obsidian-copy-url-in-preview"
     },
     {
@@ -2336,13 +2336,6 @@
         "author": "Tamás Deme",
         "description": "Archive links in your note so they're available to you even if the original site goes down or gets removed.",
         "repo": "tomzorz/obsidian-link-archive"
-    },
-    {
-        "id": "obsidian-chess",
-        "name": "Chess",
-        "author": "pmorim",
-        "description": "All you need to create your chess-related notes.",
-        "repo": "pmorim/obsidian-chess"
     },
     {
         "id": "obsidian-html-tags-autocomplete",
@@ -6937,13 +6930,6 @@
         "repo": "exoascension/vault-chat"
     },
     {
-        "id": "memos-sync",
-        "name": "Memos Sync",
-        "author": "hyoban",
-        "description": "Keep in sync with your memos.",
-        "repo": "hyoban/obsidian-memos-plugin"
-    },
-    {
         "id": "mermaid-themes",
         "name": "Mermaid Themes",
         "description": "Alternate support for mermaid.js that supports theming and customization.",
@@ -9744,13 +9730,6 @@
     "repo": "Karakaz/obsidian-paste-from-history"
   },
   {
-    "id": "hanayama-huzzles-tracker",
-    "name": "Hanayama Huzzles Tracker",
-    "author": "Iulian Onofrei",
-    "description": "This scrapes the Hanayama Huzzle webpage builds a Markdown table with the information, and allows you to manually track them using a status column.",
-    "repo": "revolter/obsidian-hanayama-huzzles-tracker-plugin"
-  },
-  {
     "id": "instapaper",
     "name": "Instapaper",
     "author": "Instapaper",
@@ -10560,7 +10539,7 @@
     "id": "yesterday",
     "name": "Yesterday",
     "author": "Dominik Mayer",
-    "description": "Transforms Obsidian into a visually stunning diary.",
+    "description": "Transform your notes into a visually stunning diary, integrating dialogs, chat logs, and media content blocks for a seamless journaling experience.",
     "repo": "dominikmayer/obsidian-yesterday"
   },
   {
@@ -10639,6 +10618,83 @@
     "author": "BookFusion",
     "description": "Import your BookFusion highlights & annotations into your vault.",
     "repo": "BookFusion/obsidian-plugin"
+  },
+  {
+    "id": "mxmind",
+    "name": "Mxmind Mindmap",
+    "author": "mxmind",
+    "description": "Convert Markdown files to a mind map,mind map editor.",
+    "repo": "webceoboy/mxmind-obsidian"
+  },
+  {
+    "id": "contextual-sidecar",
+    "name": "Contextual Sidecar",
+    "author": "Matthew Turk",
+    "description": "Add a context-dependent sidecar panel.",
+    "repo": "matthewturk/obsidian-sidecar-panel"
+  },
+  {
+    "id": "diffzip",
+    "name": "Differential ZIP Backup",
+    "author": "vorotamoroz",
+    "description": "Back our vault up with lesser storage.",
+    "repo": "vrtmrz/diffzip"
+  },
+  {
+     "id": "media-notes",
+    "name": "Media Notes",
+    "author": "jemstelos",
+    "description": "Take notes on YouTube videos and podcasts with media controls and timestamps.",
+    "repo": "jemstelos/obsidian-media-notes"
+  },
+  {
+    "id": "cooklang-viewer-and-editor",
+    "name": "Cooklang",
+    "author": "Roger Veciana i Rovira",
+    "description": "Display and edit recipes written in the Cooklang format.",
+    "repo": "rveciana/obsidian-cooklang"
+  },
+  {
+    "id": "contextual-note-templating",
+    "name": "Contextual note templating",
+    "author": "Roman Kubiv",
+    "description": "Prompts for values and templates to create notes.",
+    "repo": "Balibaloo/obsidian-local-template-configuration"
+  },
+  {
+    "id": "vault-transfer",
+    "name": "Vault Transfer",
+    "author": "ImaginaryProgramming",
+    "description": "Transfers a note from one vault to another.",
+    "repo": "ImaginaryProgramming/obsidian-vault-transfer"
+  },
+  {
+    "id": "movie-search",
+    "name": "Movie Search",
+    "author": "Gubchik123",
+    "description": "Helps you find movies and create notes.",
+    "repo": "Gubchik123/obsidian-movie-search-plugin"
+  },
+  {
+    "id": "view-count",
+    "name": "View Count",
+    "author": "Trey Wallis",
+    "description": "Tracks view count for each vault file.",
+    "repo": "trey-wallis/obsidian-view-count"
+  },
+  {
+    "id": "notice-controller",
+    "name": "Notification Controller",
+    "author": "juan-miii",
+    "description": "Manages notifications at startup.",
+    "repo": "juan-miii/obsidian-notice-plugin"
+  },
+  {
+    "id": "calendarium",
+    "name": "Calendarium",
+    "author": "Jeremy Valentine",
+    "description": "Craft mind-bending fantasy and sci-fi calendars.",
+    "repo": "javalent/calendarium"
   },
   {
     "id": "confluence-sync",
