@@ -2338,13 +2338,6 @@
         "repo": "tomzorz/obsidian-link-archive"
     },
     {
-        "id": "obsidian-chess",
-        "name": "Chess",
-        "author": "pmorim",
-        "description": "All you need to create your chess-related notes.",
-        "repo": "pmorim/obsidian-chess"
-    },
-    {
         "id": "obsidian-html-tags-autocomplete",
         "name": "HTML Tags Autocomplete",
         "description": "Automatically add closing HTML tags.",
@@ -6937,13 +6930,6 @@
         "repo": "exoascension/vault-chat"
     },
     {
-        "id": "memos-sync",
-        "name": "Memos Sync",
-        "author": "hyoban",
-        "description": "Keep in sync with your memos.",
-        "repo": "hyoban/obsidian-memos-plugin"
-    },
-    {
         "id": "mermaid-themes",
         "name": "Mermaid Themes",
         "description": "Alternate support for mermaid.js that supports theming and customization.",
@@ -9616,7 +9602,7 @@
     "author": "luxmargos",
     "description": "Make the background of cards transparent in canvas files.",
     "repo": "luxmargos/obsidian-canvas-card-bg-remover"
-  }, 
+  },
   {
     "id": "latex-ocr",
     "name": "Latex OCR",
@@ -9742,13 +9728,6 @@
     "author": "Daniel Karakka",
     "description": "Paste from the editor's recent clipboard history.",
     "repo": "Karakaz/obsidian-paste-from-history"
-  },
-  {
-    "id": "hanayama-huzzles-tracker",
-    "name": "Hanayama Huzzles Tracker",
-    "author": "Iulian Onofrei",
-    "description": "This scrapes the Hanayama Huzzle webpage builds a Markdown table with the information, and allows you to manually track them using a status column.",
-    "repo": "revolter/obsidian-hanayama-huzzles-tracker-plugin"
   },
   {
     "id": "instapaper",
@@ -9892,7 +9871,7 @@
     "repo": "ozdemir08/youtube-video-summarizer"
   },
   {
-      "id": "semalogic", 
+      "id": "semalogic",
       "name": "UseSemaLogic",
       "author": "SemaLogic UG",
       "description": "Real-time use of the SemaLogic formal language",
@@ -10001,7 +9980,7 @@
     "name": "Contribution Graph",
     "author": "vran",
     "description": "Generate an interactive heatmap to visualize and track your productivity.",
-    "repo": "vran-dev/obsidian-contribution-graph" 
+    "repo": "vran-dev/obsidian-contribution-graph"
   },
   {
     "id": "journals",
@@ -10241,7 +10220,7 @@
     "description": "Modify text from the clipboard by regexp rules",
     "repo": "rekby/obsidian-paste-transform"
   },
-  {
+    {
     "id": "vn-memory-lane",
     "name": "MemoryLane",
     "author": "BangCa",
@@ -10507,6 +10486,167 @@
     "description": "A basic taskwarrior UI for listing and modifying tasks.",
     "repo": "echo-bravo-yahoo/ego-rock"
   }, 
+  {
+    "id": "augmented-canvas",
+    "name": "Augmented Canvas",
+    "author": "Léopold Szabatura",
+    "description": "Augment Canvas with AI features.",
+    "repo": "MetaCorp/obsidian-augmented-canvas"
+  },
+  {
+    "id": "chatgpt-prompt",
+    "name": "Prompt ChatGPT",
+    "author": "Coduhuey",
+    "description": "Send templated prompts to ChatGPT when you open a file.",
+    "repo": "Coduhuey/ChatGPT-Prompt-Plugin-For-Obsidian"
+  },
+  {
+    "id": "canvas-mindmap-helper",
+    "name": "Canvas Mindmap Helper",
+    "author": "Tim Smart",
+    "description": "Make the Canvas work like a mindmap.",
+    "repo": "tim-smart/obsidian-canvas-mindmap"
+  },
+  {
+    "id": "advanced-canvas",
+    "name": "Advanced Canvas",
+    "author": "Developer-Mike",
+    "description": "Supercharge your canvas experience. Create presentations, flowcharts and more.",
+    "repo": "Developer-Mike/obsidian-advanced-canvas"
+  },
+  {
+    "id": "quadro",
+    "name": "Quadro",
+    "description": "Qualitative Data Analysis (QDA) for Social Scientists. An open alternative to MAXQDA and atlas.ti, using Markdown to store data and research codes.",
+    "author": "Chris Grieser (aka pseudometa)",
+    "repo": "chrisgrieser/obsidian-quadro"
+  },
+  {
+    "id": "enhanced-annotations",
+    "name": "Enhanced Annotations",
+    "author": "ycnmhd",
+    "description": "Add a sidebar view for comments and highlights.",
+    "repo": "ycnmhd/obsidian-enhanced-annotations"
+  },
+  {
+    "id": "pomodoro-widget",
+    "name": "Pomodoro Widget",
+    "author": "bitegw",
+    "description": "Provides a widget based on a pomodoro kitchen timer. It's designed to be haptic, and has a constant ticking sound, and an alarm sound that can be toggled.",
+    "repo": "bitegw/obsidian-pomodoro-widget"
+  },
+  {
+    "id": "yesterday",
+    "name": "Yesterday",
+    "author": "Dominik Mayer",
+    "description": "Transform your notes into a visually stunning diary, integrating dialogs, chat logs, and media content blocks for a seamless journaling experience.",
+    "repo": "dominikmayer/obsidian-yesterday"
+  },
+  {
+    "id": "gitlab-wiki-export",
+    "name": "Gitlab Wiki Exporter",
+    "author": "Josef Rabmer",
+    "description": "Makes your entire vault Gitlab Wiki compatible and exports it to a specified location.",
+    "repo": "jrabmer/obsidian-to-gitlab-wiki"
+  },
+  {
+    "id": "mblog-publish",
+    "name": "MBlog Publish",
+    "author": "Jerry",
+    "description": "通过Obsidian发布文章到MBlog平台",
+    "repo": "kingwrcy/obsidian-mblog"
+  },
+  {
+    "id": "text-focus",
+    "name": "Text Focus",
+    "author": "usysrc",
+    "description": "Focus the text area when creating new notes",
+    "repo": "usysrc/obsidian-text-focus-plugin"
+  },
+  {
+    "id": "tab-shifter",
+    "name": "Tab Shifter",
+    "author": "Joshua Rozner",
+    "description": "Enables shifting tabs between different tab splits",
+    "repo": "jsrozner/obsidian-tab-shifter"
+  },
+  {
+    "id": "alias-management",
+    "name": "Alias Management",
+    "author": "WithMarcel",
+    "description": "Identify duplicate notes based on similar aliases and filenames.",
+    "repo": "WithMarcel/alias-management"
+  },
+  {
+    "id": "historica",
+    "name": "historica",
+    "author": "Nhan Nguyen",
+    "description": "Intelligently generates timeline from your content",
+    "repo": "nhannht/obsidian-historica"
+  },
+  {
+    "id": "date-inserter",
+    "name": "Date Inserter",
+    "author": "namikaze-40p",
+    "description": "Insert a date at the cursor position using a calendar.",
+    "repo": "namikaze-40p/obsidian-date-inserter"
+  },
+  {
+    "id": "tekken-notation",
+    "name": "Tekken Notation",
+    "author": "OpTi9",
+    "description": "Renders Tekken Notation.",
+    "repo": "OpTi9/obsidian-tekken-notation"
+  },
+  {
+    "id": "mantou-ai",
+    "name": "MantouAI",
+    "author": "Morino Pan",
+    "description": "Work as a personal assistant for translation, writing polish, general Q&A, summarizing, using the power of large language models.",
+    "repo": "ravenSanstete/Obsidian-MantouAI"
+  },
+  {
+    "id": "pomodoro-planner",
+    "name": "Pomodoro Planner",
+    "author": "Onur Nesvat",
+    "description": "Generates a pomodoro schedule plan.",
+    "repo": "onesvat/obsidian-pomodoro-planner"
+  },
+  {
+     "id": "bookfusion",
+    "name": "BookFusion",
+    "author": "BookFusion",
+    "description": "Import your BookFusion highlights & annotations into your vault.",
+    "repo": "BookFusion/obsidian-plugin"
+  },
+  {
+    "id": "mxmind",
+    "name": "Mxmind Mindmap",
+    "author": "mxmind",
+    "description": "Convert Markdown files to a mind map,mind map editor.",
+    "repo": "webceoboy/mxmind-obsidian"
+  },
+  {
+    "id": "contextual-sidecar",
+    "name": "Contextual Sidecar",
+    "author": "Matthew Turk",
+    "description": "Add a context-dependent sidecar panel.",
+    "repo": "matthewturk/obsidian-sidecar-panel"
+  },
+  {
+    "id": "diffzip",
+    "name": "Differential ZIP Backup",
+    "author": "vorotamoroz",
+    "description": "Back our vault up with lesser storage.",
+    "repo": "vrtmrz/diffzip"
+  },
+  {
+     "id": "media-notes",
+    "name": "Media Notes",
+    "author": "jemstelos",
+    "description": "Take notes on YouTube videos and podcasts with media controls and timestamps.",
+    "repo": "jemstelos/obsidian-media-notes"
+  },
   {   
     "id": "ear-training",
     "name": "Ear Training",
