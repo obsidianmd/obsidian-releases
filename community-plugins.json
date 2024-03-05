@@ -1548,9 +1548,9 @@
     },
     {
         "id": "copy-url-in-preview",
-        "name": "Copy Image and URL context menu",
+        "name": "Image Context Menus",
         "author": "NomarCub",
-        "description": "Copy Image, Copy URL and Open PDF externally context menu in reading view.",
+        "description": "Copy, open in default app, show in system explorer, reveal in navigation context menu for images. Also Open PDF externally context menu.",
         "repo": "NomarCub/obsidian-copy-url-in-preview"
     },
     {
@@ -5002,7 +5002,7 @@
         "name": "Mindmap Nextgen",
         "author": "VeroCloud Pty Ltd (original by James Lynch)",
         "description": "Preview notes as Markmap mind maps.",
-        "repo": "verocloud/obsidian-mindmap-nextgen"
+        "repo": "james-tindal/obsidian-mindmap-nextgen"
     },
     {
         "id": "obsidian-link-opener",
@@ -10220,7 +10220,7 @@
     "description": "Modify text from the clipboard by regexp rules",
     "repo": "rekby/obsidian-paste-transform"
   },
-    {
+  {
     "id": "vn-memory-lane",
     "name": "MemoryLane",
     "author": "BangCa",
@@ -10485,7 +10485,7 @@
     "author": "Ashton Eby",
     "description": "A basic taskwarrior UI for listing and modifying tasks.",
     "repo": "echo-bravo-yahoo/ego-rock"
-  },
+  }, 
   {
     "id": "augmented-canvas",
     "name": "Augmented Canvas",
@@ -10648,10 +10648,143 @@
     "repo": "jemstelos/obsidian-media-notes"
   },
   {
+    "id": "cooklang-viewer-and-editor",
+    "name": "Cooklang",
+    "author": "Roger Veciana i Rovira",
+    "description": "Display and edit recipes written in the Cooklang format.",
+    "repo": "rveciana/obsidian-cooklang"
+  },
+  {
+    "id": "contextual-note-templating",
+    "name": "Contextual note templating",
+    "author": "Roman Kubiv",
+    "description": "Prompts for values and templates to create notes.",
+    "repo": "Balibaloo/obsidian-local-template-configuration"
+  },
+  {
+    "id": "vault-transfer",
+    "name": "Vault Transfer",
+    "author": "ImaginaryProgramming",
+    "description": "Transfers a note from one vault to another.",
+    "repo": "ImaginaryProgramming/obsidian-vault-transfer"
+  },
+  {
+    "id": "movie-search",
+    "name": "Movie Search",
+    "author": "Gubchik123",
+    "description": "Helps you find movies and create notes.",
+    "repo": "Gubchik123/obsidian-movie-search-plugin"
+  },
+  {
+    "id": "view-count",
+    "name": "View Count",
+    "author": "Trey Wallis",
+    "description": "Tracks view count for each vault file.",
+    "repo": "trey-wallis/obsidian-view-count"
+  },
+  {
+    "id": "notice-controller",
+    "name": "Notification Controller",
+    "author": "juan-miii",
+    "description": "Manages notifications at startup.",
+    "repo": "juan-miii/obsidian-notice-plugin"
+  },
+  {
+    "id": "calendarium",
+    "name": "Calendarium",
+    "author": "Jeremy Valentine",
+    "description": "Craft mind-bending fantasy and sci-fi calendars.",
+    "repo": "javalent/calendarium"
+  },
+  {
+    "id": "confluence-sync",
+    "name": "Confluence Sync",
+    "author": "Prateek Grover",
+    "description": "Sync notes with Confluence",
+    "repo": "kerry/obsidian-confluence-sync"
+  },
+  {
+    "id": "persian-calendar",
+    "name": "Persian Calendar",
+    "author": "Hossein Maleknejad",
+    "description": "Persian Calendar for managing periodic notes based on persian solar (shamsi) calendar.",
+    "repo": "maleknejad/obsidian-persian-calendar"
+  },
+  {
+    "id": "daily-note-navbar",
+    "name": "Daily Note Navbar",
+    "author": "Karsten Finderup Pedersen",
+    "description": "Navigate between sequential daily notes with ease.",
+    "repo": "karstenpedersen/obsidian-daily-note-navbar"
+  },
+  {
+    "id": "orion-publish",
+    "name": "Orion Publish",
+    "author": "Sean Collings",
+    "description": "Quickly and easily publish your notes to the web with Orion Publish.",
+    "repo": "seanrcollings/orion-publish-plugin"
+  },
+  {
+    "id": "gistr",
+    "name": "Gistr",
+    "author": "Aetherinox",
+    "description": "Integrate OpenGist and Github gist snippets in your notes.",
+    "repo": "Aetherinox/obsidian-gistr"
+  },
+  {
+    "id": "things3-today",
+    "name": "Things3 Today",
+    "author": "wudanyang6",
+    "description": "Manage today's tasks with Things3.",
+    "repo": "wudanyang6/obsidian-things3-today"
+  },
+  {
+     "id": "command-block-list",
+    "name": "Command Block List",
+    "author": "Ryota Ushio",
+    "description": "Hide unwanted commands from the command palette.",
+    "repo": "RyotaUshio/obsidian-command-block-list"
+  },
+  {
+    "id": "crafty",
+    "name": "Crafty",
+    "author": "liolle",
+    "description": "Add tooltip to any canvas node and quickly navigate between canvas nodes.",
+    "repo": "liolle/Crafty"
+  },
+  {
+    "id": "color-cycler",
+    "name": "Color cycler",
+    "author": "Taylor Brennan",
+    "description": "Dynamically change the accent color of the theme.",
+    "repo": "tjbrennan/obsidian-color-cycler"
+  },
+  {
+    "id": "markmap-to-csv",
+    "name": "Markmap to CSV",
+    "description": "Converts Markmap data to CSV format.",
+    "author": "maxlee",
+    "repo": "pj4316/markmap-to-csv-obsidian"
+  },
+  {   
+    "id": "ear-training",
+    "name": "Ear Training",
+    "author": "Poe Zoel",
+    "description": "Get ear training exercises inside your vault.",
+    "repo": "shiwer/ear-training-obsidian-plugin"
+  },
+  {
+    "id": "hugo-codeblock-highlight",
+    "name": "Hugo codeblock highlight",
+    "author": "aarol",
+    "description": "Highlights lines in code blocks using Hugo's hl_lines syntax.",
+    "repo": "aarol/obsidian-hugo-codeblock-highlight"
+  },
+  {
     "id": "translate-inline",
     "name": "Translate Inline",
     "author": "Lucas Langholf",
-    "description": "Translations at your fingertips. The Obsidian Plugin for inline Translations.",
+    "description": "Translations at your fingertips. A plugin for inline Translations.",
     "repo": "kon-foo/Obsidian-Translate-Inline"
   }  
 ]
