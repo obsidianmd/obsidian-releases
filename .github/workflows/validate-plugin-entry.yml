@@ -150,6 +150,14 @@ jobs:
               }
 
               if (manifest) {
+                let validManifestKeys = ['id', 'name', 'description', 'author', 'version', 'minAppVersion', 'isDesktopOnly'];
+                for (let key of validManifestKeys) {
+                  if (!plugin.hasOwnProperty(key)) {
+                    addError(`Your manifest does not have the required \`${key}\` property.`);
+                  }
+                }
+
+              
                 if (manifest.id !== plugin.id) {
                   addError(`Plugin ID mismatch, the ID in this PR (\`${plugin.id}\`) is not the same as the one in your repo (\`${manifest.id}\`). If you just changed your plugin ID, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
