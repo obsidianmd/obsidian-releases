@@ -152,7 +152,7 @@ jobs:
               if (manifest) {
                 let validManifestKeys = ['id', 'name', 'description', 'author', 'version', 'minAppVersion', 'isDesktopOnly'];
                 for (let key of validManifestKeys) {
-                  if (!plugin.hasOwnProperty(key)) {
+                  if (!manifest.hasOwnProperty(key)) {
                     addError(`Your manifest does not have the required \`${key}\` property.`);
                   }
                 }
