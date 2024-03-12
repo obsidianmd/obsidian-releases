@@ -2822,10 +2822,10 @@
     },
     {
         "id": "obsidian-memos",
-        "name": "Memos",
+        "name": "Thino",
         "description": "Quickly capture memos and display them in the sidebar with a heatmap.",
         "author": "Boninall",
-        "repo": "Quorafind/Obsidian-Memos"
+        "repo": "Quorafind/Obsidian-Thino"
     },
     {
         "id": "para-shortcuts",
@@ -4385,7 +4385,7 @@
         "id": "duplicate-line",
         "name": "Duplicate Line",
         "author": "1C0D",
-        "description": "To duplicate a line.",
+        "description": "Efficient tools to edit your text and deal with occurences.",
         "repo": "1C0D/duplicate-line-obsidian"
     },
     {
@@ -5707,7 +5707,7 @@
     {
         "id": "contextual-comments",
         "name": "Contextual Comments",
-        "description": "General comments or langage related (in code blocks) + 2 commands trim end lines (all doc/code blocks).",
+        "description": "Add comments to your codeblocks and text (every language supported).",
         "author": "1C0D",
         "repo": "1C0D/Obsidian-Contextual-Comments"
     },
@@ -5750,7 +5750,7 @@
         "id": "close-similar-tabs",
         "name": "Close Similar Tabs",
         "author": "1C0D",
-        "description": "Avoid having a file opened several times in your tabs. (+setting: by window or everywhere).",
+        "description": "Avoid opening the same file in your tabs.",
         "repo": "1C0D/Obsidian-Close-Similar-Tabs"
     },
     {
@@ -6044,7 +6044,7 @@
         "id": "reveal-file-in-explorer",
         "name": "Reveal file in explorer",
         "author": "1C0D",
-        "description": "Clicking header title reveal active file in explorer and (option) when opening file + option to fold other directories.",
+        "description": "Automatically reveal active file in explorer, on opening, and optionally fold other folders.",
         "repo": "1C0D/Obsidian-Reveal-File-in-explorer"
     },
     {
@@ -6086,7 +6086,7 @@
         "id": "easy-toggle-sidebars",
         "name": "Easy toggle sidebars",
         "author": "1C0D",
-        "description": "toggle both sidebars (double middle mouse click or own shortcut) or each sidebar clicking middle mouse button and moving mouse towards the corresponding sidebar.",
+        "description": "toggle, autohide and autoresize sidebars...",
         "repo": "1C0D/obsidian-easy-toggle-sidebars"
     },
     {
@@ -6345,7 +6345,7 @@
         "id": "vault-name-status-bar",
         "name": "Vault name in status bar",
         "author": "1C0D",
-        "description": "See your vault name in the status bar and click on it ot reduce it.",
+        "description": "See your vault name even when not visible in the file explorer.",
         "repo": "1C0D/Obsidian-Vault-Name-in-Status-Bar"
     },
     {
@@ -7297,7 +7297,7 @@
         "id": "quick-plugin-switcher",
         "name": "Quick Plugin Switcher",
         "author": "1C0D",
-        "description": "Add a ribbon icon to quickly switch plugins with filters (all, enabled, disabled, most switched).",
+        "description": "Quickly manage installed and community plugins. The only way to evolve in the jungle of plugins",
         "repo": "1C0D/obsidian-quick-plugin-switcher"
     },
     {
@@ -9628,7 +9628,7 @@
     "id": "repeat-last-commands",
     "name": "Repeat Last Command(s)",
     "author": "1C0D",
-    "description": "Repeat last command or commands. Toggle pinned command with tab.",
+    "description": "Repeat last command(s) and improve your experience in the command palette.",
     "repo": "1C0D/obsidian-repeat-last-commands"
   },
   {
@@ -10809,10 +10809,10 @@
   },
   {
     "id": "canvas-minimap",
-   "name": "Canvas minimap",
-   "author": "ifree",
-   "description": "Obsidian Canvas minimap support.",
-   "repo": "ifree/Obsidian-canvas-minimap"
+    "name": "Canvas minimap",
+    "author": "ifree",
+    "description": "Obsidian Canvas minimap support.",
+    "repo": "ifree/Obsidian-canvas-minimap"
   },
   {
     "id": "fit",
@@ -10827,6 +10827,48 @@
     "author": "zuluwi",
     "description": "Take video/movie notes with timestamp links and snapshots from VLC Player.",
     "repo": "zuluwi/obsidian-vlc-bridge"
+  },
+  {
+    "id": "progress-clocks",
+    "name": "Progress Clocks",
+    "author": "Nathan Clark",
+    "description": "Progress clocks and other useful widgets for real-time status tracking.",
+    "repo": "tokenshift/obsidian-progress-clocks"
+  },
+  {
+    "id": "note-companion-folder",
+    "name": "Note Companion Folder",
+    "description": "Manage a separate folder of attachments for each note.",
+    "author": "Chris Verbree",
+    "repo": "vkodocha/NoteCompanionFolder"
+  },
+  {
+    "id": "tab-selector",
+    "name": "Tab Selector",
+    "author": "namikaze-40p",
+    "description": "Switch to the desired tab in about two actions without leaving the home position on the keyboard.",
+    "repo": "namikaze-40p/obsidian-tab-selector"
+  },
+  {
+    "id": "default-query-in-backlink",
+    "name": "Default query in backlinks",
+    "author": "Benature",
+    "description": "Automatically input default query in search input of backlinks in document.",
+    "repo": "Benature/obsidian-default-query-in-backlink"
+  },
+  {
+    "id": "metafolders",
+    "name": "Metafolders",
+    "author": "Makary Sharoyan",
+    "description": "Multidimensional note navigation.",
+    "repo": "makary-s/obsidian-metafolders"
+  },
+  {
+    "id": "spellcheck-toggler",
+    "name": "Spellcheck Toggler",
+    "description": "Toggle spellchecking for types of text blocks in the editing view.",
+    "author": "Julian Szachowicz",
+    "repo":"julzerinos/spellcheck-toggler-obsidian-plugin" 
   },
   {
     "id": "para-workflower",
