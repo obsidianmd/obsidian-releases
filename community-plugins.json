@@ -4431,13 +4431,6 @@
         "repo": "nuthrash/obsidian-html-plugin"
     },
     {
-        "id": "dynamic-rtl",
-        "name": "Dynamic RTL",
-        "author": "mwxgaf",
-        "description": "Dynamic RTL/LTR direction per line/paragraph, depending on language.",
-        "repo": "mwxgaf/obsidian-dynamic-rtl"
-    },
-    {
         "id": "mathlinks",
         "name": "MathLinks",
         "author": "Zhaoshen Zhai",
@@ -10069,7 +10062,7 @@
     "id": "protected-note",
     "name": "Protected Note",
     "author": "Mikail Gadzhikhanov",
-    "description": "Set password and protect your notes from other people.",
+    "description": "Set password and encrypt your notes to protect them from other people.",
     "repo": "mmiksaa/obsidian-protected-note"
   },
   {
@@ -10947,7 +10940,63 @@
     "description": "Search, browse and download TTRPG (tabletop role-playing game) content from Moulinette Cloud.",
     "repo": "SvenWerlen/moulinette-obsidian-plugin"
   },
-  {    
+  {
+    "id": "semantic-canvas",
+    "name": "Semantic Canvas",
+    "author": "Aaron Gillespie",
+    "description": "Create semantic knowledge graphs using Canvases to modify note properties graphically.",
+    "repo": "aarongilly/obsidian-semantic-canvas-plugin"
+  },
+  {
+    "id": "crypt-it",
+    "name": "Crypt It",
+    "author": "fyears",
+    "description": "Generate encrypted version of file(s) using rclone encryption format.",
+    "repo": "remotely-save/crypt-it"
+  },
+  {
+    "id": "para-workflower",
+    "name": "PARA Workflower",
+    "author": "KevTheDevX",
+    "description": "Helpful commands for starting and working in your vault with the PARA method.",
+    "repo": "trucke/para-workflower"
+  },
+  {
+    "id": "lavadocs",
+    "name": "Lavadocs",
+    "author": "Saalik Lokhandwala",
+    "description": "Public docs, from the fires of your vault.",
+    "repo": "saaliklok/lavadocs-obsidian"
+  },
+  {
+    "id": "unofficial-kinopoisk",
+    "name": "Kinopoisk search",
+    "author": "Alintor",
+    "description": "Helps you find movies and tv shows via Kinopoisk and create notes.",
+    "repo": "Alintor/obsidian-kinopoisk-plugin"
+  },
+  {
+    "id": "multilingual",
+		"name": "Multilingual",
+		"author": "leolazou",
+		"description": "Simplify linking notes across multiple languages by automatically adding translations of note names into aliases. Designed for multilingual users.",
+		"repo": "leolazou/obsidian-multilingual"
+	},
+  {
+    "id": "quick-file-name",
+    "name": "Quick File Name",
+    "author": "Wapply",
+    "description": "Generates a note with a random string as its name.",
+    "repo": "Wapply/obsidian-quick-file-name"
+  },
+  {
+    "id": "sticky-heading",
+    "name": "Sticky Headings",
+    "author": "Shen Shen",
+    "description": "Sticky headings and shows the heading level",
+    "repo": "imshenshen/obsidian-sticky-heading"
+  },
+  {
     "id": "ai-zhipu",
     "name": "AI Zhipu",
     "author": "Tarslab",
