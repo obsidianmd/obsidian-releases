@@ -1876,13 +1876,6 @@
         "repo": "jamiebrynes7/obsidian-hover-external-link"
     },
     {
-        "id": "obsidian-code-block-enhancer",
-        "name": "Code Block Enhancer",
-        "description": "Enhance Markdown code blocks with copy button, line numbers, language name, and more.",
-        "author": "hafuhafu",
-        "repo": "nyable/obsidian-code-block-enhancer"
-    },
-    {
         "id": "obsidian-copy-block-link",
         "name": "Copy Block Link",
         "author": "mgmeyers",
@@ -2861,13 +2854,6 @@
         "description": "Create and tweak common snippets.",
         "author": "ebullient",
         "repo": "ebullient/obsidian-snippetor"
-    },
-    {
-        "id": "obsidian-sortable",
-        "name": "Sortable",
-        "author": "alexandru-dinu",
-        "description": "Wikipedia-like sortable tables.",
-        "repo": "alexandru-dinu/obsidian-sortable"
     },
     {
         "id": "weather-fetcher",
@@ -3953,13 +3939,6 @@
         "description": "Sync Tencent Weread highlights and annotations.",
         "author": "hank zhao",
         "repo": "zhaohongxuan/obsidian-weread-plugin"
-    },
-    {
-        "id": "postgresql-obsidian",
-        "name": "PostgreSQL",
-        "author": "Camille Louédoc-Eyries",
-        "description": "Upload your notes' metadata to a PostgreSQL database.",
-        "repo": "clouedoc/postgresql-obsidian"
     },
     {
         "id": "zotero-link",
@@ -11044,6 +11023,20 @@
     "author": "@gapmiss",
     "description": "Logs all notices to the developer console, with optional prefix.",
     "repo": "gapmiss/notice-logger"
+  },
+  {
+    "id": "buckwalter-transliteration",
+    "name": "Buckwalter Transliteration",
+    "author": "Amr Ojjeh",
+    "description": "Renders Arabic using Buckwalter's encoding scheme.",
+    "repo": "amrojjeh/obsidian-buckwalter"
+  },
+  {
+    "id": "hemingway-mode",
+    "name": "Hemingway Mode",
+    "author": "Joaquín Bernal",
+    "description": "Prevents any editing, only letting you write ahead.",
+    "repo": "jobedom/obsidian-hemingway-mode"
   },
   {
     "id": "misskey-connector",
