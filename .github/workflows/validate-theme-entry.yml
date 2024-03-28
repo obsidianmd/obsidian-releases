@@ -103,10 +103,10 @@ jobs:
                 }
 
                 if (theme.name.toLowerCase().includes('obsidian')) {
-                    addWarning(`We discourage themes from including the word \`Obsidian\` in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
+                    addError(`We discourage themes from including the word \`Obsidian\` in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
                 }
                 if (theme.name.toLowerCase().includes('theme')) {
-                    addWarning(`We discourage themes from including the word \`theme\` in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
+                    addError(`We discourage themes from including the word \`theme\` in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
                 }
 
                 if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(theme.author)) {
@@ -153,7 +153,7 @@ jobs:
                         }
 
                         if (manifest.authorUrl.toLowerCase().includes("github.com/" + theme.repo.toLowerCase())) {
-                            addWarning(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the theme.`);
+                            addError(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the theme.`);
                         }
                     }
 
