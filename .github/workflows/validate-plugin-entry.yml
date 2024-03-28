@@ -45,7 +45,7 @@ jobs:
                 addError('You modified files other than `community-plugins.json`.');
               }
 
-              if (context.payload.pull_request.body.includes('Please switch to **Preview** and select one of the following links:')) {
+              if (!context.payload.pull_request.body.includes('I have added a license in the LICENSE file.')) {
                 addError('You did not follow the pull request template');
               }
 
@@ -171,12 +171,12 @@ jobs:
                   }
 
                   if (manifest.authorUrl.toLowerCase().includes("github.com/" + plugin.repo.toLowerCase())) {
-                    addWarning(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the plugin.`);
+                    addError(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the plugin.`);
                   }
                 }
 
                 if (manifest.fundingUrl && manifest.fundingUrl === "https://obsidian.md/pricing") {
-                  addError(`The \`fundingUrl\` field in your manifest should not point to the Obsidian Website, If you don't have a link were users can donate to you, you can just omit this.`);
+                  addError(`The \`fundingUrl\` field in your manifest should not point to the Obsidian Website, If you don't have a link were users can donate to you, you can just remove it from the manifest.`);
                 }
 
                 if (!/^[0-9.]+$/.test(manifest.version)) {
