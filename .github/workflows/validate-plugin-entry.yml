@@ -45,7 +45,7 @@ jobs:
                 addError('You modified files other than `community-plugins.json`.');
               }
 
-              if (context.payload.pull_request.body.includes('Please switch to **Preview** and select one of the following links:')) {
+              if (!context.payload.pull_request.body.includes('I have added a license in the LICENSE file.')) {
                 addError('You did not follow the pull request template');
               }
 
@@ -111,14 +111,11 @@ jobs:
                 addError('The plugin ID is not valid. Only alphanumeric characters and dashes are allowed.');
               }
 
-              if (plugin.name.toLowerCase().startsWith('obsidian')) {
-                addError(`Please don't use the word \`Obsidian\` at the start of your plugin name since it's redundant and makes it harder to sort the plugin list.`);
-              }
               else if (plugin.name.toLowerCase().includes('obsidian')) {
-                addWarning(`Please don't use the word \`Obsidian\` in your plugin name since it's redundant and adds clutter to the plugin list.`);
+                addError(`Please don't use the word \`Obsidian\` in your plugin name since it's redundant and adds clutter to the plugin list.`);
               }
               if (plugin.name.toLowerCase().endsWith('plugin')) {
-                addWarning(`Please don't use the word \`Plugin\` in the plugin name since it's redundant and adds clutter to the plugin list.`);
+                addError(`Please don't use the word \`Plugin\` in the plugin name since it's redundant and adds clutter to the plugin list.`);
               }
 
               if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(plugin.author)) {
@@ -153,6 +150,14 @@ jobs:
               }
 
               if (manifest) {
+                let validManifestKeys = ['id', 'name', 'description', 'author', 'version', 'minAppVersion', 'isDesktopOnly'];
+                for (let key of validManifestKeys) {
+                  if (!manifest.hasOwnProperty(key)) {
+                    addError(`Your manifest does not have the required \`${key}\` property.`);
+                  }
+                }
+
+              
                 if (manifest.id !== plugin.id) {
                   addError(`Plugin ID mismatch, the ID in this PR (\`${plugin.id}\`) is not the same as the one in your repo (\`${manifest.id}\`). If you just changed your plugin ID, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
@@ -166,12 +171,12 @@ jobs:
                   }
 
                   if (manifest.authorUrl.toLowerCase().includes("github.com/" + plugin.repo.toLowerCase())) {
-                    addWarning(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the plugin.`);
+                    addError(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the plugin.`);
                   }
                 }
 
                 if (manifest.fundingUrl && manifest.fundingUrl === "https://obsidian.md/pricing") {
-                  addError(`The \`fundingUrl\` field in your manifest should not point to the Obsidian Website, If you don't have a link were users can donate to you, you can just omit this.`);
+                  addError(`The \`fundingUrl\` field in your manifest should not point to the Obsidian Website, If you don't have a link were users can donate to you, you can just remove it from the manifest.`);
                 }
 
                 if (!/^[0-9.]+$/.test(manifest.version)) {
