@@ -2737,13 +2737,6 @@
         "repo": "lanice/obsidian-rant"
     },
     {
-        "id": "obsidian-smarter-md-hotkeys",
-        "name": "Smarter Markdown Hotkeys",
-        "description": "Hotkeys that select words and lines in a smart way before applying markup. Multiple cursors are supported as well.",
-        "author": "pseudometa",
-        "repo": "chrisgrieser/obsidian-smarter-md-hotkeys"
-    },
-    {
         "id": "obsidian-global-hotkeys",
         "name": "Global Hotkeys",
         "description": "Configurable system-wide hotkeys for running commands.",
@@ -4361,13 +4354,6 @@
         "repo": "Canna71/obsidian-chronology"
     },
     {
-        "id": "duplicate-line",
-        "name": "Duplicate Line",
-        "author": "1C0D",
-        "description": "Efficient tools to edit your text and deal with occurences.",
-        "repo": "1C0D/duplicate-line-obsidian"
-    },
-    {
         "id": "obsidian-toggle-list",
         "name": "ToggleList",
         "author": "Lite C",
@@ -5677,13 +5663,6 @@
         "repo": "SamZhang02/obsidian-latex-algorithms"
     },
     {
-        "id": "contextual-comments",
-        "name": "Contextual Comments",
-        "description": "Add comments to your codeblocks and text (every language supported).",
-        "author": "1C0D",
-        "repo": "1C0D/Obsidian-Contextual-Comments"
-    },
-    {
         "id": "heading-level-indent",
         "name": "Heading Level Indent",
         "description": "Indenting content under headers based on their level.",
@@ -5717,13 +5696,6 @@
         "description": "Convert Obsidian Markdown syntax to other Markdown platforms such as Jekyll.",
         "author": "haril song",
         "repo": "songkg7/o2"
-    },
-    {
-        "id": "close-similar-tabs",
-        "name": "Close Similar Tabs",
-        "author": "1C0D",
-        "description": "Avoid opening the same file in your tabs.",
-        "repo": "1C0D/Obsidian-Close-Similar-Tabs"
     },
     {
         "id": "create-note-in-folder",
@@ -6013,13 +5985,6 @@
         "repo": "lucasbordeau/obsidian-tiddlywiki"
     },
     {
-        "id": "reveal-file-in-explorer",
-        "name": "Reveal file in explorer",
-        "author": "1C0D",
-        "description": "Automatically reveal active file in explorer, on opening, and optionally fold other folders.",
-        "repo": "1C0D/Obsidian-Reveal-File-in-explorer"
-    },
-    {
         "id": "float-search",
         "name": "Floating Search",
         "author": "Boninall",
@@ -6053,13 +6018,6 @@
         "description": "Randomized vault generator with links between notes, frontmatter, tags, orphan and leaf notes.",
         "author": "Michael Pedersen",
         "repo": "pedersen/obsidian-testing-vault"
-    },
-    {
-        "id": "easy-toggle-sidebars",
-        "name": "Easy toggle sidebars",
-        "author": "1C0D",
-        "description": "toggle, autohide and autoresize sidebars...",
-        "repo": "1C0D/obsidian-easy-toggle-sidebars"
     },
     {
         "id": "x86-flow-graphing",
@@ -6312,13 +6270,6 @@
         "author": "Michael Lee",
         "description": "Quickly hide your sidebars.",
         "repo": "michaellee/soomda"
-    },
-    {
-        "id": "vault-name-status-bar",
-        "name": "Vault name in status bar",
-        "author": "1C0D",
-        "description": "See your vault name even when not visible in the file explorer.",
-        "repo": "1C0D/Obsidian-Vault-Name-in-Status-Bar"
     },
     {
         "id": "quickly",
@@ -7266,13 +7217,6 @@
         "repo": "take6/obsidian-plugin-auto-hyperlink"
     },
     {
-        "id": "quick-plugin-switcher",
-        "name": "Quick Plugin Switcher",
-        "author": "1C0D",
-        "description": "Quickly manage installed and community plugins. The only way to evolve in the jungle of plugins",
-        "repo": "1C0D/obsidian-quick-plugin-switcher"
-    },
-    {
         "id": "colored-tags",
         "name": "Colored Tags",
         "author": "Pavel Frankov",
@@ -7333,7 +7277,7 @@
         "name": "LifeOS",
         "author": "YiBing Lin",
         "description": "Life management system.",
-        "repo": "quanru/obsidian-periodic-para"
+        "repo": "quanru/obsidian-lifeos"
     },
     {
         "id": "source-scanner",
@@ -9270,9 +9214,9 @@
     {
         "id": "formatto-format",
         "name": "Formatto",
-        "author": "Echo",
-        "description": "Format your Markdown document.",
-        "repo": "polyecho/formatto"
+        "author": "Stellar",
+        "description": "Simple, fast, and easy-to-use Markdown formatter.",
+        "repo": "cosmostellar/formatto"
     },
     {
         "id": "chat-cbt",
@@ -9595,13 +9539,6 @@
     "author": "Valerie Burzynski",
     "description": "Quickly change checkbox and task status markers.",
     "repo": "vburzynski/obsidian-task-status"
-  },
-  {
-    "id": "repeat-last-commands",
-    "name": "Repeat Last Command(s)",
-    "author": "1C0D",
-    "description": "Repeat last command(s) and improve your experience in the command palette.",
-    "repo": "1C0D/obsidian-repeat-last-commands"
   },
   {
     "id": "copy-without-links",
@@ -10906,13 +10843,6 @@
     "repo": "Aspharmyx/obsidian-password-protect"
   },
   {
-    "id": "editor-full-screen",
-    "name": "Editor full screen",
-    "author": "1C0D",
-    "description": "Full screen mode (for presentations) or Zen mode (focused writing). You can use resized OS windows, it will fit to the window.",
-    "repo": "1C0D/obsidian-editor-full-screen"
-  },
-  {
     "id": "moulinette",
     "name": "Moulinette Search for TTRPG",
     "author": "Moulinette",
@@ -11088,15 +11018,15 @@
     "repo": "RavenWits/obsidian-ai-summarize"
   },
   {
-		"id": "livecodes-playground",
-		"name": "Livecodes Playground",
-		"description": "Client-side code editor playground - Powered by LiveCodes",
-		"author": "@gapmiss",
-		"repo": "gapmiss/livecodes-playground"
-	},
+    "id": "livecodes-playground",
+    "name": "Livecodes Playground",
+    "description": "Client-side code editor playground - Powered by LiveCodes",
+    "author": "@gapmiss",
+    "repo": "gapmiss/livecodes-playground"
+  },
   {
     "id": "auto-embed",
-	  "name": "Auto Embed",
+    "name": "Auto Embed",
     "author": "GnoxNahte",
     "description": "Helps to embed links using markdown instead of iframe.",
     "repo": "GnoxNahte/obsidian-auto-embed"
@@ -11121,5 +11051,32 @@
     "author": "Khokim Mamarasulov",
     "description": "Manage ClickUp space from notes.",
     "repo": "hokim-m/click-up-x-obsidian"
+  },
+    "id": "autoplay-and-loop",
+    "name": "Autoplay & Loop",
+    "author": "Zerkshop & Wapply",
+    "description": "AutoPlay videos inside and outside notes.",
+    "repo": "Wapply/obsidian-autoplay-and-loop"
+  },
+  {
+    "id": "mehrmaid",
+    "name": "Mehrmaid",
+    "author": "huterguier",
+    "description": "Enables you to put Markdown inside of Mermaid diagrams.",
+    "repo": "huterguier/obsidian-mehrmaid"
+   },
+   {
+    "id": "note-toolbar",
+    "name": "Note Toolbar",
+    "author": "Chris Gurney",
+    "description": "Add customizable toolbars to your notes.",
+    "repo": "chrisgurney/obsidian-note-toolbar"
+  },
+  {
+    "id": "supernote",
+    "name": "Unofficial Supernote by Ratta Integration",
+    "author": "philips",
+    "description": "View Supernote notes, generate markdown from note and capture screen mirror.",
+    "repo": "philips/supernote-obsidian-plugin"
   }
 ]
