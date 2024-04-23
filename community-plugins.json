@@ -5315,7 +5315,7 @@
     {
         "id": "smart-connections",
         "name": "Smart Connections",
-        "description": "Chat with your notes & find links to similar content using artificial intelligence like OpenAI Embeddings, GPT-3.5 & GPT-4.",
+        "description": "Chat with your notes & see links to related content with AI embeddings. Use local models or 100+ via APIs like Claude, Gemini, ChatGPT & Llama 3",
         "author": "Brian Petro",
         "repo": "brianpetro/obsidian-smart-connections"
     },
@@ -5845,13 +5845,6 @@
         "repo": "Maxymillion/zen"
     },
     {
-        "id": "nl-fast-image-cleaner",
-        "name": "Fast Image Cleaner",
-        "author": "Nathaniel",
-        "description": "Quickly delete attachments and remove referenced link by right-clicking on the context menu option. ",
-        "repo": "martinniee/Obsidian-fast-image-cleaner"
-    },
-    {
         "id": "fantasy-content-generator",
         "name": "Fantasy Content Generator",
         "author": "Gregory-Jagermeister",
@@ -6284,13 +6277,6 @@
         "author": "Heekang Park",
         "description": "Improve the display of code blocks in reading view with titles, line numbers, line highlights, and more.",
         "repo": "HeekangPark/obsidian-hk-code-block"
-    },
-    {
-        "id": "tistory-poster",
-        "name": "Tistory Poster",
-        "author": "Woongshik Choi",
-        "description": "Post notes to the Tistory blogging platform.",
-        "repo": "idreamer/tistory-poster"
     },
     {
         "id": "link-range",
@@ -11291,10 +11277,128 @@
         "repo": "dgudim/obsidian-universal-renderer"
     },
     {
-      "id": "codenary-content",
-      "name": "Codenary Content",
-      "author": "gskim",
-      "description": "A plugin for publishing to Codenary my contents",
-      "repo": "gskim/obsidian-codenary-content-plugin"
+        "id": "canvas2document",
+        "name": "Canvas2Document",
+        "description": "Convert a complete Canvas to a long form document, integrating all cards, notes, images and other media content into a single markdown file.",
+        "author": "slnsys",
+        "repo": "slnsys/obsidian-canvas2document"
+    },
+    {
+        "id": "letterboxd-rss-sync",
+        "name": "Letterboxd Diary RSS Sync",
+        "author": "Nick Felker",
+        "description": "Syncs your public Letterboxd diary.",
+        "repo": "fleker/letterboxd-for-obsidian"
+    },
+    {
+        "id": "bitcoin-block-stamp",
+        "name": "Bitcoin Block Stamp",
+        "author": "sefiro",
+        "description": "Stamp your notes with the current Bitcoin block.",
+        "repo": "sfr0xyz/obsidian-bitcoin-block-stamp"
+    },
+    {
+        "id": "slides-extended",
+        "name": "Slides Extended",
+        "author": "Erin Schnabel (original: MSzturc)",
+        "description": "Create markdown-based reveal.js presentations. Fork of Advanced Slides.",
+        "repo": "ebullient/obsidian-slides-extended"
+    },
+    {
+        "id": "my_anime_list_text_exporter",
+        "name": "my anime list text exporter",
+        "author": "XmoncocoX",
+        "description": "add anime data for your notes.",
+        "repo": "Xmoncoco/my_anime_list_text_exporter"
+    },
+    {
+        "id": "coco-askai",
+        "name": "CoCo AskAI",
+        "author": "Yukee",
+        "description": "Let your questions flow swiftly with CoCo AskAI. (Closed source)",
+        "repo": "yamfeel/coco-askai"
+    },
+    {
+        "id": "kv-store",
+        "name": "KV Store",
+        "author": "Darren-project",
+        "description": "Adds a key-value store. Use it to store and retrieve key-value pairs in your vault.",
+        "repo": "Darren-project/obsidian-kv"
+    },
+    {
+        "id": "personal-os",
+        "name": "Personal OS",
+        "author": "A.Buot",
+        "description": "Streamlining task management and productivity with a touch of gamification.",
+        "repo": "GengAd/obsidian-personal-os"
+    },
+    {
+        "id": "time-saver",
+        "name": "TimeSaver",
+        "description": "Save your time. 1. Quickly insert todo directive. 2. Quickly count the time spent on tasks in the current note and the total time spent.",
+        "author": "tommy.li",
+        "repo": "odayou/obsidian-task-processing-extension"
+    },
+    {
+        "id": "calendar-event-sync",
+        "name": "Calendar Event Sync",
+        "author": "Stephen Dolan",
+        "description": "Sync your current note with a relevant calendar event.",
+        "repo": "stephendolan/obsidian-calendar-event-sync"
+    },
+    {
+        "id": "painter",
+        "name": "Painter",
+        "author": "KraXen72 and Chetachi Ezikeuzor",
+        "description": "Paint text different colors.",
+        "repo": "KraXen72/obsidian-painter"
+    },
+    {
+        "id": "random-names",
+        "name": "Random names",
+        "author": "Tom Parker-Shemilt",
+        "description": "Generates random names.",
+        "repo": "palfrey/obsidian-random-names"
+    },
+    {
+        "id": "note-splitter",
+        "name": "Note Splitter",
+        "author": "Trey Wallis",
+        "description": "Split a note into individual notes based on a delimiter.",
+        "repo": "trey-wallis/obsidian-note-splitter"
+    },
+    {
+        "id": "bearings",
+        "name": "Bearings",
+        "author": "Jeet Sukumaran",
+        "description": "Flow through dynamically-scoped collapsible tree views of your vault's semantic and logical architectures.",
+        "repo": "jeetsukumaran/obsidian-bearings"
+    },
+    {
+        "id": "image-search",
+        "name": "Image Search",
+        "author": "Mohammad Razeghi",
+        "description": "Search and insert images using Google API",
+        "repo": "razeghi71/obsidian-image-search"
+    },
+    {
+        "id": "lava-vtt-uploader",
+        "name": "Lava VTT Uploader",
+        "author": "Lavaforge",
+        "description": "Display images from your vault in Lava VTT.",
+        "repo": "lavaforge/obsidian-lava-vtt-uploader"
+    },
+    {
+        "id": "outline-task-list",
+        "name": "Outline to task list",
+        "author": "alexandrerbb",
+        "description": "Convert a note's outline to a task list.",
+        "repo": "alexandrerbb/obsidian-outline-tasklist-plugin"
+    },{
+        "id": "codenary-content",
+        "name": "Codenary Content",
+        "author": "gskim",
+        "description": "A plugin for publishing to Codenary my contents",
+        "repo": "gskim/obsidian-codenary-content-plugin"
     }
 ]
