@@ -101,7 +101,7 @@ jobs:
                 addError(`It seems like you made a typo in the repository field \`${plugin.repo}\`.`);
               }
 
-              if (plugin.id.toLowerCase().startsWith('obsidian')) {
+              if (plugin.id.toLowerCase().includes('obsidian')) {
                 addError(`Please don't use the word \`obsidian\` in the plugin ID. The ID is used for your plugin's folder so keeping it short and simple avoids clutter and helps with sorting.`);
               }
               if (plugin.id.toLowerCase().endsWith('plugin')) {
