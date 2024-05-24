@@ -133,13 +133,6 @@
         "repo": "ivan-lednev/obsidian-day-planner"
     },
     {
-        "id": "cm-editor-syntax-highlight-obsidian",
-        "name": "Editor Syntax Highlight",
-        "author": "death_au",
-        "description": "Show syntax highlighing in code blocks the editor.",
-        "repo": "deathau/cm-editor-syntax-highlight-obsidian"
-    },
-    {
         "id": "review-obsidian",
         "name": "Review",
         "author": "ryanjamurphy",
@@ -516,13 +509,6 @@
         "author": "delashum",
         "description": "Consolidate checklists across all files into a single view.",
         "repo": "delashum/obsidian-checklist-plugin"
-    },
-    {
-        "id": "obsidian-text-expander",
-        "name": "Text Expander",
-        "author": "Nikita Konodyuk",
-        "description": "Expand text shortcuts, run shell commands and Python scripts right in your editor.",
-        "repo": "konodyuk/obsidian-text-expander"
     },
     {
         "id": "search-on-internet",
@@ -2758,13 +2744,6 @@
         "repo": "farling42/obsidian-import-json"
     },
     {
-        "id": "import-foundry",
-        "name": "Import Foundry VTT journal entries",
-        "author": "farling42",
-        "description": "Import your journal entries from your selected Foundry VTT world into a folder within your vault.",
-        "repo": "farling42/obsidian-import-foundry"
-    },
-    {
         "id": "obsidian-attachment-name-formatting",
         "name": "Attachment Name Formatting",
         "description": "Formatting attachments name (filename attachmentType indexNumber.xxx).",
@@ -4667,13 +4646,6 @@
         "author": "Dion Tryban (Trikzon)",
         "description": "Render links in a note's frontmatter as links.",
         "repo": "Trikzon/obsidian-frontmatter-links"
-    },
-    {
-        "id": "ava",
-        "name": "Ava",
-        "author": "louis030195",
-        "description": "Quickly format your notes with ChatGPT.",
-        "repo": "louis030195/obsidian-ava"
     },
     {
         "id": "obsidian-scroll-to-top-plugin",
@@ -8771,13 +8743,6 @@
         "repo": "mnaoumov/obsidian-backlink-cache"
     },
     {
-        "id": "tistory",
-        "name": "Tistory",
-        "author": "anpigon",
-        "description": "Create and edit posts on the Tistory blogging platform.",
-        "repo": "anpigon/obsidian-tistory-plugin"
-    },
-    {
         "id": "enhance-youtube-links",
         "name": "Enhance YouTube Links",
         "author": "GitSum",
@@ -11669,10 +11634,73 @@
         "repo": "rooyca/query-json"
     },
     {
-        "id": "lcl-html-local-img",
-        "name": "LcL Html Local Img",
-        "author": "LcL",
-	    "description": "Display the img html of the local link",
-        "repo": "csdjk/lcl-obsidian-html-local-img-plugin"
-    }
+        "id": "voicenotes-sync",
+        "name": "Voicenotes Sync",
+        "author": "Andrew Lombardi",
+        "description": "A plugin for syncing Voicenotes.com data into notes",
+        "repo": "mysticcoders/voicenotes-sync"
+    },
+    {
+        "id": "legifrance-integration",
+        "name": "Légifrance Intégration",
+        "author": "hurj",
+        "description": "Intégration de l'API Légifrance.",
+        "repo": "carnetdethese/obsidian-legifrance-integration"
+    },
+    {
+        "id": "github-copilot",
+        "name": "Github Copilot",
+        "author": "Vasseur Pierre-Adrien",
+        "description": "Implement suggestions from Github Copilot directly in your editor.",
+        "repo": "Pierrad/obsidian-github-copilot"
+    },
+    {
+        "id": "toggle-rtl-mode",
+        "name": "Toggle RTL mode",
+        "author": "Yoni Asulin",
+        "description": "Toggle RTL mode using command or ribbon action",
+        "repo": "YoniA/toggle-rtl-obsidian-plugin"
+    },
+    {
+        "id": "update-time",
+        "name": "Update Time",
+        "author": "Sébastien Dubois",
+        "description": "Update front matter to include creation and last update times",
+        "repo": "dsebastien/obsidian-update-time"
+    },
+    {
+        "id": "solo-rpg-toolkit",
+        "name": "Solo RPG Toolkit",
+        "author": "Alex Kurowski",
+        "description": "Helpful tools for playing TTRPG games, geared towards solo play with a GM emulator.",
+        "repo": "alexkurowski/solo-toolkit"
+    },
+    {
+        "id": "interactivity",
+        "name": "Interactivity",
+        "author": "ichichikin",
+        "description": "Interactivity allows you to run shell commands and scripts directly within your notes, providing their output right alongside your written content, making your note-taking process more dynamic and interactive.",
+        "repo": "ichichikin/obsidian-plugin-interactivity"
+    },
+    {
+        "id": "heti",
+        "name": "heti",
+        "author": "Moeyua",
+        "description": "专为中文内容展示设计的排版样式增强。它基于通行的中文排版规范而来，可以带来更好的阅读体验。",
+        "repo": "moeyua/obsidian-heti"
+    },
+    {
+        "id": "stashpad-docs",
+        "name": "Stashpad Docs",
+        "author": "Stashpad",
+        "description": "Create a Stashpad Doc from your notes.",
+        "repo": "stashpad/obsidian-to-stashpad"
+    },
+    {
+      "id": "lcl-html-local-img",
+      "name": "LcL Html Local Img",
+      "author": "LcL",
+      "description": "Display the img html of the local link",
+      "repo": "csdjk/lcl-obsidian-html-local-img-plugin"
+  }
 ]
