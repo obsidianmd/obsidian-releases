@@ -133,13 +133,6 @@
         "repo": "ivan-lednev/obsidian-day-planner"
     },
     {
-        "id": "cm-editor-syntax-highlight-obsidian",
-        "name": "Editor Syntax Highlight",
-        "author": "death_au",
-        "description": "Show syntax highlighing in code blocks the editor.",
-        "repo": "deathau/cm-editor-syntax-highlight-obsidian"
-    },
-    {
         "id": "review-obsidian",
         "name": "Review",
         "author": "ryanjamurphy",
@@ -516,13 +509,6 @@
         "author": "delashum",
         "description": "Consolidate checklists across all files into a single view.",
         "repo": "delashum/obsidian-checklist-plugin"
-    },
-    {
-        "id": "obsidian-text-expander",
-        "name": "Text Expander",
-        "author": "Nikita Konodyuk",
-        "description": "Expand text shortcuts, run shell commands and Python scripts right in your editor.",
-        "repo": "konodyuk/obsidian-text-expander"
     },
     {
         "id": "search-on-internet",
@@ -2384,7 +2370,7 @@
         "name": "Metacopy & URL",
         "description": "Copy the value of a frontmatter key and create a link from it using various settings.",
         "author": "Mara-Li",
-        "repo": "Lisandra-dev/obsidian-metacopy"
+        "repo": "Mara-Li/obsidian-metacopy"
     },
     {
         "id": "obsidian-image-caption",
@@ -2756,13 +2742,6 @@
         "author": "farling42",
         "description": "Import a JSON file containing an array of data, creating notes from a Handlebars template file.",
         "repo": "farling42/obsidian-import-json"
-    },
-    {
-        "id": "import-foundry",
-        "name": "Import Foundry VTT journal entries",
-        "author": "farling42",
-        "description": "Import your journal entries from your selected Foundry VTT world into a folder within your vault.",
-        "repo": "farling42/obsidian-import-foundry"
     },
     {
         "id": "obsidian-attachment-name-formatting",
@@ -4120,7 +4099,7 @@
         "name": "Group Snippets",
         "author": "Mara-Li",
         "description": "Create folder of snippets to activate them in one click!",
-        "repo": "Lisandra-dev/obsidian-group-snippets"
+        "repo": "Mara-Li/obsidian-group-snippets"
     },
     {
         "id": "obsidian-raindrop-highlights",
@@ -4667,13 +4646,6 @@
         "author": "Dion Tryban (Trikzon)",
         "description": "Render links in a note's frontmatter as links.",
         "repo": "Trikzon/obsidian-frontmatter-links"
-    },
-    {
-        "id": "ava",
-        "name": "Ava",
-        "author": "louis030195",
-        "description": "Quickly format your notes with ChatGPT.",
-        "repo": "louis030195/obsidian-ava"
     },
     {
         "id": "obsidian-scroll-to-top-plugin",
@@ -5309,8 +5281,8 @@
         "id": "canvas-css-class",
         "name": "Canvas CSS class",
         "description": "Add a CSS class to the canvas, but also other attributes.",
-        "author": "Lisandra-dev",
-        "repo": "Lisandra-dev/obsidian-canvas-css-class"
+        "author": "Mara-Li",
+        "repo": "Mara-Li/obsidian-canvas-css-class"
     },
     {
         "id": "smart-connections",
@@ -5702,7 +5674,7 @@
         "name": "Create Note in Folder",
         "author": "Mara-Li",
         "description": "Add commands to create a note in a specific folder.",
-        "repo": "Lisandra-dev/obsidian-create-note-in-folder"
+        "repo": "Mara-Li/obsidian-create-note-in-folder"
     },
     {
         "id": "apple-books-highlights",
@@ -6556,7 +6528,7 @@
         "name": "Open Plugin Settings",
         "author": "Mara-Li",
         "description": "Create a command to open a specified plugin settings.",
-        "repo": "lisandra-dev/open-plugin-settings-commands"
+        "repo": "Mara-Li/open-plugin-settings-commands"
     },
     {
         "id": "mathlive",
@@ -7717,7 +7689,7 @@
         "id": "solve",
         "name": "Solve",
         "author": "Liam Riddell",
-        "description": "Your Math Maestro! Real-time calculations without AI (e.g. ChatGPT) fuss. From date magic ('Now + 20 days') to arithmetic flair ('10 + 5 / (2 * 2)'), your trusted sidekick in every note. More brilliance on the way!",
+        "description": "Supercharge your notes with real-time calculations without AI fuss. From dates ('Now + 20 days'), percentages ('10% of 120'), units of measurement ('100cm + 2m'), arithmetic ('10 + 5') and more!",
         "repo": "LiamRiddell/obsidian-solve"
     },
     {
@@ -8771,13 +8743,6 @@
         "repo": "mnaoumov/obsidian-backlink-cache"
     },
     {
-        "id": "tistory",
-        "name": "Tistory",
-        "author": "anpigon",
-        "description": "Create and edit posts on the Tistory blogging platform.",
-        "repo": "anpigon/obsidian-tistory-plugin"
-    },
-    {
         "id": "enhance-youtube-links",
         "name": "Enhance YouTube Links",
         "author": "GitSum",
@@ -9020,7 +8985,7 @@
         "name": "Better Canvas Lock",
         "author": "Mara-Li",
         "description": "Enhance the read-only mode in Canvas with fully lock the scroll, zoom, drag-and-drop in read-only!",
-        "repo": "lisandra-dev/obsidian-better-canvas-lock"
+        "repo": "Mara-Li/obsidian-better-canvas-lock"
     },
     {
         "id": "file-indicators",
@@ -11211,7 +11176,7 @@
         "name": "Enhanced Copy",
         "author": "Mara-Li",
         "description": "Copy your selection and add it some edit to paste in other markdown software. Allows to keep markdown in reading view, removing wikilinks in editing, copy from locked canvas, and more!",
-        "repo": "Lisandra-dev/obsidian-enhanced-copy"
+        "repo": "Mara-Li/obsidian-enhanced-copy"
     },
     {
         "id": "ink",
@@ -11669,10 +11634,73 @@
         "repo": "rooyca/query-json"
     },
     {
-        "id": "inbox-organiser",
-        "name": "Inbox Organiser",
-        "author": "hypersphere",
-        "description": "Automatically Organise your inbox",
-        "repo": "h-sphere/obsidian-inbox-organiser"
+        "id": "voicenotes-sync",
+        "name": "Voicenotes Sync",
+        "author": "Andrew Lombardi",
+        "description": "A plugin for syncing Voicenotes.com data into notes",
+        "repo": "mysticcoders/voicenotes-sync"
+    },
+    {
+        "id": "legifrance-integration",
+        "name": "Légifrance Intégration",
+        "author": "hurj",
+        "description": "Intégration de l'API Légifrance.",
+        "repo": "carnetdethese/obsidian-legifrance-integration"
+    },
+    {
+        "id": "github-copilot",
+        "name": "Github Copilot",
+        "author": "Vasseur Pierre-Adrien",
+        "description": "Implement suggestions from Github Copilot directly in your editor.",
+        "repo": "Pierrad/obsidian-github-copilot"
+    },
+    {
+        "id": "toggle-rtl-mode",
+        "name": "Toggle RTL mode",
+        "author": "Yoni Asulin",
+        "description": "Toggle RTL mode using command or ribbon action",
+        "repo": "YoniA/toggle-rtl-obsidian-plugin"
+    },
+    {
+        "id": "update-time",
+        "name": "Update Time",
+        "author": "Sébastien Dubois",
+        "description": "Update front matter to include creation and last update times",
+        "repo": "dsebastien/obsidian-update-time"
+    },
+    {
+        "id": "solo-rpg-toolkit",
+        "name": "Solo RPG Toolkit",
+        "author": "Alex Kurowski",
+        "description": "Helpful tools for playing TTRPG games, geared towards solo play with a GM emulator.",
+        "repo": "alexkurowski/solo-toolkit"
+    },
+    {
+        "id": "interactivity",
+        "name": "Interactivity: Calculations and Scripts",
+        "author": "ichichikin",
+        "description": "Interactivity allows you to run shell commands and scripts directly within your notes, providing their output right alongside your written content, making your note-taking process more dynamic and interactive.",
+        "repo": "ichichikin/obsidian-plugin-interactivity"
+    },
+    {
+        "id": "heti",
+        "name": "heti",
+        "author": "Moeyua",
+        "description": "专为中文内容展示设计的排版样式增强。它基于通行的中文排版规范而来，可以带来更好的阅读体验。",
+        "repo": "moeyua/obsidian-heti"
+    },
+    {
+        "id": "stashpad-docs",
+        "name": "Stashpad Docs",
+        "author": "Stashpad",
+        "description": "Create a Stashpad Doc from your notes.",
+        "repo": "stashpad/obsidian-to-stashpad"
+    },
+    {
+      "id": "inbox-organiser",
+      "name": "Inbox Organiser",
+      "author": "hypersphere",
+      "description": "Automatically Organise your inbox",
+      "repo": "h-sphere/obsidian-inbox-organiser"
     }
 ]
