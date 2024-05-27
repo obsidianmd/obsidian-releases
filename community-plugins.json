@@ -11697,7 +11697,8 @@
         "repo": "stashpad/obsidian-to-stashpad"
     },
     {
-      "id": "smart-gantt",
+        <<<<<<< HEAD
+        "id": "smart-gantt",
         "name": "Smart Gantt",
         "author": "Nhan Nguyen",
         "description": "Intelligently generate Gantt chart from your tasks",
@@ -11828,5 +11829,12 @@
         "author": "ras0q",
         "description": "Display a local graph view to the note header",
         "repo": "ras0q/obsidian-graph-banner"
+    },
+    {
+        "id": "memos-sync",
+        "name": "Memos Sync",
+        "author": "RyoJerryYu",
+        "description": "Syncing memos from a [Memos](https://github.com/usememos/memos) server to your daily note. Fully compatible with official Daily Notes plugin, Calendar plugin and Periodic Notes plugin.",
+        "repo": "RyoJerryYu/obsidian-memos-sync"
     }
 ]
