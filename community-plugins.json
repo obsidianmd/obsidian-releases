@@ -11730,5 +11730,12 @@
         "author": "MizarZh",
         "description": "MathLive input in editor mode",
         "repo": "MizarZh/obsidian-mathlive-codemirror"
+    },
+    {
+        "id": "generate-toc",
+        "name": "Generate TOC",
+        "author": "adiyaojz",
+        "description": "双语版的一键制作一个可链接的目录,根据当前文档中的heading(等级标题)自动生成，如果已经生成，再次点击会进行更新，不会自动更新，防止占用线程到时变卡，配合admonition,效果更佳！，如果没配合admonition，可以勾选去掉代码框。",
+        "repo": "adiyaojz/obsdian-Generate-TOC"
     }
 ]
