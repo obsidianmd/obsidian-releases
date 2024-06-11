@@ -199,7 +199,7 @@ jobs:
                   addError(`The \`fundingUrl\` field in your manifest should not point to the Obsidian Website, If you don't have a link were users can donate to you, you can just remove it from the manifest.`);
                 }
                 if (manifest.fundingUrl && manifest.fundingUrl === "") {
-                  addError('The `fundingUrl` is meant for links to services like _Buy me a coffee_, _GitHub sponsors_ and so on, if you don't have such a link remove it from the manifest.');
+                  addError('The `fundingUrl` is meant for links to services like _Buy me a coffee_, _GitHub sponsors_ and so on, if you don\'t have such a link remove it from the manifest.');
                 }
 
                 if (!/^[0-9.]+$/.test(manifest.version)) {
