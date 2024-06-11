@@ -190,7 +190,7 @@ jobs:
                     addError(`The \`authorUrl\` field in your manifest should not point to the Obsidian Website. If you don't have a website you can just point it to your GitHub profile.`);
                   }
 
-                  if (manifest.authorUrl.toLowerCase().includes("github.com/" + plugin.repo.toLowerCase()) {
+                  if (manifest.authorUrl.toLowerCase().includes("github.com/" + plugin.repo.toLowerCase())) {
                     addError(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the plugin.`);
                   }
                 }
