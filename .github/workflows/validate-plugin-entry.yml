@@ -126,8 +126,15 @@ jobs:
                 addWarning(`We generally discourage including your email addresses in the \`author\` field.`);
               }
 
-              if (plugin.description.length > 300) {
-                addWarning(`Your plugin has a long description. Users typically find it difficult to read a very long description, so you should keep it short and concise.`);
+              if (plugin.description.toLowerCase().includes('obsidian')) {
+                addError('Please don't include `Obsidian` in the plugin description');
+              }
+              if (plugin.description.toLowerCase().includes('this plugin') || plugin.description.toLowerCase().includes('this is a plugin') || plugin.description.toLowerCase().includes('this plugin allows')) {
+                addWarning('Avoid including sentences like `This is a plugin that does` in your description');
+              }
+              
+              if (plugin.description.length > 250) {
+                addError(`Your plugin has a long description. Users typically find it difficult to read a very long description, so you should keep it short and concise.`);
               }
 
               if (plugins.filter(p => p.id === plugin.id).length > 1) {
@@ -171,7 +178,6 @@ jobs:
                   }
                 }
 
-              
                 if (manifest.id !== plugin.id) {
                   addError(`Plugin ID mismatch, the ID in this PR (\`${plugin.id}\`) is not the same as the one in your repo (\`${manifest.id}\`). If you just changed your plugin ID, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
@@ -191,6 +197,9 @@ jobs:
 
                 if (manifest.fundingUrl && manifest.fundingUrl === "https://obsidian.md/pricing") {
                   addError(`The \`fundingUrl\` field in your manifest should not point to the Obsidian Website, If you don't have a link were users can donate to you, you can just remove it from the manifest.`);
+                }
+                if (manifest.fundingUrl && manifest.fundingUrl === "") {
+                  addError('The `fundingUrl` is meant for links to services like _Buy me a coffee_, _GitHub sponsors_ and so on, if you don't have such a link remove it from the manifest.');
                 }
 
                 if (!/^[0-9.]+$/.test(manifest.version)) {
