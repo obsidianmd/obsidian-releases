@@ -112,7 +112,7 @@ jobs:
                 addError(`Please don't use the word \`plugin\` in the plugin ID. The ID is used for your plugin's folder so keeping it short and simple avoids clutter and helps with sorting.`);
               }
               if (!/^[a-z0-9-_]+$/.test(plugin.id)) {
-                addError('The plugin ID is not valid. Only alphanumeric characters and dashes are allowed.');
+                addError('The plugin ID is not valid. Only alphanumeric lowercase characters and dashes are allowed.');
               }
 
               else if (plugin.name.toLowerCase().includes('obsidian')) {
