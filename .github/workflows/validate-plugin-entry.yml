@@ -127,7 +127,7 @@ jobs:
               }
 
               if (plugin.description.toLowerCase().includes('obsidian')) {
-                addError('Please don't include `Obsidian` in the plugin description');
+                addError('Please don\'t include `Obsidian` in the plugin description');
               }
               if (plugin.description.toLowerCase().includes('this plugin') || plugin.description.toLowerCase().includes('this is a plugin') || plugin.description.toLowerCase().includes('this plugin allows')) {
                 addWarning('Avoid including sentences like `This is a plugin that does` in your description');
