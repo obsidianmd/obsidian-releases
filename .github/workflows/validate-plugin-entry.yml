@@ -140,7 +140,7 @@ jobs:
                 addError(`There is already a entry pointing to the \`${plugin.repo}\` repository.`);
               }
 
-              const removedPlugins = = JSON.parse(fs.readFileSync('community-plugins-removed.json', 'utf8'));
+              const removedPlugins = JSON.parse(fs.readFileSync('community-plugins-removed.json', 'utf8'));
 
               if (removedPlugins.filter(p => p.id === plugin.id).length > 1) {
                 addError(`Another plugin used to exist with the id \`${plugin.id}\`. To avoid issues for users that still have the old plugin installed using this plugin ID is not allowed`);
