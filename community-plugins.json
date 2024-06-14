@@ -24,7 +24,40 @@
         "id": "url-into-selection",
         "name": "Paste URL into selection",
         "author": "Denis Olehov",
-        "description": "Paste URL \"into\" selected text.",
+        "description": "Paste URL \"into\" selected text.",name: Release Obsidian plugin
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+
+      - name: Build plugin
+        run: |
+          npm install
+          npm run build
+
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tag="${GITHUB_REF#refs/tags/}"
+
+          gh release create "$tag" \
+            --title="$tag" \
+            --draft \
+            main.js manifest.json styles.css
         "repo": "denolehov/obsidian-url-into-selection"
     },
     {
@@ -670,7 +703,40 @@
         "author": "darakah",
         "description": "Add, track and easily navigate between a note's comments.",
         "repo": "Darakah/obsidian-comments-plugin"
-    },
+    },name: Release Obsidian plugin
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+
+      - name: Build plugin
+        run: |
+          npm install
+          npm run build
+
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tag="${GITHUB_REF#refs/tags/}"
+
+          gh release create "$tag" \
+            --title="$tag" \
+            --draft \
+            main.js manifest.json styles.css
     {
         "id": "various-complements",
         "name": "Various Complements",
@@ -3828,7 +3894,40 @@
         "description": "Facilitate management of especially non-Markdown files, by allowing aliases to be set on any file.",
         "repo": "jglev/obsidian-redirect"
     },
-    {
+    {name: Release Obsidian plugin
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+
+      - name: Build plugin
+        run: |
+          npm install
+          npm run build
+
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tag="${GITHUB_REF#refs/tags/}"
+
+          gh release create "$tag" \
+            --title="$tag" \
+            --draft \
+            main.js manifest.json styles.css
         "id": "zotero-bridge",
         "name": "Zotero Bridge",
         "author": "Shmavon Gazanchyan",
@@ -4952,7 +5051,40 @@
         "id": "obsidian-prozen",
         "name": "ProZen",
         "author": "Moskvitin",
-        "description": "Enter Zen mode to focus on writing. The plugin expands current tab to full screen removing everything but content.",
+        "description": "Enter Zen mode to focus on writing. The plugin expands current tab to full screen removing everything but content.",name: Release Obsidian plugin
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+
+      - name: Build plugin
+        run: |
+          npm install
+          npm run build
+
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tag="${GITHUB_REF#refs/tags/}"
+
+          gh release create "$tag" \
+            --title="$tag" \
+            --draft \
+            main.js manifest.json styles.css
         "repo": "cmoskvitin/obsidian-prozen"
     },
     {
@@ -7931,7 +8063,40 @@
         "repo": "L7Cy/obsidian-2hop-links-plus"
     },
     {
-        "id": "custom-font-loader",
+        "id": "custom-font-loader",name: Release Obsidian plugin
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+
+      - name: Build plugin
+        run: |
+          npm install
+          npm run build
+
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tag="${GITHUB_REF#refs/tags/}"
+
+          gh release create "$tag" \
+            --title="$tag" \
+            --draft \
+            main.js manifest.json styles.css
         "name": "Custom Font Loader",
         "author": "Amir Pourmand",
         "description": "Customize your vault with any font you want (+ Support for Android and iOS).",
@@ -11054,10 +11219,10 @@
     },
     {
         "id": "grind-manager",
-        "name": "Grind Manager",
+        "name": "Gamified Tasks",
         "author": "dromse",
-        "description": "Task management with rewards system.",
-        "repo": "dromse/obsidian-grind-manager"
+        "description": "Gamify your task management with rewards system, craft your tasks by tags.",
+        "repo": "dromse/obsidian-gamified-tasks"
     },
     {
         "id": "dictionary-translator",
@@ -11856,5 +12021,180 @@
         "author": "Antonio Sanchez",
         "description": "Effortlessly match professional experiences notes to jobs description using AI.",
         "repo": "ACSancheZ/prof-match-ai"
+    },
+    {
+        "id": "templify",
+        "name": "Templify",
+        "description": "Enables flexible conversion of note views into various layout (Closed source).",
+        "author": "Boninall",
+        "repo":"quorafind/obsidian-templify"
+    },
+    {
+        "id": "ayanite",
+        "name": "Ayanite",
+        "author": "jemstelos",
+        "description": "An integrated thinking environment - advanced AI chat and knowledge copilot (Closed source).",
+        "repo": "jemstelos/obsidian-ayanite"
+    },
+    {
+        "id": "docxer",
+        "name": "Docxer",
+        "author": "Developer-Mike",
+        "description": "Import Word files easily. Adds a preview mode for .docx files and the ability to convert them to markdown (.md) files.",
+        "repo": "Developer-Mike/obsidian-docxer"
+    },
+    {
+        "id": "the-queue",
+        "name": "The Queue",
+        "author": "Kolja Sam Pluemer",
+        "description": "Randomly exposes you to notes from your vault. Supports habits, to-dos, spaced repetition flashcards, iterative reading and more.",
+        "repo": "koljapluemer/obsidian-the-queue"
+    },
+    {
+        "id": "folder-by-tags-distributor",
+        "name": "Folder by tags distributor",
+        "author": "RevoTale",
+        "description": "Automatically move notes into existing folders by tags specified in note.",
+        "repo": "RevoTale/obsidian-folder-by-tags-distributor"
+    },
+    {
+        "id": "power-mode",
+        "name": "POWER MODE",
+        "author": "Zhou Hua",
+        "description": "Active POWER MODE!!!!",
+        "repo": "zhouhua/obsidian-power-mode"
+    },
+    {
+        "id": "rapid-ai",
+        "name": "Rapid AI",
+        "author": "Rapid AI",
+        "description": "An AI assistant for selected text, along with generating content with Markdown. Shortcuts and quick action buttons provide instant AI assistance.",
+        "repo": "ahmed3developer/rapid-ai"
+    },
+    {
+        "id": "click-up-sync",
+        "name": "ClickUp sync",
+        "author": "Khokim Mamarasulov",
+        "description": "Manage ClickUp space from notes.",
+        "repo": "hokim-m/click-up-x-obsidian"
+    },
+    {
+        "id": "tabs",
+        "name": "Tabs",
+        "author": "Huajin",
+        "description": "Create tabs in your notes.",
+        "repo": "xhuajin/obsidian-tabs"
+    },
+    {
+        "id": "vault-name",
+        "name": "Vault Name",
+        "author": "@gapmiss",
+        "description": "Display and customize the vault name (title) in the side navigation file explorer.",
+        "repo": "gapmiss/obsidian-vault-name"
+    },
+    {
+        "id": "substitutions",
+        "name": "Substitutions",
+        "description": "Automatically replace text fragments with symbols or different text",
+        "author": "BambusControl",
+        "repo": "BambusControl/obsidian-substitutions"
+    },
+    {
+        "id": "infostacker",
+        "name": "Infostacker Note Publish",
+        "author": "Taskscape LTD, Patryk Nowak, Kacper Pabianiak",
+        "description": "Share your notes with attachments easy!",
+        "repo": "taskscape/InfostackerPlugin"
+    },
+    {
+        "id": "audiopen-sync",
+        "name": "AudioPen Sync",
+        "author": "Jonas Haefele",
+        "description": "Sync notes from AudioPen.",
+        "repo": "jonashaefele/audiopen-obsidian"
+    },
+    {
+        "id": "pt-url-helper",
+        "name": "Pivotal Tracker URL Helper",
+        "author": "kndshein",
+        "description": "Automatically creates a Markdown link for Pivotal Tracker stories.",
+        "repo": "kndshein/obsidian-pt-url-helper"
+    },
+    {
+        "id": "relative-timestamps",
+        "name": "Relative Timestamps",
+        "author": "Charles Young",
+        "description": "Track the time between log entries.",
+        "repo": "agctute/relative-timestamps"
+    },
+    {
+        "id": "simple-prompt",
+        "name": "Simple Prompt",
+        "author": "David Zachariae",
+        "description": "Simple interface to generate or rewrite content using LLMs based on user input.",
+        "repo": "arumie/obsidian-simple-prompt-plugin"
+    },
+    {
+        "id": "explorer-hider",
+        "name": "Explorer Hider",
+        "author": "Mara-Li",
+        "description": "Hide a file or a folder from the explorer (and bookmarks) using a little bit of auto-managed CSS.",
+        "repo": "mara-li/obsidian-explorer-hider"
+    },
+    {
+        "id": "headings-in-explorer",
+        "name": "Headings in Explorer",
+        "author": "Patrick Chiang",
+        "description": "Show headings in the file explorer.",
+        "repo": "patrickchiang/obsidian-headings-in-explorer"
+    },
+    {
+        "id": "medium-importer",
+        "name": "Medium Importer",
+        "author": "David Zachariae",
+        "description": "Import Medium posts into your vault.",
+        "repo": "arumie/obsidian-medium-importer-plugin"
+    },
+    {
+        "id": "smart-connections-visualizer",
+        "name": "Smart Connections Visualizer",
+        "author": "Evan Moscoso",
+        "description": "View your Smart Connections in a visualized format.",
+        "repo": "mossy1022/smart-connections-graph-view"
+    },
+    {
+        "id": "prettier",
+        "name": "Prettier",
+        "author": "GoodbyeNJN",
+        "description": "Format your notes with Prettier and custom formatting options.",
+        "repo": "GoodbyeNJN/obsidian-plugin-prettier"
+    },
+    {
+        "id": "pinned-notes",
+        "name": "Pinned Notes",
+        "author": "vasilcoin002",
+        "description": "Pin frequently-used notes on Ribbon actions (left sidebar)",
+        "repo": "vasilcoin002/pinned-notes-plugin-obsidian"
+    },
+    {
+        "id": "svelte-syntax-highlighter",
+        "name": "Svelte Syntax Highlighter",
+        "author": "Typhoon-Kim",
+        "description": "Syntax highlighting for Svelte code blocks.",
+        "repo": "typhoon-kim/obsidian-svelte-syntax-highlighter"
+    },
+    {
+        "id": "midi-logger",
+        "name": "MIDI Logger",
+        "author": "@maybehelloworld",
+        "description": "Insert parsed musical notes from MIDI input devices.",
+        "repo": "maybe-hello-world/midi-logger"
+    },
+    {
+        "id": "checklist-progress",
+        "name": "Checklist Progress",
+        "author": "acidghost",
+        "description": "Automatically fill progress (as fraction or percentage) of check-lists.",
+        "repo": "acidghost/obsidian-checklist-progress"
     }
 ]
