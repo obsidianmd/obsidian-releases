@@ -24,40 +24,7 @@
         "id": "url-into-selection",
         "name": "Paste URL into selection",
         "author": "Denis Olehov",
-        "description": "Paste URL \"into\" selected text.",name: Release Obsidian plugin
-
-on:
-  push:
-    tags:
-      - "*"
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Use Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18.x"
-
-      - name: Build plugin
-        run: |
-          npm install
-          npm run build
-
-      - name: Create release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          tag="${GITHUB_REF#refs/tags/}"
-
-          gh release create "$tag" \
-            --title="$tag" \
-            --draft \
-            main.js manifest.json styles.css
+        "description": "Paste URL \"into\" selected text.",
         "repo": "denolehov/obsidian-url-into-selection"
     },
     {
@@ -703,40 +670,7 @@ jobs:
         "author": "darakah",
         "description": "Add, track and easily navigate between a note's comments.",
         "repo": "Darakah/obsidian-comments-plugin"
-    },name: Release Obsidian plugin
-
-on:
-  push:
-    tags:
-      - "*"
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Use Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18.x"
-
-      - name: Build plugin
-        run: |
-          npm install
-          npm run build
-
-      - name: Create release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          tag="${GITHUB_REF#refs/tags/}"
-
-          gh release create "$tag" \
-            --title="$tag" \
-            --draft \
-            main.js manifest.json styles.css
+    },
     {
         "id": "various-complements",
         "name": "Various Complements",
@@ -3894,40 +3828,7 @@ jobs:
         "description": "Facilitate management of especially non-Markdown files, by allowing aliases to be set on any file.",
         "repo": "jglev/obsidian-redirect"
     },
-    {name: Release Obsidian plugin
-
-on:
-  push:
-    tags:
-      - "*"
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Use Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18.x"
-
-      - name: Build plugin
-        run: |
-          npm install
-          npm run build
-
-      - name: Create release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          tag="${GITHUB_REF#refs/tags/}"
-
-          gh release create "$tag" \
-            --title="$tag" \
-            --draft \
-            main.js manifest.json styles.css
+    {
         "id": "zotero-bridge",
         "name": "Zotero Bridge",
         "author": "Shmavon Gazanchyan",
@@ -5051,40 +4952,7 @@ jobs:
         "id": "obsidian-prozen",
         "name": "ProZen",
         "author": "Moskvitin",
-        "description": "Enter Zen mode to focus on writing. The plugin expands current tab to full screen removing everything but content.",name: Release Obsidian plugin
-
-on:
-  push:
-    tags:
-      - "*"
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Use Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18.x"
-
-      - name: Build plugin
-        run: |
-          npm install
-          npm run build
-
-      - name: Create release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          tag="${GITHUB_REF#refs/tags/}"
-
-          gh release create "$tag" \
-            --title="$tag" \
-            --draft \
-            main.js manifest.json styles.css
+        "description": "Enter Zen mode to focus on writing. The plugin expands current tab to full screen removing everything but content.",
         "repo": "cmoskvitin/obsidian-prozen"
     },
     {
@@ -8063,40 +7931,7 @@ jobs:
         "repo": "L7Cy/obsidian-2hop-links-plus"
     },
     {
-        "id": "custom-font-loader",name: Release Obsidian plugin
-
-on:
-  push:
-    tags:
-      - "*"
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Use Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18.x"
-
-      - name: Build plugin
-        run: |
-          npm install
-          npm run build
-
-      - name: Create release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          tag="${GITHUB_REF#refs/tags/}"
-
-          gh release create "$tag" \
-            --title="$tag" \
-            --draft \
-            main.js manifest.json styles.css
+        "id": "custom-font-loader",
         "name": "Custom Font Loader",
         "author": "Amir Pourmand",
         "description": "Customize your vault with any font you want (+ Support for Android and iOS).",
