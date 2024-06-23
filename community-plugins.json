@@ -2537,7 +2537,7 @@
         "id": "remotely-save",
         "name": "Remotely Save",
         "author": "fyears",
-        "description": "Yet another unofficial plugin allowing users to sync notes between local device and the cloud service (S3, Dropbox, webdav, OneDrive).",
+        "description": "Sync notes between local and cloud services with smart conflict: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...), Dropbox, webdav (NextCloud/InfiniCLOUD/Synology/...), OneDrive, Google Drive (GDrive), Box, pCloud, Yandex Disk, Koofr.",
         "repo": "remotely-save/remotely-save"
     },
     {
@@ -5386,7 +5386,7 @@
         "id": "image-captions",
         "name": "Image Captions",
         "author": "Alan Grainger",
-        "description": "Add captions to images when there is alt-text specified.",
+        "description": "Add captions to images with inline Markdown and link support. The caption format is compatible with the Commonmark spec and other Markdown applications.",
         "repo": "alangrainger/obsidian-image-captions"
     },
     {
@@ -10692,7 +10692,7 @@
         "id": "tab-selector",
         "name": "Tab Selector",
         "author": "namikaze-40p",
-        "description": "Switch to the desired tab in about two actions without leaving the home position on the keyboard.",
+        "description": "Quickly switch tab by 2 ways, one is general way in like other apps, the other is with keeping the keyboard home position.",
         "repo": "namikaze-40p/obsidian-tab-selector"
     },
     {
@@ -12031,5 +12031,145 @@
         "author": "Antonio Sanchez",
         "description": "Effortlessly match professional experiences notes to jobs description using AI.",
         "repo": "ACSancheZ/prof-match-ai"
+    },
+    {
+        "id": "explain-selection-with-ai",
+        "name": "Explain Selection With AI",
+        "author": "Ben Wurster",
+        "description": "Use an OpenAI Chat Completion API-compatible LLM endpoint to expand on selected text in the context of your notes.",
+        "repo": "BWurster/obsidian-ai-expander"
+    },
+    {
+        "id": "toggle-dark-mode",
+        "name": "Toggle Dark Mode",
+        "author": "Julia van der Kris",
+        "description": "Adds a command to toggle dark mode on and off",
+        "repo": "juliavdkris/obsidian-toggle-dark-mode"
+    },
+    {
+        "id": "plugins-annotations",
+        "name": "Plugins Annotations",
+        "author": "Andrea Alberti",
+        "description": "Allows adding personal comments to each installed plugin.",
+        "repo": "alberti42/obsidian-plugins-annotations"
+    },
+    {
+        "id": "close-window-when-empty",
+        "name": "Close Window When Empty",
+        "author": "Taylor Jadin",
+        "description": "Close the window when the last note is closed, kind of how browsers work.",
+        "repo": "TaylorJadin/close-window-when-empty"
+    },
+    {
+        "id": "tars",
+        "name": "Tars",
+        "author": "Tarslab",
+        "description": "Use Kimi and other Chinese LLMs for text generation based on tag suggestions.",
+        "repo": "TarsLab/obsidian-tars"
+    },
+    {
+        "id": "toggle-readable-line-length",
+        "name": "Toggle Readable line length",
+        "author": "Doug Richardson",
+        "description": "Add command to toggle Readable line length editor setting.",
+        "repo": "drichardson/obsidian-toggle-readable-line-length"
+    },
+    {
+        "id": "definition-list",
+        "name": "Definition List",
+        "author": "shammond42",
+        "description": "Adds HTML definition list support.",
+        "repo": "shammond42/definition-list"
+    },
+    {
+        "id": "line-arrange",
+        "name": "Line Arrange",
+        "author": "Chitwan Singh",
+        "description": "Sort selected lines by their width or shuffle them randomly.",
+        "repo": "chitwan27/lineArrange"
+    },
+    {
+        "id": "search-in-canvas",
+        "name": "Search In Canvas",
+        "author": "Boninall",
+        "description": "Search text in canvas.",
+        "repo": "quorafind/obsidian-search-in-canvas"
+    },
+    {
+        "id": "sheet-plus",
+        "name": "Sheet Plus",
+        "author": "ljcoder",
+        "description": "Create Excel-like spreadsheets and easily embed them in Markdown.",
+        "repo": "ljcoder2015/obsidian-sheet-plus"
+    },
+    {
+        "id": "watched-metadata",
+        "name": "Watched-Metadata",
+        "author": "Nail Ahmed",
+        "description": "Watches for changes in metadata and performs user-specified actions based on these changes.",
+        "repo": "NailAhmed/Watched-Metadata"
+    },
+    {
+        "id": "task-list-kanban",
+        "name": "Task List Kanban",
+        "author": "Chris Kerr",
+        "description": "Organizes all of the tasks within your files into a kanban view.",
+        "repo": "chrskerr/task-list-kanban"
+    },
+    {
+        "id": "interactive-code-blocks",
+        "name": "Interactive Code Blocks",
+        "author": "Student Assistenten Team Deeltaken",
+        "description": "Preview interactive code blocks!",
+        "repo": "Windesheim-HBO-ICT/Obsidian-Interactive-Code-Block-Plugin"
+    },
+    {
+        "id": "you-and-your-research",
+        "name": "You and Your Research",
+        "author": "Neo Zhang",
+        "description": "Research with the help of A.I.",
+        "repo": "neozhang/you-and-your-research"
+    },
+    {
+        "id": "dialogue-mode",
+        "name": "Dialogue Mode",
+        "author": "Patrick Chiang",
+        "description": "Dialogue mode for editing speech in writing.",
+        "repo": "patrickchiang/obsidian-dialogue-mode"
+    },
+    {
+        "id": "smart-text-mover",
+        "name": "Smart Text Mover",
+        "author": "Ankush-Chander",
+        "description": "Intelligent way to arrange text/links in file.",
+        "repo": "Ankush-Chander/obsidian-smart-move-text"
+    },
+    {
+        "id": "note-promixity",
+        "name": "Lookalike",
+        "author": "jlweston",
+        "description": "Find similar notes based on the frequency of terms within the vault.",
+        "repo": "jlweston/obsidian-note-proximity-plugin"
+    },
+    {
+        "id": "header-adjuster",
+        "name": "Header Adjuster",
+        "author": "Valentin Pelletier",
+        "description": "Easily adjust header levels in Markdown documents by increasing or decreasing their levels. Supports full document adjustments or specified line ranges, with default settings and commands for convenience.",
+        "repo": "Netajam/header-adjuster"
+    },
+    {
+        "id": "gemini-generator",
+        "name": "Gemini Generator",
+        "author": "Bjarne Rentz",
+        "description": "Let Google Gemini generator your notes!",
+        "repo": "BjarneRentz/obsidian-gemini-generator"
+    },
+    {
+        "id": "node-auto-resize",
+        "name": "Node Auto Resize",
+        "author": "Boninall",
+        "description": "Automatically resize the node when the content changes.",
+        "repo": "quorafind/obsidian-node-auto-resize"
     }
 ]
