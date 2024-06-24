@@ -2537,7 +2537,7 @@
         "id": "remotely-save",
         "name": "Remotely Save",
         "author": "fyears",
-        "description": "Sync notes between local and cloud services with smart conflict: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...), Dropbox, webdav (NextCloud/InfiniCLOUD/Synology/...), OneDrive, Google Drive (GDrive), Box, pCloud, Yandex Disk, Koofr.",
+        "description": "Sync notes between local and cloud with smart conflict: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...), Dropbox, webdav (NextCloud/InfiniCLOUD/Synology/...), OneDrive, Google Drive (GDrive), Box, pCloud, Yandex Disk, Koofr, Azure Blob Storage.",
         "repo": "remotely-save/remotely-save"
     },
     {
@@ -9411,7 +9411,7 @@
         "id": "local-gpt",
         "name": "Local GPT",
         "author": "Pavel Frankov",
-        "description": "Local GPT assistance for maximum privacy and offline access.",
+        "description": "Local Ollama and OpenAI-like GPT's assistance for maximum privacy and offline access.",
         "repo": "pfrankov/obsidian-local-gpt"
     },
     {
@@ -11182,7 +11182,7 @@
         "id": "ink",
         "name": "Ink",
         "author": "Dale de Silva",
-        "description": "Hand write or draw with a stylus directly between paragraphs in your notes.",
+        "description": "Hand write or draw directly between paragraphs using a digital pen, stylus, or Apple pencil. Useful for handwriting, sketches, scribbles, or even math equations and scientific notation. Runs on the tldraw framework and drawing provides an infinite canvas.",
         "repo": "daledesilva/obsidian_ink"
     },
     {
@@ -12171,5 +12171,82 @@
         "author": "Jeff Parks",
         "description": "Apple Math Notes-like functionality.. perform calculations in-line, create variable, solve equations, and create graphs in your notes.",
         "repo": "jefedigital/mathsidian"
+    },
+    {
+        "id": "sqlseal",
+        "name": "SQLSeal",
+        "author": "hypersphere",
+        "description": "Use SQL in your notes to query your vault files and CSV content",
+        "repo": "h-sphere/sql-seal"
+    },
+    {
+        "id": "spoilers",
+        "name": "Spoilers",
+        "author": "Jacobtread",
+        "description": "Hide and reveal blocks of information",
+        "repo": "jacobtread/obsidian-spoilers"
+    },
+    {
+        "id": "asciidoc-reader",
+        "name": "Asciidoc Reader",
+        "author": "voidgrown",
+        "description": "Enables the rendering of AsciiDoc.",
+        "repo": "Voidgrown/obsidian-asciidoc"
+    },
+    {
+        "id": "another-sticky-headings",
+        "name": "Another Sticky Headings",
+        "author": "Zhou Hua",
+        "description": "Display headings tree during editing and preview to indicate the current position.",
+        "repo": "zhouhua/obsidian-sticky-headings"
+    },
+    {
+        "id": "doing",
+        "name": "doing",
+        "author": "rooyca",
+        "description": "It helps you remember what you were doing.",
+        "repo": "rooyca/doing"
+    },
+    {
+        "id": "daily-note-structure",
+        "name": "Daily Note Structure",
+        "author": "db-developer",
+        "description": "One-Click create a structure for and including your daily notes.",
+        "repo": "db-developer/daily-note-structure"
+    },
+    {
+        "id": "rpg-stat-tracker",
+        "name": "RPG Stat Tracker",
+        "author": "Cunjur",
+        "description": "RPG-like stat tracker.",
+        "repo": "name/obsidian-rpg"
+    },
+    {
+        "id": "smart-memos",
+        "name": "Smart Memos",
+        "author": "Evan Moscoso",
+        "description": "Create personalized and intelligent analysis, brainstorms, summaries, and more for audio recordings that can be imported or spoken directly into a note",
+        "repo": "Mossy1022/smart-transcriptions"
+    },
+    {
+        "id": "syrinscape-player-control",
+        "name": "Syrinscape Online Player",
+        "author": "Stephen Cooper",
+        "description": "Control Syrinscape Online Player from inside of notes.",
+        "repo": "scooper4711/obsidian-syrinscape"
+    },
+    {
+        "id": "quran-helper",
+        "name": "Quran Helper",
+        "author": "Ammar Alakkad",
+        "description": "Find and insert any Quran Ayah (verse) in your notes.",
+        "repo": "AmmarCodes/obsidian-quran-plugin"
+    },
+    {
+        "id": "page-scroll",
+        "name": "Page Scroll",
+        "author": "triski",
+        "description": "Page Up|Down|Top|Bottom",
+        "repo": "chenshutian9610/obsidian-pagescroll-plugin"
     }
 ]
