@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
+      actions: write
     steps:
       - uses: actions/stale@v9
         with:
