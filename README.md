@@ -1,5 +1,6 @@
-#Submit a simple but useful community plug-in
-#Here's the link:https://github.com/dldisud/obsidian-typography-styles
+##Submit a simple but useful community plug-in
+
+##Here's the link:https://github.com/dldisud/obsidian-typography-styles
 
 ## About this repo
 
