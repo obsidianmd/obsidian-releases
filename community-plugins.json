@@ -289,7 +289,9 @@
     {
         "id": "obsidian-youglish-plugin",
         "name": "Youglish",
-        "description": "Use YouTube to improve your pronunciation. YouGlish gives you fast, unbiased answers about how words is spoken by real people and in context.",
+        "description":
+
+        "Use YouTube to improve your pronunciation. YouGlish gives you fast, unbiased answers about how words is spoken by real people and in context.",
         "author": "Noureddine Haouari",
         "repo": "nhaouari/obsidian-youglish-plugin"
     },
@@ -12425,6 +12427,7 @@
         "repo": "mnaoumov/obsidian-refresh-preview"
     },
     {
+
         "id": "hash-pasted-image",
         "name": "Hash Pasted Image",
         "author": "Minh Vương",
@@ -12433,9 +12436,79 @@
     },
     {
         "id": "mobile-typography",
-        "name": "mobile-typography",
-        "author": "dldisud",
+        "name": "Mobile typography",
+        "author": "Dldisud",
         "description": "A plugin to apply Mobile typography styles",
         "repo": "dldisud/obsidian-typography-styles"
+
+      "id": "hash-pasted-image",
+      "name": "Hash Pasted Image",
+      "author": "Minh Vương",
+      "description": "Auto rename pasted images added to the vault via hash algorithm SHA-512",
+      "repo": "hardingadonis/hash-pasted-image"
+    },
+    {
+        "id": "yanki",
+        "name": "Yanki",
+        "author": "Eric Mika",
+        "description": "Sync flashcards from a folder in your vault to Anki. Pure Markdown syntax. No fuss.",
+        "repo": "kitschpatrol/yanki-obsidian"
+    },
+    {
+        "id": "iconic",
+        "name": "Iconic",
+        "author": "Holo",
+        "description": "Customize your app icons directly from the UI, including tabs, files, bookmarks, properties, and ribbon commands.",
+        "repo": "gfxholo/iconic"
+    },
+    {
+        "id": "notes-refresher",
+        "name": "Notes Refresher",
+        "author": "Connor Park",
+        "description": "Provides summaries of notes from your vault.",
+        "repo": "connorpark24/refresher-plugin"
+    },
+    {
+	    "id": "docbase-unofficial",
+	    "name": "DocBase (Unofficial)",
+	    "author": "yurikuvanov",
+        "description": "Pull and push notes to DocBase",
+	    "repo": "kuvanov-2/obsidian-docbase"
+    },
+    {
+	    "id": "latex-render",
+	    "name": "Latex Render",
+	    "author": "jvsteiner",
+	    "description": "Render small latex snippets in your notes as SVG and PNG files.",
+	    "repo": "jvsteiner/obsidian-latex-render"
+    },
+    {
+        "id": "code-link",
+        "name": "Code Link",
+        "author": "observerw",
+        "description": "Link to code files in your notes",
+        "repo": "observerw/obsidian-code-link"
+    },
+    {
+        "id": "index-notes",
+        "name": "Index Notes",
+        "author": "Alejandro Daniel Noel",
+        "description": "Keep your notes indexed based on their (hierarchical) tags",
+        "repo": "adanielnoel/obsidian-index-notes"
+    },
+    {
+        "id": "plot-vectors-graphs",
+        "name": "Plot Vectors and Graphs",
+        "author": "Nicole Tan YiTong",
+        "description": "Generates graphs and vectors.",
+        "repo": "nicoletanyt/obsidian-plugin-graphs"
+    },
+    {
+        "id": "nyanbar",
+        "name": "NyanBar",
+        "author": "xhyabunny",
+        "description": "Nyan Cat Progress Bar generator!",
+        "repo": "xhyabunny/nyanbar"
+
     }
 ]
