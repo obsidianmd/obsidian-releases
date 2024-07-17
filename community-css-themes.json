@@ -801,7 +801,7 @@
     "author": "sspaeti",
     "repo": "sspaeti/obsidian_kanagawa",
     "screenshot": "dark.png",
-    "modes": ["dark"]
+    "modes": ["dark", "light"]
   },
   {
     "name": "Encore",
@@ -1522,7 +1522,7 @@
     "author": "sspaeti",
     "repo": "sspaeti/obsidian_rose_pine",
     "screenshot": "dark.jpg",
-    "modes": ["dark"]
+    "modes": ["dark", "light"]
   },
   {
     "name": "Carbon",
@@ -1937,13 +1937,13 @@
     "screenshot": "Northern-Sky-small.png",
     "modes": ["light"]
   },
-	{
-		"name": "Seamless View",
-		"author": "Gustavo Salgado",
-		"repo": "GustavoSZ124/Obsidian-Theme-Seamless-View",
-		"screenshot": "assets/Seamless View.png",
-		"modes": ["dark"]
-	},
+  {
+  	"name": "Seamless View",
+  	"author": "Gustavo Salgado",
+  	"repo": "GustavoSZ124/Obsidian-Theme-Seamless-View",
+  	"screenshot": "assets/Seamless View.png",
+  	"modes": ["dark","light"]
+  },
 	{
     "name": "Gummy-Revived",
     "author": "WinnerWind",
@@ -1963,6 +1963,41 @@
     "author": "GnRlLeclerc",
     "repo": "GnRlLeclerc/Vanilla-Theme-Palettes",
     "screenshot": "thumbnail.png",
+    "modes": ["light", "dark"]
+  },
+  {
+    "name": "Dark Clarity",
+    "author": "chenbihao",
+    "repo": "chenbihao/obsidian-theme-dark-clarity",
+    "screenshot": "screenshot.png",
+    "modes": ["dark", "light"]
+  },
+	{
+  	"name": "Nier",
+  	"author": "exloseur3d",
+  	"repo": "exloseur3d/nier-theme",
+  	"screenshot": "preview_Nier_theme.png",
+  	"modes": ["dark"]
+	},
+  {
+    "name": "DarkEmber",
+    "author": "miz",
+    "repo": "miz-i/Obsidian-theme-DarkEmber",
+    "screenshot": "images/screenshot.png",
+    "modes": ["dark", "light"]
+  },
+  {
+    "name": "Pxld",
+    "author": "Lina674",
+    "repo": "Lina674/Pxld-Obsidian-Theme",
+    "screenshot": "merged_diagonal_resized.png",
+    "modes": ["dark", "light"]
+  },
+  {
+    "name": "chiaroscuroflow",
+    "author": "Quinta0",
+    "repo": "Quinta0/chiaroscuroflow",
+    "screenshot": "cover.png",
     "modes": ["light", "dark"]
   }
 ]
