@@ -12,7 +12,7 @@ Link to my plugin:
   - [ ]  Linux
   - [ ]  Android _(if applicable)_
   - [ ]  iOS _(if applicable)_
-- [ ] My GitHub release contains all required files
+- [ ] My GitHub release contains all required files (as individual files, not just in the source.zip / source.tar.gz)
   - [ ] `main.js`
   - [ ] `manifest.json`
   - [ ] `styles.css` _(optional)_
