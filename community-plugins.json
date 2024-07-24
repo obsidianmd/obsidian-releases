@@ -1264,7 +1264,7 @@
     {
         "id": "obsidian-tasks-plugin",
         "name": "Tasks",
-        "author": "Martin Schenck and Clare Macrae",
+        "author": "Clare Macrae and Ilyas Landikov (created by Martin Schenck)",
         "description": "Track tasks across your vault. Supports due dates, recurring tasks, done dates, sub-set of checklist items, and filtering.",
         "repo": "obsidian-tasks-group/obsidian-tasks"
     },
@@ -12671,14 +12671,24 @@
         "id": "pdf-annotator",
         "name": "Pdf Annotator",
         "author": "Boninall",
-        "description": "Simple but powerful pdf annotator.",
+        "description": "Simple but powerful pdf annotator."
         "repo": "quorafind/obsidian-pdf-annotator"
+      
     },
     {
-	"id": "plotmanager",
-	"name": "PlotManager",
-        "author": "dldisud",
-        "description": "A tool for managing plots and characters in your writing projects",
-        "repo": "dldisud/obsidian-plotmanager"
+
+	  "id": "openapi-renderer",
+	  "name": "OpenAPI Renderer",
+	  "author": "Sentiago",
+	  "description": "Generates a Swagger-UI interface and embeds it as an iframe or link in notes",
+	  "repo": "Ssentiago/openapi-renderer"
+ 
+   },
+   {    
+	    "id": "plotmanager",
+	    "name": "PlotManager",
+      "author": "dldisud",
+      "description": "A tool for managing plots and characters in your writing projects",
+      "repo": "dldisud/obsidian-plotmanager"
     }
 ]
