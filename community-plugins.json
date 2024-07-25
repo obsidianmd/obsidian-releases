@@ -12677,6 +12677,7 @@
     },
     {
 
+
 	  "id": "openapi-renderer",
 	  "name": "OpenAPI Renderer",
 	  "author": "Sentiago",
@@ -12685,10 +12686,71 @@
  
    },
    {    
+
+        "id": "openapi-renderer",
+        "name": "OpenAPI Renderer",
+        "author": "Sentiago",
+        "description": "Generates a Swagger-UI interface and embeds it as an iframe or link in notes",
+        "repo": "Ssentiago/openapi-renderer"
+    },
+    {
+    	  "id": "tags-routes",
+    	  "name": "Tags Routes",
+    	  "author": "Ken",
+    	  "description": "For showing the routes of tags.",
+    	  "repo": "kctekn/obsidian-TagsRoutes"
+    },
+    {
+        "id": "note-linker-with-previewer",
+        "name": "Note Linker with Previewer",
+        "author": "Nick Allison",
+        "description": "Link your notes together.",
+        "repo": "nickrallison/obsidian-note-linker-with-previewer"
+    },
+    {
+    	"id": "paste-as-embed",
+    	"name": "Paste as Embed",
+    	"author": "Matt Laporte",
+    	"description": "Redirect pasted text into a separate note, and embed it.",
+    	"repo": "mlprt/obsidian-paste-as-embed"
+    },
+    {
+        "id": "better-recall",
+        "name": "Better Recall",
+        "author": "FlorianWoelki",
+        "description": "Add anki-like spaced repetition and recall to your vault.",
+        "repo": "FlorianWoelki/obsidian-better-recall"
+    },
+    {
+        "id": "images-to-gist",
+        "name": "Images to Gist",
+        "author": "Inder Singh",
+        "description": "Upload images to your GitHub secret Gists. Also, resize uploaded images on the fly.",
+        "repo": "singh-inder/obsidian-images-to-gist"
+    },
+    {
+        "id": "heading-toggler",
+        "name": "Heading Toggler",
+        "author": "Lord Turmoil",
+        "description": "Easily toggle heading levels in Markdown documents with shortcuts.",
+        "repo": "Lord-Turmoil/heading-toggler-obsidian"
+    },
+    {
+    	"id": "rollover-weekly-todo",
+    	"name": "Rollover Weekly Todo",
+    	"description": "Rollover unchecked todo items from the previous weekly note",
+    	"author": "Shubham Sethi",
+    	"repo" : "shsethi/obsidian-rollover-weekly-todos"
+      
+   },
+   {    
       "id": "plotmanager",
       "name": "PlotManager",
       "author": "dldisud",
       "description": "A tool for managing plots and characters in your writing projects",
       "repo": "dldisud/obsidian-plotmanager"
-   }
+      
+      
+    }
+
 ]
