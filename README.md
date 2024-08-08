@@ -1,95 +1,98 @@
-# Obsidian Sample Plugin
+# Obsidian Plugin: Auto Generator Plugin
 
-This is a sample plugin for Obsidian (https://obsidian.md).
+This is a plugin for Obsidian (https://obsidian.md).
 
 This project uses Typescript to provide type checking and documentation.
 The repo depends on the latest plugin API (obsidian.d.ts) in Typescript Definition format, which contains TSDoc comments describing what it does.
 
 **Note:** The Obsidian API is still in early alpha and is subject to change at any time!
 
-This sample plugin demonstrates some of the basic functionality the plugin API can do.
-- Adds a ribbon icon, which shows a Notice when clicked.
-- Adds a command "Open Sample Modal" which opens a Modal.
-- Adds a plugin setting tab to the settings page.
-- Registers a global click event and output 'click' to the console.
-- Registers a global interval which logs 'setInterval' to the console.
+This plugin is designed specially for iWhaleCloud users, it can do:
+- Take advantage of the Docchain and ChatGPT API to automatically generate texts
+- Automatically generate the index according to your requirements
+- Automatically generate the document according to the existing index, paragraph by paragraph, marked by ##
+- Able to save your file to another address
 
-## First time developing plugins?
+## Settings:
 
-Quick starting guide for new plugin devs:
+You need to provide the server address and the ChatGPT token. These two shall be fit in the settings.
 
-- Check if [someone already developed a plugin for what you want](https://obsidian.md/plugins)! There might be an existing plugin similar enough that you can partner up with.
-- Make a copy of this repo as a template with the "Use this template" button (login to GitHub if you don't see it).
-- Clone your repo to a local development folder. For convenience, you can place this folder in your `.obsidian/plugins/your-plugin-name` folder.
-- Install NodeJS, then run `npm i` in the command line under your repo folder.
-- Run `npm run dev` to compile your plugin from `main.ts` to `main.js`.
-- Make changes to `main.ts` (or create new `.ts` files). Those changes should be automatically compiled into `main.js`.
-- Reload Obsidian to load the new version of your plugin.
-- Enable plugin in settings window.
-- For updates to the Obsidian API run `npm update` in the command line under your repo folder.
+## Use:
+You need to provide the Docchain username, Docchain password and the assigned Docchain topic-id for the input, as well as offer your requirements.
+Attention: topic-id should be chosen carefully according to the exact type of document you wish to generate, such as the esg report of all varieties of industries.
+Moreover, you should make sure that the Docchain username and Docchain password are valid and the topic-id does exists in the name of the corresponding Docchain user.
 
-## Releasing new releases
 
-- Update your `manifest.json` with your new version number, such as `1.0.1`, and the minimum Obsidian version required for your latest release.
-- Update your `versions.json` file with `"new-plugin-version": "minimum-obsidian-version"` so older versions of Obsidian can download an older version of your plugin that's compatible.
-- Create new GitHub release using your new version number as the "Tag version". Use the exact version number, don't include a prefix `v`. See here for an example: https://github.com/obsidianmd/obsidian-sample-plugin/releases
-- Upload the files `manifest.json`, `main.js`, `styles.css` as binary attachments. Note: The manifest.json file must be in two places, first the root path of your repository and also in the release.
-- Publish the release.
+## Example:
+It is allowed that you input your own index to generate the document. But make sure that it is of the right format as follows:
+The index should possess 1 title marked by #, all the sub-indexes should be marked by ##, and ### marks their subtitles.It is ok if there isn't ###.
+An instance is shown below:
+#ESG报告
+## 1. 产品与服务
+1. SHS-5
+2. SHS-6
+3. 416-1
+4. 416-2
+5. 417-1
 
-> You can simplify the version bump process by running `npm version patch`, `npm version minor` or `npm version major` after updating `minAppVersion` manually in `manifest.json`.
-> The command will bump version in `manifest.json` and `package.json`, and add the entry for the new version to `versions.json`
+## 2. 供应链管理
+1. SOC-2
+2. SOC-3
 
-## Adding your plugin to the community plugin list
+## 3. 重人本的员工发展
+1. 员工权益
+2. SOC-6
 
-- Check https://github.com/obsidianmd/obsidian-releases/blob/master/plugin-review.md
-- Publish an initial version.
-- Make sure you have a `README.md` file in the root of your repo.
-- Make a pull request at https://github.com/obsidianmd/obsidian-releases to add your plugin.
+## 4. 成长平台
+1. SOC-4
+2. SOC-7
 
-## How to use
+## 5. 报告内容
+1. IPIECA/API（2020）
+2. GRI 2021
 
-- Clone this repo.
-- Make sure your NodeJS is at least v16 (`node --version`).
-- `npm i` or `yarn` to install dependencies.
-- `npm run dev` to start compilation in watch mode.
+## 6. 心理健康与关爱员工
+1. SHS-1
+2. SHS-2
+3. 403-3
 
-## Manually installing the plugin
+## 7. 社会责任与社区关系
+1. 本土化与多元化
+2. SOC-4
+3. SOC-5
+4. SOC-15
 
-- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
+## 8. 绿色环保
+1. 绿色动力
+2. 储量接替率
 
-## Improve code quality with eslint (optional)
-- [ESLint](https://eslint.org/) is a tool that analyzes your code to quickly find problems. You can run ESLint against your plugin to find common bugs and ways to improve your code. 
-- To use eslint with this project, make sure to install eslint from terminal:
-  - `npm install -g eslint`
-- To use eslint to analyze this project use this command:
-  - `eslint main.ts`
-  - eslint will then create a report with suggestions for code improvement by file and line number.
-- If your source code is in a folder, such as `src`, you can use eslint with this command to analyze all files in that folder:
-  - `eslint .\src\`
+## 9. 技术创新
+1. 中国石油年度十大科技进展
+2. 研发经费投入
 
-## Funding URL
+## 10. 企业数字化与智能化转型
+1. 信息技术
+2. 智慧能源与化工产业
 
-You can include funding URLs where people who use your plugin can financially support it.
+## 11. 社区沟通与参与
+1. 哈法亚公司
+2. 印度尼西亚公司
+3. 社区权益保障
 
-The simple way is to set the `fundingUrl` field to your link in your `manifest.json` file:
+## 12. ESG（环境、社会、治理）实践总结
 
-```json
-{
-    "fundingUrl": "https://buymeacoffee.com"
-}
-```
+## 13. 石油精神与企业文化
+1. 感动石油人物
+2. 石油精神与铁人精神
 
-If you have multiple URLs, you can also do:
 
-```json
-{
-    "fundingUrl": {
-        "Buy Me a Coffee": "https://buymeacoffee.com",
-        "GitHub Sponsor": "https://github.com/sponsors",
-        "Patreon": "https://www.patreon.com/"
-    }
-}
-```
+
+## Attention
+
+- Once you click the Document button, the index is saved inside the program and all your effort to change the index will fail, which means that all the document generated will be based on your previous index.
+- If you click on the Reset button, the index will be shown(But you should probably save the document before clicking on for the ducument will be missing once you click on it).
+- You should not click on the Document button or the Regenerate button when the generating process is not complete!
+
 
 ## API Documentation
 

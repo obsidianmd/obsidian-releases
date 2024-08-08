@@ -1,8 +1,70 @@
+.modal {
+	position: fixed;
+	bottom: 10px; /* 距离底部 10 像素 */
+	right: 10px; /* 距离右侧 10 像素 */
+	width: auto; /* 自动宽度 */
+	height: auto; /* 自动高度 */
+	background: rgba(0, 0, 0, 0); /* 背景透明 */
+	display: flex;
+	justify-content: flex-end; /* 水平方向对齐到右侧 */
+	align-items: flex-end; /* 垂直方向对齐到底部 */
+	z-index: 1000; /* 确保模态框在其他内容之上 */
+	padding: 0; /* 不需要内边距 */
+	cursor: move; /* 添加移动光标 */
+}
+
+.text-modal-content {
+	background: white;
+	padding: 10px; /* 减少内边距 */
+	border-radius: 5px;
+	max-width: 300px; /* 设置最大宽度 */
+	width: 100%; /* 100% 宽度 */
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 0; /* 底部外边距 */
+	margin-right: 0; /* 右侧外边距 */
+	position: relative; /* 使其成为定位上下文 */
+}
+.resize-handle {
+	width: 10px; /* 缩放手柄的宽度 */
+	height: 10px; /* 缩放手柄的高度 */
+	background: gray; /* 手柄颜色 */
+	position: absolute; /* 绝对定位 */
+	right: 0; /* 右侧对齐 */
+	bottom: 0; /* 底部对齐 */
+	cursor: nwse-resize; /* 缩放光标 */
+}
+
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+	z-index: 9998; /* 在模态框下 */
+}
+
+// 关闭按钮样式
+
+
 /*
+.text-modal-content {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: white;
+	padding: 20px;
+	border-radius: 5px;
+	max-width: 500px;
+	width: auto;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	z-index: 1000; // 确保对话框在其他内容之上 
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
+// 关闭按钮样式 
+.text-modal-close {
+	cursor: pointer;
+	float: right;
+	font-size: 1.5em;
+}
 */
