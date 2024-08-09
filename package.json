@@ -1,4 +1,28 @@
 {
+<<<<<<< HEAD
+	"name": "obsidian-sample-plugin",
+	"version": "1.0.0",
+	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^16.11.6",
+		"@typescript-eslint/eslint-plugin": "5.29.0",
+		"@typescript-eslint/parser": "5.29.0",
+		"builtin-modules": "3.3.0",
+		"esbuild": "0.17.3",
+		"obsidian": "latest",
+		"tslib": "2.4.0",
+		"typescript": "4.7.4"
+	}
+=======
   "name": "obsidian-community-releases",
   "scripts": {
     "lint": "eslint . --ext .json"
@@ -7,4 +31,5 @@
     "eslint": "7.20.0",
     "eslint-plugin-json": "2.1.2"
   }
+>>>>>>> 33759aeadcc4ecb8a3b4aa3d8371ba1ec3f327c5
 }
