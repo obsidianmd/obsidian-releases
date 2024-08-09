@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"name": "obsidian-sample-plugin",
 	"version": "1.0.0",
 	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
@@ -21,4 +22,14 @@
 		"tslib": "2.4.0",
 		"typescript": "4.7.4"
 	}
+=======
+  "name": "obsidian-community-releases",
+  "scripts": {
+    "lint": "eslint . --ext .json"
+  },
+  "devDependencies": {
+    "eslint": "7.20.0",
+    "eslint-plugin-json": "2.1.2"
+  }
+>>>>>>> 33759aeadcc4ecb8a3b4aa3d8371ba1ec3f327c5
 }
