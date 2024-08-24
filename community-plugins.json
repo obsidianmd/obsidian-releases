@@ -1,6 +1,6 @@
 [
     {
-        "id": "nldates-obsidian",
+	"id": "nldates-obsidian",
         "name": "Natural Language Dates",
         "author": "Argentina Ortega Sainz",
         "description": "Create date-links based on natural language.",
@@ -12776,10 +12776,10 @@
     },
     {
         "id": "quick-open",
-        "name": "Quick Open",
+        "name": "Quick Select",
         "author": "James Alexandre",
-        "description": "Quickly open items in modals using keyboard shortcuts",
-        "repo": "itsonlyjames/obsidian-quick-open"
+        "description": "Quickly select items in any modal using keyboard shortcuts. Supercharge your workflow with fast, efficient item selection in Obsidian modals.",
+        "repo": "itsonlyjames/obsidian-quick-select"
     },
     {
         "id": "rich-text-editor-shortcuts",
@@ -12978,6 +12978,34 @@
         "repo": "Shusako/arcane-obfuscate"
     },
     {
+        "id": "todoistprojectsync",
+        "name": "Todoist Project sync",
+        "author": "Jonas Dam",
+        "description": "Synchronizes projects from Todoist, creating a note for each.",
+        "repo": "stuporfly/ObsidianTodoistProjects"
+    },
+    {
+        "id": "recursive-copy",
+        "name": "Recursive Copy",
+        "author": "datawitch",
+        "description": "Recursively copies all Markdown files in a folder, concatenates them, and copies them into the clipboard.",
+        "repo": "StructByLightning/obsidian-recursive-copy"
+    },
+    {
+        "id": "blockreffer",
+        "name": "Blockreffer",
+        "author": "tyler.earth",
+        "description": "Search and embed blocks with ^block-references.",
+        "repo": "tyler-dot-earth/obsidian-blockreffer"
+    },
+    {
+        "id": "emera",
+        "name": "Emera",
+        "author": "OlegWock",
+        "description": "Enables you to use custom React components and inline JavaScript, kinda like MDX.",
+        "repo": "OlegWock/obsidian-emera"
+    },
+    {
         "id": "newledge",
         "name": "新枝Newledge",
         "author": "新枝Newledge",
@@ -12985,3 +13013,4 @@
         "repo": "DepartingAgain/obsidian-newledge"
     }
 ]
+
