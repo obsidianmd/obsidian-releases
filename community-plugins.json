@@ -1,6 +1,6 @@
 [
     {
-        "id": "nldates-obsidian",
+	"id": "nldates-obsidian",
         "name": "Natural Language Dates",
         "author": "Argentina Ortega Sainz",
         "description": "Create date-links based on natural language.",
@@ -12776,10 +12776,10 @@
     },
     {
         "id": "quick-open",
-        "name": "Quick Open",
+        "name": "Quick Select",
         "author": "James Alexandre",
-        "description": "Quickly open items in modals using keyboard shortcuts",
-        "repo": "itsonlyjames/obsidian-quick-open"
+        "description": "Quickly select items in any modal using keyboard shortcuts. Supercharge your workflow with fast, efficient item selection in Obsidian modals.",
+        "repo": "itsonlyjames/obsidian-quick-select"
     },
     {
         "id": "rich-text-editor-shortcuts",
@@ -12898,6 +12898,119 @@
         "name": "All Tasks Here",
         "author": "Arkimedz",
         "description": "Manage all your tasks from the sidebar",
-	"repo": "arkimedz-gh/obsidian-all-tasks-here"
+	      "repo": "arkimedz-gh/obsidian-all-tasks-here"
+    },
+    {
+        "id": "harper",
+        "name": "Harper",
+        "author": "Elijah Potter",
+        "description": "The grammar checker for everyone.",
+        "repo": "elijah-potter/harper-obsidian-plugin"
+    },
+    {
+        "id": "geulo-youtube-liked-video",
+        "name": "Geulo",
+        "author": "Junyoung Bang",
+        "description": "Fetch all the YouTube videos you have liked, search and sort them with multiple sort options, and add them to your daily note.",
+        "repo": "zzunebye/obsidian-google-liked-video"
+    },
+    {
+        "id": "sync-db-os",
+        "name": "sync-db-os",
+        "author": "ketd",
+        "description": "For synchronization between multiple platforms",
+        "repo": "ketd/obsidian-sync-DB-OS"
+    },
+    {
+        "id": "auto-correct-capitals",
+        "name": "Auto Correct Capitals Misspellings",
+        "author": "Ummel",
+        "description": "Correct words with the first two letters in uppercase.",
+        "repo": "Ummler/obsidian-auto-correct-capitals"
+    },
+	{
+        "id": "daily-statistics",
+        "name": "Daily Statistics",
+        "author": "yefengr",
+        "description": "Count the number of words written each day and display it on a calendar.",
+        "repo": "yefengr/obsidian-daily-statistics"
+    },
+	{
+        "id": "block-link-plus",
+        "name": "Block Link Plus",
+        "author": "Jasper",
+        "description": "Simplifies the creation of multi-line blockquotes, with customizable block IDs.",
+        "repo": "Jasper-1024/block-link-plus"
+    },
+    {
+        "id": "lds-library-reference",
+        "name": "LDS Library Reference",
+        "author": "Paco Kwon, Stein Ingebretsen",
+        "description": "Easily insert references to scriptures and conference talks from the Church of Jesus Christ of Latterday Saints.",
+        "repo": "ingiestein/obsidian-lds-scriptures-plugin"
+    },
+    {
+        "id": "css-inlay-colors",
+        "name": "CSS Inlay Colors",
+        "author": "Benji Grant",
+        "description": "Show inline color hints for CSS colors",
+        "repo": "GRA0007/obsidian-css-inlay-colors"
+    },
+    {
+        "id": "gtp-preview",
+        "name": "GTP Preview",
+        "author": "Barba828",
+        "description": "Supports rendering of GuitarPro files such as `gtp/gp/gp5/gpx`.",
+        "repo": "Barba828/obsidian-plugin-gtp-preview"
+    },
+    {
+        "id": "structured-tree",
+        "name": "Structured Tree",
+        "author": "Marius Svarverud",
+        "description": "A file explorer for navigating hierarchical notes separated by '.'",
+        "repo": "Rudtrack/structured-tree"
+    },
+    {
+        "id": "current-file",
+        "name": "Current File",
+        "author": "Mark Fowler",
+        "description": "Allows external applications to know what file the desktop app is currently viewing.",
+        "repo": "2shortplanks/current-file"
+    },
+    {
+        "id": "arcane-obfuscate",
+        "name": "Arcane Obfuscate",
+        "author": "Shusako",
+        "description": "Obfuscate text with an arcane runic effect.",
+        "repo": "Shusako/arcane-obfuscate"
+    },
+    {
+        "id": "todoistprojectsync",
+        "name": "Todoist Project sync",
+        "author": "Jonas Dam",
+        "description": "Synchronizes projects from Todoist, creating a note for each.",
+        "repo": "stuporfly/ObsidianTodoistProjects"
+    },
+    {
+        "id": "recursive-copy",
+        "name": "Recursive Copy",
+        "author": "datawitch",
+        "description": "Recursively copies all Markdown files in a folder, concatenates them, and copies them into the clipboard.",
+        "repo": "StructByLightning/obsidian-recursive-copy"
+    },
+    {
+        "id": "blockreffer",
+        "name": "Blockreffer",
+        "author": "tyler.earth",
+        "description": "Search and embed blocks with ^block-references.",
+        "repo": "tyler-dot-earth/obsidian-blockreffer"
+    },
+    {
+        "id": "emera",
+        "name": "Emera",
+        "author": "OlegWock",
+        "description": "Enables you to use custom React components and inline JavaScript, kinda like MDX.",
+        "repo": "OlegWock/obsidian-emera"
     }
 ]
+
