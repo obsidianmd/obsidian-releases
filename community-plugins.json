@@ -6098,9 +6098,9 @@
     },
     {
         "id": "any-block",
-        "name": "Any Block",
+        "name": "AnyBlock",
         "author": "LincZero",
-        "description": "Render lists as different block types in reading view. Lists can be turned into tables, tabs, mindmaps, Mermaid charts, and more. ",
+        "description": "Take any fragment as a block and render it into multiple effects. You can select a section by list/heading/table/quote/codeBlock/markdown-it-container(`:::`), and turn into table/tabs/dir/cards/column/mindmap/mermaid/PlantUML/markmap/timeLine/jsonChart/nodeTree and more.",
         "repo": "LincZero/obsidian-any-block"
     },
     {
@@ -13041,11 +13041,81 @@
         "repo": "dragonish/obsidian-abbreviations"
     },
     {
+        "id": "mahjong-renderer",
+        "name": "Mahjong Renderer",
+        "author": "hypersphere",
+        "description": "Render mahjong tiles (riichi mahjong) using MPSZ notation",
+        "repo": "h-sphere/obsidian-mahjong-renderer"
+    },
+    {
+        "id": "external-file-card",
+        "name": "External File Card",
+        "author": "James-Yu",
+        "description": "Display file cards for external files.",
+        "repo": "James-Yu/external-file-card"
+    },
+    {
+        "id": "vitepress-publisher",
+        "name": "Vitepress Publisher",
+        "author": "mistj",
+        "description": "Conveniently preview and publish Markdown files using vitepress.",
+        "repo": "tyrad/obsidian-vitepress"
+    },
+    {
+        "id": "keepsidian",
+        "name": "KeepSidian",
+        "author": "lc0rp",
+        "description": "Commands to import Google Keep notes.",
+        "repo": "lc0rp/KeepSidian"
+    },
+    {
+        "id": "suggest-notes",
+        "name": "Suggest Notes",
+        "author": "Doggy-Footprint",
+        "description": "Suggest notes as selected by user.",
+        "repo": "Doggy-Footprint/Obsidian-keyword-suggest"
+    },
+    {
+        "id": "file-share",
+        "name": "File Share",
+        "author": "muckmuck",
+        "description": "Enables end-to-end encrypted file sharing directly between vaults through a socket server.",
+        "repo": "muckmuck96/obsidian-file-share"
+    },
+	{
+	  "id": "canvas-explorer",
+	  "name": "Canvas Explorer",
+	  "author": "Henri Jamet",
+	  "description": "Explore your vault by iteratively adding or ignoring linked notes, ultimately generating a customizable canvas that visually represents the preserved notes and their connections.",
+	  "repo": "hjamet/Canvas-Explorer"
+    },
+	{
+        "id": "lazy-plugins",
+        "name": "Lazy Plugin Loader",
+        "author": "Alan Grainger",
+        "description": "Load plugins with a delay on startup, so that you can get your app startup down into the sub-second loading time.",
+        "repo": "alangrainger/obsidian-lazy-plugins"
+    },
+	{
+        "id": "battery-indicator",
+        "name": "Battery Indicator",
+        "author": "Kacper Darowski",
+        "description": "Displays current battery level in the status bar.",
+        "repo": "Opisek/obsidian-battery-indicator"
+    },
+    {
+        "id": "virustotal-enrich",
+        "name": "Virus Total Enrichment",
+        "author": "ytisf",
+        "description": "Enrich your notes with information from VirusTotal.",
+        "repo": "ytisf/virustotal-enrich"
+     },
+     {
         "id": "newledge",
         "name": "新枝Newledge",
         "author": "新枝Newledge",
         "description": "Import Newledge data.",
         "repo": "DepartingAgain/obsidian-newledge"
-    }
+     }
 ]
 
