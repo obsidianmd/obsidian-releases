@@ -13089,14 +13089,14 @@
 	  "description": "Explore your vault by iteratively adding or ignoring linked notes, ultimately generating a customizable canvas that visually represents the preserved notes and their connections.",
 	  "repo": "hjamet/Canvas-Explorer"
     },
-	{
+	 {
         "id": "lazy-plugins",
         "name": "Lazy Plugin Loader",
         "author": "Alan Grainger",
         "description": "Load plugins with a delay on startup, so that you can get your app startup down into the sub-second loading time.",
         "repo": "alangrainger/obsidian-lazy-plugins"
     },
-	{
+	 {
         "id": "battery-indicator",
         "name": "Battery Indicator",
         "author": "Kacper Darowski",
@@ -13109,13 +13109,28 @@
         "author": "ytisf",
         "description": "Enrich your notes with information from VirusTotal.",
         "repo": "ytisf/virustotal-enrich"
+    },
+    {
+        "id": "snippets-manager",
+        "name": "Snippets Manager",
+        "author": "Venkatraman Dhamodaran",
+        "description": "Snippets manager with full mobile support. You can manage code snippets, infos like passport number, email signature or anything.",
+        "repo": "ramandv/obsidian-snippets-manager"
+    },
+    {
+		"id": "css-inserter",
+		"name": "CSS Inserter",
+		"author": "Erika Gozar",
+		"description": "Inserts user-defined CSS snippets into the selected text.",
+		"repo": "Erallie/css-inserter"
      },
-   {
+    {
         "id": "bookxnote-sync",
         "name": "BookXNote Sync",
         "author": "CodeListening",
         "description": "同步bookxnote中的读书笔记",
         "repo": "CodeListening/obsidian-bookxnote"
     }
+	}
 ]
 
