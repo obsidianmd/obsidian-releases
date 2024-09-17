@@ -2282,13 +2282,6 @@
         "repo": "phibr0/obsidian-tabout"
     },
     {
-        "id": "improved-vimcursor",
-        "name": "Improved VimCursor",
-        "author": "hhhapz",
-        "description": "An improved experience with the cursor.",
-        "repo": "hhhapz/improved-obsidian-vimcursor"
-    },
-    {
         "id": "quote-of-the-day",
         "name": "Quote of the Day",
         "description": "Insert random quotes in the editor.",
@@ -2742,13 +2735,6 @@
         "author": "farling42",
         "description": "Import a JSON file containing an array of data, creating notes from a Handlebars template file.",
         "repo": "farling42/obsidian-import-json"
-    },
-    {
-        "id": "obsidian-attachment-name-formatting",
-        "name": "Attachment Name Formatting",
-        "description": "Formatting attachments name (filename attachmentType indexNumber.xxx).",
-        "author": "JYC333",
-        "repo": "JYC333/obsidian-attachment-name-formatting"
     },
     {
         "id": "obsidian-completr",
@@ -5698,13 +5684,6 @@
         "repo": "twibiral/ObsiDOOM"
     },
     {
-        "id": "advanced-paste",
-        "name": "Advanced Paste",
-        "author": "kxxt",
-        "description": "Add advanced paste commands and create custom transforms for pasting.",
-        "repo": "kxxt/obsidian-advanced-paste"
-    },
-    {
         "id": "aw-watcher-obsidian",
         "name": "ActivityWatch",
         "author": "Grimmauld",
@@ -6149,7 +6128,7 @@
         "id": "wikipedia-search",
         "name": "Wikipedia Search",
         "author": "StrangeGirlMurph",
-        "description": "Search, link and open Wikipedia articles.",
+        "description": "Search, link and open Wikipedia/Wiki articles.",
         "repo": "StrangeGirlMurph/obsidian-wikipedia-search"
     },
     {
@@ -8513,10 +8492,10 @@
     },
     {
         "id": "chat-with-bard",
-        "name": "Chat with Bard",
+        "name": "Gemini AI Assistant",
         "author": "Artel250",
-        "description": "Chat with the Google Bard Assistant.",
-        "repo": "Artel250/Obsidian-Talk-with-Bard"
+        "description": "A Google Gemini integration, completely for free.",
+        "repo": "Artel250/Obsidian-Gemini-Assistant"
     },
     {
         "id": "tracker-plus",
@@ -9161,13 +9140,6 @@
         "author": "Claire Froelich",
         "description": "AI-powered journaling assistant for your notes, inspired by cognitive behavioral therapy (CBT).",
         "repo": "clairefro/obsidian-chat-cbt-plugin"
-    },
-    {
-        "id": "daily-icalendar",
-        "name": "Daily ICalendar",
-        "author": "mmmykhailo",
-        "description": "View calendar events in daily notes.",
-        "repo": "mmmykhailo/obsidian-daily-icalendar"
     },
     {
         "id": "auto-displaystyle-inline-math",
@@ -9950,7 +9922,7 @@
         "id": "gpg-encrypt",
         "name": "GPG Encrypt",
         "author": "Luis Jaramillo",
-        "description": "GPG encrypt inline text using hotkeys",
+        "description": "Encrypt partial text or complete notes using GPG technology, it is compatible with security keys such as YubiKey or traditional GPG encryption methods",
         "repo": "lajg-dev/obsidian-plugin-gpg-inline-encrypt"
     },
     {
@@ -10195,7 +10167,7 @@
         "id": "quiz-generator",
         "name": "Quiz Generator",
         "author": "Edward Cui",
-        "description": "Generate interactive quizzes from your notes using OpenAI's GPT-3.5 and GPT-4 models.",
+        "description": "Generate interactive flashcards from your notes using models from OpenAI (ChatGPT), Google (Gemini), Ollama (local LLMs), and more. Or manually create your own to use with the quiz UI.",
         "repo": "ECuiDev/obsidian-quiz-generator"
     },
     {
@@ -12050,7 +12022,7 @@
         "id": "tars",
         "name": "Tars",
         "author": "Tarslab",
-        "description": "Use Kimi and other Chinese LLMs for text generation based on tag suggestions.",
+        "description": "Text generation based on tag suggestions, using Claude, OpenAI, Ollama, Kimi, Doubao, Qwen, Zhipu, DeepSeek, QianFan & more.",
         "repo": "TarsLab/obsidian-tars"
     },
     {
@@ -12318,13 +12290,6 @@
         "author": "catvatar",
         "description": "Adds customizable and easly togglable NSFW filter",
         "repo": "catvatar/Obsidian-NSFW-Plugin"
-    },
-    {
-        "id": "file-flex",
-        "name": "File Flex",
-        "author": "Michael Baker",
-        "description": "Undo file and folder movement and name changes.",
-        "repo": "19msb/obsidian-file-flex"
     },
     {
         "id": "edit-in-neovim",
@@ -12673,8 +12638,8 @@
         "id": "openapi-renderer",
         "name": "OpenAPI Renderer",
         "author": "Sentiago",
-        "description": "Generates a Swagger-UI interface and embeds it as an iframe or link in notes",
-        "repo": "Ssentiago/openapi-renderer"
+        "description": "Integrate OpenAPI specification management with features for version control, visualization, editing, and easy navigation of API specs.",
+        "repo": "Ssentiago/obsidian-openapi-renderer"
     },
     {
     	  "id": "tags-routes",
@@ -12921,7 +12886,7 @@
         "description": "Correct words with the first two letters in uppercase.",
         "repo": "Ummler/obsidian-auto-correct-capitals"
     },
-	{
+    {
         "id": "daily-statistics",
         "name": "Daily Statistics",
         "author": "yefengr",
@@ -13109,13 +13074,158 @@
         "author": "ytisf",
         "description": "Enrich your notes with information from VirusTotal.",
         "repo": "ytisf/virustotal-enrich"
+    }, 
+        "id": "snippets-manager",
+        "name": "Snippets Manager",
+        "author": "Venkatraman Dhamodaran",
+        "description": "Snippets manager with full mobile support. You can manage code snippets, infos like passport number, email signature or anything.",
+        "repo": "ramandv/obsidian-snippets-manager"
     },
     {
-        "id": "onlyworlds-builder",
+		"id": "css-inserter",
+		"name": "CSS Inserter",
+		"author": "Erika Gozar",
+		"description": "Inserts user-defined CSS snippets into the selected text.",
+		"repo": "Erallie/css-inserter"
+  	},
+    {
+        "id": "anysocket-sync",
+        "name": "AnySocket Sync",
+        "author": "Andrei Vaduva",
+        "description": "Self-Hosted synchronization for you Vault using AnySocket",
+        "repo": "lynxaegon/obsidian-anysocket-sync"
+    },
+    {
+        "id": "live-variables",
+        "name": "Live Variables",
+        "author": "Hamza Ben Yazid",
+        "description": "Define variables in your note's properties and reuse them throughout your content.",
+        "repo": "HamzaBenyazid/obsidian-live-variables"
+    },
+    {
+        "id": "imgbb-uploader",
+        "name": "ImgBB Uploader",
+        "author": "Jordan Handy",
+        "description": "Upload images from your clipboard to ImgBB.",
+        "repo": "jordanhandy/obsidian-imgbb-uploader"
+    },
+    {
+        "id": "import-github-readme",
+        "name": "Import GitHub Readme",
+        "author": "Chasebank87",
+        "description": "Allows you to import a GitHub README file into your vault.",
+        "repo": "chasebank87/import-github-readme"
+    },
+    {
+        "id": "backtick-text-selector",
+        "name": "Backtick text selector",
+        "author": "Ram Rachum",
+        "description": "Easily select text in backticks.",
+        "repo": "cool-RR/backtick-text-selector"
+    },
+    {
+        "id": "daily-note-collector",
+        "name": "Daily Note Collector",
+        "author": "Adar Butel",
+        "description": "Adds links to new notes to your daily note.",
+        "repo": "LA/obsidian-daily-note-collector"
+    },
+    {
+        "id": "quick-cards",
+        "name": "Quick Cards",
+        "author": "Camus Qiu",
+        "description": "Cardify your files.",
+        "repo": "abcamus/obsidian-quick-card"
+    },
+    {
+        "id": "vault-to-blog",
+        "name": "Vault to blog",
+        "author": "barkstone2",
+        "description": "Publish the vault to a GitHub Pages blog.",
+        "repo": "barkstone2/vault-to-blog"
+    },
+    {
+        "id": "tailwind-snippet",
+        "name": "Tailwind Snippet",
+        "author": "Nicholas Wilcox",
+        "description": "Use TailwindCSS utility classes in your markup.",
+        "repo": "nicholas-wilcox/tailwind-snippet-obsidian-plugin"
+    },
+    {
+        "id": "simple-sketch",
+        "name": "simple-sketch",
+        "author": "Yoh",
+        "description": "Create minimalist sketches in a dedicated view, draw with a pencil, generate shapes, add text, save it to the vault or download it as an image.",
+        "repo": "Yohh/obsidian-simple-sketch"
+    },
+    {
+        "id": "pug-templates",
+        "name": "Pug Templates",
+        "author": "Nicholas Wilcox",
+        "description": "Use the Pug templating engine in your vault.",
+        "repo": "nicholas-wilcox/pug-templates-obsidian-plugin"
+    },
+    {
+        "id": "draw-steel-elements",
+        "name": "Draw Steel Elements",
+        "author": "Scott Tomaszewski (Xentis)",
+        "description": "Components to support the Draw Steel TTRPG by MCDM.",
+        "repo": "SteelCompendium/draw-steel-elements"
+    },
+    {
+        "id": "highlight-active-folder-section",
+        "name": "Highlight active folder section",
+        "author": "Lukas Collier",
+        "description": "Highlight the active folder section and the title in the file explorer.",
+        "repo": "justanotherjurastudent/highlight-active-folder-section"
+    },
+    {
+        "id": "canvas-task-importer",
+        "name": "Canvas LMS Task Importer",
+        "author": "jordaeday",
+        "description": "Import assignments from Canvas LMS.",
+        "repo": "jordaeday/canvas-task-importer"
+    },
+    {
+        "id": "tokenz",
+        "name": "Tokenz",
+        "author": "Ferenc Moricz",
+        "description": "Insert any type of short codes into your document. You can add smileys (:), ;), ...) or emojis (:smile:, :wink:, ...). More code maps will be added later. Even you, as a user can create your own.",
+        "repo": "ferenk/obsidian-tokenz"
+    },
+	{
+		"id": "diarian",
+		"name": "Diarian",
+		"author": "Erika Gozar",
+		"description": "All-in-one journaling toolkit.",
+		"repo": "Erallie/diarian"
+	},
+    {
+        "id": "nexus-ai-chat-importer",
+        "name": "Nexus AI Chat Importer",
+        "author": "Superkikim",
+        "description": "Import conversations from ChatGPT export files.",
+        "repo": "superkikim/nexus-ai-chat-importer"
+    },
+    {
+        "id": "auto-periodic-notes",
+        "name": "Auto Periodic Notes",
+        "author": "Jamie Hurst",
+        "description": "Creates new periodic notes automatically in the background and allows these to be pinned in your open tabs, requires the Periodic Notes plugin.",
+        "repo": "jamiefdhurst/obsidian-auto-periodic-notes"
+    },
+    {
+        "id": "mesh-ai",
+        "name": "Mesh AI",
+        "author": "Chasebank87",
+        "description": "Enables you to store AI prompts as patterns and run them seemlessly with most providers.",
+        "repo": "chasebank87/mesh-ai" 
+    },
+      "id": "onlyworlds-builder",
         "name": "OnlyWorlds Builder",
         "author": "Titus",
         "description": "World building toolset with OnlyWorlds integration.",
         "repo": "OnlyWorlds/obsidian-plugin"
-    }
+      }
 ]
 
