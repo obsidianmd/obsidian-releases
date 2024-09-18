@@ -13257,12 +13257,12 @@
         "description": "Apply an image from various sources as a banner to your notes.",
         "repo": "jparkerweb/pixel-banner"
     },
-    {
-        "id": "rich-foot",
-        "name": "Rich Foot",
-        "author": "Justin Parker",
-        "description": "Adds backlink tags and created/modified dates to the footer of your notes.",
-        "repo": "jparkerweb/rich-foot"
+	{
+        "id": "battery-indicator",
+        "name": "Battery Indicator",
+        "author": "Kacper Darowski",
+        "description": "Displays current battery level in the status bar.",
+        "repo": "Opisek/obsidian-battery-indicator"
     },
     {
         "id": "pintora",
@@ -13279,12 +13279,12 @@
         "repo": "FioPio/ObsidianAlignmentTracker"
     },
     {
-        "id": "auto-pause",
-        "name": "AutoPause",
-        "author": "Chris Kephart",
-        "description": "Allows one audio track to be played at a time, pausing or stopping any others.",
-        "repo": "ckep1/obsidian-AutoPause"
-    },
+		"id": "css-inserter",
+		"name": "CSS Inserter",
+		"author": "Erika Gozar",
+		"description": "Inserts user-defined CSS snippets into the selected text.",
+		"repo": "Erallie/css-inserter"
+	},
     {
         "id": "code-language-completer",
         "name": "Code Language Completer",
@@ -13390,13 +13390,13 @@
         "description": "Minimizes the app window to an icon after closing the last open pane",
         "repo": "alberti42/obsidian-minimize-on-close"
     },
-    {
-        "id": "custom-node-size",
-        "name": "Custom Node Size",
-        "author": "jackvonhouse",
-        "description": "Customize nodes size for improved graph understanding.",
-        "repo": "jackvonhouse/custom-node-size"
-    },
+	{
+		"id": "diarian",
+		"name": "Diarian",
+		"author": "Erika Gozar",
+		"description": "All-in-one journaling toolkit.",
+		"repo": "Erallie/diarian"
+	},
     {
         "id": "mermaid-popup",
         "name": "Diagram Popup",
@@ -14062,320 +14062,53 @@
         "description": "Combine periodic notes with tags and tasks to automatically manage your daily, weekly and project TODO lists. Requires the Periodic Notes and Tasks plugins.",
         "repo": "jamiefdhurst/obsidian-auto-tasks"
     },
-  {
-    "id": "task-director",
-    "name": "Task Director",
-    "author": "Cybertramp",
-    "description": "Manage and change tasks targeting a specific page",
-    "repo": "cybertramp/obsidian-task-director"
-  },
-  {
-    "id": "history-today",
-    "name": "History Today",
-    "author": "Yaob1990",
-    "description": "View and review your historical notes from this day across previous years",
-    "repo": "Yaob1990/obsidian-history-today"
-  },
-  {
-    "id": "beautiful-contact-cards",
-    "name": "Beautiful Contact Cards",
-    "author": "Seth Tenembaum",
-    "description": "Renders \"contact\" code blocks with tappable links for phone, social media, etc.",
-    "repo": "seth10/beautiful-obsidian-contacts"
-  },
-  {
-    "id": "blaze-jump",
-    "name": "BlazeJump",
-    "author": "henryco",
-    "description": "Navigate through text at blazing speed.",
-    "repo": "henryco/BlazeJump-Obsidian"
-  },
     {
-        "id": "trakt-tv",
-        "name": "Trakt.tv Sync",
-        "author": "Nick Felker",
-        "description": "Syncs your watched Trakt.tv shows to a file.",
-        "repo": "fleker/trakt-for-obsidian"
-    },
-  {
-    "id": "quick-share-note-to-gist", 
-    "name": "Quick Share Note to gist",
-    "author": "Por Chainarong Tangsurakit",
-    "description": "Quick publish and share notes to GitHub Gist and its image by upload images to Imgur.",
-    "repo": "chaintng/quick-share-note-to-gist"
-  },
-  {
-    "id": "file-manager",
-    "name": "File Manager",
-    "author": "Juan Sicilia",
-    "description": "Adds missing features to the file explorer.",
-    "repo": "jfsicilia/obsidian-file-manager"
-  },
-  {
-    "id": "standardform",
-    "name": "StandardForm",
-    "author": "Phil Baum",
-    "description": "Transforms code blocks with Standard Form logical syntax into clean, styled renderings. Perfect for philosophy, logic, and argument reconstructions.",
-    "repo": "philphilphil/obsidian-standardform"
-  },
-  {
-    "id": "simple-focus",
-    "name": "Simple Focus",
-    "author": "Lin Qing",
-    "description": "Allows you to focus on a specific file or folder",
-    "repo": "linqing24/obsidian-simple-focus"
-},
-    {
-      "id": "proletarian-wizard",
-      "name": "Proletarian Wizard Task Manager",
-      "author": "Charles Feval",
-      "description": "Track your tasks across all the notes in your workspace. Organize your day. Plan your work",
-      "repo": "cfe84/obsidian-pw"
-    },
-{
-    "id": "google-drive-sync",
-    "name": "Google Drive Sync",
-    "author": "Richard Xiong",
-    "description": "Syncs a vault into Google Drive for cross-platform use (works for iOS).",
-    "repo": "RichardX366/Obsidian-Google-Drive"
-},
-{
-    "id": "double-switch",
-    "name": "Auto switch themes between dark/light mode",
-    "author": "Robert Storlind",
-    "description": "Toggling dark/light mode switches themes automatically",
-    "repo": "carlrobert/double-switch"
-},
-{
-    "id": "bluesky",
-    "name": "Bluesky",
-    "author": "eharris128",
-    "description": "Post to Bluesky.",
-    "repo": "eharris128/obsidian-bluesky"
-    },
-    {
-	  "id": "ai-bot",
-	  "name": "AI bot",
-	  "author": "kuzzh",
-	  "description": "Polish, summarize, translate, analyze, and interpret code using AI",
-	  "repo": "kuzzh/obsidian-ai-bot"
-},
-{
-    "id": "folder-tabulation",
-    "name": "Folder Tabulation",
-    "author": "SpeedaRJ",
-    "description": "Enables navigation between files in a folder via hotkeys and commands.",
-    "repo": "SpeedaRJ/obsidian_folder_tabulation"
-  },
-{
-    "id": "markdown-tags",
-    "name": "Tags for Markdown",
-    "author": "John Smith III",
-    "description": "Enhance your Markdown documents with tags and arrow tags. Use predefined or custom labels, customizable colors, and arrow indicators to visually track tasks and statuses.",
-    "repo": "binarynoir/obsidian-markdown-tags"
-  },
-  {
-    "id": "instant-above-divider",
-    "name": "Instant Above Divider",
-    "author": "SedationH",
-    "description": "Quickly insert a divider line at the beginning of your note.",
-    "repo": "sedationh/obsidian-instant-above-divider"
-  },
-    {
-	"id": "foldercanvas",
-	"name": "Folder Canvas",
-	"author": "Nancy Lee",
-	"description": "Generate a Canvas view of your folder structure.",
-	"repo": "nancyel/obsidian-foldercanvas-plugin"
-    },
-    {
-    "id": "paper_importer",
-    "name": "Paper Importer",
-    "author": "Zhe Chen",
-    "description": "Import papers from arXiv with one click.",
-    "repo": "chenzhekl/obsidian_paper_importer"
-},
- {
-    "id": "ridian",
-    "name": "Ridian",
-    "author": "Michel Nivard",
-    "description": "Execute R code blocks and display outputs and plots & render documents with Quarto.",
-    "repo": "MichelNivard/Ridian"
-  },
-  {
-    "id": "aqu-blur-mode",
-    "name": "Blur Mode",
-    "author": "dangehub",
-    "description": "Blur anything you want to keep your privacy.",
-    "repo": "dangehub/obsidian-blur-mode"
-  },
-  {
-    "id": "link-preview",
-    "name": "Link Preview",
-    "author": "Felipe Tappata",
-    "description": "Show a preview of external links on hover",
-    "repo": "felipetappata/obsidian-link-preview"
-},
-{
-    "id": "insta-toc",
-    "name": "Insta TOC",
-    "author": "Nick C.",
-    "description": "Simultaneously generate, update, and maintain a table of contents for your notes.",
-    "repo": "iLiftALot/insta-toc"
-  },
-  {
-   "id": "password-audit",
-   "name": "Password Audit",
-   "author": "Sai Prashanth Pulisetti",
-   "description": "A plugin to audit passwords for strength and breaches, and generate secure passwords.",
-   "repo": "prashanthpulisetti/password-audit"
-  },
-  {
-    "id": "obsnippets",
-    "name": "Snippetsaurus",
-    "author": "Christian Humbert",
-    "description": "Create and managing text and code snippets.",
-    "repo": "Chrstn67/obsidian-plugin-obsnippets"
-  },
-  {
-    "id": "simple-todo",
-    "name": "Simple Todo",
-    "author": "elliotxx",
-    "description": "A minimalist text-based todo manager (Text-Based GTD) for efficient task management.",
-    "repo": "elliotxx/obsidian-simple-todo"
-  },
- {
-	"id": "weekly-goal-tracker",
-	"name": "Weekly Goal Tracker",
-	"author": "George Gorman",
-	"description": "Keep track of weekly goals in the status bar",
-	"repo": "GitGorman/weekly-goal-tracker"
-    },
-  {
-    "id": "mdfriday",
-    "name": "Friday",
-    "author": "sunwei",
-    "description": "Notes to Website. Friday helps you turn Markdown documents into websites in minutes.",
-    "repo": "mdfriday/obsidian-friday-plugin"
-  },
-  {
-    "id": "chronos",
-    "name": "Chronos Timeline",
-    "author": "Claire Froelich",
-    "description": "Render interactive timelines inline in your notes from simple markdown",
-    "repo": "clairefro/obsidian-plugin-chronos"
-  },
-  {
-    "id": "clear-todos",
-    "name": "Clear Todos",
-    "author": "Joshua Gawenda",
-    "description": "Quickly remove all completed todos from your notes or selected text.",
-    "repo": "gutentag2012/obsidian-plugin-clear-todos"
-  },
-  {
-    "id": "post-webhook",
-    "name": "Post Webhook",
-    "author": "MasterB1234",
-    "description": "Send notes to webhook endpoints, for seamless integration with i.a. n8n, Make.com, and Zapier.",
-    "repo": "Masterb1234/obsidian-post-webhook"
-  },
-  {
-    "id": "simple-quiz",
-    "name": "Simple Quiz",
-    "author": "Ivan Kalmar",
-    "description": "Creating simple quizzes.",
-    "repo": "IvanKalmar/simple-quiz"
-    },
-  {
-   "id": "folder-links",
-   "name": "Folder Links",
-   "author": "Stefan Rausch",
-   "description": "Clicking a link to a folder makes it revealed in the navigation.",
-   "repo": "SteveOverSea/obsidian-folder-links"
-  },
-  {
-    "id": "auto-file-organizer",
-    "name": "Auto File Organizer",
-    "author": "mofukuru",
-    "description": "Automatically organizes files into folders based on their extensions.",
-    "repo": "mofukuru/auto_file_organizer"
-  },
-  {
-    "id": "setlist-fm-sync",
-    "name": "Setlist.fm Sync",
-    "author": "Nick Felker",
-    "description": "Syncs your setlist.fm attended concerts.",
-    "repo": "fleker/setlist-for-obsidian"
-  },
-    {
-    "id": "mass-create",
-    "name": "Mass Create",
-    "author": "vellikhor",
-    "description": "Create large quantities of notes easily at one time.",
-    "repo": "vellikhor/mass-create"
-    },
-  {
-    "id": "obsifetch",
-    "name": "Obsifetch",
-    "author": "tabibyte",
-    "description": "A neofetch-style vault information display.",
-    "repo": "tabibyte/obsifetch"
-  },
-  {
-  "id": "abbrlink",
-  "name": "Abbrlink",
-  "author": "Q78KG",
-  "description": "Automatically generate permanent short links for your markdown files.",
-  "repo": "Hoshino-Yumetsuki/obsidian-plugin-abbrlink"
-  },
-  {
-    "id": "llm-workspace",
-    "name": "LLM workspace",
-    "author": "Olivér Falvai",
-    "description": "Use Large Language Models grounded in your notes.",
-    "repo": "ofalvai/obsidian-llm-workspace"
-  },
-{
-    "id": "todoist-context-bridge",
-    "name": "Todoist Context Bridge",
-    "author": "wenlzhang",
-    "description": "Bridge your note-taking and task management workflows by maintaining strong contextual connections with Todoist.",
-    "repo": "wenlzhang/obsidian-todoist-context-bridge"
-  },
-  {
-  "id": "discord-timestamps",
-  "name": "Discord Timestamps",
-  "author": "Erika Gozar",
-  "description": "Displays discord timestamps in read mode as they would appear in Discord.",
-  "repo": "Erallie/discord-timestamps"
-  },
-  {
-   "id": "heatmap-tracker",
-   "name": "Heatmap Tracker",
-   "author": "Maksim Rubanau",
-   "description": "Visualize your activity and track goals, progress, habits, tasks, exercise, finances, and more—all in a single, interactive heatmap!",
-   "repo": "mokkiebear/heatmap-tracker"
-    },
-    {
-	"id": "visual-crossing-weather",
-	"name": "Visual Crossing Weather",
-	"author": "willasm",
-	"description": "Visual Crossing Weather API for Your Notes",
-	"repo": "willasm/vc-weather"
+        "id": "mesh-ai",
+        "name": "Mesh AI",
+        "author": "Chasebank87",
+        "description": "Enables you to store AI prompts as patterns and run them seemlessly with most providers.",
+        "repo": "chasebank87/mesh-ai"
     },
 	{
-		"id": "image-uploader-for-note",
-		"name": "Image Uploader For Note",
-		"author": "Yunfi",
-		"description": "Upload images in a note, and remove the images from the vault if they're exclusively used within that note.",
-		"repo": "yy4382/obsidian-image-upload"
+        "id": "onto-tracker",
+        "name": "Onto Tracker",
+        "author": "Jacob Hart",
+        "description": "Manage projects according to an ontology.",
+        "repo": "jdchart/onto-tracker"
     },
     {
-        "id": "hugo-sync",
-        "name": "Sync to Hugo",
-        "author": "Cray Huang",
-        "description": "Sync and convert the selected notes to Hugo blog.",
-        "repo": "crayhuang/Obsidian-Hugo-Sync"
-  }
+        "id": "journaling",
+        "name": "Journaling",
+        "author": "Ordeeper",
+        "description": "View daily notes in a journal-like format, similar to Logseq. It enhances note organization and facilitates better reflection by consolidating daily notes into a continuous journaling view.",
+        "repo": "Ordeeper/obsidian-journaling-plugin"
+    },
+    {
+        "id": "shortcut-edit-mode",
+        "name": "Edit mode switch",
+        "author": "Mara-Li",
+        "description": "Add a button in the file header, in edit mode, to switch between source and live-preview.",
+        "repo": "Mara-Li/obsidian-edit-shortcut"
+     },
+     {
+         "id": "print",
+         "name": "Print",
+         "author": "Marijn Bent",
+         "description": "A simple plugin to add a print action.",
+         "repo": "marijnbent/obsidian-print"
+    },
+     {
+        "id": "morgen-tasks",
+        "name": "Morgen Tasks",
+        "author": "Morgen AG",
+        "description": "Plan, time block, and track tasks from your vault in any calendar using Morgen.",
+        "repo": "morgen-so/morgen-obsidian"
+     },
+     {
+        "id": "immich",
+        "name": "Immich",
+        "author": "Talal Abou Haiba",
+        "description": "Link your Immich images within your vault.",
+        "repo": "Talal-A/obsidian-immich"
+     }
 ]
-
