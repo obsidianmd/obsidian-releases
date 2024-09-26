@@ -17,5 +17,5 @@ jobs:
           days-before-stale: 30
           days-before-close: 15
           stale-pr-label: stale
-          exempt-pr-labels: Ready for review
+          exempt-pr-labels: Ready for review,Skipped code scan
           operations-per-run: 200
