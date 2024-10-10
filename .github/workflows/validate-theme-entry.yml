@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v2
-      - run: npm install -g probe-image-size && npm link probe-image-size
+      - run: npm install probe-image-size
       - uses: actions/checkout@v3
         with:
           ref: "refs/pull/${{ github.event.number }}/merge"
