@@ -13502,13 +13502,6 @@
     "description": "World building toolset with OnlyWorlds integration.",
     "repo": "OnlyWorlds/obsidian-plugin"
   },
-  {
-    "id": "llm-notes",
-    "name": "LLM notes",
-    "author": "wingillis",
-    "description": "Adds private/local LLM capabilities to Obsidian notes via Ollama and RAG pipeline integration.",
-    "repo": "wingillis/obsidian-llm-notes"
-  },
     {
         "id": "command-tracker",
         "name": "Command Tracker",
@@ -13529,5 +13522,12 @@
         "author": "CodeListening",
         "description": "同步bookxnote中的读书笔记",
         "repo": "CodeListening/obsidian-bookxnote"
-    }
+    },
+    {
+        "id": "llm-notes",
+        "name": "LLM notes",
+        "author": "wingillis",
+        "description": "Adds private/local LLM capabilities to Obsidian notes via Ollama and RAG pipeline integration.",
+        "repo": "wingillis/obsidian-llm-notes"
+    },
 ]
