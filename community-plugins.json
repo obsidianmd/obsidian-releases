@@ -13395,7 +13395,7 @@
         "name": "Diagram Zoom Drag",
         "author": "ChenPengyuan",
         "description": "Add zoom and drag functionality to diagrams from Mermaid, Plantuml, Graphviz, Gravizo and so on",
-        "repo": "gitcpy/diagram-zoom-drag"
+        "repo": "gitcpy/diagram-zoom-drag"        
     },
 	{
         "id": "figma-embed",
@@ -13451,7 +13451,7 @@
         "name": "Minimize on Close",
         "author": "Andrea Alberti",
         "description": "Minimizes the app window to an icon after closing the last open pane",
-        "repo": "alberti42/obsidian-minimize-on-close"
+        "repo": "alberti42/obsidian-minimize-on-close" 
      },
     {
         "id": "custom-node-size",
@@ -13501,12 +13501,68 @@
     "author": "Titus",
     "description": "World building toolset with OnlyWorlds integration.",
     "repo": "OnlyWorlds/obsidian-plugin"
-  },
+    },
     {
-        "id": "lucky-pomodoro-timer",
-        "name": "Lucky Pomodoro Timer",
-        "author": "Alex",
-        "description": "Pomodoro Timer, Track Focus Duration.",
-        "repo": "wql6/lucky-pomodoro-timer"
-    }
+        "id": "command-tracker",
+        "name": "Command Tracker",
+        "author": "namikaze-40p",
+        "description": "Track the number of times the command is used.",
+        "repo": "namikaze-40p/obsidian-command-tracker"
+    },
+    {
+        "id": "llm-summary",
+        "name": "LLM Summary",
+        "author": "QSun",
+        "description": "Quick note taking with the help of LLMs. LLMs help you to summarize / organize PDFs or existing notes.",
+        "repo": "larksq/obsidian-llm-summary"
+    },
+    {
+        "id": "bookxnote-sync",
+        "name": "BookXNote Sync",
+        "author": "CodeListening",
+        "description": "同步bookxnote中的读书笔记",
+        "repo": "CodeListening/obsidian-bookxnote"
+    },
+    {
+        "id": "find-orphaned-images",
+        "name": "Find Orphaned Images",
+        "author": "Josmar Cristello",
+        "description": "Finds images in the vault that are not linked to any notes. Either lists, or deletes them.",
+        "repo": "josmarcristello/Obsidian-Find-Orphaned-Images"
+    },
+    {
+        "id": "link-navigation",
+        "name": "Link Navigation",
+        "author": "xRyul",
+        "description": "Navigate between incoming links (inlinks), outgoing links (outlinks) N levels deep. Links from Canvas are also supported.",
+        "repo": "xRyul/link-navigation"
+    },
+    {
+        "id": "modal-opener",
+        "name": "Modal Opener",
+        "author": "Muuxi",
+        "description": "Uses modal windows to open files and links.",
+        "repo": "likemuuxi/obsidian-modal-plugin"
+    },
+    {
+        "id": "mouse-navigation",
+        "name": "Mouse Navigation",
+        "author": "HoBeomJeon",
+        "description": "Enables smooth navigation using mouse gestures for scrolling and switching pages.",
+        "repo": "hobeom/obsidian-mouse-navigation"
+    },
+	{
+  		"id": "ffmpeg-converter",
+		"name": "Ffmpeg Converter",
+		"author": "MrAnyx",
+		"description": "Convert most used file formats into another format to optimize your vault space.",
+		"repo": "MrAnyx/obsidian-ffmpeg-converter"
+    },
+    {
+        "id": "crackboard",
+        "name": "Crackboard",
+        "author": "Franklin",
+        "description": "tpot leaderboard productivity tracker",
+        "repo": "bruce-pain/crackboard-obsidian"
+	}
 ]
