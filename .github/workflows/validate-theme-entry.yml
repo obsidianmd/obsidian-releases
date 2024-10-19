@@ -15,7 +15,7 @@ jobs:
         with:
           ref: "refs/pull/${{ github.event.number }}/merge"
       - uses: actions/setup-node@v2
-      - run: npm install -g probe-image-size
+      - run: npm install -g probe-image-size && npm link probe-image-size
       - uses: actions/github-script@v6
         with:
           script: |
