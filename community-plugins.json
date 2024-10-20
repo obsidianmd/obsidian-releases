@@ -13608,11 +13608,14 @@
         "repo": "mProjectsCode/obsidian-lemons-search-plugin"
 	},
 
-  {
-    "id": "cursor-bridge",
-    "name": "Cursor Bridge",
-    "author": "Adam Cloud",
-    "description": "Seamlessly bridge Obsidian and Cursor, the AI-powered code editor.",
-    "repo": "lengff123/cursor-bridge"
-  }
+{
+  "id": "cursor-bridge",
+  "name": "Cursor Bridge",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Seamlessly bridge your notes with Cursor, the AI-powered code editor. Open notes directly in Cursor to enhance your workflow.",
+  "author": "Adam Cloud",
+  "authorUrl": "https://github.com/lengff123",
+  "isDesktopOnly": true
+}
 ]
