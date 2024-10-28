@@ -13247,7 +13247,7 @@
         "id": "print",
         "name": "Print",
         "author": "Marijn Bent",
-        "description": "A simple plugin to add a print action.",
+        "description": "Print notes and documents directly from your workspace.",
         "repo": "marijnbent/obsidian-print"
     },
     {
@@ -13315,10 +13315,10 @@
     },
     {
         "id": "pexels-banner",
-        "name": "Pexels Banner",
+        "name": "Pixel Banner",
         "author": "Justin Parker",
-        "description": "Apply an image from Pexels as a banner to your notes.",
-        "repo": "jparkerweb/pexels-banner"
+        "description": "Apply an image from various sources as a banner to your notes.",
+        "repo": "jparkerweb/pixel-banner"
     },
     {
         "id": "rich-foot",
@@ -13502,6 +13502,111 @@
     "description": "World building toolset with OnlyWorlds integration.",
     "repo": "OnlyWorlds/obsidian-plugin"
   },
+    {
+        "id": "command-tracker",
+        "name": "Command Tracker",
+        "author": "namikaze-40p",
+        "description": "Track the number of times the command is used.",
+        "repo": "namikaze-40p/obsidian-command-tracker"
+    },
+    {
+        "id": "llm-summary",
+        "name": "LLM Summary",
+        "author": "QSun",
+        "description": "Quick note taking with the help of LLMs. LLMs help you to summarize / organize PDFs or existing notes.",
+        "repo": "larksq/obsidian-llm-summary"
+    },
+    {
+        "id": "bookxnote-sync",
+        "name": "BookXNote Sync",
+        "author": "CodeListening",
+        "description": "同步bookxnote中的读书笔记",
+        "repo": "CodeListening/obsidian-bookxnote"
+    },
+    {
+        "id": "find-orphaned-images",
+        "name": "Find Orphaned Images",
+        "author": "Josmar Cristello",
+        "description": "Finds images in the vault that are not linked to any notes. Either lists, or deletes them.",
+        "repo": "josmarcristello/Obsidian-Find-Orphaned-Images"
+    },
+    {
+        "id": "link-navigation",
+        "name": "Link Navigation",
+        "author": "xRyul",
+        "description": "Navigate between incoming links (inlinks), outgoing links (outlinks) N levels deep. Links from Canvas are also supported.",
+        "repo": "xRyul/link-navigation"
+    },
+    {
+        "id": "modal-opener",
+        "name": "Modal Opener",
+        "author": "Muuxi",
+        "description": "Uses modal windows to open files and links.",
+        "repo": "likemuuxi/obsidian-modal-plugin"
+    },
+    {
+        "id": "mouse-navigation",
+        "name": "Mouse Navigation",
+        "author": "HoBeomJeon",
+        "description": "Enables smooth navigation using mouse gestures for scrolling and switching pages.",
+        "repo": "hobeom/obsidian-mouse-navigation"
+    },
+	{
+  		"id": "ffmpeg-converter",
+		"name": "Ffmpeg Converter",
+		"author": "MrAnyx",
+		"description": "Convert most used file formats into another format to optimize your vault space.",
+		"repo": "MrAnyx/obsidian-ffmpeg-converter"
+    },
+    {
+        "id": "crackboard",
+        "name": "Crackboard",
+        "author": "Franklin",
+        "description": "tpot leaderboard productivity tracker",
+        "repo": "bruce-pain/crackboard-obsidian"
+	},
+    {
+        "id": "quick-notes",
+        "name": "Quick Notes",
+        "author": "Sean McOwen",
+        "description": "Speeds up some note taking abilities and allows for creating notes/links in the background",
+        "repo": "SeanMcOwen/Quick-Note-Obsidian-Plugin"
+    },
+  {
+    "id": "typefully",
+    "name": "Typefully",
+    "author": "Sébastien Dubois",
+    "description": "Typefully integration. Publish social media posts with ease",
+    "repo": "dsebastien/obsidian-typefully"
+    },
+    {
+        "id": "infranodus-graph-view",
+        "name": "InfraNodus AI Graph View",
+        "author": "Nodus Labs",
+        "description": "Interactive 3D graph view: text analysis, topic modeling, gap detection, and AI.",
+        "repo": "noduslabs/infranodus-obsidian-plugin"
+    },
+    {
+        "id": "open-interpreter",
+        "name": "Open Interpreter",
+        "author": "Mike Bird",
+        "description": "An AI assistant that you can control with natural language. The power of Open Interpreter in your vault",
+        "repo": "MikeBirdTech/obsidian-open-interpreter"
+  },
+	{
+		"id": "scrambling-title-animations",
+		"name": "Scrambling Title Animations",
+		"author": "HistidineDwarf",
+		"description": "Animates the title of any note you open by scrambling and revealing it in several visually appealing ways.",
+		"repo": "DvorakDwarf/scrambling-title-animations"
+    },
+    {
+        "id": "lemons-search",
+        "name": "Lemons Search",
+        "author": "Moritz Jung",
+        "description": "A blazingly fast fuzzy finder with file preview.",
+        "repo": "mProjectsCode/obsidian-lemons-search-plugin"
+	},
   {
       "id": "list-cycler",
       "name": "List Cycler",
