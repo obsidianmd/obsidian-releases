@@ -6773,7 +6773,7 @@
         "name": "Financial Doc",
         "author": "Studio Webux",
         "description": "Financial documentation and tracking using CSV format and Chart.js.",
-        "repo": "yet-another-tool/obsidian-findoc"
+        "repo": "studiowebux/obsidian-findoc"
     },
     {
         "id": "file-include",
@@ -9130,9 +9130,9 @@
     {
         "id": "formatto-format",
         "name": "Formatto",
-        "author": "Pixella",
+        "author": "Eva",
         "description": "Simple, fast, and easy-to-use Markdown formatter.",
-        "repo": "pixelbracket/formatto"
+        "repo": "evasquare/formatto"
     },
     {
         "id": "chat-cbt",
@@ -10132,7 +10132,7 @@
         "id": "chord-sheets",
         "name": "Chord Sheets",
         "author": "Marcel Schaeben",
-        "description": "Work with chord sheets (chords over lyrics) in your vault: Chord diagrams for guitar, ukulele and mandolin, transpose, autoscroll and more. Works in Live Preview and reading mode.",
+        "description": "Work with chord sheets (chords over lyrics or inline) in Live Preview and reading mode: Chord diagrams for guitar, ukulele and mandolin, transpose, autoscroll, and more.",
         "repo": "olvidalo/obsidian-chord-sheets"
     },
     {
@@ -12407,7 +12407,7 @@
         "id": "iconic",
         "name": "Iconic",
         "author": "Holo",
-        "description": "Customize your app icons directly from the UI, including tabs, files, bookmarks, properties, and ribbon commands.",
+        "description": "Customize your icons and their colors directly from the UI, including tabs, files, bookmarks, properties, and ribbon commands.",
         "repo": "gfxholo/iconic"
     },
     {
@@ -13541,8 +13541,8 @@
         "id": "modal-opener",
         "name": "Modal Opener",
         "author": "Muuxi",
-        "description": "Uses modal windows to open files and links.",
-        "repo": "likemuuxi/obsidian-modal-plugin"
+        "description": "Open files and links in modal windows, or create and edit compatible files in modal windows.",
+        "repo": "likemuuxi/obsidian-modal-opener"
     },
     {
         "id": "mouse-navigation",
@@ -13606,12 +13606,153 @@
         "author": "Moritz Jung",
         "description": "A blazingly fast fuzzy finder with file preview.",
         "repo": "mProjectsCode/obsidian-lemons-search-plugin"
-	},
+	  },
     {
-        "id": "aipilot",
-        "name": "AI Pilot",
-        "author": "n0rvyn",
-        "description": "A plugin for AI-assisted writing and content generation",
-        "repo": "n0rvyn/aipilot"
+        "id": "flow",
+        "name": "Flow",
+        "author": "Ben Phillips",
+        "description": "Implements key processes in David Allen's Getting Things Done (GTD) methodology",
+        "repo": "tavva/flow-release"
+    },
+    {
+        "id": "quarto-exporter",
+        "name": "Quarto Exporter",
+        "author": "Andreas Varotsis",
+        "description": "Export notes to Quarto-compatible QMD files.",
+        "repo": "AndreasThinks/obsidian-to-quarto-exporter"
+    },
+    {
+        "id": "copy-section",
+        "name": "Copy Section",
+        "author": "skztr",
+        "description": "Adds a Copy button to the top of Headed sections.",
+        "repo": "skztr/obsidian-plugin-section-copy"
+    },
+   {
+        "id": "cloud-storage",
+        "name": "Cloud Storage",
+        "author": "Jiajun Ma",
+        "description": "Allows users to upload local files to the cloud, reducing the burden on local vaults and enabling seamless synchronization across multiple devices.",
+        "repo": "yingjialong/obsidian-CloudStorage"
+	},
+  { 
+        "id": "local-media-embedder",
+        "name": "Local Media Embedder",
+        "author": "seyf1elislam", 
+        "description": "Embed videos and images and audios from your local device in your notes.", 
+        "repo": "seyf1elislam/obsidian-LocalMediaEmbedder-plugin" 
+    },
+  {
+      "id": "tab-panels",
+      "name": "Tab Panels",
+      "author": "GnoxNahte",
+      "description": "Create tab panels to organize content into sections",
+      "repo": "GnoxNahte/obsidian-tab-panels"
+  },
+  {
+      "id": "jura-links",
+      "name": "Jura Links",
+      "author": "Lukas Collier & Emi Le",
+      "description": "Verlinke deine notierten Gesetzesnormen, Aktenzeichen und Zeitschriften-Fundstellen mit Gesetzesanbietern.",
+      "repo": "justanotherjurastudent/Jura-Links"
+  },
+  {
+      "id": "advanced-copy",
+      "name": "Advanced Copy",
+      "author": "leschuster",
+      "description": "Copy Markdown and transform it according to your needs.",
+      "repo": "leschuster/obsidian-advanced-copy"
+  },
+    {
+        "id": "nav-link-header",
+        "name": "Nav Link Header",
+        "author": "ahts4962",
+        "description": "Display navigation links at the top of the notes.",
+        "repo": "ahts4962/nav-link-header"
+    },
+  {
+      "id": "japanese-novel-ruby",
+      "name": "Japanese Novel Ruby",
+      "author": "quels <@k-quels>",
+      "description": "Treat ruby(Furigana) ​​marks commonly used in Japanese novels",
+      "repo": "k-quels/japanese-novel-ruby"
+  },
+  {
+    "id": "asciidoctor-editor",
+    "name": "Asciidoctor editor",
+    "author": "dzruyk",
+    "description" : "View and modify asciidoc pages",
+    "repo": "dzruyk/obsidian-asciidoc"
+  },
+  {
+      "id": "replace-all",
+      "name": "Replace All",
+      "author": "Patrick Chiang",
+      "description": "Adds replace all functionality into search.",
+      "repo": "patrickchiang/obsidian-replace-all"
+  },
+  {
+	"id": "metadata-auto-classifier",
+	"name": "Metadata Auto Classifier",
+	"author": "Beomsu Koh",
+	"description": "Automatically classifies and applies metadata to your notes.",
+    "repo": "GoBeromsu/Metadata-Auto-Classifier"
+  },
+    {
+        "id": "strava-sync",
+        "name": "Strava Sync",
+        "author": "Howard Wilson",
+        "description": "Sync activities from Strava.",
+        "repo": "watsonbox/obsidian-strava-sync"
+    },
+    {
+        "id": "another-simple-todoist-sync",
+        "name": "Another Simple Todoist Sync",
+        "author": "eudennis",
+        "description": "Simple plugin to sync with Todoist. Fork from Ultimate Todoist Sync plugin.",
+        "repo": "eudennis/ultimate-todoist-sync-for-obsidian-experiment"
+
+    },
+  {
+    "id": "translate-inline",
+    "name": "Translate Inline",
+    "author": "Lucas Langholf",
+    "description": "Translations at your fingertips. Inline Translations for your Notes.",
+    "repo": "kon-foo/Obsidian-Translate-Inline"
+  },
+  {
+    "id": "youtube-iframe-timestamps",
+    "name": "Youtube Iframe Timestamps",
+    "description": "Allows you to embed YouTube videos with timestamps directly in your notes, enabling seamless referencing and note-taking without needing to open a separate browser window.",
+    "author": "Nils Leo",
+    "repo": "NilsLeo/obsidian-youtube-iframe-timestamps"
+  },
+  {
+    "id": "random-retrieval",
+    "name": "random-retrieval",
+    "author": "Rachninomav",
+    "description": "Random Note Retrieval based on LLM.",
+    "repo": "JeanJean-rxl/random-retrieval-plugin"
+  },
+  {
+	"id": "occura-word-highlighter",
+	"name": "Occura",
+	"author": "Alexey Sedoykin",
+	"description": "Find and highlight all occurrences of selected text in notes, similar to Notepad++ or IDEs.",
+	"repo": "Krusty84/obsidian-occura-plugin"
+    },
+  {
+    "id": "callout-toggles",
+    "name": "Callout Toggles",
+    "author": "Aly Thobani",
+    "description": "Quickly add, change, or remove callout wrappers in your notes.",
+    "repo": "alythobani/obsidian-callout-toggles"
+  },
+  {
+    "id": "aipilot",
+    "name": "AI Pilot",
+    "author": "n0rvyn",
+    "description": "A plugin for AI-assisted writing and content generation",
+    "repo": "n0rvyn/aipilot"
     }
 ]
