@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: "${{ github.event.pull_request.merge_commit_sha }}"
+          ref: "refs/pull/${{ github.event.number }}/merge"
       - uses: actions/setup-node@v2
       - uses: actions/github-script@v6
         with:
