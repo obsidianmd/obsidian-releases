@@ -13606,7 +13606,7 @@
         "author": "Moritz Jung",
         "description": "A blazingly fast fuzzy finder with file preview.",
         "repo": "mProjectsCode/obsidian-lemons-search-plugin"
-    },
+	},
     {
         "id": "flow",
         "name": "Flow",
@@ -13874,12 +13874,19 @@
         "description": "Sort your navigation items by markdown frontmatter.",
         "repo": "shu307/obsidian-nav-weight"
     },
-	    {
+  {
+  "id": "arweave-uploader",
+  "name": "Arweave Uploader",
+  "author": "makesimple",
+  "description": "Convert your notes to HTML and upload to Arweave.",
+  "repo": "konfuzz/arweave-uploader-plugin"
+  },
+	{
 	"id": "fast-forward-link",
 	"name": "FastForwardLink",
-        "author": "Idan Liberman",
-        "description": "Fast-forward multiple links to a single target note. Create custom link shorthands (like `ps` > `photoshop`) to create synonyms, streamline navigation, and keep your vault organized.",
-        "repo": "IdanLib/ObsidianFastForwardLinkPlugin"
+  "author": "Idan Liberman",
+  "description": "Fast-forward multiple links to a single target note. Create custom link shorthands (like `ps` > `photoshop`) to create synonyms, streamline navigation, and keep your vault organized.",
+  "repo": "IdanLib/ObsidianFastForwardLinkPlugin"
     }
 ]
 
