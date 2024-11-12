@@ -13606,7 +13606,7 @@
         "author": "Moritz Jung",
         "description": "A blazingly fast fuzzy finder with file preview.",
         "repo": "mProjectsCode/obsidian-lemons-search-plugin"
-	},
+    },
     {
         "id": "flow",
         "name": "Flow",
@@ -13747,7 +13747,7 @@
     "author": "Aly Thobani",
     "description": "Quickly add, change, or remove callouts in your notes.",
     "repo": "alythobani/obsidian-callout-toggles"
-    },
+  },
     {
         "id": "copy-image-text",
         "name": "复制图文 (Copy Image Text)",
@@ -13908,7 +13908,167 @@
   "description": "Sync CangQuYun web snapshot and highlight to notes",
   "author": "Hao",
   "repo": "43278047/cangquyun-plugin-obsidian"
-}
-
+},
+{
+    "id": "tree-search",
+    "name": "Tree Search",
+    "author": "catacgc",
+    "description": "Supercharged search across backlinks and relations in your notes",
+    "repo": "catacgc/obsidian-tree-search"
+},
+{
+    "id": "hexo-toolkit",
+    "name": "Hexo Toolkit",
+    "author": "Xiangru",
+    "description": "Maintain Hexo posts.",
+    "repo": "sissilab/obsidian-hexo-toolkit"
+  },
+  {
+    "id": "unearthed-app",
+    "name": "Unearthed (Kindle Sync)",
+    "author": "CheersCal",
+    "description": "Auto Sync Kindle Highlights and Daily Reflection via Unearthed",
+    "repo": "Unearthed-App/unearthed-obsidian"
+  },
+  {
+    "id": "text-finder",
+    "name": "Text Finder",
+    "author": "hafuhafu",
+    "description": "A search bar that supports search, replace, regular expressions, and case sensitivity.",
+    "repo": "nyable/obsidian-text-finder"
+  },
+  {
+    "id": "svg-styler",
+    "name": "SVG Style Editor",
+    "author": "ARGOSTA",
+    "description": "Change the color and other style properies of an embded SVG file",
+    "repo": "arg1998/obsidian-svg-styler"
+    },
+    {
+    "id": "workout-tracker",
+  	"name": "Workout Tracker",
+ 	"author": "wanabeunique",
+  	"description": "Log workouts, track progress, and view exercise statistic.",
+  	"repo": "wanabeunique/obsidian-workout-tracker"
+	},
+	{
+        "id": "superstition",
+        "name": "Superstition",
+        "author": "Jeffry",
+        "description": "Manage routines with traditional calendar concept of 宜/忌.",
+        "repo": "shuxueshuxue/superstition"
+    },
+    {
+        "id": "neurovox",
+        "name": "NeuroVox",
+        "author": "Synaptic Labs",
+        "description": "Enhances your note-taking with voice transcription and AI capabilities.",
+        "repo": "Synaptic-Labs-AI/NeuroVox"
+	},
+     {
+	  "id": "todos-sort",
+	  "name": "Todos sort",
+	  "description": "Sorting your TODOs (checkboxes) in current note by completion status",
+	  "author": "Jiri Sifalda",
+	  "repo": "jsifalda/obsidian-todos-sort"
+	},
+    {
+        "id": "masking-type",
+        "name": "Masking Type",
+        "author": "Telehakke",
+        "description": "Mask bold, italic, and highlight",
+        "repo": "Telehakke/masking-type"
+	},
+    {
+        "id": "featured-image",
+        "name": "Featured Image",
+        "author": "Johan Sanneblad",
+        "description": "Featured Image automatically sets a featured image property in your notes based on the first image, YouTube link, or Auto Card Link image found in your document. This allows you to create rich note galleries using Folder Notes and Dataview.",
+        "repo": "johansan/obsidian-featured-image"
+    },
+    {
+        "id": "daily-note-calendar",
+        "name": "Daily notes calendar",
+        "author": "bartkessels",
+        "description": "Navigate to your weekly- and daily-notes using a calendar view.",
+        "repo": "bartkessels/daily-note-calendar"
+      },
+      {
+        "id": "edge-tts",
+        "name": "Edge TTS",
+        "author": "Travis",
+        "description": "Read notes aloud using Microsoft Edge Read Aloud API (free, high quality text-to-speech).",
+        "repo": "travisvn/obsidian-edge-tts"
+	},
+    {
+        "id": "textgrams",
+        "name": "Textgrams",
+        "author": "Akop Kesheshyan",
+        "description": "Store and visualise ASCII graphics and charts",
+        "repo": "akopdev/obsidian-textgrams"
+    },
+	{
+		"id": "activity-heatmap",
+		"name": "Activity Heatmap",
+		"author": "Zak Hijaouy",
+		"description": "Tracks and visualizes app activity, similar to GitHub's contribution chart.",
+		"repo": "zakhij/obsidian-activity-heatmap"
+	},
+    {
+        "id": "brain-dump-mode",
+        "name": "Brain Dump Mode",
+        "description": "Done is better than perfect. Complete your first-messy-draft before you make it perfect. Your delete key will be DISABLED and all you can do is JUST BURN YOUR KEYBOARDS🔥",
+        "author": "yesjinu",
+        "repo": "yesjinu/brain-dump-mode"
+    },
+    {
+        "id": "markdown-timeline",
+        "name": "Markdown Timeline",
+        "author": "Jiaheng Zhang",
+        "description": "Convert markdown into timeline visualization",
+        "repo": "recklyss/markdown-timeline"
+    },
+  {
+    "id": "check-and-delete",
+    "name": "Check and Delete",
+    "author": "Danitiate",
+    "description": "Quickly clean up temporary list-items with the press of a button",
+    "repo": "Danitiate/check-and-delete"
+  },
+  {
+    "id": "perplexity-converter",
+    "name": "Perplexity Converter",
+    "author": "Henrik Seidel",
+    "description": "Fix references and their hyperlinks in text pasted from Perplexity.",
+    "repo": "heseber/perplexity-converter"
+  },
+  {
+	"id": "daily-random-note",
+	"name": "Daily Random Note",
+	"author": "Alexandre Silva",
+	"description": "Automatically open daily random notes based on your preferences.",
+  	"repo": "D4rkP1xel/daily-random-note"
+   },
+  {
+    "id": "type-zen-mode",
+    "name": "Typezen",
+    "author": "Ilgam Gabdullin",
+    "description": "Type anything and get in zen mode instantly, no more distraction between you and your thoughts.",
+    "repo": "IlgamGabdullin/obsidian-typezen"
+  },
+  {
+    "id": "ioc-lens",
+    "name": "IOC Lens",
+    "author": "Aaron Gabbert",
+    "description": "Extracts and displays security-relevant indicators such as IP addresses, domains, and file hashes to enhance your cyber security note-taking process.",
+    "repo": "acgabbert/ioc-lens"
+  },
+  {
+    "id": "automatic-renumbering",
+    "name": "Automatic Renumbering",
+    "author": "Omri Levi",
+    "description": "Updates numbered lists automatically to keep them in sequential order. Features live updates, smart pasting, and manual control options.",
+    "repo": "OmriLeviGit/Automatic-Renumbering-Obsidian"
+  }
 ]
 
