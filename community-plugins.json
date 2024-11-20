@@ -658,32 +658,11 @@
         "repo": "ravimashru/obsidian-show-file-path"
     },
     {
-        "id": "obsidian-paper-cut",
-        "name": "PaperCut",
-        "author": "darakah",
-        "description": "Express an idea in the simplest possible way... or else.",
-        "repo": "Darakah/obsidian-paper-cut"
-    },
-    {
-        "id": "obsidian-comments",
-        "name": "Comments",
-        "author": "darakah",
-        "description": "Add, track and easily navigate between a note's comments.",
-        "repo": "Darakah/obsidian-comments-plugin"
-    },
-    {
         "id": "various-complements",
         "name": "Various Complements",
         "author": "tadashi-aikawa",
         "description": "Complete words similar to auto-completion in an IDE.",
         "repo": "tadashi-aikawa/obsidian-various-complements-plugin"
-    },
-    {
-        "id": "obsidian-timelines",
-        "name": "Timelines",
-        "author": "darakah",
-        "description": "Create a timeline view of all notes with the specified combination of tags.",
-        "repo": "Darakah/obsidian-timelines"
     },
     {
         "id": "note-folder-autorename",
@@ -791,13 +770,6 @@
         "repo": "SilentVoid13/Chesser"
     },
     {
-        "id": "obsidian-activity-history",
-        "name": "Activity History",
-        "description": "Track activity of specified projects, Github like activity board.",
-        "author": "darakah",
-        "repo": "Darakah/obsidian-activity-history"
-    },
-    {
         "id": "obsidian-chessboard",
         "name": "Chessboard Viewer",
         "description": "Render chess positions diagrams in note preview.",
@@ -810,13 +782,6 @@
         "description": "Makes creating footnotes more fun!",
         "author": "Alexis Rondeau, Micha Brugger",
         "repo": "MichaBrugger/obsidian-footnotes"
-    },
-    {
-        "id": "obsidian-gallery",
-        "name": "Gallery",
-        "description": "Interactive card-like gallery display of images.",
-        "author": "darakah",
-        "repo": "Darakah/obsidian-gallery"
     },
     {
         "id": "notetweet",
@@ -903,13 +868,6 @@
         "repo": "imdone/imdone-obsidian-plugin"
     },
     {
-        "id": "obsidian-spotlight",
-        "name": "Spotlight",
-        "description": "Block that features random notes or block of a note from vault / in a specified project or with a certain combination of tags.",
-        "author": "darakah",
-        "repo": "Darakah/obsidian-spotlight"
-    },
-    {
         "id": "unique-attachments",
         "name": "Unique attachments",
         "description": "Rename attachments, making their names unique (based on hashing of file content).",
@@ -929,13 +887,6 @@
         "description": "advanced spell/grammar checks with the help of language-tool.",
         "author": "Clemens Ertle",
         "repo": "Clemens-E/obsidian-languagetool-plugin"
-    },
-    {
-        "id": "obsidian-commits",
-        "name": "Commits",
-        "description": "Track & show commits in your vault or specified project.",
-        "author": "darakah",
-        "repo": "Darakah/obsidian-commits"
     },
     {
         "id": "obsidian-outliner",
@@ -999,13 +950,6 @@
         "description": "Control everything with URI.",
         "author": "Vinzent",
         "repo": "Vinzent03/obsidian-advanced-uri"
-    },
-    {
-        "id": "obsidian-fountain",
-        "name": "Fountain",
-        "description": "Edit, write and render Fountain Writing Syntax for screenplays and scripts.",
-        "author": "darakah",
-        "repo": "Darakah/obsidian-fountain"
     },
     {
         "id": "cm-chs-patch",
@@ -13853,6 +13797,13 @@
         "repo": "fabricehong/obsidian-prompt-crafter-plugin"
     },
     {
+        "id": "cursor-bridge",
+        "name": "Cursor Bridge",
+        "author": "Adam Cloud",
+        "description": "Seamlessly bridge your notes with Cursor, the AI-powered code editor.",
+        "repo": "lengff123/cursor-bridge"
+    },
+    {
         "id": "nav-weight",
         "name": "Nav Weight",
         "author": "shu307",
@@ -14049,6 +14000,90 @@
         "repo": "OmriLeviGit/Automatic-Renumbering-Obsidian"
     },
     {
+        "id": "three-noun-prompts",
+        "name": "Three Noun Prompts",
+        "description": "Creative writing prompts that can be synced offline.",
+        "author": "jamespeachh",
+        "repo": "jamespeachh/three-noun-prompts"
+    },
+    {
+        "id": "hackmd-sync",
+        "name": "HackMD Sync",
+        "author": "thor kampefner",
+        "description": "Sync notes to from HackMD",
+        "repo": "thor314/hackmd-obsidian"
+    },
+    {
+        "id": "bottom-to-top",
+        "name": "Bottom to Top",
+        "author": "Henry Gustafson",
+        "description": "Makes text go from left-to-right, bottom-to-top.",
+        "repo": "lizard-heart/obsidian-bottom-to-top-text"
+    },
+    {
+        "id": "recently-added-files",
+        "name": "Recently Added Files",
+        "author": "Lemon695",
+        "description": "List files by last added, including pictures, MP4s, PDFs etc.",
+        "repo": "Lemon695/obsidian-recently-added-files"
+    },
+    {
+        "id": "image-tools",
+        "name": "Image Tools",
+        "author": "Andrey Serov",
+        "description": "Formatter for image on page.",
+        "repo": "Hosstell/image-tools-obsidian-plugin"
+    },
+    {
+        "id": "gemini-scribe",
+        "name": "Gemini Scribe",
+        "author": "Allen Hutchison",
+        "description": "Allows you to interact with Gemini and use your notes as context.",
+        "repo": "allenhutchison/obsidian-gemini"
+    },
+    {
+        "id": "daily-summary",
+        "name": "Daily Summary",
+        "author": "Luke",
+        "description": "Use LLM to summarize what you did today.",
+        "repo": "CSLukkun/ob_daily_summary"
+    },
+    {
+        "id": "auto-tasks",
+        "name": "Auto Tasks",
+        "author": "Jamie Hurst",
+        "description": "Combine periodic notes with tags and tasks to automatically manage your daily, weekly and project TODO lists. Requires the Periodic Notes and Tasks plugins.",
+        "repo": "jamiefdhurst/obsidian-auto-tasks"
+    },
+    {
+        "id": "task-director",
+        "name": "Task Director",
+        "author": "Cybertramp",
+        "description": "Manage and change tasks targeting a specific page",
+        "repo": "cybertramp/obsidian-task-director"
+    },
+    {
+        "id": "history-today",
+        "name": "History Today",
+        "author": "Yaob1990",
+        "description": "View and review your historical notes from this day across previous years",
+        "repo": "Yaob1990/obsidian-history-today"
+    },
+    {
+        "id": "beautiful-contact-cards",
+        "name": "Beautiful Contact Cards",
+        "author": "Seth Tenembaum",
+        "description": "Renders \"contact\" code blocks with tappable links for phone, social media, etc.",
+        "repo": "seth10/beautiful-obsidian-contacts"
+    },
+    {
+        "id": "blaze-jump",
+        "name": "BlazeJump",
+        "author": "henryco",
+        "description": "Navigate through text at blazing speed.",
+        "repo": "henryco/BlazeJump-Obsidian"
+    },
+    {
         "id": "auto-image-uploader",
         "name": "PicBedUploader",
         "author": "YumeAyai",
@@ -14056,3 +14091,4 @@
         "repo": "YumeAyai/obsidian-picbeduploader"
     }
 ]
+
