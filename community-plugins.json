@@ -658,11 +658,32 @@
         "repo": "ravimashru/obsidian-show-file-path"
     },
     {
+        "id": "obsidian-paper-cut",
+        "name": "PaperCut",
+        "author": "darakah",
+        "description": "Express an idea in the simplest possible way... or else.",
+        "repo": "Darakah/obsidian-paper-cut"
+    },
+    {
+        "id": "obsidian-comments",
+        "name": "Comments",
+        "author": "darakah",
+        "description": "Add, track and easily navigate between a note's comments.",
+        "repo": "Darakah/obsidian-comments-plugin"
+    },
+    {
         "id": "various-complements",
         "name": "Various Complements",
         "author": "tadashi-aikawa",
         "description": "Complete words similar to auto-completion in an IDE.",
         "repo": "tadashi-aikawa/obsidian-various-complements-plugin"
+    },
+    {
+        "id": "obsidian-timelines",
+        "name": "Timelines",
+        "author": "darakah",
+        "description": "Create a timeline view of all notes with the specified combination of tags.",
+        "repo": "Darakah/obsidian-timelines"
     },
     {
         "id": "note-folder-autorename",
@@ -770,6 +791,13 @@
         "repo": "SilentVoid13/Chesser"
     },
     {
+        "id": "obsidian-activity-history",
+        "name": "Activity History",
+        "description": "Track activity of specified projects, Github like activity board.",
+        "author": "darakah",
+        "repo": "Darakah/obsidian-activity-history"
+    },
+    {
         "id": "obsidian-chessboard",
         "name": "Chessboard Viewer",
         "description": "Render chess positions diagrams in note preview.",
@@ -782,6 +810,13 @@
         "description": "Makes creating footnotes more fun!",
         "author": "Alexis Rondeau, Micha Brugger",
         "repo": "MichaBrugger/obsidian-footnotes"
+    },
+    {
+        "id": "obsidian-gallery",
+        "name": "Gallery",
+        "description": "Interactive card-like gallery display of images.",
+        "author": "darakah",
+        "repo": "Darakah/obsidian-gallery"
     },
     {
         "id": "notetweet",
@@ -868,6 +903,13 @@
         "repo": "imdone/imdone-obsidian-plugin"
     },
     {
+        "id": "obsidian-spotlight",
+        "name": "Spotlight",
+        "description": "Block that features random notes or block of a note from vault / in a specified project or with a certain combination of tags.",
+        "author": "darakah",
+        "repo": "Darakah/obsidian-spotlight"
+    },
+    {
         "id": "unique-attachments",
         "name": "Unique attachments",
         "description": "Rename attachments, making their names unique (based on hashing of file content).",
@@ -887,6 +929,13 @@
         "description": "advanced spell/grammar checks with the help of language-tool.",
         "author": "Clemens Ertle",
         "repo": "Clemens-E/obsidian-languagetool-plugin"
+    },
+    {
+        "id": "obsidian-commits",
+        "name": "Commits",
+        "description": "Track & show commits in your vault or specified project.",
+        "author": "darakah",
+        "repo": "Darakah/obsidian-commits"
     },
     {
         "id": "obsidian-outliner",
@@ -950,6 +999,13 @@
         "description": "Control everything with URI.",
         "author": "Vinzent",
         "repo": "Vinzent03/obsidian-advanced-uri"
+    },
+    {
+        "id": "obsidian-fountain",
+        "name": "Fountain",
+        "description": "Edit, write and render Fountain Writing Syntax for screenplays and scripts.",
+        "author": "darakah",
+        "repo": "Darakah/obsidian-fountain"
     },
     {
         "id": "cm-chs-patch",
@@ -13572,12 +13628,12 @@
         "description": "Allows users to upload local files to the cloud, reducing the burden on local vaults and enabling seamless synchronization across multiple devices.",
         "repo": "yingjialong/obsidian-CloudStorage"
     },
-    {
+    { 
         "id": "local-media-embedder",
         "name": "Local Media Embedder",
-        "author": "seyf1elislam",
-        "description": "Embed videos and images and audios from your local device in your notes.",
-        "repo": "seyf1elislam/obsidian-LocalMediaEmbedder-plugin"
+        "author": "seyf1elislam", 
+        "description": "Embed videos and images and audios from your local device in your notes.", 
+        "repo": "seyf1elislam/obsidian-LocalMediaEmbedder-plugin" 
     },
     {
         "id": "tab-panels",
@@ -14596,6 +14652,13 @@
 	"description": "An easy way to explore, visualise, and modify callout icons.",
 	"repo": "br4in/calloutX"
     },
+  {
+    "id": "cursor-bridge",
+    "name": "Cursor Bridge",
+    "author": "Adam Cloud",
+    "description": "Seamlessly bridge your notes with Cursor, the AI-powered code editor.",
+    "repo": "lengff123/cursor-bridge"
+	},
     {
     "id": "sync-cnblog",
     "name": "Sync Cnblog",
@@ -15055,7 +15118,7 @@
     "id": "pycalc",
     "name": "pycalc",
     "author": "pycalc",
-    "description": "Execution of python code directly within the editor upon pressing the Enter key.",
+    "description": "Executing Python code directly within the editor by pressing the Enter key.",
     "repo": "pycalc-plugin/obsidian"
   }
 ]
