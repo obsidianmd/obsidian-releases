@@ -12288,7 +12288,7 @@
         "id": "remove-newlines",
         "name": "Remove Newlines",
         "author": "Elias Jaffe",
-        "description": "Remove newlines from text selections and also paste content from the clipboard without newlines.",
+        "description": "Remove line breaks or blank lines from text selected in the editor, or as you paste from the clipboard.",
         "repo": "HandcartCactus/obsidian-remove-newlines"
     },
     {
@@ -14180,7 +14180,7 @@
     "author": "SedationH",
     "description": "Quickly insert a divider line at the beginning of your note.",
     "repo": "sedationh/obsidian-instant-above-divider"
-    },
+  },
     {
 	"id": "foldercanvas",
 	"name": "Folder Canvas",
@@ -14230,12 +14230,19 @@
    "description": "A plugin to audit passwords for strength and breaches, and generate secure passwords.",
    "repo": "prashanthpulisetti/password-audit"
   },
-	 {
+  {
     "id": "obsnippets",
     "name": "Snippetsaurus",
     "author": "Christian Humbert",
     "description": "Create and managing text and code snippets.",
     "repo": "Chrstn67/obsidian-plugin-obsnippets"
+  },
+  {
+    "id": "simple-todo",
+    "name": "Simple Todo",
+    "author": "elliotxx",
+    "description": "A minimalist text-based todo manager (Text-Based GTD) for efficient task management.",
+    "repo": "elliotxx/obsidian-simple-todo"
   },
   {
     "id": "auto-image-uploader",
