@@ -12288,7 +12288,7 @@
         "id": "remove-newlines",
         "name": "Remove Newlines",
         "author": "Elias Jaffe",
-        "description": "Remove newlines from text selections and also paste content from the clipboard without newlines.",
+        "description": "Remove line breaks or blank lines from text selected in the editor, or as you paste from the clipboard.",
         "repo": "HandcartCactus/obsidian-remove-newlines"
     },
     {
@@ -14001,11 +14001,11 @@
 },
 {
 "id": "automatic-renumbering",
-"name": "Automatic Renumbering",
+"name": "Automatic List Renumbering",
 "author": "Omri Levi",
-"description": "Updates numbered lists automatically to keep them in sequential order. Features live updates, smart pasting, and manual control options.",
+"description": "Automatically renumber numbered lists as you edit them.",
 "repo": "OmriLeviGit/Automatic-Renumbering-Obsidian"
-  },
+},
 {
     "id": "three-noun-prompts",
     "name": "Three Noun Prompts",
@@ -14180,7 +14180,7 @@
     "author": "SedationH",
     "description": "Quickly insert a divider line at the beginning of your note.",
     "repo": "sedationh/obsidian-instant-above-divider"
-    },
+  },
     {
 	"id": "foldercanvas",
 	"name": "Folder Canvas",
@@ -14231,6 +14231,146 @@
    "repo": "prashanthpulisetti/password-audit"
   },
   {
+    "id": "obsnippets",
+    "name": "Snippetsaurus",
+    "author": "Christian Humbert",
+    "description": "Create and managing text and code snippets.",
+    "repo": "Chrstn67/obsidian-plugin-obsnippets"
+  },
+  {
+    "id": "simple-todo",
+    "name": "Simple Todo",
+    "author": "elliotxx",
+    "description": "A minimalist text-based todo manager (Text-Based GTD) for efficient task management.",
+    "repo": "elliotxx/obsidian-simple-todo"
+  },
+ {
+	"id": "weekly-goal-tracker",
+	"name": "Weekly Goal Tracker",
+	"author": "George Gorman",
+	"description": "Keep track of weekly goals in the status bar",
+	"repo": "GitGorman/weekly-goal-tracker"
+    },
+  {
+    "id": "mdfriday",
+    "name": "Friday",
+    "author": "sunwei",
+    "description": "Notes to Website. Friday helps you turn Markdown documents into websites in minutes.",
+    "repo": "mdfriday/obsidian-friday-plugin"
+  },
+  {
+    "id": "chronos",
+    "name": "Chronos Timeline",
+    "author": "Claire Froelich",
+    "description": "Render interactive timelines inline in your notes from simple markdown",
+    "repo": "clairefro/obsidian-plugin-chronos"
+  },
+  {
+    "id": "clear-todos",
+    "name": "Clear Todos",
+    "author": "Joshua Gawenda",
+    "description": "Quickly remove all completed todos from your notes or selected text.",
+    "repo": "gutentag2012/obsidian-plugin-clear-todos"
+  },
+  {
+    "id": "post-webhook",
+    "name": "Post Webhook",
+    "author": "MasterB1234",
+    "description": "Send notes to webhook endpoints, for seamless integration with i.a. n8n, Make.com, and Zapier.",
+    "repo": "Masterb1234/obsidian-post-webhook"
+  },
+  {
+    "id": "simple-quiz",
+    "name": "Simple Quiz",
+    "author": "Ivan Kalmar",
+    "description": "Creating simple quizzes.",
+    "repo": "IvanKalmar/simple-quiz"
+    },
+  {
+   "id": "folder-links",
+   "name": "Folder Links",
+   "author": "Stefan Rausch",
+   "description": "Clicking a link to a folder makes it revealed in the navigation.",
+   "repo": "SteveOverSea/obsidian-folder-links"
+  },
+  {
+    "id": "auto-file-organizer",
+    "name": "Auto File Organizer",
+    "author": "mofukuru",
+    "description": "Automatically organizes files into folders based on their extensions.",
+    "repo": "mofukuru/auto_file_organizer"
+  },
+  {
+    "id": "setlist-fm-sync",
+    "name": "Setlist.fm Sync",
+    "author": "Nick Felker",
+    "description": "Syncs your setlist.fm attended concerts.",
+    "repo": "fleker/setlist-for-obsidian"
+  },
+    {
+    "id": "mass-create",
+    "name": "Mass Create",
+    "author": "vellikhor",
+    "description": "Create large quantities of notes easily at one time.",
+    "repo": "vellikhor/mass-create"
+    },
+  {
+    "id": "obsifetch",
+    "name": "Obsifetch",
+    "author": "tabibyte",
+    "description": "A neofetch-style vault information display.",
+    "repo": "tabibyte/obsifetch"
+  },
+  {
+  "id": "abbrlink",
+  "name": "Abbrlink",
+  "author": "Q78KG",
+  "description": "Automatically generate permanent short links for your markdown files.",
+  "repo": "Hoshino-Yumetsuki/obsidian-plugin-abbrlink"
+  },
+  {
+    "id": "llm-workspace",
+    "name": "LLM workspace",
+    "author": "Olivér Falvai",
+    "description": "Use Large Language Models grounded in your notes.",
+    "repo": "ofalvai/obsidian-llm-workspace"
+  },
+{
+    "id": "todoist-context-bridge",
+    "name": "Todoist Context Bridge",
+    "author": "wenlzhang",
+    "description": "Bridge your note-taking and task management workflows by maintaining strong contextual connections with Todoist.",
+    "repo": "wenlzhang/obsidian-todoist-context-bridge"
+  },
+  {
+  "id": "discord-timestamps",
+  "name": "Discord Timestamps",
+  "author": "Erika Gozar",
+  "description": "Displays discord timestamps in read mode as they would appear in Discord.",
+  "repo": "Erallie/discord-timestamps"
+  },
+  {
+   "id": "heatmap-tracker",
+   "name": "Heatmap Tracker",
+   "author": "Maksim Rubanau",
+   "description": "Visualize your activity and track goals, progress, habits, tasks, exercise, finances, and more—all in a single, interactive heatmap!",
+   "repo": "mokkiebear/heatmap-tracker"
+    },
+    {
+	"id": "visual-crossing-weather",
+	"name": "Visual Crossing Weather",
+	"author": "willasm",
+	"description": "Visual Crossing Weather API for Your Notes",
+	"repo": "willasm/vc-weather"
+    },
+	{
+		"id": "image-uploader-for-note",
+		"name": "Image Uploader For Note",
+		"author": "Yunfi",
+		"description": "Upload images in a note, and remove the images from the vault if they're exclusively used within that note.",
+		"repo": "yy4382/obsidian-image-upload"
+  },
+  {
     "id": "scribe",
     "name": "Scribe",
     "author": "Mike Alicea",
@@ -14238,3 +14378,4 @@
     "repo": "Mikodin/obsidian-scribe"
   }
 ]
+
