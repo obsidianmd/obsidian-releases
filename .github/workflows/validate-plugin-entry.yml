@@ -271,6 +271,12 @@ jobs:
                 pull_number: context.issue.number,
                 title: `Add plugin: ${plugin.name}`
               });
+              await github.rest.issues.addAssignees({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                assignees: 'ObsidianReviewBot'
+                });
 
               if(!context.payload.pull_request.labels.filter(label => label.name === 'Changes requested').length > 0) {
                 labels.push("Ready for review");
