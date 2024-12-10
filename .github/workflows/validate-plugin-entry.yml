@@ -272,6 +272,25 @@ jobs:
                 title: `Add plugin: ${plugin.name}`
               });
 
+              const comments = github.rest.issues.listComments({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number
+              });
+              const commentAuthors = [];
+              for (const comment in comments) {
+                commentAuthors.push(comment.user.login);
+              }
+
+              if (!commentAuthors.includes("ObsidianReviewBot")) {
+                await github.rest.issues.addAssignees({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  assignees: 'ObsidianReviewBot'
+                });
+              }
+
               if(!context.payload.pull_request.labels.filter(label => label.name === 'Changes requested').length > 0) {
                 labels.push("Ready for review");
               }
