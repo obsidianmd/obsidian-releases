@@ -6324,7 +6324,7 @@
         "id": "personal-assistant",
         "name": "Personal Assistant",
         "author": "edony",
-        "description": "Streamline workflows within Obsidian, managing memos, formatted records, callouts, frontmatter, local graph, themes and plugins with just one command.",
+        "description": "AI-powered workflows to streamline the management of records, callouts, frontmatter, graph view, themes, and plugins.",
         "repo": "edonyzpc/personal-assistant"
     },
     {
@@ -7577,7 +7577,7 @@
         "id": "image-converter",
         "name": "Image Converter",
         "author": "xRyul",
-        "description": "Convert, compress and resize images from one format to another by dragging and dropping or pasting into the note.",
+        "description": "Convert, compress, resize, annotate, markup, draw, crop, rotate, flip, align, drag-resize, rename with variables, and batch process images: WEBP, JPG, PNG, HEIC, TIF",
         "repo": "xryul/obsidian-image-converter"
     },
     {
@@ -12582,7 +12582,7 @@
         "id": "tags-routes",
         "name": "Tags Routes",
         "author": "Ken",
-        "description": "A powerful tool for visualizing 3D graphs and managing orphan files, offering a dynamic and colorful 3D graph view for enhanced user experience.",
+        "description": "A powerful 3D graph viewer for managing and navigating notes and tags, with advanced visual effects, animations.",
         "repo": "kctekn/obsidian-TagsRoutes"
     },
     {
@@ -13536,13 +13536,13 @@
         "author": "Mike Bird",
         "description": "An AI assistant that you can control with natural language. The power of Open Interpreter in your vault",
         "repo": "MikeBirdTech/obsidian-open-interpreter"
-    },
-    {
-        "id": "scrambling-title-animations",
-        "name": "Scrambling Title Animations",
-        "author": "HistidineDwarf",
-        "description": "Animates the title of any note you open by scrambling and revealing it in several visually appealing ways.",
-        "repo": "DvorakDwarf/scrambling-title-animations"
+  },
+	{
+		"id": "scrambling-title-animations",
+		"name": "Scrambling Title Animations",
+		"author": "HistidineDwarf",
+		"description": "Animates the title of any note you open by scrambling and revealing it in several visually appealing ways.",
+		"repo": "DvorakDwarf/scrambling-title-animations"
     },
     {
         "id": "lemons-search",
@@ -14169,9 +14169,9 @@
   },
 {
     "id": "markdown-tags",
-    "name": "Markdown Tags",
+    "name": "Tags for Markdown",
     "author": "John Smith III",
-    "description": "Enhance your documents with tags and arrow tags. Use predefined or custom labels, customizable colors, and arrow indicators to visually track tasks and statuses.",
+    "description": "Enhance your Markdown documents with tags and arrow tags. Use predefined or custom labels, customizable colors, and arrow indicators to visually track tasks and statuses.",
     "repo": "binarynoir/obsidian-markdown-tags"
   },
   {
@@ -14362,8 +14362,8 @@
 	"author": "willasm",
 	"description": "Visual Crossing Weather API for Your Notes",
 	"repo": "willasm/vc-weather"
-  },
-    {
+    },
+	{
 		"id": "image-uploader-for-note",
 		"name": "Image Uploader For Note",
 		"author": "Yunfi",
@@ -14371,6 +14371,118 @@
 		"repo": "yy4382/obsidian-image-upload"
   },
   {
+    "id": "hugo-sync",
+    "name": "Sync to Hugo",
+    "author": "Cray Huang",
+    "description": "Sync and convert the selected notes to Hugo blog.",
+    "repo": "crayhuang/Obsidian-Hugo-Sync"
+},
+{
+    "id": "zenmode",
+    "name": "Zen Mode",
+    "author": "paperbenni",
+    "description": "Hide most UI elements.",
+    "repo": "paperbenni/obsidian-zenmode"
+},
+{
+    "id": "magiedit",
+	"name": "Magiedit",
+	"author": "Matteo Gassend",
+	"description": "Official plugin to interact with Magiedit's API",
+	"repo": "magitools/magiedit-obsidian"
+  },
+  {
+    "id": "tab-limit",
+    "name": "Tab Limiter",
+    "author": "Henry Gustafson",
+    "description": "Limits the number of tabs that can be opened.",
+    "repo": "lizard-heart/obsidian-tab-limit"
+  },
+  {
+    "id": "share-as-zip",
+    "name": "Share as ZIP",
+    "description": "Share notes and their links as a zip folder.",
+    "author": "Till Friebe",
+    "repo": "friebetill/obsidian-share-as-zip"
+  },
+  {
+    "id": "3d_embeds",
+    "name": "Embed 3D",
+    "author": "Jesse Strijker",
+    "description": "Embed 3DModels in markdown notes.",
+    "repo": "ElmoNeedsArson/Obsidian-3D-embed"
+  },	
+   {
+    "id": "wardley-maps",
+    "name": "Wardley Maps",
+    "author": "Damon Skelhorn",
+    "description": "View and edit Wardley Maps directly within your notes using the popular Online Wardley Maps (OWM) format.",
+    "repo": "damonsk/obsidian-wardley-maps"
+  },
+  {
+    "id": "class-relation-visualization",
+    "name": "Class Relation Visualization",
+    "author": "Yong",
+    "description": "You can visualize your classes and their inheritance, composition, aggregation relation.",
+    "repo": "Cold-dragon7/Obsidian-Class-Relation-Visualization"
+  },
+  {
+    "id": "usher",
+    "name": "Usher",
+    "description": "The overridden config directory manager",
+    "author": "vorotamoroz",
+    "repo": "vrtmrz/usher"
+},
+{
+    "id": "create-folder-notes-with-dropdown",
+    "name": "create folder notes with dropdown",
+    "author": "Sturdy Shawn",
+    "description": "create-folder-notes-with-dropdown is a plugin designed to help users quickly create Markdown files in existing or nonexisting folders with dropdown.",
+    "repo": "SturdyShawn/Create-folder-notes-with-dropdown"
+  },
+  {
+	"id": "gay-toolbar",
+	"name": "Gay Toolbar",
+	"author": "Chas Kane",
+	"description": "Colorful, customizable toolbar, designed for mobile",
+	"repo": "ChasKane/gay-toolbar"
+  },
+  {
+    "id": "convert-katex-to-mathjax",
+    "name": "KaTeX to MathJax",
+    "author": "Darko Pejakovic",
+    "description": "Converts KaTeX format to MathJax format",
+    "repo": "pejakovic/obsidian-convert-katex-to-mathjax"
+  },
+  {
+    "id": "insert-new-line",
+    "name": "Insert New Line",
+    "author": "Freddy Ouellette",
+    "description": "Insert a new line above or below the current line.",
+    "repo": "freddyouellette/obsidian-insert-new-line-plugin"
+  },
+	{
+    "id": "cypher",
+    "name": "Cypher",
+    "author": "Atharva Wankhede",
+    "description": "Hides text in a simple diagrammatic cypher to make reading unrecognizable for viewers.",
+    "repo": "aths7/cypher"
+  },
+{
+	"id": "calloutx",
+	"name": "CalloutX",
+	"author": "br4in",
+	"description": "An easy way to explore, visualise, and modify callout icons.",
+	"repo": "br4in/calloutX"
+    },
+    {
+    "id": "sync-cnblog",
+    "name": "Sync Cnblog",
+    "author": "zhanglei",
+    "description": "将笔记同步到博客园",
+    "repo": "lei-ctyh/obsidian-sync-cnblog"
+},
+{
     "id": "arxiv-assistant",
     "name": "ArXiv Paper Assistant",
     "author": "Puer-Hyun",
@@ -14378,4 +14490,3 @@
     "repo": "Puer-Hyun/arxiv-assistant"
     }
 ]
-
