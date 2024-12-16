@@ -10864,6 +10864,13 @@
         "repo": "gapmiss/livecodes-playground"
     },
     {
+        "id": "auto-embed",
+        "name": "Auto Embed",
+        "author": "GnoxNahte",
+        "description": "Helps to embed links using markdown instead of iframe.",
+        "repo": "GnoxNahte/obsidian-auto-embed"
+    },
+    {
         "id": "vare",
         "name": "VARE",
         "author": "4Source",
@@ -13572,13 +13579,20 @@
         "description": "Allows users to upload local files to the cloud, reducing the burden on local vaults and enabling seamless synchronization across multiple devices.",
         "repo": "yingjialong/obsidian-CloudStorage"
     },
-    { 
+    {
         "id": "local-media-embedder",
         "name": "Local Media Embedder",
-        "author": "seyf1elislam", 
-        "description": "Embed videos and images and audios from your local device in your notes.", 
-        "repo": "seyf1elislam/obsidian-LocalMediaEmbedder-plugin" 
+        "author": "seyf1elislam",
+        "description": "Embed videos and images and audios from your local device in your notes.",
+        "repo": "seyf1elislam/obsidian-LocalMediaEmbedder-plugin"
     },
+    {
+        "id": "tab-panels",
+        "name": "Tab Panels",
+        "author": "GnoxNahte",
+        "description": "Create tab panels to organize content into sections",
+        "repo": "GnoxNahte/obsidian-tab-panels"
+      },
   {
     "id": "jura-links",
     "name": "Jura Links",
@@ -14011,7 +14025,7 @@
     "name": "Bottom to Top",
     "author": "Henry Gustafson",
     "description": "Makes text go from left-to-right, bottom-to-top.",
-    "repo": "lizard-heart/obsidian-bottom-to-top-text"    
+    "repo": "lizard-heart/obsidian-bottom-to-top-text"
   },
   {
     "id": "recently-added-files",
@@ -14025,7 +14039,7 @@
      "name": "Image Tools",
      "author": "Andrey Serov",
      "description": "Formatter for image on page.",
-     "repo": "Hosstell/image-tools-obsidian-plugin" 
+     "repo": "Hosstell/image-tools-obsidian-plugin"
   },
   {
     "id": "gemini-scribe",
@@ -14084,7 +14098,7 @@
         "repo": "fleker/trakt-for-obsidian"
     },
   {
-    "id": "quick-share-note-to-gist", 
+    "id": "quick-share-note-to-gist",
     "name": "Quick Share Note to gist",
     "author": "Por Chainarong Tangsurakit",
     "description": "Quick publish and share notes to GitHub Gist and its image by upload images to Imgur.",
@@ -14293,7 +14307,7 @@
     "description": "Syncs your setlist.fm attended concerts.",
     "repo": "fleker/setlist-for-obsidian"
   },
-    {
+  {
     "id": "mass-create",
     "name": "Mass Create",
     "author": "vellikhor",
@@ -14355,7 +14369,7 @@
 		"author": "Yunfi",
 		"description": "Upload images in a note, and remove the images from the vault if they're exclusively used within that note.",
 		"repo": "yy4382/obsidian-image-upload"
-  },
+    },
   {
     "id": "hugo-sync",
     "name": "Sync to Hugo",
@@ -14369,8 +14383,8 @@
     "author": "paperbenni",
     "description": "Hide most UI elements.",
     "repo": "paperbenni/obsidian-zenmode"
-},
-{
+  },
+  {
     "id": "magiedit",
 	"name": "Magiedit",
 	"author": "Matteo Gassend",
@@ -14397,7 +14411,7 @@
     "author": "Jesse Strijker",
     "description": "Embed 3DModels in markdown notes.",
     "repo": "ElmoNeedsArson/Obsidian-3D-embed"
-  },	
+   },
    {
     "id": "wardley-maps",
     "name": "Wardley Maps",
@@ -14418,8 +14432,8 @@
     "description": "The overridden config directory manager",
     "author": "vorotamoroz",
     "repo": "vrtmrz/usher"
-},
-{
+  },
+  {
     "id": "create-folder-notes-with-dropdown",
     "name": "create folder notes with dropdown",
     "author": "Sturdy Shawn",
@@ -14474,6 +14488,83 @@
         "author": "Alex Nguyen",
         "description": "Automatically exports both checked and unchecked tasks across your vault to text file.",
         "repo": "alexcvnguyen/daily-task-exporter"
-    }	
+    },
+{
+    "id": "exmemo-tools",
+    "name": "ExMemo Tools",
+    "author": "Yan.Xie",
+    "description": "Use LLMs for smart document management and optimization, including relocating files, enhancing text, and generating tags and summary.",
+    "repo": "exmemo-ai/obsidian-exmemo-tools"
+},
+{
+    "id": "fetch-prayer-times",
+    "name": "Fetch Prayer Times",
+    "author": "Ecys",
+    "description": "Fetches current prayer times using the Aladhan API and saves them to a note.",
+    "repo": "Eccys/obsidian-prayer-times"
+  },
+  {
+    "id": "header-navigation",
+    "name": "Header navigation",
+    "author": "readwithai",
+    "description": "Quickly jump between headers and toggle folding",
+    "repo": "talwrii/obsidian-header-navigation"
+  },
+  {
+    "id": "wikidocs",
+    "name": "WikiDocs",
+    "author": "pahkey",
+    "description": "Fetch, edit, and upload WikiDocs books.",
+    "repo": "pahkey/obsidian-wikidocs-plugin"
+    },
+	{
+		"id": "link-formatter",
+		"name": "Link Formatter",
+		"author": "Dilantha Nanayakkara",
+		"description": "Formats a block of links into a clean markdown list",
+		"repo": "dilantha/link-formatter"
+    },
+    {
+	"id": "focus-time",
+	"name": "Focus Time",
+	"author": "AstraDev",
+	"description": "Track the time spent on each note and visualize the data.",
+	"repo": "astradev123/obsidian-focus-time"
+    },
+  {
+    "id": "exmemo-assistant",
+    "name": "ExMemo Assistant",
+    "author": "ExMemo AI",
+    "description": "Using LLMs to manage files and generating metadata such as tags and summaries.", 
+    "repo": "exmemo-ai/obsidian-exmemo-assistant"
+  },
+	{
+		"id": "color-folders-files",
+		"name": "Color Folders and Files",
+		"author": "Mithadon",
+		"description": "Customize the appearance of folders and files in the file explorer.",
+		"repo": "Mithadon/obsidian-color-folders-files"
+  },
+    {
+        "id": "template-by-note-name",
+        "name": "Template by Note Name",
+        "author": "Jacob Learned",
+        "description": "Automatically template notes based on their title.",
+        "repo": "jacoblearned/obsidian-template-by-note-name"
+  },
+  {
+	"id": "fast-forward-link",
+	"name": "FastForwardLink",
+  	"author": "Idan Liberman",
+  	"description": "Fast-forward multiple links to a single target note. Create custom link shorthands (like `ps` > `photoshop`) to create synonyms, streamline navigation, and keep your vault organized.",
+  	"repo": "IdanLib/ObsidianFastForwardLinkPlugin"
+    },
+    {
+        "id": "unit-converter",
+        "name": "Unit Converter",
+        "author": "Ruslan Zabarov",
+        "description": "Converts units right in your Markdown files.",
+        "repo": "ruszabarov/obsidian-unit-converter"
+    }
 ]
 
