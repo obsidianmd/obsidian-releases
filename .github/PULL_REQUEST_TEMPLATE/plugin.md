@@ -6,7 +6,7 @@
 Link to my plugin:
 
 ## Release Checklist
-- [ ] I have tested the plugin on
+- [x] I have tested the plugin on
   - [ ]  Windows
   - [ ]  macOS
   - [x]  Linux
