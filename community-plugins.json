@@ -14636,11 +14636,40 @@
     "description": "Maintain note links when splitting or reorganizing notes.",
     "repo": "wenlzhang/obsidian-link-maintainer"
 },
-{
-  "id": "cooksync",
-  "name": "Cooksync",
-  "author": "Cooksync",
-  "description": "Automatically imports Cooksync data into Obsidian.",
-  "repo": "furst/cooksync-obsidian"
-},
+  },
+  {
+    "id": "export-to-html",
+    "name": "Export to HTML",
+    "author": "kalvn",
+    "description": "Export your Markdown notes as HTML, directly in the clipboard or as a file.",
+    "repo": "kalvn/obsidian-export-to-html"
+  },
+  {
+    "id": "node-flow",
+    "name": "NodeFlow",
+    "author": "LincZero",
+    "description": "Render node streams like `ComfyUi`, `UE`, `Houdini`, `Blender`, etc., to make it easy to write relevant notes. JSON describes the chart, compared to screenshots, making it easier to modify later. The plugin is also compatible with blogs.",
+    "repo": "LincZero/obsidian-node-flow"
+  },
+  {
+    "id": "send-note",
+    "name": "Send Note",
+    "description": "Self-host images on AWS S3.",
+    "author": "jvsteiner",
+    "repo": "jvsteiner/send-note"
+  },
+  {
+    "id": "project-tasks",
+    "name": "Project Tasks",
+    "author": "Paul Paterson",
+    "description": "Allows you to easily create linked tasks for projects by managing the task ID's and dependencies.",
+    "repo": "paulpaterson/obsidian-project-tasks"
+  },
+  {
+    "id": "cooksync",
+    "name": "Cooksync",
+    "author": "Cooksync",
+    "description": "Automatically imports Cooksync data into Obsidian.",
+    "repo": "furst/cooksync-obsidian"
+  },
 ]
