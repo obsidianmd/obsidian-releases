@@ -14339,7 +14339,7 @@
     "id": "todoist-context-bridge",
     "name": "Todoist Context Bridge",
     "author": "wenlzhang",
-    "description": "Bridge your note-taking and task management workflows by maintaining strong contextual connections with Todoist.",
+    "description": "Bridge your note-taking and Todoist task management workflows with contextual connections. Seamlessly integrate with Dataview and Tasks plugins.",
     "repo": "wenlzhang/obsidian-todoist-context-bridge"
   },
   {
@@ -14528,7 +14528,7 @@
     "id": "exmemo-assistant",
     "name": "ExMemo Assistant",
     "author": "ExMemo AI",
-    "description": "Using LLMs to manage files and generating metadata such as tags and summaries.", 
+    "description": "Using LLMs to manage files and generating metadata such as tags and summaries.",
     "repo": "exmemo-ai/obsidian-exmemo-assistant"
   },
 	{
@@ -14608,7 +14608,7 @@
     "description": "You can upload and save images from your notes to your remote server, home NAS, or sync them to your cloud storage (Alibaba Cloud OSS, Amazon S3, Cloudflare R2).",
     "repo": "haierkeys/obsidian-custom-image-auto-uploader"
 },
-{ 
+{
   "id": "wonderbox",
   "name": "WonderBox",
   "author": "Christian HUMBERT",
@@ -14637,10 +14637,74 @@
     "repo": "wenlzhang/obsidian-link-maintainer"
   },
   {
+    "id": "export-to-html",
+    "name": "Export to HTML",
+    "author": "kalvn",
+    "description": "Export your Markdown notes as HTML, directly in the clipboard or as a file.",
+    "repo": "kalvn/obsidian-export-to-html"
+  },
+  {
+    "id": "node-flow",
+    "name": "NodeFlow",
+    "author": "LincZero",
+    "description": "Render node streams like `ComfyUi`, `UE`, `Houdini`, `Blender`, etc., to make it easy to write relevant notes. JSON describes the chart, compared to screenshots, making it easier to modify later. The plugin is also compatible with blogs.",
+    "repo": "LincZero/obsidian-node-flow"
+  },
+  {
+    "id": "send-note",
+    "name": "Send Note",
+    "description": "Instantly send a note, to other users so they can import them into their vault via URL.",
+    "author": "jvsteiner",
+    "repo": "jvsteiner/send-note"
+  },
+  {
+    "id": "project-tasks",
+    "name": "Project Tasks",
+    "author": "Paul Paterson",
+    "description": "Allows you to easily create linked tasks for projects by managing the task ID's and dependencies.",
+    "repo": "paulpaterson/obsidian-project-tasks"
+  },
+  {
+      "id": "cursor-position-on-title-enter",
+      "name": "Cursor Position on Title Enter",
+      "author": "Por Chainarong Tangsurakit",
+      "description": "Set the cursor position after pressing Enter on the note title.",
+      "repo": "chaintng/cursor-position-on-title-enter"
+  },
+  {
+    "id": "smart-context",
+    "name": "Smart Context",
+    "author": "🌴 Brian",
+    "description": "Instantly copy folder contents or open notes—excluding specified headings—into your clipboard. Perfect for providing curated context to tools like ChatGPT, improving responses, and streamlining your AI workflows.",
+    "repo": "brianpetro/smart-context-obsidian"
+  },
+  {
+    "id": "bin-theme-controller",
+    "name": "Theme Controller",
+    "author": "Binaris",
+    "description": "Set when and how the themes will be displayed.",
+    "repo": "Binaris00/Theme-Controller"
+  },
+  {
+    "id": "insert-multiple-attachments",
+    "name": "Insert Multiple Attachments",
+    "author": "mnaoumov",
+    "description": "Allows to insert multiple attachments at a time.",
+    "repo": "mnaoumov/obsidian-insert-multiple-attachments"
+   },
+	{
+    "id": "smart-link-alias",
+    "name": "Smart Link Alias",
+    "author": "Victor Perez-Cano",
+    "description": "Enhance your internal links management with dynamic alias customization. Display short, full, or combined titles for your notes effortlessly.",
+    "repo": "vpcano/obsidian-smart-link-alias"
+  },
+  {
     "id": "screen-wake-lock",
     "name": "Screen WakeLock",
     "author": "Blotspot",
-    "description": "Allows to keep a wake lock on the display, using the w3 WakeLock API.",
+    "description": "Keeps the display awake while Obsidian is in the foreground.",
     "repo": "blotspot/obsidian-wake-lock"
   }
 ]
+
