@@ -1999,7 +1999,7 @@
         "name": "Workspaces Plus",
         "description": "Quickly switch and manage workspaces.",
         "author": "NothingIsLost",
-        "repo": "nothingislost/obsidian-workspaces-plus"
+        "repo": "jsmorabito/obsidian-workspaces-plus"
     },
     {
         "id": "obsidian-read-it-later",
@@ -14746,7 +14746,7 @@
     "name": "Photopea Editor",
     "author": "KarmaToast40340",
     "description": "Automatically opens images in Photopea when clicked in your vault.",
-    "repo": "KarmaToast40340/photopea-editor" 
+    "repo": "KarmaToast40340/photopea-editor"
   },
   {
     "id": "easy-timeline",
@@ -14888,14 +14888,14 @@
     "description": "Track the time left till Christmas.",
     "repo": "Matse2005/Obsidian-Christmas"
   },
- {
+  {
     "id": "type-chinese-like-english",
     "name": "Type Chinese Like English",
     "author": "Hwenyi",
     "description": "Convert pinyin to Chinese and LaTeX",
     "repo": "Hwenyi/obsidian-type-chinese-like-english"
- },
- {
+  },
+  {
     "id": "external-rename-handler",
     "name": "External Rename Handler",
     "author": "mnaoumov",
@@ -14986,7 +14986,7 @@
     "description": "Automatically uses the linked heading as the display text for anchor links.",
     "repo": "rca-umb/anchor-link-display-text"
   },
-  { 
+  {
     "id": "friend-tracker",
     "name": "Friend Tracker",
     "author": "Dan Au",
@@ -15055,5 +15055,145 @@
     "author": "laihj",
     "description": "Display your daily logs based on the filename.",
     "repo": "laihj/obsidian-pretty-daily-viewer"  
+  },
+  {
+    "id": "bibdesk-integration",
+    "name": "BibDesk Integration",
+    "description": "Import BibTex citations into your notes and open PDF documents linked in a BibDesk library",
+    "author": "Andrea Alberti",
+    "repo": "alberti42/obsidian-bibdesk-integration"
+  },
+  {
+	"id": "revisionist",
+	"name": "AI Revisionist",
+	"author": "Synaptic Labs",
+	"description": "AI-powered text revision for your notes.",
+	"repo": "ProfSynapse/obsidian-revisionist"
+  },
+  {
+    "id": "plugin-update-locker",
+    "name": "Plugin Update Locker",
+    "author": "Lemon695",
+    "description": "Prevent specific plugins from being updated",
+    "repo": "Lemon695/obsidian-plugin-update-locker"
+  },
+  {
+    "id": "kikijiki-habit-tracker",
+    "name": "Kikijiki Habit Tracker",
+    "author": "KIKIJIKI",
+    "description": "A simple habit tracker",
+    "repo": "kikijiki/obsidian-habit-tracker"
+  },
+  {
+    "id": "dataview-autocompletion",
+    "name": "Dataview Autocompletion",
+    "author": "Daniel Bauer",
+    "description": "Adds autocompletion to Dataview metadata fields",
+    "repo": "dnlbauer/obsidian-dataview-autocompletion"
+  },
+  {
+    "id": "image-preview-on-icon-hover",
+    "name": "Image Preview on Icon Hover",
+    "author": "rama1997",
+    "description": "Adds custom image previews when hovering over various UI icons.",
+    "repo": "rama1997/Image-Preview-On-Icon-Hover"
+  },
+  {
+    "id": "clone-vault",
+    "name": "Clone Vault",
+    "author": "Sebastian Baroni",
+    "description": "Clones the current vault by copying settings and folder structure without note contents.",
+    "repo": "laantorchaweb/clone-vault"
+  },
+  {
+    "id": "hephaistos-importer",
+    "name": "Hephaistos Importer",
+    "author": "Skallaturi",
+    "description": "Imports main stats from the Starfinder RPG character website Hephaistos.",
+    "repo": "Skallaturi/hephaistos-importer"
+  },
+  {
+    "id": "whatsapp-backup",
+    "name": "WhatsApp backup importer",
+    "author": "Luigi Cerone",
+    "description": "Import WhatsApp export inside your vault.",
+    "repo": "LuigiCerone/obsidian-whatsapp-backup-importer"
+  },
+  {
+    "id": "context-command-hider",
+    "name": "Context Command Hider",
+    "author": "Mara-Li",
+    "description": "Hide any command from the right-click menu.",
+    "repo": "mara-li/obsidian-context-menu-hider"
+  },
+  {
+    "id": "net-clip",
+    "name": "NetClip",
+     "author": "Elhary",
+     "description": "Clip, save, search, and browse web pages",
+    "repo": "Elhary/Obsidian-NetClip"
+  },
+  {
+    "id": "plugin-repl",
+    "name": "Plugin REPL",
+    "author": "readwithai",
+    "description": "Create automation using Javascript scripts from within your notes. Super light-weight plugins, access the plugin api, rapidly iterate for plugin development. Emacs inspired.",
+    "repo": "talwrii/plugin-repl"
+  },
+  {
+    "id": "yt-video-summarizer",
+    "name": "YouTube Video Summarizer",
+    "author": "mbramani",
+    "description": "Summarize YouTube videos using Gemini AI. Extract transcripts, generate summaries, and create structured notes.",
+    "repo": "mbramani/obsidian-yt-video-summarizer"
+   },	
+  {
+    "id": "whatsapp-export-note",
+    "name": "WhatsApp export note",
+    "author": "JoaoEmanuell",
+    "description": "Convert the current note for WhatsApp format to share.",
+    "repo": "JoaoEmanuell/obsidian-whatsapp-export-note"
+  },
+  {
+    "id": "inlineai",
+    "name": "InlineAI",
+    "author": "FBarrca",
+    "description": "AI-powered suggestions, contextual edits, and advanced text transformations directly into your editor.",
+    "repo": "FBarrca/obsidian-inlineAI"
+  },
+  {
+    "id": "tag-tactician",
+    "name": "Tag Tactician",
+    "author": "Scott Tomaszewski",
+    "description": "Tag operations and helpers",
+    "repo": "scottTomaszewski/obsidian-tag-tactician"
+  },
+  {
+    "id": "spacekeys",
+    "name": "Spacekeys",
+    "author": "Jared Lumpe",
+    "description": "Define hotkeys based on sequences of keypresses.",
+    "repo": "jlumpe/obsidian-spacekeys"
+  },
+  {
+    "id": "data-files-editor",
+    "name": "Data Files Editor",
+    "author": "ZukTol",
+    "description": "Create and edit .txt, .json and .xml files.",
+    "repo": "ZukTol/obsidian-data-files-editor"
+  },
+  {
+    "id": "new-note-fixer",
+    "name": "New Note Fixer",
+    "author": "mnaoumov",
+    "description": "Unifies the way non-existing notes are created when clicking on their links.",
+    "repo": "mnaoumov/obsidian-new-note-fixer"
+  },
+  {
+    "id": "media-companion",
+    "name": "Media Companion",
+    "author": "Nick de Bruin",
+    "description": "Creates a searchable gallery and sidecar files for attachments such as images and videos. The sidecar files allow you to add notes and tags to your media files.",
+    "repo": "Nick-de-Bruin/obsidian-media-companion"
   }
 ]
