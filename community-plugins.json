@@ -4305,13 +4305,6 @@
         "repo": "zhaoshenzhai/obsidian-mathlinks"
     },
     {
-        "id": "note-synchronizer",
-        "name": "Note Synchronizer",
-        "author": "Songchen Tan",
-        "description": "Synchronize your notes to other note-based software like Anki, following more strictly the principles of Zettelkasten and treating each file as a note.",
-        "repo": "tansongchen/obsidian-note-synchronizer"
-    },
-    {
         "id": "url-namer",
         "name": "URL Namer",
         "author": "zfei",
@@ -14868,6 +14861,13 @@
     "repo": "mikevetkin/obsidian-tengwar"
   },
   {
+  "id": "circuit-sketcher",
+  "name": "Circuit Sketcher",
+  "author": "Code Forge Temple",
+  "description": "Draw circuits on a canvas using circuit-sketcher-core.",
+  "repo": "code-forge-temple/circuit-sketcher-obsidian-plugin"
+  },
+  {
     "id": "circuit-sketcher",
     "name": "Circuit Sketcher",
     "author": "Code Forge Temple",
@@ -15183,6 +15183,13 @@
     "repo": "Nick-de-Bruin/obsidian-media-companion"
   },
   {
+        "id": "note-synchronizer",
+        "name": "Note Synchronizer",
+        "author": "Songchen Tan",
+        "description": "Synchronize your notes to other note-based software like Anki, following more strictly the principles of Zettelkasten and treating each file as a note.",
+        "repo": "tansongchen/obsidian-note-synchronizer"
+  }, 
+  {
     "id": "explorer-colors",
     "name": "Explorer Colors",
     "author": "Scott Van der Zwet",
@@ -15237,5 +15244,13 @@
     "author": "RobertttBS",
     "description": "Syncs Canvas node connections with properties in note, automating document relationship management.",
     "repo": "robertttbs/obsidian-enhanced-canvas"
+  },
+  {
+    "id": "note-sync",
+    "name": "Note Sync",
+    "author": "ZigHolding",
+    "description": "Sync notes or plugins between vaults.",
+    "repo": "zigholding/obsidian-notesync-plugin"
+	  
   }
 ]
