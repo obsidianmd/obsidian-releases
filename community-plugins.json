@@ -1999,7 +1999,7 @@
         "name": "Workspaces Plus",
         "description": "Quickly switch and manage workspaces.",
         "author": "NothingIsLost",
-        "repo": "nothingislost/obsidian-workspaces-plus"
+        "repo": "jsmorabito/obsidian-workspaces-plus"
     },
     {
         "id": "obsidian-read-it-later",
@@ -2014,13 +2014,6 @@
         "description": "Advanced text tools for working with text in your vault.",
         "author": "TfTHacker",
         "repo": "TfTHacker/obsidian42-text-transporter"
-    },
-    {
-        "id": "marginnote-companion",
-        "name": "MarginNote Companion",
-        "description": "Bridge MarginNote 3 and Obsidian.",
-        "author": "AidenLx",
-        "repo": "aidenlx/marginnote-companion"
     },
     {
         "id": "netwik",
@@ -2509,7 +2502,7 @@
         "id": "obsidian-theme-design-utilities",
         "name": "Theme Design Utilities",
         "description": "Some utilities and quality-of-life features for designers of Obsidian themes.",
-        "author": "pseudometa",
+        "author": "Chris Grieser (aka pseudometa)",
         "repo": "chrisgrieser/obsidian-theme-design-utilities"
     },
     {
@@ -2872,7 +2865,7 @@
     {
         "id": "obsidian-divide-and-conquer",
         "name": "Divide & Conquer",
-        "author": "pseudometa",
+        "author": "Chris Grieser (aka pseudometa)",
         "description": "Commands for bulk enabling/disabling of plugins. Useful for debugging when you have many plugins.",
         "repo": "chrisgrieser/obsidian-divide-and-conquer"
     },
@@ -4097,7 +4090,7 @@
     {
         "id": "new-tab-default-page",
         "name": "Default New Tab Page",
-        "author": "pseudometa",
+        "author": "Chris Grieser (aka pseudometa)",
         "description": "Open a note of your choice when creating a new tab, like in the browser.",
         "repo": "chrisgrieser/new-tab-default-page"
     },
@@ -5434,7 +5427,7 @@
     {
         "id": "grappling-hook",
         "name": "Grappling Hook",
-        "author": "pseudometa",
+        "author": "Chris Grieser (aka pseudometa)",
         "description": "Blazingly fast file switching to bookmarked files. For people for whom using the Quick Switcher still takes too much time.",
         "repo": "chrisgrieser/grappling-hook"
     },
@@ -8689,7 +8682,7 @@
     {
         "id": "nothing",
         "name": "Nothing",
-        "author": "pseudometa",
+        "author": "Chris Grieser (aka pseudometa)",
         "description": "Add a no-op command to disable hotkeys.",
         "repo": "chrisgrieser/obsidian-nothing"
     },
@@ -9214,7 +9207,7 @@
     {
         "id": "coder",
         "name": "Encoder/Decoder",
-        "description": "Convert text into base64 format.",
+        "description": "Encoding and decoding text using Base64, ROT13 and Atbash ciphers.",
         "author": "Rudi H\u00e4usler",
         "repo": "rudimuc/obsidian-coder"
     },
@@ -10130,9 +10123,9 @@
     },
     {
         "id": "fileorganizer2000",
-        "name": "AI File Organizer 2000",
+        "name": "Note Companion AI",
         "author": "Benjamin Ashgan Shafii",
-        "description": "AI assistant to automatically organize, chat, and format your notes. Works with images, PDFs, and your voice",
+        "description": "AI that goes beyond the chat interface. Enhance your meetings notes with live transcriptions, sync your handwritten jots, and let AI organize your vault.",
         "repo": "different-ai/file-organizer-2000"
     },
     {
@@ -10152,9 +10145,9 @@
     {
         "id": "canvas-link-optimizer",
         "name": "Canvas Link Optimizer",
-        "author": "khaelar",
+        "author": "Qbject",
         "description": "Optimize Canvas links by displaying a page thumbnail.",
-        "repo": "khaelar/obsidian-canvas-link-optimizer"
+        "repo": "Qbject/obsidian-canvas-link-optimizer"
     },
     {
         "id": "inline-admonitions",
@@ -10264,7 +10257,7 @@
     {
         "id": "quadro",
         "name": "Quadro",
-        "description": "Qualitative Data Analysis (QDA) for Social Scientists. An open alternative to MAXQDA and atlas.ti, using Markdown to store data and research codes.",
+        "description": "Qualitative Data Analysis (QDA) for social scientists. An open alternative to MAXQDA and atlas.ti, using Markdown to store data and research codes.",
         "author": "Chris Grieser (aka pseudometa)",
         "repo": "chrisgrieser/obsidian-quadro"
     },
@@ -12177,7 +12170,7 @@
         "name": "Fast Text Color",
         "author": "Leon Holtmeier",
         "description": "Quickly apply fully integrated text coloring and formatting with a custom syntax and a keyboard-centric interface.",
-        "repo": "Superschnizel/obisdian-fast-text-color"
+        "repo": "Superschnizel/obsidian-fast-text-color"
     },
     {
         "id": "guid-renamer",
@@ -14454,14 +14447,14 @@
     "description": "Insert a new line above or below the current line.",
     "repo": "freddyouellette/obsidian-insert-new-line-plugin"
   },
-	{
+  {
     "id": "cypher",
     "name": "Cypher",
     "author": "Atharva Wankhede",
     "description": "Hides text in a simple diagrammatic cypher to make reading unrecognizable for viewers.",
     "repo": "aths7/cypher"
   },
-{
+  {
 	"id": "calloutx",
 	"name": "CalloutX",
 	"author": "br4in",
@@ -14685,7 +14678,7 @@
     "description": "Allows to insert multiple attachments at a time.",
     "repo": "mnaoumov/obsidian-insert-multiple-attachments"
    },
-	{
+   {
     "id": "smart-link-alias",
     "name": "Smart Link Alias",
     "author": "Victor Perez-Cano",
@@ -14712,6 +14705,551 @@
     "author": "duanfuxiang0",
     "description": "A Cursor-inspired AI assistant for notes that offers smart autocomplete and interactive chat with your selected notes",
     "repo": "infiolab/infio-copilot"
+  },
+  {
+    "id": "ons",
+    "name": "BetaX NAS Sync",
+    "author": "Skye",
+    "description": "Keep Vault synchronized with the NAS on your home intranet.",
+    "repo": "skye-z/ons"
+  },
+  {
+    "id": "copy-recursive-content",
+    "name": "Structured Copy: Files & Folders",
+    "author": "SchmidA",
+    "description": "Copy the contents of files and folders in a structured JSON format.",
+    "repo": "SeardnaSchmid/copy-recursive-content"
+  },
+  {
+    "id": "inbox-organiser",
+    "name": "Inbox Organiser",
+    "author": "Jamie Hurst",
+    "description": "Capture any new notes into an inbox and periodically prompt to organise these into other folders within the vault.",
+    "repo": "jamiefdhurst/obsidian-inbox-organiser"
+  },
+ {
+  "id": "note-atomizer",
+  "name": "Atomizer",
+  "author": "Zac Bagley",
+  "description": "Turn any text into insightful atomic notes.",
+  "repo": "binxly/atomizer"
+  },
+  {
+    "id": "jira-issue-managing",
+    "name": "Jira Issue managing",
+    "author": "Amplia",
+    "description": "Update and creating of Jira issues directly",
+    "repo": "angelperezasenjo/obsidian-to-jira"
+  },
+  {
+    "id": "external-file-embed-and-link",
+    "name": "External File Embed and Link",
+    "author": "oylbin",
+    "description": "Embed and link local files outside your vault with relative paths for cross-device and multi-platform compatibility.",
+    "repo": "oylbin/obsidian-external-file-embed-and-link"
+  },
+  {
+    "id": "photopea-editor",
+    "name": "Photopea Editor",
+    "author": "KarmaToast40340",
+    "description": "Automatically opens images in Photopea when clicked in your vault.",
+    "repo": "KarmaToast40340/photopea-editor"
+  },
+  {
+    "id": "easy-timeline",
+    "name": "Easy Timeline",
+    "author": "Romeliun",
+    "description": "This simplifies creating and visualizing timelines from text using dates and metadata.",
+    "repo": "Romelium/obsidian-easy-timeline"
+  },
+  {
+    "id": "open-editors",
+    "name": "Open Editors",
+    "author": "4Source",
+    "description": "Adds a view which shows the opened windows, groups, tabs and editors inside them. Makes managing the open editors easier.",
+    "repo": "4Source/open-editors-obsidian-plugin"
+  },
+  {
+    "id": "contact-cards",
+    "name": "Contact Cards",
+    "author": "Bryan Stone",
+    "description": "Transforms YAML data into a simple business/contact card with power features.",
+    "repo": "aegixx/obsidian-contact-cards"
+  },
+  {
+    "id": "better-plugins-manager",
+    "name": "Better Plugins Manager",
+    "author": "zero",
+    "description": "打造您的极致插件管理体验，让插件管理变得更加直观、高效，同时提升您的工作流程和个性化设置。",
+    "repo": "0011000000110010/obsidian-manager"
+  },
+  {
+    "id": "bujo-bullets",
+    "name": "BuJo Bullets",
+    "author": "Will Olson",
+    "description": "Alternate checkbox types to support Bullet Journal bullets.",
+    "repo": "frankolson/obsidian-bujo-bullets"
+  },
+  {
+    "id": "ai-enhanced-anki-sync",
+    "name": "AI-AnkiSync",
+    "author": "goev",
+    "description": "Sync ai-enhanced flashcards with Anki via AnkiConnect",
+    "repo": "jannusgoe/obsidian-ankisync"
+  },
+  {
+    "id": "dynamic-outline",
+    "name": "Dynamic Outline",
+    "author": "theopavlove",
+    "description": "Adds a customizable GitHub-like floating table of contents.",
+    "repo": "theopavlove/obsidian-dynamic-outline"
+  },
+  {
+    "id": "syncthing-status-icon",
+    "name": "Syncthing status icon",
+    "author": "Diego Viero",
+    "description": "Displas a status icon inside the status bar showing whether syncthing is running locally or not.",
+    "repo": "Diego-Viero/Syncthing-status-icon-Obsidian-plugin"
+  },
+  {
+    "id": "simple-disguise",
+    "name": "Simple Disguise",
+    "author": "slow-groovin",
+    "description": "disguise/obscure/hide the markdown content in a very simple way.",
+    "repo": "slow-groovin/simple-disguise"
+  },
+  {
+	"id": "koreader-highlights-importer",
+	"name": "KoReader Highlight Importer",
+	"author": "Tahsin Kocaman",
+	"description": "Imports highlights and metadata from KoReader",
+	"repo": "t5k6/obsidian-koreader-highlights"
+  },
+  {
+    "id": "local-any-files",
+    "name": "Local Any Files",
+    "author": "ShermanTsang",
+    "description": "Extract and download any external files from links to local files",
+    "repo": "ShermanTsang/obsidian-local-any-files"
+},
+{
+    "id": "publish-to-discourse",
+    "name": "Publish to Discourse",
+    "author": "woodchen",
+    "description": "Post notes to the Discourse forum.",
+    "repo": "woodchen-ink/obsidian-publish-to-discourse"
+},
+{
+    "id": "moredraw",
+    "name": "MoreDraw",
+    "author": "webceoboy2011",
+    "description": "A infinite canvas whiteboard with ai to draw flowchart ,mind map and other diagram.",
+    "repo": "webceoboy/moredraw-obsidian"
+  },
+  {
+    "id": "clojure-plugin-host",
+    "name": "Clojure Plugin Host",
+    "author": "Vladimir \"farcaller\" Pouzanov",
+    "description": "A Clojure plugin host, allowing the creation of simple Clojure-based plugins right inside the editor.",
+    "repo": "farcaller/obsidian-clojure-plugin-host"
+  },
+  {
+    "id": "confluence-space-sync",
+    "name": "Confluence Space Sync",
+    "author": "Pwnyprod",
+    "description": "Sync entire Confluence spaces in your Vault.",
+    "repo": "pwnyprod/obsidian-confluence-space-sync-plugin"
+  },
+  {
+    "id": "hoarder-sync",
+    "name": "Hoarder Sync",
+    "author": "Jordan Hofker",
+    "description": "Sync your Hoarder bookmarks",
+    "repo": "jhofker/obsidian-hoarder"
+  },
+  {
+    "id": "imgur-tencent-cos",
+    "name": "Tencent COS for Imgur",
+    "author": "bobostudio",
+    "description": "Upload images to Tencent COS for Imgur.",
+    "repo": "bobostudio/obsidian-imgur-plugin"
+  },
+  {
+    "id": "tengwar",
+    "name": "Tengwar",
+    "author": "mikevetkin",
+    "description": "Support Tengwar (The Elvish Letters).",
+    "repo": "mikevetkin/obsidian-tengwar"
+  },
+  {
+    "id": "circuit-sketcher",
+    "name": "Circuit Sketcher",
+    "author": "Code Forge Temple",
+    "description": "Draw circuits on a canvas using circuit-sketcher-core.",
+    "repo": "code-forge-temple/circuit-sketcher-obsidian-plugin"
+  },
+  {
+    "id": "christmas",
+    "name": "Christmas",
+    "author": "MatseVH",
+    "description": "Track the time left till Christmas.",
+    "repo": "Matse2005/Obsidian-Christmas"
+  },
+  {
+    "id": "type-chinese-like-english",
+    "name": "Type Chinese Like English",
+    "author": "Hwenyi",
+    "description": "Convert pinyin to Chinese and LaTeX",
+    "repo": "Hwenyi/obsidian-type-chinese-like-english"
+  },
+  {
+    "id": "external-rename-handler",
+    "name": "External Rename Handler",
+    "author": "mnaoumov",
+    "description": "Handles renames made outside of the app.",
+    "repo": "mnaoumov/obsidian-external-rename-handler"
+  },
+  {
+    "id": "new-file-name",
+    "name": "New Filename",
+    "author": "Amin Sennour",
+    "description": "Change the default filename used for new notes",
+    "repo": "TheLoneWanderer4/obsidian-uuid-title"
+  },
+  {
+    "id": "note-annotations",
+    "name": "Note Annotations",
+    "author": "Jan Beck",
+    "description": "Add multi-colored highlights and comments to your notes.",
+    "repo": "jancbeck/obsidian-note-annotations"
+  },
+  {
+    "id": "pycalc",
+    "name": "pycalc",
+    "author": "pycalc",
+    "description": "Executing Python code directly within the editor by pressing the Enter key.",
+    "repo": "pycalc-plugin/obsidian"
+  },
+  {
+    "id": "frontmatter-markdown-links",
+    "name": "Frontmatter Markdown Links",
+    "author": "mnaoumov",
+    "description": "Adds support for markdown links in frontmatter.",
+    "repo": "mnaoumov/obsidian-frontmatter-markdown-links"
+  },
+  {
+    "id": "clipper-catalog",
+    "name": "Clipper Catalog",
+    "author": "Greg K.",
+    "description": "A catalog view of all the clippings gathered with a common source property.",
+    "repo": "soundslikeinfo/obsidian-clipper-catalog"
+  },
+  {
+    "id": "hanko",
+    "name": "Hanko",
+    "author": "Telehakke",
+    "description": "Register and paste any text.",
+    "repo": "Telehakke/hanko"
+  },
+  {
+    "id": "easy-test",
+    "name": "Easy Test",
+    "author": "Forrest",
+    "description": "Easily create simple tests",
+    "repo" : "forrest1398/obsidian-easyTest-plugin"
+  },
+  {
+    "id": "keep-the-rhythm",
+    "name": "Keep the Rhythm",
+    "author": "Ezben",
+    "description": "Visualize daily word count with a heatmap.",
+    "repo": "benjaminezequiel/keep-the-rhythm"
+  },
+  {
+    "id": "boardgame-search",
+    "name": "Boardgame Search",
+    "author": "Marlon May",
+    "description": "Helps board game enthusiasts track their game collection seamlessly within their notes.",
+    "repo": "Marlon154/boardgame-search"
+  },
+  {
+   "id": "sentinel",
+   "name": "Sentinel",
+   "author": "Giorgos Sarigiannidis",
+   "description": "Trigger actions based on document visibility changes.",
+   "repo": "gsarig/obsidian-sentinel"
+  },
+  {
+    "id": "shaahmaat-md",
+    "name": "ShaahMaat-md",
+    "author": "Mihail Kovachev",
+    "description": "Render chess positions.",
+    "repo": "MihailKovachev/shaahmaat-md"
+  },
+  {
+    "id": "anchor-display-text",
+    "name": "Anchor Link Display Text",
+    "author": "Robert C Arsenault",
+    "description": "Automatically uses the linked heading as the display text for anchor links.",
+    "repo": "rca-umb/anchor-link-display-text"
+  },
+  {
+    "id": "friend-tracker",
+    "name": "Friend Tracker",
+    "author": "Dan Au",
+    "description": "Keep track of friends, birthdays, and interactions",
+    "repo": "buzzguy/friend-tracker"
+  },
+  {
+    "id": "backgroundset",
+    "name": "Backgroundset",
+    "author": "daonali",
+    "description": "Allow you to set background image set(folder)",
+    "repo": "Youngmoss/obsidian-backgroundset"
+  },
+  {
+    "id": "mahgen-renderer",
+    "name": "Mahgen Renderer",
+    "author": "Michael Francis Williams",
+    "description": "Display mahjong images inline or in block using Mahgen.",
+    "repo": "MichaelFW-ui/obsidian-mahgen-plugin"
+  },
+  {
+    "id": "recent-notes",
+    "name": "Recent Notes",
+    "author": "Kamil Rudnicki",
+    "description": "List of recently edited notes with previews by time periods.",
+    "repo": "kamil-rudnicki/obsidian-recent-notes"
+  },
+  {
+    "id": "cooksync",
+    "name": "Cooksync",
+    "author": "Cooksync",
+    "description": "Automatically imports Cooksync data.",
+    "repo": "furst/cooksync-obsidian"
+  },
+  {
+    "id": "paperless",
+    "name": "Paperless",
+    "author": "Talal Abou Haiba",
+    "description": "Link your paperless-ngx documents within your vault.",
+    "repo": "Talal-A/obsidian-paperless"
+  },
+  {
+    "id": "missing-link-file-creator",
+    "name": "Missing Link File Creator",
+    "author": "Lemon695",
+    "description": "Creates missing linked files and detects missing wiki links.",
+    "repo": "Lemon695/obsidian-missing-link-file-creator"
+  },
+  {
+    "id": "current-file-tags",
+    "name": "Current File Tags",
+    "author": "Trung Tran",
+    "description": "Display the active Markdown file's tags and associated files.",
+    "repo": "trung-tran-swe/obsidian-current-file-tags"
+  },
+  {
+    "id": "goal-tracker",
+    "name": "Goal Tracker",
+    "author": "Ben Rotholtz",
+    "description": "Track your goals with a calendar view",
+    "repo": "GizmoRay/obsidian-goal-tracker"
+  },
+  {
+    "id": "bibdesk-integration",
+    "name": "BibDesk Integration",
+    "description": "Import BibTex citations into your notes and open PDF documents linked in a BibDesk library",
+    "author": "Andrea Alberti",
+    "repo": "alberti42/obsidian-bibdesk-integration"
+  },
+  {
+	"id": "revisionist",
+	"name": "AI Revisionist",
+	"author": "Synaptic Labs",
+	"description": "AI-powered text revision for your notes.",
+	"repo": "ProfSynapse/obsidian-revisionist"
+  },
+  {
+    "id": "plugin-update-locker",
+    "name": "Plugin Update Locker",
+    "author": "Lemon695",
+    "description": "Prevent specific plugins from being updated",
+    "repo": "Lemon695/obsidian-plugin-update-locker"
+  },
+  {
+    "id": "kikijiki-habit-tracker",
+    "name": "Kikijiki Habit Tracker",
+    "author": "KIKIJIKI",
+    "description": "A simple habit tracker",
+    "repo": "kikijiki/obsidian-habit-tracker"
+  },
+  {
+    "id": "dataview-autocompletion",
+    "name": "Dataview Autocompletion",
+    "author": "Daniel Bauer",
+    "description": "Adds autocompletion to Dataview metadata fields",
+    "repo": "dnlbauer/obsidian-dataview-autocompletion"
+  },
+  {
+    "id": "image-preview-on-icon-hover",
+    "name": "Image Preview on Icon Hover",
+    "author": "rama1997",
+    "description": "Adds custom image previews when hovering over various UI icons.",
+    "repo": "rama1997/Image-Preview-On-Icon-Hover"
+  },
+  {
+    "id": "clone-vault",
+    "name": "Clone Vault",
+    "author": "Sebastian Baroni",
+    "description": "Clones the current vault by copying settings and folder structure without note contents.",
+    "repo": "laantorchaweb/clone-vault"
+  },
+  {
+    "id": "hephaistos-importer",
+    "name": "Hephaistos Importer",
+    "author": "Skallaturi",
+    "description": "Imports main stats from the Starfinder RPG character website Hephaistos.",
+    "repo": "Skallaturi/hephaistos-importer"
+  },
+  {
+    "id": "whatsapp-backup",
+    "name": "WhatsApp backup importer",
+    "author": "Luigi Cerone",
+    "description": "Import WhatsApp export inside your vault.",
+    "repo": "LuigiCerone/obsidian-whatsapp-backup-importer"
+  },
+  {
+    "id": "context-command-hider",
+    "name": "Context Command Hider",
+    "author": "Mara-Li",
+    "description": "Hide any command from the right-click menu.",
+    "repo": "mara-li/obsidian-context-menu-hider"
+  },
+  {
+    "id": "net-clip",
+    "name": "NetClip",
+     "author": "Elhary",
+     "description": "Clip, save, search, and browse web pages",
+    "repo": "Elhary/Obsidian-NetClip"
+  },
+  {
+    "id": "plugin-repl",
+    "name": "Plugin REPL",
+    "author": "readwithai",
+    "description": "Create automation using Javascript scripts from within your notes. Super light-weight plugins, access the plugin api, rapidly iterate for plugin development. Emacs inspired.",
+    "repo": "talwrii/plugin-repl"
+  },
+  {
+    "id": "yt-video-summarizer",
+    "name": "YouTube Video Summarizer",
+    "author": "mbramani",
+    "description": "Summarize YouTube videos using Gemini AI. Extract transcripts, generate summaries, and create structured notes.",
+    "repo": "mbramani/obsidian-yt-video-summarizer"
+   },	
+  {
+    "id": "whatsapp-export-note",
+    "name": "WhatsApp export note",
+    "author": "JoaoEmanuell",
+    "description": "Convert the current note for WhatsApp format to share.",
+    "repo": "JoaoEmanuell/obsidian-whatsapp-export-note"
+  },
+  {
+    "id": "inlineai",
+    "name": "InlineAI",
+    "author": "FBarrca",
+    "description": "AI-powered suggestions, contextual edits, and advanced text transformations directly into your editor.",
+    "repo": "FBarrca/obsidian-inlineAI"
+  },
+  {
+    "id": "tag-tactician",
+    "name": "Tag Tactician",
+    "author": "Scott Tomaszewski",
+    "description": "Tag operations and helpers",
+    "repo": "scottTomaszewski/obsidian-tag-tactician"
+  },
+  {
+    "id": "spacekeys",
+    "name": "Spacekeys",
+    "author": "Jared Lumpe",
+    "description": "Define hotkeys based on sequences of keypresses.",
+    "repo": "jlumpe/obsidian-spacekeys"
+  },
+  {
+    "id": "data-files-editor",
+    "name": "Data Files Editor",
+    "author": "ZukTol",
+    "description": "Create and edit .txt, .json and .xml files.",
+    "repo": "ZukTol/obsidian-data-files-editor"
+  },
+  {
+    "id": "new-note-fixer",
+    "name": "New Note Fixer",
+    "author": "mnaoumov",
+    "description": "Unifies the way non-existing notes are created when clicking on their links.",
+    "repo": "mnaoumov/obsidian-new-note-fixer"
+  },
+  {
+    "id": "media-companion",
+    "name": "Media Companion",
+    "author": "Nick de Bruin",
+    "description": "Creates a searchable gallery and sidecar files for attachments such as images and videos. The sidecar files allow you to add notes and tags to your media files.",
+    "repo": "Nick-de-Bruin/obsidian-media-companion"
+  },
+  {
+    "id": "explorer-colors",
+    "name": "Explorer Colors",
+    "author": "Scott Van der Zwet",
+    "description": "Set custom colors for files and folders.",
+    "repo": "VaguelyElectric/obsidian-explorer-colors"
+  },
+  {
+	"id": "readeck-importer",
+	"name": "Readeck Importer",
+	"description": "Import bookmarks from Readeck.",
+	"author": "Makebit",
+    "repo": "makebit/obsidian-readeck-importer"
+  },
+  {
+    "id": "pixel-perfect-image",
+    "name": "Pixel Perfect Image",
+    "author": "Johan Sanneblad",
+    "description": "Pixel perfect 100% image resizing, copy to clipboard, show image in Finder/Explorer, edit image in external editor, and much more.",
+    "repo": "johansan/pixel-perfect-image"
+  },
+  {
+    "id": "mcp-tools",
+    "name": "MCP Tools",
+    "author": "Jack Steam",
+    "description": "Securely connect Claude Desktop to your vault with semantic search, templates, and file management capabilities.",
+    "repo": "jacksteamdev/obsidian-mcp-tools"
+  },
+  {
+    "id": "ai-providers",
+    "name": "AI Providers",
+    "author": "Pavel Frankov",
+    "description": "A hub for setting AI providers (OpenAI-like, Ollama and more) in one place.",
+    "repo": "pfrankov/obsidian-ai-providers"
+  },
+  {
+    "id": "folder-overview",
+    "name": "Folder overview",
+    "author": "Lost Paul",
+    "description": "Provides a dynamic overview of your vault or folders in the format of a codeblock.",
+    "repo": "LostPaul/obsidian-folder-overview"
+  },
+  {
+    "id": "whisperer",
+    "name": "WHISPERER.md",
+    "author": "Falcion",
+    "description": "Play ambience in your vault, assign audio to files through metadata with support of local (from vault) and URLs (Youtube, Soundcloud) versions of audio: works on mobile vaults.",
+    "repo": "Falcion/Whisperer.md"
+  },
+  {
+    "id": "enhanced-canvas",
+    "name": "Enhanced Canvas",
+    "author": "RobertttBS",
+    "description": "Syncs Canvas node connections with properties in note, automating document relationship management.",
+    "repo": "robertttbs/obsidian-enhanced-canvas"
   }
 ]
-
