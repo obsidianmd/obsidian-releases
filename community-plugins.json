@@ -1999,7 +1999,7 @@
         "name": "Workspaces Plus",
         "description": "Quickly switch and manage workspaces.",
         "author": "NothingIsLost",
-        "repo": "nothingislost/obsidian-workspaces-plus"
+        "repo": "jsmorabito/obsidian-workspaces-plus"
     },
     {
         "id": "obsidian-read-it-later",
@@ -14746,7 +14746,7 @@
     "name": "Photopea Editor",
     "author": "KarmaToast40340",
     "description": "Automatically opens images in Photopea when clicked in your vault.",
-    "repo": "KarmaToast40340/photopea-editor" 
+    "repo": "KarmaToast40340/photopea-editor"
   },
   {
     "id": "easy-timeline",
@@ -14888,14 +14888,14 @@
     "description": "Track the time left till Christmas.",
     "repo": "Matse2005/Obsidian-Christmas"
   },
- {
+  {
     "id": "type-chinese-like-english",
     "name": "Type Chinese Like English",
     "author": "Hwenyi",
     "description": "Convert pinyin to Chinese and LaTeX",
     "repo": "Hwenyi/obsidian-type-chinese-like-english"
- },
- {
+  },
+  {
     "id": "external-rename-handler",
     "name": "External Rename Handler",
     "author": "mnaoumov",
@@ -14986,7 +14986,7 @@
     "description": "Automatically uses the linked heading as the display text for anchor links.",
     "repo": "rca-umb/anchor-link-display-text"
   },
-  { 
+  {
     "id": "friend-tracker",
     "name": "Friend Tracker",
     "author": "Dan Au",
@@ -15047,7 +15047,7 @@
     "name": "Goal Tracker",
     "author": "Ben Rotholtz",
     "description": "Track your goals with a calendar view",
-    "repo": "GizmoRay/obsidian-goal-tracker"  
+    "repo": "GizmoRay/obsidian-goal-tracker"
   },
   {
     "id": "bibdesk-integration",
@@ -15119,6 +15119,132 @@
     "description": "Hide any command from the right-click menu.",
     "repo": "mara-li/obsidian-context-menu-hider"
   },
+  {
+    "id": "net-clip",
+    "name": "NetClip",
+     "author": "Elhary",
+     "description": "Clip, save, search, and browse web pages",
+    "repo": "Elhary/Obsidian-NetClip"
+  },
+  {
+    "id": "plugin-repl",
+    "name": "Plugin REPL",
+    "author": "readwithai",
+    "description": "Create automation using Javascript scripts from within your notes. Super light-weight plugins, access the plugin api, rapidly iterate for plugin development. Emacs inspired.",
+    "repo": "talwrii/plugin-repl"
+  },
+  {
+    "id": "yt-video-summarizer",
+    "name": "YouTube Video Summarizer",
+    "author": "mbramani",
+    "description": "Summarize YouTube videos using Gemini AI. Extract transcripts, generate summaries, and create structured notes.",
+    "repo": "mbramani/obsidian-yt-video-summarizer"
+   },	
+  {
+    "id": "whatsapp-export-note",
+    "name": "WhatsApp export note",
+    "author": "JoaoEmanuell",
+    "description": "Convert the current note for WhatsApp format to share.",
+    "repo": "JoaoEmanuell/obsidian-whatsapp-export-note"
+  },
+  {
+    "id": "inlineai",
+    "name": "InlineAI",
+    "author": "FBarrca",
+    "description": "AI-powered suggestions, contextual edits, and advanced text transformations directly into your editor.",
+    "repo": "FBarrca/obsidian-inlineAI"
+  },
+  {
+    "id": "tag-tactician",
+    "name": "Tag Tactician",
+    "author": "Scott Tomaszewski",
+    "description": "Tag operations and helpers",
+    "repo": "scottTomaszewski/obsidian-tag-tactician"
+  },
+  {
+    "id": "spacekeys",
+    "name": "Spacekeys",
+    "author": "Jared Lumpe",
+    "description": "Define hotkeys based on sequences of keypresses.",
+    "repo": "jlumpe/obsidian-spacekeys"
+  },
+  {
+    "id": "data-files-editor",
+    "name": "Data Files Editor",
+    "author": "ZukTol",
+    "description": "Create and edit .txt, .json and .xml files.",
+    "repo": "ZukTol/obsidian-data-files-editor"
+  },
+  {
+    "id": "new-note-fixer",
+    "name": "New Note Fixer",
+    "author": "mnaoumov",
+    "description": "Unifies the way non-existing notes are created when clicking on their links.",
+    "repo": "mnaoumov/obsidian-new-note-fixer"
+  },
+  {
+    "id": "media-companion",
+    "name": "Media Companion",
+    "author": "Nick de Bruin",
+    "description": "Creates a searchable gallery and sidecar files for attachments such as images and videos. The sidecar files allow you to add notes and tags to your media files.",
+    "repo": "Nick-de-Bruin/obsidian-media-companion"
+  },
+  {
+    "id": "explorer-colors",
+    "name": "Explorer Colors",
+    "author": "Scott Van der Zwet",
+    "description": "Set custom colors for files and folders.",
+    "repo": "VaguelyElectric/obsidian-explorer-colors"
+  },
+  {
+	"id": "readeck-importer",
+	"name": "Readeck Importer",
+	"description": "Import bookmarks from Readeck.",
+	"author": "Makebit",
+    "repo": "makebit/obsidian-readeck-importer"
+  },
+  {
+    "id": "pixel-perfect-image",
+    "name": "Pixel Perfect Image",
+    "author": "Johan Sanneblad",
+    "description": "Pixel perfect 100% image resizing, copy to clipboard, show image in Finder/Explorer, edit image in external editor, and much more.",
+    "repo": "johansan/pixel-perfect-image"
+  },
+  {
+    "id": "mcp-tools",
+    "name": "MCP Tools",
+    "author": "Jack Steam",
+    "description": "Securely connect Claude Desktop to your vault with semantic search, templates, and file management capabilities.",
+    "repo": "jacksteamdev/obsidian-mcp-tools"
+  },
+  {
+    "id": "ai-providers",
+    "name": "AI Providers",
+    "author": "Pavel Frankov",
+    "description": "A hub for setting AI providers (OpenAI-like, Ollama and more) in one place.",
+    "repo": "pfrankov/obsidian-ai-providers"
+  },
+  {
+    "id": "folder-overview",
+    "name": "Folder overview",
+    "author": "Lost Paul",
+    "description": "Provides a dynamic overview of your vault or folders in the format of a codeblock.",
+    "repo": "LostPaul/obsidian-folder-overview"
+  },
+  {
+    "id": "whisperer",
+    "name": "WHISPERER.md",
+    "author": "Falcion",
+    "description": "Play ambience in your vault, assign audio to files through metadata with support of local (from vault) and URLs (Youtube, Soundcloud) versions of audio: works on mobile vaults.",
+    "repo": "Falcion/Whisperer.md"
+  },
+  {
+    "id": "enhanced-canvas",
+    "name": "Enhanced Canvas",
+    "author": "RobertttBS",
+    "description": "Syncs Canvas node connections with properties in note, automating document relationship management.",
+    "repo": "robertttbs/obsidian-enhanced-canvas"
+  },
     "id": "on-this-day-i",
     "name": "On This Day I",
     "author": "Ben Stuart",
@@ -15126,4 +15252,3 @@
     "repo": "benstuart0/on-this-day-i-obsidian"  
   }
 ]
-
