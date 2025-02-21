@@ -758,9 +758,9 @@
     {
         "id": "obsidian-vault-changelog",
         "name": "Vault Changelog",
-        "description": "Maintain a changelog of recently edited files in your vault.",
+        "description": "Maintain a changelog of recently edited notes.",
         "author": "Badr Bouslikhin",
-        "repo": "badrbouslikhin/obsidian-vault-changelog"
+        "repo": "philoserf/obsidian-vault-changelog"
     },
     {
         "id": "chesser-obsidian",
@@ -12330,7 +12330,7 @@
         "id": "iconic",
         "name": "Iconic",
         "author": "Holo",
-        "description": "Customize your icons and their colors directly from the UI, including tabs, files, bookmarks, properties, and ribbon commands.",
+        "description": "Customize your icons and their colors directly from the UI, including tabs, files & folders, bookmarks, tags, properties, and ribbon commands.",
         "repo": "gfxholo/iconic"
     },
     {
@@ -13980,10 +13980,10 @@
 },
 {
 "id": "automatic-renumbering",
-"name": "Automatic List Renumbering",
+"name": "Automatic List Reordering",
 "author": "Omri Levi",
-"description": "Automatically renumber numbered lists as you edit them.",
-"repo": "OmriLeviGit/Automatic-Renumbering-Obsidian"
+"description": "Automatically reorder checklists and numbered lists as you edit them.",
+"repo": "OmriLeviGit/Auto-List-Reordering-Obsidian"
 },
 {
     "id": "three-noun-prompts",
@@ -15441,11 +15441,67 @@
   "description": "digitize handwritten notes with intelligent ink isolation, adaptive theming, and automated workflows.",
   "repo": "AmadeussSystem/Inkporter"
   },
+   {
+    "id": "media-link-to-html",
+    "name": "Media Link to HTML",
+    "author": "C.Y. Park",
+    "description": "Converts media links to HTML elements.",
+    "repo": "cypar/obsidian-media-link-to-html"
+  },
+  {
+    "id": "emoji-picker",
+    "name": "Emoji Picker",
+    "author": "Ali Faraji",
+    "description": "An Emoji Picker that allows you to insert the latest released emojis in your notes.",
+    "repo": "alifa98/obsidian-emoji-picker"
+  },
+  {
+    "id": "task-board",
+    "name": "Task Board",
+    "author": "Atmanand Gauns",
+    "description": "Manage all your tasks throughout your vault from a single board and much more...",
+    "repo": "tu2-atmanand/Task-Board"
+  },
+{
+    "id": "pseudo-mica",
+    "name": "Pseudo Mica",
+    "author": "Alexis C",
+    "description": "Mica-like background effect for Windows.",
+    "repo": "aaaaalexis/obsidian-pseudo-mica"
+},
+{
+    "id": "attachments-md-indexer",
+    "name": "Attachments MD Indexer",
+    "author": "Ian Inkov",
+    "description": "Creates metadata notes for Canvas files, enhancing graph view visibility and plugin compatibility",
+    "repo": "iinkov/obsidian-attachments-md-indexer"
+  },
+  {
+    "id": "sqlseal-charts",
+    "name": "SQLSeal Charts",
+    "author": "hypersphere",
+    "description": "Generate charts from your data. Graph line charts, pie charts, scatter plots and more.",
+    "repo": "h-sphere/sql-seal-charts"
+  },
+  {
+    "id": "hello-nemesis",
+    "name": "hello nemesis",
+    "author": "Dian",
+    "description": "Uses OpenAI to challenge your ideas.",
+    "repo": "adiguno/hello-nemesis"
+ },
+ {
+    "id": "forms",
+    "name": "Forms",
+    "author": "Sorin Mircea",
+    "description": "Publish beautiful forms and get responses straight to your vault.",
+    "repo": "sorinmircea/obsidian-forms-plugin"
+  },
   {
     "id": "infoflow",
     "name": "InfoFlow",
     "author": "RockieStar Inc.",
     "description": "Sync your saved InfoFlow.app articles and highlights, similar to ReadWise and Omnivore",
     "repo": "InfoFlow/Obsidian-InfoFlow"
-  }
+   }
 ]
