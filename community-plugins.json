@@ -15132,7 +15132,7 @@
     "author": "mbramani",
     "description": "Summarize YouTube videos using Gemini AI. Extract transcripts, generate summaries, and create structured notes.",
     "repo": "mbramani/obsidian-yt-video-summarizer"
-   },	
+   },
   {
     "id": "whatsapp-export-note",
     "name": "WhatsApp export note",
@@ -15244,7 +15244,7 @@
     "author": "Giorgos Sarigiannidis",
     "description": "Add variables in Templates and set their values on-the-fly during the Note creation.",
     "repo": "gsarig/obsidian-varinote"
-  },	
+  },
   {
     "id": "vector-search",
     "name": "Vector Search",
@@ -15307,7 +15307,7 @@
     "author": "Pavlo Kobyliatskyi",
     "description": "Memorizing words or phrases",
     "repo": "pavlokobyliatskyi/obsidian-memodack-plugin"
-  }, 
+  },
   {
     "id": "ai-hub",
     "name": "AI integration Hub",
@@ -15548,7 +15548,7 @@
   },
   {
     "id": "last-position",
-    "name": "Last Position",		
+    "name": "Last Position",
     "author": "saktawdi",
     "description": "Automatically scroll to the last viewed position when opening the markdown document.",
     "repo": "Saktawdi/obsidian-last-position"
@@ -15561,7 +15561,14 @@
     "repo": "anareaty/html-checkboxes"
   },
   {
-    "id": "jupytext-obsidian-plugin",
+    "id": "checkbox-sync",
+    "name": "Checkbox Sync",
+    "author": "Grol",
+    "description": "Automatically checks the parent checkbox if all child checkboxes are completed, and unchecks it otherwise.",
+    "repo": "groldsf/obsidian_check_plugin"
+  },
+  {
+  "id": "jupytext-obsidian-plugin",
     "name": "Jupytext Support for Obsidian",
     "author": "Deniz Terzioglu",
     "description": "Creates and syncs Jupyter Notebooks from markdown notes through Jupytext in Obsidian.",
