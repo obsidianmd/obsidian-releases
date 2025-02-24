@@ -15040,7 +15040,7 @@
     "name": "Goal Tracker",
     "author": "Ben Rotholtz",
     "description": "Track your goals with a calendar view",
-    "repo": "GizmoRay/obsidian-goal-tracker"
+    "repo": "GizmoRay/obsidian-goal-tracker"  
   },
   {
     "id": "bibdesk-integration",
@@ -15496,7 +15496,7 @@
     "author": "Sorin Mircea",
     "description": "Publish beautiful forms and get responses straight to your vault.",
     "repo": "sorinmircea/obsidian-forms-plugin"
- },
+  },
  {
     "id": "note-id",
     "name": "Note ID",
@@ -15504,11 +15504,18 @@
     "description": "Displays notes by their ID, enabling structured sequences for manuscripts or a Zettelkasten (\"Folgezettel\").",
     "repo": "dominikmayer/obsidian-note-id"
   },
-  {
+{
     "id": "automatic-linker",
     "name": "Automatic Linker",
     "author": "Kodai Nakamura",
     "description": "automatically converts plain text file references into wiki links",
     "repo": "kdnk/obsidian-automatic-linker"
-  }
+  },
+  {
+    "id": "file-ignore",
+    "name": "File Ignore",
+    "author": "Feng",
+    "description": "Control file indexing by adding or removing dot prefix to files, providing a .gitignore-like experience",
+    "repo": "Feng6611/Obsidian-File-Ignore"
+ }
 ]
