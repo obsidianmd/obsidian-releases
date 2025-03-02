@@ -1,4 +1,14 @@
-Please switch to **Preview** and select one of the following links:
+### Plugin Name
+MP Preview
 
-* [Community Plugin](?template=plugin.md)
-* [Community Theme](?template=theme.md)
+### Description
+Preview and convert Markdown files to MP format.
+
+### Features
+- One-click preview of Markdown files in MP format
+- Real-time preview updates
+- Customizable templates and fonts
+- Easy copy to clipboard
+
+### Repository
+https://github.com/Yeban8090/mp-preview
