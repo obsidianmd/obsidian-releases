@@ -1274,13 +1274,6 @@
         "repo": "oeN/liquid-template"
     },
     {
-        "id": "better-fn",
-        "name": "Better footnote",
-        "description": "Display footnotes inline as a popover.",
-        "author": "AidenLx",
-        "repo": "aidenlx/better-fn"
-    },
-    {
         "id": "obsidian-dropbox-backups",
         "name": "Aut-O-Backups",
         "description": "Automated Dropbox backups of your entire vault.",
@@ -7476,13 +7469,6 @@
         "repo": "Falcion/UNITADE.md"
     },
     {
-        "id": "python-scripter",
-        "name": "Python Scripter",
-        "author": "Nick Allison",
-        "description": "Run Python scripts directly as commands.",
-        "repo": "nickrallison/obsidian-python-scripter"
-    },
-    {
         "id": "quicknote",
         "name": "Quick note",
         "author": "James Greenhalgh MBCS",
@@ -7523,13 +7509,6 @@
         "author": "Interweb Alchemy",
         "description": "A Prompt Engineering research utility for generative AI models like OpenAI's ChatGPT that facilitates archiving and searching conversations and live editing a conversation's context/memory.",
         "repo": "InterwebAlchemy/obsidian-ai-research-assistant"
-    },
-    {
-        "id": "wallabag",
-        "name": "Wallabag",
-        "author": "H\u00fcseyin Zengin",
-        "description": "Sync your Wallabag articles.",
-        "repo": "huseyz/obsidian-wallabag"
     },
     {
         "id": "red-pen",
@@ -8951,13 +8930,6 @@
         "author": "sapperlabs",
         "description": "Import notes and images from Hunchly.",
         "repo": "shadowoption/Hunchly-obsidian-plugin"
-    },
-    {
-        "id": "tckr",
-        "name": "tckr",
-        "author": "Git-Sum",
-        "description": "Get your TickTicks!",
-        "repo": "Git-Sum/obsidian-tckr"
     },
     {
         "id": "periodic-table",
@@ -15573,6 +15545,118 @@
     "author": "Nick de Bruin",
     "description": "Adds file support for various file types. Allows viewing and embedding these filetypes. Includes: .kra, .psd, .obj, .glb, .gltf, and more.",
     "repo": "Nick-de-Bruin/obsidian-extended-file-support"
+  },
+  {
+    "id": "pdf-writer",
+    "name": "PDF Writer",
+    "author": "Jobelin Kom",
+    "description": "to write and fill a PDF.",
+    "repo": "jkom4/obsidian-pdf-writer"
+  },
+  {
+    "id": "pdf-paste",
+    "name": "PDF Paste",
+    "author": "Cormac",
+    "description": "Improve copy-paste from PDFs by cleaning newlines and hyphens.",
+    "repo": "Cormac-C/obsidian-paste-plugin"
+  },
+  {
+    "id": "vault-file-renamer",
+    "name": "Vault File Renamer",
+    "author": "Louan Fontenele",
+    "description": "Automatically standardizes file names to GitHub style (lowercase, no accents, only -, ., _) while preserving folder structure and file contents. ",
+    "repo": "louanfontenele/obsidian-vault-file-renamer"
+  },
+  {
+    "id": "hide-commands-in-menu",
+    "name": "Hide Commands in Menu",
+    "author": "bomian98",
+    "description": "Allows you to hide any command to different menu.",
+    "repo": "bomian98/obsidian-hide-commands-in-menu"
+  },
+  {
+    "id": "folder-file-splitter",
+    "name": "FolderFile Splitter",
+    "author": "Xu Quan",
+    "description": "Splits folder and file lists into separate views, simplifying navigation, improving clarity, and making it more intuitive to organize your notes",
+    "repo": "XuQuan-nikkkki/FolderFile-Splitter-Plugin"
+  },
+  {
+    "id": "daily-routine",
+    "name": "Daily Routine",
+    "author": "sechan100",
+    "description": "Manage your daily tasks as 'ROUTINES' and organize your everyday life more effectively.",
+    "repo": "sechan100/daily-routine-2"
+  },
+  {
+    "id": "llm-tagger",
+    "name": "LLM Tagger",
+    "author": "David Jayatillake",
+    "description": "Automatically tag your documents using a local LLM",
+    "repo": "djayatillake/obsidian-llm-tagger"
+  },
+  {
+    "id": "paste-quote",
+    "name": "Paste Quote",
+    "author": "Jacob Williams",
+    "description": "Helps with formatting and citing quotes.",
+    "repo": "brokensandals/obsidian-paste-quote-plugin"
+  },
+  {
+    "id": "yourpulse",
+    "name": "YourPulse - Your Writing Activity Visualised",
+      "description": "It's like your Github profile, but for your vault (featuring daily streak, average daily word count, comprehensive stats and plugins overview).",
+    "author": "Jiri Sifalda",
+    "repo": "jsifalda/obsipulse-plugin"
+  },
+  {
+    "id": "image-size",
+    "name": "Image Size",
+    "author": "Jie Zhang",
+    "description": "Set the default size for pasted images.",
+    "repo": "cynicalight/obsidian-image-size"
+  },
+  {
+    "id": "rsync",
+    "name": "Rsync",
+    "author": "Ganapathy Raman",
+    "description": "Sync notes and automate backups using Rsync.",
+    "repo": "GanapathyRaman/rsync-plugin"  
+  },
+  {
+    "id": "extended-markdown-syntax",
+    "name": "Extended Markdown Syntax",
+    "author": "Kotaindah55",
+    "description": "Extend your markdown syntax using delimiters instead of HTML tags, such as underlining, superscript, subscript, highlighting, aligning.",
+    "repo": "kotaindah55/extended-markdown-syntax"
+  },
+  {
+    "id": "paste-image-into-property",
+    "name": "Paste Image Into Property",
+    "author": "Nito",
+    "description": "Allows pasting images from the clipboard into frontmatter properties in live preview.",
+    "repo": "Nitero/obsidian-paste-image-into-property"  
+  },
+  {
+    "id": "my-thesaurus",
+    "name": "My Thesaurus",
+    "author": "Mara-Li",
+    "description": "Automagically adds tags based on a simple csv file or a Markdown table.",
+    "repo": "Mara-Li/obsidian-my-thesaurus"
+  },
+  {
+    "id": "mediaviewer",
+    "name": "Media Viewer",
+    "author": "Devon22",
+    "description": "View and manage media files within your notes.",
+    "repo": "Devon22/obsidian-mediaviewer"
+  },
+  {
+    "id": "gridexplorer",
+    "name": "GridExplorer",
+    "author": "Devon22",
+    "description": "Browse note files in a grid view.",
+    "repo": "Devon22/obsidian-gridexplorer"  
   },
   {
     "id": "write-good",
