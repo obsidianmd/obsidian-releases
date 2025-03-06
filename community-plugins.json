@@ -15659,6 +15659,139 @@
 	  "repo": "Kh4f/manual-sorting"
 	},
     {
+        "id": "note-from-form",
+        "name": "Note From Form",
+        "author": "Sergei Kosivchenko",
+        "description": "Define dynamic input form and use it to create notes",
+        "repo": "ArhiChief/obsidian-note-from-form"
+    },
+    {
+        "id": "latex-exporter",
+        "name": "Latex Exporter",
+        "author": "Matthew S. Scott",
+        "description": "Write a LaTeX paper.",
+        "repo": "mscott99/latex-exporter"
+    },
+    {
+        "id": "ampliflow-page",
+        "name": "AmpliFlow Page Publisher",
+        "description": "Publish notes easily to AmpliFlow (https://www.ampliflow.se)",
+        "author": "Patrik Björklund",
+        "repo": "AmpliFlow/obsidian-ampliflow-page"
+    },
+    {
+        "id": "kale-graph",
+        "name": "Kale Graph",
+        "author": "Oli",
+        "description": "Render mathematical graphs.",
+        "repo": "olillin/obsidian-kale-graph"
+    },
+    {
+        "id": "scribe",
+        "name": "Scribe",
+        "author": "Mike Alicea",
+        "description": "Record voice notes, Fill in lost thoughts, Transcribe the audio, Summarize & Visualize the text - All in one clip",
+        "repo": "Mikodin/obsidian-scribe"
+    },
+    {
+        "id": "custom-image-auto-uploader",
+        "name": "Custom Image Auto Uploader",
+        "author": "HaierKeys",
+        "description": "You can upload and save images from your notes to your remote server, home NAS, or sync them to your cloud storage (Alibaba Cloud OSS, Amazon S3, Cloudflare R2).",
+        "repo": "haierkeys/obsidian-custom-image-auto-uploader"
+    },
+    {
+        "id": "wonderbox",
+        "name": "WonderBox",
+        "author": "Christian HUMBERT",
+        "description": "Create more relevant text sections your tips, top notes, warnings and more",
+        "repo": "Chrstn67/WonderBox"
+    },
+    {
+        "id": "kkh",
+        "name": "kkh",
+        "author": "奈幾乃(uakms)",
+        "description": "Replace words in a string using kkh dictionary.",
+        "repo": "okikae/obsid-kkh"
+    },
+    {
+        "id": "import-todoist",
+        "name": "Import Todoist tasks",
+        "author": "Duke",
+        "repo": "dukex/obsidian-import-todoist",
+        "description": "Import Todoist tasks as Markdown tasks."
+    },
+    {
+        "id": "link-maintainer",
+        "name": "Link Maintainer",
+        "author": "wenlzhang",
+        "description": "Maintain note links when splitting or reorganizing notes.",
+        "repo": "wenlzhang/obsidian-link-maintainer"
+    },
+    {
+        "id": "export-to-html",
+        "name": "Export to HTML",
+        "author": "kalvn",
+        "description": "Export your Markdown notes as HTML, directly in the clipboard or as a file.",
+        "repo": "kalvn/obsidian-export-to-html"
+    },
+    {
+        "id": "node-flow",
+        "name": "NodeFlow",
+        "author": "LincZero",
+        "description": "Render node streams like `ComfyUi`, `UE`, `Houdini`, `Blender`, etc., to make it easy to write relevant notes. JSON describes the chart, compared to screenshots, making it easier to modify later. The plugin is also compatible with blogs.",
+        "repo": "LincZero/obsidian-node-flow"
+    },
+    {
+        "id": "send-note",
+        "name": "Send Note",
+        "description": "Instantly send a note, to other users so they can import them into their vault via URL.",
+        "author": "jvsteiner",
+        "repo": "jvsteiner/send-note"
+    },
+    {
+        "id": "project-tasks",
+        "name": "Project Tasks",
+        "author": "Paul Paterson",
+        "description": "Allows you to easily create linked tasks for projects by managing the task ID's and dependencies.",
+        "repo": "paulpaterson/obsidian-project-tasks"
+    },
+    {
+        "id": "cursor-position-on-title-enter",
+        "name": "Cursor Position on Title Enter",
+        "author": "Por Chainarong Tangsurakit",
+        "description": "Set the cursor position after pressing Enter on the note title.",
+        "repo": "chaintng/cursor-position-on-title-enter"
+    },
+    {
+        "id": "smart-context",
+        "name": "Smart Context",
+        "author": "🌴 Brian",
+        "description": "Instantly copy folder contents or open notes—excluding specified headings—into your clipboard. Perfect for providing curated context to tools like ChatGPT, improving responses, and streamlining your AI workflows.",
+        "repo": "brianpetro/smart-context-obsidian"
+    },
+    {
+        "id": "bin-theme-controller",
+        "name": "Theme Controller",
+        "author": "Binaris",
+        "description": "Set when and how the themes will be displayed.",
+        "repo": "Binaris00/Theme-Controller"
+    },
+    {
+        "id": "insert-multiple-attachments",
+        "name": "Insert Multiple Attachments",
+        "author": "mnaoumov",
+        "description": "Allows to insert multiple attachments at a time.",
+        "repo": "mnaoumov/obsidian-insert-multiple-attachments"
+    },
+    {
+        "id": "smart-link-alias",
+        "name": "Smart Link Alias",
+        "author": "Victor Perez-Cano",
+        "description": "Enhance your internal links management with dynamic alias customization. Display short, full, or combined titles for your notes effortlessly.",
+        "repo": "vpcano/obsidian-smart-link-alias"
+    },
+    {
         "id": "replicate",
         "name": "Replicate",
         "author": "Sébastien Dubois",
@@ -16453,7 +16586,7 @@
         "id": "attachments-md-indexer",
         "name": "Attachments MD Indexer",
         "author": "Ian Inkov",
-        "description": "Creates searchable metadata notes for Canvas files, PDFs, and images, enhancing graph view visibility and plugin compatibility.",
+        "description": "Creates metadata notes for Canvas files, enhancing graph view visibility and plugin compatibility",
         "repo": "iinkov/obsidian-attachments-md-indexer"
     },
     {
@@ -16635,7 +16768,7 @@
         "id": "extended-markdown-syntax",
         "name": "Extended Markdown Syntax",
         "author": "Kotaindah55",
-        "description": "Extend your Markdown syntax using delimiters instead of HTML tags, such as underlining, superscript, subscript, highlighting, and spoiler.",
+        "description": "Extend your markdown syntax using delimiters instead of HTML tags, such as underlining, superscript, subscript, highlighting, aligning.",
         "repo": "kotaindah55/extended-markdown-syntax"
     },
     {
@@ -16721,6 +16854,13 @@
         "author": "leo",
         "description": "Insert content cards in Markdown, such as timeline, highlightblock, target card, book information card, music information card, movie information card, photoes ablum, business card, content subfield, countdown, etc.",
         "repo": "liqms/obsidian-content-cards"
+    },
+    {
+        "id": "manual-sorting",
+        "name": "Manual Sorting",
+        "author": "Kh4f",
+        "description": "Drag'n'Drop file sorting.",
+        "repo": "Kh4f/obsidian-manual-sorting"
     },
     {
         "id": "ascii-tree-generator",
