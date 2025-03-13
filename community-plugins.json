@@ -3788,9 +3788,9 @@
     },
     {
         "id": "obsidian-task-progress-bar",
-        "name": "Task Progress Bar",
+        "name": "Task Genius",
         "author": "Boninall",
-        "description": "A task progress bar for tasks.",
+        "description": "Comprehensive task management that includes progress bars, task status cycling, and advanced task tracking features.",
         "repo": "Quorafind/Obsidian-Task-Progress-Bar"
     },
     {
@@ -15445,7 +15445,7 @@
     "id": "attachments-md-indexer",
     "name": "Attachments MD Indexer",
     "author": "Ian Inkov",
-    "description": "Creates metadata notes for Canvas files, enhancing graph view visibility and plugin compatibility",
+    "description": "Creates searchable metadata notes for Canvas files, PDFs, and images, enhancing graph view visibility and plugin compatibility.",
     "repo": "iinkov/obsidian-attachments-md-indexer"
   },
   {
@@ -15627,7 +15627,7 @@
     "id": "extended-markdown-syntax",
     "name": "Extended Markdown Syntax",
     "author": "Kotaindah55",
-    "description": "Extend your markdown syntax using delimiters instead of HTML tags, such as underlining, superscript, subscript, highlighting, aligning.",
+    "description": "Extend your Markdown syntax using delimiters instead of HTML tags, such as underlining, superscript, subscript, highlighting, and spoiler.",
     "repo": "kotaindah55/extended-markdown-syntax"
   },
   {
@@ -15805,11 +15805,19 @@
     "description": "Weather generator for the HârnMaster: Roleplaying in the World of Kèthîra rule system.",
     "repo": "marcueberall/obsidian-harn-weather"
   },
-{
-	"id": "mistral-ocr",
-	"name": "Mistral OCR",
-	"author": "fTrestour",
-	"description": "Extract text from images using Mistral AI's OCR capabilities and insert it directly into your notes.",
-	"repo": "fTrestour/obsidian-mistral-ocr-plugin"
-}
+  {
+    "id": "mistral-ocr",
+    "name": "Mistral OCR",
+    "author": "fTrestour",
+    "description": "Extract text from images using Mistral AI's OCR capabilities and insert it directly into your notes.",
+    "repo": "fTrestour/obsidian-mistral-ocr-plugin"
+  },
+  {
+    "id": "previous-daily-note",
+    "name": "Previous Daily Note",
+    "author": "Marcos Talau",
+    "description": "Unlike the \"Daily notes\" command \"Open previous daily note\", it opens the previous daily note starting from today, rather than the daily note currently open. It also provides a ribbon icon and a command to perform this action.",
+    "repo": "talau/obsidian-previous-daily-note"
+  }
+
 ]
