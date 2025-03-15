@@ -15162,10 +15162,10 @@
     "repo": "VaguelyElectric/obsidian-explorer-colors"
   },
   {
-	"id": "readeck-importer",
-	"name": "Readeck Importer",
-	"description": "Import bookmarks from Readeck.",
-	"author": "Makebit",
+   "id": "readeck-importer",
+   "name": "Readeck Importer",
+    "description": "Import bookmarks from Readeck.",
+    "author": "Makebit",
     "repo": "makebit/obsidian-readeck-importer"
   },
   {
@@ -15445,7 +15445,7 @@
     "id": "attachments-md-indexer",
     "name": "Attachments MD Indexer",
     "author": "Ian Inkov",
-    "description": "Creates metadata notes for Canvas files, enhancing graph view visibility and plugin compatibility",
+    "description": "Creates searchable metadata notes for Canvas files, PDFs, and images, enhancing graph view visibility and plugin compatibility.",
     "repo": "iinkov/obsidian-attachments-md-indexer"
   },
   {
@@ -15804,6 +15804,146 @@
     "author": "Marc André Ueberall",
     "description": "Weather generator for the HârnMaster: Roleplaying in the World of Kèthîra rule system.",
     "repo": "marcueberall/obsidian-harn-weather"
+  },
+  {
+    "id": "previous-daily-note",
+    "name": "Previous Daily Note",
+    "author": "Marcos Talau",
+    "description": "Unlike the \"Daily notes\" command \"Open previous daily note\", it opens the previous daily note starting from today, rather than the daily note currently open. It also provides a ribbon icon and a command to perform this action.",
+    "repo": "talau/obsidian-previous-daily-note"
+  },
+  {
+    "id": "easy-fonts",
+    "name": "Easy Fonts",
+    "author": "Jose Elias Alvarez",
+    "description": "Easily load custom fonts, even on mobile.",
+    "repo": "jose-elias-alvarez/obsidian-easy-fonts"
+  },
+  {
+    "id": "sqlite-db",
+    "name": "SQLite DB",
+    "author": "Stefano Frigerio",
+    "description": "Interact with local SQLite files in your notes",
+    "repo": "stfrigerio/sqliteDB"  
+  },
+  {
+    "id": "tab-group-arrangement",
+    "name": "Tab Group Arrangement",
+    "author": "situ2001",
+    "description": "Arrange the tab group in a more flexible way. For now, it supports arranging evenly and expanded like VSCode. User can make action and switch mode of arrangement by clicking the status bar or executing commands.",
+    "repo": "situ2001/obsidian-tab-group-arrangement"
+  },
+{
+    "id": "file-ignore",
+    "name": "File Ignore",
+    "author": "Feng",
+    "description": "Control file indexing by adding or removing dot prefix to files, providing a .gitignore-like experience",
+    "repo": "Feng6611/Obsidian-File-Ignore"
+},
+  {
+    "id": "waveform-player",
+    "name": "Waveform Player",
+    "author": "Zhou Hua",
+    "description": "Render audio files as waveforms",
+    "repo": "zhouhua/obsidian-waveform-player"
+},
+{
+    "id": "media-slider",
+    "name": "Media Slider",
+    "author": "Aditya Amatya",
+    "description": "A media slider for images, gifs, audios, videos, and PDFs.",
+    "repo": "amatya-aditya/obsidian-media-slider"
+},
+{
+    "id": "jade-publisher",
+    "name": "Jade Publisher",
+    "author": "Lucas Ji",
+    "description": "Publish your vault and changes to your Jade service.",
+    "repo": "LucasJi/jade-publisher"
+},
+{
+    "id": "sync-vault-ce",
+    "name": "Sync Vault CE",
+    "author": "Camus Qiu",
+    "description": "sync with cloud disk fast and safely.",
+    "repo": "abcamus/obsidian-sync-vault-ce"
+  },
+{
+	"id": "bible-sidecar",
+	"name": "Bible sidecar",
+	"author": "Janis Ringli",
+	"description": "Open the bible in your preferred translation in a split-screen view within your workspace",
+	"repo": "janisringli/bible-sidecar-obsidian-plugin"
+},
+{
+    "id": "tidit",
+    "name": "tidit",
+    "author": "codingthings.com",
+    "description": "tidit adds timestamps to your document as you type — when you want it, how you want it, where you want it.",
+    "repo": "codingthings-com/tidit-obsidian"
+},
+{	
+    "id": "copy-local-graph-paths",
+    "name": "Copy Local Graph Paths",
+    "author": "Amy Z",
+    "description": "Copies file paths of local graph links to clipboard.",
+    "repo": "0melette/copy-local-graph-paths"
+},
+{
+    "id": "imswitch-mathblock",
+    "name": "IMSwitch in Math Block",
+    "author": "XXM",
+    "description": "Automatically switch input method in math block",
+    "repo": "cailurus/imswitch_mathblock_obsidian"
+},
+{
+  "id": "note-metrics",
+  "name": "Daily Note Metrics",
+  "author": "Andre-Diamond",
+  "description": "Parses the tags in your Daily Notes and create interactive charts in a dashboard view.",
+  "repo": "Andre-Diamond/note-metrics"
+},
+{
+    "id": "musical-text-highlighter",
+    "name": "Musical Text",
+    "author": "Tynan Purdy",
+    "description": "Highlight sentences with color based on their length as you write.",
+    "repo": "tynanpurdy/musical-text"
+  },
+  {
+    "id": "mode-manager",
+    "name": "Mode manager",
+    "author": "dk949",
+    "description": "Provide an easier way to manipulate reading/editing and preview/source mode",
+    "repo": "dk949/obsidian-mode-manager"
+  },
+  {	
+    "id": "note-placeholder",
+    "name": "Note Placeholder",
+    "author": "XZSt4nce",
+    "description": "Replaces text of note link to placeholder in view mode.",
+    "repo": "XZSt4nce/note-placeholder"
+},
+{
+    "id": "uri-converter",
+    "name": "URI Converter",
+    "author": "wenlzhang",
+    "description": "Convert URIs to internal links.",
+    "repo": "wenlzhang/obsidian-uri-converter"
+},
+{  
+    "id": "inline-code-copy",
+    "name": "Inline Code Copy",
+    "author": "Hongchen Lin",
+    "description": "Copy inline code on click in reading view.",
+    "repo": "lhinxue/obsidian-inline-code-copy-plugin"
+},
+{
+    "id": "stu-repo-helper",
+    "name": "Student Repo",
+    "author": "Feirong.zfr",
+    "description": "Manage student repositories.",
+    "repo": "yingflower/obsidian-stu-repo-helper"
   },
   {
     "id": "mp-preview",
