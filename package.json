@@ -1,10 +1,32 @@
 {
-  "name": "obsidian-community-releases",
+  "name": "obsidian-relay-sync",
+  "version": "1.0.0",
+  "description": "Плагин для Obsidian, обеспечивающий надежную и безопасную синхронизацию между устройствами через сервер-маршрутизатор",
+  "main": "main.js",
   "scripts": {
-    "lint": "eslint . --ext .json"
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
   },
+  "keywords": [
+    "obsidian",
+    "sync",
+    "relay",
+    "e2e-encryption"
+  ],
+  "author": "Dima",
+  "license": "MIT",
   "devDependencies": {
-    "eslint": "7.20.0",
-    "eslint-plugin-json": "2.1.2"
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.20.0",
+    "obsidian": "^1.4.0",
+    "tslib": "^2.4.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.1"
   }
 }
