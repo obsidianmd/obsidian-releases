@@ -1,11 +1,17 @@
 {
 	"id": "folder-tag-plugin",
 	"name": "Folder Tag Plugin",
-	"version": "1.0.0",
-	"minAppVersion": "0.9.12",
-	"description": "Automatically manages tags based on folder structure and provides intuitive tag management functionality.",
+	"version": "1.0.1",
+	"minAppVersion": "0.15.0",
+	"description": "Automatically manages tags based on folder structure and provides intuitive tag management functionality. Automatically adds folder names as tags and moves files to corresponding folders.",
 	"author": "leo10969",
 	"authorUrl": "https://github.com/leo10969",
 	"isDesktopOnly": false,
-	"repo": "leo10969/Obsidian-Folder-Tag-Plugin"
+	"fundingUrl": {
+		"GitHub Sponsor": "https://github.com/sponsors/leo10969"
+	},
+	"i18n": {
+		"en": "i18n/en.json",
+		"ja": "i18n/ja.json"
+	}
 }
