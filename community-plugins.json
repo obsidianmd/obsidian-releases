@@ -13389,7 +13389,7 @@
         "author": "AnAngryRaven",
         "description": "Enables the ability to open the sidebar by hovering over it.",
         "repo": "AnAngryRaven/obsidian-open-sidebar-on-hover"
-  },
+    },
   {
     "id": "onlyworlds-builder",
     "name": "OnlyWorlds Builder",
@@ -16049,14 +16049,12 @@
     "author": "wenlzhang",
     "description": "Synchronize titles between filename, frontmatter, and first heading in notes.",
     "repo": "wenlzhang/obsidian-file-title-updater"
-  }
+},
+    {
+        "id": "ticktick-quickadd-plugin",
+        "name": "TickTick Quick Add Task",
+        "author": "Muxin Li",
+        "description": "Instantly creates a TickTick task from the current block of text in Obsidian using a keyboard shortcut. Task includes a copy of the text, and the URI to that exact block of text in your notes. Requires Advanced URI plugin.",
+        "repo": "muxinli/ticktick-quick-add-obsidian"
+    }
 ]
-
-{
-    "id": "ticktick-quickadd-plugin",
-    "name": "TickTick Quick Add Task",
-    "author": "Muxin Li",
-    "description": "Instantly creates a TickTick task from the current block of text in Obsidian using a keyboard shortcut. Task includes a copy of the text, and the URI to that exact block of text in your notes. Requires Advanced URI plugin.",
-    "repo": "muxinli/ticktick-quick-add-obsidian"
-}
-
