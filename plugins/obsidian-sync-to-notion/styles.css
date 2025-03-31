@@ -1,0 +1,96 @@
+/* Estilos para a interface do plugin */
+
+.notion-sync-settings {
+  margin-bottom: 20px;
+}
+
+.notion-sync-settings .setting-item-info {
+  padding: 12px;
+  background-color: var(--background-secondary);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.notion-sync-settings ul {
+  margin-left: 20px;
+}
+
+.notion-sync-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.notion-sync-progress-bar {
+  height: 12px;
+  background-color: var(--background-modifier-border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.notion-sync-progress-bar-inner {
+  height: 100%;
+  background-color: var(--interactive-accent);
+  width: 0;
+  transition: width 0.3s ease;
+}
+
+.notion-sync-status {
+  font-size: 0.8em;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+/* Botão de sync */
+.notion-sync-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.notion-sync-button:hover {
+  background-color: var(--interactive-accent-hover);
+}
+
+.notion-sync-button-icon {
+  height: 16px;
+  width: 16px;
+}
+
+/* Ícone de status */
+.notion-status-connected {
+  color: var(--color-green);
+}
+
+.notion-status-disconnected {
+  color: var(--color-red);
+}
+
+.notion-status-pending {
+  color: var(--color-yellow);
+}
+
+/* Indicador de sincronização */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.notion-sync-spinner {
+  animation: spin 1.5s linear infinite;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
