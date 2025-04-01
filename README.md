@@ -1,63 +1,186 @@
-## About this repo
+##📚 Overview
 
-This repo is used for hosting public releases of Obsidian, as well as our community plugins & themes directories.
+This plugin creates a bridge between your Obsidian vault and Notion workspace, allowing you to:
 
-Obsidian is not open source software and this repo _DOES NOT_ contain the source code of Obsidian. However, if you wish to contribute to Obsidian, you can easily do so with our extensive plugin system. A plugin guide can be found here: https://docs.obsidian.md
+- ✅ Sync markdown files to Notion pages with preserved formatting
+- 📂 Maintain folder structure in Notion
+- 🔄 Auto-sync files on save or at timed intervals
+- 📝 Keep track of changes for efficient syncing
+- 🔁 Perform full resyncs when needed
 
-This repo does not accept issues, if you have questions or issues with plugins, please go to their own repo to file them. If you have questions or issues about core Obsidian itself, please post them to our community: https://obsidian.md/community
+## ⚙️ Installation
 
-## Submit your plugin or theme
+### Manual Installation (Recommended)
 
-When opening a pull request, please switch to preview mode and select the option to go through our submission checklist. Submit your entry by following the convention in the JSON file and we will review your submission.
+1. Download the latest release: `Obsidian-Sync-to-Notion.zip`
+2. Extract the contents of the ZIP file (which contains `main.js`, `manifest.json`, and optionally `styles.css`)
+3. Copy the extracted folder `Obsidian-Sync-to-Notion` into your vault’s `.obsidian/plugins/` directory
+4. Open Obsidian, go to **Settings → Community Plugins → Installed Plugins**
+5. Enable **Notion Sync**
 
-Thanks for submitting your creations!
+> ⚠️ If the `.plugins/` folder doesn’t exist, create it manually.
 
-You can find a detailed explanation for submitting your [plugin here](https://docs.obsidian.md/Plugins/Releasing/Submit+your+plugin) and your [theme here](https://docs.obsidian.md/Themes/App+themes/Submit+your+theme).
+### From Obsidian Community Plugins (Coming Soon)
 
-## Policies
+1. Open Obsidian Settings  
+2. Go to "Community Plugins" and click "Browse"  
+3. Search for "Notion Sync"  
+4. Click "Install" and then "Enable"
 
-All submissions must conform with our [developer policies](https://docs.obsidian.md/Developer+policies)
+## 🔑 Setup
 
-## Community Theme
+Before using the plugin, you need:
 
-To add your theme to our theme store, make a pull request to the `community-css-theme.json` file. Please add your theme to the end of the list.
+1. **Notion API Token**:  
+   - Go to [Notion Integrations](https://www.notion.so/my-integrations)  
+   - Create a new integration  
+   - Copy the secret token
 
-- `name`: a unique name for your theme. Must not collide with other themes.
-- `author`: the author's name for display.
-- `repo`: the GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
-- `screenshot`: path to the screenshot of your theme.
-- `modes`: if your theme supports both dark and light mode, put `["dark", "light"]`. Otherwise, put `["dark"]` if your theme only supports dark mode, or  `["light"]` if your theme only supports light mode.
-- `publish`: if your theme supports Obsidian Publish, set this to `true`. Omit it otherwise.
+2. **Root Page ID**:  
+   - Create or choose a page in Notion where your notes will be synced  
+   - Share this page with your integration  
+   - Copy the page ID from the URL (it's the long string after the workspace name and before any '?')
 
-To get your theme compatible with Obsidian Publish, you can use `applyCss` and `applyCssByLink` to test out your CSS in the developer console of Obsidian Publish sites, so that you don't actually need to own sites to test your `publish.css`. You can test it out on our help site here: https://help.obsidian.md/
+3. **Configure the Plugin**:  
+   - Open Obsidian Settings  
+   - Go to "Notion Sync" settings  
+   - Paste your API token and root page ID  
+   - Configure other settings as needed
 
-`applyCss` takes a CSS string, you can use backtick (template strings) for multiline CSS. `applyCssByLink` takes a link and loads the CSS, would recommend GitHub raw file URLs.
+## 🚀 Usage
 
-## Community Plugin
+### Commands
 
-### Community Plugins format
+The plugin adds these commands to Obsidian:
 
-To add your plugin to the list, make a pull request to the `community-plugins.json` file. Please add your plugin to the end of the list.
+- **Sync to Notion**: Syncs modified files to Notion  
+- **Sync to Notion (Full Resync)**: Clears all pages in Notion and performs a complete resync
 
-- `id`: A unique ID for your plugin. Make sure this is the same one you have in your `manifest.json`.
-- `name`: The name of your plugin.
-- `author`: The author's name.
-- `description`: A short description of what your plugin does.
-- `repo`: The GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
+### Automatic Sync Options
 
-### How community plugins are pulled
+- **Sync on Save**: Toggle to automatically sync files when you save them  
+- **Auto Sync Interval**: Set a timer for periodic syncing (in minutes)
 
-- Obsidian will read the list of plugins in `community-plugins.json`.
-- The `name`, `author` and `description` fields are used for searching.
-- When the user opens the detail page of your plugin, Obsidian will pull the `manifest.json` and `README.md` from your GitHub repo).
-- The `manifest.json` in your repo will only be used to figure out the latest version. Actual files are fetched from your GitHub releases.
-- If your `manifest.json` requires a version of Obsidian that's higher than the running app, your `versions.json` will be consulted to find the latest version of your plugin that is compatible.
-- When the user chooses to install your plugin, Obsidian will look for your GitHub releases tagged identically to the version inside `manifest.json`.
-- Obsidian will download `manifest.json`, `main.js`, and `styles.css` (if available), and store them in the proper location inside the vault.
+### Settings
 
-### Announcing the First Public Release of your Plugin/Theme
+- **Excluded Folders**: Specify folders you don't want to sync  
+- **Advanced Options**: Configure sync behavior and formatting options
 
-- Once admitted to the plugin/theme browser, you can announce the public availability of your plugin/theme:
-  - [in the forums](https://forum.obsidian.md/c/share-showcase/9) as a showcase, and
-  - [on the Discord Server](https://discord.gg/veuWUTm) in the channel `#updates`. (You need the `developer` role to be able to post in that channel; [you can get that role here](https://discord.com/channels/686053708261228577/702717892533157999/830492034807758859).)
-- You can also announce the first working version of your plugin as a public beta before "officially" submitting it to the plugin/theme browser. That way, you can acquire some beta testers for feedback. It's recommended to use the [BRAT Plugin](https://obsidian.md/plugins?id=obsidian42-brat) to make the installation as easy as possible for interested beta testers.
+## 🔄 How It Works
+
+1. The plugin scans your vault for markdown files  
+2. It tracks which files have been modified since the last sync  
+3. It creates a mirror structure in Notion  
+4. It converts markdown to Notion blocks, preserving formatting and code blocks  
+5. It updates existing pages or creates new ones as needed
+
+## 🔜 Roadmap
+
+- Better support for embeds and transclusions  
+- Two-way sync (Notion to Obsidian)  
+- Custom property mapping  
+- Sync selection dialog  
+- Integration with Notion databases
+
+---
+
+<a name="português"></a>
+# Português
+
+## 📚 Visão Geral
+
+Este plugin cria uma ponte entre seu vault do Obsidian e seu workspace do Notion, permitindo:
+
+- ✅ Sincronizar arquivos markdown com páginas do Notion mantendo a formatação  
+- 📂 Manter a estrutura de pastas no Notion  
+- 🔄 Sincronização automática ao salvar ou em intervalos definidos  
+- 📝 Acompanhar alterações para sincronização eficiente  
+- 🔁 Realizar ressincronizações completas quando necessário
+
+## ⚙️ Instalação
+
+### Instalação Manual (Recomendada)
+
+1. Baixe o arquivo mais recente: `Obsidian-Sync-to-Notion.zip`  
+2. Extraia o conteúdo do ZIP (`main.js`, `manifest.json` e opcionalmente `styles.css`)  
+3. Copie a pasta `Obsidian-Sync-to-Notion` extraída para `.obsidian/plugins/` dentro do seu vault do Obsidian  
+4. Abra o Obsidian, vá em **Configurações → Plugins Comunitários → Plugins Instalados**  
+5. Ative o plugin **Notion Sync**
+
+> ⚠️ Se a pasta `.plugins/` não existir, crie-a manualmente.
+
+### Pelos Plugins Comunitários do Obsidian (Em Breve)
+
+1. Abra as Configurações do Obsidian  
+2. Vá para "Plugins Comunitários" e clique em "Procurar"  
+3. Busque por "Notion Sync"  
+4. Clique em "Instalar" e depois "Ativar"
+
+## 🔑 Configuração
+
+Antes de usar o plugin, você precisa:
+
+1. **Token de API do Notion**:  
+   - Acesse [Integrações do Notion](https://www.notion.so/my-integrations)  
+   - Crie uma nova integração  
+   - Copie o token secreto
+
+2. **ID da Página Raiz**:  
+   - Crie ou escolha uma página no Notion onde suas notas serão sincronizadas  
+   - Compartilhe esta página com sua integração  
+   - Copie o ID da página da URL (é a string longa após o nome do workspace e antes de qualquer '?')
+
+3. **Configure o Plugin**:  
+   - Abra as Configurações do Obsidian  
+   - Vá para configurações de "Notion Sync"  
+   - Cole seu token de API e ID da página raiz  
+   - Configure outras opções conforme necessário
+
+## 🚀 Uso
+
+### Comandos
+
+O plugin adiciona estes comandos ao Obsidian:
+
+- **Sync to Notion**: Sincroniza arquivos modificados com o Notion  
+- **Sync to Notion (Full Resync)**: Limpa todas as páginas no Notion e realiza uma ressincronização completa
+
+### Opções de Sincronização Automática
+
+- **Sincronizar ao Salvar**: Ative para sincronizar automaticamente os arquivos quando salvos  
+- **Intervalo de Sincronização Automática**: Define um temporizador para sincronização periódica (em minutos)
+
+### Configurações
+
+- **Pastas Excluídas**: Especifique pastas que não deseja sincronizar  
+- **Opções Avançadas**: Configure comportamentos de sincronização e opções de formatação
+
+## 🔄 Como Funciona
+
+1. O plugin escaneia seu vault em busca de arquivos markdown  
+2. Ele rastreia quais arquivos foram modificados desde a última sincronização  
+3. Cria uma estrutura espelho no Notion  
+4. Converte markdown para blocos do Notion, preservando formatação e blocos de código  
+5. Atualiza páginas existentes ou cria novas conforme necessário
+
+## 🛠️ Soluções de Problemas
+
+- **Falha na Autenticação**: Verifique se seu token do Notion está correto e ainda é válido  
+- **Página Não Encontrada**: Certifique-se de que o ID da página raiz está correto e a página está compartilhada com sua integração  
+- **Problemas de Formatação**: Alguns elementos markdown complexos podem não renderizar perfeitamente no Notion
+
+## 🔜 Roadmap
+
+- Melhor suporte para embeds e transclusões  
+- Sincronização bidirecional (Notion para Obsidian)  
+- Mapeamento de propriedades personalizadas  
+- Diálogo de seleção para sincronização  
+- Integração com bancos de dados do Notion
+
+## 🧩 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
