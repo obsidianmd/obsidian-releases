@@ -16343,13 +16343,41 @@
     "author": "Ankit Kapur",
     "description": "Automatically updates a 'status' property in a note when its card is moved on a Kanban board",
     "repo": "ankit-kapur/obsidian-kanban-status-updater-plugin"
-
 },
+{
+    "id": "pomobar",
+    "name": "PomoBar",
+    "author": "Miguel Pimentel",
+    "description": "A simple Pomodoro timer that lives in your status bar. Left click to start/stop, right click to reset when paused, middle click to cycle between 25/15/5 minute durations.",
+    "repo": "semanticdata/obsidian-pomodoro"
+  },
   {
+    "id": "generate-timeline", 
+    "name": "Generate Timeline", 
+    "author": "Shanshuimei",
+    "description": "Generate timelines from tag or folder automatically by any time properties.", 
+    "repo": "Shanshuimei/obsidian-generate-timeline"
+  },
+  {
+    "id": "pdf-folder-to-markdowns",
+    "name": "PDF Folder to Markdowns",
+    "author": "CrisHood",
+    "description": "Convert a folder of PDFs into Markdown files with embedded PDFs",
+    "repo": "crishood/pdf-folder-to-markdowns"
+  },
+  {
+    "id": "sticky-notes",
+    "name": "Sticky Notes",
+    "author": "NoPoint",
+    "description": "Create sticky notes popups.",
+    "repo": "Abdo-reda/obsidian-sticky-notes-plugin"
+
+  },
+    {
       "id": "pdf2markdown",
     "name": "PDF2Markdown",
     "author": "CAPELLE Gabin",
     "description": "Convert PDF to Markdown by (MISTRAL OCR MODEL)",
     "repo": "CapelleGab/obsidian-pdf2markdown"
-  }
+}
 ]
