@@ -5996,7 +5996,7 @@
         "name": "AnyBlock",
         "author": "LincZero",
         "description": "Take any fragment as a block and render it into multiple effects. You can select a section by list/heading/table/quote/codeBlock/markdown-it-container(`:::`), and turn into table/tabs/dir/cards/column/mindmap/mermaid/PlantUML/markmap/timeLine/jsonChart/nodeTree and more.",
-        "repo": "LincZero/obsidian-any-block"
+        "repo": "any-block/obsidian-any-block"
     },
     {
         "id": "wucai-highlights-official",
@@ -16441,5 +16441,12 @@
   "author": "schaier-io",
   "description": "Track GitHub issues and pull requests in your vault",
   "repo": "schaier-io/obsidian-github-tracker-plugin"
+},
+{
+    "id": "any-block-min",
+    "name": "AnyBlock Min",
+    "author": "LincZero",
+    "description": "AnyBlock min version. Remove some features and dependencies to reduce size and improve performance.",
+    "repo": "any-block/obsidian-any-block-min"
 }
 ]
