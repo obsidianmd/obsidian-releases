@@ -17409,10 +17409,10 @@
     "repo": "artemDvoryadkin/obsidian-vim-marker-sharpener"
   },
   {
-  	"id": "pure-chat-llm",
-  	"name": "Pure Chat LLM",
-  	"author": "Justice Vellacott",
-  	"description": "Turn notes into conversations with chatGPT",
+    "id": "pure-chat-llm",
+    "name": "Pure Chat LLM",
+    "author": "Justice Vellacott",
+    "description": "Turn notes into conversations with chatGPT",
     "repo": "TheJusticeMan/pure-chat-llm"
   },
   {
@@ -17421,12 +17421,40 @@
     "author": "insile",
     "description": "用于英语学习中背单词与单词管理的插件",
     "repo": "insile/OpenWords"
-},
-{
+  },
+  {
+    "id": "smooth-navigator",
+    "name": "Smooth Navigator",
+    "author": "Michael Schrauzer",
+    "description": "Smoothly cycle through open files and splits via the keyboard.",
+    "repo": "gasparschott/smooth-navigator"
+  },
+  {
+    "id": "duplicate-line",
+    "name": "Duplicate line",
+    "author": "Marcin Sztolcman",
+    "description": "Duplicate line or selection with single hotkey.",
+    "repo": "msztolcman/obsidian-duplicate-line"
+  },
+  {
+    "id": "github-tracker",
+    "name": "GitHub Tracker",
+    "author": "schaier-io",
+    "description": "Track GitHub issues and pull requests in your vault",
+    "repo": "schaier-io/obsidian-github-tracker-plugin"
+  },
+  {
     "id": "course-module-loader",
     "name": "Course Module Loader",
     "author": "Sebastian Kamilli",
     "description": "Downloads and unzips course module zip files from a URL into a specified vault folder, skipping existing files.",
     "repo": "QuintSmart/obsidian-course-module-loader"
- }
+  },
+  {
+    "id": "note_uid_generator",
+    "name": "Note UID Generator",
+    "author": "Valentin Pelletier",
+    "description": "Automatically or manually generates Unique IDs (UIDs) for notes and registers them in metadata (frontmatter).",
+    "repo": "Netajam/obsidian_note_uid_generator"
+  }
 ]
