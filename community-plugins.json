@@ -8228,7 +8228,7 @@
         "id": "screengarden-obsidian",
         "name": "screen.garden",
         "author": "screengarden, LLC",
-        "description": "A live collaboration, publishing, and web editing service for your PKM.",
+        "description": "Realtime multiplayer collaboration, live cursors without merge conflicts, folder sync, share links, web editing, and more—for teams or working solo.",
         "repo": "screendotgarden/screengarden-obsidian"
     },
     {
@@ -13555,7 +13555,7 @@
     "id": "advanced-copy",
     "name": "Advanced Copy",
     "author": "leschuster",
-    "description": "Copy Markdown and transform it according to your needs.",
+    "description": "Copy Markdown and transform it into HTML, Anki, or any custom format. Create custom profiles with versatile templates tailored to your workflow.",
     "repo": "leschuster/obsidian-advanced-copy"
   },
   {
@@ -16308,7 +16308,7 @@
     "author": "David Ingerslev",
     "description": "Creates meeting notes for Outlook appointments and meetings.",
     "repo": "davidingerslev/outlook-meeting-notes"
-  },
+},
 {
   "id": "ai-note-tagger",
   "name": "AI Note Tagger",
@@ -16443,6 +16443,76 @@
   "repo": "schaier-io/obsidian-github-tracker-plugin"
 },
 {
+    "id": "wewrite",
+    "name": "WeWrite",
+    "author": "Learner Chen",
+    "description": "AI assisting writing, Rendering and publishing notes to WeChat MP platform",
+    "repo": "learnerchen-forever/wewrite"
+  },
+ {
+  "id": "smart-vault-visualizer",
+  "name": "Smart Vault Visualizer",
+  "author": "Evan Moscoso",
+  "description": "Visualizes and manages smart clusters and cluster groups in your vault.",
+  "repo": "mossy1022/smart-connections-vault-visualizer"
+ },
+ {
+    "id": "browser-history",
+    "name": "Browser History",
+    "author": "noy4",
+    "description": "Sync your browser history to notes.",
+    "repo": "noy4/browser-history"
+  },
+  {
+    "id": "related-notes",
+    "name": "Related Notes",
+    "author": "Oluwasanya Awe",
+    "description": "Discover related notes in your vault.",
+    "repo": "mrboxtobox/obsidian-related-notes"
+  },
+  {
+    "id": "rename-file-to-selection",
+    "name": "Rename File to Selection",
+    "author": "Aava",
+    "description": "Rename your file to the current text selection.",
+    "repo": "AavaGames/obsidian-rename-file-to-selection"
+  },
+  {
+    "id": "white-noise",
+    "name": "White Noise",
+    "author": "Zhou Hua",
+    "description": "Play white noise to help you focus on your work.",
+    "repo": "zhouhua/obsidian-white-noise"
+  },
+  {
+  "id": "anki-integration",
+  "name": "Anki Integration",
+  "author": "Noah Boos AKA Rift",
+  "description": "Create flashcards from your notes with a seamless interface, structuring them with metadata and syncing effortlessly via AnkiConnect.",
+  "repo": "NoahBoos/obsidian-anki-integration"
+  },
+  {
+    "id": "jira-sync",
+    "name": "Jira Issue Manager",
+    "author": "Alamion",
+    "description": "Get Jira issues, create and update them. Issue status and worklog management.",
+    "repo": "Alamion/obsidian-jira-sync"  
+},
+{  
+    "id": "theme-toggle",
+    "name": "Theme toggle",
+    "author": "@gapmiss",
+    "description": "Dark/light theme toggle via ribbon icon or command.",
+    "repo": "gapmiss/theme-toggle"
+},
+ {
+    "id": "data-fetcher",
+    "name": "Data Fetcher",
+    "author": "qf3l3k",
+    "description": "Fetch data from multiple sources (REST APIs, RPC, gRPC, GraphQL) and insert results into notes",
+    "repo": "qf3l3k/obsidian-api-fetcher"
+  },
+  {
     "id": "table-sorting",
     "name": "Table Sorting",
     "author": "winstromming",
@@ -16450,3 +16520,4 @@
     "repo": "winstromming/obsidian-table-sorting"
 }
 ]
+
