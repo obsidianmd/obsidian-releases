@@ -105,55 +105,55 @@ jobs:
                 addError(`It seems like you made a typo in the repository field \`${plugin.repo}\`.`);
               }
 
-              if (plugin.id.toLowerCase().includes('obsidian')) {
+              if (plugin.id?.toLowerCase().includes('obsidian')) {
                 addError(`Please don't use the word \`obsidian\` in the plugin ID. The ID is used for your plugin's folder so keeping it short and simple avoids clutter and helps with sorting.`);
               }
-              if (plugin.id.toLowerCase().endsWith('plugin')) {
+              if (plugin.id?.toLowerCase().endsWith('plugin')) {
                 addError(`Please don't use the word \`plugin\` in the plugin ID. The ID is used for your plugin's folder so keeping it short and simple avoids clutter and helps with sorting.`);
               }
-              if (!/^[a-z0-9-_]+$/.test(plugin.id)) {
+              if (plugin.id && !/^[a-z0-9-_]+$/.test(plugin.id)) {
                 addError('The plugin ID is not valid. Only alphanumeric lowercase characters and dashes are allowed.');
               }
 
-              else if (plugin.name.toLowerCase().includes('obsidian')) {
+              else if (plugin.name?.toLowerCase().includes('obsidian')) {
                 addError(`Please don't use the word \`Obsidian\` in your plugin name since it's redundant and adds clutter to the plugin list.`);
               }
-              if (plugin.name.toLowerCase().endsWith('plugin')) {
+              if (plugin.name?.toLowerCase().endsWith('plugin')) {
                 addError(`Please don't use the word \`Plugin\` in the plugin name since it's redundant and adds clutter to the plugin list.`);
               }
 
-              if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(plugin.author)) {
+              if (plugin.author && /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(plugin.author)) {
                 addWarning(`We generally discourage including your email addresses in the \`author\` field.`);
               }
 
-              if (plugin.description.toLowerCase().includes('obsidian')) {
+              if (plugin.description?.toLowerCase().includes('obsidian')) {
                 addError('Please don\'t include `Obsidian` in the plugin description');
               }
-              if (plugin.description.toLowerCase().includes('this plugin') || plugin.description.toLowerCase().includes('this is a plugin') || plugin.description.toLowerCase().includes('this plugin allows')) {
+              if (plugin.description?.toLowerCase().includes('this plugin') || plugin.description?.toLowerCase().includes('this is a plugin') || plugin.description?.toLowerCase().includes('this plugin allows')) {
                 addWarning('Avoid including sentences like `This is a plugin that does` in your description');
               }
               
-              if (plugin.description.length > 250) {
+              if (plugin.description?.length > 250) {
                 addError(`Your plugin has a long description. Users typically find it difficult to read a very long description, so you should keep it short and concise.`);
               }
 
-              if (plugins.filter(p => p.id === plugin.id).length > 1) {
+              if (plugin.id && plugins.filter(p => p.id === plugin.id).length > 1) {
                 addError(`There is already a plugin with the id \`${plugin.id}\`.`);
               }
-              if (plugins.filter(p => p.name === plugin.name).length > 1) {
+              if (plugin.name && plugins.filter(p => p.name === plugin.name).length > 1) {
                 addError(`There is already a plugin with the name \`${plugin.name}\`.`);
               }
-              if (plugins.filter(p => p.repo === plugin.repo).length > 1) {
+              if (plugin.repo && plugins.filter(p => p.repo === plugin.repo).length > 1) {
                 addError(`There is already a entry pointing to the \`${plugin.repo}\` repository.`);
               }
 
               const removedPlugins = JSON.parse(fs.readFileSync('community-plugins-removed.json', 'utf8'));
 
-              if (removedPlugins.filter(p => p.id === plugin.id).length > 1) {
+              if (plugin.id && removedPlugins.filter(p => p.id === plugin.id).length > 1) {
                 addError(`Another plugin used to exist with the id \`${plugin.id}\`. To avoid issues for users that still have the old plugin installed using this plugin ID is not allowed`);
               }
 
-              if (removedPlugins.filter(p => p.name === plugin.name).length > 1) {
+              if (plugin.name && removedPlugins.filter(p => p.name === plugin.name).length > 1) {
                 addWarning(`Another plugin used to exist with the name \`${plugin.name}\`. To avoid confussion we recommend against using this name.`);
               }
 
@@ -178,10 +178,10 @@ jobs:
                   }
                 }
 
-                if (manifest.id !== plugin.id) {
+                if (plugin.name && manifest.id !== plugin.id) {
                   addError(`Plugin ID mismatch, the ID in this PR (\`${plugin.id}\`) is not the same as the one in your repo (\`${manifest.id}\`). If you just changed your plugin ID, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
-                if (manifest.name !== plugin.name) {
+                if (plugin.name && manifest.name !== plugin.name) {
                   addError(`Plugin name mismatch, the name in this PR (\`${plugin.name}\`) is not the same as the one in your repo (\`${manifest.name}\`). If you just changed your plugin name, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
 
