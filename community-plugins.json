@@ -16505,12 +16505,21 @@
     "description": "Dark/light theme toggle via ribbon icon or command.",
     "repo": "gapmiss/theme-toggle"
 },
- {
-    "id": "data-fetcher",
-    "name": "Data Fetcher",
-    "author": "qf3l3k",
-    "description": "Fetch data from multiple sources (REST APIs, RPC, gRPC, GraphQL) and insert results into notes",
-    "repo": "qf3l3k/obsidian-api-fetcher"
-  }
+{
+"id": "data-fetcher",
+"name": "Data Fetcher",
+"author": "qf3l3k",
+"description": "Fetch data from multiple sources (REST APIs, RPC, gRPC, GraphQL) and insert results into notes",
+"repo": "qf3l3k/obsidian-api-fetcher"
+},
+{
+"id": "equalize-panes",
+"name": "Equalize Panes",
+"author": "aihubxstudio",
+"repo": "aihubxstudio/equalize-panes-plugin",
+"description": "Automatically equalizes the width of all open panes in Obsidian.",
+"legacy": false
+}
+  
 ]
 
