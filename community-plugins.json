@@ -1473,7 +1473,7 @@
         "id": "copy-url-in-preview",
         "name": "Image Context Menus",
         "author": "NomarCub",
-        "description": "Copy, open in default app, show in system explorer, reveal in navigation context menu for images. Also Open PDF externally context menu.",
+        "description": "Image context menus (mostly on right click): Copy to clipboard, Open in default app, Show in system explorer, Reveal file in navigation, Open in new tab.",
         "repo": "NomarCub/obsidian-copy-url-in-preview"
     },
     {
@@ -9506,13 +9506,6 @@
         "repo": "KubaMiszcz/MultiStateCheckBoxSwitcher"
     },
     {
-        "id": "relay-md",
-        "name": "Relay.md",
-        "description": "Quickly and easily share notes with your team. Uses topics to limit reach so that only team members subscribed to your topics will automatically receive the shared notes straight into their vault!",
-        "author": "xeroc",
-        "repo": "relay-md/relay-md-obsidian-plugin"
-    },
-    {
         "id": "insighta",
         "name": "InsightA",
         "author": "Hongjian Tang",
@@ -12750,7 +12743,7 @@
         "id": "harper",
         "name": "Harper",
         "author": "Elijah Potter",
-        "description": "The grammar checker for everyone.",
+        "description": "The fastest grammar and spell checker that respects your privacy.",
         "repo": "elijah-potter/harper-obsidian-plugin"
     },
     {
@@ -16512,12 +16505,82 @@
     "description": "Fetch data from multiple sources (REST APIs, RPC, gRPC, GraphQL) and insert results into notes",
     "repo": "qf3l3k/obsidian-api-fetcher"
   },
-{
+ {
     "id": "hadith-lookup",
     "name": "Hadith Lookup",
     "author": "Adnan Mukhtar",
     "description": "Inserts Hadith and Quranic ayat and passages using a reference ID from the Ḥadīth Unlocked API (https://hadithunlocked.com)",
     "repo": "iadnanmukhtar/obsidian-hadith-lookup-plugin"
-}
+ },
+ {
+    "id": "codeless-heatmap-calendar",
+    "name": "Codeless Heatmap Calendar",
+    "author": "Behnam Aghajani",
+    "description": "Fully-featured activity visualizer powered by Toggl data and more.",
+    "repo": "webtechaccess/obsidian-heatmap-calendar"
+  },
+  {
+    "id": "on-this-day-i",
+    "name": "On This Day I",
+    "author": "Ben Stuart",
+    "description": "Summarize a calendar date in years past with Daily Journals",
+    "repo": "benstuart0/on-this-day-i-obsidian"  
+  },
+  {
+    "id": "large-language-models",
+    "name": "Large Language Models",
+    "author": "eharris128, r-mahoney, & jsmorabito",
+    "description": "Enables access to LLMs via remote providers (OpenAI, Claude, Gemini) and local LLMs via GPT4ALL.",
+    "repo": "eharris128/Obsidian-LLM-Plugin"
+  },
+  {
+    "id": "hide-index-files",
+    "name": "Hide Index Files",
+    "description": "Hide index files (folder notes) more reliably.",
+    "author": "d7sd6u",
+    "repo": "d7sd6u/obsidian-hide-index-files"
+  },
+  {
+    "id": "crosslink-advanced", 
+    "name": "Crosslink Advanced",
+    "description": "Tag files using folders and symlinks system (ftags).",
+    "author": "d7sd6u",
+    "repo": "d7sd6u/obsidian-crosslink-advanced"
+},
+{
+    "id": "folder-navigator",
+	"name": "Folder Navigator",
+    "author": "wenlzhang",
+    "description": "Quickly navigate to folders in your vault using fuzzy search.",
+    "repo": "wenlzhang/obsidian-folder-navigator"
+},
+{
+    "id": "digital-sticky-notes",
+    "name": "Digital Sticky Notes",
+    "author": "dgggg",
+    "description": "A lightweight plugin that digitizes physical sticky notes, helping you quickly save, organize, and retrieve temporary notes.",
+    "repo": "dalecgu/obsidian-sticky-notes"
+  },
+  {
+    "id": "querydash",
+    "name": "QueryDash",
+    "author": "lwx",
+    "description": "Refer to Dataview and add search, sorting, and pagination functions, just like Notion.",
+    "repo": "liufree/obsidian-querydash"
+  },
+  {
+    "id": "disciples-journal",
+    "name": "Disciples Journal",
+    "author": "Scott Tomaszewski (Xentis)",
+    "description": "Embed Bible references and passages in your notes and read the Bible.",
+    "repo": "scottTomaszewski/obsidian-disciples-journal"
+  },
+  {
+    "id": "minimal-quiz",
+    "name": "Minimal Quiz",
+    "author": "Lutu-gl",
+    "description": "Start a quick Markdown-based quiz on your current note. Simple, straightforward, and fully integrated — similar to flashcards in Anki or Quizlet!",
+    "repo": "Lutu-gl/Obsidian-Minimal-Quiz"
+  }
 ]
 
