@@ -1473,7 +1473,7 @@
     "id": "copy-url-in-preview",
     "name": "Image Context Menus",
     "author": "NomarCub",
-    "description": "Copy, open in default app, show in system explorer, reveal in navigation context menu for images. Also Open PDF externally context menu.",
+    "description": "Image context menus (mostly on right click): Copy to clipboard, Open in default app, Show in system explorer, Reveal file in navigation, Open in new tab.",
     "repo": "NomarCub/obsidian-copy-url-in-preview"
   },
   {
@@ -9506,13 +9506,6 @@
     "repo": "KubaMiszcz/MultiStateCheckBoxSwitcher"
   },
   {
-    "id": "relay-md",
-    "name": "Relay.md",
-    "description": "Quickly and easily share notes with your team. Uses topics to limit reach so that only team members subscribed to your topics will automatically receive the shared notes straight into their vault!",
-    "author": "xeroc",
-    "repo": "relay-md/relay-md-obsidian-plugin"
-  },
-  {
     "id": "insighta",
     "name": "InsightA",
     "author": "Hongjian Tang",
@@ -12750,7 +12743,7 @@
     "id": "harper",
     "name": "Harper",
     "author": "Elijah Potter",
-    "description": "The grammar checker for everyone.",
+    "description": "The fastest grammar and spell checker that respects your privacy.",
     "repo": "elijah-potter/harper-obsidian-plugin"
   },
   {
@@ -16513,11 +16506,39 @@
     "repo": "qf3l3k/obsidian-api-fetcher"
   },
   {
-    "id": "vim-marker-sharpener",
-    "name": "Vim Marker Sharpener",
-    "author": "Artem Dvoryadkin",
-    "description": "Text formatting commands in Vim mode. Supports applying styles (bold, italic, etc.). Works correctly in visual mode with selected text.",
-    "repo": "artemDvoryadkin/obsidian-vim-marker-sharpener"
+    "id": "codeless-heatmap-calendar",
+    "name": "Codeless Heatmap Calendar",
+    "author": "Behnam Aghajani",
+    "description": "Fully-featured activity visualizer powered by Toggl data and more.",
+    "repo": "webtechaccess/obsidian-heatmap-calendar"
+  },
+  {
+    "id": "on-this-day-i",
+    "name": "On This Day I",
+    "author": "Ben Stuart",
+    "description": "Summarize a calendar date in years past with Daily Journals",
+    "repo": "benstuart0/on-this-day-i-obsidian"
+  },
+  {
+    "id": "large-language-models",
+    "name": "Large Language Models",
+    "author": "eharris128, r-mahoney, & jsmorabito",
+    "description": "Enables access to LLMs via remote providers (OpenAI, Claude, Gemini) and local LLMs via GPT4ALL.",
+    "repo": "eharris128/Obsidian-LLM-Plugin"
+  },
+  {
+    "id": "hide-index-files",
+    "name": "Hide Index Files",
+    "description": "Hide index files (folder notes) more reliably.",
+    "author": "d7sd6u",
+    "repo": "d7sd6u/obsidian-hide-index-files"
+  },
+  {
+    "id": "crosslink-advanced",
+    "name": "Crosslink Advanced",
+    "description": "Tag files using folders and symlinks system (ftags).",
+    "author": "d7sd6u",
+    "repo": "d7sd6u/obsidian-crosslink-advanced"
   },
   {
     "id": "vim-marker-sharpener",
@@ -16611,25 +16632,32 @@
     "repo": "vannamhh/progress-tracker"
   },
   {
-     "id": "easy-copy",
-  "name": "Easy Copy",
-  "author": "Moy",
-  "description": "Easily copy the text within inline code, bold text (and many other formats), or quickly generate an elegant link to a heading or block.",
-  "repo": "Moyf/easy-copy"
-},
- {
+    "id": "easy-copy",
+    "name": "Easy Copy",
+    "author": "Moy",
+    "description": "Easily copy the text within inline code, bold text (and many other formats), or quickly generate an elegant link to a heading or block.",
+    "repo": "Moyf/easy-copy"
+  },
+  {
     "id": "open-tab-settings",
     "name": "Open Tab Settings",
     "author": "jesse-r-s-hines",
     "description": "Adds settings to open in new tab by default and prevent duplicate tabs.",
     "repo": "jesse-r-s-hines/obsidian-open-tab-settings"
- },
- {
+  },
+  {
     "id": "image-share",
     "name": "Image Share",
     "author": "Shawn",
     "description": "Share selected text as beautiful images.",
     "repo": "iqijun/obsidian-image-share"
+  },
+  {
+    "id": "vim-marker-sharpener",
+    "name": "Vim Marker Sharpener",
+    "author": "Artem Dvoryadkin",
+    "description": "Text formatting commands in Vim mode. Supports applying styles (bold, italic, etc.). Works correctly in visual mode with selected text.",
+    "repo": "artemDvoryadkin/obsidian-vim-marker-sharpener"
   }
 ]
 
