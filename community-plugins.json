@@ -1603,13 +1603,6 @@
         "repo": "dgarrett/phone-to-roam-to-obsidian"
     },
     {
-        "id": "obsidian-pocket",
-        "name": "Pocket",
-        "author": "Nimalan Mahendran",
-        "description": "Access your Pocket reading list entries and create notes for them easily.",
-        "repo": "nybbles/obsidian-pocket"
-    },
-    {
         "id": "obsidian-wordnet-plugin",
         "name": "WordNet Dictionary",
         "description": "A large lexical database of English developed by Princeton University.",
@@ -3463,13 +3456,6 @@
         "author": "Nekoshita Yuki",
         "description": "Automatically fetches metadata from a URL and makes it as a card-styled link.",
         "repo": "nekoshita/obsidian-auto-card-link"
-    },
-    {
-        "id": "notion-like-tables",
-        "name": "DataLoom",
-        "author": "DecafDev",
-        "description": "Weave together data from diverse sources into a cohesive table view. Inspired by Excel spreadsheets and Notion.so.",
-        "repo": "decaf-dev/obsidian-dataloom"
     },
     {
         "id": "auto-moc",
@@ -16294,7 +16280,7 @@
     "author": "Daniel Fernandes",
     "description": "Find rhymes, synonyms, and describing words. Designed for songwriting and poetry.",
     "repo": "danferns/obsidian-wordcraft"
-},
+  },
 {
     "id": "outlook-meeting-notes",
     "name": "Outlook Meeting Notes",
@@ -16763,13 +16749,90 @@
     "author": "Dee",
     "description": "Stop rainbow folders from changing colors when you scroll through the File explorer.",
     "repo": "dee158/obsidian-rainbow-folders-fixer"
-},
-{
-  "id": "tubesage",
+  },
+  {
+  "id": "table-of-contents-automatic-but-compatible-with-publish",
+	"name": "TOC compatible with Publish",
+	"description": "This generates a table of contents that is compatible with publish.",
+	"author": "Brian Collery",
+	"repo": "BrMacCath/Table-of-Contents"
+  },
+  {
+    "id": "image-embedder",
+    "name": "Image Embedder",
+    "author": "Natalie Sumbo",
+    "description": "Automatically downloads and embeds images from URLs when pasting",
+    "repo": "sky150/obsidian-image-embedder"
+  },
+  {
+    "id": "about-blank",
+    "name": "About Blank",
+    "author": "Ai-Jani",
+    "description": "Customize the empty file (New tab) itself a little bit by adding \"Commands\" or \"Open files\". And edit these: Grouping, Set icon, Ask before execution, Register as a new command.",
+    "repo": "Ai-Jani/about-blank"
+  },
+  {
+    "id": "daily-note-automater",
+    "name": "Daily Notes Automater",
+    "author": "David Pedrero",
+    "description": "Automates the creation of a daily note",
+    "repo": "davidpedrero/obsidian-daily-notes-automater"
+   },
+    {
+    "id": "jupymd",
+    "name": "JupyMD",
+    "author": "Deniz Terzioglu",
+    "description": "Link and sync Markdown notes with Jupyter notebooks via Jupytext.",
+    "repo": "d-eniz/jupymd"
+  },
+  {
+    "id": "reference-link-render",
+    "name": "Reference Link Render",
+    "author": "njko39",
+    "description": "Enables reference-style Markdown links in reading mode and hides link definitions, like in Kramdown",
+    "repo": "njko39/obsidian-reference-link-plugin"
+  },
+  {
+    "id": "reveal-folded",
+    "name": "Reveal Folded",
+    "description": "Reveal the current file in the file explorer while collapsing all other tree items.",
+    "author": "d7sd6u",
+    "repo": "d7sd6u/obsidian-reveal-folded"
+  },
+  {
+  "id": "data-fetcher",
+  "name": "Data Fetcher",
+  "author": "qf3l3k",
+  "description": "Fetch data from multiple sources (REST APIs, RPC, gRPC, GraphQL) and insert results into notes",
+  "repo": "qf3l3k/obsidian-api-fetcher"
+ },
+ {
+  "id": "tick-tones",
+  "name": "Tick Tones",
+  "author": "DontBlameMe",
+  "description": "Plays a tone when you tick a checkbox",
+  "repo": "DontBlameMe99/Tick-Tones"
+  },
+  {
+    "id": "model-viewer",
+    "name": "Model Viewer",
+    "author": "Janis Pritzkau",
+    "description": "View and embed interactive 3D models directly in your vault, powered by Google's <model-viewer> component. Supports the glTF and GLB file formats.",
+    "repo": "janispritzkau/obsidian-model-viewer"
+  },
+  {
+    "id": "sentence-rhythm",
+    "name": "Sentence Rhythm",
+    "author": "Adam Fletcher",
+    "description": "Adds toggleable colored highlights to sentences based on their length so you can easily see the rhythm of your writing.",
+    "repo": "adamfletcher/obsidian-sentence-rhythm"
+  },
+  {
+    "id": "tubesage",
   "name": "TubeSage",
   "author": "Richard McCorkle",
   "description": "Extract YouTube transcripts and summarize them using LLMs. ",
   "repo": "rmccorkl/TubeSage"
-}
+  }
 ]
 
