@@ -5658,8 +5658,8 @@
     {
         "id": "chatgpt-md",
         "name": "ChatGPT MD",
-        "author": "Bram Adams",
-        "description": "A (nearly) seamless integration of ChatGPT into Obsidian.",
+        "author": "Deniz Okcu (created by Bram Adams)",
+        "description": "A seamless integration of ChatGPT, OpenRouter.ai and local LLMs via Ollama into your notes.",
         "repo": "bramses/chatgpt-md"
     },
     {
@@ -16826,6 +16826,27 @@
     "author": "Adam Fletcher",
     "description": "Adds toggleable colored highlights to sentences based on their length so you can easily see the rhythm of your writing.",
     "repo": "adamfletcher/obsidian-sentence-rhythm"
+},
+  { 
+    "id": "another-dynamic-highlights", 
+    "name": "aDHL", 
+    "author": "tine-schreibt", 
+    "description": "Create pretty static highlighters from search or regEx. Group by tag and set commands for toggling. Based on Dynamic Highlights. Works well with Highlightr.", 
+    "repo": "tine-schreibt/aDHL" 
+},
+{
+    "id": "cbcr-text-eater-de",
+    "name": "Textfresser",
+    "author": "clockblocker",
+    "description": "Building your a personal German dictionary, based on the contexts in the German texts, that you have read",
+    "repo": "clockblocker/filler-de"
+  },
+  {
+    "id": "yt-summarizer",
+    "name": "YTSummarizer",
+    "author": "Arda Kalaycı",
+    "description": "Fetch YouTube video transcripts and generate summaries using OpenAI models.",
+    "repo": "ardakalayci/ytsummarizer"
   },
   {
     "id": "llm-svg",
@@ -16833,6 +16854,6 @@
     "author": "Hazumi Ichijo",
     "description": "Drawing SVG with LLM",
     "repo": "rerost/obsidian-llm-svg"
-}
+  }
 ]
 
