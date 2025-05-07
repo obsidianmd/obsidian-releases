@@ -5658,8 +5658,8 @@
     {
         "id": "chatgpt-md",
         "name": "ChatGPT MD",
-        "author": "Bram Adams",
-        "description": "A (nearly) seamless integration of ChatGPT into Obsidian.",
+        "author": "Deniz Okcu (created by Bram Adams)",
+        "description": "A seamless integration of ChatGPT, OpenRouter.ai and local LLMs via Ollama into your notes.",
         "repo": "bramses/chatgpt-md"
     },
     {
@@ -15248,9 +15248,9 @@
   {
     "id": "memodack",
     "name": "Memodack",
-    "author": "Pavlo Kobyliatskyi",
-    "description": "Memorizing words or phrases",
-    "repo": "pavlokobyliatskyi/obsidian-memodack-plugin"
+    "author": "memodack",
+    "description": "Your second language memory tool",
+    "repo": "obsidian-memodack-plugin/obsidian-memodack-plugin"
   },
   {
     "id": "ai-hub",
@@ -16799,13 +16799,6 @@
     "author": "d7sd6u",
     "repo": "d7sd6u/obsidian-reveal-folded"
   },
-  {
-  "id": "data-fetcher",
-  "name": "Data Fetcher",
-  "author": "qf3l3k",
-  "description": "Fetch data from multiple sources (REST APIs, RPC, gRPC, GraphQL) and insert results into notes",
-  "repo": "qf3l3k/obsidian-api-fetcher"
- },
  {
   "id": "tick-tones",
   "name": "Tick Tones",
@@ -16826,8 +16819,92 @@
     "author": "Adam Fletcher",
     "description": "Adds toggleable colored highlights to sentences based on their length so you can easily see the rhythm of your writing.",
     "repo": "adamfletcher/obsidian-sentence-rhythm"
+},
+  { 
+    "id": "another-dynamic-highlights", 
+    "name": "aDHL", 
+    "author": "tine-schreibt", 
+    "description": "Create pretty static highlighters from search or regEx. Group by tag and set commands for toggling. Based on Dynamic Highlights. Works well with Highlightr.", 
+    "repo": "tine-schreibt/aDHL" 
+},
+{
+    "id": "cbcr-text-eater-de",
+    "name": "Textfresser",
+    "author": "clockblocker",
+    "description": "Building your a personal German dictionary, based on the contexts in the German texts, that you have read",
+    "repo": "clockblocker/filler-de"
   },
-	{
+  {
+    "id": "yt-summarizer",
+    "name": "YTSummarizer",
+    "author": "Arda Kalaycı",
+    "description": "Fetch YouTube video transcripts and generate summaries using OpenAI models.",
+    "repo": "ardakalayci/ytsummarizer"
+  },
+  {
+  "id": "limitless-lifelogs",
+  "name": "Limitless Lifelogs",
+  "author": "Maclean Dunkin",
+  "description": "Sync your Limitless AI lifelog entries",
+  "repo": "Maclean-D/obsidian-limitless-lifelogs"
+},
+{
+    "id": "rainbow-colored-sidebar",
+    "name": "Rainbow-Colored Sidebar",
+    "author": "Kevin Woblick",
+    "description": "Automatically color your sidebar like a rainbow. No configuration needed.",
+    "repo": "Kovah/obsidian-rainbow-colored-sidebar"  
+  },
+{
+    "id": "vcf-contacts",
+    "name": "VCF Contacts",
+    "author": "Roland Broekema",
+    "description": " manage, organize, link and interact with your contacts. structured md files according vCard (VCF) standards",
+    "repo": "broekema41/obsidian-vcf-contacts"
+},
+{
+    "id": "draw-steel-retainer",
+    "name": "Draw Steel Retainer",
+    "author": "Martin Dampier",
+    "description": "Provides Director facing sidebar tools for the TTRPG Draw Steel",
+    "repo": "MartinDampier/draw-steel-retainer"
+},
+{
+    "id": "reactive-notes",
+    "name": "Reactive Notes",
+    "author": "Elias Noesis",
+    "description": "Transform your vault into a reactive computational environment. Create dynamic React components directly in your notes.",
+    "repo": "prodigist/ReactiveNotes"
+},
+  {
+    "id": "water-tracker",
+    "name": "Water Tracker",
+    "author": "Luigi Cerone",
+    "description": "Keep track of how much water you drunk",
+    "repo": "LuigiCerone/obsidian-water-tracker"
+  },
+  {
+  "id": "lawlist",
+  "name": "LawList: Custom List Styles",
+  "author": "Willem Schlieter",
+  "description": "Adds support for freely configurable, custom list styles (Edit Mode and Read Mode).",
+  "repo": "willem-schlieter/lawlist"
+  },
+  {
+  "id": "another-name",
+  "name": "Another Name",
+  "author": "Jiyuan Wang",
+  "description": "Add an another name after your inline title!",
+  "repo": "EurFelux/obsidian-another-name-plugin"
+},
+{
+    "id": "note-status",
+    "name": "Note Status",
+    "author": "Aleix Soler",
+    "description": "Organize notes with customizable statuses. Track progress through an intuitive status pane, dropdown selector, and file explorer integration.",
+    "repo": "devonthesofa/obsidian-note-status"
+},
+  {
   		"id": "ultrafocus",
   		"name": "Ultrafocus",
   		"author": "Elia Scotto",
