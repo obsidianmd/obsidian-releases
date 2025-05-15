@@ -15809,7 +15809,7 @@
     "id": "file-ignore",
     "name": "File Ignore",
     "author": "Feng",
-    "description": "Control file indexing by adding or removing dot prefix to files, providing a .gitignore-like experience",
+    "description": "Controls file indexing by managing dot prefixes on files/folders to truly hide/exclude them, providing a .gitignore-like experience.",
     "repo": "Feng6611/Obsidian-File-Ignore"
 },
   {
@@ -17157,10 +17157,31 @@
     "repo": "kazhuravlev/obsidian-github"
 },
 {
+	"id": "zhongwen-reader",
+	"name": "Zhongwen Reader", 
+	"author": "natipt",
+	"description": "This lightweight plugin helps you read Chinese more easily with a CEDICT based hover-dictionary and vocabulary saving features.",
+	"repo": "natipt/obsidian-zhongwen-reader"
+},
+{
+    "id": "solidtime-integration",
+    "name": "SolidTime Integration",
+    "author": "proniclabs",
+    "description": "Connect SolidTime to track your work time directly within your vault.",
+    "repo": "pronicx/obsidian-solidtime-integration"
+},
+{
+    "id": "biblib",
+    "name": "BibLib",
+    "author": "Callum Alpass",
+    "description": "Create literature notes and manage bibliographic references",
+    "repo": "callumalpass/obsidian-biblib"
+},
+{
   "id": "custom-selected-word-count",
   "name": "Custom Selected Word Count",
   "author": "banisterious",
   "description": "Provides advanced word counting features for selected text across all view modes. Goes beyond basic word counting with customizable path exclusion, and more.",
   "repo": "banisterious/obsidian-custom-selected-word-count"
-  }
+}
 ]
