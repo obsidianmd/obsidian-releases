@@ -15809,7 +15809,7 @@
     "id": "file-ignore",
     "name": "File Ignore",
     "author": "Feng",
-    "description": "Control file indexing by adding or removing dot prefix to files, providing a .gitignore-like experience",
+    "description": "Controls file indexing by managing dot prefixes on files/folders to truly hide/exclude them, providing a .gitignore-like experience.",
     "repo": "Feng6611/Obsidian-File-Ignore"
 },
   {
@@ -16803,7 +16803,7 @@
   "id": "tick-tones",
   "name": "Tick Tones",
   "author": "DontBlameMe",
-  "description": "Plays a tone when you tick a checkbox",
+  "description": "Plays your custom tone/sound when you tick/complete a checkbox",
   "repo": "DontBlameMe99/Tick-Tones"
   },
   {
@@ -16973,6 +16973,208 @@
   "description": "Allow an AI to interact with your vault's notes through a self-contained MCP server.",
   "author": "jlevere",
   "repo": "jlevere/obsidian-mcp-plugin"
-}
+},
+  {
+    "id": "notes-explorer",
+    "name": "Notes Explorer",
+    "author": "Atmanand Gauns",
+    "description": "Explore your notes as cards in gallery or masonry view. A new way to revise your content.",
+    "repo": "tu2-atmanand/obsidian-notes-explorer"  
+  },
+  {
+    "id": "markdown-flip",
+    "name": "Markdown Flip",
+    "author": "Jinmu Go",
+    "description": "flip markdown line types with smart shortcuts",
+    "repo": "JinmuGo/obsidian-markdown-flip"
+},
+{
+    "id": "convert-base64-to-png",
+    "name": "Convert Base64 to PNG",
+    "author": "Nykko Lin",
+    "description": "Convert base64-encoded images in notes to local PNG images.",
+    "repo": "nykkolin/obsidian-convert-base64-to-png"
+  },
+{
+  "id": "memochron",
+  "name": "MemoChron",
+  "author": "Michalis Efstratiadis",
+  "description": "Calendar integration and note creation with support for public iCalendar URLs.",
+  "repo": "formax68/memoChron"
+},
+{
+    "id": "paste-image-rename-convert",
+    "name": "Paste Image Rename and Convert",
+    "author": "iaos",
+    "description": "Renames pasted images and covert the formats",
+    "repo": "Yiaos/obsidian-paste-image-rename-convert"
+  },
+{
+  "id": "enhanced-publisher",
+  "name": "Enhanced Publisher",
+  "author": "Cube",
+  "description": "增强发布插件，支持图片时自动存储、HTML预览和发布到微信公众号等内容平台。",
+  "repo": "chararch/obsidian-enhanced-publisher"
+},
+  {
+    "id": "tasks-cleaner",
+    "name": "Tasks Cleaner",
+    "author": "lowit",
+    "description": "Find and remove outdated tasks.",
+    "repo": "lowitea/obsidian-tasks-cleaner"
+  },
+{
+	"id": "mark-open-files",
+	"name": "Mark Open Files",
+	"author": "Michael Schrauzer",
+	"description": "Enhances the File Explorer by adding a marker to all the File Explorer items that are currently open in the workspace.",
+	"repo": "gasparschott/obsidian-mark-open-files"
+},
+  {
+    "id": "prettier-format",
+    "name": "Format Automatically with Prettier",
+    "author": "Dylan Armstrong",
+    "description": "Format files with Prettier using built-in settings for configuration.",
+    "repo": "dylanarmstrong/obsidian-prettier-plugin"
+  },
+{
+    "id": "filename-styler",
+    "name": "FileName Styler",
+    "author": "Marc Feininger",
+    "description": "Customize and style file names in the file explorer using patterns, prefixes, suffixes, colors, and icons.",
+    "repo": "marc-f/obsidian-file-name-styler"
+},
+{
+  "id": "jira-links-shortener",
+  "name": "JIRA links shortener",
+  "author": "Ruslans Platonovs",
+  "description": "Modifies pasted JIRA links to use JIRA issue number as the link title",
+  "repo": "rplatonovs/obsidian-jira-links-shortener"
+},
+{
+    "id": "youtrack-fetcher",
+    "name": "YouTrack Fetcher",
+    "author": "Forketyfork",
+    "description": "Fetches YouTrack issues into notes",
+    "repo": "forketyfork/obsidian-youtrack-fetcher"
+},
+ {
+    "id": "cut-the-fluff",
+    "name": "Cut The Fluff",
+    "author": "Adam Fletcher",
+    "description": "Make your writing clearer by checking for unnecessary complexity and clutter.",
+    "repo": "adamfletcher/obsidian-cut-the-fluff"
+  },
+  {
+    "id": "simple-colored-folder",
+    "name": "Simple Colored Folder",
+    "author": "Mara-Li",
+    "description": "Automagically add color to roots folders, and customize it with Style Settings.",
+    "repo": "Mara-Li/obsidian-simple-colored-folder"
+  },
+  {
+    "id": "simple-password",
+    "name": "Simple Password",
+    "author": "Lucy Dryaeva",
+    "description": "Protect your vault behind a password",
+    "repo": "ShadiestGoat/obsidian-simple-password"
+  },
+  {
+    "id": "image-border-style",
+    "name": "Image Border Style",
+    "author": "Anurag Shenoy",
+    "description": "Border styling for images in markdown notes.",
+    "repo": "shenoy-anurag/obsidian-image-border-style"
+},
+  {
+    "id": "wakatime-kvh",
+    "name": "Wakatime / Wakapi",
+    "author": "Kevin Woblick",
+    "description": "Connect to Wakatime or Wakapi to track the time spent while browsing or writing notes.",
+    "repo": "Kovah/obsidian-wakatime"
+  },
+  {
+  "id": "vertical-timeline-list",
+  "name": "Vertical Timeline List",
+  "author": "Jalad",
+  "description": "Utilizes lists to create a timeline... or something resembling a timeline.",
+  "repo": "Jalad25/vertical-timeline-list"
+},
+{
+    "id": "comments",
+    "name": "Comments",
+    "author": "Jasper Surmont",
+    "description": "Add comments to your notes to facilitate collaberation",
+    "repo": "jaspersurmont/obsidian-comments"
+  },
+{
+    "id": "virtual-footer",
+    "name": "Virtual Footer",
+    "author": "Signynt",
+    "description": "Display markdown text (including dataview queries) at the bottom of all notes in a folder, without modifying them.",
+    "repo": "Signynt/virtual-footer"
+  },
+{
+  "id": "match-syntax",
+  "name": "MatchSyntax",
+  "author": "Eda",
+  "description": "A flexible, regex-like lookups for your notes.",
+  "repo": "rivea0/obsidian-match-syntax"
+},
+  {
+    "id": "inboxer",
+    "name": "Inboxer",
+    "author": "Eoin Hurrell",
+    "description": "Adds commands to quickly add entries to INBOX and TIMELINE sections of notes",
+    "repo": "eoinhurrell/obsidian-inboxer"
+  },
+  {
+    "id": "openaugi",
+    "name": "OpenAugi",
+    "author": "Chris Lettieri",
+    "description": "Parse your voice notes into atomic notes, tasks, and summaries. OpenAugi is the voice to self-organizing second brain. While taking a voice note say 'auggie' to help the agent. Augmented Intelligence is AI for thinkers.",
+    "repo": "bitsofchris/openaugi-obsidian-plugin"
+  },
+  {
+    "id": "theme-by-folder",
+    "name": "Theme by Folder",
+    "author": "Jinmu Go",
+    "description": "Automatically switch themes based on the folder of the opened note",
+    "repo": "JinmuGo/obsidian-theme-by-folder"
+  },
+  {
+  "id": "performosu",
+  "name": "Performium",
+  "author": "Louie Kurenai",
+  "description": "Integrates the osu! Performance Points system to to gamify your note-taking experience!",
+  "repo": "ruikurenaii/performium"
+  },
+{
+    "id": "github",
+    "name": "GitHub Integration",
+    "author": "Kirill Zhuravlev",
+    "description": "Sync your data from GitHub into your Vault.",
+    "repo": "kazhuravlev/obsidian-github"
+},
+{
+	"id": "zhongwen-reader",
+	"name": "Zhongwen Reader", 
+	"author": "natipt",
+	"description": "This lightweight plugin helps you read Chinese more easily with a CEDICT based hover-dictionary and vocabulary saving features.",
+	"repo": "natipt/obsidian-zhongwen-reader"
+  },
+ {
+    "id": "solidtime-integration",
+    "name": "SolidTime Integration",
+    "author": "proniclabs",
+    "description": "Connect SolidTime to track your work time directly within your vault.",
+    "repo": "pronicx/obsidian-solidtime-integration"
+},
+ {
+    "id": "biblib",
+    "name": "BibLib",
+    "author": "Callum Alpass",
+    "description": "Create literature notes and manage bibliographic references",
+    "repo": "callumalpass/obsidian-biblib"
+  }
 ]
-
