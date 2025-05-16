@@ -17150,13 +17150,35 @@
     "description": "Sync your data from GitHub into your Vault.",
     "repo": "kazhuravlev/obsidian-github"
 },
-{
 
+ {
+	"id": "zhongwen-reader",
+	"name": "Zhongwen Reader", 
+	"author": "natipt",
+	"description": "This lightweight plugin helps you read Chinese more easily with a CEDICT based hover-dictionary and vocabulary saving features.",
+	"repo": "natipt/obsidian-zhongwen-reader"
+  },
+ {
+    "id": "solidtime-integration",
+    "name": "SolidTime Integration",
+    "author": "proniclabs",
+    "description": "Connect SolidTime to track your work time directly within your vault.",
+    "repo": "pronicx/obsidian-solidtime-integration"
+},
+ {
+    "id": "biblib",
+    "name": "BibLib",
+    "author": "Callum Alpass",
+    "description": "Create literature notes and manage bibliographic references",
+    "repo": "callumalpass/obsidian-biblib"
+  },
+  {
     "id": "course-module-loader",
     "name": "Course Module Loader",
     "author": "Sebastian Kamilli",
     "description": "Downloads and unzips course module zip files from a URL into a specified vault folder, skipping existing files.",
     "repo": "QuintSmart/obsidian-course-module-loader"
  }
+
 
 ]
