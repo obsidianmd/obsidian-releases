@@ -16819,7 +16819,8 @@
     "author": "Adam Fletcher",
     "description": "Adds toggleable colored highlights to sentences based on their length so you can easily see the rhythm of your writing.",
     "repo": "adamfletcher/obsidian-sentence-rhythm"
-},
+
+ },
   { 
     "id": "another-dynamic-highlights", 
     "name": "aDHL", 
@@ -16967,7 +16968,7 @@
     "description": "Allow saving default settings for the backlinks / \"Linked mentions\" pane at the bottom of notes.",
     "repo": "calvinwyoung/obsidian-backlink-settings"
 },
-{
+  {
     "id": "notes-explorer",
     "name": "Notes Explorer",
     "author": "Atmanand Gauns",
@@ -17149,7 +17150,8 @@
     "description": "Sync your data from GitHub into your Vault.",
     "repo": "kazhuravlev/obsidian-github"
 },
-{
+
+ {
 	"id": "zhongwen-reader",
 	"name": "Zhongwen Reader", 
 	"author": "natipt",
@@ -17170,7 +17172,7 @@
     "description": "Create literature notes and manage bibliographic references",
     "repo": "callumalpass/obsidian-biblib"
   },
-  {
+ {
     "id": "regex-line-filter",
     "name": "Regex Line Filter",
     "author": "64MM4-KN1F3",
@@ -17253,5 +17255,13 @@
     "author": "d7sd6u",
     "description": "Add file's ftags as chips at the top of the markdown view.",
     "repo": "d7sd6u/obsidian-viewer-ftags"
-}
+},
+  {
+
+    "id": "course-module-loader",
+    "name": "Course Module Loader",
+    "author": "Sebastian Kamilli",
+    "description": "Downloads and unzips course module zip files from a URL into a specified vault folder, skipping existing files.",
+    "repo": "QuintSmart/obsidian-course-module-loader"
+ }
 ]
