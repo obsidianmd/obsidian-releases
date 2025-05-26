@@ -16728,13 +16728,13 @@
     "author": "Dee",
     "description": "Stop rainbow folders from changing colors when you scroll through the File explorer.",
     "repo": "dee158/obsidian-rainbow-folders-fixer"
-},
-{
+  },
+  {
     "id": "table-of-contents-automatic-but-compatible-with-publish",
-	"name": "TOC compatible with Publish",
-	"description": "This generates a table of contents that is compatible with publish.",
-	"author": "Brian Collery",
-	"repo": "BrMacCath/Table-of-Contents"
+    "name": "TOC compatible with Publish",
+    "description": "This generates a table of contents that is compatible with publish.",
+    "author": "Brian Collery",
+    "repo": "BrMacCath/Table-of-Contents"
   },
   {
     "id": "image-embedder",
@@ -16756,8 +16756,8 @@
     "author": "David Pedrero",
     "description": "Automates the creation of a daily note",
     "repo": "davidpedrero/obsidian-daily-notes-automater"
-   },
-    {
+  },
+  {
     "id": "jupymd",
     "name": "JupyMD",
     "author": "Deniz Terzioglu",
@@ -16778,7 +16778,14 @@
     "author": "d7sd6u",
     "repo": "d7sd6u/obsidian-reveal-folded"
   },
- {
+  {
+    "id": "data-fetcher",
+    "name": "Data Fetcher",
+    "author": "qf3l3k",
+    "description": "Fetch data from multiple sources (REST APIs, RPC, gRPC, GraphQL) and insert results into notes",
+    "repo": "qf3l3k/obsidian-api-fetcher"
+  },
+  {
   "id": "tick-tones",
   "name": "Tick Tones",
   "author": "DontBlameMe",
@@ -16798,7 +16805,7 @@
     "author": "Adam Fletcher",
     "description": "Adds toggleable colored highlights to sentences based on their length so you can easily see the rhythm of your writing.",
     "repo": "adamfletcher/obsidian-sentence-rhythm"
-},
+  },
   { 
     "id": "another-dynamic-highlights", 
     "name": "aDHL", 
@@ -17232,5 +17239,12 @@
     "author": "d7sd6u",
     "description": "Add file's ftags as chips at the top of the markdown view.",
     "repo": "d7sd6u/obsidian-viewer-ftags"
-}
+},
+{
+    "id": "remove-markdown-formatting",
+    "name": "Remove Markdown Formatting",
+    "author": "Springfield-M1A",
+    "repo": "Springfield-M1A/obsidian-remove-markdown-formatting",
+    "description": "Remove specific Markdown syntax elements or custom phrases from selected text in notes."
+  }
 ]
