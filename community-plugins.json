@@ -4347,13 +4347,6 @@
         "repo": "czottmann/obsidian-actions-uri"
     },
     {
-        "id": "obsidian-projects",
-        "name": "Projects",
-        "description": "Manage and visualize notes for project management.",
-        "author": "Marcus Olsson",
-        "repo": "marcusolsson/obsidian-projects"
-    },
-    {
         "id": "obsidian-dynamic-background",
         "name": "Dynamic Background",
         "author": "Samuel Song",
@@ -13139,13 +13132,6 @@
         "repo": "kpaede/Verovio-Music-Renderer"
     },
     {
-        "id": "card-navigator",
-        "name": "Card Navigator",
-        "author": "wakeyi",
-        "description": "Navigate your notes visually with card-based interface",
-        "repo": "wakeyi-git/obsidian-card-navigator-plugin"
-    },
-    {
         "id": "callout-menu",
         "name": "Callout menu",
         "author": "Anareaty",
@@ -13355,13 +13341,6 @@
         "description": "Indexes references to scriptures in notes.",
         "repo": "jdrbrn/obsidian-scripture-indexer"
     },
-    {
-        "id": "open-sidebar-on-hover",
-        "name": "Open Sidebar on Hover",
-        "author": "AnAngryRaven",
-        "description": "Enables the ability to open the sidebar by hovering over it.",
-        "repo": "AnAngryRaven/obsidian-open-sidebar-on-hover"
-  },
   {
     "id": "onlyworlds-builder",
     "name": "OnlyWorlds Builder",
@@ -16621,7 +16600,7 @@
     "id": "open-tab-settings",
     "name": "Open Tab Settings",
     "author": "jesse-r-s-hines",
-    "description": "Adds settings to open in new tab by default and prevent duplicate tabs.",
+    "description": "Adds options to customize how tabs are opened, including open in new tab by default, preventing duplicate tabs, and more.",
     "repo": "jesse-r-s-hines/obsidian-open-tab-settings"
  },
  {
@@ -17260,5 +17239,61 @@
     "author": "teal33t",
     "description": "Chat with LLM AI models via Openrouter.ai API, with history and context support.",
     "repo": "teal33t/obsidian-openrouter"
-}
+},
+{
+    "id": "taskrobin",
+    "name": "Sync Emails",
+    "author": "taskrobin",
+    "description": "Sync and save emails and attachment files to your vault with TaskRobin.",
+    "repo": "taskrobin/Obsidian-Plugin"
+},
+{
+   "id": "statuslol-post",
+   "name": "Status.lol Publisher",
+   "author": "Eric Walker",
+   "description": "Post statuses to status.lol, log notes option, and mobile compatibility.",
+   "repo": "ericmwalk/obsidian-statuslol"
+ },
+ {
+    "id": "come-through",
+    "name": "Come Through",
+    "author": "mntno",
+    "description": "Drill flashcards using spaced repetition.",
+    "repo": "mntno/obsidian-come-through"
+ },
+ {
+    "id": "pdf-printer",
+    "name": "PDF Printer",
+    "author": "cubexy",
+    "description": "Convert PDF documents to images directly in your notes without external dependencies.",
+    "repo": "cubexy/obsidian-pdf-printer"
+ },
+ {
+    "id": "monokakido-copilot",
+    "name": "Monokakido Copilot",
+    "author": "NoHeartPen",
+    "description": "During editing, simply double-press the option key to search with the Dictionaries by Monokakido.",
+    "repo": "NoHeartPen/obsidian-monokakido-copilot-plugin"
+ },
+ {
+    "id": "live-wallpaper",
+    "name": "Live Background",
+    "author": "Rememememe :3",
+    "description": "Add dynamic live wallpapers (images/videos) to your workspace with customizable effects",
+    "repo": "remememe/Obsidian-Live-Wallpaper"
+  },
+  {
+    "id": "images-to-notes",
+    "name": "Images to Notes",
+    "author": "Rodolfo Terriquez",
+    "description": "Turn photos of handwritten or printed notes into Markdown using AI.",
+    "repo": "Rodolfo-Terriquez/images-to-notes"
+  },
+  {
+    "id": "themed-discord-rpc",
+    "name": "Themed Discord RPC",
+    "author": "Mouadhbendjedidi",
+    "description": "A Customizable Discord RPC",
+    "repo": "Mouadhbendjedidi/themed-obsidian-discord-rpc"
+  }
 ]
