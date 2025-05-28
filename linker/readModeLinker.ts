@@ -11,6 +11,12 @@ export class GlossaryLinker extends MarkdownRenderChild {
     settings: LinkerPluginSettings;
     linkerCache: LinkerCache;
 
+    private clearExistingLinks() {
+        // 清除所有由该插件添加的虚拟链接
+        const links = this.containerEl.querySelectorAll('.virtual-link');
+        links.forEach(link => link.remove());
+    }
+
     constructor(app: App, settings: LinkerPluginSettings, context: MarkdownPostProcessorContext, containerEl: HTMLElement) {
         super(containerEl);
         this.settings = settings;
@@ -49,7 +55,12 @@ export class GlossaryLinker extends MarkdownRenderChild {
     }
 
     onload() {
-        if (!this.settings.linkerActivated || this.settings.hideReadModeLinks) {
+        if (this.settings.hideReadModeLinks) {
+            this.clearExistingLinks();
+            return;
+        }
+        
+        if (!this.settings.linkerActivated) {
             return;
         }
 

@@ -656,6 +656,14 @@ export default class LinkerPlugin extends Plugin {
         Object.assign(this.settings, settings);
         await this.saveData(this.settings);
         this.updateManager.update();
+        
+        // 强制刷新所有视图以确保设置变更立即生效
+        this.app.workspace.getLeavesOfType('markdown').forEach(leaf => {
+            const view = leaf.view as MarkdownView;
+            if (view.previewMode) {
+                view.previewMode.rerender(true);
+            }
+        });
     }
 }
 
