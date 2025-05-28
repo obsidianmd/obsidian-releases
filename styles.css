@@ -1,0 +1,131 @@
+:root {
+  --virtual-link-opacity: 0.6;
+  --settings-box-min-width: 200px;
+  --settings-box-min-height: 60px;
+}
+
+.virtual-link-span {
+  display: inline;
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.virtual-link-span,
+.virtual-link-span a,
+.virtual-link-default,
+.virtual-link-header,
+.virtual-link-span .internal-link {
+  text-decoration: none !important;
+  filter: brightness(var(--virtual-link-opacity));
+}
+
+.markdown-preview-view .virtual-link-span {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.linker-suffix-icon {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.linker-settings-text-box {
+  min-width: var(--settings-box-min-width);
+  min-height: var(--settings-box-min-height);
+}
+
+.virtual-link-span .multiple-files-references,
+.virtual-link-span .multiple-files-indicator {
+  display: none;
+}
+
+.virtual-link-span:hover .multiple-files-references {
+  display: inline;
+}
+
+/* Basic virtual link style */
+.virtual-link {
+  display: inline;
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+/* Virtual link in bold context */
+.virtual-link.cm-strong,
+.cm-strong .virtual-link {
+  font-weight: var(--bold-weight, bold) !important;
+  background-color: rgba(128, 128, 128, 0.1) !important;
+}
+
+/* Ensure virtual links maintain style in CodeMirror bold */
+.cm-strong .virtual-link-span {
+  font-weight: inherit !important;
+}
+
+/* Hover effect */
+.virtual-link:hover .multiple-files-references,
+.cm-strong .virtual-link:hover .multiple-files-references {
+  display: inline;
+}
+
+/* Multiple files indicator */
+.virtual-link .multiple-files-references,
+.virtual-link .multiple-files-indicator {
+  display: none;
+}
+
+.virtual-link:hover .multiple-files-references {
+  display: inline;
+}
+
+/* Handle nested cases */
+.cm-strong .virtual-link .virtual-link {
+    font-weight: inherit !important;
+}
+
+/* Virtual links in italic context */
+.virtual-link.cm-em,
+.cm-em .virtual-link,
+.virtual-link-in-italic {
+    font-style: italic !important;
+    background-color: rgba(128, 128, 128, 0.1) !important;
+}
+
+/* 高亮上下文中的虚拟链接 */
+.virtual-link.cm-highlight,
+.cm-highlight .virtual-link,
+.virtual-link-in-highlight {
+    background-color: rgba(255, 255, 0, 0.3) !important;
+}
+
+/* 三连星号(粗斜体)上下文中的虚拟链接 */
+.virtual-link.cm-strong.cm-em,
+.cm-strong.cm-em .virtual-link,
+.virtual-link-in-triple-star {
+    font-weight: var(--bold-weight, bold) !important;
+    font-style: italic !important;
+    background-color: rgba(128, 128, 128, 0.1) !important;
+}
+
+/* 确保嵌套样式继承 */
+.cm-em .virtual-link .virtual-link {
+    font-style: inherit !important;
+}
+
+.cm-strong.cm-em .virtual-link .virtual-link {
+    font-weight: inherit !important;
+    font-style: inherit !important;
+}
+
+/* 虚拟链接点击区域优化 - 居中透明点击层方案 */
+.virtual-link-a {
+    position: relative;
+    display: inline-block;
+}
+.virtual-link-a::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1.5em;
+    height: 1.5em;
+    z-index: 0;
+}

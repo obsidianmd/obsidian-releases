@@ -1,0 +1,27 @@
+{
+	"name": "obsidian-glossary",
+	"version": "1.6.1",
+	"description": "This plugin automatically links words in your text that occur in a glossary folder created by you.",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
+	},
+	"keywords": [],
+	"author": "Valentin Schröter",
+	"license": "MIT",
+	"devDependencies": {
+		"@codemirror/language": "^6.10.2",
+		"@codemirror/view": "^6.28.1",
+		"@types/node": "^16.11.6",
+		"@typescript-eslint/eslint-plugin": "5.29.0",
+		"@typescript-eslint/parser": "5.29.0",
+		"builtin-modules": "3.3.0",
+		"esbuild": "0.14.47",
+		"obsidian": "^1.5.7-1",
+		"tslib": "2.4.0",
+		"typescript": "4.7.4",
+		"@flatten-js/interval-tree": "^1.1.3"
+	}
+}
