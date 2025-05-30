@@ -19043,11 +19043,20 @@
     "description": "Open links in new tabs by default. If the note is already open in another tab, it switches to it. Can also open PDFs and other file formats in System Apps when cmd/ctrl is hold.",
     "repo": "lukemt/obsidian-opener"
   },
+
 {
+    "id": "vault-llm-assistant",
+    "name": "Vault LLM Assistant",
+    "author": "Brians Tjipto",
+    "description": "Uses AI to answer questions and create notes about your vault with proper citations",
+    "repo": "brianstm/obsidian-vault-llm-assistant"
+  },
+  {
     "id": "cloud-sync",
     "name": "Cloud Sync",
     "author": "Bing",
     "description": "一款强大的云端插件，支持将笔记自动同步到多种云盘服务，提供端到端加密保护，让您的笔记既安全又便捷。",
     "repo": "ai-bytedance/obsidian-cloud-sync"
 }
+
 ]
