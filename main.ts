@@ -8,6 +8,7 @@ import { LinkerMetaInfoFetcher } from 'linker/linkerInfo';
 import * as path from 'path';
 
 export interface LinkerPluginSettings {
+    autoToggleByMode: boolean;
     advancedSettings: boolean;
     linkerActivated: boolean;
     suppressSuffixForSubWords: boolean;
@@ -43,13 +44,13 @@ export interface LinkerPluginSettings {
     excludeLinksToRealLinkedFiles: boolean;
     includeAliases: boolean;
     alwaysShowMultipleReferences: boolean;
-    hideReadModeLinks: boolean;
     excludedKeywords: string[]; // Keywords to exclude from virtual linking
     // wordBoundaryRegex: string;
     // conversionFormat
 }
 
 const DEFAULT_SETTINGS: LinkerPluginSettings = {
+    autoToggleByMode: false,
     advancedSettings: false,
     linkerActivated: true,
     matchAnyPartsOfWords: false,
@@ -85,17 +86,39 @@ const DEFAULT_SETTINGS: LinkerPluginSettings = {
     excludeLinksToRealLinkedFiles: true,
     includeAliases: true,
     alwaysShowMultipleReferences: false,
-    hideReadModeLinks: false,
     excludedKeywords: [],
     // wordBoundaryRegex: '/[\t- !-/:-@\[-`{-~\p{Emoji_Presentation}\p{Extended_Pictographic}]/u',
 };
 
 export default class LinkerPlugin extends Plugin {
+    public async handleLayoutChange() {
+        if (!this.settings.autoToggleByMode) return;
+        
+        const activeView = this.app.workspace.getActiveViewOfType(MarkdownView);
+        if (!activeView) return;
+        
+        const isPreviewMode = activeView.getMode() === 'preview';
+        const isEditorMode = activeView.getMode() === 'source';
+        
+        // 在阅读模式且插件激活 -> 停用
+        if (isPreviewMode && this.settings.linkerActivated) {
+            await this.updateSettings({ linkerActivated: false });
+        }
+        // 在编辑模式且插件未激活 -> 激活
+        else if (isEditorMode && !this.settings.linkerActivated) {
+            await this.updateSettings({ linkerActivated: true });
+        }
+    }
+
     settings: LinkerPluginSettings;
     updateManager = new ExternalUpdateManager();
 
     async onload() {
         await this.loadSettings();
+
+        // 监听视图变化
+        this.registerEvent(this.app.workspace.on('layout-change', this.handleLayoutChange.bind(this)));
+        this.registerEvent(this.app.workspace.on('active-leaf-change', this.handleLayoutChange.bind(this)));
 
         // Set callback to update the cache when the settings are changed
         this.updateManager.registerCallback(() => {
@@ -325,6 +348,7 @@ export default class LinkerPlugin extends Plugin {
 
                 // Check, if we are clicking on a virtual link inside a note or a note in the file explorer
                 const isVirtualLink = targetElement.classList.contains('virtual-link-a');
+                const isInTableCell = targetElement.closest('td, th') !== null;
 
                 const from = parseInt(targetElement.getAttribute('from') || '-1');
                 const to = parseInt(targetElement.getAttribute('to') || '-1');
@@ -339,116 +363,7 @@ export default class LinkerPlugin extends Plugin {
                 }
                 // Check, if the element has the "virtual-link" class
                 else if (isVirtualLink) {
-                    menu.addItem((item) => {
-                        // Item to convert a virtual link to a real link
-                        item.setTitle('[Virtual Linker] Convert to real link')
-                            .setIcon('link')
-                            .onClick(() => {
-                                // Get from and to position from the element
-                                const from = parseInt(targetElement.getAttribute('from') || '-1');
-                                const to = parseInt(targetElement.getAttribute('to') || '-1');
-
-                                if (from === -1 || to === -1) {
-                                    console.error('No from or to position');
-                                    return;
-                                }
-
-                                // Get the shown text
-                                const text = targetElement.getAttribute('origin-text') || '';
-                                const target = file;
-                                const activeFile = app.workspace.getActiveFile();
-                                const activeFilePath = activeFile?.path ?? '';
-
-                                if (!activeFile) {
-                                    console.error('No active file');
-                                    return;
-                                }
-
-                                let absolutePath = target.path;
-                                let relativePath =
-                                    path.relative(path.dirname(activeFile.path), path.dirname(absolutePath)) +
-                                    '/' +
-                                    path.basename(absolutePath);
-                                relativePath = relativePath.replace(/\\/g, '/'); // Replace backslashes with forward slashes
-
-                                // Problem: we cannot just take the fileToLinktext result, as it depends on the app settings
-                                const replacementPath = app.metadataCache.fileToLinktext(target as TFile, activeFilePath);
-
-                                // Get headerId from virtual link if exists
-                                const headerId = targetElement.getAttribute('data-heading-id');
-
-                                // The last part of the replacement path is the real shortest file name
-                                // We have to check, if it leads to the correct file
-                                const lastPart = replacementPath.split('/').pop()!;
-                                const shortestFile = app.metadataCache.getFirstLinkpathDest(lastPart!, '');
-                                let shortestPath = shortestFile?.path == target.path ? lastPart : absolutePath;
-
-                                // Remove superfluous .md extension and add headerId if exists
-                                const pathSuffix = headerId ? `#${headerId}` : '';
-                                if (!replacementPath.endsWith('.md')) {
-                                    if (absolutePath.endsWith('.md')) {
-                                        absolutePath = absolutePath.slice(0, -3);
-                                    }
-                                    if (shortestPath.endsWith('.md')) {
-                                        shortestPath = shortestPath.slice(0, -3);
-                                    }
-                                    if (relativePath.endsWith('.md')) {
-                                        relativePath = relativePath.slice(0, -3);
-                                    }
-                                    // Add headerId to all paths
-                                    absolutePath += pathSuffix;
-                                    shortestPath += pathSuffix;
-                                    relativePath += pathSuffix;
-                                }
-
-                                const useMarkdownLinks = settings.useDefaultLinkStyleForConversion
-                                    ? settings.defaultUseMarkdownLinks
-                                    : settings.useMarkdownLinks;
-
-                                const linkFormat = settings.useDefaultLinkStyleForConversion
-                                    ? settings.defaultLinkFormat
-                                    : settings.linkFormat;
-
-                                const createLink = (replacementPath: string, text: string, markdownStyle: boolean) => {
-                                    if (markdownStyle) {
-                                        return `[${text}](${replacementPath})`;
-                                    } else {
-                                        return `[[${replacementPath}|${text}]]`;
-                                    }
-                                };
-
-                                // Create the replacement
-                                let replacement = '';
-
-                                // If the file is the same as the shown text, and we can use short links, we use them
-                                if (replacementPath === text && linkFormat === 'shortest') {
-                                    replacement = `[[${replacementPath}]]`;
-                                }
-                                // Otherwise create a specific link, using the shown text
-                                else {
-                                    if (linkFormat === 'shortest') {
-                                        replacement = createLink(shortestPath, text, useMarkdownLinks);
-                                    } else if (linkFormat === 'relative') {
-                                        replacement = createLink(relativePath, text, useMarkdownLinks);
-                                    } else if (linkFormat === 'absolute') {
-                                        replacement = createLink(absolutePath, text, useMarkdownLinks);
-                                    }
-                                }
-
-                                // Replace the text
-                                const editor = app.workspace.getActiveViewOfType(MarkdownView)?.editor;
-                                const fromEditorPos = editor?.offsetToPos(from);
-                                const toEditorPos = editor?.offsetToPos(to);
-
-                                if (!fromEditorPos || !toEditorPos) {
-                                    console.warn('No editor positions');
-                                    return;
-                                }
-
-                                editor?.replaceRange(replacement, fromEditorPos, toEditorPos);
-                            });
-                    });
-
+                    // Always show "Add to excluded keywords" option for virtual links
                     menu.addItem((item) => {
                         // Item to add virtual link text to excluded keywords
                         item.setTitle('[Virtual Linker] Add to excluded keywords')
@@ -462,6 +377,119 @@ export default class LinkerPlugin extends Plugin {
                                 }
                             });
                     });
+
+                    // Only show "Convert to real link" option when not in a table cell
+                    if (!isInTableCell) {
+                        menu.addItem((item) => {
+                            // Item to convert a virtual link to a real link
+                            item.setTitle('[Virtual Linker] Convert to real link')
+                                .setIcon('link')
+                                .onClick(() => {
+                                    // Get from and to position from the element
+                                    const from = parseInt(targetElement.getAttribute('from') || '-1');
+                                    const to = parseInt(targetElement.getAttribute('to') || '-1');
+
+                                    if (from === -1 || to === -1) {
+                                        console.error('No from or to position');
+                                        return;
+                                    }
+
+                                    // Get the shown text
+                                    const text = targetElement.getAttribute('origin-text') || '';
+                                    const target = file;
+                                    const activeFile = app.workspace.getActiveFile();
+                                    const activeFilePath = activeFile?.path ?? '';
+
+                                    if (!activeFile) {
+                                        console.error('No active file');
+                                        return;
+                                    }
+
+                                    let absolutePath = target.path;
+                                    let relativePath =
+                                        path.relative(path.dirname(activeFile.path), path.dirname(absolutePath)) +
+                                        '/' +
+                                        path.basename(absolutePath);
+                                    relativePath = relativePath.replace(/\\/g, '/'); // Replace backslashes with forward slashes
+
+                                    // Problem: we cannot just take the fileToLinktext result, as it depends on the app settings
+                                    const replacementPath = app.metadataCache.fileToLinktext(target as TFile, activeFilePath);
+
+                                    // Get headerId from virtual link if exists
+                                    const headerId = targetElement.getAttribute('data-heading-id');
+
+                                    // The last part of the replacement path is the real shortest file name
+                                    // We have to check, if it leads to the correct file
+                                    const lastPart = replacementPath.split('/').pop()!;
+                                    const shortestFile = app.metadataCache.getFirstLinkpathDest(lastPart!, '');
+                                    let shortestPath = shortestFile?.path == target.path ? lastPart : absolutePath;
+
+                                    // Remove superfluous .md extension and add headerId if exists
+                                    const pathSuffix = headerId ? `#${headerId}` : '';
+                                    if (!replacementPath.endsWith('.md')) {
+                                        if (absolutePath.endsWith('.md')) {
+                                            absolutePath = absolutePath.slice(0, -3);
+                                        }
+                                        if (shortestPath.endsWith('.md')) {
+                                            shortestPath = shortestPath.slice(0, -3);
+                                        }
+                                        if (relativePath.endsWith('.md')) {
+                                            relativePath = relativePath.slice(0, -3);
+                                        }
+                                        // Add headerId to all paths
+                                        absolutePath += pathSuffix;
+                                        shortestPath += pathSuffix;
+                                        relativePath += pathSuffix;
+                                    }
+
+                                    const useMarkdownLinks = settings.useDefaultLinkStyleForConversion
+                                        ? settings.defaultUseMarkdownLinks
+                                        : settings.useMarkdownLinks;
+
+                                    const linkFormat = settings.useDefaultLinkStyleForConversion
+                                        ? settings.defaultLinkFormat
+                                        : settings.linkFormat;
+
+                                    const createLink = (replacementPath: string, text: string, markdownStyle: boolean) => {
+                                        if (markdownStyle) {
+                                            return `[${text}](${replacementPath})`;
+                                        } else {
+                                            return `[[${replacementPath}|${text}]]`;
+                                        }
+                                    };
+
+                                    // Create the replacement
+                                    let replacement = '';
+
+                                    // If the file is the same as the shown text, and we can use short links, we use them
+                                    if (replacementPath === text && linkFormat === 'shortest') {
+                                        replacement = `[[${replacementPath}]]`;
+                                    }
+                                    // Otherwise create a specific link, using the shown text
+                                    else {
+                                        if (linkFormat === 'shortest') {
+                                            replacement = createLink(shortestPath, text, useMarkdownLinks);
+                                        } else if (linkFormat === 'relative') {
+                                            replacement = createLink(relativePath, text, useMarkdownLinks);
+                                        } else if (linkFormat === 'absolute') {
+                                            replacement = createLink(absolutePath, text, useMarkdownLinks);
+                                        }
+                                    }
+
+                                    // Replace the text
+                                    const editor = app.workspace.getActiveViewOfType(MarkdownView)?.editor;
+                                    const fromEditorPos = editor?.offsetToPos(from);
+                                    const toEditorPos = editor?.offsetToPos(to);
+
+                                    if (!fromEditorPos || !toEditorPos) {
+                                        console.warn('No editor positions');
+                                        return;
+                                    }
+
+                                    editor?.replaceRange(replacement, fromEditorPos, toEditorPos);
+                                });
+                        });
+                    }
                 }
 
                 // Remove the listener to prevent multiple triggers
@@ -674,8 +702,21 @@ class LinkerSettingTab extends PluginSettingTab {
 
     display(): void {
         const { containerEl } = this;
-
         containerEl.empty();
+
+        // 添加自动模式切换设置项
+        new Setting(containerEl)
+            .setName('根据模式自动切换激活状态')
+            .setDesc('开启后，在编辑模式如果插件未激活会自动激活，在阅读模式如果插件激活了会自动停用')
+            .addToggle(toggle => 
+                toggle
+                    .setValue(this.plugin.settings.autoToggleByMode)
+                    .onChange(async value => {
+                        await this.plugin.updateSettings({ autoToggleByMode: value });
+                        // 立即应用设置变更
+                        this.plugin.handleLayoutChange();
+                    })
+            );
 
         // Toggle to activate or deactivate the linker
         new Setting(containerEl).setName('Activate Virtual Linker').addToggle((toggle) =>
@@ -1136,15 +1177,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 toggle.setValue(this.plugin.settings.applyDefaultLinkStyling).onChange(async (value) => {
                     // console.log("Apply default link styling: " + value);
                     await this.plugin.updateSettings({ applyDefaultLinkStyling: value });
-                })
-            );
-
-        new Setting(containerEl)
-            .setName('Hide virtual links in reading view')
-            .setDesc('When enabled, all virtual links will be hidden in reading view')
-            .addToggle((toggle) =>
-                toggle.setValue(this.plugin.settings.hideReadModeLinks).onChange(async (value) => {
-                    await this.plugin.updateSettings({ hideReadModeLinks: value });
                 })
             );
 

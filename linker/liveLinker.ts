@@ -27,7 +27,13 @@ export class VirtualLinkWidget extends WidgetType {
     }
     
     toDOM(view: EditorView): HTMLElement {
-        const element = this.match.getCompleteLinkElement();
+        // 改进表格单元格检测逻辑
+        const cmTableWidget = view.dom.closest('.cm-table-widget');
+        const tableWrapper = view.dom.closest('.table-cell-wrapper');
+        const inTableCellEditor = !!(cmTableWidget && tableWrapper);
+        
+        // 创建链接元素
+        const element = this.match.getCompleteLinkElement(inTableCellEditor);
         
         // Check current format context with precise range checking
         let inBoldContext = false;

@@ -28,8 +28,8 @@ export class VirtualMatch {
     // DOM methods
     /////////////////////////////////////////////////
 
-    getCompleteLinkElement() {
-        const span = this.getLinkRootSpan();
+    getCompleteLinkElement(inTableCellEditor = false) {
+        const span = this.getLinkRootSpan(inTableCellEditor);
         const firstPath = this.files.length > 0 ? getLinkpath(this.files[0].path) : "";
         span.appendChild(this.getLinkAnchorElement(this.originText, firstPath));
         if (this.files.length > 1) {
@@ -66,7 +66,7 @@ export class VirtualMatch {
         return link;
     }
 
-    getLinkRootSpan() {
+    getLinkRootSpan(inTableCellEditor = false) {
         const span = document.createElement('span');
         span.classList.add('glossary-entry', 'virtual-link', 'virtual-link-span');
         
@@ -86,6 +86,27 @@ export class VirtualMatch {
         }
         if (this.isTripleStarContext) {
             span.classList.add('virtual-link-in-triple-star');
+        }
+
+        // 根据表格单元格上下文设置右键菜单
+        if (inTableCellEditor === true) {
+            span.classList.add('no-context-menu');
+            
+            // 确保在表格单元格中禁用默认右键菜单
+            span.addEventListener('contextmenu', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                return false;
+            }, true);
+            
+            // 添加额外的鼠标右键事件监听器，确保捕获所有可能的右键事件
+            span.addEventListener('mouseup', (e) => {
+                if (e.button === 2) { // 右键
+                    e.preventDefault();
+                    e.stopPropagation();
+                    return false;
+                }
+            }, true);
         }
         
         return span;

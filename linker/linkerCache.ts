@@ -608,6 +608,9 @@ export class LinkerCache {
     }
 
     updateCache(force = false) {
+        // 如果插件未激活则不执行更新
+        if (!this.settings.linkerActivated) return;
+        
         // force = true;
         if (!this.app?.workspace?.getActiveFile()) {
             return;
