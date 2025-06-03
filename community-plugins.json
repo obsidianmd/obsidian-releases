@@ -983,7 +983,7 @@
         "id": "media-extended",
         "name": "Media Extended",
         "author": "AidenLx",
-        "description": "Add extended media features for video and audio, including timestamp links and playback speed.",
+        "description": "Integrate, manage video or audio directly in your notes, with enhanced playback and timestamp support. (Closed source)",
         "repo": "aidenlx/media-extended"
     },
     {
@@ -13239,9 +13239,9 @@
     {
         "id": "diagram-zoom-drag",
         "name": "Diagram Zoom Drag",
-        "author": "ChenPengyuan",
+        "author": "ChenPengyuan(gitcpy) & Ssentiago",
         "description": "Add zoom and drag functionality to diagrams from Mermaid, Plantuml, Graphviz, Gravizo and so on",
-        "repo": "gitcpy/diagram-zoom-drag"
+        "repo": "Ssentiago/diagram-zoom-drag"
     },
     {
         "id": "figma-embed",
@@ -17344,6 +17344,20 @@
     "author": "Sangrak Choi",
     "description": "Create a new note with today's date in the current directory",
     "repo": "kargnas/obsidian-create-note-with-date"
+  },
+  {
+    "id": "daily-task-auto-generator",
+    "name": "Daily Task Auto Generator",
+    "author": "maigamo",
+    "description": "Daily Task Auto Generator can helps you automatically generate daily task files with customizable templates!",
+    "repo": "maigamo/daily-task-auto-generator"
+},
+{
+    "id": "yaml-table",
+    "name": "YAML Table",
+    "author": "dainakai",
+    "description": "Transform YAML code blocks into HTML tables for better visualization",
+    "repo": "dainakai/obsidian-yaml-table"
 },
 {
     "id": "custom-selected-word-count",
