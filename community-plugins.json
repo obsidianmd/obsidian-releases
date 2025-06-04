@@ -983,7 +983,7 @@
         "id": "media-extended",
         "name": "Media Extended",
         "author": "AidenLx",
-        "description": "Add extended media features for video and audio, including timestamp links and playback speed.",
+        "description": "Integrate, manage video or audio directly in your notes, with enhanced playback and timestamp support. (Closed source)",
         "repo": "aidenlx/media-extended"
     },
     {
@@ -7833,13 +7833,6 @@
         "repo": "Pentchaff/obsidian-search-library"
     },
     {
-        "id": "vertical-tabs-view",
-        "name": "Vertical Tabs View",
-        "author": "hdykokd",
-        "description": "A vertical tabs view.",
-        "repo": "hdykokd/obsidian-vertical-tabs-view"
-    },
-    {
         "id": "just-share-please",
         "name": "Just Share Please",
         "author": "Ellpeck",
@@ -13246,9 +13239,9 @@
     {
         "id": "diagram-zoom-drag",
         "name": "Diagram Zoom Drag",
-        "author": "ChenPengyuan",
+        "author": "ChenPengyuan(gitcpy) & Ssentiago",
         "description": "Add zoom and drag functionality to diagrams from Mermaid, Plantuml, Graphviz, Gravizo and so on",
-        "repo": "gitcpy/diagram-zoom-drag"
+        "repo": "Ssentiago/diagram-zoom-drag"
     },
     {
         "id": "figma-embed",
@@ -17288,6 +17281,97 @@
     "author": "Mouadhbendjedidi",
     "description": "A Customizable Discord RPC",
     "repo": "Mouadhbendjedidi/themed-obsidian-discord-rpc"
+},
+{
+    "id": "ticktick-quickadd-task",
+    "name": "TickTick Quick Add Task",
+    "author": "Muxin Li",
+    "description": "Instantly creates a TickTick task from the current block of text using a keyboard shortcut. Task includes a copy of the text, and the URI to that exact block of text in your notes. Requires Advanced URI plugin.",
+    "repo": "muxinli/ticktick-quick-add-obsidian"
+},
+{
+    "id": "japanese-helper",
+    "name": "Japanese note taking helper",
+    "author": "OverFitter",
+    "description": "Streamline Japanese note-taking with romaji to kana conversion",
+    "repo": "OverFitted/obsidian-japanese-helper"
+},
+{
+    "id": "opener",
+    "name": "Opener: New Tab by Default",
+    "author": "LukeMT, Aidan Gibson",
+    "description": "Open links in new tabs by default. If the note is already open in another tab, it switches to it. Can also open PDFs and other file formats in System Apps when cmd/ctrl is hold.",
+    "repo": "lukemt/obsidian-opener"
+},
+{
+    "id": "vault-llm-assistant",
+    "name": "Vault LLM Assistant",
+    "author": "Brians Tjipto",
+    "description": "Uses AI to answer questions and create notes about your vault with proper citations",
+    "repo": "brianstm/obsidian-vault-llm-assistant"
+},
+{
+    "id": "simple-tab-indent",
+    "name": "Simple Tab Indent",
+    "description": "Pressing Tab inserts a zero-width space + real tab, giving true indentation without triggering Markdown code blocks. Includes a settings panel to change the CSS tab width.",
+    "author": "Thiago Frias",
+    "repo": "hoomersinpsom/simple-tab-indent"
+},
+{
+    "id": "markdown-hijacker",
+    "name": "Markdown Hijacker",
+    "author": "Yongmini",
+    "description": "Beyond the Vault. One hub for every Markdown, everywhere",
+    "repo": "especialkim/markdown-hijacker"
+},
+{
+    "id": "auto-note-importer",
+    "name": "Auto Note Importer",
+    "author": "uppinote",
+    "description": "Automatically import notes from an external database like Airtable into your Vault.",
+    "repo": "uppinote20/obsidian-auto-note-importer"
+  },
+  {
+    "id": "create-note-with-date",
+    "name": "Create Note with Date in This Directory",
+    "author": "Sangrak Choi",
+    "description": "Create a new note with today's date in the current directory",
+    "repo": "kargnas/obsidian-create-note-with-date"
+  },
+  {
+    "id": "daily-task-auto-generator",
+    "name": "Daily Task Auto Generator",
+    "author": "maigamo",
+    "description": "Daily Task Auto Generator can helps you automatically generate daily task files with customizable templates!",
+    "repo": "maigamo/daily-task-auto-generator"
+},
+{
+    "id": "yaml-table",
+    "name": "YAML Table",
+    "author": "dainakai",
+    "description": "Transform YAML code blocks into HTML tables for better visualization",
+    "repo": "dainakai/obsidian-yaml-table"
+},
+{
+    "id": "notemd",
+    "name": "Notemd", 
+    "author": "Jacob",
+    "description": "Integrates with various LLMs to process notes, generate wiki-links, and create concept notes",
+    "repo": "Jacobinwwey/obsidian-NotEMD"
+},
+{
+    "id": "book-smith",
+    "name": "Book Smith",
+    "author": "Yeban",
+    "description": "Simplify long-form writing and book creation. Organize chapters, track progress, and export your manuscript in various formats for a seamless publishing workflow.",
+    "repo": "Yeban8090/book-smith"
+},
+{
+    "id": "note-sync",
+    "name": "Note Sync",
+    "author": "ZigHolding",
+    "description": "Sync notes or plugins between vaults.",
+    "repo": "zigholding/obsidian-notesync-plugin"
   },
   {
   "id": "dynamic-table",
