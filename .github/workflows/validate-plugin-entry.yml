@@ -229,7 +229,7 @@ jobs:
               try {
                 await github.rest.licenses.getForRepo({owner, repo});
               } catch (e) {
-                addWarning(`Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.`);
+                addError(`Your repository does not include a license. Go to <https://choosealicense.com/> to compare different open source licenses.`);
               }
             })();
             
