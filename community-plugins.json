@@ -983,7 +983,7 @@
         "id": "media-extended",
         "name": "Media Extended",
         "author": "AidenLx",
-        "description": "Add extended media features for video and audio, including timestamp links and playback speed.",
+        "description": "Integrate, manage video or audio directly in your notes, with enhanced playback and timestamp support. (Closed source)",
         "repo": "aidenlx/media-extended"
     },
     {
@@ -1652,13 +1652,6 @@
         "repo": "mcndt/obsidian-toggl-integration"
     },
     {
-        "id": "alx-folder-note",
-        "name": "AidenLx's Folder Note",
-        "description": "Add description, summary and more info to folders with folder notes.",
-        "author": "AidenLx",
-        "repo": "aidenlx/alx-folder-note"
-    },
-    {
         "id": "obsidian-hide-sidebars-when-narrow",
         "name": "Hide Sidebars on Window Resize",
         "author": "NomarCub, Michael Hanson",
@@ -1888,13 +1881,6 @@
         "author": "Sami Korpela",
         "description": "Focused on the current line, others faded like a ghost!",
         "repo": "skipadu/obsidian-ghost-fade-focus"
-    },
-    {
-        "id": "folder-note-core",
-        "name": "Folder Note Core",
-        "description": "Provide core features and API for folder notes.",
-        "author": "AidenLx",
-        "repo": "aidenlx/folder-note-core"
     },
     {
         "id": "obsidian-hackernews",
@@ -13239,9 +13225,9 @@
     {
         "id": "diagram-zoom-drag",
         "name": "Diagram Zoom Drag",
-        "author": "ChenPengyuan",
+        "author": "ChenPengyuan(gitcpy) & Ssentiago",
         "description": "Add zoom and drag functionality to diagrams from Mermaid, Plantuml, Graphviz, Gravizo and so on",
-        "repo": "gitcpy/diagram-zoom-drag"
+        "repo": "Ssentiago/diagram-zoom-drag"
     },
     {
         "id": "figma-embed",
@@ -17319,10 +17305,10 @@
 },
 {
     "id": "markdown-hijacker",
-    "name": "Markdown Hijacker",
+    "name": "Synaptic Bridge",
     "author": "Yongmini",
     "description": "Beyond the Vault. One hub for every Markdown, everywhere",
-    "repo": "especialkim/markdown-hijacker"
+    "repo": "especialkim/synaptic-bridge"
 },
 {
     "id": "auto-note-importer",
@@ -17337,7 +17323,42 @@
     "author": "Sangrak Choi",
     "description": "Create a new note with today's date in the current directory",
     "repo": "kargnas/obsidian-create-note-with-date"
+  },
+  {
+    "id": "daily-task-auto-generator",
+    "name": "Daily Task Auto Generator",
+    "author": "maigamo",
+    "description": "Daily Task Auto Generator can helps you automatically generate daily task files with customizable templates!",
+    "repo": "maigamo/daily-task-auto-generator"
 },
+{
+    "id": "yaml-table",
+    "name": "YAML Table",
+    "author": "dainakai",
+    "description": "Transform YAML code blocks into HTML tables for better visualization",
+    "repo": "dainakai/obsidian-yaml-table"
+},
+{
+    "id": "notemd",
+    "name": "Notemd", 
+    "author": "Jacob",
+    "description": "Integrates with various LLMs to process notes, generate wiki-links, and create concept notes",
+    "repo": "Jacobinwwey/obsidian-NotEMD"
+},
+{
+    "id": "book-smith",
+    "name": "Book Smith",
+    "author": "Yeban",
+    "description": "Simplify long-form writing and book creation. Organize chapters, track progress, and export your manuscript in various formats for a seamless publishing workflow.",
+    "repo": "Yeban8090/book-smith"
+},
+{
+    "id": "note-sync",
+    "name": "Note Sync",
+    "author": "ZigHolding",
+    "description": "Sync notes or plugins between vaults.",
+    "repo": "zigholding/obsidian-notesync-plugin"
+  },
 {
     "id": "ob-smm",
     "name": "Ob-SMM",
