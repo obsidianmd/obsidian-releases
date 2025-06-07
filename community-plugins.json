@@ -1,11 +1,4 @@
 [
-   { 
-	"id": "confluence-tasks-sync",
-	"name": "Confluence Tasks Sync",
-	"author": "Adarsh Singh",
-	"description": "Seamlessly sync Confluence tasks with Obsidian. Import tasks automatically, track completion, and maintain bidirectional sync between Confluence and your notes.",
-	"repo": "adarsh1990/obsidian-connie-task-plugin"
-   },
    {
         "id": "nldates-obsidian",
         "name": "Natural Language Dates",
@@ -17365,5 +17358,12 @@
     "author": "ZigHolding",
     "description": "Sync notes or plugins between vaults.",
     "repo": "zigholding/obsidian-notesync-plugin"
-  }
+},
+{ 
+    "id": "confluence-tasks-sync",
+    "name": "Confluence Tasks Sync",
+    "author": "Adarsh Singh",
+    "description": "Seamlessly sync Confluence tasks with Obsidian. Import tasks automatically, track completion, and maintain bidirectional sync between Confluence and your notes.",
+    "repo": "adarsh1990/obsidian-connie-task-plugin"
+}	
 ]
