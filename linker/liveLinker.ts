@@ -243,19 +243,44 @@ class AutoLinkerPlugin implements PluginValue {
                                 : this.settings.excludedKeywords.map(k => k.toLowerCase());
                             
                             if (filteredFiles.length > 0 && !excludedKeywords.includes(nameToCheck)) {
-                                matches.push(
-                                    new VirtualMatch(
-                                        id++,
-                                        name,
-                                        aFrom,
-                                        aTo,
-                                        filteredFiles,
-                                        isAlias ? MatchType.Alias : MatchType.Note,
-                                        !isWordBoundary,
-                                        this.settings,
-                                        node.headerId
-                                    )
+                                const virtualMatch = new VirtualMatch(
+                                    id++,
+                                    name,
+                                    aFrom,
+                                    aTo,
+                                    filteredFiles,
+                                    isAlias ? MatchType.Alias : MatchType.Note,
+                                    !isWordBoundary,
+                                    this.settings,
+                                    node.headerId
                                 );
+
+                                // 如果有多个文件，为每个文件获取其对应的标题ID
+                                if (filteredFiles.length > 1) {
+                                    // 获取每个文件的标题ID
+                                    filteredFiles.forEach((file, index) => {
+                                        if (index === 0) {
+                                            // 第一个文件已经在构造函数中设置了标题ID
+                                            return;
+                                        }
+                                        // 获取当前文件的标题ID
+                                        const fileNodes = this.linkerCache.cache.getCurrentMatchNodes(
+                                            i,
+                                            null, // 不排除任何文件
+                                            file // 只获取特定文件的节点
+                                        );
+                                        // 如果找到了节点并且有标题ID，设置给对应的文件
+                                        if (fileNodes && fileNodes.length > 0 && fileNodes[0].headerId) {
+                                            virtualMatch.setFileHeaderId(file, fileNodes[0].headerId);
+                                        }
+                                        // 如果找到了节点并且有标题ID，设置给对应的文件
+                                        if (fileNodes.length > 0 && fileNodes[0].headerId) {
+                                            virtualMatch.setFileHeaderId(file, fileNodes[0].headerId);
+                                        }
+                                    });
+                                }
+
+                                matches.push(virtualMatch);
                             }
                         }
                     }

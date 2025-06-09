@@ -92,7 +92,7 @@ export class PrefixTree {
         this.mapFilePathToLeaveNodes.clear();
     }
 
-    getCurrentMatchNodes(index: number, excludedNote?: TFile | null): MatchNode[] {
+    getCurrentMatchNodes(index: number, excludedNote?: TFile | null, specificFile?: TFile): MatchNode[] {
         const matchNodes: MatchNode[] = [];
 
         if (excludedNote === undefined && this.settings.excludeLinksToOwnNote) {
@@ -119,7 +119,12 @@ export class PrefixTree {
             const matchNode = new MatchNode();
             matchNode.length = node.node.value.length + node.formattingDelta;
             matchNode.start = index - matchNode.length;
-            matchNode.files = new Set(Array.from(node.node.files).filter((file) => !excludedNote || file.path !== excludedNote.path));
+            // 如果指定了特定文件，只包含该文件
+            if (specificFile) {
+                matchNode.files = new Set(Array.from(node.node.files).filter((file) => file.path === specificFile.path));
+            } else {
+                matchNode.files = new Set(Array.from(node.node.files).filter((file) => !excludedNote || file.path !== excludedNote.path));
+            }
             matchNode.value = node.node.value;
             matchNode.requiresCaseMatch = node.node.requiresCaseMatch;
 

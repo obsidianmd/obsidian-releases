@@ -4,6 +4,9 @@ import { TFile, getLinkpath } from 'obsidian';
 import { MatchType } from './linkerCache';
 
 export class VirtualMatch {
+    // 添加一个新的属性，用于存储文件到标题ID的映射
+    private fileHeaderIds: Map<string, string> = new Map();
+    
     constructor(
         public id: number,
         public originText: string,
@@ -18,7 +21,22 @@ export class VirtualMatch {
         public isItalicContext: boolean = false,
         public isHighlightContext: boolean = false,
         public isTripleStarContext: boolean = false
-    ) {}
+    ) {
+        // 初始化第一个文件的标题ID（如果有）
+        if (files.length > 0 && headerId) {
+            this.fileHeaderIds.set(files[0].path, headerId);
+        }
+    }
+    
+    // 添加方法，用于设置文件的标题ID
+    setFileHeaderId(file: TFile, headerId: string) {
+        this.fileHeaderIds.set(file.path, headerId);
+    }
+    
+    // 添加方法，用于获取文件的标题ID
+    getFileHeaderId(file: TFile): string | undefined {
+        return this.fileHeaderIds.get(file.path);
+    }
 
     get isAlias(): boolean {
         return this.type === MatchType.Alias;
@@ -30,8 +48,9 @@ export class VirtualMatch {
 
     getCompleteLinkElement(inTableCellEditor = false) {
         const span = this.getLinkRootSpan(inTableCellEditor);
-        const firstPath = this.files.length > 0 ? getLinkpath(this.files[0].path) : "";
-        span.appendChild(this.getLinkAnchorElement(this.originText, firstPath));
+        const firstFile = this.files.length > 0 ? this.files[0] : undefined;
+        const firstPath = firstFile ? getLinkpath(firstFile.path) : "";
+        span.appendChild(this.getLinkAnchorElement(this.originText, firstPath, firstFile));
         if (this.files.length > 1) {
             if (!this.isSubWord) {
                 span.appendChild(this.getMultipleReferencesIndicatorSpan());
@@ -46,13 +65,24 @@ export class VirtualMatch {
         return span;
     }
 
-    getLinkAnchorElement(linkText: string, href: string) {
+    getLinkAnchorElement(linkText: string, href: string, file?: TFile) {
         const link = document.createElement('a');
         
-        // Handle all possible headerId cases
-        if (this.headerId) {
-            link.href = `${href}#${this.headerId}`;
-            link.setAttribute('data-heading-id', this.headerId);
+        // 使用文件特定的标题ID（如果提供了file参数）
+        let headerIdToUse = undefined;
+        if (file) {
+            headerIdToUse = this.getFileHeaderId(file);
+        } else if (this.files.length > 0) {
+            // 如果没有提供file参数，但有files，使用第一个文件的标题ID
+            headerIdToUse = this.getFileHeaderId(this.files[0]) || this.headerId;
+        } else {
+            // 兼容旧代码
+            headerIdToUse = this.headerId;
+        }
+        
+        if (headerIdToUse) {
+            link.href = `${href}#${headerIdToUse}`;
+            link.setAttribute('data-heading-id', headerIdToUse);
         } else {
             link.href = href;
         }
@@ -133,7 +163,8 @@ export class VirtualMatch {
             }
 
             let linkHref = file.path;
-            const link = this.getLinkAnchorElement(linkText, linkHref);
+            // 传递file参数，以便使用文件特定的标题ID
+            const link = this.getLinkAnchorElement(linkText, linkHref, file);
             spanReferences.appendChild(link);
 
             if (index == files!.length - 1) {
