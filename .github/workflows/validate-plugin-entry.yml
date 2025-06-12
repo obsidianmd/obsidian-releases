@@ -215,10 +215,10 @@ jobs:
 
                   const assets = release.data.assets || [];
                   if (!assets.find(p => p.name === 'main.js')) {
-                    addError('Your latest Release is missing the `main.js` file.');
+                    addError('Your latest release is missing the `main.js` file.');
                   }
                   if (!assets.find(p => p.name === 'manifest.json')) {
-                    addError('Your latest Release is missing the `manifest.json` file.');
+                    addError('Your latest release is missing the `manifest.json` file.');
                   }
                 } catch (e) {
                   addError(`Unable to find a release with the tag \`${manifest.version}\`. Make sure that the version in your manifest.json file in your repo points to the correct Github Release.`);
@@ -229,7 +229,7 @@ jobs:
               try {
                 await github.rest.licenses.getForRepo({owner, repo});
               } catch (e) {
-                addWarning(`Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.`);
+                addError(`Your repository does not include a license. Go to <https://choosealicense.com/> to compare different open source licenses.`);
               }
             })();
             
