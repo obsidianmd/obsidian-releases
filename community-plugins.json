@@ -1,12 +1,5 @@
 [
   {
-    "id": "glsl-viewer",
-    "name": "GLSL Viewer",
-    "author": "iY0Yi",
-    "description": "A GLSL preview plugin for Obsidian that enables real-time WebGL rendering with Shadertoy-style shader code.",
-    "repo": "iY0Yi/obsidian_glslviewer"
-  },
-  {
     "id": "nldates-obsidian",
     "name": "Natural Language Dates",
     "author": "Argentina Ortega Sainz",
@@ -17428,12 +17421,19 @@
     "author": "insile",
     "description": "用于英语学习中背单词与单词管理的插件",
     "repo": "insile/OpenWords"
-},
-{
-    "id": "course-module-loader",
-    "name": "Course Module Loader",
-    "author": "Sebastian Kamilli",
-    "description": "Downloads and unzips course module zip files from a URL into a specified vault folder, skipping existing files.",
-    "repo": "QuintSmart/obsidian-course-module-loader"
- }
+  },
+  {
+      "id": "course-module-loader",
+      "name": "Course Module Loader",
+      "author": "Sebastian Kamilli",
+      "description": "Downloads and unzips course module zip files from a URL into a specified vault folder, skipping existing files.",
+          "repo": "QuintSmart/obsidian-course-module-loader"
+  },
+  {
+    "id": "glsl-viewer",
+    "name": "GLSL Viewer",
+    "author": "iY0Yi",
+    "description": "A GLSL preview plugin for Obsidian that enables real-time WebGL rendering with Shadertoy-style shader code.",
+    "repo": "iY0Yi/obsidian_glslviewer"
+  }
 ]
