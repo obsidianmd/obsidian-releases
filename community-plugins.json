@@ -17409,10 +17409,10 @@
     "repo": "artemDvoryadkin/obsidian-vim-marker-sharpener"
   },
   {
-  	"id": "pure-chat-llm",
-  	"name": "Pure Chat LLM",
-  	"author": "Justice Vellacott",
-  	"description": "Turn notes into conversations with chatGPT",
+    "id": "pure-chat-llm",
+    "name": "Pure Chat LLM",
+    "author": "Justice Vellacott",
+    "description": "Turn notes into conversations with chatGPT",
     "repo": "TheJusticeMan/pure-chat-llm"
   },
   {
@@ -17435,5 +17435,12 @@
     "author": "iY0Yi",
     "description": "A GLSL preview plugin that enables real-time WebGL rendering with Shadertoy-style shader code.",
     "repo": "iY0Yi/obsidian_glslviewer"
+  },
+  {
+    "id": "note_uid_generator",
+    "name": "Note UID Generator",
+    "author": "Valentin Pelletier",
+    "description": "Automatically or manually generates Unique IDs (UIDs) for notes and registers them in metadata (frontmatter).",
+    "repo": "Netajam/obsidian_note_uid_generator"
   }
 ]
