@@ -17428,13 +17428,6 @@
     "author": "Sebastian Kamilli",
     "description": "Downloads and unzips course module zip files from a URL into a specified vault folder, skipping existing files.",
     "repo": "QuintSmart/obsidian-course-module-loader"
-  },
-  {
-    "id": "external-pdf",
-    "name": "External PDF",
-    "author": "Tenebris Nox",
-    "description": "Embed external PDF files in notes without storing the files in your Obsdian vault.",
-    "repo": "tenebrisnox/external-PDF-plugin"
   }, 
   {
     "id": "note_uid_generator",
@@ -17442,5 +17435,12 @@
     "author": "Valentin Pelletier",
     "description": "Automatically or manually generates Unique IDs (UIDs) for notes and registers them in metadata (frontmatter).",
     "repo": "Netajam/obsidian_note_uid_generator"
+  },
+  {
+    "id": "external-pdf",
+    "name": "External PDF",
+    "author": "Tenebris Nox",
+    "description": "Embed external PDF files in notes without storing the files in your Obsdian vault.",
+    "repo": "tenebrisnox/external-PDF-plugin"
   }
 ]
