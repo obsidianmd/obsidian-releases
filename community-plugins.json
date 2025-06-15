@@ -17407,7 +17407,7 @@
     "author": "Artem Dvoryadkin",
     "description": "Text formatting commands in Vim mode. Supports applying styles (bold, italic, etc.). Works correctly in visual mode with selected text.",
     "repo": "artemDvoryadkin/obsidian-vim-marker-sharpener"
-  },
+ },
   {
     "id": "pure-chat-llm",
     "name": "Pure Chat LLM",
@@ -17428,12 +17428,19 @@
     "author": "Sebastian Kamilli",
     "description": "Downloads and unzips course module zip files from a URL into a specified vault folder, skipping existing files.",
     "repo": "QuintSmart/obsidian-course-module-loader"
-  },
+ },
   {
     "id": "note_uid_generator",
     "name": "Note UID Generator",
     "author": "Valentin Pelletier",
     "description": "Automatically or manually generates Unique IDs (UIDs) for notes and registers them in metadata (frontmatter).",
     "repo": "Netajam/obsidian_note_uid_generator"
+  },
+   {
+    "id": "daily-to-weekly-linker",
+    "name": "Week Linker",
+    "author": "Aditya Chauhan",
+    "description": "Links daily notes of the week to it's weekly note (for weekly review).",
+    "repo": "adiseeksagi/Week-Linker"
   }
 ]
