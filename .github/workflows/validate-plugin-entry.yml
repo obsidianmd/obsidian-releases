@@ -178,6 +178,13 @@ jobs:
                   }
                 }
 
+                let allowedManifestKeys = [...validManifestKeys, 'authorUrl', 'helpUrl'];
+                for (let key of Object.keys(manifest)) {
+                  if (!allowedManifestKeys.includes(key)) {
+                    addError(`Your manifest has the invalid \`${key}\` property.`);
+                  }
+                }
+
                 if (plugin.name && manifest.id !== plugin.id) {
                   addError(`Plugin ID mismatch, the ID in this PR (\`${plugin.id}\`) is not the same as the one in your repo (\`${manifest.id}\`). If you just changed your plugin ID, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
