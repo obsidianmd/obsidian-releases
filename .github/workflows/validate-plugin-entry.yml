@@ -178,7 +178,7 @@ jobs:
                   }
                 }
 
-                let allowedManifestKeys = [...validManifestKeys, 'authorUrl', 'helpUrl'];
+                let allowedManifestKeys = [...validManifestKeys, 'authorUrl', 'fundingUrl', 'helpUrl'];
                 for (let key of Object.keys(manifest)) {
                   if (!allowedManifestKeys.includes(key)) {
                     addError(`Your manifest has the invalid \`${key}\` property.`);
