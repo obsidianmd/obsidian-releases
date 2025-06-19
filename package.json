@@ -1,9 +1,10 @@
 {
   "name": "obsidian-community-releases",
   "scripts": {
-    "format": "prettier --write \"**/community*.json\""
+    "lint": "eslint . --ext .json"
   },
   "devDependencies": {
-    "prettier": "3.5.3"
+    "eslint": "7.20.0",
+    "eslint-plugin-json": "2.1.2"
   }
 }
