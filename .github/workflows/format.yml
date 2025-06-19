@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "16.x"
-      - run: npm ci
+      - run: npm ci --no-save
       - run: npm run format
       - name: Commit changes
         run: |
