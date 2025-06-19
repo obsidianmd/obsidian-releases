@@ -15,7 +15,9 @@ jobs:
       - run: npm ci
       - run: npm run format
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Apply formatting changes
-          branch: ${{ github.head_ref }}
+        run: |
+          git config --local user.name 'Obsidian Bot'
+          git config --local user.email 'admin@obsidian.md'
+          git add .
+          git commit -m "chore: Format JSON"
+          git push
