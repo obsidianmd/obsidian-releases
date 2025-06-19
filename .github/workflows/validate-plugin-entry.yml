@@ -178,6 +178,13 @@ jobs:
                   }
                 }
 
+                let allowedManifestKeys = [...validManifestKeys, 'authorUrl', 'fundingUrl', 'helpUrl'];
+                for (let key of Object.keys(manifest)) {
+                  if (!allowedManifestKeys.includes(key)) {
+                    addError(`Your manifest has the invalid \`${key}\` property.`);
+                  }
+                }
+
                 if (plugin.name && manifest.id !== plugin.id) {
                   addError(`Plugin ID mismatch, the ID in this PR (\`${plugin.id}\`) is not the same as the one in your repo (\`${manifest.id}\`). If you just changed your plugin ID, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
@@ -229,7 +236,7 @@ jobs:
               try {
                 await github.rest.licenses.getForRepo({owner, repo});
               } catch (e) {
-                addWarning(`Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.`);
+                addError(`Your repository does not include a license. Go to <https://choosealicense.com/> to compare different open source licenses.`);
               }
             })();
             
