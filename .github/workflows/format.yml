@@ -20,5 +20,5 @@ jobs:
           git config --local user.name 'Obsidian Bot'
           git config --local user.email 'admin@obsidian.md'
           git add .
-          git commit -m "chore: Format JSON"
+          git commit -m "chore: Format JSON" || exit 0
           git push
