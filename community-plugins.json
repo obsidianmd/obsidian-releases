@@ -12223,10 +12223,10 @@
   },
   {
     "id": "refresh-preview",
-    "name": "Refresh Preview",
+    "name": "Refresh Any View",
     "author": "mnaoumov",
-    "description": "Allows to refresh preview mode without reopening the note",
-    "repo": "mnaoumov/obsidian-refresh-preview"
+    "description": "Allows to refresh any view without reopening it.",
+    "repo": "mnaoumov/obsidian-refresh-any-view"
   },
   {
     "id": "hash-pasted-image",
@@ -13475,6 +13475,76 @@
     "repo": "seyf1elislam/obsidian-LocalMediaEmbedder-plugin"
   },
   {
+    "id": "typefully",
+    "name": "Typefully",
+    "author": "Sébastien Dubois",
+    "description": "Typefully integration. Publish social media posts with ease",
+    "repo": "dsebastien/obsidian-typefully"
+  },
+  {
+    "id": "infranodus-graph-view",
+    "name": "InfraNodus AI Graph View",
+    "author": "Nodus Labs",
+    "description": "Interactive 3D graph view: text analysis, topic modeling, gap detection, and AI. (Closed source)",
+    "repo": "noduslabs/infranodus-obsidian-plugin"
+  },
+  {
+    "id": "open-interpreter",
+    "name": "Open Interpreter",
+    "author": "Mike Bird",
+    "description": "An AI assistant that you can control with natural language. The power of Open Interpreter in your vault",
+    "repo": "MikeBirdTech/obsidian-open-interpreter"
+  },
+  {
+    "id": "scrambling-title-animations",
+    "name": "Scrambling Title Animations",
+    "author": "HistidineDwarf",
+    "description": "Animates the title of any note you open by scrambling and revealing it in several visually appealing ways.",
+    "repo": "DvorakDwarf/scrambling-title-animations"
+  },
+  {
+    "id": "lemons-search",
+    "name": "Lemons Search",
+    "author": "Moritz Jung",
+    "description": "A blazingly fast fuzzy finder with file preview.",
+    "repo": "mProjectsCode/obsidian-lemons-search-plugin"
+  },
+  {
+    "id": "flow",
+    "name": "Flow",
+    "author": "Ben Phillips",
+    "description": "Implements key processes in David Allen's Getting Things Done (GTD) methodology (Closed source)",
+    "repo": "tavva/flow-release"
+  },
+  {
+    "id": "quarto-exporter",
+    "name": "Quarto Exporter",
+    "author": "Andreas Varotsis",
+    "description": "Export notes to Quarto-compatible QMD files.",
+    "repo": "AndreasThinks/obsidian-to-quarto-exporter"
+  },
+  {
+    "id": "copy-section",
+    "name": "Copy Section",
+    "author": "skztr",
+    "description": "Adds a Copy button to the top of Headed sections.",
+    "repo": "skztr/obsidian-plugin-section-copy"
+  },
+  {
+    "id": "cloud-storage",
+    "name": "Cloud Storage",
+    "author": "Jiajun Ma",
+    "description": "Allows users to upload local files to the cloud, reducing the burden on local vaults and enabling seamless synchronization across multiple devices.",
+    "repo": "yingjialong/obsidian-CloudStorage"
+  },
+  {
+    "id": "local-media-embedder",
+    "name": "Local Media Embedder",
+    "author": "seyf1elislam",
+    "description": "Embed videos and images and audios from your local device in your notes.",
+    "repo": "seyf1elislam/obsidian-LocalMediaEmbedder-plugin"
+  },
+  {
     "id": "tab-panels",
     "name": "Tab Panels",
     "author": "GnoxNahte",
@@ -13742,7 +13812,7 @@
   },
   {
     "id": "unearthed-app",
-    "name": "Unearthed (Kindle Sync)",
+    "name": "Unearthed (Kindle & KOReader Sync)",
     "author": "CheersCal",
     "description": "Auto Sync Kindle Highlights and Daily Reflection via Unearthed",
     "repo": "Unearthed-App/unearthed-obsidian"
@@ -14156,7 +14226,7 @@
   {
     "id": "post-webhook",
     "name": "Post Webhook",
-    "author": "MasterB1234",
+B1234",
     "description": "Send notes to webhook endpoints, for seamless integration with i.a. n8n, Make.com, and Zapier.",
     "repo": "Masterb1234/obsidian-post-webhook"
   },
@@ -17358,6 +17428,181 @@
     "author": "ZigHolding",
     "description": "Sync notes or plugins between vaults.",
     "repo": "zigholding/obsidian-notesync-plugin"
+  },
+  {
+    "id": "countdown-to",
+    "name": "Countdown To",
+    "author": "Gui Cattani",
+    "description": "Create countdown progress bars in your notes.",
+    "repo": "guicattani/obsidian-countdown-to"
+  },
+  {
+    "id": "timelive",
+    "name": "Timelive",
+    "author": "aNNiMON",
+    "description": "Turn a list of dates into a timeline.",
+    "repo": "aNNiMON/obsidian-timelive"
+  },
+  {
+    "id": "note-mover-shortcut",
+    "name": "NoteMover shortcut",
+    "author": "Lars Bücker",
+    "description": "Quickly and easily move notes to a predefined folder. Perfect for organizing your notes.",
+    "repo": "bueckerlars/obsidian-note-mover-shortcut"
+  },
+  {
+    "id": "macros",
+    "name": "Macros",
+    "author": "James Clifford Spratt",
+    "description": "Track and visualize your daily macros, meals and nutrition inside your notes.",
+    "repo": "JamesCliffordSpratt/macros"
+  },
+  {
+    "id": "yearly-glance",
+    "name": "Yearly Glance",
+    "author": "Moy & RavenHogWarts",
+    "description": "Year at a glance - overview of annual events with customizable management options.",
+    "repo": "Moyf/yearly-glance"
+  },
+  {
+    "id": "template-filename",
+    "name": "Template Filename",
+    "author": "Callum Alpass",
+    "description": "Create notes with templatable filenames, using date/time formats, random strings, and custom base numbering systems.",
+    "repo": "callumalpass/obsidian-template-filename"
+  },
+  {
+    "id": "vim-marker-sharpener",
+    "name": "Vim Marker Sharpener",
+    "author": "Artem Dvoryadkin",
+    "description": "Text formatting commands in Vim mode. Supports applying styles (bold, italic, etc.). Works correctly in visual mode with selected text.",
+    "repo": "artemDvoryadkin/obsidian-vim-marker-sharpener"
+  },
+  {
+    "id": "pure-chat-llm",
+    "name": "Pure Chat LLM",
+    "author": "Justice Vellacott",
+    "description": "Turn notes into conversations with chatGPT",
+    "repo": "TheJusticeMan/pure-chat-llm"
+  },
+  {
+    "id": "openwords",
+    "name": "OpenWords",
+    "author": "insile",
+    "description": "用于英语学习中背单词与单词管理的插件",
+    "repo": "insile/OpenWords"
+  },
+  {
+    "id": "course-module-loader",
+    "name": "Course Module Loader",
+    "author": "Sebastian Kamilli",
+    "description": "Downloads and unzips course module zip files from a URL into a specified vault folder, skipping existing files.",
+    "repo": "QuintSmart/obsidian-course-module-loader"
+  },
+  {
+    "id": "note_uid_generator",
+    "name": "Note UID Generator",
+    "author": "Valentin Pelletier",
+    "description": "Automatically or manually generates Unique IDs (UIDs) for notes and registers them in metadata (frontmatter).",
+    "repo": "Netajam/obsidian_note_uid_generator"
+  },
+  {
+    "id": "ace-code-editor",
+    "name": "Ace Code Editor",
+    "author": "RavenHogWarts",
+    "description": "An enhanced code editor using Ace editor, providing syntax highlighting, code folding, and other advanced editing features.",
+    "repo": "RavenHogWarts/obsidian-ace-code-editor"
+  },
+  {
+    "id": "folder-filelist",
+    "name": "Folder Filelist",
+    "author": "Bill Anderson",
+    "description": "Create and maintain a list of wikilinks to files in specified folders.",
+    "repo": "band/obsidian-folder-filelist"
+  },
+  {
+    "id": "custom-selected-word-count",
+    "name": "Custom Selected Word Count",
+    "author": "banisterious",
+    "description": "Provides advanced word counting features for selected text across all view modes. Goes beyond basic word counting with customizable path exclusion, and more.",
+    "repo": "banisterious/obsidian-custom-selected-word-count"
+  },
+  {
+    "id": "google-contacts",
+    "name": "Google Contacts",
+    "author": "aleksejs1",
+    "description": "Synchronize your Google Contacts with separate contact-notes",
+    "repo": "aleksejs1/obsidian-contact-sync-plugin"
+  },
+  {
+    "id": "latex-math",
+    "name": "LaTeX Math",
+    "author": "Zarstensen",
+    "description": "Evaluate, solve and much more within LaTeX blocks using Sympy.",
+    "repo": "zarstensen/obsidian-latex-math"
+  },
+  {
+    "id": "llm-docs",
+    "name": "LLM docs",
+    "author": "Shane Lamb",
+    "description": "Simple LLM (AI chat) client using pure markdown documents",
+    "repo": "shane-lamb/obsidian-llm-docs"
+  },
+  {
+    "id": "log-keeper",
+    "name": "Log Keeper",
+    "author": "James Sonneveld",
+    "description": "Generate time stamps automatically as changes are made to a note.",
+    "repo": "JimJamBimBam/obsidian-log-keeper"
+  },
+  {
+    "id": "streams",
+    "name": "Streams",
+    "author": "Floyd",
+    "description": "Create and manage multiple Daily Note streams",
+    "repo": "bfloydd/streams"
+  },
+  {
+    "id": "layout-manager",
+    "name": "Layout Manager",
+    "author": "Lucy Dryaeva",
+    "description": "Manage layouts with context",
+    "repo": "ShadiestGoat/obsidian-layout-manager"
+  },
+  {
+    "id": "todo-txt-mode",
+    "name": "Todo.txt Mode",
+    "author": "rioskit",
+    "description": "Support for todo.txt file format with syntax highlighting and task management",
+    "repo": "rioskit/obsidian-todo-txt-mode"
+  },
+  {
+    "id": "move-files",
+    "name": "Move Files",
+    "author": "Nitish Khurana",
+    "description": "Moves all the files linked to a open md file to a folder and updates the link in md file.",
+    "repo": "nitishkhurana/obsidian-move-files-plugin"
+  },
+  {
+    "id": "tree-diagram",
+    "name": "Tree Diagram",
+    "author": "limpido",
+    "description": "Convert directory structure formatted in tab-indented text to a tree diagram.",
+    "repo": "limpido/obsidian-tree-diagram"
+  },
+  {
+    "id": "cjk-count",
+    "name": "CJK Count",
+    "author": "vrabe",
+    "description": "A word counter that only counts Chinese, Japanese and Korean (CJK) characters.",
+    "repo": "vrabe/obsidian-cjk-count"
+  },
+  {
+    "id": "text-autocomplete",
+    "name": "Text Autocomplete",
+    "author": "Christ Degni",
+    "description": "Autocomplete text to type more efficiently.",
+    "repo": "c-degni/text-autocomplete"
   },
   {
     "id": "tasks-sync",
