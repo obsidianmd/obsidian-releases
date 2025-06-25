@@ -12223,10 +12223,10 @@
   },
   {
     "id": "refresh-preview",
-    "name": "Refresh Preview",
+    "name": "Refresh Any View",
     "author": "mnaoumov",
-    "description": "Allows to refresh preview mode without reopening the note",
-    "repo": "mnaoumov/obsidian-refresh-preview"
+    "description": "Allows to refresh any view without reopening it.",
+    "repo": "mnaoumov/obsidian-refresh-any-view"
   },
   {
     "id": "hash-pasted-image",
@@ -13742,7 +13742,7 @@
   },
   {
     "id": "unearthed-app",
-    "name": "Unearthed (Kindle Sync)",
+    "name": "Unearthed (Kindle & KOReader Sync)",
     "author": "CheersCal",
     "description": "Auto Sync Kindle Highlights and Daily Reflection via Unearthed",
     "repo": "Unearthed-App/unearthed-obsidian"
@@ -14696,7 +14696,7 @@
     "id": "syncthing-status-icon",
     "name": "Syncthing status icon",
     "author": "Diego Viero",
-    "description": "Displas a status icon inside the status bar showing whether syncthing is running locally or not.",
+    "description": "Displays a status icon in the status bar showing whether Syncthing is running locally or not.",
     "repo": "Diego-Viero/Syncthing-status-icon-Obsidian-plugin"
   },
   {
@@ -17328,7 +17328,7 @@
     "id": "daily-task-auto-generator",
     "name": "Daily Task Auto Generator",
     "author": "maigamo",
-    "description": "Daily Task Auto Generator can helps you automatically generate daily task files with customizable templates!",
+    "description": "Daily Task Auto Generator can helps you automatically generate daily task files with customizable templates.",
     "repo": "maigamo/daily-task-auto-generator"
   },
   {
@@ -17435,6 +17435,139 @@
     "author": "Valentin Pelletier",
     "description": "Automatically or manually generates Unique IDs (UIDs) for notes and registers them in metadata (frontmatter).",
     "repo": "Netajam/obsidian_note_uid_generator"
+  },
+  {
+    "id": "ace-code-editor",
+    "name": "Ace Code Editor",
+    "author": "RavenHogWarts",
+    "description": "An enhanced code editor using Ace editor, providing syntax highlighting, code folding, and other advanced editing features.",
+    "repo": "RavenHogWarts/obsidian-ace-code-editor"
+  },
+  {
+    "id": "folder-filelist",
+    "name": "Folder Filelist",
+    "author": "Bill Anderson",
+    "description": "Create and maintain a list of wikilinks to files in specified folders.",
+    "repo": "band/obsidian-folder-filelist"
+  },
+  {
+    "id": "custom-selected-word-count",
+    "name": "Custom Selected Word Count",
+    "author": "banisterious",
+    "description": "Provides advanced word counting features for selected text across all view modes. Goes beyond basic word counting with customizable path exclusion, and more.",
+    "repo": "banisterious/obsidian-custom-selected-word-count"
+  },
+  {
+    "id": "google-contacts",
+    "name": "Google Contacts",
+    "author": "aleksejs1",
+    "description": "Synchronize your Google Contacts with separate contact-notes",
+    "repo": "aleksejs1/obsidian-contact-sync-plugin"
+  },
+  {
+    "id": "latex-math",
+    "name": "LaTeX Math",
+    "author": "Zarstensen",
+    "description": "Evaluate, solve and much more within LaTeX blocks using Sympy.",
+    "repo": "zarstensen/obsidian-latex-math"
+  },
+  {
+    "id": "llm-docs",
+    "name": "LLM docs",
+    "author": "Shane Lamb",
+    "description": "Simple LLM (AI chat) client using pure markdown documents",
+    "repo": "shane-lamb/obsidian-llm-docs"
+  },
+  {
+    "id": "log-keeper",
+    "name": "Log Keeper",
+    "author": "James Sonneveld",
+    "description": "Generate time stamps automatically as changes are made to a note.",
+    "repo": "JimJamBimBam/obsidian-log-keeper"
+  },
+  {
+    "id": "streams",
+    "name": "Streams",
+    "author": "Floyd",
+    "description": "Create and manage multiple Daily Note streams",
+    "repo": "bfloydd/streams"
+  },
+  {
+    "id": "layout-manager",
+    "name": "Layout Manager",
+    "author": "Lucy Dryaeva",
+    "description": "Manage layouts with context",
+    "repo": "ShadiestGoat/obsidian-layout-manager"
+  },
+  {
+    "id": "todo-txt-mode",
+    "name": "Todo.txt Mode",
+    "author": "rioskit",
+    "description": "Support for todo.txt file format with syntax highlighting and task management",
+    "repo": "rioskit/obsidian-todo-txt-mode"
+  },
+  {
+    "id": "move-files",
+    "name": "Move Files",
+    "author": "Nitish Khurana",
+    "description": "Moves all the files linked to a open md file to a folder and updates the link in md file.",
+    "repo": "nitishkhurana/obsidian-move-files-plugin"
+  },
+  {
+    "id": "tree-diagram",
+    "name": "Tree Diagram",
+    "author": "limpido",
+    "description": "Convert directory structure formatted in tab-indented text to a tree diagram.",
+    "repo": "limpido/obsidian-tree-diagram"
+  },
+  {
+    "id": "cjk-count",
+    "name": "CJK Count",
+    "author": "vrabe",
+    "description": "A word counter that only counts Chinese, Japanese and Korean (CJK) characters.",
+    "repo": "vrabe/obsidian-cjk-count"
+  },
+  {
+    "id": "text-autocomplete",
+    "name": "Text Autocomplete",
+    "author": "Christ Degni",
+    "description": "Autocomplete text to type more efficiently.",
+    "repo": "c-degni/text-autocomplete"
+  },
+  {
+    "id": "simple-banner",
+    "name": "Simple Banner",
+    "author": "Sandro Ducceschi",
+    "description": "Visually enhance your notes with a customizable banner. Supports icons and time/date display.",
+    "repo": "eatcodeplay/obsidian-simple-banner"
+  },
+  {
+    "id": "banyan",
+    "name": "Banyan",
+    "description": "A homepage to browse, organize, and access notes in card form easily with multi-tag filtering.",
+    "author": "ratiger",
+    "repo": "ratiger/obsidian-banyan"
+  },
+  {
+    "id": "smart-link-formatter",
+    "name": "Smart Link Formatter",
+    "author": "ccmdi",
+    "description": "Automatically fetches page metadata from pasted links, with explicit support for specific websites.",
+    "repo": "ccmdi/smart-link-formatter"
+  },
+  {
+    "id": "quartz-syncer",
+    "name": "Quartz Syncer",
+    "author": "Emile Bangma",
+    "description": "Manage and publish your notes to Quartz, the fast, batteries-included static-site generator.",
+    "repo": "saberzero1/quartz-syncer"
+  },
+  {
+    "id": "gyazo",
+    "name": "Gyazo Viewer",
+    "author": "Helpfeel Inc.",
+    "description": "Display your Gyazo captures and embed them into your notes.",
+    "repo": "nota/gyazo-obsidian-plugin"
   },
   {
     "id": "progress-tracker-label",
