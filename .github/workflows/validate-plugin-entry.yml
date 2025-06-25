@@ -49,7 +49,7 @@ jobs:
                 addWarning('Maintainers of this repo should be allowed to edit this pull request. This speeds up the approval process.');
               }
 
-              if (!context.payload.pull_request.body.includes('I have added a license in the LICENSE file.')) {
+              if (!context.payload.pull_request.body?.includes('I have added a license in the LICENSE file.')) {
                 addError('You did not follow the pull request template');
               }
 
