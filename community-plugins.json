@@ -17407,7 +17407,7 @@
     "author": "Artem Dvoryadkin",
     "description": "Text formatting commands in Vim mode. Supports applying styles (bold, italic, etc.). Works correctly in visual mode with selected text.",
     "repo": "artemDvoryadkin/obsidian-vim-marker-sharpener"
-  },
+ },
   {
     "id": "pure-chat-llm",
     "name": "Pure Chat LLM",
@@ -17428,7 +17428,7 @@
     "author": "Sebastian Kamilli",
     "description": "Downloads and unzips course module zip files from a URL into a specified vault folder, skipping existing files.",
     "repo": "QuintSmart/obsidian-course-module-loader"
-  },
+ },
   {
     "id": "note_uid_generator",
     "name": "Note UID Generator",
@@ -17436,7 +17436,7 @@
     "description": "Automatically or manually generates Unique IDs (UIDs) for notes and registers them in metadata (frontmatter).",
     "repo": "Netajam/obsidian_note_uid_generator"
   },
-  {
+   {
     "id": "ace-code-editor",
     "name": "Ace Code Editor",
     "author": "RavenHogWarts",
@@ -17457,7 +17457,7 @@
     "description": "Provides advanced word counting features for selected text across all view modes. Goes beyond basic word counting with customizable path exclusion, and more.",
     "repo": "banisterious/obsidian-custom-selected-word-count"
   },
-  {
+{
     "id": "google-contacts",
     "name": "Google Contacts",
     "author": "aleksejs1",
@@ -17535,38 +17535,45 @@
     "repo": "c-degni/text-autocomplete"
   },
   {
-    "id": "simple-banner",
-    "name": "Simple Banner",
-    "author": "Sandro Ducceschi",
-    "description": "Visually enhance your notes with a customizable banner. Supports icons and time/date display.",
-    "repo": "eatcodeplay/obsidian-simple-banner"
-  },
-  {
-    "id": "banyan",
-    "name": "Banyan",
-    "description": "A homepage to browse, organize, and access notes in card form easily with multi-tag filtering.",
-    "author": "ratiger",
-    "repo": "ratiger/obsidian-banyan"
-  },
-  {
-    "id": "smart-link-formatter",
-    "name": "Smart Link Formatter",
-    "author": "ccmdi",
-    "description": "Automatically fetches page metadata from pasted links, with explicit support for specific websites.",
-    "repo": "ccmdi/smart-link-formatter"
-  },
-  {
-    "id": "quartz-syncer",
-    "name": "Quartz Syncer",
-    "author": "Emile Bangma",
-    "description": "Manage and publish your notes to Quartz, the fast, batteries-included static-site generator.",
-    "repo": "saberzero1/quartz-syncer"
-  },
-  {
-    "id": "gyazo",
-    "name": "Gyazo Viewer",
-    "author": "Helpfeel Inc.",
-    "description": "Display your Gyazo captures and embed them into your notes.",
-    "repo": "nota/gyazo-obsidian-plugin"
-  }
+  "id": "daily-to-weekly-linker",
+  "name": "Week Linker",
+  "author": "Aditya Chauhan",
+  "description": "Links daily notes of the week to its weekly note (for weekly review).",
+  "repo": "adiseeksagi/Week-Linker"
+},
+{
+  "id": "simple-banner",
+  "name": "Simple Banner",
+  "author": "Sandro Ducceschi",
+  "description": "Visually enhance your notes with a customizable banner. Supports icons and time/date display.",
+  "repo": "eatcodeplay/obsidian-simple-banner"
+},
+{
+  "id": "banyan",
+  "name": "Banyan",
+  "description": "A homepage to browse, organize, and access notes in card form easily with multi-tag filtering.",
+  "author": "ratiger",
+  "repo": "ratiger/obsidian-banyan"
+},
+{
+  "id": "smart-link-formatter",
+  "name": "Smart Link Formatter",
+  "author": "ccmdi",
+  "description": "Automatically fetches page metadata from pasted links, with explicit support for specific websites.",
+  "repo": "ccmdi/smart-link-formatter"
+},
+{
+  "id": "quartz-syncer",
+  "name": "Quartz Syncer",
+  "author": "Emile Bangma",
+  "description": "Manage and publish your notes to Quartz, the fast, batteries-included static-site generator.",
+  "repo": "saberzero1/quartz-syncer"
+},
+{
+  "id": "gyazo",
+  "name": "Gyazo Viewer",
+  "author": "Helpfeel Inc.",
+  "description": "Display your Gyazo captures and embed them into your notes.",
+  "repo": "nota/gyazo-obsidian-plugin"
+}
 ]
