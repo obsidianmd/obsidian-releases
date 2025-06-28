@@ -17199,6 +17199,22 @@
     "repo": "easternkite/Pasterly"
   },
   {
+<<<<<<< patch-1
+  "id": "pasterly",
+  "name": "Pasterly",
+  "author": "easternkite",
+  "description": "Automatically upload clipboard images to Firebase Storage and insert them as markdown links!",
+  "repo": "easternkite/Pasterly"
+},
+{
+  "id": "mp-preview",
+  "name": "MP Preview",
+  "author": "Yeban",
+  "description": "Preview and convert Markdown files to MP format",
+  "repo": "Yeban8090/mp-preview"
+},
+{
+=======
     "id": "mp-preview",
     "name": "MP Preview",
     "author": "Yeban",
@@ -17206,6 +17222,7 @@
     "repo": "Yeban8090/mp-preview"
   },
   {
+>>>>>>> master
     "id": "viewer-ftags",
     "name": "Viewer ftags",
     "author": "d7sd6u",
@@ -17323,6 +17340,15 @@
     "author": "Sangrak Choi",
     "description": "Create a new note with today's date in the current directory",
     "repo": "kargnas/obsidian-create-note-with-date"
+<<<<<<< patch-1
+},
+  {
+   "id": "tracker",
+   "name": "STracker",
+   "author": "SibylYang55",
+   "description": "Used for recording, you can set Boolean (day/week frequency), text, and number habits.",
+   "repo": "SibylYang55/obsidian-tracker"
+=======
   },
   {
     "id": "daily-task-auto-generator",
@@ -17568,5 +17594,6 @@
     "author": "Helpfeel Inc.",
     "description": "Display your Gyazo captures and embed them into your notes.",
     "repo": "nota/gyazo-obsidian-plugin"
+>>>>>>> master
   }
 ]
