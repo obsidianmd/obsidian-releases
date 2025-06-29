@@ -17575,5 +17575,16 @@
     "author": "Albert O'Shea",
     "description": "Changes click behavior for unsupported files to work similar to Windows File Explorer: single-click selects, double-click opens in default app.",
     "repo": "Alb-O/obsidian-click-unsupported-files"
+  }, 
+  {
+  "id":            "history-playback",
+  "name":          "History Playback",
+  "author":        "Umarbek",
+  "description":   "Record and replay note edits with a timeline UI.",
+  "repo":          "UmarbekFU/obsidian-history-playback",
+  "version":       "0.1.0",
+  "minAppVersion": "0.14.0",
+  "isDesktopOnly": false,
+  "tags":          ["history","playback","timeline"]
   }
 ]
