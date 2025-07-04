@@ -22,9 +22,11 @@ export class VirtualMatch {
         public isHighlightContext: boolean = false,
         public isTripleStarContext: boolean = false
     ) {
-        // 初始化第一个文件的标题ID（如果有）
-        if (files.length > 0 && headerId) {
-            this.fileHeaderIds.set(files[0].path, headerId);
+        // 为所有文件设置相同的标题ID（如果有）
+        if (headerId) {
+            for (const file of files) {
+                this.fileHeaderIds.set(file.path, headerId);
+            }
         }
     }
     
