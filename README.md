@@ -1,7 +1,4 @@
-[![Buy Me a Coffee](https://img.shields.io/badge/donate-Buy%20Me%20a%20Coffee-blue.svg)](https://www.buymeacoffee.com/vschroeter) 
-[![PayPal](https://img.shields.io/badge/donate-PayPal-blue.svg)](https://paypal.me/valentinschroeter)
-
-# Obsidian Virtual Linker Plugin (Glossary Plugin)
+# fakelink
 
 This plugin automatically generates virtual links for text within your notes that match with the titles or aliases of other notes in your vault.
 
@@ -30,11 +27,11 @@ If you only want to include notes of a specific folder, you can define this fold
 
 ## Installing the plugin
 
-Inside obsidian, you can search for "Virtual Linker" in the community plugins tab.
+Inside obsidian, you can search for "fakelink" in the community plugins tab.
 After installing, enable the plugin in the settings.
 
 To manually install the plugin:
-- Copy over `main.js` & `manifest.json` (find them under `Releases`) to your vault `VaultFolder/.obsidian/plugins/virtual-linker/`.
+- Copy over `main.js` & `manifest.json` (find them under `Releases`) to your vault `VaultFolder/.obsidian/plugins/fakelink/`.
 - or clone the repository into the plugins folder of your vault and build the plugin yourself.
 
 ## Settings

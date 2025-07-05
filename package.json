@@ -1,5 +1,5 @@
 {
-	"name": "obsidian-glossary",
+	"name": "obsidian-fakelink",
 	"version": "1.6.1",
 	"description": "This plugin automatically links words in your text that occur in a glossary folder created by you.",
 	"main": "main.js",
@@ -9,7 +9,7 @@
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
 	"keywords": [],
-	"author": "Valentin Schröter",
+	"author": "godfatherlg",
 	"license": "MIT",
 	"devDependencies": {
 		"@codemirror/language": "^6.11.0",
