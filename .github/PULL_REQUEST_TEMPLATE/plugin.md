@@ -2,7 +2,7 @@
 
 ## Repo URL
 
-Link to my plugin: https://github.com/jonathanhher/obsidian-todoist-creator/
+Link to my plugin: https://github.com/jonathanhher/todoist-task-creator
 
 ## Release Checklist
 - [X] I have tested the plugin on
