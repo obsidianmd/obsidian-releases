@@ -49,8 +49,19 @@ jobs:
                 addWarning('Maintainers of this repo should be allowed to edit this pull request. This speeds up the approval process.');
               }
 
-              if (!context.payload.pull_request.body.includes('I have added a license in the LICENSE file.')) {
-                addError('You did not follow the pull request template');
+              const templateStrings = [
+                'I have tested the plugin on',
+                'My GitHub release contains all required files (as individual files, not just in the source.zip / source.tar.gz)', 'GitHub release name matches the exact version number specified in my manifest.json',
+                'The `id` in my `manifest.json` matches the `id` in the `community-plugins.json` file.',
+                'My README.md describes the plugin\'s purpose and provides clear usage instructions.',
+                'I have read the developer policies at https://docs.obsidian.md/Developer+policies, and have assessed my plugins\'s adherence to these policies.',
+                'I have read the tips in https://docs.obsidian.md/Plugins/Releasing/Plugin+guidelines and have self-reviewed my plugin to avoid these common pitfalls',
+                'I have added a license in the LICENSE file.',
+                'My project respects and is compatible with the original license of any code from other plugins that I\'m using.',
+                'I have given proper attribution to these other projects in my `README.md`.'
+              ];
+              if (!templateStrings.every(element => context.payload.pull_request.body?.includes(element))) {
+                addError('You did not follow the pull request template. The PR template can be found [here](https://github.com/obsidianmd/obsidian-releases/blob/master/.github/PULL_REQUEST_TEMPLATE/plugin.md)');
               }
 
               let plugins = [];
@@ -178,6 +189,13 @@ jobs:
                   }
                 }
 
+                let allowedManifestKeys = [...validManifestKeys, 'authorUrl', 'fundingUrl', 'helpUrl'];
+                for (let key of Object.keys(manifest)) {
+                  if (!allowedManifestKeys.includes(key)) {
+                    addError(`Your manifest has the invalid \`${key}\` property.`);
+                  }
+                }
+
                 if (plugin.name && manifest.id !== plugin.id) {
                   addError(`Plugin ID mismatch, the ID in this PR (\`${plugin.id}\`) is not the same as the one in your repo (\`${manifest.id}\`). If you just changed your plugin ID, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
@@ -229,7 +247,7 @@ jobs:
               try {
                 await github.rest.licenses.getForRepo({owner, repo});
               } catch (e) {
-                addWarning(`Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.`);
+                addError(`Your repository does not include a license. Go to <https://choosealicense.com/> to compare different open source licenses.`);
               }
             })();
             
