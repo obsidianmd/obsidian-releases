@@ -91,8 +91,28 @@ const DEFAULT_SETTINGS: LinkerPluginSettings = {
 };
 
 export default class LinkerPlugin extends Plugin {
+    // 检查是否在Canvas视图中
+    private isInCanvas(): boolean {
+        // 只检查当前活动视图是否为Canvas
+        const activeLeaf = this.app.workspace.activeLeaf;
+        if (activeLeaf && activeLeaf.view && activeLeaf.view.getViewType() === 'canvas') {
+            return true;
+        }
+        
+        return false;
+    }
+
     public async handleLayoutChange() {
         if (!this.settings.autoToggleByMode) return;
+        
+        // 检查是否在Canvas视图中
+        if (this.isInCanvas()) {
+            // 在Canvas视图中，如果插件未激活，则激活
+            if (!this.settings.linkerActivated) {
+                await this.updateSettings({ linkerActivated: true });
+            }
+            return;
+        }
         
         const activeView = this.app.workspace.getActiveViewOfType(MarkdownView);
         if (!activeView) return;
