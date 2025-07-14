@@ -146,11 +146,9 @@ export class PrefixTree {
                     
                     if (headingMatch) {
                         matchNode.type = MatchType.Header;
-                        // Use normalized heading as anchor
-                        matchNode.headerId = headingMatch.heading
-                            .toLowerCase()
-                            .replace(/[^\w\u4e00-\u9fa5\- ]/g, '')
-                            .replace(/\s+/g, '-');
+                        // 只进行trim处理，保留原始大小写和所有特殊字符
+                        // 这与Obsidian的行为一致
+                        matchNode.headerId = headingMatch.heading.trim();
                     }
                     // Then check for note name match
                     else if (fileNames.map((n) => n.toLowerCase()).includes(nodeValue.toLowerCase())) {
