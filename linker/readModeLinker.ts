@@ -135,6 +135,21 @@ export class GlossaryLinker extends MarkdownRenderChild {
                                                 this.settings,
                                                 headerId
                                             );
+
+                                            // 添加多文件标题ID处理逻辑
+                                            // 当有多个文件匹配同一关键词时，为每个文件获取其对应的标题ID
+                                            if (node.files.size > 1) {
+                                                node.files.forEach(file => {
+                                                    const fileNodes = this.linkerCache.cache.getCurrentMatchNodes(
+                                                        i,
+                                                        null, // 不排除任何文件
+                                                        file  // 只获取特定文件的节点
+                                                    );
+                                                    if (fileNodes.length > 0 && fileNodes[0].headerId) {
+                                                        match.setFileHeaderId(file, fileNodes[0].headerId);
+                                                    }
+                                                });
+                                            }
                                         
                                             // Check parent elements for format context
                                             const parentEl = childNode.parentElement;
