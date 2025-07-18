@@ -60,7 +60,7 @@ export class GlossaryLinker extends MarkdownRenderChild {
         }
 
         // return;
-        const tags = ['p', 'li', 'td', 'th', 'span', 'em', 'strong']; // Explicitly excludes h1-h6
+        const tags = ['p', 'li', 'td', 'th', 'span', 'em', 'strong', 'mark', 'del', 's']; // 显式包含 mark、del、s 标签
 
         // TODO: Onload is called on the divs separately, so this sets are not stored between divs
         // Since divs can be rendered in arbitrary order, storing information about already linked files is not easy
@@ -198,6 +198,7 @@ export class GlossaryLinker extends MarkdownRenderChild {
                             let lastTo = 0;
                             // console.log("Parent: ", parent);
 
+
                             matches.forEach((match) => {
                                 match.files.forEach((f) => linkedFiles.add(f));
 
@@ -208,6 +209,19 @@ export class GlossaryLinker extends MarkdownRenderChild {
                                 }
 
                                 parent?.insertBefore(span, childNode);
+
+                                // 检查 span 是否在 <mark> 下，如果是则补加高亮 class
+                                let markParent = span.parentElement;
+                                while (markParent) {
+                                    if (markParent.tagName === 'MARK') {
+                                        span.classList.add('virtual-link-in-highlight');
+                                        span.style.setProperty('display', 'inline', 'important');
+                                        span.style.setProperty('z-index', '1', 'important');
+                                        break;
+                                    }
+                                    markParent = markParent.parentElement;
+                                }
+
                                 lastTo = match.to;
                             });
 

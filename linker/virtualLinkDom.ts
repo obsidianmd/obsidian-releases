@@ -116,6 +116,20 @@ export class VirtualMatch {
         }
         if (this.isHighlightContext) {
             span.classList.add('virtual-link-in-highlight');
+            span.style.setProperty('display', 'inline', 'important');
+            span.style.setProperty('z-index', '1', 'important');
+        } else {
+            // 检查祖先是否有 <mark>，如果有也加高亮class
+            let parent = span.parentElement;
+            while (parent) {
+                if (parent.tagName === 'MARK') {
+                    span.classList.add('virtual-link-in-highlight');
+                    span.style.setProperty('display', 'inline', 'important');
+                    span.style.setProperty('z-index', '1', 'important');
+                    break;
+                }
+                parent = parent.parentElement;
+            }
         }
         if (this.isTripleStarContext) {
             span.classList.add('virtual-link-in-triple-star');

@@ -90,10 +90,17 @@
 }
 
 /* 高亮上下文中的虚拟链接 */
+/* 高亮上下文中的虚拟链接，编辑和阅读模式都适用 */
 .virtual-link.cm-highlight,
 .cm-highlight .virtual-link,
-.virtual-link-in-highlight {
+.virtual-link-in-highlight,
+.virtual-link-span.virtual-link-in-highlight,
+.markdown-preview-view mark .virtual-link,
+.markdown-preview-view mark .virtual-link-span {
+  display: inline !important;
   background-color: #ffff00 !important;
+  position: relative;
+  z-index: 1;
 }
 
 /* 三连星号(粗斜体)上下文中的虚拟链接 */
@@ -171,6 +178,17 @@ table th .virtual-link-span {
 }
 
 /* 确保表格标题中的虚拟链接保持加粗 */
+
+/* 禁止高亮文本中的虚拟链接显示删除线 */
+.markdown-preview-view mark .virtual-link,
+.markdown-preview-view mark .virtual-link-span {
+    text-decoration: none !important;
+}
+.markdown-preview-view mark .virtual-link::after,
+.markdown-preview-view mark .virtual-link-span::after {
+    display: none !important;
+    content: none !important;
+}
 table th .virtual-link-span,
 table th .virtual-link-span a,
 table th .virtual-link-default,
@@ -178,6 +196,12 @@ table th .virtual-link-header,
 table th .virtual-link-span .internal-link {
     font-weight: var(--bold-weight, bold) !important;
     filter: brightness(var(--virtual-link-opacity));
+}
+
+/* 保证高亮文本中的虚拟链接在阅读模式下始终为黄色背景 */
+.markdown-preview-view mark:not(del):not(s):not(strike) .virtual-link,
+.markdown-preview-view mark:not(del):not(s):not(strike) .virtual-link-span {
+    background-color: #ffff00 !important;
 }
 
 /* 虚拟链接点击区域优化 - 居中透明点击层方案 */
@@ -194,4 +218,69 @@ table th .virtual-link-span .internal-link {
     width: 1.5em;
     height: 1.5em;
     z-index: 0;
+}
+
+/* 表格内高亮虚拟链接特殊处理 */
+.cm-table-widget .cm-highlight .virtual-link,
+.table-cell-wrapper .cm-highlight .virtual-link {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* 阅读模式下，删除线中的虚拟链接，删除线始终在最上层 */
+.markdown-preview-view .cm-strikethrough .virtual-link,
+.markdown-preview-view .virtual-link.cm-strikethrough,
+.markdown-preview-view .cm-strikethrough .virtual-link-span,
+.markdown-preview-view .virtual-link-span.cm-strikethrough {
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.1) !important;
+    z-index: 0;
+}
+.markdown-preview-view .cm-strikethrough .virtual-link::after,
+.markdown-preview-view .virtual-link.cm-strikethrough::after,
+.markdown-preview-view .cm-strikethrough .virtual-link-span::after,
+.markdown-preview-view .virtual-link-span.cm-strikethrough::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 0.12em;
+    background-color: currentColor;
+    z-index: 99;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+/* 阅读模式下，兼容 mark/del/s/strike 标签的删除线虚拟链接 */
+.markdown-preview-view mark .virtual-link,
+.markdown-preview-view del .virtual-link,
+.markdown-preview-view s .virtual-link,
+.markdown-preview-view strike .virtual-link,
+.markdown-preview-view mark .virtual-link-span,
+.markdown-preview-view del .virtual-link-span,
+.markdown-preview-view s .virtual-link-span,
+.markdown-preview-view strike .virtual-link-span {
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.1) !important;
+    z-index: 0;
+}
+.markdown-preview-view mark .virtual-link::after,
+.markdown-preview-view del .virtual-link::after,
+.markdown-preview-view s .virtual-link::after,
+.markdown-preview-view strike .virtual-link::after,
+.markdown-preview-view mark .virtual-link-span::after,
+.markdown-preview-view del .virtual-link-span::after,
+.markdown-preview-view s .virtual-link-span::after,
+.markdown-preview-view strike .virtual-link-span::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 0.12em;
+    background-color: currentColor;
+    z-index: 99;
+    pointer-events: none;
+    transform: translateY(-50%);
 }
