@@ -91,6 +91,10 @@
 
 /* 高亮上下文中的虚拟链接 */
 /* 高亮上下文中的虚拟链接，编辑和阅读模式都适用 */
+
+/* 统一高亮虚拟链接背景色为淡黄色 #fff9c0 */
+/* 统一高亮虚拟链接背景色为深卡其色 #88885a，适配图片渲染覆盖效果 */
+/* 统一高亮虚拟链接背景色为深卡其色 #88885a，适配图片渲染覆盖效果 */
 .virtual-link.cm-highlight,
 .cm-highlight .virtual-link,
 .virtual-link-in-highlight,
@@ -98,7 +102,6 @@
 .markdown-preview-view mark .virtual-link,
 .markdown-preview-view mark .virtual-link-span {
   display: inline !important;
-  background-color: #ffff00 !important;
   position: relative;
   z-index: 1;
 }
@@ -201,7 +204,7 @@ table th .virtual-link-span .internal-link {
 /* 保证高亮文本中的虚拟链接在阅读模式下始终为黄色背景 */
 .markdown-preview-view mark:not(del):not(s):not(strike) .virtual-link,
 .markdown-preview-view mark:not(del):not(s):not(strike) .virtual-link-span {
-    background-color: #ffff00 !important;
+    /* 不覆盖 mark 的高亮色，让虚拟链接只显示自身阴影 */
 }
 
 /* 虚拟链接点击区域优化 - 居中透明点击层方案 */
