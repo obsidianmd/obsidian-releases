@@ -148,10 +148,11 @@
     top: 50%;
     left: 0;
     right: 0;
-    height: 1px;
+    height: 0.1em;
     background-color: currentColor;
     z-index: var(--strikethrough-z-index, 1);
     pointer-events: none;
+    transform: translateY(-50%);
 }
 
 /* 确保删除线文本中的虚拟链接保持正确的颜色和样式 */
@@ -160,7 +161,6 @@
 .cm-strikethrough .virtual-link-default,
 .cm-strikethrough .virtual-link-header {
     color: inherit !important;
-    opacity: 0.8; /* 与普通删除线文本保持一致的视觉效果 */
 }
 
 /* 表格中的虚拟链接 */
