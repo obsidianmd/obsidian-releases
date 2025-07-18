@@ -7,7 +7,7 @@
 /* 基本虚拟链接样式 */
 .virtual-link-span {
   display: inline;
-  background-color: rgba(128, 128, 128, 0.1);
+  background-color: #e6e6e6;
   position: relative;
 }
 
@@ -43,7 +43,7 @@
 /* Basic virtual link style */
 .virtual-link {
   display: inline;
-  background-color: rgba(128, 128, 128, 0.1);
+  background-color: #e6e6e6;
   position: relative;
 }
 
@@ -85,15 +85,15 @@
 .virtual-link.cm-em,
 .cm-em .virtual-link,
 .virtual-link-in-italic {
-    font-style: italic !important;
-    background-color: rgba(128, 128, 128, 0.1) !important;
+  font-style: italic !important;
+  background-color: rgba(128, 128, 128, 0.1) !important;
 }
 
 /* 高亮上下文中的虚拟链接 */
 .virtual-link.cm-highlight,
 .cm-highlight .virtual-link,
 .virtual-link-in-highlight {
-    background-color: rgba(255, 255, 0, 0.3) !important;
+  background-color: #ffff00 !important;
 }
 
 /* 三连星号(粗斜体)上下文中的虚拟链接 */
@@ -133,7 +133,7 @@
 .cm-strikethrough .virtual-link-span,
 .virtual-link-span.cm-strikethrough {
     text-decoration: line-through !important;
-    background-color: rgba(128, 128, 128, 0.05) !important;
+    background-color: rgba(128, 128, 128, 0.1) !important;
     position: relative;
     z-index: var(--virtual-link-z-index, 0);
 }
