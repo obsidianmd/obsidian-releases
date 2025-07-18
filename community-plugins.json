@@ -2163,13 +2163,6 @@
     "repo": "tadashi-aikawa/obsidian-another-quick-switcher"
   },
   {
-    "id": "link-headers-directly",
-    "name": "Link Headers Directly",
-    "description": "When a header is linked, preview mode will show only the header, and not the note name.",
-    "author": "Signynt",
-    "repo": "Signynt/link-headers-directly"
-  },
-  {
     "id": "meld-calc",
     "name": "Meld Calc",
     "description": "Do math! Evaluate math expressions within your notes.",
@@ -17060,10 +17053,10 @@
   },
   {
     "id": "virtual-footer",
-    "name": "Virtual Footer",
+    "name": "Virtual Content",
     "author": "Signynt",
-    "description": "Display markdown text (including dataview queries) at the bottom of all notes in a folder, without modifying them.",
-    "repo": "Signynt/virtual-footer"
+    "description": "Display markdown text (including dataview queries or Obsidian bases) at the bottom, top or in the sidebar for all notes which match a specified rule, without modifying them.",
+    "repo": "Signynt/virtual-content"
   },
   {
     "id": "match-syntax",
@@ -17898,7 +17891,14 @@
     "description": "Render Unreal Engine Blueprint nodes as interactive visual diagrams using BlueprintUE rendering engine",
     "repo": "goderyu/obsidian-blueprint-renderer"
   },
-    {
+  {
+    "id": "deepseek-ai-assistant",
+    "name": "deepseek-ai-assistant",
+    "author": "algernon",
+    "description": "Help you to study with ai-prompting",
+    "repo": "mali-i/deepseek-ai-assistant"
+  },
+  {
     "id": "rp-jalali",
     "name": "Rp Jalali",
     "author": "RezaParsian",
