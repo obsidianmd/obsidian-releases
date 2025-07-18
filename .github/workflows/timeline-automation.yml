@@ -1,0 +1,96 @@
+name: Timeline Plugin Automation
+
+on:
+  schedule:
+    # 9am PT = 16:00 UTC (PDT) or 17:00 UTC (PST)
+    - cron: "0 16 * * *"
+    # 11am PT = 18:00 UTC (PDT) or 19:00 UTC (PST)  
+    - cron: "0 18 * * *"
+    # 2pm PT = 21:00 UTC (PDT) or 22:00 UTC (PST)
+    - cron: "0 21 * * *"
+    # 4pm PT = 23:00 UTC (PDT) or 00:00 UTC next day (PST)
+    - cron: "0 23 * * *"
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  timeline-automation:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # Full history for merge operations
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Setup Git configuration
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Setup GitHub CLI
+      run: |
+        # Install GitHub CLI
+        type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
+        curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
+        && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
+        && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+        && sudo apt update \
+        && sudo apt install gh -y
+        
+    - name: Authenticate with GitHub
+      run: |
+        echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+        
+    - name: Run timeline automation
+      run: |
+        # Make scripts executable
+        chmod +x fix-timeline-conflicts.sh
+        chmod +x monitor-upstream.sh
+        
+        # Run the upstream monitoring and conflict resolution
+        ./monitor-upstream.sh --force-sync
+        
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Push changes if any
+      run: |
+        # Check if there are any changes to push
+        if git diff --quiet HEAD; then
+          echo "No changes to push"
+        else
+          echo "Changes detected, pushing to repository"
+          git push origin HEAD:${{ github.ref }}
+        fi
+        
+    - name: Create summary comment
+      if: always()
+      run: |
+        # Create a summary of what happened
+        echo "## 🤖 Timeline Automation Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Run Time:** $(date)" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        # Check if the script ran successfully
+        if [ $? -eq 0 ]; then
+          echo "✅ **Status:** Automation completed successfully" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "❌ **Status:** Automation encountered errors" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**What this automation does:**" >> $GITHUB_STEP_SUMMARY
+        echo "1. Fetches latest changes from upstream Obsidian repository" >> $GITHUB_STEP_SUMMARY
+        echo "2. Merges upstream changes and resolves any conflicts" >> $GITHUB_STEP_SUMMARY
+        echo "3. Ensures the Manuscript Timeline plugin stays at the end of the list" >> $GITHUB_STEP_SUMMARY
+        echo "4. Posts a comment to the PR if changes were made" >> $GITHUB_STEP_SUMMARY 
