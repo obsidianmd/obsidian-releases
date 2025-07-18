@@ -20,7 +20,8 @@ export class VirtualMatch {
         public isBoldContext: boolean = false,
         public isItalicContext: boolean = false,
         public isHighlightContext: boolean = false,
-        public isTripleStarContext: boolean = false
+        public isTripleStarContext: boolean = false,
+        public isStrikethroughContext: boolean = false
     ) {
         // 为所有文件设置相同的标题ID（如果有）
         if (headerId) {
@@ -118,6 +119,12 @@ export class VirtualMatch {
         }
         if (this.isTripleStarContext) {
             span.classList.add('virtual-link-in-triple-star');
+        }
+        if (this.isStrikethroughContext) {
+            span.classList.add('virtual-link-in-strikethrough');
+            // 确保删除线在视觉上层
+            span.style.setProperty('--strikethrough-z-index', '1', 'important');
+            span.style.setProperty('--virtual-link-z-index', '-1', 'important');
         }
 
         // 根据表格单元格上下文设置右键菜单

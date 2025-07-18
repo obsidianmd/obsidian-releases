@@ -39,6 +39,7 @@ export class VirtualLinkWidget extends WidgetType {
         let inBoldContext = false;
         let inItalicContext = false;
         let inHighlightContext = false;
+        let inStrikethroughContext = false;
         
         // Get the exact text range of the virtual link
         const linkRange = { from: this.match.from, to: this.match.to };
@@ -61,6 +62,9 @@ export class VirtualLinkWidget extends WidgetType {
                     if (type.includes('highlight')) {
                         inHighlightContext = true;
                     }
+                    if (type.includes('strikethrough')) {
+                        inStrikethroughContext = true;
+                    }
                 }
             }
         });
@@ -69,6 +73,7 @@ export class VirtualLinkWidget extends WidgetType {
         this.match.isBoldContext = inBoldContext || this.match.isBoldContext;
         this.match.isItalicContext = inItalicContext;
         this.match.isHighlightContext = inHighlightContext;
+        this.match.isStrikethroughContext = inStrikethroughContext;
         this.match.isTripleStarContext = inBoldContext && inItalicContext;
         
         // Add corresponding CSS classes
@@ -80,6 +85,9 @@ export class VirtualLinkWidget extends WidgetType {
         }
         if (this.match.isHighlightContext) {
             element.classList.add('cm-highlight');
+        }
+        if (this.match.isStrikethroughContext) {
+            element.classList.add('cm-strikethrough');
         }
         if (this.match.isTripleStarContext) {
             element.classList.add('cm-strong', 'cm-em');

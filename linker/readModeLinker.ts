@@ -160,6 +160,10 @@ export class GlossaryLinker extends MarkdownRenderChild {
                                                     parentEl.closest('em') !== null;
                                                 match.isHighlightContext = parentEl.matches('mark') || 
                                                     parentEl.closest('mark') !== null;
+                                                match.isStrikethroughContext = parentEl.matches('del') || 
+                                                    parentEl.matches('s') || 
+                                                    parentEl.closest('del') !== null || 
+                                                    parentEl.closest('s') !== null;
                                                 match.isTripleStarContext = match.isBoldContext && 
                                                     match.isItalicContext;
                                             }

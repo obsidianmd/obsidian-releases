@@ -4,9 +4,11 @@
   --settings-box-min-height: 60px;
 }
 
+/* 基本虚拟链接样式 */
 .virtual-link-span {
   display: inline;
   background-color: rgba(128, 128, 128, 0.1);
+  position: relative;
 }
 
 .virtual-link-span,
@@ -16,10 +18,6 @@
 .virtual-link-span .internal-link {
   text-decoration: none !important;
   filter: brightness(var(--virtual-link-opacity));
-}
-
-.markdown-preview-view .virtual-link-span {
-  background-color: rgba(128, 128, 128, 0.1);
 }
 
 .linker-suffix-icon {
@@ -37,14 +35,16 @@
   display: none;
 }
 
-.virtual-link-span:hover .multiple-files-references {
-  display: inline;
+.virtual-link-span:hover .multiple-files-references,
+.virtual-link-span.virtual-link-hover-lock .multiple-files-references {
+  display: inline !important;
 }
 
 /* Basic virtual link style */
 .virtual-link {
   display: inline;
   background-color: rgba(128, 128, 128, 0.1);
+  position: relative;
 }
 
 /* Virtual link in bold context */
@@ -61,8 +61,9 @@
 
 /* Hover effect */
 .virtual-link:hover .multiple-files-references,
-.cm-strong .virtual-link:hover .multiple-files-references {
-  display: inline;
+.cm-strong .virtual-link:hover .multiple-files-references,
+.virtual-link.virtual-link-hover-lock .multiple-files-references {
+  display: inline !important;
 }
 
 /* Multiple files indicator */
@@ -112,6 +113,71 @@
 .cm-strong.cm-em .virtual-link .virtual-link {
     font-weight: inherit !important;
     font-style: inherit !important;
+}
+
+/* 恢复虚拟链接的原始背景实现 */
+.virtual-link,
+.virtual-link-span {
+    background-color: rgba(128, 128, 128, 0.1);
+    position: relative;
+}
+
+/* 原生删除线样式 */
+.cm-strikethrough {
+    text-decoration: line-through !important;
+}
+
+/* 确保删除线在虚拟链接上也能正确显示 */
+.cm-strikethrough .virtual-link,
+.virtual-link.cm-strikethrough,
+.cm-strikethrough .virtual-link-span,
+.virtual-link-span.cm-strikethrough {
+    text-decoration: line-through !important;
+    background-color: rgba(128, 128, 128, 0.05) !important;
+    position: relative;
+    z-index: var(--virtual-link-z-index, 0);
+}
+
+/* 删除线在视觉上层 */
+.cm-strikethrough .virtual-link::after,
+.virtual-link.cm-strikethrough::after,
+.cm-strikethrough .virtual-link-span::after,
+.virtual-link-span.cm-strikethrough::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: currentColor;
+    z-index: var(--strikethrough-z-index, 1);
+    pointer-events: none;
+}
+
+/* 确保删除线文本中的虚拟链接保持正确的颜色和样式 */
+.cm-strikethrough .virtual-link,
+.cm-strikethrough .virtual-link-span a,
+.cm-strikethrough .virtual-link-default,
+.cm-strikethrough .virtual-link-header {
+    color: inherit !important;
+    opacity: 0.8; /* 与普通删除线文本保持一致的视觉效果 */
+}
+
+/* 表格中的虚拟链接 */
+table th .virtual-link,
+table th .virtual-link-span {
+    font-weight: var(--bold-weight, bold) !important;
+    background-color: rgba(128, 128, 128, 0.1) !important;
+}
+
+/* 确保表格标题中的虚拟链接保持加粗 */
+table th .virtual-link-span,
+table th .virtual-link-span a,
+table th .virtual-link-default,
+table th .virtual-link-header,
+table th .virtual-link-span .internal-link {
+    font-weight: var(--bold-weight, bold) !important;
+    filter: brightness(var(--virtual-link-opacity));
 }
 
 /* 虚拟链接点击区域优化 - 居中透明点击层方案 */

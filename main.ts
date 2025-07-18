@@ -366,6 +366,26 @@ export default class LinkerPlugin extends Plugin {
                     return;
                 }
 
+                // 检查是否点击了多引用指示器
+                const isMultipleReferences = targetElement.classList.contains('multiple-files-references') || 
+                                            targetElement.closest('.multiple-files-references') !== null;
+                
+                // 如果点击了多引用指示器，找到包含它的虚拟链接元素
+                if (isMultipleReferences) {
+                    const virtualLinkSpan = targetElement.closest('.virtual-link-span') || 
+                                           targetElement.closest('.virtual-link');
+                    
+                    if (virtualLinkSpan) {
+                        // 添加临时锁定类，防止折叠
+                        virtualLinkSpan.classList.add('virtual-link-hover-lock');
+                        
+                        // 设置定时器移除锁定类
+                        setTimeout(() => {
+                            virtualLinkSpan.classList.remove('virtual-link-hover-lock');
+                        }, 3000); // 3秒后移除，平衡操作时间和UI响应性
+                    }
+                }
+
                 // Check, if we are clicking on a virtual link inside a note or a note in the file explorer
                 const isVirtualLink = targetElement.classList.contains('virtual-link-a');
                 const isInTableCell = targetElement.closest('td, th') !== null;
