@@ -51,7 +51,7 @@
 .virtual-link.cm-strong,
 .cm-strong .virtual-link {
   font-weight: var(--bold-weight, bold) !important;
-  background-color: rgba(128, 128, 128, 0.1) !important;
+  /* 不覆盖高亮色，允许高亮背景透出 */
 }
 
 /* Ensure virtual links maintain style in CodeMirror bold */
@@ -112,7 +112,7 @@
 .virtual-link-in-triple-star {
     font-weight: var(--bold-weight, bold) !important;
     font-style: italic !important;
-    background-color: rgba(128, 128, 128, 0.1) !important;
+    /* 不覆盖高亮色，允许高亮背景透出 */
 }
 
 /* 确保嵌套样式继承 */
