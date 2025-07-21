@@ -2163,13 +2163,6 @@
     "repo": "tadashi-aikawa/obsidian-another-quick-switcher"
   },
   {
-    "id": "link-headers-directly",
-    "name": "Link Headers Directly",
-    "description": "When a header is linked, preview mode will show only the header, and not the note name.",
-    "author": "Signynt",
-    "repo": "Signynt/link-headers-directly"
-  },
-  {
     "id": "meld-calc",
     "name": "Meld Calc",
     "description": "Do math! Evaluate math expressions within your notes.",
@@ -17060,10 +17053,10 @@
   },
   {
     "id": "virtual-footer",
-    "name": "Virtual Footer",
+    "name": "Virtual Content",
     "author": "Signynt",
-    "description": "Display markdown text (including dataview queries) at the bottom of all notes in a folder, without modifying them.",
-    "repo": "Signynt/virtual-footer"
+    "description": "Display markdown text (including dataview queries or Obsidian bases) at the bottom, top or in the sidebar for all notes which match a specified rule, without modifying them.",
+    "repo": "Signynt/virtual-content"
   },
   {
     "id": "match-syntax",
@@ -17708,6 +17701,216 @@
     "author": "vlwkaos",
     "description": "Change Excluded files setting per workspace, active note and more.",
     "repo": "vlwkaos/obsidian-smart-excluded"
+  },
+  {
+    "id": "eccirian",
+    "name": "Eccirian Encrypt",
+    "author": "Entropiex",
+    "description": "Encrypt your notes using advanced encryption algorithms.",
+    "repo": "Enthalpiex/Eccirian-Encrypt"
+  },
+  {
+    "id": "rtl-math-text",
+    "name": "RTL Math Text",
+    "author": "orelby",
+    "description": "Mix right-to-left and left-to-right text in math expressions using configurable commands.",
+    "repo": "orelby/obsidian-rtl-math-text-plugin"
+  },
+  {
+    "id": "table-list",
+    "name": "Table List",
+    "author": "Akaswan",
+    "description": "Adds a table view to manage your tasks.",
+    "repo": "Akaswan/table-list"
+  },
+  {
+    "id": "coalesce",
+    "name": "Coalesce",
+    "author": "Floyd",
+    "description": "Coalesce your backlinked notes into a single view",
+    "repo": "bfloydd/coalesce"
+  },
+  {
+    "id": "current-view",
+    "name": "Current View",
+    "author": "Lucas Ostmann",
+    "description": "Automatically set the view mode (Reading, Live Preview, Source) for notes using folder rules, file patterns, or frontmatter",
+    "repo": "LucEast/obsidian-current-view"
+  },
+  {
+    "id": "replace-pencil",
+    "name": "Replace Pencil",
+    "author": "penyt",
+    "description": "Easily replace the custom variable in the code block.",
+    "repo": "penyt/replace-pencil"
+  },
+  {
+    "id": "alpha-bullet",
+    "name": "Alpha Bullet",
+    "author": "Mara-Li",
+    "description": "Sorts bulleted lists alphabetically.",
+    "repo": "Mara-Li/obsidian-alpha-bullet"
+  },
+  {
+    "id": "calculite",
+    "name": "Calculite",
+    "author": "Holo",
+    "description": "Standard calculator with a simple button layout.",
+    "repo": "gfxholo/calculite"
+  },
+  {
+    "id": "yandex-wiki-integration",
+    "name": "Yandex Wiki Integration",
+    "author": "Pavel Sokolov",
+    "description": "Integration with Yandex Wiki knowledge base",
+    "repo": "CubieProg/Obsidian-Yandex-Wiki-Integration"
+  },
+  {
+    "id": "scratchpad",
+    "name": "Scratchpad",
+    "author": "KVH",
+    "description": "Take temporary notes and draw freehand in a sidebar scratchpad.",
+    "repo": "kvh03/obsidian-scratchpad"
+  },
+  {
+    "id": "diary-ics",
+    "name": "Diary ICS",
+    "author": "Mousebomb",
+    "description": "Sync diary entries to system calendar via ICS feed.",
+    "repo": "mousebomb/obsidian-diary-ics"
+  },
+  {
+    "id": "sidecars",
+    "name": "Sidecars",
+    "author": "Albert O'Shea",
+    "description": "Automated, user-friendly management of 'sidecar' companion notes for non-markdown files.",
+    "repo": "Alb-O/obsidian-sidecars"
+  },
+  {
+    "id": "tasknotes",
+    "name": "TaskNotes",
+    "author": "Callum Alpass",
+    "description": "Note-based task management with calendar, pomodoro and time-tracking integration.",
+    "repo": "callumalpass/tasknotes"
+  },
+  {
+    "id": "soc-toolkit",
+    "name": "SOC Toolkit",
+    "author": "Michael Massoni",
+    "description": "A collection of tools for cyber security analysts.",
+    "repo": "michaelmassoni/obsidian-soc-toolkit"
+  },
+  {
+    "id": "simple-vault-importer",
+    "name": "Simple Vault Importer",
+    "author": "WebInspectInc",
+    "description": "Import starter vaults into your own vault.",
+    "repo": "WebInspectInc/obsidian-simple-template-importer"
+  },
+  {
+    "id": "sidebar-highlights",
+    "name": "Sidebar Highlights",
+    "author": "trevware",
+    "description": "View and manage text highlights, comments on highlights, native comments, and collections for your highlights.",
+    "repo": "trevware/obsidian-sidebar-highlights"
+  },
+  {
+    "id": "korean-spellchecker",
+    "name": "Korean Spellchecker",
+    "author": "dldisud",
+    "description": "Checks Korean spelling and grammar using an online service. Features a custom dictionary to exclude specific nouns (e.g., names, technical terms) from being flagged as errors.",
+    "repo": "dldisud/obsidian-korean-spellchecker"
+  },
+  {
+    "id": "md-cal-gen",
+    "name": "Markdown Calendar Generator",
+    "author": "Zach Russell",
+    "description": "An intentionally simple markdown table calendar generator",
+    "repo": "zachatrocity/md-cal-gen"
+  },
+  {
+    "id": "copy-path",
+    "name": "Copy Path",
+    "author": "shumadrid",
+    "description": "Adds context menu actions for copying the full/vault-relative path of files and folders.",
+    "repo": "shumadrid/obsidian-copy-path"
+  },
+  {
+    "id": "symbol-linking",
+    "name": "Symbol linking",
+    "author": "Evan Bonsignori ; Mara-Li",
+    "description": "Adds ability to link with any trigger. Each trigger can limit linking to specific folders or file.",
+    "repo": "Mara-Li/obsidian-symbol-linking"
+  },
+  {
+    "id": "timeline-canvas-creator",
+    "name": "Timeline Canvas Creator",
+    "author": "chris-codes1",
+    "description": "Quickly create timeline structured canvases.",
+    "repo": "chris-codes1/timeline-canvas-creator"
+  },
+  {
+    "id": "animated-cursor",
+    "name": "Animated Cursor",
+    "author": "Kotaindah55",
+    "description": "Simple yet smooth animated cursor.",
+    "repo": "kotaindah55/animated-cursor"
+  },
+  {
+    "id": "simple-anki-sync",
+    "name": "Simple Anki Sync",
+    "author": "Lukas Mayr",
+    "description": "Simple way to sync basic flashcards with Anki with zero time tweaking settings and 100 % of your time learning.",
+    "repo": "lukmay/simple-anki-sync"
+  },
+  {
+    "id": "frontmatter-link-classes",
+    "name": "Frontmatter Metadata Link Classes",
+    "author": "Varvara Zmeeva / zmeeva.io",
+    "description": "Adds classes to internal links based on frontmatter metadata.",
+    "repo": "zmeeeeeva/obsidian-plugin-metadata-link-classes"
+  },
+  {
+    "id": "insert-arknights-url-banner",
+    "name": "Insert Arknights URL Banner",
+    "author": "Rerurate_514",
+    "description": "Select the Arknights image and place it in the banner property.",
+    "repo": "Rerurate514/insert_ArknightsURL_banners"
+  },
+  {
+    "id": "better-mindmap",
+    "name": "Better Mind Map",
+    "author": "Utkarsh Raj",
+    "description": "Visualize notes as interactive mind maps",
+    "repo": "linem-davton/obsidian-better-mindmap"
+  },
+  {
+    "id": "blueprint-renderer",
+    "name": "Blueprint Renderer",
+    "author": "goderyu",
+    "description": "Render Unreal Engine Blueprint nodes as interactive visual diagrams using BlueprintUE rendering engine",
+    "repo": "goderyu/obsidian-blueprint-renderer"
+  },
+  {
+    "id": "deepseek-ai-assistant",
+    "name": "deepseek-ai-assistant",
+    "author": "algernon",
+    "description": "Help you to study with ai-prompting",
+    "repo": "mali-i/deepseek-ai-assistant"
+  },
+  {
+    "id": "food-tracker",
+    "name": "Food Tracker",
+    "author": "Forketyfork",
+    "description": "Track your food intake (calories, macronutrients) and nutritional information",
+    "repo": "forketyfork/obsidian-food-tracker"
+  },
+  {
+    "id": "object-oriented-thinking",
+    "name": "Object Oriented Thinking",
+    "author": "Tiago Jacinto",
+    "description": "Add inheritance-like behavior to notes.",
+    "repo": "TiagoJacinto/obsidian-object-oriented-thinking"
   }
   {
     "id": "new-discord-rpc",
