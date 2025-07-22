@@ -2163,13 +2163,6 @@
     "repo": "tadashi-aikawa/obsidian-another-quick-switcher"
   },
   {
-    "id": "link-headers-directly",
-    "name": "Link Headers Directly",
-    "description": "When a header is linked, preview mode will show only the header, and not the note name.",
-    "author": "Signynt",
-    "repo": "Signynt/link-headers-directly"
-  },
-  {
     "id": "meld-calc",
     "name": "Meld Calc",
     "description": "Do math! Evaluate math expressions within your notes.",
@@ -17060,10 +17053,10 @@
   },
   {
     "id": "virtual-footer",
-    "name": "Virtual Footer",
+    "name": "Virtual Content",
     "author": "Signynt",
-    "description": "Display markdown text (including dataview queries) at the bottom of all notes in a folder, without modifying them.",
-    "repo": "Signynt/virtual-footer"
+    "description": "Display markdown text (including dataview queries or Obsidian bases) at the bottom, top or in the sidebar for all notes which match a specified rule, without modifying them.",
+    "repo": "Signynt/virtual-content"
   },
   {
     "id": "match-syntax",
@@ -17904,5 +17897,54 @@
     "author": "Alex Mittell",
     "description": "Import your Granola notes with perfect formatting preservation.",
     "repo": "amittell/obsidian-granola"
+  },
+  {
+    "id": "deepseek-ai-assistant",
+    "name": "deepseek-ai-assistant",
+    "author": "algernon",
+    "description": "Help you to study with ai-prompting",
+    "repo": "mali-i/deepseek-ai-assistant"
+  },
+  {
+    "id": "food-tracker",
+    "name": "Food Tracker",
+    "author": "Forketyfork",
+    "description": "Track your food intake (calories, macronutrients) and nutritional information",
+    "repo": "forketyfork/obsidian-food-tracker"
+  },
+  {
+    "id": "object-oriented-thinking",
+    "name": "Object Oriented Thinking",
+    "author": "Tiago Jacinto",
+    "description": "Add inheritance-like behavior to notes.",
+    "repo": "TiagoJacinto/obsidian-object-oriented-thinking"
+  },
+  {
+    "id": "send-to-canvas",
+    "name": "Send to Canvas",
+    "author": "wenlzhang",
+    "description": "Send tasks, blocks, and notes to Canvas files as plain text, links, and embeds.",
+    "repo": "wenlzhang/obsidian-send-to-canvas"
+  },
+  {
+    "id": "pdf-emojis",
+    "name": "PDF Emojis",
+    "author": "Marcel Marusiak",
+    "description": "Helps you exporting all your emojis to pdf (even those in headings)!",
+    "repo": "mmarusiak/pdf-emojis-plugin"
+  },
+  {
+    "id": "zhihu",
+    "name": "Zhihu",
+    "author": "dgg",
+    "description": "Enable you to publish your articles and answers to Zhihu.",
+    "repo": "dongguaguaguagua/zhihu_obsidian"
+  },
+  {
+    "id": "dataview-properties",
+    "name": "Dataview (to) Properties",
+    "author": "Mara-Li",
+    "description": "Automagically copy dataview inline field (and their values, even calculated!) into frontmatter properties and keep them sync.",
+    "repo": "Mara-Li/obsidian-dataview-properties"
   }
 ]
