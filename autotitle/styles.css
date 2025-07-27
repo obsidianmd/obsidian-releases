@@ -1,0 +1,135 @@
+/* AutoTitle Plugin Styles */
+
+.suggested-title {
+  background-color: var(--background-primary-alt);
+  color: var(--text-normal);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  padding: 12px;
+  margin: 16px 0;
+  font-size: 1.1em;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.modal-button-container {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.modal-button-container button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid var(--background-modifier-border);
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.modal-button-container button:hover {
+  background-color: var(--background-primary-alt);
+}
+
+.modal-button-container button.mod-cta {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border-color: var(--interactive-accent);
+}
+
+.modal-button-container button.mod-cta:hover {
+  background-color: var(--interactive-accent-hover);
+}
+
+/* Статус индикатор для генерации */
+.autotitle-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8em;
+  color: var(--text-muted);
+  padding: 2px 6px;
+  border-radius: 3px;
+  background-color: var(--background-secondary);
+}
+
+.autotitle-status.generating {
+  color: var(--text-accent);
+  background-color: var(--background-modifier-form-field);
+}
+
+.autotitle-status.success {
+  color: var(--text-success);
+  background-color: var(--background-modifier-success);
+}
+
+.autotitle-status.error {
+  color: var(--text-error);
+  background-color: var(--background-modifier-error);
+}
+
+/* Loading spinner */
+.autotitle-spinner {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--background-modifier-border);
+  border-radius: 50%;
+  border-top-color: var(--text-accent);
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Настройки плагина */
+.autotitle-settings h2 {
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.autotitle-settings .setting-item {
+  border-bottom: 1px solid var(--background-modifier-border-focus);
+  padding: 16px 0;
+}
+
+.autotitle-settings .setting-item:last-child {
+  border-bottom: none;
+}
+
+.autotitle-info {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.autotitle-info h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: var(--text-normal);
+}
+
+.autotitle-info ul {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.autotitle-info li {
+  margin: 4px 0;
+  color: var(--text-muted);
+}
+
+.autotitle-info code {
+  background-color: var(--background-primary);
+  color: var(--text-accent);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: var(--font-monospace);
+  font-size: 0.9em;
+}
