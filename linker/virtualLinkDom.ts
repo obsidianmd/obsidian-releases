@@ -72,7 +72,7 @@ export class VirtualMatch {
         const link = document.createElement('a');
         
         // 使用文件特定的标题ID（如果提供了file参数）
-        let headerIdToUse = undefined;
+        let headerIdToUse: string | undefined = undefined;
         if (file) {
             headerIdToUse = this.getFileHeaderId(file);
         } else if (this.files.length > 0) {
@@ -96,6 +96,39 @@ export class VirtualMatch {
         link.setAttribute('to', this.to.toString());
         link.setAttribute('origin-text', this.originText);
         link.classList.add('internal-link', 'virtual-link-a');
+        
+        // 添加特殊处理，确保在 Canvas 中也能正确跳转
+        link.onclick = (event) => {
+            // 阻止默认行为
+            event.preventDefault();
+            
+            // 获取目标文件
+            const targetFile = file || (this.files.length > 0 ? this.files[0] : null);
+            if (!targetFile) return false;
+            
+            // 通过设置中的 app 实例打开链接
+            if (this.settings.app && this.settings.app.workspace) {
+                const app = this.settings.app;
+                if (headerIdToUse) {
+                    app.workspace.openLinkText(targetFile.path, '', false, { active: true })
+                        .then(() => {
+                            // 等待内容加载完成后滚动到标题
+                            setTimeout(() => {
+                                const headerEl = document.querySelector(`h1[data-heading-id="${headerIdToUse}"], h2[data-heading-id="${headerIdToUse}"], h3[data-heading-id="${headerIdToUse}"], h4[data-heading-id="${headerIdToUse}"], h5[data-heading-id="${headerIdToUse}"], h6[data-heading-id="${headerIdToUse}"]`);
+                                if (headerEl) {
+                                    headerEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                }
+                            }, 100);
+                        });
+                } else {
+                    // 直接打开文件
+                    app.workspace.openLinkText(targetFile.path, '', false, { active: true });
+                }
+            }
+            
+            return false;
+        };
+        
         return link;
     }
 

@@ -8,6 +8,7 @@ import { LinkerMetaInfoFetcher } from 'linker/linkerInfo';
 import * as path from 'path';
 
 export interface LinkerPluginSettings {
+    app?: App; // 添加 app 实例引用
     autoToggleByMode: boolean;
     advancedSettings: boolean;
     linkerActivated: boolean;
@@ -708,6 +709,7 @@ export default class LinkerPlugin extends Plugin {
 
     async loadSettings() {
         this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+        this.settings.app = this.app; // 添加 app 实例到设置中
 
         // Load markdown links from obsidian settings
         // At the moment obsidian does not provide a clean way to get the settings through an API
