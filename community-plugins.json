@@ -18129,12 +18129,14 @@
     "description": "Quick, in-editor, emoji inserting. Type \":\" to start selecting an emoji to insert.",
     "repo": "asibilia/obsidian-quick-emoji"
   },
-  {
-  "id": "obsidian-tree",
-  "name": "Tree Navigator",
-  "author": "bw",
-  "description": "Keyboard-first file explorer like nvim-tree.",
-  "repo": "brweinstein/obsidian-tree",
-  "version": "1.0.1"
+  "tree-navigator": {
+    "id": "tree-navigator",
+    "name": "Tree Navigator",
+    "description": "Keyboard-first file explorer like nvim-tree.",
+    "author": "bw",
+    "repo": "brweinstein/obsidian-tree",
+    "version": "1.0.1",
+    "minAppVersion": "0.15.0",
+    "isDesktopOnly": false
   }
 ]
