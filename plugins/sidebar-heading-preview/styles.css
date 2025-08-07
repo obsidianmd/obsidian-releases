@@ -1,0 +1,36 @@
+.sidebar-heading-preview-tooltip {
+  position: fixed;
+  z-index: 9999;
+  background-color: var(--background-secondary, #2a2a2a);
+  color: var(--text-normal, #eeeeee);
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+  max-width: 300px;
+  max-height: 280px;
+  overflow-y: auto;
+  pointer-events: auto;
+  white-space: normal;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Enhanced shadow */
+  border: 1px solid var(--background-modifier-border, #444);
+  font-family: var(--font-ui, "Inter", sans-serif);
+  backdrop-filter: blur(6px); /* Subtle glass effect */
+  transition: background-color 0.2s ease;
+}
+
+.sidebar-heading-preview-tooltip li {
+  margin-bottom: 4px;
+  line-height: 1.5;
+  list-style-type: disc;
+  padding-left: 4px;
+}
+
+.sidebar-heading-preview-tooltip strong {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-accent, #ffd700);
+}
+
