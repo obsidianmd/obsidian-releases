@@ -12316,7 +12316,7 @@
     "id": "languagetool",
     "name": "LanguageTool",
     "author": "Lars Wrenger, Clemens Ertle",
-    "description": "Inofficial integration of the LanguageTool spell and grammar checker.",
+    "description": "Unofficial integration of the LanguageTool spell and grammar checker.",
     "repo": "wrenger/obsidian-languagetool"
   },
   {
@@ -17669,10 +17669,10 @@
   },
   {
     "id": "hyperlink-remover",
-    "name": "Hyperlink Remover",
+    "name": "Link Remover",
     "author": "Daniel Agafonov",
-    "description": "Easily remove hyperlinks from selected text or the entire note.",
-    "repo": "AlphaHasher/obsidian-remove-hyperlinks"
+    "description": "Easily remove hyperlinks and wikilinks from selected text or the entire note.",
+    "repo": "AlphaHasher/obsidian-remove-links"
   },
   {
     "id": "kindle-highlights-import",
@@ -18000,7 +18000,7 @@
     "id": "similar-notes",
     "name": "Similar Notes",
     "author": "Young Lee",
-    "description": "Recommends semantically similar notes to the currently viewed note.",
+    "description": "Find semantically similar notes using local AI. Works on desktop and mobile without external servers.",
     "repo": "joybro/obsidian-similar-notes"
   },
   {
@@ -18121,6 +18121,13 @@
     "author": "Lucas Jin",
     "description": "Adds cute pixel pets.",
     "repo": "LucasHJin/obsidian-pets"
+  },
+  {
+    "id": "quick-emoji",
+    "name": "Quick Emoji",
+    "author": "Alec Sibilia",
+    "description": "Quick, in-editor, emoji inserting. Type \":\" to start selecting an emoji to insert.",
+    "repo": "asibilia/obsidian-quick-emoji"
   },
   {
     "id": "equation-citator",
