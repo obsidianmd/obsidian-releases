@@ -18205,5 +18205,14 @@
     "author": "ikmolbo",
     "description": "Transform handwritten documents and scanned images into editable text with Handwriting OCR's AI-powered handwriting to text conversion.",
     "repo": "ikmolbo/handwriting-ocr-obsidian-plugin"
-  }
+  },
+  {
+    "id": "quartz-toggle-public-attachments",
+  	"name": "Toggle Public/Private Attachment",
+  	"version": "1.0.0",
+  	"minAppVersion": "0.15.0",
+  	"description": "Toggles file(s) as private or public by adding or removing a prefix, meant to work with a Quartz configuration called Explicit Publish and ignorePatterns https://oliverfalvai.com/evergreen/my-quartz-+-obsidian-note-publishing-setup#mixing-private-and-public-notes",
+  	"author": "Haroombe",
+    "repo": "Haroombe/obsidian-quartz-toggle-public-image-plugin"
+}
 ]
