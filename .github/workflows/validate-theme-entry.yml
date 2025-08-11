@@ -112,6 +112,9 @@ jobs:
                 if (theme.name.toLowerCase().includes('theme')) {
                     addError(`We discourage themes from including the word \`theme\` in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
                 }
+                if (theme.name.match(/([^A-Za-z0-9_\- ]+)/g)) {
+                    addError('Your theme name contains invalid symbols, allowed are letters, digits, spaces, hyphens and underscores.');
+                }
 
                 if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(theme.author)) {
                     addWarning('We generally discourage from including email addresses in the `author` field.');
