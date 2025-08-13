@@ -1,5 +1,7 @@
 # I am submitting a new Community Plugin
 
+- [ ] I attest that I have done my best to deliver a high-quality plugin, am proud of the code I have written, and would recommend it to others. I commit to maintaining the plugin and being responsive to bug reports. If I am no longer able to maintain it, I will make reasonable efforts to find a successor maintainer or withdraw the plugin from the directory.
+
 ## Repo URL
 
 <!--- Paste a link to your repo here for easy access -->
