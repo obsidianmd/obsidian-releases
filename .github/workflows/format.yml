@@ -1,0 +1,24 @@
+name: Format
+on:
+  push:
+    branches:
+      - master
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+      - run: npm ci --no-save
+      - run: npm run format
+      - name: Commit changes
+        run: |
+          git config --local user.name 'Obsidian Bot'
+          git config --local user.email 'admin@obsidian.md'
+          git add .
+          git commit -m "chore: Format JSON" || exit 0
+          git push
