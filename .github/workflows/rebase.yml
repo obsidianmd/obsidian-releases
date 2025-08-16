@@ -101,10 +101,10 @@ jobs:
 
               # Собираем: база (theirs без cryptoprotos) + наши cryptoprotos в хвост
               jq -s '
-                (.[0] // []) as $base |
-                (.[1] // []) as $ours |
-                ($base | map(select(.id != "cryptoprotos"))) +
-                ($ours | map(select(.id == "cryptoprotos")))
+                (.[0] // []) as $theirs |
+                (.[1] // []) as $ours   |
+                ($theirs | map(select(.id != "cryptoprotos"))) +
+                ($ours   | map(select(.id == "cryptoprotos")))
               ' theirs.json ours.json > "$JSON_FILE"
 
               git add "$JSON_FILE"
