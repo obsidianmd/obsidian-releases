@@ -39,7 +39,6 @@ jobs:
       - name: Sync fork/master to upstream/master (clean workflows)
         run: |
           git checkout master
-          git fetch upstream "$UPSTREAM_BRANCH"
           git reset --hard "upstream/$UPSTREAM_BRANCH"
 
           # Удалить все чужие workflows (физически и из индекса)
