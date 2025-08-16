@@ -108,7 +108,7 @@ jobs:
               ' theirs.json ours.json > "$JSON_FILE"
 
               git add "$JSON_FILE"
-              git rebase --continue || true
+              git rebase --continue --no-edit || true
             done
           fi
 
