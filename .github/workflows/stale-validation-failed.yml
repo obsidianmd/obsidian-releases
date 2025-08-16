@@ -1,0 +1,22 @@
+name: 'Close stale PRs with failed validation'
+on:
+  schedule:
+    - cron: "27 3 * * *"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      actions: write
+    steps:
+      - uses: actions/stale@v9
+        with:
+          stale-pr-message: "Hi there, as this PR has not seen any activity in the last 7 days, it will be closed in 7 days unless there are any updates."
+          close-pr-message: "Hi there, to keep things tidy, we're closing PRs that haven't passed the validation after 14 days of inactivity."
+          days-before-stale: 7
+          days-before-close: 7
+          stale-pr-label: stale
+          only-pr-labels: Validation failed
+          operations-per-run: 200
+
