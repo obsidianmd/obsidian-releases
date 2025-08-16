@@ -1,0 +1,139 @@
+name: Sync fork master + rebase cryptoprotos + JSON reorder # версия v4.1
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'  # каждый час (UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebase-json
+  cancel-in-progress: true
+
+env:
+  UPSTREAM: https://github.com/obsidianmd/obsidian-releases.git
+  UPSTREAM_BRANCH: master
+  JSON_FILE: community-plugins.json
+
+jobs:
+  sync-master:
+    if: github.repository_owner == 'asbjornrasen'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Git identity
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream & fetch
+        run: |
+          git remote add upstream "$UPSTREAM" || true
+          git fetch upstream "$UPSTREAM_BRANCH"
+
+      - name: Sync fork/master to upstream/master (clean workflows)
+        run: |
+          set -e
+          git checkout master
+          git reset --hard "upstream/$UPSTREAM_BRANCH"
+
+          # Удалить все чужие workflows и зафиксировать удаление
+          rm -rf .github/workflows
+          git add -u .github/workflows
+          git commit -m "chore: remove upstream workflows" || true
+
+          # Вернуть свои workflows из origin/master и зафиксировать добавление
+          git fetch origin master
+          git checkout origin/master -- .github/workflows || true
+          git add .github/workflows || true
+          git commit -m "chore: restore local workflows" || true
+
+          git push origin master --force-with-lease
+
+  rebase-branch:
+    if: github.repository_owner == 'asbjornrasen'
+    needs: sync-master
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: cryptoprotos
+          fetch-depth: 0
+
+      - name: Git identity
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Ensure jq
+        run: |
+          command -v jq >/dev/null 2>&1 || (sudo apt-get update && sudo apt-get install -y jq)
+
+      - name: Rebase cryptoprotos onto fork/master (auto-resolve JSON)
+        run: |
+          set -e
+          git fetch origin "$UPSTREAM_BRANCH"
+          BEFORE=$(git rev-parse HEAD)
+
+          # Пытаемся обычный rebase; при конфликте авто-решаем только JSON
+          if ! git rebase "origin/$UPSTREAM_BRANCH"; then
+            # Цикл: пока есть конфликтные файлы
+            while true; do
+              CF=$(git diff --name-only --diff-filter=U | tr -d '\r')
+              [ -z "$CF" ] && break
+
+              if [ "$CF" != "$JSON_FILE" ]; then
+                echo "Non-JSON conflict detected in: $CF"
+                git rebase --abort
+                exit 1
+              fi
+
+              echo "Auto-resolving $JSON_FILE"
+              # :3 — theirs (upstream), :2 — ours (наш текущий коммит)
+              git show :3:"$JSON_FILE" > theirs.json || echo "[]" > theirs.json
+              git show :2:"$JSON_FILE" > ours.json   || echo "[]" > ours.json
+
+              # Собираем: база (theirs без cryptoprotos) + наши cryptoprotos в хвост
+              jq -s '
+                (.[0] // []) as $theirs |
+                (.[1] // []) as $ours   |
+                ($theirs | map(select(.id != "cryptoprotos"))) +
+                ($ours   | map(select(.id == "cryptoprotos")))
+              ' theirs.json ours.json > "$JSON_FILE"
+
+              git add "$JSON_FILE"
+              GIT_EDITOR=true git rebase --continue || true
+            done
+          fi
+
+          AFTER=$(git rev-parse HEAD)
+          echo "REBASE_CHANGED=$([ "$BEFORE" != "$AFTER" ] && echo 1 || echo 0)" >> $GITHUB_ENV
+
+      - name: Move 'cryptoprotos' entry to end of array if needed
+        if: env.REBASE_CHANGED == '1'
+        run: |
+          IS_LAST=$(jq -r '.[-1].id' "$JSON_FILE")
+          if [ "$IS_LAST" != "cryptoprotos" ]; then
+            jq '(map(select(.id != "cryptoprotos")) + (map(select(.id == "cryptoprotos"))))' "$JSON_FILE" > "$JSON_FILE.tmp"
+            mv "$JSON_FILE.tmp" "$JSON_FILE"
+            echo "JSON_REORDERED=1" >> $GITHUB_ENV
+          else
+            echo "JSON_REORDERED=0" >> $GITHUB_ENV
+          fi
+
+      - name: Amend last commit (no new commit created)
+        if: env.JSON_REORDERED == '1'
+        run: |
+          git add "$JSON_FILE"
+          git commit --amend --no-edit
+
+      - name: Push updated branch (only if changed)
+        if: env.REBASE_CHANGED == '1'
+        run: |
+          git push origin cryptoprotos --force-with-lease
