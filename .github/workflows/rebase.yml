@@ -77,13 +77,38 @@ jobs:
         run: |
           command -v jq >/dev/null 2>&1 || (sudo apt-get update && sudo apt-get install -y jq)
 
-      - name: Rebase cryptoprotos onto fork/master (no merge commits)
+
+      - name: Rebase cryptoprotos onto fork/master (auto-resolve JSON)
         run: |
+          set -e
           git fetch origin "$UPSTREAM_BRANCH"
           BEFORE=$(git rev-parse HEAD)
-          git rebase "origin/$UPSTREAM_BRANCH" || { echo "Rebase failed"; exit 1; }
+          # запускаем ребейз; если конфликт — не падаем сразу
+          if ! git rebase "origin/$UPSTREAM_BRANCH"; then
+            # есть конфликт; проверим, что он только по нашему JSON
+            if git diff --name-only --diff-filter=U | grep -qx "$JSON_FILE"; then
+              echo "Auto-resolving $JSON_FILE"
+              # theirs = апстрим; ours = коммит из нашей ветки, который сейчас применяется
+              git show :3:"$JSON_FILE" > theirs.json || echo "[]" > theirs.json
+              git show :2:"$JSON_FILE" > ours.json   || echo "[]" > ours.json
+              # вытащим наш объект с id==cryptoprotos (если есть)
+              jq '[.[] | select(.id=="cryptoprotos")]' ours.json > mine_cp.json || echo "[]" > mine_cp.json
+              # база = theirs без cryptoprotos + наш(и) cryptoprotos в хвост
+              jq -s '(.[0] // []) as $base
+                     | (.[1] // []) as $mine
+                     | ($base | map(select(.id!="cryptoprotos"))) + $mine' \
+                     theirs.json mine_cp.json > "$JSON_FILE"
+              git add "$JSON_FILE"
+              git rebase --continue
+            else
+              echo "Non-JSON conflict detected:"; git diff --name-only --diff-filter=U
+              git rebase --abort
+              exit 1
+            fi
+          fi
           AFTER=$(git rev-parse HEAD)
           echo "REBASE_CHANGED=$([ "$BEFORE" != "$AFTER" ] && echo 1 || echo 0)" >> $GITHUB_ENV
+
 
       - name: Move 'cryptoprotos' entry to end of array if needed
         if: env.REBASE_CHANGED == '1'
