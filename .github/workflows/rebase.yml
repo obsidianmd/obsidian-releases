@@ -18,7 +18,7 @@ env:
 
 jobs:
   sync-master:
-    if: github.repository_owner == 'asbjornrasen'   # запуск только в твоём форке
+    if: github.repository_owner == 'asbjornrasen'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -36,10 +36,19 @@ jobs:
           git remote add upstream "$UPSTREAM" || true
           git fetch upstream "$UPSTREAM_BRANCH"
 
-      - name: Sync fork/master to upstream/master
+      - name: Sync fork/master to upstream/master (keep local workflows)
         run: |
           git checkout master
           git reset --hard "upstream/$UPSTREAM_BRANCH"
+
+          # вернуть свои workflows из форка, чтобы НЕ пушить чужие
+          git checkout origin/master -- .github/workflows || true
+
+          # закоммитить только если что-то поменялось (кроме reset)
+          if ! git diff --quiet; then
+            git commit -am "chore(ci): keep local workflows when syncing with upstream"
+          fi
+
           git push origin master --force-with-lease
 
   rebase-branch:
