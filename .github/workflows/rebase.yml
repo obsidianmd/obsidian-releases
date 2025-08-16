@@ -1,4 +1,4 @@
-name: Sync fork master + rebase cryptoprotos + JSON reorder # версия v4.1
+name: Sync fork master + rebase cryptoprotos + JSON reorder # версия v4.3
 
 on:
   schedule:
@@ -43,12 +43,10 @@ jobs:
           git checkout master
           git reset --hard "upstream/$UPSTREAM_BRANCH"
 
-          # Удалить все чужие workflows и зафиксировать удаление
           rm -rf .github/workflows
           git add -u .github/workflows
           git commit -m "chore: remove upstream workflows" || true
 
-          # Вернуть свои workflows из origin/master и зафиксировать добавление
           git fetch origin master
           git checkout origin/master -- .github/workflows || true
           git add .github/workflows || true
@@ -81,9 +79,7 @@ jobs:
           git fetch origin "$UPSTREAM_BRANCH"
           BEFORE=$(git rev-parse HEAD)
 
-          # Пытаемся обычный rebase; при конфликте авто-решаем только JSON
           if ! git rebase "origin/$UPSTREAM_BRANCH"; then
-            # Цикл: пока есть конфликтные файлы
             while true; do
               CF=$(git diff --name-only --diff-filter=U | tr -d '\r')
               [ -z "$CF" ] && break
@@ -95,11 +91,9 @@ jobs:
               fi
 
               echo "Auto-resolving $JSON_FILE"
-              # :3 — theirs (upstream), :2 — ours (наш текущий коммит)
               git show :3:"$JSON_FILE" > theirs.json || echo "[]" > theirs.json
               git show :2:"$JSON_FILE" > ours.json   || echo "[]" > ours.json
 
-              # Собираем: база (theirs без cryptoprotos) + наши cryptoprotos в хвост
               jq -s '
                 (.[0] // []) as $theirs |
                 (.[1] // []) as $ours   |
@@ -108,12 +102,19 @@ jobs:
               ' theirs.json ours.json > "$JSON_FILE"
 
               git add "$JSON_FILE"
-              GIT_EDITOR=true git rebase --continue || true
+              git commit -m "chore: auto-resolve cryptoprotos JSON conflict"
+              git rebase --continue || true
             done
           fi
 
           AFTER=$(git rev-parse HEAD)
           echo "REBASE_CHANGED=$([ "$BEFORE" != "$AFTER" ] && echo 1 || echo 0)" >> $GITHUB_ENV
+
+      - name: Validate JSON structure
+        if: env.REBASE_CHANGED == '1'
+        run: |
+          echo "Validating JSON format..."
+          jq empty "$JSON_FILE"
 
       - name: Move 'cryptoprotos' entry to end of array if needed
         if: env.REBASE_CHANGED == '1'
