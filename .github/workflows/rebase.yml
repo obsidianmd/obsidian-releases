@@ -107,6 +107,7 @@ jobs:
         if: env.REBASE_CHANGED == '1'
         run: |
           git push origin cryptoprotos --force-with-lease
+<<<<<<< HEAD
 name: Sync fork master + rebase cryptoprotos + JSON reorder
 
 on:
@@ -241,3 +242,5 @@ jobs:
         if: env.REBASE_CHANGED == '1'
         run: |
           git push origin cryptoprotos --force-with-lease
+=======
+>>>>>>> 25b5eac6d68e2ac3a50f72eca6f22acda9e4f17a
