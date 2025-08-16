@@ -3,6 +3,7 @@ name: Sync fork master + rebase cryptoprotos + JSON reorder
 on:
   schedule:
     - cron: '0 */1 * * *'  # каждый час (UTC)
+    workflow_dispatch: {}
 
 permissions:
   contents: write
