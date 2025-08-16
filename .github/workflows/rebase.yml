@@ -39,25 +39,28 @@ jobs:
       - name: Sync fork/master to upstream/master (keep local workflows)
         run: |
           git checkout master
-          git fetch upstream "$UPSTREAM_BRANCH"
           git reset --hard "upstream/$UPSTREAM_BRANCH"
 
-          # 1) полностью удалить workflows из индекса и из рабочего дерева
-          git rm -rf --cached --ignore-unmatch .github/workflows || true
+          # Удалить чужие workflows
+          git rm -rf --cached .github/workflows || true
           rm -rf .github/workflows || true
 
-          # 2) вернуть свои workflows из своего форка (origin/master)
+          # Вернуть свои (локальные) workflows из своего форка
+          git fetch origin master
           git checkout origin/master -- .github/workflows || true
+
+          # Добавить только если есть workflows
           if [ -d .github/workflows ]; then
             git add .github/workflows
           fi
 
-          # 3) коммит только если что-то реально поменялось (в индексе)
+          # Зафиксировать изменения, если они есть
           if ! git diff --cached --quiet; then
-            git commit -m "chore(ci): keep local workflows when syncing with upstream"
+            git commit -m "chore: restore local workflows after upstream sync"
           fi
 
           git push origin master --force-with-lease
+
 
 
   rebase-branch:
