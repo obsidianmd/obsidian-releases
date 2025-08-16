@@ -11888,9 +11888,9 @@
   {
     "id": "task-list-kanban",
     "name": "Task List Kanban",
-    "author": "Chris Kerr",
+    "author": "Chris Kerr, Erika Rice Scherpelz",
     "description": "Organizes all of the tasks within your files into a kanban view.",
-    "repo": "chrskerr/task-list-kanban"
+    "repo": "erikars/task-list-kanban"
   },
   {
     "id": "interactive-code-blocks",
@@ -12316,7 +12316,7 @@
     "id": "languagetool",
     "name": "LanguageTool",
     "author": "Lars Wrenger, Clemens Ertle",
-    "description": "Inofficial integration of the LanguageTool spell and grammar checker.",
+    "description": "Unofficial integration of the LanguageTool spell and grammar checker.",
     "repo": "wrenger/obsidian-languagetool"
   },
   {
@@ -18129,7 +18129,83 @@
     "description": "Quick, in-editor, emoji inserting. Type \":\" to start selecting an emoji to insert.",
     "repo": "asibilia/obsidian-quick-emoji"
   },
-    {
+  {
+    "id": "private-ai",
+    "name": "Private AI",
+    "author": "GB",
+    "description": "Effortlessly chat with your notes using locally hosted AI.  Private by design, your notes never leave the device and use locally processing only.",
+    "repo": "gabosgab/ObsidianPrivateAI"
+  },
+  {
+    "id": "custom-slides",
+    "name": "Custom Slides",
+    "author": "David V. Kimball",
+    "description": "Customize the Slides core plugin's navigation, styles, and behavior.",
+    "repo": "davidvkimball/obsidian-custom-slides"
+  },
+  {
+    "id": "scroll-to-nav-top",
+    "name": "Scrolls To Nav Top",
+    "author": "mario",
+    "description": "Scrolls File Explorer to top position.",
+    "repo": "mariomui/scroll-to-nav-top"
+  },
+  {
+    "id": "mini-rag",
+    "name": "Mini-RAG",
+    "author": "John Wheatley",
+    "description": "Leverage Retrieval Augmented Generation (RAG) for your notes using a locally running LLM or AI.",
+    "repo": "jjwheatley/mini-rag"
+  },
+  {
+    "id": "llm-shortcut",
+    "name": "LLM Shortcut",
+    "author": "Viktor Chernodub",
+    "description": "Provides a way to create shortcuts for commands powered by LLM capabilities.",
+    "repo": "chernodub/obsidian-llm-shortcut"
+  },
+  {
+    "id": "clipboard-manager",
+    "name": "Clipboard Manager",
+    "author": "Ayush Raj",
+    "description": "A clipboard manager that stores clipboard history and provides search functionality with real-time updates",
+    "repo": "ayu5h-raj/clipboard-manager"
+  },
+  {
+    "id": "bibtex-entry-view",
+    "name": "Bibtex Entry View",
+    "author": "Kyoungdeuk",
+    "description": "Load the bibtex entry of a given bibkey from a given bib file and show the entry in the code block of bibkey.",
+    "repo": "awfrok/obsidian-plugin-bibtex-entry-view"
+  },
+  {
+    "id": "sortable-tables",
+    "name": "Sortable Tables",
+    "description": "Adds sortable columns to markdown tables in preview mode.",
+    "author": "filippov112",
+    "repo": "filippov112/obsidian-sortable-tables"
+  },
+  {
+    "id": "umbpublisher",
+    "name": "umbPublisher",
+    "author": "Owain Williams",
+    "description": "Published notes to Umbraco CMS 15+",
+    "repo": "owainwilliams/umbpublisher"
+  },
+  {
+    "id": "linked-note-exporter",
+    "name": "Linked Note Exporter",
+    "author": "the-c0d3r",
+    "description": "Export note with all its attachments and linked notes.",
+    "repo": "the-c0d3r/obsidian-linked-note-exporter"
+  },
+  {
+    "id": "handwriting-ocr",
+    "name": "Handwriting OCR",
+    "author": "ikmolbo",
+    "description": "Transform handwritten documents and scanned images into editable text with Handwriting OCR's AI-powered handwriting to text conversion.",
+    "repo": "ikmolbo/handwriting-ocr-obsidian-plugin"
+  {
     "id": "logseq-namespace-injector",
     "name": "Logseq Namespace Injector",
     "author": "Stefan",
