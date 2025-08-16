@@ -36,22 +36,21 @@ jobs:
           git remote add upstream "$UPSTREAM" || true
           git fetch upstream "$UPSTREAM_BRANCH"
 
-      - name: Sync fork/master to upstream/master (force-clean workflows)
+      - name: Sync fork/master to upstream/master (clean workflows)
         run: |
           git checkout master
           git reset --hard "upstream/$UPSTREAM_BRANCH"
 
-          # Удаляем чужие workflows (физически и из индекса)
-          git rm -rf .github/workflows || true
-          rm -rf .github/workflows || true
+          # Удалить все чужие workflows
+          rm -rf .github/workflows
+          git add -u .github/workflows
+          git commit -m "chore: remove upstream workflows" || true
 
-          # Возвращаем свои из origin/master
+          # Вернуть свои workflows из origin/master
           git fetch origin master
           git checkout origin/master -- .github/workflows || true
-
-          # Добавляем их без проверки
           git add .github/workflows || true
-          git commit -m "ci: restore local workflows after syncing with upstream" || true
+          git commit -m "chore: restore local workflows" || true
 
           git push origin master --force-with-lease
 
