@@ -18094,7 +18094,7 @@
     "description": "Efficiently calculates and caches word counts for notes, with folder exclusion. Uses cache to avoid recalculating word counts for unchanged notes.",
     "repo": "blueheron786/obsidian-efficient-word-count"
   },
-  {
+    {
     "id": "variant-editor",
     "name": "Variant Editor",
     "author": "Kunal Jain",
@@ -18212,5 +18212,12 @@
     "author": "Jeffry",
     "description": "Collect related notes based on links/backlinks to provide focused context for external AI chatbots. Explore note relationships visually and export the bundle.",
     "repo": "shuxueshuxue/PackUp4AI"
+  },
+  {
+    "id": "git-folder-sync",
+    "name": "Git Folder Sync",
+    "author": "Xheldon",
+    "description": "Synchronize files in your Vault with a specified directory in the designated GitHub repository (rather than the entire repository); send your images to cloud storage services.",
+    "repo": "Xheldon/git-folder-sync"
   }
 ]
