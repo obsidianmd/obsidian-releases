@@ -16,6 +16,7 @@ export class VirtualMatch {
         public type: MatchType,
         public isSubWord: boolean,
         public settings: LinkerPluginSettings,
+        public plugin: any, // 添加 plugin 参数
         public headerId?: string,
         public isBoldContext: boolean = false,
         public isItalicContext: boolean = false,
@@ -106,9 +107,9 @@ export class VirtualMatch {
             const targetFile = file || (this.files.length > 0 ? this.files[0] : null);
             if (!targetFile) return false;
             
-            // 通过设置中的 app 实例打开链接
-            if (this.settings.app && this.settings.app.workspace) {
-                const app = this.settings.app;
+            // 通过插件实例获取 app 实例打开链接
+            if (this.plugin && this.plugin.app) {
+                const app = this.plugin.app;
                 if (headerIdToUse) {
                     app.workspace.openLinkText(targetFile.path, '', false, { active: true })
                         .then(() => {

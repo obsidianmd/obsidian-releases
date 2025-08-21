@@ -109,6 +109,7 @@ class AutoLinkerPlugin implements PluginValue {
     linkerCache: LinkerCache;
 
     settings: LinkerPluginSettings;
+    plugin: any; // 添加 plugin 属性
 
     private lastCursorPos: number = 0;
     private lastActiveFile: string = '';
@@ -116,8 +117,9 @@ class AutoLinkerPlugin implements PluginValue {
 
     viewUpdateDomToFileMap: Map<HTMLElement, TFile | undefined | null> = new Map();
 
-    constructor(view: EditorView, app: App, settings: LinkerPluginSettings, updateManager: ExternalUpdateManager) {
+    constructor(view: EditorView, app: App, settings: LinkerPluginSettings, updateManager: ExternalUpdateManager, plugin: any) {
         this.app = app;
+        this.plugin = plugin; // 存储 plugin 引用
         this.settings = settings;
 
         const { vault } = this.app;
@@ -260,6 +262,7 @@ class AutoLinkerPlugin implements PluginValue {
                                     isAlias ? MatchType.Alias : MatchType.Note,
                                     !isWordBoundary,
                                     this.settings,
+                                    this.plugin, // 添加 plugin 参数
                                     node.headerId
                                 );
 
@@ -433,8 +436,8 @@ const pluginSpec: PluginSpec<AutoLinkerPlugin> = {
     decorations: (value: AutoLinkerPlugin) => value.decorations,
 };
 
-export const liveLinkerPlugin = (app: App, settings: LinkerPluginSettings, updateManager: ExternalUpdateManager) => {
+export const liveLinkerPlugin = (app: App, settings: LinkerPluginSettings, updateManager: ExternalUpdateManager, plugin: any) => {
     return ViewPlugin.define((editorView: EditorView) => {
-        return new AutoLinkerPlugin(editorView, app, settings, updateManager);
+        return new AutoLinkerPlugin(editorView, app, settings, updateManager, plugin);
     }, pluginSpec);
 };

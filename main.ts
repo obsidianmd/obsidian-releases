@@ -148,11 +148,11 @@ export default class LinkerPlugin extends Plugin {
 
         // Register the glossary linker for the read mode
         this.registerMarkdownPostProcessor((element, context) => {
-            context.addChild(new GlossaryLinker(this.app, this.settings, context, element));
+            context.addChild(new GlossaryLinker(this.app, this.settings, context, element, this));
         });
 
         // Register the live linker for the live edit mode
-        this.registerEditorExtension(liveLinkerPlugin(this.app, this.settings, this.updateManager));
+        this.registerEditorExtension(liveLinkerPlugin(this.app, this.settings, this.updateManager, this));
 
         // This adds a settings tab so the user can configure various aspects of the plugin
         this.addSettingTab(new LinkerSettingTab(this.app, this));
@@ -709,22 +709,45 @@ export default class LinkerPlugin extends Plugin {
 
     async loadSettings() {
         this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
-        this.settings.app = this.app; // 添加 app 实例到设置中
-
+        
+        // 将 app 实例作为临时引用，而不是存储在设置对象中
+        // 这样可以避免循环引用问题
+        this.app = this.app; // 使用临时变量或类属性存储 app 引用
+        
         // Load markdown links from obsidian settings
         // At the moment obsidian does not provide a clean way to get the settings through an API
         // So we read the app.json settings file directly
         // We also Cannot use the vault API because it only reads the vault files not the .obsidian folder
-        const fileContent = await this.app.vault.adapter.read(this.app.vault.configDir + '/app.json');
-        const appSettings = JSON.parse(fileContent);
-        this.settings.defaultUseMarkdownLinks = appSettings.useMarkdownLinks;
-        this.settings.defaultLinkFormat = appSettings.newLinkFormat ?? 'shortest';
+        try {
+            const fileContent = await this.app.vault.adapter.read(this.app.vault.configDir + '/app.json');
+            const appSettings = JSON.parse(fileContent);
+            this.settings.defaultUseMarkdownLinks = appSettings.useMarkdownLinks;
+            this.settings.defaultLinkFormat = appSettings.newLinkFormat ?? 'shortest';
+        } catch (error) {
+            console.error("Failed to load app settings:", error);
+            // 设置默认值
+            this.settings.defaultUseMarkdownLinks = false;
+            this.settings.defaultLinkFormat = 'shortest';
+        }
     }
 
     /** Update plugin settings. */
     async updateSettings(settings: Partial<LinkerPluginSettings> = <Partial<LinkerPluginSettings>>{}) {
         Object.assign(this.settings, settings);
-        await this.saveData(this.settings);
+        
+        // 创建一个不包含循环引用的设置对象副本
+        const settingsToSave = {...this.settings};
+        // 移除不应该被序列化的属性
+        delete settingsToSave.app;
+        // delete settingsToSave.appMenuBarManager;
+        
+        try {
+            await this.saveData(settingsToSave);
+            console.log("Settings saved successfully to:", this.app.vault.configDir + "/plugins/fakelink/data.json");
+        } catch (error) {
+            console.error("Failed to save settings:", error);
+        }
+        
         this.updateManager.update();
         
         // 强制刷新所有视图以确保设置变更立即生效

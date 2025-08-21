@@ -17,7 +17,7 @@ export class GlossaryLinker extends MarkdownRenderChild {
         links.forEach(link => link.remove());
     }
 
-    constructor(app: App, settings: LinkerPluginSettings, context: MarkdownPostProcessorContext, containerEl: HTMLElement) {
+    constructor(app: App, settings: LinkerPluginSettings, context: MarkdownPostProcessorContext, containerEl: HTMLElement, public plugin: any) {
         super(containerEl);
         this.settings = settings;
         this.app = app;
@@ -133,6 +133,7 @@ export class GlossaryLinker extends MarkdownRenderChild {
                                                 node.type,
                                                 !isWordBoundary,
                                                 this.settings,
+                                                this.plugin, // 添加 plugin 参数
                                                 headerId
                                             );
 
