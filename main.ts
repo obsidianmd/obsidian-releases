@@ -161,33 +161,13 @@ export default class LinkerPlugin extends Plugin {
         this.registerEvent(this.app.workspace.on('file-menu', (menu, file, source) => this.addContextMenuItem(menu, file, source)));
 
         this.addCommand({
-            id: 'activate-virtual-linker',
-            name: 'Activate Virtual Linker',
-            checkCallback: (checking) => {
-                if (!this.settings.linkerActivated) {
-                    if (!checking) {
-                        this.updateSettings({ linkerActivated: true });
-                        this.updateManager.update();
-                    }
-                    return true;
-                }
-                return false;
-            },
-        });
-
-        this.addCommand({
-            id: 'deactivate-virtual-linker',
-            name: 'Deactivate Virtual Linker',
-            checkCallback: (checking) => {
-                if (this.settings.linkerActivated) {
-                    if (!checking) {
-                        this.updateSettings({ linkerActivated: false });
-                        this.updateManager.update();
-                    }
-                    return true;
-                }
-                return false;
-            },
+            id: 'toggle-virtual-linker',
+            name: 'Toggle Virtual Linker',
+            callback: () => {
+                this.updateSettings({ linkerActivated: !this.settings.linkerActivated });
+                this.updateManager.update();
+                console.log(`Virtual Linker ${this.settings.linkerActivated ? 'activated' : 'deactivated'}`);
+            }
         });
 
         this.addCommand({
