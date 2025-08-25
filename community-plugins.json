@@ -16840,6 +16840,55 @@
     "author": "Aleix Soler",
     "description": "Organize notes with customizable statuses. Track progress through an intuitive status pane, dropdown selector, and file explorer integration.",
     "repo": "devonthesofa/obsidian-note-status"
+},
+{
+  "id": "title-only-tab",
+  "name": "Title-Only Tab",
+  "author": "tristone13th",
+  "description": "Set tab name to title in frontmatter for Jekyll users",
+  "repo": "tristone13th/obsidian-title-only-tab"
+},
+{
+  "id": "data-cards",
+  "name": "DataCards",
+  "author": "Sophokles187",
+  "description": "Transform Dataview query results into visually appealing, customizable card layouts.",
+  "repo": "Sophokles187/data-cards"
+},
+{
+  "id": "bytefield",
+  "name": "Byte Field Diagrams",
+  "author": "natri0",
+  "description": "Adds diagrams that show how structures are laid out in memory / network.",
+  "repo": "natri0/obsidian-bytefield"
+},
+{
+  "id": "inline-callouts",
+  "name": "Inline Callouts",
+  "author": "@gapmiss",
+  "description": "Add inline callouts/badges/icons to notes.",
+  "repo": "gapmiss/inline-callouts"
+  },
+  {
+  "id": "checkbox-sort",
+  "name": "Checkbox Sort",
+  "author": "mattang687",
+  "description": "Automatically moves completed checkboxes to the end of the list",
+  "repo": "mattang687/obsidian-checkbox-sort"
+},
+{
+  "id": "logos-refs",
+  "name": "logos-refs",
+  "author": "Joey Kilgore",
+  "description": "Easily take refs from Logos and connect them within your notes",
+  "repo": "joey-kilgore/logos-refs"
+},
+{
+  "id": "easy-keep-view",
+  "name": "Easy Keep View",
+  "author": "@tazihad",
+  "description": "Easy Keep View mimics the Google Keep interface, allowing you to view and manage your notes with image thumbnails and excerpts.",
+  "repo": "tazihad/obsidian-easy-keep-view"
   },
   {
     "id": "title-only-tab",
@@ -17085,6 +17134,13 @@
     "author": "Kirill Zhuravlev",
     "description": "Sync your data from GitHub into your Vault.",
     "repo": "kazhuravlev/obsidian-github"
+},
+{
+	"id": "zhongwen-reader",
+	"name": "Zhongwen Reader", 
+	"author": "natipt",
+	"description": "This lightweight plugin helps you read Chinese more easily with a CEDICT based hover-dictionary and vocabulary saving features.",
+	"repo": "natipt/obsidian-zhongwen-reader"
   },
   {
     "id": "zhongwen-reader",
@@ -17099,14 +17155,14 @@
     "author": "proniclabs",
     "description": "Connect SolidTime to track your work time directly within your vault.",
     "repo": "pronicx/obsidian-solidtime-integration"
-  },
-  {
+},
+{
     "id": "biblib",
     "name": "BibLib",
     "author": "Callum Alpass",
     "description": "Create literature notes and manage bibliographic references",
     "repo": "callumalpass/obsidian-biblib"
-  },
+},
   {
     "id": "regex-line-filter",
     "name": "Regex Line Filter",
@@ -17162,7 +17218,7 @@
     "author": "Chen",
     "description": "Post the file to Typecho.",
     "repo": "Chen2226/obsidian-typecho"
-  },
+},
   {
     "id": "zen-space",
     "name": "Zen Space",
@@ -17337,7 +17393,14 @@
     "author": "ZigHolding",
     "description": "Sync notes or plugins between vaults.",
     "repo": "zigholding/obsidian-notesync-plugin"
-  },
+},
+{
+    "id": "custom-selected-word-count",
+    "name": "Custom Selected Word Count",
+    "author": "banisterious",
+    "description": "Provides advanced word counting features for selected text across all view modes. Goes beyond basic word counting with customizable path exclusion, and more.",
+    "repo": "banisterious/obsidian-custom-selected-word-count"
+},
   {
     "id": "countdown-to",
     "name": "Countdown To",
@@ -17407,13 +17470,27 @@
     "author": "Sebastian Kamilli",
     "description": "Downloads and unzips course module zip files from a URL into a specified vault folder, skipping existing files.",
     "repo": "QuintSmart/obsidian-course-module-loader"
-  },
+ },
   {
     "id": "note_uid_generator",
     "name": "Note UID Generator",
     "author": "Valentin Pelletier",
     "description": "Automatically or manually generates Unique IDs (UIDs) for notes and registers them in metadata (frontmatter).",
     "repo": "Netajam/obsidian_note_uid_generator"
+  },
+  {
+    "id": "ace-code-editor",
+    "name": "Ace Code Editor",
+    "author": "RavenHogWarts",
+    "description": "An enhanced code editor using Ace editor, providing syntax highlighting, code folding, and other advanced editing features.",
+    "repo": "RavenHogWarts/obsidian-ace-code-editor"
+  },
+  {
+		"id": "folder-filelist",
+		"name": "Folder Filelist",
+		"author": "Bill Anderson",
+		"description": "Create and maintain a list of wikilinks to files in specified folders.",
+		"repo": "band/obsidian-folder-filelist"
   },
   {
     "id": "ace-code-editor",
@@ -18226,5 +18303,12 @@
     "author": "Truong Gia Bao",
     "description": "Create the Markdown file from your Kindle Vocab Builder in your vault.",
     "repo": "bao-tg/kindle-vocab"
+  },
+  {
+    "id": "scribeflow",
+    "name": "ScribeFlow",
+    "author": "banisterious",
+    "description": "Streamlined journaling with structured entries, dream diary tracking, and insightful metrics",
+    "repo": "banisterious/obsidian-scribeflow"
   }
 ]
