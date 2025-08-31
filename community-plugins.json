@@ -18234,12 +18234,15 @@
     "description": "Extracts text from images using AI Vision models.",
     "repo": "rootiest/obsidian-ai-image-ocr"
   },
-  {
-  "id": "snippet-package-code",
+{
+  "id": "snippet-package-plugin",
   "name": "Snippet Package Code",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Snippet Package Code.",
   "author": "Federico Gilmet",
-  "description": "Este plugin para Obsidian permite insertar bloques de código interactivos con pestañas y un botón para copiar comandos. Es ideal para gestionar y compartir snippets de código de manera organizada y visualmente atractiva.",
-  "repo": "fgilmet/obsidian-snippet-package-code",
-  "version": "1.0.0"
+  "authorUrl": "https://github.com/fgilmet",
+  "main": "main.js",
+  "isDesktopOnly": false
 }
 ]
