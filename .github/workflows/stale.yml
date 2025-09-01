@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/stale@v9
         with:
-          stale-pr-message: "Hi there, as this PR has not seen any activity in the last 30 days, it will be closed in 15 days unless there are any updates."
+          stale-pr-message: "Hi there, as this PR has not seen any activity in the last 30 days, it will be closed in 15 days unless there are any updates.\nPlease double check that you have made all of the requested changes if you believe that this is a mistake."
           close-pr-message: "Hi there, to keep things tidy, we're closing PRs after one and a half months of inactivity.\nFeel free to create a new pull request when you're ready to continue. Thanks for your understanding!"
           days-before-stale: 30
           days-before-close: 15
