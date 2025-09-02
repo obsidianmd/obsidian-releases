@@ -84,9 +84,11 @@ export class VirtualMatch {
             headerIdToUse = this.headerId;
         }
         
+        let fullPath = href;
         if (headerIdToUse) {
             link.href = `${href}#${headerIdToUse}`;
             link.setAttribute('data-heading-id', headerIdToUse);
+            fullPath = `${href}#${headerIdToUse}`;
         } else {
             link.href = href;
         }
@@ -102,6 +104,7 @@ export class VirtualMatch {
         link.onclick = (event) => {
             // 阻止默认行为
             event.preventDefault();
+            event.stopPropagation();
             
             // 获取目标文件
             const targetFile = file || (this.files.length > 0 ? this.files[0] : null);
@@ -110,21 +113,8 @@ export class VirtualMatch {
             // 通过插件实例获取 app 实例打开链接
             if (this.plugin && this.plugin.app) {
                 const app = this.plugin.app;
-                if (headerIdToUse) {
-                    app.workspace.openLinkText(targetFile.path, '', false, { active: true })
-                        .then(() => {
-                            // 等待内容加载完成后滚动到标题
-                            setTimeout(() => {
-                                const headerEl = document.querySelector(`h1[data-heading-id="${headerIdToUse}"], h2[data-heading-id="${headerIdToUse}"], h3[data-heading-id="${headerIdToUse}"], h4[data-heading-id="${headerIdToUse}"], h5[data-heading-id="${headerIdToUse}"], h6[data-heading-id="${headerIdToUse}"]`);
-                                if (headerEl) {
-                                    headerEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                                }
-                            }, 100);
-                        });
-                } else {
-                    // 直接打开文件
-                    app.workspace.openLinkText(targetFile.path, '', false, { active: true });
-                }
+                // 使用完整的路径（包括标题ID）来打开链接
+                app.workspace.openLinkText(fullPath, '', false, { active: true });
             }
             
             return false;
