@@ -1759,9 +1759,9 @@
   {
     "id": "obsidian-image-toolkit",
     "name": "Image Toolkit",
-    "description": "When you click an image, it will be displayed in a popup layer and you can view, drag, zoom, rotate the image.",
+    "description": "Click images to preview with zoom, move, rotate, flip, invert, and copy.",
     "author": "sissilab",
-    "repo": "sissilab/obsidian-image-toolkit"
+    "repo": "obsidian-community/obsidian-image-toolkit"
   },
   {
     "id": "obsidian-shellcommands",
@@ -10017,6 +10017,13 @@
     "repo": "Benature/obsidian-metadata-icon"
   },
   {
+    "id": "fileorganizer2000",
+    "name": "Note Companion AI",
+    "author": "Benjamin Ashgan Shafii",
+    "description": "AI-powered note organization and chat. Requires subscription or self-hosting with your own API keys.",
+    "repo": "different-ai/file-organizer-2000"
+  },
+  {
     "id": "spotify-api",
     "name": "Spotify API",
     "author": "Darren-project",
@@ -16912,13 +16919,6 @@
     "repo": "tu2-atmanand/obsidian-notes-explorer"
   },
   {
-    "id": "markdown-flip",
-    "name": "Markdown Flip",
-    "author": "Jinmu Go",
-    "description": "flip markdown line types with smart shortcuts",
-    "repo": "JinmuGo/obsidian-markdown-flip"
-  },
-  {
     "id": "convert-base64-to-png",
     "name": "Convert Base64 to PNG",
     "author": "Nykko Lin",
@@ -17682,13 +17682,6 @@
     "repo": "LeonLuttenberger/obsidian-kindle-highlight-import"
   },
   {
-    "id": "smart-excluded",
-    "name": "Smart Excluded",
-    "author": "vlwkaos",
-    "description": "Change Excluded files setting per workspace, active note and more.",
-    "repo": "vlwkaos/obsidian-smart-excluded"
-  },
-  {
     "id": "eccirian",
     "name": "Eccirian Encrypt",
     "author": "Entropiex",
@@ -18240,5 +18233,236 @@
     "author": "Ray",
     "description": "Publish markdown notes to Confluence with cookies.",
     "repo": "UltraREX/publish2confluence"
+  },
+  {
+    "id": "drag-to-scroll",
+    "name": "Drag To Scroll",
+    "author": "Constantine Sazonov",
+    "description": "Drag to scroll - just like on a touch device!",
+    "repo": "constsz/obsidian-drag-to-scroll"
+  },
+  {
+    "id": "litecite",
+    "name": "LiteCite",
+    "author": "ras0q",
+    "description": "Creates citation notes from a BibTeX / BibLaTeX file",
+    "repo": "ras0q/obsidian-litecite"
+  },
+  {
+    "id": "github-tasks",
+    "name": "GitHub Tasks",
+    "author": "Mike Thicke",
+    "description": "Sync issues and pull requests from your GitHub account to tasks.",
+    "repo": "Epistemic-Technology/obsidian-github-tasks"
+  },
+  {
+    "id": "content-os",
+    "name": "Content OS",
+    "author": "eharris128",
+    "description": "Post directly to LinkedIn from your vault.",
+    "repo": "eharris128/obsidian-content-os"
+  },
+  {
+    "id": "version-control",
+    "name": "Version Control",
+    "author": "Yuichi-Aragi",
+    "description": "A local, snapshot-based version control system. Lets you create finite number of versions of any note.",
+    "repo": "Yuichi-Aragi/Version-Control"
+  },
+  {
+    "id": "x-post-saver",
+    "name": "X Post Saver",
+    "author": "Tanaka Mambinge",
+    "description": "Saves X (formerly Twitter) posts' text data to new notes or inside a specific directory in your vault.",
+    "repo": "tanaka-mambinge/x-post-saver"
+  },
+  {
+    "id": "long-sentence-highlighter",
+    "name": "Long sentence highlighter",
+    "author": "Robert Meißner",
+    "description": "Highlights sentences that exceed a configurable word count threshold to help improve writing clarity and readability.",
+    "repo": "RobertMeissner/obsidian-long-sentence-highlighter"
+  },
+  {
+    "id": "shell-path-copy",
+    "name": "Shell Path Copy",
+    "author": "Charles Kelsoe (ckelsoe)",
+    "description": "Quickly copy vault file and folder paths for AI coding tools (Claude Code, Gemini CLI) - works on desktop and mobile with Windows/Unix formats",
+    "repo": "ckelsoe/obsidian-shell-path-copy"
+  },
+  {
+    "id": "code-blocks-commands",
+    "name": "Code Blocks commands",
+    "author": "dragonish",
+    "description": "Provide commands to insert code blocks with markup, and support triggering commands with backticks.",
+    "repo": "dragonish/code-blocks-commands"
+  },
+  {
+    "id": "eccirian",
+    "name": "Eccirian Encrypt",
+    "author": "Entropiex",
+    "description": "Encrypt your notes using advanced encryption algorithms.",
+    "repo": "Enthalpiex/Eccirian-Encrypt"
+  },
+  {
+    "id": "rtl-math-text",
+    "name": "RTL Math Text",
+    "author": "orelby",
+    "description": "Mix right-to-left and left-to-right text in math expressions using configurable commands.",
+    "repo": "orelby/obsidian-rtl-math-text-plugin"
+  },
+  {
+    "id": "table-list",
+    "name": "Table List",
+    "author": "Akaswan",
+    "description": "Adds a table view to manage your tasks.",
+    "repo": "Akaswan/table-list"
+  },
+  {
+    "id": "coalesce",
+    "name": "Coalesce",
+    "author": "Floyd",
+    "description": "Coalesce your backlinked notes into a single view",
+    "repo": "bfloydd/coalesce"
+  },
+  {
+    "id": "current-view",
+    "name": "Current View",
+    "author": "Lucas Ostmann",
+    "description": "Automatically set the view mode (Reading, Live Preview, Source) for notes using folder rules, file patterns, or frontmatter",
+    "repo": "LucEast/obsidian-current-view"
+  },
+  {
+    "id": "replace-pencil",
+    "name": "Replace Pencil",
+    "author": "penyt",
+    "description": "Easily replace the custom variable in the code block.",
+    "repo": "penyt/replace-pencil"
+  },
+  {
+    "id": "alpha-bullet",
+    "name": "Alpha Bullet",
+    "author": "Mara-Li",
+    "description": "Sorts bulleted lists alphabetically.",
+    "repo": "Mara-Li/obsidian-alpha-bullet"
+  },
+  {
+    "id": "calculite",
+    "name": "Calculite",
+    "author": "Holo",
+    "description": "Standard calculator with a simple button layout.",
+    "repo": "gfxholo/calculite"
+  },
+  {
+    "id": "yandex-wiki-integration",
+    "name": "Yandex Wiki Integration",
+    "author": "Pavel Sokolov",
+    "description": "Integration plugin with Yandex Wiki knowledge base",
+    "repo": "CubieProg/Obsidian-Yandex-Wiki-Integration"
+  },
+  {
+    "id": "start-page",
+    "name": "Startpage",
+    "author": "kuzzh",
+    "description": "Automatically opens a customized homepage upon startup, displaying pinned and recent notes.",
+    "repo": "kuzzh/obsidian-startpage"
+  },
+  {
+    "id": "juliaplots",
+    "name": "JuliaPlots",
+    "author": "Iván Mansilla",
+    "description": "Plot a function graph inside of your notes using Julia.",
+    "repo": "ivnmansi/juliaplots"
+  },
+  {
+    "id": "tiny-habits",
+    "name": "Tiny Habits",
+    "author": "Diego Nazoa",
+    "description": "Habit tracking in a calendar table",
+    "repo": "nazoadiego/tiny-habits"
+  },
+  {
+    "id": "zettelkasten-branch-tracker",
+    "name": "Zettelkasten Branch Tracker",
+    "author": "James Cussen",
+    "description": "Specialised graph visualisation for Zettelkasten note hierarchies",
+    "repo": "thelivingphilosophy/zettelkasten-branch-tracker"
+  },
+  {
+    "id": "open-in-cursor",
+    "name": "Open in Cursor",
+    "author": "awaken233",
+    "description": "Add a hotkey to open the current file in Cursor IDE and jump to the cursor position",
+    "repo": "awaken233/open-in-cursor"
+  },
+  {
+    "id": "notesmith",
+    "name": "NoteSmith",
+    "author": "csteamengine",
+    "description": "NoteSmith is a powerful note-refining plugin using OpenAI's API. It allows you to refine your notes, generate summaries, and create new content based on your existing notes.",
+    "repo": "csteamengine/notesmith"
+  },
+  {
+    "id": "accounting-journal-ledger",
+    "name": "Accounting Journal and Ledger",
+    "author": "Javier Ribal del Río",
+    "description": "Tool for recording simple journal entries in class, based on the Spanish libro diario and libro mayor (ledger). Uses double-entry bookkeeping.",
+    "repo": "JavierRibaldelRio/accounting-journal-ledger"
+  },
+  {
+    "id": "remote-fetch",
+    "name": "Remote Fetch",
+    "author": "Shaharyar",
+    "description": "Download files from URLs directly into your vault with CORS proxy support.",
+    "repo": "Shaharyar-developer/remote-fetch"
+  },
+  {
+    "id": "xiangqi",
+    "name": "Chinese chess",
+    "author": "weshell",
+    "description": "Render xiangqi(Chinese chess) positions diagrams in a note.",
+    "repo": "west-shell/obsidian-xiangqi"
+  },
+  {
+    "id": "yandex-tracker-issue",
+    "name": "Yandex Tracker Issue",
+    "author": "Pavel Sokolov",
+    "description": "Display Yandex Tracker issues in your notes",
+    "repo": "CubieProg/Obsidian-Yandex-Tracker-Issue"
+  },
+  {
+    "id": "paste-as-file-link",
+    "name": "Paste as file link",
+    "author": "Matthias Büge",
+    "description": "Paste clipboard content as file links into existing notes, when a file with this name is existing.",
+    "repo": "mbedded/obsidian-paste-file-link"
+  },
+  {
+    "id": "keyboard-formatter",
+    "name": "Keyboard Formatter",
+    "author": "Lauloque",
+    "description": "Format selected text into HTML <kbd> tags for representing keyboard keys and mouse inputs.",
+    "repo": "Lauloque/Keyboard-Formatter"
+  },
+  {
+    "id": "datacore",
+    "name": "Datacore",
+    "author": "Michael Brenan",
+    "description": "An even faster reactive query engine for the data obsessed.",
+    "repo": "blacksmithgu/datacore"
+  },
+  {
+    "id": "papers",
+    "name": "Papers",
+    "author": "William Liang",
+    "description": "Retrieve and import research papers.",
+    "repo": "willjhliang/obsidian-papers"
+  },
+  {
+    "id": "custom-comment",
+    "name": "Custom Comments",
+    "author": "Jack Chronicle",
+    "description": "Create custom keyboard shortcuts that enclose comments.",
+    "repo": "jack-chronicle/custom-comment"
   }
 ]
