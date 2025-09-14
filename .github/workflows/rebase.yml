@@ -1,0 +1,188 @@
+name: Sync fork master + rebase cryptoprotos-plugin + JSON reorder # версия v4.3
+
+on:
+  schedule:
+    - cron: '0 */20 * * *'  # каждые 20 часов (UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebase-json
+  cancel-in-progress: true
+
+env:
+  UPSTREAM: https://github.com/obsidianmd/obsidian-releases.git
+  UPSTREAM_BRANCH: master
+  JSON_FILE: community-plugins.json
+  # идентификатор и данные твоего плагина
+  PLUGIN_ID: cryptoprotos
+  PLUGIN_NAME: CryptoProtos
+  PLUGIN_AUTHOR: Asbjorn Rasen
+  PLUGIN_DESC: Encrypt and decrypt entire files with password-based AES encryption. Learn more at www.cryptoprotos.tech.
+  PLUGIN_REPO: asbjornrasen/cryptoprotos-obsidian-plugin
+
+jobs:
+  sync-master:
+    if: github.repository_owner == 'asbjornrasen'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Git identity
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream & fetch
+        run: |
+          git remote add upstream "$UPSTREAM" || true
+          git fetch upstream "$UPSTREAM_BRANCH"
+
+      - name: Sync fork/master to upstream/master (clean workflows)
+        run: |
+          set -e
+          git checkout master
+          git reset --hard "upstream/$UPSTREAM_BRANCH"
+
+          rm -rf .github/workflows
+          git add -u .github/workflows
+          git commit -m "chore: remove upstream workflows" || true
+
+          git fetch origin master
+          git checkout origin/master -- .github/workflows || true
+          git add .github/workflows || true
+          git commit -m "chore: restore local workflows" || true
+
+          git push origin master --force-with-lease
+
+  rebase-branch:
+    if: github.repository_owner == 'asbjornrasen'
+    needs: sync-master
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: cryptoprotos-plugin
+          fetch-depth: 0
+
+      - name: Git identity
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Ensure jq
+        run: |
+          command -v jq >/dev/null 2>&1 || (sudo apt-get update && sudo apt-get install -y jq)
+
+      - name: Rebase cryptoprotos-plugin onto fork/master (auto-resolve JSON & workflows)
+        run: |
+          set -e
+          git fetch origin "$UPSTREAM_BRANCH"
+          BEFORE=$(git rev-parse HEAD)
+
+          if ! git rebase "origin/$UPSTREAM_BRANCH"; then
+            while :; do
+              CF_LIST=$(git diff --name-only --diff-filter=U | tr -d '\r')
+              [ -z "$CF_LIST" ] && break
+
+              echo "Conflicts detected:"
+              echo "$CF_LIST"
+
+              for F in $CF_LIST; do
+                case "$F" in
+                  "$JSON_FILE")
+                    echo "Auto-resolving JSON: $F"
+                    git show :3:"$JSON_FILE" > theirs.json || echo "[]" > theirs.json
+                    git show :2:"$JSON_FILE" > ours.json   || echo "[]" > ours.json
+                    jq -s --arg PID "$PLUGIN_ID" '
+                      (.[0] // []) as $theirs |
+                      (.[1] // []) as $ours   |
+                      ($theirs | map(select(.id != $PID))) +
+                      ($ours   | map(select(.id == $PID)))
+                    ' theirs.json ours.json > "$JSON_FILE"
+                    git add "$JSON_FILE"
+                    ;;
+                  .github/workflows/*)
+                    echo "Auto-resolving CI file: $F (prefer origin/$UPSTREAM_BRANCH)"
+                    git checkout "origin/$UPSTREAM_BRANCH" -- "$F" || true
+                    git add "$F"
+                    ;;
+                  *)
+                    echo "Non-JSON, non-CI conflict: $F — aborting rebase."
+                    git rebase --abort
+                    exit 1
+                    ;;
+                esac
+              done
+
+              git rebase --continue || true
+            done
+          fi
+
+          AFTER=$(git rev-parse HEAD)
+          echo "REBASE_CHANGED=$([ "$BEFORE" != "$AFTER" ] && echo 1 || echo 0)" >> $GITHUB_ENV
+
+      # ГАРАНТ: взять свежий JSON из origin/master, добавить/обновить наш плагин и поставить его последним
+      - name: Force-sync JSON from origin/master and keep our plugin last
+        run: |
+          set -e
+          git fetch origin "$UPSTREAM_BRANCH"
+
+          # Свежий JSON из master форка (после sync-master он = upstream/master)
+          git show "origin/$UPSTREAM_BRANCH:$JSON_FILE" > theirs.json || echo "[]" > theirs.json
+          # Текущая версия из нашей ветки
+          git show "HEAD:$JSON_FILE" > ours.json || echo "[]" > ours.json
+
+          jq -s \
+             --arg PID "$PLUGIN_ID" \
+             --arg PNAME "$PLUGIN_NAME" \
+             --arg PAUTHOR "$PLUGIN_AUTHOR" \
+             --arg PDESC "$PLUGIN_DESC" \
+             --arg PREPO "$PLUGIN_REPO" '
+            (.[0] // []) as $theirs |
+            (.[1] // []) as $ours   |
+            # Пытаемся найти существующую запись плагина (из нашей ветки или апстрима)
+            ( ($ours + $theirs) | map(select(.id == $PID)) | last ) as $maybe |
+            # Фолбэк, если записи нет вовсе
+            ( $maybe // { "id": $PID, "name": $PNAME, "author": $PAUTHOR, "description": $PDESC, "repo": $PREPO } ) as $plugin |
+            # Итог: свежий список из master без нашей записи + наша запись последней
+            ( $theirs | map(select(.id != $PID)) ) + [ $plugin ]
+          ' theirs.json ours.json > "$JSON_FILE.new"
+
+          if ! cmp -s "$JSON_FILE.new" "$JSON_FILE"; then
+            mv "$JSON_FILE.new" "$JSON_FILE"
+            git add "$JSON_FILE"
+            git commit -m "chore: sync $JSON_FILE from origin/$UPSTREAM_BRANCH and keep $PLUGIN_ID last"
+            echo "JSON_FORCED=1" >> $GITHUB_ENV
+          else
+            echo "JSON_FORCED=0" >> $GITHUB_ENV
+          fi
+
+      - name: Validate JSON structure
+        run: jq empty "$JSON_FILE"
+
+      - name: Ensure plugin entry is last (id=$PLUGIN_ID)
+        run: |
+          IS_LAST=$(jq -r '.[-1].id' "$JSON_FILE")
+          if [ "$IS_LAST" != "$PLUGIN_ID" ]; then
+            jq --arg PID "$PLUGIN_ID" \
+               '(map(select(.id != $PID)) + (map(select(.id == $PID))))' \
+               "$JSON_FILE" > "$JSON_FILE.tmp"
+            mv "$JSON_FILE.tmp" "$JSON_FILE"
+            git add "$JSON_FILE"
+            # Если предыдущий шаг делал коммит, попробуем amend; иначе создадим новый
+            git commit --amend --no-edit || git commit -m "chore: move $PLUGIN_ID entry to end"
+            echo "JSON_REORDERED=1" >> $GITHUB_ENV
+          else
+            echo "JSON_REORDERED=0" >> $GITHUB_ENV
+          fi
+
+      - name: Push updated branch (only if changed)
+        if: env.REBASE_CHANGED == '1' || env.JSON_FORCED == '1' || env.JSON_REORDERED == '1'
+        run: |
+          git push origin HEAD:cryptoprotos-plugin --force-with-lease
