@@ -126,11 +126,14 @@ jobs:
                 addError('The plugin ID is not valid. Only alphanumeric lowercase characters and dashes are allowed.');
               }
 
-              else if (plugin.name?.toLowerCase().includes('obsidian')) {
+              if (plugin.name?.toLowerCase().includes('obsidian')) {
                 addError(`Please don't use the word \`Obsidian\` in your plugin name since it's redundant and adds clutter to the plugin list.`);
               }
               if (plugin.name?.toLowerCase().endsWith('plugin')) {
                 addError(`Please don't use the word \`Plugin\` in the plugin name since it's redundant and adds clutter to the plugin list.`);
+              }
+              if (plugin.name?.toLowerCase().startsWith("Obsi") || plugin.name?.toLowerCase().endsWith('dian')) {
+                addError(`Please don't parts of the name \`Obsidian\` in the plugin name, it's redundant`);
               }
 
               if (plugin.author && /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(plugin.author)) {
