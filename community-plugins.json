@@ -18017,7 +18017,7 @@
     "description": "Efficiently calculates and caches word counts for notes, with folder exclusion. Uses cache to avoid recalculating word counts for unchanged notes.",
     "repo": "blueheron786/obsidian-efficient-word-count"
   },
-  {
+    {
     "id": "variant-editor",
     "name": "Variant Editor",
     "author": "Kunal Jain",
@@ -18429,5 +18429,12 @@
     "author": "Jared Kelnhofer",
     "description": "Move cursor right then left briefly on startup --> first opened note. Makes DataView expressions 'activate' automatically instead of waiting for user interaction.",
     "repo": "Treadder/move-cursor-on-startup"
+  }, 
+  {
+    "id": "git-folder-sync",
+    "name": "Git Folder Sync",
+    "author": "Xheldon",
+    "description": "Synchronize files in your Vault with a specified directory in the designated GitHub repository (rather than the entire repository); send your images to cloud storage services.",
+    "repo": "Xheldon/git-folder-sync"
   }
 ]
