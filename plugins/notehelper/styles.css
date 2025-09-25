@@ -1,0 +1,77 @@
+/* Style the button that is used to open and close the collapsible content */
+.omnivore-collapsible {
+	cursor: pointer;
+	border-bottom: outset;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.omnivore-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.omnivore-collapsible:after {
+	content: '\02795'; /* Unicode character for "plus" sign (+) */
+	float: right;
+}
+
+.omnivore-active:after {
+	content: '\2796'; /* Unicode character for "minus" sign (-) */
+}
+
+.omnivore-highlight-config-container {
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.modal.mod-settings
+  button:not(.mod-cta):not(.mod-warning).omnivore-btn.omnivore-btn-primary {
+   	color: var(--text-accent);
+}
+
+.modal.mod-settings
+  button:not(.mod-cta):not(.mod-warning).omnivore-btn.omnivore-btn-primary:hover {
+	color: var(--text-accent-hover);
+	background-color: var(--background-secondary);
+}
+
+/*----------------------------------------------------------------
+Omnivore Highlight Color Config Setting
+----------------------------------------------------------------*/
+
+.omnivore-highlight-setting-item {
+	display: grid;
+	grid-gap: 8px;
+	grid-template-columns: 0.5fr 7fr;
+	align-items: center;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.omnivore-highlight-setting-icon {
+	display: flex;
+	height: 24px;
+	width: 24px;
+}
+
+mark.omni {
+	background-color: var(--text-highlight-rgb);
+	font-weight: 500;
+	margin: 0 -0.05em;
+	padding: 0.125em 0.15em;
+	border-radius: 0.25em;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+}
+
+mark.omni-yellow {
+	--text-highlight-rgb: var(--omni-yellow);
+}
+mark.omni-red {
+	--text-highlight-rgb: var(--omni-red);
+}
+mark.omni-green {
+	--text-highlight-rgb: var(--omni-green);
+}
+mark.omni-blue {
+	--text-highlight-rgb: var(--omni-blue);
+}
