@@ -11,7 +11,7 @@ jobs:
   plugin-validation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: "refs/pull/${{ github.event.number }}/merge"
       - uses: actions/setup-node@v2
@@ -38,10 +38,30 @@ jobs:
               console.log('Found issue: ' + warning);
             }
 
+            let plugin;
             // Core validation logic
             await (async () => {
               if (context.payload.pull_request.changed_files > 1) {
                 addError('You modified files other than `community-plugins.json`.');
+              }
+
+              if (!context.payload.pull_request.maintainer_can_modify) {
+                addWarning('Maintainers of this repo should be allowed to edit this pull request. This speeds up the approval process.');
+              }
+
+              const templateStrings = [
+                'I have tested the plugin on',
+                'My GitHub release contains all required files (as individual files, not just in the source.zip / source.tar.gz)', 'GitHub release name matches the exact version number specified in my manifest.json',
+                'The `id` in my `manifest.json` matches the `id` in the `community-plugins.json` file.',
+                'My README.md describes the plugin\'s purpose and provides clear usage instructions.',
+                'I have read the developer policies at https://docs.obsidian.md/Developer+policies, and have assessed my plugin',
+                'I have read the tips in https://docs.obsidian.md/Plugins/Releasing/Plugin+guidelines and have self-reviewed my plugin to avoid these common pitfalls',
+                'I have added a license in the LICENSE file.',
+                'My project respects and is compatible with the original license of any code from other plugins that I\'m using.',
+                'I have given proper attribution to these other projects in my `README.md`.'
+              ];
+              if (!templateStrings.every(element => context.payload.pull_request.body?.includes(element))) {
+                addError('You did not follow the pull request template. The PR template can be found [here](https://raw.githubusercontent.com/obsidianmd/obsidian-releases/refs/heads/master/.github/PULL_REQUEST_TEMPLATE/plugin.md)');
               }
 
               let plugins = [];
@@ -52,8 +72,20 @@ jobs:
                 return;
               }
 
-              const plugin = plugins[plugins.length - 1];
+              plugin = plugins[plugins.length - 1];
 
+              let validKeys = ['id', 'name', 'description', 'author', 'repo'];
+              for (let key of validKeys) {
+                if (!plugin.hasOwnProperty(key)) {
+                  addError(`Your PR does not have the required \`${key}\` property.`);
+                }
+              }
+              for (let key of Object.keys(plugin)) {
+                if (plugin.hasOwnProperty(key) && validKeys.indexOf(key) === -1) {
+                  addError(`Your PR has the invalid \`${key}\` property.`);
+                }
+              }
+              
               // Validate plugin repo
               let repoInfo = plugin.repo.split('/');
               if (repoInfo.length !== 2) {
@@ -71,7 +103,7 @@ jobs:
                     throw undefined;
                   }
                 } catch (e) {
-                  addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. The last plugin in the list is: \`${plugin.repo}\`.`);
+                  addError(`The newly added entry is not at the end, or you are submitting on someone else's behalf. The last plugin in the list is: \`${plugin.repo}\`. If you are submitting from a GitHub org, you need to be a public member of the org.`);
                 }
               }
 
@@ -84,53 +116,59 @@ jobs:
                 addError(`It seems like you made a typo in the repository field \`${plugin.repo}\`.`);
               }
 
-              if (plugin.id.toLowerCase().startsWith('obsidian')) {
+              if (plugin.id?.toLowerCase().includes('obsidian')) {
                 addError(`Please don't use the word \`obsidian\` in the plugin ID. The ID is used for your plugin's folder so keeping it short and simple avoids clutter and helps with sorting.`);
               }
-              if (plugin.id.toLowerCase().endsWith('plugin')) {
+              if (plugin.id?.toLowerCase().endsWith('plugin')) {
                 addError(`Please don't use the word \`plugin\` in the plugin ID. The ID is used for your plugin's folder so keeping it short and simple avoids clutter and helps with sorting.`);
               }
-              if (!/^[a-z0-9-_]+$/.test(plugin.id)) {
-                addError('The plugin ID is not valid. Only alphanumeric characters and dashes are allowed.');
+              if (plugin.id && !/^[a-z0-9-_]+$/.test(plugin.id)) {
+                addError('The plugin ID is not valid. Only alphanumeric lowercase characters and dashes are allowed.');
               }
 
-              if (plugin.name.toLowerCase().startsWith('obsidian')) {
-                addError(`Please don't use the word \`Obsidian\` at the start of your plugin name since it's redundant and makes it harder to sort the plugin list.`);
+              if (plugin.name?.toLowerCase().includes('obsidian')) {
+                addError(`Please don't use the word \`Obsidian\` in your plugin name since it's redundant and adds clutter to the plugin list.`);
               }
-              else if (plugin.name.toLowerCase().includes('obsidian')) {
-                addWarning(`Please don't use the word \`Obsidian\` in your plugin name since it's redundant and adds clutter to the plugin list.`);
+              if (plugin.name?.toLowerCase().endsWith('plugin')) {
+                addError(`Please don't use the word \`Plugin\` in the plugin name since it's redundant and adds clutter to the plugin list.`);
               }
-              if (plugin.name.toLowerCase().endsWith('plugin')) {
-                addWarning(`Please don't use the word \`Plugin\` in the plugin name since it's redundant and adds clutter to the plugin list.`);
+              if (plugin.name?.toLowerCase().startsWith("Obsi") || plugin.name?.toLowerCase().endsWith('dian')) {
+                addError(`Please don't parts of the name \`Obsidian\` in the plugin name, it's redundant`);
               }
 
-              if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(plugin.author)) {
+              if (plugin.author && /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(plugin.author)) {
                 addWarning(`We generally discourage including your email addresses in the \`author\` field.`);
               }
 
-              if (plugin.description.length > 300) {
-                addWarning(`Your plugin has a long description. Users typically find it difficult to read a very long description, so you should keep it short and concise.`);
+              if (plugin.description?.toLowerCase().includes('obsidian')) {
+                addError('Please don\'t include `Obsidian` in the plugin description');
+              }
+              if (plugin.description?.toLowerCase().includes('this plugin') || plugin.description?.toLowerCase().includes('this is a plugin') || plugin.description?.toLowerCase().includes('this plugin allows')) {
+                addWarning('Avoid including sentences like `This is a plugin that does` in your description');
+              }
+              
+              if (plugin.description?.length > 250) {
+                addError(`Your plugin has a long description. Users typically find it difficult to read a very long description, so you should keep it short and concise.`);
               }
 
-              if (plugin.branch) {
-                addError('You do not need to include the `branch` parameter when submitting your PR.');
+              if (plugin.id && plugins.filter(p => p.id === plugin.id).length > 1) {
+                addError(`There is already a plugin with the id \`${plugin.id}\`.`);
               }
-
-              let validKeys = ['id', 'name', 'description', 'author', 'repo', 'branch'];
-              for (let key in plugin) {
-                if (plugin.hasOwnProperty(key) && validKeys.indexOf(key) === -1) {
-                  addError(`Your PR has the invalid \`${key}\` property.`);
-                }
+              if (plugin.name && plugins.filter(p => p.name === plugin.name).length > 1) {
+                addError(`There is already a plugin with the name \`${plugin.name}\`.`);
               }
-
-              if (plugins.filter(p => p.id === plugin.id).length > 1) {
-                addError(`There is already a plugin with this ID.`);
-              }
-              if (plugins.filter(p => p.name === plugin.name).length > 1) {
-                addError(`There is already a plugin with this name.`);
-              }
-              if (plugins.filter(p => p.repo === plugin.repo).length > 1) {
+              if (plugin.repo && plugins.filter(p => p.repo === plugin.repo).length > 1) {
                 addError(`There is already a entry pointing to the \`${plugin.repo}\` repository.`);
+              }
+
+              const removedPlugins = JSON.parse(fs.readFileSync('community-plugins-removed.json', 'utf8'));
+
+              if (plugin.id && removedPlugins.filter(p => p.id === plugin.id).length > 1) {
+                addError(`Another plugin used to exist with the id \`${plugin.id}\`. To avoid issues for users that still have the old plugin installed using this plugin ID is not allowed`);
+              }
+
+              if (plugin.name && removedPlugins.filter(p => p.name === plugin.name).length > 1) {
+                addWarning(`Another plugin used to exist with the name \`${plugin.name}\`. To avoid confussion we recommend against using this name.`);
               }
 
               let manifest = null;
@@ -147,10 +185,24 @@ jobs:
               }
 
               if (manifest) {
-                if (manifest.id !== plugin.id) {
+                let validManifestKeys = ['id', 'name', 'description', 'author', 'version', 'minAppVersion', 'isDesktopOnly'];
+                for (let key of validManifestKeys) {
+                  if (!manifest.hasOwnProperty(key)) {
+                    addError(`Your manifest does not have the required \`${key}\` property.`);
+                  }
+                }
+
+                let allowedManifestKeys = [...validManifestKeys, 'authorUrl', 'fundingUrl', 'helpUrl'];
+                for (let key of Object.keys(manifest)) {
+                  if (!allowedManifestKeys.includes(key)) {
+                    addError(`Your manifest has the invalid \`${key}\` property.`);
+                  }
+                }
+
+                if (plugin.name && manifest.id !== plugin.id) {
                   addError(`Plugin ID mismatch, the ID in this PR (\`${plugin.id}\`) is not the same as the one in your repo (\`${manifest.id}\`). If you just changed your plugin ID, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
-                if (manifest.name !== plugin.name) {
+                if (plugin.name && manifest.name !== plugin.name) {
                   addError(`Plugin name mismatch, the name in this PR (\`${plugin.name}\`) is not the same as the one in your repo (\`${manifest.name}\`). If you just changed your plugin name, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
 
@@ -160,12 +212,15 @@ jobs:
                   }
 
                   if (manifest.authorUrl.toLowerCase().includes("github.com/" + plugin.repo.toLowerCase())) {
-                    addWarning(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the plugin.`);
+                    addError(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the plugin.`);
                   }
                 }
 
                 if (manifest.fundingUrl && manifest.fundingUrl === "https://obsidian.md/pricing") {
-                  addError(`The \`fundingUrl\` field in your manifest should not point to the Obsidian Website, If you don't have a link were users can donate to you, you can just omit this.`);
+                  addError(`The \`fundingUrl\` field in your manifest should not point to the Obsidian Website, If you don't have a link were users can donate to you, you can just remove it from the manifest.`);
+                }
+                if (manifest.fundingUrl && manifest.fundingUrl === "") {
+                  addError('The `fundingUrl` is meant for links to services like _Buy me a coffee_, _GitHub sponsors_ and so on, if you don\'t have such a link remove it from the manifest.');
                 }
 
                 if (!/^[0-9.]+$/.test(manifest.version)) {
@@ -181,23 +236,24 @@ jobs:
 
                   const assets = release.data.assets || [];
                   if (!assets.find(p => p.name === 'main.js')) {
-                    addError('Your latest Release is missing the `main.js` file.');
+                    addError('Your latest release is missing the `main.js` file.');
                   }
                   if (!assets.find(p => p.name === 'manifest.json')) {
-                    addError('Your latest Release is missing the `manifest.json` file.');
+                    addError('Your latest release is missing the `manifest.json` file.');
                   }
                 } catch (e) {
                   addError(`Unable to find a release with the tag \`${manifest.version}\`. Make sure that the version in your manifest.json file in your repo points to the correct Github Release.`);
                 }
+
               }
 
               try {
                 await github.rest.licenses.getForRepo({owner, repo});
               } catch (e) {
-                addWarning(`Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.`);
+                addError(`Your repository does not include a license. Go to <https://choosealicense.com/> to compare different open source licenses.`);
               }
             })();
-
+            
             if (errors.length > 0 || warnings.length > 0) {
               let message = [`#### Hello!\n`]
               message.push(`**I found the following issues in your plugin submission**\n`);
@@ -222,15 +278,66 @@ jobs:
                 body: message.join('\n'),
               });
             }
+            const labels = [];
 
             if (errors.length > 0) {
+              labels.push("Validation failed");
               core.setFailed("Failed to validate plugin");
             }
 
-            let labels = errors.length > 0 ? ['Validation failed'] : ['Ready for review'];
-            if (context.payload.pull_request.labels.includes('Changes requested')) {
+            if (errors.length === 0) {
+              await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                title: `Add plugin: ${plugin.name}`
+              });
+
+              const comments = github.rest.issues.listComments({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number
+              });
+              const commentAuthors = [];
+              for (const comment in comments) {
+                commentAuthors.push(comment.user.login);
+              }
+
+              if (!commentAuthors.includes("ObsidianReviewBot")) {
+                await github.rest.issues.addAssignees({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  assignees: 'ObsidianReviewBot'
+                });
+              }
+
+              if(!context.payload.pull_request.labels.filter(label => label.name === 'Changes requested').length > 0) {
+                labels.push("Ready for review");
+              }
+            }
+            if (context.payload.pull_request.labels.filter(label => label.name === 'Changes requested').length > 0) {
               labels.push('Changes requested');
             }
+            if (context.payload.pull_request.labels.filter(label => label.name === 'Additional review required').length > 0) {
+              labels.push('Additional review required');
+            }
+            if (context.payload.pull_request.labels.filter(label => label.name === 'Minor changes requested').length > 0) {
+              labels.push('Minor changes requested');
+            }
+            if (context.payload.pull_request.labels.filter(label => label.name === 'requires author rebase').length > 0) {
+              labels.push('requires author rebase');
+            }
+            if (context.payload.pull_request.labels.filter(label => label.name === 'Installation not recommended').length > 0) {
+              labels.push('Installation not recommended');
+            }
+            if (context.payload.pull_request.labels.filter(label => label.name === 'Changes made').length > 0) {
+              labels.push('Changes made');
+            }
+            if (context.payload.pull_request.labels.filter(label => label.name === 'Skipped code scan').length > 0) {
+              labels.push('Skipped code scan');
+            }
+            labels.push('plugin');
 
             await github.rest.issues.setLabels({
               issue_number: context.issue.number,
