@@ -146,7 +146,7 @@ jobs:
               if (plugin.description?.toLowerCase().includes('this plugin') || plugin.description?.toLowerCase().includes('this is a plugin') || plugin.description?.toLowerCase().includes('this plugin allows')) {
                 addWarning('Avoid including sentences like `This is a plugin that does` in your description');
               }
-              if (!plugin.description?.endsWith('.') || !plugin.description?.endsWith('?') || !plugin.description?.endsWith('!') || !plugin.description?.endsWith(')')) {
+              if (!plugin.description?.endsWith('.') && !plugin.description?.endsWith('?') && !plugin.description?.endsWith('!') && !plugin.description?.endsWith(')')) {
                 addError('Your description needs to have one of the following characters at the end: `.?!)`');
               }
               
