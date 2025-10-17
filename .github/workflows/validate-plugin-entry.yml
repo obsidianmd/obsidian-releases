@@ -245,7 +245,7 @@ jobs:
                     addError(`The release \`${manifest.version}\` specified in the \`manifest.json\` in the root of the repo is missing the \`main.js\` file.`);
                   }
                   if (!assets.find(p => p.name === 'manifest.json')) {
-                    addError('The release \`${manifest.version}\` specified in the \`manifest.json\` in the root of the repo is missing the \`manifest.json\` file.`);
+                    addError(`The release \`${manifest.version}\` specified in the \`manifest.json\` in the root of the repo is missing the \`manifest.json\` file.`);
                   }
                 } catch (e) {
                   addError(`Unable to find a release with the tag \`${manifest.version}\`. Make sure that the version in your manifest.json file in your repo points to the correct Github Release.`);
