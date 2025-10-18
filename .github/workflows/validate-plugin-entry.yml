@@ -6,6 +6,8 @@ on:
       - master
     paths:
       - community-plugins.json
+  issue_comment:
+    types: [created]
 
 jobs:
   plugin-validation:
@@ -13,12 +15,38 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: "refs/pull/${{ github.event.number }}/head"
+          ref: "refs/pull/${{ github.event.pull_request.number || github.event.issue.number }}/head"
       - uses: actions/setup-node@v2
       - uses: actions/github-script@v6
         with:
           script: |
             const fs = require('fs');
+
+            if (context.eventName === 'issue_comment') {
+              if (!context.payload.issue?.pull_request || !context.payload.comment?.body?.includes('/validate')) {
+                console.log('Skipping: Not a /validate comment on a PR');
+                return;
+              }
+
+              const prNumber = context.issue.number;
+              const files = await github.rest.pulls.listFiles({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: prNumber,
+              });
+
+              const changedFiles = files.data.map(f => f.filename);
+              if (changedFiles.length !== 1 || changedFiles[0] !== 'community-plugins.json') {
+                console.log('Skipping: PR does not change only community-plugins.json');
+                return;
+              }
+
+              context.payload.pull_request = (await github.rest.pulls.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: prNumber,
+              })).data;
+            }
 
             // Don't run any validation checks if the user is just modifying existing plugin config
             if (context.payload.pull_request.additions <= context.payload.pull_request.deletions) {
