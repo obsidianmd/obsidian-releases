@@ -18592,10 +18592,14 @@
     "repo": "mudnug/note-navigator"
   },
   {
-    "id": "dropdown-vars",
-    "name": "Dropdown Vars",
-    "author": "Majid Khonji",
-    "description": "Dropdowns in Reading and Live Preview; sync to frontmatter or inline Dataview.",
-    "repo": "majid-khonji/obsidian-dropdown-vars"
-    }
+  "id": "dropdown-vars",
+  "name": "Dropdown Vars",
+  "version": "0.1.0",
+  "main": "main.js",
+  "minAppVersion": "1.5.0",
+  "author": "Majid Khonji",
+  "authorUrl": "https://github.com/majid-khonji",
+  "description": "{Key: a | ^b | c} renders inline dropdowns in Reading + Live Preview; click to select; persist to frontmatter and/or inline Dataview.",
+  "isDesktopOnly": false
+}
 ]
