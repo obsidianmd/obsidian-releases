@@ -18583,5 +18583,16 @@
     "author": "m",
     "description": "Streamlines note review by automatically navigating to the next note upon deletion. Adds commands to go to the previous and next note, respecting user-selected sort order.",
     "repo": "mudnug/note-navigator"
-  }
+  },
+  {
+  "id": "dropdown-vars",
+  "name": "Dropdown Vars",
+  "version": "0.1.0",
+  "main": "main.js",
+  "minAppVersion": "1.5.0",
+  "author": "Majid Khonji",
+  "authorUrl": "https://github.com/majid-khonji",
+  "description": "{Key: a | ^b | c} renders inline dropdowns in Reading + Live Preview; click to select; persist to frontmatter and/or inline Dataview.",
+  "isDesktopOnly": false
+}
 ]
