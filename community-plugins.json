@@ -3117,7 +3117,7 @@
   {
     "id": "obsidian-version-history-diff",
     "name": "Version History Diff (Sync, File Recovery & Git)",
-    "description": "Diff the version history of the core Sync and File Recovery plugins and Git for the active file. Adds a command to open the core Sync version history as well.",
+    "description": "Diff the version history of the core Sync and File Recovery plugins and Git for the active file.",
     "author": "kometenstaub",
     "repo": "kometenstaub/obsidian-version-history-diff"
   },
@@ -7458,7 +7458,7 @@
     "id": "at-symbol-linking",
     "name": "@ Symbol Linking",
     "author": "Evan Bonsignori",
-    "description": "Link with @ (the at symbol). Can scope @ linking to a specific directory e.g. Contacts/",
+    "description": "Link to notes with any symbol (e.g. `@`). Can map symbols to link to a specific directory or to create files in directories using templates.",
     "repo": "Ebonsignori/obsidian-at-symbol-linking"
   },
   {
@@ -16425,7 +16425,7 @@
     "id": "querydash",
     "name": "QueryDash",
     "author": "lwx",
-    "description": "Refer to Dataview and add search, sorting, and pagination functions, just like Notion.",
+    "description": "Add new views and enhanced features for bases. Inspired by Dataview and bases, this includes search, sorting, and pagination functionalities similar to Notion.",
     "repo": "liufree/obsidian-querydash"
   },
   {
@@ -18485,6 +18485,111 @@
     "author": "iCodeAlchemy",
     "description": "Bring Notion-style layouts with blocks side-by-side, resizable Markdown blocks that support texts, images, embeds, and internal links.",
     "repo": "iCodeAlchemy/horizontal-blocks"
+  },
+  {
+    "id": "webviewer-bookmarks",
+    "name": "Web viewer Bookmarks",
+    "author": "Stefan Danzl",
+    "description": "Create and manage bookmarks for the built-in Web viewer.",
+    "repo": "stefandanzl/webviewer-bookmarks"
+  },
+  {
+    "id": "line-ending-copyfix",
+    "name": "Fix Line Endings on Copy",
+    "author": "KiwiJanus",
+    "description": "Change line endings to CRLF when copying text on Windows (add carriage return).",
+    "repo": "KiwiJanus/obsidian-line-ending-copyfix"
+  },
+  {
+    "id": "custom-theme-studio",
+    "name": "Custom Theme Studio",
+    "author": "@gapmiss",
+    "description": "Create and customize themes with a built-in CSS editor. Modify colors, styles, and export your custom theme.",
+    "repo": "gapmiss/custom-theme-studio"
+  },
+  {
+    "id": "todoseq",
+    "name": "TODOseq",
+    "author": "Stephen Cross",
+    "description": "Lightweight keyword-based task tracker using Logseq style keywords.",
+    "repo": "scross01/obsidian-todoseq"
+  },
+  {
+    "id": "local-bible-ref",
+    "name": "Local Bible Ref",
+    "author": "Caleb Campbell",
+    "description": "Quickly and easily reference Bible passages stored locally in your vault.",
+    "repo": "camelChief/local-bible-ref"
+  },
+  {
+    "id": "personal-development-plan",
+    "name": "Personal Development Plan",
+    "author": "Artem Korsakov",
+    "description": "Build your Personal Development Plan.",
+    "repo": "artemkorsakov/personal-development-plan"
+  },
+  {
+    "id": "adapt-to-current-view",
+    "name": "Adapt to Current View",
+    "author": "greetclammy",
+    "description": "Set different accent colors for Reading view, Live Preview and Source.",
+    "repo": "greetclammy/adapt-to-current-view"
+  },
+  {
+    "id": "local-rss",
+    "name": "Local RSS",
+    "author": "onikun94",
+    "description": "Download RSS feed articles to local files.",
+    "repo": "onikun94/obsidian-local-rss"
+  },
+  {
+    "id": "chatty",
+    "name": "Chatty",
+    "author": "Sadnan Saquif",
+    "description": "Allows you to listen to your notes using text-to-speech. Uses the browser's built-in speech synthesis capabilities and your default system voices.",
+    "repo": "SSaquif/obsidian-chatty"
+  },
+  {
+    "id": "tezcat",
+    "name": "Tezcat",
+    "author": "Max Margenot",
+    "description": "Implements AI indexing and search to surface related thoughts to your current work. Look into the mirror.",
+    "repo": "mmargenot/tezcat"
+  },
+  {
+    "id": "granola-sync",
+    "name": "Granola Sync",
+    "author": "Tom Elliot",
+    "description": "Sync Granola notes to your vault.",
+    "repo": "tomelliot/obsidian-granola-sync"
+  },
+  {
+    "id": "daggerforge",
+    "name": "DaggerForge",
+    "author": "Waleed Alnaimi",
+    "description": "Easy access to DaggerHeart's Adversaries + creating your own.",
+    "repo": "torutu/daggerforge"
+  },
+  {
+    "id": "time-inserter",
+    "name": "Time Inserter",
+    "author": "heycalmdown",
+    "description": "Insert current time at cursor position, rounded to nearest 5-minute interval.",
+    "repo": "heycalmdown/obsidian-time-inserter"
+  },
+  {
+    "id": "ignore-filters-boost",
+    "name": "Ignore Filters Boost",
+    "description": "Update excluded files from the file explorer.",
+    "author": "lavton",
+    "repo": "Lavton/obsidian-ignore-filter-shortcut"
+  },
+  {
+    "id": "note-navigator",
+    "name": "Note Navigator",
+    "author": "m",
+    "description": "Streamlines note review by automatically navigating to the next note upon deletion. Adds commands to go to the previous and next note, respecting user-selected sort order.",
+    "repo": "mudnug/note-navigator"
   },
   {
     "id": "publish-to-confluence",
