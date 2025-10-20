@@ -1,0 +1,223 @@
+/* AI Video Generator Plugin Styles */
+
+.video-generator-ribbon-class {
+	color: #ff6b6b;
+}
+
+/* 侧边栏样式 */
+.video-generator-sidebar {
+	padding: 16px;
+	height: 100%;
+	overflow-y: auto;
+	box-sizing: border-box;
+}
+
+.video-generator-sidebar .video-generator-header {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.video-generator-sidebar .video-generator-header h2 {
+	margin: 0;
+	font-size: 18px;
+	color: #333;
+}
+
+.video-generator-prompt-container,
+.video-generator-image-container,
+.video-generator-params-container {
+	margin-bottom: 1rem;
+}
+
+.video-generator-prompt-container textarea {
+	width: 100%;
+	min-height: 60px;
+	resize: vertical;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-family: inherit;
+	font-size: 14px;
+}
+
+/* 侧边栏中的表单元素 */
+.video-generator-sidebar .video-generator-prompt-container textarea {
+	min-height: 50px;
+	font-size: 13px;
+}
+
+.video-generator-image-container input {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-family: inherit;
+	font-size: 14px;
+}
+
+/* 侧边栏中的输入框 */
+.video-generator-sidebar .video-generator-image-container input {
+	font-size: 13px;
+	padding: 6px;
+}
+
+.video-generator-param {
+	margin-bottom: 0.5rem;
+}
+
+.video-generator-param label {
+	display: block;
+	margin-bottom: 0.25rem;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+/* 侧边栏中的标签 */
+.video-generator-sidebar .video-generator-param label {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.video-generator-param select {
+	width: 100%;
+	padding: 6px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-family: inherit;
+	font-size: 14px;
+}
+
+/* 侧边栏中的选择框 */
+.video-generator-sidebar .video-generator-param select {
+	font-size: 13px;
+	padding: 5px;
+}
+
+.video-generator-button-container {
+	text-align: center;
+	margin: 1rem 0;
+}
+
+.video-generator-button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s;
+	width: 100%;
+}
+
+/* 侧边栏中的按钮 */
+.video-generator-sidebar .video-generator-button {
+	font-size: 14px;
+	padding: 8px 16px;
+}
+
+.video-generator-button:hover:not(:disabled) {
+	background-color: #45a049;
+}
+
+.video-generator-button:disabled {
+	background-color: #cccccc;
+	cursor: not-allowed;
+}
+
+.video-generator-progress-container {
+	text-align: center;
+	padding: 1rem;
+	background-color: #f0f8ff;
+	border-radius: 4px;
+	margin: 1rem 0;
+}
+
+.video-generator-progress {
+	color: #0066cc;
+	font-weight: 500;
+	animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0.7; }
+	100% { opacity: 1; }
+}
+
+.video-generator-error {
+	color: #ff4444;
+	font-weight: 500;
+}
+
+.video-generator-result-container {
+	text-align: center;
+	margin: 1rem 0;
+}
+
+.video-generator-result-container video {
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+	margin-bottom: 1rem;
+}
+
+/* 侧边栏中的视频 */
+.video-generator-sidebar .video-generator-result-container video {
+	width: 100% !important;
+	min-width: 100% !important;
+	max-width: 100% !important;
+	max-height: 200px;
+	object-fit: cover;
+}
+
+.video-generator-download-button,
+.video-generator-insert-button {
+	background-color: #2196F3;
+	color: white;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin: 0 0.5rem;
+	transition: background-color 0.3s;
+	font-size: 14px;
+}
+
+/* 侧边栏中的操作按钮 */
+.video-generator-sidebar .video-generator-download-button,
+.video-generator-sidebar .video-generator-insert-button {
+	font-size: 12px;
+	padding: 6px 12px;
+	margin: 2px;
+	width: calc(50% - 4px);
+	display: inline-block;
+}
+
+.video-generator-download-button:hover,
+.video-generator-insert-button:hover {
+	background-color: #1976D2;
+}
+
+.video-generator-insert-button {
+	background-color: #FF9800;
+}
+
+.video-generator-insert-button:hover {
+	background-color: #F57C00;
+}
+
+/* 设置页面样式 */
+.video-generator-settings {
+	max-width: 600px;
+}
+
+.video-generator-settings .setting-item {
+	margin-bottom: 1.5rem;
+}
+
+.video-generator-settings .setting-item-description {
+	color: #666;
+	font-size: 0.9em;
+	margin-top: 0.25rem;
+}
