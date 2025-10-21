@@ -3117,7 +3117,7 @@
   {
     "id": "obsidian-version-history-diff",
     "name": "Version History Diff (Sync, File Recovery & Git)",
-    "description": "Diff the version history of the core Sync and File Recovery plugins and Git for the active file. Adds a command to open the core Sync version history as well.",
+    "description": "Diff the version history of the core Sync and File Recovery plugins and Git for the active file.",
     "author": "kometenstaub",
     "repo": "kometenstaub/obsidian-version-history-diff"
   },
@@ -6920,7 +6920,7 @@
     "name": "LDS Scriptures Reference",
     "author": "pacokwon",
     "description": "Easily insert references to LDS scriptures.",
-    "repo": "pacokwon/obsidian-lds-scriptures-plugin"
+    "repo": "pacokwon/obsidian-lds-library-plugin"
   },
   {
     "id": "edit-history",
@@ -7458,7 +7458,7 @@
     "id": "at-symbol-linking",
     "name": "@ Symbol Linking",
     "author": "Evan Bonsignori",
-    "description": "Link with @ (the at symbol). Can scope @ linking to a specific directory e.g. Contacts/",
+    "description": "Link to notes with any symbol (e.g. `@`). Can map symbols to link to a specific directory or to create files in directories using templates.",
     "repo": "Ebonsignori/obsidian-at-symbol-linking"
   },
   {
@@ -10245,7 +10245,7 @@
     "name": "Contextual note templating",
     "author": "Roman Kubiv",
     "description": "Prompts for values and templates to create notes.",
-    "repo": "Balibaloo/obsidian-local-template-configuration"
+    "repo": "Balibaloo/obsidian-contextual-note-templating"
   },
   {
     "id": "vault-transfer",
@@ -13528,7 +13528,7 @@
     "name": "downloadPDF",
     "author": "Frieda",
     "description": "Allows you to download all included PDF files.",
-    "repo": "Frieder21/downloadPDF"
+    "repo": "frieda21/downloadPDF"
   },
   {
     "id": "booknav",
@@ -15267,13 +15267,6 @@
     "repo": "AmadeussSystem/Inkporter"
   },
   {
-    "id": "media-link-to-html",
-    "name": "Media Link to HTML",
-    "author": "C.Y. Park",
-    "description": "Converts media links to HTML elements.",
-    "repo": "cypar/obsidian-media-link-to-html"
-  },
-  {
     "id": "emoji-picker",
     "name": "Emoji Picker",
     "author": "Ali Faraji",
@@ -16425,7 +16418,7 @@
     "id": "querydash",
     "name": "QueryDash",
     "author": "lwx",
-    "description": "Refer to Dataview and add search, sorting, and pagination functions, just like Notion.",
+    "description": "Add new views and enhanced features for bases. Inspired by Dataview and bases, this includes search, sorting, and pagination functionalities similar to Notion.",
     "repo": "liufree/obsidian-querydash"
   },
   {
@@ -17586,7 +17579,7 @@
   {
     "id": "random-broken-link",
     "name": "Random broken link",
-    "author": "TadoTheMiner",
+    "author": "janTatesa",
     "description": "Expand your knowledge by visiting random broken links.",
     "repo": "janTatesa/obsidian-open-random-broken-link"
   },
@@ -18219,69 +18212,6 @@
     "author": "dragonish",
     "description": "Provide commands to insert code blocks with markup, and support triggering commands with backticks.",
     "repo": "dragonish/code-blocks-commands"
-  },
-  {
-    "id": "eccirian",
-    "name": "Eccirian Encrypt",
-    "author": "Entropiex",
-    "description": "Encrypt your notes using advanced encryption algorithms.",
-    "repo": "Enthalpiex/Eccirian-Encrypt"
-  },
-  {
-    "id": "rtl-math-text",
-    "name": "RTL Math Text",
-    "author": "orelby",
-    "description": "Mix right-to-left and left-to-right text in math expressions using configurable commands.",
-    "repo": "orelby/obsidian-rtl-math-text-plugin"
-  },
-  {
-    "id": "table-list",
-    "name": "Table List",
-    "author": "Akaswan",
-    "description": "Adds a table view to manage your tasks.",
-    "repo": "Akaswan/table-list"
-  },
-  {
-    "id": "coalesce",
-    "name": "Coalesce",
-    "author": "Floyd",
-    "description": "Coalesce your backlinked notes into a single view",
-    "repo": "bfloydd/coalesce"
-  },
-  {
-    "id": "current-view",
-    "name": "Current View",
-    "author": "Lucas Ostmann",
-    "description": "Automatically set the view mode (Reading, Live Preview, Source) for notes using folder rules, file patterns, or frontmatter",
-    "repo": "LucEast/obsidian-current-view"
-  },
-  {
-    "id": "replace-pencil",
-    "name": "Replace Pencil",
-    "author": "penyt",
-    "description": "Easily replace the custom variable in the code block.",
-    "repo": "penyt/replace-pencil"
-  },
-  {
-    "id": "alpha-bullet",
-    "name": "Alpha Bullet",
-    "author": "Mara-Li",
-    "description": "Sorts bulleted lists alphabetically.",
-    "repo": "Mara-Li/obsidian-alpha-bullet"
-  },
-  {
-    "id": "calculite",
-    "name": "Calculite",
-    "author": "Holo",
-    "description": "Standard calculator with a simple button layout.",
-    "repo": "gfxholo/calculite"
-  },
-  {
-    "id": "yandex-wiki-integration",
-    "name": "Yandex Wiki Integration",
-    "author": "Pavel Sokolov",
-    "description": "Integration plugin with Yandex Wiki knowledge base",
-    "repo": "CubieProg/Obsidian-Yandex-Wiki-Integration"
   },
   {
     "id": "start-page",
