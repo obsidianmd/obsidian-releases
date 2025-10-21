@@ -3117,7 +3117,7 @@
   {
     "id": "obsidian-version-history-diff",
     "name": "Version History Diff (Sync, File Recovery & Git)",
-    "description": "Diff the version history of the core Sync and File Recovery plugins and Git for the active file. Adds a command to open the core Sync version history as well.",
+    "description": "Diff the version history of the core Sync and File Recovery plugins and Git for the active file.",
     "author": "kometenstaub",
     "repo": "kometenstaub/obsidian-version-history-diff"
   },
@@ -6920,7 +6920,7 @@
     "name": "LDS Scriptures Reference",
     "author": "pacokwon",
     "description": "Easily insert references to LDS scriptures.",
-    "repo": "pacokwon/obsidian-lds-scriptures-plugin"
+    "repo": "pacokwon/obsidian-lds-library-plugin"
   },
   {
     "id": "edit-history",
@@ -7458,7 +7458,7 @@
     "id": "at-symbol-linking",
     "name": "@ Symbol Linking",
     "author": "Evan Bonsignori",
-    "description": "Link with @ (the at symbol). Can scope @ linking to a specific directory e.g. Contacts/",
+    "description": "Link to notes with any symbol (e.g. `@`). Can map symbols to link to a specific directory or to create files in directories using templates.",
     "repo": "Ebonsignori/obsidian-at-symbol-linking"
   },
   {
@@ -10245,7 +10245,7 @@
     "name": "Contextual note templating",
     "author": "Roman Kubiv",
     "description": "Prompts for values and templates to create notes.",
-    "repo": "Balibaloo/obsidian-local-template-configuration"
+    "repo": "Balibaloo/obsidian-contextual-note-templating"
   },
   {
     "id": "vault-transfer",
@@ -13528,7 +13528,7 @@
     "name": "downloadPDF",
     "author": "Frieda",
     "description": "Allows you to download all included PDF files.",
-    "repo": "Frieder21/downloadPDF"
+    "repo": "frieda21/downloadPDF"
   },
   {
     "id": "booknav",
@@ -15267,13 +15267,6 @@
     "repo": "AmadeussSystem/Inkporter"
   },
   {
-    "id": "media-link-to-html",
-    "name": "Media Link to HTML",
-    "author": "C.Y. Park",
-    "description": "Converts media links to HTML elements.",
-    "repo": "cypar/obsidian-media-link-to-html"
-  },
-  {
     "id": "emoji-picker",
     "name": "Emoji Picker",
     "author": "Ali Faraji",
@@ -16425,7 +16418,7 @@
     "id": "querydash",
     "name": "QueryDash",
     "author": "lwx",
-    "description": "Refer to Dataview and add search, sorting, and pagination functions, just like Notion.",
+    "description": "Add new views and enhanced features for bases. Inspired by Dataview and bases, this includes search, sorting, and pagination functionalities similar to Notion.",
     "repo": "liufree/obsidian-querydash"
   },
   {
@@ -18568,7 +18561,7 @@
     "name": "DaggerForge",
     "author": "Waleed Alnaimi",
     "description": "Easy access to DaggerHeart's Adversaries + creating your own.",
-    "repo": "torutu/daggerforge"
+    "repo": "Torutu/daggerforge"
   },
   {
     "id": "time-inserter",
@@ -18590,6 +18583,13 @@
     "author": "m",
     "description": "Streamlines note review by automatically navigating to the next note upon deletion. Adds commands to go to the previous and next note, respecting user-selected sort order.",
     "repo": "mudnug/note-navigator"
+  },
+  {
+    "id": "bibtex-scholar",
+    "name": "BibTeX Scholar",
+    "author": "Qilong Liu",
+    "description": "A complete BibTeX citation management solution designed for contextual, frictionless literature reviews and paper writing--right inside your notes.",
+    "repo": "liu-qilong/bibtex-scholar"
   },
   {
     "id": "canvas-mindmap-keyboard",
