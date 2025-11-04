@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: "refs/pull/${{ github.event.number }}/merge"
+          ref: "refs/pull/${{ github.event.number }}/head"
       - uses: actions/setup-node@v2
       - uses: actions/github-script@v6
         with:
@@ -242,10 +242,10 @@ jobs:
 
                   const assets = release.data.assets || [];
                   if (!assets.find(p => p.name === 'main.js')) {
-                    addError('Your latest release is missing the `main.js` file.');
+                    addError(`The release \`${manifest.version}\` specified in the \`manifest.json\` in the root of the repo is missing the \`main.js\` file.`);
                   }
                   if (!assets.find(p => p.name === 'manifest.json')) {
-                    addError('Your latest release is missing the `manifest.json` file.');
+                    addError(`The release \`${manifest.version}\` specified in the \`manifest.json\` in the root of the repo is missing the \`manifest.json\` file.`);
                   }
                 } catch (e) {
                   addError(`Unable to find a release with the tag \`${manifest.version}\`. Make sure that the version in your manifest.json file in your repo points to the correct Github Release.`);
