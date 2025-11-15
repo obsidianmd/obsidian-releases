@@ -15,7 +15,7 @@ jobs:
         with:
           ref: "refs/pull/${{ github.event.number }}/merge"
       - uses: actions/setup-node@v2
-      - run: npm install probe-image-size
+      - run: npm install -g probe-image-size && npm link probe-image-size
       - uses: actions/github-script@v6
         with:
           script: |
@@ -43,6 +43,14 @@ jobs:
             await (async () => {
                 if (context.payload.pull_request.changed_files > 1) {
                     addError('You modified files other than `community-css-themes.json`.');
+                }
+
+                 if (!context.payload.pull_request.maintainer_can_modify) {
+                  addWarning('Maintainers of this repo should be allowed to edit this pull request. This speeds up the approval process.');
+                }
+
+                if (context.payload.pull_request.body.includes('Please switch to **Preview** and select one of the following links:')) {
+                  addError('You did not follow the pull request template.');
                 }
 
                 let themes;
@@ -99,10 +107,13 @@ jobs:
                 }
 
                 if (theme.name.toLowerCase().includes('obsidian')) {
-                    addWarning(`We discourage themes from including the word \`Obsidian\` in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
+                    addError(`We discourage themes from including the word \`Obsidian\` in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
                 }
                 if (theme.name.toLowerCase().includes('theme')) {
-                    addWarning(`We discourage themes from including the word \`theme\` in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
+                    addError(`We discourage themes from including the word \`theme\` in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
+                }
+                if (theme.name.match(/([^A-Za-z0-9_\- ]+)/g)) {
+                    addError('Your theme name contains invalid symbols, allowed are letters, digits, spaces, hyphens and underscores.');
                 }
 
                 if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(theme.author)) {
@@ -149,7 +160,7 @@ jobs:
                         }
 
                         if (manifest.authorUrl.toLowerCase().includes("github.com/" + theme.repo.toLowerCase())) {
-                            addWarning(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the theme.`);
+                            addError(`The \`authorUrl\` field in your manifest should not point to the GitHub repository of the theme.`);
                         }
                     }
 
@@ -228,6 +239,13 @@ jobs:
                 } catch (e) {
                     addWarning('Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.');
                 }
+
+                await github.rest.pulls.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number: context.issue.number,
+                  title: `Add theme: ${theme.name}`
+                });
 
             })();
 
