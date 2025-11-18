@@ -18723,5 +18723,12 @@
     "author": "René Coignard",
     "description": "Open a random daily note and automatically switch past daily notes to reading mode.",
     "repo": "coignard/obsidian-daily-notes-tweaks"
+  },
+  {
+  	"id": "content-addressed-attachments",
+  	"name": "Content-Addressed Attachments",
+  	"description": "Stores attachments using content-based addressing (similar to IPFS) for automatic deduplication, but can operates entirely locally without requiring the IPFS network. Also supports github private repository for hosting.",
+  	"author": "NateScarlet",
+    "repo": "NateScarlet/obsidian-content-addressed-attachments"
   }
 ]
