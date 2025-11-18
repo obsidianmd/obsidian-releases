@@ -7332,7 +7332,7 @@
     "id": "voice",
     "name": "Voice",
     "author": "Chris Oguntolu",
-    "description": "Let your notes talk and speak to you and enhance your experience to effortlessly listen to your notes being read aloud and enjoy the power of sound, audio, and speech.",
+    "description": "Text-to-speech adds sound, audio, and speech to your notes, letting them talk in your workspace, mobile-friendly, perfect for learning or reinforcing ideas as you listen hands-free in an audiobook-like experience.",
     "repo": "chrisurf/obsidian-voice"
   },
   {
@@ -11758,13 +11758,6 @@
     "author": "Ben Wurster",
     "description": "Use an OpenAI Chat Completion API-compatible LLM endpoint to expand on selected text in the context of your notes.",
     "repo": "BWurster/explain-selection-with-ai"
-  },
-  {
-    "id": "toggle-dark-mode",
-    "name": "Toggle Dark Mode",
-    "author": "Julia van der Kris",
-    "description": "Adds a command to toggle dark mode on and off",
-    "repo": "juliavdkris/obsidian-toggle-dark-mode"
   },
   {
     "id": "plugins-annotations",
@@ -17102,9 +17095,9 @@
   },
   {
     "id": "statuslol-post",
-    "name": "Status.lol Publisher",
+    "name": "OMG.lol Publisher",
     "author": "Eric Walker",
-    "description": "Post statuses to status.lol, log notes option, and mobile compatibility.",
+    "description": "Allows you to post to weblogs.lol, status.lol, some.pics and paste.lol.",
     "repo": "ericmwalk/obsidian-omglol-publish"
   },
   {
@@ -18732,10 +18725,24 @@
     "repo": "coignard/obsidian-daily-notes-tweaks"
   },
   {
+    "id": "my-typewriter-line",
+    "name": "My Typewriter Line",
+    "author": "dmo-code",
+    "description": "Keep the active line in focus with customizable top and bottom scroll padding for typewriter-like editing.",
+    "repo": "dmo-code/MyTypewriterLine"
+  },
+  {
+    "id": "list-table-converter",
+    "name": "List to table converter",
+    "author": "paddomanno",
+    "description": "Convert a list (or multi-line text) to a table.",
+    "repo": "paddomanno/obsidian-list-table-converter"
+  },
+  {
     "id": "docscribe",
     "name": "DocScribe",
     "author": "Colin Klich",
     "description": "Generate notes from PPTX and PDF files using LLMs.",
     "repo": "colinklich/docscribe"
-   }
+  }
 ]
