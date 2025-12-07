@@ -490,13 +490,6 @@
     "repo": "fxal/obsidian-youhavebeenstaring-plugin"
   },
   {
-    "id": "obsidian-metatemplates",
-    "name": "metatemplates",
-    "author": "avirut",
-    "description": "Generate notes from templates using YAML frontmatter.",
-    "repo": "avirut/obsidian-metatemplates"
-  },
-  {
     "id": "obsidian-imgur-plugin",
     "name": "Imgur",
     "author": "Kirill Gavrilov",
@@ -3117,7 +3110,7 @@
   {
     "id": "obsidian-version-history-diff",
     "name": "Version History Diff (Sync, File Recovery & Git)",
-    "description": "Diff the version history of the core Sync and File Recovery plugins and Git for the active file. Adds a command to open the core Sync version history as well.",
+    "description": "Diff the version history of the core Sync and File Recovery plugins and Git for the active file.",
     "author": "kometenstaub",
     "repo": "kometenstaub/obsidian-version-history-diff"
   },
@@ -3721,7 +3714,7 @@
     "name": "Task Genius",
     "author": "Boninall",
     "description": "Comprehensive task management that includes progress bars, task status cycling, and advanced task tracking features.",
-    "repo": "Quorafind/Obsidian-Task-Genius"
+    "repo": "taskgenius/taskgenius-plugin"
   },
   {
     "id": "scroll-speed",
@@ -4806,7 +4799,7 @@
     "name": "Text Dataset Aid",
     "author": "Conner Ohnesorge",
     "description": "Create personal datasets for fine-tuning language models.",
-    "repo": "conneroisu/Text-Dataset-Aid-Plugin"
+    "repo": "connerohnesorge/Text-Dataset-Aid-Plugin"
   },
   {
     "id": "chord-lyrics",
@@ -5961,7 +5954,7 @@
     "name": "Vim Toggle",
     "description": "Toggle Vim on/off and customize toggling behavior.",
     "author": "Conner Ohnesorge",
-    "repo": "conneroisu/vim-toggle"
+    "repo": "connerohnesorge/vim-toggle"
   },
   {
     "id": "draw-harada-method",
@@ -6654,7 +6647,7 @@
     "name": "Flowershow",
     "author": "Rufus Pollock",
     "description": "Publish notes with Flowershow.",
-    "repo": "datopian/obsidian-flowershow"
+    "repo": "flowershow/obsidian-flowershow"
   },
   {
     "id": "movie-obsidian",
@@ -6920,7 +6913,7 @@
     "name": "LDS Scriptures Reference",
     "author": "pacokwon",
     "description": "Easily insert references to LDS scriptures.",
-    "repo": "pacokwon/obsidian-lds-scriptures-plugin"
+    "repo": "pacokwon/obsidian-lds-library-plugin"
   },
   {
     "id": "edit-history",
@@ -7339,7 +7332,7 @@
     "id": "voice",
     "name": "Voice",
     "author": "Chris Oguntolu",
-    "description": "Let your notes talk and speak to you and enhance your experience to effortlessly listen to your notes being read aloud and enjoy the power of sound, audio, and speech.",
+    "description": "Text-to-speech adds sound, audio, and speech to your notes, letting them talk in your workspace, mobile-friendly, perfect for learning or reinforcing ideas as you listen hands-free in an audiobook-like experience.",
     "repo": "chrisurf/obsidian-voice"
   },
   {
@@ -7458,7 +7451,7 @@
     "id": "at-symbol-linking",
     "name": "@ Symbol Linking",
     "author": "Evan Bonsignori",
-    "description": "Link with @ (the at symbol). Can scope @ linking to a specific directory e.g. Contacts/",
+    "description": "Link to notes with any symbol (e.g. `@`). Can map symbols to link to a specific directory or to create files in directories using templates.",
     "repo": "Ebonsignori/obsidian-at-symbol-linking"
   },
   {
@@ -9067,8 +9060,8 @@
   {
     "id": "habit-tracker-21",
     "name": "Habit Tracker 21",
-    "author": "zoreet",
-    "description": "Your 21-day journey to habit formation simplified.",
+    "author": "zincplusplus",
+    "description": "A minimalist, elegant habit tracker that helps you build lasting habits with clear progress visualization.",
     "repo": "zincplusplus/habit-tracker"
   },
   {
@@ -9280,13 +9273,6 @@
     "author": "Jack Barker",
     "description": "Run LaTeX-OCR if it is installed locally.",
     "repo": "JackBarker7/obsidian-latexocr"
-  },
-  {
-    "id": "reference-generator",
-    "name": "Reference Generator",
-    "author": "Kadison McLellan",
-    "description": "Turn links into bibliographies in styles like Harvard, MLA, APA, and more.",
-    "repo": "kadisonm/obsidian-reference-generator"
   },
   {
     "id": "additional-icons",
@@ -9970,9 +9956,9 @@
   {
     "id": "fileorganizer2000",
     "name": "Note Companion AI",
-    "author": "Benjamin Ashgan Shafii",
+    "author": "Jean-Philippe Fong",
     "description": "AI-powered note organization and chat. Requires subscription or self-hosting with your own API keys.",
-    "repo": "different-ai/note-companion"
+    "repo": "Nexus-JPF/note-companion"
   },
   {
     "id": "spotify-api",
@@ -10245,7 +10231,7 @@
     "name": "Contextual note templating",
     "author": "Roman Kubiv",
     "description": "Prompts for values and templates to create notes.",
-    "repo": "Balibaloo/obsidian-local-template-configuration"
+    "repo": "Balibaloo/obsidian-contextual-note-templating"
   },
   {
     "id": "vault-transfer",
@@ -11774,13 +11760,6 @@
     "repo": "BWurster/explain-selection-with-ai"
   },
   {
-    "id": "toggle-dark-mode",
-    "name": "Toggle Dark Mode",
-    "author": "Julia van der Kris",
-    "description": "Adds a command to toggle dark mode on and off",
-    "repo": "juliavdkris/obsidian-toggle-dark-mode"
-  },
-  {
     "id": "plugins-annotations",
     "name": "Plugins Annotations",
     "author": "Andrea Alberti",
@@ -12444,13 +12423,6 @@
     "author": "FlorianWoelki",
     "description": "Add anki-like spaced repetition and recall to your vault.",
     "repo": "FlorianWoelki/obsidian-better-recall"
-  },
-  {
-    "id": "images-to-gist",
-    "name": "Images to Gist",
-    "author": "Inder Singh",
-    "description": "Upload images to your GitHub secret Gists. Also, resize uploaded images on the fly.",
-    "repo": "singh-inder/obsidian-images-to-gist"
   },
   {
     "id": "heading-toggler",
@@ -13528,7 +13500,7 @@
     "name": "downloadPDF",
     "author": "Frieda",
     "description": "Allows you to download all included PDF files.",
-    "repo": "Frieder21/downloadPDF"
+    "repo": "frieda21/downloadPDF"
   },
   {
     "id": "booknav",
@@ -15267,13 +15239,6 @@
     "repo": "AmadeussSystem/Inkporter"
   },
   {
-    "id": "media-link-to-html",
-    "name": "Media Link to HTML",
-    "author": "C.Y. Park",
-    "description": "Converts media links to HTML elements.",
-    "repo": "cypar/obsidian-media-link-to-html"
-  },
-  {
     "id": "emoji-picker",
     "name": "Emoji Picker",
     "author": "Ali Faraji",
@@ -16425,7 +16390,7 @@
     "id": "querydash",
     "name": "QueryDash",
     "author": "lwx",
-    "description": "Refer to Dataview and add search, sorting, and pagination functions, just like Notion.",
+    "description": "Add new views and enhanced features for bases. Inspired by Dataview and bases, this includes search, sorting, and pagination functionalities similar to Notion.",
     "repo": "liufree/obsidian-querydash"
   },
   {
@@ -17130,9 +17095,9 @@
   },
   {
     "id": "statuslol-post",
-    "name": "Status.lol Publisher",
+    "name": "OMG.lol Publisher",
     "author": "Eric Walker",
-    "description": "Post statuses to status.lol, log notes option, and mobile compatibility.",
+    "description": "Allows you to post to weblogs.lol, status.lol, some.pics and paste.lol.",
     "repo": "ericmwalk/obsidian-omglol-publish"
   },
   {
@@ -17868,7 +17833,7 @@
     "name": "Storyteller Suite",
     "author": "Maws",
     "description": "A comprehensive suite for managing characters, locations, events, and galleries for your stories.",
-    "repo": "SamW7140/obsidian-storyteller-suite"
+    "repo": "Maws7140/obsidian-storyteller-suite"
   },
   {
     "id": "unlime",
@@ -18357,7 +18322,7 @@
     "id": "always-color-text",
     "name": "Always Color Text",
     "author": "Kazi Aidah Haque",
-    "description": "Colors texts across the Vault.",
+    "description": "Automatically colors and highlights texts across the vault.",
     "repo": "Kazi-Aidah/always-color-text"
   },
   {
