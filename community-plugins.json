@@ -7219,9 +7219,9 @@
   {
     "id": "at-people",
     "name": "At People",
-    "description": "Use the familiar @ notation to cross link to people files in a people folder.",
-    "author": "Tobias Davis",
-    "repo": "saibotsivad/obsidian-at-people"
+    "description": "Use the @ to create links to people files with smart fuzzy search, accent-insensitive matching, and backlink-based ranking.",
+    "author": "Yass Fuentes (originally saibotsivad)",
+    "repo": "backmind/obsidian-at-people"
   },
   {
     "id": "archwiki-reader",
@@ -7543,7 +7543,7 @@
     "name": "Excalidraw CN",
     "author": "Korbin Zhao",
     "description": "Excalidraw supporting Chinese hand write font by default.",
-    "repo": "korbinjoe/obsidian-excalidraw-cn-plugin"
+    "repo": "korbinzhao/obsidian-excalidraw-cn-plugin"
   },
   {
     "id": "battlesnake-viewer",
@@ -8531,13 +8531,6 @@
     "author": "fez-github",
     "description": "Add properties to multiple notes at once. Either right-click a folder or select multiple notes and right-click the selection.",
     "repo": "technohiker/obsidian-multi-properties"
-  },
-  {
-    "id": "nothing",
-    "name": "Nothing",
-    "author": "Chris Grieser (aka pseudometa)",
-    "description": "Add a no-op command to disable hotkeys.",
-    "repo": "chrisgrieser/obsidian-nothing"
   },
   {
     "id": "slackify-note",
@@ -9956,9 +9949,9 @@
   {
     "id": "fileorganizer2000",
     "name": "Note Companion AI",
-    "author": "Benjamin Ashgan Shafii",
+    "author": "Jean-Philippe Fong",
     "description": "AI-powered note organization and chat. Requires subscription or self-hosting with your own API keys.",
-    "repo": "different-ai/note-companion"
+    "repo": "Nexus-JPF/note-companion"
   },
   {
     "id": "spotify-api",
@@ -11365,7 +11358,7 @@
     "name": "Voicenotes Sync",
     "author": "Andrew Lombardi",
     "description": "A plugin for syncing Voicenotes.com data into notes",
-    "repo": "mysticcoders/voicenotes-sync"
+    "repo": "voicenotes-community/voicenotes-sync"
   },
   {
     "id": "legifrance-integration",
@@ -13339,7 +13332,7 @@
     "name": "Flow",
     "author": "Ben Phillips",
     "description": "Implements key processes in David Allen's Getting Things Done (GTD) methodology (Closed source)",
-    "repo": "tavva/flow-release"
+    "repo": "tavva/flow"
   },
   {
     "id": "quarto-exporter",
@@ -14564,7 +14557,7 @@
     "name": "Better Plugins Manager",
     "author": "zero",
     "description": "\u6253\u9020\u60a8\u7684\u6781\u81f4\u63d2\u4ef6\u7ba1\u7406\u4f53\u9a8c\uff0c\u8ba9\u63d2\u4ef6\u7ba1\u7406\u53d8\u5f97\u66f4\u52a0\u76f4\u89c2\u3001\u9ad8\u6548\uff0c\u540c\u65f6\u63d0\u5347\u60a8\u7684\u5de5\u4f5c\u6d41\u7a0b\u548c\u4e2a\u6027\u5316\u8bbe\u7f6e\u3002",
-    "repo": "Obsidian-Forge/obsidian-manager"
+    "repo": "zenozero-dev/obsidian-manager"
   },
   {
     "id": "bujo-bullets",
@@ -14982,8 +14975,8 @@
   {
     "id": "explorer-colors",
     "name": "Explorer Colors",
-    "author": "Scott Van der Zwet",
-    "description": "Set custom colors for files and folders.",
+    "author": "VaguelyElectric",
+    "description": "Allows for files and folders to be configured with custom colors and other settings.",
     "repo": "VaguelyElectric/obsidian-explorer-colors"
   },
   {
@@ -16380,13 +16373,6 @@
     "repo": "wenlzhang/obsidian-folder-navigator"
   },
   {
-    "id": "digital-sticky-notes",
-    "name": "Digital Sticky Notes",
-    "author": "dgggg",
-    "description": "A lightweight plugin that digitizes physical sticky notes, helping you quickly save, organize, and retrieve temporary notes.",
-    "repo": "dalecgu/obsidian-sticky-notes"
-  },
-  {
     "id": "querydash",
     "name": "QueryDash",
     "author": "lwx",
@@ -17098,7 +17084,7 @@
     "name": "OMG.lol Publisher",
     "author": "Eric Walker",
     "description": "Allows you to post to weblogs.lol, status.lol, some.pics and paste.lol.",
-    "repo": "ericmwalk/obsidian-omglol-publish"
+    "repo": "ericmwalk/obsidian-omglol-publisher"
   },
   {
     "id": "come-through",
@@ -17444,13 +17430,6 @@
     "repo": "nota/gyazo-obsidian-plugin"
   },
   {
-    "id": "click-unsupported-files",
-    "name": "Click Unsupported Files",
-    "author": "Albert O'Shea",
-    "description": "Changes click behavior for unsupported files to work similar to Windows File Explorer: single-click selects, double-click opens in default app.",
-    "repo": "Alb-O/obsidian-click-unsupported-files"
-  },
-  {
     "id": "tag-index",
     "name": "Tag Index",
     "description": "Create a curated list of important tags to serve as meaningful entry points to your knowledge base.",
@@ -17556,13 +17535,6 @@
     "repo": "janTatesa/obsidian-open-random-broken-link"
   },
   {
-    "id": "copy-absolute-path",
-    "name": "Copy Absolute Path",
-    "author": "Albert O'Shea",
-    "description": "Copy the system absolute path of files and folders to the clipboard.",
-    "repo": "Alb-O/obsidian-copy-absolute-path"
-  },
-  {
     "id": "hyperlink-remover",
     "name": "Link Remover",
     "author": "Daniel Agafonov",
@@ -17652,13 +17624,6 @@
     "author": "Mousebomb",
     "description": "Sync diary entries to system calendar via ICS feed.",
     "repo": "mousebomb/obsidian-diary-ics"
-  },
-  {
-    "id": "sidecars",
-    "name": "Sidecars",
-    "author": "Albert O'Shea",
-    "description": "Automated, user-friendly management of 'sidecar' companion notes for non-markdown files.",
-    "repo": "Alb-O/obsidian-sidecars"
   },
   {
     "id": "tasknotes",
@@ -18322,7 +18287,7 @@
     "id": "always-color-text",
     "name": "Always Color Text",
     "author": "Kazi Aidah Haque",
-    "description": "Colors texts across the Vault.",
+    "description": "Automatically colors and highlights texts across the vault.",
     "repo": "Kazi-Aidah/always-color-text"
   },
   {
