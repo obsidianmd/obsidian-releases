@@ -11358,7 +11358,7 @@
     "name": "Voicenotes Sync",
     "author": "Andrew Lombardi",
     "description": "A plugin for syncing Voicenotes.com data into notes",
-    "repo": "mysticcoders/voicenotes-sync"
+    "repo": "voicenotes-community/voicenotes-sync"
   },
   {
     "id": "legifrance-integration",
@@ -13332,7 +13332,7 @@
     "name": "Flow",
     "author": "Ben Phillips",
     "description": "Implements key processes in David Allen's Getting Things Done (GTD) methodology (Closed source)",
-    "repo": "tavva/flow-release"
+    "repo": "tavva/flow"
   },
   {
     "id": "quarto-exporter",
@@ -18865,10 +18865,31 @@
     "repo": "kanshurichard/obsidian-docx-exporter"
   },
   {
+    "id": "ai-companion",
+    "name": "AI Companion",
+    "author": "Kowshik",
+    "description": "AI companion accessible with /ai command in notes. Supports OpenAI integration.",
+    "repo": "kowshik24/obsidian-ai-assistant"
+  },
+  {
+    "id": "reading-progress-desktop",
+    "name": "Reading progress desktop",
+    "author": "qian-shen",
+    "description": "A progress bar for some views in the status bar(desktopAPP).",
+    "repo": "qian-shen/obsidian-reading-progress-desktop"
+  },
+  {
+    "id": "ocr-extractor",
+    "name": "OCR Extractor",
+    "author": "Johnathan Ritzi",
+    "description": "Extract text from documents, images, etc. and store it as Markdown in your notes.",
+    "repo": "jritzi/ocr-extractor"
+  },
+  {
     "id": "days-left-timer",
     "name": "Days Left Timer",
     "author": "Ayyan-j",
     "description": "Visual countdown timers for your status bar and notes.",
     "repo": "Ayyan-j/obsidian-days-left-timer"
-  }
+  },
 ]
