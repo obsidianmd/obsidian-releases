@@ -1,0 +1,9 @@
+{
+  "name": "obsidian-community-releases",
+  "scripts": {
+    "format": "prettier --write \"**/community*.json\""
+  },
+  "devDependencies": {
+    "prettier": "3.5.3"
+  }
+}
