@@ -18970,10 +18970,31 @@
     "repo": "raeperd/obsidian-default-template"
   },
   {
-  "id": "chess-analysis",
-  "name": "Chess Analysis",
-  "version": "1.0.0",
-  "description": "Analyze chess games from PGN or FEN notation with an interactive board, move navigation, and annotations. Take notes on every move as well as see recommended engine moves and position evaluation bar.",
-  "repo": "bbwfan85/chess-plugin",
-}
+    "id": "disable-tabs",
+    "name": "Disable Tabs",
+    "author": "David V. Kimball",
+    "description": "Disables having more than one tab open at a time.",
+    "repo": "davidvkimball/obsidian-disable-tabs"
+  },
+  {
+    "id": "auto-keyword-linker",
+    "name": "Auto Keyword Linker",
+    "author": "Daniel Rhodes",
+    "description": "Automatically creates backlinks for specified keywords with variations and preview mode.",
+    "repo": "danrhodes/AutoKeywordLinker"
+  },
+  {
+    "id": "conditional-properties",
+    "name": "Conditional Properties",
+    "author": "Diego Eis",
+    "description": "Automate frontmatter updates using conditional rules (IF/THEN).",
+    "repo": "diegoeis/obsidian-conditional-properties"
+  },
+  {
+    "id": "chess-analysis",
+    "name": "Chess Analysis",
+    "author": "bbwfan85",
+    "description": "Analyze chess games from PGN or FEN notation with an interactive board, move navigation, and annotations. Take notes on every move as well as see recommended engine moves and position evaluation bar.",
+    "repo": "bbwfan85/chess-plugin",
+  }
 ]
