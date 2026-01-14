@@ -140,9 +140,27 @@ export class PrefixTree {
                 if (file) {
                     const metadata = this.app.metadataCache.getFileCache(file);
                     // First check for heading match
-                    const headingMatch = metadata?.headings?.find(h => 
-                        h.heading.toLowerCase() === nodeValue.toLowerCase()
-                    );
+                    let headingMatch = null;
+                    if (metadata?.headings) {
+                        if (this.settings.headerMatchOnlyBetweenSymbols && this.settings.headerMatchStartSymbol && this.settings.headerMatchEndSymbol) {
+                            // Special handling for header match with symbols
+                            for (const h of metadata.headings) {
+                                const startIndex = h.heading.indexOf(this.settings.headerMatchStartSymbol);
+                                const endIndex = h.heading.indexOf(this.settings.headerMatchEndSymbol, startIndex + this.settings.headerMatchStartSymbol.length);
+                                if (startIndex !== -1 && endIndex !== -1 && startIndex < endIndex) {
+                                    const keyword = h.heading.substring(startIndex + this.settings.headerMatchStartSymbol.length, endIndex).trim();
+                                    if (keyword.toLowerCase() === nodeValue.toLowerCase()) {
+                                        headingMatch = h;
+                                        break;
+                                    }
+                                }
+                            }
+                        } else {
+                            headingMatch = metadata.headings.find(h => 
+                                h.heading.toLowerCase() === nodeValue.toLowerCase()
+                            );
+                        }
+                    }
                     
                     if (headingMatch) {
                         matchNode.type = MatchType.Header;
@@ -287,7 +305,20 @@ export class PrefixTree {
         // Get headers from metadata cache
         let headers: string[] = [];
         if (this.settings.includeHeaders && metadata?.headings) {
-            headers = metadata.headings.map(h => h.heading);
+            if (this.settings.headerMatchOnlyBetweenSymbols && this.settings.headerMatchStartSymbol && this.settings.headerMatchEndSymbol) {
+                for (const h of metadata.headings) {
+                    const startIndex = h.heading.indexOf(this.settings.headerMatchStartSymbol);
+                    const endIndex = h.heading.indexOf(this.settings.headerMatchEndSymbol, startIndex + this.settings.headerMatchStartSymbol.length);
+                    if (startIndex !== -1 && endIndex !== -1 && startIndex < endIndex) {
+                        const keyword = h.heading.substring(startIndex + this.settings.headerMatchStartSymbol.length, endIndex).trim();
+                        if (keyword) {
+                            headers.push(keyword);
+                        }
+                    }
+                }
+            } else {
+                headers = metadata.headings.map(h => h.heading);
+            }
         }
 
         let aliasesWithMatchCase: Set<string> = new Set(metadata?.frontmatter?.[this.settings.propertyNameToMatchCase] ?? []);

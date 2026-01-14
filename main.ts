@@ -30,6 +30,9 @@ export interface LinkerPluginSettings {
     linkFormat: 'shortest' | 'relative' | 'absolute';
     applyDefaultLinkStyling: boolean;
     includeHeaders: boolean;
+    headerMatchOnlyBetweenSymbols: boolean;
+    headerMatchStartSymbol: string;
+    headerMatchEndSymbol: string;
     matchCaseSensitive: boolean;
     capitalLetterProportionForAutomaticMatchCase: number;
     tagToIgnoreCase: string;
@@ -72,6 +75,9 @@ const DEFAULT_SETTINGS: LinkerPluginSettings = {
     useDefaultLinkStyleForConversion: true,
     applyDefaultLinkStyling: true,
     includeHeaders: true,
+    headerMatchOnlyBetweenSymbols: false,
+    headerMatchStartSymbol: '',
+    headerMatchEndSymbol: '',
     matchCaseSensitive: false,
     capitalLetterProportionForAutomaticMatchCase: 0.75,
     tagToIgnoreCase: 'linker-ignore-case',
@@ -825,6 +831,34 @@ class LinkerSettingTab extends PluginSettingTab {
                 toggle.setValue(this.plugin.settings.includeHeaders).onChange(async (value) => {
                     // console.log("Include headers: " + value);
                     await this.plugin.updateSettings({ includeHeaders: value });
+                })
+            );
+
+        // Only match headers between symbols
+        new Setting(containerEl)
+            .setName('Only match headers between symbols')
+            .setDesc('When enabled, only headers containing both start and end symbols will be matched, and only the text between symbols will be used as keyword.')
+            .addToggle((toggle) =>
+                toggle.setValue(this.plugin.settings.headerMatchOnlyBetweenSymbols).onChange(async (value) => {
+                    await this.plugin.updateSettings({ headerMatchOnlyBetweenSymbols: value });
+                })
+            );
+
+        new Setting(containerEl)
+            .setName('Start symbol')
+            .setDesc('Symbol marking the start of the keyword in headers (can be empty, emoji allowed).')
+            .addText((text) =>
+                text.setValue(this.plugin.settings.headerMatchStartSymbol).onChange(async (value) => {
+                    await this.plugin.updateSettings({ headerMatchStartSymbol: value });
+                })
+            );
+
+        new Setting(containerEl)
+            .setName('End symbol')
+            .setDesc('Symbol marking the end of the keyword in headers (can be empty, emoji allowed).')
+            .addText((text) =>
+                text.setValue(this.plugin.settings.headerMatchEndSymbol).onChange(async (value) => {
+                    await this.plugin.updateSettings({ headerMatchEndSymbol: value });
                 })
             );
 
