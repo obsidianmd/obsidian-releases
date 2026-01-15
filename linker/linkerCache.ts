@@ -142,18 +142,36 @@ export class PrefixTree {
                     // First check for heading match
                     let headingMatch = null;
                     if (metadata?.headings) {
-                        if (this.settings.headerMatchOnlyBetweenSymbols && this.settings.headerMatchStartSymbol && this.settings.headerMatchEndSymbol) {
+                        if (this.settings.headerMatchOnlyBetweenSymbols && this.settings.headerMatchStartSymbol && this.settings.headerMatchEndSymbol && this.settings.headerMatchStartSymbol !== this.settings.headerMatchEndSymbol) {
                             // Special handling for header match with symbols
                             for (const h of metadata.headings) {
-                                const startIndex = h.heading.indexOf(this.settings.headerMatchStartSymbol);
-                                const endIndex = h.heading.indexOf(this.settings.headerMatchEndSymbol, startIndex + this.settings.headerMatchStartSymbol.length);
-                                if (startIndex !== -1 && endIndex !== -1 && startIndex < endIndex) {
-                                    const keyword = h.heading.substring(startIndex + this.settings.headerMatchStartSymbol.length, endIndex).trim();
-                                    if (keyword.toLowerCase() === nodeValue.toLowerCase()) {
-                                        headingMatch = h;
-                                        break;
+                                const headingText = h.heading;
+                                const startSymbol = this.settings.headerMatchStartSymbol;
+                                const endSymbol = this.settings.headerMatchEndSymbol;
+                                let searchStartIndex = 0;
+                                
+                                // Find all occurrences of start-end symbol pairs
+                                while (searchStartIndex < headingText.length) {
+                                    const startIndex = headingText.indexOf(startSymbol, searchStartIndex);
+                                    if (startIndex === -1) break;
+                                    
+                                    const endIndex = headingText.indexOf(endSymbol, startIndex + startSymbol.length);
+                                    if (endIndex === -1) break;
+                                    
+                                    if (startIndex < endIndex) {
+                                        const keyword = headingText.substring(startIndex + startSymbol.length, endIndex).trim();
+                                        if (keyword.toLowerCase() === nodeValue.toLowerCase()) {
+                                            headingMatch = h;
+                                            break;
+                                        }
+                                        // Move search position after this end symbol
+                                        searchStartIndex = endIndex + endSymbol.length;
+                                    } else {
+                                        // Invalid ordering, move past this start symbol
+                                        searchStartIndex = startIndex + startSymbol.length;
                                     }
                                 }
+                                if (headingMatch) break;
                             }
                         } else {
                             headingMatch = metadata.headings.find(h => 
@@ -305,14 +323,31 @@ export class PrefixTree {
         // Get headers from metadata cache
         let headers: string[] = [];
         if (this.settings.includeHeaders && metadata?.headings) {
-            if (this.settings.headerMatchOnlyBetweenSymbols && this.settings.headerMatchStartSymbol && this.settings.headerMatchEndSymbol) {
+            if (this.settings.headerMatchOnlyBetweenSymbols && this.settings.headerMatchStartSymbol && this.settings.headerMatchEndSymbol && this.settings.headerMatchStartSymbol !== this.settings.headerMatchEndSymbol) {
                 for (const h of metadata.headings) {
-                    const startIndex = h.heading.indexOf(this.settings.headerMatchStartSymbol);
-                    const endIndex = h.heading.indexOf(this.settings.headerMatchEndSymbol, startIndex + this.settings.headerMatchStartSymbol.length);
-                    if (startIndex !== -1 && endIndex !== -1 && startIndex < endIndex) {
-                        const keyword = h.heading.substring(startIndex + this.settings.headerMatchStartSymbol.length, endIndex).trim();
-                        if (keyword) {
-                            headers.push(keyword);
+                    const headingText = h.heading;
+                    const startSymbol = this.settings.headerMatchStartSymbol;
+                    const endSymbol = this.settings.headerMatchEndSymbol;
+                    let searchStartIndex = 0;
+                    
+                    // Find all occurrences of start-end symbol pairs
+                    while (searchStartIndex < headingText.length) {
+                        const startIndex = headingText.indexOf(startSymbol, searchStartIndex);
+                        if (startIndex === -1) break;
+                        
+                        const endIndex = headingText.indexOf(endSymbol, startIndex + startSymbol.length);
+                        if (endIndex === -1) break;
+                        
+                        if (startIndex < endIndex) {
+                            const keyword = headingText.substring(startIndex + startSymbol.length, endIndex).trim();
+                            if (keyword) {
+                                headers.push(keyword);
+                            }
+                            // Move search position after this end symbol
+                            searchStartIndex = endIndex + endSymbol.length;
+                        } else {
+                            // Invalid ordering, move past this start symbol
+                            searchStartIndex = startIndex + startSymbol.length;
                         }
                     }
                 }

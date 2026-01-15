@@ -837,7 +837,7 @@ class LinkerSettingTab extends PluginSettingTab {
         // Only match headers between symbols
         new Setting(containerEl)
             .setName('Only match headers between symbols')
-            .setDesc('When enabled, only headers containing both start and end symbols will be matched, and only the text between symbols will be used as keyword.')
+            .setDesc('When enabled, only headers containing both start and end symbols will be matched, and only the text between symbols will be used as keyword. Start and end symbols must be different.')
             .addToggle((toggle) =>
                 toggle.setValue(this.plugin.settings.headerMatchOnlyBetweenSymbols).onChange(async (value) => {
                     await this.plugin.updateSettings({ headerMatchOnlyBetweenSymbols: value });
@@ -846,7 +846,7 @@ class LinkerSettingTab extends PluginSettingTab {
 
         new Setting(containerEl)
             .setName('Start symbol')
-            .setDesc('Symbol marking the start of the keyword in headers (can be empty, emoji allowed).')
+            .setDesc('Symbol marking the start of the keyword in headers (can be empty, emoji allowed). Must be different from end symbol.')
             .addText((text) =>
                 text.setValue(this.plugin.settings.headerMatchStartSymbol).onChange(async (value) => {
                     await this.plugin.updateSettings({ headerMatchStartSymbol: value });
@@ -855,7 +855,7 @@ class LinkerSettingTab extends PluginSettingTab {
 
         new Setting(containerEl)
             .setName('End symbol')
-            .setDesc('Symbol marking the end of the keyword in headers (can be empty, emoji allowed).')
+            .setDesc('Symbol marking the end of the keyword in headers (can be empty, emoji allowed). Must be different from start symbol.')
             .addText((text) =>
                 text.setValue(this.plugin.settings.headerMatchEndSymbol).onChange(async (value) => {
                     await this.plugin.updateSettings({ headerMatchEndSymbol: value });
