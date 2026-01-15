@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: "refs/pull/${{ github.event.number }}/merge"
+          ref: "refs/pull/${{ github.event.number }}/head"
       - uses: actions/setup-node@v2
       - uses: actions/github-script@v6
         with:
@@ -146,6 +146,9 @@ jobs:
               if (plugin.description?.toLowerCase().includes('this plugin') || plugin.description?.toLowerCase().includes('this is a plugin') || plugin.description?.toLowerCase().includes('this plugin allows')) {
                 addWarning('Avoid including sentences like `This is a plugin that does` in your description');
               }
+              if (!plugin.description?.endsWith('.') && !plugin.description?.endsWith('?') && !plugin.description?.endsWith('!') && !plugin.description?.endsWith(')')) {
+                addError('Your description needs to have one of the following characters at the end: `.?!)`');
+              }
               
               if (plugin.description?.length > 250) {
                 addError(`Your plugin has a long description. Users typically find it difficult to read a very long description, so you should keep it short and concise.`);
@@ -205,6 +208,9 @@ jobs:
                 if (plugin.name && manifest.name !== plugin.name) {
                   addError(`Plugin name mismatch, the name in this PR (\`${plugin.name}\`) is not the same as the one in your repo (\`${manifest.name}\`). If you just changed your plugin name, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
                 }
+                 if (plugin.description && manifest.description !== plugin.description) {
+                  addError(`Description mismatch, the description in this PR (\`${plugin.description}\`) is not the same as the one in your repo (\`${manifest.description}\`). If you just changed it, remember to change it in the manifest.json in your repo and your latest GitHub release.`);
+                }
 
                 if (manifest.authorUrl) {
                   if (manifest.authorUrl === "https://obsidian.md") {
@@ -236,10 +242,10 @@ jobs:
 
                   const assets = release.data.assets || [];
                   if (!assets.find(p => p.name === 'main.js')) {
-                    addError('Your latest release is missing the `main.js` file.');
+                    addError(`The release \`${manifest.version}\` specified in the \`manifest.json\` in the root of the repo is missing the \`main.js\` file.`);
                   }
                   if (!assets.find(p => p.name === 'manifest.json')) {
-                    addError('Your latest release is missing the `manifest.json` file.');
+                    addError(`The release \`${manifest.version}\` specified in the \`manifest.json\` in the root of the repo is missing the \`manifest.json\` file.`);
                   }
                 } catch (e) {
                   addError(`Unable to find a release with the tag \`${manifest.version}\`. Make sure that the version in your manifest.json file in your repo points to the correct Github Release.`);
