@@ -95,6 +95,9 @@ jobs:
               console.log('All done!');
             })();
       - run: |
+          npm ci --no-save
+          npm run format
+      - run: |
           git config --local user.name 'Obsidian Bot'
           git config --local user.email 'admin@obsidian.md'
           git add .
