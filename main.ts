@@ -692,11 +692,23 @@ export default class LinkerPlugin extends Plugin {
     }
 
     private cleanupVirtualLinks() {
-        // 清除所有虚拟链接
+        // 恢复虚拟链接为原始文本
         const virtualLinks = document.querySelectorAll('.virtual-link, .virtual-link-span, .virtual-link-a');
-        virtualLinks.forEach(link => link.remove());
+        virtualLinks.forEach(link => {
+            // 获取原始文本：首先尝试 origin-text 属性，否则使用链接的文本内容
+            const anchor = link.classList.contains('virtual-link-a') ? link : link.querySelector('.virtual-link-a');
+            const originalText = anchor?.getAttribute('origin-text') || anchor?.textContent || '';
+            if (originalText) {
+                // 用文本节点替换虚拟链接元素
+                const textNode = document.createTextNode(originalText);
+                link.replaceWith(textNode);
+            } else {
+                // 如果没有找到文本，直接删除
+                link.remove();
+            }
+        });
         
-        // 清除可能存在的多重引用指示器
+        // 清除可能存在的多重引用指示器（这些不包含主文本，直接删除）
         const multipleRefs = document.querySelectorAll('.multiple-files-references, .multiple-files-indicator');
         multipleRefs.forEach(ref => ref.remove());
     }

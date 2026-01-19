@@ -12,9 +12,21 @@ export class GlossaryLinker extends MarkdownRenderChild {
     linkerCache: LinkerCache;
 
     private clearExistingLinks() {
-        // 清除所有由该插件添加的虚拟链接
-        const links = this.containerEl.querySelectorAll('.virtual-link');
-        links.forEach(link => link.remove());
+        // 恢复虚拟链接为原始文本
+        const virtualLinks = this.containerEl.querySelectorAll('.virtual-link');
+        virtualLinks.forEach(link => {
+            // 获取原始文本：首先尝试 origin-text 属性，否则使用链接的文本内容
+            const anchor = link.querySelector('.virtual-link-a');
+            const originalText = anchor?.getAttribute('origin-text') || anchor?.textContent || '';
+            if (originalText) {
+                // 用文本节点替换虚拟链接元素
+                const textNode = document.createTextNode(originalText);
+                link.replaceWith(textNode);
+            } else {
+                // 如果没有找到文本，直接删除
+                link.remove();
+            }
+        });
     }
 
     constructor(app: App, settings: LinkerPluginSettings, context: MarkdownPostProcessorContext, containerEl: HTMLElement, public plugin: any) {
