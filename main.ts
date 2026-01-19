@@ -691,7 +691,19 @@ export default class LinkerPlugin extends Plugin {
         }
     }
 
-    onunload() {}
+    private cleanupVirtualLinks() {
+        // 清除所有虚拟链接
+        const virtualLinks = document.querySelectorAll('.virtual-link, .virtual-link-span, .virtual-link-a');
+        virtualLinks.forEach(link => link.remove());
+        
+        // 清除可能存在的多重引用指示器
+        const multipleRefs = document.querySelectorAll('.multiple-files-references, .multiple-files-indicator');
+        multipleRefs.forEach(ref => ref.remove());
+    }
+
+    onunload() {
+        this.cleanupVirtualLinks();
+    }
 
     async loadSettings() {
         this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
@@ -735,6 +747,11 @@ export default class LinkerPlugin extends Plugin {
         }
         
         this.updateManager.update();
+        
+        // 如果插件被禁用，清除所有虚拟链接
+        if (!this.settings.linkerActivated) {
+            this.cleanupVirtualLinks();
+        }
         
         // 强制刷新所有视图以确保设置变更立即生效
         this.app.workspace.getLeavesOfType('markdown').forEach(leaf => {

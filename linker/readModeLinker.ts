@@ -56,6 +56,7 @@ export class GlossaryLinker extends MarkdownRenderChild {
 
     onload() {
         if (!this.settings.linkerActivated) {
+            this.clearExistingLinks();
             return;
         }
 
