@@ -15,7 +15,7 @@ jobs:
         with:
           ref: "refs/pull/${{ github.event.number }}/merge"
       - uses: actions/setup-node@v2
-      - run: npm install probe-image-size
+      - run: npm install -g probe-image-size && npm link probe-image-size
       - uses: actions/github-script@v6
         with:
           script: |
@@ -111,6 +111,9 @@ jobs:
                 }
                 if (theme.name.toLowerCase().includes('theme')) {
                     addError(`We discourage themes from including the word \`theme\` in their name since it's redundant and makes the theme selection screen harder to visually parse.`);
+                }
+                if (theme.name.match(/([^A-Za-z0-9_\- ]+)/g)) {
+                    addError('Your theme name contains invalid symbols, allowed are letters, digits, spaces, hyphens and underscores.');
                 }
 
                 if (/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(theme.author)) {
