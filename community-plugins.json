@@ -7088,7 +7088,7 @@
     "name": "ICS",
     "author": "Cloud Atlas",
     "description": "Add events from calendar ics on the web to daily notes on demand. Includes vdir support. Daily Planner, Templater and Dataview friendly.",
-    "repo": "cloud-atlas-ai/obsidian-ics"
+    "repo": "open-horizon-labs/obsidian-ics"
   },
   {
     "id": "fantasy-name",
@@ -7236,13 +7236,6 @@
     "author": "mgmeyers",
     "description": "Easily compile many notes down to a single file.",
     "repo": "mgmeyers/obsidian-easy-bake"
-  },
-  {
-    "id": "yet-another-obsidian-synchronizer",
-    "name": "Yet Another Obsidian Synchronizer",
-    "author": "Mahyar Mirrashed",
-    "description": "Use Git to synchronize your vault contents across devices.",
-    "repo": "mahyarmirrashed/yaos"
   },
   {
     "id": "finnish-spellcheck",
@@ -9027,7 +9020,7 @@
     "name": "Smart Title",
     "author": "magooup",
     "description": "Automatically extract tags and aliases from the title.",
-    "repo": "magooup/obsidian-plugin-smart-title"
+    "repo": "maxzyma/obsidian-plugin-smart-title"
   },
   {
     "id": "gamified-pkm",
@@ -9755,7 +9748,7 @@
     "name": "Set View Mode per Note",
     "author": "Alex Davies",
     "description": "Use YAML frontmatter to specify a view mode per note.",
-    "repo": "AlexDavies8/obsidian-frontmatter-viewmode"
+    "repo": "yunidev-uk/obsidian-frontmatter-viewmode"
   },
   {
     "id": "wordwise",
@@ -10735,7 +10728,7 @@
     "name": "Cloud Atlas",
     "author": "Cloud Atlas",
     "description": "The most effective way to use LLMs in your vault: Add your current note, reference backlinks/forward links, and a Canvas mode to assemble a prompt with all the context you.",
-    "repo": "cloud-atlas-ai/obsidian-client"
+    "repo": "open-horizon-labs/obsidian-client"
   },
   {
     "id": "slurp",
@@ -10812,7 +10805,7 @@
     "name": "Amazing Marvin Integration",
     "author": "Cloud Atlas",
     "description": "Integration with Amazing Marvin (unofficial). Supports exporting AM tasks/projects, creating new tasks and completing tasks.",
-    "repo": "cloud-atlas-ai/obsidian-am"
+    "repo": "open-horizon-labs/obsidian-am"
   },
   {
     "id": "cluster",
@@ -11415,13 +11408,6 @@
     "author": "Stashpad",
     "description": "Create a Stashpad Doc from your notes.",
     "repo": "stashpad/obsidian-to-stashpad"
-  },
-  {
-    "id": "smart-gantt",
-    "name": "Smart Gantt",
-    "author": "Nhan Nguyen",
-    "description": "Intelligently generate Gantt chart from your tasks",
-    "repo": "nhannht/obsidian-smart-gantt"
   },
   {
     "id": "tw-task-wiki",
@@ -14557,7 +14543,7 @@
     "name": "Better Plugins Manager",
     "author": "zero",
     "description": "\u6253\u9020\u60a8\u7684\u6781\u81f4\u63d2\u4ef6\u7ba1\u7406\u4f53\u9a8c\uff0c\u8ba9\u63d2\u4ef6\u7ba1\u7406\u53d8\u5f97\u66f4\u52a0\u76f4\u89c2\u3001\u9ad8\u6548\uff0c\u540c\u65f6\u63d0\u5347\u60a8\u7684\u5de5\u4f5c\u6d41\u7a0b\u548c\u4e2a\u6027\u5316\u8bbe\u7f6e\u3002",
-    "repo": "zenozerocode/obsidian-manager"
+    "repo": "eondrcode/obsidian-manager"
   },
   {
     "id": "bujo-bullets",
@@ -18939,7 +18925,7 @@
     "name": "Minidoro",
     "author": "Shakti Sampad Swain",
     "description": "A minimal Pomodoro timer to help you focus.",
-    "repo": "shaktisampadswain/minidoro"
+    "repo": "ShaktiSampadSwain/minidoro"
   },
   {
     "id": "remember-scrollposition",
@@ -18996,5 +18982,61 @@
     "author": "Jack Xu",
     "description": "Click to zoom images and mermaid diagrams with lightbox effect.",
     "repo": "jackcipher/obsidian-lightbox"
+  },
+  {
+    "id": "edit-link-alias",
+    "name": "Edit Link Alias",
+    "author": "mnaoumov",
+    "description": "Adds edit link alias command.",
+    "repo": "mnaoumov/obsidian-edit-link-alias"
+  },
+  {
+    "id": "better-link-clicker",
+    "name": "Better Link Clicker",
+    "author": "Eniverz",
+    "description": "Changes link click behavior to edit on click and navigate on Ctrl+Click.",
+    "repo": "eniverz/obsidian-better-link-clicker-plugin"
+  },
+  {
+    "id": "next-toc",
+    "name": "Next TOC",
+    "author": "RavenHogWarts",
+    "description": "Floating panel displaying the current document's reading progress, table of contents, and navigation aids.",
+    "repo": "RavenHogWarts/obsidian-next-toc"
+  },
+  {
+    "id": "goboard",
+    "name": "GoBoard",
+    "author": "Dmitry I. Sokolov",
+    "description": "Render Go game diagrams from Markdown code blocks.",
+    "repo": "dsokolov/goboard"
+  },
+  {
+    "id": "rss-dashboard",
+    "name": "RSS Dashboard",
+    "author": "Aditya Amatya",
+    "description": "A dashboard for organizing and consuming RSS feeds, YouTube channels, and podcasts with smart tagging, media playback, and seamless content flow.",
+    "repo": "amatya-aditya/obsidian-rss-dashboard"
+  },
+  {
+    "id": "yolo",
+    "name": "YOLO",
+    "author": "Lapis0x0",
+    "description": "Smart, snappy, and multilingual AI assistant for your vault.",
+    "repo": "Lapis0x0/obsidian-yolo"
+  },
+  {
+    "id": "connections",
+    "name": "Connections",
+    "author": "Eric Van Cleve",
+    "description": "Define and view named connections between your notes.",
+    "repo": "evancleve/obsidian-connections"
+  },
+  {
+    "id": "japanese-manuscript-counter",
+    "name": "Japanese Manuscript Counter",
+    "author": "Yo Fujii",
+    "description": "Displays the number of Japanese characters and their equivalent in 400-character manuscript paper in real time. Provides an accurate count taking into account line breaks, paragraphs, and character breaks.",
+    "repo": "YoFujii0705/japanese-manuscript-counter"
   }
 ]
