@@ -3570,13 +3570,6 @@
     "repo": "zsviczian/excalibrain"
   },
   {
-    "id": "obsidian-expand-bullet",
-    "name": "Expand Bullet",
-    "author": "Boninall",
-    "description": "Transform bullet content into note.",
-    "repo": "Quorafind/Obsidian-Expand-Bullet"
-  },
-  {
     "id": "obsidian-advanced-codeblock",
     "name": "Advanced Codeblock",
     "author": "Lijyze",
@@ -4585,13 +4578,6 @@
     "repo": "monesga/obsidian-sigma"
   },
   {
-    "id": "better-reading-mode",
-    "name": "Better Reading Mode",
-    "author": "Boninall",
-    "description": "Enable bionic reading mode in Live Preview mode.",
-    "repo": "Quorafind/Obsidian-Better-Reading-Mode"
-  },
-  {
     "id": "obsidian-new-bullet-with-time",
     "name": "New Bullet With Time",
     "author": "Boninall",
@@ -4660,13 +4646,6 @@
     "author": "widcardw",
     "description": "Add asciimath support.",
     "repo": "widcardw/obsidian-asciimath"
-  },
-  {
-    "id": "double-click-tab",
-    "name": "Double Click Tab",
-    "author": "Boninall",
-    "description": "Modify the default behavior when you double click on the tab title, like close tab.",
-    "repo": "Quorafind/Obsidian-Double-Click-Tab"
   },
   {
     "id": "scrybble.ink",
@@ -5087,13 +5066,6 @@
     "author": "Justin Kim",
     "description": "Create highly-customizable data visualizations like line charts and scatter plots using Vega or Vega-Lite.",
     "repo": "Justin-J-K/obsidian-vega"
-  },
-  {
-    "id": "link-nodes-in-canvas",
-    "name": "Link Nodes in Canvas",
-    "description": "Add edges between notes in Canvas based on their links.",
-    "author": "Boninall",
-    "repo": "Quorafind/Obsidian-Link-Nodes-In-Canvas"
   },
   {
     "id": "canvas-css-class",
@@ -7373,7 +7345,7 @@
   {
     "id": "multi-tag",
     "name": "Multi Tag",
-    "author": "fez-github",
+    "author": "technohiker",
     "description": "Add tags to multiple notes at once. Either right-click a folder, or select multiple notes and right-click the selection.",
     "repo": "technohiker/obsidian-multi-tag"
   },
@@ -8134,13 +8106,6 @@
     "repo": "Quorafind/Obsidian-Fold-Anywhere"
   },
   {
-    "id": "file-property-enhancer",
-    "name": "File Property Enhancer",
-    "author": "Boninall",
-    "description": "Add icons to the file property, and customize the display of the file property.",
-    "repo": "Quorafind/Obsidian-File-Property-Enhancer"
-  },
-  {
     "id": "collapse-node",
     "name": "Collapse Node",
     "author": "Boninall",
@@ -8521,7 +8486,7 @@
   {
     "id": "multi-properties",
     "name": "Multi Properties",
-    "author": "fez-github",
+    "author": "technohiker",
     "description": "Add properties to multiple notes at once. Either right-click a folder or select multiple notes and right-click the selection.",
     "repo": "technohiker/obsidian-multi-properties"
   },
@@ -8964,7 +8929,7 @@
     "name": "Tldraw",
     "author": "Jonathan Mendez, Sam Alhaqab",
     "description": "Integration with tldraw, allowing users to draw and edit content on a virtual whiteboard.",
-    "repo": "tldraw-in-obsidian/tldraw-in-obsidian"
+    "repo": "tldraw/obsidian-plugin"
   },
   {
     "id": "autocorrect-formatter",
@@ -11995,7 +11960,7 @@
     "name": "Front Matter Timestamps",
     "author": "LighthouseDino",
     "description": "Automatically manages and updates 'created' and 'modified' timestamps in the frontmatter of your notes.",
-    "repo": "lighthousedino/obsidian-front-matter-timestamps"
+    "repo": "pookhaosc1/obsidian-front-matter-timestamps"
   },
   {
     "id": "publish-to-dev",
@@ -12362,13 +12327,6 @@
     "repo": "Ori-Replication/obsidian-math-indicator-changer"
   },
   {
-    "id": "pdf-annotator",
-    "name": "Pdf Annotator",
-    "author": "Boninall",
-    "description": "Simple but powerful pdf annotator.",
-    "repo": "Quorafind/Obsidian-PDF-Annotator"
-  },
-  {
     "id": "openapi-renderer",
     "name": "OpenAPI Renderer",
     "author": "Sentiago",
@@ -12394,7 +12352,7 @@
     "name": "Paste as Embed",
     "author": "Matt Laporte",
     "description": "Redirect pasted text into a separate note, and embed it.",
-    "repo": "MatthewLeoLaporte/obsidian-paste-as-embed"
+    "repo": "i-m-mll/obsidian-paste-as-embed"
   },
   {
     "id": "better-recall",
@@ -12660,7 +12618,7 @@
     "name": "Arcane Obfuscate",
     "author": "Shusako",
     "description": "Obfuscate text with an arcane runic effect.",
-    "repo": "Shusako/arcane-obfuscate"
+    "repo": "travismlee/arcane-obfuscate"
   },
   {
     "id": "todoistprojectsync",
@@ -17538,7 +17496,7 @@
     "id": "eccirian",
     "name": "Eccirian Encrypt",
     "author": "Entropiex",
-    "description": "Encrypt your notes using advanced encryption algorithms.",
+    "description": "Next-generation file encryption solution based on modern cryptography.",
     "repo": "Enthalpiex/Eccirian-Encrypt"
   },
   {
@@ -17756,7 +17714,7 @@
     "name": "Zhihu",
     "author": "dgg",
     "description": "Enable you to publish your articles and answers to Zhihu.",
-    "repo": "dongguaguaguagua/zhihu_obsidian"
+    "repo": "zimya/zhihu_obsidian"
   },
   {
     "id": "dataview-properties",
@@ -19045,6 +19003,27 @@
     "author": "Omar Badawy",
     "description": "Registers your own SVGs into the global icon library for use with other plugins or however you want.",
     "repo": "ce-omarbadawy/obsidian-my-svgs"
+  },
+  {
+    "id": "colorful-note-background",
+    "name": "Colorful Note Background",
+    "author": "andresgongora",
+    "description": "Set note background based on file location or frontmatter metadata.",
+    "repo": "andresgongora/obsidian-colorful-note-background"
+  },
+  {
+    "id": "workout-planner",
+    "name": "Workout Planner",
+    "author": "Rares Spatariu",
+    "description": "Visualize workout data with interactive charts and advanced search capabilities.",
+    "repo": "SpatariuRares/obsidian-workout-plugin"
+  },
+  {
+    "id": "ai-transcriber",
+    "name": "AI Transcriber",
+    "author": "Musashino Software",
+    "description": "AI-powered speech-to-text transcription using OpenAI GPT-4o and Whisper APIs.",
+    "repo": "mssoftjp/obsidian-ai-transcriber"
   },
   {
     "id": "weeknote",
