@@ -19026,14 +19026,13 @@
     "repo": "mssoftjp/obsidian-ai-transcriber"
   },
   {
-  "id": "obsidian-powerpoint",
+  "id": "powerpoint-viewer",
   "name": "PowerPoint Viewer",
   "version": "1.0.0",
-  "minAppVersion": "0.15.0",
-  "description": "View PowerPoint (.pptx) files directly inside Obsidian",
+  "description": "View PowerPoint (.pptx) files directly inside the app.",
   "author": "Blue obsidian",
-  "authorUrl": "https://github.com/Emmanuek5",
-  "repo":"Emmanuek5/obsidian-powerpoint",
-  "isDesktopOnly": false
+  "isDesktopOnly": true,
+  "repo":"Emmanuek5/obsidian-powerpoint"
 }
+
 ]
