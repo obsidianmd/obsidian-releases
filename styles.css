@@ -1,0 +1,289 @@
+:root {
+  --virtual-link-opacity: 0.6;
+  --settings-box-min-width: 200px;
+  --settings-box-min-height: 60px;
+}
+
+/* Basic virtual link styles */
+.virtual-link-span {
+  display: inline;
+  background-color: #e6e6e6;
+  position: relative;
+}
+
+.virtual-link-span,
+.virtual-link-span a,
+.virtual-link-default,
+.virtual-link-header,
+.virtual-link-span .internal-link {
+  text-decoration: none !important;
+  filter: brightness(var(--virtual-link-opacity));
+}
+
+.linker-suffix-icon {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.linker-settings-text-box {
+  min-width: var(--settings-box-min-width);
+  min-height: var(--settings-box-min-height);
+}
+
+.virtual-link-span .multiple-files-references,
+.virtual-link-span .multiple-files-indicator {
+  display: none;
+}
+
+.virtual-link-span:hover .multiple-files-references,
+.virtual-link-span.virtual-link-hover-lock .multiple-files-references {
+  display: inline !important;
+}
+
+/* Basic virtual link style */
+.virtual-link {
+  display: inline;
+  background-color: #e6e6e6;
+  position: relative;
+}
+
+/* Virtual link in bold context */
+.virtual-link.cm-strong,
+.cm-strong .virtual-link {
+  font-weight: var(--bold-weight, bold) !important;
+  /* Do not override highlight color, allow highlight background to show through */
+}
+
+/* Ensure virtual links maintain style in CodeMirror bold */
+.cm-strong .virtual-link-span {
+  font-weight: inherit !important;
+}
+
+/* Hover effect */
+.virtual-link:hover .multiple-files-references,
+.cm-strong .virtual-link:hover .multiple-files-references,
+.virtual-link.virtual-link-hover-lock .multiple-files-references {
+  display: inline !important;
+}
+
+/* Multiple files indicator */
+.virtual-link .multiple-files-references,
+.virtual-link .multiple-files-indicator {
+  display: none;
+}
+
+.virtual-link:hover .multiple-files-references {
+  display: inline;
+}
+
+/* Handle nested cases */
+.cm-strong .virtual-link .virtual-link {
+    font-weight: inherit !important;
+}
+
+/* Virtual links in italic context */
+.virtual-link.cm-em,
+.cm-em .virtual-link,
+.virtual-link-in-italic {
+  font-style: italic !important;
+  background-color: rgba(128, 128, 128, 0.1) !important;
+}
+
+/* Virtual links in highlight context */
+/* Virtual links in highlight context, applicable in both edit and read modes */
+
+/* Unified highlight virtual link background color: light yellow #fff9c0 */
+/* Unified highlight virtual link background color: dark khaki #88885a, adapted for image rendering overlay */
+/* Unified highlight virtual link background color: dark khaki #88885a, adapted for image rendering overlay */
+.virtual-link.cm-highlight,
+.cm-highlight .virtual-link,
+.virtual-link-in-highlight,
+.virtual-link-span.virtual-link-in-highlight,
+.markdown-preview-view mark .virtual-link,
+.markdown-preview-view mark .virtual-link-span {
+  display: inline !important;
+  position: relative;
+  z-index: 1;
+}
+
+/* Virtual links in triple asterisk (bold-italic) context */
+.virtual-link.cm-strong.cm-em,
+.cm-strong.cm-em .virtual-link,
+.virtual-link-in-triple-star {
+    font-weight: var(--bold-weight, bold) !important;
+    font-style: italic !important;
+    /* Do not override highlight color, allow highlight background to show through */
+}
+
+/* Ensure nested style inheritance */
+.cm-em .virtual-link .virtual-link {
+    font-style: inherit !important;
+}
+
+.cm-strong.cm-em .virtual-link .virtual-link {
+    font-weight: inherit !important;
+    font-style: inherit !important;
+}
+
+/* Restore original background implementation for virtual links */
+.virtual-link,
+.virtual-link-span {
+    background-color: rgba(128, 128, 128, 0.1);
+    position: relative;
+}
+
+/* Native strikethrough style */
+.cm-strikethrough {
+    text-decoration: line-through !important;
+}
+
+/* Ensure strikethrough displays correctly on virtual links */
+.cm-strikethrough .virtual-link,
+.virtual-link.cm-strikethrough,
+.cm-strikethrough .virtual-link-span,
+.virtual-link-span.cm-strikethrough {
+    text-decoration: line-through !important;
+    background-color: rgba(128, 128, 128, 0.1) !important;
+    position: relative;
+    z-index: var(--virtual-link-z-index, 0);
+}
+
+/* Strikethrough on visual top layer */
+.cm-strikethrough .virtual-link::after,
+.virtual-link.cm-strikethrough::after,
+.cm-strikethrough .virtual-link-span::after,
+.virtual-link-span.cm-strikethrough::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 0.1em;
+    background-color: currentColor;
+    z-index: var(--strikethrough-z-index, 1);
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+/* Ensure virtual links in strikethrough text maintain correct color and style */
+.cm-strikethrough .virtual-link,
+.cm-strikethrough .virtual-link-span a,
+.cm-strikethrough .virtual-link-default,
+.cm-strikethrough .virtual-link-header {
+    color: inherit !important;
+}
+
+/* Virtual links in tables */
+table th .virtual-link,
+table th .virtual-link-span {
+    font-weight: var(--bold-weight, bold) !important;
+    background-color: rgba(128, 128, 128, 0.1) !important;
+}
+
+/* Ensure virtual links in table headers remain bold */
+
+/* Disable strikethrough display for virtual links in highlighted text */
+.markdown-preview-view mark .virtual-link,
+.markdown-preview-view mark .virtual-link-span {
+    text-decoration: none !important;
+}
+.markdown-preview-view mark .virtual-link::after,
+.markdown-preview-view mark .virtual-link-span::after {
+    display: none !important;
+    content: none !important;
+}
+table th .virtual-link-span,
+table th .virtual-link-span a,
+table th .virtual-link-default,
+table th .virtual-link-header,
+table th .virtual-link-span .internal-link {
+    font-weight: var(--bold-weight, bold) !important;
+    filter: brightness(var(--virtual-link-opacity));
+}
+
+/* Ensure virtual links in highlighted text always have yellow background in read mode */
+.markdown-preview-view mark:not(del):not(s):not(strike) .virtual-link,
+.markdown-preview-view mark:not(del):not(s):not(strike) .virtual-link-span {
+    /* Do not override mark's highlight color, let virtual links only show their own shadow */
+}
+
+/* Virtual link click area optimization - centered transparent click layer solution */
+.virtual-link-a {
+    position: relative;
+    display: inline-block;
+}
+.virtual-link-a::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1.5em;
+    height: 1.5em;
+    z-index: 0;
+}
+
+/* Special handling for highlighted virtual links within tables */
+.cm-table-widget .cm-highlight .virtual-link,
+.table-cell-wrapper .cm-highlight .virtual-link {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* In read mode, virtual links in strikethrough text: strikethrough always on top layer */
+.markdown-preview-view .cm-strikethrough .virtual-link,
+.markdown-preview-view .virtual-link.cm-strikethrough,
+.markdown-preview-view .cm-strikethrough .virtual-link-span,
+.markdown-preview-view .virtual-link-span.cm-strikethrough {
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.1) !important;
+    z-index: 0;
+}
+.markdown-preview-view .cm-strikethrough .virtual-link::after,
+.markdown-preview-view .virtual-link.cm-strikethrough::after,
+.markdown-preview-view .cm-strikethrough .virtual-link-span::after,
+.markdown-preview-view .virtual-link-span.cm-strikethrough::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 0.12em;
+    background-color: currentColor;
+    z-index: 99;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+/* In read mode, strikethrough virtual links compatible with mark/del/s/strike tags */
+.markdown-preview-view mark .virtual-link,
+.markdown-preview-view del .virtual-link,
+.markdown-preview-view s .virtual-link,
+.markdown-preview-view strike .virtual-link,
+.markdown-preview-view mark .virtual-link-span,
+.markdown-preview-view del .virtual-link-span,
+.markdown-preview-view s .virtual-link-span,
+.markdown-preview-view strike .virtual-link-span {
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.1) !important;
+    z-index: 0;
+}
+.markdown-preview-view mark .virtual-link::after,
+.markdown-preview-view del .virtual-link::after,
+.markdown-preview-view s .virtual-link::after,
+.markdown-preview-view strike .virtual-link::after,
+.markdown-preview-view mark .virtual-link-span::after,
+.markdown-preview-view del .virtual-link-span::after,
+.markdown-preview-view s .virtual-link-span::after,
+.markdown-preview-view strike .virtual-link-span::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 0.12em;
+    background-color: currentColor;
+    z-index: 99;
+    pointer-events: none;
+    transform: translateY(-50%);
+}

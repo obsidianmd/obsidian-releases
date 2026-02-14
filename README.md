@@ -1,63 +1,155 @@
-## About this repo
+# fakelink
 
-This repo is used for hosting public releases of Obsidian, as well as our community plugins & themes directories.
+This plugin automatically generates virtual links for text within your notes that match with the titles or aliases of other notes in your vault.
 
-Obsidian is not open source software and this repo _DOES NOT_ contain the source code of Obsidian. However, if you wish to contribute to Obsidian, you can easily do so with our extensive plugin system. A plugin guide can be found here: https://docs.obsidian.md
+Features:
+- create a glossary like functionality
+- works in **edit mode** and **read mode**
+- created links are **always up to date** 
+- **no manual linking** necessary 
+- works with **aliases** of notes
+- links do not appear in graph view & reference counting
+- updates the links automatically while you expand your vault or type new text
+- convert the virtual links to real links in the context menu
 
-This repo does not accept issues, if you have questions or issues with plugins, please go to their own repo to file them. If you have questions or issues about core Obsidian itself, please post them to our community: https://obsidian.md/community
+Usage demo (literally just typing text ;-):
+![Demo](media/LinkerDemo.gif)
 
-## Submit your plugin or theme
+## Usage
 
-When opening a pull request, please switch to preview mode and select the option to go through our submission checklist. Submit your entry by following the convention in the JSON file and we will review your submission.
+By default, the plugin will automatically link all notes of your vault.
+All occurrences of a note title or alias will be linked in your current note text.
+If you only want to include notes of a specific folder, you can define this folder in the settings.
 
-Thanks for submitting your creations!
+> [!Note]
+> The auto generated links are post-processed, so they neither change your note text to hard-coded links enclosed in brackets not 
+> appear in the graph view or reference counting.
 
-You can find a detailed explanation for submitting your [plugin here](https://docs.obsidian.md/Plugins/Releasing/Submit+your+plugin) and your [theme here](https://docs.obsidian.md/Themes/App+themes/Submit+your+theme).
+## Installing the plugin
 
-## Policies
+Inside obsidian, you can search for "fakelink" in the community plugins tab.
+After installing, enable the plugin in the settings.
 
-All submissions must conform with our [developer policies](https://docs.obsidian.md/Developer+policies)
+To manually install the plugin:
+- Copy over `main.js` & `manifest.json` (find them under `Releases`) to your vault `VaultFolder/.obsidian/plugins/fakelink/`.
+- or clone the repository into the plugins folder of your vault and build the plugin yourself.
 
-## Community Theme
+## Settings
 
-To add your theme to our theme store, make a pull request to the `community-css-theme.json` file. Please add your theme to the end of the list.
+## Matched files
 
-- `name`: a unique name for your theme. Must not collide with other themes.
-- `author`: the author's name for display.
-- `repo`: the GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
-- `screenshot`: path to the screenshot of your theme.
-- `modes`: if your theme supports both dark and light mode, put `["dark", "light"]`. Otherwise, put `["dark"]` if your theme only supports dark mode, or  `["light"]` if your theme only supports light mode.
-- `publish`: if your theme supports Obsidian Publish, set this to `true`. Omit it otherwise.
+You can toggle the matching of files between:
+- "Match all files": All files in your vault are matched.
+- "Match only files in a specific folder": Only files in a specific folder are matched. You can specify the folder in the settings. This is useful if you want to only create virtual links to notes in a dedicated glossary directory.
 
-To get your theme compatible with Obsidian Publish, you can use `applyCss` and `applyCssByLink` to test out your CSS in the developer console of Obsidian Publish sites, so that you don't actually need to own sites to test your `publish.css`. You can test it out on our help site here: https://help.obsidian.md/
+Furthermore, you can explicitly include or exclude specific files from being matched, by adding a tag to the file. You can change the tag in the settings, by default it is:
+- `linker-include` to explicitly include a file
+- `linker-exclude` to explicitly exclude a file
 
-`applyCss` takes a CSS string, you can use backtick (template strings) for multiline CSS. `applyCssByLink` takes a link and loads the CSS, would recommend GitHub raw file URLs.
+You can also exclude all files in a specific folder by adding the folder to the exclude list in the settings.
 
-## Community Plugin
+> [!Note]
+> To include / exclude a file or folder, you can use the context menu on virtual links or in the file explorer.
 
-### Community Plugins format
+### Case sensitivity
+You can toggle the case sensitivity of the matching. By default, the matching is case insensitive.
 
-To add your plugin to the list, make a pull request to the `community-plugins.json` file. Please add your plugin to the end of the list.
+Often there are words with mainly capitalized letters, that should be matched case sensitive. By default, words with 75% or more capitalized letters are matched case sensitive. You can change this threshold in the settings.
 
-- `id`: A unique ID for your plugin. Make sure this is the same one you have in your `manifest.json`.
-- `name`: The name of your plugin.
-- `author`: The author's name.
-- `description`: A short description of what your plugin does.
-- `repo`: The GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
+You can also explicitly change the case sensitivity of a specific file by adding a tag to the file. You can change the tag in the settings, by default it is:
+- `linker-match-case` to make the matching case sensitive
+- `linker-ignore-case` to make the matching case insensitive
 
-### How community plugins are pulled
+If you want to define the case sensitivity for specific aliases, you can define the frontmatter property lists in a note:
+- `linker-match-case` with a list of names that should be matched only case sensitive
+- `linker-ignore-case` with a list of names that should be matched case insensitive 
+These property names can be changed in the settings.
 
-- Obsidian will read the list of plugins in `community-plugins.json`.
-- The `name`, `author` and `description` fields are used for searching.
-- When the user opens the detail page of your plugin, Obsidian will pull the `manifest.json` and `README.md` from your GitHub repo).
-- The `manifest.json` in your repo will only be used to figure out the latest version. Actual files are fetched from your GitHub releases.
-- If your `manifest.json` requires a version of Obsidian that's higher than the running app, your `versions.json` will be consulted to find the latest version of your plugin that is compatible.
-- When the user chooses to install your plugin, Obsidian will look for your GitHub releases tagged identically to the version inside `manifest.json`.
-- Obsidian will download `manifest.json`, `main.js`, and `styles.css` (if available), and store them in the proper location inside the vault.
+### Matching mode
 
-### Announcing the First Public Release of your Plugin/Theme
+#### Suppress multiple matching and matching to real links
+By default, the plugin will suppress several identical virtual link in the same note.
+Furthermore, you can toggle to suppress the creation of virtual links to files, that are linked by real links in the current note. 
 
-- Once admitted to the plugin/theme browser, you can announce the public availability of your plugin/theme:
-  - [in the forums](https://forum.obsidian.md/c/share-showcase/9) as a showcase, and
-  - [on the Discord Server](https://discord.gg/veuWUTm) in the channel `#updates`. (You need the `developer` role to be able to post in that channel; [you can get that role here](https://discord.com/channels/686053708261228577/702717892533157999/830492034807758859).)
-- You can also announce the first working version of your plugin as a public beta before "officially" submitting it to the plugin/theme browser. That way, you can acquire some beta testers for feedback. It's recommended to use the [BRAT Plugin](https://obsidian.md/plugins?id=obsidian42-brat) to make the installation as easy as possible for interested beta testers.
+#### Part matching
+You can toggle the matching mode between:
+- "Matching only whole words": Only whole words are matched. E.g. "book" will not match "Notebook".
+- "Match also beginning of words": The beginning of a word is matched. E.g. "book" will not match "Notebook", but "Note" will match "Notebook".
+- "Matching any part of a word": Any part of a word is matched. E.g. "book" will match "Notebook".
+
+You furthermore have the option to suppress the link suffix for these matches to avoid cluttering your text.
+
+#### Links to the note itself
+By default, links to a note itself are suppressed.
+This link suppression might be a bit buggy and not work in all cases, e.g. in preview windows.
+If you like self-links to the note itself, you can toggle this behavior in the settings.
+
+#### Link suppression in current line 
+By default, links are created directly as you type.
+You can disable links for the current line you are typing.
+
+> [!Note]
+> Deactivating the link creation for the current line is recommended when using the plugin with IME (input method editor) for languages like Chinese or Japanese, as the plugin might otherwise interfere with the IME.
+
+
+### Styling of the links
+
+Any created virtual link will be appended with this suffix. This is useful to distinguish between real and virtual links.
+By default, the suffix is "🔗".
+
+By default (and if the default styling is toggled on in the settings), the links appear a little bit darker than your normal links.
+You can turn off this default styling in the settings.
+
+To apply custom styling to the links, you can add a CSS-snippet at `VaultFolder/.obsidian/snippets/virtualLinks.css` file.
+
+```css
+/* Properties of the virtual link when not hovered */
+.virtual-link.glossary-entry a {
+    /* To have the normal text color when not hovered */
+    color: inherit;
+
+    /* Or add a color, e.g. red */
+    /* color: red; */
+
+    /* You can also change the underline of the link in thickness, color, and other properties */
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgb(var(--color-purple-rgb), 0.6);
+    text-underline-position: under;
+    /* text-decoration-style: dotted; */
+    /* text-underline-offset: 0em; */
+}
+
+/* Properties of the virtual link when hovered */
+.virtual-link.glossary-entry a:hover {
+    color: var(--link-color);
+}
+```
+
+> [!Note]
+> If you want to apply custom styling, don't forget to turn off the "Apply default link styling" in the settings.
+
+## Commands
+
+The plugin provides the following commands that you can use:
+
+- **Convert All Virtual Links in Selection to Real Links**: Converts all virtual links within the selected text to real links.
+- **Toggle Virtual Linker**: Toggles the virtual linker on or off.
+
+You can access these commands from the command palette or assign custom hotkeys to them in the settings.
+
+## Context Menu Options
+
+When right-clicking on a virtual link, the following options are available in the context menu:
+
+- **Convert to real link**: Converts the selected virtual link to a real link.
+- **Exclude this file**: Adds the `linker-exclude` tag to the file, preventing it from being matched by the virtual linker.
+- **Include this file**: Adds the `linker-include` tag to the file, ensuring it is matched by the virtual linker.
+
+## How to use for development
+
+- Clone this repo (into `your-vault/.obsidian/plugins/`).
+- `yarn` to install dependencies
+- `yarn dev` to start compilation in watch mode.
+- `yarn build` to compile your `main.ts` into `main.js`.
+
+It is recommended to use the [Hot Reload Plugin](https://github.com/pjeby/hot-reload) for development.
