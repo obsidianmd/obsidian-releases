@@ -161,12 +161,7 @@ class AutoLinkerPlugin implements PluginValue {
                 updateIsOnActiveView = true;
             }
             
-            console.log('Active view detection:', {
-                standardCheck: domFromWorkspace ? isDescendant(domFromWorkspace, domFromUpdate, 3) : false,
-                tableEnhancedCheck: inTableCellEditor,
-                finalResult: updateIsOnActiveView,
-                inTable: inTableCellEditor
-            });
+
 
             // We store this information to be able to map the view updates to a obsidian file
             if (updateIsOnActiveView) {
@@ -220,44 +215,40 @@ class AutoLinkerPlugin implements PluginValue {
     findTableCellLineBoundary(view: EditorView, cursorPos: number, findStart: boolean): number {
         const doc = view.state.doc;
         
-        console.log(`Finding table cell boundary - cursor: ${cursorPos}, findStart: ${findStart}`);
+
         
         // Additional debugging
-        console.log('Document info:', {
-            length: doc.length,
-            cursorValid: cursorPos >= 0 && cursorPos <= doc.length,
-            charAtCursor: cursorPos < doc.length ? `"${doc.sliceString(cursorPos, cursorPos + 1)}"` : 'END'
-        });
+
         
         if (findStart) {
             // Look backwards for newline or start of document
             for (let pos = cursorPos; pos >= 0; pos--) {
                 if (pos === 0) {
-                    console.log('Start boundary at document start: 0');
+
                     return 0;
                 }
                 const char = doc.sliceString(pos - 1, pos);
                 if (char === '\n') {
-                    console.log(`Found start boundary at position: ${pos}`);
+
                     return pos;
                 }
             }
-            console.log('Fallback start boundary: 0');
+
             return 0;
         } else {
             // Look forwards for newline or end of document
             for (let pos = cursorPos; pos <= doc.length; pos++) {
                 if (pos === doc.length) {
-                    console.log(`End boundary at document end: ${doc.length}`);
+
                     return doc.length;
                 }
                 const char = doc.sliceString(pos, pos + 1);
                 if (char === '\n') {
-                    console.log(`Found end boundary at position: ${pos}`);
+
                     return pos;
                 }
             }
-            console.log(`Fallback end boundary: ${doc.length}`);
+
             return doc.length;
         }
     }
@@ -453,13 +444,7 @@ class AutoLinkerPlugin implements PluginValue {
             const fixIMEProblem = viewIsActive && this.settings.fixIMEProblem;
             let needImeFix = false;
             
-            console.log('Settings check:', {
-                viewIsActive,
-                excludeLinksInCurrentLine: this.settings.excludeLinksInCurrentLine,
-                excludeLine,
-                fixIMEProblem: this.settings.fixIMEProblem,
-                fixIMEProblemSetting: fixIMEProblem
-            });
+
 
             // Check if we're in a table environment - improved detection logic
             // Look for any table-related indicators in the DOM hierarchy
@@ -502,32 +487,25 @@ class AutoLinkerPlugin implements PluginValue {
             }
             
             // Debug logging
-            console.log('Enhanced table detection:', { 
-                detected: inTableCellEditor,
-                method: tableDetectionMethod,
-                domInfo: {
-                    currentElement: view.dom.tagName + '.' + view.dom.className,
-                    parentElements: this.getParentElementInfo(view.dom)
-                }
-            });
+
 
             // Get the line start and end positions
             let lineStart: number, lineEnd: number;
             
             if (inTableCellEditor) {
                 // In table cell: find the boundaries of the current line within the cell
-                console.log('Using table cell line detection');
+
                 lineStart = this.findTableCellLineBoundary(view, cursorPos, true);
                 lineEnd = this.findTableCellLineBoundary(view, cursorPos, false);
             } else {
                 // Regular text: use standard line detection
-                console.log('Using standard line detection');
+
                 const line = view.state.doc.lineAt(cursorPos);
                 lineStart = line.from;
                 lineEnd = line.to;
             }
             
-            console.log('Line boundaries calculated:', { lineStart, lineEnd, cursorPos });
+
 
             matches.forEach((addition) => {
                 const [from, to] = [addition.from, addition.to];
@@ -535,16 +513,7 @@ class AutoLinkerPlugin implements PluginValue {
 
                 const additionIsInCurrentLine = from >= lineStart && to <= lineEnd;
                 
-                console.log('Match evaluation:', { 
-                    text: view.state.doc.sliceString(from, to),
-                    from, 
-                    to, 
-                    lineStart, 
-                    lineEnd, 
-                    additionIsInCurrentLine,
-                    excludeLine,
-                    cursorNearby
-                });
+
 
                 if (fixIMEProblem) {
                     needImeFix = true;
@@ -579,19 +548,7 @@ class AutoLinkerPlugin implements PluginValue {
                     }
                 }
 
-                // Log the filtering decision
-                const shouldExclude = excludeLine && additionIsInCurrentLine;
-                const willCreateLink = !cursorNearby && !needImeFix && !shouldExclude;
-                
-                console.log('Link creation decision:', {
-                    text: view.state.doc.sliceString(from, to),
-                    cursorNearby,
-                    needImeFix,
-                    excludeLine,
-                    additionIsInCurrentLine,
-                    shouldExclude,
-                    willCreateLink
-                });
+
 
                 if (!cursorNearby && !needImeFix && !(excludeLine && additionIsInCurrentLine)) {
                     builder.add(
