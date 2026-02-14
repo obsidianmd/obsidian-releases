@@ -4,7 +4,7 @@
   --settings-box-min-height: 60px;
 }
 
-/* 基本虚拟链接样式 */
+/* Basic virtual link styles */
 .virtual-link-span {
   display: inline;
   background-color: #e6e6e6;
@@ -51,7 +51,7 @@
 .virtual-link.cm-strong,
 .cm-strong .virtual-link {
   font-weight: var(--bold-weight, bold) !important;
-  /* 不覆盖高亮色，允许高亮背景透出 */
+  /* Do not override highlight color, allow highlight background to show through */
 }
 
 /* Ensure virtual links maintain style in CodeMirror bold */
@@ -89,12 +89,12 @@
   background-color: rgba(128, 128, 128, 0.1) !important;
 }
 
-/* 高亮上下文中的虚拟链接 */
-/* 高亮上下文中的虚拟链接，编辑和阅读模式都适用 */
+/* Virtual links in highlight context */
+/* Virtual links in highlight context, applicable in both edit and read modes */
 
-/* 统一高亮虚拟链接背景色为淡黄色 #fff9c0 */
-/* 统一高亮虚拟链接背景色为深卡其色 #88885a，适配图片渲染覆盖效果 */
-/* 统一高亮虚拟链接背景色为深卡其色 #88885a，适配图片渲染覆盖效果 */
+/* Unified highlight virtual link background color: light yellow #fff9c0 */
+/* Unified highlight virtual link background color: dark khaki #88885a, adapted for image rendering overlay */
+/* Unified highlight virtual link background color: dark khaki #88885a, adapted for image rendering overlay */
 .virtual-link.cm-highlight,
 .cm-highlight .virtual-link,
 .virtual-link-in-highlight,
@@ -106,16 +106,16 @@
   z-index: 1;
 }
 
-/* 三连星号(粗斜体)上下文中的虚拟链接 */
+/* Virtual links in triple asterisk (bold-italic) context */
 .virtual-link.cm-strong.cm-em,
 .cm-strong.cm-em .virtual-link,
 .virtual-link-in-triple-star {
     font-weight: var(--bold-weight, bold) !important;
     font-style: italic !important;
-    /* 不覆盖高亮色，允许高亮背景透出 */
+    /* Do not override highlight color, allow highlight background to show through */
 }
 
-/* 确保嵌套样式继承 */
+/* Ensure nested style inheritance */
 .cm-em .virtual-link .virtual-link {
     font-style: inherit !important;
 }
@@ -125,19 +125,19 @@
     font-style: inherit !important;
 }
 
-/* 恢复虚拟链接的原始背景实现 */
+/* Restore original background implementation for virtual links */
 .virtual-link,
 .virtual-link-span {
     background-color: rgba(128, 128, 128, 0.1);
     position: relative;
 }
 
-/* 原生删除线样式 */
+/* Native strikethrough style */
 .cm-strikethrough {
     text-decoration: line-through !important;
 }
 
-/* 确保删除线在虚拟链接上也能正确显示 */
+/* Ensure strikethrough displays correctly on virtual links */
 .cm-strikethrough .virtual-link,
 .virtual-link.cm-strikethrough,
 .cm-strikethrough .virtual-link-span,
@@ -148,7 +148,7 @@
     z-index: var(--virtual-link-z-index, 0);
 }
 
-/* 删除线在视觉上层 */
+/* Strikethrough on visual top layer */
 .cm-strikethrough .virtual-link::after,
 .virtual-link.cm-strikethrough::after,
 .cm-strikethrough .virtual-link-span::after,
@@ -165,7 +165,7 @@
     transform: translateY(-50%);
 }
 
-/* 确保删除线文本中的虚拟链接保持正确的颜色和样式 */
+/* Ensure virtual links in strikethrough text maintain correct color and style */
 .cm-strikethrough .virtual-link,
 .cm-strikethrough .virtual-link-span a,
 .cm-strikethrough .virtual-link-default,
@@ -173,16 +173,16 @@
     color: inherit !important;
 }
 
-/* 表格中的虚拟链接 */
+/* Virtual links in tables */
 table th .virtual-link,
 table th .virtual-link-span {
     font-weight: var(--bold-weight, bold) !important;
     background-color: rgba(128, 128, 128, 0.1) !important;
 }
 
-/* 确保表格标题中的虚拟链接保持加粗 */
+/* Ensure virtual links in table headers remain bold */
 
-/* 禁止高亮文本中的虚拟链接显示删除线 */
+/* Disable strikethrough display for virtual links in highlighted text */
 .markdown-preview-view mark .virtual-link,
 .markdown-preview-view mark .virtual-link-span {
     text-decoration: none !important;
@@ -201,13 +201,13 @@ table th .virtual-link-span .internal-link {
     filter: brightness(var(--virtual-link-opacity));
 }
 
-/* 保证高亮文本中的虚拟链接在阅读模式下始终为黄色背景 */
+/* Ensure virtual links in highlighted text always have yellow background in read mode */
 .markdown-preview-view mark:not(del):not(s):not(strike) .virtual-link,
 .markdown-preview-view mark:not(del):not(s):not(strike) .virtual-link-span {
-    /* 不覆盖 mark 的高亮色，让虚拟链接只显示自身阴影 */
+    /* Do not override mark's highlight color, let virtual links only show their own shadow */
 }
 
-/* 虚拟链接点击区域优化 - 居中透明点击层方案 */
+/* Virtual link click area optimization - centered transparent click layer solution */
 .virtual-link-a {
     position: relative;
     display: inline-block;
@@ -223,14 +223,14 @@ table th .virtual-link-span .internal-link {
     z-index: 0;
 }
 
-/* 表格内高亮虚拟链接特殊处理 */
+/* Special handling for highlighted virtual links within tables */
 .cm-table-widget .cm-highlight .virtual-link,
 .table-cell-wrapper .cm-highlight .virtual-link {
   opacity: 1 !important;
   pointer-events: auto !important;
 }
 
-/* 阅读模式下，删除线中的虚拟链接，删除线始终在最上层 */
+/* In read mode, virtual links in strikethrough text: strikethrough always on top layer */
 .markdown-preview-view .cm-strikethrough .virtual-link,
 .markdown-preview-view .virtual-link.cm-strikethrough,
 .markdown-preview-view .cm-strikethrough .virtual-link-span,
@@ -255,7 +255,7 @@ table th .virtual-link-span .internal-link {
     transform: translateY(-50%);
 }
 
-/* 阅读模式下，兼容 mark/del/s/strike 标签的删除线虚拟链接 */
+/* In read mode, strikethrough virtual links compatible with mark/del/s/strike tags */
 .markdown-preview-view mark .virtual-link,
 .markdown-preview-view del .virtual-link,
 .markdown-preview-view s .virtual-link,

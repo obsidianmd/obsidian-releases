@@ -27,12 +27,12 @@ export class VirtualLinkWidget extends WidgetType {
     }
     
     toDOM(view: EditorView): HTMLElement {
-        // 改进表格单元格检测逻辑
+        // Improved table cell detection logic
         const cmTableWidget = view.dom.closest('.cm-table-widget');
         const tableWrapper = view.dom.closest('.table-cell-wrapper');
         const inTableCellEditor = !!(cmTableWidget && tableWrapper);
         
-        // 创建链接元素
+        // Create link element
         const element = this.match.getCompleteLinkElement(inTableCellEditor);
         
         // Check current format context with precise range checking
@@ -96,7 +96,7 @@ export class VirtualLinkWidget extends WidgetType {
         return element;
     }
     
-    // 设置更高的装饰优先级
+    // Set higher decoration priority
     get estimatedHeight(): number {
         return -1;
     }
@@ -109,7 +109,7 @@ class AutoLinkerPlugin implements PluginValue {
     linkerCache: LinkerCache;
 
     settings: LinkerPluginSettings;
-    plugin: any; // 添加 plugin 属性
+    plugin: any;
 
     private lastCursorPos: number = 0;
     private lastActiveFile: string = '';
@@ -119,7 +119,7 @@ class AutoLinkerPlugin implements PluginValue {
 
     constructor(view: EditorView, app: App, settings: LinkerPluginSettings, updateManager: ExternalUpdateManager, plugin: any) {
         this.app = app;
-        this.plugin = plugin; // 存储 plugin 引用
+        this.plugin = plugin; // Store plugin reference
         this.settings = settings;
 
         const { vault } = this.app;
@@ -262,30 +262,21 @@ class AutoLinkerPlugin implements PluginValue {
                                     isAlias ? MatchType.Alias : MatchType.Note,
                                     !isWordBoundary,
                                     this.settings,
-                                    this.plugin, // 添加 plugin 参数
+                                    this.plugin, // Add plugin parameter
                                     node.headerId
                                 );
 
-                                // 如果有多个文件，为每个文件获取其对应的标题ID
+                                // If there are multiple files, get corresponding heading ID for each file
                                 if (filteredFiles.length > 1) {
-                                    // 获取每个文件的标题ID
                                     filteredFiles.forEach((file, index) => {
-                                        if (index === 0) {
-                                            // 第一个文件已经在构造函数中设置了标题ID
-                                            return;
-                                        }
-                                        // 获取当前文件的标题ID
+                                        if (index === 0) return;
+
                                         const fileNodes = this.linkerCache.cache.getCurrentMatchNodes(
                                             i,
-                                            null, // 不排除任何文件
-                                            file // 只获取特定文件的节点
+                                            null,
+                                            file
                                         );
-                                        // 如果找到了节点并且有标题ID，设置给对应的文件
                                         if (fileNodes && fileNodes.length > 0 && fileNodes[0].headerId) {
-                                            virtualMatch.setFileHeaderId(file, fileNodes[0].headerId);
-                                        }
-                                        // 如果找到了节点并且有标题ID，设置给对应的文件
-                                        if (fileNodes.length > 0 && fileNodes[0].headerId) {
                                             virtualMatch.setFileHeaderId(file, fileNodes[0].headerId);
                                         }
                                     });

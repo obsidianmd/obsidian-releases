@@ -8,7 +8,7 @@ import { LinkerMetaInfoFetcher } from 'linker/linkerInfo';
 import * as path from 'path';
 
 export interface LinkerPluginSettings {
-    app?: App; // 添加 app 实例引用
+    app?: App; // Add app instance reference
     autoToggleByMode: boolean;
     advancedSettings: boolean;
     linkerActivated: boolean;
@@ -98,9 +98,9 @@ const DEFAULT_SETTINGS: LinkerPluginSettings = {
 };
 
 export default class LinkerPlugin extends Plugin {
-    // 检查是否在Canvas视图中
+    // Check if in Canvas view
     private isInCanvas(): boolean {
-        // 只检查当前活动视图是否为Canvas
+        // Only check if the current active view is Canvas
         const activeLeaf = this.app.workspace.activeLeaf;
         if (activeLeaf && activeLeaf.view && activeLeaf.view.getViewType() === 'canvas') {
             return true;
@@ -112,9 +112,9 @@ export default class LinkerPlugin extends Plugin {
     public async handleLayoutChange() {
         if (!this.settings.autoToggleByMode) return;
         
-        // 检查是否在Canvas视图中
+        // Check if in Canvas view
         if (this.isInCanvas()) {
-            // 在Canvas视图中，如果插件未激活，则激活
+            // In Canvas view, if plugin is not activated, activate it
             if (!this.settings.linkerActivated) {
                 await this.updateSettings({ linkerActivated: true });
             }
@@ -127,11 +127,11 @@ export default class LinkerPlugin extends Plugin {
         const isPreviewMode = activeView.getMode() === 'preview';
         const isEditorMode = activeView.getMode() === 'source';
         
-        // 在阅读模式且插件激活 -> 停用
+        // In read mode and plugin activated -> deactivate
         if (isPreviewMode && this.settings.linkerActivated) {
             await this.updateSettings({ linkerActivated: false });
         }
-        // 在编辑模式且插件未激活 -> 激活
+        // In edit mode and plugin not activated -> activate
         else if (isEditorMode && !this.settings.linkerActivated) {
             await this.updateSettings({ linkerActivated: true });
         }
@@ -143,7 +143,7 @@ export default class LinkerPlugin extends Plugin {
     async onload() {
         await this.loadSettings();
 
-        // 监听视图变化
+        // Listen for view changes
         this.registerEvent(this.app.workspace.on('layout-change', this.handleLayoutChange.bind(this)));
         this.registerEvent(this.app.workspace.on('active-leaf-change', this.handleLayoutChange.bind(this)));
 
@@ -329,8 +329,6 @@ export default class LinkerPlugin extends Plugin {
             return;
         }
 
-        // console.log('Context menu', menu, file, source);
-
         const that = this;
         const app: App = this.app;
         const updateManager = this.updateManager;
@@ -353,23 +351,23 @@ export default class LinkerPlugin extends Plugin {
                     return;
                 }
 
-                // 检查是否点击了多引用指示器
+                // Check if clicked on multiple references indicator
                 const isMultipleReferences = targetElement.classList.contains('multiple-files-references') || 
                                             targetElement.closest('.multiple-files-references') !== null;
                 
-                // 如果点击了多引用指示器，找到包含它的虚拟链接元素
+                // If clicked on multiple references indicator, find the containing virtual link element
                 if (isMultipleReferences) {
                     const virtualLinkSpan = targetElement.closest('.virtual-link-span') || 
                                            targetElement.closest('.virtual-link');
                     
                     if (virtualLinkSpan) {
-                        // 添加临时锁定类，防止折叠
+                        // Add temporary lock class to prevent collapse
                         virtualLinkSpan.classList.add('virtual-link-hover-lock');
                         
-                        // 设置定时器移除锁定类
+                        // Set timer to remove lock class
                         setTimeout(() => {
                             virtualLinkSpan.classList.remove('virtual-link-hover-lock');
-                        }, 3000); // 3秒后移除，平衡操作时间和UI响应性
+                        }, 3000); // Remove after 3 seconds to balance operation time and UI responsiveness
                     }
                 }
 
@@ -692,23 +690,23 @@ export default class LinkerPlugin extends Plugin {
     }
 
     private cleanupVirtualLinks() {
-        // 恢复虚拟链接为原始文本
+        // Restore virtual links to original text
         const virtualLinks = document.querySelectorAll('.virtual-link, .virtual-link-span, .virtual-link-a');
         virtualLinks.forEach(link => {
-            // 获取原始文本：首先尝试 origin-text 属性，否则使用链接的文本内容
+            // Get original text: try origin-text attribute first, otherwise use link text content
             const anchor = link.classList.contains('virtual-link-a') ? link : link.querySelector('.virtual-link-a');
             const originalText = anchor?.getAttribute('origin-text') || anchor?.textContent || '';
             if (originalText) {
-                // 用文本节点替换虚拟链接元素
+                // Replace virtual link element with text node
                 const textNode = document.createTextNode(originalText);
                 link.replaceWith(textNode);
             } else {
-                // 如果没有找到文本，直接删除
+                // Delete if no text found
                 link.remove();
             }
         });
         
-        // 清除可能存在的多重引用指示器（这些不包含主文本，直接删除）
+        // Clear possible multiple reference indicators (these don't contain main text, delete directly)
         const multipleRefs = document.querySelectorAll('.multiple-files-references, .multiple-files-indicator');
         multipleRefs.forEach(ref => ref.remove());
     }
@@ -720,9 +718,9 @@ export default class LinkerPlugin extends Plugin {
     async loadSettings() {
         this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
         
-        // 将 app 实例作为临时引用，而不是存储在设置对象中
-        // 这样可以避免循环引用问题
-        this.app = this.app; // 使用临时变量或类属性存储 app 引用
+        // Store app instance as temporary reference instead of storing in settings object
+        // This avoids circular reference issues
+        this.app = this.app; // Use temporary variable or class property to store app reference
         
         // Load markdown links from obsidian settings
         // At the moment obsidian does not provide a clean way to get the settings through an API
@@ -735,7 +733,7 @@ export default class LinkerPlugin extends Plugin {
             this.settings.defaultLinkFormat = appSettings.newLinkFormat ?? 'shortest';
         } catch (error) {
             console.error("Failed to load app settings:", error);
-            // 设置默认值
+            // Set default values
             this.settings.defaultUseMarkdownLinks = false;
             this.settings.defaultLinkFormat = 'shortest';
         }
@@ -745,9 +743,9 @@ export default class LinkerPlugin extends Plugin {
     async updateSettings(settings: Partial<LinkerPluginSettings> = <Partial<LinkerPluginSettings>>{}) {
         Object.assign(this.settings, settings);
         
-        // 创建一个不包含循环引用的设置对象副本
+        // Create a settings object copy without circular references
         const settingsToSave = {...this.settings};
-        // 移除不应该被序列化的属性
+        // Remove properties that should not be serialized
         delete settingsToSave.app;
         // delete settingsToSave.appMenuBarManager;
         
@@ -760,12 +758,12 @@ export default class LinkerPlugin extends Plugin {
         
         this.updateManager.update();
         
-        // 如果插件被禁用，清除所有虚拟链接
+        // If plugin is disabled, clear all virtual links
         if (!this.settings.linkerActivated) {
             this.cleanupVirtualLinks();
         }
         
-        // 强制刷新所有视图以确保设置变更立即生效
+        // Force refresh all views to ensure settings changes take effect immediately
         this.app.workspace.getLeavesOfType('markdown').forEach(leaf => {
             const view = leaf.view as MarkdownView;
             if (view.previewMode) {
@@ -784,16 +782,16 @@ class LinkerSettingTab extends PluginSettingTab {
         const { containerEl } = this;
         containerEl.empty();
 
-        // 添加自动模式切换设置项
+        // Add auto mode toggle setting item
         new Setting(containerEl)
-            .setName('根据模式自动切换激活状态')
-            .setDesc('开启后，在编辑模式如果插件未激活会自动激活，在阅读模式如果插件激活了会自动停用')
+            .setName('Auto-toggle activation status by mode')
+            .setDesc('When enabled, the plugin will automatically activate in edit mode if inactive, and automatically deactivate in read mode if active')
             .addToggle(toggle => 
                 toggle
                     .setValue(this.plugin.settings.autoToggleByMode)
                     .onChange(async value => {
                         await this.plugin.updateSettings({ autoToggleByMode: value });
-                        // 立即应用设置变更
+                        // Immediately apply settings changes
                         this.plugin.handleLayoutChange();
                     })
             );
@@ -801,7 +799,6 @@ class LinkerSettingTab extends PluginSettingTab {
         // Toggle to activate or deactivate the linker
         new Setting(containerEl).setName('Activate Virtual Linker').addToggle((toggle) =>
             toggle.setValue(this.plugin.settings.linkerActivated).onChange(async (value) => {
-                // console.log("Linker activated: " + value);
                 await this.plugin.updateSettings({ linkerActivated: value });
             })
         );
@@ -809,7 +806,6 @@ class LinkerSettingTab extends PluginSettingTab {
         // Toggle to show advanced settings
         new Setting(containerEl).setName('Show advanced settings').addToggle((toggle) =>
             toggle.setValue(this.plugin.settings.advancedSettings).onChange(async (value) => {
-                // console.log("Advanced settings: " + value);
                 await this.plugin.updateSettings({ advancedSettings: value });
                 this.display();
             })
@@ -823,7 +819,6 @@ class LinkerSettingTab extends PluginSettingTab {
             .setDesc('If enabled, the virtual linker will also match file aliases.')
             .addToggle((toggle) =>
                 toggle.setValue(this.plugin.settings.includeAliases).onChange(async (value) => {
-                    // console.log("Include aliases: " + value);
                     await this.plugin.updateSettings({ includeAliases: value });
                 })
             );
@@ -835,7 +830,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 .setDesc('When enabled, identical terms in the same note will only be linked once (Wikipedia-style linking).')
                 .addToggle((toggle) =>
                     toggle.setValue(this.plugin.settings.onlyLinkOnce).onChange(async (value) => {
-                        // console.log("Only link once: " + value);
                         await this.plugin.updateSettings({ onlyLinkOnce: value });
                     })
                 );
@@ -846,7 +840,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 .setDesc('When enabled, terms that are already manually linked in the note will not be auto-linked.')
                 .addToggle((toggle) =>
                     toggle.setValue(this.plugin.settings.excludeLinksToRealLinkedFiles).onChange(async (value) => {
-                        // console.log("Exclude links to real linked files: " + value);
                         await this.plugin.updateSettings({ excludeLinksToRealLinkedFiles: value });
                     })
                 );
@@ -858,7 +851,6 @@ class LinkerSettingTab extends PluginSettingTab {
             .setDesc('When enabled, Markdown headings (lines starting with #) will also be included for virtual linking.')
             .addToggle((toggle) =>
                 toggle.setValue(this.plugin.settings.includeHeaders).onChange(async (value) => {
-                    // console.log("Include headers: " + value);
                     await this.plugin.updateSettings({ includeHeaders: value });
                 })
             );
@@ -897,7 +889,6 @@ class LinkerSettingTab extends PluginSettingTab {
             .setDesc('When disabled, only complete word matches are linked. When enabled, any substring match will be linked.')
             .addToggle((toggle) =>
                 toggle.setValue(this.plugin.settings.matchAnyPartsOfWords).onChange(async (value) => {
-                    // console.log("Match only whole words: " + value);
                     await this.plugin.updateSettings({ matchAnyPartsOfWords: value });
                     this.display();
                 })
@@ -910,7 +901,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 .setDesc('When enabled, word prefixes will be linked even without complete word matches.')
                 .addToggle((toggle) =>
                     toggle.setValue(this.plugin.settings.matchBeginningOfWords).onChange(async (value) => {
-                        // console.log("Match only beginning of words: " + value);
                         await this.plugin.updateSettings({ matchBeginningOfWords: value });
                         this.display();
                     })
@@ -922,7 +912,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 .setDesc('When enabled, word suffixes will be linked even without complete word matches.')
                 .addToggle((toggle) =>
                     toggle.setValue(this.plugin.settings.matchEndOfWords).onChange(async (value) => {
-                        // console.log("Match only end of words: " + value);
                         await this.plugin.updateSettings({ matchEndOfWords: value });
                         this.display();
                     })
@@ -936,7 +925,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 .setDesc('When enabled, the link suffix will only be shown for complete word matches, not partial matches.')
                 .addToggle((toggle) =>
                     toggle.setValue(this.plugin.settings.suppressSuffixForSubWords).onChange(async (value) => {
-                        // console.log("Suppress suffix for sub words: " + value);
                         await this.plugin.updateSettings({ suppressSuffixForSubWords: value });
                     })
                 );
@@ -951,7 +939,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 )
                 .addToggle((toggle) =>
                     toggle.setValue(this.plugin.settings.fixIMEProblem).onChange(async (value) => {
-                        // console.log("Exclude links in current line: " + value);
                         await this.plugin.updateSettings({ fixIMEProblem: value });
                     })
                 );
@@ -964,7 +951,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 .setDesc('If activated, there will be no links in the current line.')
                 .addToggle((toggle) =>
                     toggle.setValue(this.plugin.settings.excludeLinksInCurrentLine).onChange(async (value) => {
-                        // console.log("Exclude links in current line: " + value);
                         await this.plugin.updateSettings({ excludeLinksInCurrentLine: value });
                     })
                 );
@@ -994,7 +980,6 @@ class LinkerSettingTab extends PluginSettingTab {
             .setDesc('If activated, the matching is case sensitive.')
             .addToggle((toggle) =>
                 toggle.setValue(this.plugin.settings.matchCaseSensitive).onChange(async (value) => {
-                    // console.log("Case sensitive: " + value);
                     await this.plugin.updateSettings({ matchCaseSensitive: value });
                     this.display();
                 })
@@ -1020,8 +1005,6 @@ class LinkerSettingTab extends PluginSettingTab {
                                 newValue = 100;
                             }
                             newValue /= 100;
-
-                            // console.log("New capital letter proportion for automatic match case: " + newValue);
                             await this.plugin.updateSettings({ capitalLetterProportionForAutomaticMatchCase: newValue });
                         })
                 );
@@ -1033,7 +1016,6 @@ class LinkerSettingTab extends PluginSettingTab {
                     .setDesc('By adding this tag to a file, the linker will ignore the case for the file.')
                     .addText((text) =>
                         text.setValue(this.plugin.settings.tagToIgnoreCase).onChange(async (value) => {
-                            // console.log("New tag to ignore case: " + value);
                             await this.plugin.updateSettings({ tagToIgnoreCase: value });
                         })
                     );
@@ -1044,7 +1026,6 @@ class LinkerSettingTab extends PluginSettingTab {
                     .setDesc('By adding this tag to a file, the linker will match the case for the file.')
                     .addText((text) =>
                         text.setValue(this.plugin.settings.tagToMatchCase).onChange(async (value) => {
-                            // console.log("New tag to match case: " + value);
                             await this.plugin.updateSettings({ tagToMatchCase: value });
                         })
                     );
@@ -1058,7 +1039,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 )
                 .addText((text) =>
                     text.setValue(this.plugin.settings.propertyNameToIgnoreCase).onChange(async (value) => {
-                        // console.log("New property name to ignore case: " + value);
                         await this.plugin.updateSettings({ propertyNameToIgnoreCase: value });
                     })
                 );
@@ -1071,7 +1051,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 )
                 .addText((text) =>
                     text.setValue(this.plugin.settings.propertyNameToMatchCase).onChange(async (value) => {
-                        // console.log("New property name to match case: " + value);
                         await this.plugin.updateSettings({ propertyNameToMatchCase: value });
                     })
                 );
@@ -1087,7 +1066,6 @@ class LinkerSettingTab extends PluginSettingTab {
                     // .setValue(true)
                     .setValue(this.plugin.settings.includeAllFiles)
                     .onChange(async (value) => {
-                        // console.log("Include all files: " + value);
                         await this.plugin.updateSettings({ includeAllFiles: value });
                         this.display();
                     })
@@ -1112,7 +1090,6 @@ class LinkerSettingTab extends PluginSettingTab {
                                 .split('\n')
                                 .map((x) => x.trim())
                                 .filter((x) => x.length > 0);
-                            // console.log("New folder name: " + value, this.plugin.settings.linkerDirectories);
                             await this.plugin.updateSettings();
                         });
 
@@ -1141,7 +1118,6 @@ class LinkerSettingTab extends PluginSettingTab {
                                     .split('\n')
                                     .map((x) => x.trim())
                                     .filter((x) => x.length > 0);
-                                // console.log("New folder name: " + value, this.plugin.settings.excludedDirectories);
                                 await this.plugin.updateSettings();
                             });
 
@@ -1158,7 +1134,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 .setDesc('Tag to explicitly include the file for the linker.')
                 .addText((text) =>
                     text.setValue(this.plugin.settings.tagToIncludeFile).onChange(async (value) => {
-                        // console.log("New tag to include file: " + value);
                         await this.plugin.updateSettings({ tagToIncludeFile: value });
                     })
                 );
@@ -1169,7 +1144,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 .setDesc('Tag to ignore the file for the linker.')
                 .addText((text) =>
                     text.setValue(this.plugin.settings.tagToExcludeFile).onChange(async (value) => {
-                        // console.log("New tag to ignore file: " + value);
                         await this.plugin.updateSettings({ tagToExcludeFile: value });
                     })
                 );
@@ -1180,7 +1154,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 .setDesc('If toggled, links to the note itself are excluded from the linker. (This might not work in preview windows.)')
                 .addToggle((toggle) =>
                     toggle.setValue(this.plugin.settings.excludeLinksToOwnNote).onChange(async (value) => {
-                        // console.log("Exclude links to active file: " + value);
                         await this.plugin.updateSettings({ excludeLinksToOwnNote: value });
                     })
                 );
@@ -1204,7 +1177,6 @@ class LinkerSettingTab extends PluginSettingTab {
                                 .split('\n')
                                 .map((x) => x.trim())
                                 .filter((x) => x.length > 0);
-                            // console.log("New folder name: " + value, this.plugin.settings.excludedDirectoriesForLinking);
                             await this.plugin.updateSettings();
                         });
 
@@ -1251,7 +1223,6 @@ class LinkerSettingTab extends PluginSettingTab {
             .setDesc('If toggled, if there are multiple matching notes, all references are shown behind the match. If not toggled, the references are only shown if hovering over the match.')
             .addToggle((toggle) =>
                 toggle.setValue(this.plugin.settings.alwaysShowMultipleReferences).onChange(async (value) => {
-                    // console.log("Always show multiple references: " + value);
                     await this.plugin.updateSettings({ alwaysShowMultipleReferences: value });
                 })
             );
@@ -1261,7 +1232,6 @@ class LinkerSettingTab extends PluginSettingTab {
             .setDesc('The suffix to add to auto generated virtual links.')
             .addText((text) =>
                 text.setValue(this.plugin.settings.virtualLinkSuffix).onChange(async (value) => {
-                    // console.log("New glossary suffix: " + value);
                     await this.plugin.updateSettings({ virtualLinkSuffix: value });
                 })
             );
@@ -1270,7 +1240,6 @@ class LinkerSettingTab extends PluginSettingTab {
             .setDesc('The suffix to add to auto generated virtual links for aliases.')
             .addText((text) =>
                 text.setValue(this.plugin.settings.virtualLinkAliasSuffix).onChange(async (value) => {
-                    // console.log("New glossary suffix: " + value);
                     await this.plugin.updateSettings({ virtualLinkAliasSuffix: value });
                 })
             );
@@ -1283,7 +1252,6 @@ class LinkerSettingTab extends PluginSettingTab {
             )
             .addToggle((toggle) =>
                 toggle.setValue(this.plugin.settings.applyDefaultLinkStyling).onChange(async (value) => {
-                    // console.log("Apply default link styling: " + value);
                     await this.plugin.updateSettings({ applyDefaultLinkStyling: value });
                 })
             );
@@ -1294,7 +1262,6 @@ class LinkerSettingTab extends PluginSettingTab {
             .setDesc('If toggled, the default link style will be used for the conversion of virtual links to real links.')
             .addToggle((toggle) =>
                 toggle.setValue(this.plugin.settings.useDefaultLinkStyleForConversion).onChange(async (value) => {
-                    // console.log("Use default link style for conversion: " + value);
                     await this.plugin.updateSettings({ useDefaultLinkStyleForConversion: value });
                     this.display();
                 })
@@ -1307,7 +1274,6 @@ class LinkerSettingTab extends PluginSettingTab {
                 .setDesc('If toggled, the virtual links will be created as wiki-links instead of markdown links.')
                 .addToggle((toggle) =>
                     toggle.setValue(!this.plugin.settings.useMarkdownLinks).onChange(async (value) => {
-                        // console.log("Use markdown links: " + value);
                         await this.plugin.updateSettings({ useMarkdownLinks: !value });
                     })
                 );
@@ -1323,7 +1289,6 @@ class LinkerSettingTab extends PluginSettingTab {
                         .addOption('absolute', 'Absolute')
                         .setValue(this.plugin.settings.linkFormat)
                         .onChange(async (value) => {
-                            // console.log("New link format: " + value);
                             await this.plugin.updateSettings({ linkFormat: value as 'shortest' | 'relative' | 'absolute' });
                         })
                 );

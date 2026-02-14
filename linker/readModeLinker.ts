@@ -5,25 +5,24 @@ import { LinkerCache, MatchType, PrefixTree } from './linkerCache';
 import { VirtualMatch } from './virtualLinkDom';
 
 export class GlossaryLinker extends MarkdownRenderChild {
-    text: string;
     ctx: MarkdownPostProcessorContext;
     app: App;
     settings: LinkerPluginSettings;
     linkerCache: LinkerCache;
 
     private clearExistingLinks() {
-        // 恢复虚拟链接为原始文本
+        // Restore virtual links to original text
         const virtualLinks = this.containerEl.querySelectorAll('.virtual-link');
         virtualLinks.forEach(link => {
-            // 获取原始文本：首先尝试 origin-text 属性，否则使用链接的文本内容
+            // Get original text: first try origin-text attribute, otherwise use link's text content
             const anchor = link.querySelector('.virtual-link-a');
             const originalText = anchor?.getAttribute('origin-text') || anchor?.textContent || '';
             if (originalText) {
-                // 用文本节点替换虚拟链接元素
+                // Replace virtual link element with text node
                 const textNode = document.createTextNode(originalText);
                 link.replaceWith(textNode);
             } else {
-                // 如果没有找到文本，直接删除
+                // If no text found, directly delete
                 link.remove();
             }
         });
@@ -37,9 +36,6 @@ export class GlossaryLinker extends MarkdownRenderChild {
 
         this.linkerCache = LinkerCache.getInstance(app, settings);
 
-        // TODO: Fix this?
-        // If not called, sometimes (especially for lists) elements are added to the context after they already have been loaded
-        // within the parent element. This causes the already added links to be removed...?
         this.load();
     }
 
@@ -58,7 +54,6 @@ export class GlossaryLinker extends MarkdownRenderChild {
 
             if ((newPath?.path?.length || 0) > currentPath?.path?.length) {
                 currentPath = newPath;
-                // console.log("Break at New path: ", currentPath);
                 break;
             }
         }
@@ -72,12 +67,10 @@ export class GlossaryLinker extends MarkdownRenderChild {
             return;
         }
 
-        // return;
-        const tags = ['p', 'li', 'td', 'th', 'span', 'em', 'strong', 'mark', 'del', 's']; // 显式包含 mark、del、s 标签
+        const tags = ['p', 'li', 'td', 'th', 'span', 'em', 'strong', 'mark', 'del', 's'];
 
-        // TODO: Onload is called on the divs separately, so this sets are not stored between divs
-        // Since divs can be rendered in arbitrary order, storing information about already linked files is not easy
-        // Maybe there is a good and performant solution to this problem
+        // TODO: Onload is called on the divs separately, so these sets are not stored between divs.
+        // Since divs can be rendered in arbitrary order, storing information about already linked files is not easy.
         const linkedFiles = new Set<TFile>();
         const explicitlyLinkedFiles = new Set<TFile>();
 
@@ -131,7 +124,6 @@ export class GlossaryLinker extends MarkdownRenderChild {
                                         const name = text.slice(nFrom, nTo);
 
                                         // TODO: Handle multiple files
-                                        // const file = node.files.values().next().value;
 
                                         // Ensure headerId is correctly passed when matching headings
                                         const headerId = node.type === MatchType.Header 
@@ -146,18 +138,18 @@ export class GlossaryLinker extends MarkdownRenderChild {
                                                 node.type,
                                                 !isWordBoundary,
                                                 this.settings,
-                                                this.plugin, // 添加 plugin 参数
+                                                this.plugin, // Add plugin parameter
                                                 headerId
                                             );
 
-                                            // 添加多文件标题ID处理逻辑
-                                            // 当有多个文件匹配同一关键词时，为每个文件获取其对应的标题ID
+                                            // Add multi-file heading ID handling logic
+                                            // When multiple files match the same keyword, get corresponding heading ID for each file
                                             if (node.files.size > 1) {
                                                 node.files.forEach(file => {
                                                     const fileNodes = this.linkerCache.cache.getCurrentMatchNodes(
                                                         i,
-                                                        null, // 不排除任何文件
-                                                        file  // 只获取特定文件的节点
+                                                        null, // Do not exclude any files
+                                                        file  // Only get nodes for specific file
                                                     );
                                                     if (fileNodes.length > 0 && fileNodes[0].headerId) {
                                                         match.setFileHeaderId(file, fileNodes[0].headerId);
@@ -224,7 +216,7 @@ export class GlossaryLinker extends MarkdownRenderChild {
 
                                 parent?.insertBefore(span, childNode);
 
-                                // 检查 span 是否在 <mark> 下，如果是则补加高亮 class
+                                // Check if span is under <mark>, if so add highlight class
                                 let markParent = span.parentElement;
                                 while (markParent) {
                                     if (markParent.tagName === 'MARK') {

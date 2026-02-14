@@ -4,6 +4,7 @@ import { LinkerPluginSettings } from 'main';
 import { LinkerMetaInfoFetcher } from './linkerInfo';
 
 export class ExternalUpdateManager {
+    private static readonly UPDATE_DELAY_MS = 50;
     registeredCallbacks: Set<Function> = new Set();
 
     constructor() {}
@@ -18,7 +19,7 @@ export class ExternalUpdateManager {
             for (const callback of this.registeredCallbacks) {
                 callback();
             }
-        }, 50);
+        }, ExternalUpdateManager.UPDATE_DELAY_MS);
     }
 }
 
@@ -79,6 +80,13 @@ export class PrefixTree {
     mapIndexedFilePathsToUpdateTime: Map<string, number> = new Map();
     mapFilePathToLeaveNodes: Map<string, PrefixNode[]> = new Map();
 
+    private static readonly SUPPORTED_EXTENSIONS = [
+        'md', 'png', 'jpg', 'jpeg', 'gif', 'svg',
+        'pdf', 'doc', 'docx', 'xls', 'xlsx',
+        'mp3', 'wav', 'ogg',
+        'mp4', 'mov', 'avi', 'webm'
+    ];
+
     constructor(public app: App, public settings: LinkerPluginSettings) {
         this.fetcher = new LinkerMetaInfoFetcher(this.app, this.settings);
         this.updateTree();
@@ -92,6 +100,11 @@ export class PrefixTree {
         this.mapFilePathToLeaveNodes.clear();
     }
 
+    private isExcluded(value: string): boolean {
+        const valueLower = value.toLowerCase();
+        return this.settings.excludedKeywords.some(kw => kw.toLowerCase() === valueLower);
+    }
+
     getCurrentMatchNodes(index: number, excludedNote?: TFile | null, specificFile?: TFile): MatchNode[] {
         const matchNodes: MatchNode[] = [];
 
@@ -99,27 +112,14 @@ export class PrefixTree {
             excludedNote = this.app.workspace.getActiveFile();
         }
 
-        // Helper function to check if value matches excluded keywords
-        const isExcluded = (value: string) => {
-            return this.settings.excludedKeywords.some(kw => 
-                kw.toLowerCase() === value.toLowerCase()
-            );
-        };
-
-        // From the current nodes in the trie, get all nodes that have files
         for (const node of this._currentNodes) {
-            if (node.node.files.size === 0) {
-                continue;
-            }
-            
-            // Skip if node value matches excluded keyword
-            if (isExcluded(node.node.value)) {
+            if (node.node.files.size === 0 || this.isExcluded(node.node.value)) {
                 continue;
             }
             const matchNode = new MatchNode();
             matchNode.length = node.node.value.length + node.formattingDelta;
             matchNode.start = index - matchNode.length;
-            // 如果指定了特定文件，只包含该文件
+            // If a specific file is specified, only include that file
             if (specificFile) {
                 matchNode.files = new Set(Array.from(node.node.files).filter((file) => file.path === specificFile.path));
             } else {
@@ -182,8 +182,8 @@ export class PrefixTree {
                     
                     if (headingMatch) {
                         matchNode.type = MatchType.Header;
-                        // 只进行trim处理，保留原始大小写和所有特殊字符
-                        // 这与Obsidian的行为一致
+                        // Only perform trim, preserve original case and all special characters
+                        // This is consistent with Obsidian behavior
                         matchNode.headerId = headingMatch.heading.trim();
                     }
                     // Then check for note name match
@@ -298,16 +298,6 @@ export class PrefixTree {
         const isInIncludedDir = metaInfo.isInIncludedDir;
         const isInExcludedDir = metaInfo.isInExcludedDir;
 
-        // console.log({
-        //     file: file.path,
-        //     tags: tags,
-        //     includeFile,
-        //     excludeFile,
-        //     isInIncludedDir,
-        //     isInExcludedDir,
-        //     includeAllFiles: metaInfo.includeAllFiles
-        // });
-
         if (excludeFile || (isInExcludedDir && !includeFile)) {
             return;
         }
@@ -358,11 +348,6 @@ export class PrefixTree {
 
         let aliasesWithMatchCase: Set<string> = new Set(metadata?.frontmatter?.[this.settings.propertyNameToMatchCase] ?? []);
         let aliasesWithIgnoreCase: Set<string> = new Set(metadata?.frontmatter?.[this.settings.propertyNameToIgnoreCase] ?? []);
-
-        // if (aliasesWithMatchCase.size > 0 || aliasesWithIgnoreCase.size > 0) {
-        //     console.log("Aliases with match case", aliasesWithMatchCase, file.basename);
-        //     console.log("Aliases with ignore case", aliasesWithIgnoreCase, file.basename);
-        // }
 
         // If aliases is not an array, convert it to an array
         if (!Array.isArray(aliases)) {
@@ -423,16 +408,9 @@ export class PrefixTree {
 
         namesWithCaseIgnore.push(...namesWithCaseIgnore.map((name) => name.toLowerCase()));
 
-        // Helper function to check if name matches excluded keywords
-        const isExcluded = (name: string) => {
-            return this.settings.excludedKeywords.some(kw => 
-                kw.toLowerCase() === name.toLowerCase()
-            );
-        };
-
         // Filter out excluded keywords before adding to tree
-        namesWithCaseIgnore = namesWithCaseIgnore.filter(name => !isExcluded(name));
-        namesWithCaseMatch = namesWithCaseMatch.filter(name => !isExcluded(name));
+        namesWithCaseIgnore = namesWithCaseIgnore.filter(name => !this.isExcluded(name));
+        namesWithCaseMatch = namesWithCaseMatch.filter(name => !this.isExcluded(name));
 
         namesWithCaseIgnore.forEach((name) => {
             this.addFileWithName(name, file, false);
@@ -486,31 +464,23 @@ export class PrefixTree {
 
         const currentVaultFiles = new Set<string>();
         let files = new Array<TFile>();
+
         // Get all files and filter for supported types
         const allFiles = this.app.vault.getFiles().filter(file => {
-            // Always include markdown files
-            if (file.extension === 'md') return true;
-            
-            // Include other common file types that can be linked
-            const supportedExtensions = [
-                'png', 'jpg', 'jpeg', 'gif', 'svg',  // Images
-                'pdf', 'doc', 'docx', 'xls', 'xlsx', // Documents
-                'mp3', 'wav', 'ogg',                 // Audio
-                'mp4', 'mov', 'avi', 'webm'          // Video
-            ];
-            return supportedExtensions.includes(file.extension.toLowerCase());
+            const ext = file.extension.toLowerCase();
+            return PrefixTree.SUPPORTED_EXTENSIONS.includes(ext);
         }) as TFile[];
 
         allFiles.forEach((f) => currentVaultFiles.add(f.path));
 
         // If the number of files has changed, update all files
-        if (allFiles.length != this.setIndexedFilePaths.size || !updateFiles || updateFiles.length == 0) {
+        if (allFiles.length !== this.setIndexedFilePaths.size || !updateFiles?.length) {
             files = allFiles;
         } else {
             // If files are provided, only update the provided files
             files = updateFiles
-                .map((f) => (f ? this.app.vault.getAbstractFileByPath(f) : null))
-                .filter((f) => f !== null && f instanceof TFile) as TFile[];
+                .map((f) => f ? this.app.vault.getAbstractFileByPath(f) : null)
+                .filter((f): f is TFile => f instanceof TFile);
         }
 
         for (const file of files) {
@@ -521,7 +491,6 @@ export class PrefixTree {
             if (this.fileIsUpToDate(file)) {
                 continue;
             }
-            // console.log("Updating", file, file.stat.mtime, this.mapIndexedFilePathsToUpdateTime.get(file.path));
 
             // Otherwise, add the file to the tree
             try {
@@ -533,7 +502,6 @@ export class PrefixTree {
 
         // Remove files that are no longer in the vault
         const filesToRemove = [...this.setIndexedFilePaths].filter((f) => !currentVaultFiles.has(f));
-        // console.log("Removing", filesToRemove);
         filesToRemove.forEach((f) => this.removeFileFromTree(f));
     }
 
@@ -555,14 +523,11 @@ export class PrefixTree {
 
     pushChar(char: string) {
         const newNodes: VisitedPrefixNode[] = [];
-        const chars = [char];
-        chars.push(char.toLowerCase());
+        const chars = [char, char.toLowerCase()];
 
         chars.forEach((c) => {
-            // char = char.toLowerCase();
             const isBoundary = PrefixTree.checkWordBoundary(c);
             if (this.settings.matchAnyPartsOfWords || isBoundary || this.settings.matchEndOfWords) {
-                // , this.settings.wordBoundaryRegex
                 newNodes.push(new VisitedPrefixNode(this.root, true, isBoundary));
             }
 
@@ -578,59 +543,13 @@ export class PrefixTree {
                     }
                 }
             }
-
-            // TODO: Ignore formatting (#59)
-            if (false) {
-                // Check if the current char is a formatting char, if so also add the current nodes
-                const isFormatting = PrefixTree.isFormattingChar(char);
-                if (isFormatting) {
-                    this._currentNodes.forEach((node) => {
-                        node.formattingDelta += 1;
-                    });
-                    newNodes.push(...this._currentNodes);
-                }
-            }
         });
         this._currentNodes = newNodes;
     }
 
     static checkWordBoundary(char: string): boolean {
-        // , regexString: string
-        // const pattern = /[\/\n\t\r\s,.!?:"`´()\[\]'{}|~\p{Emoji_Presentation}\p{Extended_Pictographic}]/u;
-
-        // let pattern = /[\t- !-/:-@\[-`{-~\p{Emoji_Presentation}\p{Extended_Pictographic}]/u;
-
         // \p{L}: Any kind of letter from any language.
-        // \p{Ll}: Lowercase letter.
-        // \p{Lu}: Uppercase letter.
-        // \p{M}: Mark (accents, combining marks).
-        // \p{N}: Number (digit, letter-like number).
-        // \p{P}: Punctuation.
-        // \p{S}: Symbol (currency, math symbols, etc.).
-        // \p{Z}: Separator (space, line breaks).
-        // \p{C}: Other (control chars, unassigned, etc.).
-
-        // let pattern = /[\p{P}\p{Z}\p{S}\p{C}\p{Emoji_Presentation}\p{Extended_Pictographic}]/u;
         let pattern = /[^\p{L}]/u;
-
-        // if (regexString) {
-        //     if (typeof regexString !== 'string') {
-        //         regexString = regexString.toString();
-
-        //     }
-        //     if (!regexString.startsWith('/')) {
-        //         regexString = '/' + regexString;
-        //     }
-        //     if (!regexString.endsWith('/')) {
-        //         regexString = regexString + '/';
-        //     }
-        //     const parts = regexString.match(/\/(.*)\/([a-z]*)\/?/);
-        //     if (!parts) {
-        //         throw new Error('Invalid regex: ' + regexString);
-        //     }
-        //     pattern = new RegExp(parts[1], parts[2]);
-        // }
-        // console.log('Checking word boundary', char, pattern);
         return pattern.test(char);
     }
 
@@ -656,7 +575,6 @@ export class LinkerCache {
     constructor(public app: App, public settings: LinkerPluginSettings) {
         const { vault } = app;
         this.vault = vault;
-        // console.log("Creating LinkerCache");
         this.cache = new PrefixTree(app, settings);
         this.updateCache(true);
     }
@@ -677,10 +595,9 @@ export class LinkerCache {
     }
 
     updateCache(force = false) {
-        // 如果插件未激活则不执行更新
+        // Skip update if plugin is not activated
         if (!this.settings.linkerActivated) return;
-        
-        // force = true;
+
         if (!this.app?.workspace?.getActiveFile()) {
             return;
         }
@@ -690,7 +607,7 @@ export class LinkerCache {
         if (activeFile === this.activeFilePath && !force) {
             return;
         }
-        // console.log("Updating cache", force);
+
         this.cache.updateTree(force ? undefined : [activeFile, this.activeFilePath]);
 
         this.activeFilePath = activeFile;

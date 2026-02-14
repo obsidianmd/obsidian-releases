@@ -4,9 +4,8 @@ import { TFile, getLinkpath } from 'obsidian';
 import { MatchType } from './linkerCache';
 
 export class VirtualMatch {
-    // 添加一个新的属性，用于存储文件到标题ID的映射
     private fileHeaderIds: Map<string, string> = new Map();
-    
+
     constructor(
         public id: number,
         public originText: string,
@@ -16,7 +15,7 @@ export class VirtualMatch {
         public type: MatchType,
         public isSubWord: boolean,
         public settings: LinkerPluginSettings,
-        public plugin: any, // 添加 plugin 参数
+        public plugin: any, // Add plugin parameter
         public headerId?: string,
         public isBoldContext: boolean = false,
         public isItalicContext: boolean = false,
@@ -24,20 +23,17 @@ export class VirtualMatch {
         public isTripleStarContext: boolean = false,
         public isStrikethroughContext: boolean = false
     ) {
-        // 为所有文件设置相同的标题ID（如果有）
         if (headerId) {
             for (const file of files) {
                 this.fileHeaderIds.set(file.path, headerId);
             }
         }
     }
-    
-    // 添加方法，用于设置文件的标题ID
+
     setFileHeaderId(file: TFile, headerId: string) {
         this.fileHeaderIds.set(file.path, headerId);
     }
-    
-    // 添加方法，用于获取文件的标题ID
+
     getFileHeaderId(file: TFile): string | undefined {
         return this.fileHeaderIds.get(file.path);
     }
@@ -46,9 +42,7 @@ export class VirtualMatch {
         return this.type === MatchType.Alias;
     }
 
-    /////////////////////////////////////////////////
     // DOM methods
-    /////////////////////////////////////////////////
 
     getCompleteLinkElement(inTableCellEditor = false) {
         const span = this.getLinkRootSpan(inTableCellEditor);
@@ -71,19 +65,16 @@ export class VirtualMatch {
 
     getLinkAnchorElement(linkText: string, href: string, file?: TFile) {
         const link = document.createElement('a');
-        
-        // 使用文件特定的标题ID（如果提供了file参数）
-        let headerIdToUse: string | undefined = undefined;
+
+        let headerIdToUse: string | undefined;
         if (file) {
             headerIdToUse = this.getFileHeaderId(file);
         } else if (this.files.length > 0) {
-            // 如果没有提供file参数，但有files，使用第一个文件的标题ID
             headerIdToUse = this.getFileHeaderId(this.files[0]) || this.headerId;
         } else {
-            // 兼容旧代码
             headerIdToUse = this.headerId;
         }
-        
+
         let fullPath = href;
         if (headerIdToUse) {
             link.href = `${href}#${headerIdToUse}`;
@@ -99,27 +90,22 @@ export class VirtualMatch {
         link.setAttribute('to', this.to.toString());
         link.setAttribute('origin-text', this.originText);
         link.classList.add('internal-link', 'virtual-link-a');
-        
-        // 添加特殊处理，确保在 Canvas 中也能正确跳转
+
         link.onclick = (event) => {
-            // 阻止默认行为
             event.preventDefault();
             event.stopPropagation();
-            
-            // 获取目标文件
+
             const targetFile = file || (this.files.length > 0 ? this.files[0] : null);
             if (!targetFile) return false;
-            
-            // 通过插件实例获取 app 实例打开链接
+
             if (this.plugin && this.plugin.app) {
                 const app = this.plugin.app;
-                // 使用完整的路径（包括标题ID）来打开链接
                 app.workspace.openLinkText(fullPath, '', false, { active: true });
             }
-            
+
             return false;
         };
-        
+
         return link;
     }
 
@@ -143,7 +129,6 @@ export class VirtualMatch {
             span.style.setProperty('display', 'inline', 'important');
             span.style.setProperty('z-index', '1', 'important');
         } else {
-            // 检查祖先是否有 <mark>，如果有也加高亮class
             let parent = span.parentElement;
             while (parent) {
                 if (parent.tagName === 'MARK') {
@@ -160,25 +145,25 @@ export class VirtualMatch {
         }
         if (this.isStrikethroughContext) {
             span.classList.add('virtual-link-in-strikethrough');
-            // 确保删除线在视觉上层
+            // Ensure strikethrough is on top visually
             span.style.setProperty('--strikethrough-z-index', '1', 'important');
             span.style.setProperty('--virtual-link-z-index', '-1', 'important');
         }
 
-        // 根据表格单元格上下文设置右键菜单
+        // Set context menu based on table cell context
         if (inTableCellEditor === true) {
             span.classList.add('no-context-menu');
             
-            // 确保在表格单元格中禁用默认右键菜单
+            // Ensure default right-click menu is disabled in table cells
             span.addEventListener('contextmenu', (e) => {
                 e.preventDefault();
                 e.stopPropagation();
                 return false;
             }, true);
             
-            // 添加额外的鼠标右键事件监听器，确保捕获所有可能的右键事件
+            // Add additional mouse right-click event listeners to capture all possible right-click events
             span.addEventListener('mouseup', (e) => {
-                if (e.button === 2) { // 右键
+                if (e.button === 2) { // Right mouse button
                     e.preventDefault();
                     e.stopPropagation();
                     return false;
@@ -200,7 +185,7 @@ export class VirtualMatch {
         files.forEach((file, index) => {
             if (index === 0) {
                 const bracket = document.createElement('span');
-                bracket.textContent = '[';  // 移除前置空格，统一使用紧凑格式
+                bracket.textContent = '[';  // Remove leading space, use compact format consistently
                 spanReferences.appendChild(bracket);
             }
 
@@ -210,7 +195,7 @@ export class VirtualMatch {
             }
 
             let linkHref = file.path;
-            // 传递file参数，以便使用文件特定的标题ID
+            // Pass file parameter to use file-specific heading ID
             const link = this.getLinkAnchorElement(linkText, linkHref, file);
             spanReferences.appendChild(link);
 
