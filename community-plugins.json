@@ -3878,13 +3878,6 @@
     "repo": "chhoumann/PodNotes"
   },
   {
-    "id": "obsidian-meeting-notes",
-    "name": "Meeting notes",
-    "author": "Tim Hiller",
-    "description": "Automatically create meeting notes in a specified folder.",
-    "repo": "TimHi/obsidian-meeting-notes"
-  },
-  {
     "id": "obsidian-plugin-tagged-documents-viewer",
     "name": "Tagged Documents Viewer",
     "author": "Marcus Geduld",
@@ -10798,7 +10791,7 @@
     "name": "Custom Icons",
     "author": "RavenHogWarts",
     "description": "Enhance your workspace with customizable icons for documents and folders.",
-    "repo": "RavenHogWarts/obsidian-custom-icons"
+    "repo": "Raven-Pensieve/obsidian-custom-icons"
   },
   {
     "id": "update-time-updater",
@@ -14851,7 +14844,7 @@
     "name": "NetClip",
     "author": "Elhary",
     "description": "Clip, save, search, and browse web pages",
-    "repo": "Elhary/Obsidian-NetClip"
+    "repo": "elhariss/Obsidian-NetClip"
   },
   {
     "id": "plugin-repl",
@@ -17245,7 +17238,7 @@
     "name": "Ace Code Editor",
     "author": "RavenHogWarts",
     "description": "An enhanced code editor using Ace editor, providing syntax highlighting, code folding, and other advanced editing features.",
-    "repo": "RavenHogWarts/obsidian-ace-code-editor"
+    "repo": "Raven-Pensieve/obsidian-ace-code-editor"
   },
   {
     "id": "folder-filelist",
@@ -17797,7 +17790,7 @@
     "id": "similar-notes",
     "name": "Similar Notes",
     "author": "Young Lee",
-    "description": "Find semantically similar notes using local AI. Works on desktop and mobile without external servers.",
+    "description": "Find semantically similar notes using AI. Local models (mobile & desktop) or cloud APIs.",
     "repo": "joybro/obsidian-similar-notes"
   },
   {
@@ -18953,7 +18946,7 @@
     "name": "Next TOC",
     "author": "RavenHogWarts",
     "description": "Floating panel displaying the current document's reading progress, table of contents, and navigation aids.",
-    "repo": "RavenHogWarts/obsidian-next-toc"
+    "repo": "Raven-Pensieve/obsidian-next-toc"
   },
   {
     "id": "goboard",
@@ -19045,6 +19038,118 @@
     "author": "dreamscached",
     "description": "Generate Steam Guard codes right in your vault.",
     "repo": "dreamscached/obsidian-simple-steam-auth"
+  },
+  {
+    "id": "inline-local-graph",
+    "name": "Inline Local Graph",
+    "author": "TKOxff",
+    "description": "Visualize the local graph inline within your notes.",
+    "repo": "TKOxff/obsidian-inline-local-graph"
+  },
+  {
+    "id": "lexicon-dictionary",
+    "name": "Dictionary Lexicon",
+    "author": "Alvin",
+    "description": "Look up words and improve vocabulary by using flash card style cards.",
+    "repo": "st-vin/obsidian-lexicon-dictionary-plugin"
+  },
+  {
+    "id": "handlebars-dynamic",
+    "name": "Handlebars Dynamic Templating",
+    "author": "Hide_D",
+    "description": "Handlebars dynamic templating. Define template files and use them dynamically via hb blocks. Template recursion is also possible.",
+    "repo": "hided62/obsidian-handlebars-dynamic"
+  },
+  {
+    "id": "memories",
+    "name": "Memories",
+    "author": "DIMFLIX",
+    "description": "Display media galleries with images, videos, and audio directly in notes.",
+    "repo": "DIMFLIX/obsidian-memories"
+  },
+  {
+    "id": "glsl-viewer",
+    "name": "GLSL Viewer",
+    "author": "iY0Yi",
+    "description": "Preview GLSL shaders.",
+    "repo": "iY0Yi/obsidian_glslviewer"
+  },
+  {
+    "id": "nova",
+    "name": "Nova",
+    "author": "Shawn Duggan",
+    "description": "Your AI writing partner that edits exactly where you want - select text and transform, or chat at cursor position.",
+    "repo": "shawnduggan/nova"
+  },
+  {
+    "id": "anki-helper",
+    "name": "Anki Helper",
+    "author": "Dusk",
+    "description": "Standardizes Anki card display for seamless integration with the expand_to_anki plugin.",
+    "repo": "panAtGitHub/anki-helper"
+  },
+  {
+    "id": "hardcover",
+    "name": "Hardcover",
+    "author": "aliceinwaterdeep",
+    "description": "Sync your Hardcover library to your notes.",
+    "repo": "aliceinwaterdeep/obsidian-hardcover"
+  },
+  {
+    "id": "mermaid-icons",
+    "name": "Mermaid Icons",
+    "author": "toshs",
+    "description": "Use Font Awesome and other icon sets within your Mermaid diagrams.",
+    "repo": "toshs/obsidian-mermaid-icons"
+  },
+  {
+    "id": "pandoc-extended-markdown",
+    "name": "Pandoc Extended Markdown",
+    "author": "ErrorTzy",
+    "description": "Render Pandoc extended markdown syntax: fancy lists, definition lists, example lists with cross-references, superscripts, and subscripts.",
+    "repo": "ErrorTzy/obsidian-pandoc-extended-markdown"
+  },
+  {
+    "id": "typst-mate",
+    "name": "Typst Mate",
+    "author": "azyarashi",
+    "description": "Render math expressions with Typst instead of MathJax.",
+    "repo": "azyarashi/obsidian-typst-mate"
+  },
+  {
+    "id": "blueprint",
+    "name": "Blueprint",
+    "author": "François Vaux",
+    "description": "Write once, update everywhere - note templates that pull from Properties.",
+    "repo": "madx/blueprint-obsidian-plugin"
+  },
+  {
+    "id": "decks",
+    "name": "Decks",
+    "author": "Xherdi Lika",
+    "description": "Decks - Spaced repetition flashcards plugin with FSRS algorithm.",
+    "repo": "dscherdi/decks"
+  },
+  {
+    "id": "floating-headings",
+    "name": "Floating Headings",
+    "author": "k0src",
+    "description": "Displays a floating, collapsible outline of a note's headings on the right side of the editor. Expands on hover, click to navigate.",
+    "repo": "k0src/Floating-Headings-Obsidian-Plugin"
+  },
+  {
+    "id": "sourcemode-styling",
+    "name": "Source Mode Styling",
+    "author": "Chris Howard",
+    "description": "Provides a customisable raw look in source mode using a monospace font to clearly differentiate from Live Preview.",
+    "repo": "chrishoward-projects/sourcemode-styling"
+  },
+  {
+    "id": "table-line-break",
+    "name": "Table Line Break Mobile",
+    "author": "marcelflymark",
+    "description": "Insert line breaks into tables on mobile devices via shortcut or toolbar.",
+    "repo": "marcelflymark/new-line-break-inside-table-cell"
   },
   { 
     "id": "cloudflare-kv-sync",
