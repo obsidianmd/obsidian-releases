@@ -1,8 +1,16 @@
 import { Plugin, TFolder, TAbstractFile, Platform } from "obsidian";
-import { exec } from "child_process";
+import { execFile } from "child_process";
 import * as path from "path";
 
 const SECTION_ID = "opencmd-ps";
+
+interface VaultAdapterWithBasePath {
+	getBasePath(): string;
+}
+
+function hasBasePath(adapter: unknown): adapter is VaultAdapterWithBasePath {
+	return typeof (adapter as VaultAdapterWithBasePath).getBasePath === "function";
+}
 
 function getDirectory(vaultBasePath: string, file: TAbstractFile): string {
 	if (file instanceof TFolder) {
@@ -13,35 +21,34 @@ function getDirectory(vaultBasePath: string, file: TAbstractFile): string {
 
 function openInDefaultTerminal(directory: string): void {
 	if (Platform.isWin) {
-		exec(`start cmd /k "cd /d "${directory}""`, { cwd: directory });
+		execFile("cmd.exe", ["/c", "start", "cmd", "/k", `cd /d "${directory}"`]);
 	} else if (Platform.isMacOS) {
-		exec(`open -a Terminal "${directory}"`);
+		execFile("open", ["-a", "Terminal", directory]);
 	} else {
-		exec(`x-terminal-emulator --working-directory="${directory}"`, (err) => {
+		execFile("x-terminal-emulator", [`--working-directory=${directory}`], (err) => {
 			if (err) {
-				exec(`xdg-open "${directory}"`);
+				execFile("xdg-open", [directory]);
 			}
 		});
 	}
 }
 
 function openInPowerShell(directory: string): void {
-	exec(`start powershell -NoExit -Command "Set-Location -LiteralPath '${directory}'"`, {
-		cwd: directory,
-	});
+	execFile("cmd.exe", ["/c", "start", "powershell", "-NoExit", "-Command",
+		`Set-Location -LiteralPath '${directory.replace(/'/g, "''")}'`]);
 }
 
 function openInCmd(directory: string): void {
-	exec(`start cmd /k "cd /d "${directory}""`, { cwd: directory });
+	execFile("cmd.exe", ["/c", "start", "cmd", "/k", `cd /d "${directory}"`]);
 }
 
 export default class OpenCmdPsPlugin extends Plugin {
 	async onload(): Promise<void> {
-		const adapter = this.app.vault.adapter as any;
+		const adapter = this.app.vault.adapter;
 
 		this.registerEvent(
 			this.app.workspace.on("file-menu", (menu, file) => {
-				const basePath: string = adapter.getBasePath?.() ?? "";
+				const basePath = hasBasePath(adapter) ? adapter.getBasePath() : "";
 				const directory = getDirectory(basePath, file);
 
 				menu.addItem((item) => {
