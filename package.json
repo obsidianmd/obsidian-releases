@@ -1,7 +1,7 @@
 {
-	"name": "opencmd-ps",
-	"version": "1.0.0",
-	"description": "Obsidian plugin to open files and folders in CMD, PowerShell, or the default terminal.",
+	"name": "openterm",
+	"version": "1.1.0",
+	"description": "Obsidian plugin to open files and folders in a terminal, with configurable executables per OS.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
