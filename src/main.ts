@@ -44,7 +44,7 @@ function getDirectory(vaultBasePath: string, file: TAbstractFile): string {
 function openInDefaultTerminal(directory: string, settings: OpenTermSettings): void {
 	if (Platform.isWin) {
 		const exe = settings.windowsDefaultExe || "cmd.exe";
-		execFile("cmd.exe", ["/c", "start", exe, "/k", `cd /d "${directory}"`]);
+		execFile("cmd.exe", ["/c", "start", "/D", directory, exe]);
 	} else if (Platform.isMacOS) {
 		const app = settings.macTerminalApp || "Terminal";
 		execFile("open", ["-a", app, directory]);
@@ -77,7 +77,7 @@ function openInPowerShell(directory: string, settings: OpenTermSettings): void {
 
 function openInCmd(directory: string, settings: OpenTermSettings): void {
 	const exe = settings.cmdExe || "cmd.exe";
-	execFile("cmd.exe", ["/c", "start", exe, "/k", `cd /d "${directory}"`]);
+	execFile("cmd.exe", ["/c", "start", "/D", directory, exe]);
 }
 
 export default class OpenTermPlugin extends Plugin {
