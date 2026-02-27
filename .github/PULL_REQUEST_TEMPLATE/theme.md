@@ -12,7 +12,7 @@ Link to my theme:
 - [ ] My repo contains all required files (please *do not* add them to this `obsidian-releases` repo).
   - [ ] `manifest.json`
   - [ ] `theme.css`
-  - [ ] The screenshot file (16:9 aspect ratio, recommended size is 512px by 288px for fast loading).
+  - [ ] The screenshot file (16:9 aspect ratio, recommended size is 512px by 288px for fast loading and max allowed is 1000px by 500px).
 - [ ] I have indicated which modes (dark, light, or both) are compatible with my theme.
 - [ ] I have read the developer policies at https://docs.obsidian.md/Developer+policies, and have assessed my theme's adherence to these policies.
 - [ ] I have read the tips in https://docs.obsidian.md/Themes/App+themes/Theme+guidelines and have self-reviewed my theme to avoid these common pitfalls.
