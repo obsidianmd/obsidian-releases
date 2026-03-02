@@ -1,63 +1,189 @@
-## About this repo
+# Carbon CCalc-List
 
-This repo is used for hosting public releases of Obsidian, as well as our community plugins & themes directories.
+CList-Calc is a standard list-based calculation plugin for Obsidian. It helps you quickly perform calculations on lists, making it ideal for tracking **daily or monthly expenses, budgets, project costs, shopping lists, or personal finance tracking**.
+With CList-Calc, you can use simple or nested lists to organize your data and apply calculations like sum, average, count, min/max, and more, directly in your Obsidian notes.
+## Example use cases:
+- Daily Expenses – Track meals, transport, and shopping costs.
+- Monthly Budget – Calculate total spending across multiple categories.
+- Shopping List – Sum item costs automatically.
+- Project Costs – Manage expenses for materials, labor, and overhead.
+- Holiday Planning – Track hotel, transport, and activity costs.
+- Personal Finance – Keep track of income, bills, and savings.
+___
+Release Version: V1.0
 
-Obsidian is not open source software and this repo _DOES NOT_ contain the source code of Obsidian. However, if you wish to contribute to Obsidian, you can easily do so with our extensive plugin system. A plugin guide can be found here: https://docs.obsidian.md
+Language: #javascript
 
-This repo does not accept issues, if you have questions or issues with plugins, please go to their own repo to file them. If you have questions or issues about core Obsidian itself, please post them to our community: https://obsidian.md/community
+Support: All platforms.
 
-## Submit your plugin or theme
+Author:Abdurnurporag
 
-When opening a pull request, please switch to preview mode and select the option to go through our submission checklist. Submit your entry by following the convention in the JSON file and we will review your submission.
+### CCalc-list use
+```txt
+BlockName:ccalc-list
+```
+### Available Function
+```txt
+General Function:
 
-Thanks for submitting your creations!
+1. Sum(var)
+2. Avg(var)//Avoid it insted of it use Count()
+3. Count(var)
+4. Max(var)
+5. Min(var)
+6. Median(var)
+7. Mode(var)
+8. Range(var)
+9. MaxLabel(var)
+10. MinLabel(var)
+11. AscadingList(var)
+12. DscadingList(var)
+13. TotalChecked(var)
+14. TotalUnChecked(var)
+15. TotalCheckbox(var)
+16. StdDev(var)
+17. Var(var)
+```
+### Math Function
+```txt
+Math Function:
+1. Root(var||num)
+2. nRoot(value,n)
+3. Power(value,power)
+4. Floor(var||num)
+5. Round(var||num)
+6. Ceil(var||num)
+7. Abs(var||num)
+8. Log(var||num)
+9. Ln(var||num)
+10. Sin(var||num)
+11. Cos(var||num)
+12. Tan(var||num)
+13. Cot(var||num)
+14. Sec(var||num)
+15. Cosec(var||num)
+16. ASin(var||num)// inverse of sin
+17. ACos(var||num)// inverse of cos
+18. ATan(var||num)// inverse of tan
+```
+```txt
+Angle in degree
+```
+## Access var name
+```txt
+General list:
+			Var name,
+For nested list:
+			ParentName.childName...
+```
+# How to use?
+Copy after here and paste in obsidian notes and see.
+I think you will understand.
 
-You can find a detailed explanation for submitting your [plugin here](https://docs.obsidian.md/Plugins/Releasing/Submit+your+plugin) and your [theme here](https://docs.obsidian.md/Themes/App+themes/Submit+your+theme).
+## Simple brief
+As beginner you first follow the simple list. Then go nested.
 
-## Policies
+## List Syntex:
+Simple List:
+- MyBugget
+	- [x] Egg=199*30
+	- [x] Chicken= 189*230
+```clist-calc
+Total Cost=Sum(MyBugget)
+```
+Simple List:
+- [x] MyCost
+	- [ ] Bus Ticket=600
+	- [ ] Plane Ticket=8000
+```clist-calc
+Total Cost=Sum(MyCost)
+```
+Nested List:
+- Holiday Cost
+	- Hotel
+		- [ ] Alpha Sea=10000
+		- [ ] Black Core=20000
+	- Airplane
+		- [ ] Dhaka to Chattogram = 23000
+		- [ ] Chottogram to Katmandu =45000
+```clist-calc
+Hotel Cost=Sum(Holiday Cost.Hotel)
+Airplane Cost=Sum(Holiday Cost.Airplane)
+Total Cost=Sum(Holiday Cost)
 
-All submissions must conform with our [developer policies](https://docs.obsidian.md/Developer+policies)
+```
 
-## Community Theme
+### Comments And Show
+```txt
+/*use multiple line comment*/
+// use for hide
+"Showing value"//use for showing something
+```
+Example:
+```clist-calc
+/*this is comment*/
+Print=" Here showing text"
+// hiddenNum=10;
+ hiddenNun=hiddenNum
+ 
+```
+### Demo Project
+- MyFinance
+    - DailyExpenses
+        - [x] Breakfast = 150
+        - [x] Lunch = 300
+        - [x] Dinner = 250
+        - [x] Transport = 120
+    - MonthlyBills
+        - Rent = 15000
+        - Utilities
+            - Electricity = 2200
+            - Water = 500
+            - Internet = 1200
+        - Subscriptions
+            - Netflix = 800
+            - Spotify = 500
+            - News = 300
+    - Savings
+        - [x] FixedDeposit = 10000
+        - [ ] EmergencyFund = 5000
+    - Investments
+        - Stock
+            - Tesla = 20000
+            - Apple = 15000
+        - MutualFund
+            - FundA = 5000
+            - FundB = 10000
 
-To add your theme to our theme store, make a pull request to the `community-css-theme.json` file. Please add your theme to the end of the list.
+```clist-calc
+/* General Function Examples */
+TotalDaily = Sum(MyFinance.DailyExpenses)
+AverageDaily = Avg(MyFinance.DailyExpenses)
+MaxExpense = Max(MyFinance.DailyExpenses)
+MinExpense = Min(MyFinance.DailyExpenses)
+CountExpenses = Count(MyFinance.DailyExpenses)
+RangeExpenses = Range(MyFinance.DailyExpenses)
+StdDevExpenses = StdDev(MyFinance.DailyExpenses)
+VarExpenses = Var(MyFinance.DailyExpenses)
+TotalCheckedItems = TotalChecked(MyFinance.Savings)
+TotalUnCheckedItems = TotalUnChecked(MyFinance.Savings)
+AscDailyExpenses = AscadingList(MyFinance.DailyExpenses)
+DescDailyExpenses = DscadingList(MyFinance.DailyExpenses)
+MaxLabelExpense = MaxLabel(MyFinance.DailyExpenses)
+MinLabelExpense = MinLabel(MyFinance.DailyExpenses)
 
-- `name`: a unique name for your theme. Must not collide with other themes.
-- `author`: the author's name for display.
-- `repo`: the GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
-- `screenshot`: path to the screenshot of your theme.
-- `modes`: if your theme supports both dark and light mode, put `["dark", "light"]`. Otherwise, put `["dark"]` if your theme only supports dark mode, or  `["light"]` if your theme only supports light mode.
-- `publish`: if your theme supports Obsidian Publish, set this to `true`. Omit it otherwise.
+/* Nested Totals */
+TotalUtilities = Sum(MyFinance.MonthlyBills.Utilities)
+TotalSubscriptions = Sum(MyFinance.MonthlyBills.Subscriptions)
+TotalBills = Sum(MyFinance.MonthlyBills)
+TotalInvestments = Sum(MyFinance.Investments.Stock) + Sum(MyFinance.Investments.MutualFund)
+TotalFinance = Sum(MyFinance.DailyExpenses) + TotalBills + TotalInvestments + Sum(MyFinance.Savings)
 
-To get your theme compatible with Obsidian Publish, you can use `applyCss` and `applyCssByLink` to test out your CSS in the developer console of Obsidian Publish sites, so that you don't actually need to own sites to test your `publish.css`. You can test it out on our help site here: https://help.obsidian.md/
+```
 
-`applyCss` takes a CSS string, you can use backtick (template strings) for multiline CSS. `applyCssByLink` takes a link and loads the CSS, would recommend GitHub raw file URLs.
 
-## Community Plugin
+CList Calc is open source. You can use, modify, and redistribute it freely. 
+The author is not responsible for any issues caused by using or modifying this plugin.
 
-### Community Plugins format
 
-To add your plugin to the list, make a pull request to the `community-plugins.json` file. Please add your plugin to the end of the list.
 
-- `id`: A unique ID for your plugin. Make sure this is the same one you have in your `manifest.json`.
-- `name`: The name of your plugin.
-- `author`: The author's name.
-- `description`: A short description of what your plugin does.
-- `repo`: The GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
-
-### How community plugins are pulled
-
-- Obsidian will read the list of plugins in `community-plugins.json`.
-- The `name`, `author` and `description` fields are used for searching.
-- When the user opens the detail page of your plugin, Obsidian will pull the `manifest.json` and `README.md` from your GitHub repo).
-- The `manifest.json` in your repo will only be used to figure out the latest version. Actual files are fetched from your GitHub releases.
-- If your `manifest.json` requires a version of Obsidian that's higher than the running app, your `versions.json` will be consulted to find the latest version of your plugin that is compatible.
-- When the user chooses to install your plugin, Obsidian will look for your GitHub releases tagged identically to the version inside `manifest.json`.
-- Obsidian will download `manifest.json`, `main.js`, and `styles.css` (if available), and store them in the proper location inside the vault.
-
-### Announcing the First Public Release of your Plugin/Theme
-
-- Once admitted to the plugin/theme browser, you can announce the public availability of your plugin/theme:
-  - [in the forums](https://forum.obsidian.md/c/share-showcase/9) as a showcase, and
-  - [on the Discord Server](https://discord.gg/veuWUTm) in the channel `#updates`. (You need the `developer` role to be able to post in that channel; [you can get that role here](https://discord.com/channels/686053708261228577/702717892533157999/830492034807758859).)
-- You can also announce the first working version of your plugin as a public beta before "officially" submitting it to the plugin/theme browser. That way, you can acquire some beta testers for feedback. It's recommended to use the [BRAT Plugin](https://obsidian.md/plugins?id=obsidian42-brat) to make the installation as easy as possible for interested beta testers.
