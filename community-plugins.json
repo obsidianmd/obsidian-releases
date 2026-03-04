@@ -19151,11 +19151,15 @@
     "description": "Switch between different work roles (developer, writer, researcher, etc.) with intentional transitions and session tracking.",
     "repo": "zafrem/obsidian-role-switch"
   },
-   {
-    "id": "obsidian-tts",
+  {
+    "id": "ai-dialogue-tts",
     "name": "Voice Notes - AI Dialogue",
+    "version": "0.2.0",
+    "minAppVersion": "0.15.0",
+    "description": "Transform your notes into engaging AI-powered dialogues with multi-voice TTS. NotebookLM-style learning experience.",
     "author": "CharlieLau",
-    "description": "Transform your notes into engaging AI-powered dialogues with multi-voice TTS. NotebookLM-style learning experience in Obsidian.",
-    "repo": "CharlieLau/obsidan-qwen-tts"
+    "authorUrl": "https://github.com/CharlieLau",
+    "fundingUrl": "https://github.com/CharlieLau/obsidan-qwen-tts",
+    "isDesktopOnly": false
   }
 ]
