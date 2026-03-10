@@ -935,7 +935,7 @@
     "name": "Style Settings",
     "description": "Adjust theme, plugin, and snippet CSS variables.",
     "author": "mgmeyers",
-    "repo": "mgmeyers/obsidian-style-settings"
+    "repo": "obsidian-community/obsidian-style-settings"
   },
   {
     "id": "obsidian-advanced-uri",
@@ -1040,7 +1040,7 @@
     "name": "Kanban",
     "author": "mgmeyers",
     "description": "Create Markdown-backed Kanban boards.",
-    "repo": "mgmeyers/obsidian-kanban"
+    "repo": "obsidian-community/obsidian-kanban"
   },
   {
     "id": "obsidian-incremental-writing",
@@ -3175,7 +3175,7 @@
     "name": "Zotero Integration",
     "author": "mgmeyers",
     "description": "Insert and import citations, bibliographies, notes, and PDF annotations from Zotero.",
-    "repo": "mgmeyers/obsidian-zotero-integration"
+    "repo": "obsidian-community/obsidian-zotero-integration"
   },
   {
     "id": "obsidian-telegraph-publish",
@@ -3448,7 +3448,7 @@
     "name": "Pandoc Reference List",
     "author": "mgmeyers",
     "description": "Display a formatted reference in the sidebar for each Pandoc citekey present in the current document.",
-    "repo": "mgmeyers/obsidian-pandoc-reference-list"
+    "repo": "obsidian-community/obsidian-pandoc-reference-list"
   },
   {
     "id": "obsidian-enhancing-export",
@@ -7200,7 +7200,7 @@
     "name": "Easy Bake",
     "author": "mgmeyers",
     "description": "Easily compile many notes down to a single file.",
-    "repo": "mgmeyers/obsidian-easy-bake"
+    "repo": "obsidian-community/obsidian-easy-bake"
   },
   {
     "id": "finnish-spellcheck",
@@ -15844,7 +15844,7 @@
     "id": "auto-mover",
     "name": "AutoMover",
     "author": "Al0cam",
-    "description": "Moves files with specified names into the same folder.",
+    "description": "Automatically move files and notes with specified names into their designated folders according to rules you define.",
     "repo": "al0cam/AutoMover"
   },
   {
@@ -19152,10 +19152,25 @@
     "repo": "zafrem/obsidian-role-switch"
   },
   {
+<<<<<<< add-default-image-width
     "id": "image-balance",
     "name": "Image Balance",
     "author": "James Clements",
     "description": "Automatically sizes pasted images using constant visual area, so every image feels the same weight regardless of aspect ratio.",
     "repo": "jamesvclements/image-balance"
+=======
+    "id": "double-click-image-opener",
+    "name": "Double-Click Image Opener",
+    "author": "atman",
+    "description": "Open images with your system's default application by double-clicking.",
+    "repo": "atman-33/double-click-image-opener"
+  },
+  {
+    "id": "capitaliser",
+    "name": "Capitaliser",
+    "author": "Emanuel Oliveira",
+    "description": "Cycle text capitalisation (lowercase, Capitalise Each Word, UPPERCASE).",
+    "repo": "hardpath/obsidian-capitalise-plugin"
+>>>>>>> master
   }
 ]
