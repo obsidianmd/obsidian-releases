@@ -935,7 +935,7 @@
     "name": "Style Settings",
     "description": "Adjust theme, plugin, and snippet CSS variables.",
     "author": "mgmeyers",
-    "repo": "mgmeyers/obsidian-style-settings"
+    "repo": "obsidian-community/obsidian-style-settings"
   },
   {
     "id": "obsidian-advanced-uri",
@@ -1040,7 +1040,7 @@
     "name": "Kanban",
     "author": "mgmeyers",
     "description": "Create Markdown-backed Kanban boards.",
-    "repo": "mgmeyers/obsidian-kanban"
+    "repo": "obsidian-community/obsidian-kanban"
   },
   {
     "id": "obsidian-incremental-writing",
@@ -3175,7 +3175,7 @@
     "name": "Zotero Integration",
     "author": "mgmeyers",
     "description": "Insert and import citations, bibliographies, notes, and PDF annotations from Zotero.",
-    "repo": "mgmeyers/obsidian-zotero-integration"
+    "repo": "obsidian-community/obsidian-zotero-integration"
   },
   {
     "id": "obsidian-telegraph-publish",
@@ -3448,7 +3448,7 @@
     "name": "Pandoc Reference List",
     "author": "mgmeyers",
     "description": "Display a formatted reference in the sidebar for each Pandoc citekey present in the current document.",
-    "repo": "mgmeyers/obsidian-pandoc-reference-list"
+    "repo": "obsidian-community/obsidian-pandoc-reference-list"
   },
   {
     "id": "obsidian-enhancing-export",
@@ -7140,13 +7140,6 @@
     "repo": "eoureo/obsidian-runjs"
   },
   {
-    "id": "touchbar-macros",
-    "name": "Touch Bar Macros",
-    "author": "Frostplexx",
-    "description": "Run custom macros from your Mac's Touch Bar.",
-    "repo": "frostplexx/obsidian-touchbar-macros"
-  },
-  {
     "id": "obsidiosaurus",
     "name": "Obsidiosaurus",
     "author": "CIMSTA",
@@ -7200,7 +7193,7 @@
     "name": "Easy Bake",
     "author": "mgmeyers",
     "description": "Easily compile many notes down to a single file.",
-    "repo": "mgmeyers/obsidian-easy-bake"
+    "repo": "obsidian-community/obsidian-easy-bake"
   },
   {
     "id": "finnish-spellcheck",
@@ -8759,7 +8752,7 @@
   {
     "id": "periodic-table",
     "name": "Periodic Table",
-    "author": "jake-cramer",
+    "author": "R-Cramer",
     "description": "View a periodic table of elements in the sidebar.",
     "repo": "R-Cramer4/Periodic-Table-Obsidian"
   },
@@ -11410,13 +11403,6 @@
     "repo": "xhuajin/obsidian-settings-management"
   },
   {
-    "id": "laser-beam",
-    "name": "Laser beam",
-    "author": "Bernardo Pires",
-    "description": "Improve your reading experience with customizable laser lines.",
-    "repo": "drbap/laser-beam-for-obsidian"
-  },
-  {
     "id": "freeform",
     "name": "Freeform",
     "author": "tmcw",
@@ -12404,13 +12390,6 @@
     "repo": "DarioCasciato/obsidian-auto-folder-collapse"
   },
   {
-    "id": "dashboard-navigator",
-    "name": "Dashboard navigator",
-    "author": "Bernardo Pires",
-    "description": "Vault dashboard and navigator. Show recent files by type, files per day, week, month, search files by name, date, tags and more.",
-    "repo": "drbap/dashboard-navigator-for-obsidian"
-  },
-  {
     "id": "quick-open",
     "name": "Quick Select",
     "author": "James Alexandre",
@@ -12458,13 +12437,6 @@
     "author": "logonoff",
     "description": "Adds Discord-like syntax for inline spoilers in reader mode.",
     "repo": "logonoff/obsidian-inline-spoilers"
-  },
-  {
-    "id": "enhanced-symbols-prettifier",
-    "name": "Enhanced Symbols Prettifier",
-    "author": "Noam Schmitt",
-    "description": "Replace/substitute the symbols with actual symbols you commonly type. It also works for emojis shortcuts, abbreviations, greek letters, math symbols or other snippets/aliases you define",
-    "repo": "noam-sc/obsidian-enhanced-symbols-prettifier"
   },
   {
     "id": "smart-templates",
@@ -13081,13 +13053,6 @@
     "author": "Artsem Holub (WiNE-iNEFF)",
     "description": "Easy color and clear selected text",
     "repo": "WiNE-iNEFF/colorizelt"
-  },
-  {
-    "id": "magic-mic",
-    "name": "Magic Mic",
-    "author": "Drew McDonald",
-    "description": "Record, transcribe, and summarize audio directly into your vault with custom assistants.",
-    "repo": "drewmcdonald/obsidian-magic-mic"
   },
   {
     "id": "editing-mode-hotkey",
@@ -15398,13 +15363,6 @@
     "author": "Devon22",
     "description": "Browse note files in a grid view.",
     "repo": "Devon22/obsidian-gridexplorer"
-  },
-  {
-    "id": "infio-copilot",
-    "name": "Infio Copilot",
-    "author": "duanfuxiang0",
-    "description": "A Cursor-inspired AI assistant for notes that offers smart autocomplete and interactive chat with your selected notes",
-    "repo": "infiolab/infio-copilot"
   },
   {
     "id": "task-mover",
@@ -19157,6 +19115,13 @@
     "author": "atman",
     "description": "Open images with your system's default application by double-clicking.",
     "repo": "atman-33/double-click-image-opener"
+  },
+  {
+    "id": "capitaliser",
+    "name": "Capitaliser",
+    "author": "Emanuel Oliveira",
+    "description": "Cycle text capitalisation (lowercase, Capitalise Each Word, UPPERCASE).",
+    "repo": "eoliversec/obsidian-capitalise-plugin"
   },
   {
     "id": "file-metadata",
