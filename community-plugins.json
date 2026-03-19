@@ -19203,7 +19203,7 @@
   {
   	"id": "content-addressed-attachments",
   	"name": "Content-Addressed Attachments",
-  	"description": "Stores attachments using content-based addressing (similar to IPFS) for automatic deduplication, but can operates entirely locally without requiring the IPFS network. Also supports github private repository for hosting.",
+  	"description": "Content-addressed attachment storage for automatic deduplication. Works entirely locally; optionally uses GitHub private repositories for hosting.",
   	"author": "NateScarlet",
     "repo": "NateScarlet/obsidian-content-addressed-attachments"
   }
