@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "nldates-obsidian",
     "name": "Natural Language Dates",
@@ -19206,5 +19206,12 @@
     "description": "Content-addressed attachment storage for automatic deduplication. Works entirely locally; optionally uses GitHub private repositories for hosting.",
     "author": "NateScarlet",
     "repo": "NateScarlet/obsidian-content-addressed-attachments"
+  },
+  {
+    "id": "obsidian-skill-viewer",
+    "name": "Skill Viewer",
+    "author": "Harshwardhan Wadikar",
+    "description": "Render .skill packages (AI agent skill files) as native Obsidian notes. Supports any agent using the .skill format: Claude Code, OpenClaw, NemoClaw, and others.",
+    "repo": "Chargekar/obsidian-skill-viewer"
   }
 ]
