@@ -19206,5 +19206,12 @@
     "description": "Content-addressed attachment storage for automatic deduplication. Works entirely locally; optionally uses GitHub private repositories for hosting.",
     "author": "NateScarlet",
     "repo": "NateScarlet/obsidian-content-addressed-attachments"
+  },
+  {
+    "id": "wiki-summary-normalised",
+    "name": "Vault Graph Summary",
+  	"description": "Generates a consolidated summary text file by crawling your notes. Supports outgoing links, backlinks, recursion depth, exclusion patterns, and 'Mirror' folder logic for handling Primary vs. Public note versions.",
+    "author": "Pflanzmann",
+    "repo": "Pflanzmann/obsidian-summary-plugin"
   }
 ]
