@@ -19246,7 +19246,7 @@
     "id": "file-creation-tracker",
     "name": "File Creation Tracker",
     "author": "Hyeji Jung",
-    "description": "Shows recently created files in a sidebar, sorted by date. Works with files created outside Obsidian (VS Code, terminal, etc.).",
+    "description": "Shows recently created files in a sidebar, sorted by date. Detects files created in any editor (VS Code, terminal, etc.) using filesystem creation time.",
     "repo": "hyeji-simulacre/file-creation-tracker"
   }
 ]
