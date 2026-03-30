@@ -19213,5 +19213,14 @@
     "description": "Content-addressed attachment storage for automatic deduplication. Works entirely locally; optionally uses GitHub private repositories for hosting.",
     "author": "NateScarlet",
     "repo": "NateScarlet/obsidian-content-addressed-attachments"
-  }
+  },
+  {
+  "id": "vault-llama",
+  "name": "VaultLlama",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Chat with a local Ollama model from a side panel in your vault.",
+  "author": "Tom Han",
+  "isDesktopOnly": true
+}
 ]
