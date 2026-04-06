@@ -19246,7 +19246,7 @@
     "id": "table-doctor",
     "name": "Table Doctor",
     "author": "robertoecf",
-    "description": "Automatically fixes broken markdown tables by removing blank lines between table rows.",
+    "description": "Automatically fixes broken markdown tables by removing blank lines between table rows. Tables with blank lines between rows don't render in Obsidian — this plugin detects and collapses them on save, paste, or command.",
     "repo": "robertoecf/obsidian-table-doctor"
   }
 ]
