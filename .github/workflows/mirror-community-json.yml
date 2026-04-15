@@ -1,0 +1,224 @@
+name: Mirror community JSON
+
+on:
+  schedule:
+    # Hourly, offset off :00 — scheduled GitHub Actions are heavily delayed at the top of the hour.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: mirror-community-json
+  cancel-in-progress: false
+
+env:
+  PLUGINS_URL: https://community.obsidian.md/assets/community-plugins.json
+  THEMES_URL: https://community.obsidian.md/assets/community-themes.json
+  PLUGINS_FILE: community-plugins.json
+  THEMES_FILE: community-css-themes.json
+  # New file must retain at least this fraction of the current file's entry count.
+  MIN_RETENTION_PCT: 95
+  # Hard floors guard against percent-check passing on an already-small file.
+  PLUGINS_MIN_ABSOLUTE: 1500
+  THEMES_MIN_ABSOLUTE: 100
+
+jobs:
+  mirror:
+    if: github.repository == 'obsidianmd/obsidian-releases'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+
+      - name: Fetch plugins JSON
+        run: |
+          curl -fsSL --retry 5 --retry-delay 10 --max-time 60 \
+            -o /tmp/plugins.new "$PLUGINS_URL"
+
+      - name: Fetch themes JSON
+        run: |
+          curl -fsSL --retry 5 --retry-delay 10 --max-time 60 \
+            -o /tmp/themes.new "$THEMES_URL"
+
+      - name: Validate plugins JSON
+        run: |
+          set -euo pipefail
+          NEW=/tmp/plugins.new
+          OLD="$PLUGINS_FILE"
+
+          jq -e 'type == "array"' "$NEW" > /dev/null \
+            || { echo "::error::plugins: top-level is not a JSON array"; exit 1; }
+
+          # Required string fields. author/description may be empty strings but must be present as strings.
+          jq -e '
+            all(.[];
+              (.id          | type) == "string" and (.id     | length) > 0
+              and (.name    | type) == "string" and (.name   | length) > 0
+              and (.repo    | type) == "string" and (.repo   | length) > 0
+              and (.author  | type) == "string"
+              and (.description | type) == "string")
+          ' "$NEW" > /dev/null \
+            || { echo "::error::plugins: one or more entries missing required string fields"; exit 1; }
+
+          BAD_REPO=$(jq '[.[] | select(.repo | test("^[^/[:space:]]+/[^/[:space:]]+$") | not)] | length' "$NEW")
+          if [ "$BAD_REPO" -gt 0 ]; then
+            echo "::error::plugins: $BAD_REPO entries have malformed repo (expected owner/name)"
+            exit 1
+          fi
+
+          DUPES=$(jq '[.[].id] | group_by(.) | map(select(length > 1)) | length' "$NEW")
+          if [ "$DUPES" -gt 0 ]; then
+            echo "::error::plugins: $DUPES duplicate id(s) found"
+            exit 1
+          fi
+
+          NEW_COUNT=$(jq 'length' "$NEW")
+          OLD_COUNT=$(jq 'length' "$OLD")
+          MIN_RETAINED=$(( OLD_COUNT * MIN_RETENTION_PCT / 100 ))
+          echo "plugins: new=$NEW_COUNT old=$OLD_COUNT min_retained=$MIN_RETAINED absolute_floor=$PLUGINS_MIN_ABSOLUTE"
+          if [ "$NEW_COUNT" -lt "$MIN_RETAINED" ]; then
+            echo "::error::plugins: new count $NEW_COUNT < ${MIN_RETENTION_PCT}% of current $OLD_COUNT"
+            exit 1
+          fi
+          if [ "$NEW_COUNT" -lt "$PLUGINS_MIN_ABSOLUTE" ]; then
+            echo "::error::plugins: new count $NEW_COUNT below absolute floor $PLUGINS_MIN_ABSOLUTE"
+            exit 1
+          fi
+
+      - name: Validate themes JSON
+        run: |
+          set -euo pipefail
+          NEW=/tmp/themes.new
+          OLD="$THEMES_FILE"
+
+          jq -e 'type == "array"' "$NEW" > /dev/null \
+            || { echo "::error::themes: top-level is not a JSON array"; exit 1; }
+
+          jq -e '
+            all(.[];
+              (.name   | type) == "string" and (.name | length) > 0
+              and (.repo   | type) == "string" and (.repo | length) > 0
+              and (.author | type) == "string"
+              and (.modes  | type) == "array"
+              and (.modes  | all(. == "dark" or . == "light"))
+              and ((has("legacy") | not) or .legacy == true)
+              and ((has("screenshot") | not) or (.screenshot | type) == "string"))
+          ' "$NEW" > /dev/null \
+            || { echo "::error::themes: one or more entries have invalid shape"; exit 1; }
+
+          BAD_REPO=$(jq '[.[] | select(.repo | test("^[^/[:space:]]+/[^/[:space:]]+$") | not)] | length' "$NEW")
+          if [ "$BAD_REPO" -gt 0 ]; then
+            echo "::error::themes: $BAD_REPO entries have malformed repo (expected owner/name)"
+            exit 1
+          fi
+
+          DUPES=$(jq '[.[].name] | group_by(.) | map(select(length > 1)) | length' "$NEW")
+          if [ "$DUPES" -gt 0 ]; then
+            echo "::error::themes: $DUPES duplicate name(s) found"
+            exit 1
+          fi
+
+          NEW_COUNT=$(jq 'length' "$NEW")
+          OLD_COUNT=$(jq 'length' "$OLD")
+          MIN_RETAINED=$(( OLD_COUNT * MIN_RETENTION_PCT / 100 ))
+          echo "themes: new=$NEW_COUNT old=$OLD_COUNT min_retained=$MIN_RETAINED absolute_floor=$THEMES_MIN_ABSOLUTE"
+          if [ "$NEW_COUNT" -lt "$MIN_RETAINED" ]; then
+            echo "::error::themes: new count $NEW_COUNT < ${MIN_RETENTION_PCT}% of current $OLD_COUNT"
+            exit 1
+          fi
+          if [ "$NEW_COUNT" -lt "$THEMES_MIN_ABSOLUTE" ]; then
+            echo "::error::themes: new count $NEW_COUNT below absolute floor $THEMES_MIN_ABSOLUTE"
+            exit 1
+          fi
+
+      - name: Compute diff summary
+        run: |
+          set -euo pipefail
+
+          summarize() {
+            local label="$1" keyfield="$2" oldfile="$3" newfile="$4"
+            jq -n \
+              --arg label "$label" \
+              --arg key "$keyfield" \
+              --slurpfile old "$oldfile" \
+              --slurpfile new "$newfile" \
+              '
+                def byKey($k): map({(.[$k]): .}) | add // {};
+                ($old[0] | byKey($key)) as $o |
+                ($new[0] | byKey($key)) as $n |
+                ($o | keys) as $ok |
+                ($n | keys) as $nk |
+                ($ok - ($ok - $nk)) as $both |
+                {
+                  label: $label,
+                  total_old: ($ok | length),
+                  total_new: ($nk | length),
+                  added:    ($nk - $ok | length),
+                  removed:  ($ok - $nk | length),
+                  modified: ([$both[] | select($o[.] != $n[.])] | length)
+                }
+              '
+          }
+
+          PLUGINS_DIFF=$(summarize plugins id   "$PLUGINS_FILE" /tmp/plugins.new)
+          THEMES_DIFF=$(summarize  themes name "$THEMES_FILE"  /tmp/themes.new)
+
+          echo "$PLUGINS_DIFF"
+          echo "$THEMES_DIFF"
+
+          {
+            echo "### Mirror diff summary"
+            echo ""
+            echo "| File | Old | New | Added | Removed | Modified |"
+            echo "|---|---:|---:|---:|---:|---:|"
+            jq -r '"| \(.label) | \(.total_old) | \(.total_new) | \(.added) | \(.removed) | \(.modified) |"' <<< "$PLUGINS_DIFF"
+            jq -r '"| \(.label) | \(.total_old) | \(.total_new) | \(.added) | \(.removed) | \(.modified) |"' <<< "$THEMES_DIFF"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Stage validated files
+        run: |
+          mv /tmp/plugins.new "$PLUGINS_FILE"
+          mv /tmp/themes.new "$THEMES_FILE"
+
+      - name: Format with prettier
+        run: |
+          npm ci --no-save
+          npm run format
+
+      - name: Commit and push if changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- "$PLUGINS_FILE" "$THEMES_FILE"; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config --local user.name  'Obsidian Bot'
+          git config --local user.email 'admin@obsidian.md'
+          git add "$PLUGINS_FILE" "$THEMES_FILE"
+          git commit -m "chore: Mirror community plugins and themes"
+          git push
+
+      - name: Report failure as issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          BODY=$'Mirror workflow failed.\n\nRun: '"$RUN_URL"
+          EXISTING=$(gh issue list --label mirror-failure --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body "$BODY"
+          else
+            gh label create mirror-failure --color B60205 --description "Automated mirror workflow failed" 2>/dev/null || true
+            gh issue create \
+              --title "Mirror community JSON workflow failed" \
+              --label mirror-failure \
+              --body "$BODY"
+          fi
