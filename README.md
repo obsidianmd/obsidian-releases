@@ -1,63 +1,156 @@
-## About this repo
+# Ministry Theme for Obsidian
 
-This repo is used for hosting public releases of Obsidian, as well as our community plugins & themes directories.
+A warm, purposeful theme designed for **ministers, pastors, and theological writers**. Optimized for sermon preparation, Bible study, biblical exposition, and preaching.
 
-Obsidian is not open source software and this repo _DOES NOT_ contain the source code of Obsidian. However, if you wish to contribute to Obsidian, you can easily do so with our extensive plugin system. A plugin guide can be found here: https://docs.obsidian.md
+---
 
-This repo does not accept issues, if you have questions or issues with plugins, please go to their own repo to file them. If you have questions or issues about core Obsidian itself, please post them to our community: https://obsidian.md/community
+## Features
 
-## Submit your plugin or theme
+### Rich Typography
+- **Cinzel** serif font for headings — conveys gravitas and timelessness
+- **Inter** sans-serif for body text — crisp, modern readability
+- Optimized line-height (1.72) and generous margins for long-form reading
+- Distinctive heading hierarchy with gold and navy accents
 
-When opening a pull request, please switch to preview mode and select the option to go through our submission checklist. Submit your entry by following the convention in the JSON file and we will review your submission.
+### 9 Ministry Callouts
 
-Thanks for submitting your creations!
+| Callout | Purpose | Style |
+|---------|---------|-------|
+| `theology` | Theological points | Gold left border |
+| `application` | Application points | Green left border |
+| `wordstudy` / `hebrew` / `greek` | Original language study | Purple right border, monospace |
+| `illustration` | Sermon illustrations | Double gold border, italic |
+| `challenge` | Challenge to audience | Animated underline on title |
+| `reflection` | Reflection questions | Gentle pulse glow |
+| `point` | Main sermon points | Gold sweep animation on hover |
+| `gem` / `wow` | Key insight gems | Teal border with shimmer |
+| `proclaim` | Projector/slide mode | Dark gradient, gold glow, presentation-ready |
 
-You can find a detailed explanation for submitting your [plugin here](https://docs.obsidian.md/Plugins/Releasing/Submit+your+plugin) and your [theme here](https://docs.obsidian.md/Themes/App+themes/Submit+your+theme).
+### Sermon Outline Hierarchy
+Ordered lists follow classic sermon structure automatically:
+- **I, II, III** — First level (upper-roman)
+- **A, B, C** — Second level (upper-alpha)
+- **1, 2, 3** — Third level (decimal)
+- **a, b, c** — Fourth level (lower-alpha)
+- **i, ii, iii** — Fifth level (lower-roman)
 
-## Policies
+### Scripture & Quote Styling
+- Beautiful blockquotes with gold left border
+- `.scripture-quote` class for Bible passages (thick 8px gold border)
+- `.pull-quote` class for key sermon quotes (centered, large, gold)
 
-All submissions must conform with our [developer policies](https://docs.obsidian.md/Developer+policies)
+### Styled Tables
+- Navy header row with white text
+- Zebra striping for readability
+- Pastel color wrappers: `.blue`, `.slate`, `.pink`, `.green`
+- `.table-gem` variant with gold headers
 
-## Community Theme
+### Special Modes
+- **Titus mode** — Green-styled mentoring blocks
+- **Timothy mode** — Blue-styled discipleship blocks
+- **Eldership notes** — Wide, spacious format for leadership notes
 
-To add your theme to our theme store, make a pull request to the `community-css-theme.json` file. Please add your theme to the end of the list.
+### Print Optimized
+- Full `@media print` support
+- Background colors forced to print
+- UI chrome hidden
+- Page break controls
+- Links show their URLs
 
-- `name`: a unique name for your theme. Must not collide with other themes.
-- `author`: the author's name for display.
-- `repo`: the GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
-- `screenshot`: path to the screenshot of your theme.
-- `modes`: if your theme supports both dark and light mode, put `["dark", "light"]`. Otherwise, put `["dark"]` if your theme only supports dark mode, or  `["light"]` if your theme only supports light mode.
-- `publish`: if your theme supports Obsidian Publish, set this to `true`. Omit it otherwise.
+### Plugin Support
+- Kanban boards styled with ministry palette
+- Dataview tables themed
+- Calendar plugin themed
+- Sliding Panes (Andy's Mode) support
 
-To get your theme compatible with Obsidian Publish, you can use `applyCss` and `applyCssByLink` to test out your CSS in the developer console of Obsidian Publish sites, so that you don't actually need to own sites to test your `publish.css`. You can test it out on our help site here: https://help.obsidian.md/
+---
 
-`applyCss` takes a CSS string, you can use backtick (template strings) for multiline CSS. `applyCssByLink` takes a link and loads the CSS, would recommend GitHub raw file URLs.
+## Installation
 
-## Community Plugin
+### Method 1: Manual Installation (Recommended)
 
-### Community Plugins format
+1. Download and extract the `ministry-theme` folder
+2. Copy the entire `ministry-theme` folder into your Obsidian vault's themes directory:
+   - **Windows**: `%USERPROFILE%\Documents\Obsidian Vault\.obsidian\themes\`
+   - **Mac**: `~/Library/Application Support/obsidian/themes/` or `~/Documents/Obsidian Vault/.obsidian/themes/`
+   - **Linux**: `~/.config/obsidian/themes/`
+3. In Obsidian, go to **Settings → Appearance → Themes**
+4. Select "Ministry Theme" from the dropdown
 
-To add your plugin to the list, make a pull request to the `community-plugins.json` file. Please add your plugin to the end of the list.
+### Method 2: Community Themes (Coming Soon)
 
-- `id`: A unique ID for your plugin. Make sure this is the same one you have in your `manifest.json`.
-- `name`: The name of your plugin.
-- `author`: The author's name.
-- `description`: A short description of what your plugin does.
-- `repo`: The GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
+Once approved, you can install directly from Obsidian:
+1. Go to **Settings → Appearance → Themes → Manage**
+2. Search for "Ministry Theme"
+3. Click **Install**
 
-### How community plugins are pulled
+### Method 3: Snippet Mode (For Testing)
 
-- Obsidian will read the list of plugins in `community-plugins.json`.
-- The `name`, `author` and `description` fields are used for searching.
-- When the user opens the detail page of your plugin, Obsidian will pull the `manifest.json` and `README.md` from your GitHub repo).
-- The `manifest.json` in your repo will only be used to figure out the latest version. Actual files are fetched from your GitHub releases.
-- If your `manifest.json` requires a version of Obsidian that's higher than the running app, your `versions.json` will be consulted to find the latest version of your plugin that is compatible.
-- When the user chooses to install your plugin, Obsidian will look for your GitHub releases tagged identically to the version inside `manifest.json`.
-- Obsidian will download `manifest.json`, `main.js`, and `styles.css` (if available), and store them in the proper location inside the vault.
+If you want to try the theme without fully installing it:
+1. Open your vault's `.obsidian/snippets/` folder (create it if it doesn't exist)
+2. Copy `theme.css` into that folder and rename it to `ministry-theme.css`
+3. In Obsidian, go to **Settings → Appearance → CSS Snippets**
+4. Enable the `ministry-theme` snippet
 
-### Announcing the First Public Release of your Plugin/Theme
+---
 
-- Once admitted to the plugin/theme browser, you can announce the public availability of your plugin/theme:
-  - [in the forums](https://forum.obsidian.md/c/share-showcase/9) as a showcase, and
-  - [on the Discord Server](https://discord.gg/veuWUTm) in the channel `#updates`. (You need the `developer` role to be able to post in that channel; [you can get that role here](https://discord.com/channels/686053708261228577/702717892533157999/830492034807758859).)
-- You can also announce the first working version of your plugin as a public beta before "officially" submitting it to the plugin/theme browser. That way, you can acquire some beta testers for feedback. It's recommended to use the [BRAT Plugin](https://obsidian.md/plugins?id=obsidian42-brat) to make the installation as easy as possible for interested beta testers.
+## How to Use the Callouts
+
+Callouts use Obsidian's native callout syntax with custom types:
+
+```markdown
+> [!theology] Key Doctrine
+> This is a theological point about the Trinity.
+
+> [!application] For Today
+> How does this apply to your walk with Christ?
+
+> [!wordstudy] Hebrew: Shalom
+> Meaning: peace, completeness, wholeness
+
+> [!proclaim] # Slide 1
+> **"The Lord is my shepherd"** — Psalm 23:1
+```
+
+## Sermon Outline Example
+
+Simply use numbered lists — the hierarchy formats automatically:
+
+```markdown
+1. The Problem of Sin
+   1. Its origin
+   2. Its consequence
+2. The Solution in Christ
+   1. His sacrifice
+   2. Our redemption
+```
+
+Renders as:
+- **I.** The Problem of Sin
+  - **A.** Its origin
+  - **B.** Its consequence
+- **II.** The Solution in Christ
+  - **A.** His sacrifice
+  - **B.** Our redemption
+
+---
+
+## Color Palette
+
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Navy | #22334C | Primary text, headers |
+| Gold | #bfa046 | Accents, borders, strong text |
+| Paper | #FAF8F3 | Light mode background |
+| Steel Blue | #3B82F6 | Interactive elements, links |
+| Ink | #111827 | Dark text on light backgrounds |
+
+---
+
+## Contributing
+
+This theme is open for improvement. If you have suggestions for ministry-specific features, please share them.
+
+---
+
+*"From Word to Life" — Ex Verbo Vita*

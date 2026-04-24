@@ -1,0 +1,2948 @@
+/* ═════════════════════════════════════════════════════════════════════════════
+   MINISTRY THEME for Obsidian
+   A premium theme designed for ministers, pastors, and theological writers.
+   Optimized for sermon preparation, Bible study, and biblical exposition.
+   
+   Synthesized from: Ex Verbo Vita, Preaching Desk, and Obuntu themes
+   Author: Ministry Theme Collective
+   Version: 1.0.0
+   ═════════════════════════════════════════════════════════════════════════════ */
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 1: ROOT VARIABLES & OBSIDIAN THEME VARIABLES
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* Ministry Palette — Core Colors */
+  --ministry-navy: #22334C;
+  --ministry-navy-light: #2d4a6b;
+  --ministry-gold: #bfa046;
+  --ministry-gold-light: #d4b85a;
+  --ministry-paper: #FAF8F3;
+  --ministry-ink: #111827;
+  --ministry-muted: #4b5563;
+  --ministry-line: #d1d5db;
+  --ministry-soft: #f3f4f6;
+  --ministry-accent: #3B82F6;
+  --ministry-accent-soft: #93C5FD;
+  --ministry-radius: 12px;
+  --ministry-wide: 1180px;
+  --ministry-pad: 28px;
+
+  /* Font stacks */
+  --font-heading: 'Cinzel', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* ─── Light Mode ─── */
+.theme-light {
+  /* Backgrounds */
+  --background-primary: var(--ministry-paper);
+  --background-primary-alt: #ffffff;
+  --background-secondary: #f5f3ee;
+  --background-secondary-alt: #ebe7df;
+  --background-modifier-border: var(--ministry-line);
+  --background-modifier-border-hover: #9ca3af;
+  --background-modifier-form-field: #ffffff;
+  --background-modifier-form-field-highlighted: #ffffff;
+  --background-modifier-success: #10b981;
+  --background-modifier-error: #ef4444;
+  --background-modifier-hover: rgba(191, 160, 70, 0.08);
+  --background-modifier-active-hover: rgba(191, 160, 70, 0.15);
+
+  /* Text */
+  --text-normal: var(--ministry-navy);
+  --text-muted: var(--ministry-muted);
+  --text-faint: #9ca3af;
+  --text-on-accent: #ffffff;
+  --text-accent: var(--ministry-gold);
+  --text-accent-hover: var(--ministry-gold-light);
+  --text-error: #dc2626;
+  --text-error-hover: #b91c1c;
+  --text-highlight-bg: rgba(191, 160, 70, 0.25);
+  --text-selection: rgba(59, 130, 246, 0.2);
+
+  /* Interactive / Accent */
+  --interactive-normal: var(--ministry-paper);
+  --interactive-hover: #f5f3ee;
+  --interactive-accent: var(--ministry-accent);
+  --interactive-accent-hover: #2563eb;
+  --accent-h: 217;
+  --accent-s: 91%;
+  --accent-l: 60%;
+
+  /* UI Elements */
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: rgba(34, 51, 76, 0.2);
+  --scrollbar-active-thumb-bg: rgba(34, 51, 76, 0.4);
+
+  /* Workspace */
+  --titlebar-background: var(--background-secondary);
+  --titlebar-background-focused: var(--background-secondary-alt);
+  --ribbon-background: var(--background-secondary);
+  --sidebar-background: var(--background-secondary);
+  --tab-background-active: var(--background-primary);
+  --tab-background-inactive: var(--background-secondary-alt);
+
+  /* Metadata / Frontmatter */
+  --metadata-background: transparent;
+  --metadata-label-background: transparent;
+
+  /* Code */
+  --code-background: var(--ministry-soft);
+  --code-normal: var(--ministry-ink);
+  --inline-title-color: var(--ministry-navy);
+
+  /* Canvas */
+  --canvas-color-1: #fecaca;
+  --canvas-color-2: #bbf7d0;
+  --canvas-color-3: #bfdbfe;
+  --canvas-color-4: #fde68a;
+  --canvas-color-5: #ddd6fe;
+  --canvas-color-6: #fed7aa;
+}
+
+/* ─── Dark Mode ─── */
+.theme-dark {
+  /* Backgrounds */
+  --background-primary: #1a1c1f;
+  --background-primary-alt: #202226;
+  --background-secondary: #15171a;
+  --background-secondary-alt: #111214;
+  --background-modifier-border: #2d3139;
+  --background-modifier-border-hover: #4b5563;
+  --background-modifier-form-field: #202226;
+  --background-modifier-form-field-highlighted: #202226;
+  --background-modifier-success: #10b981;
+  --background-modifier-error: #ef4444;
+  --background-modifier-hover: rgba(209, 182, 95, 0.08);
+  --background-modifier-active-hover: rgba(209, 182, 95, 0.15);
+
+  /* Text */
+  --text-normal: #e8e8e8;
+  --text-muted: #9ca3af;
+  --text-faint: #6b7280;
+  --text-on-accent: #111827;
+  --text-accent: #d1b65f;
+  --text-accent-hover: #e8cd7a;
+  --text-error: #f87171;
+  --text-error-hover: #fca5a5;
+  --text-highlight-bg: rgba(209, 182, 95, 0.25);
+  --text-selection: rgba(59, 130, 246, 0.3);
+
+  /* Interactive / Accent */
+  --interactive-normal: #202226;
+  --interactive-hover: #2a2d32;
+  --interactive-accent: #3B82F6;
+  --interactive-accent-hover: #60a5fa;
+  --accent-h: 217;
+  --accent-s: 91%;
+  --accent-l: 60%;
+
+  /* UI Elements */
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: rgba(232, 232, 232, 0.15);
+  --scrollbar-active-thumb-bg: rgba(232, 232, 232, 0.3);
+
+  /* Workspace */
+  --titlebar-background: var(--background-secondary);
+  --titlebar-background-focused: var(--background-secondary-alt);
+  --ribbon-background: var(--background-secondary);
+  --sidebar-background: var(--background-secondary);
+  --tab-background-active: var(--background-primary);
+  --tab-background-inactive: var(--background-secondary-alt);
+
+  /* Code */
+  --code-background: #25282e;
+  --code-normal: #e8e8e8;
+  --inline-title-color: #e8e8e8;
+
+  /* Canvas */
+  --canvas-color-1: #7f1d1d;
+  --canvas-color-2: #14532d;
+  --canvas-color-3: #1e3a8a;
+  --canvas-color-4: #78350f;
+  --canvas-color-5: #581c87;
+  --canvas-color-6: #7c2d12;
+}
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 2: TYPOGRAPHY
+   ─────────────────────────────────────────────────────────────────────────── */
+
+body {
+  font-family: var(--font-body);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Reading View Typography ─── */
+.markdown-preview-view {
+  font-family: var(--font-body);
+  line-height: 1.72;
+  font-size: 16px;
+  color: var(--text-normal);
+}
+
+.markdown-preview-view p {
+  margin: 0.9em 0;
+}
+
+/* ─── Editor Typography ─── */
+.markdown-source-view.mod-cm6 .cm-content {
+  font-family: var(--font-body);
+  line-height: 1.72;
+  font-size: 16px;
+}
+
+.markdown-source-view.mod-cm6 .cm-line {
+  line-height: 1.72;
+}
+
+/* ─── Headings ─── */
+/* Reading View */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  color: var(--ministry-navy);
+  text-wrap: balance;
+}
+
+/* Editor View (CM6) */
+.markdown-source-view.mod-cm6 .cm-header-1,
+.markdown-source-view.mod-cm6 .cm-header-2,
+.markdown-source-view.mod-cm6 .cm-header-3,
+.markdown-source-view.mod-cm6 .cm-header-4,
+.markdown-source-view.mod-cm6 .cm-header-5,
+.markdown-source-view.mod-cm6 .cm-header-6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  color: var(--ministry-navy);
+}
+
+/* Inline title */
+.inline-title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  color: var(--inline-title-color);
+}
+
+/* ─── Emphasis & Strong ─── */
+strong,
+.markdown-preview-view strong,
+.cm-strong {
+  font-weight: 800;
+}
+
+.theme-light strong,
+.theme-light .markdown-preview-view strong,
+.theme-light .cm-strong {
+  color: var(--ministry-gold);
+}
+
+em,
+.markdown-preview-view em,
+.cm-em {
+  color: var(--ministry-muted);
+}
+
+/* ─── Lists ─── */
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+  margin: 0.6em 0;
+  padding-inline-start: 2.2em;
+}
+
+.markdown-preview-view li {
+  margin-bottom: 0.35em;
+}
+
+.markdown-source-view.mod-cm6 .cm-content .cm-line {
+  margin-bottom: 0.15em;
+}
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 3: HEADING STYLES (Rich, Distinctive)
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* ─── h1 — The Sermon Title ─── */
+.markdown-preview-view h1,
+.HyperMD-header-1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--ministry-navy);
+  border-bottom: 2px solid var(--ministry-gold);
+  padding-bottom: 0.3em;
+  margin-top: 1.4em;
+  margin-bottom: 0.6em;
+  line-height: 1.3;
+}
+
+.markdown-source-view.mod-cm6 .cm-header-1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--ministry-navy);
+}
+
+/* ─── h2 — Main Point ─── */
+.markdown-preview-view h2,
+.HyperMD-header-2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--ministry-navy);
+  border-bottom: 1px solid var(--ministry-line);
+  padding-bottom: 0.25em;
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
+  line-height: 1.35;
+}
+
+.markdown-source-view.mod-cm6 .cm-header-2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--ministry-navy);
+}
+
+/* ─── h3 — Sub-point ─── */
+.markdown-preview-view h3,
+.HyperMD-header-3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--ministry-navy);
+  border-bottom: 1px solid var(--ministry-line);
+  padding-bottom: 0.2em;
+  margin-top: 1.3em;
+  margin-bottom: 0.45em;
+  line-height: 1.4;
+}
+
+.markdown-source-view.mod-cm6 .cm-header-3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--ministry-navy);
+}
+
+/* ─── h4 — Supporting Point ─── */
+.markdown-preview-view h4,
+.HyperMD-header-4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--ministry-navy);
+  border-bottom: 1px dashed var(--ministry-line);
+  padding-bottom: 0.2em;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+  line-height: 1.4;
+}
+
+.markdown-source-view.mod-cm6 .cm-header-4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--ministry-navy);
+}
+
+/* ─── h5 — Detail Point ─── */
+.markdown-preview-view h5,
+.HyperMD-header-5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ministry-navy);
+  border-bottom: 1px dotted var(--ministry-line);
+  padding-bottom: 0.15em;
+  margin-top: 1.1em;
+  margin-bottom: 0.35em;
+  line-height: 1.45;
+}
+
+.markdown-source-view.mod-cm6 .cm-header-5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ministry-navy);
+}
+
+/* ─── h6 — Note/Aside ─── */
+.markdown-preview-view h6,
+.HyperMD-header-6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-top: 1.1em;
+  margin-bottom: 0.35em;
+  line-height: 1.45;
+}
+
+.markdown-source-view.mod-cm6 .cm-header-6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 4: CALLOUTS — Complete Ministry Callout System
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* ─── Base Callout Styling ─── */
+.callout {
+  border-radius: 16px;
+  padding: 20px 26px;
+  margin: 1.8em 0;
+  background: rgba(250, 248, 243, 0.85);
+  border: 1px solid rgba(34, 51, 76, 0.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.callout:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+
+.callout .callout-title {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+  gap: 0.5em;
+}
+
+.callout .callout-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.callout .callout-content {
+  padding-top: 12px;
+}
+
+/* ─── 1. THEOLOGY CALLOUT ─── */
+.callout[data-callout="theology"] {
+  border-left: 5px solid var(--ministry-gold);
+  background: rgba(191, 160, 70, 0.06);
+}
+
+.callout[data-callout="theology"] .callout-title {
+  color: var(--ministry-gold);
+}
+
+.callout[data-callout="theology"] .callout-icon .svg-icon {
+  color: var(--ministry-gold);
+}
+
+/* ─── 2. APPLICATION CALLOUT ─── */
+.callout[data-callout="application"] {
+  border-left: 5px solid #4caf50;
+  background: rgba(76, 175, 80, 0.06);
+}
+
+.callout[data-callout="application"] .callout-title {
+  color: #4caf50;
+}
+
+.callout[data-callout="application"] .callout-icon .svg-icon {
+  color: #4caf50;
+}
+
+/* ─── 3. WORDSTUDY / HEBREW / GREEK CALLOUT ─── */
+.callout[data-callout="wordstudy"],
+.callout[data-callout="hebrew"],
+.callout[data-callout="greek"] {
+  border-right: 5px solid #6a4fbf;
+  border-left: none;
+  background: rgba(106, 79, 191, 0.06);
+}
+
+.callout[data-callout="wordstudy"] .callout-title,
+.callout[data-callout="hebrew"] .callout-title,
+.callout[data-callout="greek"] .callout-title {
+  color: #6a4fbf;
+  font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+  font-weight: 600;
+}
+
+.callout[data-callout="wordstudy"] .callout-content,
+.callout[data-callout="hebrew"] .callout-content,
+.callout[data-callout="greek"] .callout-content {
+  font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+  font-size: 0.95em;
+  line-height: 1.65;
+}
+
+.callout[data-callout="wordstudy"] .callout-icon .svg-icon,
+.callout[data-callout="hebrew"] .callout-icon .svg-icon,
+.callout[data-callout="greek"] .callout-icon .svg-icon {
+  color: #6a4fbf;
+}
+
+/* ─── 4. ILLUSTRATION CALLOUT ─── */
+.callout[data-callout="illustration"] {
+  border-left: 8px double var(--ministry-gold);
+  background: rgba(191, 160, 70, 0.05);
+}
+
+.callout[data-callout="illustration"] .callout-title {
+  color: var(--ministry-gold);
+  font-style: italic;
+}
+
+.callout[data-callout="illustration"] .callout-content {
+  font-style: italic;
+}
+
+.callout[data-callout="illustration"] .callout-icon .svg-icon {
+  color: var(--ministry-gold);
+}
+
+/* ─── 5. CHALLENGE CALLOUT (Animated Underline) ─── */
+.callout[data-callout="challenge"] {
+  border-left: 5px solid #e53e3e;
+  background: rgba(229, 62, 62, 0.05);
+}
+
+.callout[data-callout="challenge"] .callout-title {
+  color: #e53e3e;
+  position: relative;
+  display: inline-block;
+}
+
+.callout[data-callout="challenge"] .callout-title::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #e53e3e, #fc8181);
+  animation: challengeUnderline 3s ease-in-out infinite;
+  border-radius: 2px;
+}
+
+@keyframes challengeUnderline {
+  0%, 100% { width: 0; }
+  50% { width: 100%; }
+}
+
+.callout[data-callout="challenge"] .callout-icon .svg-icon {
+  color: #e53e3e;
+}
+
+/* ─── 6. REFLECTION CALLOUT (Pulse Animation) ─── */
+.callout[data-callout="reflection"] {
+  border-left: 5px solid #8b5cf6;
+  background: rgba(139, 92, 246, 0.06);
+}
+
+.callout[data-callout="reflection"] .callout-title {
+  color: #8b5cf6;
+}
+
+.callout[data-callout="reflection"] {
+  animation: reflectionPulse 4s ease-in-out infinite;
+}
+
+@keyframes reflectionPulse {
+  0%, 100% { box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); }
+  50% { box-shadow: 0 8px 30px rgba(139, 92, 246, 0.25), 0 0 20px rgba(139, 92, 246, 0.1); }
+}
+
+.callout[data-callout="reflection"] .callout-icon .svg-icon {
+  color: #8b5cf6;
+}
+
+/* ─── 7. POINT CALLOUT (Sermon Point — Gold Gradient Sweep) ─── */
+.callout[data-callout="point"] {
+  border-left: 5px solid var(--ministry-gold);
+  background: rgba(191, 160, 70, 0.08);
+}
+
+.callout[data-callout="point"] .callout-title {
+  color: var(--ministry-navy);
+  font-weight: 700;
+  font-size: 1.15em;
+}
+
+.callout[data-callout="point"]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(191, 160, 70, 0.15),
+    transparent
+  );
+  transition: left 0.6s ease;
+}
+
+.callout[data-callout="point"]:hover::before {
+  left: 100%;
+}
+
+.callout[data-callout="point"] .callout-icon .svg-icon {
+  color: var(--ministry-gold);
+}
+
+/* ─── 8. GEM / WOW CALLOUT (Shimmer Animation) ─── */
+.callout[data-callout="gem"],
+.callout[data-callout="wow"] {
+  border: 2px solid #006d6f;
+  background: rgba(0, 109, 111, 0.06);
+}
+
+.callout[data-callout="gem"] .callout-title,
+.callout[data-callout="wow"] .callout-title {
+  color: #006d6f;
+}
+
+.callout[data-callout="gem"] .callout-title,
+.callout[data-callout="wow"] .callout-title {
+  position: relative;
+  overflow: hidden;
+}
+
+.callout[data-callout="gem"] .callout-title::before,
+.callout[data-callout="wow"] .callout-title::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  animation: gemShine 3s ease-in-out infinite;
+}
+
+@keyframes gemShine {
+  0% { left: -100%; }
+  40% { left: 150%; }
+  100% { left: 150%; }
+}
+
+.callout[data-callout="gem"] .callout-icon .svg-icon,
+.callout[data-callout="wow"] .callout-icon .svg-icon {
+  color: #006d6f;
+}
+
+/* ─── 9. PROCLAIM CALLOUT (Projector Slide Mode) ─── */
+.callout[data-callout="proclaim"] {
+  background: linear-gradient(135deg, #1b283c 0%, #22334c 50%, #1b283c 100%);
+  border: 2px solid var(--ministry-gold);
+  border-radius: 16px;
+  color: var(--ministry-gold);
+  box-shadow:
+    0 0 30px rgba(191, 160, 70, 0.2),
+    inset 0 0 60px rgba(0, 0, 0, 0.4);
+  padding: 40px 36px;
+  margin: 2em 0;
+  animation: projectorPulse 4s ease-in-out infinite;
+}
+
+.callout[data-callout="proclaim"] .callout-title {
+  color: var(--ministry-gold);
+  font-family: var(--font-heading);
+  font-size: 1.4em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 0 0 15px rgba(191, 160, 70, 0.5);
+  margin-bottom: 0.5em;
+}
+
+.callout[data-callout="proclaim"] .callout-content {
+  color: #e8dcc8;
+  font-size: 1.3em;
+  line-height: 1.8;
+  text-align: center;
+  font-family: var(--font-body);
+}
+
+.callout[data-callout="proclaim"] .callout-content p {
+  color: #e8dcc8;
+}
+
+.callout[data-callout="proclaim"] .callout-icon .svg-icon {
+  color: var(--ministry-gold);
+  filter: drop-shadow(0 0 5px rgba(191, 160, 70, 0.6));
+}
+
+@keyframes projectorPulse {
+  0%, 100% {
+    box-shadow:
+      0 0 30px rgba(191, 160, 70, 0.2),
+      inset 0 0 60px rgba(0, 0, 0, 0.4);
+  }
+  50% {
+    box-shadow:
+      0 0 50px rgba(191, 160, 70, 0.35),
+      inset 0 0 60px rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* Proclaim heading overrides */
+.callout[data-callout="proclaim"] .callout-content h1,
+.callout[data-callout="proclaim"] .callout-content h2,
+.callout[data-callout="proclaim"] .callout-content h3 {
+  color: var(--ministry-gold);
+  border-bottom-color: rgba(191, 160, 70, 0.4);
+}
+
+.callout[data-callout="proclaim"] .callout-content strong {
+  color: #e8cd7a;
+}
+
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 5: BLOCKQUOTES & SCRIPTURE
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* ─── Base Blockquote ─── */
+.markdown-preview-view blockquote,
+.markdown-source-view.mod-cm6 .cm-line .cm-quote {
+  margin: 1.5em 0;
+  padding: 1.2em 1.8em;
+  background: var(--ministry-paper);
+  border: 1px solid var(--ministry-line);
+  border-left: 6px solid var(--ministry-gold);
+  border-radius: var(--ministry-radius);
+  font-style: italic;
+  color: var(--text-normal);
+  position: relative;
+}
+
+.markdown-preview-view blockquote p {
+  margin: 0.5em 0;
+}
+
+.markdown-preview-view blockquote p:first-child {
+  margin-top: 0;
+}
+
+.markdown-preview-view blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ─── Nested Blockquotes ─── */
+.markdown-preview-view blockquote blockquote {
+  margin: 0.8em 0;
+  border-left-width: 4px;
+  border-left-color: var(--ministry-line);
+  background: transparent;
+}
+
+/* ─── Scripture Quote Variant ─── */
+.scripture-quote blockquote,
+.markdown-preview-view .scripture-quote blockquote {
+  border-left-width: 8px;
+  border-left-color: var(--ministry-gold);
+  background: linear-gradient(
+    135deg,
+    rgba(191, 160, 70, 0.08) 0%,
+    var(--ministry-paper) 100%
+  );
+  font-style: italic;
+  font-size: 1.05em;
+  line-height: 1.8;
+}
+
+/* ─── Pull Quote (Key Sermon Quotes) ─── */
+.pull-quote blockquote,
+.markdown-preview-view .pull-quote blockquote {
+  border-left: none;
+  border: 2px solid var(--ministry-gold);
+  background: transparent;
+  text-align: center;
+  font-size: 1.6em;
+  font-family: var(--font-heading);
+  color: var(--ministry-gold);
+  padding: 1.5em 2em;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+.pull-quote blockquote p,
+.markdown-preview-view .pull-quote blockquote p {
+  color: var(--ministry-gold);
+}
+
+/* ─── Citation / Attribution in blockquotes ─── */
+.markdown-preview-view blockquote cite {
+  display: block;
+  margin-top: 0.8em;
+  font-size: 0.9em;
+  color: var(--text-muted);
+  font-style: normal;
+}
+
+.markdown-preview-view blockquote cite::before {
+  content: '— ';
+}
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 6: TABLES
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* ─── Base Table Styles ─── */
+.markdown-preview-view table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.95em;
+  border-radius: var(--ministry-radius);
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Table Header Row */
+.markdown-preview-view thead tr {
+  background: var(--ministry-navy) !important;
+}
+
+.markdown-preview-view th {
+  color: var(--ministry-paper) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  font-size: 0.85em;
+  padding: 12px 14px;
+  text-align: left;
+  border: 1px solid rgba(34, 51, 76, 0.18);
+}
+
+/* Table Body Cells */
+.markdown-preview-view td {
+  padding: 12px 14px;
+  border: 1px solid rgba(34, 51, 76, 0.18);
+  color: var(--text-normal);
+}
+
+/* Zebra Striping */
+.markdown-preview-view tbody tr:nth-child(even) {
+  background: rgba(34, 51, 76, 0.04);
+}
+
+.markdown-preview-view tbody tr:hover {
+  background: rgba(191, 160, 70, 0.08);
+}
+
+/* ─── Table Gem Variant ─── */
+.table-gem thead tr {
+  background: var(--ministry-gold) !important;
+}
+
+.table-gem th {
+  color: var(--ministry-navy) !important;
+  font-weight: 700;
+}
+
+.table-gem tbody tr:nth-child(even) {
+  background: rgba(191, 160, 70, 0.08) !important;
+}
+
+/* ─── Pastel Table Wrapper Classes ─── */
+.markdown-preview-view .blue table tbody tr:nth-child(even) {
+  background: #dbeafe !important;
+}
+
+.markdown-preview-view .slate table tbody tr:nth-child(even) {
+  background: #e2e8f0 !important;
+}
+
+.markdown-preview-view .pink table tbody tr:nth-child(even) {
+  background: #fce7f3 !important;
+}
+
+.markdown-preview-view .green table tbody tr:nth-child(even) {
+  background: #d1fae5 !important;
+}
+
+/* ─── Editor Table Alignment ─── */
+.markdown-source-view.mod-cm6 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 7: OUTLINE HIERARCHY (Critical for Sermons)
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* ─── Ordered List Sermon Outline Format — Reading View ─── */
+.markdown-preview-view ol {
+  list-style-type: none;
+  counter-reset: item;
+  padding-inline-start: 2.5em;
+}
+
+.markdown-preview-view ol > li {
+  counter-increment: item;
+  margin-bottom: 0.6em;
+  position: relative;
+}
+
+/* First level: upper-roman (I, II, III) */
+.markdown-preview-view ol > li::marker {
+  content: counter(item, upper-roman) ". ";
+  font-weight: 600;
+  color: var(--ministry-navy);
+}
+
+/* Second level: upper-alpha (A, B, C) */
+.markdown-preview-view ol ol {
+  counter-reset: alpha;
+}
+
+.markdown-preview-view ol ol > li {
+  counter-increment: alpha;
+}
+
+.markdown-preview-view ol ol > li::marker {
+  content: counter(alpha, upper-alpha) ". ";
+  font-weight: 600;
+  color: var(--ministry-navy);
+}
+
+/* Third level: decimal (1, 2, 3) */
+.markdown-preview-view ol ol ol {
+  counter-reset: decimal;
+}
+
+.markdown-preview-view ol ol ol > li {
+  counter-increment: decimal;
+}
+
+.markdown-preview-view ol ol ol > li::marker {
+  content: counter(decimal, decimal) ". ";
+  font-weight: 600;
+  color: var(--ministry-muted);
+}
+
+/* Fourth level: lower-alpha (a, b, c) */
+.markdown-preview-view ol ol ol ol {
+  counter-reset: loweralpha;
+}
+
+.markdown-preview-view ol ol ol ol > li {
+  counter-increment: loweralpha;
+}
+
+.markdown-preview-view ol ol ol ol > li::marker {
+  content: counter(loweralpha, lower-alpha) ". ";
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+/* Fifth level: lower-roman (i, ii, iii) */
+.markdown-preview-view ol ol ol ol ol {
+  counter-reset: lowerroman;
+}
+
+.markdown-preview-view ol ol ol ol ol > li {
+  counter-increment: lowerroman;
+}
+
+.markdown-preview-view ol ol ol ol ol > li::marker {
+  content: counter(lowerroman, lower-roman) ". ";
+  font-weight: 500;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* ─── Ordered List Sermon Outline Format — Editor (CM6) ─── */
+.markdown-source-view.mod-cm6 .cm-content ol {
+  list-style-type: none;
+  counter-reset: cmitem;
+  padding-inline-start: 2.5em;
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol > li {
+  counter-increment: cmitem;
+  margin-bottom: 0.6em;
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol > li::marker {
+  content: counter(cmitem, upper-roman) ". ";
+  font-weight: 600;
+  color: var(--ministry-navy);
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol ol {
+  counter-reset: cmalpha;
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol ol > li {
+  counter-increment: cmalpha;
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol ol > li::marker {
+  content: counter(cmalpha, upper-alpha) ". ";
+  font-weight: 600;
+  color: var(--ministry-navy);
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol ol ol {
+  counter-reset: cmdecimal;
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol ol ol > li {
+  counter-increment: cmdecimal;
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol ol ol > li::marker {
+  content: counter(cmdecimal, decimal) ". ";
+  font-weight: 600;
+  color: var(--ministry-muted);
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol ol ol ol {
+  counter-reset: cmloweralpha;
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol ol ol ol > li {
+  counter-increment: cmloweralpha;
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol ol ol ol > li::marker {
+  content: counter(cmloweralpha, lower-alpha) ". ";
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol ol ol ol ol {
+  counter-reset: cmlowerroman;
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol ol ol ol ol > li {
+  counter-increment: cmlowerroman;
+}
+
+.markdown-source-view.mod-cm6 .cm-content ol ol ol ol ol > li::marker {
+  content: counter(cmlowerroman, lower-roman) ". ";
+  font-weight: 500;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 8: MISSION MODES
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* ─── Titus Mode (Mature/Established Leaders) ─── */
+.pe-mode-titus,
+.markdown-preview-view .pe-mode-titus {
+  display: block;
+  background: rgba(76, 175, 80, 0.1);
+  border-left: 5px solid #4CAF50;
+  color: #1b5e20;
+  padding: 16px 22px;
+  margin: 1.2em 0;
+  border-radius: var(--ministry-radius);
+  font-style: italic;
+  font-size: 1.05em;
+  line-height: 1.65;
+}
+
+/* ─── Timothy Mode (Younger Leaders) ─── */
+.pe-mode-timothy,
+.markdown-preview-view .pe-mode-timothy {
+  display: block;
+  background: rgba(33, 150, 243, 0.1);
+  border-left: 5px solid #2196F3;
+  color: #0d47a1;
+  padding: 16px 22px;
+  margin: 1.2em 0;
+  border-radius: var(--ministry-radius);
+  font-style: italic;
+  font-size: 1.05em;
+  line-height: 1.65;
+}
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 9: ELDERSHIP NOTES MODE
+   ─────────────────────────────────────────────────────────────────────────── */
+
+.eldership-notes,
+.markdown-preview-view.eldership-notes,
+.markdown-source-view.mod-cm6.eldership-notes {
+  --file-line-width: 1080px;
+  line-height: 1.65;
+  font-size: 18px;
+}
+
+.eldership-notes .markdown-preview-view,
+.eldership-notes .cm-content {
+  background: rgba(250, 248, 243, 0.6);
+  border: 1px solid var(--ministry-line);
+  border-radius: var(--ministry-radius);
+  padding: 28px 34px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 10: DETAILS / SUMMARY (Collapsibles)
+   ─────────────────────────────────────────────────────────────────────────── */
+
+.markdown-preview-view details {
+  margin: 1.6em 0;
+  border: 1px solid var(--ministry-line);
+  border-radius: var(--ministry-radius);
+  background: var(--background-primary);
+  overflow: hidden;
+}
+
+.markdown-preview-view summary {
+  cursor: pointer;
+  padding: 14px 20px;
+  font-weight: 650;
+  font-size: 1.05em;
+  color: var(--ministry-navy);
+  border-bottom: 1px solid transparent;
+  transition: background 0.2s ease, border-color 0.2s ease;
+  user-select: none;
+}
+
+.markdown-preview-view summary:hover {
+  background: var(--background-modifier-hover);
+}
+
+.markdown-preview-view details[open] summary {
+  border-bottom-color: var(--ministry-line);
+}
+
+/* Remove default disclosure marker */
+.markdown-preview-view summary::marker,
+.markdown-preview-view summary::-webkit-details-marker {
+  display: none;
+  content: '';
+}
+
+/* Custom disclosure indicator */
+.markdown-preview-view summary::before {
+  content: '▸';
+  display: inline-block;
+  margin-right: 10px;
+  color: var(--ministry-gold);
+  font-size: 0.9em;
+  transition: transform 0.2s ease;
+}
+
+.markdown-preview-view details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.markdown-preview-view details .callout-content,
+.markdown-preview-view details > *:not(summary) {
+  padding: 16px 20px;
+  margin: 0;
+}
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 11: HR, CODE, EMPHASIS
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* ─── Horizontal Rule ─── */
+.markdown-preview-view hr,
+.markdown-source-view.mod-cm6 .cm-line hr,
+.HyperMD-hr-bg {
+  border: none;
+  border-top: 3px double var(--ministry-line);
+  margin: 2.5em 0;
+  position: relative;
+}
+
+.markdown-preview-view hr::after {
+  content: '✠';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--background-primary);
+  padding: 0 16px;
+  color: var(--ministry-gold);
+  font-size: 1.2em;
+}
+
+/* ─── Inline Code ─── */
+.markdown-preview-view code,
+.markdown-source-view.mod-cm6 .cm-inline-code {
+  background: var(--code-background);
+  border: 1px solid var(--ministry-line);
+  border-radius: 6px;
+  padding: 2px 7px;
+  font-size: 0.88em;
+  font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', monospace;
+  color: var(--code-normal);
+}
+
+/* ─── Code Blocks ─── */
+.markdown-preview-view pre {
+  background: var(--code-background);
+  border: 1px solid var(--ministry-line);
+  border-radius: var(--ministry-radius);
+  padding: 20px 24px;
+  margin: 1.5em 0;
+  overflow-x: auto;
+}
+
+.markdown-preview-view pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+/* Editor code blocks */
+.markdown-source-view.mod-cm6 .HyperMD-codeblock {
+  background: var(--code-background);
+  border: 1px solid var(--ministry-line);
+  border-radius: var(--ministry-radius);
+}
+
+/* ─── Strikethrough ─── */
+.markdown-preview-view s,
+.markdown-preview-view del,
+.cm-strikethrough {
+  color: var(--text-muted);
+  text-decoration-color: var(--text-error);
+  text-decoration-thickness: 2px;
+}
+
+/* ─── Highlights / Mark ─── */
+.markdown-preview-view mark,
+.cm-highlight {
+  background: var(--text-highlight-bg);
+  color: inherit;
+  border-radius: 3px;
+  padding: 1px 4px;
+}
+
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 12: UI ELEMENTS
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* ─── 12A: Custom Checkboxes ─── */
+input[type="checkbox"],
+input[type="checkbox"].task-list-item-checkbox {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--ministry-line);
+  border-radius: 50%;
+  background: var(--background-primary);
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+input[type="checkbox"]:hover {
+  border-color: var(--interactive-accent);
+}
+
+input[type="checkbox"]:checked {
+  background: var(--interactive-accent);
+  border-color: var(--interactive-accent);
+}
+
+input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Task list items */
+.task-list-item {
+  align-items: center;
+}
+
+/* ─── 12B: Tag Pills ─── */
+.tag,
+a.tag,
+.markdown-preview-view a.tag {
+  background: var(--ministry-accent);
+  color: #ffffff !important;
+  font-size: 0.82em;
+  font-weight: 600;
+  padding: 3px 12px;
+  border-radius: 20px;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  border: none;
+  display: inline-block;
+  letter-spacing: 0.3px;
+}
+
+.tag:hover,
+a.tag:hover {
+  background: var(--interactive-accent-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(59, 130, 246, 0.35);
+}
+
+/* Special Tags */
+a.tag[href*="#important"],
+a.tag[href*="important"] {
+  background: #dc2626 !important;
+}
+
+a.tag[href*="#important"]:hover,
+a.tag[href*="important"]:hover {
+  background: #b91c1c !important;
+  box-shadow: 0 3px 8px rgba(220, 38, 38, 0.35);
+}
+
+a.tag[href*="#complete"],
+a.tag[href*="complete"],
+a.tag[href*="#done"],
+a.tag[href*="done"] {
+  background: #16a34a !important;
+}
+
+a.tag[href*="#complete"]:hover,
+a.tag[href*="complete"]:hover {
+  background: #15803d !important;
+  box-shadow: 0 3px 8px rgba(22, 163, 74, 0.35);
+}
+
+a.tag[href*="#inprogress"],
+a.tag[href*="inprogress"] {
+  background: #ea580c !important;
+}
+
+a.tag[href*="#inprogress"]:hover,
+a.tag[href*="inprogress"]:hover {
+  background: #c2410c !important;
+  box-shadow: 0 3px 8px rgba(234, 88, 12, 0.35);
+}
+
+/* Editor tag pills */
+.cm-hashtag {
+  background: var(--ministry-accent);
+  color: #ffffff !important;
+  font-size: 0.82em;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 20px;
+  text-decoration: none !important;
+  border: none;
+}
+
+/* ─── 12C: Workspace Tabs ─── */
+.workspace-tab-header-container {
+  background: var(--background-secondary);
+}
+
+.workspace-tab-header {
+  border-radius: 8px 8px 0 0;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  font-size: 0.88em;
+}
+
+.workspace-tab-header.is-active {
+  background: var(--tab-background-active);
+  color: var(--text-normal);
+  font-weight: 600;
+  box-shadow: 0 -2px 0 var(--ministry-gold) inset;
+}
+
+.workspace-tab-header:not(.is-active):hover {
+  background: var(--background-modifier-hover);
+}
+
+/* Tab header inner */
+.workspace-tab-header-inner {
+  padding: 6px 12px;
+}
+
+/* ─── 12D: Sidebar Styling ─── */
+.workspace-split.mod-left-split,
+.workspace-split.mod-right-split {
+  background: var(--sidebar-background);
+}
+
+.nav-header {
+  background: var(--background-secondary);
+}
+
+.nav-files-container {
+  background: var(--background-secondary);
+}
+
+.nav-folder-title,
+.nav-file-title {
+  border-radius: 6px;
+  margin: 1px 6px;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  transition: all 0.15s ease;
+}
+
+.nav-folder-title:hover,
+.nav-file-title:hover {
+  background: var(--background-modifier-hover);
+}
+
+.nav-file-title.is-active {
+  background: rgba(191, 160, 70, 0.12);
+  color: var(--text-normal);
+  font-weight: 600;
+  border-left: 3px solid var(--ministry-gold);
+}
+
+/* ─── 12E: Settings Page ─── */
+.modal-container .modal {
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content {
+  background: var(--background-primary);
+}
+
+.modal-header {
+  background: var(--background-secondary);
+  border-bottom: 1px solid var(--ministry-line);
+}
+
+.setting-item {
+  border-bottom: 1px solid rgba(34, 51, 76, 0.08);
+  padding: 14px 0;
+}
+
+.setting-item-name {
+  font-weight: 600;
+  color: var(--ministry-navy);
+}
+
+/* ─── 12F: Scrollbars ─── */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-bg);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-active-thumb-bg);
+}
+
+/* ─── 12G: Status Bar ─── */
+.status-bar {
+  background: var(--background-secondary);
+  border-top: 1px solid var(--ministry-line);
+  font-size: 0.82em;
+  font-weight: 500;
+  padding: 2px 12px;
+}
+
+.status-bar-item {
+  padding: 2px 8px;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.status-bar-item:hover {
+  background: var(--background-modifier-hover);
+}
+
+/* ─── 12H: Tooltips ─── */
+.tooltip {
+  background: var(--ministry-navy);
+  color: var(--ministry-paper);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 0.85em;
+  font-weight: 500;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.tooltip .tooltip-arrow {
+  border-bottom-color: var(--ministry-navy);
+}
+
+/* ─── 12I: Suggestions / Autocomplete ─── */
+.suggestion-container {
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--ministry-line);
+  overflow: hidden;
+}
+
+.suggestion-item {
+  padding: 8px 16px;
+  font-size: 0.92em;
+  transition: background 0.15s ease;
+}
+
+.suggestion-item.is-selected {
+  background: rgba(59, 130, 246, 0.1);
+}
+
+.suggestion-item .suggestion-highlight {
+  color: var(--ministry-accent);
+  font-weight: 700;
+}
+
+/* ─── 12J: Buttons ─── */
+button,
+.mod-cta {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border-radius: 10px;
+  padding: 8px 18px;
+  font-weight: 600;
+  font-size: 0.9em;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(59, 130, 246, 0.25);
+}
+
+button:hover,
+.mod-cta:hover {
+  background: var(--interactive-accent-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.35);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Secondary button */
+.mod-warning {
+  background: #f59e0b;
+}
+
+.mod-warning:hover {
+  background: #d97706;
+}
+
+/* ─── 12K: Dropdowns / Selects ─── */
+.dropdown,
+select {
+  background: var(--background-modifier-form-field);
+  border: 1px solid var(--ministry-line);
+  border-radius: 8px;
+  padding: 7px 14px;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: var(--text-normal);
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dropdown:hover,
+select:hover {
+  border-color: var(--ministry-accent);
+}
+
+.dropdown:focus,
+select:focus {
+  outline: none;
+  border-color: var(--ministry-accent);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+/* ─── 12L: Inputs ─── */
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="password"],
+textarea {
+  background: var(--background-modifier-form-field);
+  border: 1px solid var(--ministry-line);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 0.92em;
+  color: var(--text-normal);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--ministry-accent);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+/* Search input in sidebar */
+.search-input-container input {
+  border-radius: 10px;
+  padding: 8px 14px;
+  background: var(--background-primary);
+}
+
+/* ─── 12M: Menus ─── */
+.menu {
+  background: var(--background-primary);
+  border: 1px solid var(--ministry-line);
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.18);
+  padding: 6px;
+}
+
+.menu-item {
+  border-radius: 8px;
+  padding: 7px 12px;
+  font-size: 0.92em;
+  transition: all 0.15s ease;
+}
+
+.menu-item:hover {
+  background: var(--background-modifier-hover);
+}
+
+.menu-item.is-selected {
+  background: rgba(59, 130, 246, 0.1);
+}
+
+.menu-separator {
+  border-bottom: 1px solid var(--ministry-line);
+  margin: 6px 0;
+}
+
+/* ─── 12N: Prompts ─── */
+.prompt {
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--ministry-line);
+}
+
+.prompt input.prompt-input {
+  font-size: 1.1em;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--ministry-line);
+}
+
+/* ─── 12O: Notifications ─── */
+.notice {
+  background: var(--ministry-navy);
+  color: var(--ministry-paper);
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-weight: 500;
+  font-size: 0.9em;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.notice.mod-warning {
+  background: #d97706;
+}
+
+.notice.mod-error {
+  background: #dc2626;
+}
+
+.notice.mod-success {
+  background: #16a34a;
+}
+
+/* ─── 12P: Navigation ─── */
+.nav-buttons-container {
+  background: var(--background-secondary);
+}
+
+.nav-action-button {
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+
+.nav-action-button:hover {
+  background: var(--background-modifier-hover);
+}
+
+/* ─── 12Q: Graph Controls ─── */
+.graph-controls {
+  background: var(--background-primary);
+  border: 1px solid var(--ministry-line);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  padding: 10px;
+}
+
+.graph-control-section {
+  border-bottom: 1px solid rgba(34, 51, 76, 0.08);
+}
+
+/* ─── 12R: Vault Profile ─── */
+.vault-profile {
+  border-radius: 10px;
+  transition: background 0.2s ease;
+}
+
+.vault-profile:hover {
+  background: var(--background-modifier-hover);
+}
+
+/* ─── 12S: Empty State ─── */
+.empty-state {
+  background: var(--background-primary);
+}
+
+.empty-state-title {
+  font-family: var(--font-heading);
+  color: var(--ministry-navy);
+  font-weight: 600;
+}
+
+/* ─── 12T: Ribbon ─── */
+.side-dock-ribbon {
+  background: var(--ribbon-background);
+}
+
+.side-dock-ribbon-action {
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.side-dock-ribbon-action:hover {
+  background: var(--background-modifier-hover);
+  color: var(--ministry-gold);
+}
+
+.side-dock-ribbon-action.is-active {
+  background: rgba(191, 160, 70, 0.15);
+  color: var(--ministry-gold);
+}
+
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 13: PRINT OPTIMIZATION
+   ─────────────────────────────────────────────────────────────────────────── */
+
+@media print {
+  /* Force background colors to print */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Hide UI chrome */
+  .titlebar,
+  .workspace-ribbon,
+  .workspace-tab-header-container,
+  .status-bar,
+  .side-dock-ribbon,
+  .view-actions,
+  .nav-header,
+  .graph-controls {
+    display: none !important;
+  }
+
+  /* Maximize content area */
+  .workspace-split.mod-root {
+    width: 100% !important;
+  }
+
+  .workspace-leaf-content {
+    padding: 0 !important;
+  }
+
+  /* Remove shadows and interactive elements */
+  .callout,
+  blockquote,
+  table,
+  details {
+    box-shadow: none !important;
+    break-inside: avoid;
+  }
+
+  /* Ensure zebra striping prints */
+  .markdown-preview-view tbody tr:nth-child(even) {
+    background: rgba(34, 51, 76, 0.04) !important;
+  }
+
+  .markdown-preview-view thead tr {
+    background: var(--ministry-navy) !important;
+  }
+
+  .markdown-preview-view th {
+    color: var(--ministry-paper) !important;
+  }
+
+  /* Page break controls */
+  h1, h2, h3 {
+    break-after: avoid;
+  }
+
+  .callout,
+  blockquote,
+  table,
+  pre,
+  details {
+    break-inside: avoid;
+  }
+
+  /* Ensure links are visible */
+  a {
+    text-decoration: underline;
+    color: var(--ministry-navy) !important;
+  }
+
+  a[href]::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.85em;
+    color: var(--ministry-muted);
+  }
+
+  /* Reset backgrounds for print */
+  .markdown-preview-view {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Proclaim callout for handouts */
+  .callout[data-callout="proclaim"] {
+    background: #22334c !important;
+    color: #bfa046 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Code blocks */
+  pre {
+    background: #f3f4f6 !important;
+    border: 1px solid #d1d5db !important;
+  }
+
+  /* Expand all details */
+  details {
+    display: block !important;
+  }
+
+  details > summary::before {
+    display: none;
+  }
+
+  details > *:not(summary) {
+    display: block !important;
+  }
+}
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 14: DARK MODE ADJUSTMENTS
+   ─────────────────────────────────────────────────────────────────────────── */
+
+.theme-dark {
+  /* Override ministry palette for dark mode */
+  --ministry-paper: #1a1c1f;
+  --ministry-navy: #e8e8e8;
+  --ministry-gold: #d1b65f;
+  --ministry-line: #2d3139;
+  --ministry-soft: #25282e;
+
+  /* Heading colors in dark */
+  --heading-color: #e8e8e8;
+}
+
+/* Dark mode headings */
+.theme-dark .markdown-preview-view h1,
+.theme-dark .markdown-preview-view h2,
+.theme-dark .markdown-preview-view h3,
+.theme-dark .markdown-preview-view h4,
+.theme-dark .markdown-preview-view h5 {
+  color: #e8e8e8;
+}
+
+.theme-dark .markdown-source-view.mod-cm6 .cm-header-1,
+.theme-dark .markdown-source-view.mod-cm6 .cm-header-2,
+.theme-dark .markdown-source-view.mod-cm6 .cm-header-3,
+.theme-dark .markdown-source-view.mod-cm6 .cm-header-4,
+.theme-dark .markdown-source-view.mod-cm6 .cm-header-5 {
+  color: #e8e8e8;
+}
+
+.theme-dark .markdown-preview-view h6,
+.theme-dark .markdown-source-view.mod-cm6 .cm-header-6 {
+  color: var(--text-muted);
+}
+
+/* Dark mode inline title */
+.theme-dark .inline-title {
+  color: #e8e8e8;
+}
+
+/* Dark mode strong */
+.theme-dark strong,
+.theme-dark .markdown-preview-view strong,
+.theme-dark .cm-strong {
+  color: #d1b65f;
+}
+
+/* Dark mode em */
+.theme-dark em,
+.theme-dark .markdown-preview-view em,
+.theme-dark .cm-em {
+  color: #9ca3af;
+}
+
+/* Dark mode blockquotes */
+.theme-dark .markdown-preview-view blockquote {
+  background: #202226;
+  border-color: #2d3139;
+  border-left-color: var(--ministry-gold);
+}
+
+/* Dark mode scripture quotes */
+.theme-dark .scripture-quote blockquote {
+  background: linear-gradient(135deg, rgba(209, 182, 95, 0.1) 0%, #202226 100%);
+  border-left-color: var(--ministry-gold);
+}
+
+/* Dark mode pull quotes */
+.theme-dark .pull-quote blockquote {
+  border-color: var(--ministry-gold);
+}
+
+.theme-dark .pull-quote blockquote p {
+  color: var(--ministry-gold);
+}
+
+/* Dark mode tables */
+.theme-dark .markdown-preview-view th {
+  border-color: rgba(232, 232, 232, 0.1);
+}
+
+.theme-dark .markdown-preview-view td {
+  border-color: rgba(232, 232, 232, 0.08);
+}
+
+.theme-dark .markdown-preview-view tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* Dark mode callout base */
+.theme-dark .callout {
+  background: rgba(26, 28, 31, 0.9);
+  border-color: rgba(232, 232, 232, 0.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Dark mode gem/wow callout */
+.theme-dark .callout[data-callout="gem"],
+.theme-dark .callout[data-callout="wow"] {
+  background: rgba(0, 109, 111, 0.12);
+  border-color: #008b8d;
+}
+
+.theme-dark .callout[data-callout="gem"] .callout-title::before,
+.theme-dark .callout[data-callout="wow"] .callout-title::before {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.15),
+    transparent
+  );
+}
+
+/* Dark mode proclaim */
+.theme-dark .callout[data-callout="proclaim"] {
+  background: linear-gradient(135deg, #141e2e 0%, #1b283c 50%, #141e2e 100%);
+  border-color: var(--ministry-gold);
+  box-shadow:
+    0 0 30px rgba(209, 182, 95, 0.15),
+    inset 0 0 60px rgba(0, 0, 0, 0.5);
+}
+
+/* Dark mode mission modes */
+.theme-dark .pe-mode-titus {
+  background: rgba(76, 175, 80, 0.15);
+  color: #81c784;
+}
+
+.theme-dark .pe-mode-timothy {
+  background: rgba(33, 150, 243, 0.15);
+  color: #64b5f6;
+}
+
+/* Dark mode details/summary */
+.theme-dark .markdown-preview-view details {
+  background: var(--background-primary);
+  border-color: #2d3139;
+}
+
+.theme-dark .markdown-preview-view summary {
+  color: #e8e8e8;
+}
+
+/* Dark mode code */
+.theme-dark .markdown-preview-view code,
+.theme-dark .markdown-source-view.mod-cm6 .cm-inline-code {
+  background: #25282e;
+  border-color: #2d3139;
+  color: #e8e8e8;
+}
+
+.theme-dark .markdown-preview-view pre {
+  background: #25282e;
+  border-color: #2d3139;
+}
+
+/* Dark mode HR */
+.theme-dark .markdown-preview-view hr {
+  border-top-color: #2d3139;
+}
+
+.theme-dark .markdown-preview-view hr::after {
+  background: var(--background-primary);
+  color: var(--ministry-gold);
+}
+
+/* Dark mode settings */
+.theme-dark .setting-item-name {
+  color: #e8e8e8;
+}
+
+/* Dark mode search highlights */
+.theme-dark .search-result-file-matched-text {
+  background: rgba(209, 182, 95, 0.3);
+}
+
+/* Dark mode graph */
+.theme-dark .graph-view.color-fill {
+  color: #3B82F6;
+}
+
+.theme-dark .graph-view.color-fill-unresolved {
+  color: #6b7280;
+  opacity: 0.5;
+}
+
+.theme-dark .graph-view.color-line {
+  color: #4b5563;
+}
+
+.theme-dark .graph-view.color-text {
+  color: #e8e8e8;
+}
+
+.theme-dark .graph-view.color-fill-highlight {
+  color: var(--ministry-gold);
+}
+
+.theme-dark .graph-view.color-line-highlight {
+  color: var(--ministry-gold);
+}
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 15: MERMAID DIAGRAMS
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* ─── Mermaid Global Overrides ─── */
+.mermaid {
+  font-family: var(--font-body) !important;
+}
+
+/* ─── Flowchart Nodes ─── */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon {
+  fill: var(--background-primary) !important;
+  stroke: var(--ministry-navy) !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .node .label {
+  color: var(--text-normal) !important;
+  font-family: var(--font-body) !important;
+}
+
+/* Primary node */
+.mermaid .node.primary rect,
+.mermaid .node.primary circle,
+.mermaid .node.primary ellipse {
+  fill: rgba(59, 130, 246, 0.1) !important;
+  stroke: var(--ministry-accent) !important;
+}
+
+/* Secondary node */
+.mermaid .node.secondary rect,
+.mermaid .node.secondary circle,
+.mermaid .node.secondary ellipse {
+  fill: rgba(191, 160, 70, 0.1) !important;
+  stroke: var(--ministry-gold) !important;
+}
+
+/* Decision node (diamond) */
+.mermaid .node.decision polygon {
+  fill: rgba(139, 92, 246, 0.08) !important;
+  stroke: #8b5cf6 !important;
+}
+
+/* ─── Flowchart Edges ─── */
+.mermaid .edgePath .path {
+  stroke: var(--ministry-navy) !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .edgeLabel {
+  background: var(--background-primary) !important;
+  color: var(--text-normal) !important;
+  font-family: var(--font-body) !important;
+}
+
+.mermaid .arrowheadPath {
+  fill: var(--ministry-navy) !important;
+}
+
+/* ─── Sequence Diagrams ─── */
+.mermaid .actor {
+  fill: var(--background-primary) !important;
+  stroke: var(--ministry-navy) !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .actor-line {
+  stroke: var(--ministry-line) !important;
+  stroke-width: 1px !important;
+  stroke-dasharray: none !important;
+}
+
+.mermaid .messageLine0,
+.mermaid .messageLine1 {
+  stroke: var(--ministry-navy) !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .messageText {
+  fill: var(--text-normal) !important;
+  font-family: var(--font-body) !important;
+  font-size: 0.9em !important;
+}
+
+.mermaid .activation0,
+.mermaid .activation1,
+.mermaid .activation2 {
+  fill: rgba(59, 130, 246, 0.1) !important;
+  stroke: var(--ministry-accent) !important;
+}
+
+.mermaid .note {
+  fill: rgba(191, 160, 70, 0.12) !important;
+  stroke: var(--ministry-gold) !important;
+  stroke-width: 1px !important;
+}
+
+.mermaid .noteText {
+  fill: var(--text-normal) !important;
+  font-family: var(--font-body) !important;
+}
+
+.mermaid .loopLine {
+  stroke: var(--ministry-line) !important;
+  stroke-width: 1px !important;
+  fill: none !important;
+}
+
+/* ─── Gantt Charts ─── */
+.mermaid .section0,
+.mermaid .section1,
+.mermaid .section2,
+.mermaid .section3 {
+  fill: rgba(59, 130, 246, 0.08) !important;
+  stroke: none !important;
+}
+
+.mermaid .task0,
+.mermaid .task1,
+.mermaid .task2,
+.mermaid .task3 {
+  fill: var(--ministry-accent) !important;
+  stroke: none !important;
+}
+
+.mermaid .taskText0,
+.mermaid .taskText1,
+.mermaid .taskText2,
+.mermaid .taskText3 {
+  fill: white !important;
+  font-family: var(--font-body) !important;
+}
+
+.mermaid .today {
+  stroke: #e53e3e !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .grid .tick {
+  stroke: var(--ministry-line) !important;
+  stroke-width: 0.5px !important;
+}
+
+.mermaid .grid .tick text {
+  fill: var(--text-muted) !important;
+  font-family: var(--font-body) !important;
+}
+
+/* ─── Class Diagrams ─── */
+.mermaid .classBox rect {
+  fill: var(--background-primary) !important;
+  stroke: var(--ministry-navy) !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .classBox .label {
+  fill: var(--text-normal) !important;
+  font-family: var(--font-body) !important;
+}
+
+.mermaid .classTitle {
+  fill: var(--ministry-navy) !important;
+  font-family: var(--font-heading) !important;
+  font-weight: 600 !important;
+}
+
+.mermaid .relation {
+  stroke: var(--ministry-navy) !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .relation .label {
+  fill: var(--text-muted) !important;
+  font-family: var(--font-body) !important;
+}
+
+/* ─── State Diagrams ─── */
+.mermaid .state rect,
+.mermaid .state .composit {
+  fill: var(--background-primary) !important;
+  stroke: var(--ministry-navy) !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .state .label {
+  fill: var(--text-normal) !important;
+  font-family: var(--font-body) !important;
+}
+
+.mermaid .stateLine {
+  stroke: var(--ministry-navy) !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .transition {
+  stroke: var(--ministry-navy) !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .start-state {
+  fill: #10b981 !important;
+  stroke: none !important;
+}
+
+.mermaid .end-state {
+  fill: #ef4444 !important;
+  stroke: none !important;
+}
+
+/* ─── Pie Charts ─── */
+.mermaid .pieTitleText {
+  fill: var(--text-normal) !important;
+  font-family: var(--font-heading) !important;
+  font-size: 1.2em !important;
+  font-weight: 600 !important;
+}
+
+.mermaid .slice {
+  stroke: var(--background-primary) !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .legend text {
+  fill: var(--text-normal) !important;
+  font-family: var(--font-body) !important;
+  font-size: 0.85em !important;
+}
+
+/* ─── Git Graphs ─── */
+.mermaid .branch-label {
+  fill: var(--text-normal) !important;
+  font-family: var(--font-body) !important;
+  font-weight: 600 !important;
+}
+
+.mermaid .commit-label {
+  fill: var(--text-muted) !important;
+  font-family: var(--font-body) !important;
+  font-size: 0.85em !important;
+}
+
+.mermaid .commit {
+  fill: var(--ministry-accent) !important;
+  stroke: var(--background-primary) !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .tag-label {
+  fill: var(--ministry-gold) !important;
+  font-family: var(--font-body) !important;
+  font-weight: 600 !important;
+}
+
+.mermaid .arrow {
+  stroke: var(--ministry-line) !important;
+  stroke-width: 2px !important;
+}
+
+/* ─── Journey / User Journey ─── */
+.mermaid .journey-section {
+  fill: rgba(59, 130, 246, 0.08) !important;
+  stroke: var(--ministry-accent) !important;
+}
+
+.mermaid .journey-section .label {
+  fill: var(--text-normal) !important;
+  font-family: var(--font-body) !important;
+}
+
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 16: SPECIAL UTILITY CLASSES
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* ─── Sermon Export ─── */
+.pe-sermon-export,
+.markdown-preview-view.pe-sermon-export {
+  --file-line-width: 900px;
+}
+
+.pe-sermon-export .markdown-preview-view {
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.pe-sermon-export h1 {
+  text-align: center;
+  border-bottom: 3px solid var(--ministry-gold);
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* ─── Sermon Table ─── */
+.pe-sermon-table table {
+  border: 2px solid var(--ministry-navy);
+}
+
+.pe-sermon-table thead tr {
+  background: var(--ministry-navy) !important;
+}
+
+.pe-sermon-table th {
+  color: var(--ministry-gold) !important;
+  font-family: var(--font-heading);
+  font-size: 0.9em;
+  letter-spacing: 0.08em;
+}
+
+.pe-sermon-table tbody tr:nth-child(even) {
+  background: rgba(191, 160, 70, 0.06) !important;
+}
+
+.pe-sermon-table td {
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+/* ─── Teaching Chart ─── */
+.teaching-chart table {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.teaching-chart thead tr {
+  background: linear-gradient(135deg, var(--ministry-navy), var(--ministry-navy-light)) !important;
+}
+
+.teaching-chart th {
+  color: var(--ministry-gold) !important;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+  padding: 14px 16px;
+}
+
+.teaching-chart tbody tr {
+  transition: background 0.2s ease;
+}
+
+.teaching-chart tbody tr:nth-child(even) {
+  background: rgba(59, 130, 246, 0.04) !important;
+}
+
+.teaching-chart tbody tr:hover {
+  background: rgba(59, 130, 246, 0.1) !important;
+}
+
+.teaching-chart td {
+  padding: 12px 16px;
+  border-color: rgba(34, 51, 76, 0.12);
+}
+
+/* ─── Code: Slide Cue ─── */
+.code-slidecue,
+.markdown-preview-view .code-slidecue {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--ministry-gold), var(--ministry-gold-light));
+  color: var(--ministry-navy);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.85em;
+  padding: 4px 12px;
+  border-radius: 6px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 0 4px;
+  box-shadow: 0 2px 6px rgba(191, 160, 70, 0.35);
+}
+
+/* ─── Code: Invitation ─── */
+.code-invitation,
+.markdown-preview-view .code-invitation {
+  display: block;
+  background: linear-gradient(135deg, var(--ministry-navy), var(--ministry-navy-light));
+  color: var(--ministry-paper);
+  font-family: var(--font-body);
+  font-size: 1.1em;
+  padding: 20px 28px;
+  border-radius: var(--ministry-radius);
+  margin: 1.5em 0;
+  line-height: 1.7;
+  box-shadow: 0 6px 20px rgba(34, 51, 76, 0.3);
+}
+
+.code-invitation strong,
+.markdown-preview-view .code-invitation strong {
+  color: var(--ministry-gold);
+}
+
+/* ─── Ribbon (Reading Ribbon Blockquotes) ─── */
+.ribbon blockquote,
+.markdown-preview-view .ribbon blockquote {
+  position: relative;
+  border-left: none;
+  border: 1px solid var(--ministry-line);
+  padding: 1.5em 2em 1.5em 3em;
+  background: var(--ministry-paper);
+  overflow: visible;
+}
+
+.ribbon blockquote::before,
+.markdown-preview-view .ribbon blockquote::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -1px;
+  bottom: -1px;
+  width: 6px;
+  background: linear-gradient(
+    180deg,
+    var(--ministry-gold) 0%,
+    var(--ministry-navy) 50%,
+    var(--ministry-gold) 100%
+  );
+  border-radius: 3px 0 0 3px;
+}
+
+.ribbon blockquote::after,
+.markdown-preview-view .ribbon blockquote::after {
+  content: '📖';
+  position: absolute;
+  left: -12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background: var(--ministry-paper);
+  border: 2px solid var(--ministry-gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 1;
+}
+
+/* ─── Whisper (Faded Italic Notes) ─── */
+.whisper,
+.markdown-preview-view .whisper {
+  color: var(--text-faint);
+  font-style: italic;
+  font-size: 0.92em;
+  opacity: 0.75;
+  transition: opacity 0.3s ease;
+}
+
+.whisper:hover,
+.markdown-preview-view .whisper:hover {
+  opacity: 1;
+}
+
+/* Dark mode whisper */
+.theme-dark .whisper,
+.theme-dark .markdown-preview-view .whisper {
+  color: #6b7280;
+  opacity: 0.6;
+}
+
+.theme-dark .whisper:hover,
+.theme-dark .markdown-preview-view .whisper:hover {
+  opacity: 0.9;
+}
+
+
+/* ───────────────────────────────────────────────────────────────────────────
+   SECTION 17: WORKSPACE & LAYOUT
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* ─── File Line Width ─── */
+body {
+  --file-line-width: var(--ministry-wide);
+}
+
+/* ─── Reading View Padding ─── */
+.markdown-preview-view .markdown-preview-section {
+  padding: 20px 30px 30px 45px;
+  max-width: var(--ministry-wide);
+  margin: 0 auto;
+}
+
+/* ─── Editor View Padding ─── */
+.markdown-source-view.mod-cm6 .cm-content {
+  padding: 20px 30px 30px 45px;
+  max-width: var(--ministry-wide);
+  margin: 0 auto;
+}
+
+/* ─── Inline Title Spacing ─── */
+.inline-title {
+  padding: 16px 30px 8px 45px;
+  max-width: var(--ministry-wide);
+  margin: 0 auto;
+  font-size: 2em;
+}
+
+/* ─── Popover Styling ─── */
+.popover {
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--ministry-line);
+  background: var(--background-primary);
+}
+
+.popover .markdown-embed {
+  border-radius: 12px;
+}
+
+.popover .markdown-embed .markdown-preview-view {
+  padding: 16px 20px;
+}
+
+/* ─── Hover Popover Editor ─── */
+.popover .markdown-source-view.mod-cm6 .cm-content {
+  padding: 16px 20px;
+}
+
+/* ─── Graph View Colors (Light Mode) ─── */
+.graph-view.color-fill {
+  color: #3B82F6;
+}
+
+.graph-view.color-fill-unresolved {
+  color: #9ca3af;
+  opacity: 0.5;
+}
+
+.graph-view.color-line {
+  color: #d1d5db;
+}
+
+.graph-view.color-text {
+  color: var(--text-normal);
+}
+
+.graph-view.color-fill-highlight {
+  color: var(--ministry-gold);
+}
+
+.graph-view.color-line-highlight {
+  color: var(--ministry-gold);
+}
+
+.graph-view.color-fill-tag {
+  color: #10b981;
+}
+
+.graph-view.color-fill-attachment {
+  color: #8b5cf6;
+}
+
+/* ─── Workspace Layout ─── */
+.workspace-split {
+  background: var(--background-secondary);
+}
+
+.workspace-leaf {
+  background: var(--background-primary);
+}
+
+.workspace-leaf-content {
+  background: var(--background-primary);
+}
+
+/* ─── Pane Resize Handles ─── */
+.workspace-split.mod-vertical > .workspace-leaf-resize-handle {
+  width: 3px;
+  background: transparent;
+  transition: background 0.2s ease;
+}
+
+.workspace-split.mod-vertical > .workspace-leaf-resize-handle:hover {
+  background: var(--ministry-accent);
+}
+
+.workspace-split.mod-horizontal > .workspace-leaf-resize-handle {
+  height: 3px;
+  background: transparent;
+  transition: background 0.2s ease;
+}
+
+.workspace-split.mod-horizontal > .workspace-leaf-resize-handle:hover {
+  background: var(--ministry-accent);
+}
+
+/* ─── Embed Blocks ─── */
+.markdown-embed {
+  border: 1px solid var(--ministry-line);
+  border-radius: var(--ministry-radius);
+  background: var(--background-primary);
+  padding: 0;
+  overflow: hidden;
+}
+
+.markdown-embed-title {
+  background: var(--background-secondary);
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 0.9em;
+  border-bottom: 1px solid var(--ministry-line);
+}
+
+.markdown-embed .markdown-preview-view {
+  padding: 12px 18px;
+}
+
+.markdown-embed-link {
+  color: var(--ministry-accent);
+}
+
+/* ─── PDF Embed Styling ─── */
+.pdf-embed {
+  border-radius: var(--ministry-radius);
+  border: 1px solid var(--ministry-line);
+}
+
+/* ─── Audio / Video Embeds ─── */
+audio,
+video {
+  border-radius: var(--ministry-radius);
+  border: 1px solid var(--ministry-line);
+}
+
+/* ─── Canvas / Whiteboard ─── */
+.canvas-wrapper {
+  background: var(--background-primary);
+}
+
+.canvas-node-container {
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.canvas-node-placeholder {
+  border-radius: 12px;
+}
+
+.canvas-edges path {
+  stroke-width: 2px;
+}
+
+/* ─── Metadata / Frontmatter ─── */
+.metadata-container {
+  border-bottom: 1px solid var(--ministry-line);
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+.metadata-property-icon {
+  color: var(--ministry-gold);
+}
+
+/* ─── Internal Link Styling ─── */
+.markdown-preview-view .internal-link {
+  color: var(--ministry-accent);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--ministry-accent);
+  transition: all 0.2s ease;
+}
+
+.markdown-preview-view .internal-link:hover {
+  color: var(--interactive-accent-hover);
+  border-bottom-style: solid;
+}
+
+/* ─── External Link Styling ─── */
+.markdown-preview-view .external-link {
+  color: var(--ministry-navy-light);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--ministry-navy-light);
+  transition: all 0.2s ease;
+}
+
+.markdown-preview-view .external-link:hover {
+  border-bottom-style: solid;
+}
+
+/* ─── Footnotes ─── */
+.footnotes {
+  border-top: 2px solid var(--ministry-line);
+  margin-top: 2em;
+  padding-top: 1em;
+}
+
+.footnotes-list {
+  font-size: 0.9em;
+  color: var(--text-muted);
+}
+
+.footnote-backref {
+  color: var(--ministry-gold);
+  text-decoration: none;
+}
+
+/* ─── Supercharged Links / Link Decorations ─── */
+[data-link-path*="Sermon"] .nav-file-title-content::before {
+  content: '📜 ';
+}
+
+[data-link-path*="Scripture"] .nav-file-title-content::before {
+  content: '✝️ ';
+}
+
+[data-link-path*="Illustration"] .nav-file-title-content::before {
+  content: '💡 ';
+}
+
+[data-link-path*="Outline"] .nav-file-title-content::before {
+  content: '📋 ';
+}
+
+/* ─── Kanban Plugin Support ─── */
+.kanban-plugin {
+  --kanban-background: var(--background-primary);
+  --kanban-lane-background: var(--background-secondary);
+  --kanian-card-background: var(--background-primary-alt);
+  --kanban-lane-border: 1px solid var(--ministry-line);
+  --kanban-lane-radius: 12px;
+  --kanban-card-border: 1px solid var(--ministry-line);
+  --kanban-card-radius: 10px;
+}
+
+.kanban-plugin__lane {
+  background: var(--background-secondary);
+  border-radius: 12px;
+  border: 1px solid var(--ministry-line);
+}
+
+.kanban-plugin__lane-title {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--text-normal);
+}
+
+.kanban-plugin__item {
+  background: var(--background-primary);
+  border-radius: 10px;
+  border: 1px solid var(--ministry-line);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* ─── Dataview Plugin Support ─── */
+.table-view-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-view-table th {
+  background: var(--ministry-navy) !important;
+  color: var(--ministry-paper) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  padding: 12px 14px;
+  font-size: 0.85em;
+}
+
+.table-view-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--ministry-line);
+}
+
+/* ─── Daily Notes / Calendar Plugin ─── */
+#calendar-container {
+  --color-background-day-empty: var(--background-primary);
+  --color-background-day-active: var(--ministry-accent);
+  --color-text-day-active: white;
+  --color-arrow: var(--text-muted);
+  --color-text-title: var(--text-normal);
+}
+
+#calendar-container .calendar-title {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+#calendar-container .today {
+  background: var(--ministry-accent);
+  color: white;
+  border-radius: 50%;
+}
+
+#calendar-container .active {
+  background: var(--ministry-gold);
+  color: var(--ministry-navy);
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+#calendar-container .week-num {
+  color: var(--text-muted);
+  font-size: 0.8em;
+}
+
+#calendar-container .day:hover {
+  background: var(--background-modifier-hover);
+  border-radius: 50%;
+}
+
+/* ─── Sliding Panes (Andy's Mode) ─── */
+.workspace-split.mod-root .workspace-leaf {
+  border-right: 1px solid var(--ministry-line);
+}
+
+.workspace-split.mod-root .workspace-leaf:last-child {
+  border-right: none;
+}
+
+/* ─── Mobile Optimizations ─── */
+.is-mobile .markdown-preview-view .markdown-preview-section {
+  padding: 16px 20px;
+}
+
+.is-mobile .markdown-source-view.mod-cm6 .cm-content {
+  padding: 16px 20px;
+}
+
+.is-mobile .inline-title {
+  padding: 12px 20px;
+  font-size: 1.6em;
+}
+
+.is-mobile .callout {
+  padding: 16px 20px;
+  margin: 1.2em 0;
+}
+
+.is-mobile .workspace-drawer {
+  background: var(--background-primary);
+}
+
+.is-mobile .workspace-drawer.mod-left {
+  border-right: 1px solid var(--ministry-line);
+}
+
+/* ─── Focus Mode (Minimal UI) ─── */
+.minimal-focus .workspace-ribbon,
+.minimal-focus .workspace-tab-header-container,
+.minimal-focus .status-bar {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.minimal-focus:hover .workspace-ribbon,
+.minimal-focus:hover .workspace-tab-header-container,
+.minimal-focus:hover .status-bar {
+  opacity: 1;
+}
+
+/* ─── Zen Mode Enhancements ─── */
+.zen-mode .markdown-preview-view .markdown-preview-section {
+  max-width: 720px;
+  padding: 40px 30px;
+}
+
+.zen-mode .inline-title {
+  text-align: center;
+  max-width: 720px;
+}
+
+
+/* ═════════════════════════════════════════════════════════════════════════════
+   THEME END
+   ═════════════════════════════════════════════════════════════════════════════ */
