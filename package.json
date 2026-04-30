@@ -1,6 +1,8 @@
 {
   "name": "obsidian-community-releases",
+  "packageManager": "pnpm@10.27.0",
   "scripts": {
+    "preinstall": "node -e \"const ua = process.env.npm_config_user_agent || ''; if (!ua.startsWith('pnpm/')) { console.error('Use pnpm for this repo.'); process.exit(1); }\"",
     "format": "prettier --write \"**/community*.json\""
   },
   "devDependencies": {
