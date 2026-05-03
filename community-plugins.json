@@ -19178,7 +19178,8 @@
     "description": "Content-addressed attachment storage for automatic deduplication. Works entirely locally; optionally uses GitHub private repositories for hosting.",
     "author": "NateScarlet",
     "repo": "NateScarlet/obsidian-content-addressed-attachments"
-  },
+  }, 
+
   {
     "id": "graphic-organizer",
     "name": "Graphic Organizer",
@@ -19248,5 +19249,13 @@
     "author": "Santi Younger",
     "description": "Calculate reading time estimates for selected text using your own reading speed in Words Per Minute.",
     "repo": "santiyounger/wpm-reading-time"
+  },
+  
+  {    "id": "textflow",
+    "name": "textFlow",
+    "author": "tine-schreibt",
+    "description": "Compile multiple notes into a single editable flow - like Scrivenings. Define flows from Dataview queries, or folders/tags/props, or bookmarks. Edits are synced automatically between flows and their sources.",
+    "repo": "tine-schreibt/textflow"
   }
+  
 ]
