@@ -74,7 +74,136 @@
     "name": "Text expand",
     "author": "MrJackphil",
     "description": "Search and paste/transclude links to found files.",
-    "repo": "mrjackphil/obsidian-text-expand"
+    "repo": "mrjackphil/obsidian-text-expand"    Insights
+
+Important update
+On April 24 we'll start using GitHub Copilot interaction data for AI model training unless you opt out. Review this update and manage your preferences in your GitHub account settings.
+You’re making changes in a project you don’t have write access to. Submitting a change will write it to a new branch in your fork stymphalionn/obsidian-releases, so you can send a pull request.
+
+    obsidian-releases
+
+/
+in
+master
+
+Indent mode
+Indent size
+Line wrap mode
+Editing community-plugins.json file contents
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+[
+    "repo": "tgrosinger/leader-hotkeys-obsidian"
+  },
+  {
+    "id": "recent-files-obsidian",
+    "name": "Recent Files",
+    "author": "Tony Grosinger",
+    "description": "Display a list of recently opened files.",
+    "repo": "tgrosinger/recent-files-obsidian"
+  },
+  {
+    "id": "ledger-obsidian",
+    "name": "Ledger",
+    "author": "Tony Grosinger",
+    "description": "Plain text accounting.",
+    "repo": "tgrosinger/ledger-obsidian"
+  },
+  {
+    "id": "note-refactor-obsidian",
+    "name": "Note Refactor",
+    "author": "James Lynch",
+    "description": "Extract note content into new notes and split notes.",
+    "repo": "lynchjames/note-refactor-obsidian"
+  },
+  {
+    "id": "calendar",
+    "name": "Calendar",
+    "author": "Liam Cain",
+    "description": "Simple calendar widget.",
+    "repo": "liamcain/obsidian-calendar-plugin"
+  },
+  {
+    "id": "mrj-text-expand",
+    "name": "Text expand",
+    "author": "MrJackphil",
+    "description": "Search and paste/transclude links to found files.",
   },
   {
     "id": "mrj-jump-to-link",
@@ -19249,4 +19378,11 @@
     "description": "Calculate reading time estimates for selected text using your own reading speed in Words Per Minute.",
     "repo": "santiyounger/wpm-reading-time"
   }
+  {
+  "id": "graph-lasso",
+  "name": "Graph Lasso",
+  "author": "Stymphalionn",
+  "description": "Marquee or lasso selection on the core graph, enabling direct action on selected notes. Extends Graph View functionality",
+  "repo": "stymphalionn/Obsidian-graph-lasso"
+}
 ]
