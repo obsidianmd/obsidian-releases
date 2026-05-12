@@ -744,7 +744,7 @@
   {
     "id": "obsidian-vault-changelog",
     "name": "Vault Changelog",
-    "author": "philoserf",
+    "author": "Mark Ayers",
     "description": "Maintain a changelog of recently edited notes.",
     "repo": "philoserf/obsidian-vault-changelog"
   },
@@ -4041,7 +4041,7 @@
   {
     "id": "obsidian-copy-search-url",
     "name": "Copy Search URL",
-    "author": "czottmann",
+    "author": "Carlo Zottmann",
     "description": "Add a button to the search view to copy the search URL.",
     "repo": "czottmann/obsidian-copy-search-url"
   },
@@ -4055,7 +4055,7 @@
   {
     "id": "blockquote-levels",
     "name": "Blockquote Levels",
-    "author": "czottmann",
+    "author": "Carlo Zottmann",
     "description": "Add commands for increasing/decreasing the blockquote level of the current line or selection(s).",
     "repo": "czottmann/obsidian-blockquote-levels"
   },
@@ -4237,7 +4237,7 @@
   {
     "id": "actions-uri",
     "name": "Actions URI",
-    "author": "czottmann",
+    "author": "Carlo Zottmann",
     "description": "Add additional `x-callback-url` endpoints to the app for common actions — it's a clean, super-charged addition to Obsidian URI.",
     "repo": "czottmann/obsidian-actions-uri"
   },
@@ -6610,7 +6610,7 @@
   {
     "id": "logstravaganza",
     "name": "Logstravaganza",
-    "author": "czottmann",
+    "author": "Carlo Zottmann",
     "description": "A simple proxy for `console.*()` calls which copies log messages and uncaught exceptions to a note.",
     "repo": "czottmann/obsidian-logstravaganza"
   },
@@ -7667,7 +7667,7 @@
   {
     "id": "mononote",
     "name": "Mononote",
-    "author": "czottmann",
+    "author": "Carlo Zottmann",
     "description": "Ensure each note occupies only one tab. If a note is already open, its existing tab will be focussed instead of opening the same file in the current tab.",
     "repo": "czottmann/obsidian-mononote"
   },
@@ -14163,7 +14163,7 @@
   {
     "id": "varinote",
     "name": "Varinote",
-    "author": "gsarig",
+    "author": "Giorgos Sarigiannidis",
     "description": "Add variables in Templates and set their values on-the-fly during the Note creation.",
     "repo": "gsarig/obsidian-varinote"
   },
@@ -14660,7 +14660,7 @@
   {
     "id": "sentinel",
     "name": "Sentinel",
-    "author": "gsarig",
+    "author": "Giorgos Sarigiannidis",
     "description": "Trigger actions based on document visibility changes.",
     "repo": "gsarig/obsidian-sentinel"
   },
@@ -19775,13 +19775,6 @@
     "repo": "pablon/obsidian-bulk-renamer"
   },
   {
-    "id": "cyberware",
-    "name": "Cyberware Repos",
-    "author": "cyberfabric",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Make your Cyberware-powered github repository tracing easier.",
-    "repo": "cyberfabric/cyberware-obsidian"
-  },
-  {
     "id": "table-checkbox-row-color",
     "name": "Table Checkbox Row Color",
     "author": "mtplr",
@@ -23856,10 +23849,38 @@
     "repo": "4513echo/obsidian-embed-plus"
   },
   {
+    "id": "askmate",
+    "name": "AskMate",
+    "author": "Behnam Ebrahimi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Ask AI questions about your current Obsidian note or selected text.",
+    "repo": "codewithbehnam/askmate"
+  },
+  {
+    "id": "cross-player",
+    "name": "Cross Player",
+    "author": "Imed Ghomari",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A media player plugin that watches a folder and plays media.",
+    "repo": "imed-ghomari/cross-player-obsidian"
+  },
+  {
     "id": "iconify",
     "name": "Iconify",
     "author": "moziar",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Add custom icon to Obsidian and allow swapping out default icons.",
     "repo": "moziar/Obsidian-Iconify"
+  },
+  {
+    "id": "rollover-daily-todos-with-context",
+    "name": "Rollover Daily Todos with Context",
+    "author": "Michael Parker",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Rollover any unchecked checkboxes from your last daily note into today's note, with context.",
+    "repo": "mjparker/obsidian-rollover-todos-with-context"
+  },
+  {
+    "id": "livi-webdav-sync",
+    "name": "WebDAV sync",
+    "author": "Olivia",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Simple, manually-controlled WebDAV sync plugin",
+    "repo": "lunarwatcher/obsidian-webdav-sync"
   }
 ]
