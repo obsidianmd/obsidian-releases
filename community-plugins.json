@@ -12448,8 +12448,8 @@
   {
     "id": "quick-open",
     "name": "Quick Select",
-    "author": "itsonlyjames",
-    "description": "Quickly select items in any modal using keyboard shortcuts. Supercharge your workflow with fast, efficient item selection in Obsidian modals.",
+    "author": "James Alexandre",
+    "description": "Quickly select items in any modal using keyboard shortcuts. Supercharge your workflow with fast, efficient item selection.",
     "repo": "itsonlyjames/obsidian-quick-select"
   },
   {
@@ -13176,7 +13176,7 @@
   {
     "id": "fold-properties",
     "name": "Fold Properties",
-    "author": "itsonlyjames",
+    "author": "James Alexandre",
     "description": "Adds fold/unfold properties function to folder and file context menu",
     "repo": "itsonlyjames/obsidian-fold-properties"
   },
@@ -16571,7 +16571,7 @@
   {
     "id": "vertical-timeline-list",
     "name": "Vertical Timeline List",
-    "author": "jalad25",
+    "author": "jalad",
     "description": "Utilizes lists to create a timeline... or something resembling a timeline.",
     "repo": "jalad25/vertical-timeline-list"
   },
@@ -17222,7 +17222,7 @@
   {
     "id": "quartz-syncer",
     "name": "Quartz Syncer",
-    "author": "saberzero1",
+    "author": "Emile Bangma",
     "description": "Manage and publish your notes to Quartz, the fast, batteries-included static-site generator.",
     "repo": "saberzero1/quartz-syncer"
   },
@@ -18588,7 +18588,7 @@
     "id": "ocr-extractor",
     "name": "OCR Extractor",
     "author": "jritzi",
-    "description": "Extract text from documents, images, etc. and store it as Markdown in your notes.",
+    "description": "Extract text from PDFs, documents, images, etc. with OCR and store it as Markdown in your notes.",
     "repo": "jritzi/ocr-extractor"
   },
   {
@@ -21765,7 +21765,7 @@
   {
     "id": "sync-folds",
     "name": "Sync Folds",
-    "author": "itsonlyjames",
+    "author": "James Alexandre",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Enables Syncing of Fold States Across Devices.",
     "repo": "itsonlyjames/obsidian-sync-folds"
   },
@@ -22617,13 +22617,6 @@
     "repo": "jinmugo/obsidian-context-workspaces"
   },
   {
-    "id": "pocket-bird",
-    "name": "Pocket Bird",
-    "author": "idreesinc",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Add a pet bird to fly around your notes and keep you company!",
-    "repo": "idreesinc/PB-Obsidian-Releases"
-  },
-  {
     "id": "task-export-to-csv",
     "name": "Task Export Tool",
     "author": "tailormade-eu",
@@ -22834,6 +22827,13 @@
     "repo": "lanternyoru/obsidian-chinese-converter"
   },
   {
+    "id": "pairwise-glicko-ranking",
+    "name": "Pairwise Glicko Ranking",
+    "author": "williamsjack",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Easily sort notes by any subjective criteria - Rank cohorts of notes in your vault by pairwise comparisons using the Glicko rating system.",
+    "repo": "williamsjack/pairwise-glicko-ranking"
+  },
+  {
     "id": "property-over-file-name",
     "name": "Property Over File Name",
     "author": "David V. Kimball",
@@ -22958,13 +22958,6 @@
     "author": "rmccorkl",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create comprehensive notes from YouTube transcripts using LLMs.",
     "repo": "rmccorkl/TubeSage"
-  },
-  {
-    "id": "nldates-redux",
-    "name": "Natural Language Dates Redux",
-    "author": "Tommy Bergeron",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Insert timestamps and cross-link your notes with the flexibility of natural language. Now with Notion-like behavior!",
-    "repo": "tbergeron/obsidian-nldates-redux"
   },
   {
     "id": "pinned-tab-utils",
@@ -23464,6 +23457,13 @@
     "repo": "arugyani/depends"
   },
   {
+    "id": "screvi",
+    "name": "Screvi Sync",
+    "author": "pedroaraujo74",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Import highlights and sources from Screvi.",
+    "repo": "pedroaraujo74/screvi-obsidian-plugin"
+  },
+  {
     "id": "notekeeper",
     "name": "Notekeeper",
     "author": "philemonchiro",
@@ -23550,7 +23550,7 @@
   {
     "id": "advanced-import-export",
     "name": "Cross-App Notes Bridge",
-    "author": "huangcheng",
+    "author": "Cheng",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Copy notes as portable Markdown and bridge with Bear, WPS Cloud Note, and Youdao Note.",
     "repo": "huangcheng/obsidian-advanced-import-export"
   },
@@ -23954,6 +23954,13 @@
     "repo": "one-wheeled-driver/obsidian-passport"
   },
   {
+    "id": "cloud-kms-encryption",
+    "name": "Cloud KMS Encryption",
+    "author": "Viktar Mikalayeu",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Transparent encryption of secret blocks and binary files using AWS KMS. Zero plaintext on disk.",
+    "repo": "viktoruj/obsidian-cloud-kms"
+  },
+  {
     "id": "progressive",
     "name": "Progressive",
     "author": "kelen-argosi",
@@ -23994,5 +24001,26 @@
     "author": "Nymbo",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Highlights copied text.",
     "repo": "nymbo/Copy-Highlighter"
+  },
+  {
+    "id": "copy-text-protocol",
+    "name": "Copy Text Protocol",
+    "author": "jldiaz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Adds support for copying text to the clipboard using a custom protocol.",
+    "repo": "jldiaz/copy-protocol-plugin"
+  },
+  {
+    "id": "iroview",
+    "name": "IroView",
+    "author": "nellowtcs",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A color preview for HEX, HSL, RGB values in your notes, similar to VSCode's color preview.",
+    "repo": "nellowtcs/Obsidian-IroView"
+  },
+  {
+    "id": "daily-nav",
+    "name": "Daily Nav",
+    "author": "kuboon",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open prev/next note based on explorer sorting order",
+    "repo": "kuboon/daily-nav"
   }
 ]
