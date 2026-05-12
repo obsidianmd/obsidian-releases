@@ -294,13 +294,6 @@
     "repo": "deathau/maximise-active-pane-obsidian"
   },
   {
-    "id": "obsidian-juliandate",
-    "name": "Julian Date",
-    "author": "thek3nger",
-    "description": "Add a shortcut to insert the current Julian date for astronomical observations.",
-    "repo": "thek3nger/obsidian-juliandate"
-  },
-  {
     "id": "obsidian-emoji-toolbar",
     "name": "Emoji Toolbar",
     "author": "oliveryh",
@@ -737,7 +730,7 @@
   {
     "id": "obsidian-chessboard",
     "name": "Chessboard Viewer",
-    "author": "thek3nger",
+    "author": "Davide Aversa",
     "description": "Render chess positions diagrams in note preview.",
     "repo": "thek3nger/obsidian-chessboard"
   },
@@ -6071,7 +6064,7 @@
   {
     "id": "copilot",
     "name": "Copilot",
-    "author": "logancyang",
+    "author": "Logan Yang",
     "description": "Your AI Copilot: Chat with Your Second Brain, Learn Faster, Work Smarter.",
     "repo": "logancyang/obsidian-copilot"
   },
@@ -13715,7 +13708,7 @@
   {
     "id": "gemini-scribe",
     "name": "Gemini Scribe",
-    "author": "allenhutchison",
+    "author": "Allen Hutchison",
     "description": "Allows you to interact with Gemini and use your notes as context.",
     "repo": "allenhutchison/obsidian-gemini"
   },
@@ -17892,13 +17885,6 @@
     "repo": "nazoadiego/tiny-habits"
   },
   {
-    "id": "version-control",
-    "name": "Version Control",
-    "author": "yuichi-aragi",
-    "description": "A local, snapshot-based version control system. Lets you create finite number of versions of any note.",
-    "repo": "yuichi-aragi/Version-Control"
-  },
-  {
     "id": "accounting-journal-ledger",
     "name": "Accounting Journal and Ledger",
     "author": "javierribaldelrio",
@@ -18084,7 +18070,7 @@
     "id": "notebook-navigator",
     "name": "Notebook Navigator",
     "author": "Johan Sanneblad",
-    "description": "Replace the default file explorer with a clean two-pane interface featuring folder tree, tag browsing, file previews, keyboard navigation, drag-and-drop, pinned notes, and customizable display options.",
+    "description": "Alternative file browser with folders, tags, properties, shortcuts, previews, keyboard navigation, drag and drop, and pinned notes.",
     "repo": "johansan/notebook-navigator"
   },
   {
@@ -19852,6 +19838,13 @@
     "repo": "skyleret/obsidian-ical-task-sync"
   },
   {
+    "id": "arroweds-adversary-bank",
+    "name": "Arrowed's Adversary Bank",
+    "author": "arrowedisgaming",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage and run Daggerheart TTRPG encounters with searchable adversary stat blocks, condition tracking, and instance management.",
+    "repo": "arrowedisgaming/arroweds-adversary-bank"
+  },
+  {
     "id": "tag-classes",
     "name": "Tag Classes",
     "author": "agrison",
@@ -20137,6 +20130,13 @@
     "author": "canartuc",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Copy notes as platform-optimized HTML for Medium and Substack.",
     "repo": "canartuc/pubcopy"
+  },
+  {
+    "id": "mirror",
+    "name": "Mirror",
+    "author": "Jonathan Simcoe",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Turns block references into live mirrored transclusions with inline previews and editing.",
+    "repo": "jdsimcoe/obsidian-mirror"
   },
   {
     "id": "link-iframe",
@@ -21273,6 +21273,13 @@
     "repo": "dannymcc/Granola-to-Obsidian"
   },
   {
+    "id": "stock-blocks",
+    "name": "Stock Blocks",
+    "author": "sandypockets",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Display stock prices, changes, and sparkline charts in your notes with multi-stock lists and single stock charts.",
+    "repo": "sandypockets/stock-blocks"
+  },
+  {
     "id": "donext",
     "name": "Do Next Task",
     "author": "alexesdev",
@@ -21646,7 +21653,7 @@
   {
     "id": "block-view",
     "name": "Block View",
-    "author": "timobechtel",
+    "author": "Timo Bechtel",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Filter and display the content of your notes in a Bases view.",
     "repo": "timobechtel/obsidian-block-view"
   },
@@ -22596,11 +22603,25 @@
     "repo": "wuhup/global-week-start"
   },
   {
+    "id": "dnd-hp-tracker",
+    "name": "D&D HP Tracker",
+    "author": "Miłosz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Track hit points, temporary HP, and apply damage/healing with resistance and vulnerability options for D&D characters.",
+    "repo": "butterski/obsidian-dnd-hp-tracker"
+  },
+  {
     "id": "context-workspaces",
     "name": "Context Workspaces",
     "author": "jinmugo",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A workspace toolkit to build focused, clutter-free zones for every task.",
     "repo": "jinmugo/obsidian-context-workspaces"
+  },
+  {
+    "id": "pocket-bird",
+    "name": "Pocket Bird",
+    "author": "idreesinc",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Add a pet bird to fly around your notes and keep you company!",
+    "repo": "idreesinc/PB-Obsidian-Releases"
   },
   {
     "id": "task-export-to-csv",
@@ -22974,6 +22995,13 @@
     "repo": "narwhai/theme-basics"
   },
   {
+    "id": "chess-vault",
+    "name": "Chess Vault",
+    "author": "dun8",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your Lichess games!",
+    "repo": "dun8/Chess-Vault"
+  },
+  {
     "id": "vim-scrolling",
     "name": "Vim Scrolling",
     "author": "xlongfeng",
@@ -22993,6 +23021,13 @@
     "author": "stephencarboni",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Attempts to make tab labels unique by prefixing the filename with the parent folders.",
     "repo": "stephencarboni/obsidian-unique-tab-labels"
+  },
+  {
+    "id": "draft-bench",
+    "name": "Draft Bench",
+    "author": "banisterious",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A full creative writing workflow: project creation, scene management, and manuscript compilation with frontmatter-native data and Bases compatibility.",
+    "repo": "banisterious/obsidian-draft-bench"
   },
   {
     "id": "getnote-importer",
@@ -23424,7 +23459,7 @@
   {
     "id": "depends",
     "name": "Depends",
-    "author": "arugyani",
+    "author": "Aru Gyani",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Manage your cross-file dependencies and view them in the native graph view.",
     "repo": "arugyani/depends"
   },
@@ -23838,7 +23873,7 @@
     "id": "csv-viewer",
     "name": "CSV and Log Viewer",
     "author": "jethrojones",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. View and edit CSV files, and inspect log files with filtering.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. View, search, sort, and edit CSV files in Obsidian, with a built-in log viewer for filtering and inspecting .log files.",
     "repo": "jethrojones/obsidian-csv-viewer"
   },
   {
@@ -23868,6 +23903,13 @@
     "author": "Imed Ghomari",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A media player plugin that watches a folder and plays media across devices.",
     "repo": "imed-ghomari/cross-player-obsidian"
+  },
+  {
+    "id": "super-add",
+    "name": "SuperAdd",
+    "author": "Imed Ghomari",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create tasks with natural language processing.",
+    "repo": "imed-ghomari/super-add-obsidian"
   },
   {
     "id": "iconify",
@@ -23905,6 +23947,13 @@
     "repo": "tbergeron/obsidian-human-readable-dates"
   },
   {
+    "id": "vault-passport",
+    "name": "Vault Passport",
+    "author": "Dominik Lorenz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Give your notes a passport to the outside world. Exports documents to polished PDFs, resolving [[wiki-links]] into proper citations so they stand alone without the vault.",
+    "repo": "one-wheeled-driver/obsidian-passport"
+  },
+  {
     "id": "progressive",
     "name": "Progressive",
     "author": "kelen-argosi",
@@ -23917,5 +23966,33 @@
     "author": "Anton L10n",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Translate notes into any of 165 languages with AI. Preserves Markdown formatting and structure. Powered by L10n.dev's AI translation API.",
     "repo": "l10n-dev/obsidian-plugin-ai-translator"
+  },
+  {
+    "id": "lexophile",
+    "name": "Lexophile - Personal Dictionary",
+    "author": "Bryan Maniotakis",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Build your vocabulary one word at a time. Add words manually, or grab them instantly with the Chrome extension or Kobo importer.",
+    "repo": "bryanmanio/obsidian-lexophile"
+  },
+  {
+    "id": "multimuse-tracker",
+    "name": "Multimuse Tracker",
+    "author": "teaos",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Roleplay sync tool for use with the MultiMuse bot in discord.",
+    "repo": "tea0s/multimuse-tracker"
+  },
+  {
+    "id": "iconocolor",
+    "name": "Iconocolor",
+    "author": "Gavin Picard",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. An all-in-one solution for folder icons and coloring, featuring auto-gradients.",
+    "repo": "gavinpicard/iconocolor"
+  },
+  {
+    "id": "copy-highlighter",
+    "name": "Copy Highlighter",
+    "author": "Nymbo",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Highlights copied text.",
+    "repo": "nymbo/Copy-Highlighter"
   }
 ]
