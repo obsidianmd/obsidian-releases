@@ -16789,7 +16789,7 @@
     "id": "jupymd",
     "name": "JupyMD",
     "author": "d-eniz",
-    "description": "Link and sync Markdown notes with Jupyter notebooks via Jupytext.",
+    "description": "Jupyter notebook support within your vault for interactive programming, live outputs, and notebook syncing.",
     "repo": "d-eniz/jupymd"
   },
   {
@@ -19852,13 +19852,6 @@
     "repo": "skyleret/obsidian-ical-task-sync"
   },
   {
-    "id": "arroweds-adversary-bank",
-    "name": "Arrowed's Adversary Bank",
-    "author": "arrowedisgaming",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage and run Daggerheart TTRPG encounters with searchable adversary stat blocks, condition tracking, and instance management.",
-    "repo": "arrowedisgaming/arroweds-adversary-bank"
-  },
-  {
     "id": "tag-classes",
     "name": "Tag Classes",
     "author": "agrison",
@@ -20146,13 +20139,6 @@
     "repo": "canartuc/pubcopy"
   },
   {
-    "id": "mirror",
-    "name": "Mirror",
-    "author": "jdsimcoe",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Turns block references into live mirrored transclusions with inline previews and editing.",
-    "repo": "jdsimcoe/obsidian-mirror"
-  },
-  {
     "id": "link-iframe",
     "name": "I link therefore iframe",
     "author": "gilgamesh-tamarian",
@@ -20249,6 +20235,13 @@
     "author": "lbb2446",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Display #timeline notes, diary-style feeds, and image-only galleries in a polished note view.",
     "repo": "lbb2446/bestmemo"
+  },
+  {
+    "id": "workflowy-sync",
+    "name": "Workflowy Sync",
+    "author": "rodolfo-terriquez",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Quickly send content to Workflowy, embed live outlines, and sync Workflowy items with notes.",
+    "repo": "rodolfo-terriquez/workflowy-sync"
   },
   {
     "id": "ai-attachmate",
@@ -20365,7 +20358,7 @@
   {
     "id": "pdf-notes",
     "name": "PDF.notes",
-    "author": "lucidalpha",
+    "author": "Anton",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Annotate PDFs with smooth ink drawings and shape tools.",
     "repo": "lucidalpha/obsidian-pdf-notes"
   },
@@ -20704,6 +20697,13 @@
     "author": "eng618",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Encrypt and decrypt entire folders within your vault with AES-256-GCM.",
     "repo": "eng618/obsidian-encrypted-folders"
+  },
+  {
+    "id": "claude-vault-assistant",
+    "name": "Claude Vault Assistant",
+    "author": "copperbox",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Define reusable prompt files and run them against your vault or active note using Claude Code CLI.",
+    "repo": "copperbox/obsidian-claude-vault-assistant"
   },
   {
     "id": "fantasy-map",
@@ -21950,6 +21950,13 @@
     "author": "dskarbrevik",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create dynamic dashboard visualizations from your markdown tables.",
     "repo": "dskarbrevik/table-dashboard"
+  },
+  {
+    "id": "selective-publisher",
+    "name": "Selective Publisher",
+    "author": "ivan1248",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Selectively publishes notes to a Git repository.",
+    "repo": "ivan1248/obsidian-selective-publisher"
   },
   {
     "id": "in-progress-checkbox",
@@ -23333,7 +23340,7 @@
   {
     "id": "frontmatter-date-manager",
     "name": "Frontmatter Date Manager",
-    "author": "smetdenis",
+    "author": "Denis",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically update created, modified, and last-viewed dates in frontmatter.",
     "repo": "smetdenis/obsidian-frontmatter-date-manager"
   },
@@ -23859,7 +23866,7 @@
     "id": "cross-player",
     "name": "Cross Player",
     "author": "Imed Ghomari",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A media player plugin that watches a folder and plays media.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A media player plugin that watches a folder and plays media across devices.",
     "repo": "imed-ghomari/cross-player-obsidian"
   },
   {
@@ -23882,5 +23889,33 @@
     "author": "Olivia",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Simple, manually-controlled WebDAV sync plugin",
     "repo": "lunarwatcher/obsidian-webdav-sync"
+  },
+  {
+    "id": "html-docs",
+    "name": "HTML Docs",
+    "author": "Sam",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A minimal zero-depenedency plugin to work with .md AND .html docs in your vault",
+    "repo": "smcllns/obsidian-plugin-html-docs"
+  },
+  {
+    "id": "human-readable-dates",
+    "name": "Human Readable Dates",
+    "author": "Tommy Bergeron",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Displays dates as human-readable relative dates in live preview.",
+    "repo": "tbergeron/obsidian-human-readable-dates"
+  },
+  {
+    "id": "progressive",
+    "name": "Progressive",
+    "author": "kelen-argosi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sidebar progress bar that tracks tasks across notes (daily, weekly, monthly, or custom). Supports multiple color modes and adapts to your theme.",
+    "repo": "kelen-argosi/progressive"
+  },
+  {
+    "id": "note-ai-translator",
+    "name": "L10n.dev - AI Translator",
+    "author": "Anton L10n",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Translate notes into any of 165 languages with AI. Preserves Markdown formatting and structure. Powered by L10n.dev's AI translation API.",
+    "repo": "l10n-dev/obsidian-plugin-ai-translator"
   }
 ]
