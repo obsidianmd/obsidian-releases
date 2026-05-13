@@ -4440,7 +4440,7 @@
   {
     "id": "obsidian-dynbedded",
     "name": "Dynbedded",
-    "author": "mmomm-org",
+    "author": "Marcus Breiden",
     "description": "Dynamic embeds.",
     "repo": "mmomm-org/obsidian-dynbedded"
   },
@@ -11426,7 +11426,7 @@
   {
     "id": "update-time",
     "name": "Update Time",
-    "author": "dsebastien",
+    "author": "Sébastien Dubois",
     "description": "Update front matter to include creation and last update times",
     "repo": "dsebastien/obsidian-update-time"
   },
@@ -11790,7 +11790,7 @@
   {
     "id": "dataview-serializer",
     "name": "Dataview Serializer",
-    "author": "dsebastien",
+    "author": "Sébastien Dubois",
     "description": "Serialize Dataview queries to Markdown, and keep the Markdown representation up to date",
     "repo": "dsebastien/obsidian-dataview-serializer"
   },
@@ -11951,7 +11951,7 @@
   {
     "id": "quran-helper",
     "name": "Quran Helper",
-    "author": "ammarcodes",
+    "author": "Ammar Alakkad",
     "description": "Find and insert any Quran Ayah (verse) in your notes.",
     "repo": "ammarcodes/obsidian-quran-helper-plugin"
   },
@@ -13372,7 +13372,7 @@
   {
     "id": "typefully",
     "name": "Typefully",
-    "author": "dsebastien",
+    "author": "Sébastien Dubois",
     "description": "Typefully integration. Publish social media posts with ease",
     "repo": "dsebastien/obsidian-typefully"
   },
@@ -13533,7 +13533,7 @@
   {
     "id": "replicate",
     "name": "Replicate",
-    "author": "dsebastien",
+    "author": "Sébastien Dubois",
     "description": "Replicate.com integration. Generate images using AI.",
     "repo": "dsebastien/obsidian-replicate"
   },
@@ -13680,7 +13680,7 @@
   {
     "id": "task-board",
     "name": "Task Board",
-    "author": "tu2-atmanand",
+    "author": "Atmanand Gauns",
     "description": "Manage all your tasks throughout your vault from a single board and much more...",
     "repo": "tu2-atmanand/Task-Board"
   },
@@ -14184,7 +14184,7 @@
   {
     "id": "custom-image-auto-uploader",
     "name": "Custom Image Auto Uploader",
-    "author": "haierkeys",
+    "author": "HaierKeys",
     "description": "You can upload and save images from your notes to your remote server, home NAS, or sync them to your cloud storage (Alibaba Cloud OSS, Amazon S3, Cloudflare R2).",
     "repo": "haierkeys/obsidian-custom-image-auto-uploader"
   },
@@ -15731,7 +15731,7 @@
   {
     "id": "notes-explorer",
     "name": "Notes Explorer",
-    "author": "tu2-atmanand",
+    "author": "Atmanand Gauns",
     "description": "Explore your notes as cards in gallery or masonry view. A new way to revise your content.",
     "repo": "tu2-atmanand/obsidian-notes-explorer"
   },
@@ -16130,7 +16130,7 @@
   {
     "id": "limitless-lifelogs",
     "name": "Limitless Lifelogs",
-    "author": "maclean-d",
+    "author": "Maclean (Silk Ribbon)",
     "description": "Sync your Limitless AI lifelog entries",
     "repo": "maclean-d/obsidian-limitless-lifelogs"
   },
@@ -17278,7 +17278,7 @@
   {
     "id": "character-sheets",
     "name": "Character Sheets",
-    "author": "grayvox",
+    "author": "Grayvox",
     "description": "Create character sheets for your very own traumatized little guys.",
     "repo": "grayvox/obsidian-character-sheets"
   },
@@ -18063,7 +18063,7 @@
     "id": "notebook-navigator",
     "name": "Notebook Navigator",
     "author": "Johan Sanneblad",
-    "description": "Alternative file browser with folders, tags, properties, shortcuts, previews, keyboard navigation, drag and drop, and pinned notes.",
+    "description": "Alternative file browser with folders, tags, properties, calendar, previews, shortcuts, recent files, keyboard navigation, drag and drop, and pinned notes.",
     "repo": "johansan/notebook-navigator"
   },
   {
@@ -19194,6 +19194,13 @@
     "repo": "yorigo77/obsidian-yori-task"
   },
   {
+    "id": "book-search-plus",
+    "name": "Book Search Plus",
+    "author": "Curtis McHale",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Search and create book notes using the Google Books API.",
+    "repo": "curtismchale/obsidian-book-search-plus"
+  },
+  {
     "id": "readest-highlights",
     "name": "Readest Highlights",
     "author": "polybjorn",
@@ -19339,6 +19346,13 @@
     "author": "p-of-g-given-h",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Displays Hanzi characters with their Pinyin transliteraions and offers convenient dictionary lookup.",
     "repo": "p-of-g-given-h/mandarin_helper"
+  },
+  {
+    "id": "cloud-attach",
+    "name": "CloudAttach",
+    "author": "Garry",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Connect to OpenList and manage cloud attachments, insert signed file links into notes.",
+    "repo": "curryhendry/obsidian-cloud-attach"
   },
   {
     "id": "vocab-hover",
@@ -19731,6 +19745,13 @@
     "author": "redsmite-com",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically synchronizes your Redsmite reports to your vault.",
     "repo": "redsmite-com/redsmite-sync"
+  },
+  {
+    "id": "pebble",
+    "name": "Pebble",
+    "author": "pedrojreis",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A Minimal companion for quick note taking.",
+    "repo": "pedrojreis/Pebble"
   },
   {
     "id": "vault-search",
@@ -20137,6 +20158,13 @@
     "author": "rwyattwalker",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Render activity heatmaps from Dataview query results.",
     "repo": "rwyattwalker/obsidian-activity-graph"
+  },
+  {
+    "id": "weekly-routine-planner",
+    "name": "Weekly Routine Planner",
+    "author": "lylaminju",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Plan weekly routines with a timetable-style editor.",
+    "repo": "lylaminju/weekly-routine-planner"
   },
   {
     "id": "eagle",
@@ -20664,6 +20692,13 @@
     "repo": "wepee/obsidian-open-in-claude-code"
   },
   {
+    "id": "on-demand-plugins",
+    "name": "On-Demand Plugins",
+    "author": "22-2",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Lazy load plugins by caching their commands. Plugins are enabled on-demand when you trigger their commands (or open specific views), keeping startup fast.",
+    "repo": "22-2/obsidian-on-demand-plugins"
+  },
+  {
     "id": "callout-control-panel",
     "name": "Callout Control Panel",
     "author": "jv209",
@@ -21054,6 +21089,13 @@
     "author": "niko-drossos",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Exposes global bookmarking functions for programmatically adding files to bookmark groups.",
     "repo": "niko-drossos/bookmarks-API"
+  },
+  {
+    "id": "deadline-countdown",
+    "name": "Deadline Countdown",
+    "author": "hotandcold245",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Set and manage deadlines.",
+    "repo": "hotandcold245/Deadline-Countdown"
   },
   {
     "id": "replace-em-dash",
@@ -21565,6 +21607,13 @@
     "author": "josteniok",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Creates a folder at the location of the current note.",
     "repo": "josteniok/create-folder-at-note-location"
+  },
+  {
+    "id": "smartpick",
+    "name": "SmartPick",
+    "author": "bcs1037",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Smart text selection toolbar with custom commands and AI features.",
+    "repo": "bcs1037/SmartPick"
   },
   {
     "id": "datestamp",
@@ -22269,7 +22318,7 @@
   {
     "id": "reverse-complement",
     "name": "Reverse Complement",
-    "author": "bjornfjohansson",
+    "author": "Björn Johansson",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Right-click menu to convert selected DNA to its reverse complement.",
     "repo": "bjornfjohansson/reverse-complement"
   },
@@ -22638,13 +22687,6 @@
     "repo": "ebullient/obsidian-prompt-flow"
   },
   {
-    "id": "fast-note-sync",
-    "name": "Fast Note Sync",
-    "author": "haierkeys",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Privately deployable real-time multi-device note synchronization, supporting desktop and mobile devices.",
-    "repo": "haierkeys/obsidian-fast-note-sync"
-  },
-  {
     "id": "windows-file-explorer-links",
     "name": "Open in File Explorer",
     "author": "disciple-dev",
@@ -22804,6 +22846,13 @@
     "author": "mahiron47",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Replaces black color with white in SVG rendered from LaTeX for dark mode compatibility.",
     "repo": "mahiron47/svg-color-replacer"
+  },
+  {
+    "id": "korean-grammar-assistant",
+    "name": "Korean Grammar Assistant",
+    "author": "hyungyunlim",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Korean grammar and spelling checker with real-time inline editing (BETA) and AI-powered suggestions. Features modular architecture and mobile optimization.",
+    "repo": "hyungyunlim/obsidian-korean-grammar-assistant"
   },
   {
     "id": "feed-bases",
@@ -23205,6 +23254,13 @@
     "repo": "dodgydave/kian-obsidian-tweaks"
   },
   {
+    "id": "notion-block",
+    "name": "Notion block",
+    "author": "bcs1037",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Notion-like block interactions for Live Preview.",
+    "repo": "bcs1037/notion-block"
+  },
+  {
     "id": "copy-linked-file",
     "name": "Copy Linked File",
     "author": "flutterspike",
@@ -23590,13 +23646,6 @@
     "repo": "ninglg/light-mindmap"
   },
   {
-    "id": "zotero-citations",
-    "name": "Zotero Citations",
-    "author": "westerngua",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Zotero citation management with Word export via Pandoc.",
-    "repo": "westerngua/obsidian-zotero-citations"
-  },
-  {
     "id": "clear-unused-images-plus",
     "name": "Clear Unused Images Plus",
     "author": "puhhh",
@@ -23676,8 +23725,8 @@
   {
     "id": "task-center",
     "name": "Task Center",
-    "author": "correctroadh",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Task Center have Weekly and Month View and custom Query Panel build Omnifoucs in Obsidian.",
+    "author": "correctroad",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Task Center adds weekly and monthly task views, custom query panels, and OmniFocus-style planning to Obsidian. and AI-friendly CLI support.",
     "repo": "correctroadh/obsidian-task-center"
   },
   {
@@ -24171,6 +24220,13 @@
     "repo": "nellowtcs/Obsidian-IroView"
   },
   {
+    "id": "rpg-dice-roller",
+    "name": "RPG Dice Roller",
+    "author": "Miłosz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Build RPG dice roll commands with d20 syntax for Discord and Roll20. Create formulas visually with advantage/disadvantage support.",
+    "repo": "butterski/obsidian-rpg-dice-roller"
+  },
+  {
     "id": "daily-nav",
     "name": "Daily Nav",
     "author": "kuboon",
@@ -24220,6 +24276,20 @@
     "repo": "avinashkanaujiya/obsidian-agentic-note-references"
   },
   {
+    "id": "note-type",
+    "name": "Note Type",
+    "author": "koishiiko",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Assign type to your notes and quickly switch between them.",
+    "repo": "koishiiko/obsidian-note-type"
+  },
+  {
+    "id": "lineref-copier",
+    "name": "LineRef Copier",
+    "author": "neves007",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Copy AI-friendly Markdown location indexes as file path plus line number.",
+    "repo": "neves007/line-ref-copier"
+  },
+  {
     "id": "karpathywiki",
     "name": "Karpathy LLM Wiki",
     "author": "Greener-Dalii",
@@ -24232,5 +24302,40 @@
     "author": "o1xhack",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your Trakt.tv watchlist, watch history, favorites, and ratings into Markdown notes — with metadata localization and detailed per-episode watch timestamps.",
     "repo": "o1xhack/obsidian-sync-trakt"
+  },
+  {
+    "id": "realclaudian",
+    "name": "Claudian",
+    "author": "Yishen Tu",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Embeds Claude Code/Codex as an AI collaborator in your vault. Your vault becomes agent's working directory, giving it full agentic capabilities: file read/write, search, bash commands, and multi-step workflows.",
+    "repo": "yishentu/claudian"
+  },
+  {
+    "id": "ima-copilot-sync",
+    "name": "ima.copilot Sync",
+    "author": "chenxiccc",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync notes from IMA personal knowledge base to Obsidian",
+    "repo": "chenxiccc/obsidian-ima.copilot-sync"
+  },
+  {
+    "id": "daily-note-plus",
+    "name": "Daily Note Plus",
+    "author": "o1xhack",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically creates missing daily notes",
+    "repo": "o1xhack/obsidian-daily-note-plus"
+  },
+  {
+    "id": "inbox-zero",
+    "name": "Inbox Zero",
+    "author": "yuzameone",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Dynamic checklists: tag files with #tags, view them as checkboxes in your notes, and delete them permanently with one click. Drag-and-drop ordering preserved across sessions. Keep your vault clean",
+    "repo": "yuzameone/Inbox-Zero"
+  },
+  {
+    "id": "phantom-cipher",
+    "name": "PhantomCipher",
+    "author": "Lumingtianze",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A high-performance transparent full-database encryption scheme based on Argon2id + AES-GCM.",
+    "repo": "lumingtianze/obsidian-phantom-cipher"
   }
 ]
