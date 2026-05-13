@@ -2431,7 +2431,7 @@
   {
     "id": "obsidian-theme-design-utilities",
     "name": "Theme Design Utilities",
-    "author": "chrisgrieser",
+    "author": "Chris Grieser",
     "description": "Some utilities and quality-of-life features for designers of Obsidian themes.",
     "repo": "chrisgrieser/obsidian-theme-design-utilities"
   },
@@ -3950,7 +3950,7 @@
   {
     "id": "new-tab-default-page",
     "name": "Default New Tab Page",
-    "author": "chrisgrieser",
+    "author": "Chris Grieser",
     "description": "Open a note of your choice when creating a new tab, like in the browser.",
     "repo": "chrisgrieser/new-tab-default-page"
   },
@@ -5217,7 +5217,7 @@
   {
     "id": "grappling-hook",
     "name": "Grappling Hook",
-    "author": "chrisgrieser",
+    "author": "Chris Grieser",
     "description": "Blazingly fast file switching to bookmarked files. For people for whom using the Quick Switcher still takes too much time.",
     "repo": "chrisgrieser/grappling-hook"
   },
@@ -10026,7 +10026,7 @@
   {
     "id": "quadro",
     "name": "Quadro",
-    "author": "chrisgrieser",
+    "author": "Chris Grieser",
     "description": "Qualitative Data Analysis (QDA) for social scientists. An open alternative to MAXQDA and atlas.ti, using Markdown to store data and research codes.",
     "repo": "chrisgrieser/obsidian-quadro"
   },
@@ -12463,7 +12463,7 @@
     "id": "infranodus-graph-view",
     "name": "InfraNodus AI Graph View",
     "author": "noduslabs",
-    "description": "Interactive 3D graph view: text analysis, topic modeling, gap detection, and AI. (Closed source)",
+    "description": "Interactive 3D graph view: text analysis, topic modeling, gap detection, and AI.",
     "repo": "noduslabs/infranodus-obsidian-plugin"
   },
   {
@@ -16382,7 +16382,7 @@
   {
     "id": "proofreader",
     "name": "Proofreader",
-    "author": "chrisgrieser",
+    "author": "Chris Grieser",
     "description": "AI-based proofreading and stylistic improvements for your writing. Changes are inserted as suggestions directly in the editor, similar to suggested changes in word processing apps.",
     "repo": "chrisgrieser/obsidian-proofreader"
   },
@@ -19558,6 +19558,13 @@
     "repo": "30jannik06/Obsidian-Presence"
   },
   {
+    "id": "vaultprune",
+    "name": "VaultPrune - Unused Attachment Cleaner",
+    "author": "barisdincer",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Scan your vault for attachments that are no longer referenced and review them before moving them to trash.",
+    "repo": "barisdincer/VaultPrune"
+  },
+  {
     "id": "folio",
     "name": "Folio",
     "author": "danigarvire",
@@ -19619,6 +19626,13 @@
     "author": "martinlegend",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Lightweight Google Drive sync with path-based index, conflict detection, and Smart/Push/Pull modes.",
     "repo": "martinlegend/neogdsync"
+  },
+  {
+    "id": "alipan-sync",
+    "name": "Alipan Sync",
+    "author": "nowszhao",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault with Alipan (Alibaba Cloud Drive).",
+    "repo": "nowszhao/obsidian-alipan-sync"
   },
   {
     "id": "video-notes",
@@ -19994,7 +20008,7 @@
   {
     "id": "replace-commands",
     "name": "Replace Commands",
-    "author": "Eric L",
+    "author": "Eric Lowry",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Preconfigure custom search and replace actions using plain text or regex to quickly modify selections or documents.",
     "repo": "elowry/obsidian-replace-commands"
   },
@@ -20113,7 +20127,7 @@
   {
     "id": "webdav-sync",
     "name": "WebDAV Sync",
-    "author": "hesprs",
+    "author": "Hēsperus",
     "description": "This plugin has not been manually reviewed by Obsidian staff. General-purpose & bidirectional WebDAV syncing for your vault. Designed for stability and robust file handling without vendor lock-in.",
     "repo": "hesprs/obsidian-webdav-sync"
   },
@@ -22036,6 +22050,13 @@
     "repo": "chaosnino/obsidian-paragraph-copy"
   },
   {
+    "id": "bulk-tag-manager",
+    "name": "Bulk Tag Manager",
+    "author": "ducktapekiller",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Bulk convert all tags in your vault to lowercase, verify stats, and generate tag lists.",
+    "repo": "ducktapekiller/obsidian-bulk-tag-manager"
+  },
+  {
     "id": "reader-highlighter-tags",
     "name": "Reader Highlighter Tags",
     "author": "ducktapekiller",
@@ -22083,6 +22104,13 @@
     "author": "orenaksakal",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Natural language calculator with unit conversions, currencies, dates, and more.",
     "repo": "orenaksakal/valnotecom-obsidian-plugin"
+  },
+  {
+    "id": "universal-cursor-hotkeys",
+    "name": "Universal Cursor Hotkeys",
+    "author": "shichishima",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Obsidian plugin for macOS / Emacs style cursor navigation (Ctrl+PNBF/AE) and Kill & Yank (Ctrl+KY) with full Markdown table support.",
+    "repo": "shichishima/obsidian-universal-cursor-hotkeys"
   },
   {
     "id": "notetabs",
@@ -22286,6 +22314,13 @@
     "author": "yy",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Render yearly calendar views with events marked and color-coded.",
     "repo": "yy/obsidian-year-glance"
+  },
+  {
+    "id": "youtube-transcript-fetcher",
+    "name": "YouTube transcript fetcher",
+    "author": "Leif Jantzen",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Fetch, clean and embed YouTube video transcripts in your notes.",
+    "repo": "ljantzen/obsidian-youtube-transcript"
   },
   {
     "id": "folder-new-note-button",
@@ -23252,6 +23287,13 @@
     "author": "banisterious",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A full creative writing workflow: project creation, scene management, and manuscript compilation with frontmatter-native data and Bases compatibility.",
     "repo": "banisterious/obsidian-draft-bench"
+  },
+  {
+    "id": "getnote-importer",
+    "name": "GetNote Importer",
+    "author": "andyzhengyan",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync notes, links, recordings, and AI summaries from GetNote into your local vault.",
+    "repo": "andyzhengyan/obsidian-getnote-importer"
   },
   {
     "id": "ok-standby-jukebox",
@@ -24297,13 +24339,6 @@
     "repo": "bryanmanio/obsidian-lexophile"
   },
   {
-    "id": "ai-model-workbench",
-    "name": "AI Model Workbench",
-    "author": "flash555588",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Turn 3D models into linked knowledge assets.",
-    "repo": "flash555588/ai-model-workbench"
-  },
-  {
     "id": "multimuse-tracker",
     "name": "Multimuse Tracker",
     "author": "teaos",
@@ -24402,6 +24437,13 @@
     "repo": "avinashkanaujiya/obsidian-agentic-note-references"
   },
   {
+    "id": "horme",
+    "name": "Horme",
+    "author": "ducktapekiller",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered assistant with chat, right-click actions, vault-wide RAG, and an extensible skill system. Supports Ollama, Claude, Gemini, OpenAI, Groq, OpenRouter, and LM Studio.",
+    "repo": "ducktapekiller/horme"
+  },
+  {
     "id": "note-type",
     "name": "Note Type",
     "author": "koishiiko",
@@ -24458,6 +24500,13 @@
     "repo": "yuzameone/Inbox-Zero"
   },
   {
+    "id": "phantom-cipher",
+    "name": "PhantomCipher",
+    "author": "Lumingtianze",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A high-performance transparent full-database encryption scheme based on Argon2id + AES-GCM.",
+    "repo": "lumingtianze/obsidian-phantom-cipher"
+  },
+  {
     "id": "ozsync",
     "name": "OZSync",
     "author": "atopos31",
@@ -24472,6 +24521,13 @@
     "repo": "rogerdigital/document-exporter"
   },
   {
+    "id": "buttons-panel",
+    "name": "Buttons Panel",
+    "author": "Kevin",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create customizable button panels for quick access to files, commands, links, and scripts.",
+    "repo": "tracingorigins/obsidian-buttons-panel-plugin"
+  },
+  {
     "id": "local-graph-tag-links",
     "name": "Local Graph Tag Links",
     "author": "Lumyo",
@@ -24484,5 +24540,40 @@
     "author": "exusiaiwei",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Enhanced Memos sync plugin with emoji timeline and List Callout format support. Features intelligent sync, visual enhancements, and i18n support.",
     "repo": "exusiaiwei/yet-another-memos-sync"
+  },
+  {
+    "id": "pdf-font-rewriter",
+    "name": "PDF Font Rewriter",
+    "author": "Tianchen Hao",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Rewrite safely replaceable PDF text into a selected font from inside Obsidian.",
+    "repo": "alexandert142/pdf-font-rewriter"
+  },
+  {
+    "id": "live-preview",
+    "name": "Live Preview",
+    "author": "HxGuang",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Live HTML preview with local HTTP server and auto-reload, like VSCode Live Preview.",
+    "repo": "hxwguang/obsidian-live-preview"
+  },
+  {
+    "id": "beautiful-mermaid-renderer",
+    "name": "Beautiful Mermaid Renderer",
+    "author": "qiaoborui",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render Mermaid diagrams with beautiful-mermaid SVG output and theme variables.",
+    "repo": "qiaoborui/obsidian-beautiful-mermaid"
+  },
+  {
+    "id": "zulu-agent",
+    "name": "Zulu Agent",
+    "author": "foundlegacy",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Fully native Agentic AI for Obsidian.md, no terminal/external tools required.",
+    "repo": "foundlegacy/zulu-agent"
+  },
+  {
+    "id": "base-backlinks-viewer",
+    "name": "Base Backlinks Viewer",
+    "author": "Lumyo",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Right-click any link to open a temporary base showing all files that link to it.",
+    "repo": "lumyo/obsidian-base-backlinks-viewer"
   }
 ]
