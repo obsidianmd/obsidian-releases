@@ -19071,7 +19071,7 @@
     "id": "hide-traffic-lights",
     "name": "Hide Traffic Lights",
     "author": "tavva",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Hides macOS traffic light buttons for a distraction-free experience. Hover over the top-left corner to reveal them.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Hides macOS window traffic lights",
     "repo": "tavva/obsidian-plugin-hide-traffic-lights"
   },
   {
@@ -19479,6 +19479,13 @@
     "author": "lucanise-pro",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Chat with Claude about your notes. Works on iOS and iPadOS.",
     "repo": "lucanise-pro/lucanise-vault-assistant"
+  },
+  {
+    "id": "side-bookmark",
+    "name": "Side Bookmark",
+    "author": "bcs",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A sidebar bookmark browser. Browse websites and manage bookmarks right in the sidebar.",
+    "repo": "bcs1037/side-bookmark"
   },
   {
     "id": "move-to-new-folder",
@@ -19987,7 +19994,7 @@
   {
     "id": "replace-commands",
     "name": "Replace Commands",
-    "author": "elowry",
+    "author": "Eric L",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Preconfigure custom search and replace actions using plain text or regex to quickly modify selections or documents.",
     "repo": "elowry/obsidian-replace-commands"
   },
@@ -21639,7 +21646,7 @@
   {
     "id": "smartpick",
     "name": "SmartPick",
-    "author": "bcs1037",
+    "author": "bcs",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Smart text selection toolbar with custom commands and AI features.",
     "repo": "bcs1037/SmartPick"
   },
@@ -22736,6 +22743,13 @@
     "repo": "ebullient/obsidian-prompt-flow"
   },
   {
+    "id": "fast-note-sync",
+    "name": "Fast Note Sync",
+    "author": "HaierKeys",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Privately deployable real-time multi-device note synchronization, supporting desktop and mobile devices.",
+    "repo": "haierkeys/obsidian-fast-note-sync"
+  },
+  {
     "id": "windows-file-explorer-links",
     "name": "Open in File Explorer",
     "author": "disciple-dev",
@@ -23191,6 +23205,20 @@
     "repo": "narwhai/theme-basics"
   },
   {
+    "id": "smart-explorer",
+    "name": "Smart Explorer",
+    "author": "rogerdigital",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. An alternative file explorer with custom sorting, grouping, filtering, and lightweight previews.",
+    "repo": "rogerdigital/smart-explorer"
+  },
+  {
+    "id": "vault-inspector",
+    "name": "Vault Inspector",
+    "author": "rogerdigital",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Scan your vault for maintenance problems: broken links, orphan attachments, duplicate files, frontmatter inconsistencies, unused tags, and large files.",
+    "repo": "rogerdigital/vault-inspector"
+  },
+  {
     "id": "chess-vault",
     "name": "Chess Vault",
     "author": "dun8",
@@ -23305,7 +23333,7 @@
   {
     "id": "notion-block",
     "name": "Notion block",
-    "author": "bcs1037",
+    "author": "bcs",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Notion-like block interactions for Live Preview.",
     "repo": "bcs1037/notion-block"
   },
@@ -24332,6 +24360,13 @@
     "repo": "kuboon/daily-nav"
   },
   {
+    "id": "pseudonymizer-tool",
+    "name": "Pseudonymizer Tool",
+    "author": "Axelle Abbadie",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Pseudonymize and correct interactional transcripts (Jefferson, ICOR, SRT, CHAT/CHA). Designed for qualitative researchers in linguistics and conversation analysis.",
+    "repo": "core-hn/pseudobsidian-ization"
+  },
+  {
     "id": "codex-panel",
     "name": "Codex Panel",
     "author": "murashit",
@@ -24405,7 +24440,7 @@
     "id": "ima-copilot-sync",
     "name": "ima.copilot Sync",
     "author": "chenxiccc",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync notes from IMA personal knowledge base to Obsidian",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync notes&knowledge-base from IMA Obsidian",
     "repo": "chenxiccc/obsidian-ima.copilot-sync"
   },
   {
@@ -24423,13 +24458,6 @@
     "repo": "yuzameone/Inbox-Zero"
   },
   {
-    "id": "phantom-cipher",
-    "name": "PhantomCipher",
-    "author": "Lumingtianze",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A high-performance transparent full-database encryption scheme based on Argon2id + AES-GCM.",
-    "repo": "lumingtianze/obsidian-phantom-cipher"
-  },
-  {
     "id": "ozsync",
     "name": "OZSync",
     "author": "atopos31",
@@ -24437,10 +24465,24 @@
     "repo": "atopos31/OZSync"
   },
   {
-    "id": "buttons-panel",
-    "name": "Buttons Panel",
-    "author": "Kevin",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Create customizable button panels for quick access to files, commands, links, and scripts.",
-    "repo": "tracingorigins/obsidian-buttons-panel-plugin"
+    "id": "document-exporter",
+    "name": "Document Exporter",
+    "author": "rogerdigital",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Export notes, folders, and query results into Markdown bundles, HTML documents, and print-ready exports.",
+    "repo": "rogerdigital/document-exporter"
+  },
+  {
+    "id": "local-graph-tag-links",
+    "name": "Local Graph Tag Links",
+    "author": "Lumyo",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Make the local graph show all notes connected through shared tags.",
+    "repo": "lumyo/obsidian-local-graph-tag-links"
+  },
+  {
+    "id": "yet-another-memos-sync",
+    "name": "Yet Another Memos Sync",
+    "author": "exusiaiwei",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Enhanced Memos sync plugin with emoji timeline and List Callout format support. Features intelligent sync, visual enhancements, and i18n support.",
+    "repo": "exusiaiwei/yet-another-memos-sync"
   }
 ]
