@@ -3348,7 +3348,7 @@
   {
     "id": "omnisearch",
     "name": "Omnisearch",
-    "author": "scambier",
+    "author": "Simon Cambier",
     "description": "Intelligent search for your notes, PDFs, and OCR for images.",
     "repo": "scambier/obsidian-omnisearch"
   },
@@ -3859,7 +3859,7 @@
   {
     "id": "no-dupe-leaves",
     "name": "No Dupe Leaves",
-    "author": "scambier",
+    "author": "Simon Cambier",
     "description": "Don't reopen notes that are already open.",
     "repo": "scambier/obsidian-no-dupe-leaves"
   },
@@ -4867,7 +4867,7 @@
   {
     "id": "text-extractor",
     "name": "Text Extractor",
-    "author": "scambier",
+    "author": "Simon Cambier",
     "description": "A (companion) plugin to facilitate the extraction of text from images (OCR) and PDFs.",
     "repo": "scambier/obsidian-text-extractor"
   },
@@ -9432,7 +9432,7 @@
     "id": "reason",
     "name": "Enzyme",
     "author": "jshph",
-    "description": "A REPL to digest your thoughts",
+    "description": "A chat agent that actually knows the ideas in your Obsidian vault.",
     "repo": "jshph/obsidian-enzyme"
   },
   {
@@ -19446,6 +19446,13 @@
     "repo": "bggbtac/obsidian-remark-bridge"
   },
   {
+    "id": "radar",
+    "name": "Radar",
+    "author": "lfcipriani",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Visualize your notes and ideas on a radar. Group them by topic, prioritize by proximity to the center, and keep focus when juggling multiple areas at once.",
+    "repo": "lfcipriani/obsidian-radar"
+  },
+  {
     "id": "slasher",
     "name": "Slasher",
     "author": "binnyva",
@@ -19789,6 +19796,13 @@
     "repo": "redsmite-com/redsmite-sync"
   },
   {
+    "id": "miyo-kado",
+    "name": "MiYo Kado",
+    "author": "Marcus Breiden",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Security-first MCP gateway with default-deny permissions and audit logging.",
+    "repo": "mmomm-org/miyo-kado"
+  },
+  {
     "id": "pebble",
     "name": "Pebble",
     "author": "pedrojreis",
@@ -19969,6 +19983,13 @@
     "author": "tgrrrr",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Outliner-style editing for heading-based Markdown: move, indent, and unindent full sections with keyboard shortcuts.",
     "repo": "tgrrrr/heading-outliner"
+  },
+  {
+    "id": "nexus",
+    "name": "Nexus",
+    "author": "profsynapse",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Agentic AI for your vault. Use Claude, ChatGPT, Gemini, and local models to chat, search, create, and manage your notes with semantic memory, image generation, and MCP server integration.",
+    "repo": "profsynapse/nexus"
   },
   {
     "id": "cockpit-board",
@@ -20410,6 +20431,13 @@
     "author": "optimummost001",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically moves completed tasks to the bottom of their list, 5 seconds after check off.",
     "repo": "optimummost001/move-completed-tasks-down"
+  },
+  {
+    "id": "ttrpg-tools-screen",
+    "name": "TTRPG Tools: Player Screen",
+    "author": "Johannes Schwartz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Send notes, images, PDFs and TTRPG maps to a plain second-screen display window.",
+    "repo": "jareika/ttrpg-tools-screen"
   },
   {
     "id": "arbor-family-tree",
@@ -22514,7 +22542,7 @@
   {
     "id": "quick-bookmarks",
     "name": "Quick Bookmarks",
-    "author": "kieranmansfield",
+    "author": "Kieran Mansfield",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Quickly access bookmarks through a fuzzy search modal.",
     "repo": "kieranmansfield/obsidian-quick-bookmarks"
   },
@@ -22535,7 +22563,7 @@
   {
     "id": "bases-improvements",
     "name": "Bases Improvements",
-    "author": "real1tyy",
+    "author": "Matej Vavro Productivity",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Enhances Bases by adding dynamic search filtering to base code blocks.",
     "repo": "real1tyy/BasesImprovements"
   },
@@ -23457,6 +23485,13 @@
     "repo": "enygma/vault-ai-buddy"
   },
   {
+    "id": "porygon",
+    "name": "Porygon",
+    "author": "iuga",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Turn your notes into a conversation.",
+    "repo": "iuga/obsidian-porygon"
+  },
+  {
     "id": "cjk-cross-search",
     "name": "CJK Cross-Script Search",
     "author": "sai1047976",
@@ -23744,6 +23779,13 @@
     "repo": "nellowtcs/Obsidian-AutoLink"
   },
   {
+    "id": "paperforge",
+    "name": "PaperForge",
+    "author": "lllin000",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. PaperForge — Zotero literature pipeline. Sync PDFs, run OCR, and read with AI-assisted deep reading.",
+    "repo": "lllin000/PaperForge"
+  },
+  {
     "id": "gtdown",
     "name": "GTDown",
     "author": "jonny",
@@ -23896,6 +23938,13 @@
     "author": "mathieubonvaletpro-commits",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically refreshes the file explorer when external sync tools create new files in the vault.",
     "repo": "mathieubonvaletpro-commits/auto-refresh-explorer"
+  },
+  {
+    "id": "lyrio",
+    "name": "Lyrio - Song Helper",
+    "author": "whitte-h",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically synchronize song sections (Chorus, Verse, Bridge, etc.) across your note.",
+    "repo": "whitte-h/Lyrio"
   },
   {
     "id": "alignment",
@@ -24360,6 +24409,13 @@
     "repo": "one-wheeled-driver/obsidian-passport"
   },
   {
+    "id": "journal-bases",
+    "name": "Journal Bases",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Custom Base views for journaling and periodic reviews",
+    "repo": "dsebastien/obsidian-journal-base"
+  },
+  {
     "id": "cloud-kms-encryption",
     "name": "Cloud KMS Encryption",
     "author": "Viktar Mikalayeu",
@@ -24407,6 +24463,13 @@
     "author": "Manex",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Local AI brain for your Obsidian vault. Indexes all your notes and answers questions privately using a local Apple Silicon MLX model — no cloud, no API keys.",
     "repo": "krcnow/manex-brain"
+  },
+  {
+    "id": "ai-wiki",
+    "name": "AI Wiki",
+    "author": "Ilya",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered compoundable knowledge base — extracts, synthesizes and maintains a wiki from raw sources.",
+    "repo": "ikeniborn/obsidian-llm-wiki"
   },
   {
     "id": "copy-highlighter",
@@ -24626,6 +24689,20 @@
     "repo": "qiaoborui/obsidian-beautiful-mermaid"
   },
   {
+    "id": "metrics-lens",
+    "name": "Metrics",
+    "author": "Toto Tvalavadze",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Record, view, and edit metrics in Obsidian in plain text / json files",
+    "repo": "totocaster/metrics-obsidian"
+  },
+  {
+    "id": "vault-tasks-view",
+    "name": "Vault Tasks",
+    "author": "Toto Tvalavadze",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Collects Markdown tasks from every note into a grouped task view.",
+    "repo": "totocaster/vault-tasks-obsidian"
+  },
+  {
     "id": "zulu-agent",
     "name": "Zulu Agent",
     "author": "foundlegacy",
@@ -24652,5 +24729,66 @@
     "author": "caulfieldsbrain",
     "description": "Create, import, and render Shadowdark RPG monster stat blocks.",
     "repo": "caulfieldsbrain/obsidian-shadowdark-statblocks"
+    "id": "lj-os",
+    "name": "LJ OS",
+    "author": "LJ OS",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Standalone local Git activity snapshots for Daily Notes.",
+    "repo": "ljrobinson/obsidian-lj-os-plugin"
+  },
+  {
+    "id": "hide-sidebars",
+    "name": "Hide Sidebars",
+    "author": "Hasan Yılmaz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Enhanced sidebar control with auto-hide mode, dedicated toggle icons, and intuitive controls for independent left and right sidebars.",
+    "repo": "hasanyilmaz/hide-sidebars"
+  },
+  {
+    "id": "zoom-map",
+    "name": "TTRPG Tools: Maps",
+    "author": "Johannes Schwartz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A toolbox for interactive fantasy maps.",
+    "repo": "jareika/zoom-map"
+  },
+  {
+    "id": "ttrpg-soundboard",
+    "name": "TTRPG Tools: Soundboard",
+    "author": "Johannes Schwartz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Soundboard for TTRPG sessions: image tiles (adjustable height), per-title loop/fades, Stop All, root folder + subfolders, plus Playlists (gold tiles with sequential playback).",
+    "repo": "jareika/obsidian-ttrpg-soundboard"
+  },
+  {
+    "id": "sherlockeye-osint",
+    "name": "Sherlockeye OSINT",
+    "author": "p1ngul1n0",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sherlockeye OSINT API integration for automated intelligence gathering",
+    "repo": "p1ngul1n0/obsidian-sherlockeye-plugin"
+  },
+  {
+    "id": "simple-timeline",
+    "name": "TTRPG Tools: Timeline",
+    "author": "Johannes Schwartz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Timeline-Renderer für Calendarium-Frontmatter (fc-date/fc-end). 200×315 Bild, Callout-Stil, native Popover, mobilfreundlich.",
+    "repo": "jareika/Simple-Timeline"
+  },
+  {
+    "id": "ttrpg-tools-time",
+    "name": "TTRPG Tools: Time",
+    "author": "Johannes Schwartz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Fantasy calendar with timeline view.",
+    "repo": "jareika/ttrpg-tools-time"
+  },
+  {
+    "id": "swaggerjson-to-markdown",
+    "name": "Swagger JSON to Markdown",
+    "author": "Oscar Gonzalez Tur",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Convert Swagger/OpenAPI JSON files to Swagger-style Markdown.",
+    "repo": "krontur/obsidian-swaggerjson-to-markdown"
+  },
+  {
+    "id": "aside",
+    "name": "Aside",
+    "author": "vicky469",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Side comments for both humans and agents.",
+    "repo": "vicky469/aside"
   }
 ]
