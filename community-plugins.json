@@ -3033,7 +3033,7 @@
   {
     "id": "waypoint",
     "name": "Waypoint",
-    "author": "idreesinc",
+    "author": "Idrees",
     "description": "Easily generate dynamic MOCs in your folder notes using waypoints. Enables folders to show up in the graph view and removes the need for messy tags!",
     "repo": "idreesinc/Waypoint"
   },
@@ -3110,7 +3110,7 @@
   {
     "id": "obsidian-custom-frames",
     "name": "Custom Frames",
-    "author": "ellpeck",
+    "author": "Ell",
     "description": "Turn web apps into panes using iframes with custom styling. Also comes with presets for Google Keep, Todoist and more.",
     "repo": "ellpeck/ObsidianCustomFrames"
   },
@@ -4041,7 +4041,7 @@
   {
     "id": "simple-time-tracker",
     "name": "Super Simple Time Tracker",
-    "author": "ellpeck",
+    "author": "Ell",
     "description": "Multi-purpose time trackers for your notes.",
     "repo": "ellpeck/ObsidianSimpleTimeTracker"
   },
@@ -7639,7 +7639,7 @@
   {
     "id": "just-share-please",
     "name": "Just Share Please",
-    "author": "ellpeck",
+    "author": "Ell",
     "description": "Quickly and easily share individual notes online using an anonymized link. Also easy to self-host!",
     "repo": "ellpeck/ObsidianJustSharePlease"
   },
@@ -22652,6 +22652,13 @@
     "repo": "matse2005/obsidian-easy-codeblock"
   },
   {
+    "id": "life-tracker",
+    "name": "Life Tracker",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Capture and visualize the data that matters in your life.",
+    "repo": "dsebastien/obsidian-life-tracker-base-view"
+  },
+  {
     "id": "stormlight-icons",
     "name": "Stormlight RPG Icons",
     "author": "eonfuzz",
@@ -22892,7 +22899,7 @@
   {
     "id": "pocket-bird",
     "name": "Pocket Bird",
-    "author": "idreesinc",
+    "author": "Idrees",
     "description": "This plugin has not been manually reviewed by Obsidian staff. The desktop pet for your vault! Adopt a tiny bird that flutters around your notes and keeps you company!",
     "repo": "idreesinc/PB-Obsidian-Releases"
   },
@@ -23007,6 +23014,13 @@
     "author": "mahiron47",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Replaces black color with white in SVG rendered from LaTeX for dark mode compatibility.",
     "repo": "mahiron47/svg-color-replacer"
+  },
+  {
+    "id": "who-is-streaming",
+    "name": "Who Is Streaming",
+    "author": "bobstanton",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Discover and document which streaming services a movie is currently available to be streamed on.",
+    "repo": "bobstanton/obsidian-who-is-streaming"
   },
   {
     "id": "korean-grammar-assistant",
@@ -23364,6 +23378,13 @@
     "author": "andyzhengyan",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync notes, links, recordings, and AI summaries from GetNote into your local vault.",
     "repo": "andyzhengyan/obsidian-getnote-importer"
+  },
+  {
+    "id": "reminder-telegram",
+    "name": "Reminder Telegram",
+    "author": "Lorenzo Strambi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sends Telegram notifications when your tasks reach their deadline.",
+    "repo": "lukather/obsidian-reminder-telegram"
   },
   {
     "id": "ok-standby-jukebox",
@@ -24346,13 +24367,6 @@
     "repo": "4513echo/obsidian-embed-plus"
   },
   {
-    "id": "askmate",
-    "name": "AskMate",
-    "author": "Behnam Ebrahimi",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Ask AI questions about your current Obsidian note or selected text.",
-    "repo": "codewithbehnam/askmate"
-  },
-  {
     "id": "cross-player",
     "name": "Cross Player",
     "author": "Imed Ghomari",
@@ -24391,7 +24405,7 @@
     "id": "html-docs",
     "name": "HTML Docs",
     "author": "Sam",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A minimal zero-depenedency plugin to work with .md AND .html docs in your vault",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A zero-dependency minimal plugin to enable html docs in Obsidian",
     "repo": "smcllns/obsidian-plugin-html-docs"
   },
   {
@@ -24414,6 +24428,27 @@
     "author": "Sébastien Dubois",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Custom Base views for journaling and periodic reviews",
     "repo": "dsebastien/obsidian-journal-base"
+  },
+  {
+    "id": "graph-explorer-base-view",
+    "name": "Graph Explorer Base View",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A custom Obsidian Bases view that renders notes as an interactive force-directed graph with explored/unexplored tracking",
+    "repo": "dsebastien/obsidian-graph-explorer-base-view"
+  },
+  {
+    "id": "hidden-folders-access",
+    "name": "Hidden Folders Access",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Make Obsidian index hidden root-level folders (e.g. .claude) so they appear in the file tree, metadata cache, and Bases.",
+    "repo": "dsebastien/obsidian-hidden-folders-access"
+  },
+  {
+    "id": "digital-garden-timer",
+    "name": "Digital Garden Timer",
+    "author": "Anton",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A focus timer for Obsidian that turns focused minutes into credits for a small digital garden.",
+    "repo": "lucidalpha/digital-garden-obsidian"
   },
   {
     "id": "cloud-kms-encryption",
@@ -24654,6 +24689,13 @@
     "repo": "tracingorigins/obsidian-buttons-panel-plugin"
   },
   {
+    "id": "rubik-cube-algorithms",
+    "name": "Rubik Cube algorithms",
+    "author": "Altarok",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Visualizes Rubik Cube algorithms.",
+    "repo": "altarok/RubikCubeAlgoView"
+  },
+  {
     "id": "local-graph-tag-links",
     "name": "Local Graph Tag Links",
     "author": "Lumyo",
@@ -24787,10 +24829,38 @@
     "repo": "krontur/obsidian-swaggerjson-to-markdown"
   },
   {
+    "id": "chopro-viewer",
+    "name": "ChordPro Viewer",
+    "author": "jheddings",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render ChordPro format code blocks in Obsidian.",
+    "repo": "jheddings/obsidian-chopro"
+  },
+  {
+    "id": "folderize",
+    "name": "Folderize",
+    "author": "jheddings",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Organize your Obsidian attachments automatically.",
+    "repo": "jheddings/obsidian-folderize"
+  },
+  {
     "id": "aside",
     "name": "Aside",
     "author": "vicky469",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Side comments for both humans and agents.",
     "repo": "vicky469/aside"
+  },
+  {
+    "id": "recent-edits",
+    "name": "Recent Edits",
+    "author": "Chris Wagner",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Shows files modified in the last N days, grouped by day. Marks edits made from filesystem writes with a configurable indicator.",
+    "repo": "cwagner223355/obsidian-recent-edits"
+  },
+  {
+    "id": "image-transcriber",
+    "name": "Transcriber",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Transcribe images to markdown using Ollama vision models.",
+    "repo": "dsebastien/obsidian-transcriber"
   }
 ]
