@@ -24815,6 +24815,13 @@
     "repo": "exusiaiwei/yet-another-memos-sync"
   },
   {
+    "id": "git-folder-sync",
+    "name": "Git Folder Sync",
+    "author": "Xheldon",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Synchronize files in your Vault with a specified directory in the designated GitHub repository (rather than the entire repository); send your images to cloud storage services.",
+    "repo": "xheldon/git-folder-sync"
+  },
+  {
     "id": "pdf-font-rewriter",
     "name": "PDF Font Rewriter",
     "author": "Tianchen Hao",
@@ -24990,6 +24997,20 @@
     "repo": "tracingorigins/obsidian-music-player-plugin"
   },
   {
+    "id": "time-machine",
+    "name": "Time Machine",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Browse, compare, and restore previous versions of your notes using built-in file-recovery snapshots.",
+    "repo": "dsebastien/obsidian-time-machine"
+  },
+  {
+    "id": "cli-rest-mcp",
+    "name": "REST and MCP server",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Exposes CLI commands as RESTful API endpoints and an MCP server for AI tool integration.",
+    "repo": "dsebastien/obsidian-cli-rest"
+  },
+  {
     "id": "image-transcriber",
     "name": "Transcriber",
     "author": "Sébastien Dubois",
@@ -25032,6 +25053,13 @@
     "repo": "cwagner223355/knox-timeline"
   },
   {
+    "id": "diary-view",
+    "name": "Diary View",
+    "author": "likemuuxi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A notebook-style diary view built from your Obsidian daily notes.",
+    "repo": "likemuuxi/obsidian-diary-view"
+  },
+  {
     "id": "rtm-sync",
     "name": "RTM Sync",
     "author": "Osamu Kishiyama",
@@ -25044,5 +25072,12 @@
     "author": "OpenAgentMarket",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Run OpenAgent tasks from Obsidian Canvas through a local Codex server and Codex Desktop.",
     "repo": "openagentmarket/openagent-obsidian-plugin"
+  },
+  {
+    "id": "synod",
+    "name": "Synod",
+    "author": "Hamish",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Run a council of LLM value agents over your journal to surface decisions you have not made. Local-first via Ollama, OpenRouter, or any OpenAI-compatible endpoint.",
+    "repo": "slaymish/Synod"
   }
 ]
