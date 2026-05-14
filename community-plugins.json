@@ -22442,13 +22442,6 @@
     "repo": "yy/obsidian-year-glance"
   },
   {
-    "id": "youtube-transcript-fetcher",
-    "name": "YouTube transcript fetcher",
-    "author": "Leif Jantzen",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Fetch, clean and embed YouTube video transcripts in your notes.",
-    "repo": "ljantzen/obsidian-youtube-transcript"
-  },
-  {
     "id": "folder-new-note-button",
     "name": "Folder New Note Button",
     "author": "wuhup",
@@ -23114,6 +23107,13 @@
     "repo": "mahiron47/svg-color-replacer"
   },
   {
+    "id": "who-is-streaming",
+    "name": "Who Is Streaming",
+    "author": "bobstanton",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Discover and document which streaming services a movie is currently available to be streamed on.",
+    "repo": "bobstanton/obsidian-who-is-streaming"
+  },
+  {
     "id": "korean-grammar-assistant",
     "name": "Korean Grammar Assistant",
     "author": "Jun Lim",
@@ -23497,13 +23497,6 @@
     "author": "andyzhengyan",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync notes, links, recordings, and AI summaries from GetNote into your local vault.",
     "repo": "andyzhengyan/obsidian-getnote-importer"
-  },
-  {
-    "id": "reminder-telegram",
-    "name": "Reminder Telegram",
-    "author": "Lorenzo Strambi",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Sends Telegram notifications when your tasks reach their deadline.",
-    "repo": "lukather/obsidian-reminder-telegram"
   },
   {
     "id": "ok-standby-jukebox",
@@ -24857,13 +24850,6 @@
     "repo": "gengyabc/naotu"
   },
   {
-    "id": "document-exporter",
-    "name": "Document Exporter",
-    "author": "rogerdigital",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Export notes, folders, and query results into Markdown bundles, HTML documents, and print-ready exports.",
-    "repo": "rogerdigital/document-exporter"
-  },
-  {
     "id": "buttons-panel",
     "name": "Buttons Panel",
     "author": "Kevin",
@@ -24967,6 +24953,13 @@
     "author": "Jan Sandström",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Export markdown files to Word (docx) with text styling, syntax highlighting, and full mobile support for iOS/Android.",
     "repo": "pixerojan/obsidian-toword"
+  },
+  {
+    "id": "synonym",
+    "name": "Synonym",
+    "author": "Jan Sandström",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Synonyms for Swedish and English words.",
+    "repo": "pixerojan/obsidian-synonym"
   },
   {
     "id": "resizer",
@@ -25079,13 +25072,6 @@
     "author": "Christopher Wagner",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Shows files modified in the last N days, grouped by day. Marks edits made from filesystem writes with a configurable indicator.",
     "repo": "cwagner223355/obsidian-recent-edits"
-  },
-  {
-    "id": "music-player",
-    "name": "Music Player",
-    "author": "Kevin",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Play local music files from the vault in the sidebar.",
-    "repo": "tracingorigins/obsidian-music-player-plugin"
   },
   {
     "id": "time-machine",
@@ -25207,10 +25193,38 @@
     "repo": "akitaroh/obsidian-mermaid-maker"
   },
   {
+    "id": "bangumi-note",
+    "name": "bangumi",
+    "author": "Kuanphough",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync Bangumi collection and episode progress into notes.",
+    "repo": "kuanphough/obsidian-bangumi"
+  },
+  {
     "id": "extension-hub",
     "name": "Extension Hub",
     "author": "Jan Sandström",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Browse GitHub and the community forum to install plugins across multiple vaults simultaneously.",
     "repo": "pixerojan/obsidian-extension-hub"
+  },
+  {
+    "id": "lskypro-auto-upload-enhanced",
+    "name": "Image To Lskypro Enhanced",
+    "author": "zgfdada",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Upload local and remote note images to Lsky Pro with download, context-menu, and progress support",
+    "repo": "zgfdada/lskypro-auto-upload-enhanced"
+  },
+  {
+    "id": "select-to-note",
+    "name": "Select to Note",
+    "author": "TYzzt",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Clip selected browser content into your active note through a local companion extension.",
+    "repo": "tyzzt/select2obsidian"
+  },
+  {
+    "id": "wisemindai-sync",
+    "name": "WiseMindAI Sync",
+    "author": "chris",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. 在本地知识库和 WiseMindAI 之间双向导入、同步笔记、文档和知识库内容.",
+    "repo": "chris8891/wisemindai-sync"
   }
 ]
