@@ -22897,13 +22897,6 @@
     "repo": "ebullient/obsidian-deck-notes"
   },
   {
-    "id": "date-picker",
-    "name": "Date Picker",
-    "author": "rzbin",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Pick dates using a calendar view.",
-    "repo": "rzbin/date-picker"
-  },
-  {
     "id": "lastfm",
     "name": "Last.fm",
     "author": "txoldi",
@@ -23320,7 +23313,7 @@
     "id": "theme-engine",
     "name": "Theme Engine",
     "author": "Yazan Ammar",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Take full control of your workspace with dynamic theme profiles, live overrides, and a powerful customization engine built for complete visual freedom.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Customize Obsidian without touching CSS. Create profiles with colors, snippets, backgrounds, and themes - all managed from one place.",
     "repo": "yazanammar/obsidian-theme-engine"
   },
   {
@@ -23329,6 +23322,13 @@
     "author": "s3ga1ov",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Displays the token count of the active note in the status bar using TikToken",
     "repo": "s3ga1ov/obsidian-tiktoken-tokenizer"
+  },
+  {
+    "id": "astro-composer",
+    "name": "Astro Composer",
+    "author": "David V. Kimball",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Turn your notes into posts and pages for your Astro blog with automated content management features.",
+    "repo": "davidvkimball/obsidian-astro-composer"
   },
   {
     "id": "favorites",
@@ -24899,6 +24899,13 @@
     "repo": "tracingorigins/obsidian-buttons-panel-plugin"
   },
   {
+    "id": "rubik-cube-algorithms",
+    "name": "Rubik Cube algorithms",
+    "author": "Altarok",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Visualizes Rubik Cube algorithms.",
+    "repo": "altarok/RubikCubeAlgoView"
+  },
+  {
     "id": "local-graph-tag-links",
     "name": "Local Graph Tag Links",
     "author": "Lumyo",
@@ -25317,5 +25324,26 @@
     "author": "Davide Aversa",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Render Go/Baduk positions diagrams in note preview.",
     "repo": "thek3nger/obsidian-goban"
+  },
+  {
+    "id": "smart-lookup",
+    "name": "Smart Lookup",
+    "author": "brianpetro",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Semantic search for your vault. Ask in natural language, find notes by meaning when exact words fail, preview matching notes, and turn forgotten ideas into links, context, and next steps.",
+    "repo": "brianpetro/smart-lookup-obsidian"
+  },
+  {
+    "id": "knowledge-overview",
+    "name": "Knowledge Overview",
+    "author": "lingji-yidong",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Generate structured subject overviews using AI.",
+    "repo": "lingji-yidong/obsidian-knowledge-overview"
+  },
+  {
+    "id": "preserve-blank-lines",
+    "name": "Preserve Blank Lines",
+    "author": "Yves Lefebvre",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Preserves consecutive blank lines in reading mode, matching the source 1:1.",
+    "repo": "ivanohe73/obsidian-preserve-blank-lines"
   }
 ]
