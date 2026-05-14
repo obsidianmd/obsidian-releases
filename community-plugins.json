@@ -18139,7 +18139,7 @@
   {
     "id": "todoseq",
     "name": "TODOseq",
-    "author": "scross01",
+    "author": "Stephen Cross",
     "description": "Lightweight keyword-based task tracker using Logseq style keywords.",
     "repo": "scross01/obsidian-todoseq"
   },
@@ -19239,7 +19239,7 @@
     "id": "canvas-loom",
     "name": "Canvas Loom",
     "author": "woxin667",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Add functionality to the Canvas for merging, splitting, copying content, and adding markers.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. 为画布添加合并、拆分、复制内容及添加标记的功能。（Add functionality to the Canvas for merging, splitting, copying content, and adding markers.）",
     "repo": "woxin667/Canvas-Loom"
   },
   {
@@ -22676,7 +22676,7 @@
     "id": "notehelper",
     "name": "Wechat Note Helper",
     "author": "beijing-bijitongbu",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. 微信发消息，Obsidian收，便捷的将微信里看到的内容同步到自己的Obsidian笔记本中。支持文字消息、图片、聊天记录、语音（转文字）、支持公众号文字、小红书、小绿书、知乎、X等常见平台的链接，还支持把视频交给AI 整理成图文笔记",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync messages from Wechat into your vault.",
     "repo": "notesynchelper/obsidian-notehelper"
   },
   {
@@ -22995,6 +22995,13 @@
     "repo": "tailormade-eu/obsidian-task-export-plugin"
   },
   {
+    "id": "snipd-official",
+    "name": "Snipd Official",
+    "author": "snipd-app",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync Snipd podcast highlights to your vault with transcript, notes, AI summaries and metadata.",
+    "repo": "snipd-app/snipd-obsidian"
+  },
+  {
     "id": "bytegrid",
     "name": "ByteGrid",
     "author": "waaraawa",
@@ -23107,13 +23114,6 @@
     "repo": "mahiron47/svg-color-replacer"
   },
   {
-    "id": "who-is-streaming",
-    "name": "Who Is Streaming",
-    "author": "bobstanton",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Discover and document which streaming services a movie is currently available to be streamed on.",
-    "repo": "bobstanton/obsidian-who-is-streaming"
-  },
-  {
     "id": "korean-grammar-assistant",
     "name": "Korean Grammar Assistant",
     "author": "Jun Lim",
@@ -23217,6 +23217,13 @@
     "author": "alexkucera",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Add bookmarks to your notes for quick navigation. Click the bookmark icon in the note header to set a bookmark, click again to jump back to it.",
     "repo": "alexkucera/bookmark"
+  },
+  {
+    "id": "style-tags-in-search-results",
+    "name": "Style Tags in Search Results",
+    "author": "fanis",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Decorates tags in search results with a CSS class. Optionally it one-click hides them using injected CSS.",
+    "repo": "fanis/obsidian-style-tags-in-search-results"
   },
   {
     "id": "calendar-period-week-notes",
@@ -23746,7 +23753,7 @@
   {
     "id": "omnifocus-task-sync",
     "name": "OmniFocus Task Sync",
-    "author": "jimmitchell",
+    "author": "Jim Mitchell",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Send uncompleted tasks from the active note to your OmniFocus inbox, then mark them complete in the editor.",
     "repo": "jimmitchell/tasks-to-omnifocus"
   },
@@ -24895,7 +24902,7 @@
     "id": "pdf-font-rewriter",
     "name": "PDF Font Rewriter",
     "author": "Tianchen Hao",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Rewrite safely replaceable PDF text into a selected font from inside Obsidian.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Live-refont PDFs as you scroll, or export safely rewritten pages in a chosen font with local processing and backups.",
     "repo": "alexandert142/pdf-font-rewriter"
   },
   {
@@ -24962,11 +24969,11 @@
     "repo": "pixerojan/obsidian-toword"
   },
   {
-    "id": "synonym",
-    "name": "Synonym",
+    "id": "resizer",
+    "name": "Resizer",
     "author": "Jan Sandström",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Synonyms for Swedish and English words.",
-    "repo": "pixerojan/obsidian-synonym"
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Resize embedded images and PDFs by dragging corners. Automatically updates markdown with correct dimensions.",
+    "repo": "pixerojan/obsidian-resizer"
   },
   {
     "id": "indent",
@@ -25072,6 +25079,13 @@
     "author": "Christopher Wagner",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Shows files modified in the last N days, grouped by day. Marks edits made from filesystem writes with a configurable indicator.",
     "repo": "cwagner223355/obsidian-recent-edits"
+  },
+  {
+    "id": "music-player",
+    "name": "Music Player",
+    "author": "Kevin",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Play local music files from the vault in the sidebar.",
+    "repo": "tracingorigins/obsidian-music-player-plugin"
   },
   {
     "id": "time-machine",
@@ -25191,5 +25205,12 @@
     "author": "akitaroh",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Inline GUI editor for Mermaid diagrams. Wikilinks, tags, math and rich markdown work inside nodes.",
     "repo": "akitaroh/obsidian-mermaid-maker"
+  },
+  {
+    "id": "extension-hub",
+    "name": "Extension Hub",
+    "author": "Jan Sandström",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Browse GitHub and the community forum to install plugins across multiple vaults simultaneously.",
+    "repo": "pixerojan/obsidian-extension-hub"
   }
 ]
