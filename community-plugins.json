@@ -8648,7 +8648,7 @@
     "id": "ical",
     "name": "iCal",
     "author": "andrewbrereton",
-    "description": "Scan your vault for tasks that contain dates. Create an iCalendar file and store it in your vault or on Gist. You can then show this calendar in any iCal-compatible client such as Outlook, Google Calendar, Apple Calendar, etc.",
+    "description": "Scan your vault for tasks that contain dates. Create an iCalendar file and store it in your vault or on Gist. You can then show this calendar in your Outlook, Google Calendar, Apple Calender, etc",
     "repo": "andrewbrereton/obsidian-to-ical-plugin"
   },
   {
@@ -19537,6 +19537,13 @@
     "repo": "zh-xx/rosypilot"
   },
   {
+    "id": "canvas-export",
+    "name": "Canvas Export",
+    "author": "rmoff",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Export canvas files to HTML, Excalidraw, Mermaid, D2, and PDF.",
+    "repo": "rmoff/obsidian-canvas-export"
+  },
+  {
     "id": "llm-wiki",
     "name": "LLM Wiki",
     "author": "enduserlab",
@@ -20566,6 +20573,13 @@
     "repo": "zhoulianglen/obsidian-timestamp-player"
   },
   {
+    "id": "sfb-better-search-and-replace",
+    "name": "Better Search and Replace",
+    "author": "saltyfireball",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Enhanced search and replace with regex support, live diff preview, capture groups, and a floating editor bar.",
+    "repo": "saltyfireball/obsidian-better-search-and-replace"
+  },
+  {
     "id": "calendarplanner",
     "name": "CalendarPlanner",
     "author": "lykaunn",
@@ -21432,6 +21446,13 @@
     "author": "jetrica",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create word cloud from your words with random sizes, colors, and orientations. Click on word to center it and redistribute others!",
     "repo": "jetrica/obsidian-word-cloud"
+  },
+  {
+    "id": "mindelixir-mindmap",
+    "name": "Mind Elixir Mind Map",
+    "author": "ssshooter",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A mind map plugin powered by Mind Elixir.",
+    "repo": "ssshooter/obsidian-mindmap"
   },
   {
     "id": "hide-tags",
@@ -22652,6 +22673,13 @@
     "repo": "oneautumnmango/run-script-on-property-edit"
   },
   {
+    "id": "notehelper",
+    "name": "Wechat Note Helper",
+    "author": "beijing-bijitongbu",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. 微信发消息，Obsidian收，便捷的将微信里看到的内容同步到自己的Obsidian笔记本中。支持文字消息、图片、聊天记录、语音（转文字）、支持公众号文字、小红书、小绿书、知乎、X等常见平台的链接，还支持把视频交给AI 整理成图文笔记",
+    "repo": "notesynchelper/obsidian-notehelper"
+  },
+  {
     "id": "saloon",
     "name": "Saloon",
     "author": "collierking",
@@ -23168,13 +23196,6 @@
     "author": "alexkucera",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Add bookmarks to your notes for quick navigation. Click the bookmark icon in the note header to set a bookmark, click again to jump back to it.",
     "repo": "alexkucera/bookmark"
-  },
-  {
-    "id": "style-tags-in-search-results",
-    "name": "Style Tags in Search Results",
-    "author": "fanis",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Decorates tags in search results with a CSS class. Optionally it one-click hides them using injected CSS.",
-    "repo": "fanis/obsidian-style-tags-in-search-results"
   },
   {
     "id": "calendar-period-week-notes",
@@ -23700,6 +23721,13 @@
     "author": "jimmitchell",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Send uncompleted tasks from the active note to your OmniFocus inbox, then mark them complete in the editor.",
     "repo": "jimmitchell/tasks-to-omnifocus"
+  },
+  {
+    "id": "cashlog",
+    "name": "cashlog",
+    "author": "uuq007",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. 个人记账插件，支持多账户、转账、标签分类、查询语法、预算目标及图表可视化。 | A personal finance plugin with multi-account, transfers, tag categorization, query syntax, budgets, goals, and chart visualization.",
+    "repo": "uuq007/obsidian-cashlog"
   },
   {
     "id": "scholar-sidekick",
@@ -24878,6 +24906,13 @@
     "repo": "merrier/obsidian-blog-bridge"
   },
   {
+    "id": "storyline",
+    "name": "StoryLine",
+    "author": "Jan Sandström",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Transform your vault into a powerful book planning and writing tool. Corkboard,KanbanBoard view, timeline, plotlines,character tracking, and more.",
+    "repo": "pixerojan/obsidian-storyline"
+  },
+  {
     "id": "indent",
     "name": "Indent",
     "author": "Jan Sandström",
@@ -24904,13 +24939,6 @@
     "author": "Hasan Yılmaz",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Enhanced sidebar control with auto-hide mode, dedicated toggle icons, and intuitive controls for independent left and right sidebars.",
     "repo": "hasanyilmaz/hide-sidebars"
-  },
-  {
-    "id": "threed-embeds",
-    "name": "Embed 3D",
-    "author": "elmoneedsarson",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Embed and View local 3D models in your notes. Supports STL, GLB, OBJ+MTL, FBX, and 3MF file formats with full 3D scene customization",
-    "repo": "elmoneedsarson/Obsidian-3D-embed"
   },
   {
     "id": "zoom-map",
@@ -25011,6 +25039,13 @@
     "repo": "dsebastien/obsidian-cli-rest"
   },
   {
+    "id": "expander",
+    "name": "Expander",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Replace variables across your vault using HTML comment markers. Supports static values and dynamic functions.",
+    "repo": "dsebastien/obsidian-expander"
+  },
+  {
     "id": "image-transcriber",
     "name": "Transcriber",
     "author": "Sébastien Dubois",
@@ -25053,10 +25088,17 @@
     "repo": "cwagner223355/knox-timeline"
   },
   {
+    "id": "nodian",
+    "name": "Nodian",
+    "author": "Aki",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. YAML bidirectional relation — automatically sync backlinks in frontmatter fields.",
+    "repo": "akisantin/Nodian"
+  },
+  {
     "id": "diary-view",
     "name": "Diary View",
     "author": "likemuuxi",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A notebook-style diary view built from your Obsidian daily notes.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A notebook-style diary view built from your daily notes.",
     "repo": "likemuuxi/obsidian-diary-view"
   },
   {
@@ -25079,5 +25121,19 @@
     "author": "Hamish",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Run a council of LLM value agents over your journal to surface decisions you have not made. Local-first via Ollama, OpenRouter, or any OpenAI-compatible endpoint.",
     "repo": "slaymish/Synod"
+  },
+  {
+    "id": "track-changes",
+    "name": "Track Changes",
+    "author": "philphilphil",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Review CriticMarkup suggestions in a side panel. Accept, reject, or reply.",
+    "repo": "philphilphil/obsidian-track-changes"
+  },
+  {
+    "id": "odaily",
+    "name": "Odaily",
+    "author": "guchang",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A schedule-focused Obsidian plugin for capturing ideas, managing notes and tasks, and boosting personal productivity.",
+    "repo": "guchang/Odaily-Plugin"
   }
 ]
