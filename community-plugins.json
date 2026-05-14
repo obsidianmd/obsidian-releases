@@ -19239,7 +19239,7 @@
     "id": "canvas-loom",
     "name": "Canvas Loom",
     "author": "woxin667",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. 为画布添加合并、拆分、复制内容及添加标记的功能。（Add functionality to the Canvas for merging, splitting, copying content, and adding markers.）",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Add functionality to the Canvas for merging, splitting, copying content, and adding markers.",
     "repo": "woxin667/Canvas-Loom"
   },
   {
@@ -22442,6 +22442,13 @@
     "repo": "yy/obsidian-year-glance"
   },
   {
+    "id": "youtube-transcript-fetcher",
+    "name": "YouTube transcript fetcher",
+    "author": "Leif Jantzen",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Fetch, clean and embed YouTube video transcripts in your notes.",
+    "repo": "ljantzen/obsidian-youtube-transcript"
+  },
+  {
     "id": "folder-new-note-button",
     "name": "Folder New Note Button",
     "author": "wuhup",
@@ -22928,7 +22935,7 @@
     "id": "fast-note-sync",
     "name": "Fast Note Sync",
     "author": "HaierKeys",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Privately deployable real-time multi-device note synchronization, supporting desktop and mobile devices.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Real-time sync of your vaults across server, mobile, and web; shareable with anyone; supports REST and MCP integrations to build your personal AI knowledge base.",
     "repo": "haierkeys/obsidian-fast-note-sync"
   },
   {
@@ -23499,6 +23506,13 @@
     "repo": "andyzhengyan/obsidian-getnote-importer"
   },
   {
+    "id": "reminder-telegram",
+    "name": "Reminder Telegram",
+    "author": "Lorenzo Strambi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sends Telegram notifications when your tasks reach their deadline.",
+    "repo": "lukather/obsidian-reminder-telegram"
+  },
+  {
     "id": "ok-standby-jukebox",
     "name": "OK Standby Jukebox",
     "author": "aul-dox",
@@ -23754,7 +23768,7 @@
     "id": "cashlog",
     "name": "cashlog",
     "author": "uuq007",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. 个人记账插件，支持多账户、转账、标签分类、查询语法、预算目标及图表可视化。 | A personal finance plugin with multi-account, transfers, tag categorization, query syntax, budgets, goals, and chart visualization.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A personal finance plugin with multi-account, transfers, tag categorization, query syntax, budgets, goals, and chart visualization.",
     "repo": "uuq007/obsidian-cashlog"
   },
   {
@@ -24836,6 +24850,13 @@
     "repo": "lumingtianze/obsidian-phantom-cipher"
   },
   {
+    "id": "update-title-on-rename",
+    "name": "Update Title on Rename",
+    "author": "fz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically keep your frontmatter title in sync when renaming files, updating it to match the new filename while preserving any custom titles you've set.",
+    "repo": "r3fuze/obsidian-update-title-on-rename"
+  },
+  {
     "id": "ozsync",
     "name": "OZSync",
     "author": "atopos31",
@@ -24995,6 +25016,20 @@
     "author": "Hasan Yılmaz",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Enhanced sidebar control with auto-hide mode, dedicated toggle icons, and intuitive controls for independent left and right sidebars.",
     "repo": "hasanyilmaz/hide-sidebars"
+  },
+  {
+    "id": "lang-plus",
+    "name": "i18n+",
+    "author": "dangehub",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage translations for plugins with hot-reload support and crowdsourced dictionaries.",
+    "repo": "open-obsidian-i18n/i18n-plus"
+  },
+  {
+    "id": "threed-embeds",
+    "name": "Embed 3D",
+    "author": "elmoneedsarson",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Embed and View local 3D models in your notes. Supports STL, GLB, OBJ+MTL, FBX, and 3MF file formats with full 3D scene customization",
+    "repo": "elmoneedsarson/Obsidian-3D-embed"
   },
   {
     "id": "zoom-map",
@@ -25179,13 +25214,6 @@
     "repo": "philphilphil/obsidian-track-changes"
   },
   {
-    "id": "odaily",
-    "name": "Odaily",
-    "author": "guchang",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A schedule-focused Obsidian plugin for capturing ideas, managing notes and tasks, and boosting personal productivity.",
-    "repo": "guchang/Odaily-Plugin"
-  },
-  {
     "id": "mermaid-maker",
     "name": "MermaidMaker",
     "author": "akitaroh",
@@ -25224,7 +25252,14 @@
     "id": "wisemindai-sync",
     "name": "WiseMindAI Sync",
     "author": "chris",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. 在本地知识库和 WiseMindAI 之间双向导入、同步笔记、文档和知识库内容.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Bi-directionally import and synchronize notes, documents, and knowledge base content between your local knowledge base and WiseMindAI.",
     "repo": "chris8891/wisemindai-sync"
+  },
+  {
+    "id": "writers-alembic",
+    "name": "Writers Alembic",
+    "author": "Scott E. Detweiler",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sane AI writing workflow tool. Workflows live in your vault as Markdown files — edit, share, and run them on any note.",
+    "repo": "sedetweiler/obsidian-alembic"
   }
 ]
