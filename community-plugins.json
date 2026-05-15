@@ -274,7 +274,7 @@
   },
   {
     "id": "obsidian-youglish-plugin",
-    "name": "Youglish",
+    "name": "Youglish Plugin",
     "author": "nhaouari",
     "description": "Use YouTube to improve your pronunciation. YouGlish gives you fast, unbiased answers about how words is spoken by real people and in context.",
     "repo": "nhaouari/obsidian-youglish-plugin"
@@ -302,7 +302,7 @@
   },
   {
     "id": "obsidian-fullscreen-plugin",
-    "name": "Fullscreen Focus Mode",
+    "name": "Fullscreen mode plugin",
     "author": "razumihin",
     "description": "Add a command to view a single document leaf in a fullscreen focus mode.",
     "repo": "razumihin/obsidian-fullscreen-plugin"
@@ -351,7 +351,7 @@
   },
   {
     "id": "obsidian-to-anki-plugin",
-    "name": "Export to Anki",
+    "name": "Obsidian_to_Anki",
     "author": "obsidiantoanki",
     "description": "Anki integration designed for efficient bulk exporting. Previously known as Obsidian_to_Anki.",
     "repo": "obsidiantoanki/Obsidian_to_Anki"
@@ -407,14 +407,14 @@
   },
   {
     "id": "snippets",
-    "name": "Snippets",
+    "name": "Snippets plugin",
     "author": "cristianvasquez",
     "description": "Execute simple scripts/snippets. This plugin is experimental.",
     "repo": "cristianvasquez/obsidian-snippets-plugin"
   },
   {
     "id": "obsidian-temple",
-    "name": "Temple",
+    "name": "Obsidian Temple",
     "author": "garyng",
     "description": "Templating powered by Nunjucks.",
     "repo": "garyng/obsidian-temple"
@@ -617,7 +617,7 @@
   },
   {
     "id": "better-pdf-plugin",
-    "name": "Better PDF",
+    "name": "Better PDF Plugin",
     "author": "mszturc",
     "description": "Insert, scale, rotate and cut-out PDF pages into your notes.",
     "repo": "mszturc/obsidian-better-pdf-plugin"
@@ -764,7 +764,7 @@
   },
   {
     "id": "notetweet",
-    "name": "NoteTweet",
+    "name": "NoteTweet🐦",
     "author": "chhoumann",
     "description": "Post to Twitter.",
     "repo": "chhoumann/notetweet_obsidian"
@@ -827,7 +827,7 @@
   },
   {
     "id": "consistent-attachments-and-links",
-    "name": "Consistent attachments and links",
+    "name": "Consistent Attachments and Links",
     "author": "dy-sh",
     "description": "Move note attachments and update links automatically.",
     "repo": "dy-sh/obsidian-consistent-attachments-and-links"
@@ -848,7 +848,7 @@
   },
   {
     "id": "imdone-obsidian-plugin",
-    "name": "Open cards in imdone.",
+    "name": "Open cards in imdone",
     "author": "imdone",
     "description": "Open cards in imdone kanban from their source in Obsidian.",
     "repo": "imdone/imdone-obsidian-plugin"
@@ -19229,13 +19229,6 @@
     "repo": "tuguberk/thought-agent-obsidian"
   },
   {
-    "id": "canvas-loom",
-    "name": "Canvas Loom",
-    "author": "woxin667",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Add functionality to the Canvas for merging, splitting, copying content, and adding markers.",
-    "repo": "woxin667/Canvas-Loom"
-  },
-  {
     "id": "sqlite-explorer",
     "name": "SQLite Explorer",
     "author": "qf3l3k",
@@ -21437,7 +21430,7 @@
     "id": "hex-cartographer",
     "name": "Hex Cartographer",
     "author": "Christoph Werner",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A visual hex map editor for fantasy world maps with custom SVG symbols.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Visual Fantasy Hex Map Editor for GMs, RPG Authors & Worldbuilders",
     "repo": "taroslord/Hex-Cartographer"
   },
   {
@@ -23905,6 +23898,13 @@
     "repo": "writerp-777/obsidian-writing-studio"
   },
   {
+    "id": "docdrop",
+    "name": "DocDrop",
+    "author": "Rhys Gottwald",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. DocDrop is an Obsidian plugin that converts documents, spreadsheets, images, and more into clean, usable Markdown files directly within your vault.",
+    "repo": "flatulentfowl/docdrop"
+  },
+  {
     "id": "properties-filename",
     "name": "Properties Filename",
     "author": "gilles6",
@@ -25354,6 +25354,13 @@
     "repo": "chris8891/wisemindai-sync"
   },
   {
+    "id": "nodte-translator",
+    "name": "Nodte Translator",
+    "author": "Caio Gilbert",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A practical translator for your notes.",
+    "repo": "nodevcg/nodte-translator"
+  },
+  {
     "id": "writers-alembic",
     "name": "Writers Alembic",
     "author": "Scott E. Detweiler",
@@ -25396,6 +25403,13 @@
     "repo": "lingji-yidong/obsidian-knowledge-overview"
   },
   {
+    "id": "svgeditor",
+    "name": "svgeditor",
+    "author": "kpaede",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Edit SVG files.",
+    "repo": "kpaede/svgeditor"
+  },
+  {
     "id": "preserve-blank-lines",
     "name": "Preserve Blank Lines",
     "author": "Yves Lefebvre",
@@ -25408,6 +25422,13 @@
     "author": "sparkwild",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Review AI-proposed wiki and memory updates before they reach your vault.",
     "repo": "sparkwild/obsidian-tracekeeper"
+  },
+  {
+    "id": "dndbeyond-importer",
+    "name": "D&D Beyond Importer",
+    "author": "jktaisa",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Import public D&D Beyond characters as beautifully formatted Obsidian notes.",
+    "repo": "webcreator3478/D-D-Beyond-Character-Importer---Obsidian-Plugin"
   },
   {
     "id": "iso-me-maps",
@@ -25478,6 +25499,20 @@
     "author": "Kuioma",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Rename pasted images with customizable templates and frontmatter-driven naming",
     "repo": "kuioma/obsidian_image_renamer"
+  },
+  {
+    "id": "pi-agent",
+    "name": "Pi Agent",
+    "author": "Christian Lempa",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Chat with Pi using context from your notes, links, backlinks, tags, and search results.",
+    "repo": "christianlempa/obsidian-pi"
+  },
+  {
+    "id": "engram-vault-sync",
+    "name": "Engram Vault Sync",
+    "author": "Rasbandit",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault and search it by meaning with AI. Use the hosted service or self-host for free. Works with Claude, Cursor, and any tool that speaks MCP.",
+    "repo": "engram-app/Engram-obsidian"
   },
   {
     "id": "tidelog",
