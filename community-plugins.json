@@ -18532,7 +18532,7 @@
     "id": "advanced-ruby",
     "name": "Advanced Ruby",
     "author": "peter-yanase",
-    "description": "Enable complex, language-independent ruby annotation rendering.",
+    "description": "Enable multi-layered ruby annotation rendering usable for everything from Japanese furigana to layered commentaries.",
     "repo": "peter-yanase/obsidian-advanced-ruby"
   },
   {
@@ -19703,6 +19703,13 @@
     "author": "dzplnk",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Shows an unread badge next to notes and folders that haven't been opened since they were last modified.",
     "repo": "dzplnk/obsidian-unread-badge"
+  },
+  {
+    "id": "getbiji",
+    "name": "GetBiji",
+    "author": "jiashu329",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync Get notes to your vault using the biji.com Open API.",
+    "repo": "jiashu329/obsidian-getbiji"
   },
   {
     "id": "simple-webdav",
@@ -22729,6 +22736,13 @@
     "repo": "matse2005/obsidian-easy-codeblock"
   },
   {
+    "id": "life-tracker",
+    "name": "Life Tracker",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Capture and visualize the data that matters in your life.",
+    "repo": "dsebastien/obsidian-life-tracker-base-view"
+  },
+  {
     "id": "stormlight-icons",
     "name": "Stormlight RPG Icons",
     "author": "eonfuzz",
@@ -23266,13 +23280,6 @@
     "author": "Jack Williams",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Easily sort notes by any subjective criteria - Rank cohorts of notes in your vault by pairwise comparisons using the Glicko rating system.",
     "repo": "williamsjack/pairwise-glicko-ranking"
-  },
-  {
-    "id": "property-over-file-name",
-    "name": "Property Over File Name",
-    "author": "David V. Kimball",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Search, display, and insert notes using a specified note property instead of the file name.",
-    "repo": "davidvkimball/obsidian-property-over-file-name"
   },
   {
     "id": "file-name-history",
@@ -24836,13 +24843,6 @@
     "repo": "yishentu/claudian"
   },
   {
-    "id": "ima-copilot-sync",
-    "name": "ima.copilot Sync",
-    "author": "chenxiccc",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync notes&knowledge-base from IMA to Obsidian",
-    "repo": "chenxiccc/obsidian-ima.copilot-sync"
-  },
-  {
     "id": "embedded-omnisearch",
     "name": "Embedded-Omnisearch",
     "author": "Fozi",
@@ -25046,13 +25046,6 @@
     "repo": "huangchen-byte/obsdian-fingertip-translation"
   },
   {
-    "id": "lj-os",
-    "name": "LJ OS",
-    "author": "LJ OS",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Standalone local Git activity snapshots for Daily Notes.",
-    "repo": "ljrobinson/obsidian-lj-os-plugin"
-  },
-  {
     "id": "hide-sidebars",
     "name": "Hide Sidebars",
     "author": "Hasan Yılmaz",
@@ -25142,6 +25135,13 @@
     "author": "Jason Heddings",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Organize your Obsidian attachments automatically.",
     "repo": "jheddings/obsidian-folderize"
+  },
+  {
+    "id": "aside",
+    "name": "Aside",
+    "author": "vicky469",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Side comments for both humans and agents.",
+    "repo": "vicky469/aside"
   },
   {
     "id": "markdown-minimap",
@@ -25410,10 +25410,31 @@
     "repo": "moonjuun/obsidian-voxnote"
   },
   {
+    "id": "japanese-calendar",
+    "name": "Japanese Calendar",
+    "author": "Koji Okuji",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. 日本の祝日・振替休日対応カレンダー。日付クリックでデイリーノートを自動作成。和暦・六曜表示にも対応。",
+    "repo": "kojiman55/obsidian-japanese-calendar"
+  },
+  {
     "id": "bp-wiki-starter",
     "name": "BP-Wiki Starter",
     "author": "Jie Huang",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create bilingual starter vaults for knowledge work with 12 templates, setup guides, and optional BP-Wiki Pro upgrade paths.",
     "repo": "michael-uplive021/bp-wiki-starter"
+  },
+  {
+    "id": "obdrawdb",
+    "name": "ObDrawDB",
+    "author": "hzc",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Visual database diagram editor (ER diagrams) powered by drawdb. Create, edit and export database schemas as .drawdb files.",
+    "repo": "hanzhichao/obdrawdb"
+  },
+  {
+    "id": "show-all-hidden-files",
+    "name": "Show All Hidden Files",
+    "author": "Anatolii Kmetiuk",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Reveals every dot-prefixed hidden file and folder in the Obsidian file explorer.",
+    "repo": "anatoliykmetyuk/show-all-hidden-files"
   }
 ]
