@@ -14379,7 +14379,7 @@
   },
   {
     "id": "koreader-highlights-importer",
-    "name": "KoReader Highlight Importer",
+    "name": "KOReader Highlight Importer",
     "author": "t5k6",
     "description": "Imports highlights and metadata from KoReader",
     "repo": "t5k6/obsidian-koreader-highlights"
@@ -14554,7 +14554,7 @@
   },
   {
     "id": "hoarder-sync",
-    "name": "Hoarder Sync",
+    "name": "Karakeep (Hoarder) Sync",
     "author": "jhofker",
     "description": "Sync your Hoarder bookmarks",
     "repo": "jhofker/obsidian-hoarder"
@@ -17487,7 +17487,7 @@
   },
   {
     "id": "storyteller-suite",
-    "name": "Storyteller Suite",
+    "name": "Storyteller suite",
     "author": "maws7140",
     "description": "A comprehensive suite for managing characters, locations, events, and galleries for your stories.",
     "repo": "maws7140/obsidian-storyteller-suite"
@@ -19293,7 +19293,7 @@
   },
   {
     "id": "video-embed",
-    "name": "Video Embed",
+    "name": "Media Embed",
     "author": "punkyard",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically converts pasted YouTube links into your preferred embed style on an empty line.",
     "repo": "punkyard/obsidian-video-embed"
@@ -19377,7 +19377,7 @@
   },
   {
     "id": "hwpx-writer",
-    "name": "HWPX Writer",
+    "name": "HWPX writer",
     "author": "jundamin",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Convert Markdown notes to HWPX (Hancom Office Hangul) documents with live preview, templates, and detailed style controls.",
     "repo": "jundamin/obsidian-hwpx-writer"
@@ -20839,8 +20839,15 @@
     "repo": "wepee/obsidian-open-in-claude-code"
   },
   {
+    "id": "tidelog",
+    "name": "TideLog",
+    "author": "enhen3",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-guided daily planning and reflection with morning SOP, evening review, insights, and metacognition coaching.",
+    "repo": "enhen3/Tidelog"
+  },
+  {
     "id": "on-demand-plugins",
-    "name": "On-Demand Plugins",
+    "name": "On-Demand",
     "author": "22-2",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Lazy load plugins by caching their commands. Plugins are enabled on-demand when you trigger their commands (or open specific views), keeping startup fast.",
     "repo": "22-2/obsidian-on-demand-plugins"
@@ -21075,13 +21082,6 @@
     "author": "alpinemily",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Expand your emotional vocabulary beyond 'happy' and 'sad' with inline emotion suggestions as you journal.",
     "repo": "alpinemily/obsidian-mood-atlas"
-  },
-  {
-    "id": "sfb-open-in-new-tab",
-    "name": "Open in New Tab",
-    "author": "saltyfireball",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Forces files to open in new tabs instead of replacing the current tab. Covers all opening methods including Quick Switcher, command palette, bookmarks, search, backlinks, and graph view.",
-    "repo": "saltyfireball/obsidian-sfb-open-in-new-tab"
   },
   {
     "id": "focus-mode-pro",
@@ -22134,13 +22134,6 @@
     "repo": "owo/obsidian-chatterbox-plugin"
   },
   {
-    "id": "albus-imagine",
-    "name": "Imagine",
-    "author": "albusguo",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A comprehensive image management plugin for managing, inserting, resizing, viewing, and batch processing images.",
-    "repo": "albusguo/albus-imagine"
-  },
-  {
     "id": "sankrypt",
     "name": "Sankrypt",
     "author": "hgiorgis",
@@ -22925,6 +22918,13 @@
     "repo": "keksnet/obsidian-mermaid-elk"
   },
   {
+    "id": "notelert",
+    "name": "Notelert",
+    "author": "Joaquim",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automates the creation of notifications for the Notelert mobile app by creating deeplinks of date and time or location.",
+    "repo": "joaquim-frances/obsidian-notelert-plugin"
+  },
+  {
     "id": "ms-people-sync",
     "name": "Microsoft People Sync",
     "author": "tararesearch",
@@ -23285,7 +23285,7 @@
     "id": "agent-client",
     "name": "Agent Client",
     "author": "rait-09",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Chat with AI agents via the Agent Client Protocol directly from your vault.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Chat with Claude Code, Codex, Gemini CLI, and more via the Agent Client Protocol — right from your vault.",
     "repo": "rait-09/obsidian-agent-client"
   },
   {
@@ -24885,6 +24885,13 @@
     "repo": "neves007/line-ref-copier"
   },
   {
+    "id": "karpathywiki",
+    "name": "Karpathy LLM Wiki",
+    "author": "Greener-Dalii",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Karpathy's LLM Wiki implementation - multi-page knowledge generation with entity/concept pages and conversational query.",
+    "repo": "green-dalii/obsidian-llm-wiki"
+  },
+  {
     "id": "sync-trakt",
     "name": "Sync Trakt",
     "author": "o1xhack",
@@ -24969,18 +24976,18 @@
     "repo": "gengyabc/naotu"
   },
   {
-    "id": "document-exporter",
-    "name": "Document Exporter",
-    "author": "rogerdigital",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Export notes, folders, and query results into Markdown bundles, HTML documents, and print-ready exports.",
-    "repo": "rogerdigital/document-exporter"
-  },
-  {
     "id": "buttons-panel",
     "name": "Buttons Panel",
     "author": "Kevin",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create customizable button panels for quick access to files, commands, links, and scripts.",
     "repo": "tracingorigins/obsidian-buttons-panel-plugin"
+  },
+  {
+    "id": "smart-punctuation-on-rendering",
+    "name": "Smart Punctuation on Rendering",
+    "author": "ile-24556",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Renders ASCII punctuation characters in typographic forms, so you don’t have to struggle to enter desired characters in different editors anymore, for a better reading view.",
+    "repo": "ile-24556/obsidian-plugin-smart-punctuation-on-rendering"
   },
   {
     "id": "rubik-cube-algorithms",
@@ -25102,6 +25109,13 @@
     "repo": "pixerojan/obsidian-indent"
   },
   {
+    "id": "chronicle",
+    "name": "Chronicle",
+    "author": "cubiclewar",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Chronicle your life through the stories you watch and read.",
+    "repo": "cubiclewar/obsidian-chronicle"
+  },
+  {
     "id": "fingertip-translation",
     "name": "Fingertip Translation",
     "author": "amos",
@@ -25184,6 +25198,13 @@
     "author": "Oscar Gonzalez Tur",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Convert Swagger/OpenAPI JSON files to Swagger-style Markdown.",
     "repo": "krontur/obsidian-swaggerjson-to-markdown"
+  },
+  {
+    "id": "duckdb-motherduck",
+    "name": "DuckDB & MotherDuck",
+    "author": "Mehdi Ouazza",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Query files and cloud data with DuckDB SQL inside notes. Freeze results inline as markdown. Optional MotherDuck for cloud compute.",
+    "repo": "motherduckdb/obsidian-duckdb-motherduck"
   },
   {
     "id": "chopro-viewer",
@@ -25410,6 +25431,20 @@
     "repo": "sedetweiler/obsidian-alembic"
   },
   {
+    "id": "asset-weaver",
+    "name": "AssetWeaver",
+    "author": "Kazuki Yunome",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically generates markdown sidecars for images using a local Vision-Language Model.",
+    "repo": "0xkz1/obsidian-asset-weaver"
+  },
+  {
+    "id": "pi-chat",
+    "name": "PiChat",
+    "author": "Geng",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Chat with Pi coding agent locally.",
+    "repo": "gengyabc/obsidian-pi-plugin"
+  },
+  {
     "id": "any-menu",
     "name": "AnyMenu",
     "author": "linczero",
@@ -25557,6 +25592,13 @@
     "repo": "christianlempa/obsidian-pi"
   },
   {
+    "id": "smart-vault-sync",
+    "name": "Smart Vault Sync",
+    "author": "何乐为",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Smart two-way sync for your vault and submodules with GitHub, powered by AI commit messages.",
+    "repo": "leweii/obsidian-github-sync"
+  },
+  {
     "id": "engram-vault-sync",
     "name": "Engram Vault Sync",
     "author": "Rasbandit",
@@ -25569,5 +25611,26 @@
     "author": "Colin Lienard",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Adds missing Vim features such as surround, multi-cursor, scrolloff, gd, gx, and more.",
     "repo": "colinlienard/obsidian-more-vim"
+  },
+  {
+    "id": "remarkable-synchronizer",
+    "name": "Remarkable Synchronizer",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Connect to the reMarkable cloud, list, download, and sync notebook pages as images.",
+    "repo": "dsebastien/obsidian-remarkable-sync"
+  },
+  {
+    "id": "bookshelf-base",
+    "name": "Bookshelf Base",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Display your notes as a visual bookshelf via a custom Bases view.",
+    "repo": "dsebastien/obsidian-bookshelf"
+  },
+  {
+    "id": "jw-timer-sidebar",
+    "name": "JW Meeting Timer",
+    "author": "Marcos",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Fetches the weekly Life and Ministry meeting programme from wol.jw.org and provides per-assignment countdown timers with visual states in a sidebar.",
+    "repo": "marckfp/jw-timer-obsidian"
   }
 ]
