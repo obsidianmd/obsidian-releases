@@ -1142,7 +1142,7 @@
   },
   {
     "id": "obsidian-pangu",
-    "name": "PanGu",
+    "name": "盘古 PanGu",
     "author": "natumsol",
     "description": "Add spaces between Chinese characters and English alphabet. A boon for typographically compulsive people.",
     "repo": "natumsol/obsidian-pangu"
@@ -2821,13 +2821,6 @@
     "repo": "sonarait/cm-japanese-patch"
   },
   {
-    "id": "alx-folder-note-folderv",
-    "name": "AidenLx's Folder Note - folderv component",
-    "author": "aidenlx",
-    "description": "Optional `folderv` component for alx-folder-note.",
-    "repo": "aidenlx/alx-folder-note-folderv"
-  },
-  {
     "id": "todoist-text",
     "name": "Todoist Text",
     "author": "wesmoncrief",
@@ -3095,7 +3088,7 @@
   },
   {
     "id": "obsidian-etherpad-plugin",
-    "name": "Etherpad Lite",
+    "name": "Etherpad",
     "author": "egradman",
     "description": "Copy and sync notes with an Etherpad Lite server to unlock easy web-based collaboration with others.",
     "repo": "egradman/obsidian-etherpad-lite"
@@ -6203,7 +6196,7 @@
   },
   {
     "id": "flowershow",
-    "name": "Flowershow",
+    "name": "Publish with Flowershow",
     "author": "flowershow",
     "description": "Publish notes with Flowershow.",
     "repo": "flowershow/obsidian-flowershow"
@@ -7064,7 +7057,7 @@
   },
   {
     "id": "quail",
-    "name": "Quail",
+    "name": "Quaily",
     "author": "lyricat",
     "description": "Save, publish, delivery notes via Quail.ink as newsletters and blogs.",
     "repo": "lyricat/obsidian-quail"
@@ -8548,7 +8541,7 @@
   },
   {
     "id": "publish-url",
-    "name": "Publish URL",
+    "name": "Publish url",
     "author": "hananoshikayomaru",
     "description": "Copy Obsidian Publish URL to the clipboard.",
     "repo": "hananoshikayomaru/obsidian-publish-url"
@@ -11250,7 +11243,7 @@
   },
   {
     "id": "advanced-canvas-filter",
-    "name": "Advanced Canvas Filter",
+    "name": "Advanced Сanvas Filter",
     "author": "chex0k",
     "description": "Filter Canvas to show only items with specified tags.",
     "repo": "chex0k/advanced-canvas-filter"
@@ -18049,7 +18042,7 @@
     "id": "notebook-navigator",
     "name": "Notebook Navigator",
     "author": "Johan Sanneblad",
-    "description": "Alternative file browser with folders, tags, properties, calendar, previews, shortcuts, recent files, keyboard navigation, drag and drop, and pinned notes.",
+    "description": "A better file browser inspired by Apple Notes, Bear, Evernote and Day One.",
     "repo": "johansan/notebook-navigator"
   },
   {
@@ -20963,13 +20956,6 @@
     "author": "isaiahsarju",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Add location notes that the Bases Map view will render.",
     "repo": "isaiahsarju/map-note"
-  },
-  {
-    "id": "soundboard",
-    "name": "Soundboard",
-    "author": "jgradim",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Play audio files from your vault in a soundboard.",
-    "repo": "jgradim/obsidian-soundboard"
   },
   {
     "id": "language-injector",
@@ -24150,6 +24136,13 @@
     "repo": "chinoryunqin/ObMeeting"
   },
   {
+    "id": "image-hoist",
+    "name": "Image Hoist",
+    "author": "jcmexdev",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically uploads local vault images to ImgBB and replaces them with remote links to optimize storage.",
+    "repo": "jcmexdev/obsidian-image-hoist"
+  },
+  {
     "id": "ai-autocomplete",
     "name": "AI Autocomplete",
     "author": "leoyishou",
@@ -24694,6 +24687,13 @@
     "author": "Hibiki",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Embed more websites, with external-image syntax and live-preview support.",
     "repo": "4513echo/obsidian-embed-plus"
+  },
+  {
+    "id": "askmate",
+    "name": "AskMate",
+    "author": "Behnam Ebrahimi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Ask AI questions about your current Obsidian note or selected text.",
+    "repo": "codewithbehnam/askmate"
   },
   {
     "id": "cross-player",
@@ -25786,5 +25786,19 @@
     "author": "wenzel1983",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Move completed checkbox tasks (with their sub-tasks) into a Done section — via right-click, command, or automatically.",
     "repo": "donnervs/obsidian-todo-done-mover"
+  },
+  {
+    "id": "english-text-interpreter",
+    "name": "English Text Interpreter",
+    "author": "julioagh",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Contextual interpretation of selected English text powered by a local LLM (Ollama). Explains meaning, tone, cultural context and intent.",
+    "repo": "julioagh/english-text-interpreter"
+  },
+  {
+    "id": "colored-bases-properties",
+    "name": "Colored Bases Properties",
+    "author": "Rafaël Jafferal",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Color property lists and formula properties in Bases.",
+    "repo": "rafjaf/obsidian-colored-bases-properties"
   }
 ]
