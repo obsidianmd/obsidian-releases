@@ -7788,7 +7788,7 @@
     "name": "ZotLit",
     "author": "aidenlx",
     "description": "Integrate with Zotero, create literature notes, and insert citations from a Zotero library.",
-    "repo": "aidenlx/obsidian-zotlit"
+    "repo": "aidenlx/zotlit"
   },
   {
     "id": "qb-reader-parser",
@@ -19173,13 +19173,6 @@
     "repo": "sz-1f/obsidian-embeds-plus"
   },
   {
-    "id": "zone-scroll-zoom",
-    "name": "Zone Scroll Zoom",
-    "author": "kqint",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Zoom where your mouse is — font in editor, interface elsewhere.",
-    "repo": "kqint/obsidian-zone-scroll-zoom"
-  },
-  {
     "id": "yori-task",
     "name": "Yori Task",
     "author": "yorigo77",
@@ -20842,7 +20835,7 @@
     "id": "tidelog",
     "name": "TideLog",
     "author": "enhen3",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Turn daily notes into an AI-guided planning, review, and insight system with customizable prompts, dashboards, and reports.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Plan your day, review your evenings, and turn daily notes into AI-guided insights, patterns, dashboards, and next actions.",
     "repo": "enhen3/Tidelog"
   },
   {
@@ -22729,13 +22722,6 @@
     "repo": "lxy3372/obsidian-ai-selection-toolbar"
   },
   {
-    "id": "ui-tweaker",
-    "name": "UI Tweaker",
-    "author": "David V. Kimball",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Add, hide, or modify various interface elements.",
-    "repo": "davidvkimball/obsidian-ui-tweaker"
-  },
-  {
     "id": "run-script-on-property-edit",
     "name": "Run Script on Property Edit",
     "author": "oneautumnmango",
@@ -22923,13 +22909,6 @@
     "author": "caduct-3ateuhuk",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Plugin for integrating daily notes with Yandex Calendar.",
     "repo": "caduct-3ateuhuk/obsidian-yandex-calendar-integration"
-  },
-  {
-    "id": "charted-roots",
-    "name": "Charted Roots",
-    "author": "banisterious",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Family tree visualization for genealogists and worldbuilders. Interactive charts, geographic maps, evidence tracking, GEDCOM support, and fictional calendars.",
-    "repo": "banisterious/obsidian-charted-roots"
   },
   {
     "id": "mermaid-elk",
@@ -23567,13 +23546,6 @@
     "author": "rogerdigital",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Scan your vault for maintenance problems: broken links, orphan attachments, duplicate files, frontmatter inconsistencies, unused tags, and large files.",
     "repo": "rogerdigital/vault-inspector"
-  },
-  {
-    "id": "chess-vault",
-    "name": "Chess Vault",
-    "author": "dun8",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your Lichess games!",
-    "repo": "dun8/Chess-Vault"
   },
   {
     "id": "cms-xgkb-sync",
@@ -25305,6 +25277,13 @@
     "repo": "dsebastien/obsidian-time-machine"
   },
   {
+    "id": "cli-rest-mcp",
+    "name": "REST and MCP server",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Exposes CLI commands as RESTful API endpoints and an MCP server for AI tool integration.",
+    "repo": "dsebastien/obsidian-cli-rest"
+  },
+  {
     "id": "expander",
     "name": "Expander",
     "author": "Sébastien Dubois",
@@ -25578,6 +25557,13 @@
     "repo": "codybontecou/isome-maps"
   },
   {
+    "id": "review-builder",
+    "name": "Review Builder",
+    "author": "Mark Levison",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Simplify quarterly and weekly reviews by combining many Daily and Weekly notes",
+    "repo": "mlevison/obsidian-review-builder"
+  },
+  {
     "id": "timemd-visualizor",
     "name": "timemd-visualizor",
     "author": "codybontecou",
@@ -25711,6 +25697,13 @@
     "repo": "wrongvibe/folder-accents"
   },
   {
+    "id": "smart-media-notes",
+    "name": "Smart Media Notes",
+    "author": "Jing",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Media notes with timestamp, subtitle import, voice recording, and vault media browser.",
+    "repo": "nchuyj/obsidian-smart-media-notes"
+  },
+  {
     "id": "miku-plugin-hybrid",
     "name": "Miku Hybrid",
     "author": "Naetty",
@@ -25730,5 +25723,12 @@
     "author": "shabegom, hayribakici",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Render scratchblocks codeblocks",
     "repo": "hayribakici/obsidian-scratchblocks"
+  },
+  {
+    "id": "article-annotator",
+    "name": "文章批注",
+    "author": "Juno",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Highlight and Add Comments in Obsidian Just Like in Word—Modeled After Microsoft Word's Commenting Interface; Currently Supports Windows Only.",
+    "repo": "kilng235/article-annotator-plugin"
   }
 ]
