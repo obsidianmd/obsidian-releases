@@ -8,42 +8,11 @@ This repo does not accept issues, if you have questions or issues with plugins, 
 
 ## Submit your plugin or theme
 
-When opening a pull request, please switch to preview mode and select the option to go through our submission checklist. Submit your entry by following the convention in the JSON file and we will review your submission.
-
-Thanks for submitting your creations!
-
 You can find a detailed explanation for submitting your [plugin here](https://docs.obsidian.md/Plugins/Releasing/Submit+your+plugin) and your [theme here](https://docs.obsidian.md/Themes/App+themes/Submit+your+theme).
 
 ## Policies
 
 All submissions must conform with our [developer policies](https://docs.obsidian.md/Developer+policies)
-
-## Community Theme
-
-To add your theme to our theme store, make a pull request to the `community-css-theme.json` file. Please add your theme to the end of the list.
-
-- `name`: a unique name for your theme. Must not collide with other themes.
-- `author`: the author's name for display.
-- `repo`: the GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
-- `screenshot`: path to the screenshot of your theme.
-- `modes`: if your theme supports both dark and light mode, put `["dark", "light"]`. Otherwise, put `["dark"]` if your theme only supports dark mode, or  `["light"]` if your theme only supports light mode.
-- `publish`: if your theme supports Obsidian Publish, set this to `true`. Omit it otherwise.
-
-To get your theme compatible with Obsidian Publish, you can use `applyCss` and `applyCssByLink` to test out your CSS in the developer console of Obsidian Publish sites, so that you don't actually need to own sites to test your `publish.css`. You can test it out on our help site here: https://help.obsidian.md/
-
-`applyCss` takes a CSS string, you can use backtick (template strings) for multiline CSS. `applyCssByLink` takes a link and loads the CSS, would recommend GitHub raw file URLs.
-
-## Community Plugin
-
-### Community Plugins format
-
-To add your plugin to the list, make a pull request to the `community-plugins.json` file. Please add your plugin to the end of the list.
-
-- `id`: A unique ID for your plugin. Make sure this is the same one you have in your `manifest.json`.
-- `name`: The name of your plugin.
-- `author`: The author's name.
-- `description`: A short description of what your plugin does.
-- `repo`: The GitHub repository identifier, in the form of `user-name/repo-name`, if your GitHub repo is located at `https://github.com/user-name/repo-name`.
 
 ### How community plugins are pulled
 
@@ -57,7 +26,7 @@ To add your plugin to the list, make a pull request to the `community-plugins.js
 
 ### Announcing the First Public Release of your Plugin/Theme
 
-- Once admitted to the plugin/theme browser, you can announce the public availability of your plugin/theme:
+- Once admitted to the plugin/theme community, you can announce the public availability of your plugin/theme:
   - [in the forums](https://forum.obsidian.md/c/share-showcase/9) as a showcase, and
   - [on the Discord Server](https://discord.gg/veuWUTm) in the channel `#updates`. (You need the `developer` role to be able to post in that channel; [you can get that role here](https://discord.com/channels/686053708261228577/702717892533157999/830492034807758859).)
 - You can also announce the first working version of your plugin as a public beta before "officially" submitting it to the plugin/theme browser. That way, you can acquire some beta testers for feedback. It's recommended to use the [BRAT Plugin](https://obsidian.md/plugins?id=obsidian42-brat) to make the installation as easy as possible for interested beta testers.
