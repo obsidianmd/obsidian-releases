@@ -932,9 +932,9 @@
   },
   {
     "id": "cm-chs-patch",
-    "name": "Word Splitting for Simplified Chinese in Edit Mode and Vim Mode",
+    "name": "Simplified Chinese Word Splitting",
     "author": "aidenlx",
-    "description": "A patch for Obsidian's built-in CodeMirror editor to support Simplified Chinese word splitting.",
+    "description": "Adds Simplified Chinese word splitting support for the editor and Vim mode.",
     "repo": "aidenlx/cm-chs-patch"
   },
   {
@@ -19341,6 +19341,13 @@
     "repo": "sachio222/obsidian-goldilocks-essentials"
   },
   {
+    "id": "plugin-card-bookmark",
+    "name": "Card Bookmark",
+    "author": "wanda1993",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create rich card-style bookmarks for links and files.",
+    "repo": "wanda1993/obsidian-plugin-web-bookmark"
+  },
+  {
     "id": "bases-kanban",
     "name": "Bases Kanban",
     "author": "kotserge",
@@ -19432,6 +19439,13 @@
     "repo": "selectstarfromusers/obsidian-task-manager"
   },
   {
+    "id": "taskmap",
+    "name": "Taskmap",
+    "author": "poanse",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Plan projects via interactive GUI task trees with automatic layout.",
+    "repo": "poanse/obsidian-taskmap"
+  },
+  {
     "id": "dashboards",
     "name": "Dashboards",
     "author": "kevinmcaleer",
@@ -19486,13 +19500,6 @@
     "author": "kevinmcaleer",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Visualize Bases data as bar, column, pie, doughnut, gauge, line, and calendar charts using SQL queries.",
     "repo": "kevinmcaleer/obsidian-bases-chart"
-  },
-  {
-    "id": "tate",
-    "name": "Tate",
-    "author": "nekoe",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Vertical writing mode for Japanese text.",
-    "repo": "nekoe/obsidian-tate"
   },
   {
     "id": "atomic",
@@ -19969,6 +19976,13 @@
     "author": "agrison",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically adds note tags as CSS classes on the view container for tag-based styling.",
     "repo": "agrison/obsidian-tag-classes"
+  },
+  {
+    "id": "advanced-search-ui",
+    "name": "Advanced Search UI",
+    "author": "pandanocturne",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A powerful search UI that provides AND/OR/NOT operators and easy access to search filters.",
+    "repo": "pandanocturne/obsidian-advanced-search-ui"
   },
   {
     "id": "bring-to-front",
@@ -21915,6 +21929,13 @@
     "author": "manemajef",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A file explorer view with card and list views. Displays folder contents with sorting, pagination, and search.",
     "repo": "manemajef/obsidian-explorer"
+  },
+  {
+    "id": "furigana",
+    "name": "Japanese Furigana",
+    "author": "joepetrakovich",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create and show furigana above Japanese text in reading view.",
+    "repo": "joepetrakovich/obsidian-furigana"
   },
   {
     "id": "simple-exporter-for-llm",
@@ -23977,7 +23998,7 @@
   {
     "id": "johnny-decimal-manager",
     "name": "Johnny.Decimal Manager",
-    "author": "rzrabbi",
+    "author": "Rezaye Rabbi",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create and manage Johnny.Decimal items with clean file explorer views.",
     "repo": "rzrabbi/obsidian-johnny-decimal-manager"
   },
@@ -24664,7 +24685,7 @@
     "id": "ui-sketch",
     "name": "UI Sketch",
     "author": "jkraccoon",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Render mid-fi web UI wireframes in notes from YAML (44 components, inline errors, typo hints).",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render mid-fi web UI wireframes in notes from YAML (44 components, inline errors, typo hints) for ai co work(like claude code, codex ).",
     "repo": "jkraccoon/obsidian-ui-sketch"
   },
   {
@@ -24729,6 +24750,13 @@
     "author": "David V. Kimball",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Publish current note's contents as a snapshot to yeet.md.",
     "repo": "davidvkimball/obsidian-yeet"
+  },
+  {
+    "id": "say",
+    "name": "Say",
+    "author": "1yx",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Read aloud the H1 heading of a note when hovering over its internal link, using the system's built-in text-to-speech engine (e.g. macOS say).",
+    "repo": "1yx/obsidian-plugin-say"
   },
   {
     "id": "claude-skill-sync",
@@ -25023,13 +25051,6 @@
     "author": "imavinash",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Copy a citation with file link, line numbers, and a custom prompt for AI agents.",
     "repo": "avinashkanaujiya/obsidian-agentic-note-references"
-  },
-  {
-    "id": "learnkit",
-    "name": "LearnKit",
-    "author": "William Guy",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A native study system for your Obsidian vault. LearnKit turns notes into durable knowledge with flashcards, spaced repetition, tests, and more.",
-    "repo": "ctrlaltwill/learnkit"
   },
   {
     "id": "horme",
@@ -25812,7 +25833,7 @@
     "id": "notebook-ai",
     "name": "Knowledge AI",
     "author": "david4liu",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. AI for your vault: grounded RAG chat with citations, hybrid (BM25 + vector + summary) retrieval, multi-format indexing (MD/PDF/DOCX/XLSX/PPTX), image OCR/Vision, and artifact generation (summaries, study guides, timelines, mind maps, slide decks).",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI for your vault: grounded RAG chat with citations, hybrid BM25 + vector + summary retrieval, multi-format indexing (MD/PDF/DOCX/XLSX/PPTX), image OCR/Vision, and artifact generation.",
     "repo": "david46liu/obsidian-knowledge-ai"
   },
   {
@@ -25821,6 +25842,13 @@
     "author": "Mapherez",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Manual self-hosted sync for your vaults. Requires a user-run NoX Sync backend.",
     "repo": "mapherez/nox-sync"
+  },
+  {
+    "id": "corkboard",
+    "name": "Corkboard",
+    "author": "victor",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Scrivener-style corkboard view for Obsidian folders. Each folder gets an index.corkboard with cards for its markdown files.",
+    "repo": "nighteye841228/obsidian-corkboard"
   },
   {
     "id": "opencode-links-graph",
@@ -26003,5 +26031,26 @@
     "author": "Ryukyu HUB Inc.",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Right-sidebar chat panel powered by Claude Code. Runs the `claude` CLI as a subprocess with the active vault as the working directory.",
     "repo": "ryukyuhub/obsidian-claude-panel-ryukyuhub"
+  },
+  {
+    "id": "daily-saying-kr",
+    "name": "오늘의 한마디",
+    "author": "Rando209",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Insert a random Korean saying into the current note.",
+    "repo": "randonneurs/daily-saying-kr"
+  },
+  {
+    "id": "meeting-notes",
+    "name": "Meeting Notes",
+    "author": "Junxi Liu",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Transcribe existing recordings or summarize Markdown transcripts with OpenAI and write progress, transcript, and optional summary to a new note.",
+    "repo": "junxi-liu/meetingnotes"
+  },
+  {
+    "id": "note-village",
+    "name": "Note Village",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A 2D pixel art village where your notes become villagers you can explore and chat with using AI",
+    "repo": "dsebastien/obsidian-note-village"
   }
 ]
