@@ -15760,7 +15760,7 @@
     "id": "wordflow-tracker",
     "name": "Wordflow Tracker",
     "author": "lecheenax",
-    "description": "Track the changes and stats of your edited note files automatically. Record the modified notes and statistics to your daily note",
+    "description": "Track time, edits, word changes & AI change/diff summary per note automatically. Show live stats in status bar & sidebar (Heatmap view). Record to daily note (periodic notes) as table/list/YAML).",
     "repo": "lecheenax/WordFlow-Tracker"
   },
   {
@@ -18042,7 +18042,7 @@
     "id": "notebook-navigator",
     "name": "Notebook Navigator",
     "author": "Johan Sanneblad",
-    "description": "A better file browser inspired by Apple Notes, Bear, Evernote and Day One.",
+    "description": "A better file browser and calendar inspired by Apple Notes, Bear, Evernote and Day One.",
     "repo": "johansan/notebook-navigator"
   },
   {
@@ -19502,6 +19502,13 @@
     "repo": "kevinmcaleer/obsidian-bases-chart"
   },
   {
+    "id": "tate",
+    "name": "Tate",
+    "author": "nekoe",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Vertical writing mode for Japanese text.",
+    "repo": "nekoe/obsidian-tate"
+  },
+  {
     "id": "atomic",
     "name": "Atomic",
     "author": "kenforthewin",
@@ -19906,6 +19913,13 @@
     "author": "redsheep913",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Materialize Canvas cards into organized Markdown files with auto-folder categorization, preserving connections and colors.",
     "repo": "redsheep913/Canvas-Card-Materializer"
+  },
+  {
+    "id": "header-backlinks",
+    "name": "Header Backlinks",
+    "author": "rekby",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Displays anchor icons next to headings targeted by internal links and lets you navigate to every note that references each heading.",
+    "repo": "rekby/obsidian-header-backlinks"
   },
   {
     "id": "infobox",
@@ -20447,6 +20461,20 @@
     "repo": "wanjin5508/vault-coach"
   },
   {
+    "id": "export-image-xhs",
+    "name": "Export Image XHS",
+    "author": "buzuweidao",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Export notes as shareable multi-image cards with editable live preview, Xiaohongshu-oriented layout, author header, watermark, and pagination controls.",
+    "repo": "buzuweidao/Export-Image-XHS"
+  },
+  {
+    "id": "asciidoc-live",
+    "name": "AsciiDoc Live",
+    "author": "koshlensky",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Full AsciiDoc renderer with live-updating preview for .adoc files.",
+    "repo": "koshlensky/asciidoc-live"
+  },
+  {
     "id": "memo-timeline-feed",
     "name": "Memo Timeline Feed",
     "author": "lbb2446",
@@ -20515,6 +20543,13 @@
     "author": "Johannes Schwartz",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Send notes, images, PDFs and TTRPG maps to a plain second-screen display window.",
     "repo": "jareika/ttrpg-tools-screen"
+  },
+  {
+    "id": "quick-memos",
+    "name": "Quick Memos",
+    "author": "liqiuyue9597",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A flomo-style quick capture and card view for your vault.",
+    "repo": "liqiuyue9597/obsidian-memos"
   },
   {
     "id": "arbor-family-tree",
@@ -21812,6 +21847,13 @@
     "repo": "jirayu3141/handwriting-to-text"
   },
   {
+    "id": "folder-focus",
+    "name": "Folder Focus",
+    "author": "das",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Finder-like folder navigation view in the sidebar.",
+    "repo": "1spread/obsidian-folder-focus"
+  },
+  {
     "id": "slash-blocks",
     "name": "Slash Blocks",
     "author": "stefan-imbesi",
@@ -22930,6 +22972,13 @@
     "author": "reallygood83",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Upload local files to Google Drive and embed them directly in your notes. Supports audio, video, PDF, and images with intuitive size options.",
     "repo": "reallygood83/obsidian-embedder"
+  },
+  {
+    "id": "squire",
+    "name": "Squire",
+    "author": "choonkending",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Your faithful note-taking companion. Automatically provides capability like incremental file naming so you can stay in the flow.",
+    "repo": "choonkending/obsidian-squire"
   },
   {
     "id": "regex-replace",
@@ -24654,6 +24703,13 @@
     "repo": "xwberry/obsidian-drag-out"
   },
   {
+    "id": "image-workflow",
+    "name": "Image Workflow",
+    "author": "das",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Click images to enlarge, zoom, copy, download. Copy markdown selections with images embedded as base64 so they paste inline into Gmail, Google Docs, and Slack.",
+    "repo": "1spread/image-workflow"
+  },
+  {
     "id": "auto-tag-puller",
     "name": "Auto Tag Puller",
     "author": "pharelljordan",
@@ -24698,7 +24754,7 @@
   {
     "id": "calendarz",
     "name": "CalendarZ",
-    "author": "kechengzhang28",
+    "author": "Kecheng Zhang",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A visual calendar with heatmap & dots tracking for your daily notes.",
     "repo": "kechengzhang28/Obsidian-CalendarZ-Plugin"
   },
@@ -25263,6 +25319,13 @@
     "repo": "foundlegacy/zulu-agent"
   },
   {
+    "id": "ai-tag-curator",
+    "name": "AI Tag Curator",
+    "author": "qmkCamel",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI tag management and governance for Obsidian vaults.",
+    "repo": "qmkcamel/obsidian-ai-tag-curator"
+  },
+  {
     "id": "base-backlinks-viewer",
     "name": "Base Backlinks Viewer",
     "author": "Lumyo",
@@ -25352,6 +25415,13 @@
     "author": "dangehub",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Manage translations for plugins with hot-reload support and crowdsourced dictionaries.",
     "repo": "open-obsidian-i18n/i18n-plus"
+  },
+  {
+    "id": "yeelen-murmur",
+    "name": "yeelen-Murmur",
+    "author": "Yeelen",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Retro-terminal inner monologue recorder. Turn murmurs into energy fragments.",
+    "repo": "fanxiaofang/obsidian-murmur"
   },
   {
     "id": "threed-embeds",
@@ -25907,6 +25977,13 @@
     "repo": "marckfp/jw-timer-obsidian"
   },
   {
+    "id": "llm-auto-tagger",
+    "name": "LLM Auto Tagger",
+    "author": "Matboi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically adds existing vault tags to notes with your configured LLM API.",
+    "repo": "matbo1/llm-auto-tagger"
+  },
+  {
     "id": "folder-accents",
     "name": "Folder Accents",
     "author": "Emma",
@@ -26034,7 +26111,7 @@
   },
   {
     "id": "daily-saying-kr",
-    "name": "오늘의 한마디",
+    "name": "Daily Saying KR",
     "author": "Rando209",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Insert a random Korean saying into the current note.",
     "repo": "randonneurs/daily-saying-kr"
