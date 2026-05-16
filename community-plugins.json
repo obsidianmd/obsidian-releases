@@ -13021,7 +13021,7 @@
   },
   {
     "id": "hugo-sync",
-    "name": "Sync to Hugo",
+    "name": "Hugo Sync",
     "author": "crayhuang",
     "description": "Sync and convert the selected notes to Hugo blog.",
     "repo": "crayhuang/Obsidian-Hugo-Sync"
@@ -13056,7 +13056,7 @@
   },
   {
     "id": "copy-image-text",
-    "name": "Copy Image Text",
+    "name": "复制图文 (Copy Image Text)",
     "author": "msgk239",
     "description": "Copy note content (including text and images) to clipboard.",
     "repo": "msgk239/obsidian-copy-image-text"
@@ -15534,7 +15534,7 @@
   },
   {
     "id": "sync-vault-ce",
-    "name": "Sync Vault CE",
+    "name": "Sync Vault",
     "author": "abcamus",
     "description": "Sync with cloud disk fast and safely.",
     "repo": "abcamus/obsidian-sync-vault-ce"
@@ -19432,13 +19432,6 @@
     "repo": "selectstarfromusers/obsidian-task-manager"
   },
   {
-    "id": "taskmap",
-    "name": "Taskmap",
-    "author": "poanse",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Plan projects via interactive GUI task trees with automatic layout.",
-    "repo": "poanse/obsidian-taskmap"
-  },
-  {
     "id": "dashboards",
     "name": "Dashboards",
     "author": "kevinmcaleer",
@@ -19978,13 +19971,6 @@
     "repo": "agrison/obsidian-tag-classes"
   },
   {
-    "id": "advanced-search-ui",
-    "name": "Advanced Search UI",
-    "author": "pandanocturne",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A powerful search UI that provides AND/OR/NOT operators and easy access to search filters.",
-    "repo": "pandanocturne/obsidian-advanced-search-ui"
-  },
-  {
     "id": "bring-to-front",
     "name": "Bring to Front",
     "author": "rockbenben",
@@ -20144,6 +20130,13 @@
     "author": "viszkit",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Daily word goal webhook + minimal sidebar heatmap with detailed stats view.",
     "repo": "viszkit/obsidian-writing-streak"
+  },
+  {
+    "id": "sidecar-notes",
+    "name": "Sidecar Notes",
+    "author": "rosemary1812",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A sidecar note workflow with split view, synced quotes, and companion note files.",
+    "repo": "rosemary1812/Sidecar-Notes"
   },
   {
     "id": "wechat-publisher",
@@ -22715,6 +22708,13 @@
     "repo": "rakushkatop/obsidian-auto-index"
   },
   {
+    "id": "auto-properties",
+    "name": "Auto-Properties",
+    "author": "aarongilly",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create automated properties based on note content and rules.",
+    "repo": "aarongilly/obsidian-auto-properties"
+  },
+  {
     "id": "writetex",
     "name": "WriteTex",
     "author": "jacklitstar",
@@ -22888,6 +22888,13 @@
     "author": "jarchitect1",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Seamlessly integrate Bible verses into your notes with support for multiple translations.",
     "repo": "jarchitect1/The-Scripture-Injector"
+  },
+  {
+    "id": "kavita-sync",
+    "name": "Kavita Sync",
+    "author": "davidlbowman",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync annotations and highlights from your Kavita server to your vault.",
+    "repo": "davidlbowman/kavita-to-obsidian"
   },
   {
     "id": "wysimark-editor",
@@ -23570,7 +23577,7 @@
   },
   {
     "id": "ai-chat-ui",
-    "name": "AI Chat UI",
+    "name": "AI聊天页面",
     "author": "qq510447097",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Parse AI-exported chats and generate notes.",
     "repo": "qq510447097/obsidian-ai-chat-ui"
@@ -23756,6 +23763,13 @@
     "author": "alcatrazyu",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Academic character counts for Chinese, Japanese, and Korean humanities writing with whole-note and selection counts.",
     "repo": "alcatrazyu/obsidian-cjk-academic-count"
+  },
+  {
+    "id": "marvis",
+    "name": "Marvis",
+    "author": "mahdi-massahi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered multi-view project planner: Kanban, Timeline, Calendar, and Table over your vault notes.",
+    "repo": "mahdi-massahi/obsidian-marvis"
   },
   {
     "id": "directory-summary",
@@ -24563,6 +24577,13 @@
     "repo": "blamouche/obsidian-any-ai-code"
   },
   {
+    "id": "password-manager",
+    "name": "Password Manager",
+    "author": "pandanocturne",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A lightweight local password manager with encryption, backup, trash, and import/export support.",
+    "repo": "pandanocturne/obsidian-password-manager"
+  },
+  {
     "id": "parallel-reader",
     "name": "Parallel Reader",
     "author": "fancive",
@@ -24631,6 +24652,13 @@
     "author": "firstsun-dev",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Selectively sync individual notes with GitLab or GitHub. Push, pull, diff, and resolve conflicts — file by file, on mobile and desktop.",
     "repo": "firstsun-dev/git-files-sync"
+  },
+  {
+    "id": "cooklang-codeblock",
+    "name": "Cooklang Codeblock",
+    "author": "Raunaq Gupta",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Add recipes written in cooklang to your notes.",
+    "repo": "raunaqgupta/obsidian-cooklang-codeblock-plugin"
   },
   {
     "id": "ui-sketch",
@@ -25130,6 +25158,13 @@
     "repo": "atopos31/OZSync"
   },
   {
+    "id": "mindcanvas",
+    "name": "MindCanvas",
+    "author": "Geng",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A mindmap that is really a map. 真正的思维投影。",
+    "repo": "gengyabc/naotu"
+  },
+  {
     "id": "buttons-panel",
     "name": "Buttons Panel",
     "author": "Kevin",
@@ -25296,13 +25331,6 @@
     "author": "dangehub",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Manage translations for plugins with hot-reload support and crowdsourced dictionaries.",
     "repo": "open-obsidian-i18n/i18n-plus"
-  },
-  {
-    "id": "yeelen-murmur",
-    "name": "yeelen-Murmur",
-    "author": "Yeelen",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Retro-terminal inner monologue recorder. Turn murmurs into energy fragments.",
-    "repo": "fanxiaofang/obsidian-murmur"
   },
   {
     "id": "threed-embeds",
@@ -25620,6 +25648,13 @@
     "repo": "0xkz1/obsidian-asset-weaver"
   },
   {
+    "id": "new-note-title",
+    "name": "New Note Title",
+    "author": "Jessy Cormier",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Change the default filename used for new notes",
+    "repo": "jessycormier/obsidian-new-note-title"
+  },
+  {
     "id": "pi-chat",
     "name": "PiChat",
     "author": "Geng",
@@ -25774,6 +25809,13 @@
     "repo": "kuioma/obsidian_image_renamer"
   },
   {
+    "id": "notebook-ai",
+    "name": "Knowledge AI",
+    "author": "david4liu",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI for your vault: grounded RAG chat with citations, hybrid (BM25 + vector + summary) retrieval, multi-format indexing (MD/PDF/DOCX/XLSX/PPTX), image OCR/Vision, and artifact generation (summaries, study guides, timelines, mind maps, slide decks).",
+    "repo": "david46liu/obsidian-knowledge-ai"
+  },
+  {
     "id": "nox-sync",
     "name": "NoX Sync",
     "author": "Mapherez",
@@ -25880,7 +25922,7 @@
   },
   {
     "id": "article-annotator",
-    "name": "文章批注",
+    "name": "Article Annotator",
     "author": "Juno",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Highlight and Add Comments in Obsidian Just Like in Word—Modeled After Microsoft Word's Commenting Interface; Currently Supports Windows Only.",
     "repo": "kilng235/article-annotator-plugin"
@@ -25928,10 +25970,38 @@
     "repo": "ydd0729/obsidian-custom-code-highlight"
   },
   {
+    "id": "colorful-stickynotes",
+    "name": "Colorful StickyNotes",
+    "author": "pandanocturne",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Floating colorful sticky notes in Vault",
+    "repo": "pandanocturne/obsidian-colorful-stickynotes"
+  },
+  {
     "id": "better-footnote",
     "name": "Better Footnote",
     "author": "alcatrazyu",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A writing-focused footnote sidebar for editing, navigating, and preserving context in academic Markdown notes.",
     "repo": "alcatrazyu/better-footnote"
+  },
+  {
+    "id": "thought-navigator",
+    "name": "Thought Navigator",
+    "author": "qingxuanlin-s",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Navigate and visualize the natural growth of your thoughts with Luhmann-style Zettelkasten. Features hierarchical graphs, view state memory, and dynamic tree visualization.",
+    "repo": "qingxuanlin-s/obsidian-thought-navigator"
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode",
+    "author": "krisspy",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Launch OpenCode CLI terminal sessions and browse conversation history without leaving your vault.",
+    "repo": "kriss-spy/obsidian-opencode"
+  },
+  {
+    "id": "claude-panel-ryukyuhub",
+    "name": "Claude Panel",
+    "author": "Ryukyu HUB Inc.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Right-sidebar chat panel powered by Claude Code. Runs the `claude` CLI as a subprocess with the active vault as the working directory.",
+    "repo": "ryukyuhub/obsidian-claude-panel-ryukyuhub"
   }
 ]
