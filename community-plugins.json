@@ -1339,7 +1339,7 @@
   {
     "id": "obsidian-csv-table",
     "name": "CSV Table",
-    "author": "coddingtonbear",
+    "author": "Adam Coddington",
     "description": "Render CSV data as a table within your notes.",
     "repo": "coddingtonbear/obsidian-csv-table"
   },
@@ -1990,7 +1990,7 @@
   {
     "id": "obsidian-itinerary",
     "name": "Itinerary",
-    "author": "coddingtonbear",
+    "author": "Adam Coddington",
     "description": "Make planning your trip or event easier by rendering a calendar from event information found in your notes.",
     "repo": "coddingtonbear/obsidian-itinerary"
   },
@@ -2697,7 +2697,7 @@
   {
     "id": "obsidian-local-rest-api",
     "name": "Local REST API & MCP Server",
-    "author": "coddingtonbear",
+    "author": "Adam Coddington",
     "description": "Unlock your automation needs by interacting with your notes over a secure REST API.",
     "repo": "coddingtonbear/obsidian-local-rest-api"
   },
@@ -19236,6 +19236,13 @@
     "repo": "qf3l3k/obsidian-sqlite-explorer"
   },
   {
+    "id": "caretsort",
+    "name": "Caretsort",
+    "author": "simratt",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Minimalist table sort. Click the caret in any column header to sort rows A→Z, Z→A, or numerically.",
+    "repo": "simratt/obsidian-caretsort"
+  },
+  {
     "id": "at-link",
     "name": "At Link",
     "author": "stefan-imbesi",
@@ -21189,6 +21196,13 @@
     "repo": "ziadkadry99/Qlaude"
   },
   {
+    "id": "claude-code-skills",
+    "name": "Claude Code Skills",
+    "author": "p3nguln5",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Stream Claude Code skill responses into a persistent side panel from any note.",
+    "repo": "p3nguln5/obsidian-claude-code-skills"
+  },
+  {
     "id": "scrobble",
     "name": "Scrobble",
     "author": "yipqp",
@@ -21546,6 +21560,13 @@
     "repo": "jmondo/obsidian-task-limiter"
   },
   {
+    "id": "fakelink",
+    "name": "fakelink",
+    "author": "godfatherlg",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically creates virtual links for text within your notes that match the titles or aliases of other notes in your vault. Create a glossary-like functionality, show unlinked mentions and transform them to real links.",
+    "repo": "godfatherlg/fakelink"
+  },
+  {
     "id": "settings-sidebar-organizer",
     "name": "Settings Sidebar Organizer",
     "author": "cyrylsz",
@@ -21563,7 +21584,7 @@
     "id": "graphforge",
     "name": "GraphForge",
     "author": "Landon Thorne",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatic graph creation & maintenance. Plus quick access folder hubs.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatic graph creation & maintenance through real-time updating. Additionally includes quick access folder hubs.",
     "repo": "landnthrn/Obsidian-GraphForge"
   },
   {
@@ -22951,6 +22972,13 @@
     "author": "caduct-3ateuhuk",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Plugin for integrating daily notes with Yandex Calendar.",
     "repo": "caduct-3ateuhuk/obsidian-yandex-calendar-integration"
+  },
+  {
+    "id": "charted-roots",
+    "name": "Charted Roots",
+    "author": "banisterious",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Family tree visualization for genealogists and worldbuilders. Interactive charts, geographic maps, evidence tracking, GEDCOM support, and fictional calendars.",
+    "repo": "banisterious/obsidian-charted-roots"
   },
   {
     "id": "mermaid-elk",
@@ -24899,6 +24927,13 @@
     "repo": "core-hn/pseudobsidian-ization"
   },
   {
+    "id": "codex-panel",
+    "name": "Codex Panel",
+    "author": "murashit",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Codex in your Obsidian sidebar.",
+    "repo": "murashit/codex-panel"
+  },
+  {
     "id": "spotify-sorter",
     "name": "Spotify Sorter",
     "author": "fleker",
@@ -24932,6 +24967,13 @@
     "author": "ducktapekiller",
     "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered assistant with chat, right-click actions, vault-wide RAG, and an extensible skill system. Supports Ollama, Claude, Gemini, OpenAI, Groq, OpenRouter, and LM Studio.",
     "repo": "ducktapekiller/horme"
+  },
+  {
+    "id": "github-wiki-sync",
+    "name": "GitHub Wiki",
+    "author": "benpm",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Edit GitHub wiki pages with Obsidian!",
+    "repo": "benpm/obsidian_github_wiki"
   },
   {
     "id": "tegaki",
@@ -25828,5 +25870,26 @@
     "author": "Rafaël Jafferal",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Color property lists and formula properties in Bases.",
     "repo": "rafjaf/obsidian-colored-bases-properties"
+  },
+  {
+    "id": "expandomatic",
+    "name": "Expandomatic",
+    "author": "Onsi Fakhouri",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Expand selection outward through word, sentence, paragraph, section, document — like VSCode's expand selection.",
+    "repo": "onsi/expandomatic"
+  },
+  {
+    "id": "canvas-node-linker",
+    "name": "Canvas Node Linker",
+    "author": "Giuseppe Mastrodomenico",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A simple plugin that adds a right-click menu on Canvas nodes to instantly copy a wikilink of the node.",
+    "repo": "mvstro/canvas-node-linker"
+  },
+  {
+    "id": "custom-code-highlight",
+    "name": "Custom Code Highlight",
+    "author": "Dong Yang",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Extensible syntax highlighting for custom and missing Obsidian code block languages.",
+    "repo": "ydd0729/obsidian-custom-code-highlight"
   }
 ]
