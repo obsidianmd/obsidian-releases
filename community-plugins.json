@@ -12785,7 +12785,7 @@
     "id": "nexus-ai-chat-importer",
     "name": "Nexus AI Chat Importer",
     "author": "superkikim",
-    "description": "Import conversations from ChatGPT export files.",
+    "description": "Import AI chat conversations from ChatGPT, Claude, and Le Chat exports into Obsidian as clean, readable Markdown files.",
     "repo": "superkikim/nexus-ai-chat-importer"
   },
   {
@@ -14549,7 +14549,7 @@
     "id": "hoarder-sync",
     "name": "Karakeep (Hoarder) Sync",
     "author": "jhofker",
-    "description": "Sync your Hoarder bookmarks",
+    "description": "Sync your Karakeep bookmarks",
     "repo": "jhofker/obsidian-hoarder"
   },
   {
@@ -19190,7 +19190,7 @@
     "id": "readest-highlights",
     "name": "Readest Highlights",
     "author": "polybjorn",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Import highlights and annotations from Readest into your vault.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Import highlights and annotations from Readest into your vault",
     "repo": "polybjorn/obsidian-readest-highlights"
   },
   {
@@ -20258,6 +20258,13 @@
     "repo": "konstantinosgkilas/smart-paste"
   },
   {
+    "id": "csv-modern-codeblock",
+    "name": "CSV Modern Codeblock",
+    "author": "vitovt",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render CSV and TSV code blocks as interactive tables with sticky headers, per-column filters, sorting, layout toggles, link detection, and CSV validation.",
+    "repo": "vitovt/obsidian-csv-modern-codeblock"
+  },
+  {
     "id": "embed-editor",
     "name": "Embed Editor",
     "author": "xmisio72",
@@ -21075,6 +21082,13 @@
     "author": "davidlam-oss",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Convert Markdown into polished WeChat articles with live preview, copy, and draft sync.",
     "repo": "davidlam-oss/obsidian-wechat-converter"
+  },
+  {
+    "id": "text-tools",
+    "name": "Local Text Tools",
+    "author": "nilsandrey",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Text manipulation commands: case conversion, line numbering, and more. Works with single and multiple selections.",
+    "repo": "nilsandrey/TextToolsPlugin"
   },
   {
     "id": "our-kyobo-book-search",
@@ -22512,6 +22526,13 @@
     "repo": "ducktapekiller/obsidian-reader-highlighter-tags"
   },
   {
+    "id": "add-custom-icons",
+    "name": "Add Custom Icons",
+    "author": "riffaells",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Load custom SVG icons from icons folder and restart plugins automatically.",
+    "repo": "riffaells/add-custom-icons"
+  },
+  {
     "id": "donedrop",
     "name": "DoneDrop",
     "author": "kgdrathan",
@@ -22648,7 +22669,7 @@
     "id": "aiche-voice",
     "name": "AICHE Voice",
     "author": "aiche-app",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Voice-to-text transcription powered by AI. Click to record, speak naturally, get polished text in seconds.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create voice-to-text notes on desktop and mobile, with transcription, punctuation, and cleanup.",
     "repo": "aiche-app/obsidian-aiche-voice"
   },
   {
@@ -24309,6 +24330,13 @@
     "author": "Rezaye Rabbi",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create and manage Johnny.Decimal items with clean file explorer views.",
     "repo": "rzrabbi/obsidian-johnny-decimal-manager"
+  },
+  {
+    "id": "second-brain",
+    "name": "Second Brain",
+    "author": "ruowenwang",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered knowledge compiler — transform scattered notes into a structured, interlinked wiki.",
+    "repo": "graceruowenwang/obsidian-second-brain"
   },
   {
     "id": "yori-dashboard",
@@ -26456,7 +26484,7 @@
     "id": "codex-ai-agent",
     "name": "Codex AI Agent",
     "author": "j4charlie",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Run Codex CLI as a local AI agent with note context, approvals, and reviewable file changes.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A note-focused Codex agent for Obsidian, deeply integrated with Codex CLI.",
     "repo": "j4charlie/codex-ai-agent"
   },
   {
@@ -26516,10 +26544,17 @@
     "repo": "timikays/markpage-obsidian-plugin"
   },
   {
-    "id": "local-dictation",
-    "name": "Local Dictation",
-    "author": "Alexander Brittain",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Dictate notes privately on-device with Whisper, Cohere Transcribe, Silero VAD, and optional Ollama LLM cleanup.",
-    "repo": "brittain9/local-dictation-obsidian-plugin"
+    "id": "vaultbox",
+    "name": "Vaultbox",
+    "author": "grumpydev",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault directly with a selected Dropbox folder on desktop and mobile.",
+    "repo": "grumpydev/vaultbox"
+  },
+  {
+    "id": "chess-puzzles",
+    "name": "Chess Puzzles",
+    "author": "Yan Vieira de Macedo",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Write your own chess puzzles in markdown and review them with spaced repetition",
+    "repo": "yan-vieira/obsidian-chess-puzzles"
   }
 ]
