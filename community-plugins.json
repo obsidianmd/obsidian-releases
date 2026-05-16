@@ -19355,10 +19355,17 @@
     "repo": "kotserge/obsidian-kanban"
   },
   {
+    "id": "open-terminal-here",
+    "name": "Open Terminal Here",
+    "author": "ryofeeee",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open a terminal at the current file's directory from the editor or file explorer context menu.",
+    "repo": "ryofeeee/obsidian-open-terminal-here"
+  },
+  {
     "id": "preach-md",
     "name": "Preach MD",
-    "author": "overmoro",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Full-screen preach mode for delivering sermons from iPad. Free scroll, scripture tap-to-expand, timer, outline navigation.",
+    "author": "Don",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Full-screen preach mode for delivering sermons and other presentations from iPad/laptop. Free scroll, scripture tap-to-expand, timer, outline navigation.",
     "repo": "overmoro/preach-md"
   },
   {
@@ -20139,6 +20146,13 @@
     "repo": "resina37451-cell/study-flow-planner"
   },
   {
+    "id": "code-suite",
+    "name": "CodeSuite",
+    "author": "felixleopold",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. VS Code-quality code blocks: Shiki syntax highlighting with 65+ themes, code execution with live I/O, embedded file rendering, and custom VS Code theme import.",
+    "repo": "felixleopold/obsidian-code-suite"
+  },
+  {
     "id": "colorful-folders",
     "name": "Colorful Folders",
     "author": "rohitnahar-offical",
@@ -20459,6 +20473,13 @@
     "author": "wanjin5508",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Local knowledge Q&A and interview practice from your vault using Ollama.",
     "repo": "wanjin5508/vault-coach"
+  },
+  {
+    "id": "linkvault",
+    "name": "LinkVault",
+    "author": "calghar",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Save and categorise links into your knowledge base using AI. Supports Claude, Ollama, and OpenRouter.",
+    "repo": "calghar/LinkVault"
   },
   {
     "id": "export-image-xhs",
@@ -21875,6 +21896,13 @@
     "repo": "sspaeti/obsidian-trouble-tags"
   },
   {
+    "id": "zotero-cite-pdf",
+    "name": "Zotero Cite PDF",
+    "author": "fengchendian",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Cite zotero-pdf and directly open zotero-pdf.",
+    "repo": "fengchendian/obsidian-zotero-cite-pdf"
+  },
+  {
     "id": "gitlab-embeds",
     "name": "GitLab Embeds",
     "author": "oliviergoulet5",
@@ -22328,13 +22356,6 @@
     "author": "grhawk",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync the active note to Confluence using the REST API.",
     "repo": "grhawk/obsidian-2-confluence"
-  },
-  {
-    "id": "mermaid-view",
-    "name": "Mermaid View",
-    "author": "weppos",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Handle Mermaid files as first-class citizens, rendering them fullscreen when opened.",
-    "repo": "weppos/obsidian-mermaid-view"
   },
   {
     "id": "japanese-popup-dictionary",
@@ -23674,13 +23695,6 @@
     "repo": "moziar/obsidian-external-links-icon"
   },
   {
-    "id": "any-block-min",
-    "name": "AnyBlock Min",
-    "author": "any-block",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. AnyBlock min version. Remove some features and dependencies to reduce size and improve performance.",
-    "repo": "any-block/obsidian-any-block-min"
-  },
-  {
     "id": "nldates-redux",
     "name": "Natural Language Dates Redux",
     "author": "Tommy Bergeron",
@@ -23896,6 +23910,13 @@
     "author": "bcs",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Notion-like block interactions for Live Preview.",
     "repo": "bcs1037/notion-block"
+  },
+  {
+    "id": "note-loom",
+    "name": "Note Loom",
+    "author": "pingzi-crypto",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Weave free-form notes into structured notes with your own templates, fields, tables, and checklists.",
+    "repo": "pingzi-crypto/note-loom"
   },
   {
     "id": "copy-linked-file",
@@ -24556,6 +24577,13 @@
     "repo": "lhy723/obsidian-karmind"
   },
   {
+    "id": "termy",
+    "name": "Termy",
+    "author": "zyphrzero",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Terminal emulator with split panes, reusable workflows, AI CLI context handoff, and zero setup. Powered by xterm.js and a bundled Rust PTY backend.",
+    "repo": "zyphrzero/Termy"
+  },
+  {
     "id": "tag-fuzzy-find",
     "name": "Tag Fuzzy Find",
     "author": "etaiso",
@@ -24808,6 +24836,13 @@
     "repo": "davidvkimball/obsidian-yeet"
   },
   {
+    "id": "visual-ui-editor",
+    "name": "Visual UI Editor",
+    "author": "echorgi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A plugin to help you visually select and modify any UI element.",
+    "repo": "echorgi/obsidian-visual-ui-editor"
+  },
+  {
     "id": "say",
     "name": "Say",
     "author": "1yx",
@@ -24895,7 +24930,7 @@
     "id": "embed-plus",
     "name": "Embed Plus",
     "author": "Hibiki",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Embed more websites, with external-image syntax and live-preview support.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Embed more external websites, with external-image syntax and live-preview support.",
     "repo": "4513echo/obsidian-embed-plus"
   },
   {
@@ -25963,6 +25998,13 @@
     "repo": "dsebastien/obsidian-remarkable-sync"
   },
   {
+    "id": "excerpt-outline-mindmap-editor",
+    "name": "Excerpt-Outline-Mindmap-Editor",
+    "author": "kpaede",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A visual drag-n-drop mindmap editor (with markdown outline under the hood).",
+    "repo": "kpaede/Excerpt-Outline-Mindmap-Editor"
+  },
+  {
     "id": "bookshelf-base",
     "name": "Bookshelf Base",
     "author": "Sébastien Dubois",
@@ -26129,5 +26171,26 @@
     "author": "Sébastien Dubois",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A 2D pixel art village where your notes become villagers you can explore and chat with using AI",
     "repo": "dsebastien/obsidian-note-village"
+  },
+  {
+    "id": "excalidash-sync",
+    "name": "ExcaliDash sync",
+    "author": "SirEdvin",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync Excalidraw drawings from vault frontmatter into ExcaliDash.",
+    "repo": "siredvin/excalidash-obsidian-sync"
+  },
+  {
+    "id": "octosync",
+    "name": "Octosync",
+    "author": "grumpydev",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault directly with GitHub APIs on desktop and mobile.",
+    "repo": "grumpydev/octosync"
+  },
+  {
+    "id": "codex-ai-agent",
+    "name": "Codex AI Agent",
+    "author": "j4charlie",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Run Codex CLI as a local AI agent with note context, approvals, and reviewable file changes.",
+    "repo": "j4charlie/codex-ai-agent"
   }
 ]
