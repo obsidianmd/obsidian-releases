@@ -4335,7 +4335,7 @@
   {
     "id": "qmd-as-md-obsidian",
     "name": "qmd as md",
-    "author": "danieltomasz",
+    "author": "Daniel Borek",
     "description": "Edit, preview, and render Quarto (.qmd) files with executable code cells via Quarto to PDF, DOCX, HTML, or reveal.js.",
     "repo": "danieltomasz/qmd-as-md-obsidian"
   },
@@ -17307,7 +17307,7 @@
     "id": "scrolling",
     "name": "Scrolling",
     "author": "omeyenburg",
-    "description": "Improve scrolling and keep your cursor exactly where you want it.",
+    "description": "Keep your cursor centered, disable code wrapping, remember position in a file, zoom images and more!",
     "repo": "omeyenburg/obsidian-scrolling"
   },
   {
@@ -22960,6 +22960,13 @@
     "repo": "wuhup/obsidian-folder-new-note-button"
   },
   {
+    "id": "embed-metadata",
+    "name": "Embed Metadata",
+    "author": "schemen",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render frontmatter metadata (Properties) inside your notes with a lightweight inline syntax.",
+    "repo": "schemen/embed-metadata"
+  },
+  {
     "id": "sentence-enhancers",
     "name": "Sentence Enhancers",
     "author": "garrett-is-a-swann",
@@ -24477,13 +24484,6 @@
     "author": "Rezaye Rabbi",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create and manage Johnny.Decimal items with clean file explorer views.",
     "repo": "rzrabbi/obsidian-johnny-decimal-manager"
-  },
-  {
-    "id": "second-brain",
-    "name": "Second Brain",
-    "author": "ruowenwang",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered knowledge compiler — transform scattered notes into a structured, interlinked wiki.",
-    "repo": "graceruowenwang/obsidian-second-brain"
   },
   {
     "id": "yori-dashboard",
@@ -26873,6 +26873,13 @@
     "repo": "mateosantosdev/chancli-font-size-resizer"
   },
   {
+    "id": "ima",
+    "name": "Ima Vault",
+    "author": "Liu Bo",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Integrate IMA knowledge base with your vault. Supports Markdown rendering, import to folder, and advanced search.",
+    "repo": "liuboacean/ima-plugin"
+  },
+  {
     "id": "relations",
     "name": "Relations",
     "author": "obsidian-ttrpg-community",
@@ -26885,5 +26892,12 @@
     "author": "obsidian-ttrpg-community",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A Goal Reinforcing And Note Improving Tiny Entity",
     "repo": "obsidian-ttrpg-community/Granite"
+  },
+  {
+    "id": "blackglass",
+    "name": "Blackglass",
+    "author": "Scott Kosman",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Run Claude Code inside Obsidian with an interactive terminal, quick-ask modal, and a built-in MCP server for structured vault access.",
+    "repo": "humantorch/blackglass"
   }
 ]
