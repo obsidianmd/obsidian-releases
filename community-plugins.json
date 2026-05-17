@@ -20930,6 +20930,13 @@
     "repo": "swarogan/obsidian-mcp-rest"
   },
   {
+    "id": "link-tag-intelligence",
+    "name": "Link & Tag Intelligence",
+    "author": "zhangyang-crazy-one",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Native-first bilingual link and tag workflows with preview-driven references and semantic bridge hooks.",
+    "repo": "zhangyang-crazy-one/obsidian-link-tag-intelligence"
+  },
+  {
     "id": "github-sync-multi-platform",
     "name": "Github Sync (Multi-Platform)",
     "author": "thiter",
@@ -21110,13 +21117,6 @@
     "author": "chrisrytting",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Captures insights by matching text against tagged problem pages, inserting Learning Loop Trace blocks, and propagating review tags back to linked pages.",
     "repo": "chrisrytting/learning-loop-obsidian"
-  },
-  {
-    "id": "youtnote",
-    "name": "Youtnote",
-    "author": "khaldevmedia",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Embed multiple YouTube videos inside a single note, take timestamped Markdown notes with live preview editing.",
-    "repo": "khaldevmedia/obsidian-youtnote"
   },
   {
     "id": "open-in-claude-code",
@@ -21371,6 +21371,13 @@
     "repo": "samhopwell/obsidian-foldstate"
   },
   {
+    "id": "weave",
+    "name": "Weave",
+    "author": "zhuzhige123",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Enhance knowledge learning and memory consolidation with incremental reading, memory decks, and practice quiz decks.",
+    "repo": "zhuzhige123/obsidian---Weave"
+  },
+  {
     "id": "ai-link-summarizer",
     "name": "AI Link Summarizer",
     "author": "laroy-sh",
@@ -21460,13 +21467,6 @@
     "author": "lavs9",
     "description": "This plugin has not been manually reviewed by Obsidian staff. True Ghostty embedded terminal (libghostty-vt WASM) – with your real Ghostty config, multi-split support, and file-explorer context menu.",
     "repo": "lavs9/obsidian-ghostty-terminal"
-  },
-  {
-    "id": "advanced-search",
-    "name": "Advanced search",
-    "author": "clingfei",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Extend built-in Search by adding VS Code-like search controls.",
-    "repo": "clingfei/advanced-search"
   },
   {
     "id": "pairwise-ranking",
@@ -23219,13 +23219,6 @@
     "repo": "waheni/obsidian-speaknote"
   },
   {
-    "id": "soundify",
-    "name": "Soundify",
-    "author": "solomonarul",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Allows for sounds to play on specific events.",
-    "repo": "solomonarul/soundify"
-  },
-  {
     "id": "privacy-screen",
     "name": "Privacy Screen",
     "author": "chanhee-lee",
@@ -23343,13 +23336,6 @@
     "author": "reallygood83",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Upload local files to Google Drive and embed them directly in your notes. Supports audio, video, PDF, and images with intuitive size options.",
     "repo": "reallygood83/obsidian-embedder"
-  },
-  {
-    "id": "squire",
-    "name": "Squire",
-    "author": "choonkending",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Your faithful note-taking companion. Automatically provides capability like incremental file naming so you can stay in the flow.",
-    "repo": "choonkending/obsidian-squire"
   },
   {
     "id": "regex-replace",
@@ -24108,13 +24094,6 @@
     "repo": "kovah/obsidian-jira-auto-linker"
   },
   {
-    "id": "tubesage",
-    "name": "TubeSage",
-    "author": "rmccorkl",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Create comprehensive notes from YouTube transcripts using LLMs.",
-    "repo": "rmccorkl/TubeSage"
-  },
-  {
     "id": "external-links-icon",
     "name": "External Links Icon",
     "author": "moziar",
@@ -24320,16 +24299,9 @@
   {
     "id": "better-vim",
     "name": "Better Vim",
-    "author": "nilsgke",
+    "author": "Nils",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Fixes some annoyances with the built in vim mode.",
     "repo": "nilsgke/obsidian-better-vim"
-  },
-  {
-    "id": "ai-note-mate",
-    "name": "Note Mate",
-    "author": "ialex32x",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Note Mate is a smart AI assistant for your vault. With Note Mate, you can easily create new notes, expand on ideas, and get insights from your vault.",
-    "repo": "ialex32x/ai-note-mate"
   },
   {
     "id": "image-zoom",
@@ -26838,13 +26810,6 @@
     "repo": "derek-larson14/obsidian-claude-anywhere"
   },
   {
-    "id": "zotflow",
-    "name": "ZotFlow",
-    "author": "Xianpi Duan",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Keep your research in flow! #Zotero #PDF #Annotation",
-    "repo": "duanxianpi/zotflow"
-  },
-  {
     "id": "convert-case",
     "name": "Convert case",
     "author": "Ryan Morrissey",
@@ -26962,5 +26927,19 @@
     "author": "abduznik",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Fetches gaming giveaways and organizes them by platform in a collapsible format.",
     "repo": "abduznik/Obsidian-Game-Giveaways"
+  },
+  {
+    "id": "semantic-linker",
+    "name": "Semantic Linker",
+    "author": "Neurocoda",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Recommend semantically related notes from local metadata and insert curated links into your notes.",
+    "repo": "neurocoda/semantic-linker"
+  },
+  {
+    "id": "marp-inline-preview",
+    "name": "Marp Inline Preview",
+    "author": "Sotetsu Koyamada",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render Marp slide decks inline in edit mode and as full HTML in reading mode.",
+    "repo": "sotetsuk/obsidian-marp-inline-preview-plugin"
   }
 ]
