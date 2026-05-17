@@ -20468,6 +20468,13 @@
     "repo": "mb-yul/obsidian-inline-tag-plugin"
   },
   {
+    "id": "google-drive-folder-link",
+    "name": "Google Drive Folder Link",
+    "author": "andrewmarconi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Attach a Google Drive folder to any note via fuzzy search. Search across configured root folders in My Drive and Shared Drives, and access linked folders with one click from the note's properties pane.",
+    "repo": "andrewmarconi/GoogleDriveFolderLink"
+  },
+  {
     "id": "search-external-files",
     "name": "Search External Files",
     "author": "ttt",
@@ -21129,7 +21136,7 @@
     "id": "youtnote",
     "name": "Youtnote",
     "author": "khaldevmedia",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Embed multiple YouTube videos inside a single note, take timestamped Markdown notes with live preview editing.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Take timestamped Markdown notes across multiple embedded YouTube videos, all inside a single note.",
     "repo": "khaldevmedia/obsidian-youtnote"
   },
   {
@@ -23345,13 +23352,6 @@
     "repo": "takeshy/obsidian-wysimark"
   },
   {
-    "id": "kenku-fm-soundboards",
-    "name": "Kenku FM Soundboards",
-    "author": "Rato Kuzmanić",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Control playback of sounds from Kenku FM soundboards.",
-    "repo": "ratokuzmanic/obsidian-kenku-fm-soundboards"
-  },
-  {
     "id": "drive-embedder",
     "name": "Drive Embedder",
     "author": "reallygood83",
@@ -23371,13 +23371,6 @@
     "author": "mgcsysinfcat",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A writing companion that tracks your stats with a reactive emoji buddy.",
     "repo": "mgcsysinfcat/Ink-Buddy"
-  },
-  {
-    "id": "discord-webhooks",
-    "name": "Discord Webhooks",
-    "author": "Rato Kuzmanić",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Send selected text or preset messages using saved Discord webhooks.",
-    "repo": "ratokuzmanic/obsidian-discord-webhooks"
   },
   {
     "id": "scatter-chart-bases",
@@ -25438,13 +25431,6 @@
     "repo": "4513echo/obsidian-embed-plus"
   },
   {
-    "id": "askmate",
-    "name": "AskMate",
-    "author": "Behnam Ebrahimi",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Ask AI questions about your current Obsidian note or selected text.",
-    "repo": "codewithbehnam/askmate"
-  },
-  {
     "id": "cross-player",
     "name": "Cross Player",
     "author": "Imed Ghomari",
@@ -26995,7 +26981,7 @@
     "id": "annotation-marker",
     "name": "Annotation Marker",
     "author": "uuq007",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. 为 Markdown 笔记添加标注、高亮和批注，使用自定义视图渲染",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Add colored highlights, inline comments and ruby (phonetic) annotations to notes while keeping original Markdown untouched",
     "repo": "uuq007/obsidian-annotation-marker"
   },
   {
@@ -27018,5 +27004,19 @@
     "author": "Sotetsu Koyamada",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Render Marp slide decks inline in edit mode and as full HTML in reading mode.",
     "repo": "sotetsuk/obsidian-marp-inline-preview-plugin"
+  },
+  {
+    "id": "mylonite",
+    "name": "Mylonite",
+    "author": "Mylonite contributors",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Self-hosted encrypted sync for Obsidian vaults.",
+    "repo": "z1xus/mylonite"
+  },
+  {
+    "id": "decision-matrix-bases-view",
+    "name": "Decision Matrix Bases View",
+    "author": "jortscity",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A weighted decision matrix custom view for Bases. Score options across criteria, apply weights, and see ranked results.",
+    "repo": "jortscity/dmatrix-bases-view"
   }
 ]
