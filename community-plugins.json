@@ -4336,7 +4336,7 @@
     "id": "qmd-as-md-obsidian",
     "name": "qmd as md",
     "author": "danieltomasz",
-    "description": "View files with .qmd extension. QMD files contain a combination of Markdown and executable code cells and are a format supported by Quarto open source publishing system.",
+    "description": "Edit, preview, and render Quarto (.qmd) files with executable code cells via Quarto to PDF, DOCX, HTML, or reveal.js.",
     "repo": "danieltomasz/qmd-as-md-obsidian"
   },
   {
@@ -18671,7 +18671,7 @@
   {
     "id": "conditional-properties",
     "name": "Conditional Properties",
-    "author": "diegoeis",
+    "author": "Diego Eis",
     "description": "Automate frontmatter updates using conditional rules.",
     "repo": "diegoeis/obsidian-conditional-properties"
   },
@@ -19318,6 +19318,13 @@
     "author": "Leon Staufer",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync task completions to Beeminder goals. Works with the Tasks plugin.",
     "repo": "leonstaufer/obsidian-beeminder-task-sync"
+  },
+  {
+    "id": "ghost-writer-manager",
+    "name": "Ghost Writer Manager",
+    "author": "Diego Eis",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync notes to Ghost CMS with post scheduling, YAML metadata control, and periodic sync.",
+    "repo": "diegoeis/ghost-writer-manager-plugin"
   },
   {
     "id": "smart-import",
@@ -21336,6 +21343,13 @@
     "repo": "keonyrus/obsidian-confluence-sync"
   },
   {
+    "id": "vault-svn",
+    "name": "Vault SVN",
+    "author": "caesarloo",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage SVN working copies inside your vault.",
+    "repo": "caesarloo/obsidian-svn"
+  },
+  {
     "id": "evc-team-relay",
     "name": "EVC Team Relay",
     "author": "entire-vc",
@@ -21593,6 +21607,13 @@
     "author": "ebibibi",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Fixes CJK (Chinese/Japanese/Korean) bold and italic rendering in Live Preview mode.",
     "repo": "ebibibi/obsidian-cjk-bold-fix"
+  },
+  {
+    "id": "codesplash-themes",
+    "name": "CodeSplash Themes",
+    "author": "codesplash-ai",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create, manage, and switch between custom color themes with a visual theme editor.",
+    "repo": "codesplash-ai/codesplash-themes"
   },
   {
     "id": "personal-finance",
@@ -23681,6 +23702,13 @@
     "repo": "atacansuder/obsidian-furigana-generator"
   },
   {
+    "id": "manuscriptum",
+    "name": "Manuscriptum",
+    "author": "sgranade",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create .docx files that contain story and novel manuscripts for submission to magazines or agents.",
+    "repo": "sgranade/manuscriptum"
+  },
+  {
     "id": "mapplus",
     "name": "Map+",
     "author": "ccmdi",
@@ -24218,6 +24246,13 @@
     "author": "Robert Gomez, Jr.",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Copy notes and their attachments from one vault to another.",
     "repo": "rgomezjnr/copy-notes-to-vault"
+  },
+  {
+    "id": "callout-studio",
+    "name": "Callout Studio",
+    "author": "niv20",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage callouts with custom types, Material icons, native context menu actions, and full light and dark mode color control.",
+    "repo": "niv20/obsidian-Plugin-Callout-Studio"
   },
   {
     "id": "formula-r",
@@ -26602,8 +26637,15 @@
   {
     "id": "simple-flashcards",
     "name": "Simple Flashcards",
-    "author": "Joey Clancy",
+    "author": "Lil' Yabs",
     "description": "This plugin has not been manually reviewed by Obsidian staff. RemNote-style inline flashcard syntax with optional spaced repetition.",
     "repo": "clancyj11/simple-flashcards"
+  },
+  {
+    "id": "chinese-novel-assistant",
+    "name": "Chinese Novel Assistant",
+    "author": "pingo888",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A set of small features designed to make writing Chinese novels more convenient.",
+    "repo": "pingo8888/chinese-novel-assistant"
   }
 ]
