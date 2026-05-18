@@ -19362,6 +19362,13 @@
     "repo": "0126-hash/obsidian-smart-import"
   },
   {
+    "id": "bilingual-translator",
+    "name": "Bilingual Translator",
+    "author": "sourit2001",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Translate English articles to Chinese in a bilingual format using LLMs (Gemini 3.1, MiniMax, DeepSeek).",
+    "repo": "sourit2001/obsidian-bilingual-translator"
+  },
+  {
     "id": "jump-to-terminal",
     "name": "Jump to Terminal",
     "author": "maropark",
@@ -19586,6 +19593,13 @@
     "repo": "nekoe/obsidian-tate"
   },
   {
+    "id": "color-preview",
+    "name": "Color Preview",
+    "author": "stephanteig",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render color swatches from hex codes with RGB, CMYK, and PMS data. Includes palette blocks, inline dot previews, click-to-edit, and multiple insertion methods.",
+    "repo": "stephanteig/obsidian-color-preview"
+  },
+  {
     "id": "atomic",
     "name": "Atomic",
     "author": "kenforthewin",
@@ -19724,6 +19738,13 @@
     "author": "fengshuzi",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Track time spent on tasks with automatic duration calculation - toggle task status to start/stop tracking.",
     "repo": "fengshuzi/tick-track"
+  },
+  {
+    "id": "vault-pulse",
+    "name": "Vault Pulse",
+    "author": "stefmf",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A GitHub-style activity heatmap of your vault's file activity across the last 365 days.",
+    "repo": "stefmf/vault-pulse"
   },
   {
     "id": "mcp-tools-istefox",
@@ -20419,6 +20440,13 @@
     "repo": "konstantinosgkilas/smart-paste"
   },
   {
+    "id": "smart-order-list",
+    "name": "Smart Order List",
+    "author": "Howe",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Smartly stylize and manage Parallel and Nest Lines (Lists).",
+    "repo": "howe-ren/smart-order-list"
+  },
+  {
     "id": "csv-modern-codeblock",
     "name": "CSV Modern Codeblock",
     "author": "Vitalii Tytskyi",
@@ -20545,6 +20573,13 @@
     "repo": "andrewmarconi/GoogleDriveFolderLink"
   },
   {
+    "id": "ya-gpt",
+    "name": "Smart Vault Chat",
+    "author": "logotipza",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI assistant with multi-provider support: Yandex AI Studio, Groq, OpenAI, Anthropic, GigaChat. Chat panel, vault search, inline text editing.",
+    "repo": "logotipza/obsidian-ya-gpt"
+  },
+  {
     "id": "search-external-files",
     "name": "Search External Files",
     "author": "ttt",
@@ -20634,13 +20669,6 @@
     "author": "bartvw",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Convert tagged lines into structured Markdown notes with one click. Supports custom entity types with configurable frontmatter and color-coded pill in the editor.",
     "repo": "bartvw/entity-notes"
-  },
-  {
-    "id": "clean-ai-paste",
-    "name": "Clean AI Paste",
-    "author": "Jeremy Hou",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Instantly turns messy AI output into clean Obsidian notes on paste. Removes excessive blank lines, fixes code blocks, headers, removes emojis, and more.",
-    "repo": "goslowpoke168/obsidian-clean-ai-paste"
   },
   {
     "id": "wiki-summary-normalised",
@@ -20858,6 +20886,13 @@
     "author": "petersolopov",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Connect your vault to Claude Code. Shares selections and open files with the CLI.",
     "repo": "petersolopov/obsidian-claude-ide"
+  },
+  {
+    "id": "sfb-save-as-local-images",
+    "name": "Save as Local Images",
+    "author": "saltyfireball",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Download all remote images in the current note and save them locally to your vault's attachment folder, rewriting URLs to point to the local copies.",
+    "repo": "saltyfireball/obsidian-save-as-local-images"
   },
   {
     "id": "voxtral-transcribe",
@@ -21231,13 +21266,6 @@
     "repo": "wepee/obsidian-open-in-claude-code"
   },
   {
-    "id": "tidelog",
-    "name": "TideLog",
-    "author": "enhen3",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Plan your day, review your evenings, and turn daily notes into AI-guided insights, patterns, dashboards, and next actions.",
-    "repo": "enhen3/Tidelog"
-  },
-  {
     "id": "on-demand-plugins",
     "name": "On-Demand",
     "author": "22-2",
@@ -21378,13 +21406,6 @@
     "repo": "justwsh/obsidianExportHTML"
   },
   {
-    "id": "x-twitter-post-embed",
-    "name": "X/Twitter Post Embed",
-    "author": "mathieulohr",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically embeds X (formerly Twitter) post text when pasting a URL. Also saves posts as notes via command palette.",
-    "repo": "mathieulohr/x-twitter-post-embed"
-  },
-  {
     "id": "highmagician-any-task",
     "name": "Any Task",
     "author": "highmagician",
@@ -21511,18 +21532,18 @@
     "repo": "alpinemily/obsidian-mood-atlas"
   },
   {
-    "id": "sfb-open-in-new-tab",
-    "name": "Open in New Tab",
-    "author": "saltyfireball",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Forces files to open in new tabs instead of replacing the current tab. Covers all opening methods including Quick Switcher, command palette, bookmarks, search, backlinks, and graph view.",
-    "repo": "saltyfireball/obsidian-sfb-open-in-new-tab"
-  },
-  {
     "id": "focus-mode-pro",
     "name": "Focus Mode Pro",
     "author": "mvru",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Premium Focus Mode plugin with File Finder and Tab Switcher.",
     "repo": "mvru/focus-mode-pro"
+  },
+  {
+    "id": "gemini-ai-commander",
+    "name": "Gemini AI Commander",
+    "author": "etsefzale",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A simple AI assistant to help with your notes using the Google Gemini API.",
+    "repo": "etsefzale/obsidian_gemini-ai-commander"
   },
   {
     "id": "notebook-mindmap-to-canvas",
@@ -21665,34 +21686,6 @@
     "repo": "akhmialeuski/advanced-audio-recorder"
   },
   {
-    "id": "banner-images",
-    "name": "Banner Images",
-    "author": "saltyfireball",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Display banner images at the top of notes using frontmatter fields. Supports vault images, external URLs, custom height, opacity, vertical positioning, and gradient transparency.",
-    "repo": "saltyfireball/obsidian-banner-images"
-  },
-  {
-    "id": "code-editor",
-    "name": "Code Editor",
-    "author": "saltyfireball",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Edit non-markdown text files (code, config, data) directly with syntax highlighting, line numbers, and word wrap.",
-    "repo": "saltyfireball/obsidian-code-editor"
-  },
-  {
-    "id": "highlight-non-ascii",
-    "name": "Highlight Non-ASCII",
-    "author": "saltyfireball",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Highlights non-ASCII characters in your notes with a red background in both Edit and Reading views.",
-    "repo": "saltyfireball/obsidian-highlight-non-ascii"
-  },
-  {
-    "id": "auto-view-mode",
-    "name": "Auto View Mode",
-    "author": "saltyfireball",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically switch between Reading View, Source Mode, and Live Preview based on a frontmatter key in your notes.",
-    "repo": "saltyfireball/obsidian-auto-view-mode"
-  },
-  {
     "id": "bookmark-api",
     "name": "Bookmark API",
     "author": "niko-drossos",
@@ -21733,13 +21726,6 @@
     "author": "ricparks",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create structured notes from photos using AI. Analyze subjects and extract metadata automatically.",
     "repo": "ricparks/note-maker-ai"
-  },
-  {
-    "id": "read-only-view",
-    "name": "Read Only View",
-    "author": "mrkazzila",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Forces notes to open in read-only preview mode. Lock your files to prevent accidental edits with this simple editor lock tool.",
-    "repo": "mrkazzila/Read-Only-View"
   },
   {
     "id": "floating-window",
@@ -22568,6 +22554,13 @@
     "repo": "shitcoding/obsidian_tabjump"
   },
   {
+    "id": "better-bullets",
+    "name": "Better Bullets",
+    "author": "lualum",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Improves readability of bulleted notes.",
+    "repo": "lualum/obsidian-better-bullets"
+  },
+  {
     "id": "ai-auto-tagger",
     "name": "AI Auto Tagger",
     "author": "oyuk",
@@ -23228,7 +23221,7 @@
   {
     "id": "custom-views",
     "name": "Custom Views",
-    "author": "anuwup",
+    "author": "Anup Chavan",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create custom HTML views for your notes based on filter rules. Transform how your notes are displayed.",
     "repo": "anupchavan/obsidian-custom-views"
   },
@@ -24288,6 +24281,13 @@
     "author": "kovah",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically create links to Jira from issue IDs like APP-1426.",
     "repo": "kovah/obsidian-jira-auto-linker"
+  },
+  {
+    "id": "tubesage",
+    "name": "TubeSage",
+    "author": "rmccorkl",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create comprehensive notes from YouTube transcripts using LLMs.",
+    "repo": "rmccorkl/TubeSage"
   },
   {
     "id": "external-links-icon",
@@ -25641,13 +25641,6 @@
     "repo": "silas-zhen/monolithos-plugin"
   },
   {
-    "id": "csv-viewer",
-    "name": "CSV and Log Viewer",
-    "author": "jethrojones",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. View, search, sort, and edit CSV files in Obsidian, with a built-in log viewer for filtering and inspecting .log files.",
-    "repo": "jethrojones/obsidian-csv-viewer"
-  },
-  {
     "id": "safe-js",
     "name": "Safe JS",
     "author": "Moritz Jung",
@@ -25905,6 +25898,13 @@
     "author": "Greener-Dalii",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Karpathy's LLM Wiki implementation - multi-page knowledge generation with entity/concept pages and conversational query.",
     "repo": "green-dalii/obsidian-llm-wiki"
+  },
+  {
+    "id": "sync-trakt",
+    "name": "Sync Trakt",
+    "author": "o1xhack",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your Trakt.tv watchlist, watch history, favorites, and ratings into Markdown notes — with metadata localization and detailed per-episode watch timestamps.",
+    "repo": "o1xhack/obsidian-sync-trakt"
   },
   {
     "id": "realclaudian",
