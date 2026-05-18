@@ -17803,7 +17803,7 @@
   {
     "id": "shell-path-copy",
     "name": "Shell Path Copy",
-    "author": "ckelsoe",
+    "author": "Charles R Kelsoe",
     "description": "Quickly copy vault file and folder paths for AI coding tools (Claude Code, Gemini CLI) - works on desktop and mobile with Windows/Unix formats",
     "repo": "ckelsoe/obsidian-shell-path-copy"
   },
@@ -20790,6 +20790,13 @@
     "repo": "petersolopov/obsidian-claude-ide"
   },
   {
+    "id": "voxtral-transcribe",
+    "name": "Voxtral Transcribe",
+    "author": "maxonamission",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Speech-to-text dictation using Mistral Voxtral. Supports real-time streaming, voice commands (headings, lists, to-dos), and automatic text correction.",
+    "repo": "maxonamission/obsidian-voxtral"
+  },
+  {
     "id": "sfb-click-image-to-zoom",
     "name": "Click Image to Zoom",
     "author": "saltyfireball",
@@ -21103,6 +21110,13 @@
     "author": "lastratalive",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Book tracking native to your vault. Like Goodreads, but for your notes.",
     "repo": "lastratalive/Librarian"
+  },
+  {
+    "id": "neural-composer",
+    "name": "Neural Composer",
+    "author": "oscampo",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Local Graph RAG powered by LightRAG. Chat with your notes using deep knowledge graph connections.",
+    "repo": "oscampo/obsidian-neural-composer"
   },
   {
     "id": "auto-collapse-inactive-folders",
@@ -25648,13 +25662,6 @@
     "repo": "ctrlaltwill/learnkit"
   },
   {
-    "id": "horme",
-    "name": "Horme",
-    "author": "ducktapekiller",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered assistant with chat, right-click actions, vault-wide RAG, and an extensible skill system. Supports Ollama, Claude, Gemini, OpenAI, Groq, OpenRouter, and LM Studio.",
-    "repo": "ducktapekiller/horme"
-  },
-  {
     "id": "github-wiki-sync",
     "name": "GitHub Wiki",
     "author": "benpm",
@@ -27053,5 +27060,12 @@
     "author": "Michael Wolf",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Switch checkboxes between customizable statuses via click, keyboard shortcut, or context menu.",
     "repo": "wolfm/obsidian-multi-state-checkboxes"
+  },
+  {
+    "id": "ebrain-gardener",
+    "name": "eBrain Gardener",
+    "author": "karx",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Digital garden pipeline: inbox scoring, LLM-powered frontmatter enrichment, and WikiLink suggestions — no terminal needed.",
+    "repo": "karx/kaaroGarden"
   }
 ]
