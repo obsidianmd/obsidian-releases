@@ -21532,6 +21532,13 @@
     "repo": "alpinemily/obsidian-mood-atlas"
   },
   {
+    "id": "sfb-open-in-new-tab",
+    "name": "Open in New Tab",
+    "author": "saltyfireball",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Forces files to open in new tabs instead of replacing the current tab. Covers all opening methods including Quick Switcher, command palette, bookmarks, search, backlinks, and graph view.",
+    "repo": "saltyfireball/obsidian-sfb-open-in-new-tab"
+  },
+  {
     "id": "focus-mode-pro",
     "name": "Focus Mode Pro",
     "author": "mvru",
@@ -21658,6 +21665,13 @@
     "repo": "jffaust/obsidian-canvas-images-as-links"
   },
   {
+    "id": "illuminator",
+    "name": "Illuminator",
+    "author": "tiezjin",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically removes white backgrounds from images on paste and converts them to optimized WebP. Perfect for maintaining legibility and visual harmony in light-themed vaults.",
+    "repo": "tiezjin/illuminator"
+  },
+  {
     "id": "hedgesync",
     "name": "Hedgesync",
     "author": "tionis",
@@ -21684,6 +21698,34 @@
     "author": "akhmialeuski",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Advanced audio recording with input device and folder configuration.",
     "repo": "akhmialeuski/advanced-audio-recorder"
+  },
+  {
+    "id": "banner-images",
+    "name": "Banner Images",
+    "author": "saltyfireball",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Display banner images at the top of notes using frontmatter fields. Supports vault images, external URLs, custom height, opacity, vertical positioning, and gradient transparency.",
+    "repo": "saltyfireball/obsidian-banner-images"
+  },
+  {
+    "id": "code-editor",
+    "name": "Code Editor",
+    "author": "saltyfireball",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Edit non-markdown text files (code, config, data) directly with syntax highlighting, line numbers, and word wrap.",
+    "repo": "saltyfireball/obsidian-code-editor"
+  },
+  {
+    "id": "highlight-non-ascii",
+    "name": "Highlight Non-ASCII",
+    "author": "saltyfireball",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Highlights non-ASCII characters in your notes with a red background in both Edit and Reading views.",
+    "repo": "saltyfireball/obsidian-highlight-non-ascii"
+  },
+  {
+    "id": "auto-view-mode",
+    "name": "Auto View Mode",
+    "author": "saltyfireball",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically switch between Reading View, Source Mode, and Live Preview based on a frontmatter key in your notes.",
+    "repo": "saltyfireball/obsidian-auto-view-mode"
   },
   {
     "id": "bookmark-api",
@@ -21726,6 +21768,13 @@
     "author": "ricparks",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create structured notes from photos using AI. Analyze subjects and extract metadata automatically.",
     "repo": "ricparks/note-maker-ai"
+  },
+  {
+    "id": "read-only-view",
+    "name": "Read Only View",
+    "author": "mrkazzila",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Keep selected Markdown notes in Reading view using include and exclude path rules.",
+    "repo": "mrkazzila/Read-Only-View"
   },
   {
     "id": "floating-window",
@@ -21789,6 +21838,13 @@
     "author": "joshuarli",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Converts pasted images to WebP.",
     "repo": "joshuarli/obsidian-webp-paste"
+  },
+  {
+    "id": "zotero-redisearch-rag",
+    "name": "Zotero Research Assistant",
+    "author": "jmiba",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Import and OCR Zotero PDFs using a Docling pipeline, sync metadata including annotations, and chat with your research literature using local Redis-powered RAG.",
+    "repo": "jmiba/zotero-redisearch-rag"
   },
   {
     "id": "flownote",
@@ -22519,6 +22575,13 @@
     "repo": "forketyfork/obsidian-speech-bubbles"
   },
   {
+    "id": "granola-meetings-simple-sync",
+    "name": "Granola Meetings Simple Sync",
+    "author": "philfreo",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your Granola meeting notes, summaries, and transcripts to your vault in a simple way (no API usage). Customizable by template. Supports auto-linking of attendee Person notes.",
+    "repo": "philfreo/obsidian-granola-plugin"
+  },
+  {
     "id": "tab-multi-select",
     "name": "Tab Multi Select",
     "author": "nitero",
@@ -22629,6 +22692,13 @@
     "author": "mssoftjp",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Copy the current note to the clipboard (optionally with filename and frontmatter).",
     "repo": "mssoftjp/obsidian-copy-this-note"
+  },
+  {
+    "id": "pinbox",
+    "name": "Pinbox",
+    "author": "kuoe0",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Instantly capture content to pinned notes on the mobile app.",
+    "repo": "kuoe0/obsidian-pinbox"
   },
   {
     "id": "em-dash-replace",
@@ -27279,6 +27349,13 @@
     "repo": "z1xus/mylonite"
   },
   {
+    "id": "comshit",
+    "name": "comshit",
+    "author": "comwhore",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Extend Canvas with mindmap shortcuts, paired Markdown sync, OSINT child nodes, and embedded .sheet spreadsheets.",
+    "repo": "comwhore/obsidian-comshit"
+  },
+  {
     "id": "linear-calendar",
     "name": "Linear Calendar",
     "author": "Celine | HomefulHobo",
@@ -27459,5 +27536,19 @@
     "author": "ksawl",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Open files in new tabs by default, with smart tab deduplication.",
     "repo": "ksawl/obsidian-smart-tabs"
+  },
+  {
+    "id": "translucent-bg",
+    "name": "Translucent BG",
+    "author": "MellowMarsh",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Translucent window backgrounds on Windows — acrylic blur, mica, and theme-aware tint overlays.",
+    "repo": "mellowmarsh-git/Obsidian-Translucent-BG"
+  },
+  {
+    "id": "four-d-eisenhower-matrix",
+    "name": "4D Eisenhower Matrix",
+    "author": "Jaroslav Krčál",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Visualize tasks across your vault in a 5-quadrant Eisenhower matrix (DO / DECIDE / DELEGATE / DELETE / OPEN). Reads and writes standard task syntax — tags, due/start/done dates, and priority emoji.",
+    "repo": "krcaljaroslav/4D-eisenhower-matrix"
   }
 ]
