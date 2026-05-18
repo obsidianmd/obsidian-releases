@@ -19649,6 +19649,13 @@
     "repo": "lolieatapple/obsidian-table-column-resize"
   },
   {
+    "id": "geocode-note",
+    "name": "Geocode Note",
+    "author": "blamouche",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Add geographic coordinates, icon and color to your notes via geolocation or address lookup.",
+    "repo": "blamouche/obsidian-geocode-note"
+  },
+  {
     "id": "latex-color-sync",
     "name": "LaTeX Color Sync",
     "author": "lunevoilee",
@@ -20340,6 +20347,13 @@
     "author": "amatya-aditya",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Allows to create interactive multi-columns.",
     "repo": "amatya-aditya/advanced-multi-column"
+  },
+  {
+    "id": "vitepress-theme",
+    "name": "VitePress Theme",
+    "author": "weizwz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. VitePress-style theme with custom containers, enhanced code blocks, and modern typography.",
+    "repo": "weizwz/obsidian-vitepress"
   },
   {
     "id": "pocket-sync",
@@ -21068,13 +21082,6 @@
     "author": "laofahai",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A fast CSV/TSV editor with virtual scrolling, inline editing, column filtering, and auto encoding detection.",
     "repo": "laofahai/obsidian-tablite"
-  },
-  {
-    "id": "export-markdown-zip",
-    "name": "Export Markdown ZIP",
-    "author": "padane22-spec",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Export a note with linked notes and local attachments into a zip archive.",
-    "repo": "padane22-spec/obsidian-export-markdown-zip"
   },
   {
     "id": "sitelen-pona",
@@ -22209,6 +22216,13 @@
     "author": "scottschroeder",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Search and rank notes by graph link proximity combined with title and body relevance.",
     "repo": "scottschroeder/obsidian-graph-search"
+  },
+  {
+    "id": "simple-microsoft-todo",
+    "name": "Simple Microsoft To Do",
+    "author": "ruochen0513",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Integrate Microsoft To Do in sidebar.",
+    "repo": "ruochen0513/obsidian-simple-ms-todo-plugin"
   },
   {
     "id": "paperstudio",
@@ -23611,6 +23625,13 @@
     "repo": "qingruikz/image-previewer"
   },
   {
+    "id": "intelligence-assistant",
+    "name": "Intelligence Assistant",
+    "author": "qwai-tech",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI chat, agents, and MCP tooling for your notes.",
+    "repo": "qwai-tech/obsidian-plugin-intelligence-assistant"
+  },
+  {
     "id": "open-in-ide",
     "name": "Open in IDE",
     "author": "Erik-Jan",
@@ -23938,6 +23959,13 @@
     "author": "David V. Kimball",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Ensure your public-facing notes are optimized for search engines and AI.",
     "repo": "davidvkimball/obsidian-seo"
+  },
+  {
+    "id": "speech-to-text",
+    "name": "Speech to Text",
+    "author": "asyouplz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Convert audio recordings to text using multiple AI providers (OpenAI Whisper, Deepgram)",
+    "repo": "asyouplz/SpeechNote"
   },
   {
     "id": "agent-client",
@@ -24673,6 +24701,13 @@
     "author": "42milesz",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Pin folders as tabs in the default file explorer.",
     "repo": "42milesz/obsidian-folder-pin"
+  },
+  {
+    "id": "gtc-sync",
+    "name": "GTC Sync",
+    "author": "etudes-informatiques-et-services35",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Synchronizing notes with GTC.",
+    "repo": "etudes-informatiques-et-services35/gtc-sync"
   },
   {
     "id": "image-gin",
@@ -26372,7 +26407,7 @@
     "id": "vaultguard-sync",
     "name": "VaultGuard Sync",
     "author": "Peter Sedmak",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Enterprise vault security with permission-aware encrypted cloud sync. Replaces standard file sync with a system that enforces per-file permissions, end-to-end encryption, and full audit logging through an AWS backend. Works on desktop and mobile — the agent bridge (local MCP server) is desktop-only.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Permission-aware encrypted cloud sync for enterprise vaults. Enforces per-file permissions, E2E encryption, and full audit logging through AWS. Replaces standard cloud sync. Desktop + mobile supported",
     "repo": "peter70700/vaultguard-obsidian"
   },
   {
@@ -27207,5 +27242,19 @@
     "author": "yinshaohua",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A unified calendar view syncing events from Google Calendar, CalDAV, and ICS feeds into one beautiful interface.",
     "repo": "yinshaohua/UniCalendar"
+  },
+  {
+    "id": "metafetch",
+    "name": "Metafetch",
+    "author": "lossless-group",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Pull OpenGraph metadata from any URL into note frontmatter — title, image, description, publisher — via OpenGraph.io or Microlink.",
+    "repo": "lossless-group/metafetch"
+  },
+  {
+    "id": "bijitongbu",
+    "name": "Biji Tongbu",
+    "author": "beijing-bijitongbu",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Capture content from WeChat Official Accounts, Xiaohongshu, Dedao, Yuanbao, and Zhihu. Save chat records, images, and files with ease.",
+    "repo": "notesynchelper/obsidian-bijitongbu"
   }
 ]
