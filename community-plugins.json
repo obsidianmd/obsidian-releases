@@ -20104,6 +20104,13 @@
     "repo": "mm0x1/obsidian-autism-task-planner"
   },
   {
+    "id": "cvss-calculator",
+    "name": "CVSS 3.1 Calculator",
+    "author": "0xdad0",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Compute CVSS 3.1 scores with an interactive popup selector.",
+    "repo": "0xdad0/obsidian-cvss"
+  },
+  {
     "id": "shopping-list",
     "name": "Shopping List",
     "author": "mr-flannery",
@@ -20760,6 +20767,13 @@
     "author": "mesqueeb",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Transcribes your PDFs, images, and Canvas files into searchable Markdown notes using AI. You control which files get transcribed, with what prompt, and where the transcription is saved. Bring your own key.",
     "repo": "mesqueeb/obsidian-ai-attachmate"
+  },
+  {
+    "id": "retype",
+    "name": "Retype",
+    "author": "retypeapp",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Build and preview your documentation with Retype.",
+    "repo": "retypeapp/retype-for-obsidian"
   },
   {
     "id": "wikilink-types",
@@ -23583,13 +23597,6 @@
     "repo": "tcyeee/obsidian-bases-lock"
   },
   {
-    "id": "helix",
-    "name": "Helix Keybindings",
-    "author": "obsidian-helix",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Use Helix key bindings when editing.",
-    "repo": "obsidian-helix/obsidian-helix"
-  },
-  {
     "id": "image-cluster",
     "name": "Image Cluster",
     "author": "tcyeee",
@@ -24381,6 +24388,13 @@
     "repo": "stephencarboni/obsidian-unique-tab-labels"
   },
   {
+    "id": "draft-bench",
+    "name": "Draft Bench",
+    "author": "John Banister",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A full creative writing workflow: project creation, scene management, and manuscript compilation with frontmatter-native data and Bases compatibility.",
+    "repo": "banisterious/obsidian-draft-bench"
+  },
+  {
     "id": "getnote-importer",
     "name": "GetNote Importer",
     "author": "andyzhengyan",
@@ -24482,7 +24496,7 @@
     "id": "sheet-music",
     "name": "Sheet Music",
     "author": "corecube",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Render ABC notation, MusicXML scores, strumming patterns, and chord sheets inside notes.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render ABC notation, strumming patterns, and chord sheets inside notes.",
     "repo": "corecube/obsidian-sheet-music"
   },
   {
@@ -24960,13 +24974,6 @@
     "author": "NellowTCS",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically creates backlinks from and to notes with easy customizability.",
     "repo": "nellowtcs/Obsidian-AutoLink"
-  },
-  {
-    "id": "paperforge",
-    "name": "PaperForge",
-    "author": "lllin000",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. PaperForge — Zotero literature pipeline. Sync PDFs, run OCR, and read with AI-assisted deep reading.",
-    "repo": "lllin000/PaperForge"
   },
   {
     "id": "structure-commander",
@@ -25828,13 +25835,6 @@
     "author": "fleker",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Find Liked Songs that aren't in any of your Spotify playlists and save them as a note.",
     "repo": "fleker/spotify-organizer-for-obsidian"
-  },
-  {
-    "id": "simple-storage-sync-and-backup",
-    "name": "S3 Sync & Backup",
-    "author": "ceilaolabs",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Vault synchronization and scheduled backups across devices using S3-compatible storage (AWS S3, Cloudflare R2, RustFS, etc.) with optional end-to-end encryption.",
-    "repo": "ceilaolabs/obsidian-s3-sync-and-backup"
   },
   {
     "id": "agentic-note-references",
@@ -27265,6 +27265,13 @@
     "repo": "jortscity/dmatrix-bases-view"
   },
   {
+    "id": "hermes-console",
+    "name": "Hermes Console",
+    "author": "Danny Shmueli",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Run Hermes Agent in a tabbed terminal with selected-note context and background status alerts",
+    "repo": "dannyshmueli/obsidian-hermes-console"
+  },
+  {
     "id": "multi-state-checkboxes",
     "name": "Multi-State Checkboxes",
     "author": "Michael Wolf",
@@ -27303,7 +27310,7 @@
     "id": "created-daily-note-sync",
     "name": "Created Daily Note Sync",
     "author": "zgfdada",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. 根据笔记 frontmatter 的 created 日期自动补建对应 Obsidian 日记。",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically create corresponding Obsidian daily notes based on the created date in the note's frontmatter.",
     "repo": "zgfdada/created-daily-note-sync"
   },
   {
@@ -27338,7 +27345,7 @@
     "id": "leaflet-bases",
     "name": "Leaflet bases",
     "author": "Sara Lilith Slootmaker",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Interactive map view inside your bases.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Interactive fantasy map view inside your bases.",
     "repo": "requiae/obsidian-leaflet-bases-plugin"
   },
   {
@@ -27382,5 +27389,19 @@
     "author": "moszinet",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync emails sent to your mail2note address into your vault as Markdown notes.",
     "repo": "moszinet/mail2note-obsidian-plugin"
+  },
+  {
+    "id": "gantt-calendar",
+    "name": "Gantt Calendar",
+    "author": "Sugar",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A powerful visual task management plugin. Visualize and manage tasks created by the Tasks plugin, supporting both emoji and Dataview task formats.",
+    "repo": "sustcsugar/obsidian-gantt-calendar"
+  },
+  {
+    "id": "simple-draw",
+    "name": "SimpleDraw",
+    "author": "whiteandgrey",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A lightweight drawing plugin for simple flowcharts.",
+    "repo": "whiteandgrey/obsidian-simpledraw-plugin"
   }
 ]
