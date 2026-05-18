@@ -11321,7 +11321,7 @@
   {
     "id": "xournalpp",
     "name": "Xournal++",
-    "author": "jonjampen",
+    "author": "Jon Jampen",
     "description": "Integration with Xournal++ for handwritten notes and annotations.",
     "repo": "jonjampen/obsidian-xournalpp"
   },
@@ -19848,7 +19848,7 @@
     "id": "epochgram",
     "name": "Epochgram",
     "author": "Andriy Babets",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A timemap of your mind — turn your notes into an AI-powered interactive timeline.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A timemap of your mind - turn your notes into an AI-powered interactive timeline.",
     "repo": "2brn/epochgram"
   },
   {
@@ -20300,13 +20300,6 @@
     "repo": "resina37451-cell/study-flow-planner"
   },
   {
-    "id": "code-suite",
-    "name": "CodeSuite",
-    "author": "felixleopold",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. VS Code-quality code blocks: Shiki syntax highlighting with 65+ themes, code execution with live I/O, embedded file rendering, and custom VS Code theme import.",
-    "repo": "felixleopold/obsidian-code-suite"
-  },
-  {
     "id": "colorful-folders",
     "name": "Colorful Folders",
     "author": "rohitnahar-offical",
@@ -20498,7 +20491,7 @@
   {
     "id": "teleprompter-plus",
     "name": "Teleprompter Plus",
-    "author": "juracyamerico",
+    "author": "Americo",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Scroll notes as a teleprompter with mobile remote control, Stream Deck integration, countdown timer, and voice tracking.",
     "repo": "juracyamerico/obsidian-teleprompter-plus"
   },
@@ -20828,7 +20821,7 @@
     "id": "voxtral-transcribe",
     "name": "Voxtral Transcribe",
     "author": "maxonamission",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Speech-to-text dictation using Mistral Voxtral. Supports real-time streaming, voice commands (headings, lists, to-dos), and automatic text correction.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Speech-to-text dictation using Mistral Voxtral. Supports real-time streaming transcription, voice commands (headings, lists, to-dos), and automatic text correction.",
     "repo": "maxonamission/obsidian-voxtral"
   },
   {
@@ -21152,13 +21145,6 @@
     "author": "lastratalive",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Book tracking native to your vault. Like Goodreads, but for your notes.",
     "repo": "lastratalive/Librarian"
-  },
-  {
-    "id": "neural-composer",
-    "name": "Neural Composer",
-    "author": "oscampo",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Local Graph RAG powered by LightRAG. Chat with your notes using deep knowledge graph connections.",
-    "repo": "oscampo/obsidian-neural-composer"
   },
   {
     "id": "auto-collapse-inactive-folders",
@@ -22127,6 +22113,13 @@
     "repo": "rekby/obsidian-natural-link"
   },
   {
+    "id": "quick-reads-sync",
+    "name": "Quick Reads Sync",
+    "author": "mattbirchler",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your highlights from Quick Reads into your vault.",
+    "repo": "mattbirchler/quick-reads-obsidian"
+  },
+  {
     "id": "petrify",
     "name": "Petrify",
     "author": "jo-minjun",
@@ -22972,6 +22965,13 @@
     "author": "eugeny-dementev",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Generate AI agent briefs from the current note using path-based templates and task extraction.",
     "repo": "eugeny-dementev/briefmaker"
+  },
+  {
+    "id": "knox-sync",
+    "name": "Knox Sync",
+    "author": "trinitytime",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault with knox portal.",
+    "repo": "trinitytime/knox-sync-plugin"
   },
   {
     "id": "lm-studio-connect",
@@ -24740,7 +24740,7 @@
   {
     "id": "gtc-sync",
     "name": "GTC Sync",
-    "author": "etudes-informatiques-et-services35",
+    "author": "Etudes Informatiques et Services",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Synchronizing notes with GTC.",
     "repo": "etudes-informatiques-et-services35/gtc-sync"
   },
@@ -27132,6 +27132,13 @@
     "repo": "obsidian-ttrpg-community/Granite"
   },
   {
+    "id": "timeflow-periodic",
+    "name": "Timeflow Periodic",
+    "author": "smirnoffmg",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Infinite vertical temporal feed for your daily Periodic Notes.",
+    "repo": "smirnoffmg/obsidian-timeflow"
+  },
+  {
     "id": "blackglass",
     "name": "Blackglass",
     "author": "Scott Kosman",
@@ -27286,17 +27293,38 @@
     "repo": "lossless-group/metafetch"
   },
   {
-    "id": "leaflet-bases",
-    "name": "Leaflet bases",
-    "author": "Sara Lilith Slootmaker",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Interactive map view inside your bases.",
-    "repo": "requiae/obsidian-leaflet-bases-plugin"
-  },
-  {
     "id": "bijitongbu",
     "name": "Biji Tongbu",
     "author": "beijing-bijitongbu",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Capture content from WeChat Official Accounts, Xiaohongshu, Dedao, Yuanbao, and Zhihu. Save chat records, images, and files with ease.",
     "repo": "notesynchelper/obsidian-bijitongbu"
+  },
+  {
+    "id": "tab-limit-lru",
+    "name": "LRU Tab Limiter",
+    "author": "Ivan Chen",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Keeps Markdown tabs under a limit by replacing the least recently used tab.",
+    "repo": "fireshort/obsidian-tab-limit"
+  },
+  {
+    "id": "ghosty-posty",
+    "name": "Ghosty Posty",
+    "author": "mattbirchler",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Post your notes to your Ghost blog.",
+    "repo": "mattbirchler/ghosty-posty-obsidian"
+  },
+  {
+    "id": "redline",
+    "name": "Redline",
+    "author": "Nicolas Sassi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Add PR-style review comments anchored to specific paragraphs, headings, images, code blocks, and tables. Comments live in a sibling .review.md sidecar so the source document stays clean.",
+    "repo": "nicolasassi/redline"
+  },
+  {
+    "id": "cornell-marginalia",
+    "name": "Cornell Marginalia",
+    "author": "Latazadehomero",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Renders Cornell-style marginal notes using the %%> ... %% syntax. Keeps your notes clean for flashcards and export.",
+    "repo": "latazadehomero/cornell-marginalia"
   }
 ]
