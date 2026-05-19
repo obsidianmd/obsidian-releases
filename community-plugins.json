@@ -14626,7 +14626,7 @@
     "id": "keep-the-rhythm",
     "name": "Keep the Rhythm",
     "author": "benjaminezequiel",
-    "description": "Visualize daily word count with a heatmap.",
+    "description": "Turns out watching your word count go up is all the motivation you need.",
     "repo": "benjaminezequiel/keep-the-rhythm"
   },
   {
@@ -26768,13 +26768,6 @@
     "repo": "christianlempa/obsidian-pi"
   },
   {
-    "id": "smart-vault-sync",
-    "name": "Smart Vault Sync",
-    "author": "何乐为",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Smart two-way sync for your vault and submodules with GitHub, powered by AI commit messages.",
-    "repo": "leweii/obsidian-github-sync"
-  },
-  {
     "id": "engram-vault-sync",
     "name": "Engram Vault Sync",
     "author": "Rasbandit",
@@ -26950,13 +26943,6 @@
     "repo": "qingxuanlin-s/obsidian-thought-navigator"
   },
   {
-    "id": "shadowdark-statblocks",
-    "name": "Shadowdark Statblocks",
-    "author": "caulfieldsbrain",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Create, import, and render Shadowdark RPG monster stat blocks.",
-    "repo": "caulfieldsbrain/obsidian-shadowdark-statblocks"
-  },
-  {
     "id": "opencode",
     "name": "OpenCode",
     "author": "krisspy",
@@ -27067,6 +27053,13 @@
     "author": "therofli",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Talk to your vault with local voice, RAG, Wiki memory, safe edits, and Mindo Code.",
     "repo": "therofli/Mindo"
+  },
+  {
+    "id": "markpage-sync",
+    "name": "MarkPage Sync",
+    "author": "TimiKays",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync notes with images to MarkPage editor. One click to send your note to MarkPage for beautiful visual editing.",
+    "repo": "timikays/markpage-obsidian-plugin"
   },
   {
     "id": "markr",
@@ -27468,6 +27461,13 @@
     "repo": "notesynchelper/obsidian-bijitongbu"
   },
   {
+    "id": "markdoist",
+    "name": "Markdoist",
+    "author": "0ximst1ll",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Task management with Todoist bidirectional sync.",
+    "repo": "0ximst1ll/markdoist"
+  },
+  {
     "id": "tab-limit-lru",
     "name": "LRU Tab Limiter",
     "author": "Ivan Chen",
@@ -27513,7 +27513,7 @@
     "id": "gantt-calendar",
     "name": "Gantt Calendar",
     "author": "Sugar",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A powerful visual task management plugin. Visualize and manage tasks created by the Tasks plugin, supporting both emoji and Dataview task formats.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A powerful visual task management plugin. Visualize and manage tasks created by the Tasks plugin, supporting both emoji and Dataview task formats. Support Feishu Task syncing.",
     "repo": "sustcsugar/obsidian-gantt-calendar"
   },
   {
@@ -27557,5 +27557,19 @@
     "author": "Jaroslav Krčál",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Visualize tasks across your vault in a 5-quadrant Eisenhower matrix (DO / DECIDE / DELEGATE / DELETE / OPEN). Reads and writes standard task syntax — tags, due/start/done dates, and priority emoji.",
     "repo": "krcaljaroslav/4D-eisenhower-matrix"
+  },
+  {
+    "id": "link-extractor",
+    "name": "Link Extractor",
+    "author": "Andrew Mutavdzija",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Scan the current note for all external links and copy them as a list.",
+    "repo": "andym-dc/obsidian-link-extractor"
+  },
+  {
+    "id": "agentic-git-sync",
+    "name": "Agentic Git Sync",
+    "author": "何乐为",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Agentic two-way sync for your vault and submodules with GitHub. AI resolves conflicts and git errors autonomously.",
+    "repo": "leweii/agentic-git-sync"
   }
 ]
