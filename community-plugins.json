@@ -20482,6 +20482,13 @@
     "repo": "sbuffkin/hexmaker"
   },
   {
+    "id": "terminal-agent-tabs",
+    "name": "Terminal Agent Tabs",
+    "author": "hirose30",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Run multiple agent CLI sessions (Claude Code, Codex, Gemini, etc.) as editor tabs.",
+    "repo": "hirose30/terminal-agent-tabs"
+  },
+  {
     "id": "handwriting-to-markdown",
     "name": "HandTranscriptMd",
     "author": "gabriele-cusato",
@@ -21838,6 +21845,13 @@
     "author": "trevortylerlee",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Highlight selected text when copying it.",
     "repo": "trevortylerlee/highlight-on-copy"
+  },
+  {
+    "id": "openclaw",
+    "name": "OpenClaw",
+    "author": "oscarhenrycollins",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Chat with your OpenClaw AI agent in a sidebar. Your vault is the agent's workspace.",
+    "repo": "oscarhenrycollins/obsidianclaw"
   },
   {
     "id": "plaud-sync",
@@ -23296,6 +23310,13 @@
     "repo": "fdirham/fbd-obsidian-writing-timer"
   },
   {
+    "id": "vaultquery",
+    "name": "VaultQuery",
+    "author": "bobstanton",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Execute SELECT, INSERT, UPDATE, and DELETE statements on notes, properties, tasks, tables, headings and links.",
+    "repo": "bobstanton/vaultquery"
+  },
+  {
     "id": "lock-cards",
     "name": "Lock Cards",
     "author": "erezak",
@@ -23781,7 +23802,7 @@
   {
     "id": "notelert",
     "name": "Notelert",
-    "author": "Joaquim",
+    "author": "Hiperborea",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automates the creation of notifications for the Notelert mobile app by creating deeplinks of date and time or location.",
     "repo": "joaquim-frances/obsidian-notelert-plugin"
   },
@@ -23826,13 +23847,6 @@
     "author": "qingruikz",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A powerful image viewer. Features include zooming, panning, rotating, flipping, and grayscale toggle.",
     "repo": "qingruikz/image-previewer"
-  },
-  {
-    "id": "intelligence-assistant",
-    "name": "Intelligence Assistant",
-    "author": "qwai-tech",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. AI chat, agents, and MCP tooling for your notes.",
-    "repo": "qwai-tech/obsidian-plugin-intelligence-assistant"
   },
   {
     "id": "open-in-ide",
@@ -24351,13 +24365,6 @@
     "author": "Jun Lim",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Import posts from Naver Blog with AI-powered features, subscription management, and comprehensive content parsing",
     "repo": "hyungyunlim/obsidian-naver-blog-importer"
-  },
-  {
-    "id": "semantic-vault-mcp",
-    "name": "Semantic Notes Vault MCP",
-    "author": "Aaron Bockelie",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Give Claude Desktop and other AI assistants semantic access to your notes through a built-in Model Context Protocol (MCP) server.",
-    "repo": "aaronsb/obsidian-mcp-plugin"
   },
   {
     "id": "co-intelligence",
@@ -24976,6 +24983,13 @@
     "repo": "writerp-777/obsidian-writing-studio"
   },
   {
+    "id": "alchemist",
+    "name": "Alchemist",
+    "author": "ksawl",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Modular super-plugin for TextBundle, Audio conversion, and Dataview exports.",
+    "repo": "ksawl/obsidian-alchemist"
+  },
+  {
     "id": "perplexed",
     "name": "Perplexed",
     "author": "lossless-group",
@@ -25030,6 +25044,20 @@
     "author": "Matthew Newton",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Study chess in your vault. Embed positions, study openings and endgames, browse World Championship games, annotate PGNs, and explore Lichess opening statistics.",
     "repo": "ekrizdis367/obsidian-caissa"
+  },
+  {
+    "id": "coach",
+    "name": "Coach",
+    "author": "Matthew Newton",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. An in-depth fitness and workout tracking system for your vault.",
+    "repo": "ekrizdis367/obsidian-coach"
+  },
+  {
+    "id": "pantry",
+    "name": "Pantry",
+    "author": "Matthew Newton",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage your recipes and generate grocery lists.",
+    "repo": "ekrizdis367/obsidian-pantry"
   },
   {
     "id": "vault-bridge-sftp",
@@ -25732,6 +25760,13 @@
     "repo": "rsteckler/cordari-obsidian"
   },
   {
+    "id": "mtg-decklist",
+    "name": "MtG Decklist",
+    "author": "Matthew Newton",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render Magic: The Gathering decklists, combos, and inline cards & mana symbols.",
+    "repo": "ekrizdis367/obsidian-mtg-decklist"
+  },
+  {
     "id": "gitlab-inbox",
     "name": "GitLab Inbox",
     "author": "srwildman",
@@ -26316,7 +26351,7 @@
     "id": "vault-operator",
     "name": "Vault Operator",
     "author": "Sebastian Hanke",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Agentic AI operating layer for your vault. Discovers and uses installed plugins, maintains your memory & knowledge, and adapts to your workflows, skills & tools with full safety controls. BYOK & MCP",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Agentic AI operating layer for your vault. AI Coworker and thinking partner, that maintains your memory & knowledge, and adapts to your workflows, skills & tools with full safety controls. BYOK & MCP",
     "repo": "pssah4/vault-operator"
   },
   {
@@ -27027,6 +27062,13 @@
     "repo": "ryukyuhub/obsidian-claude-panel-ryukyuhub"
   },
   {
+    "id": "task-hub",
+    "name": "Task Hub",
+    "author": "Carlos",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Bring Obsidian tasks together with Apple Reminders, Apple Calendar on macOS.",
+    "repo": "saralaaga/task-hub"
+  },
+  {
     "id": "vault-share",
     "name": "Vault Share",
     "author": "Bob Hyman",
@@ -27443,7 +27485,7 @@
     "id": "hermes-console",
     "name": "Hermes Console",
     "author": "Danny Shmueli",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Run Hermes Agent in a tabbed terminal with selected-note context and background status alerts",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Launch Hermes Agent from your vault. Share highlighted note text with Hermes Agent, then keep writing without switching apps.",
     "repo": "dannyshmueli/obsidian-hermes-console"
   },
   {
@@ -27608,11 +27650,11 @@
     "repo": "saiki77/Easy-Git"
   },
   {
-    "id": "smart-tabs",
-    "name": "Smart Tabs",
-    "author": "ksawl",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Open files in new tabs by default, with smart tab deduplication.",
-    "repo": "ksawl/obsidian-smart-tabs"
+    "id": "search-movies-tv-tmdb",
+    "name": "Search Movies and TV Shows TMDB",
+    "author": "Bernardo Nogueira",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Search for movies and TV shows on TMDB and automatically create notes with ratings.",
+    "repo": "bernardonogueira8/search-movies-tv-tmdb"
   },
   {
     "id": "translucent-bg",
@@ -27692,6 +27734,13 @@
     "repo": "adoom2017/miniflux-rss-view"
   },
   {
+    "id": "brief",
+    "name": "Brief",
+    "author": "stephanteig",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Client workspace manager for Obsidian. Switch client spaces, create structured notes with frontmatter, and auto-generate client dashboards.",
+    "repo": "stephanteig/obsidian-brief"
+  },
+  {
     "id": "movielog",
     "name": "MovieLog",
     "author": "tinazz",
@@ -27739,5 +27788,26 @@
     "author": "ImeMine",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Highlights notes in the file explorer when they have not been modified for a configurable number of days.",
     "repo": "memineoff/note-age-highlighter"
+  },
+  {
+    "id": "ultra-zen-mode",
+    "name": "Ultra Zen Mode",
+    "author": "Marcos",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Enter a distraction-free zen mode by hiding sidebars, properties, title and status bar. Works on desktop and mobile.",
+    "repo": "marckfp/ultra-zen-mode"
+  },
+  {
+    "id": "tagser",
+    "name": "Tagser",
+    "author": "caorol",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Edit the value of the `tags` property.",
+    "repo": "caorol/obsidian-plugin-tagser"
+  },
+  {
+    "id": "claude-vault-citations",
+    "name": "Claude Vault Citations",
+    "author": "nord342",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Ask questions about your vault and get answers with verified citations to the exact notes and passages, powered by Claude's native Citations API.",
+    "repo": "nord342/obsidian-claude-citations"
   }
 ]
