@@ -14961,7 +14961,7 @@
   {
     "id": "another-dynamic-highlights",
     "name": "aDHL",
-    "author": "tine-schreibt",
+    "author": "Christine Schuhmann",
     "description": "Create pretty static highlighters from search or regEx. Group by tag and set commands for toggling. Based on Dynamic Highlights. Works well with Highlightr.",
     "repo": "tine-schreibt/aDHL"
   },
@@ -20778,7 +20778,7 @@
   {
     "id": "textflow",
     "name": "textFlow",
-    "author": "tine-schreibt",
+    "author": "Christine Schuhmann",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Compile multiple notes into a single editable flow - like Scrivenings. Define flows from Dataview queries, or folders/tags/props, or bookmarks. Edits are synced automatically between flows and their sources.",
     "repo": "tine-schreibt/textflow"
   },
@@ -20900,6 +20900,13 @@
     "author": "1ordinateur",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Adds CSS-defined custom callouts to the editor right-click menu and colors callout options.",
     "repo": "1ordinateur/cluddle-callouts"
+  },
+  {
+    "id": "x-bookmarks-sync",
+    "name": "X Bookmarks Sync",
+    "author": "hfknight",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Save your X (Twitter) bookmarks as structured Markdown notes, with selective import, incremental sync, and no API key needed.",
+    "repo": "hfknight/x-bookmarks-sync"
   },
   {
     "id": "claude-code-ide",
@@ -21215,13 +21222,6 @@
     "author": "kavinsood",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Simple real-time sync powered by your own Cloudflare Worker.",
     "repo": "kavinsood/yaos"
-  },
-  {
-    "id": "portals",
-    "name": "Portals",
-    "author": "samaraliwarsi",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Pin folders and tags as customizable tabs with icons, colors, and folder notes for easier navigation.",
-    "repo": "samaraliwarsi/obsidian-portals"
   },
   {
     "id": "biblens",
@@ -22225,6 +22225,13 @@
     "repo": "omnbird/syncscroll"
   },
   {
+    "id": "vault-cleaner",
+    "name": "Vault Cleaner",
+    "author": "rapphcd",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Clean unused medias, untitled and duplicated leafs.",
+    "repo": "rapphcd/obsidian-vault-cleaner"
+  },
+  {
     "id": "mobile-desktop-theme-switcher",
     "name": "Mobile/Desktop Theme Switcher",
     "author": "asingularphoton",
@@ -22960,6 +22967,13 @@
     "repo": "ducktapekiller/obsidian-reader-highlighter-tags"
   },
   {
+    "id": "napkin-notes",
+    "name": "Napkin Notes",
+    "author": "clairefro",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Turn handwritten notes, sketches, and whiteboard photos into PDF-style inline image carousels, with direct camera upload and searchable annotations.",
+    "repo": "clairefro/obsidian-plugin-napkin-notes"
+  },
+  {
     "id": "add-custom-icons",
     "name": "Add Custom Icons",
     "author": "riffaells",
@@ -23362,7 +23376,7 @@
     "id": "vault-intelligence",
     "name": "Vault Intelligence",
     "author": "cybaea",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Research your vault with an AI agent powered by Google Gemini, discover related notes through semantic search, and analyze specific documents with contextual note referencing.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Maintain your vault as a self-updating knowledge system by running AI agents that find gaps, audit and unify tags, and retrieve context based on similarity and explicit links via Graph RAG",
     "repo": "cybaea/obsidian-vault-intelligence"
   },
   {
@@ -23798,6 +23812,13 @@
     "author": "John Banister",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Family tree visualization for genealogists and worldbuilders. Interactive charts, geographic maps, evidence tracking, GEDCOM support, and fictional calendars.",
     "repo": "banisterious/obsidian-charted-roots"
+  },
+  {
+    "id": "priority-matrix",
+    "name": "Priority Matrix",
+    "author": "murtazaraza",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create and manage priority matrix notes with auto detection of tasks from your vault.",
+    "repo": "murtazaraza/prioritymatrix-obsidian"
   },
   {
     "id": "mermaid-elk",
@@ -25501,6 +25522,13 @@
     "repo": "etaiso/obsidian-tag-fuzzy-find"
   },
   {
+    "id": "contact-note",
+    "name": "Contact Note",
+    "author": "jalad",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Turn frontmatter in notes designated as contacts into visual contact cards. Browse them with a built-in sidebar panel view or surface them through a Bases view.",
+    "repo": "jalad25/contact-note"
+  },
+  {
     "id": "table-master",
     "name": "Table Master",
     "author": "moranrs",
@@ -26080,6 +26108,13 @@
     "author": "Sdesuyo",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Convert handwritten notes and images to searchable text using AI Vision APIs (Gemini / Claude). Note: images are sent to external APIs (Google / Anthropic).",
     "repo": "sdesuyo/obsidian-tegaki"
+  },
+  {
+    "id": "bunny-publisher",
+    "name": "Bunny Publisher",
+    "author": "ericmwalk",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Upload images, videos, and files to Bunny.net storage.",
+    "repo": "ericmwalk/obsidian-bunny-publisher"
   },
   {
     "id": "note-type",
@@ -27685,6 +27720,13 @@
     "repo": "saiki77/Easy-Git"
   },
   {
+    "id": "smart-tabs",
+    "name": "Smart Tabs",
+    "author": "ksawl",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open files in new tabs by default, with smart tab deduplication.",
+    "repo": "ksawl/obsidian-smart-tabs"
+  },
+  {
     "id": "search-movies-tv-tmdb",
     "name": "Search Movies and TV Shows TMDB",
     "author": "Bernardo Nogueira",
@@ -27711,13 +27753,6 @@
     "author": "Andrew Mutavdzija",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Scan the current note for all external links and copy them as a list.",
     "repo": "andym-dc/obsidian-link-extractor"
-  },
-  {
-    "id": "google-docs-paste",
-    "name": "Google Docs Paste",
-    "author": "bfgpollara",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Pastes content from Google Docs into Obsidian with bold, italic, headings, lists, links, tables and images preserved instead of collapsed to plain text.",
-    "repo": "bfgpollara/obsidian-google-docs-paste"
   },
   {
     "id": "agentic-git-sync",
@@ -27853,6 +27888,13 @@
     "repo": "nord342/obsidian-claude-citations"
   },
   {
+    "id": "pdf-to-md",
+    "name": "pdf-to-md",
+    "author": "kkbin505",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Convert handwritten PDFs to Markdown with LaTeX formulas using AI (OpenAI GPT or Alibaba Qwen).",
+    "repo": "kkbin505/pdf-to-md"
+  },
+  {
     "id": "iconik",
     "name": "Iconik",
     "author": "CrEagleOne",
@@ -27867,10 +27909,38 @@
     "repo": "kiaraorq/heic-viewer"
   },
   {
+    "id": "minder-nexus",
+    "name": "Minder Nexus",
+    "author": "ksawl",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Build a semantic knowledge graph with bidirectional links and custom ontologies.",
+    "repo": "ksawl/obsidian-minder-nexus"
+  },
+  {
     "id": "bases-chart-layouts",
     "name": "Bases Chart Layouts",
     "author": "Nikita Gaziev",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Adds new layouts to bases: Bar Chart, Line Chart, and Pie Chart.",
     "repo": "zobweyt/obsidian-bases-chart-layouts"
+  },
+  {
+    "id": "simple-progressbar",
+    "name": "Simple ProgressBar",
+    "author": "isragdd",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create isolated, highly customizable and interactive progress bars.",
+    "repo": "isragdd12/simple-progressbar"
+  },
+  {
+    "id": "ghost-publish",
+    "name": "Ghost Publish",
+    "author": "Sébastien Dubois",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Publish your vault notes to a Ghost blog with configurable presets for tags, newsletters, and frontmatter conventions.",
+    "repo": "dsebastien/obsidian-ghost-publish"
+  },
+  {
+    "id": "list-to-table",
+    "name": "List to Table",
+    "author": "kepano",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Convert lists to tables with a simple command.",
+    "repo": "kepano/list-to-table"
   }
 ]
