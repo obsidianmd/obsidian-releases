@@ -20923,6 +20923,13 @@
     "repo": "saltyfireball/obsidian-save-as-local-images"
   },
   {
+    "id": "voxtral-transcribe",
+    "name": "Voxtral Transcribe",
+    "author": "maxonamission",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Real-time streaming transcription using Mistral Voxtral, supports voice commands (headings, lists, to-dos and more) and automatic text correction.",
+    "repo": "maxonamission/obsidian-voxtral"
+  },
+  {
     "id": "sfb-click-image-to-zoom",
     "name": "Click Image to Zoom",
     "author": "saltyfireball",
@@ -23331,6 +23338,13 @@
     "repo": "schemen/embed-metadata"
   },
   {
+    "id": "naver-sync",
+    "name": "NAVER Sync",
+    "author": "buwon",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault with NAVER memo service.",
+    "repo": "buwon/naver-sync-plugin"
+  },
+  {
     "id": "sentence-enhancers",
     "name": "Sentence Enhancers",
     "author": "garrett-is-a-swann",
@@ -23817,7 +23831,7 @@
     "id": "charted-roots",
     "name": "Charted Roots",
     "author": "John Banister",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Family tree visualization for genealogists and worldbuilders. Interactive charts, geographic maps, evidence tracking, GEDCOM support, and fictional calendars.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Family tree visualization with GEDCOM/Gramps import and Canvas/PDF/Markdown export. Charts, maps, timelines, citations, fictional calendars. For genealogists, worldbuilders, and TTRPG campaigns.",
     "repo": "banisterious/obsidian-charted-roots"
   },
   {
@@ -25100,13 +25114,6 @@
     "author": "Matthew Newton",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Study chess in your vault. Embed positions, study openings and endgames, browse World Championship games, annotate PGNs, and explore Lichess opening statistics.",
     "repo": "ekrizdis367/obsidian-caissa"
-  },
-  {
-    "id": "coach",
-    "name": "Coach",
-    "author": "Matthew Newton",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. An in-depth fitness and workout tracking system for your vault.",
-    "repo": "ekrizdis367/obsidian-coach"
   },
   {
     "id": "pantry",
@@ -26432,10 +26439,10 @@
     "repo": "fanxiaofang/obsidian-murmur"
   },
   {
-    "id": "threed-embeds",
+    "id": "3d_embeds",
     "name": "Embed 3D",
     "author": "elmoneedsarson",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Embed and View local 3D models in your notes. Supports STL, GLB, OBJ+MTL, FBX, and 3MF file formats with full 3D scene customization",
+    "description": "Embed and View local 3D models in your notes. Supports STL, GLB, OBJ+MTL, FBX, and 3MF file formats with full 3D scene customization",
     "repo": "elmoneedsarson/Obsidian-3D-embed"
   },
   {
@@ -27977,5 +27984,26 @@
     "author": "Mateusz Nitka",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create new paragraph after hitting Enter once instead of twice.",
     "repo": "mateusznitka/obsidian-paragraph-break"
+  },
+  {
+    "id": "operon",
+    "name": "Operon",
+    "author": "Hasan Yılmaz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Task management system for humans and agents with inline tasks, file tasks, filters, pipelines, pinned tasks, calendar views, Kanban views, recurrence, and time tracking.",
+    "repo": "hasanyilmaz/operon"
+  },
+  {
+    "id": "clio",
+    "name": "Clio",
+    "author": "Matthew Newton",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage quotes from your vault, generates a word of the day, this-day-in-history, word-of-the-day recaps, daily featured wikipedia article, on-this-day for your vault, reflection prompts, and more.",
+    "repo": "ekrizdis367/obsidian-clio"
+  },
+  {
+    "id": "emoji-title",
+    "name": "Emoji Title",
+    "author": "arturtupiassu",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Add an emoji from frontmatter to the File Explorer title. Now supports inherit_emoji for folders.",
+    "repo": "arturtupiassu/emoji-title-plugin"
   }
 ]
