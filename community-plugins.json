@@ -20545,6 +20545,13 @@
     "repo": "hesprs/obsidian-webdav-sync"
   },
   {
+    "id": "wol-reference-viewer",
+    "name": "WOL Reference Tools",
+    "author": "iaremarkus",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Look up Bible verses and references from [wol.jw.org](https://wol.jw.org), and add them to your notes inline, in a modal or popover, or in the sidebar.",
+    "repo": "iaremarkus/wol-reference-viewer"
+  },
+  {
     "id": "mermaid-exporter",
     "name": "Mermaid Exporter",
     "author": "addozhang",
@@ -21413,6 +21420,13 @@
     "repo": "hantae-ho/obsidian-our-kyobo-book-search"
   },
   {
+    "id": "tag-explorer",
+    "name": "Tag Explorer",
+    "author": "Jorrit van der Heide",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Navigate your vault through a tag-generated folder tree.",
+    "repo": "jorritvanderheide/obsidian-tag-explorer"
+  },
+  {
     "id": "caldav-sync",
     "name": "CalDAV Task Sync",
     "author": "speze88",
@@ -21896,13 +21910,6 @@
     "repo": "trevortylerlee/highlight-on-copy"
   },
   {
-    "id": "openclaw",
-    "name": "OpenClaw",
-    "author": "oscarhenrycollins",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Chat with your OpenClaw AI agent in a sidebar. Your vault is the agent's workspace.",
-    "repo": "oscarhenrycollins/obsidianclaw"
-  },
-  {
     "id": "plaud-sync",
     "name": "Plaud Sync",
     "author": "Léonard Sellem",
@@ -21936,13 +21943,6 @@
     "author": "jmiba",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Import and OCR Zotero PDFs using a Docling pipeline, sync metadata including annotations, and chat with your research literature using local Redis-powered RAG.",
     "repo": "jmiba/zotero-redisearch-rag"
-  },
-  {
-    "id": "flownote",
-    "name": "FLOWnote",
-    "author": "1095327780",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. AI note workspace for Obsidian with dashboard home, quick capture, daily planning, project tracking, mobile shortcuts, and built-in skills.",
-    "repo": "1095327780/FLOWnote"
   },
   {
     "id": "image-metadata-stripper",
@@ -24703,6 +24703,13 @@
     "repo": "admiral9k/emrald-obsidian"
   },
   {
+    "id": "ignoremd",
+    "name": "ignoreMD",
+    "author": "zhanpeng329-arch",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Adds a hover formatting toolbar for Markdown headings, emphasis, lists, links, and code.",
+    "repo": "zhanpeng329-arch/obsidian-CodeIndentation"
+  },
+  {
     "id": "kanban-sync",
     "name": "Kanban Sync",
     "author": "jcacdc",
@@ -24967,6 +24974,13 @@
     "author": "Marcus Breiden",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Scheduled Vault Import / Export - Files Move. You don't have to. Local Filesystem <=> Vault - Import / Export — import voice memos / snippets / etc. into your inbox, export folders / tags / notes to external locations.",
     "repo": "mmomm-org/miyo-hakobi"
+  },
+  {
+    "id": "opdoc-ai-auto-organizer",
+    "name": "OpDoc AI Auto Organizer",
+    "author": "rklpoi5678",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Zero-cloud, privacy-first note organizer. Drop files in your Inbox, and let local AI (Ollama) automatically tag and move them to the right folders.",
+    "repo": "rklpoi5678/OpDoc-AI-Auto-Organizer"
   },
   {
     "id": "folder-crypto",
@@ -25774,6 +25788,13 @@
     "repo": "daniel-fiuk/simple-map"
   },
   {
+    "id": "git-file-sync",
+    "name": "Git File Sync",
+    "author": "firstsun-dev",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Selectively sync individual notes with GitLab or GitHub. Push, pull, diff, and resolve conflicts — file by file, on mobile and desktop.",
+    "repo": "firstsun-dev/git-files-sync"
+  },
+  {
     "id": "cooklang-codeblock",
     "name": "Cooklang Codeblock",
     "author": "Raunaq Gupta",
@@ -26101,6 +26122,13 @@
     "author": "Nymbo",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Highlights copied text.",
     "repo": "nymbo/Copy-Highlighter"
+  },
+  {
+    "id": "copy-text-protocol",
+    "name": "Copy Text Protocol",
+    "author": "jldiaz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Adds support for copying text to the clipboard using a custom protocol.",
+    "repo": "jldiaz/copy-protocol-plugin"
   },
   {
     "id": "iroview",
@@ -27979,6 +28007,13 @@
     "repo": "nord342/obsidian-claude-citations"
   },
   {
+    "id": "canvas-acp",
+    "name": "Canvas ACP",
+    "author": "Geno Zhou",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Ask an ACP agent a question about a canvas note, then add the generated note back to the canvas.",
+    "repo": "genozhou/canvas-acp"
+  },
+  {
     "id": "game-timers",
     "name": "Game Timers",
     "author": "pjeurien",
@@ -28131,5 +28166,33 @@
     "author": "Geo",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Focus the first empty checkbox when opening daily notes.",
     "repo": "geokhv/obsidian-daily-checkbox-focus"
+  },
+  {
+    "id": "knowlery",
+    "name": "Knowlery",
+    "author": "Jay Jiang",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A warm personal knowledge review space for Obsidian vaults.",
+    "repo": "jayjiangct/knowlery"
+  },
+  {
+    "id": "deep-research-formatter",
+    "name": "Deep Research Formatter",
+    "author": "Longxiao Zhang",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Normalize ChatGPT Deep Research markdown exports by removing unreadable inline markers.",
+    "repo": "zhanglongx/deep-research-formatter"
+  },
+  {
+    "id": "chinese-punctuation-converter",
+    "name": "Chinese Punctuation Converter",
+    "author": "enthusjast",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. 自动将中文标点转化为对应的英文标点. Automatically convert Chinese punctuation to corresponding English punctuation.",
+    "repo": "enthusjast/obsidian-punctuation-converter"
+  },
+  {
+    "id": "tagline",
+    "name": "Tagline",
+    "author": "Marten Tietje",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create notes from inline text with tag-driven templates. Add inline fields, get autocomplete suggestions, and convert lines to linked notes with frontmatter.",
+    "repo": "marten-ti/obsidian-tagline"
   }
 ]
