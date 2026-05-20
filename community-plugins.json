@@ -7849,7 +7849,7 @@
   {
     "id": "calctex",
     "name": "Calctex",
-    "author": "developer-mike",
+    "author": "mika-dev",
     "description": "Calculate LaTeX formulas.",
     "repo": "developer-mike/obsidian-calctex"
   },
@@ -9088,7 +9088,7 @@
   {
     "id": "docxer",
     "name": "Docxer",
-    "author": "developer-mike",
+    "author": "mika-dev",
     "description": "Import Word files easily. Adds a preview mode for .docx files and the ability to convert them to markdown (.md) files.",
     "repo": "developer-mike/obsidian-docxer"
   },
@@ -10012,7 +10012,7 @@
   {
     "id": "advanced-canvas",
     "name": "Advanced Canvas",
-    "author": "developer-mike",
+    "author": "mika-dev",
     "description": "Supercharge your canvas experience. Create presentations, flowcharts and more.",
     "repo": "developer-mike/obsidian-advanced-canvas"
   },
@@ -21294,13 +21294,6 @@
     "repo": "lastratalive/Librarian"
   },
   {
-    "id": "neural-composer",
-    "name": "Neural Composer",
-    "author": "Oscar Campo",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Local Graph RAG powered by LightRAG. Chat with your notes using deep knowledge graph connections.",
-    "repo": "oscampo/obsidian-neural-composer"
-  },
-  {
     "id": "auto-collapse-inactive-folders",
     "name": "Auto Collapse Inactive Folders",
     "author": "somehowitworks",
@@ -22118,6 +22111,13 @@
     "author": "denis2710",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Kanban view for folder with status-based columns and drag & drop.",
     "repo": "denis2710/simple-kanban"
+  },
+  {
+    "id": "moments",
+    "name": "Moments",
+    "author": "mattmcmanus",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Unify date-based note-taking with inline moments, standalone dated notes, and a chronological timeline view.",
+    "repo": "mattmcmanus/obsidian-moments"
   },
   {
     "id": "auto-reveal-in-explorer",
@@ -23469,13 +23469,6 @@
     "author": "ahmed-hegazi0",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Import images into the vault from the device or the web, with an option to create an accompanying markdown file on import.",
     "repo": "ahmed-hegazi0/image-importer"
-  },
-  {
-    "id": "vault-intelligence",
-    "name": "Vault Intelligence",
-    "author": "cybaea",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Maintain your vault as a self-updating knowledge system by running AI agents that find gaps, audit and unify tags, and retrieve context based on similarity and explicit links via Graph RAG",
-    "repo": "cybaea/obsidian-vault-intelligence"
   },
   {
     "id": "external-codeblock-editor",
@@ -26362,6 +26355,13 @@
     "repo": "fszlnwr/obsidian-lark-wiki-sync"
   },
   {
+    "id": "vaultman",
+    "name": "Vaultman",
+    "author": "meibbo",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Bulk property editor and vault management tool for Obsidian.",
+    "repo": "meibbo/Vaultman"
+  },
+  {
     "id": "phantom-cipher",
     "name": "PhantomCipher",
     "author": "Lumingtianze",
@@ -26817,6 +26817,13 @@
     "repo": "slaymish/Synod"
   },
   {
+    "id": "track-changes",
+    "name": "Track Changes",
+    "author": "philphilphil",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Review CriticMarkup suggestions in a side panel. Accept, reject, or reply.",
+    "repo": "philphilphil/obsidian-track-changes"
+  },
+  {
     "id": "odaily",
     "name": "Odaily",
     "author": "guchang",
@@ -26976,6 +26983,13 @@
     "author": "sparkwild",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Review AI-proposed wiki and memory updates before they reach your vault.",
     "repo": "sparkwild/obsidian-tracekeeper"
+  },
+  {
+    "id": "liminal",
+    "name": "Liminal",
+    "author": "Arnaud Delpech",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered note assistant — generate structured notes, suggest tags & links, summarize YouTube videos. Bring Your Own Key (Anthropic Claude).",
+    "repo": "napard-web/liminal-plugin"
   },
   {
     "id": "dndbeyond-importer",
@@ -28341,5 +28355,12 @@
     "author": "Rodrigo Farinha",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync Todoist tasks with Obsidian Markdown tasks marked with #todoist.",
     "repo": "rodrigolourencofarinha/obsidian-todoist-bridge"
+  },
+  {
+    "id": "beancount-finance",
+    "name": "Beancount Ledger",
+    "author": "mkshp-dev",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Comprehensive financial dashboard with Beancount integration. Features unified entry management, live BQL queries, connection validation, auto-starting backend, and streamlined settings.",
+    "repo": "mkshp-dev/obsidian-finance-plugin"
   }
 ]
