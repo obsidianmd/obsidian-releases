@@ -2543,7 +2543,7 @@
   {
     "id": "obsidian-emotion-picker",
     "name": "Emotion Picker",
-    "author": "dartungar",
+    "author": "Daniel Nikolaev",
     "description": "Choose an emotion from a list to insert into a note.",
     "repo": "dartungar/obsidian-emotion-picker"
   },
@@ -3859,7 +3859,7 @@
   {
     "id": "simple-note-review",
     "name": "Simple Note Review",
-    "author": "dartungar",
+    "author": "Daniel Nikolaev",
     "description": "Simple, customizable plugin for easy note review, resurfacing and repetition.",
     "repo": "dartungar/obsidian-simple-note-review"
   },
@@ -4902,7 +4902,7 @@
   {
     "id": "mermaid-tools",
     "name": "Mermaid Tools",
-    "author": "dartungar",
+    "author": "Daniel Nikolaev",
     "description": "Improved Mermaid.js experience: visual toolbar with common elements and more.",
     "repo": "dartungar/obsidian-mermaid"
   },
@@ -6260,7 +6260,7 @@
   {
     "id": "mood-tracker",
     "name": "Mood Tracker",
-    "author": "dartungar",
+    "author": "Daniel Nikolaev",
     "description": "Track your moods & emotions easily. Visualize tracked history and browse the past entries.",
     "repo": "dartungar/obsidian-mood-tracker"
   },
@@ -20258,13 +20258,6 @@
     "repo": "tgrrrr/heading-outliner"
   },
   {
-    "id": "nexus",
-    "name": "Nexus",
-    "author": "profsynapse",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Agentic AI for your vault. Use Claude, ChatGPT, Gemini, and local models to chat, search, create, and manage your notes with semantic memory, image generation, and MCP server integration.",
-    "repo": "profsynapse/nexus"
-  },
-  {
     "id": "kid-score",
     "name": "Little Milestones 🌱",
     "author": "tinswangtao-web",
@@ -22083,6 +22076,13 @@
     "author": "gustipardo",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A minimal timer plugin with one-tap start/stop, note-level timer exclusivity, reports, and session logging.",
     "repo": "gustipardo/simple-tap-timer"
+  },
+  {
+    "id": "deep-notes",
+    "name": "Deep Notes",
+    "author": "aadityaincode",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Generate deep questions and suggestions from your notes using AI.",
+    "repo": "aadityaincode/Deep-Notes"
   },
   {
     "id": "interactive-timeline",
@@ -26565,6 +26565,13 @@
     "repo": "hasanyilmaz/hide-sidebars"
   },
   {
+    "id": "auto-heading",
+    "name": "Auto Heading",
+    "author": "gurjar1",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatic heading numbering with burn-in for TOC/PDF/Publish, visual-only decorations, per-note control, and smart detection of existing numbers.",
+    "repo": "gurjar1/auto-heading-obsidian"
+  },
+  {
     "id": "lang-plus",
     "name": "i18n+",
     "author": "dangehub",
@@ -26808,13 +26815,6 @@
     "author": "Hamish",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Run a council of LLM value agents over your journal to surface decisions you have not made. Local-first via Ollama, OpenRouter, or any OpenAI-compatible endpoint.",
     "repo": "slaymish/Synod"
-  },
-  {
-    "id": "track-changes",
-    "name": "Track Changes",
-    "author": "philphilphil",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Review CriticMarkup suggestions in a side panel. Accept, reject, or reply.",
-    "repo": "philphilphil/obsidian-track-changes"
   },
   {
     "id": "odaily",
@@ -27902,13 +27902,6 @@
     "repo": "ksawl/obsidian-smart-tabs"
   },
   {
-    "id": "search-movies-tv-tmdb",
-    "name": "Search Movies and TV Shows TMDB",
-    "author": "Bernardo Nogueira",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Search for movies and TV shows on TMDB and automatically create notes with ratings.",
-    "repo": "bernardonogueira8/search-movies-tv-tmdb"
-  },
-  {
     "id": "translucent-bg",
     "name": "Translucent BG",
     "author": "MellowMarsh",
@@ -28341,5 +28334,12 @@
     "author": "springrain | 公众号: 及时春雨",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A block-based rich text editor powered by Editor.js",
     "repo": "springrain1/obsidian-editorjs-plugin"
+  },
+  {
+    "id": "todoist-bridge",
+    "name": "Todoist Bridge",
+    "author": "Rodrigo Farinha",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync Todoist tasks with Obsidian Markdown tasks marked with #todoist.",
+    "repo": "rodrigolourencofarinha/obsidian-todoist-bridge"
   }
 ]
