@@ -14,13 +14,6 @@
     "repo": "argenos/hotkeysplus-obsidian"
   },
   {
-    "id": "nldates-obsidian",
-    "name": "Natural Language Dates",
-    "author": "obsidian-community",
-    "description": "Create date-links based on natural language.",
-    "repo": "obsidian-community/nldates"
-  },
-  {
     "id": "obsidian-git",
     "name": "Git",
     "author": "Vinzent",
@@ -20531,6 +20524,13 @@
     "repo": "bartvw/entity-notes"
   },
   {
+    "id": "clean-ai-paste",
+    "name": "Clean AI Paste",
+    "author": "Jeremy Hou",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Instantly turns messy AI output into clean Obsidian notes on paste. Removes excessive blank lines, fixes code blocks, headers, removes emojis, and more.",
+    "repo": "goslowpoke168/obsidian-clean-ai-paste"
+  },
+  {
     "id": "wiki-summary-normalised",
     "name": "Vault Graph Summary",
     "author": "pflanzmann",
@@ -20578,6 +20578,13 @@
     "author": "a2fsa2k",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Chat with your vault using local vector search (RAG) and any AI provider — OpenAI, Claude, Gemini, Mistral, Groq, Ollama, and more.",
     "repo": "a2fsa2k/obsidian-ask-my-vault-plugin"
+  },
+  {
+    "id": "set-to-root",
+    "name": "Set to Root",
+    "author": "lixingyu41",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open additional File Explorer tabs rooted to a specific folder.",
+    "repo": "lixingyu41/obsidian-setToRoot"
   },
   {
     "id": "syro",
@@ -28553,6 +28560,13 @@
     "repo": "thansheer/AI-Chat"
   },
   {
+    "id": "noclaw",
+    "name": "NoClaw",
+    "author": "Yungho",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Run persistent AI agents directly in your vault — self-evolving, plain-text knowledge with zero lock-in. Multi-engine via ACP (Claude Code, Codex, Gemini CLI, and more).",
+    "repo": "yungho/obsidian-noclaw"
+  },
+  {
     "id": "confluence-weaver",
     "name": "Confluence Weaver",
     "author": "gs-ax",
@@ -28621,5 +28635,19 @@
     "author": "Nasser Alansari",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Renders Mermaid diagrams using the latest version, independent of the built-in bundled version.",
     "repo": "dacrystal/obsidian-mermaid-next-plugin"
+  },
+  {
+    "id": "click-to-edit",
+    "name": "Click to Edit",
+    "author": "alpppine",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open notes in reader mode and click anywhere to switch to edit mode with the cursor placed at the end of the note.",
+    "repo": "alpppine/click-to-edit"
+  },
+  {
+    "id": "feynman-research-agent",
+    "name": "Feynman - AI research assistant",
+    "author": "Icarian Systems",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A research agent for your vault. Runs locally in Docker against your own Anthropic API key.",
+    "repo": "icarian-systems/feynman-research-agent"
   }
 ]
