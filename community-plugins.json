@@ -19621,13 +19621,6 @@
     "repo": "stephquery/obsidian-media-lens"
   },
   {
-    "id": "neogdsync",
-    "name": "NeoGDSync",
-    "author": "martinlegend",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Lightweight Google Drive sync with path-based index, conflict detection, and Smart/Push/Pull modes.",
-    "repo": "martinlegend/neogdsync"
-  },
-  {
     "id": "alipan-sync",
     "name": "Alipan Sync",
     "author": "nowszhao",
@@ -21532,13 +21525,6 @@
     "repo": "caesarloo/obsidian-svn"
   },
   {
-    "id": "evc-team-relay",
-    "name": "EVC Team Relay",
-    "author": "entire-vc",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Enterprise collaboration with self-hosted relay infrastructure. Real-time editing with live cursors and secure team workspaces.",
-    "repo": "entire-vc/evc-team-relay-obsidian-plugin"
-  },
-  {
     "id": "ghostty-terminal",
     "name": "Ghostty Terminal",
     "author": "lavs9",
@@ -22517,13 +22503,6 @@
     "author": "the-town",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Display book cover and bibliography from ISBN (OpenBD). Write ISBN in a code block to show a book card.",
     "repo": "the-town/book-bibliography-card"
-  },
-  {
-    "id": "evc-local-sync",
-    "name": "EVC Local Sync to AI Agent",
-    "author": "entire-vc",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Bidirectional sync of docs folders between your vault and AI development projects.",
-    "repo": "entire-vc/evc-local-sync-plugin"
   },
   {
     "id": "antv-infographic",
@@ -26887,6 +26866,13 @@
     "repo": "zgfdada/lskypro-auto-upload-enhanced"
   },
   {
+    "id": "select-to-note",
+    "name": "Select to Note",
+    "author": "TYzzt",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Clip selected browser content into your active note through a local companion extension.",
+    "repo": "tyzzt/select2obsidian"
+  },
+  {
     "id": "wisemindai-sync",
     "name": "WiseMindAI Sync",
     "author": "chris",
@@ -26955,13 +26941,6 @@
     "author": "brianpetro",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Semantic search for your vault. Ask in natural language, find notes by meaning when exact words fail, preview matching notes, and turn forgotten ideas into links, context, and next steps.",
     "repo": "brianpetro/smart-lookup-obsidian"
-  },
-  {
-    "id": "leetcode",
-    "name": "LeetCode",
-    "author": "Mo Xu",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Browse, solve, and note LeetCode problems inside your vault.",
-    "repo": "likesundaylikerain/obsidian-leetcode"
   },
   {
     "id": "knowledge-overview",
@@ -27200,13 +27179,6 @@
     "author": "valenzine",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Converts raw URLs into markdown links by automatically fetching webpage titles.",
     "repo": "valenzine/obsidian-url-name-extractor"
-  },
-  {
-    "id": "smart-media-notes",
-    "name": "Smart Media Notes",
-    "author": "Jing",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Media notes with timestamp, subtitle import, voice recording, and vault media browser.",
-    "repo": "nchuyj/obsidian-smart-media-notes"
   },
   {
     "id": "miku-plugin-hybrid",
@@ -28315,13 +28287,6 @@
     "repo": "geokhv/obsidian-daily-checkbox-focus"
   },
   {
-    "id": "here-now-sync",
-    "name": "Here.Now Sync Plugin",
-    "author": "Nanocult",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Bidirectional sync between vault and here.now Drives/Sites with periodic sync, offline queue, and conflict resolution.",
-    "repo": "nanocult/here-now-sync"
-  },
-  {
     "id": "knowlery",
     "name": "Knowlery",
     "author": "Jay Jiang",
@@ -28663,5 +28628,19 @@
     "author": "lai2301",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Embed password-manager secrets in notes as placeholders so the .md never contains the actual credential. Supports OpenBao/Vault, 1Password Connect, and Bitwarden/Vaultwarden.",
     "repo": "lai2301/obsidian-secret-placeholders"
+  },
+  {
+    "id": "writing-annotations",
+    "name": "写作的标注",
+    "author": "hornat",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. 标注与脚注",
+    "repo": "hornatx/writing-annotations"
+  },
+  {
+    "id": "context-pack-for-notebooklm",
+    "name": "Context Pack for NotebookLM",
+    "author": "Koji Okuji",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Build clean Context Packs from your Obsidian vault for NotebookLM.",
+    "repo": "kojiman55/obsidian-context-pack"
   }
 ]
