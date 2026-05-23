@@ -20653,7 +20653,7 @@
     "id": "textflow",
     "name": "textFlow",
     "author": "tine-schreibt",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Compile multiple notes into a single editable flow - like Scrivenings. Define flows from Dataview queries, or folders/tags/props, or bookmarks. Edits are synced automatically between flows and their sources.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Compile multiple notes into a single editable flow - like Scrivenings. Define flows from DVQueries, folders/tags/props, or bookmarks. Edits are synced automatically between flows and their sources.",
     "repo": "tine-schreibt/textflow"
   },
   {
@@ -21175,13 +21175,6 @@
     "repo": "churnish/resize-mobile-split-view"
   },
   {
-    "id": "learning-loop",
-    "name": "Learning Loop",
-    "author": "chrisrytting",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Captures insights by matching text against tagged problem pages, inserting Learning Loop Trace blocks, and propagating review tags back to linked pages.",
-    "repo": "chrisrytting/learning-loop-obsidian"
-  },
-  {
     "id": "youtnote",
     "name": "Youtnote",
     "author": "khaldevmedia",
@@ -21572,6 +21565,13 @@
     "author": "entire-vc",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Enterprise collaboration with self-hosted relay infrastructure. Real-time editing with live cursors and secure team workspaces.",
     "repo": "entire-vc/evc-team-relay-obsidian-plugin"
+  },
+  {
+    "id": "collaborative-folders",
+    "name": "Collaborative Folders",
+    "author": "abromberg",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Real-time multiplayer editing of shared folders and notes.",
+    "repo": "abromberg/obsidian-collaborative-folders-plugin"
   },
   {
     "id": "ghostty-terminal",
@@ -22239,13 +22239,6 @@
     "repo": "asingularphoton/different-mobile-desktop-themes"
   },
   {
-    "id": "markdown-viewer-extension",
-    "name": "Markdown Viewer",
-    "author": "markdown-viewer",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Markdown to perfect Word in one click — Mermaid, Vega, drawio, canvas, Infographic, Graphviz, LaTeX (editable), code highlighting, local processing.",
-    "repo": "markdown-viewer/obsidian"
-  },
-  {
     "id": "image-uploader-to-api",
     "name": "Image Uploader to API",
     "author": "babarot",
@@ -22349,6 +22342,13 @@
     "author": "stefan-imbesi",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Type `/` to open a Superlist‑style menu and insert content blocks (task, headings, lists, etc.).",
     "repo": "stefan-imbesi/obsidian-slash-blocks"
+  },
+  {
+    "id": "learning-system",
+    "name": "Learning System",
+    "author": "jady21a",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Turn notes into a long-term learning and review system.",
+    "repo": "jady21a/obsidian-learning-system"
   },
   {
     "id": "diary-linker",
@@ -23870,13 +23870,6 @@
     "repo": "imaikosuke/obsidian-today-pane"
   },
   {
-    "id": "bases-lock",
-    "name": "Bases Lock",
-    "author": "lucas",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Hides the action bar at the top of the Bases view.",
-    "repo": "tcyeee/obsidian-bases-lock"
-  },
-  {
     "id": "helix",
     "name": "Helix Keybindings",
     "author": "obsidian-helix",
@@ -25123,6 +25116,13 @@
     "repo": "jimmitchell/tasks-to-omnifocus"
   },
   {
+    "id": "franklin",
+    "name": "Franklin",
+    "author": "franklin-md",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Deeply integrated AI Agents powered by your OpenAI subscription.",
+    "repo": "franklin-md/franklin-mono"
+  },
+  {
     "id": "cashlog",
     "name": "cashlog",
     "author": "uuq007",
@@ -25242,13 +25242,6 @@
     "repo": "ksawl/obsidian-alchemist"
   },
   {
-    "id": "perplexed",
-    "name": "Perplexed",
-    "author": "lossless-group",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Generate source-cited research content from Perplexity, Anthropic Claude, Perplexica, or local LM Studio — directly into your notes.",
-    "repo": "lossless-group/perplexed-plugin"
-  },
-  {
     "id": "docdrop",
     "name": "DocDrop",
     "author": "Rhys Gottwald",
@@ -25338,13 +25331,6 @@
     "author": "HJ",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Render IT project artifacts — ERD, API specs, WBS, architecture diagrams, requirements, manuals, and meeting notes — with purpose-built type-aware views.",
     "repo": "gs-ax/docflow-obsidian"
-  },
-  {
-    "id": "canvas-markdown-side-editor",
-    "name": "Canvas Markdown Side Editor",
-    "author": "shawnswu",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Open a Canvas card's linked Markdown file in a right-side editor pane with one click.",
-    "repo": "shawnswu/Obsidian-Canvas-Markdown-Side-Editor"
   },
   {
     "id": "handwriting-notes",
@@ -28255,7 +28241,7 @@
     "id": "bases-chart-layouts",
     "name": "Bases Chart Layouts",
     "author": "Nikita Gaziev",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Adds new layouts to bases: Bar Chart, Line Chart, and Pie Chart.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Adds chart layouts to bases so you can display notes as interactive bar, line, or pie charts.",
     "repo": "zobweyt/obsidian-bases-chart-layouts"
   },
   {
@@ -29069,5 +29055,12 @@
     "author": "Jesuspinarte",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A simple plugin to manage your personal projects with a Kanban Board.",
     "repo": "jesuspinarte/obsidian-personal-kanban"
+  },
+  {
+    "id": "charts",
+    "name": "Charts for Bases",
+    "author": "Nikita Gaziev",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Adds highly customizable and native-feeling layouts to bases: Bar Chart, Line Chart, and Pie Chart.",
+    "repo": "zobweyt/obsidian-charts"
   }
 ]
