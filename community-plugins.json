@@ -1442,13 +1442,6 @@
     "repo": "nomarcub/obsidian-copy-url-in-preview"
   },
   {
-    "id": "breadcrumbs",
-    "name": "Breadcrumbs",
-    "author": "skepticmystic",
-    "description": "Visualise the hierarchy of your vault using a breadcrumb trail or matrix view.",
-    "repo": "skepticmystic/breadcrumbs"
-  },
-  {
     "id": "open-vscode",
     "name": "Open vault in VS Code",
     "author": "nomarcub",
@@ -5983,13 +5976,6 @@
     "author": "heroblackink",
     "description": "Todoist task synchronization.",
     "repo": "heroblackink/ultimate-todoist-sync-for-obsidian"
-  },
-  {
-    "id": "reading-view-enhancer",
-    "name": "Reading View Enhancer",
-    "author": "galacsh",
-    "description": "Use arrow keys to navigate between text blocks and fold/unfold elements.",
-    "repo": "galacsh/obsidian-reading-view-enhancer"
   },
   {
     "id": "gpt-liteinquirer",
@@ -19523,6 +19509,13 @@
     "repo": "bastiaanschonhage/syncist"
   },
   {
+    "id": "advanced-find-and-replace",
+    "name": "Advanced Find & Replace",
+    "author": "rockofox",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Find and replace text across your vault using regular expressions, with advanced features like capturing groups and a live preview.",
+    "repo": "rockofox/obsidian-advanced-find-and-replace"
+  },
+  {
     "id": "discord-rpc",
     "name": "Discord RPC",
     "author": "30jannik06",
@@ -23562,6 +23555,13 @@
     "repo": "jorammillenaar/obsidian-similarity"
   },
   {
+    "id": "auto-properties",
+    "name": "Auto-Properties",
+    "author": "aarongilly",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create automated properties based on note content and rules.",
+    "repo": "aarongilly/obsidian-auto-properties"
+  },
+  {
     "id": "writetex",
     "name": "WriteTex",
     "author": "jacklitstar",
@@ -24610,6 +24610,13 @@
     "author": "rmccorkl",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create comprehensive notes from YouTube transcripts using LLMs.",
     "repo": "rmccorkl/TubeSage"
+  },
+  {
+    "id": "external-links-icon",
+    "name": "External Links Icon",
+    "author": "moziar",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Auto add icons to the external and internal links.",
+    "repo": "moziar/obsidian-external-links-icon"
   },
   {
     "id": "any-block-min",
@@ -26514,6 +26521,13 @@
     "author": "Toto Tvalavadze",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Collects Markdown tasks from every note into a grouped task view.",
     "repo": "totocaster/vault-tasks-obsidian"
+  },
+  {
+    "id": "lexvoice",
+    "name": "LexVoice",
+    "author": "Lynnx",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Background recording, segmented or streaming transcription, and AI-organized Markdown notes for meetings, interviews, monologues, and learning material.",
+    "repo": "lynn-x/LexVoice"
   },
   {
     "id": "zulu-agent",
@@ -29029,10 +29043,24 @@
     "repo": "kh4f/flexplorer"
   },
   {
+    "id": "language-learn",
+    "name": "Language Learn",
+    "author": "",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered language learning with word analysis, relation graphs, hover tooltips, and structured note-taking.",
+    "repo": "mizu1/obsidian-languageLearnCopilot"
+  },
+  {
     "id": "medianoche-sync",
     "name": "Medianoche Sync",
     "author": "Takashi Ohida",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Star, Archive, and Delete actions for Medianoche-synced articles",
     "repo": "ohida/medianoche-sync"
+  },
+  {
+    "id": "tlp-classification",
+    "name": "TLP Classification",
+    "author": "Rafael Santos",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Classify documents using the Traffic Light Protocol (TLP). Visual selector in the properties panel, status bar indicator, and automatic PDF header/footer badge generation for Better Export PDF.",
+    "repo": "rafamss/obsidian-tlp-classification"
   }
 ]
