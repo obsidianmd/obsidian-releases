@@ -26271,13 +26271,6 @@
     "repo": "krcnow/manex-brain"
   },
   {
-    "id": "ai-wiki",
-    "name": "AI Wiki",
-    "author": "Ilya",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered compoundable knowledge base — extracts, synthesizes and maintains a wiki from raw sources.",
-    "repo": "ikeniborn/obsidian-llm-wiki"
-  },
-  {
     "id": "copy-highlighter",
     "name": "Copy Highlighter",
     "author": "Nymbo",
@@ -27410,13 +27403,6 @@
     "author": "qingxuanlin-s",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A visual knowledge-processing workspace for Obsidian: connect notes, shape MOCs, build mind  maps, and turn Zettelkasten-style thinking into navigable thought maps.",
     "repo": "qingxuanlin-s/obsidian-thought-navigator"
-  },
-  {
-    "id": "shadowdark-statblocks",
-    "name": "Shadowdark Statblocks",
-    "author": "caulfieldsbrain",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Create, import, and render Shadowdark RPG monster stat blocks.",
-    "repo": "caulfieldsbrain/obsidian-shadowdark-statblocks"
   },
   {
     "id": "opencode",
@@ -29169,13 +29155,6 @@
     "repo": "abdur-nur-porag/CEvent-Planner"
   },
   {
-    "id": "gcal-sidebar",
-    "name": "GCal Sidebar",
-    "author": "ShawnSomething",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Interactive Google Calendar sidebar for Obsidian with multi-account support.",
-    "repo": "shawnsomething/obsidian-gcal"
-  },
-  {
     "id": "anycontent-vault-importer",
     "name": "AnyContent Vault Importer",
     "author": "Coder4",
@@ -29225,6 +29204,13 @@
     "repo": "jepicaju862-lab/Side-Comments-origin"
   },
   {
+    "id": "starred-news-sync",
+    "name": "Starred News Sync",
+    "author": "jmiba",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Import starred RSS reader items as notes with YAML frontmatter.",
+    "repo": "jmiba/starred-news-sync"
+  },
+  {
     "id": "fluorite",
     "name": "Fluorite",
     "author": "telehakke",
@@ -29255,8 +29241,155 @@
   {
     "id": "advanced-word-count",
     "name": "Advanced Word Count",
-    "author": "Mark",
+    "author": "pan4ratte",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Allows you to create complex word count presets that will be displayed in the status bar. Made with academic use cases in mind.",
     "repo": "pan4ratte/obsidian-advanced-word-count"
+  },
+  {
+    "id": "bojubot",
+    "name": "BojuBot",
+    "author": "Scott Kirvan",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. More than a writing assistant — BojuBot turns your Obsidian vault into a personal AI platform using Claude Code",
+    "repo": "scottkirvan/BojuBot"
+  },
+  {
+    "id": "zettelkasten-core",
+    "name": "Zettelkasten Core",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A complete Zettelkasten second-brain system: fleeting notes, literature notes, permanent atomic notes, Zettel IDs, inbox processing, and linked thinking.",
+    "repo": "wesswart77/obsidian-zettelkasten"
+  },
+  {
+    "id": "book-tracker",
+    "name": "Book Tracker",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Track your reading life: books, reading status, ratings, reviews, quotes, and linked themes. A personal library in plain markdown.",
+    "repo": "wesswart77/obsidian-book-tracker"
+  },
+  {
+    "id": "research-hub",
+    "name": "Research Hub",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A focused research workspace for Obsidian: capture sources, evidence, claims, and synthesis notes for any topic or project.",
+    "repo": "wesswart77/obsidian-research-hub"
+  },
+  {
+    "id": "travel-planner",
+    "name": "Travel Planner",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Plan trips in Obsidian: itineraries, packing lists, accommodation notes, and destination pages.",
+    "repo": "wesswart77/obsidian-travel-planner"
+  },
+  {
+    "id": "daily-journal-plus",
+    "name": "Daily Journal Plus",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A daily journaling system with mood tracking, habit logging, streak counters, and rotating reflection prompts.",
+    "repo": "wesswart77/obsidian-daily-journal"
+  },
+  {
+    "id": "job-search-tracker",
+    "name": "Job Search Tracker",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Track job applications: companies, roles, application stages, contacts, and interview notes in a pipeline view.",
+    "repo": "wesswart77/obsidian-job-search"
+  },
+  {
+    "id": "freelance-manager",
+    "name": "Freelance Manager",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage freelance clients, projects, time logs, and invoices. Plain markdown, no external services.",
+    "repo": "wesswart77/obsidian-freelance-manager"
+  },
+  {
+    "id": "world-builder",
+    "name": "World Builder",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A fiction world-building toolkit: characters, locations, factions, lore entries, and timeline events.",
+    "repo": "wesswart77/obsidian-world-builder"
+  },
+  {
+    "id": "songwriter",
+    "name": "Songwriter",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A songwriter's notebook: lyrics, chords, song structure, themes, influences, and recording notes.",
+    "repo": "wesswart77/obsidian-songwriter"
+  },
+  {
+    "id": "screenwriter",
+    "name": "Screenwriter",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Develop screenplays in plain markdown: treatments, outlines, character arcs, scene cards, and beat sheets with Blake Snyder's 15 beats.",
+    "repo": "wesswart77/obsidian-screenwriter"
+  },
+  {
+    "id": "design-portfolio",
+    "name": "Design Portfolio",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage your design portfolio and inspiration: case studies, mood boards, and client work logs in plain markdown.",
+    "repo": "wesswart77/obsidian-design-portfolio"
+  },
+  {
+    "id": "study-vault",
+    "name": "Study Vault",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A study system for courses and certifications: topic notes, flashcard review, practice questions, and exam prep tracking.",
+    "repo": "wesswart77/obsidian-study-vault"
+  },
+  {
+    "id": "language-learner",
+    "name": "Language Learner",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Learn languages with vocabulary lists, grammar rules, vocabulary quiz, and progress tracking by CEFR level.",
+    "repo": "wesswart77/obsidian-language-learner"
+  },
+  {
+    "id": "code-reference-library",
+    "name": "Code Reference Library",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A personal coding reference library: patterns and snippets tagged by language and framework, all in plain markdown.",
+    "repo": "wesswart77/obsidian-code-reference"
+  },
+  {
+    "id": "ttrpg-campaign-manager",
+    "name": "TTRPG Campaign Manager",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage tabletop RPG campaigns: NPCs, locations, factions, session logs, quests, and loot in plain markdown.",
+    "repo": "wesswart77/obsidian-ttrpg"
+  },
+  {
+    "id": "tasting-notes",
+    "name": "Tasting Notes",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Log wine and whisky tasting notes with ratings, producer info, vintage tracking, and cellar log.",
+    "repo": "wesswart77/obsidian-tasting-notes"
+  },
+  {
+    "id": "milestone-goal-tracker",
+    "name": "Goals & Milestones",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Set and track goals with quarterly reviews, milestones, progress notes, and outcome logging.",
+    "repo": "wesswart77/obsidian-goal-tracker"
+  },
+  {
+    "id": "meeting-notes-plus",
+    "name": "Meeting Notes Plus",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A meeting notes system: capture attendees, agenda, decisions, and action items with automatic extraction.",
+    "repo": "wesswart77/obsidian-meeting-notes"
+  },
+  {
+    "id": "projects-manager",
+    "name": "Projects Planner",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage projects in plain markdown: track status, milestones, tasks, and progress with a kanban-style sidebar view.",
+    "repo": "wesswart77/obsidian-project-manager"
+  },
+  {
+    "id": "workout-tracker-log",
+    "name": "Gym & Workout Log",
+    "author": "wesswart77",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Log workouts and track progressive overload: exercise library, session logs, personal records, and body metrics.",
+    "repo": "wesswart77/obsidian-workout-logger"
   }
 ]
