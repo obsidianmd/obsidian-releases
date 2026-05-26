@@ -17957,7 +17957,7 @@
   {
     "id": "ai-agent",
     "name": "AI Agent",
-    "author": "themanuelml",
+    "author": "Manuel Magaña",
     "description": "Empower your vault with Google Gemini. This AI agent integrates Google's artificial intelligence language models to help you perform tasks and conduct web searches.",
     "repo": "themanuelml/obsidian-agent"
   },
@@ -19654,6 +19654,13 @@
     "author": "stephquery",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Inspect and compare metadata for images, video, audio, and subtitle files.",
     "repo": "stephquery/obsidian-media-lens"
+  },
+  {
+    "id": "neogdsync",
+    "name": "NeoGDSync",
+    "author": "martinlegend",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Lightweight Google Drive sync with path-based index, conflict detection, and Smart/Push/Pull modes.",
+    "repo": "martinlegend/neogdsync"
   },
   {
     "id": "alipan-sync",
@@ -24076,7 +24083,7 @@
     "id": "notelert",
     "name": "Notelert",
     "author": "Hiperborea",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Automates the creation of notifications for the Notelert mobile app by creating deeplinks of date and time or location.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automates notifications, reminders, and alerts for your notes. Easily create date, time, location, email, or calendar events directly in your phone system to boost your daily productivity.",
     "repo": "joaquim-frances/obsidian-notelert-plugin"
   },
   {
@@ -24864,13 +24871,6 @@
     "repo": "frankl1u/wechat-article-obsidian"
   },
   {
-    "id": "slick-mermaid",
-    "name": "Slick Mermaid",
-    "author": "pasevin",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Minimal, monotone Mermaid diagrams with a larger pan / zoom viewer. Designed for the baseline theme.",
-    "repo": "pasevin/obsidian-slick-mermaid"
-  },
-  {
     "id": "unique-tab-labels",
     "name": "Unique Tab Labels",
     "author": "stephencarboni",
@@ -25002,6 +25002,13 @@
     "author": "ialex32x",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Note Mate is a smart AI assistant for your vault. With Note Mate, you can easily create new notes, expand on ideas, and get insights from your vault.",
     "repo": "ialex32x/ai-note-mate"
+  },
+  {
+    "id": "sheet-music",
+    "name": "Sheet Music",
+    "author": "corecube",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render ABC notation, strumming patterns, and chord sheets inside notes.",
+    "repo": "corecube/obsidian-sheet-music"
   },
   {
     "id": "image-zoom",
@@ -25261,6 +25268,13 @@
     "author": "ruowenwang",
     "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered knowledge compiler — transform scattered notes into a structured, interlinked wiki.",
     "repo": "graceruowenwang/obsidian-second-brain"
+  },
+  {
+    "id": "selection-translator",
+    "name": "Selection Translator",
+    "author": "tlmkira",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Translate selections, notes, Markdown documents, images, and speech with AI and machine translation providers.",
+    "repo": "tlmkira/selection-translator"
   },
   {
     "id": "yori-dashboard",
@@ -26194,13 +26208,6 @@
     "repo": "ekrizdis367/obsidian-mtg-decklist"
   },
   {
-    "id": "make-it-rain",
-    "name": "Make It Rain",
-    "author": "Jonathan Wagner",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Pull Raindrop.io bookmarks, highlights, and attachments into Markdown notes with rich metadata, smart folder structures, and native file support.",
-    "repo": "frostmute/make-it-rain"
-  },
-  {
     "id": "gitlab-inbox",
     "name": "GitLab Inbox",
     "author": "srwildman",
@@ -26626,6 +26633,13 @@
     "author": "atopos31",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync notes with ZimaOS for backup, cloud access, and cross-device synchronization.",
     "repo": "atopos31/OZSync"
+  },
+  {
+    "id": "heading-link-copy",
+    "name": "Heading Linker & Refactor",
+    "author": "wilmtang",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Copy a markdown link to a heading with configurable path and hierarchy.",
+    "repo": "wilmtang/obsidian-heading-linker"
   },
   {
     "id": "mindcanvas",
@@ -29190,6 +29204,13 @@
     "repo": "mashx43/obsidian-tickban"
   },
   {
+    "id": "lonelog",
+    "name": "Lonelog",
+    "author": "Snifer",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Streamline solo TTRPG journaling with Lonelog notation shortcuts and templates.",
+    "repo": "snifer/lonelog"
+  },
+  {
     "id": "note-reading-progress",
     "name": "Note Reading Progress",
     "author": "keithwithAI",
@@ -29783,5 +29804,19 @@
     "author": "Dan Seaman",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Kanban view over markdown-based project backlog and milestones. Reads bold-key metadata directly, lets you drag cards between status columns, edit enums inline, and writes changes back",
     "repo": "dseaman/Kandyban"
+  },
+  {
+    "id": "combat-ledger",
+    "name": "Combat Ledger",
+    "author": "Snifer",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Combat ledger and battle tracker for role-playing games. Reads YAML properties from your combatant notes.",
+    "repo": "snifer/combat-ledger"
+  },
+  {
+    "id": "drive-nine",
+    "name": "drive9",
+    "author": "drive9-ai",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault across devices via drive9 with semantic search and AI-agent access.",
+    "repo": "drive9-ai/obsidian-drive9"
   }
 ]
