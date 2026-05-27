@@ -4496,7 +4496,7 @@
   {
     "id": "google-photos",
     "name": "Google Photos",
-    "author": "Alan",
+    "author": "Alan Grainger",
     "description": "Google Photos integration.",
     "repo": "alangrainger/obsidian-google-photos"
   },
@@ -4755,7 +4755,7 @@
   {
     "id": "image-captions",
     "name": "Image Captions",
-    "author": "Alan",
+    "author": "Alan Grainger",
     "description": "Add captions to images with inline Markdown and link support. The caption format is compatible with the Commonmark spec and other Markdown applications.",
     "repo": "alangrainger/obsidian-image-captions"
   },
@@ -6351,7 +6351,7 @@
   {
     "id": "air-quotes",
     "name": "Air Quotes",
-    "author": "Alan",
+    "author": "Alan Grainger",
     "description": "Search and insert quotes from a source text as you type.",
     "repo": "alangrainger/obsidian-air-quotes"
   },
@@ -6771,7 +6771,7 @@
   {
     "id": "frontmatter-modified-date",
     "name": "Update modified date",
-    "author": "Alan",
+    "author": "Alan Grainger",
     "description": "Automatically update a frontmatter modified date field when the file is modified.",
     "repo": "alangrainger/obsidian-frontmatter-modified-date"
   },
@@ -7478,7 +7478,7 @@
   {
     "id": "share-note",
     "name": "Share Note",
-    "author": "Alan",
+    "author": "Alan Grainger",
     "description": "Instantly share/publish a note, with the full theme and content exactly like you see in Obsidian. Data is shared encrypted by default, and only you and the person you send it to have the key.",
     "repo": "alangrainger/share-note"
   },
@@ -11874,7 +11874,7 @@
   {
     "id": "lazy-plugins",
     "name": "Lazy Plugin Loader",
-    "author": "Alan",
+    "author": "Alan Grainger",
     "description": "Load plugins with a delay on startup, so that you can get your app startup down into the sub-second loading time.",
     "repo": "alangrainger/obsidian-lazy-plugins"
   },
@@ -20111,6 +20111,13 @@
     "repo": "optimummost001/move-completed-tasks-down"
   },
   {
+    "id": "ttrpg-tools-screen",
+    "name": "TTRPG Tools - Player Screen",
+    "author": "Johannes Schwartz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Send notes, images, PDFs and TTRPG maps to a plain second-screen display window.",
+    "repo": "jareika/ttrpg-tools-screen"
+  },
+  {
     "id": "quick-memos",
     "name": "Quick Memos",
     "author": "liqiuyue9597",
@@ -22071,6 +22078,13 @@
     "repo": "timobechtel/obsidian-block-view"
   },
   {
+    "id": "ttrpg-tools-publish",
+    "name": "TTRPG Tools - Publish",
+    "author": "Johannes Schwartz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Generates publish.js/publish.css and a publish-assets manifest for TTRPG Tools: Maps (Zoom Map).",
+    "repo": "jareika/TTRPG-Tools-Publish"
+  },
+  {
     "id": "flow-state",
     "name": "FlowState",
     "author": "findflowstate",
@@ -23200,7 +23214,7 @@
   {
     "id": "task-zero",
     "name": "Task Zero",
-    "author": "Alan",
+    "author": "Alan Grainger",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A keyboard-first GTD task management system.",
     "repo": "alangrainger/obsidian-task-zero"
   },
@@ -25985,10 +25999,17 @@
   },
   {
     "id": "zoom-map",
-    "name": "TTRPG Tools: Maps",
+    "name": "TTRPG Tools - Maps",
     "author": "Johannes Schwartz",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A toolbox for interactive fantasy maps.",
     "repo": "jareika/zoom-map"
+  },
+  {
+    "id": "ttrpg-soundboard",
+    "name": "TTRPG Tools - Soundboard",
+    "author": "Johannes Schwartz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Soundboard for TTRPG sessions: image tiles (adjustable height), per-title loop/fades, Stop All, root folder + subfolders, plus Playlists (gold tiles with sequential playback).",
+    "repo": "jareika/obsidian-ttrpg-soundboard"
   },
   {
     "id": "sherlockeye-osint",
@@ -25998,8 +26019,15 @@
     "repo": "p1ngul1n0/obsidian-sherlockeye-plugin"
   },
   {
+    "id": "simple-timeline",
+    "name": "TTRPG Tools - Timeline",
+    "author": "Johannes Schwartz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Timeline-Renderer für Calendarium-Frontmatter (fc-date/fc-end). 200×315 Bild, Callout-Stil, native Popover, mobilfreundlich.",
+    "repo": "jareika/Simple-Timeline"
+  },
+  {
     "id": "ttrpg-tools-time",
-    "name": "TTRPG Tools: Time",
+    "name": "TTRPG Tools - Time",
     "author": "Johannes Schwartz",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Fantasy calendar with timeline view.",
     "repo": "jareika/ttrpg-tools-time"
@@ -26929,6 +26957,13 @@
     "repo": "hwangso595/eink-sync"
   },
   {
+    "id": "get-importer-sync",
+    "name": "Dedao Brain Importer",
+    "author": "springrain | 公众号: 及时春雨",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Import Get笔记 Notes to Obsidian",
+    "repo": "springrain1/get-to-obsidian"
+  },
+  {
     "id": "linux-image-rendering-fix",
     "name": "Linux Image Rendering Fix",
     "author": "evgene-kopylov",
@@ -27854,7 +27889,7 @@
   },
   {
     "id": "aibrowser-chat",
-    "name": "AI Browser Chat",
+    "name": "AI Portal",
     "author": "thanshi",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Embed ChatGPT, Claude, Gemini, Grok, DeepSeek and Perplexity in a sidebar. Send vault notes and selected text directly into AI chat.",
     "repo": "thansheer/AI-Chat"
@@ -28945,13 +28980,6 @@
     "repo": "aniruddh-jammoria/obsidian-agentic-todolist"
   },
   {
-    "id": "exporter",
-    "name": "Exporter",
-    "author": "altocomputer",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Decorate exported Apple Notes and Bear Notes with native app icons. Open notes in their source app from Obsidian.",
-    "repo": "podviaznikov/exporter-obsidian"
-  },
-  {
     "id": "file-creator",
     "name": "File Creator",
     "author": "Erin Skidds",
@@ -29004,7 +29032,7 @@
     "id": "wisemindai",
     "name": "WiseMindAI",
     "author": "chris",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. 本地使用 WiseMindAI 的总结、知识卡片、AI 对话和双向同步能力.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Locally utilize WiseMindAI's summarization, knowledge cards, AI conversation, and bidirectional synchronization capabilities.",
     "repo": "chris8891/wisemind-obsidian"
   },
   {
@@ -29041,5 +29069,19 @@
     "author": "Rafael Mehdiyev",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Searchable, categorized vim command reference inside app. Works alongside the built-in vim key bindings.",
     "repo": "rafaelmehdiyev/obsidian-vim-cheatsheet"
+  },
+  {
+    "id": "antigravity-cli-sidebar",
+    "name": "Antigravity CLI Sidebar",
+    "author": "desmond wen",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Run Antigravity CLI directly in an Obsidian sidebar pane.",
+    "repo": "desmondwen/obsidian-antigravity-cli-sidebar"
+  },
+  {
+    "id": "plan-panel",
+    "name": "Plan Panel",
+    "author": "xuhuaya0",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Show and classify Markdown plans by Eisenhower quadrants.",
+    "repo": "xuhuaya0/obsidian-plan-panel"
   }
 ]
