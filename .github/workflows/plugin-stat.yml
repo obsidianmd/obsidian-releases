@@ -10,9 +10,11 @@ jobs:
     if: github.repository == 'obsidianmd/obsidian-releases'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v2
-      - uses: actions/github-script@v6
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22.x"
+      - uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.PLUGIN_STAT_TOKEN }}
           script: |
