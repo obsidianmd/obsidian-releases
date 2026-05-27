@@ -12642,6 +12642,13 @@
     "repo": "charliecm/obsidian-open-with-nldates"
   },
   {
+    "id": "jisage-japanese-indentation",
+    "name": "Jisage",
+    "author": "telehakke",
+    "description": "Display 'Jisage' (indenting with a full-width space at the beginning of a line) text correctly.",
+    "repo": "telehakke/jisage-japanese-indentation"
+  },
+  {
     "id": "hierarchical-backlinks",
     "name": "Hierarchical Backlinks",
     "author": "jasonmotylinski",
@@ -18879,13 +18886,6 @@
     "repo": "fengshuzi/applenotes-sync"
   },
   {
-    "id": "coin-memo",
-    "name": "碎银几两",
-    "author": "fengshuzi",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatic identification and statistical analysis of accounting records.",
-    "repo": "fengshuzi/coin-memo"
-  },
-  {
     "id": "lite-memo",
     "name": "Lite Memo",
     "author": "fengshuzi",
@@ -19395,6 +19395,13 @@
     "author": "tgrrrr",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Outliner-style editing for heading-based Markdown: move, indent, and unindent full sections with keyboard shortcuts.",
     "repo": "tgrrrr/heading-outliner"
+  },
+  {
+    "id": "nexus",
+    "name": "Nexus",
+    "author": "profsynapse",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Agentic AI for your vault. Use Claude, ChatGPT, Gemini, and local models to chat, search, create, and manage your notes with semantic memory, image generation, and MCP server integration.",
+    "repo": "profsynapse/nexus"
   },
   {
     "id": "cockpit-board",
@@ -21616,6 +21623,13 @@
     "repo": "rapphcd/obsidian-vault-cleaner"
   },
   {
+    "id": "global-ticker",
+    "name": "Global Ticker",
+    "author": "cokaizoku",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Adds a panel that provides a global ticker for news and stock updates, using Currents and Finnhub APIs.",
+    "repo": "cokaizoku/obsidian-global-ticker"
+  },
+  {
     "id": "image-uploader-to-api",
     "name": "Image Uploader to API",
     "author": "babarot",
@@ -21922,13 +21936,6 @@
     "author": "saydullayev017",
     "description": "This plugin has not been manually reviewed by Obsidian staff. All-in-one productivity plugin with calendar, Pomodoro timer, and task manager.",
     "repo": "saydullayev017/deadline"
-  },
-  {
-    "id": "workspace-plus-plus",
-    "name": "Workspace++",
-    "author": "s1m4ne",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Workspace session manager with a native-feeling UI/UX.",
-    "repo": "s1m4ne/obsidian-workspace-plus"
   },
   {
     "id": "thought-completion",
@@ -23707,6 +23714,13 @@
     "author": "greetclammy",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Add commands to copy link to file, heading or block.",
     "repo": "greetclammy/copy-link"
+  },
+  {
+    "id": "seo",
+    "name": "Search Engine Optimization",
+    "author": "David V. Kimball",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Ensure your public-facing notes are optimized for search engines and AI.",
+    "repo": "davidvkimball/obsidian-seo"
   },
   {
     "id": "speech-to-text",
@@ -25760,6 +25774,13 @@
     "repo": "fszlnwr/obsidian-lark-wiki-sync"
   },
   {
+    "id": "vaultman",
+    "name": "Vaultman",
+    "author": "meibbo",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Bulk property editor and vault management tool for Obsidian.",
+    "repo": "meibbo/Vaultman"
+  },
+  {
     "id": "phantom-cipher",
     "name": "PhantomCipher",
     "author": "Lumingtianze",
@@ -26311,13 +26332,6 @@
     "author": "Kazuki Yunome",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically generates markdown sidecars for images using a local Vision-Language Model.",
     "repo": "0xkz1/obsidian-asset-weaver"
-  },
-  {
-    "id": "new-note-title",
-    "name": "New Note Title",
-    "author": "Jessy Cormier",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Change the default filename used for new notes",
-    "repo": "jessycormier/obsidian-new-note-title"
   },
   {
     "id": "vaultguard-sync",
@@ -27889,9 +27903,9 @@
   },
   {
     "id": "aibrowser-chat",
-    "name": "AI Portal",
+    "name": "OmniChat",
     "author": "thanshi",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Embed ChatGPT, Claude, Gemini, Grok, DeepSeek and Perplexity in a sidebar. Send vault notes and selected text directly into AI chat.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Embed ChatGPT, Claude, Gemini, Grok, DeepSeek, Kimi, Copliot, Manus and Perplexity in a sidebar. Send vault notes and selected text directly into AI chat.",
     "repo": "thansheer/AI-Chat"
   },
   {
@@ -28218,7 +28232,7 @@
   },
   {
     "id": "neuro-mindmap-mouse",
-    "name": "MapTheMind (Mouse)",
+    "name": "MapTheMind",
     "author": "Cosmakes",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Hierarchical visual database for mouse neuroscience data, built on the Allen Mouse Brain Atlas (CCFv3).",
     "repo": "cosmakes/MapTheMouseMind"
@@ -28236,13 +28250,6 @@
     "author": "Jesús García",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Search academic databases and generate APA 7 papers with AI. Supports 7 LLM providers and 10 research domains.",
     "repo": "jaliriogbarrios19/Research_Paper"
-  },
-  {
-    "id": "pdf-export-compress",
-    "name": "导出 PDF（图片压缩）/ Export PDF (+ Image Compress)",
-    "author": "hunter00zb",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. 将 Markdown 导出为 PDF，支持图片自动压缩。Python（reportlab + Pillow）渲染，支持 CJK。/ Export Markdown to PDF with auto image compression. Python (reportlab + Pillow) engine, CJK support.",
-    "repo": "hunter00zb/pdf-export-compress"
   },
   {
     "id": "morning-os",
@@ -28910,11 +28917,32 @@
     "repo": "cocoaai-it/ob-cocoa-marp"
   },
   {
+    "id": "docx-exporter-plus",
+    "name": "DOCX Exporter Plus",
+    "author": "michellegdyason",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Export Markdown notes to DOCX with Word heading navigation, visible colors on white paper, and working links.",
+    "repo": "michellegdyason/docx-exporter-plus"
+  },
+  {
+    "id": "traystone",
+    "name": "Traystone",
+    "author": "tinswangtao-web",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. 将 Obsidian 运行到系统托盘，支持自定义窗口管理和全局快速笔记",
+    "repo": "tinswangtao-web/traystone"
+  },
+  {
     "id": "echo-ai",
     "name": "Echo",
     "author": "9b9387",
     "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered writing assistant with inline write, selection actions, and streaming output. Supports OpenAI and Gemini.",
     "repo": "9b9387/obsidian-echo"
+  },
+  {
+    "id": "kanban-archiver",
+    "name": "Kanban Archiver",
+    "author": "Starsha",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Archive completed Kanban cards older than a configurable number of days to a separate archive file. Auto-stamps completion dates so cards are always archivable.",
+    "repo": "eiger3970/obsidian-kanban-archiver"
   },
   {
     "id": "mood-quarter-calendar",
@@ -28950,6 +28978,13 @@
     "author": "kdnk",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Work with your lists like in Workflowy or RoamResearch.",
     "repo": "kdnk/obsidian-bullet"
+  },
+  {
+    "id": "manuscript-outliner",
+    "name": "Manuscript Outliner",
+    "author": "Joe Kovach",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Generate outlines markdown headings. Track progress with status tags and word counts per section.",
+    "repo": "joe-iq/obsidian-manuscript-outliner"
   },
   {
     "id": "chain",
@@ -29083,5 +29118,19 @@
     "author": "xuhuaya0",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Show and classify Markdown plans by Eisenhower quadrants.",
     "repo": "xuhuaya0/obsidian-plan-panel"
+  },
+  {
+    "id": "notes-exporter",
+    "name": "Notes Exporter",
+    "author": "anton",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Decorate exported Apple Notes and Bear Notes with native app icons. Open notes in their source app.",
+    "repo": "podviaznikov/notes-exporter-obsidian"
+  },
+  {
+    "id": "dyresearch-sidecar",
+    "name": "DyResearch AI Sidecar",
+    "author": "Dylan Tartarini",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Bridge to the DyResearch Agent system built with Google ADK.",
+    "repo": "dylantartarini1996/dyresearch-obsidian"
   }
 ]
