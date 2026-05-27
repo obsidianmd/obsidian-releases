@@ -27379,7 +27379,7 @@
   {
     "id": "japanese-calendar",
     "name": "Japanese Calendar",
-    "author": "Koji Okuji",
+    "author": "DualyzeAI",
     "description": "This plugin has not been manually reviewed by Obsidian staff. 日本の祝日・振替休日対応カレンダー。日付クリックでデイリーノートを自動作成。和暦・六曜表示にも対応。",
     "repo": "kojiman55/obsidian-japanese-calendar"
   },
@@ -28322,13 +28322,6 @@
     "repo": "bfgpollara/obsidian-google-docs-paste"
   },
   {
-    "id": "agentic-git-sync",
-    "name": "Agentic Git Sync",
-    "author": "Jakob He",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Agentic two-way sync for your vault and submodules with GitHub. AI resolves conflicts and git errors autonomously.",
-    "repo": "leweii/agentic-git-sync"
-  },
-  {
     "id": "schedule-calendar",
     "name": "Schedule Calendar",
     "author": "seonggoos",
@@ -29003,7 +28996,7 @@
   {
     "id": "context-pack-for-notebooklm",
     "name": "Context Pack for NotebookLM",
-    "author": "Koji Okuji",
+    "author": "DualyzeAI",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Build clean Context Packs from your Obsidian vault for NotebookLM.",
     "repo": "kojiman55/obsidian-context-pack"
   },
@@ -29970,7 +29963,7 @@
     "id": "nested-notes",
     "name": "Nested Notes",
     "author": "October",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Nest notes under other notes with drag-and-drop and collapse/expand.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Nest notes under other notes with drag-and-drop and collapse/expand. Also hides non-markdown files to focus on notes.",
     "repo": "october-learns/nested-notes"
   },
   {
@@ -29986,5 +29979,33 @@
     "author": "altocomputer",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Decorate exported Apple Notes and Bear Notes with native app icons. Open notes in their source app from Obsidian.",
     "repo": "podviaznikov/exporter-obsidian"
+  },
+  {
+    "id": "file-creator",
+    "name": "File Creator",
+    "author": "Erin Skidds",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create files in specific folders with optional date prefixing/suffixing, PDF creation from templates, and Kanban board creation. Can also embed attachments in existing files.",
+    "repo": "dudethatserin/FileCreator"
+  },
+  {
+    "id": "vaultkeeper",
+    "name": "Vaultkeeper",
+    "author": "Erin Skidds",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Organize and manage attachments, rename pasted files, and extract text via OCR — all within your Obsidian vault.",
+    "repo": "dudethatserin/vaultkeeper"
+  },
+  {
+    "id": "sidebar-timer",
+    "name": "Sidebar Timer",
+    "author": "hornat",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A minimalist floating capsule timer that supports custom durations, notification messages, and drag position saving.",
+    "repo": "hornatx/sidebar-timer"
+  },
+  {
+    "id": "taplog",
+    "name": "TapLog",
+    "author": "LJ OS",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create Markdown-based trackers with tappable buttons that log timestamped rows to monthly CSV files, with summaries, dashboards, and settings-based editing.",
+    "repo": "ljrobinson/TapLog"
   }
 ]
