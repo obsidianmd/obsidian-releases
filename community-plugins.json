@@ -4312,6 +4312,13 @@
     "repo": "djmango/obsidian-transcription"
   },
   {
+    "id": "crumbs-obsidian",
+    "name": "Crumbs",
+    "author": "tgrosinger",
+    "description": "Breadcrumb navigation.",
+    "repo": "tgrosinger/crumbs-obsidian"
+  },
+  {
     "id": "obsidian-dataset-aid",
     "name": "Text Dataset Aid",
     "author": "connerohnesorge",
@@ -5731,13 +5738,6 @@
     "author": "kamoshi",
     "description": "Basic support for Markdoc files.",
     "repo": "kamoshi/obsidian-markdoc"
-  },
-  {
-    "id": "personal-assistant",
-    "name": "Personal Assistant",
-    "author": "edonyzpc",
-    "description": "AI-powered workflows to streamline the management of records, callouts, frontmatter, graph view, themes, and plugins.",
-    "repo": "edonyzpc/personal-assistant"
   },
   {
     "id": "colored-text",
@@ -7791,13 +7791,6 @@
     "repo": "fnya/remove-empty-folders"
   },
   {
-    "id": "fountain-editor",
-    "name": "Fountain Editor",
-    "author": "Chuang Caleb",
-    "description": "Fountain (screenplay) syntax highlighting in the editor.",
-    "repo": "chuangcaleb/obsidian-fountain-editor"
-  },
-  {
     "id": "backlink-cache",
     "name": "Backlink Cache",
     "author": "mnaoumov",
@@ -9028,13 +9021,6 @@
     "author": "shreshth-mehra",
     "description": "A movie and TV show tracker.",
     "repo": "shreshth-mehra/Obsidian-TV-Tracker"
-  },
-  {
-    "id": "gpg-encrypt",
-    "name": "GPG Encrypt",
-    "author": "lajg-dev",
-    "description": "Encrypt partial text or complete notes using GPG technology, it is compatible with security keys such as YubiKey or traditional GPG encryption methods",
-    "repo": "lajg-dev/Obsidian-Plugin-GPG-Inline-Encrypt"
   },
   {
     "id": "github-sync",
@@ -13102,6 +13088,13 @@
     "author": "eharris128",
     "description": "Post to Bluesky.",
     "repo": "eharris128/obsidian-bluesky"
+  },
+  {
+    "id": "double-switch",
+    "name": "Auto switch themes between dark and light mode",
+    "author": "carlrobert",
+    "description": "Toggling dark/light mode switches themes automatically",
+    "repo": "carlrobert/double-switch"
   },
   {
     "id": "markdown-tags",
@@ -25669,6 +25662,13 @@
     "repo": "core-hn/pseudobsidian-ization"
   },
   {
+    "id": "codex-panel",
+    "name": "Codex Panel",
+    "author": "murashit",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Codex in your sidebar.",
+    "repo": "murashit/codex-panel"
+  },
+  {
     "id": "spotify-sorter",
     "name": "Spotify Sorter",
     "author": "fleker",
@@ -29237,5 +29237,12 @@
     "author": "CYZice",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync tasks between Obsidian and Dida365 or TickTick.",
     "repo": "cyzice/Obsidian-DidaSync"
+  },
+  {
+    "id": "claude-code-bridge",
+    "name": "Claude Code Bridge",
+    "author": "othnielsu",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Bridge selected text to Claude Code CLI for real-time context sharing.",
+    "repo": "radical7vii/obsidian-claude-code-bridge"
   }
 ]
