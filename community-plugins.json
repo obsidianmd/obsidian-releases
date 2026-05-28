@@ -21486,7 +21486,7 @@
     "id": "fakelink",
     "name": "fakelink",
     "author": "godfatherlg",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically creates virtual links for text within your notes that match the titles or aliases of other notes in your vault. Create a glossary-like functionality, show unlinked mentions and transform them to real links.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically creates virtual links for text that match the titles or headers of other notes in your vault. Create a glossary-like functionality, can transform them to real links.",
     "repo": "godfatherlg/fakelink"
   },
   {
@@ -23438,7 +23438,7 @@
   {
     "id": "paste-image-as-webp",
     "name": "Paste Image as WebP",
-    "author": "cocoaai-it",
+    "author": "cocoa",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Paste images as compressed WebP files when pasting from the clipboard, with customizable file names, quality settings, and save locations.",
     "repo": "cocoaai-it/paste-image-as-webp"
   },
@@ -25667,13 +25667,6 @@
     "author": "Axelle Abbadie",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Pseudonymize and correct interactional transcripts (Jefferson, ICOR, SRT, CHAT/CHA). Designed for qualitative researchers in linguistics and conversation analysis.",
     "repo": "core-hn/pseudobsidian-ization"
-  },
-  {
-    "id": "codex-panel",
-    "name": "Codex Panel",
-    "author": "murashit",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Codex in your sidebar.",
-    "repo": "murashit/codex-panel"
   },
   {
     "id": "spotify-sorter",
@@ -28891,7 +28884,7 @@
   {
     "id": "easy-obookshelf",
     "name": "Easy Bookshelf",
-    "author": "cocoaai-it",
+    "author": "cocoa",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Manage your bookshelf from ISBN. Fetches book metadata from NDL, Google Books, and Open Library, then creates and organizes book notes.",
     "repo": "cocoaai-it/easy-obookshelf"
   },
@@ -28961,7 +28954,7 @@
   {
     "id": "marp-slides-presenter",
     "name": "Marp Slides Presenter",
-    "author": "cocoaai-it",
+    "author": "cocoa",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create and present Marp markdown slides with a fullscreen mode, popout presenter view, and laser pointer.",
     "repo": "cocoaai-it/ob-cocoa-marp"
   },
@@ -29237,5 +29230,12 @@
     "author": "Marc Panu",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Replace the file explorer with an Apple Notes-style drill-down navigator.",
     "repo": "marcpanu/obsidian-mobile-explorer"
+  },
+  {
+    "id": "didasync",
+    "name": "DidaSync",
+    "author": "CYZice",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync tasks between Obsidian and Dida365 or TickTick.",
+    "repo": "cyzice/Obsidian-DidaSync"
   }
 ]
