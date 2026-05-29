@@ -13917,7 +13917,7 @@
   },
   {
     "id": "hoarder-sync",
-    "name": "Karakeep (Hoarder) Sync",
+    "name": "Karakeep Sync",
     "author": "jhofker",
     "description": "Sync your Karakeep bookmarks",
     "repo": "jhofker/obsidian-hoarder"
@@ -17999,7 +17999,7 @@
   {
     "id": "weather-widget",
     "name": "Weather Widget",
-    "author": "mr-asa",
+    "author": "Andrei",
     "description": "Weather widget for display in notes, Canvas, and a separate tab.",
     "repo": "mr-asa/obsidian_weather"
   },
@@ -29085,13 +29085,6 @@
     "repo": "caezium/obsidian-spotify-control"
   },
   {
-    "id": "colourfulfiles",
-    "name": "Colorful Files",
-    "author": "sysadmin17",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Transform your file explorer sidebar with a compact 24-color horizontal grid palette, featuring hover tooltips, custom hex codes, and cascading folder highlights.",
-    "repo": "sysadmin17/colorfulfiles"
-  },
-  {
     "id": "gemmanotes",
     "name": "GemmaNotes",
     "author": "Sarath Chandra",
@@ -29181,6 +29174,13 @@
     "author": "Ouzhongyuan",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Semantic search for Obsidian Vault via MCP",
     "repo": "ouou365/Semlink"
+  },
+  {
+    "id": "semantic-todoist-sync",
+    "name": "Semantic Todoist Sync",
+    "author": "Neurocloud",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. BYOK semantic/AI vault search, Gemini/OpenAI-assisted Todoist task generation, using Notes-to-Todoist and Email-to-Todoist (optional) workflows.",
+    "repo": "neurocloud-activate/semantic-todoist-sync"
   },
   {
     "id": "easy-link-to-daily-note",
@@ -29729,18 +29729,18 @@
     "repo": "bcs1037/wk-image-caption"
   },
   {
-    "id": "readwise-reading-tracker",
-    "name": "Readwise Reading Tracker",
-    "author": "Kostya Struga",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Track Readwise reading progress, highlights, heatmaps, and reading inbox notes.",
-    "repo": "free-solo-lab/obsidian-readwise-tracker"
-  },
-  {
     "id": "open-pdf-translate",
     "name": "OPEN PDF Translate",
     "author": "Vetrenar",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Translate PDF documents with overlay, supports OpenRouter, OpenAI, Gemini, Ollama, and custom endpoints. Includes layout detection,  and persistent storage of translations..",
     "repo": "vetrenar/Open-PDF-Translate"
+  },
+  {
+    "id": "codeblock-language-detector",
+    "name": "CodeBlock Language Detector",
+    "author": "Lars Bücker",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically detects and adds language tags to code blocks without specified language for proper syntax highlighting.",
+    "repo": "bueckerlars/obsidian-codeblock-language-detector"
   },
   {
     "id": "flowscript-diagrams",
@@ -29822,8 +29822,8 @@
   {
     "id": "draft-paper",
     "name": "Draft Paper",
-    "author": "Your Name",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. 提供全屏草稿纸覆盖层，可在 Markdown 文档上自由手写标注，绘制内容绑定文档滚动坐标，不受 DOM 变化影响。",
+    "author": "Baka",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Fullscreen scratchpad that allows for freehand annotations directly over Markdown files.",
     "repo": "mikuloverfan/draft-paper"
   },
   {
@@ -29853,5 +29853,19 @@
     "author": "Anton Liberant",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Browse top Hacker News stories and save them to your reading list",
     "repo": "anliberant/hn-obsidian-plugin"
+  },
+  {
+    "id": "copilot-auto-completion-plus",
+    "name": "Copilot Auto Completion Plus",
+    "author": "Daniil Shipilov",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Adds configurable AI auto-completion to Obsidian using OpenAI, Anthropic, Gemini, Azure OpenAI, or Ollama.",
+    "repo": "yetanotherrepo/obsidian-copilot-auto-completion-plus"
+  },
+  {
+    "id": "cornell-notes",
+    "name": "Cornell Notes",
+    "author": "Sergii Krymets",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Renders two-column Cornell Notes layouts.",
+    "repo": "bytetiles/obsidian-cornell-notes"
   }
 ]
