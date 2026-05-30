@@ -5852,13 +5852,6 @@
     "repo": "numeroflip/obsidian-auto-template-trigger"
   },
   {
-    "id": "flowershow",
-    "name": "Publish with Flowershow",
-    "author": "flowershow",
-    "description": "Publish notes with Flowershow.",
-    "repo": "flowershow/obsidian-flowershow"
-  },
-  {
     "id": "ketcher",
     "name": "Ketcher",
     "author": "yulei-chen",
@@ -7476,13 +7469,6 @@
     "repo": "rochag07/anki-sync-plus"
   },
   {
-    "id": "geocoding-properties",
-    "name": "Geocoding Properties",
-    "author": "jose-elias-alvarez",
-    "description": "Insert address and location data from geocoding APIs as YAML properties.",
-    "repo": "jose-elias-alvarez/obsidian-geocoding-properties"
-  },
-  {
     "id": "eleven-labs",
     "name": "Eleven Labs",
     "author": "veritas1",
@@ -8083,13 +8069,6 @@
     "author": "hananoshikayomaru",
     "description": "Generate Markdown from dataview query and JavaScript.",
     "repo": "hananoshikayomaru/obsidian-run"
-  },
-  {
-    "id": "paste-link",
-    "name": "Paste Link",
-    "author": "jose-elias-alvarez",
-    "description": "Intelligently paste Markdown links.",
-    "repo": "jose-elias-alvarez/obsidian-paste-link"
   },
   {
     "id": "colored-tags-wrangler",
@@ -11447,8 +11426,8 @@
   {
     "id": "arena-manager",
     "name": "Are.na Manager",
-    "author": "javierarce",
-    "description": "Publish content from your vault to Arena and the other way around.",
+    "author": "javier",
+    "description": "Publish content from your vault to Are.na and the other way around.",
     "repo": "javierarce/arena-manager"
   },
   {
@@ -19481,6 +19460,13 @@
     "repo": "matthttam/ttrpg-maps"
   },
   {
+    "id": "meeting-detector",
+    "name": "Meeting Detector",
+    "author": "Yuto Takagi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Auto-detect online meetings (Zoom, Google Meet, Teams) and prompt to record or create meeting notes.",
+    "repo": "yut0takagi/obsidian-meeting-detector"
+  },
+  {
     "id": "notion-sync",
     "name": "Notion Sync",
     "author": "sharkello",
@@ -20386,7 +20372,7 @@
   {
     "id": "x-bookmarks-sync",
     "name": "X Bookmarks Sync",
-    "author": "hfknight",
+    "author": "feinix",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Save your X (Twitter) bookmarks as structured Markdown notes, with selective import, incremental sync, and no API key needed.",
     "repo": "hfknight/x-bookmarks-sync"
   },
@@ -21467,13 +21453,6 @@
     "author": "iart0s",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Manage your vinyl collection: table/cards view, Discogs CSV import, and export.",
     "repo": "iart0s/obsidian-vinyl-catalog-tools"
-  },
-  {
-    "id": "base-board",
-    "name": "Base Board",
-    "author": "mderazon",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Organize notes into Kanban boards using frontmatter properties. Drag and drop cards between columns powered by Bases.",
-    "repo": "mderazon/obsidian-base-board"
   },
   {
     "id": "zotero-redisearch-rag",
@@ -26820,7 +26799,7 @@
     "id": "japanese-calendar",
     "name": "Japanese Calendar",
     "author": "DualyzeAI",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. 日本の祝日・振替休日対応カレンダー。日付クリックでデイリーノートを自動作成。和暦・六曜表示にも対応。",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Japanese public holiday calendar with wareki (Japanese era) and rokuyo. Click any date to auto-create daily notes. Substitute holidays and   weekend coloring included.",
     "repo": "kojiman55/obsidian-japanese-calendar"
   },
   {
@@ -30009,13 +29988,6 @@
     "repo": "macahmed/obsidian-thoth"
   },
   {
-    "id": "inkruby",
-    "name": "InkRuby",
-    "author": "BitFlood",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. InkRuby is an Obsidian plugin designed to render the styling of ancient Chinese poetry and Literary Chinese. By using designated code blocks, it adds Pinyin annotations and interlinear notes to text.",
-    "repo": "bitflood/inkruby"
-  },
-  {
     "id": "novel-profile",
     "name": "Novel Profile",
     "author": "hornat",
@@ -30051,10 +30023,66 @@
     "repo": "l-4553/obsidian-simple-checklist"
   },
   {
+    "id": "md-image-manager",
+    "name": "Markdown Image Manager",
+    "author": "imulan",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A powerful image management plugin for Obsidian. Browse, optimize, upload to image hosting, and organize your images. Ideal for converting Wiki image refs to standard Markdown format.",
+    "repo": "ytahml/obsidian-image-manager"
+  },
+  {
     "id": "trolls-in-the-cellar",
     "name": "Trolls in the Cellar",
     "author": "Daren Thomas",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Perchance-style random generators for tabletop RPG prep.",
     "repo": "daren-thomas/trolls-in-the-cellar"
+  },
+  {
+    "id": "share-hosted",
+    "name": "Share Hosted",
+    "author": "Yuto Takagi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Hosted alternative to org-share: sign in with email, share notes with org / allowlist / public audiences. No Cloudflare setup required.",
+    "repo": "yut0takagi/obsidian-share-hosted"
+  },
+  {
+    "id": "system-recording",
+    "name": "System Recording",
+    "author": "Yuto Takagi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Record system audio (Zoom, Meet, Teams) and save as M4A in your vault",
+    "repo": "yut0takagi/obsidian-system-recording"
+  },
+  {
+    "id": "table-formatter",
+    "name": "Table Formatter",
+    "author": "fangface-hub",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Formats Markdown tables when files are saved.",
+    "repo": "fangface-hub/obsidian_table_formatter"
+  },
+  {
+    "id": "calendar-hub",
+    "name": "Calendar Hub",
+    "author": "HWY1dot0",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Find every note created on a given day from one calendar view, no matter which folder it lives in.",
+    "repo": "hwy1dot0/calendar-hub"
+  },
+  {
+    "id": "copilot-personal",
+    "name": "Copilot Personal",
+    "author": "Josef",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI agent with 17 tools, multi-provider LLM (11 providers), RAG semantic search, PDF extraction, web search, and autonomous note creation.",
+    "repo": "josefbelzer/Copilot-Personal"
+  },
+  {
+    "id": "date-list",
+    "name": "Date List",
+    "author": "Sebastien Delisle",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Returns a list of dates according to the conditions you supply.",
+    "repo": "lumargh/obsidian-date-list"
+  },
+  {
+    "id": "apex-dashboard",
+    "name": "Apex Dashboard",
+    "author": "PandoraReads",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Your personal command center — memos, todos, and projects in one stunning glassmorphism dashboard.",
+    "repo": "pandorareads/apex-dashboard"
   }
 ]
