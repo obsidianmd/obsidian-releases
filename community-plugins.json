@@ -6349,6 +6349,13 @@
     "repo": "karstenpedersen/obsidian-advanced-random-note"
   },
   {
+    "id": "hide-folders",
+    "name": "Hide Folders",
+    "author": "jonasdoesthings",
+    "description": "Quickly toggle the visibility of specific folders in the file navigator based on configured names. Useful for hiding attachment folders.",
+    "repo": "jonasdoesthings/obsidian-hide-folders"
+  },
+  {
     "id": "git-url",
     "name": "Git Url",
     "author": "khuongduy354",
@@ -19642,13 +19649,6 @@
     "repo": "profsynapse/nexus"
   },
   {
-    "id": "dangling-image-manager",
-    "name": "Dangling Image Manager",
-    "author": "leowie93",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Find and delete dangling imagages with a simple ui.",
-    "repo": "leowie93/obsidian-dangling-image-manager"
-  },
-  {
     "id": "cockpit-board",
     "name": "Cockpit Board",
     "author": "andreconde21",
@@ -27090,25 +27090,11 @@
     "repo": "kriss-spy/obsidian-opencode"
   },
   {
-    "id": "claude-panel-ryukyuhub",
-    "name": "Claude Panel",
-    "author": "Ryukyu HUB Inc.",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Right-sidebar chat panel powered by Claude Code. Runs the `claude` CLI as a subprocess with the active vault as the working directory.",
-    "repo": "ryukyuhub/obsidian-claude-panel-ryukyuhub"
-  },
-  {
     "id": "task-hub",
     "name": "Task Hub",
     "author": "Carlos",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Bring Obsidian tasks together with Apple Reminders, Apple Calendar on macOS.",
     "repo": "saralaaga/task-hub"
-  },
-  {
-    "id": "vault-share",
-    "name": "Vault Share",
-    "author": "Bob Hyman",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Share Obsidian vaults between devices and users through Google Drive.",
-    "repo": "bobhy/vault-share"
   },
   {
     "id": "daily-saying-kr",
@@ -27235,13 +27221,6 @@
     "author": "lunan",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Visual dashboard for intelligently cleaning orphaned files and attachments with scheduled auto-cleanup and file protection.",
     "repo": "wlunan/vault-cleaner"
-  },
-  {
-    "id": "vaultbox",
-    "name": "Vaultbox",
-    "author": "grumpydev",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault directly with a selected Dropbox folder on desktop and mobile.",
-    "repo": "grumpydev/vaultbox"
   },
   {
     "id": "chess-puzzles",
@@ -27410,13 +27389,6 @@
     "author": "Liu Bo",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Integrate IMA knowledge base with your vault. Supports Markdown rendering, import to folder, and advanced search.",
     "repo": "liuboacean/ima-plugin"
-  },
-  {
-    "id": "relations",
-    "name": "Relations",
-    "author": "obsidian-ttrpg-community",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Visualise relationships between notes — for worldbuilding, fiction, TTRPG campaigns, genealogies, or any project where seeing how things connect matters.",
-    "repo": "obsidian-ttrpg-community/Relations"
   },
   {
     "id": "granite",
@@ -27685,13 +27657,6 @@
     "repo": "polleoai/athena"
   },
   {
-    "id": "screen-wake-lock",
-    "name": "Cook Mode (Screen WakeLock)",
-    "author": "blotspot",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Keeps the display awake while the app is in the foreground, so you can keep cooking in your notes.",
-    "repo": "blotspot/obsidian-wake-lock"
-  },
-  {
     "id": "easy-git",
     "name": "Easy Git",
     "author": "Saiki77",
@@ -27930,13 +27895,6 @@
     "repo": "creagleone/obsidian-iconik"
   },
   {
-    "id": "weave-epub-reader",
-    "name": "Weave EPUB Reader",
-    "author": "zhuzhige123",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Standalone EPUB reader with bookshelf, deep links, and reading state persistence.",
-    "repo": "zhuzhige123/obsidian-weave-reader"
-  },
-  {
     "id": "heic-viewer",
     "name": "HEIC Viewer",
     "author": "Kiara Orquera",
@@ -27963,13 +27921,6 @@
     "author": "HatanoChihiro",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Track word count, writing goals, focus time, and manage foreshadowing for Chinese web novel writing with OBS streaming overlay support.",
     "repo": "hatanochihiro/obsidian-webnovel-assistant"
-  },
-  {
-    "id": "ghost-publish",
-    "name": "Ghost Publish",
-    "author": "Sébastien Dubois",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Publish your vault notes to a Ghost blog with configurable presets for tags, newsletters, and frontmatter conventions.",
-    "repo": "dsebastien/obsidian-ghost-publish"
   },
   {
     "id": "list-to-table",
@@ -28567,13 +28518,6 @@
     "repo": "hornatx/simply-scroll"
   },
   {
-    "id": "plugin-setting-renamer",
-    "name": "Setting Renamer",
-    "author": "hornat",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Customize the names of other plugins in the left sidebar settings, with one-click rename to Chinese.",
-    "repo": "hornatx/plugin-setting-renamer"
-  },
-  {
     "id": "note-share-image-exporter",
     "name": "Note Share Image Exporter",
     "author": "chuyuan-li",
@@ -28810,13 +28754,6 @@
     "author": "Oleg Brovchenko",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Color your Bases tags per-base. Each .base file owns its palette — no global tag soup.",
     "repo": "olegbrovchenko/bases-tag-colors"
-  },
-  {
-    "id": "ytkn",
-    "name": "YT Knowledge Notes",
-    "author": "aawhb",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Create notes from YouTube videos and playlists. Optionally, use local AI or AI providers to generate structured summaries and study notes based on built-in templates or custom prompts.",
-    "repo": "aawhb/ytkn"
   },
   {
     "id": "cevent-planner",
@@ -29160,20 +29097,6 @@
     "author": "marr00n",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Send an email and its attachments, get a fully formatted Obsidian note in your vault.",
     "repo": "marr00n/email2obsidian-plugin-releases"
-  },
-  {
-    "id": "lns-directories",
-    "name": "LNS Directories",
-    "author": "hunchulchoi",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Link external directories and files into the Vault using symbolic links.",
-    "repo": "hunchulchoi/lns_directories"
-  },
-  {
-    "id": "note-to-public",
-    "name": "Note to Public",
-    "author": "greedyhao",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. 一键发布 Obsidian 笔记到微信公众号等平台",
-    "repo": "greedyhao/obsidian-note-to-public"
   },
   {
     "id": "semlink",
@@ -29568,13 +29491,6 @@
     "repo": "dylantartarini1996/dyresearch-obsidian"
   },
   {
-    "id": "miyo-tomo-hashi",
-    "name": "MiYo Tomo Hashi",
-    "author": "Marcus Breiden",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Direct integration with Tomo, the Claude Code agent, for session interaction and automated vault updates.",
-    "repo": "mmomm-org/miyo-tomo-hashi"
-  },
-  {
     "id": "toggle-excluded-folders",
     "name": "Toggle Excluded Folders",
     "author": "Alexander Leonov",
@@ -29622,13 +29538,6 @@
     "author": "jcmexdev",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Convert Mermaid code blocks to static image URLs (SVG, PNG, or WebP)",
     "repo": "jcmexdev/obsidian-mermaid-block-to-image"
-  },
-  {
-    "id": "consistent-attachments",
-    "name": "Consistent Attachments",
-    "author": "Lars Bücker",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Keep attachment locations consistent when notes are moved.",
-    "repo": "bueckerlars/obsidian-consistent-attachments"
   },
   {
     "id": "mobile-explorer",
@@ -30058,20 +29967,6 @@
     "repo": "qianwei4712/obsidian-word-reader"
   },
   {
-    "id": "novel-profile",
-    "name": "Novel Profile",
-    "author": "hornat",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Transforms the native properties area into an elegant character profile card.)",
-    "repo": "hornatx/novel-profile"
-  },
-  {
-    "id": "pandocit",
-    "name": "PandoCit",
-    "author": "l'Atelier",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Citations Pandoc, bibliothèque Zotero (API), lecteurs PDF/EPUB et annotations dans Obsidian.",
-    "repo": "atelier-recherche/pandocit"
-  },
-  {
     "id": "youtube-search",
     "name": "YouTube Search",
     "author": "plasch",
@@ -30140,13 +30035,6 @@
     "author": "chenxiccc",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Save shared web content to your vault. Share URLs from mobile, download and save as Markdown notes on desktop.",
     "repo": "chenxiccc/Obsidian-Share-to-Save"
-  },
-  {
-    "id": "copilot-personal",
-    "name": "Copilot Personal",
-    "author": "Josef",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. AI agent with 17 tools, multi-provider LLM (11 providers), RAG semantic search, PDF extraction, web search, and autonomous note creation.",
-    "repo": "josefbelzer/Copilot-Personal"
   },
   {
     "id": "date-list",
@@ -30427,13 +30315,6 @@
     "author": "gionzi",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Aggregates all incomplete tasks from the vault into a monthly timeline view with in-place date editing and write-back to source notes.",
     "repo": "giacomoleonzi/vault-task-planner-obsidian"
-  },
-  {
-    "id": "lore-graph",
-    "name": "Lore Graph",
-    "author": "Pierre Bisiaux",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Hide whole folders from the graph view and reveal their notes on demand by clicking a related node.",
-    "repo": "bisiaux-dev/obsidian-lore-graph"
   },
   {
     "id": "tasknotes-workflows",
