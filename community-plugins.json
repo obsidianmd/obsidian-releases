@@ -19236,13 +19236,6 @@
     "repo": "jabaho9523/obsidian-paste-plus"
   },
   {
-    "id": "epochgram",
-    "name": "Epochgram",
-    "author": "Andriy Babets",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A timemap of your mind - turn your notes into an AI-powered interactive timeline.",
-    "repo": "2brn/epochgram"
-  },
-  {
     "id": "focus-mode-banner",
     "name": "Focus Mode Banner",
     "author": "adrianofontanari",
@@ -30366,6 +30359,13 @@
     "repo": "imed-ghomari/obsidian-bases-buttons"
   },
   {
+    "id": "vault-prompt-assistant",
+    "name": "Vault Prompt AI-Assistant",
+    "author": "Kiril",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. prompt workflow automation, batch runs, run history, external vector index storage, Daily Note workflows, prompt library, RAG, and source references.",
+    "repo": "kiril-liu/obsidian-ai-plugin"
+  },
+  {
     "id": "regex-css-highlighter",
     "name": "Regex Css Highlighter",
     "author": "nilmarko",
@@ -30686,5 +30686,26 @@
     "author": "AstonDky66",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync and back up vault changes using Git.",
     "repo": "astondky/obsidian-local-git-sync"
+  },
+  {
+    "id": "buildian",
+    "name": "Buildian",
+    "author": "YuChenSSR",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. An unofficial Obsidian integration for the xAI Grok Build CLI, based on Claudian.",
+    "repo": "yuchenssr/buildian"
+  },
+  {
+    "id": "graph-context-for-claude-code",
+    "name": "Graph Context for Claude Code",
+    "author": "senna-lang",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Claude Code IDE integration (/ide) for Obsidian. Connects over the lock-file + localhost WebSocket + MCP protocol, then pushes your current selection enriched with expanded graph context: embeds inlined, wikilinks summarized, heading path, and backlinks.",
+    "repo": "senna-lang/graph-context-for-claude-code"
+  },
+  {
+    "id": "local-zotero-mirror",
+    "name": "Local Zotero Mirror",
+    "author": "wsqstar",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Synchronize Zotero collections, paper metadata, and native notes into local Markdown notes.",
+    "repo": "mappedinfo/local-zotero-mirror"
   }
 ]
