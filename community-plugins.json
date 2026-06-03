@@ -21133,6 +21133,13 @@
     "repo": "antoineart/obsidian-tab-duplicate"
   },
   {
+    "id": "knowledge-graph-analysis",
+    "name": "Knowledge Graph Analysis",
+    "author": "luolanaatud",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Analyze your vault using graph algorithms with Rust WASM for high-performance insights into note structure and relationships.",
+    "repo": "luolanaatud/obsidian-graph-analysis"
+  },
+  {
     "id": "limn",
     "name": "Limn",
     "author": "tednaleid",
@@ -23646,6 +23653,13 @@
     "repo": "seventhxiv/obsidian-board-view"
   },
   {
+    "id": "mobile",
+    "name": "Mobile UX",
+    "author": "Justice Vellacott",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Mobile-optimized UX enhancements with floating action button, context-aware toolbars, and gestures.",
+    "repo": "thejusticeman/obsidian-mobile-plugin"
+  },
+  {
     "id": "yandex-calendar-integration",
     "name": "Yandex Calendar Integration",
     "author": "caduct-3ateuhuk",
@@ -25013,7 +25027,7 @@
   {
     "id": "writing-studio",
     "name": "Writing Studio",
-    "author": "writerp-777",
+    "author": "Don Pucik",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A professional writing environment with Focus Mode, Writing Binder, Sprint Timer, WordPress publishing, Folder Sidebar Explorer, and more.",
     "repo": "writerp-777/obsidian-writing-studio"
   },
@@ -29799,13 +29813,6 @@
     "repo": "imhlq/obsidian-runescribe"
   },
   {
-    "id": "auto-llm-wiki",
-    "name": "Auto LLM Wiki",
-    "author": "youzhixiaomutou",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Maintain a Karpathy-style LLM Wiki with AI-assisted ingest, query, lint, and previewed file changes.",
-    "repo": "youzhixiaomutou/auto-llm-wiki"
-  },
-  {
     "id": "better-headings",
     "name": "Better Headings",
     "author": "zachbugay",
@@ -30702,6 +30709,13 @@
     "repo": "astondky/obsidian-local-git-sync"
   },
   {
+    "id": "narrative-canvas",
+    "name": "Narrative Canvas",
+    "author": "ringeringeraja33",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A node-based workspace for designing complex narratives in Obsidian and the browser.",
+    "repo": "ringeringeraja33/NarrativeCanvas"
+  },
+  {
     "id": "buildian",
     "name": "Buildian",
     "author": "YuChenSSR",
@@ -30744,11 +30758,39 @@
     "repo": "trikorka/tavernus-plugin"
   },
   {
-    "id": "a-plugins",
-    "name": "A Loader",
-    "author": "Jiao Yingxing",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Make plugin-heavy Obsidian vaults start smoother, especially on mobile.",
-    "repo": "jiaoyingxing/a-plugins"
+    "id": "stargate",
+    "name": "Star Gate",
+    "author": "starhunter",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Clip web pages into Obsidian with a multi-tab browser, AI analysis templates, and content capture.",
+    "repo": "starhunt/stargate"
+  },
+  {
+    "id": "starcloud-studio",
+    "name": "StarCloud Studio",
+    "author": "starhunter",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Create AI-powered knowledge posters, slide decks, and audio from your notes, with Google Drive export.",
+    "repo": "starhunt/starcloud-studio"
+  },
+  {
+    "id": "star-notebooklm",
+    "name": "Star NotebookLM",
+    "author": "starhunter",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Send Obsidian notes directly to Google NotebookLM as sources from an embedded NotebookLM view.",
+    "repo": "starhunt/star-notebooklm"
+  },
+  {
+    "id": "star-imagemaster",
+    "name": "Star ImageMaster",
+    "author": "starhunter",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage Obsidian images with auto-save, gallery view, duplicate detection, smart delete, and link updates.",
+    "repo": "starhunt/star-imagemaster"
+  },
+  {
+    "id": "star-infolearn",
+    "name": "Star InfoLearn",
+    "author": "starhunter",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Turn Obsidian notes into interactive learning cards with AI-assisted quizzes, cloze blanks, and review workflows.",
+    "repo": "starhunt/star-infolearn"
   },
   {
     "id": "calendar-pro",
@@ -30756,5 +30798,26 @@
     "author": "Kuzen",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A calendar view combined with a heatmap for diary and weekly note management.",
     "repo": "kuzen-so/calendar-pro"
+  },
+  {
+    "id": "hledger",
+    "name": "Hledger",
+    "author": "Leonardo Galves",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Plain text accounting plugin for Obsidian, using hledger.",
+    "repo": "lsgalves/hledger-obsidian"
+  },
+  {
+    "id": "chess-tree",
+    "name": "Chess tree",
+    "author": "west-shell",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Chess variation tree.",
+    "repo": "west-shell/obsidian-chess-tree"
+  },
+  {
+    "id": "gz-sync",
+    "name": "GZH Sync",
+    "author": "观自",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync the current Obsidian Markdown note to WeChat draft and Feishu docs via local gz CLI.",
+    "repo": "london-chen/gz-sync-obsidian"
   }
 ]
