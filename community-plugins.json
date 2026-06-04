@@ -19789,13 +19789,6 @@
     "repo": "railly/agentfiles"
   },
   {
-    "id": "word-goal-webhook",
-    "name": "Writing Tracker Heatmap Streaks",
-    "author": "viszkit",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Daily word goal webhook + minimal sidebar heatmap with detailed stats view.",
-    "repo": "viszkit/obsidian-writing-streak"
-  },
-  {
     "id": "sidecar-notes",
     "name": "Sidecar Notes",
     "author": "rosemary1812",
@@ -27223,13 +27216,6 @@
     "repo": "ryukyuhub/obsidian-claude-panel-ryukyuhub"
   },
   {
-    "id": "task-hub",
-    "name": "Task Hub",
-    "author": "Carlos",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Bring Obsidian tasks together with Apple Reminders, Apple Calendar on macOS.",
-    "repo": "saralaaga/task-hub"
-  },
-  {
     "id": "vault-share",
     "name": "Vault Share",
     "author": "Bob Hyman",
@@ -28301,13 +28287,6 @@
     "repo": "kausthub-kannan/poneglyph"
   },
   {
-    "id": "note-database",
-    "name": "Note Database",
-    "author": "pangy",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Database views for notes with table, board, gallery, formulas, filters, and inline editing.",
-    "repo": "pangy9/obsidian-note-database"
-  },
-  {
     "id": "todoist-bridge",
     "name": "Todoist Bridge",
     "author": "Rodrigo Farinha",
@@ -28551,13 +28530,6 @@
     "author": "Icarian Systems",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A research agent for your vault. Runs locally in Docker against your own Anthropic API key.",
     "repo": "icarian-systems/feynman-research-agent"
-  },
-  {
-    "id": "forge",
-    "name": "Forge",
-    "author": "Joshua Walls",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Define the structure your vault should have, then let Forge enforce it. Lint for drift, normalize metadata, and apply auditable bulk changes with confidence.",
-    "repo": "joshua-walls/forge"
   },
   {
     "id": "secret-placeholders",
@@ -30261,6 +30233,13 @@
     "repo": "threem-mmm/note-illustrator"
   },
   {
+    "id": "simple-checklist",
+    "name": "Simple Checklist",
+    "author": "Lasse",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Side panel showing all open todos across your vault.",
+    "repo": "l-4553/obsidian-simple-checklist"
+  },
+  {
     "id": "md-image-manager",
     "name": "Markdown Image Manager",
     "author": "imulan",
@@ -31045,13 +31024,6 @@
     "repo": "fnsign/StreamRadio"
   },
   {
-    "id": "note-tts",
-    "name": "Note TTS",
-    "author": "sourit2001",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Convert the current note or selected text to MP3 audio through user-configured TTS APIs.",
-    "repo": "sourit2001/obsidian-note-tts"
-  },
-  {
     "id": "shopping-list-sorter",
     "name": "Unified Shopping List Sorter",
     "author": "oirehT",
@@ -31071,13 +31043,6 @@
     "author": "devxoul",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Hide files matching .obsidianignore (gitignore syntax) from the Obsidian UI.",
     "repo": "devxoul/obsidian-ignore"
-  },
-  {
-    "id": "glitter-idea",
-    "name": "Glitter",
-    "author": "ItsVeyra",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Save ideas without creating a full note first, then organize them into pools, files, or reusable snippets when needed.",
-    "repo": "itsveyra/glitter-idea-repo"
   },
   {
     "id": "jokertype",
@@ -31155,13 +31120,6 @@
     "author": "kdnk",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Expands sync-safe daily-note template expressions based on the note date.",
     "repo": "kdnk/obsidian-daily-note-template"
-  },
-  {
-    "id": "file-filter",
-    "name": "File Filter",
-    "author": "Sebastien Delisle",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Filter and navigate files based on conditions you supply.",
-    "repo": "lumargh/obsidian-file-filter"
   },
   {
     "id": "vault-file-refresh",
@@ -31288,5 +31246,12 @@
     "author": "Junyoung Bang",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Remember the language of the last code block you used and automatically insert it next time.",
     "repo": "zzunebye/remember-last-code-block-lang"
+  },
+  {
+    "id": "dice-table-calculator",
+    "name": "Dice Table Calculator",
+    "author": "jpcranford",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Detects TTRPG dice notation (d6, 2d8, d100…) in the first column of table headers and auto-fills the first column with evenly distributed roll ranges.",
+    "repo": "jpcranford/obsidian-plugin-dice-table"
   }
 ]
