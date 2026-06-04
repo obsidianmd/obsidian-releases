@@ -13765,7 +13765,7 @@
     "id": "table-of-contents-automatic-but-compatible-with-publish",
     "name": "TOC compatible with Publish",
     "author": "brmaccath",
-    "description": "This generates a table of contents that is compatible with publish.",
+    "description": "Creates a table of contents that is compatible with publish i.e. that if the page is pushed to publish the table of contents will still be there.",
     "repo": "brmaccath/Table-of-Contents"
   },
   {
@@ -20993,6 +20993,13 @@
     "repo": "isaiahsarju/map-note"
   },
   {
+    "id": "soundboard",
+    "name": "Soundboard",
+    "author": "jgradim",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Play audio files from your vault in a soundboard.",
+    "repo": "jgradim/obsidian-soundboard"
+  },
+  {
     "id": "language-injector",
     "name": "Language Injector",
     "author": "sunmagicshow",
@@ -23086,6 +23093,13 @@
     "repo": "chenziqiadam/SANE"
   },
   {
+    "id": "calendar-for-daily-notes",
+    "name": "Calendar for Daily Notes",
+    "author": "xryul",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Calendar for daily notes with grouped lists, created-on-day notes and attachments, color tags, custom titles, and optional gemma3 title generation.",
+    "repo": "xryul/calendar-for-daily-notes"
+  },
+  {
     "id": "year-glance",
     "name": "Year Glance",
     "author": "yy",
@@ -24402,6 +24416,13 @@
     "repo": "rmccorkl/TubeSage"
   },
   {
+    "id": "external-links-icon",
+    "name": "External Links Icon",
+    "author": "Moz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Auto add icons to the external and internal links.",
+    "repo": "moziar/obsidian-external-links-icon"
+  },
+  {
     "id": "any-block-min",
     "name": "AnyBlock Min",
     "author": "any-block",
@@ -24538,7 +24559,7 @@
     "id": "getnote-importer",
     "name": "Dedao Brain Sync",
     "author": "Andy Zheng（公众号：关山的月儿）",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Bidirectionally sync from Dedao Brain into Obsidian",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. BEST sync plugin for Dedao-Brain, try it!",
     "repo": "andyzhengyan/obsidian-getnote-importer"
   },
   {
@@ -24750,6 +24771,13 @@
     "author": "enygma",
     "description": "This plugin has not been manually reviewed by Obsidian staff. An AI-powered assistant for your vault for inspection and introspection of all your notes...and then some.",
     "repo": "enygma/vault-ai-buddy"
+  },
+  {
+    "id": "porygon",
+    "name": "Porygon",
+    "author": "iuga",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Turn your notes into a conversation.",
+    "repo": "iuga/obsidian-porygon"
   },
   {
     "id": "cjk-cross-search",
@@ -25909,7 +25937,7 @@
   {
     "id": "iconify",
     "name": "Iconify",
-    "author": "moziar",
+    "author": "Moz",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Add custom icon to Obsidian and allow swapping out default icons.",
     "repo": "moziar/Obsidian-Iconify"
   },
@@ -28770,6 +28798,13 @@
     "repo": "jaliriogbarrios19/Research_Paper"
   },
   {
+    "id": "pdf-export-compress",
+    "name": "Export PDF Compress",
+    "author": "hunter00zb",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. 将 Markdown 导出为 PDF，支持图片自动压缩。Python（reportlab + Pillow）渲染，支持 CJK。/ Export Markdown to PDF with auto image compression. Python (reportlab + Pillow) engine, CJK support.",
+    "repo": "hunter00zb/pdf-export-compress"
+  },
+  {
     "id": "morning-os",
     "name": "Morning OS",
     "author": "Satya Akhil Galla",
@@ -29967,6 +30002,13 @@
     "repo": "cordedmink2/obsidian-google-sync"
   },
   {
+    "id": "ante",
+    "name": "Ante",
+    "author": "Antigma Labs",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI second brain, continuous ingestion, indexing, and evolving. Powered by Ante agent core from Antigma Labs",
+    "repo": "antigmalabs/ante-obsidian"
+  },
+  {
     "id": "smart-review",
     "name": "Smart Review",
     "author": "Jayce",
@@ -30098,6 +30140,13 @@
     "author": "Quan Meng",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Import, read, and annotate arXiv papers.",
     "repo": "quan-meng/paperflow"
+  },
+  {
+    "id": "advanced-pdf-export",
+    "name": "Advanced PDF Export",
+    "author": "ShrekBytes",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Export notes as pixel-perfect PDFs with live preview, style presets, manual page breaks, tables, and full layout control.",
+    "repo": "shrekbytes/advanced-pdf-export"
   },
   {
     "id": "starvault",
@@ -30429,6 +30478,13 @@
     "repo": "kiril-liu/obsidian-ai-plugin"
   },
   {
+    "id": "workbench-drag-path",
+    "name": "Workbench Drag Path",
+    "author": "IvyYang1999",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Drag Obsidian file explorer items as terminal-friendly absolute paths.",
+    "repo": "ivyyang1999/obsidian-workbench-drag-path"
+  },
+  {
     "id": "regex-css-highlighter",
     "name": "Regex Css Highlighter",
     "author": "nilmarko",
@@ -30637,6 +30693,13 @@
     "author": "studiogamma",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Visualize your vault as a planetary system. Orbit child nodes around their parents based on frontmatter, tags, outlinks, or backlinks.",
     "repo": "studiogamma/orbit-graph-view"
+  },
+  {
+    "id": "mails-blog-publisher",
+    "name": "Mails Blog Publisher",
+    "author": "FengXuan",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Publish the current note to Mails Blog using an Obsidian plugin token.",
+    "repo": "fengxuan/mails-blog-obsidian-plugin"
   },
   {
     "id": "santi-younger-tools",
@@ -31136,6 +31199,13 @@
     "repo": "lyxdream/obsidian-douyin-capture"
   },
   {
+    "id": "auto-folder-tags",
+    "name": "Auto folder tags",
+    "author": "gansxx",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically apply configured tags to new notes and supplement tags for files in the current folder.",
+    "repo": "gansxx/auto-folder-tags"
+  },
+  {
     "id": "single-choice-property",
     "name": "Single Choice Property",
     "author": "Moy",
@@ -31153,7 +31223,7 @@
     "id": "wechat-capture",
     "name": "Wechat Capture",
     "author": "lyxdream",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. 提取微信公众号文章全文并保存为 Markdown 笔记。",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Extract the full text of WeChat Official Account articles and save them as Markdown notes.",
     "repo": "lyxdream/obsidian-wechat-capture"
   },
   {
@@ -31169,5 +31239,33 @@
     "author": "Adam Tweedie",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Display a progress bar for your checklist (todo) items.",
     "repo": "profesr-chaos/obsidian-checklist-progress-bar"
+  },
+  {
+    "id": "stacktube",
+    "name": "StackTube",
+    "author": "unstackd",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your StackTube YouTube knowledge notes into your vault. Pulls AI-structured notes for monitored YouTube channels via the StackTube API.",
+    "repo": "bije0327/obsidian-stacktube"
+  },
+  {
+    "id": "web-view",
+    "name": "Web View",
+    "author": "serhat-can",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Opens HTTP/HTTPS links inside Obsidian as web pages in new tabs using an embedded browser.",
+    "repo": "canserhat77/obsidian-web-view"
+  },
+  {
+    "id": "source-mode-inline-images",
+    "name": "Source Mode Inline Images",
+    "author": "kat",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render image previews below image links in Source mode.",
+    "repo": "hiforrest/source-mode-inline-images"
+  },
+  {
+    "id": "workbench-explorer-sort",
+    "name": "Workbench Explorer Sort",
+    "author": "IvyYang1999",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sort Obsidian File Explorer folders by name, created time, or modified time.",
+    "repo": "ivyyang1999/obsidian-workbench-explorer-sort"
   }
 ]
