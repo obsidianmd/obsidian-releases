@@ -21763,13 +21763,6 @@
     "repo": "jmondo/obsidian-task-limiter"
   },
   {
-    "id": "fakelink",
-    "name": "fakelink",
-    "author": "godfatherlg",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically creates virtual links for text that match the titles or headers of other notes in your vault. Create a glossary-like functionality, can transform them to real links.",
-    "repo": "godfatherlg/fakelink"
-  },
-  {
     "id": "settings-sidebar-organizer",
     "name": "Settings Sidebar Organizer",
     "author": "cyrylsz",
@@ -22594,6 +22587,13 @@
     "author": "llem00n",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Style files and folders in the file explorer with bold, italic, and strikethrough effects. Supports cascade inheritance.",
     "repo": "llem00n/underpowered-files"
+  },
+  {
+    "id": "chatterbox",
+    "name": "Chatterbox",
+    "author": "owo",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render dialogues and conversations in the style of messaging apps.",
+    "repo": "owo/obsidian-chatterbox-plugin"
   },
   {
     "id": "sankrypt",
@@ -24526,6 +24526,13 @@
     "author": "John Banister",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A full creative writing workflow: project creation, scene management, and manuscript compilation with frontmatter-native data and Bases compatibility.",
     "repo": "banisterious/obsidian-draft-bench"
+  },
+  {
+    "id": "getnote-importer",
+    "name": "Dedao Brain Sync",
+    "author": "andyzhengyan",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Bidirectionally sync from Dedao Brain into Obsidian",
+    "repo": "andyzhengyan/obsidian-getnote-importer"
   },
   {
     "id": "reminder-telegram",
@@ -27342,6 +27349,13 @@
     "repo": "whatsyourwhy/Cognitive-Glow"
   },
   {
+    "id": "codex-echoink",
+    "name": "Codex EchoInk",
+    "author": "Akin-Lvyf",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Use Codex CLI or OpenCode in Obsidian to manage knowledge, ask vault questions, and review local agent work.",
+    "repo": "akin-lvyifang/codex-echoink"
+  },
+  {
     "id": "kai-command-center",
     "name": "KAI Command Center",
     "author": "Jason Peters",
@@ -29981,6 +29995,13 @@
     "repo": "mderman/context_nine_obsidian_plugin"
   },
   {
+    "id": "keyword-notes-editor",
+    "name": "Keyword Notes Editor",
+    "author": "fengshuzi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. View and edit notes grouped by keyword tags, similar to Logseq tag view.",
+    "repo": "fengshuzi/keyword-notes-editor"
+  },
+  {
     "id": "kilocode",
     "name": "KiloCode",
     "author": "Henry Lan",
@@ -30385,6 +30406,13 @@
     "author": "Imed Ghomari",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Adds configurable Templater-powered buttons to Obsidian Bases.",
     "repo": "imed-ghomari/obsidian-bases-buttons"
+  },
+  {
+    "id": "vault-prompt-assistant",
+    "name": "Vault Prompt AI-Assistant",
+    "author": "Kiril",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. prompt workflow automation, batch runs, run history, external vector index storage, Daily Note workflows, prompt library, RAG, and source references.",
+    "repo": "kiril-liu/obsidian-ai-plugin"
   },
   {
     "id": "regex-css-highlighter",
@@ -31071,5 +31099,26 @@
     "author": "Sebastien Delisle",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Filter and navigate files based on conditions you supply.",
     "repo": "lumargh/obsidian-file-filter"
+  },
+  {
+    "id": "vault-file-refresh",
+    "name": "Vault File Refresh",
+    "author": "Labtopia",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Recursively polls for new files added to the vault from outside Obsidian and reconciles them automatically.",
+    "repo": "tikitock/obsidian-vault-file-refresh"
+  },
+  {
+    "id": "china-speedup",
+    "name": "China Speedup",
+    "author": "beijing-bijitongbu",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. 国内加速的 Obsidian 插件商店：浏览、搜索、一键安装社区插件，下载经国内中转节点加速，自动选最快线路。支持服务端黑名单与特殊导入配置，以及官网调起一键安装。",
+    "repo": "notesynchelper/china-speedup"
+  },
+  {
+    "id": "auto-move-on-property",
+    "name": "Auto Move On Property",
+    "author": "destiny911",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically moves notes from root to folders based on a YAML property.",
+    "repo": "destiny911/Obsidian-Auto-Move-On-Property"
   }
 ]
