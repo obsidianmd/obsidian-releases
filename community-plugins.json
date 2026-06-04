@@ -21763,6 +21763,13 @@
     "repo": "jmondo/obsidian-task-limiter"
   },
   {
+    "id": "fakelink",
+    "name": "fakelink",
+    "author": "godfatherlg",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically creates virtual links for text that match the titles or headers of other notes in your vault. Create a glossary-like functionality, can transform them to real links.",
+    "repo": "godfatherlg/fakelink"
+  },
+  {
     "id": "settings-sidebar-organizer",
     "name": "Settings Sidebar Organizer",
     "author": "cyrylsz",
@@ -24444,13 +24451,6 @@
     "repo": "rogerdigital/smart-explorer"
   },
   {
-    "id": "vault-inspector",
-    "name": "Vault Inspector",
-    "author": "rogerdigital",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Scan your vault for maintenance problems: broken links, orphan attachments, duplicate files, frontmatter inconsistencies, unused tags, and large files.",
-    "repo": "rogerdigital/vault-inspector"
-  },
-  {
     "id": "chess-vault",
     "name": "Chess Vault",
     "author": "dun8",
@@ -24526,13 +24526,6 @@
     "author": "John Banister",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A full creative writing workflow: project creation, scene management, and manuscript compilation with frontmatter-native data and Bases compatibility.",
     "repo": "banisterious/obsidian-draft-bench"
-  },
-  {
-    "id": "getnote-importer",
-    "name": "Dedao Brain Sync",
-    "author": "andyzhengyan",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Bidirectionally sync from Dedao Brain into Obsidian",
-    "repo": "andyzhengyan/obsidian-getnote-importer"
   },
   {
     "id": "reminder-telegram",
@@ -26563,13 +26556,6 @@
     "author": "Christopher Wagner",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Shows files modified in the last N days, grouped by day. Marks edits made from filesystem writes with a configurable indicator.",
     "repo": "cwagner223355/obsidian-recent-edits"
-  },
-  {
-    "id": "highlightr-plus",
-    "name": "Highlightr Plus",
-    "author": "Olivier and Chetachi",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A minimal and aesthetically pleasing highlighting and annotating menu that makes color-coded highlighting much easier with a configurable assortment of highlight colors .",
-    "repo": "bluelephant825/highlightr-plus"
   },
   {
     "id": "music-player",
@@ -29204,13 +29190,6 @@
     "repo": "wesswart77/obsidian-project-manager"
   },
   {
-    "id": "spotify-control",
-    "name": "Spotify Control",
-    "author": "caezium",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Control Spotify from your notes. Now-playing sidebar with hover controls, time-synced lyrics via LRCLIB, queue, search, transport hotkeys, and insert-track-into-note.",
-    "repo": "caezium/obsidian-spotify-control"
-  },
-  {
     "id": "gemmanotes",
     "name": "GemmaNotes",
     "author": "Sarath Chandra",
@@ -29797,13 +29776,6 @@
     "author": "tinswangtao-web",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Daily record plugin for kids — behavior scoring, diary, diet & activity tracking, with structured data ready for AI analysis.",
     "repo": "tinswangtao-web/little-milestones"
-  },
-  {
-    "id": "halo-plus",
-    "name": "Halo Plus",
-    "author": "hllshiro",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Publish Obsidian notes to Halo blog with native rendering support for all plugins (Dataview, Tasks, etc.)",
-    "repo": "hllshiro/obsidian-halo-plus"
   },
   {
     "id": "claude-code-bridge",
@@ -30898,13 +30870,6 @@
     "repo": "starhunt/star-qmd"
   },
   {
-    "id": "verilog-bitfield",
-    "name": "Verilog Bitfield",
-    "author": "aipyer",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Render Verilog bitfield definitions as interactive SVG diagrams and tables",
-    "repo": "aipyer/verilog-bitfield"
-  },
-  {
     "id": "pure-footnote",
     "name": "Pure Footnote",
     "author": "hornat",
@@ -31120,5 +31085,12 @@
     "author": "destiny911",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically moves notes from root to folders based on a YAML property.",
     "repo": "destiny911/Obsidian-Auto-Move-On-Property"
+  },
+  {
+    "id": "douyin-capture",
+    "name": "Douyin Capture",
+    "author": "lyxdream",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. 粘贴抖音分享链接，调用本地后端提取文案与媒体并写入 Vault。需配合后端项目，具体请看README文件。",
+    "repo": "lyxdream/obsidian-douyin-capture"
   }
 ]
