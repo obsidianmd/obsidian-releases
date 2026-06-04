@@ -11742,7 +11742,7 @@
     "id": "inline-spoilers",
     "name": "Inline spoilers",
     "author": "logonoff",
-    "description": "Adds Discord-like syntax for inline spoilers in reader mode.",
+    "description": "Adds Discord-like syntax for inline spoilers.",
     "repo": "logonoff/obsidian-inline-spoilers"
   },
   {
@@ -26012,6 +26012,13 @@
     "repo": "tea0s/multimuse-tracker"
   },
   {
+    "id": "ai-vault",
+    "name": "AI-Vault",
+    "author": "JamJan05",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Chat with GPT and Claude directly inside your notes — RAG from your vault, history, projects and smart modes.",
+    "repo": "jamjan05/AI-Vault-for-Obsidian"
+  },
+  {
     "id": "iconocolor",
     "name": "Iconocolor",
     "author": "Gavin Picard",
@@ -28350,13 +28357,6 @@
     "repo": "ducktapekiller/etymology-multilingual"
   },
   {
-    "id": "shoujidiannao",
-    "name": "Shouji Diannao",
-    "author": "beijing-bijitongbu",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A convenient, fast, and secure plugin for synchronizing Obsidian notes across mobile devices and computers. Convenient—simply link your devices using a dynamic code to begin syncing immediately; Fast—",
-    "repo": "notesynchelper/shoujidiannao"
-  },
-  {
     "id": "plugins-activity",
     "name": "Extensions-Activity",
     "author": "Yunz93",
@@ -30261,6 +30261,13 @@
     "repo": "josefbelzer/Copilot-Personal"
   },
   {
+    "id": "date-list",
+    "name": "Date List",
+    "author": "Sebastien Delisle",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Quickly search for and add a single date or an entire list of dates, formatted exactly as you like them.",
+    "repo": "lumargh/obsidian-date-list"
+  },
+  {
     "id": "apex-dashboard",
     "name": "Apex Dashboard",
     "author": "PandoraReads",
@@ -30604,13 +30611,6 @@
     "repo": "studiogamma/orbit-graph-view"
   },
   {
-    "id": "mails-blog-publisher",
-    "name": "Mails Blog Publisher",
-    "author": "FengXuan",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Publish the current note to Mails Blog using an Obsidian plugin token.",
-    "repo": "fengxuan/mails-blog-obsidian-plugin"
-  },
-  {
     "id": "santi-younger-tools",
     "name": "Santi Younger Tools",
     "author": "Santi Younger",
@@ -30754,7 +30754,7 @@
     "id": "graph-context-for-claude-code",
     "name": "Graph Context for Claude Code",
     "author": "senna-lang",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Claude Code IDE integration (/ide) for Obsidian. Connects over the lock-file + localhost WebSocket + MCP protocol, then pushes your current selection enriched with expanded graph context: embeds inlined, wikilinks summarized, heading path, and backlinks.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Claude Code's /ide, with your knowledge graph attached. Select text and it's pushed to Claude with the graph expanded: embeds inlined, linked notes summarized, heading path and backlinks.",
     "repo": "senna-lang/graph-context-for-claude-code"
   },
   {
@@ -31050,5 +31050,33 @@
     "author": "HackerHomeLab",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Record audio meetings locally, auto-chunk, and transcribe using Whisper or Gemini, then summarize using your LLM of choice.",
     "repo": "hackerhomelab/AITranscribe"
+  },
+  {
+    "id": "auto-link-suggester",
+    "name": "Auto Link Suggester",
+    "author": "hornat",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically suggests internal link completions when you type a filename from a specified folder in the editor, with support for exact prefix and fuzzy matching.",
+    "repo": "hornatx/auto-link-suggester"
+  },
+  {
+    "id": "feishu-doc-toolbar",
+    "name": "ZengQiang Enhanced",
+    "author": "lishu",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. 浮动工具栏、模板库、原生表格配色与多种内嵌实用工具。需同时安装本仓库 companion-plugins 中的 markdown-table-enhancer。增强表格仅在开启实验性 OneNote 高保真粘贴时后台可用。",
+    "repo": "lishu2043687491-ux/Obsidian-ZengQiang"
+  },
+  {
+    "id": "daily-note-template",
+    "name": "Daily Note Template",
+    "author": "kdnk",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Expands sync-safe daily-note template expressions based on the note date.",
+    "repo": "kdnk/obsidian-daily-note-template"
+  },
+  {
+    "id": "file-filter",
+    "name": "File Filter",
+    "author": "Sebastien Delisle",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Filter and navigate files based on conditions you supply.",
+    "repo": "lumargh/obsidian-file-filter"
   }
 ]
