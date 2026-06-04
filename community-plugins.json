@@ -20426,13 +20426,6 @@
     "repo": "hfknight/x-bookmarks-sync"
   },
   {
-    "id": "claude-code-ide",
-    "name": "Claude Code IDE",
-    "author": "petersolopov",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Connect your vault to Claude Code and share editor context with the CLI.",
-    "repo": "petersolopov/obsidian-claude-ide"
-  },
-  {
     "id": "sfb-save-as-local-images",
     "name": "Save as Local Images",
     "author": "saltyfireball",
@@ -23653,13 +23646,6 @@
     "repo": "seventhxiv/obsidian-board-view"
   },
   {
-    "id": "mobile",
-    "name": "Mobile UX",
-    "author": "Justice Vellacott",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Mobile-optimized UX enhancements with floating action button, context-aware toolbars, and gestures.",
-    "repo": "thejusticeman/obsidian-mobile-plugin"
-  },
-  {
     "id": "yandex-calendar-integration",
     "name": "Yandex Calendar Integration",
     "author": "caduct-3ateuhuk",
@@ -24395,13 +24381,6 @@
     "repo": "rmccorkl/TubeSage"
   },
   {
-    "id": "external-links-icon",
-    "name": "External Links Icon",
-    "author": "moziar",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Auto add icons to the external and internal links.",
-    "repo": "moziar/obsidian-external-links-icon"
-  },
-  {
     "id": "any-block-min",
     "name": "AnyBlock Min",
     "author": "any-block",
@@ -24449,6 +24428,13 @@
     "author": "rogerdigital",
     "description": "This plugin has not been manually reviewed by Obsidian staff. An alternative file explorer with custom sorting, grouping, filtering, and lightweight previews.",
     "repo": "rogerdigital/smart-explorer"
+  },
+  {
+    "id": "vault-inspector",
+    "name": "Vault Inspector",
+    "author": "rogerdigital",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Scan your vault for maintenance problems: broken links, orphan attachments, duplicate files, frontmatter inconsistencies, unused tags, and large files.",
+    "repo": "rogerdigital/vault-inspector"
   },
   {
     "id": "chess-vault",
@@ -24526,6 +24512,13 @@
     "author": "John Banister",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A full creative writing workflow: project creation, scene management, and manuscript compilation with frontmatter-native data and Bases compatibility.",
     "repo": "banisterious/obsidian-draft-bench"
+  },
+  {
+    "id": "getnote-importer",
+    "name": "Dedao Brain Sync",
+    "author": "Andy Zheng（公众号：关山的月儿）",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Bidirectionally sync from Dedao Brain into Obsidian",
+    "repo": "andyzhengyan/obsidian-getnote-importer"
   },
   {
     "id": "reminder-telegram",
@@ -26152,13 +26145,6 @@
     "repo": "neves007/line-ref-copier"
   },
   {
-    "id": "karpathywiki",
-    "name": "Karpathy LLM Wiki",
-    "author": "Greener-Dalii",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Karpathy's LLM Wiki implementation - multi-page knowledge generation with entity/concept pages and conversational query.",
-    "repo": "green-dalii/obsidian-llm-wiki"
-  },
-  {
     "id": "sync-trakt",
     "name": "Sync Trakt",
     "author": "o1xhack",
@@ -26556,6 +26542,13 @@
     "author": "Christopher Wagner",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Shows files modified in the last N days, grouped by day. Marks edits made from filesystem writes with a configurable indicator.",
     "repo": "cwagner223355/obsidian-recent-edits"
+  },
+  {
+    "id": "highlightr-plus",
+    "name": "Highlightr Plus",
+    "author": "Olivier and Chetachi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A minimal and aesthetically pleasing highlighting and annotating menu that makes color-coded highlighting much easier with a configurable assortment of highlight colors .",
+    "repo": "bluelephant825/highlightr-plus"
   },
   {
     "id": "music-player",
@@ -27517,13 +27510,6 @@
     "repo": "smirnoffmg/obsidian-timeflow"
   },
   {
-    "id": "blackglass",
-    "name": "Blackglass",
-    "author": "Scott Kosman",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Run Claude Code inside Obsidian on macOS, Linux, and Windows: interactive terminal, quick-ask modal, and a built-in MCP server for structured vault access.",
-    "repo": "humantorch/blackglass"
-  },
-  {
     "id": "easy-recall",
     "name": "Easy Recall",
     "author": "Geno Zhou",
@@ -28350,13 +28336,6 @@
     "repo": "ducktapekiller/etymology-multilingual"
   },
   {
-    "id": "shoujidiannao",
-    "name": "Shouji Diannao",
-    "author": "beijing-bijitongbu",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A convenient, fast, and secure plugin for synchronizing Obsidian notes across mobile devices and computers. Convenient—simply link your devices using a dynamic code to begin syncing immediately; Fast—",
-    "repo": "notesynchelper/shoujidiannao"
-  },
-  {
     "id": "plugins-activity",
     "name": "Extensions-Activity",
     "author": "Yunz93",
@@ -28803,13 +28782,6 @@
     "author": "Thomas Jeong",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Self-hosted, end-to-end encrypted vault sync. Run your own server (Docker).",
     "repo": "korthomasjeong/Osync-p"
-  },
-  {
-    "id": "vault-chat-agent",
-    "name": "Vault Chat Agent",
-    "author": "Evgenii Bykovskikh",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Chat with an AI assistant that can search your vault, inspect notes, and prepare edits for review",
-    "repo": "redzumi/vault-chat-agent"
   },
   {
     "id": "image-tab-zoom",
@@ -29778,11 +29750,11 @@
     "repo": "tinswangtao-web/little-milestones"
   },
   {
-    "id": "claude-code-bridge",
-    "name": "Claude Code Bridge",
-    "author": "othnielsu",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Bridge selected text to Claude Code CLI for real-time context sharing.",
-    "repo": "radical7vii/obsidian-claude-code-bridge"
+    "id": "halo-plus",
+    "name": "Halo Plus",
+    "author": "hllshiro",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Publish Obsidian notes to Halo blog with native rendering support for all plugins (Dataview, Tasks, etc.)",
+    "repo": "hllshiro/obsidian-halo-plus"
   },
   {
     "id": "zotero-notes-sync",
@@ -30233,13 +30205,6 @@
     "repo": "hwy1dot0/calendar-hub"
   },
   {
-    "id": "share-to-save",
-    "name": "Share to Save",
-    "author": "chenxiccc",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Save shared web content to your vault. Share URLs from mobile, download and save as Markdown notes on desktop.",
-    "repo": "chenxiccc/Obsidian-Share-to-Save"
-  },
-  {
     "id": "copilot-personal",
     "name": "Copilot Personal",
     "author": "Josef",
@@ -30413,13 +30378,6 @@
     "author": "k4fn",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Google Keep-style masonry grid layout for Obsidian Bases.",
     "repo": "k4fn/keep-bases-view"
-  },
-  {
-    "id": "llm-translator",
-    "name": "LLM Translator",
-    "author": "Joseph Kim",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Translate selected text in Obsidian's native PDF reader with local and cloud translation services.",
-    "repo": "kimfischer99/Obsidian-LLM-Translator"
   },
   {
     "id": "mantle-otto",
@@ -30889,13 +30847,6 @@
     "author": "hornat",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Ensures each note is opened in only one tab, preventing duplicates and keeping your workspace clean.",
     "repo": "hornatx/unique-tab"
-  },
-  {
-    "id": "floating-heading",
-    "name": "Floating Heading",
-    "author": "hornat",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Extracts current heading to a draggable floating window.",
-    "repo": "hornatx/floating-heading"
   },
   {
     "id": "apple-books-notes-sync",
