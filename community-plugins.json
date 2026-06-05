@@ -25249,13 +25249,6 @@
     "repo": "hendrikhuwy-lgtm/codex-vault-agent"
   },
   {
-    "id": "model-weave",
-    "name": "Model Weave",
-    "author": "nejimakibird",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage text-first models, relationships, and diagrams in Markdown.",
-    "repo": "nejimakibird/model-weave"
-  },
-  {
     "id": "copy-selected-name",
     "name": "Copy Selected Name",
     "author": "mikeddy",
@@ -25989,6 +25982,13 @@
     "author": "Manex",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Local AI brain for your Obsidian vault. Indexes all your notes and answers questions privately using a local Apple Silicon MLX model — no cloud, no API keys.",
     "repo": "krcnow/manex-brain"
+  },
+  {
+    "id": "ai-wiki",
+    "name": "AI Wiki",
+    "author": "Ilya",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered compoundable knowledge base — extracts, synthesizes and maintains a wiki from raw sources.",
+    "repo": "ikeniborn/obsidian-llm-wiki"
   },
   {
     "id": "copy-highlighter",
@@ -30044,13 +30044,6 @@
     "repo": "andyhtran/GhostTerm"
   },
   {
-    "id": "word-reader",
-    "name": "Word Reader",
-    "author": "shiva",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Open .docx files inside Obsidian as safe, read-only documents.",
-    "repo": "qianwei4712/obsidian-word-reader"
-  },
-  {
     "id": "novel-profile",
     "name": "Novel Profile",
     "author": "hornat",
@@ -30128,13 +30121,6 @@
     "repo": "hwy1dot0/calendar-hub"
   },
   {
-    "id": "copilot-personal",
-    "name": "Copilot Personal",
-    "author": "Josef",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. AI agent with 17 tools, multi-provider LLM (11 providers), RAG semantic search, PDF extraction, web search, and autonomous note creation.",
-    "repo": "josefbelzer/Copilot-Personal"
-  },
-  {
     "id": "date-list",
     "name": "Date List",
     "author": "Sebastien Delisle",
@@ -30196,13 +30182,6 @@
     "author": "Alvaro Mateo",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Monitors folders for files added and runs custom actions based on user rules.",
     "repo": "alvaromateo/folderer"
-  },
-  {
-    "id": "omd-to-typst",
-    "name": "Omd2Typst",
-    "author": "A.W. Alberts",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Export notes to professional PDFs via Typst: cover page, TOC, templates, callouts, 5 languages.",
-    "repo": "tisgoud/Obsidian-Omd2Typst"
   },
   {
     "id": "private-quartz-publish",
@@ -30891,13 +30870,6 @@
     "repo": "icarian-systems/kanban-pro-plugin"
   },
   {
-    "id": "calendar-list",
-    "name": "Calendar List",
-    "author": "Sebastien Delisle",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Insert a list of macOS Calendar events between two dates.",
-    "repo": "lumargh/obsidian-calendar-list"
-  },
-  {
     "id": "miseflow",
     "name": "MiseFlow",
     "author": "Adam Tommasi",
@@ -31094,6 +31066,13 @@
     "repo": "darkkross-tech/Life-RPG-1.5"
   },
   {
+    "id": "folder-color",
+    "name": "Folder Color",
+    "author": "Noe AV",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Assign gradient colors to folders and files in the file explorer.",
+    "repo": "noe-av/folder-color"
+  },
+  {
     "id": "onedrive-sync",
     "name": "OneDrive Sync",
     "author": "Jeff Steinbok",
@@ -31141,5 +31120,12 @@
     "author": "Ben Verbeken",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Annotate PDFs with your Apple Pencil. Strokes save to a JSON sidecar; the PDF is never modified.",
     "repo": "bverbeken/jot"
+  },
+  {
+    "id": "svg-canvas-editor",
+    "name": "SVG Canvas Editor",
+    "author": "suntinglu777",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Edit SVG files in Obsidian with source, layers, canvas, and inspector panes.",
+    "repo": "sunxiaoqiqi/svg-editor"
   }
 ]
