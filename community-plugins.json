@@ -22624,13 +22624,6 @@
     "repo": "joepetrakovich/obsidian-request"
   },
   {
-    "id": "rich-text-editor",
-    "name": "Rich Text Editor",
-    "author": "querke",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A rich text markdown editor based on MDXEditor.",
-    "repo": "querke/obsidian-rich-text-editor"
-  },
-  {
     "id": "cloudflare-kv-sync",
     "name": "Cloudflare KV Sync",
     "author": "alexmensch",
@@ -24339,13 +24332,6 @@
     "repo": "hyungyunlim/obsidian-naver-blog-importer"
   },
   {
-    "id": "semantic-vault-mcp",
-    "name": "Semantic Notes Vault MCP",
-    "author": "Aaron Bockelie",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Give Claude Desktop and other AI assistants semantic access to your notes through a built-in Model Context Protocol (MCP) server.",
-    "repo": "aaronsb/obsidian-mcp-plugin"
-  },
-  {
     "id": "co-intelligence",
     "name": "Co-Intelligence AI",
     "author": "epistemic-technology",
@@ -25639,13 +25625,6 @@
     "author": "pjeurien",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A persistent sound panel in the sidebar for playing music tracks and one-shot sound effects, with volume control, crossfading, and embeddable note buttons.",
     "repo": "pjeurien/obsidian-audio-sidebar"
-  },
-  {
-    "id": "gryphon",
-    "name": "Gryphon",
-    "author": "polleoai",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Bring AI to your vault — with guardrails at runtime.",
-    "repo": "polleoai/gryphon"
   },
   {
     "id": "vibgyor",
@@ -30982,6 +30961,13 @@
     "repo": "icarian-systems/kanban-pro-plugin"
   },
   {
+    "id": "calendar-list",
+    "name": "Calendar List",
+    "author": "Sebastien Delisle",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Insert a list of macOS Calendar events between two dates.",
+    "repo": "lumargh/obsidian-calendar-list"
+  },
+  {
     "id": "miseflow",
     "name": "MiseFlow",
     "author": "Adam Tommasi",
@@ -31332,6 +31318,13 @@
     "repo": "mkshp-dev/obsidian-MOC-plugin"
   },
   {
+    "id": "imap-mail-importer",
+    "name": "Email Importer (IMAP)",
+    "author": "andreas13xxx",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Import emails from an IMAP mailbox into your Obsidian vault as Markdown notes with attachments.",
+    "repo": "andreas13xxx/obsidian-mail-importer"
+  },
+  {
     "id": "genwiki",
     "name": "GenWiki",
     "author": "yvonshong",
@@ -31421,5 +31414,19 @@
     "author": "Viggo Meesters",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Browse .yaml and .yml files as a read-only tree with search, outline navigation, and syntax-highlighted source.",
     "repo": "viggomeesters/obsidian-yaml-viewer"
+  },
+  {
+    "id": "obsync",
+    "name": "S3 Vault Sync",
+    "author": "Chaly",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync Obsidian vault files through OSS / S3-compatible object storage.",
+    "repo": "ichaly/obsync"
+  },
+  {
+    "id": "simple-autolink",
+    "name": "Simple Auto-Link",
+    "author": "abgmgp",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Convert plain-text mentions of note titles and aliases into wiki links. Highly configurable.",
+    "repo": "abgmgp/obsidian-simple-autolink"
   }
 ]
