@@ -27160,6 +27160,13 @@
     "repo": "kriss-spy/obsidian-opencode"
   },
   {
+    "id": "claude-panel-ryukyuhub",
+    "name": "Claude Panel",
+    "author": "Ryukyu HUB Inc.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Right-sidebar chat panel powered by Claude Code. Runs the `claude` CLI as a subprocess with the active vault as the working directory.",
+    "repo": "ryukyuhub/obsidian-claude-panel-ryukyuhub"
+  },
+  {
     "id": "daily-saying-kr",
     "name": "Daily Saying KR",
     "author": "Rando209",
@@ -27335,13 +27342,6 @@
     "repo": "pingo8888/chinese-novel-assistant"
   },
   {
-    "id": "audio-transcript",
-    "name": "Audio Transcript",
-    "author": "Jesús García",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Transcribí audios con identificación de hablantes usando Gladia, Deepgram o AssemblyAI",
-    "repo": "jaliriogbarrios19/Audio_Transcript"
-  },
-  {
     "id": "three-d-graph-view",
     "name": "Three D Graph View",
     "author": "Steve",
@@ -27459,13 +27459,6 @@
     "author": "Liu Bo",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Integrate IMA knowledge base with your vault. Supports Markdown rendering, import to folder, and advanced search.",
     "repo": "liuboacean/ima-plugin"
-  },
-  {
-    "id": "relations",
-    "name": "Relations",
-    "author": "obsidian-ttrpg-community",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Visualise relationships between notes — for worldbuilding, fiction, TTRPG campaigns, genealogies, or any project where seeing how things connect matters.",
-    "repo": "obsidian-ttrpg-community/Relations"
   },
   {
     "id": "granite",
@@ -28140,13 +28133,6 @@
     "repo": "marten-ti/obsidian-tagline"
   },
   {
-    "id": "randomness",
-    "name": "Randomness",
-    "author": "obsidian-ttrpg-community",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Random generator engine. Render `randomness` codeblocks inline with rich text output, plus support for legacy Inspiration Pad Pro 3 .ipt files.",
-    "repo": "obsidian-ttrpg-community/Randomness"
-  },
-  {
     "id": "seafile-continued",
     "name": "Seafile Continued",
     "author": "ryanravn",
@@ -28236,13 +28222,6 @@
     "author": "mkshp-dev",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Comprehensive financial dashboard with Beancount integration. Features unified entry management, live BQL queries, connection validation, auto-starting backend, and streamlined settings.",
     "repo": "mkshp-dev/obsidian-finance-plugin"
-  },
-  {
-    "id": "butter-editor",
-    "name": "Butter Editor",
-    "author": "giblicious",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. WYSIWYG editing mode. Focus on writing, not syntax.",
-    "repo": "spreadwell/butter-editor"
   },
   {
     "id": "zotero-lib-view",
@@ -28691,13 +28670,6 @@
     "author": "Andrew Rosenquist",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Build reusable chains of AI operations on your notes. Process, write, and rewrite Markdown files using a local Ollama model, then save your workflows as presets and run them in one click.",
     "repo": "roseygoblin/busy-goblins"
-  },
-  {
-    "id": "research-paper",
-    "name": "Research Paper",
-    "author": "Jesús García",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Search academic databases and generate APA 7 papers with AI. Supports 7 LLM providers and 10 research domains.",
-    "repo": "jaliriogbarrios19/Research_Paper"
   },
   {
     "id": "pdf-export-compress",
@@ -29197,13 +29169,6 @@
     "repo": "siranhq/obsidian-QuadTasks"
   },
   {
-    "id": "deepseek-translator",
-    "name": "Multi Translator",
-    "author": "Frankie18581",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Translate selected text, full documents, or use a sidebar panel with AI-powered streaming translation via DeepSeek.",
-    "repo": "frankie18581/obsidian-deepseek-translator"
-  },
-  {
     "id": "note-highlight",
     "name": "Note Highlight",
     "author": "wsqstar",
@@ -29279,13 +29244,6 @@
     "author": "Dong Yang",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Improves Live Preview image editing with Markdown reveal, resize, and alignment tools.",
     "repo": "ydd0729/better-live-preview-image"
-  },
-  {
-    "id": "publish-to-telegram",
-    "name": "Publish to Telegram",
-    "author": "pan4ratte",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Allows you to post notes directly to Telegram channels and groups with different presets and advanced posting settings.",
-    "repo": "pan4ratte/obsidian-publish-to-telegram"
   },
   {
     "id": "enchanted-animations",
@@ -30105,6 +30063,13 @@
     "author": "Andy Tran",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Ghostty-style terminal surfaces for Obsidian.",
     "repo": "andyhtran/GhostTerm"
+  },
+  {
+    "id": "thoth-sync",
+    "name": "Thoth",
+    "author": "Mac Ahmed",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Lightweight vault sync via S3-compatible object storage.",
+    "repo": "macahmed/obsidian-thoth"
   },
   {
     "id": "novel-profile",
@@ -31241,6 +31206,13 @@
     "repo": "krental/obsidian-auto-card-link"
   },
   {
+    "id": "gm-map",
+    "name": "GM Map",
+    "author": "Matthias Bilger (m42e)",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Show a TTRPG map to your players on a second screen with DM-controlled fog of war, statblock-linked tokens, and DM-only markers.",
+    "repo": "m42e/obsidian-gm-map"
+  },
+  {
     "id": "drawio-editor",
     "name": "Drawio",
     "author": "doge-liang",
@@ -31319,7 +31291,7 @@
   },
   {
     "id": "imap-mail-importer",
-    "name": "Email Importer (IMAP)",
+    "name": "E-mail Importer (IMAP)",
     "author": "andreas13xxx",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Import emails from an IMAP mailbox into your Obsidian vault as Markdown notes with attachments.",
     "repo": "andreas13xxx/obsidian-mail-importer"
