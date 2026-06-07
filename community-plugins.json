@@ -18438,6 +18438,13 @@
     "repo": "llewellyn500/obsidian-tether"
   },
   {
+    "id": "health-md",
+    "name": "Health.md Visualizations",
+    "author": "codybontecou",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render Apple Health data visualizations from JSON, CSV, or Markdown files, with custom date and time range filters.",
+    "repo": "codybontecou/health-md-visualizations"
+  },
+  {
     "id": "odyssey",
     "name": "Odyssey",
     "author": "zzzzswh",
@@ -19577,6 +19584,13 @@
     "author": "agrison",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically adds note tags as CSS classes on the view container for tag-based styling.",
     "repo": "agrison/obsidian-tag-classes"
+  },
+  {
+    "id": "ai-organiser",
+    "name": "AI Organiser",
+    "author": "lbstrydom",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Your AI thinking partner in Obsidian: summarize anything, research the web, build slide decks, transcribe meetings, and auto-tag your vault. Cloud or local LLMs — your own API key.",
+    "repo": "lbstrydom/ai-organiser"
   },
   {
     "id": "advanced-search-ui",
@@ -24141,13 +24155,6 @@
     "author": "uthvah",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Turn static embeds into live synced blocks.",
     "repo": "uthvah/sync-embeds"
-  },
-  {
-    "id": "prisma-calendar",
-    "name": "Prisma Calendar",
-    "author": "Matej Vavro Productivity",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Prisma turns any note with a date into a flexible planning system inside Obsidian. There are no rigid schemas or predefined structures — just your data, your rules, fully under your control.",
-    "repo": "real1tyy/Prisma-Calendar"
   },
   {
     "id": "style-tags-in-search-results",
@@ -31124,7 +31131,7 @@
   {
     "id": "source-mode-inline-images",
     "name": "Source Mode Inline Images",
-    "author": "kat",
+    "author": "Forrest",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Render image previews below image links in Source mode.",
     "repo": "hiforrest/source-mode-inline-images"
   },
@@ -31549,13 +31556,6 @@
     "repo": "britz/obsidian-live-image-editor"
   },
   {
-    "id": "logcollector",
-    "name": "Logcollector",
-    "author": "AwkMan",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A simple proxy for `console.*()` calls which copies log messages and uncaught exceptions to a file (inside or outside the vault).",
-    "repo": "awkman00/obsidian-logcollector"
-  },
-  {
     "id": "code-block-fold",
     "name": "Code Block Fold",
     "author": "mkali",
@@ -31596,6 +31596,13 @@
     "author": "Otto",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Format and transform selected Markdown from a floating toolbar and bindable commands.",
     "repo": "mockingjay1710/selection-toolbar"
+  },
+  {
+    "id": "nexus-lm",
+    "name": "Nexus-LM",
+    "author": "Ansh Usrathe",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI powered concept maps, slideshow, notebooks, vault chat, web search, MCP and to have a personal feed all inside of Obsidian.",
+    "repo": "anshusrathe/nexus-lm"
   },
   {
     "id": "kogcat",
@@ -31682,10 +31689,45 @@
     "repo": "g-chist/obsidian-graph-untangler-plugin"
   },
   {
+    "id": "html-page-viewer",
+    "name": "HTML Page Viewer",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open .html and .htm files in Obsidian as a sandboxed rendered preview or syntax-highlighted source.",
+    "repo": "viggomeesters/obsidian-html-page-viewer"
+  },
+  {
     "id": "html-viewer-plus",
     "name": "HTML Viewer Plus",
     "author": "lzq",
     "description": "This plugin has not been manually reviewed by Obsidian staff. 增强版 HTML 查看器：嵌入预览、全屏、缩放、暗色同步、搜索、MHTML 支持、热刷新",
     "repo": "kuaile1407/html-viewer-plus"
+  },
+  {
+    "id": "quick-github-sync",
+    "name": "Quick GitHub Sync",
+    "author": "M1LLKY",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault with a GitHub repository in one click.",
+    "repo": "m1llky/obsidian-github-vault-sync"
+  },
+  {
+    "id": "regex-quick-actions",
+    "name": "Regex Quick Actions",
+    "author": "pan4ratte",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Allows you to create and quickly apply regex actions via command palette, context menus and hotkeys. Made for automation purposes.",
+    "repo": "pan4ratte/obsidian-regex-quick-actions"
+  },
+  {
+    "id": "enhance-navigate-pane",
+    "name": "Enhance Navigate Pane",
+    "author": "usero2-endofday",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Filter files/folders and navigate with arrow keys in the file explorer.",
+    "repo": "usero2/obsidian-plugins-enhance-navigate-pane"
+  },
+  {
+    "id": "csv-tsv-viewer",
+    "name": "CSV TSV Viewer",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open .csv and .tsv files as a read-only table with search, source view, and parse warnings.",
+    "repo": "viggomeesters/obsidian-csv-tsv-viewer"
   }
 ]
