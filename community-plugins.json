@@ -27552,13 +27552,6 @@
     "repo": "agilesmagile/obsidian-neighbourhood-graph"
   },
   {
-    "id": "mylonite",
-    "name": "Mylonite",
-    "author": "Mylonite contributors",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Self-hosted encrypted sync for Obsidian vaults.",
-    "repo": "z1xus/mylonite"
-  },
-  {
     "id": "comshit",
     "name": "comshit",
     "author": "comwhore",
@@ -28784,13 +28777,6 @@
     "repo": "korthomasjeong/Osync-p"
   },
   {
-    "id": "vault-chat-agent",
-    "name": "Vault Chat Agent",
-    "author": "Evgenii Bykovskikh",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Chat with an AI assistant that can search your vault, inspect notes, and prepare edits for review",
-    "repo": "redzumi/vault-chat-agent"
-  },
-  {
     "id": "image-tab-zoom",
     "name": "Image Tab Zoom",
     "author": "jochenbernard",
@@ -29013,13 +28999,6 @@
     "author": "pan4ratte",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Allows you to create complex word count presets that will be displayed in the status bar. Made with academic use cases in mind.",
     "repo": "pan4ratte/obsidian-advanced-word-count"
-  },
-  {
-    "id": "luna-notes",
-    "name": "Luna Notes",
-    "author": "MaiaALex",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Feminine cycle planner for Obsidian",
-    "repo": "maiaalex/luna-notes"
   },
   {
     "id": "bojubot",
@@ -31556,6 +31535,13 @@
     "repo": "britz/obsidian-live-image-editor"
   },
   {
+    "id": "logcollector",
+    "name": "Logcollector",
+    "author": "AwkMan",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A simple proxy for `console.*()` calls which copies log messages and uncaught exceptions to a file (inside or outside the vault).",
+    "repo": "awkman00/obsidian-logcollector"
+  },
+  {
     "id": "code-block-fold",
     "name": "Code Block Fold",
     "author": "mkali",
@@ -31638,6 +31624,13 @@
     "author": "zaemyung",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Yunseul - sparkling ripples of clarity across your Obsidian vault. Chat with your notes using LM Studio or Claude Code.",
     "repo": "zaemyung/yunseul"
+  },
+  {
+    "id": "line-search",
+    "name": "Line Search",
+    "author": "sinaaxe",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Uses each line as a separate unit for fuzzy and out-of-order word search across all Markdown files in the vault.",
+    "repo": "sinaaxe/line-search-plugin"
   },
   {
     "id": "json-viewer",
@@ -31729,5 +31722,26 @@
     "author": "Viggo Meesters",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Open .csv and .tsv files as a read-only table with search, source view, and parse warnings.",
     "repo": "viggomeesters/obsidian-csv-tsv-viewer"
+  },
+  {
+    "id": "xml-viewer",
+    "name": "XML Viewer",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open .xml files as a read-only tree with search, source view, and parse warnings.",
+    "repo": "viggomeesters/obsidian-xml-viewer"
+  },
+  {
+    "id": "toml-ini-viewer",
+    "name": "TOML INI Viewer",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open .toml and .ini files as a read-only config tree with search, source view, and parse warnings.",
+    "repo": "viggomeesters/obsidian-toml-ini-viewer"
+  },
+  {
+    "id": "txt-viewer",
+    "name": "TXT Viewer",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open .txt files as read-only text with line numbers, search navigation, filtering, and large-file guards.",
+    "repo": "viggomeesters/obsidian-txt-viewer"
   }
 ]
