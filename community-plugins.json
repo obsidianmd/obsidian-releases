@@ -4396,13 +4396,6 @@
     "repo": "xallt/sync-graph-settings"
   },
   {
-    "id": "obsidian-autoscroll",
-    "name": "Autoscroll",
-    "author": "petr-nazarov",
-    "description": "Automatically scroll down the content with the provided speed.",
-    "repo": "petr-nazarov/obsidian-autoscroll"
-  },
-  {
     "id": "obsidian-prozen",
     "name": "ProZen",
     "author": "cmoskvitin",
@@ -18291,6 +18284,13 @@
     "repo": "santiyounger/wpm-reading-time"
   },
   {
+    "id": "advanced-exclude",
+    "name": "Advanced Exclude",
+    "author": "mnaoumov",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Enhances the Excluded files setting bringing gitignore syntax.",
+    "repo": "mnaoumov/obsidian-advanced-exclude"
+  },
+  {
     "id": "email-to-vault",
     "name": "Email to Vault",
     "author": "mnaoumov",
@@ -21490,13 +21490,6 @@
     "repo": "antoineart/obsidian-nav-buttons"
   },
   {
-    "id": "gtd-tasks",
-    "name": "GTD Tasks",
-    "author": "unpreditable",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A dedicated panel to organize tasks across the vault using the Getting Things Done methodology (Today, This Week, Someday…)",
-    "repo": "unpreditable/GettingThingsDone"
-  },
-  {
     "id": "highlight-on-copy",
     "name": "Highlight on Copy",
     "author": "trevortylerlee",
@@ -21936,6 +21929,13 @@
     "author": "rapphcd",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Clean unused medias, untitled and duplicated leafs.",
     "repo": "rapphcd/obsidian-vault-cleaner"
+  },
+  {
+    "id": "mobile-desktop-theme-switcher",
+    "name": "Device Theme Switcher",
+    "author": "asingularphoton",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically switch between different themes based on whether you're accessing your vault on mobile or desktop.",
+    "repo": "asingularphoton/different-mobile-desktop-themes"
   },
   {
     "id": "global-ticker",
@@ -25461,7 +25461,7 @@
   {
     "id": "kaper",
     "name": "Kaper",
-    "author": "nikoneex",
+    "author": "kaper",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Edit and preview Kaper recipes inline as structured blocks.",
     "repo": "nikoneex/obsidian-kaper"
   },
@@ -31451,11 +31451,25 @@
     "repo": "ichaly/obsync"
   },
   {
+    "id": "analogy-rag-in-your-vault",
+    "name": "Analogy - RAG in your vault",
+    "author": "liaocaoxuezhe",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Search your vault semantically with local vector embeddings and expose RAG search to MCP clients.",
+    "repo": "liaocaoxuezhe/obsidian-extension"
+  },
+  {
     "id": "simple-autolink",
     "name": "Simple Auto-Link",
     "author": "abgmgp",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Convert plain-text mentions of note titles and aliases into wiki links. Highly configurable.",
     "repo": "abgmgp/obsidian-simple-autolink"
+  },
+  {
+    "id": "pi-ide",
+    "name": "Pi IDE",
+    "author": "Jenkins Chen",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Connect Obsidian to Pi Coding Agent via the pi-ide protocol: current file, cursor, selection, and edit confirmations.",
+    "repo": "9963kk/obsidian-pi-ide"
   },
   {
     "id": "quicker-wheel",
@@ -31535,10 +31549,24 @@
     "repo": "wilbursalazar/typst-book-preview"
   },
   {
+    "id": "supsync",
+    "name": "SupSync",
+    "author": "Jesús García",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync Obsidian vaults across multiple users via Supabase with real-time collaboration and locking.",
+    "repo": "jaliriogbarrios19/SupSync"
+  },
+  {
     "id": "handwriting-pdf",
     "name": "Handwriting PDF",
     "author": "Neurocloud",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Convert handwritten PDF notes into formatted Markdown with Gemini document understanding.",
     "repo": "neurocloud-activate/Handwriting-PDF"
+  },
+  {
+    "id": "yunseul",
+    "name": "Yunseul",
+    "author": "zaemyung",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Yunseul - sparkling ripples of clarity across your Obsidian vault. Chat with your notes using LM Studio or Claude Code.",
+    "repo": "zaemyung/yunseul"
   }
 ]
