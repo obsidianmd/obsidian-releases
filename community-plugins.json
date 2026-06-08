@@ -27517,6 +27517,13 @@
     "repo": "agilesmagile/obsidian-neighbourhood-graph"
   },
   {
+    "id": "mylonite",
+    "name": "Mylonite",
+    "author": "Mylonite contributors",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Self-hosted encrypted sync for Obsidian vaults.",
+    "repo": "z1xus/mylonite"
+  },
+  {
     "id": "comshit",
     "name": "comshit",
     "author": "comwhore",
@@ -28096,13 +28103,6 @@
     "author": "Marten Tietje",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create notes from inline text with tag-driven templates. Add inline fields, get autocomplete suggestions, and convert lines to linked notes with frontmatter.",
     "repo": "marten-ti/obsidian-tagline"
-  },
-  {
-    "id": "randomness",
-    "name": "Randomness",
-    "author": "obsidian-ttrpg-community",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Random generator engine. Render `randomness` codeblocks inline with rich text output, plus support for legacy Inspiration Pad Pro 3 .ipt files.",
-    "repo": "obsidian-ttrpg-community/Randomness"
   },
   {
     "id": "seafile-continued",
@@ -29260,13 +29260,6 @@
     "repo": "rafaelmehdiyev/obsidian-reference-note"
   },
   {
-    "id": "vaultdex",
-    "name": "VaultDex",
-    "author": "Reggie86",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Relevance-scored full-text vault search with PARA filtering, folder scoping, phrase and AND operators.",
-    "repo": "reggie86/vaultdex"
-  },
-  {
     "id": "gallery-view",
     "name": "Gallery View",
     "author": "mkshp-dev",
@@ -30315,6 +30308,13 @@
     "author": "Kiril",
     "description": "This plugin has not been manually reviewed by Obsidian staff. prompt workflow automation, batch runs, run history, external vector index storage, Daily Note workflows, prompt library, RAG, and source references.",
     "repo": "kiril-liu/obsidian-ai-plugin"
+  },
+  {
+    "id": "regex-css-highlighter",
+    "name": "Regex Css Highlighter",
+    "author": "nilmarko",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Highlight text with regex and apply custom CSS classes.",
+    "repo": "dlsdgj/obsidian-regex-css-highlighter"
   },
   {
     "id": "hackernews-comments",
@@ -31538,7 +31538,7 @@
     "id": "lilbee",
     "name": "lilbee",
     "author": "tobocop2",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Local RAG for your vault: ask questions and chat with your notes, PDFs, and crawled web pages, with click-to-verify citations. Runs local LLMs for you, or bring your own from Ollama, LM Studio",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Search, ask, and chat with your vault: notes, PDFs, code, scans, 150+ file types. Cited answers (local RAG) from local LLMs, Ollama, LM Studio, or Claude/Gemini/OpenAI.",
     "repo": "tobocop2/obsidian-lilbee"
   },
   {
@@ -31575,13 +31575,6 @@
     "author": "Jesús García",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync Obsidian vaults across multiple users via Supabase with real-time collaboration and locking.",
     "repo": "jaliriogbarrios19/SupSync"
-  },
-  {
-    "id": "handwriting-pdf",
-    "name": "Handwriting PDF",
-    "author": "Neurocloud",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Convert handwritten PDF notes into formatted Markdown with Gemini document understanding.",
-    "repo": "neurocloud-activate/Handwriting-PDF"
   },
   {
     "id": "yunseul",
@@ -31633,11 +31626,11 @@
     "repo": "gurnoorrana/Obsidian-pdf-read-aloud"
   },
   {
-    "id": "graphnosis",
-    "name": "Graphnosis",
-    "author": "Nelu Lazar",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Indexed, local, encrypted job memory for your vault, powered by Graphnosis.",
-    "repo": "nehloo/graphnosis-obsidian-plugin"
+    "id": "dream-journal",
+    "name": "Dream Journal",
+    "author": "eharris128",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Record your dreams to promote dream retention, enhance lucidity, and go deeper into dreaming.",
+    "repo": "eharris128/obsidian-dream-journal"
   },
   {
     "id": "graph-untangler",
@@ -31801,6 +31794,13 @@
     "repo": "hornatx/vault-explorer-pro"
   },
   {
+    "id": "center-on-reveal",
+    "name": "Center on Reveal",
+    "author": "toadfans",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Centers and highlights the active file when it is revealed in the file explorer.",
+    "repo": "toadfans/obsidian-center-on-reveal"
+  },
+  {
     "id": "poke-gateway",
     "name": "Poke Gateway",
     "author": "Matt",
@@ -31897,5 +31897,12 @@
     "author": "Daisuke ITO",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Bidirectional sync between Obsidian and Nextcloud using hash-based change detection.",
     "repo": "siosig/obsidian-nextcloudsync"
+  },
+  {
+    "id": "minimal-hidden-files",
+    "name": "Minimal Hidden Files",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Reveal safe dotfiles and dotfolders in Obsidian's native File Explorer.",
+    "repo": "viggomeesters/obsidian-minimal-hidden-files"
   }
 ]
