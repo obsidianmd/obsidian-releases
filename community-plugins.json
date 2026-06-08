@@ -24605,13 +24605,6 @@
     "repo": "nilsgke/obsidian-better-vim"
   },
   {
-    "id": "ai-note-mate",
-    "name": "Note Mate",
-    "author": "ialex32x",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Note Mate is a smart AI assistant for your vault. With Note Mate, you can easily create new notes, expand on ideas, and get insights from your vault.",
-    "repo": "ialex32x/ai-note-mate"
-  },
-  {
     "id": "sheet-music",
     "name": "Sheet Music",
     "author": "corecube",
@@ -26416,6 +26409,13 @@
     "author": "dangehub",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Manage translations for plugins with hot-reload support and crowdsourced dictionaries.",
     "repo": "open-obsidian-i18n/i18n-plus"
+  },
+  {
+    "id": "vault-operator",
+    "name": "Vault Operator",
+    "author": "Sebastian Hanke",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Real AI agent for your vault. Coworker, Copilot & thinking partner, that maintains your memory & knowledge, adapts to your workflows, uses plugins, skills & tools with full safety controls. BYOK & MCP",
+    "repo": "pssah4/vault-operator"
   },
   {
     "id": "yeelen-murmur",
@@ -28285,6 +28285,13 @@
     "author": "Yunz93",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Extensions-Activity helps you understand how you actually use third-party community extensions.",
     "repo": "yunz93/obsidian-plugins-activity"
+  },
+  {
+    "id": "daily-notes-timeline-view",
+    "name": "Daily Notes Timeline View",
+    "author": "masaki39",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Timeline view for daily notes.",
+    "repo": "masaki39/daily-notes-timeline"
   },
   {
     "id": "command-group",
@@ -30310,13 +30317,6 @@
     "repo": "kiril-liu/obsidian-ai-plugin"
   },
   {
-    "id": "regex-css-highlighter",
-    "name": "Regex Css Highlighter",
-    "author": "nilmarko",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Highlight text with regex and apply custom CSS classes.",
-    "repo": "dlsdgj/obsidian-regex-css-highlighter"
-  },
-  {
     "id": "hackernews-comments",
     "name": "Hacker News Comments",
     "author": "gapmiss",
@@ -30581,6 +30581,13 @@
     "author": "栗子仁儿",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Featuring freely draggable, resizable and auto-save dashboard modules. The built-in multi-format file viewer supports direct preview of office, media and code files.",
     "repo": "liamzy2021/Obsidian--Modular-Theme-Dashboard-Free-Drag-and-Drop"
+  },
+  {
+    "id": "light-livesync",
+    "name": "Light-LiveSync",
+    "author": "Neurocloud",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Simple, efficient, and lightweight self-hosted live sync with end-to-end encrypted vault synchronization",
+    "repo": "neurocloud-activate/Light-LiveSync"
   },
   {
     "id": "no-paste",
@@ -31115,6 +31122,13 @@
     "repo": "oilandrust/obsidian-gdocs"
   },
   {
+    "id": "pimate",
+    "name": "Pimate",
+    "author": "Gorazen",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Pimate embeds Pi Coding Agent into Obsidian as an AI collaborator for your vault.",
+    "repo": "gorazenxu/pimate"
+  },
+  {
     "id": "remember-code-block-lang",
     "name": "Remember Code Block Language",
     "author": "Junyoung Bang",
@@ -31524,7 +31538,7 @@
     "id": "lilbee",
     "name": "lilbee",
     "author": "tobocop2",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Turn your vault into a private, local search engine that crawls websites into your library. A built-in manager runs AI models in one click, or use Ollama or LM Studio.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Local RAG for your vault: ask questions and chat with your notes, PDFs, and crawled web pages, with click-to-verify citations. Runs local LLMs for you, or bring your own from Ollama, LM Studio",
     "repo": "tobocop2/obsidian-lilbee"
   },
   {
@@ -31647,6 +31661,13 @@
     "repo": "kuaile1407/html-viewer-plus"
   },
   {
+    "id": "markway",
+    "name": "Markway",
+    "author": "Anup Chavan",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync Apple services with Obsidian",
+    "repo": "anupchavan/obsidian-markway"
+  },
+  {
     "id": "quick-github-sync",
     "name": "Quick GitHub Sync",
     "author": "M1LLKY",
@@ -31659,6 +31680,13 @@
     "author": "pan4ratte",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Allows you to create and quickly apply regex actions via command palette, context menus and hotkeys. Made for automation purposes.",
     "repo": "pan4ratte/obsidian-regex-quick-actions"
+  },
+  {
+    "id": "enhance-navigate-pane",
+    "name": "Enhance Navigate Pane",
+    "author": "usero2-endofday",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Filter files/folders and navigate with arrow keys in the file explorer.",
+    "repo": "usero2/obsidian-plugins-enhance-navigate-pane"
   },
   {
     "id": "name-guard",
@@ -31787,6 +31815,13 @@
     "repo": "hayyan0/Obsidian-Arabic-Poetry-Formatter"
   },
   {
+    "id": "hot-reload-picker",
+    "name": "Hot Reload Picker",
+    "author": "lemon695",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Reload enabled plugins from the command palette for faster Obsidian plugin development.",
+    "repo": "lemon695/obsidian-hot-reload-picker"
+  },
+  {
     "id": "obsid-link",
     "name": "Microsoft-Compatible Link",
     "author": "Leon Greil",
@@ -31794,10 +31829,73 @@
     "repo": "lgreil/obsid-link"
   },
   {
+    "id": "script-viewer",
+    "name": "Script Viewer",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open shell, batch, PowerShell, and AutoHotkey files as read-only source with outline, search, and safety hints.",
+    "repo": "viggomeesters/obsidian-script-viewer"
+  },
+  {
+    "id": "plist-viewer",
+    "name": "PLIST Viewer",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open .plist and .mobileconfig files as read-only trees with search, source view, and profile security warnings.",
+    "repo": "viggomeesters/obsidian-plist-viewer"
+  },
+  {
     "id": "ics-calendar-viewer",
     "name": "ICS Calendar Viewer",
     "author": "Viggo Meesters",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Open local .ics files as a read-only event inspection view with source fallback.",
     "repo": "viggomeesters/obsidian-ics-calendar-viewer"
+  },
+  {
+    "id": "lemon-vault-dashboard",
+    "name": "Lemon Vault Dashboard",
+    "author": "lemon695",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A beautiful, panoramic dashboard for vault storage statistics, file analysis, treemap visualization, and orphan attachment detection.",
+    "repo": "lemon695/obsidian-lemon-vault-dashboard"
+  },
+  {
+    "id": "eml-email-viewer",
+    "name": "EML Email Viewer",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open .eml files locally with headers, safe body previews, attachment metadata, and raw MIME source.",
+    "repo": "viggomeesters/obsidian-eml-email-viewer"
+  },
+  {
+    "id": "vcf-contacts-viewer",
+    "name": "VCF Contacts Viewer",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open .vcf files as read-only contact cards with search, raw source, and import-preflight warnings.",
+    "repo": "viggomeesters/obsidian-vcf-contacts-viewer"
+  },
+  {
+    "id": "alteryx-viewer",
+    "name": "Alteryx Viewer",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open .yxmd workflows and .yxzp packages as read-only summaries with search, source view, and warnings.",
+    "repo": "viggomeesters/obsidian-alteryx-viewer"
+  },
+  {
+    "id": "archive-viewer",
+    "name": "Archive Viewer",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Inspect .zip archive contents as read-only metadata trees with search and safety warnings.",
+    "repo": "viggomeesters/obsidian-archive-viewer"
+  },
+  {
+    "id": "sql-viewer",
+    "name": "SQL Viewer",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open SQLite database files as read-only schema, preview, and query views.",
+    "repo": "viggomeesters/obsidian-sql-viewer"
+  },
+  {
+    "id": "nextcloud-sync",
+    "name": "Nextcloud Sync",
+    "author": "Daisuke ITO",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Bidirectional sync between Obsidian and Nextcloud using hash-based change detection.",
+    "repo": "siosig/obsidian-nextcloudsync"
   }
 ]
