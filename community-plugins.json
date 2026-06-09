@@ -19679,7 +19679,7 @@
   {
     "id": "core-habits",
     "name": "Core Habits",
-    "author": "ahmed-farhat99",
+    "author": "Ahmed Farhat",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Track habits visually, flow with your identity, and build your core path.",
     "repo": "ahmed-farhat99/core-habits"
   },
@@ -19955,6 +19955,13 @@
     "author": "qctsu",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Reorder files and folders in File Explorer with drag and drop. No filename changes.",
     "repo": "qctsu/obsidian-file-shift"
+  },
+  {
+    "id": "lean-terminal",
+    "name": "Lean Terminal",
+    "author": "Sascha D. Kasper",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Embedded terminal panel powered by xterm.js and node-pty - no external windows.",
+    "repo": "sdkasper/lean-obsidian-terminal"
   },
   {
     "id": "vaultchat",
@@ -27482,6 +27489,13 @@
     "repo": "humantorch/blackglass"
   },
   {
+    "id": "easy-recall",
+    "name": "Easy Recall",
+    "author": "Geno Zhou",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Simple spaced repetition for flashcards: Cloze, Q&A, zero-config.",
+    "repo": "genozhou/easy-recall"
+  },
+  {
     "id": "gamer-giveaways",
     "name": "Gamer Giveaways Fetcher",
     "author": "abduznik",
@@ -27958,6 +27972,13 @@
     "repo": "creagleone/obsidian-iconik"
   },
   {
+    "id": "weave-epub-reader",
+    "name": "Weave EPUB Reader",
+    "author": "zhuzhige123",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Standalone EPUB reader with bookshelf, deep links, and reading state persistence.",
+    "repo": "zhuzhige123/obsidian-weave-reader"
+  },
+  {
     "id": "heic-viewer",
     "name": "HEIC Viewer",
     "author": "Kiara Orquera",
@@ -28012,6 +28033,13 @@
     "author": "Mateusz Nitka",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create new paragraph after hitting Enter once instead of twice.",
     "repo": "mateusznitka/obsidian-paragraph-break"
+  },
+  {
+    "id": "operon",
+    "name": "Operon",
+    "author": "Hasan Yılmaz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Task and project management system that unifies inline tasks and file-based tasks in the same workflows with filters, Calendar planning, Kanban boards, recurrence, pinned tasks, and time tracking.",
+    "repo": "hasanyilmaz/operon"
   },
   {
     "id": "clio",
@@ -28486,7 +28514,7 @@
     "id": "formula-forge",
     "name": "Formula Forge",
     "author": "unxok",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Render bases formulas in your notes, define global formulas, API for custom functions, and more formula-related features.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render bases formulas in your notes, define global formulas and functions, and more formula-related features.",
     "repo": "unxok/obsidian-formula-forge"
   },
   {
@@ -30730,25 +30758,11 @@
     "repo": "lsgalves/hledger-obsidian"
   },
   {
-    "id": "timeline-calendar",
-    "name": "Timeline Calendar",
-    "author": "zen",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A clean timeline calendar with grid-aligned time labels for daily notes and tasks.",
-    "repo": "deemsd/timeline-calendar"
-  },
-  {
     "id": "music-pro",
     "name": "Music Pro",
     "author": "Minh Hoang",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A plug-and-play music app for deep work inside Obsidian.",
     "repo": "hoangminhcv2000/obsidian-music-pro"
-  },
-  {
-    "id": "chess-tree",
-    "name": "chess tree",
-    "author": "west-shell",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Chess variation tree.",
-    "repo": "west-shell/obsidian-chess-tree"
   },
   {
     "id": "gz-sync",
@@ -30896,13 +30910,6 @@
     "author": "Maicon-Lara",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Fichas interativas, rolagens e compêndio do SRD para o sistema de RPG Old Dragon 2",
     "repo": "maicon-lara/od2-toolkit"
-  },
-  {
-    "id": "task-gantt",
-    "name": "Task Gantt",
-    "author": "Kei Kato",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage tasks on an interactive Gantt timeline where each note is a single task. Drag bars to reschedule, link FS/SS/FF dependencies, set milestones, and edit details in a side panel.",
-    "repo": "katoiek/task-gantt"
   },
   {
     "id": "auto-file-extension",
@@ -31104,7 +31111,7 @@
     "id": "gdocs",
     "name": "GDocs",
     "author": "Olivier Rouiller",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Open Google Drive shortcut files (.gdoc, .gsheet, etc.) in Web Viewer.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open and Embed Google Drive shortcut files (.gdoc, .gsheet, etc.) in a Web View.",
     "repo": "oilandrust/obsidian-gdocs"
   },
   {
@@ -31197,13 +31204,6 @@
     "author": "Coldhan258",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Local Background Image Server – Map Local Folders to HTTP Services to Fix Obsidian’s Limitation of Only Accepting Online URLs for Wallpapers",
     "repo": "coldhan258/obsidian-local-bg-image-server"
-  },
-  {
-    "id": "auto-card-link-enhanced",
-    "name": "Auto Card Link Enhanced",
-    "author": "KreNtal",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically fetches metadata from a url and makes it as a card-styled link.",
-    "repo": "krental/obsidian-auto-card-link"
   },
   {
     "id": "drawio-editor",
@@ -31400,6 +31400,13 @@
     "author": "Chaly",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync Obsidian vault files through OSS / S3-compatible object storage.",
     "repo": "ichaly/obsync"
+  },
+  {
+    "id": "analogy-rag-in-your-vault",
+    "name": "Analogy - RAG in your vault",
+    "author": "liaocaoxuezhe",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Search your vault semantically with local vector embeddings and expose RAG search to MCP clients.",
+    "repo": "liaocaoxuezhe/obsidian-extension"
   },
   {
     "id": "simple-autolink",
@@ -31974,6 +31981,27 @@
     "author": "CHEN",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Read captures from the Shortcuts iCloud inbox, organize them, and save clean Markdown notes into your Obsidian vault.",
     "repo": "cjpnice/obsidian-glint"
+  },
+  {
+    "id": "dualyze-notes",
+    "name": "Dualyze Notes",
+    "author": "DualyzeAI",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Find similar notes and create safe merge drafts in Obsidian.",
+    "repo": "dualyze-ai/dualyze-notes"
+  },
+  {
+    "id": "epub-reader-with-tts",
+    "name": "EPUB Reader with TTS",
+    "author": "usero2-endofday",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Read EPUB files with cross-platform System TTS.",
+    "repo": "usero2/obsidian-plugins-epub-reader-with-tts"
+  },
+  {
+    "id": "task-manager-bases-view",
+    "name": "Task Manager Bases View",
+    "author": "vastea",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Kanban, timeline and weekly-log views for tasks stored in your notes, powered by Bases.",
+    "repo": "vastea/obsidian-task-manager-bases-view"
   },
   {
     "id": "react-kanban",
