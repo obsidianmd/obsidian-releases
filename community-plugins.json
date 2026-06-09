@@ -24325,6 +24325,13 @@
     "repo": "hyungyunlim/obsidian-naver-blog-importer"
   },
   {
+    "id": "semantic-vault-mcp",
+    "name": "Semantic Notes Vault MCP",
+    "author": "Aaron Bockelie",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Give Claude Desktop and other AI assistants semantic access to your notes through a built-in Model Context Protocol (MCP) server.",
+    "repo": "aaronsb/obsidian-mcp-plugin"
+  },
+  {
     "id": "co-intelligence",
     "name": "Co-Intelligence AI",
     "author": "epistemic-technology",
@@ -28007,6 +28014,13 @@
     "repo": "isragdd12/simple-progressbar"
   },
   {
+    "id": "web-novel-assistant",
+    "name": "WebNovel Assistant",
+    "author": "HatanoChihiro",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Track word count, writing goals, focus time, and manage foreshadowing for Chinese web novel writing with OBS streaming overlay support.",
+    "repo": "hatanochihiro/obsidian-webnovel-assistant"
+  },
+  {
     "id": "ghost-publish",
     "name": "Ghost Publish",
     "author": "Sébastien Dubois",
@@ -28131,6 +28145,13 @@
     "author": "Marten Tietje",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Create notes from inline text with tag-driven templates. Add inline fields, get autocomplete suggestions, and convert lines to linked notes with frontmatter.",
     "repo": "marten-ti/obsidian-tagline"
+  },
+  {
+    "id": "randomness",
+    "name": "Randomness",
+    "author": "obsidian-ttrpg-community",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Random generator engine. Render `randomness` codeblocks inline with rich text output, plus support for legacy Inspiration Pad Pro 3 .ipt files.",
+    "repo": "obsidian-ttrpg-community/Randomness"
   },
   {
     "id": "seafile-continued",
@@ -29288,6 +29309,13 @@
     "repo": "rafaelmehdiyev/obsidian-reference-note"
   },
   {
+    "id": "vaultdex",
+    "name": "VaultDex",
+    "author": "Reggie86",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Relevance-scored full-text vault search with PARA filtering, folder scoping, phrase and AND operators.",
+    "repo": "reggie86/vaultdex"
+  },
+  {
     "id": "gallery-view",
     "name": "Gallery View",
     "author": "mkshp-dev",
@@ -29335,13 +29363,6 @@
     "author": "callumalpass",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Local-first, file-based agent inbox for typed requests and responses.",
     "repo": "callumalpass/pickle-obsidian"
-  },
-  {
-    "id": "kandyban",
-    "name": "Kandyban",
-    "author": "Dan Seaman",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Kanban view over markdown-based project backlog and milestones. Reads bold-key metadata directly, lets you drag cards between status columns, edit enums inline, and writes changes back",
-    "repo": "dseaman/Kandyban"
   },
   {
     "id": "combat-ledger",
@@ -31423,6 +31444,13 @@
     "repo": "ichaly/obsync"
   },
   {
+    "id": "analogy-rag-in-your-vault",
+    "name": "Analogy - RAG in your vault",
+    "author": "liaocaoxuezhe",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Search your vault semantically with local vector embeddings and expose RAG search to MCP clients.",
+    "repo": "liaocaoxuezhe/obsidian-extension"
+  },
+  {
     "id": "simple-autolink",
     "name": "Simple Auto-Link",
     "author": "abgmgp",
@@ -31577,6 +31605,13 @@
     "repo": "jaliriogbarrios19/SupSync"
   },
   {
+    "id": "handwriting-pdf",
+    "name": "Handwriting PDF",
+    "author": "Neurocloud",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Convert handwritten PDF notes into formatted Markdown with Gemini document understanding.",
+    "repo": "neurocloud-activate/Handwriting-PDF"
+  },
+  {
     "id": "yunseul",
     "name": "Yunseul",
     "author": "zaemyung",
@@ -31624,6 +31659,13 @@
     "author": "gurnoor-rana",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Reads open PDF files aloud using the Web Speech API. Includes play, pause, stop, skip controls, speed adjustment, voice selection, and click-to-start.",
     "repo": "gurnoorrana/Obsidian-pdf-read-aloud"
+  },
+  {
+    "id": "graphnosis",
+    "name": "Graphnosis",
+    "author": "Nelu Lazar",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Indexed, local, encrypted job memory for your vault, powered by Graphnosis.",
+    "repo": "nehloo/graphnosis-obsidian-plugin"
   },
   {
     "id": "dream-journal",
@@ -31906,18 +31948,18 @@
     "repo": "viggomeesters/obsidian-sql-viewer"
   },
   {
-    "id": "nextcloud-sync",
-    "name": "Nextcloud Sync",
-    "author": "Daisuke ITO",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Bidirectional sync between Obsidian and Nextcloud using hash-based change detection.",
-    "repo": "siosig/obsidian-nextcloudsync"
-  },
-  {
     "id": "minimal-hidden-files",
     "name": "Minimal Hidden Files",
     "author": "Viggo Meesters",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Reveal safe dotfiles and dotfolders in Obsidian's native File Explorer.",
     "repo": "viggomeesters/obsidian-minimal-hidden-files"
+  },
+  {
+    "id": "git-viewer",
+    "name": "Git Viewer",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Lightweight Git status viewer with explicit selected-file commits. No pull, clone, branch management, push, discard, or reset.",
+    "repo": "viggomeesters/obsidian-git-viewer"
   },
   {
     "id": "hybrid-search",
@@ -32079,5 +32121,19 @@
     "author": "ducktapekiller",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Add events to your calendar with a beautiful timeline view. Features recurring events, time support, and visual day highlights. Works alongside the Calendar plugin.",
     "repo": "ducktapekiller/memento"
+  },
+  {
+    "id": "selection-format-toolbar",
+    "name": "Selection Format Toolbar",
+    "author": "Avinash",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Shows a floating formatting toolbar when you select text: bold, italic, headings 1-6, and multi-color highlighting.",
+    "repo": "avinashingit/selection-format-toolbar"
+  },
+  {
+    "id": "folder-reader",
+    "name": "Folder Reader",
+    "author": "Arseniy Seroka",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Read all notes in a folder together as one continuous scrolling view.",
+    "repo": "jagajaga/obsidian-folder-reader"
   }
 ]
