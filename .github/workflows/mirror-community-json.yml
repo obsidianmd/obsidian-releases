@@ -172,6 +172,14 @@ jobs:
           echo "$PLUGINS_DIFF"
           echo "$THEMES_DIFF"
 
+          # Expose added/removed counts for the commit message.
+          {
+            echo "PLUGINS_ADDED=$(jq -r '.added' <<< "$PLUGINS_DIFF")"
+            echo "PLUGINS_REMOVED=$(jq -r '.removed' <<< "$PLUGINS_DIFF")"
+            echo "THEMES_ADDED=$(jq -r '.added' <<< "$THEMES_DIFF")"
+            echo "THEMES_REMOVED=$(jq -r '.removed' <<< "$THEMES_DIFF")"
+          } >> "$GITHUB_ENV"
+
           {
             echo "### Mirror diff summary"
             echo ""
@@ -201,7 +209,7 @@ jobs:
           git config --local user.name  'Obsidian Bot'
           git config --local user.email 'admin@obsidian.md'
           git add "$PLUGINS_FILE" "$THEMES_FILE"
-          git commit -m "chore: Mirror community plugins and themes"
+          git commit -m "chore: Mirror community plugins and themes (-${PLUGINS_REMOVED}/+${PLUGINS_ADDED} plugins, -${THEMES_REMOVED}/+${THEMES_ADDED} themes)"
           git push
 
       - name: Report failure as issue
