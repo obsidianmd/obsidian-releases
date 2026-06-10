@@ -13833,7 +13833,7 @@
   },
   {
     "id": "plugin-update-locker",
-    "name": "Plugin Update Locker",
+    "name": "Update Locker",
     "author": "lemon695",
     "description": "Prevent specific plugins from being updated",
     "repo": "lemon695/obsidian-plugin-update-locker"
@@ -22204,6 +22204,13 @@
     "repo": "kharbacheuski/obsidian-notes-dashboard"
   },
   {
+    "id": "timelink",
+    "name": "TimeLink",
+    "author": "korioinc",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Kanban board, calendar, and timeline views with linked event notes.",
+    "repo": "korioinc/obsidian-timelink"
+  },
+  {
     "id": "copy-embed-url",
     "name": "Copy Embed Code",
     "author": "dustinho",
@@ -23723,13 +23730,6 @@
     "repo": "qingruikz/image-previewer"
   },
   {
-    "id": "intelligence-assistant",
-    "name": "Intelligence Assistant",
-    "author": "qwai-tech",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. AI chat, agents, and MCP tooling for your notes.",
-    "repo": "qwai-tech/obsidian-plugin-intelligence-assistant"
-  },
-  {
     "id": "open-in-ide",
     "name": "Open in IDE",
     "author": "Erik-Jan",
@@ -24969,6 +24969,13 @@
     "repo": "spenhos/obsidian-diacritics-free-search"
   },
   {
+    "id": "vault-hub",
+    "name": "Vault Hub",
+    "author": "maws7140",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Publish CSS snippets, notes, and templates to the Vault Hub community platform.",
+    "repo": "maws7140/vault-hub-plugin"
+  },
+  {
     "id": "image-gin",
     "name": "Image Gin",
     "author": "lossless-group",
@@ -24995,6 +25002,13 @@
     "author": "tonylee2016",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Cleans up web-clipped notes (Evernote, Reddit, Zhihu, etc.): repairs broken resource links and shrinks oversized header favicons, avatars, and UI icons.",
     "repo": "tonylee2016/obsidian-import-fixer"
+  },
+  {
+    "id": "writing-studio",
+    "name": "Writing Studio",
+    "author": "Don Pucik",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A professional writing environment with Focus Mode, Writing Binder, Sprint Timer, WordPress publishing, Folder Sidebar Explorer, and more.",
+    "repo": "writerp-777/obsidian-writing-studio"
   },
   {
     "id": "alchemist",
@@ -27727,13 +27741,6 @@
     "repo": "moszinet/mail2note-obsidian-plugin"
   },
   {
-    "id": "gantt-calendar",
-    "name": "Gantt Calendar",
-    "author": "Sugar",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A powerful visual task management plugin. Visualize and manage tasks created by the Tasks plugin, supporting both emoji and Dataview task formats. Support Feishu Task syncing.",
-    "repo": "sustcsugar/obsidian-gantt-calendar"
-  },
-  {
     "id": "simple-draw",
     "name": "SimpleDraw",
     "author": "whiteandgrey",
@@ -28420,13 +28427,6 @@
     "repo": "leonyew-ley/obsidian-artifact-embed"
   },
   {
-    "id": "beauty-diagram",
-    "name": "Beauty Diagram",
-    "author": "Beauty Diagram",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Beautify Mermaid and PlantUML diagrams with 9 polished themes. Dark-mode friendly, per-block theme override, portable image output. No setup.",
-    "repo": "beauty-diagram/obsidian-beauty-diagram"
-  },
-  {
     "id": "tare-money",
     "name": "Tare Money",
     "author": "Kalpit Jain",
@@ -28873,6 +28873,13 @@
     "author": "Nikita Gaziev",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Adds a chart layout to bases so you can display notes as interactive bar or line charts.",
     "repo": "zobweyt/obsidian-charts"
+  },
+  {
+    "id": "autolink-keywords",
+    "name": "Linkosaurus",
+    "author": "polygonhunter",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically converts keywords into Obsidian wikilinks as you type.",
+    "repo": "polygonhunter/linkosaurus"
   },
   {
     "id": "writing-habit",
@@ -29468,13 +29475,6 @@
     "author": "Max",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault to Spectacles AR glasses to explore your notes as a 3D knowledge graph.",
     "repo": "r3d5/obsidian-spectacles-sync"
-  },
-  {
-    "id": "bullet",
-    "name": "Bullet",
-    "author": "kdnk",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Work with your lists like in Workflowy or RoamResearch.",
-    "repo": "kdnk/obsidian-bullet"
   },
   {
     "id": "manuscript-outliner",
@@ -30324,13 +30324,6 @@
     "repo": "deemsd/calendar-heatmap"
   },
   {
-    "id": "reasonian",
-    "name": "Reasonian",
-    "author": "Reasonian",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Embeds Reasonix (DeepSeek) as an AI collaborator in your vault. Full agentic capabilities: file read/write, search, bash commands, and multi-step workflows.",
-    "repo": "reject-reality/Reasonian"
-  },
-  {
     "id": "routine-streaks",
     "name": "Routine Streaks",
     "author": "Taehyun A. Kim",
@@ -30693,6 +30686,13 @@
     "author": "AstonDky66",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync and back up vault changes using Git.",
     "repo": "astondky/obsidian-local-git-sync"
+  },
+  {
+    "id": "morse-translator",
+    "name": "Morse Translator",
+    "author": "shangchengwen",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Enter Morse code in a floating window, translate it in real time, and insert it into the document.",
+    "repo": "shangchengwen/obsidian-morse-translator"
   },
   {
     "id": "narrative-canvas",
@@ -31267,6 +31267,13 @@
     "author": "doge-liang",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Embed, preview, and edit draw.io diagrams directly in your notes.",
     "repo": "doge-liang/obsidian-drawio"
+  },
+  {
+    "id": "jot",
+    "name": "Jot",
+    "author": "Ben Verbeken",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Annotate PDFs with your Apple Pencil. Strokes save to a JSON sidecar; the PDF is never modified.",
+    "repo": "bverbeken/jot"
   },
   {
     "id": "svg-canvas-editor",
