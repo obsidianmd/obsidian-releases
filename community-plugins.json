@@ -20426,13 +20426,6 @@
     "repo": "ryanbbrown/obsidian-drift"
   },
   {
-    "id": "x-bookmarks-sync",
-    "name": "X Bookmarks Sync",
-    "author": "feinix",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Save your X (Twitter) bookmarks as structured Markdown notes, with selective import, incremental sync, and no API key needed.",
-    "repo": "hfknight/x-bookmarks-sync"
-  },
-  {
     "id": "claude-code-ide",
     "name": "Claude Code IDE",
     "author": "petersolopov",
@@ -29960,6 +29953,13 @@
     "repo": "jaycelu/Smart-Review"
   },
   {
+    "id": "made-up-words",
+    "name": "Made Up Words",
+    "author": "obsidian-ttrpg-community",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A dictionary for the words you've made up. Browse, search, and look up your invented vocabulary across multiple languages, with hover tooltips and a side-panel lexicon.",
+    "repo": "obsidian-ttrpg-community/Made-Up-Words"
+  },
+  {
     "id": "english-learning-assistant",
     "name": "English Learning Assistant",
     "author": "LQ",
@@ -30238,6 +30238,13 @@
     "author": "Yuto Takagi",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Record system audio (Zoom, Meet, Teams) and save as M4A in your vault",
     "repo": "yut0takagi/obsidian-system-recording"
+  },
+  {
+    "id": "table-formatter",
+    "name": "Table Formatter",
+    "author": "fangface-hub",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Formats Markdown tables when files are saved.",
+    "repo": "fangface-hub/obsidian_table_formatter"
   },
   {
     "id": "calendar-hub",
@@ -30961,6 +30968,13 @@
     "repo": "oireht/unified-shopping-list-sorter"
   },
   {
+    "id": "section-meter",
+    "name": "Section Meter",
+    "author": "Martino Wong",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Shows stats (wordcount, reading time) beside headings and in the status bar",
+    "repo": "martinowong/obsidian-section-meter"
+  },
+  {
     "id": "sillage",
     "name": "Sillage",
     "author": "hansenje",
@@ -31654,13 +31668,6 @@
     "repo": "anshusrathe/nexus-lm"
   },
   {
-    "id": "kogcat",
-    "name": "KogCat",
-    "author": "uv",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Calibrate your thinking against a knowledge base of cognitive biases, anti-patterns, and contradictions with your past notes.",
-    "repo": "kogcat/obsidian-kogcat"
-  },
-  {
     "id": "find-n-replace",
     "name": "Find-n-Replace",
     "author": "gapmiss",
@@ -32200,13 +32207,6 @@
     "repo": "javatutor-ru/obsidian-cyrillic-non-latin-tags"
   },
   {
-    "id": "siyuan-code-blocks",
-    "name": "Siyuan-style Code Blocks",
-    "author": "Patrick",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Siyuan-like code blocks with a language pill (click-to-pick dropdown), hover copy button, smart Ctrl/Cmd+A, Chinese punctuation trigger (···→code block), customizable appearance, and bilingual UI (zh/en).",
-    "repo": "perinchiang/obsidian-smart-code-blocks"
-  },
-  {
     "id": "semantic-backlinks",
     "name": "Semantic Backlinks",
     "author": "Brightwav3",
@@ -32298,6 +32298,13 @@
     "repo": "obsidian-ttrpg-community/player-facing-notes"
   },
   {
+    "id": "sharetron",
+    "name": "Sharetron",
+    "author": "Habit Labs",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Send notes directly to messages or email in one click",
+    "repo": "habit-labs/Sharetron"
+  },
+  {
     "id": "forest-syntactic-trees",
     "name": "Syntactic Trees in Forest",
     "author": "Lucianski",
@@ -32315,7 +32322,7 @@
     "id": "native-powerpoint-doc-editor",
     "name": "Native PowerPoint Doc Editor",
     "author": "Marwan Luay",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Open, search, and edit DOCX and PPTX files directly in your vault.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Open, view, and edit DOCX and PPTX files directly in your vault.",
     "repo": "marsluay/NativePowerPointDocEditor"
   },
   {
@@ -32359,5 +32366,12 @@
     "author": "Vectorize",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your notes into a Hindsight memory bank and chat with an AI agent that answers from your vault and cites the source notes. Obsidian stays your single source of truth.",
     "repo": "vectorize-io/hindsight-obsidian"
+  },
+  {
+    "id": "tandem-comments",
+    "name": "Tandem Comments",
+    "author": "Leon Pawelzik",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Google Docs-style comments for Markdown notes. Quote-anchored threads in a fenced block at the end of the file, so your prose stays untouched and AI assistants can read and write them too.",
+    "repo": "leonpawelzik/obsidian-tandem-comments"
   }
 ]
