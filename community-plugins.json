@@ -3621,7 +3621,7 @@
   {
     "id": "obsidian-group-snippets",
     "name": "Group Snippets",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Create folder of snippets to activate them in one click!",
     "repo": "mara-li/obsidian-group-snippets"
   },
@@ -4699,7 +4699,7 @@
   {
     "id": "canvas-css-class",
     "name": "Canvas CSS class",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Add a CSS class to the canvas, but also other attributes.",
     "repo": "mara-li/obsidian-canvas-css-class"
   },
@@ -5077,7 +5077,7 @@
   {
     "id": "create-note-in-folder",
     "name": "Create Note in Folder",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Add commands to create a note in a specific folder.",
     "repo": "mara-li/obsidian-create-note-in-folder"
   },
@@ -5875,7 +5875,7 @@
   {
     "id": "open-plugin-settings",
     "name": "Open Plugin Settings",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Create a command to open a specified plugin settings.",
     "repo": "mara-li/obsidian-open-settings"
   },
@@ -8164,7 +8164,7 @@
   {
     "id": "better-canvas-lock",
     "name": "Better Canvas Lock",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Enhance the read-only mode in Canvas with fully lock the scroll, zoom, drag-and-drop in read-only!",
     "repo": "mara-li/obsidian-better-canvas-lock"
   },
@@ -8780,7 +8780,7 @@
   {
     "id": "enhanced-copy",
     "name": "Enhanced Copy",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Copy your selection and add it some edit to paste in other markdown software. Allows to keep markdown in reading view, removing wikilinks in editing, copy from locked canvas, and more!",
     "repo": "mara-li/obsidian-enhanced-copy"
   },
@@ -11034,7 +11034,7 @@
   {
     "id": "regex-mark",
     "name": "Regex Mark",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Add custom CSS classes to text based on regular expressions.",
     "repo": "mara-li/obsidian-regex-mark"
   },
@@ -11083,7 +11083,7 @@
   {
     "id": "explorer-hider",
     "name": "Explorer Hider",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Hide a file or a folder from the explorer (and bookmarks) using a little bit of auto-managed CSS.",
     "repo": "mara-li/obsidian-explorer-hider"
   },
@@ -12273,7 +12273,7 @@
   {
     "id": "shortcut-edit-mode",
     "name": "Edit mode switch",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Add a button in the file header, in edit mode, to switch between source and live-preview.",
     "repo": "mara-li/obsidian-edit-shortcut"
   },
@@ -14121,7 +14121,7 @@
   {
     "id": "context-command-hider",
     "name": "Context Command Hider",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Hide any command from the right-click menu.",
     "repo": "mara-li/obsidian-context-menu-hider"
   },
@@ -14513,7 +14513,7 @@
   {
     "id": "symbol-linking",
     "name": "Symbol linking",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Adds ability to link with any trigger. Each trigger can limit linking to specific folders or file.",
     "repo": "mara-li/obsidian-symbol-linking"
   },
@@ -14709,7 +14709,7 @@
   {
     "id": "my-thesaurus",
     "name": "My Thesaurus",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Automagically adds tags based on a simple csv file or a Markdown table.",
     "repo": "mara-li/obsidian-my-thesaurus"
   },
@@ -15927,7 +15927,7 @@
   {
     "id": "simple-colored-folder",
     "name": "Simple Colored Folder",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Automagically add color to roots folders, and customize it with Style Settings.",
     "repo": "mara-li/obsidian-simple-colored-folder"
   },
@@ -16501,7 +16501,7 @@
   {
     "id": "alpha-bullet",
     "name": "Alpha Bullet",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Sorts bulleted lists alphabetically.",
     "repo": "mara-li/obsidian-alpha-bullet"
   },
@@ -16718,7 +16718,7 @@
   {
     "id": "dataview-properties",
     "name": "Dataview to Properties",
-    "author": "mara-li",
+    "author": "Mara",
     "description": "Automagically copy dataview inline field (and their values, even calculated!) into frontmatter properties and keep them sync.",
     "repo": "mara-li/obsidian-dataview-properties"
   },
@@ -18298,11 +18298,25 @@
     "repo": "santiyounger/wpm-reading-time"
   },
   {
+    "id": "file-explorer-reload",
+    "name": "File Explorer Reload",
+    "author": "mnaoumov",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Reloads file explorer pane",
+    "repo": "mnaoumov/obsidian-file-explorer-reload"
+  },
+  {
     "id": "fix-tab-size",
     "name": "Fix Tab Size",
     "author": "mnaoumov",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Fixes tab size according to the settings.",
     "repo": "mnaoumov/obsidian-fix-tab-size"
+  },
+  {
+    "id": "nested-properties",
+    "name": "Nested Properties",
+    "author": "mnaoumov",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Allows to view/edit nested frontmatter properties.",
+    "repo": "mnaoumov/obsidian-nested-properties"
   },
   {
     "id": "vault-as-mcp",
@@ -18373,13 +18387,6 @@
     "author": "threeyang3",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your Bangumi collections to notes with episode tracking, control panel, and batch editing.",
     "repo": "threeyang3/bangumi-sync"
-  },
-  {
-    "id": "zone-scroll-zoom",
-    "name": "Zone Scroll Zoom",
-    "author": "kqint",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Zoom where your mouse is — font in editor, interface elsewhere.",
-    "repo": "kqint/obsidian-zone-scroll-zoom"
   },
   {
     "id": "rodin-export",
@@ -19661,6 +19668,41 @@
     "author": "sprice",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your Zotero library into structured literature notes with zero configuration.",
     "repo": "sprice/stratum-obsidian"
+  },
+  {
+    "id": "arcadia-toolbar",
+    "name": "Arcadia Toolbar",
+    "author": "arcadia-studio",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Word-processor-style ribbon toolbar with tabs for formatting, insertion, and navigation controls.",
+    "repo": "arcadia-studio/obsidian-arcadia-toolbar"
+  },
+  {
+    "id": "arcadia-publisher",
+    "name": "Arcadia Publisher",
+    "author": "arcadia-studio",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Publish notes as HTML, PDF, and ePub with customizable themes and templates.",
+    "repo": "arcadia-studio/obsidian-arcadia-publisher"
+  },
+  {
+    "id": "arcadia-projects",
+    "name": "Arcadia Projects",
+    "author": "arcadia-studio",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Multi-view project management: Table and Kanban views over your vault notes with filtering and sorting.",
+    "repo": "arcadia-studio/obsidian-arcadia-projects"
+  },
+  {
+    "id": "arcadia-hub",
+    "name": "Arcadia Hub",
+    "author": "arcadia-studio",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. GitHub integration: browse issues, pull requests, and repos from your notes. Create issues directly from note content.",
+    "repo": "arcadia-studio/obsidian-arcadia-hub"
+  },
+  {
+    "id": "arcadia-connect",
+    "name": "Arcadia Connect",
+    "author": "arcadia-studio",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Personal CRM: @-mention contacts in notes, log interactions, manage a deal pipeline, and get AI-powered follow-up suggestions.",
+    "repo": "arcadia-studio/obsidian-arcadia-connect"
   },
   {
     "id": "urso",
@@ -26143,13 +26185,6 @@
     "author": "Sdesuyo",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Convert handwritten notes and images to searchable text using AI Vision APIs (Gemini / Claude). Note: images are sent to external APIs (Google / Anthropic).",
     "repo": "sdesuyo/obsidian-tegaki"
-  },
-  {
-    "id": "holos",
-    "name": "Holos",
-    "author": "caasion",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Bridge the gap between your calendar and daily planning by creating a long-range plan for what you do everyday.",
-    "repo": "caasion/holos"
   },
   {
     "id": "bunny-publisher",
@@ -32646,5 +32681,19 @@
     "author": "Eason596",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Render VuePress Theme Plume markdown containers (file-tree, tabs, steps, cards, and more) in Obsidian.",
     "repo": "eason596/obsidian-theme-plume"
+  },
+  {
+    "id": "antinomia",
+    "name": "Antinomia",
+    "author": "Giuseppe De Martino",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Map and work through the contradictions in your vault: tensions, tradeoffs, and conflicting goals organized in 5 layers via frontmatter, with an AI Contradiction Hunter and PDF concept extraction. Works with cloud APIs or fully local models.",
+    "repo": "demartinogiuseppe/antinomia"
+  },
+  {
+    "id": "annoteca",
+    "name": "Annoteca",
+    "author": "Charles Kelsoe",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Categorized inline feedback comments for long-form markdown documents. Plain HTML storage, threaded AI conversations, readable by humans and any AI assistant. Works on desktop and mobile.",
+    "repo": "ckelsoe/obsidian-annoteca"
   }
 ]
