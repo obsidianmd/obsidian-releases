@@ -18553,7 +18553,7 @@
     "id": "video-embed",
     "name": "Media Embed",
     "author": "punkyard",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically converts pasted YouTube links into your preferred embed style on an empty line.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically converts pasted media links into your preferred embed format on an empty line.",
     "repo": "punkyard/obsidian-video-embed"
   },
   {
@@ -20373,7 +20373,7 @@
     "id": "air-sync",
     "name": "Air Sync",
     "author": "takezoh",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault with cloud storage (Google Drive, Dropbox).",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault with cloud storage (Google Drive, Dropbox, OneDrive).",
     "repo": "takezoh/obsidian-air-sync"
   },
   {
@@ -21922,6 +21922,13 @@
     "author": "pyh1107",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Password-protect individual notes with per-file idle auto-lock.",
     "repo": "pyh1107/obsidian-note-lock"
+  },
+  {
+    "id": "dragger",
+    "name": "Dragger",
+    "author": "ariestar",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Drag and drop any block (paragraphs, headings, lists, etc.) to rearrange content like Notion.",
+    "repo": "ariestar/obsidian-dragger"
   },
   {
     "id": "wonderland",
@@ -26164,6 +26171,13 @@
     "author": "Sdesuyo",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Convert handwritten notes and images to searchable text using AI Vision APIs (Gemini / Claude). Note: images are sent to external APIs (Google / Anthropic).",
     "repo": "sdesuyo/obsidian-tegaki"
+  },
+  {
+    "id": "holos",
+    "name": "Holos",
+    "author": "caasion",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Bridge the gap between your calendar and daily planning by creating a long-range plan for what you do everyday.",
+    "repo": "caasion/holos"
   },
   {
     "id": "bunny-publisher",
@@ -32319,6 +32333,13 @@
     "repo": "callumalpass/canvas-bases"
   },
   {
+    "id": "index-cards",
+    "name": "Index Cards",
+    "author": "Live A Quiet Life",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A card-based note-taking system for research and study. Capture ideas and reading notes on virtual index cards, organized into projects and categories.",
+    "repo": "liveaquietlife/obsidian-index-cards"
+  },
+  {
     "id": "lugji",
     "name": "Lugji",
     "author": "Lugji",
@@ -32508,6 +32529,13 @@
     "repo": "gapmiss/dired"
   },
   {
+    "id": "pds-sync",
+    "name": "PDS Sync",
+    "author": "moshyfawn",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault to an atproto PDS",
+    "repo": "moshyfawn/obsidian-pds-sync"
+  },
+  {
     "id": "heading-autolink",
     "name": "Heading Autolink",
     "author": "jaewone",
@@ -32614,10 +32642,17 @@
   },
   {
     "id": "wechatreading-highlights",
-    "name": "WeChat Reading Highlights Sync",
+    "name": "Wechat Reading",
     "author": "EricZheng",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync WeChat Reading shelf, highlights, notes, and reading stats to Markdown notes.",
     "repo": "ezdever/obsidian-wechatreading-highlights-sync"
+  },
+  {
+    "id": "inline-annotation",
+    "name": "Inline Annotation",
+    "author": "Baksi Li",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render Inline Annotation ruby, bouten, underline, and two-slot annotations in reading view.",
+    "repo": "baksili/obsidian-inline-annotation"
   },
   {
     "id": "owen-wiki",
