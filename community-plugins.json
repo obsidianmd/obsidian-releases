@@ -17433,7 +17433,7 @@
     "id": "ai-agent",
     "name": "AI Agent",
     "author": "Manuel Magaña",
-    "description": "Empower your vault with Google Gemini. This AI agent integrates Google's artificial intelligence language models to help you perform tasks and conduct web searches.",
+    "description": "Lend your vault to an AI agent. It can read, write, and search your notes.",
     "repo": "themanuelml/obsidian-agent"
   },
   {
@@ -23791,6 +23791,13 @@
     "author": "qingruikz",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A powerful image viewer. Features include zooming, panning, rotating, flipping, and grayscale toggle.",
     "repo": "qingruikz/image-previewer"
+  },
+  {
+    "id": "intelligence-assistant",
+    "name": "Intelligence Assistant",
+    "author": "qwai-tech",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI chat, agents, and MCP tooling for your notes.",
+    "repo": "qwai-tech/obsidian-plugin-intelligence-assistant"
   },
   {
     "id": "open-in-ide",
@@ -30299,7 +30306,7 @@
     "id": "share-to-save",
     "name": "Share to Save",
     "author": "chenxiccc",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Save shared web content to your vault. Share URLs from mobile, download and save as Markdown notes on desktop.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Capture web content into your vault. Share from mobile, paste a URL, or jot down text — saved as Markdown instantly.",
     "repo": "chenxiccc/Obsidian-Share-to-Save"
   },
   {
@@ -30889,6 +30896,13 @@
     "author": "Leonardo Galves",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Plain text accounting plugin for Obsidian, using hledger.",
     "repo": "lsgalves/hledger-obsidian"
+  },
+  {
+    "id": "timeline-calendar",
+    "name": "Timeline Calendar",
+    "author": "zen",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A clean timeline calendar with grid-aligned time labels for daily notes and tasks.",
+    "repo": "deemsd/timeline-calendar"
   },
   {
     "id": "music-pro",
@@ -32501,10 +32515,45 @@
     "repo": "jaewone/heading-autolink"
   },
   {
+    "id": "kzyiym-inbox-curator",
+    "name": "Inbox Curator",
+    "author": "Kazuya Iyama",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Review, summarize, and organize your inbox notes with AI.",
+    "repo": "kzyiym/inbox-curator"
+  },
+  {
     "id": "tugtile",
     "name": "tugtile",
     "author": "CVER Inc.",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A card table for your Markdown notes — tug tiles to reorder. Reads your existing kanban boards. CJK-friendly.",
     "repo": "cverinc/tugtile"
+  },
+  {
+    "id": "marktile",
+    "name": "marktile",
+    "author": "CVER Inc.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A Markdown editor where the markers never hide — headings grow while ## stays put. Pairs with tugtile. CJK-friendly.",
+    "repo": "cverinc/marktile"
+  },
+  {
+    "id": "ob-epub-reader",
+    "name": "EPUB Marginalia",
+    "author": "chengshans",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Read EPUB files with TOC, highlights, margin notes, excerpts, and AI integration.",
+    "repo": "chengshans/ob-epub-reader"
+  },
+  {
+    "id": "good-bases",
+    "name": "GoodBases",
+    "author": "UmbertoFrancesco",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A Bases table view styled to match Notion databases: hover UI, OPEN buttons, and colored tag pills.",
+    "repo": "francescoumberto/GoodBases"
+  },
+  {
+    "id": "habit-dashboard",
+    "name": "Habit Dashboard",
+    "author": "hazel",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Daily dashboard for desktop and mobile: events, data logs, tasks, check-ins, moments, monthly plans, and quick links.",
+    "repo": "ghh-l-djl/obsidian-habit-dashboard"
   }
 ]
