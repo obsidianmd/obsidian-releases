@@ -20485,7 +20485,7 @@
     "id": "music-catalog",
     "name": "Music Catalog",
     "author": "Jim Parrillo",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Scan a CD or vinyl UPC barcode to automatically create a catalogued note with metadata and cover image, queryable via Bases.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Scan a CD or vinyl UPC barcode or search manually to automatically create a catalogued note with metadata and cover image, queryable via Bases.",
     "repo": "jimparrillo/obsidian-music-catalog"
   },
   {
@@ -28084,6 +28084,13 @@
     "repo": "isragdd12/simple-progressbar"
   },
   {
+    "id": "web-novel-assistant",
+    "name": "WebNovel Assistant",
+    "author": "HatanoChihiro",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Track word count, writing goals, focus time, and manage foreshadowing for Chinese web novel writing with OBS streaming overlay support.",
+    "repo": "hatanochihiro/obsidian-webnovel-assistant"
+  },
+  {
     "id": "ghost-publish",
     "name": "Ghost Publish",
     "author": "Sébastien Dubois",
@@ -28201,13 +28208,6 @@
     "author": "enthusjast",
     "description": "This plugin has not been manually reviewed by Obsidian staff. 自动将中文标点转化为对应的英文标点. Automatically convert Chinese punctuation to corresponding English punctuation.",
     "repo": "enthusjast/obsidian-punctuation-converter"
-  },
-  {
-    "id": "tagline",
-    "name": "Tagline",
-    "author": "Marten Tietje",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Create notes from inline text with tag-driven templates. Add inline fields, get autocomplete suggestions, and convert lines to linked notes with frontmatter.",
-    "repo": "marten-ti/obsidian-tagline"
   },
   {
     "id": "randomness",
@@ -30219,13 +30219,6 @@
     "repo": "threem-mmm/note-illustrator"
   },
   {
-    "id": "simple-checklist",
-    "name": "Simple Checklist",
-    "author": "Lasse",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Side panel showing all open todos across your vault.",
-    "repo": "l-4553/obsidian-simple-checklist"
-  },
-  {
     "id": "md-image-manager",
     "name": "Markdown Image Manager",
     "author": "imulan",
@@ -30588,13 +30581,6 @@
     "author": "kenan",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Browse folder notes as a warm retro card stream in the left sidebar.",
     "repo": "kenanlian/obsidian-card-workspace"
-  },
-  {
-    "id": "vault-task-planner",
-    "name": "Vault Task Planner",
-    "author": "gionzi",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Aggregates all incomplete tasks from the vault into a monthly timeline view with in-place date editing and write-back to source notes.",
-    "repo": "giacomoleonzi/vault-task-planner-obsidian"
   },
   {
     "id": "quickclip-capture",
@@ -31500,6 +31486,13 @@
     "repo": "kulysocc/obsidian-folder-base-view"
   },
   {
+    "id": "see-also-sidebar",
+    "name": "See Also Sidebar",
+    "author": "David Breece",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Display related notes in a sidebar view using a custom property or using notes with the same tags.",
+    "repo": "davidbreece/obsidian-see-also-sidebar"
+  },
+  {
     "id": "ai-journal-coach",
     "name": "AI Journal Coach",
     "author": "ibrh96-prog",
@@ -32245,8 +32238,15 @@
     "id": "cyrillic-non-latin-tags",
     "name": "Cyrillic and Non-Latin Tags",
     "author": "Kirill Chokparov",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Adds custom CSS classes to tags containing any non-Latin letters (cyrillic, hieroglyphs, diacritics, etc.) in Editing view. Allows customizing non-Latin tags via CSS snippets and third-party plugins.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Adds custom CSS classes to tags containing any non-Latin letters (cyrillic, hieroglyphs, diacritics, etc.) in Editing view. Enables styling non-Latin tags via CSS snippets and third-party plugins.",
     "repo": "javatutor-ru/obsidian-cyrillic-non-latin-tags"
+  },
+  {
+    "id": "siyuan-code-blocks",
+    "name": "Code Block Plus",
+    "author": "Patrick",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Siyuan-like code blocks with a language pill (click-to-pick dropdown), hover copy button, smart Ctrl/Cmd+A, Chinese punctuation trigger (···→code block), customizable appearance, and bilingual UI (zh/en).",
+    "repo": "perinchiang/obsidian-smart-code-blocks"
   },
   {
     "id": "semantic-backlinks",
@@ -32254,6 +32254,13 @@
     "author": "Brightwav3",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Semantic note suggestions and related notes panel powered by local Ollama embeddings (bge-m3).",
     "repo": "brightwav3/semantic-backlinks"
+  },
+  {
+    "id": "attachment-imagebed-manager",
+    "name": "Attachment Imagebed Manager",
+    "author": "Patrick",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Scan local note attachments, upload to S3-compatible storage (R2/AWS S3/MinIO), and replace links safely.",
+    "repo": "perinchiang/obsidian-plugins-attachment-imagebed-manager"
   },
   {
     "id": "git-vault-sync",
@@ -32403,6 +32410,13 @@
     "repo": "fab34/cloudflare-media-sync"
   },
   {
+    "id": "xmind-maps",
+    "name": "XMind Maps",
+    "author": "yuanzhixiang",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. View local XMind files.",
+    "repo": "yuanzhixiang/obsidian-xmind"
+  },
+  {
     "id": "copy-for-email",
     "name": "Copy for Email",
     "author": "HWY1dot0",
@@ -32494,13 +32508,6 @@
     "repo": "gapmiss/dired"
   },
   {
-    "id": "pds-sync",
-    "name": "PDS Sync",
-    "author": "moshyfawn",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync your vault to an atproto PDS",
-    "repo": "moshyfawn/obsidian-pds-sync"
-  },
-  {
     "id": "heading-autolink",
     "name": "Heading Autolink",
     "author": "jaewone",
@@ -32548,6 +32555,13 @@
     "author": "chengshans",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Read EPUB files with TOC, highlights, margin notes, excerpts, and AI integration.",
     "repo": "chengshans/ob-epub-reader"
+  },
+  {
+    "id": "qiuqiu",
+    "name": "Qiuqiu",
+    "author": "ayoyoqiu",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A cute Qiuqiu widget for your Obsidian! Based on Sakana Widget.",
+    "repo": "ayoyoqiu/obsidian-sakana-qiuqiu"
   },
   {
     "id": "good-bases",
@@ -32604,5 +32618,26 @@
     "author": "EricZheng",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sync WeChat Reading shelf, highlights, notes, and reading stats to Markdown notes.",
     "repo": "ezdever/obsidian-wechatreading-highlights-sync"
+  },
+  {
+    "id": "owen-wiki",
+    "name": "Owen Wiki Template",
+    "author": "Owen lee",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Installs and refreshes the Owen-WIKI LLM wiki template kit in an Obsidian vault.",
+    "repo": "towishy/owen-wiki-plugin"
+  },
+  {
+    "id": "book-search-covers",
+    "name": "Book Search + Covers",
+    "author": "lksrpp",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Search books and create notes from a template, with high-resolution covers.",
+    "repo": "lksrpp/obsidian-book-search-covers"
+  },
+  {
+    "id": "theme-plume",
+    "name": "Theme Plume",
+    "author": "Eason596",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Render VuePress Theme Plume markdown containers (file-tree, tabs, steps, cards, and more) in Obsidian.",
+    "repo": "eason596/obsidian-theme-plume"
   }
 ]
