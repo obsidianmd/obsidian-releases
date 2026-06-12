@@ -27867,6 +27867,13 @@
     "repo": "whiteandgrey/obsidian-simpledraw-plugin"
   },
   {
+    "id": "markdown2html",
+    "name": "Content Copy",
+    "author": "blotspot",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Copies a document as HTML or text and saves it to the clipboard.",
+    "repo": "blotspot/obsidian-markdown2html"
+  },
+  {
     "id": "athena",
     "name": "Athena",
     "author": "polleoai",
@@ -28407,7 +28414,7 @@
   },
   {
     "id": "simple-pinned-files",
-    "name": "Simple Pinned Files",
+    "name": "Pinned Files",
     "author": "Matt Maiorana",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A simple, standalone pinned files view for Obsidian.",
     "repo": "mattmaiorana/simple-pinned-files"
@@ -31717,13 +31724,6 @@
     "repo": "xiaoqiang-huang/obsidian-life-os-community"
   },
   {
-    "id": "live-image-editor",
-    "name": "Live Image Editor",
-    "author": "britz",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Edit images non-destructively: crop, rotate, flip, resize, and apply CSS filters live, without modifying the original file.",
-    "repo": "britz/obsidian-live-image-editor"
-  },
-  {
     "id": "logcollector",
     "name": "Logcollector",
     "author": "AwkMan",
@@ -32347,13 +32347,6 @@
     "repo": "javatutor-ru/obsidian-cyrillic-non-latin-tags"
   },
   {
-    "id": "siyuan-code-blocks",
-    "name": "Code Block Plus",
-    "author": "Patrick",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Siyuan-like code blocks with a language pill (click-to-pick dropdown), hover copy button, smart Ctrl/Cmd+A, Chinese punctuation trigger (···→code block), customizable appearance, and bilingual UI (zh/en).",
-    "repo": "perinchiang/obsidian-smart-code-blocks"
-  },
-  {
     "id": "semantic-backlinks",
     "name": "Semantic Backlinks",
     "author": "Brightwav3",
@@ -32754,7 +32747,7 @@
   },
   {
     "id": "inline-annotation",
-    "name": "Inline Annotation",
+    "name": "Inline Ruby Annotation",
     "author": "Baksi Li",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Render Inline Annotation ruby, bouten, underline, and two-slot annotations in reading view.",
     "repo": "baksili/obsidian-inline-annotation"
@@ -32793,6 +32786,13 @@
     "author": "Eason596",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Render VuePress Theme Plume markdown containers (file-tree, tabs, steps, cards, and more) in Obsidian.",
     "repo": "eason596/obsidian-theme-plume"
+  },
+  {
+    "id": "dynamic-file-folder-highlighter",
+    "name": "Dynamic File and Folder Highlighter",
+    "author": "Josh",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Custom colors for files/folders via right-click, YAML frontmatter rules, hierarchy, regex, and conditional highlighting.",
+    "repo": "jsglazer/dynamic-file-folder-highlighter"
   },
   {
     "id": "semantic-reading",
@@ -32984,10 +32984,10 @@
     "repo": "arthursrz/live-anchoring"
   },
   {
-    "id": "link-card-preview",
-    "name": "Link Card Preview",
-    "author": "huangyaoting",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Turn bare URLs into Apple-style rich link cards in Reading view, Live Preview, and Canvas, with adaptive layouts, dominant-color tinting, and offline image caching.",
-    "repo": "groundfic/link-card-preview"
+    "id": "image-peek",
+    "name": "Image Peek",
+    "author": "groundfic",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Quick Look–style image preview. Click an image or press Space to peek, like Finder and Freeform.",
+    "repo": "groundfic/image-peek"
   }
 ]
