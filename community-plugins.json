@@ -27937,13 +27937,6 @@
     "repo": "bfgpollara/obsidian-google-docs-paste"
   },
   {
-    "id": "agentic-git-sync",
-    "name": "Agentic Git Sync",
-    "author": "Jakob He",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Agentic two-way sync for your vault and submodules with GitHub. AI resolves conflicts and git errors autonomously.",
-    "repo": "leweii/agentic-git-sync"
-  },
-  {
     "id": "schedule-calendar",
     "name": "Schedule Calendar",
     "author": "seonggoos",
@@ -28105,6 +28098,13 @@
     "repo": "creagleone/obsidian-iconik"
   },
   {
+    "id": "weave-epub-reader",
+    "name": "Weave EPUB Reader",
+    "author": "zhuzhige123",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Standalone EPUB reader with bookshelf, deep links, and reading state persistence.",
+    "repo": "zhuzhige123/obsidian-weave-reader"
+  },
+  {
     "id": "heic-viewer",
     "name": "HEIC Viewer",
     "author": "Kiara Orquera",
@@ -28250,6 +28250,13 @@
     "author": "enthusjast",
     "description": "This plugin has not been manually reviewed by Obsidian staff. 自动将中文标点转化为对应的英文标点. Automatically convert Chinese punctuation to corresponding English punctuation.",
     "repo": "enthusjast/obsidian-punctuation-converter"
+  },
+  {
+    "id": "randomness",
+    "name": "Randomness",
+    "author": "obsidian-ttrpg-community",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Random generator engine. Render `randomness` codeblocks inline with rich text output, plus support for legacy Inspiration Pad Pro 3 .ipt files.",
+    "repo": "obsidian-ttrpg-community/Randomness"
   },
   {
     "id": "seafile-continued",
@@ -30234,7 +30241,7 @@
   },
   {
     "id": "word-reader",
-    "name": "Word Reader",
+    "name": "Office Reader",
     "author": "shiva",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Open .docx files inside Obsidian as safe, read-only documents.",
     "repo": "qianwei4712/obsidian-word-reader"
@@ -32466,13 +32473,6 @@
     "repo": "lemon695/obsidian-enhancement-suite"
   },
   {
-    "id": "rhwp-editor",
-    "name": "rHWP Editor",
-    "author": "msjang",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Open, create, and edit HWP/HWPX files directly in Obsidian using rhwp.",
-    "repo": "msjang/obsidian-rhwp-editor"
-  },
-  {
     "id": "cloudflare-media-sync",
     "name": "R2 Media Sync",
     "author": "Chiang Shun Fan",
@@ -32632,13 +32632,6 @@
     "author": "CVER Inc.",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A Markdown editor where the markers never hide — headings grow while ## stays put. Pairs with tugtile. CJK-friendly.",
     "repo": "cverinc/marktile"
-  },
-  {
-    "id": "ob-epub-reader",
-    "name": "EPUB Marginalia",
-    "author": "chengshans",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Read EPUB files with TOC, highlights, margin notes, excerpts, and AI integration.",
-    "repo": "chengshans/ob-epub-reader"
   },
   {
     "id": "qiuqiu",
@@ -32872,13 +32865,6 @@
     "repo": "laguna821/hanmark"
   },
   {
-    "id": "vaulttalk",
-    "name": "VaultTalk",
-    "author": "zhenghaoyang24",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered chat assistant in Obsidian sidebar. Stream responses, chat with your entire vault as context, and get answers grounded in your notes. Supports OpenAI-compatible APIs (DeepSeek, OpenAI, etc.",
-    "repo": "zhenghaoyang24/obsidian-plugin-vaulttalk"
-  },
-  {
     "id": "pokemon-pet",
     "name": "Pokemon Pet",
     "author": "aisatsanz",
@@ -32912,13 +32898,6 @@
     "author": "Owen lee",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Zoom, visually edit, and export Mermaid SVG diagrams in Obsidian.",
     "repo": "towishy/owen-mermaid"
-  },
-  {
-    "id": "image-upload-pipeline",
-    "name": "Image Upload Pipeline",
-    "author": "lifeisstrange",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically transform pasted or dropped images, upload them to a configurable API, and insert the returned URL.",
-    "repo": "luckykellan/image-upload-pipeline"
   },
   {
     "id": "trending-digest",
@@ -33010,5 +32989,19 @@
     "author": "Leonardo Ruano",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Concentra toda la información de una épica de producto en un solo lugar: tareas, apuntes, reuniones, pendientes, insumos, historias, sprints y roadmap como notas Markdown dentro del vault.",
     "repo": "leozymandyas/plugin-gestor-funciones"
+  },
+  {
+    "id": "lecture-lens",
+    "name": "Lecture Lens",
+    "author": "Yima",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Turn lecture PDFs and course materials into structured Markdown notes with LLM chat and RAG.",
+    "repo": "yima-gu/obsidian-lecture-lens"
+  },
+  {
+    "id": "ai-switch",
+    "name": "AI Switch",
+    "author": "fengshuzi",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync and prepare AI coding tool configurations for quick model switching.",
+    "repo": "fengshuzi/ai-switch"
   }
 ]
