@@ -29365,6 +29365,13 @@
     "repo": "wsqstar/obsidian-note-highlight"
   },
   {
+    "id": "mnemoloop",
+    "name": "Mnemoloop",
+    "author": "Marco Pozzecco",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Local-first spaced repetition with FSRS scheduling that never touches your notes. Better retention without note pollution.",
+    "repo": "marco-pozzecco/mnemoloop-plugin"
+  },
+  {
     "id": "contextual-guides",
     "name": "Contextual Guides",
     "author": "Charles Chalas",
@@ -29874,6 +29881,13 @@
     "author": "Tomas Gutierrez",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Sort folders A-Z or Z-A",
     "repo": "t0masgutierrez/folder-sort"
+  },
+  {
+    "id": "gallery-view-dashboard",
+    "name": "Gallery View Dashboard",
+    "author": "Kawê Cezar",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Transforms your vault's directory structures into a streamlined grid of card visuals with fallback banners and interactive metadata.",
+    "repo": "kawecz/gallery-view"
   },
   {
     "id": "vir",
@@ -30434,13 +30448,6 @@
     "author": "Arseniy Seroka",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Opt-in publish individual notes or whole folders from Obsidian to a self-hosted Quartz site. Each URL is an unguessable random slug; sharing a file link reveals only that file, sharing a folder link reveals only its bundled notes.",
     "repo": "jagajaga/private-quartz-publish"
-  },
-  {
-    "id": "csvzall",
-    "name": "csvzall",
-    "author": "Vincent La",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A fast CSV viewer, editor, and charting plugin for Obsidian.",
-    "repo": "vincentlaucsb/obsidian-csvzall"
   },
   {
     "id": "calculator-pro",
@@ -33110,6 +33117,27 @@
     "repo": "arunes007/vectrola-sync"
   },
   {
+    "id": "popcorn-md",
+    "name": "Popcorn MD",
+    "author": "4arlz",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Generate and manage movie-related notes in Obsidian using IMDb identifiers or movie titles.",
+    "repo": "vitaliiromanenko/popcorn-md"
+  },
+  {
+    "id": "mdmenu",
+    "name": "mdMenu",
+    "author": "Michael Makarov",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A mini WYSIWYG-style Markdown formatting toolbar.",
+    "repo": "sandsaber/mdMenu"
+  },
+  {
+    "id": "notedraw",
+    "name": "NoteDraw",
+    "author": "Murat / Codex",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Draw and edit directly on Obsidian notes.",
+    "repo": "arias007/notedraw"
+  },
+  {
     "id": "letterhead",
     "name": "Letterhead",
     "author": "Johannes Kaindl",
@@ -33122,5 +33150,26 @@
     "author": "femto",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically scrolls the editor while typing when the cursor reaches a configurable point in the viewport.",
     "repo": "femto-0/auto-scroll"
+  },
+  {
+    "id": "lens",
+    "name": "Lens",
+    "author": "Fred Oliveira",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Examine a note through thinking lenses — challenge, steelman, or concretize an idea with Claude, in a side panel.",
+    "repo": "fredoliveira/obsidian-lens"
+  },
+  {
+    "id": "vaultbuddy",
+    "name": "VaultBuddy",
+    "author": "zhenghaoyang24",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-powered chat assistant that stays in the sidebar. Chats with your entire vault as context, and provides answers grounded in your notes.",
+    "repo": "zhenghaoyang24/obsidian-plugin-vaultbuddy"
+  },
+  {
+    "id": "things-toolkit",
+    "name": "Things Toolkit",
+    "author": "yangcht",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync Things3 completions into daily notes with review stats and privacy-aware macOS access.",
+    "repo": "yangcht/obsidian-things-toolkit"
   }
 ]
