@@ -17769,7 +17769,7 @@
     "id": "ocr-extractor",
     "name": "OCR Extractor",
     "author": "Johnathan Ritzi",
-    "description": "Extract text from PDFs, images, documents, etc. and store it as Markdown in your notes.",
+    "description": "Extract text from attachments and store it as Markdown in your notes.",
     "repo": "jritzi/ocr-extractor"
   },
   {
@@ -24584,6 +24584,13 @@
     "repo": "yllucsyeoj/quackblocks"
   },
   {
+    "id": "wechat-article",
+    "name": "WeChat Article Composer",
+    "author": "frankl1u",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. 基于当前笔记预览公众号样式、生成配图并发布到微信公众号草稿箱.",
+    "repo": "frankl1u/wechat-article-obsidian"
+  },
+  {
     "id": "slick-mermaid",
     "name": "Slick Mermaid",
     "author": "pasevin",
@@ -25198,6 +25205,13 @@
     "author": "Matthew Newton",
     "description": "This plugin has not been manually reviewed by Obsidian staff. An in-depth fitness and workout tracking system for your vault.",
     "repo": "ekrizdis367/obsidian-coach"
+  },
+  {
+    "id": "pantry",
+    "name": "Pantry",
+    "author": "Matthew Newton",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Manage your recipes and generate grocery lists.",
+    "repo": "ekrizdis367/obsidian-pantry"
   },
   {
     "id": "vault-bridge-sftp",
@@ -30506,6 +30520,13 @@
     "repo": "xheldon/Obsidian-Better-Calendar"
   },
   {
+    "id": "regex-css-highlighter",
+    "name": "Regex Css Highlighter",
+    "author": "nilmarko",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Highlight text with regex and apply custom CSS classes.",
+    "repo": "dlsdgj/obsidian-regex-css-highlighter"
+  },
+  {
     "id": "hackernews-comments",
     "name": "Hacker News Comments",
     "author": "gapmiss",
@@ -32200,6 +32221,13 @@
     "repo": "viggomeesters/obsidian-git-viewer"
   },
   {
+    "id": "hybrid-search",
+    "name": "Hybrid Search",
+    "author": "flowing-abyss",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Fast hybrid search (BM25 + semantic) over your vault via a background CLI.",
+    "repo": "flowing-abyss/obsidian-hybrid-search-plugin"
+  },
+  {
     "id": "grimoire",
     "name": "Grimoire",
     "author": "Michael Makarov",
@@ -33215,6 +33243,13 @@
     "repo": "miro0o/miniWorldMap"
   },
   {
+    "id": "pdftion",
+    "name": "Pdftion",
+    "author": "Murat / Codex",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-open PDF annotation, editing, export, and Obsidian integration tools.",
+    "repo": "arias007/pdftion"
+  },
+  {
     "id": "reading-inbox-synthesizer",
     "name": "Reading Inbox Synthesizer",
     "author": "ibrh96-prog",
@@ -33227,6 +33262,13 @@
     "author": "Ergo ProcC",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Right-click any selected word to look it up on dict.cc (German English). Shows bilingual translation tables in a sidebar with misspelling suggestions.",
     "repo": "procc99/dictcc-sidebar"
+  },
+  {
+    "id": "bases-image-gallery",
+    "name": "Bases Image Gallery",
+    "author": "Gilbert Hyatt",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A zero-setup masonry image gallery view for Bases.",
+    "repo": "ghyatt/obsidian-bases-image-gallery"
   },
   {
     "id": "ochat",
@@ -33278,11 +33320,25 @@
     "repo": "danielkremen818/obsidian-graph-project-buttons"
   },
   {
+    "id": "wandlog",
+    "name": "Wandlog",
+    "author": "",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Stroll through notes, mark your days",
+    "repo": "yuffiee/obsidian-wandlog"
+  },
+  {
     "id": "auto-sort-checked-items",
     "name": "Auto Sort Checked Items",
     "author": "tom-un",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically move checklist items to the bottom of the list as they are checked.",
     "repo": "tom-un/obsidian-checkbox-reorder"
+  },
+  {
+    "id": "newest-files",
+    "name": "Newest Files",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. List the newest files added to the vault, including attachments that have never been opened.",
+    "repo": "viggomeesters/obsidian-newest-files"
   },
   {
     "id": "word-viewer",
