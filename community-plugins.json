@@ -23614,7 +23614,7 @@
     "id": "squire",
     "name": "Squire",
     "author": "choonkending",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Your faithful note-taking companion. Automatically provides capability like incremental file naming so you can stay in the flow.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Your faithful note-taking companion. Squire automates index numbering and surfaces related notes so you can stay in your flow state. No manual calculation, no hunting for connections.",
     "repo": "choonkending/obsidian-squire"
   },
   {
@@ -26782,6 +26782,13 @@
     "repo": "likemuuxi/obsidian-diary-view"
   },
   {
+    "id": "rtm-sync",
+    "name": "RTM Sync",
+    "author": "Ishigami_D",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync Remember The Milk Task.",
+    "repo": "kissyjpf/rtm-sync"
+  },
+  {
     "id": "vault-curate",
     "name": "Vault Curate",
     "author": "Jacob Mei",
@@ -29694,13 +29701,6 @@
     "repo": "chris8891/wisemind-obsidian"
   },
   {
-    "id": "conflict-manager",
-    "name": "Conflict Manager",
-    "author": "Armen Abrahamyan",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Review and resolve sync conflicts from any cloud service.",
-    "repo": "demigoddd/obsidian-conflict-manager"
-  },
-  {
     "id": "daily-day-nav",
     "name": "Daily Day Nav",
     "author": "antoineart",
@@ -29925,13 +29925,6 @@
     "repo": "zachbugay/obsidian-plugin-better-headers"
   },
   {
-    "id": "tag-lens",
-    "name": "Tag Lens",
-    "author": "laximgqozaZZZYT",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Lightweight tag-membership visualisations: connection matrix, tag co-occurrence heatmap, UpSet, bipartite tag graph.",
-    "repo": "laximgqozazzzyt/tag-lens"
-  },
-  {
     "id": "softview",
     "name": "SoftView",
     "author": "SoftView",
@@ -30014,6 +30007,13 @@
     "author": "kilrkrow",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Render ```flow code blocks as inline SVG flowcharts using FlowScript.",
     "repo": "kilrkrow/flowscript-for-obsidian"
+  },
+  {
+    "id": "google-sync",
+    "name": "Google Calendar and Tasks Sync",
+    "author": "Connor",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Pulls Google Calendar and Google Tasks into your vault as notes and allows you to update them.",
+    "repo": "cordedmink2/obsidian-google-sync"
   },
   {
     "id": "ante",
@@ -30483,13 +30483,6 @@
     "author": "Xheldon",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A compact, space-filling calendar for your daily notes — open or create them from your template, and mark days that match your own highlight rules.",
     "repo": "xheldon/Obsidian-Better-Calendar"
-  },
-  {
-    "id": "regex-css-highlighter",
-    "name": "Regex Css Highlighter",
-    "author": "nilmarko",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Highlight text with regex and apply custom CSS classes.",
-    "repo": "dlsdgj/obsidian-regex-css-highlighter"
   },
   {
     "id": "hackernews-comments",
@@ -33117,13 +33110,6 @@
     "repo": "vitaliiromanenko/popcorn-md"
   },
   {
-    "id": "mdmenu",
-    "name": "mdMenu",
-    "author": "Michael Makarov",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. A mini WYSIWYG-style Markdown formatting toolbar.",
-    "repo": "sandsaber/mdMenu"
-  },
-  {
     "id": "notedraw",
     "name": "NoteDraw",
     "author": "Murat / Codex",
@@ -33201,8 +33187,15 @@
     "repo": "hata-suriiken/obsidian-ctrl-scroll-zoom"
   },
   {
+    "id": "mini-world-map",
+    "name": "Mini World Map",
+    "author": "Miro0o",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Visualize an Obsidian vault as a hierarchy-first world map with internal links layered on top.",
+    "repo": "miro0o/miniWorldMap"
+  },
+  {
     "id": "pdftion",
-    "name": "pdftion",
+    "name": "Pdftion",
     "author": "Murat / Codex",
     "description": "This plugin has not been manually reviewed by Obsidian staff. AI-open PDF annotation, editing, export, and Obsidian integration tools.",
     "repo": "arias007/pdftion"
@@ -33241,5 +33234,19 @@
     "author": "Chris Ian Fiel",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Edit your team's server-owned Markdown documents from Obsidian.",
     "repo": "pageden/pageden-obsidian"
+  },
+  {
+    "id": "folder-sort-view",
+    "name": "Folder Sort View",
+    "author": "Viggo Meesters",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Read-only alternate navigation pane for folders/files with custom sorting. Does not replace or patch Obsidian File Explorer.",
+    "repo": "viggomeesters/obsidian-folder-sort-view"
+  },
+  {
+    "id": "code-style-keys",
+    "name": "Code Style Keys",
+    "author": "Aiday Marlen Kyzy",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Adds backtick shortcut for code blocks.",
+    "repo": "aiday-mar/code-style-keys"
   }
 ]
