@@ -17137,7 +17137,7 @@
   },
   {
     "id": "xiangqi",
-    "name": "Chinese chess",
+    "name": "Chinese Chess",
     "author": "west-shell",
     "description": "Render xiangqi(Chinese chess) positions diagrams in a note.",
     "repo": "west-shell/obsidian-xiangqi"
@@ -22900,7 +22900,7 @@
     "id": "universal-cursor-hotkeys",
     "name": "Universal Cursor Hotkeys",
     "author": "shichishima",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Emacs keybindings for Markdown — cursor navigation and Kill & Yank inside and outside tables, for macOS and Windows.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Emacs keybindings for Markdown — cursor navigation and Kill & Yank, whether in tables or out, either on macOS or Windows.",
     "repo": "shichishima/obsidian-universal-cursor-hotkeys"
   },
   {
@@ -23938,6 +23938,13 @@
     "author": "Jordan Duabe",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Shows numbered badges (1-8) on tabs when holding Ctrl/Cmd for quick keyboard navigation.",
     "repo": "j4ckofalltrades/obsidian-tab-numbers"
+  },
+  {
+    "id": "context-workspaces",
+    "name": "Context Workspaces",
+    "author": "jinmugo",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A workspace toolkit to build focused, clutter-free zones for every task.",
+    "repo": "jinmugo/obsidian-context-workspaces"
   },
   {
     "id": "pocket-bird",
@@ -32942,13 +32949,6 @@
     "repo": "towishy/owen-mermaid"
   },
   {
-    "id": "image-upload-pipeline",
-    "name": "Image Upload Pipeline",
-    "author": "lifeisstrange",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Automatically transform pasted or dropped images, upload them to a configurable API, and insert the returned URL.",
-    "repo": "luckykellan/image-upload-pipeline"
-  },
-  {
     "id": "trending-digest",
     "name": "Trending Digest",
     "author": "alex-de-kora",
@@ -33201,6 +33201,20 @@
     "repo": "hata-suriiken/obsidian-ctrl-scroll-zoom"
   },
   {
+    "id": "pdftion",
+    "name": "pdftion",
+    "author": "Murat / Codex",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-open PDF annotation, editing, export, and Obsidian integration tools.",
+    "repo": "arias007/pdftion"
+  },
+  {
+    "id": "reading-inbox-synthesizer",
+    "name": "Reading Inbox Synthesizer",
+    "author": "ibrh96-prog",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Turn your web clippings backlog into reading memory: batch summaries, cross-article themes, and weekly digests.",
+    "repo": "ibrh96-prog/obsidian-reading-inbox-synthesizer"
+  },
+  {
     "id": "dictcc-sidebar",
     "name": "dict.cc Sidebar",
     "author": "Ergo ProcC",
@@ -33213,5 +33227,19 @@
     "author": "Raniendu",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Chat with local models using active note and vault context.",
     "repo": "raniendu/OChat"
+  },
+  {
+    "id": "draw-a-mermaid",
+    "name": "Draw a Mermaid",
+    "author": "yaye.work",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Build mermaid flowcharts visually — drag blocks and connectors on a canvas, rename inline, and get live-generated mermaid code. Adds an editor to mermaid code blocks and a ribbon button.",
+    "repo": "yaye-work/obsidian-draw-a-mermaid"
+  },
+  {
+    "id": "pageden-sync",
+    "name": "Pageden Sync",
+    "author": "Chris Ian Fiel",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Edit your team's server-owned Markdown documents from Obsidian.",
+    "repo": "pageden/pageden-obsidian"
   }
 ]
