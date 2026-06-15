@@ -26572,6 +26572,13 @@
     "repo": "open-obsidian-i18n/i18n-plus"
   },
   {
+    "id": "vault-operator",
+    "name": "Vault Operator",
+    "author": "Sebastian Hanke",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Real AI agent for your vault. Coworker, Copilot & thinking partner, that maintains your memory & knowledge, adapts to your workflows, uses plugins, skills & tools with full safety controls. BYOK & MCP",
+    "repo": "pssah4/vault-operator"
+  },
+  {
     "id": "yeelen-murmur",
     "name": "yeelen-Murmur",
     "author": "Yeelen",
@@ -32816,6 +32823,13 @@
     "repo": "davidtbilisi/obsidian-semantic-reading"
   },
   {
+    "id": "inline-secret-block",
+    "name": "Inline Secret Block",
+    "author": "Vladimir Artamonov",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Auto-encrypt fenced secret blocks inside notes with AES-256-GCM. Multi-key passphrase support keeps passwords and tokens safe from sync, backups, and AI agents reading the vault.",
+    "repo": "vnrtmnv/obsidian-inline-secret-block"
+  },
+  {
     "id": "antinomia",
     "name": "Antinomia",
     "author": "Giuseppe De Martino",
@@ -33003,6 +33017,13 @@
     "author": "Kyle Whittle",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Monitor a GitHub repo — staleness alerts, PR dashboard, and activity notifications.",
     "repo": "kwhittle/obsidian-github-tools"
+  },
+  {
+    "id": "lumina",
+    "name": "Lumina",
+    "author": "Lumina",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Language-Agnostic RAG & MCP Agent powered by Multilingual Embeddings for local AI semantic search.",
+    "repo": "lumina-apps/obsidian-lumina"
   },
   {
     "id": "image-peek",
@@ -33260,8 +33281,15 @@
     "id": "draw-a-mermaid",
     "name": "Draw a Mermaid",
     "author": "yaye.work",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Build mermaid flowcharts visually — drag blocks and connectors on a canvas, rename inline, and get live-generated mermaid code. Adds an editor to mermaid code blocks and a ribbon button.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Build mermaid flowcharts visually. Enuf said.",
     "repo": "yaye-work/obsidian-draw-a-mermaid"
+  },
+  {
+    "id": "arxiv-daily",
+    "name": "arXiv Daily",
+    "author": "Da-Chuan Tian",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Daily arXiv tracker that filters and summarizes papers via LLM into your vault.",
+    "repo": "tdccccc/arxiv-daily"
   },
   {
     "id": "pageden-sync",
@@ -33425,6 +33453,13 @@
     "repo": "nsyout/obsidian-concordance"
   },
   {
+    "id": "scholarium",
+    "name": "Scholarium",
+    "author": "tenor-john",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. An all-in-one scholarly workspace with AI-assisted writing, literature management, notes, and productivity tools.",
+    "repo": "tenor-john/obsidian-scholarium"
+  },
+  {
     "id": "mv-obcc",
     "name": "Mv obcc",
     "author": "MV",
@@ -33465,5 +33500,54 @@
     "author": "istefox",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Capture web URLs as Markdown bookmarks in your vault, with og:image preview, AI-proposed tags, and AI-proposed destination subfolder.",
     "repo": "istefox/obsidian-bookmarker"
+  },
+  {
+    "id": "gtd-flow",
+    "name": "GTD Flow",
+    "author": "Marco Guidetti",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Structured GTD: sequential/parallel projects, defer dates, next actions, forecast and review.",
+    "repo": "gaedol/gtd-flow"
+  },
+  {
+    "id": "feishu-lark-cli-sync",
+    "name": "Feishu Lark CLI Sync",
+    "author": "wanghuan",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Publish and sync Markdown notes to Feishu/Lark Docs via lark-cli.",
+    "repo": "wanghuan9/obsidian-feishu-lark-cli-sync"
+  },
+  {
+    "id": "mobile-dashboard",
+    "name": "Mobile Dashboard",
+    "author": "liyaoming",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. A mobile-first dashboard for quick capture and note statistics with charts.",
+    "repo": "liyaomingme/obsidian-mobile-dashboard"
+  },
+  {
+    "id": "galaxy-view",
+    "name": "Galaxy View",
+    "author": "Rick",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Cinematic 3D graph view of your vault — fly through your notes like NASA Eyes.",
+    "repo": "longwind1984/galaxy-view"
+  },
+  {
+    "id": "explorer-stepper",
+    "name": "Explorer Stepper",
+    "author": "kefate",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Navigate to the previous or next file in the current folder.",
+    "repo": "kefate/obsidian-explorer-stepper"
+  },
+  {
+    "id": "mobile-pinch-zoom",
+    "name": "Mobile Pinch Zoom",
+    "author": "Katsuhiko Hata",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Pinch with two fingers to zoom notes in/out on mobile (iPad/iPhone/Android). Choose content zoom (scales everything) or text-size zoom.",
+    "repo": "hata-suriiken/obsidian-mobile-pinch-zoom"
+  },
+  {
+    "id": "esp-sync",
+    "name": "ESP8266 Sync",
+    "author": "Egor Chernobai",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Sync vault with ESP8266 server",
+    "repo": "ch3z2z/Obsidian_ESP8266_Server"
   }
 ]
