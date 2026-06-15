@@ -20051,7 +20051,7 @@
     "id": "journalit",
     "name": "Journalit",
     "author": "Cursive",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Trading journal with templates, trade tracking, imports, and reviews. (Closed source).",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Trading journal with templates, trade tracking, imports, and reviews.",
     "repo": "cursivez/journalit"
   },
   {
@@ -21864,7 +21864,7 @@
     "id": "stock-blocks",
     "name": "Stock Blocks",
     "author": "sandypockets",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Display stock prices, changes, and sparkline charts in your notes with multi-stock lists and single stock charts.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Display stock and crypto prices, changes, and sparkline charts in your notes with multi-stock lists and single stock charts.",
     "repo": "sandypockets/stock-blocks"
   },
   {
@@ -25459,13 +25459,6 @@
     "repo": "puhhh/clear-unused-images-obsidian"
   },
   {
-    "id": "chess-pgn-viewer",
-    "name": "Chess PGN Viewer",
-    "author": "puhhh",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Render interactive chess PGN blocks inside notes.",
-    "repo": "puhhh/chess-pgn-obsidian"
-  },
-  {
     "id": "concrete",
     "name": "Concrete",
     "author": "apokaliptics",
@@ -26017,6 +26010,13 @@
     "author": "Sam",
     "description": "This plugin has not been manually reviewed by Obsidian staff. A zero-dependency minimal plugin to enable html docs in Obsidian",
     "repo": "smcllns/obsidian-plugin-html-docs"
+  },
+  {
+    "id": "human-readable-dates",
+    "name": "Human Readable Dates",
+    "author": "Tommy Bergeron",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Displays dates as human-readable relative dates in live preview.",
+    "repo": "tbergeron/obsidian-human-readable-dates"
   },
   {
     "id": "vault-passport",
@@ -26850,13 +26850,6 @@
     "author": "Jan Sandström",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Browse GitHub and the community forum to install plugins across multiple vaults simultaneously.",
     "repo": "pixerojan/obsidian-extension-hub"
-  },
-  {
-    "id": "calendar-plus",
-    "name": "Calendar Plus",
-    "author": "Matt Maiorana",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Calendar view with integrated daily, weekly, monthly, quarterly, and yearly notes. An update of the Calendar plugin.",
-    "repo": "mattmaiorana/calendar-plus"
   },
   {
     "id": "lskypro-auto-upload-enhanced",
@@ -32826,7 +32819,7 @@
     "id": "editorialist",
     "name": "Editorialist",
     "author": "Eric R Taylor",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. Import structured editorial feedback from human editors, beta readers, or AI, then review every suggested edit scene by scene.",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Import structured editorial feedback from curated human editors, beta readers, or AI, then review editorial suggestions across manuscript scenes.",
     "repo": "ericrhystaylor/Editorialist"
   },
   {
@@ -33208,13 +33201,6 @@
     "repo": "miro0o/miniWorldMap"
   },
   {
-    "id": "pdftion",
-    "name": "Pdftion",
-    "author": "Murat / Codex",
-    "description": "This plugin has not been manually reviewed by Obsidian staff. AI-open PDF annotation, editing, export, and Obsidian integration tools.",
-    "repo": "arias007/pdftion"
-  },
-  {
     "id": "reading-inbox-synthesizer",
     "name": "Reading Inbox Synthesizer",
     "author": "ibrh96-prog",
@@ -33570,5 +33556,19 @@
     "author": "Ashish",
     "description": "This plugin has not been manually reviewed by Obsidian staff. Remove tracking parameters from URLs.",
     "repo": "ashishbhateja/obsidian-url-cleaner"
+  },
+  {
+    "id": "onedrive-bidirectional-sync",
+    "name": "OneDrive Bidirectional Sync",
+    "author": "naipi11",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Synchronize vault files across devices through a private OneDrive app folder.",
+    "repo": "naipi11/onedrive-bidirectional-sync"
+  },
+  {
+    "id": "periodic-notes-synthesizer",
+    "name": "Periodic Notes Synthesizer",
+    "author": "ibrh96-prog",
+    "description": "This plugin has not been manually reviewed by Obsidian staff. Upper-level synthesis of your accumulated daily and periodic notes: monthly and quarterly rollups, recurring themes, open loops, and what you said versus what you did.",
+    "repo": "ibrh96-prog/obsidian-periodic-notes-synthesizer"
   }
 ]
