@@ -3,7 +3,23 @@ name: Pull plugin stats
 on:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch: # Put here!!
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: plugin-stat
+  cancel-in-progress: false
+
+env:
+  STATS_URL: https://community.obsidian.md/assets/community-plugin-stats.json
+  STATS_FILE: community-plugin-stats.json
+  # New file must retain at least this fraction of the current file's entry count.
+  MIN_RETENTION_PCT: 95
+  # Hard floor guards against the percent-check passing on an already-small file.
+  STATS_MIN_ABSOLUTE: 4000
 
 jobs:
   pull-stats:
@@ -11,97 +27,123 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+
       - uses: actions/setup-node@v5
         with:
           node-version: "22.x"
-      - uses: actions/github-script@v8
-        with:
-          github-token: ${{ secrets.PLUGIN_STAT_TOKEN }}
-          script: |
-            let fs = require('fs');
 
-            let plugins = JSON.parse(fs.readFileSync('./community-plugins.json', 'utf8'));
-            let stats = JSON.parse(fs.readFileSync('./community-plugin-stats.json', 'utf8'));
+      - name: Fetch plugin stats JSON
+        run: |
+          curl -fsSL --retry 5 --retry-delay 10 --max-time 60 \
+            -o /tmp/stats.new "$STATS_URL"
 
-            console.log(`Updating stats for ${Object.keys(plugins).length} plugins`);
-            let newStats = {};
-            for (let plugin of plugins) {
-              let key = plugin.id;
-              if (stats.hasOwnProperty(key)) {
-                newStats[key] = stats[key];
+      - name: Validate plugin stats JSON
+        run: |
+          set -euo pipefail
+          NEW=/tmp/stats.new
+          OLD="$STATS_FILE"
+
+          jq -e 'type == "object"' "$NEW" > /dev/null \
+            || { echo "::error::stats: top-level is not a JSON object"; exit 1; }
+
+          # Every entry is an object with numeric downloads/updated, and every value
+          # within each entry (per-version counts included) is a number.
+          jq -e '
+            all(.[];
+              type == "object"
+              and (.downloads | type) == "number"
+              and (.updated   | type) == "number"
+              and all(.[]; type == "number"))
+          ' "$NEW" > /dev/null \
+            || { echo "::error::stats: one or more entries are malformed"; exit 1; }
+
+          NEW_COUNT=$(jq 'length' "$NEW")
+          OLD_COUNT=$(jq 'length' "$OLD")
+          MIN_RETAINED=$(( OLD_COUNT * MIN_RETENTION_PCT / 100 ))
+          echo "stats: new=$NEW_COUNT old=$OLD_COUNT min_retained=$MIN_RETAINED absolute_floor=$STATS_MIN_ABSOLUTE"
+          if [ "$NEW_COUNT" -lt "$MIN_RETAINED" ]; then
+            echo "::error::stats: new count $NEW_COUNT < ${MIN_RETENTION_PCT}% of current $OLD_COUNT"
+            exit 1
+          fi
+          if [ "$NEW_COUNT" -lt "$STATS_MIN_ABSOLUTE" ]; then
+            echo "::error::stats: new count $NEW_COUNT below absolute floor $STATS_MIN_ABSOLUTE"
+            exit 1
+          fi
+
+      - name: Compute diff summary
+        run: |
+          set -euo pipefail
+
+          DIFF=$(jq -n \
+            --slurpfile old "$STATS_FILE" \
+            --slurpfile new /tmp/stats.new \
+            '
+              ($old[0]) as $o |
+              ($new[0]) as $n |
+              ($o | keys) as $ok |
+              ($n | keys) as $nk |
+              {
+                total_old: ($ok | length),
+                total_new: ($nk | length),
+                added:     ($nk - $ok | length),
+                removed:   ($ok - $nk | length),
+                downloads_old: ([$o[].downloads // 0] | add),
+                downloads_new: ([$n[].downloads // 0] | add)
               }
-            }
+            ')
 
-            (async() => {
-              console.log('Rate limit', (await github.rest.rateLimit.get()).data.rate);
-              for (let key in plugins) {
-                if (!plugins.hasOwnProperty(key)) {
-                  continue;
-                }
+          echo "$DIFF"
 
-                try {
-                  let plugin = plugins[key];
-                  let id = plugin.id;
+          # Expose added/removed counts for the commit message.
+          {
+            echo "STATS_ADDED=$(jq -r '.added' <<< "$DIFF")"
+            echo "STATS_REMOVED=$(jq -r '.removed' <<< "$DIFF")"
+          } >> "$GITHUB_ENV"
 
-                  console.log(`Downloading stats for ${id} (${plugin.repo})`);
-                  let stats = newStats[id] = newStats[id] || {};
-                  let [owner, repo] = plugin.repo.split('/');
-                  
-                  const releases = [];
-                  const releasesData = github.paginate.iterator(github.rest.repos.listReleases, {owner, repo, per_page: 100});
-                  for await (const { data: data } of releasesData) {
-                    releases.push(...data);
-                  }
+          {
+            echo "### Plugin stats diff summary"
+            echo ""
+            echo "| Entries (old) | Entries (new) | Added | Removed | Downloads (old) | Downloads (new) |"
+            echo "|---:|---:|---:|---:|---:|---:|"
+            jq -r '"| \(.total_old) | \(.total_new) | \(.added) | \(.removed) | \(.downloads_old) | \(.downloads_new) |"' <<< "$DIFF"
+          } >> "$GITHUB_STEP_SUMMARY"
 
-                  // stats is Array<{tag_name: string, assets: Array<{name: string, download_count}>}>
+      - name: Stage validated file
+        run: mv /tmp/stats.new "$STATS_FILE"
 
-                  let updated = 0;
-
-                  for (let release of releases) {
-                    let version = release.tag_name;
-                    let assets = release.assets;
-                    let downloads = 0;
-
-                    let publishTs = new Date(release.published_at).getTime();
-                    if (publishTs > updated) {
-                      updated = publishTs;
-                    }
-
-                    for (let asset of assets) {
-                      if (asset.name === 'manifest.json') {
-                        downloads = asset.download_count;
-                      }
-                    }
-                    if (downloads) {
-                      stats[version] = downloads;
-                    }
-                  }
-
-                  let total = 0;
-                  for (let version in stats) {
-                    if (stats.hasOwnProperty(version) && version !== 'downloads' && version !== 'updated' && version !== 'latest') {
-                      total += stats[version];
-                    }
-                  }
-
-                  console.log(`Downloads: ${total}   Releases: ${releases.length}`);
-                  stats['downloads'] = total;
-                  stats['updated'] = updated;
-
-                } catch (e) {
-                  console.log('Failed', e.message);
-                }
-              }
-
-              fs.writeFileSync('./community-plugin-stats.json', JSON.stringify(newStats, null, 2), 'utf8')
-              console.log('All done!');
-            })();
-      - run: |
+      - name: Format with prettier
+        run: |
           npm ci --no-save
           npm run format
-      - run: |
-          git config --local user.name 'Obsidian Bot'
+
+      - name: Commit and push if changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- "$STATS_FILE"; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config --local user.name  'Obsidian Bot'
           git config --local user.email 'admin@obsidian.md'
-          git add .
-          git commit -m "chore: Update plugin stats"
+          git add "$STATS_FILE"
+          git commit -m "chore: Update plugin stats (-${STATS_REMOVED}/+${STATS_ADDED} plugins)"
           git push
+
+      - name: Report failure as issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          BODY=$'Plugin stats mirror workflow failed.\n\nRun: '"$RUN_URL"
+          EXISTING=$(gh issue list --label plugin-stat-failure --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body "$BODY"
+          else
+            gh label create plugin-stat-failure --color B60205 --description "Automated plugin stats mirror workflow failed" 2>/dev/null || true
+            gh issue create \
+              --title "Plugin stats mirror workflow failed" \
+              --label plugin-stat-failure \
+              --body "$BODY"
+          fi
