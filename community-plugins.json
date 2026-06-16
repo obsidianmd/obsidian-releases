@@ -8631,6 +8631,13 @@
     "repo": "lucasvanmol/obsidian-latex-ocr"
   },
   {
+    "id": "task-status",
+    "name": "Task Status",
+    "author": "vburzynski",
+    "description": "Quickly change checkbox and task status markers.",
+    "repo": "vburzynski/obsidian-task-status"
+  },
+  {
     "id": "docxer",
     "name": "Docxer",
     "author": "mika-dev",
@@ -25830,6 +25837,13 @@
     "repo": "xwberry/obsidian-drag-out"
   },
   {
+    "id": "image-workflow",
+    "name": "Image Workflow",
+    "author": "das",
+    "description": "Click images to enlarge, zoom, copy, download. Copy markdown selections with images embedded as base64 so they paste inline into Gmail, Google Docs, and Slack. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "1spread/image-workflow"
+  },
+  {
     "id": "auto-tag-puller",
     "name": "Auto Tag Puller",
     "author": "pharelljordan",
@@ -33782,6 +33796,13 @@
     "repo": "sdkay/obsidian-drawio-view"
   },
   {
+    "id": "slide-and-reveal",
+    "name": "Slide and Reveal",
+    "author": "Human",
+    "description": "Scroll-to-reveal flashcard study for diagrams/images. Right-click any folder to open it as a Slide & Reveal view: drop covers over each label, then scroll in place to uncover them one pair at a time. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "grub-basket/SnR"
+  },
+  {
     "id": "image-actions",
     "name": "Image Actions",
     "author": "maoxiaoke",
@@ -33836,5 +33857,26 @@
     "author": "firstsun-dev",
     "description": "Upload images to any S3-compatible storage. Features: WebP conversion, image compression, text & logo watermark with live preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "firstsun-dev/watermark-bucket-uploader"
+  },
+  {
+    "id": "x-bookmarks-to-vault",
+    "name": "X Bookmarks",
+    "author": "Ken",
+    "description": "Sync your Twitter/X bookmarks into your vault as Markdown notes, with optional local-AI monthly summaries. Unofficial, cookie-based, personal use. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "18621063286/xBookmarksObsidian"
+  },
+  {
+    "id": "dictava-sync",
+    "name": "Dictava",
+    "author": "Dictava",
+    "description": "Sync voice notes from Dictava into your vault - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dictava/obsidian-sync"
+  },
+  {
+    "id": "images-uploader",
+    "name": "S3 Image Sync",
+    "author": "JongChoiYip",
+    "description": "Scan local note images, upload to S3-compatible storage (R2/AWS S3/MinIO), and replace links safely. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jongchoiyip/s3-image-sync"
   }
 ]
