@@ -1109,7 +1109,7 @@
     "id": "obsidian-tasks-plugin",
     "name": "Tasks",
     "author": "obsidian-tasks-group",
-    "description": "Track tasks across your vault. Supports due dates, recurring tasks, done dates, sub-set of checklist items, and filtering.",
+    "description": "Track tasks across your vault. Supports due dates, recurring tasks, done dates, sub-set of checklist items, and filtering. Maintained by Clare Macrae and Ilyas Landikov, created by Martin Schenck.",
     "repo": "obsidian-tasks-group/obsidian-tasks"
   },
   {
@@ -20415,7 +20415,7 @@
     "id": "air-sync",
     "name": "Air Sync",
     "author": "takezoh",
-    "description": "Sync your vault with cloud storage (Google Drive, Dropbox, OneDrive). - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync your vault with cloud storage (Google Drive, OneDrive, Dropbox). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "takezoh/obsidian-air-sync"
   },
   {
@@ -23590,6 +23590,13 @@
     "repo": "rhoades-brown/obsidian-github"
   },
   {
+    "id": "timeflow",
+    "name": "timeflow",
+    "author": "gaut3",
+    "description": "Track flexible work hours and time off with built-in timer, visualizations, and statistics. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gaut3/timeflow"
+  },
+  {
     "id": "wysimark-editor",
     "name": "Wysimark Editor",
     "author": "takeshy",
@@ -25823,13 +25830,6 @@
     "repo": "daniel-fiuk/simple-map"
   },
   {
-    "id": "git-file-sync",
-    "name": "Git File Sync",
-    "author": "firstsun-dev",
-    "description": "Selectively sync individual notes with GitLab or GitHub. Push, pull, diff, and resolve conflicts — file by file, on mobile and desktop. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "firstsun-dev/git-files-sync"
-  },
-  {
     "id": "cooklang-codeblock",
     "name": "Cooklang Codeblock",
     "author": "Raunaq Gupta",
@@ -26106,7 +26106,7 @@
     "id": "note-ai-translator",
     "name": "L10n.dev - AI Translator",
     "author": "Anton L10n",
-    "description": "Translate notes into any of 165 languages with AI. Preserves Markdown formatting and structure. Powered by L10n.dev's AI translation API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Translate notes into any of 165 languages with AI. Preserves Markdown formatting and structure. Powered by L10n.dev's AI translation API. Supports json, yaml, other plain-text formats. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "l10n-dev/obsidian-plugin-ai-translator"
   },
   {
@@ -26227,13 +26227,6 @@
     "author": "William Guy",
     "description": "A native study system for your Obsidian vault. LearnKit turns notes into durable knowledge with flashcards, spaced repetition, tests, and more. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ctrlaltwill/learnkit"
-  },
-  {
-    "id": "horme",
-    "name": "Horme",
-    "author": "ducktapekiller",
-    "description": "AI-powered assistant with chat, right-click actions, vault-wide RAG, and an extensible skill system. Supports Ollama, Claude, Gemini, OpenAI, Groq, OpenRouter, and LM Studio. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ducktapekiller/horme"
   },
   {
     "id": "github-wiki-sync",
@@ -27153,13 +27146,6 @@
     "repo": "aohan237/obsidian-local-audio-plus"
   },
   {
-    "id": "engram-vault-sync",
-    "name": "Engram Vault Sync",
-    "author": "Rasbandit",
-    "description": "Your notes are your AI's memory. Sync your vault everywhere, search by meaning, and let Claude, Cursor, and other AI apps read and write your notes. Hosted or self-host — free to start. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "engram-app/Engram-obsidian"
-  },
-  {
     "id": "more-vim",
     "name": "More Vim",
     "author": "Colin Lienard",
@@ -27557,13 +27543,6 @@
     "author": "derek-larson14",
     "description": "Run Claude Code from any device via remote relay server. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "derek-larson14/obsidian-claude-anywhere"
-  },
-  {
-    "id": "zotflow",
-    "name": "ZotFlow",
-    "author": "Xianpi Duan",
-    "description": "Keep your research in flow! #Zotero #PDF #Annotation - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "duanxianpi/zotflow"
   },
   {
     "id": "convert-case",
@@ -31374,6 +31353,13 @@
     "repo": "zzunebye/remember-last-code-block-lang"
   },
   {
+    "id": "auto-close-oldest-tabs",
+    "name": "Auto Close Oldest Tabs",
+    "author": "usero2-endofday",
+    "description": "Automatically close the oldest tab when a maximum tab limit is reached. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "usero2/obsidian-plugins-auto-close-tabs"
+  },
+  {
     "id": "wonderful-cards",
     "name": "Wonderful Cards",
     "author": "trikorka",
@@ -32977,6 +32963,13 @@
     "repo": "matheuszarkov/gradient-text"
   },
   {
+    "id": "library-search",
+    "name": "Library Search",
+    "author": "Vetrenar",
+    "description": "Context-aware library search based on note aliases and automated PDF outline extraction for Zettelkasten card index workflows. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vetrenar/v-library-search"
+  },
+  {
     "id": "triage",
     "name": "Triage",
     "author": "Toto Tvalavadze",
@@ -33355,13 +33348,6 @@
     "repo": "yuffiee/obsidian-wandlog"
   },
   {
-    "id": "auto-sort-checked-items",
-    "name": "Auto Sort Checked Items",
-    "author": "tom-un",
-    "description": "Automatically move checklist items to the bottom of the list as they are checked. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tom-un/obsidian-checkbox-reorder"
-  },
-  {
     "id": "newest-files",
     "name": "Newest Files",
     "author": "Viggo Meesters",
@@ -33502,13 +33488,6 @@
     "repo": "ydhawesome/flash-memo"
   },
   {
-    "id": "bookmarker",
-    "name": "Bookmarker",
-    "author": "istefox",
-    "description": "Capture web URLs as Markdown bookmarks in your vault, with og:image preview, AI-proposed tags, and AI-proposed destination subfolder. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "istefox/obsidian-bookmarker"
-  },
-  {
     "id": "gtd-flow",
     "name": "GTD Flow",
     "author": "Marco Guidetti",
@@ -33528,6 +33507,13 @@
     "author": "liyaoming",
     "description": "A mobile-first dashboard for quick capture and note statistics with charts. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "liyaomingme/obsidian-mobile-dashboard"
+  },
+  {
+    "id": "ahmed-toolkit",
+    "name": "My Toolkit",
+    "author": "Ahmed",
+    "description": "All-in-one productivity suite: Formatting Palette, AI Smart Templates, Image Control, Fullscreen Note, Premium File Tree, Quick Access Bar, and Folder Focus Mode. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ahmdmusa/obsidian-toolkit"
   },
   {
     "id": "galaxy-view",
@@ -33740,17 +33726,45 @@
     "repo": "lugglory/pagemode"
   },
   {
-    "id": "promptuary",
-    "name": "Promptuary",
-    "author": "婧晶",
-    "description": "Quickly leave revision comments and click one button to export multiple revision comments for external AI or Agent to perform the revisions. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "meganjjzhang/Promptuary"
-  },
-  {
     "id": "drawio-view",
     "name": "Draw.io View",
     "author": "sdking",
     "description": "Render draw.io diagrams inline in your notes with zoom, pan, and multi-page support. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sdkay/obsidian-drawio-view"
+  },
+  {
+    "id": "image-actions",
+    "name": "Image Actions",
+    "author": "maoxiaoke",
+    "description": "Copy any image to the clipboard, reveal it in your file explorer, or open it in your browser — from a hover toolbar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "maoxiaoke/obsidian-image-actions"
+  },
+  {
+    "id": "chinese-comprehensible-input",
+    "name": "Chinese Comprehensible Input",
+    "author": "Daniel Vavrik",
+    "description": "Turn Chinese notes into a learner-friendly comprehensible-input reading environment with dictionary-aware tokenization, exposure tracking, SRS, and optional AI-generated review stories. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "davadev/obsidian_chinese_comprehensible_input"
+  },
+  {
+    "id": "hide-empty-headings",
+    "name": "Hide Empty Headings",
+    "author": "醒醒-关于我(https://xingxing.aigongxue.cfd/)",
+    "description": "隐藏阅读模式下没有内容的标题 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "duluodexiaopiqiu/hide-empty-headings"
+  },
+  {
+    "id": "copy-to-wechat",
+    "name": "Copy to WeChat",
+    "author": "jerryshi",
+    "description": "Copy notes to WeChat as chat-friendly plain text, or as a rendered image. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "syw2014/obsidian-copy-to-wechat"
+  },
+  {
+    "id": "encoding-autofix",
+    "name": "Encoding Auto-Fix",
+    "author": "kathar0s",
+    "description": "Detects non-UTF-8 files (UTF-16 LE/BE, UTF-8 BOM, EUC-KR/CP949) on creation and rewrites them as clean UTF-8, preventing Korean/CJK text corruption in Obsidian. Includes a manual convert command. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kathar0s/obsidian-encoding-autofix"
   }
 ]
