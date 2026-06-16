@@ -20972,6 +20972,13 @@
     "repo": "tomhan518/vault-llama"
   },
   {
+    "id": "wechat-converter",
+    "name": "Wechat Converter",
+    "author": "davidlam-oss",
+    "description": "Convert Markdown into polished WeChat articles with live preview, copy, and draft sync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "davidlam-oss/obsidian-wechat-converter"
+  },
+  {
     "id": "text-tools",
     "name": "Local Text Tools",
     "author": "nilsandrey",
@@ -21495,6 +21502,13 @@
     "author": "joaonoturno",
     "description": "Automatically replaces -- with — (em dash) - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "joaonoturno/Em-dash-plugin"
+  },
+  {
+    "id": "diary",
+    "name": "Diary",
+    "author": "pobsiz",
+    "description": "Yearly and monthly planner with date notes, range notes, and holiday support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pobsiz/obsidian-diary"
   },
   {
     "id": "anything-as-md",
@@ -23238,6 +23252,13 @@
     "author": "fdirham",
     "description": "Timer and word count plugin for writing sessions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fdirham/fbd-obsidian-writing-timer"
+  },
+  {
+    "id": "vaultquery",
+    "name": "VaultQuery",
+    "author": "bobstanton",
+    "description": "Execute SELECT, INSERT, UPDATE, and DELETE statements on notes, properties, tasks, tables, headings and links using SQL and SQLite. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/vaultquery"
   },
   {
     "id": "lock-cards",
@@ -25809,13 +25830,6 @@
     "repo": "xwberry/obsidian-drag-out"
   },
   {
-    "id": "image-workflow",
-    "name": "Image Workflow",
-    "author": "das",
-    "description": "Click images to enlarge, zoom, copy, download. Copy markdown selections with images embedded as base64 so they paste inline into Gmail, Google Docs, and Slack. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "1spread/image-workflow"
-  },
-  {
     "id": "auto-tag-puller",
     "name": "Auto Tag Puller",
     "author": "pharelljordan",
@@ -25828,6 +25842,13 @@
     "author": "daniel-fiuk",
     "description": "Upload your own maps and plant pins on important locations, each linking back to your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "daniel-fiuk/simple-map"
+  },
+  {
+    "id": "git-file-sync",
+    "name": "Git File Sync",
+    "author": "firstsun-dev",
+    "description": "Selectively sync individual notes with GitLab or GitHub. Push, pull, diff, and resolve conflicts — file by file, on mobile and desktop. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "firstsun-dev/git-files-sync"
   },
   {
     "id": "cooklang-codeblock",
@@ -27144,6 +27165,13 @@
     "author": "linziyan",
     "description": "Scans local audio links in Obsidian notes and inserts transcripts using OpenAI, Tencent Cloud ASR, or iFlytek ASR. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aohan237/obsidian-local-audio-plus"
+  },
+  {
+    "id": "engram-vault-sync",
+    "name": "Engram Vault Sync",
+    "author": "Rasbandit",
+    "description": "Your notes are your AI's memory. Sync your vault everywhere, search by meaning, and let Claude, Cursor, and other AI apps read and write your notes. Hosted or self-host — free to start. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "engram-app/Engram-obsidian"
   },
   {
     "id": "more-vim",
@@ -29337,13 +29365,6 @@
     "repo": "caezium/obsidian-spotify-control"
   },
   {
-    "id": "gemmanotes",
-    "name": "GemmaNotes",
-    "author": "Sarath Chandra",
-    "description": "Push-to-talk voice notes transcribed on-device with Gemma 4. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sarath/gemmanotes"
-  },
-  {
     "id": "korean-movie-search",
     "name": "Korean Movie Search",
     "author": "shin-young-in",
@@ -29496,6 +29517,13 @@
     "author": "requisite",
     "description": "Paste or drop media files and have them automatically uploaded to your self-hosted Copyparty server and embedded in your note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "r3quisitevariety/copyparty-obsidian"
+  },
+  {
+    "id": "always-on-top",
+    "name": "Always On Top",
+    "author": "ras0q",
+    "description": "Keep the Obsidian window always on top of other applications. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ras0q/obsidian-always-on-top"
   },
   {
     "id": "rpg-detect-dice-roll",
@@ -30868,13 +30896,6 @@
     "author": "ringeringeraja33",
     "description": "A node-based writing tool for game development, interactive fiction, branching scripts, quest chains, and other nonlinear narrative structures. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ringeringeraja33/NarrativeCanvas"
-  },
-  {
-    "id": "buildian",
-    "name": "Buildian",
-    "author": "YuChenSSR",
-    "description": "An unofficial Obsidian integration for the xAI Grok Build CLI, based on Claudian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yuchenssr/buildian"
   },
   {
     "id": "graph-context-for-claude-code",
@@ -32270,6 +32291,13 @@
     "repo": "lumargh/better-bujo"
   },
   {
+    "id": "claude-companion",
+    "name": "Companion for Claude",
+    "author": "Sasan Sotoodehfar",
+    "description": "Chat with Claude inside your vault, generate gallery-grade interactive planning artifacts, and sync everything Claude produces back into your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cavi-ai/companion-for-claude"
+  },
+  {
     "id": "markcalc",
     "name": "MarkCalc",
     "author": "Levis-Code",
@@ -33348,6 +33376,13 @@
     "repo": "yuffiee/obsidian-wandlog"
   },
   {
+    "id": "auto-sort-checked-items",
+    "name": "Auto Sort Checked Items",
+    "author": "tom-un",
+    "description": "Automatically move checklist items to the bottom of the list as they are checked. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tom-un/obsidian-checkbox-reorder"
+  },
+  {
     "id": "newest-files",
     "name": "Newest Files",
     "author": "Viggo Meesters",
@@ -33488,6 +33523,13 @@
     "repo": "ydhawesome/flash-memo"
   },
   {
+    "id": "bookmarker",
+    "name": "Bookmarker",
+    "author": "istefox",
+    "description": "Capture web URLs as Markdown bookmarks in your vault, with og:image preview, AI-proposed tags, and AI-proposed destination subfolder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "istefox/obsidian-bookmarker"
+  },
+  {
     "id": "gtd-flow",
     "name": "GTD Flow",
     "author": "Marco Guidetti",
@@ -33542,13 +33584,6 @@
     "author": "Katsuhiko Hata",
     "description": "Pinch with two fingers to zoom notes in/out on mobile (iPad/iPhone/Android). Choose content zoom (scales everything) or text-size zoom. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hata-suriiken/obsidian-mobile-pinch-zoom"
-  },
-  {
-    "id": "esp-sync",
-    "name": "ESP8266 Sync",
-    "author": "Egor Chernobai",
-    "description": "Sync vault with ESP8266 server - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ch3z2z/Obsidian_ESP8266_Server"
   },
   {
     "id": "buddybridge",
@@ -33656,6 +33691,13 @@
     "repo": "sonophage/stardust-importer"
   },
   {
+    "id": "rootweave",
+    "name": "Rootweave",
+    "author": "Max Oliver",
+    "description": "A conlang workspace for worldbuilders — manage roots, build words, validate grammar, and translate. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "molive6316github/rootweave"
+  },
+  {
     "id": "chroma-key",
     "name": "Chroma Key Paste",
     "author": "Aziz Zahran",
@@ -33726,6 +33768,13 @@
     "repo": "lugglory/pagemode"
   },
   {
+    "id": "promptuary",
+    "name": "Promptuary",
+    "author": "婧晶",
+    "description": "Quickly leave revision comments and click one button to export multiple revision comments for external AI or Agent to perform the revisions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "meganjjzhang/Promptuary"
+  },
+  {
     "id": "drawio-view",
     "name": "Draw.io View",
     "author": "sdking",
@@ -33742,7 +33791,7 @@
   {
     "id": "chinese-comprehensible-input",
     "name": "Chinese Comprehensible Input",
-    "author": "Daniel Vavrik",
+    "author": "Dany",
     "description": "Turn Chinese notes into a learner-friendly comprehensible-input reading environment with dictionary-aware tokenization, exposure tracking, SRS, and optional AI-generated review stories. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "davadev/obsidian_chinese_comprehensible_input"
   },
@@ -33766,5 +33815,26 @@
     "author": "kathar0s",
     "description": "Detects non-UTF-8 files (UTF-16 LE/BE, UTF-8 BOM, EUC-KR/CP949) on creation and rewrites them as clean UTF-8, preventing Korean/CJK text corruption in Obsidian. Includes a manual convert command. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kathar0s/obsidian-encoding-autofix"
+  },
+  {
+    "id": "focus-sidebar",
+    "name": "Focus Sidebar",
+    "author": "revi1337",
+    "description": "Directly focus on the left and right sidebars (and restore last active tab/position) using keyboard shortcuts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "revi1337/obsidian-focus-sidebar"
+  },
+  {
+    "id": "markitdown-importer",
+    "name": "MarkItDown Importer",
+    "author": "Elek",
+    "description": "Drag files, folders, archives, images, audio, web pages, and YouTube links into Obsidian and import them as Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "renoirtian/markitdown-obsidian-importer"
+  },
+  {
+    "id": "watermark-bucket-uploader",
+    "name": "Watermark Bucket Uploader",
+    "author": "firstsun-dev",
+    "description": "Upload images to any S3-compatible storage. Features: WebP conversion, image compression, text & logo watermark with live preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "firstsun-dev/watermark-bucket-uploader"
   }
 ]
