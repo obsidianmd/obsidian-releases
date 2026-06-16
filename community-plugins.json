@@ -22968,7 +22968,7 @@
   },
   {
     "id": "memmaster",
-    "name": "MemMaster Flashcards",
+    "name": "MemMaster Flashcards + AI Tests",
     "author": "qoonmax",
     "description": "A spaced repetition plugin that helps you remember your notes by scheduling them for review at the right time. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "qoonmax/memmaster-obsidian-plugin"
@@ -23273,6 +23273,13 @@
     "author": "creative781",
     "description": "A powerful keyboard-centric mind map plugin with bi-directional link support. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "creative781/obsimap"
+  },
+  {
+    "id": "vault-intelligence",
+    "name": "Vault Intelligence",
+    "author": "cybaea",
+    "description": "Maintain your vault as a self-updating knowledge system by running AI agents that find gaps, audit and unify tags, and retrieve context based on similarity and explicit links via Graph RAG - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cybaea/obsidian-vault-intelligence"
   },
   {
     "id": "lightbox",
@@ -24764,6 +24771,13 @@
     "author": "Robert Gomez, Jr.",
     "description": "Copy notes and their attachments from one vault to another. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rgomezjnr/copy-notes-to-vault"
+  },
+  {
+    "id": "callout-studio",
+    "name": "Callout Studio",
+    "author": "niv20",
+    "description": "Manage callouts with custom types, Material icons, native context menu actions, and full light and dark mode color control. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "niv20/obsidian-Plugin-Callout-Studio"
   },
   {
     "id": "akaire",
@@ -26563,6 +26577,13 @@
     "author": "dangehub",
     "description": "Manage translations for plugins with hot-reload support and crowdsourced dictionaries. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "open-obsidian-i18n/i18n-plus"
+  },
+  {
+    "id": "vault-operator",
+    "name": "Vault Operator",
+    "author": "Sebastian Hanke",
+    "description": "Real AI agent for your vault. Coworker, Copilot & thinking partner, that maintains your memory & knowledge, adapts to your workflows, uses plugins, skills & tools with full safety controls. BYOK & MCP - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pssah4/vault-operator"
   },
   {
     "id": "yeelen-murmur",
@@ -32977,13 +32998,6 @@
     "repo": "kwhittle/obsidian-github-tools"
   },
   {
-    "id": "lumina",
-    "name": "Lumina",
-    "author": "Lumina",
-    "description": "Language-Agnostic RAG & MCP Agent powered by Multilingual Embeddings for local AI semantic search. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lumina-apps/obsidian-lumina"
-  },
-  {
     "id": "image-peek",
     "name": "Image Peek",
     "author": "groundfic",
@@ -33089,6 +33103,13 @@
     "repo": "long2icc/sonicnote-sync"
   },
   {
+    "id": "mobile-pdf-exporter",
+    "name": "Mobile PDF Exporter",
+    "author": "Murat / Codex",
+    "description": "One-click selectable preview PDF export for Obsidian mobile and desktop. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arias007/obsidian-mobile-pdf-exporter"
+  },
+  {
     "id": "moving-note",
     "name": "Moving Note",
     "author": "Yusen",
@@ -33115,6 +33136,13 @@
     "author": "Michael Makarov",
     "description": "A mini WYSIWYG-style Markdown formatting toolbar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sandsaber/mdMenu"
+  },
+  {
+    "id": "notedraw",
+    "name": "NoteDraw",
+    "author": "Murat / Codex",
+    "description": "Draw and edit directly on Obsidian notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arias007/notedraw"
   },
   {
     "id": "letterhead",
@@ -33192,6 +33220,13 @@
     "author": "Miro0o",
     "description": "Visualize an Obsidian vault as a hierarchy-first world map with internal links layered on top. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "miro0o/miniWorldMap"
+  },
+  {
+    "id": "pdftion",
+    "name": "Pdftion",
+    "author": "Murat / Codex",
+    "description": "AI-open PDF annotation, editing, export, and Obsidian integration tools. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arias007/pdftion"
   },
   {
     "id": "reading-inbox-synthesizer",
@@ -33586,10 +33621,38 @@
     "repo": "jeansordes/dot-navigator"
   },
   {
+    "id": "stardust-importer",
+    "name": "Stardust Importer",
+    "author": "Sonophage",
+    "description": "Pulls watched movies (Trakt) and full-album listens (Last.fm) into reference notes via Templater. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sonophage/stardust-importer"
+  },
+  {
     "id": "chroma-key",
     "name": "Chroma Key Paste",
     "author": "Aziz Zahran",
     "description": "Automatically removes the background color from pasted images. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aziz-zahran/obsidian-chroma-key"
+  },
+  {
+    "id": "json-editor",
+    "name": "JSON Editor",
+    "author": "Johannes Kaindl",
+    "description": "View and edit JSON files with a Tree/Source toggle. Renders JSON code blocks in Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johannes-kaindl/json-editor"
+  },
+  {
+    "id": "rss-importer",
+    "name": "RSS Importer",
+    "author": "Charles Kelsoe",
+    "description": "Import articles and podcasts from RSS, Atom, and Substack feeds into your vault as Markdown notes, organized by source feed and deduplicated by note identity. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ckelsoe/obsidian-rss-importer"
+  },
+  {
+    "id": "spoiler",
+    "name": "Spoiler",
+    "author": "PatruusBarba",
+    "description": "Wrap selected text in a collapsible spoiler callout, or unwrap an existing spoiler, from a ribbon button. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "patruusbarba/ObsidianSpoilerPlugin"
   }
 ]
