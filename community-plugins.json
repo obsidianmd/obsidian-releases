@@ -19663,13 +19663,6 @@
     "repo": "tgrrrr/heading-outliner"
   },
   {
-    "id": "nexus",
-    "name": "Nexus",
-    "author": "profsynapse",
-    "description": "Agentic AI for your vault. Use Claude, ChatGPT, Gemini, and local models to chat, search, create, and manage your notes with semantic memory, image generation, and MCP server integration. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "profsynapse/nexus"
-  },
-  {
     "id": "dangling-image-manager",
     "name": "Dangling Image Manager",
     "author": "leowie93",
@@ -24584,6 +24577,13 @@
     "repo": "rogerdigital/smart-explorer"
   },
   {
+    "id": "vault-inspector",
+    "name": "Vault Inspector",
+    "author": "rogerdigital",
+    "description": "Scan your vault for maintenance problems: broken links, orphan attachments, duplicate files, frontmatter inconsistencies, unused tags, and large files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rogerdigital/vault-inspector"
+  },
+  {
     "id": "chess-vault",
     "name": "Chess Vault",
     "author": "dun8",
@@ -27725,13 +27725,6 @@
     "author": "Jean Toledo",
     "description": "A deterministic graph view for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jeantoledo/obsidian-deterministic-graph-view"
-  },
-  {
-    "id": "annotation-marker",
-    "name": "Annotation Marker",
-    "author": "uuq007",
-    "description": "Add colored highlights, inline comments and ruby (phonetic) annotations to notes while keeping original Markdown untouched - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "uuq007/obsidian-annotation-marker"
   },
   {
     "id": "slides-extended-mobile-preview",
@@ -32627,6 +32620,13 @@
     "repo": "lemon695/obsidian-enhancement-suite"
   },
   {
+    "id": "cloudflare-media-sync",
+    "name": "R2 Media Sync",
+    "author": "Chiang Shun Fan",
+    "description": "Upload local Obsidian media to Cloudflare R2 and rewrite note links automatically. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fab34/cloudflare-media-sync"
+  },
+  {
     "id": "xmind-maps",
     "name": "XMind Maps",
     "author": "yuanzhixiang",
@@ -33572,13 +33572,6 @@
     "repo": "istefox/obsidian-bookmarker"
   },
   {
-    "id": "gtd-flow",
-    "name": "GTD Flow",
-    "author": "Marco Guidetti",
-    "description": "Structured GTD: sequential/parallel projects, defer dates, next actions, forecast and review. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gaedol/gtd-flow"
-  },
-  {
     "id": "feishu-lark-cli-sync",
     "name": "Feishu Lark CLI Sync",
     "author": "wanghuan",
@@ -34046,5 +34039,26 @@
     "author": "JhihJian",
     "description": "Converts long dashed divider input into timestamped dividers in Reading view and Live Preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jhihjian/obsidian-hr-timestamp-plugin"
+  },
+  {
+    "id": "chronote",
+    "name": "Chronote",
+    "author": "Vilém Štrait",
+    "description": "Spaced-repetition study tool with Google Calendar scheduling, multi-provider AI agent - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vilstr17/cortex"
+  },
+  {
+    "id": "notes-to-html-pages",
+    "name": "Notes to HTML Pages",
+    "author": "Afan",
+    "description": "Export Markdown notes into clean, readable HTML pages with table of contents and in-app reading. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "afanos/notes-to-html-pages"
+  },
+  {
+    "id": "audio-inbox",
+    "name": "Audio Inbox",
+    "author": "Andsea",
+    "description": "One-click voice recording → Speech-to-Text → AI summarization. Works on desktop & mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andsea007/obsidian-audio-inbox"
   }
 ]
