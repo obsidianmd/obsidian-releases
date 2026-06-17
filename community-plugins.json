@@ -28976,7 +28976,7 @@
     "id": "lonelog",
     "name": "Lonelog",
     "author": "Snifer",
-    "description": "Streamline solo TTRPG journaling with Lonelog notation shortcuts and templates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Streamline solo and group TTRPG journaling with Lonelog notation shortcuts and templates. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "snifer/lonelog"
   },
   {
@@ -29391,6 +29391,13 @@
     "author": "caezium",
     "description": "Control Spotify from your notes. Now-playing sidebar with hover controls, time-synced lyrics via LRCLIB, queue, search, transport hotkeys, and insert-track-into-note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "caezium/obsidian-spotify-control"
+  },
+  {
+    "id": "gemmanotes",
+    "name": "GemmaNotes",
+    "author": "Sarath Chandra",
+    "description": "Push-to-talk voice notes transcribed on-device with Gemma 4. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sarath/gemmanotes"
   },
   {
     "id": "korean-movie-search",
@@ -33306,13 +33313,6 @@
     "repo": "miro0o/miniWorldMap"
   },
   {
-    "id": "pdftion",
-    "name": "Pdftion",
-    "author": "Murat",
-    "description": "AI-open PDF annotation, editing, export, and Obsidian integration tools. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "arias007/pdftion"
-  },
-  {
     "id": "reading-inbox-synthesizer",
     "name": "Reading Inbox Synthesizer",
     "author": "ibrh96-prog",
@@ -33446,11 +33446,11 @@
     "repo": "viggomeesters/obsidian-slide-deck-viewer"
   },
   {
-    "id": "guozha-ai-pro",
-    "name": "Guozha AI Pro",
-    "author": "jiahuacaogoodman-art",
-    "description": "AI-powered Obsidian chat, multimodal workflows, image generation, and WebDAV sync. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jiahuacaogoodman-art/guozha"
+    "id": "marknice-wechat",
+    "name": "MarkNice WeChat",
+    "author": "Willmove",
+    "description": "将 Markdown 笔记一键转换为微信公众号排版：多主题、一键复制不乱版、直接发送到公众号草稿箱。Convert notes into WeChat Official Account layouts with themes, one-click copy, and direct draft publishing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "willmove/obsidian-marknice"
   },
   {
     "id": "engram-chat",
@@ -33517,9 +33517,9 @@
   },
   {
     "id": "mv-obcc",
-    "name": "Mv obcc",
+    "name": "mv-SenceAI",
     "author": "MV",
-    "description": "Connects Obsidian to Claude Code with configurable page tracking, session-aware terminals, MCP tools, editable diffs, and optional upstream compatibility. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "AI assistant for Obsidian with inline completion, selection prompts, Claude Code bridge, MCP tools, and editable diffs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aitingtingya/mv-obcc"
   },
   {
@@ -33740,6 +33740,13 @@
     "repo": "johannes-kaindl/json-editor"
   },
   {
+    "id": "color-tab",
+    "name": "Color Tab",
+    "author": "Rafael Ordaz",
+    "description": "Colorize open tabs to visually distinguish notes at a glance, using a right-click context menu. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rordaz/ColorTab"
+  },
+  {
     "id": "rss-importer",
     "name": "RSS Importer",
     "author": "Charles Kelsoe",
@@ -33836,6 +33843,13 @@
     "author": "醒醒-关于我(https://xingxing.aigongxue.cfd/)",
     "description": "隐藏阅读模式下没有内容的标题 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "duluodexiaopiqiu/hide-empty-headings"
+  },
+  {
+    "id": "mermaid-fixer",
+    "name": "Mermaid Fixer",
+    "author": "Rosetta Zidian Guo",
+    "description": "Repair Mermaid and tables syntax in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fyaic/Mermaid-Fixer-Plugin"
   },
   {
     "id": "copy-to-wechat",
@@ -33976,5 +33990,19 @@
     "author": "sinaaxe",
     "description": "Fuzzy, out-of-order, and typo-tolerant granular search with line-level navigation across all Markdown files in the vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sinaaxe/ultra-search-plugin"
+  },
+  {
+    "id": "top-aligned-search",
+    "name": "Top Aligned Search",
+    "author": "Sean local",
+    "description": "Search within the active note and align each next match's line to the top of the editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tyronewj/top-aligned-search"
+  },
+  {
+    "id": "context-titles",
+    "name": "Context Titles",
+    "author": "Blake Cary",
+    "description": "Make duplicate note names readable by adding folder context. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "blakec2010/context-titles"
   }
 ]
