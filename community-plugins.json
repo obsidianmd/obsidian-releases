@@ -32844,13 +32844,6 @@
     "repo": "raymondseek/BrainGrowth"
   },
   {
-    "id": "nope",
-    "name": "Nope",
-    "author": "Wanja Zemke",
-    "description": "Not anOther Pdf Exporter. Export notes to publication-ready PDFs via Pandoc and the Eisvogel LaTeX template. Docker-powered toolchain, no LaTeX install required. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mriwan/obsidian-nope"
-  },
-  {
     "id": "day-echo",
     "name": "Day Echo",
     "author": "lucas",
@@ -34244,6 +34237,13 @@
     "repo": "jsun2020/hermes-agent-obsidian-plugin"
   },
   {
+    "id": "brains-sync",
+    "name": "Brains Sync",
+    "author": "Brains",
+    "description": "Sync your vault with Brains, the persistent, cross-LLM second brain your AI never had. Pull pages in, edit, and push changes back. One memory for Claude, ChatGPT, and whatever's next. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "brainsforai/obsidian-brains-sync"
+  },
+  {
     "id": "block-reference-enhancer",
     "name": "Block Reference Enhancer",
     "author": "msjsc001",
@@ -34256,5 +34256,26 @@
     "author": "swiSwift",
     "description": "Quickly toggle Obsidian CSS Snippets with a status bar popup. Supports grouping, drag reorder, and i18n. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dlsdgj/Obsidian-SwiftSnippets"
+  },
+  {
+    "id": "lockblock",
+    "name": "Lockblock",
+    "author": "Joshua Walls",
+    "description": "Keep sensitive Obsidian note sections encrypted until you choose to reveal them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "joshua-walls/lockblock"
+  },
+  {
+    "id": "document-comments",
+    "name": "Document Comments",
+    "author": "Kyle McDonald",
+    "description": "Notion-style margin comments stored inline in your markdown, so agents and other tools can read them too. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kylemcd/obsidian-document-comments"
+  },
+  {
+    "id": "open-notes-graph-highlight",
+    "name": "Open Notes Graph Highlight",
+    "author": "4Cjyxbq25Cb",
+    "description": "Highlights currently open notes in the graph view — custom color, enlarged size, and dimming of other nodes. Includes an in-graph control panel. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "4cjyxbq25cb/obsidian-open-notes-highlight"
   }
 ]
