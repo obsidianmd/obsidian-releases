@@ -29960,13 +29960,6 @@
     "repo": "djolex999/vir-obsidian"
   },
   {
-    "id": "didasync",
-    "name": "DidaSync",
-    "author": "CYZice",
-    "description": "Sync tasks between Obsidian and Dida365 or TickTick. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cyzice/Obsidian-DidaSync"
-  },
-  {
     "id": "little-milestones",
     "name": "Little Milestones",
     "author": "tinswangtao-web",
@@ -32291,6 +32284,13 @@
     "repo": "willsho/obsidian-headings-indicator"
   },
   {
+    "id": "autodater",
+    "name": "AutoDater",
+    "author": "Stanley Cheung",
+    "description": "Automatically adds Created/Updated dates to YAML frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cheuyin/autodater"
+  },
+  {
     "id": "excalidraw-extras",
     "name": "Excalidraw Extras",
     "author": "zsviczian",
@@ -32492,13 +32492,6 @@
     "author": "Arseniy Seroka",
     "description": "Read all notes in a folder together as one continuous scrolling view. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jagajaga/obsidian-folder-reader"
-  },
-  {
-    "id": "vault-relay",
-    "name": "VaultRelay",
-    "author": "Anti-Warlock",
-    "description": "Turn long-form notes into publish-ready content without moving your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "anti-warlock/vault-relay"
   },
   {
     "id": "canvas-bases",
@@ -32884,13 +32877,6 @@
     "author": "Vladimir Artamonov",
     "description": "Auto-encrypt fenced secret blocks inside notes with AES-256-GCM. Multi-key passphrase support keeps passwords and tokens safe from sync, backups, and AI agents reading the vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vnrtmnv/obsidian-inline-secret-block"
-  },
-  {
-    "id": "antinomia",
-    "name": "Antinomia",
-    "author": "Giuseppe De Martino",
-    "description": "Map and work through the contradictions in your vault: tensions, tradeoffs, and conflicting goals organized in 5 layers via frontmatter, with an AI Contradiction Hunter and PDF concept extraction. Works with cloud APIs or fully local models. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "demartinogiuseppe/antinomia"
   },
   {
     "id": "mysync",
@@ -33495,13 +33481,6 @@
     "repo": "nsyout/obsidian-concordance"
   },
   {
-    "id": "scholarium",
-    "name": "Scholarium",
-    "author": "tenor-john",
-    "description": "An all-in-one scholarly workspace with AI-assisted writing, literature management, notes, and productivity tools. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tenor-john/obsidian-scholarium"
-  },
-  {
     "id": "mv-obcc",
     "name": "mv-SenceAI",
     "author": "MV",
@@ -34074,5 +34053,12 @@
     "author": "Arvin Dang",
     "description": "Render `chart` code blocks as Tufte-style ASCII charts using Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "arvindang/tufte"
+  },
+  {
+    "id": "rollover",
+    "name": "Rollover",
+    "author": "Stefan Imbesi",
+    "description": "Close the previous dated note and open the next one, in one command — date-stamped, with optional templating. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stefan-imbesi/obsidian-rollover"
   }
 ]
