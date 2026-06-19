@@ -24045,6 +24045,13 @@
     "repo": "lemon695/obsidian-note-image-gallery"
   },
   {
+    "id": "social-archiver",
+    "name": "Social Archiver",
+    "author": "Jun Lim",
+    "description": "Archive social media posts from various platforms. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hyungyunlim/obsidian-social-archiver-releases"
+  },
+  {
     "id": "workout-ai-tracker",
     "name": "Workout AI Tracker",
     "author": "avlihachev",
@@ -28791,13 +28798,6 @@
     "repo": "kotaindah55/better-embedded-canvas"
   },
   {
-    "id": "ezimage",
-    "name": "EzImage",
-    "author": "Kiang",
-    "description": "Upload images to cloud storage (R2/S3) with automatic compression. Paste or drag images to get a Markdown link instantly. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "keepwonder/ezimage-obsidian"
-  },
-  {
     "id": "lite-tabs",
     "name": "Lite Tabs",
     "author": "Azona77",
@@ -29979,6 +29979,13 @@
     "author": "Djordje Marković",
     "description": "An LLM Wiki for Claude Code, in your Obsidian sidebar. Surface relevant notes from your distilled session knowledge as you work. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "djolex999/vir-obsidian"
+  },
+  {
+    "id": "didasync",
+    "name": "DidaSync",
+    "author": "CYZice",
+    "description": "Sync tasks between Obsidian and Dida365 or TickTick. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cyzice/Obsidian-DidaSync"
   },
   {
     "id": "little-milestones",
@@ -32900,6 +32907,13 @@
     "repo": "vnrtmnv/obsidian-inline-secret-block"
   },
   {
+    "id": "antinomia",
+    "name": "Antinomia",
+    "author": "Giuseppe De Martino",
+    "description": "Map and work through the contradictions in your vault: tensions, tradeoffs, and conflicting goals organized in 5 layers via frontmatter, with an AI Contradiction Hunter and PDF concept extraction. Works with cloud APIs or fully local models. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "demartinogiuseppe/antinomia"
+  },
+  {
     "id": "mysync",
     "name": "MySync",
     "author": "Henrique Manduca",
@@ -33628,13 +33642,6 @@
     "repo": "ben4202121/buddybridge"
   },
   {
-    "id": "vault-lens",
-    "name": "Vault Lens",
-    "author": "suzhan",
-    "description": "Preview docx/xlsx/pptx and 60+ code files (sql/java/py/js/ts/…). Zoom, edit & save, line numbers, XLSX tabs. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "leo-su-zhan/obsidian-vault-lens"
-  },
-  {
     "id": "thought-synapse-mobile",
     "name": "Thought Synapse (Mobile)",
     "author": "liyaoming",
@@ -33810,6 +33817,13 @@
     "repo": "watsonlu/obsidian-showdown-viewer"
   },
   {
+    "id": "chat-bubble-renderer",
+    "name": "Chat Bubble Renderer",
+    "author": "bruce2431",
+    "description": "Render Markdown chat logs as WeChat-style bubble dialogs. 将聊天记录渲染为微信风格气泡对话框。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bruce2431/obsidian-chat-bubble-renderer"
+  },
+  {
     "id": "pagemode",
     "name": "PageMode",
     "author": "Hyunyoung Park",
@@ -33957,6 +33971,13 @@
     "repo": "gammafunds/german-law-lookup"
   },
   {
+    "id": "dual-link",
+    "name": "DualLink",
+    "author": "马可菠萝",
+    "description": "将本地和保险库中的文件嵌入到您的文档中。支持图片、音频和视频的内联渲染。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mowdw/DualLink"
+  },
+  {
     "id": "hypermnesic-companion",
     "name": "Hypermnesic Companion",
     "author": "Léonard Sellem",
@@ -33976,13 +33997,6 @@
     "author": "usero2-endofday",
     "description": "Capture memos with file attachments, tags, and todos — inspired by usememos - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "usero2/obsidian-plugins-mememo"
-  },
-  {
-    "id": "atomic-notes-extractor",
-    "name": "Bamboo Darts",
-    "author": "羽鳞君",
-    "description": "竹叶飞刃：AI 提炼子弹笔记，过滤信息垃圾，把阅读转化为可检索的知识节点。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "miaoziguan/obsidian-Bamboo-Darts"
   },
   {
     "id": "bitwarden",
@@ -34312,5 +34326,40 @@
     "author": "c-miles",
     "description": "Render your vault's link graph as a cinematic, auto-rotating 3D orrery: bloom-lit nodes, a nebula backdrop, and a starfield. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "c-miles/orrery"
+  },
+  {
+    "id": "pinball-db",
+    "name": "Pinball DB",
+    "author": "tgrosinger",
+    "description": "Track and organize a database of pinball machines inside your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tgrosinger/pinball-db-obsidian"
+  },
+  {
+    "id": "onenote-integration",
+    "name": "OneNote Integration",
+    "author": "Qoder",
+    "description": "Embed and edit OneNote notes directly in Obsidian via local COM integration — real window embedding, sidebar browsing, and interactive page selection. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aywutiansui/obsidian-onenote-integration"
+  },
+  {
+    "id": "agentcairn",
+    "name": "agentcairn",
+    "author": "Charles C. Figueiredo",
+    "description": "See, filter, and navigate your agentcairn agent-memory vault: provenance and currency at a glance. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ccf/agentcairn-obsidian"
+  },
+  {
+    "id": "note-refactor-plus",
+    "name": "Note Refactor Plus",
+    "author": "aonosota",
+    "description": "Extract selections or headings into new notes using multiple configurable profiles (template, folder, filename rule, link style). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aonosota/note-refactor-plus"
+  },
+  {
+    "id": "word-scalpel",
+    "name": "Word Scalpel",
+    "author": "Grich Hiranyaphinant",
+    "description": "Precise word deletion for Thai and Japanese — fixes Option+Backspace so it deletes one word at a time instead of the entire sentence. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "grichshiran/obsidian-word-scalpel"
   }
 ]
