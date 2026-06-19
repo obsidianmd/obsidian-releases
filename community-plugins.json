@@ -10360,13 +10360,6 @@
     "repo": "taichimaeda/markpilot"
   },
   {
-    "id": "systemsculpt-ai",
-    "name": "SystemSculpt AI",
-    "author": "systemsculpt",
-    "description": "Enhance your data flow with AI-powered tools for note-taking, task management, templates, and so much more.",
-    "repo": "systemsculpt/obsidian-systemsculpt-ai"
-  },
-  {
     "id": "dust-calendar",
     "name": "Dust Calendar",
     "author": "a-nano-dust",
@@ -23025,7 +23018,7 @@
   {
     "id": "memmaster",
     "name": "MemMaster Flashcards + AI Tests",
-    "author": "qoonmax",
+    "author": "Maksim Markov",
     "description": "A spaced repetition plugin that helps you remember your notes by scheduling them for review at the right time. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "qoonmax/memmaster-obsidian-plugin"
   },
@@ -34174,6 +34167,13 @@
     "repo": "fredrix1/synapse-ai-obsidian"
   },
   {
+    "id": "pdf-image-extractor",
+    "name": "PDF Image Extractor",
+    "author": "svew",
+    "description": "Adds a command to extract embedded images from the currently open PDF and save them to your vault's attachments folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "svew/obsidian-pdf-image-extractor"
+  },
+  {
     "id": "rollover",
     "name": "Rollover",
     "author": "Stefan Imbesi",
@@ -34312,5 +34312,19 @@
     "author": "Jackson Woodard",
     "description": "Import RPG Homebrew JSON as rendered TTRPG statblocks, receive direct website exports, and roll clickable dice notation. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kilowattrl/rpg-homebrew-importer"
+  },
+  {
+    "id": "cursor-timestamp",
+    "name": "Cursor Timestamp",
+    "author": "Ørjan Hesjedal",
+    "description": "Insert a configurable, timezone-aware date and time stamp at the cursor, with custom prefix and suffix text and optional bold, italic, or coloured styling. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "orjanhesjedal/cursor-timestamp"
+  },
+  {
+    "id": "orrery",
+    "name": "Orrery",
+    "author": "c-miles",
+    "description": "Render your vault's link graph as a cinematic, auto-rotating 3D orrery: bloom-lit nodes, a nebula backdrop, and a starfield. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "c-miles/orrery"
   }
 ]
