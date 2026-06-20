@@ -29561,6 +29561,13 @@
     "repo": "reggie86/vaultdex"
   },
   {
+    "id": "gallery-view",
+    "name": "Gallery View",
+    "author": "mkshp-dev",
+    "description": "Create interactive image galleries in your notes using obs-gallery code blocks. Supports multiple view types (thumbnail, carousel, grid) and both local vault images and external URLs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mkshp-dev/obsidian-gallery-plugin"
+  },
+  {
     "id": "draw-in-canvas",
     "name": "Draw in Canvas",
     "author": "xryul",
@@ -34176,7 +34183,7 @@
   {
     "id": "dbml-erd",
     "name": "DBML ER Diagrams",
-    "author": "Wilmar Rojas Av.",
+    "author": "Wilmar Rojas Avendaño",
     "description": "Renderiza bloques de codigo dbml como diagramas entidad-relacion con ruteo ortogonal estilo dbdiagram.io. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wrojasa/obsidian-dbml-erd"
   },
@@ -34263,6 +34270,13 @@
     "author": "Sean local",
     "description": "Share selected plugins from the current vault to another Obsidian vault by creating symbolic links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tyronewj/Plugin-Share-Linker"
+  },
+  {
+    "id": "agentic-chat",
+    "name": "Agentic Chat",
+    "author": "tardigrde",
+    "description": "Privacy-first agentic AI chat in the sidebar. The agent reads, searches, and edits your vault through visible tool calls, routed to zero-data-retention providers by default, or runs fully local with Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tardigrde/obsidian-agentic-chat"
   },
   {
     "id": "wechat-obsync",
@@ -34651,7 +34665,7 @@
   },
   {
     "id": "epub-reading-importer",
-    "name": "EPUB Reading Importer",
+    "name": "EPUB Transfer to Markdown",
     "author": "Taoye",
     "description": "Import EPUB files into a vault as chapter-based Markdown reading workspaces. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "skye1349/epub-reading-importer"
@@ -34683,5 +34697,19 @@
     "author": "MrDanRave",
     "description": "Visualise multiple Obsidian vaults as an interactive graph, compare shared notes across vaults, and merge conflicting versions side-by-side. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mrdanrave/Intervaults"
+  },
+  {
+    "id": "git-history-reviewer",
+    "name": "Git History Reviewer",
+    "author": "timdommett",
+    "description": "Review every commit in your vault's git history with a dark-mode diff view, and track which commits you've reviewed and approved. Review state is stored locally so it never creates new commits. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "timdommett/Obsidian-Git-History-Reviewer"
+  },
+  {
+    "id": "custom-sidebar-width",
+    "name": "Custom Sidebar Width",
+    "author": "Avni Bilgin",
+    "description": "Sets the left and right sidebar widths per note based on frontmatter properties or tags. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "avnibilgin/custom-sidebar-width"
   }
 ]
