@@ -21350,6 +21350,13 @@
     "repo": "abromberg/obsidian-collaborative-folders-plugin"
   },
   {
+    "id": "library",
+    "name": "Library",
+    "author": "kigrok",
+    "description": "Organize movies, series, and books as a visual gallery. Search and add titles in-app, auto-fetch metadata, track progress, and link it all in your graph. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kigrok/obsidian-library-plugin"
+  },
+  {
     "id": "ghostty-terminal",
     "name": "Ghostty Terminal",
     "author": "lavs9",
@@ -22566,6 +22573,13 @@
     "author": "shitcoding",
     "description": "Switch between last two active tabs with a single hotkey (Alt-Tab behavior) - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "shitcoding/obsidian_tabjump"
+  },
+  {
+    "id": "vim-mode-status",
+    "name": "Vim Mode Status",
+    "author": "penyt",
+    "description": "Show Vim mode (Normal/Insert/Visual) in the status bar with colors. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "penyt/vim-mode-status"
   },
   {
     "id": "better-bullets",
@@ -26549,13 +26563,6 @@
     "author": "Toto Tvalavadze",
     "description": "Collects Markdown tasks from every note into a grouped task view. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "totocaster/vault-tasks-obsidian"
-  },
-  {
-    "id": "lexvoice",
-    "name": "LexVoice",
-    "author": "Lynnx",
-    "description": "后台录音、实时转写、AI 结构化纪要与知识沉淀 | Background recording, segmented or streaming transcription, and AI-organized Markdown notes for meetings, interviews, monologues, and learning material. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lynn-x/LexVoice"
   },
   {
     "id": "zulu-agent",
@@ -32578,13 +32585,6 @@
     "repo": "lugji-app/obsidian-lugji"
   },
   {
-    "id": "mi-agrupacion",
-    "name": "Mi Agrupacion",
-    "author": "Jesús García",
-    "description": "Registro de actividades comunitarias, visitas y proceso educativo para agrupaciones Bahá'ís. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jaliriogbarrios19/mi-agrupacion"
-  },
-  {
     "id": "wedding-computer-sync",
     "name": "Wedding Computer Sync",
     "author": "Wedding Computer",
@@ -34195,6 +34195,13 @@
     "repo": "arvindang/tufte"
   },
   {
+    "id": "subscription-calculator",
+    "name": "Subscription Calculator",
+    "author": "citrusrenegade",
+    "description": "Track enabled and disabled subscriptions, yearly totals, and cached favicons. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "citrusrenegade/subscription-calculator-obsidian"
+  },
+  {
     "id": "stonegate",
     "name": "StoneGate",
     "author": "Abdulrahman Agiba | xsiphr",
@@ -34772,7 +34779,7 @@
     "id": "notional",
     "name": "Notional",
     "author": "bryanbans",
-    "description": "Sync your notes to Notion pages, converting wiki-links along the way. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Two-way sync for your Markdown notes and Notion: one-click connect, wiki-links become Notion page mentions, and conflict-aware Push/Pull that never overwrites silently. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bryanbans/Notional"
   },
   {
@@ -34802,6 +34809,13 @@
     "author": "strangelion",
     "description": "LaTeX formula editor with MathLive WYSIWYG editing, 2100+ categorized formulas, smart search, and extensible formula folders. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "strangelion/obsidian-formula-library"
+  },
+  {
+    "id": "marimo-bridge",
+    "name": "marimo Bridge",
+    "author": "soakaye",
+    "description": "View and edit marimo notebooks (.py). Auto-manages a local marimo server and embeds its UI in a webview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "soakaye/obsidian-marimo-bridge"
   },
   {
     "id": "folderandgraphs-plus",
@@ -34858,5 +34872,19 @@
     "author": "Nikitas Tsiris",
     "description": "Show word definitions in a popup when you select or Ctrl-hover a word, powered by Wiktionary across many languages. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ntsiris/obsidian-popup-dictionary"
+  },
+  {
+    "id": "card-columns",
+    "name": "Card Columns",
+    "author": "Nik M",
+    "description": "Kanban-style card view with column grouping, tag filtering, and property chips. Group notes by tags or any frontmatter property. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mamadaevv/card-columns"
+  },
+  {
+    "id": "bible-verse-tips",
+    "name": "Bible Verse Tips",
+    "author": "Joel Wong",
+    "description": "Hover any Bible reference to preview the verse; click to read the whole chapter, with an inline translation switcher. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "joelwongjy/obsidian-bible-verse-tips"
   }
 ]
