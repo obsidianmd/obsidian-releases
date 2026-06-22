@@ -29298,7 +29298,7 @@
     "id": "advanced-word-count",
     "name": "Advanced Word Count",
     "author": "pan4ratte",
-    "description": "Allows you to create complex word count presets that will be displayed in the status bar or in the right pane tab. Install even more presets, metrics and advanced settings with community extensions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create complex word count presets that will be displayed in the status bar or in the right pane tab. Install tens of community presets, custom metrics, and settings from the extensions store. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pan4ratte/obsidian-advanced-word-count"
   },
   {
@@ -33761,6 +33761,13 @@
     "repo": "skyue/obsidian-typecho-publisher"
   },
   {
+    "id": "rustshare-vault-sync",
+    "name": "RustShare Vault Sync",
+    "author": "RustShare",
+    "description": "Sync local vaults to RustShare. RustShare is not affiliated with, endorsed by, or sponsored by Dynalist Inc. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zoorpha/rustshare-obsidian-plugin"
+  },
+  {
     "id": "zhongwen-vault",
     "name": "Zhongwen Vault",
     "author": "WooP18",
@@ -34226,7 +34233,7 @@
     "id": "dbml-erd",
     "name": "DBML ER Diagrams",
     "author": "Wilmar Rojas Avendaño",
-    "description": "Renderiza bloques de codigo dbml como diagramas entidad-relacion con ruteo ortogonal estilo dbdiagram.io. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Render dbml code blocks as interactive entity-relationship diagrams with dbdiagram.io-style orthogonal routing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wrojasa/obsidian-dbml-erd"
   },
   {
@@ -35082,5 +35089,12 @@
     "author": "Josip Markus",
     "description": "Fold and unfold the active note's outline to a chosen depth (levels 1-6) with hotkey-bindable commands. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "josipmarkus/obsidian-outline-level-fold"
+  },
+  {
+    "id": "reveal-hidden-files",
+    "name": "Reveal Hidden Files",
+    "author": "Josip Markus",
+    "description": "Reveal dot-prefixed files and folders in the File Explorer panel, with a per-pattern deny list. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "josipmarkus/obsidian-reveal-hidden-files"
   }
 ]
