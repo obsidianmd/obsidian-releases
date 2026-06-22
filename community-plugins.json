@@ -26376,6 +26376,13 @@
     "repo": "neves007/line-ref-copier"
   },
   {
+    "id": "karpathywiki",
+    "name": "Karpathy LLM Wiki",
+    "author": "Greener-Dalii",
+    "description": "Karpathy's LLM Wiki implementation - multi-page knowledge generation with entity/concept pages and conversational query. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "green-dalii/obsidian-llm-wiki"
+  },
+  {
     "id": "sync-trakt",
     "name": "Sync Trakt",
     "author": "o1xhack",
@@ -28481,6 +28488,13 @@
     "author": "kausthub-kannan",
     "description": "AI-powered research tool that turns your notes into a living knowledge graph. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kausthub-kannan/poneglyph"
+  },
+  {
+    "id": "note-database",
+    "name": "Note Database",
+    "author": "pangy",
+    "description": "Local-first database views for Obsidian notes: table, board, gallery, list, chart, calendar, timeline, formulas, filters, and inline editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pangy9/obsidian-note-database"
   },
   {
     "id": "todoist-bridge",
@@ -34685,6 +34699,13 @@
     "repo": "skye1349/contextual-ai-reader"
   },
   {
+    "id": "epub-reading-importer",
+    "name": "EPUB Transfer to Markdown",
+    "author": "Taoye",
+    "description": "Import EPUB files into a vault as chapter-based Markdown reading workspaces. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "skye1349/epub-reading-importer"
+  },
+  {
     "id": "block-step-reader",
     "name": "Block Step Reader",
     "author": "gorf",
@@ -34984,5 +35005,26 @@
     "author": "Gustavo Lourenço",
     "description": "Turn your vault into a team of AI agents built from your own notes — they chat, act on your notes (with approval), remember, and brainstorm together. Bring your own key, local-first. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gustavczar/local-agent-obsidian-plugin"
+  },
+  {
+    "id": "vault-retrieval",
+    "name": "Vault Retrieval",
+    "author": "Johannes Kaindl",
+    "description": "Local, offline retrieval over your vault: related notes, semantic search, and grounded chat with a local LLM — nothing leaves your machine. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johannes-kaindl/vault-rag"
+  },
+  {
+    "id": "image-to-markdown",
+    "name": "Image to Markdown",
+    "author": "Johannes Kaindl",
+    "description": "Transcribe the images in a note to Markdown with a local vision LLM — fully offline, non-destructive, streaming into the sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johannes-kaindl/image-to-markdown"
+  },
+  {
+    "id": "custom-tag-color",
+    "name": "Custom Tag Color",
+    "author": "Anand Baghel",
+    "description": "Define custom text colors (and derived backgrounds) for tags based on regex patterns. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "anandrajbaghel/obsidian-custom-tag-color"
   }
 ]
