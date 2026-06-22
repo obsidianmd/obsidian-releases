@@ -25669,6 +25669,13 @@
     "repo": "sunzyyu/obsidian-default-view"
   },
   {
+    "id": "task-center",
+    "name": "Task Center",
+    "author": "correctroad",
+    "description": "Task Center adds weekly and monthly task views, custom query panels, and OmniFocus-style planning to Obsidian. and AI-friendly CLI support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "correctroadh/obsidian-task-center"
+  },
+  {
     "id": "kaper",
     "name": "Kaper",
     "author": "kaper",
@@ -26369,13 +26376,6 @@
     "repo": "neves007/line-ref-copier"
   },
   {
-    "id": "karpathywiki",
-    "name": "Karpathy LLM Wiki",
-    "author": "Greener-Dalii",
-    "description": "Karpathy's LLM Wiki implementation - multi-page knowledge generation with entity/concept pages and conversational query. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "green-dalii/obsidian-llm-wiki"
-  },
-  {
     "id": "sync-trakt",
     "name": "Sync Trakt",
     "author": "o1xhack",
@@ -26570,6 +26570,13 @@
     "author": "Toto Tvalavadze",
     "description": "Collects Markdown tasks from every note into a grouped task view. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "totocaster/vault-tasks-obsidian"
+  },
+  {
+    "id": "lexvoice",
+    "name": "LexVoice",
+    "author": "Lynnx",
+    "description": "后台录音、实时转写、AI 结构化纪要与知识沉淀 | Background recording, segmented or streaming transcription, and AI-organized Markdown notes for meetings, interviews, monologues, and learning material. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lynn-x/LexVoice"
   },
   {
     "id": "zulu-agent",
@@ -28474,13 +28481,6 @@
     "author": "kausthub-kannan",
     "description": "AI-powered research tool that turns your notes into a living knowledge graph. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kausthub-kannan/poneglyph"
-  },
-  {
-    "id": "note-database",
-    "name": "Note Database",
-    "author": "pangy",
-    "description": "Database views for notes with table, board, gallery, formulas, filters, and inline editing. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pangy9/obsidian-note-database"
   },
   {
     "id": "todoist-bridge",
@@ -33950,13 +33950,6 @@
     "repo": "maoxiaoke/obsidian-image-actions"
   },
   {
-    "id": "chinese-comprehensible-input",
-    "name": "Chinese Comprehensible Input",
-    "author": "Dany",
-    "description": "Turn Chinese notes into a learner-friendly comprehensible-input reading environment with dictionary-aware tokenization, exposure tracking, SRS, and optional AI-generated review stories. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "davadev/obsidian_chinese_comprehensible_input"
-  },
-  {
     "id": "hide-empty-headings",
     "name": "Hide Empty Headings",
     "author": "醒醒-关于我(https://xingxing.aigongxue.cfd/)",
@@ -34692,13 +34685,6 @@
     "repo": "skye1349/contextual-ai-reader"
   },
   {
-    "id": "epub-reading-importer",
-    "name": "EPUB Transfer to Markdown",
-    "author": "Taoye",
-    "description": "Import EPUB files into a vault as chapter-based Markdown reading workspaces. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "skye1349/epub-reading-importer"
-  },
-  {
     "id": "block-step-reader",
     "name": "Block Step Reader",
     "author": "gorf",
@@ -34970,5 +34956,33 @@
     "author": "Toru4ka",
     "description": "Encrypt/decrypt notes with age. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "toru4ka/obsidian-age-crypto"
+  },
+  {
+    "id": "yet-another-all-in-one",
+    "name": "Yet Another All-In-One",
+    "author": "cmdaeo",
+    "description": "All-in-one plugin featuring Git sync and more - because one plugin is never enough. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cmdaeo/obsidian-plugin"
+  },
+  {
+    "id": "integrated-calendar",
+    "name": "Integrated Calendar",
+    "author": "seulleee",
+    "description": "Subscribe to iCloud, Outlook, and Google ICS calendars and merge them with your notes' events and tasks in month, week, and day views. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "seulleee/obsidian-integrated-calendar"
+  },
+  {
+    "id": "handwriting-latex",
+    "name": "Handwriting and Image to LaTeX",
+    "author": "ChongCyrus",
+    "description": "Draw math formulas by hand or import from album, then convert them to LaTeX using AI APIs (SimpleTex / Custom). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chongcyrus/handwriting-latex"
+  },
+  {
+    "id": "local-agent-office",
+    "name": "Local Agent Office",
+    "author": "Gustavo Lourenço",
+    "description": "Turn your vault into a team of AI agents built from your own notes — they chat, act on your notes (with approval), remember, and brainstorm together. Bring your own key, local-first. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gustavczar/local-agent-obsidian-plugin"
   }
 ]
