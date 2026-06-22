@@ -21336,13 +21336,6 @@
     "repo": "kirangathani/pdf-commenter"
   },
   {
-    "id": "evc-team-relay",
-    "name": "EVC Team Relay",
-    "author": "entire-vc",
-    "description": "Enterprise collaboration with self-hosted relay infrastructure. Real-time editing with live cursors and secure team workspaces. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "entire-vc/evc-team-relay-obsidian-plugin"
-  },
-  {
     "id": "wave-analyzer",
     "name": "Wave Analyzer",
     "author": "zzigo",
@@ -22426,13 +22419,6 @@
     "author": "the-town",
     "description": "Display book cover and bibliography from ISBN (OpenBD). Write ISBN in a code block to show a book card. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "the-town/book-bibliography-card"
-  },
-  {
-    "id": "evc-local-sync",
-    "name": "EVC Local Sync to AI Agent",
-    "author": "entire-vc",
-    "description": "Bidirectional sync of docs folders between your vault and AI development projects. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "entire-vc/evc-local-sync-plugin"
   },
   {
     "id": "antv-infographic",
@@ -27951,13 +27937,6 @@
     "repo": "notesynchelper/obsidian-bijitongbu"
   },
   {
-    "id": "jotdrop",
-    "name": "JotDrop",
-    "author": "Diexar Labs",
-    "description": "Fast offline quick-capture plugin for Markdown notes with Android sync, Chrome web clipping, voice memos and card-based organization. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "diexar-labs/jotdrop"
-  },
-  {
     "id": "markdoist",
     "name": "Markdoist",
     "author": "0ximst1ll",
@@ -28199,7 +28178,7 @@
     "id": "simple-mind-map",
     "name": "Simple mind map",
     "author": "wanglin",
-    "description": "A relatively powerful mind map. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A mind map that combines aesthetics and functionality.  一个颜值与功能并存的思维导图。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wanglin2/obsidian-simplemindmap"
   },
   {
@@ -31269,6 +31248,13 @@
     "repo": "devxoul/obsidian-ignore"
   },
   {
+    "id": "glitter-idea",
+    "name": "Glitter",
+    "author": "ItsVeyra",
+    "description": "Save ideas without creating a full note first, then organize them into pools, files, or reusable snippets when needed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "itsveyra/glitter-idea-repo"
+  },
+  {
     "id": "jokertype",
     "name": "JokerType",
     "author": "kannibalk1w1",
@@ -33698,13 +33684,6 @@
     "repo": "gaedol/gtd-flow"
   },
   {
-    "id": "feishu-lark-cli-sync",
-    "name": "Feishu Lark CLI Sync",
-    "author": "wanghuan",
-    "description": "Publish and sync Markdown notes to Feishu/Lark Docs via lark-cli. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "wanghuan9/obsidian-feishu-lark-cli-sync"
-  },
-  {
     "id": "mobile-dashboard",
     "name": "Mobile Dashboard",
     "author": "liyaoming",
@@ -34583,7 +34562,7 @@
     "id": "code-workbench",
     "name": "Code Workbench",
     "author": "Vitaly Andrianov",
-    "description": "Code editor and Claude Code IDE for your vault: syntax highlighting, error diagnostics, and formatting for 50+ languages (JSON,   YAML, Python), with an accept or reject diff for Claude's edits. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Editor and Claude Code IDE for your vault: syntax highlighting, diagnostics, and formatting for 50+ languages. Claude's edits as diffs; vault tools let Claude read and edit your notes via MCP - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vitaly-andr/obsidian-code-workbench"
   },
   {
@@ -35054,5 +35033,19 @@
     "author": "rancelee233",
     "description": "Add a compact one-week calendar below Obsidian's file explorer. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rancelee233/Mini-Calendar"
+  },
+  {
+    "id": "burnish",
+    "name": "Burnish",
+    "author": "John Cattrall",
+    "description": "Polish your notes with an LLM. Tidy, restructure, distill, merge meeting notes and more, always with a diff preview before anything is written. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johncattrall/burnish"
+  },
+  {
+    "id": "orbital",
+    "name": "Orbital",
+    "author": "Marcus Breiden",
+    "description": "Explore note relations, fix dangling links in bulk, and track recent files — all in one sidebar pane. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mmomm-org/obsidian-orbital"
   }
 ]
