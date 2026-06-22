@@ -18973,7 +18973,7 @@
     "id": "recipe-vault",
     "name": "Recipe Vault",
     "author": "taylorsdugger",
-    "description": "Recipe Vault is a full recipe management system for Obsidian — import from web, image, or scratch, browse your vault visually, and build shopping lists automatically. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Recipe Vault is a full recipe management system for Obsidian. Import recipes from web pages, browse them in a gallery, and build shopping lists automatically. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "taylorsdugger/obsidian-recipe-vault"
   },
   {
@@ -31234,6 +31234,13 @@
     "repo": "oireht/unified-shopping-list-sorter"
   },
   {
+    "id": "section-meter",
+    "name": "Section Meter",
+    "author": "Martino Wong",
+    "description": "Shows stats (wordcount, reading time) beside headings and in the status bar - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "martinowong/obsidian-section-meter"
+  },
+  {
     "id": "sillage",
     "name": "Sillage",
     "author": "hansenje",
@@ -31323,6 +31330,13 @@
     "author": "ChekTek",
     "description": "Adds a copy button next to markdown links and bare URLs so you can copy the URL with a single click. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "chektek/obsidian-copy-link"
+  },
+  {
+    "id": "feishu-doc-toolbar",
+    "name": "ZengQiang Enhanced",
+    "author": "lishu",
+    "description": "浮动工具栏、模板库、原生表格配色与多种内嵌实用工具。需同时安装本仓库 companion-plugins 中的 markdown-table-enhancer。增强表格仅在开启实验性 OneNote 高保真粘贴时后台可用。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lishu2043687491-ux/Obsidian-ZengQiang"
   },
   {
     "id": "daily-note-template",
@@ -31799,6 +31813,13 @@
     "author": "Viggo Meesters",
     "description": "Browse .yaml and .yml files as a read-only tree with search, outline navigation, and syntax-highlighted source. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "viggomeesters/obsidian-yaml-viewer"
+  },
+  {
+    "id": "analogy-rag-in-your-vault",
+    "name": "Analogy - RAG in your vault",
+    "author": "liaocaoxuezhe",
+    "description": "Search your vault semantically with local vector embeddings and expose RAG search to MCP clients. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "liaocaoxuezhe/obsidian-extension"
   },
   {
     "id": "simple-autolink",
@@ -33460,13 +33481,6 @@
     "repo": "viggomeesters/obsidian-folder-sort-view"
   },
   {
-    "id": "stashpad",
-    "name": "Stashpad",
-    "author": "Human",
-    "description": "A chat-style, nested-notes workspace: rapid capture, outliner navigation, fast search, tasks, and per-folder templates, with one-click Open Knowledge Format (OKF) export for LLMs and agents. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "grub-basket/SP"
-  },
-  {
     "id": "html-experience",
     "name": "HTML Experience",
     "author": "yabs",
@@ -34440,13 +34454,6 @@
     "repo": "c-miles/orrery"
   },
   {
-    "id": "writing-menu",
-    "name": "Writing Menu",
-    "author": "zpzp13",
-    "description": "A writing environment customization plugin with typography controls, focus mode, smart quotes, text substitution, typewriter scroll, word counter, and more. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zpzp13/obsidian-writing-menu"
-  },
-  {
     "id": "pinball-db",
     "name": "Pinball DB",
     "author": "tgrosinger",
@@ -35061,5 +35068,19 @@
     "author": "sxjeel",
     "description": "Memorize your notes and paragraphs actively with spaced repetition and retrospective deadlines directly inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sajee05/echo-recall"
+  },
+  {
+    "id": "daily-tracker",
+    "name": "Daily Tracker",
+    "author": "rapphcd",
+    "description": "Habit tracking and daily statistics directly in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rapphcd/daily-tracker"
+  },
+  {
+    "id": "outline-level-fold",
+    "name": "Outline Level Fold",
+    "author": "Josip Markus",
+    "description": "Fold and unfold the active note's outline to a chosen depth (levels 1-6) with hotkey-bindable commands. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "josipmarkus/obsidian-outline-level-fold"
   }
 ]
