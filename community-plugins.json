@@ -4686,7 +4686,7 @@
     "id": "smart-connections",
     "name": "Smart Connections",
     "author": "🌴 Brian",
-    "description": "Find related notes and excerpts while writing. Your link building copilot displays relevant content in graph + list view. A local embedding model powers semantic search. Zero setup. No API key.",
+    "description": "Find related notes and excerpts while writing. Your AI link building copilot displays relevant content in graph + list view. A local embedding model powers semantic search. Zero setup. No API key.",
     "repo": "brianpetro/obsidian-smart-connections"
   },
   {
@@ -14871,7 +14871,7 @@
     "id": "sync-vault-ce",
     "name": "Sync Vault",
     "author": "abcamus",
-    "description": "The Ultimate Cloud Sync & P2P Collaboration for Obsidian. Turn your notes into AI fuel via cloud links and the MCP protocol.",
+    "description": "Professional cloud sync & VFS for Obsidian. Features zero-space VFS, 4K streaming, MCP AI engine, and P2P collaboration. Supports Baidu/Aliyun/Quark/WebDAV/S3.",
     "repo": "abcamus/obsidian-sync-vault-ce"
   },
   {
@@ -21292,6 +21292,13 @@
     "author": "ayv4zyan",
     "description": "Convert NotebookLM mindmaps to Canvas with one click. Requires NotebookLM Ultra Exporter Chrome extension. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ayv4zyan/NotebookLM-Mindmap-To-Obsidian-Canvas"
+  },
+  {
+    "id": "redact",
+    "name": "Redact",
+    "author": "intelskya",
+    "description": "Redact selected text with a command or shortcut. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "intelskya/obsidian-redact"
   },
   {
     "id": "clist-calc",
@@ -34394,7 +34401,7 @@
     "id": "swift-snippets",
     "name": "SwiftSwitch",
     "author": "swiSwift",
-    "description": "Auto-switch CSS snippets, themes, eye-care & breathing modes by page — or toggle manually via status bar/floating button. Grouping, drag reorder - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Auto-switch CSS snippets, themes, eye-care & breathing modes by page — or toggle manually via status bar/floating button. Supports local image backgrounds, group management, and drag reorder. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dlsdgj/Obsidian-SwiftSnippets"
   },
   {
@@ -34487,13 +34494,6 @@
     "author": "Grich Hiranyaphinant",
     "description": "Precise word deletion for Thai and Japanese — fixes Option+Backspace so it deletes one word at a time instead of the entire sentence. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "grichshiran/obsidian-word-scalpel"
-  },
-  {
-    "id": "neoloopy",
-    "name": "neoloopy",
-    "author": "neoloopy",
-    "description": "Systems-thinking causal-loop diagrams (CLDs): build variables and causal links, detect reinforcing/balancing feedback loops, and annotate them — fully local and offline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "frozenabe/neoloopy-obsidian"
   },
   {
     "id": "background-tray",
@@ -35149,7 +35149,7 @@
   {
     "id": "s-restore-profile",
     "name": "S-Restore Profile",
-    "author": "Stephenson Alves",
+    "author": "Stepheson Alves",
     "description": "Bulk reinstall your community plugins from your existing plugin list. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "stepheson/s-restore-profile_obsidian-plugin"
   },
@@ -35215,5 +35215,12 @@
     "author": "penyt",
     "description": "Add customizable colors to highlights and bold text, with commands to convert styled Markdown to inline HTML. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "penyt/style-obmd"
+  },
+  {
+    "id": "lookout",
+    "name": "Lookout",
+    "author": "Post-Math",
+    "description": "Survey wide content instead of scrolling sideways. Pan and zoom Mermaid diagrams (wheel, Ctrl+wheel, or buttons), fit them to the frame, and open diagrams or wide tables full-screen. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "post-math/Lookout"
   }
 ]
