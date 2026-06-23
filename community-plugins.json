@@ -33992,13 +33992,6 @@
     "repo": "fyaic/Mermaid-Fixer-Plugin"
   },
   {
-    "id": "copy-to-wechat",
-    "name": "Copy to WeChat",
-    "author": "jerryshi",
-    "description": "Copy notes to WeChat as chat-friendly plain text, or as a rendered image. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "syw2014/obsidian-copy-to-wechat"
-  },
-  {
     "id": "encoding-autofix",
     "name": "Encoding Auto-Fix",
     "author": "kathar0s",
@@ -34235,13 +34228,6 @@
     "author": "Wilmar Rojas Avendaño",
     "description": "Render dbml code blocks as interactive entity-relationship diagrams with dbdiagram.io-style orthogonal routing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wrojasa/obsidian-dbml-erd"
-  },
-  {
-    "id": "tasks-timeline",
-    "name": "Tasks Timeline",
-    "author": "leonezz",
-    "description": "View and manage vault tasks on a timeline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "leonezz/tasks-timeline-obsidian"
   },
   {
     "id": "conote-git",
@@ -35091,6 +35077,20 @@
     "repo": "rapphcd/daily-tracker"
   },
   {
+    "id": "outline-level-fold",
+    "name": "Outline Level Fold",
+    "author": "Josip Markus",
+    "description": "Fold and unfold the active note's outline to a chosen depth (levels 1-6) with hotkey-bindable commands. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "josipmarkus/obsidian-outline-level-fold"
+  },
+  {
+    "id": "reveal-hidden-files",
+    "name": "Reveal Hidden Files",
+    "author": "Josip Markus",
+    "description": "Reveal dot-prefixed files and folders in the File Explorer panel, with a per-pattern deny list. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "josipmarkus/obsidian-reveal-hidden-files"
+  },
+  {
     "id": "link-grouper",
     "name": "Link Grouper",
     "author": "eluisjonathan",
@@ -35103,5 +35103,26 @@
     "author": "Eryk J.",
     "description": "Parse, convert, and preview scripture references; insert citations from NWT Bible, and launch in JW Library and JW.ORG. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "erykjj/traverture"
+  },
+  {
+    "id": "bible-study",
+    "name": "Bible Study",
+    "author": "linkongren",
+    "description": "圣经研读助手 — 快速引用经文、圣经阅读面板，支持和合本 (CUV) - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "linkongren/obsidian-bible-study"
+  },
+  {
+    "id": "watch-later-synthesizer",
+    "name": "Watch Later Synthesizer",
+    "author": "ibrh96-prog",
+    "description": "Triage your YouTube Watch Later backlog: per-video watch-or-skip verdicts, recurring themes across the pile, and a safe-to-delete list. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ibrh96-prog/obsidian-watch-later-synthesizer"
+  },
+  {
+    "id": "file-heatmap",
+    "name": "File Heatmap",
+    "author": "sato",
+    "description": "Shows a color-coded heatmap of recently modified files - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sato-note/file-heatmap"
   }
 ]
