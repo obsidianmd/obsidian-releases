@@ -27954,7 +27954,7 @@
     "id": "jotdrop",
     "name": "JotDrop",
     "author": "Diexar Labs",
-    "description": "JotDrop - A Private, Open-Source Google Keep Alternative for Obsidian & Android (Offline Markdown Quick-Capture) - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A private, open-source Google Keep alternative: a Google Keep-style quick-capture card grid with a companion Android app and Chrome web clipper. Offline, no account, plain Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "diexar-labs/jotdrop"
   },
   {
@@ -28033,6 +28033,13 @@
     "author": "blotspot",
     "description": "Keeps the display awake while the app is in the foreground, so you can keep cooking in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "blotspot/obsidian-wake-lock"
+  },
+  {
+    "id": "easy-git",
+    "name": "Easy Git",
+    "author": "Saiki77",
+    "description": "A secure, plug-and-play way to sync individual vault folders or sections with GitHub. Private repos supported, multiple folder mappings, bidirectional sync, and conflict resolution. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "saiki77/Easy-Git"
   },
   {
     "id": "smart-tabs",
@@ -29298,7 +29305,7 @@
     "id": "advanced-word-count",
     "name": "Advanced Word Count",
     "author": "pan4ratte",
-    "description": "Create complex word count presets that will be displayed in the status bar or in the right pane tab. Install tens of community presets, custom metrics, and settings from the extensions store. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create complex word count presets that will be displayed in the status bar or in the right pane tab. Install tens of community presets, custom metrics, and settings from the extension store. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pan4ratte/obsidian-advanced-word-count"
   },
   {
@@ -30210,6 +30217,13 @@
     "author": "Antigma Labs",
     "description": "AI second brain, continuous ingestion, indexing, and evolving. Powered by Ante agent core from Antigma Labs - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "antigmalabs/ante-obsidian"
+  },
+  {
+    "id": "smart-review",
+    "name": "Smart Review",
+    "author": "Jayce",
+    "description": "Smart review system based on Obsidian Properties / YAML frontmatter with Review Center, spaced review feedback, history, and AI payload export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jaycelu/Smart-Review"
   },
   {
     "id": "made-up-words",
@@ -34246,7 +34260,7 @@
   {
     "id": "stonegate",
     "name": "StoneGate",
-    "author": "Abdulrahman Agiba | xsiphr",
+    "author": "Abdulrahman Agiba || xsiphr",
     "description": "Lock screen protection for your vault - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xsiphr/StoneGate-plugin"
   },
@@ -34338,7 +34352,7 @@
     "id": "canvas-current-node-auto-size",
     "name": "Canvas Current Node Auto Size",
     "author": "fengzhe",
-    "description": "Auto-size only the currently edited Canvas text node, with CJK-friendly width padding and configurable height. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Automatically resize the current Canvas text node to fit its content. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "laplacede/obsidian-canvas-node-autosize"
   },
   {
@@ -34902,13 +34916,6 @@
     "repo": "ahseyg/Masking-as-MD"
   },
   {
-    "id": "qreview",
-    "name": "Quick Review",
-    "author": "Bitcoming",
-    "description": "Multi-agent review and polish plugin for Obsidian notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "bitcoming/quick_review_clean"
-  },
-  {
     "id": "borrax-html",
     "name": "Borrax HTML",
     "author": "dogukansahil",
@@ -35147,6 +35154,13 @@
     "repo": "stepheson/s-restore-profile_obsidian-plugin"
   },
   {
+    "id": "cursor-navigator",
+    "name": "Cursor Navigator",
+    "author": "malele",
+    "description": "Remember cursor position per note + VS Code-style global back/forward cursor navigation history. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "malelestudyhome/cursor-navigator"
+  },
+  {
     "id": "pencil",
     "name": "Pencil",
     "author": "rcanand",
@@ -35187,5 +35201,19 @@
     "author": "jack",
     "description": "一键把当前笔记整篇翻译成中文（标题/文件名也翻），生成中文副本。支持 Google/DeepL/LLM 多引擎，不破坏笔记属性。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sany2ng0226-boop/quick-zh"
+  },
+  {
+    "id": "spider",
+    "name": "spider",
+    "author": "huangtao",
+    "description": "AI chat branches as an interactive knowledge map. Tab to drill down, arrow keys to navigate, structured exports. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "111pointer111/spider"
+  },
+  {
+    "id": "style-obmd",
+    "name": "Style Obmd",
+    "author": "penyt",
+    "description": "Add customizable colors to highlights and bold text, with commands to convert styled Markdown to inline HTML. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "penyt/style-obmd"
   }
 ]
