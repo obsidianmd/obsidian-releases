@@ -24178,6 +24178,13 @@
     "repo": "nn-ninja/n-brace"
   },
   {
+    "id": "language-recall",
+    "name": "Language Recall",
+    "author": "chaskane",
+    "description": "Add anki-like spaced repetition and recall to your vault with built-in language translation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chaskane/better-recall"
+  },
+  {
     "id": "repertoire",
     "name": "Repertoire",
     "author": "samuelbeard",
@@ -27268,7 +27275,7 @@
     "id": "engram-vault-sync",
     "name": "Engram Vault Sync",
     "author": "Rasbandit",
-    "description": "Your notes are your AI's memory. Sync your vault everywhere, search by meaning, and let Claude, Cursor, and other AI apps read and write your notes. Hosted or self-host — free to start. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Your notes are your AI's memory. Sync your vault everywhere, search by meaning, and let Claude, Cursor, and other AI apps read and write your notes. Hosted or self-host, free to start. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "engram-app/Engram-obsidian"
   },
   {
@@ -30518,13 +30525,6 @@
     "author": "Yuto Takagi",
     "description": "Record system audio (Zoom, Meet, Teams) and save as M4A in your vault - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yut0takagi/obsidian-system-recording"
-  },
-  {
-    "id": "table-formatter",
-    "name": "Table Formatter",
-    "author": "fangface-hub",
-    "description": "Formats Markdown tables when files are saved. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "fangface-hub/obsidian_table_formatter"
   },
   {
     "id": "calendar-hub",
@@ -35133,6 +35133,13 @@
     "repo": "yvelious/device-plugin-switcher"
   },
   {
+    "id": "add-to-vault",
+    "name": "Add To Vault",
+    "author": "CLINCH",
+    "description": "Companion plugin to securely sync articles, summarize content with LLMs, and provide vault context to your self-hosted backend. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "epicylon/add-to-vault-plugin"
+  },
+  {
     "id": "traverture",
     "name": "traVERture",
     "author": "Eryk J.",
@@ -35264,5 +35271,19 @@
     "author": "Lucy",
     "description": "Marks new files with a dot. Propagates unread counts up the folder tree. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kashicards/unread-plus"
+  },
+  {
+    "id": "link-tooltip",
+    "name": "Link Tooltip",
+    "author": "Bruno Ribeiro",
+    "description": "Shows where a hovered link points in Live Preview and source mode. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "brunoribeiro2k/obsidian-link-tooltip"
+  },
+  {
+    "id": "insert-path",
+    "name": "Insert Path",
+    "author": "U-ways E.",
+    "description": "Fuzzy-find any file or directory under a root and insert its path at the cursor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "u-ways/obsidian-insert-path"
   }
 ]
