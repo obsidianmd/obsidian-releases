@@ -21360,7 +21360,7 @@
     "id": "evc-team-relay",
     "name": "EVC Team Relay",
     "author": "entire-vc",
-    "description": "Enterprise collaboration with self-hosted relay infrastructure. Real-time editing with live cursors and secure team workspaces. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Real-time multiplayer editing, shared folders with permissions, one-click web publishing, and read and write access for AI agents through the MCP, over a self-hosted or managed relay. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "entire-vc/evc-team-relay-obsidian-plugin"
   },
   {
@@ -22466,7 +22466,7 @@
     "id": "evc-local-sync",
     "name": "EVC Local Sync to AI Agent",
     "author": "entire-vc",
-    "description": "Bidirectional sync of docs folders between your vault and AI development projects. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Keep a vault folder and an external project documentation folder in two-way sync, so your notes and a codebase's docs stay current automatically without manual copy-paste. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "entire-vc/evc-local-sync-plugin"
   },
   {
@@ -23663,7 +23663,7 @@
     "id": "gemini-helper",
     "name": "Gemini Helper",
     "author": "takeshy",
-    "description": "AI-powered assistant using Google Gemini with File Search RAG capabilities. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "AI chat, workflow automation, and semantic search powered by Google Gemini. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "takeshy/obsidian-gemini-helper"
   },
   {
@@ -33614,6 +33614,13 @@
     "repo": "jiahuacaogoodman-art/guozha"
   },
   {
+    "id": "marknice-wechat",
+    "name": "MarkNice WeChat",
+    "author": "Willmove",
+    "description": "将 Markdown 笔记一键转换为微信公众号排版：多主题、一键复制不乱版、直接发送到公众号草稿箱。Convert notes into WeChat Official Account layouts with themes, one-click copy, and direct draft publishing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "willmove/obsidian-marknice"
+  },
+  {
     "id": "engram-chat",
     "name": "Engram Chat",
     "author": "PixelAnay",
@@ -34959,9 +34966,9 @@
   },
   {
     "id": "filamental",
-    "name": "Filamental",
+    "name": "3D Filamental Graph",
     "author": "CosimoScott",
-    "description": "View your project vault in 3D using Filamental. Both apps use the same markdown files, so your notes stay in sync automatically. Free forever for one project — Pro for professional and commercial use. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Your vault in 3D using Filamental. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "scottnine/obsidian-filamental"
   },
   {
@@ -35609,6 +35616,13 @@
     "repo": "acornyio/acorny-obsidian"
   },
   {
+    "id": "claudian-api",
+    "name": "AI Study Buddy",
+    "author": "Claudian",
+    "description": "AI chat embedded in your vault — direct API calls, works on Desktop and iPad. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "virbird/LLM_Private_Teacher"
+  },
+  {
     "id": "opml-editor",
     "name": "OPML Editor",
     "author": "Rob",
@@ -35644,10 +35658,38 @@
     "repo": "shabbirpatheria/folder-routines"
   },
   {
+    "id": "modern-outline",
+    "name": "Modern Outline",
+    "author": "KreNtal",
+    "description": "A modern and customizable minimap outline for your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "krental/obsidian-modern-outline"
+  },
+  {
     "id": "select-folder",
     "name": "Select Folder",
     "author": "frog",
     "description": "Finder-like behavior for the file explorer: click the triangle to expand, click a folder to select it, and create new notes inside the selected folder. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "frogtempest/select-folder"
+  },
+  {
+    "id": "note-image-manager",
+    "name": "Note Image Manager",
+    "author": "DXShelley",
+    "description": "image workflow for Obsidian. Import, rename, convert, compress, edit, and recover images safely. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dxshelley/obsidian-image-manager"
+  },
+  {
+    "id": "auto-linker",
+    "name": "Auto Linker",
+    "author": "MrDanRave",
+    "description": "Semantic auto-linking: underlines text that matches a note title and offers one-click wiki-link insertion. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mrdanrave/auto-linker"
+  },
+  {
+    "id": "md-razor",
+    "name": "MDRazor",
+    "author": "Sofqi",
+    "description": "MDRazor - Enhanced markdown editing: hide formatting markers, list enhancement with soft-break. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dyse-sofqi/MDRazor"
   }
 ]
