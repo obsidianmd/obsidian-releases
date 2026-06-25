@@ -30107,6 +30107,13 @@
     "repo": "djolex999/vir-obsidian"
   },
   {
+    "id": "didasync",
+    "name": "DidaSync",
+    "author": "CYZice",
+    "description": "Sync tasks between Obsidian and Dida365 or TickTick. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cyzice/Obsidian-DidaSync"
+  },
+  {
     "id": "little-milestones",
     "name": "Little Milestones",
     "author": "tinswangtao-web",
@@ -33523,13 +33530,6 @@
     "repo": "viggomeesters/obsidian-folder-sort-view"
   },
   {
-    "id": "stashpad",
-    "name": "Stashpad",
-    "author": "Human",
-    "description": "A chat-style, nested-notes workspace: rapid capture, outliner navigation, fast search, tasks, and per-folder templates, with one-click Open Knowledge Format (OKF) export for LLMs and agents. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "grub-basket/SP"
-  },
-  {
     "id": "html-experience",
     "name": "HTML Experience",
     "author": "yabs",
@@ -34286,6 +34286,13 @@
     "repo": "wrojasa/obsidian-dbml-erd"
   },
   {
+    "id": "tasks-timeline",
+    "name": "Tasks Timeline",
+    "author": "leonezz",
+    "description": "View and manage vault tasks on a timeline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leonezz/tasks-timeline-obsidian"
+  },
+  {
     "id": "conote-git",
     "name": "CoNote Git",
     "author": "Maximilian Witte",
@@ -34340,13 +34347,6 @@
     "author": "Pierre Awaragi",
     "description": "Display a searchable cheatsheet of all your Obsidian hotkeys. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "awaragi/obsidian-hotkeys-cheatsheet"
-  },
-  {
-    "id": "meeting-note-importer",
-    "name": "Meeting Note Importer",
-    "author": "Pierre Awaragi",
-    "description": "Import meeting notes from calendar invites — drop a .ics file or drag a meeting directly from Outlook. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "awaragi/obsidian-meeting-note-importer"
   },
   {
     "id": "bases-spotlight-view",
@@ -35490,13 +35490,6 @@
     "repo": "saiki77/hub-sidebar"
   },
   {
-    "id": "inkclaw-sync",
-    "name": "InkClaw Sync",
-    "author": "InkClaw",
-    "description": "Sync notes you forwarded to InkClaw (auto-transcribed and polished) into your vault, with media attachments. Works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jsjixu/obsidian-inkclaw-sync"
-  },
-  {
     "id": "hwp-to-pdf",
     "name": "HWP to PDF",
     "author": "kathar0s",
@@ -35705,5 +35698,26 @@
     "author": "monoi",
     "description": "在微信里把文章、链接、资料转发给客服,自动同步成 Obsidian 笔记。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiangzizhao/notebookpoint"
+  },
+  {
+    "id": "smart-related-notes",
+    "name": "Smart Related Notes",
+    "author": "Saiki77",
+    "description": "Surface notes most semantically similar to the one you're reading in a left-sidebar panel, powered by a small multilingual embedding model that runs entirely on your machine. Private and offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "saiki77/smart-related-notes"
+  },
+  {
+    "id": "pinit",
+    "name": "Pinit",
+    "author": "Habit Labs",
+    "description": "Pin notes to the top of their folder in the file explorer, with easy reordering. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "habit-labs/Pinit"
+  },
+  {
+    "id": "inklaw-sync",
+    "name": "Inklaw Sync",
+    "author": "InkClaw",
+    "description": "Sync notes you forwarded to Inklaw (auto-transcribed and polished) into your vault, with media attachments. Works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jsjixu/obsidian-inklaw-sync"
   }
 ]
