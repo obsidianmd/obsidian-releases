@@ -27111,13 +27111,6 @@
     "repo": "0xkz1/obsidian-asset-weaver"
   },
   {
-    "id": "vaultguard-sync",
-    "name": "VaultGuard Sync",
-    "author": "Peter Sedmak",
-    "description": "Permission-aware encrypted cloud sync for enterprise vaults. Enforces per-file permissions, E2E encryption, and full audit logging through AWS. Replaces standard cloud sync. Desktop + mobile supported - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "peter70700/vaultguard-obsidian"
-  },
-  {
     "id": "pi-chat",
     "name": "PiChat",
     "author": "Geng",
@@ -29809,7 +29802,7 @@
     "id": "teacher-planner",
     "name": "Teacher Planner",
     "author": "Nick Smith",
-    "description": "Academic year planner for teachers — timetable management, lesson tracking, and weekly planning. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Academic planner built for teachers: build your timetable, plan lessons, track directed time, and keep notes, all inside your vault. Handles A/B weeks, cover, duties and calendar export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nsderred/teacher-planner-obsidian"
   },
   {
@@ -31711,9 +31704,9 @@
   },
   {
     "id": "ai-knowledge-hub",
-    "name": "AI Hub",
+    "name": "Vault Audit AI",
     "author": "Zinvernix",
-    "description": "AI assistant for notes: help with text, audit of storage and Dataview. It works via OpenRouter, OpenAI, Groq or locally via Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "AI-powered vault audit: find orphan notes, cluster topics, get tag and link suggestions, batch-process notes with filters. Works with OpenRouter, OpenAI, Groq or locally via Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zinverno/obsidian-ai-hub"
   },
   {
@@ -33994,7 +33987,7 @@
   {
     "id": "promptuary",
     "name": "Promptuary",
-    "author": "婧晶",
+    "author": "MeganZhang",
     "description": "Quickly leave revision comments and click one button to export multiple revision comments for external AI or Agent to perform the revisions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "meganjjzhang/Promptuary"
   },
@@ -35644,6 +35637,13 @@
     "repo": "nocodeuse-dev/memos-plus"
   },
   {
+    "id": "flowtime",
+    "name": "Flowtime",
+    "author": "Sven",
+    "description": "Daily task planning, timeboxing, and project-aware task management with inline timers - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "radialarray/flowtime-obsidian"
+  },
+  {
     "id": "auto-sidebar",
     "name": "Auto Sidebar",
     "author": "MYQ",
@@ -35679,6 +35679,13 @@
     "repo": "dxshelley/obsidian-image-manager"
   },
   {
+    "id": "zoyclip",
+    "name": "ZoyClip - Note to Short Video",
+    "author": "zoy",
+    "description": "Turn a note into a 9:16 vertical short video. A cloud LLM (OpenAI/DeepSeek) rewrites it into a script; local Kokoro TTS and ffmpeg render it with auto images, captions and music. Your note text is sent to the cloud LLM. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zoyluoblue/obsidian-note-to-video"
+  },
+  {
     "id": "auto-linker",
     "name": "Auto Linker",
     "author": "MrDanRave",
@@ -35691,5 +35698,12 @@
     "author": "Sofqi",
     "description": "MDRazor - Enhanced markdown editing: hide formatting markers, list enhancement with soft-break. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dyse-sofqi/MDRazor"
+  },
+  {
+    "id": "notebookpoint",
+    "name": "NotebookPoint",
+    "author": "monoi",
+    "description": "在微信里把文章、链接、资料转发给客服,自动同步成 Obsidian 笔记。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jiangzizhao/notebookpoint"
   }
 ]
