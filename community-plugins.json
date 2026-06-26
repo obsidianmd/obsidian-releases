@@ -16604,6 +16604,13 @@
     "repo": "cubieprog/Obsidian-Yandex-Wiki-Integration"
   },
   {
+    "id": "tasknotes",
+    "name": "TaskNotes",
+    "author": "callumalpass",
+    "description": "Note-based task management with calendar, pomodoro and time-tracking integration.",
+    "repo": "callumalpass/tasknotes"
+  },
+  {
     "id": "simple-vault-importer",
     "name": "Simple Vault Importer",
     "author": "webinspectinc",
@@ -18389,6 +18396,13 @@
     "repo": "krannich/obsidian-tree-modal"
   },
   {
+    "id": "embeds-plus",
+    "name": "Embeds+",
+    "author": "sz-1f",
+    "description": "View and embed HTML, MHTML, and Web Archive files natively with full styling and inline preview support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sz-1f/obsidian-embeds-plus"
+  },
+  {
     "id": "bangumi-sync",
     "name": "Bangumi Sync",
     "author": "threeyang3",
@@ -18678,7 +18692,7 @@
   {
     "id": "ollama-notes-chat",
     "name": "Ollama Notes Chat",
-    "author": "tdmarchetta",
+    "author": "Taylor D. Marchetta",
     "description": "Chat with your notes in a right sidebar using a remote Ollama server. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tdmarchetta/obsidian-ollama-notes-chat"
   },
@@ -33915,13 +33929,6 @@
     "repo": "watsonlu/obsidian-showdown-viewer"
   },
   {
-    "id": "chat-bubble-renderer",
-    "name": "Chat Bubble Renderer",
-    "author": "bruce2431",
-    "description": "Render Markdown chat logs as WeChat-style bubble dialogs. 将聊天记录渲染为微信风格气泡对话框。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "bruce2431/obsidian-chat-bubble-renderer"
-  },
-  {
     "id": "pagemode",
     "name": "PageMode",
     "author": "Hyunyoung Park",
@@ -34300,6 +34307,13 @@
     "repo": "awaragi/obsidian-hotkeys-cheatsheet"
   },
   {
+    "id": "meeting-note-importer",
+    "name": "Meeting Note Importer",
+    "author": "Pierre Awaragi",
+    "description": "Import meeting notes from calendar invites — drop a .ics file or drag a meeting directly from Outlook. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "awaragi/obsidian-meeting-note-importer"
+  },
+  {
     "id": "bases-spotlight-view",
     "name": "Bases Spotlight View",
     "author": "mymindstorm",
@@ -34569,7 +34583,7 @@
     "id": "code-workbench",
     "name": "Code Workbench",
     "author": "Vitaly Andrianov",
-    "description": "Claude Code IDE for your knowledge base: MCP tools for an AI agent, plus a real code editor with syntax highlighting, Prettier formatting, diagnostics, diffs, code review, and inline git  blame. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Claude Code IDE for your knowledge base: a real code editor with syntax highlighting, Prettier formatting, diagnostics, diffs, code review, and inline git  blame, MCP tools for an AI agent - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vitaly-andr/obsidian-code-workbench"
   },
   {
@@ -34870,7 +34884,7 @@
     "id": "save-history",
     "name": "Save History",
     "author": "Gugl",
-    "description": "Saves and restores versions of markdown files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Save, restore, compare, export, and import file versions; use autosave and custom settings for each file. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sevoni/save-history"
   },
   {
@@ -35539,6 +35553,13 @@
     "repo": "xwang0176/obsidian-agent-context"
   },
   {
+    "id": "image-paste-on-github",
+    "name": "Image Paste on GitHub",
+    "author": "HyoYoonNam",
+    "description": "Upload pasted images to your GitHub repository and insert the raw CDN link automatically instead of saving them locally. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hyoyoonnam/image-paste-on-github"
+  },
+  {
     "id": "daytime-tracker",
     "name": "DayTime Tracker",
     "author": "Hong SeongChan",
@@ -35555,7 +35576,7 @@
   {
     "id": "claudian-api",
     "name": "AI Study Buddy",
-    "author": "Claudian",
+    "author": "virbird",
     "description": "AI chat embedded in your vault — direct API calls, works on Desktop and iPad. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "virbird/LLM_Private_Teacher"
   },
@@ -35763,6 +35784,13 @@
     "repo": "lunerfox/obsidian-gitea-cards"
   },
   {
+    "id": "markdown-mason",
+    "name": "Markdown Mason",
+    "author": "Marcus Breiden",
+    "description": "Reshape pasted or whole-note Markdown to fit a note's structure — heading cascade, footnote renumbering and dedup — plus a runnable, consent-gated script library. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mmomm-org/obsidian-markdown-mason"
+  },
+  {
     "id": "neat-file-tree",
     "name": "Neat File Tree",
     "author": "Neil",
@@ -35775,5 +35803,19 @@
     "author": "erincayaz",
     "description": "Capture screen regions and digitize handwritten notes via native macOS and Windows OCR. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "erincayaz/obsidian-lens-ocr"
+  },
+  {
+    "id": "achmage-slides-ultra",
+    "name": "Achmage Slides Ultra 1920 v5",
+    "author": "Achmage",
+    "description": "Auto-render Markdown notes as layout-aware premium slides. Powered by Marp. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "laguna821/achmage-slides-ultra"
+  },
+  {
+    "id": "vault-commander",
+    "name": "Vault Commander",
+    "author": "Andre Hessler",
+    "description": "A blue, dual-panel orthodox file manager for your vault — inspired by classic DOS file commanders. Browse, copy, move, rename and preview notes and attachments in two panels. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "typ127/vault-commander"
   }
 ]
