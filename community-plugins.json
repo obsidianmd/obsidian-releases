@@ -18403,13 +18403,6 @@
     "repo": "krannich/obsidian-tree-modal"
   },
   {
-    "id": "embeds-plus",
-    "name": "Embeds+",
-    "author": "sz-1f",
-    "description": "View and embed HTML, MHTML, and Web Archive files natively with full styling and inline preview support. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sz-1f/obsidian-embeds-plus"
-  },
-  {
     "id": "bangumi-sync",
     "name": "Bangumi Sync",
     "author": "threeyang3",
@@ -24094,6 +24087,13 @@
     "repo": "mudnug/note-reader"
   },
   {
+    "id": "journalistic-importer",
+    "name": "Journalistic Importer",
+    "author": "homerokemmerich",
+    "description": "Import your Journalistic exported entries. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "homerokemmerich/journalistic-importer"
+  },
+  {
     "id": "task-export-to-csv",
     "name": "Task Export Tool",
     "author": "tailormade-eu",
@@ -27557,13 +27557,6 @@
     "author": "grumpydev",
     "description": "Sync your vault directly with GitHub APIs on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "grumpydev/octosync"
-  },
-  {
-    "id": "codex-ai-agent",
-    "name": "Codex AI Agent",
-    "author": "j4charlie",
-    "description": "A note-focused Codex agent for Obsidian, deeply integrated with Codex CLI. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "j4charlie/codex-ai-agent"
   },
   {
     "id": "search-and-replace-regex",
@@ -34384,13 +34377,6 @@
     "repo": "tyronewj/Plugin-Share-Linker"
   },
   {
-    "id": "agentic-chat",
-    "name": "Agentic Chat",
-    "author": "tardigrde",
-    "description": "Privacy-first agentic AI chat in the sidebar. The agent reads, searches, and edits your vault through visible tool calls, routed to zero-data-retention providers by default, or runs fully local with Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tardigrde/obsidian-agentic-chat"
-  },
-  {
     "id": "wechat-obsync",
     "name": "WeChat Obsync",
     "author": "Obsync",
@@ -34627,6 +34613,13 @@
     "author": "LeonYew-Ley",
     "description": "Hide timestamp prefixes in Zettelkasten-style internal link display text without changing notes or filenames. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "leonyew-ley/obsidian-time-stamp-hider"
+  },
+  {
+    "id": "code-workbench",
+    "name": "Code Workbench",
+    "author": "Vitaly Andrianov",
+    "description": "Claude Code IDE for your knowledge base: MCP tools for an AI agent, plus a real code editor with syntax highlighting, Prettier formatting, diagnostics, diffs, code review, and inline git  blame. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vitaly-andr/obsidian-code-workbench"
   },
   {
     "id": "checksorted",
@@ -35061,6 +35054,13 @@
     "author": "cmdaeo",
     "description": "All-in-one plugin featuring Git sync and more - because one plugin is never enough. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cmdaeo/obsidian-plugin"
+  },
+  {
+    "id": "canvas-parent-nodes",
+    "name": "Canvas Parent Nodes",
+    "author": "TommyRoy776",
+    "description": "Display and navigate to all canvas parent nodes - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tommyroy776/obsidian-canvas-parent-nodes"
   },
   {
     "id": "handwriting-latex",
@@ -35768,5 +35768,33 @@
     "author": "Real-Fruit-Snacks",
     "description": "Bookmark manager with four switchable layouts. Each bookmark is a Markdown file with YAML frontmatter — no proprietary database, no lock-in. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "real-fruit-snacks/Cove"
+  },
+  {
+    "id": "vault-viewer",
+    "name": "Vault Viewer",
+    "author": "zhouzeqiang",
+    "description": "Browse all file types, filter/sort, and preview Office documents in Obsidian - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhouzeqiang/obsidian-vault-viewer"
+  },
+  {
+    "id": "ai-rewrite",
+    "name": "AI Rewrite",
+    "author": "masaki39",
+    "description": "Local-first, line-level AI rewriting: proofread, translate, or your own custom modes. Shows a ghost preview below the line; Tab to apply. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "masaki39/obsidian-ai-rewrite"
+  },
+  {
+    "id": "open-in-new-tab-and-preserve-tabs",
+    "name": "Open in New Tab and Preserve Tabs",
+    "author": "Zhihao Nan",
+    "description": "Open files in new tabs and preserve existing file tabs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhihaonan/open-in-new-tab-and-preserve-tabs"
+  },
+  {
+    "id": "eden-of-cyrene",
+    "name": "Eden of Cyrene",
+    "author": "agllinea",
+    "description": "You shall fade when the flowers bloom, for every ending begets a beginning. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "agllinea/eden-of-cyrene"
   }
 ]
