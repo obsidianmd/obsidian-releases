@@ -15988,13 +15988,6 @@
     "repo": "64mm4-kn1f3/regex-line-filter"
   },
   {
-    "id": "log-keeper",
-    "name": "Log Keeper",
-    "author": "jimjambimbam",
-    "description": "Generate time stamps automatically as changes are made to a note.",
-    "repo": "jimjambimbam/obsidian-log-keeper"
-  },
-  {
     "id": "openaugi",
     "name": "OpenAugi",
     "author": "bitsofchris",
@@ -16609,13 +16602,6 @@
     "author": "cubieprog",
     "description": "Integration with Yandex Wiki knowledge base",
     "repo": "cubieprog/Obsidian-Yandex-Wiki-Integration"
-  },
-  {
-    "id": "tasknotes",
-    "name": "TaskNotes",
-    "author": "callumalpass",
-    "description": "Note-based task management with calendar, pomodoro and time-tracking integration.",
-    "repo": "callumalpass/tasknotes"
   },
   {
     "id": "simple-vault-importer",
@@ -34377,6 +34363,13 @@
     "repo": "tyronewj/Plugin-Share-Linker"
   },
   {
+    "id": "agentic-chat",
+    "name": "Agentic Chat",
+    "author": "tardigrde",
+    "description": "Privacy-first agentic AI chat in the sidebar. The agent reads, searches, and edits your vault through visible tool calls, routed to zero-data-retention providers by default, or runs fully local with Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tardigrde/obsidian-agentic-chat"
+  },
+  {
     "id": "wechat-obsync",
     "name": "WeChat Obsync",
     "author": "Obsync",
@@ -35796,5 +35789,26 @@
     "author": "agllinea",
     "description": "You shall fade when the flowers bloom, for every ending begets a beginning. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "agllinea/eden-of-cyrene"
+  },
+  {
+    "id": "json-inspector",
+    "name": "JSON Inspector",
+    "author": "JSTools Space",
+    "description": "Render JSON code blocks as an interactive inspector with Tree, Raw and JSONPath query views. Lossless number handling, search, and copy actions. Fully local, no network. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jstoolsspace/json-inspector-obsidian"
+  },
+  {
+    "id": "voice-summary-workflow",
+    "name": "Voice Workflow",
+    "author": "roar-jar",
+    "description": "Capture, transcribe, summarize, and archive voice meeting notes with local or cloud AI providers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "roar-jar/obsidian-voice-workflow"
+  },
+  {
+    "id": "gitea-cards",
+    "name": "Gitea Cards",
+    "author": "lunerfox",
+    "description": "Render live, auto-refreshing Gitea issue cards in your notes and create issues without leaving the editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lunerfox/obsidian-gitea-cards"
   }
 ]
