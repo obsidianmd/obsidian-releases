@@ -29673,6 +29673,13 @@
     "repo": "reggie86/vaultdex"
   },
   {
+    "id": "gallery-view",
+    "name": "Gallery View",
+    "author": "mkshp-dev",
+    "description": "Create interactive image galleries in your notes using obs-gallery code blocks. Supports multiple view types (thumbnail, carousel, grid) and both local vault images and external URLs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mkshp-dev/obsidian-gallery-plugin"
+  },
+  {
     "id": "draw-in-canvas",
     "name": "Draw in Canvas",
     "author": "xryul",
@@ -32263,6 +32270,13 @@
     "repo": "zhaoyaoyuan/obsidian-douyin-capture"
   },
   {
+    "id": "webdav-snapshot-sync",
+    "name": "WebDAV Snapshot Sync",
+    "author": "pengGgxp",
+    "description": "通过 WebDAV 手动上传和恢复整个库的快照包，恢复前会强制创建安全备份。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pengggxp/webdav_sync"
+  },
+  {
     "id": "python-viewer",
     "name": "Python Viewer",
     "author": "Viggo Meesters",
@@ -33752,13 +33766,6 @@
     "author": "Katsuhiko Hata",
     "description": "Pinch with two fingers to zoom notes in/out on mobile (iPad/iPhone/Android). Choose content zoom (scales everything) or text-size zoom. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hata-suriiken/obsidian-mobile-pinch-zoom"
-  },
-  {
-    "id": "buddybridge",
-    "name": "BuddyBridge",
-    "author": "BuddyBridge",
-    "description": "在 Obsidian 中与 WorkBuddy/CodeBuddy 聊天，多轮对话，流式输出。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ben4202121/buddybridge"
   },
   {
     "id": "vault-lens",
@@ -35957,5 +35964,47 @@
     "author": "fengzhe",
     "description": "PowerPoint-style layer controls for  Canvas: bring cards to front, send to back, move forward/backward, and preserve layer order when focusing overlapping cards. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "laplacede/Canvas-Layer-Order"
+  },
+  {
+    "id": "graph-depth-gradient",
+    "name": "Graph Depth Gradient",
+    "author": "Jeonghyeon Park",
+    "description": "Color graph nodes by hop distance from the active note, as a gradient between two colors. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "junghyunbak/graph-depth-gradient"
+  },
+  {
+    "id": "graph-unread-highlight",
+    "name": "Graph Unread Highlight",
+    "author": "Jeonghyeon Park",
+    "description": "Highlight new or recently edited notes in the graph view, with one-click 'mark all as read'. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "junghyunbak/graph-unread-highlight"
+  },
+  {
+    "id": "simple-folder-icon",
+    "name": "Simple Folder Icon",
+    "author": "Mirco Macrelli",
+    "description": "Automatically add an icon before the name of the configured folders in the file explorer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mircomacrelli/simple-folder-icon"
+  },
+  {
+    "id": "mobile-tab-bar",
+    "name": "Mobile Tab Bar",
+    "author": "nnyj",
+    "description": "Browser-style tab bar for switching between open notes on mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nnyj/obsidian-mobile-tab-bar"
+  },
+  {
+    "id": "youtube-links",
+    "name": "YouTube Links",
+    "author": "Yash Bavadiya",
+    "description": "Paste YouTube links and they automatically expand into a readable link with the channel name and video title. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xevrion/obsidian-youtube-links"
+  },
+  {
+    "id": "three-d-model-viewer",
+    "name": "3D Model Viewer",
+    "author": "Mechefvector",
+    "description": "A lightweight local 3D model viewer for STL, OBJ, and 3MF with automatic centering and no grid, axes, or shadows. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dark72147/3d-model-viewer"
   }
 ]
