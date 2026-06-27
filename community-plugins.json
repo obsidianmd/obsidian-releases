@@ -20534,7 +20534,7 @@
     "id": "voxtral-transcribe",
     "name": "Voxtral Transcribe",
     "author": "maxonamission",
-    "description": "Real-time streaming transcription using Mistral Voxtral, supports voice commands (headings, lists, to-dos and more) and automatic text correction. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Speech-to-text with Mistral Voxtral: real-time dictation with voice commands and automatic correction, plus transcription of audio files in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "maxonamission/obsidian-voxtral"
   },
   {
@@ -29669,7 +29669,7 @@
     "id": "gallery-view",
     "name": "Gallery View",
     "author": "mkshp-dev",
-    "description": "Create interactive image galleries in your notes using obs-gallery code blocks. Supports multiple view types (thumbnail, carousel, grid) and both local vault images and external URLs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create beautiful image galleries in your notes using obs-gallery code blocks. Supports local folders, external URLs, and Immich with responsive grids, masonry, thumbnails, and carousels. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mkshp-dev/obsidian-gallery-plugin"
   },
   {
@@ -35917,6 +35917,13 @@
     "repo": "bin-t/obsidian-simple-wordbook"
   },
   {
+    "id": "task-calendar-bridge",
+    "name": "Task Calendar Bridge",
+    "author": "iavil",
+    "description": "Export Obsidian tasks with due dates to calendar-friendly ICS files. Pro unlocks full-vault auto export, reminders, durations, and advanced filters. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "israerusan/obsidian-task-calendar-bridge"
+  },
+  {
     "id": "gtd-workflow",
     "name": "GTD Workflow",
     "author": "tiancaijb",
@@ -36050,10 +36057,31 @@
     "repo": "devidcode/obsidian-extract-highlights"
   },
   {
+    "id": "monthly-note",
+    "name": "Monthly notes",
+    "author": "Ben Johnson",
+    "description": "Create or open this month's monthly note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "benjohnson/obsidian-monthly-notes"
+  },
+  {
     "id": "people-tree",
     "name": "People Tree",
     "author": "Jörg Lortz",
     "description": "Interactive family trees, org charts and timelines from YAML frontmatter — with avatars, inline editing and multiple view modes - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "juppinger0/obsidian-people-tree"
+  },
+  {
+    "id": "hotlines",
+    "name": "Hotlines",
+    "author": "Steve Crutchfield",
+    "description": "Grab your attention by highlighting entire lines matching keywords or regex patterns with custom styles. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "crufi/obsidian-hotlines"
+  },
+  {
+    "id": "weixin-mp-publisher",
+    "name": "WeiXin MP Publisher",
+    "author": "SKYue",
+    "description": "微信公众号发布工具 | Publish WeChat Official Account articles with formatting, image upload, and draft push. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "skyue/obsidian-weixin-mp-publisher"
   }
 ]
