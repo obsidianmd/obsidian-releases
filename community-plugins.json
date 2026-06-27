@@ -30303,13 +30303,6 @@
     "repo": "mderman/context_nine_obsidian_plugin"
   },
   {
-    "id": "keyword-notes-editor",
-    "name": "Keyword Notes Editor",
-    "author": "fengshuzi",
-    "description": "View and edit notes grouped by keyword tags, similar to Logseq tag view. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "fengshuzi/keyword-notes-editor"
-  },
-  {
     "id": "kilocode",
     "name": "KiloCode",
     "author": "Henry Lan",
@@ -30588,6 +30581,13 @@
     "author": "Sebastien Delisle",
     "description": "Quickly search for and add a single date or an entire list of dates, formatted exactly as you like them. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lumargh/obsidian-date-list"
+  },
+  {
+    "id": "apex-dashboard",
+    "name": "Apex Dashboard",
+    "author": "PandoraReads",
+    "description": "Your personal command center — memos, todos, and projects in one stunning glassmorphism dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pandorareads/apex-dashboard"
   },
   {
     "id": "echo-notes",
@@ -34265,13 +34265,6 @@
     "repo": "wrojasa/obsidian-dbml-erd"
   },
   {
-    "id": "tasks-timeline",
-    "name": "Tasks Timeline",
-    "author": "leonezz",
-    "description": "View and manage vault tasks on a timeline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "leonezz/tasks-timeline-obsidian"
-  },
-  {
     "id": "conote-git",
     "name": "CoNote Git",
     "author": "Maximilian Witte",
@@ -35700,6 +35693,13 @@
     "repo": "saiki77/smart-related-notes"
   },
   {
+    "id": "aliyun-drive-sync",
+    "name": "Aliyun Drive Sync",
+    "author": "Wjiajie",
+    "description": "Sync an Obsidian vault to a selected Aliyun Drive cloud folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wjiajie/obsidian-aliyun-sync"
+  },
+  {
     "id": "pinit",
     "name": "Pinit",
     "author": "Habit Labs",
@@ -35882,10 +35882,38 @@
     "repo": "yonxao/yonxao-mindmap"
   },
   {
+    "id": "sidecar",
+    "name": "Sidecar",
+    "author": "Matt Maiorana",
+    "description": "A simplified Obsidian popout window for navigating and editing project notes while the main window stays untouched. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mattmaiorana/sidecar"
+  },
+  {
+    "id": "jira-ticket-data-fetcher",
+    "name": "Jira Ticket Data Fetcher",
+    "author": "Jessica Crowson",
+    "description": "Fetches data for Jira tickets directly from Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ghostdrift/JiraTicketObsidianPlugin"
+  },
+  {
     "id": "vault-spotlight",
     "name": "Vault Spotlight",
     "author": "iavil",
     "description": "Spotlight-style vault launcher with fuzzy search, recent files, and property filters. Pro unlocks ripgrep search, starred pins, canvas/PDF, batch open, and custom commands. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "israerusan/obsidian-vault-spotlight"
+  },
+  {
+    "id": "invoice-forge",
+    "name": "Invoice Forge",
+    "author": "iavil",
+    "description": "Turn billable hours logged in your notes into client invoices. Track time, manage clients, and generate invoices. Pro unlocks PDF/print export, tax & multi-currency, recurring billing reminders, and payment tracking. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "israerusan/obsidian-invoice-forge"
+  },
+  {
+    "id": "simple-wordbook",
+    "name": "Simple Wordbook",
+    "author": "Bryn",
+    "description": "Wordbook with highlighting, sidebar, mastery/ignore, and fuzzy definitions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bin-t/obsidian-simple-wordbook"
   }
 ]
