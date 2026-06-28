@@ -16221,7 +16221,7 @@
   {
     "id": "monokakido-copilot",
     "name": "Monokakido Copilot",
-    "author": "noheartpen",
+    "author": "KeiShonagon",
     "description": "During editing, simply double-press the option key to search with the Dictionaries by Monokakido.",
     "repo": "noheartpen/obsidian-monokakido-copilot-plugin"
   },
@@ -19691,6 +19691,13 @@
     "repo": "tgrrrr/heading-outliner"
   },
   {
+    "id": "nexus",
+    "name": "Nexus",
+    "author": "profsynapse",
+    "description": "Agentic AI for your vault. Use Claude, ChatGPT, Gemini, and local models to chat, search, create, and manage your notes with semantic memory, image generation, and MCP server integration. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "profsynapse/nexus"
+  },
+  {
     "id": "dangling-image-manager",
     "name": "Dangling Image Manager",
     "author": "leowie93",
@@ -21369,13 +21376,6 @@
     "author": "abromberg",
     "description": "Real-time multiplayer editing of shared folders and notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "abromberg/obsidian-collaborative-folders-plugin"
-  },
-  {
-    "id": "library",
-    "name": "Library",
-    "author": "kigrok",
-    "description": "Organize movies, series, and books as a visual gallery. Search and add titles in-app, auto-fetch metadata, track progress, and link it all in your graph. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kigrok/obsidian-library-plugin"
   },
   {
     "id": "ghostty-terminal",
@@ -24134,6 +24134,13 @@
     "author": "avlihachev",
     "description": "Advanced workout tracker with AI analysis powered by Claude. Track exercises, analyze progress, and get personalized recommendations. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "avlihachev/obsidian-workout-ai-tracker"
+  },
+  {
+    "id": "vaultkeeper-ai",
+    "name": "Vaultkeeper AI",
+    "author": "andy-stack",
+    "description": "Multi-AI assistant. Read, search, create, and edit notes with multiple AI providers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andy-stack/vaultkeeper-ai"
   },
   {
     "id": "goboard-viewer",
@@ -27819,7 +27826,7 @@
   },
   {
     "id": "blackglass",
-    "name": "Blackglass",
+    "name": "Glass",
     "author": "Scott Kosman",
     "description": "Run Claude Code inside Obsidian on macOS, Linux, and Windows: interactive terminal, quick-ask modal, and a built-in MCP server for structured vault access. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "humantorch/blackglass"
@@ -35602,6 +35609,13 @@
     "repo": "apkcore/apkcore-tts-plugin"
   },
   {
+    "id": "memos-plus",
+    "name": "Memos Plus",
+    "author": "nocodeuse",
+    "description": "A local-first memo workbench stored as readable Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nocodeuse-dev/memos-plus"
+  },
+  {
     "id": "super-rss",
     "name": "Super RSS",
     "author": "@SuperSkypper",
@@ -36169,6 +36183,13 @@
     "repo": "othman-benbrahim/iris-transcript-obsidian"
   },
   {
+    "id": "better-daily-notes",
+    "name": "Better Daily Notes",
+    "author": "willjhliang",
+    "description": "Daily notes with infinite scroll and calendar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "willjhliang/obsidian-better-daily-notes"
+  },
+  {
     "id": "ref-raindrop",
     "name": "RefRaindrop",
     "author": "oikeya",
@@ -36202,5 +36223,19 @@
     "author": "Jack Barnes",
     "description": "Search Zotero annotations and PDFs and insert links to them in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuukibarns/obsidian-zotero-completion"
+  },
+  {
+    "id": "readlog",
+    "name": "Readlog",
+    "author": "mrcnkobu",
+    "description": "Track books in plain markdown with vault-native logs and daily note integration. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mrcnkobu/readlog"
+  },
+  {
+    "id": "codex-session-archive",
+    "name": "Codex Session Archive",
+    "author": "river",
+    "description": "Export local Codex archived sessions to Markdown notes grouped by workspace. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nicklennonliu/obsidian-codex-session-archive"
   }
 ]
