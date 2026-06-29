@@ -33901,6 +33901,13 @@
     "repo": "johannes-kaindl/json-editor"
   },
   {
+    "id": "color-tab",
+    "name": "Color Tab",
+    "author": "Rafael Ordaz",
+    "description": "Colorize open tabs to visually distinguish notes at a glance, using a right-click context menu. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rordaz/ColorTab"
+  },
+  {
     "id": "rss-importer",
     "name": "RSS Importer",
     "author": "Charles Kelsoe",
@@ -35329,13 +35336,6 @@
     "repo": "penyt/style-obmd"
   },
   {
-    "id": "belki",
-    "name": "belki",
-    "author": "Yasin Aribuga",
-    "description": "A minimal Todoist-like task manager for Obsidian using local Markdown files. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "aribuga/obsidian-belki-tasks"
-  },
-  {
     "id": "lookout",
     "name": "Lookout",
     "author": "Post-Math",
@@ -36538,5 +36538,33 @@
     "author": "Jaime Nagase",
     "description": "All-in-one life dashboard for habits, tasks, fitness, nutrition and studies, stored as plain Markdown notes in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jnagase/obsidian-momentum"
+  },
+  {
+    "id": "film-artist-search",
+    "name": "Film Artist Search",
+    "author": "Hamza Moiyadi",
+    "description": "Search TMDb for actors, directors, producers, writers, etc. and create structured vault notes or insert wikilinks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hamzamoiyadi/obsidian-film-artist-search"
+  },
+  {
+    "id": "math-plotter",
+    "name": "Math Plotter",
+    "author": "Sharbel Marshi",
+    "description": "Create math graphs from a GUI. Insert plots via forms without writing plot code. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sharbelmarshi/obsidian-math-plotter"
+  },
+  {
+    "id": "sourcedown",
+    "name": "SourceDown",
+    "author": "0libots",
+    "description": "Import documents, media, archives, and web pages as Markdown using Microsoft MarkItDown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "0libote/SourceDown"
+  },
+  {
+    "id": "noesis",
+    "name": "Noesis",
+    "author": "Sebastian Brightly",
+    "description": "Ask questions across your notes and get clear, grounded answers. Noesis runs locally on your own LLM by default and keeps your knowledge on your machine.  Built for simplicity, not power users. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sebastianbrightly/Noesis"
   }
 ]
