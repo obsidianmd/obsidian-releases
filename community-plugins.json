@@ -17157,6 +17157,13 @@
     "repo": "cubieprog/Obsidian-Yandex-Tracker-Issue"
   },
   {
+    "id": "xiangqi",
+    "name": "Chinese Chess",
+    "author": "west-shell",
+    "description": "Render xiangqi(Chinese chess) positions diagrams in a note.",
+    "repo": "west-shell/obsidian-xiangqi"
+  },
+  {
     "id": "paste-as-file-link",
     "name": "Paste as file link",
     "author": "mbedded",
@@ -21763,6 +21770,13 @@
     "repo": "konoyo-014/obsidian-latex-paren-math"
   },
   {
+    "id": "remarkable-sync",
+    "name": "reMarkable Sync",
+    "author": "timdommett",
+    "description": "Sync your reMarkable Paper Pro documents to your vault as PDFs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "timdommett/Remarkable-Sync---Obsidian-Plugin"
+  },
+  {
     "id": "daily-heatmap-stats",
     "name": "Daily Writing Stats",
     "author": "xsixteen",
@@ -22923,13 +22937,6 @@
     "author": "ducktapekiller",
     "description": "Adds functionality to easily scale font size and switch themes from the status bar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ducktapekiller/obsidian-easyview"
-  },
-  {
-    "id": "reader-highlighter-tags",
-    "name": "Reader Highlighter Tags",
-    "author": "ducktapekiller",
-    "description": "Highlight text and add tags in Reading View. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ducktapekiller/obsidian-reader-highlighter-tags"
   },
   {
     "id": "napkin-notes",
@@ -24937,7 +24944,7 @@
     "id": "callout-studio",
     "name": "Callout Studio",
     "author": "niv20",
-    "description": "Callout Studio is a comprehensive toolkit featuring custom types, autocomplete, context menu actions, and support for Lucide, Material icons, and emojis. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Callout Studio is a comprehensive toolkit featuring custom types, autocomplete, context menu actions, and support for Lucide, Material icons and emojis. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "niv20/obsidian-Plugin-Callout-Studio"
   },
   {
@@ -33292,13 +33299,6 @@
     "repo": "emberleif/Chronoboard"
   },
   {
-    "id": "vim-motions",
-    "name": "Vim Motions",
-    "author": "Emile Bangma",
-    "description": "Enhances Obsidian's Vim mode with Markdown-aware text objects, structural navigation, workspace keyboard control, and a polished Neovim-native experience. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "saberzero1/motions"
-  },
-  {
     "id": "lindar",
     "name": "Lindar",
     "author": "punkyard",
@@ -36393,10 +36393,66 @@
     "repo": "jagajaga/obsidian-file-media-gallery"
   },
   {
+    "id": "csv-quiz-practice",
+    "name": "csv quiz practice",
+    "author": "Kong",
+    "description": "a csv to quiz plugin - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ozephyr-ctrl/csv-quiz-practice"
+  },
+  {
+    "id": "maps-timeline",
+    "name": "Maps Timeline",
+    "author": "Arseniy Seroka",
+    "description": "View your Google Maps Timeline location history on an interactive map — visits, routes and exact GPS tracks, with day and date-range pickers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jagajaga/obsidian-maps-timeline"
+  },
+  {
     "id": "better-tables",
     "name": "Better Tables",
     "author": "yaye.work",
     "description": "If you are frustrated with making tables in your notes, install this. Summoned the interactive table via the ```Table``` block. Just drag to resize and reorder, hover to insert, click to edit. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yaye-work/obsidian-better-tables"
+  },
+  {
+    "id": "best-downloader",
+    "name": "Best Downloader",
+    "author": "trikorka",
+    "description": "Download YouTube videos and audio in various formats directly to your vault using yt-dlp - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "trikorka/BestDownloader"
+  },
+  {
+    "id": "aide",
+    "name": "Aide",
+    "author": "doko",
+    "description": "AI writing assistant powered by OpenAI-compatible APIs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "doko89/obsidian-aide"
+  },
+  {
+    "id": "graph-type-to-search",
+    "name": "Graph Type to Search",
+    "author": "Jeonghyeon Park",
+    "description": "Type-ahead in the graph view: start typing while the graph is focused to filter, and draw a highlight ring around nodes whose title matches. Optionally keep every node visible and only ring the matches. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "junghyunbak/graph-type-to-search"
+  },
+  {
+    "id": "slogs-sync",
+    "name": "Slogs Sync",
+    "author": "dimohy",
+    "description": "Synchronize Markdown notes with a Slogs remote Obsidian vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dimohy/obsidian-slogs-sync"
+  },
+  {
+    "id": "lexis",
+    "name": "Lexis",
+    "author": "Hz & Claude",
+    "description": "Turn note titles in a folder into your word bank: in-text highlighting, hover definitions, FSRS spaced-repetition review, auto-collected occurrences, and a review heatmap. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "heptazero/obsidian-lexis"
+  },
+  {
+    "id": "mistral-spell-checker",
+    "name": "Mistal Spell Checker",
+    "author": "SaintByte",
+    "description": "Checker Spell by Mistal AI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "saintbyte/obsidian_mistal_spell_checker"
   }
 ]
