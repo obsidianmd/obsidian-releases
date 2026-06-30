@@ -27252,7 +27252,7 @@
   },
   {
     "id": "timemd-visualizor",
-    "name": "timemd-visualizor",
+    "name": "time.md",
     "author": "codybontecou",
     "description": "Navigate and visualize data exported from the time.md screen-time analytics app. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "codybontecou/timemd-visualizer"
@@ -29594,6 +29594,13 @@
     "author": "wsqstar",
     "description": "Render square-bracket planning tags such as [fact], [trap], and [next] as readable badges. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wsqstar/obsidian-note-highlight"
+  },
+  {
+    "id": "mnemoloop",
+    "name": "Mnemoloop",
+    "author": "Marco Pozzecco",
+    "description": "Local-first spaced repetition with FSRS scheduling that never touches your notes. Better retention without note pollution. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "marco-pozzecco/mnemoloop-plugin"
   },
   {
     "id": "contextual-guides",
@@ -35870,7 +35877,7 @@
   {
     "id": "lotus",
     "name": "Lotus",
-    "author": "James Karlsson & Thomas Goldamn",
+    "author": "James Karlsson & Thomas Goldman",
     "description": "Run normal fenced Markdown code blocks in Obsidian while keeping native syntax highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tzadikimbiu/lotus"
   },
@@ -35959,6 +35966,13 @@
     "repo": "tiancaijb/obsidian-gtd"
   },
   {
+    "id": "thirdbrain",
+    "name": "ThirdBrain",
+    "author": "ImCuriosity",
+    "description": "Extract propositions from any text, connect them with typed logical edges, auto-link to your existing graph, and resolve contradictions — all locally with your choice of AI. — 한국어 텍스트에 최적화된 논리 추출 지원! - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "imcuriosity/third-brain-release"
+  },
+  {
     "id": "md-to-flomo",
     "name": "md2flomo",
     "author": "joeytoday",
@@ -35992,13 +36006,6 @@
     "author": "Murat",
     "description": "Send vault reminders and captured app notices to ntfy with auto scan, editable queues, delayed notifications, repeats, and optional AI webhooks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "arias007/obsidian-ntfy"
-  },
-  {
-    "id": "cancip",
-    "name": "Cancip",
-    "author": "Murat",
-    "description": "Codex-style AI side panel for vault search, memory context, and safe note assistance. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "arias007/cancip"
   },
   {
     "id": "canvas-layer-order",
@@ -36498,13 +36505,6 @@
     "repo": "dimohy/obsidian-slogs-sync"
   },
   {
-    "id": "lexis",
-    "name": "Lexis",
-    "author": "Hz & Claude",
-    "description": "Turn note titles in a folder into your word bank: in-text highlighting, hover definitions, FSRS spaced-repetition review, auto-collected occurrences, and a review heatmap. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "heptazero/obsidian-lexis"
-  },
-  {
     "id": "space-launches",
     "name": "Space Launches",
     "author": "elmoneedsarson",
@@ -36550,7 +36550,7 @@
     "id": "seek",
     "name": "Seek",
     "author": "ryanm",
-    "description": "Search your vault with powerful Obsidian native hybrid semantic and keyword retrieval, in over 52 langauges. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Search your vault with a powerful Obsidian native hybrid semantic and keyword retrieval, in over 52 langauges. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ryan-manor/Obsidian-Seek"
   },
   {
@@ -36559,6 +36559,13 @@
     "author": "Sharbel Marshi",
     "description": "Create math graphs from a GUI. Insert plots via forms without writing plot code. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sharbelmarshi/obsidian-math-plotter"
+  },
+  {
+    "id": "sourcedown",
+    "name": "SourceDown",
+    "author": "0libots",
+    "description": "Import documents, media, archives, and web pages as Markdown using Microsoft MarkItDown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "0libote/SourceDown"
   },
   {
     "id": "noesis",
@@ -36706,5 +36713,19 @@
     "author": "rixct",
     "description": "Detects when a server's actual configuration has diverged from what you documented in your notes. Read-only over SFTP. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rixct/config-drift-watcher"
+  },
+  {
+    "id": "glossary-linker",
+    "name": "Glossary Linker",
+    "author": "max-fluff",
+    "description": "Highlights glossary terms in any word form, converts them into links, and learns aliases from the links you already made - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "max-fluff/obsidian-glossary-linker"
+  },
+  {
+    "id": "note-nav-cards",
+    "name": "Note Nav Cards",
+    "author": "David Torró",
+    "description": "Componente de navegación para enlazar con la nota anterior y la siguiente. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "davidtorro/Obsidian-Note-Nav-Cards-Plugin"
   }
 ]
