@@ -6965,6 +6965,13 @@
     "repo": "cheesecake87/gnome-terminal-loader"
   },
   {
+    "id": "checkbox-reorder",
+    "name": "Checkbox Reorder",
+    "author": "erl-koenig",
+    "description": "Reorder completed checkboxes to the end of the according list.",
+    "repo": "erl-koenig/obsidian-checkboxReorder"
+  },
+  {
     "id": "auto-literature",
     "name": "autoLiterature",
     "author": "hucorz",
@@ -18392,7 +18399,7 @@
     "id": "embeds-plus",
     "name": "Embeds+",
     "author": "sz-1f",
-    "description": "View and embed HTML, MHTML, and Web Archive files natively with full styling and inline preview support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Rendering & inline previews for HTML, MHTML, Web Archive & Evernote export (ENEX) files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sz-1f/obsidian-embeds-plus"
   },
   {
@@ -21381,7 +21388,7 @@
     "id": "library",
     "name": "Library",
     "author": "kigrok",
-    "description": "Organize movies, series, books, games, and music as a visual gallery of cover-art cards. Search titles in-app, auto-fetch metadata, track progress, and link it all into your graph. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Organize movies, series, books, anime, comics, games, and music into a visual card gallery inside Obsidian. Auto-fetch metadata, track progress, and graph everything. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kigrok/obsidian-library-plugin"
   },
   {
@@ -23665,13 +23672,6 @@
     "author": "liuyangart",
     "description": "Canvas AI Plugin - use Gemini AI in Canvas view, support text / image / node generation. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "liuyangart/obsidian-canvas-banana"
-  },
-  {
-    "id": "gemini-helper",
-    "name": "Gemini Helper",
-    "author": "takeshy",
-    "description": "AI chat, workflow automation, and semantic search powered by Google Gemini. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "takeshy/obsidian-gemini-helper"
   },
   {
     "id": "dropdown-vars",
@@ -34447,13 +34447,6 @@
     "repo": "brainsforai/obsidian-brains-sync"
   },
   {
-    "id": "block-reference-enhancer",
-    "name": "Block Reference Enhancer",
-    "author": "msjsc001",
-    "description": "Render UUID-based block references and block embeds from Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "msjsc001/obsidian-block-reference-enhancer"
-  },
-  {
     "id": "swift-snippets",
     "name": "SwiftSwitch",
     "author": "swiSwift",
@@ -35668,7 +35661,7 @@
     "id": "md-razor",
     "name": "MDRazor",
     "author": "Sofqi",
-    "description": "MDRazor - Enhanced markdown editing: hide formatting markers, list enhancement with soft-break. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Enhanced markdown editing: hide formatting markers, list enhancement with soft-break, dir focus. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dyse-sofqi/MDRazor"
   },
   {
@@ -36316,6 +36309,13 @@
     "repo": "sharfaroz7/wikilinkcopy"
   },
   {
+    "id": "synapses",
+    "name": "Synapses",
+    "author": "qoob23",
+    "description": "Map out and edit note relations in a focused graph. Inspired by TheBrain. Requires Dataview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qoob23/synapses"
+  },
+  {
     "id": "hold-course",
     "name": "Hold Course",
     "author": "Live A Quiet Life",
@@ -36657,5 +36657,26 @@
     "author": "Jie Huang",
     "description": "Local-first active recall, AI critique, transfer practice, and learning session workflows. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "michael-uplive021/learning-practice-coevolution"
+  },
+  {
+    "id": "kanban-action-planner",
+    "name": "Kanban Action Planner",
+    "author": "Sébastien Dubois",
+    "description": "Render your notes as configurable Kanban boards and calendars inside Bases, with statuses, ordering, relationships, and scheduling. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dsebastien/obsidian-kanban-action-planner"
+  },
+  {
+    "id": "spartito",
+    "name": "Spartito",
+    "author": "Riccardo Silvestri",
+    "description": "Write and render music notation on a grand staff (treble and bass). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "riccardosilvestri/obsidian-spartito"
+  },
+  {
+    "id": "chew-it",
+    "name": "Chew It",
+    "author": "Jakob He",
+    "description": "Analyze the current note with an LLM in the sidebar — outline, key-concept explanations, and a distilled summary. Works with Claude (Anthropic) and any OpenAI-compatible API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leweii/chew-it"
   }
 ]
