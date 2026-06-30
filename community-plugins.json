@@ -25011,13 +25011,6 @@
     "repo": "enygma/vault-ai-buddy"
   },
   {
-    "id": "porygon",
-    "name": "Porygon",
-    "author": "iuga",
-    "description": "Turn your notes into a conversation. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "iuga/obsidian-porygon"
-  },
-  {
     "id": "cjk-cross-search",
     "name": "CJK Cross-Script Search",
     "author": "sai1047976",
@@ -30177,13 +30170,6 @@
     "repo": "youzhixiaomutou/auto-llm-wiki"
   },
   {
-    "id": "better-headings",
-    "name": "Better Headings",
-    "author": "zachbugay",
-    "description": "Automatically prefix headings with a decimal system. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zachbugay/obsidian-plugin-better-headers"
-  },
-  {
     "id": "tag-lens",
     "name": "Tag Lens",
     "author": "laximgqozaZZZYT",
@@ -34447,6 +34433,13 @@
     "repo": "brainsforai/obsidian-brains-sync"
   },
   {
+    "id": "block-reference-enhancer",
+    "name": "Block Reference Enhancer",
+    "author": "msjsc001",
+    "description": "Render UUID-based block references and block embeds from Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "msjsc001/obsidian-block-reference-enhancer"
+  },
+  {
     "id": "swift-snippets",
     "name": "SwiftSwitch",
     "author": "swiSwift",
@@ -35152,6 +35145,13 @@
     "author": "Josip Markus",
     "description": "Fold and unfold the active note's outline to a chosen depth (levels 1-6) with hotkey-bindable commands. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "josipmarkus/obsidian-outline-level-fold"
+  },
+  {
+    "id": "reveal-hidden-files",
+    "name": "Reveal Hidden Files",
+    "author": "Josip Markus",
+    "description": "Reveal dot-prefixed files and folders in the File Explorer panel, with a per-pattern deny list. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "josipmarkus/obsidian-reveal-hidden-files"
   },
   {
     "id": "link-grouper",
@@ -36519,13 +36519,6 @@
     "repo": "viy1204/smart-red-public"
   },
   {
-    "id": "graph-view-modes",
-    "name": "Graph View Modes",
-    "author": "tahayigitmelek",
-    "description": "Adds folder-based layout modes to Obsidian's built-in Graph View. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tahayigitmelek/graph-view-modes"
-  },
-  {
     "id": "momentum-life",
     "name": "Momentum Life",
     "author": "Jaime Nagase",
@@ -36645,13 +36638,6 @@
     "repo": "kimsunin/obsidian-live-pdf-preview"
   },
   {
-    "id": "github-publish",
-    "name": "GitHub Publish",
-    "author": "Olivier Rouiller",
-    "description": "Publish your vault notes for free in a few clicks - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "oilandrust/obsidian-github-publish"
-  },
-  {
     "id": "learning-practice-coevolution",
     "name": "Learning Practice Coevolution",
     "author": "Jie Huang",
@@ -36678,5 +36664,19 @@
     "author": "Jakob He",
     "description": "Analyze the current note with an LLM in the sidebar — outline, key-concept explanations, and a distilled summary. Works with Claude (Anthropic) and any OpenAI-compatible API. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "leweii/chew-it"
+  },
+  {
+    "id": "safi-site-audit",
+    "name": "Safi Site Audit",
+    "author": "Abdulkader Safi",
+    "description": "Run website audits (SEO, content, links, images, security, crawlability and more) and save each one as a Markdown note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abdulkader-safi/obsidian-safi-site-audit-plugins"
+  },
+  {
+    "id": "table-of-content",
+    "name": "Table of Content",
+    "author": "secum3r",
+    "description": "Inserts a clickable table of contents at the top of the note, with a configurable maximum heading depth. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "secum3r/table-of-content"
   }
 ]
