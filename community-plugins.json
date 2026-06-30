@@ -9730,13 +9730,6 @@
     "repo": "gubchik123/obsidian-movie-search-plugin"
   },
   {
-    "id": "persian-calendar",
-    "name": "Persian Calendar",
-    "author": "karfekr",
-    "description": "Persian Calendar for managing periodic notes based on persian solar (shamsi) calendar.",
-    "repo": "karfekr/obsidian-persian-calendar"
-  },
-  {
     "id": "confluence-sync",
     "name": "Confluence Sync",
     "author": "kerry",
@@ -17153,7 +17146,7 @@
     "id": "xiangqi",
     "name": "Chinese Chess",
     "author": "west-shell",
-    "description": "Render xiangqi(Chinese chess) positions diagrams in a note.",
+    "description": "Chinese chess variation tree.",
     "repo": "west-shell/obsidian-xiangqi"
   },
   {
@@ -22937,6 +22930,13 @@
     "author": "ducktapekiller",
     "description": "Adds functionality to easily scale font size and switch themes from the status bar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ducktapekiller/obsidian-easyview"
+  },
+  {
+    "id": "reader-highlighter-tags",
+    "name": "Reader Highlighter Tags",
+    "author": "ducktapekiller",
+    "description": "Highlight text and add tags in Reading View. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ducktapekiller/obsidian-reader-highlighter-tags"
   },
   {
     "id": "napkin-notes",
@@ -35962,7 +35962,7 @@
     "id": "thirdbrain",
     "name": "ThirdBrain",
     "author": "ImCuriosity",
-    "description": "Extract propositions from any text, connect them with typed logical edges, auto-link to your existing graph, and resolve contradictions — all locally with your choice of AI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Extract propositions from any text, connect them with typed logical edges, auto-link to your existing graph, and resolve contradictions — all locally with your choice of AI. — 한국어 텍스트에 최적화된 논리 추출 지원! - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "imcuriosity/third-brain-release"
   },
   {
@@ -36167,13 +36167,6 @@
     "author": "José Compadre Junior",
     "description": "Automatically indexes Attachments folder files with user-defined metadata via sidecar notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "compadrejunior/attachments-library"
-  },
-  {
-    "id": "luatikz",
-    "name": "LuaTikZ",
-    "author": "Sharbel Marshi",
-    "description": "Fast LuaLaTeX TikZ rendering with full library support, live preview, RTL support, and simple diagram helpers. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sharbelmarshi/obsidian-LuaTikz-plugin"
   },
   {
     "id": "graph-styler",
@@ -36442,13 +36435,6 @@
     "repo": "jagajaga/obsidian-file-media-gallery"
   },
   {
-    "id": "csv-quiz-practice",
-    "name": "csv quiz practice",
-    "author": "Kong",
-    "description": "a csv to quiz plugin - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ozephyr-ctrl/csv-quiz-practice"
-  },
-  {
     "id": "maps-timeline",
     "name": "Maps Timeline",
     "author": "Arseniy Seroka",
@@ -36566,5 +36552,19 @@
     "author": "Sebastian Brightly",
     "description": "Ask questions across your notes and get clear, grounded answers. Noesis runs locally on your own LLM by default and keeps your knowledge on your machine.  Built for simplicity, not power users. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sebastianbrightly/Noesis"
+  },
+  {
+    "id": "insightmesh-viewer",
+    "name": "InsightMesh Viewer",
+    "author": "aucontraire",
+    "description": "Browse InsightMesh provenance read-only: the conversations, checkpoints, decisions, and diffs behind each generated wiki page. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aucontraire/insightmesh-obsidian"
+  },
+  {
+    "id": "one-file",
+    "name": "One File",
+    "author": "rcanand",
+    "description": "Edit any markdown file on your machine from inside an Obsidian vault via symlinks, in a distraction-free focus mode. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rcanand/obsidian-one-file"
   }
 ]
