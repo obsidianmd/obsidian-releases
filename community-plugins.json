@@ -25277,6 +25277,13 @@
     "repo": "mlava/scholar-sidekick-obsidian"
   },
   {
+    "id": "vocalog",
+    "name": "Vocalog",
+    "author": "reflector-li",
+    "description": "Automatically transcribe audio recordings and generate structured daily notes with AI summaries. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "reflector-li/Vocalog"
+  },
+  {
     "id": "ima-sync",
     "name": "IMA Sync",
     "author": "cmzhangxin",
@@ -36470,13 +36477,6 @@
     "repo": "sharfaroz7/wikilinkcopy"
   },
   {
-    "id": "synapses",
-    "name": "Synapses",
-    "author": "qoob23",
-    "description": "Map out and edit note relations in a focused graph. Requires Dataview. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "qoob23/synapses"
-  },
-  {
     "id": "hold-course",
     "name": "Hold Course",
     "author": "Live A Quiet Life",
@@ -40376,6 +40376,13 @@
     "repo": "damofer/nightly-journal"
   },
   {
+    "id": "boox-sync",
+    "name": "Boox Sync",
+    "author": "sky150",
+    "description": "Sync handwritten notes from your Onyx Boox device to Obsidian via BooxDrop. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sky150/obsidian-boox-sync"
+  },
+  {
     "id": "max-sync",
     "name": "MAX Sync",
     "author": "Victor Stupin",
@@ -40934,13 +40941,6 @@
     "author": "chuanqz",
     "description": "Select a prompt and refine it with an LLM. Two modes: template-driven structured optimization, and template-free light polishing (disambiguate / dedupe / mark missing info with placeholders). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "chuanqq/user-prompt-optimizer"
-  },
-  {
-    "id": "checkbox-status",
-    "name": "Checkbox Status",
-    "author": "emklasson",
-    "description": "Show checked and total checkbox counts in the status bar and/or a separate view. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "emklasson/obsidian-checkbox-status"
   },
   {
     "id": "ostracon-ob",
@@ -41534,7 +41534,7 @@
     "id": "grill",
     "name": "Grill",
     "author": "Adam Danielsson",
-    "description": "Get grilled on your notes. AI quizzes you straight from your vault, grades you, every session hits your weak spots. Spaced repetition without writing flashcards. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "AI active recall, grades your answers and hunts the things you get wrong. Works offline with no API key. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theadamdanielsson/grill"
   },
   {
@@ -42271,5 +42271,12 @@
     "author": "yueyinfeng",
     "description": "Finds duplicate Markdown filenames in configured folders after ignoring filename prefixes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yueyinfeng/filename-checker"
+  },
+  {
+    "id": "skim-highlights",
+    "name": "Skim Highlights",
+    "author": "xuxiaominger2024",
+    "description": "Skim高亮自动复制到剪贴板，粘贴到Obsidian任意笔记，点击链接跳回PDF原文 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xuxiaominger/obsidian-skim-highlights"
   }
 ]
