@@ -19439,13 +19439,6 @@
     "repo": "snifer/opse-oracle-ttrpg"
   },
   {
-    "id": "vault-search",
-    "name": "VaultSearch",
-    "author": "erayaydn0",
-    "description": "Local-first hybrid search for your vault — combines keyword (BM25), semantic (vector embeddings), and fuzzy title matching. Multilingual, on-device, no cloud. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "erayaydn0/obsidian-vault-search"
-  },
-  {
     "id": "mermaid-elk-renderer",
     "name": "Mermaid ELK Renderer",
     "author": "smolblackhole",
@@ -42014,6 +42007,13 @@
     "repo": "takeshy/obsidian-dashboard-hub"
   },
   {
+    "id": "markdown-fixer",
+    "name": "Markdown Fixer",
+    "author": "Muhammed Hunaid Topiwala",
+    "description": "Fixes invisible Unicode characters, box-drawing tables, spaced pipe tables, spaced code blocks, and trailing whitespace — on paste or on demand. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "muhammedhunaid/markdown-fixer"
+  },
+  {
     "id": "task-tree",
     "name": "Task Tree",
     "author": "Hypnotist6979",
@@ -42173,5 +42173,33 @@
     "author": "Jason",
     "description": "Adds commands for moving the active tab left or right. Works across tab groups. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jasonfirkus/obsidian-move-tab"
+  },
+  {
+    "id": "get-covers",
+    "name": "Get Covers",
+    "author": "Pablo",
+    "description": "A minimal and simple plugin for getting media covers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ionmint/get-covers"
+  },
+  {
+    "id": "llm-hub",
+    "name": "LLM Hub",
+    "author": "TAKESHI MORITA",
+    "description": "AI assistant with chat, workflow automation, and semantic search (RAG). Supports Gemini, OpenAI, Anthropic, OpenRouter, Grok, local LLMs, and CLI backends. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "takeshy/obsidian-llm-hub"
+  },
+  {
+    "id": "foldable-embedded-notes",
+    "name": "Foldable Embedded Notes",
+    "author": "Nickolay Kondratyev",
+    "description": "Make embedded notes foldable in reading view and Live Preview, with a trailing-dash syntax to fold by default. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nickolay-kondratyev/obsidian-foldable-embedded-notes"
+  },
+  {
+    "id": "joplin-server-sync",
+    "name": "Joplin Server Sync",
+    "author": "rosswang",
+    "description": "Sync Obsidian vault with Joplin Server — bidirectional, attachments, tags, links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanqingwang/obsidian-joplin-server-sync"
   }
 ]
