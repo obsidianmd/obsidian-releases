@@ -23254,13 +23254,6 @@
     "repo": "joepetrakovich/obsidian-lmstudio-connect"
   },
   {
-    "id": "mermaid-zoom",
-    "name": "Mermaid Zoom",
-    "author": "xiaozhuang0433",
-    "description": "Add zoom functionality to Mermaid diagrams. Use mouse wheel or touch gestures to zoom in and out. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "xiaozhuang0433/mermaid-zoom"
-  },
-  {
     "id": "nldates-revived",
     "name": "Natural Language Dates (Revived)",
     "author": "amato21",
@@ -32910,7 +32903,7 @@
     "id": "copy-for-email",
     "name": "Copy for Email",
     "author": "HWY1dot0",
-    "description": "Copy selections or whole notes as email-ready rich text. Tables, callouts, code and Mermaid diagrams survive pasting into Gmail, Outlook and Apple Mail; chat apps get clean plain text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Copy selections or whole notes as email-ready rich text plus chat-ready plain text. Tables, callouts and Mermaid diagrams survive Gmail, Outlook, Apple Mail; WeChat and Slack get structured text. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hwy1dot0/obsidian-copy-for-email"
   },
   {
@@ -40488,13 +40481,6 @@
     "repo": "arshiaecho/obsidian-granola-api-sync"
   },
   {
-    "id": "editor-mode-button",
-    "name": "Editor Mode Button",
-    "author": "kubaxius",
-    "description": "Adds a button to toggle global editor mode. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kubaxius/obsidian-editor-mode-button"
-  },
-  {
     "id": "patina",
     "name": "Patina",
     "author": "saiken",
@@ -42423,7 +42409,14 @@
     "id": "tab-title-from-file-title",
     "name": "Tab Title from H1 File Title",
     "author": "Herbert Jones",
-    "description": "Change tab title to file h1 file title - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Show a note's first H1 heading as its tab title. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "herbertjones/obsidian-tab-title-from-file-title"
+  },
+  {
+    "id": "floor-notes",
+    "name": "Floor notes",
+    "author": "Aluxes",
+    "description": "Presents a dedicated Markdown file as a threaded record flow. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ashenashes/floor-notes"
   }
 ]
