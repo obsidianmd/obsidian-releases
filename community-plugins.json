@@ -18116,13 +18116,6 @@
     "repo": "marcelflymark/new-line-break-inside-table-cell"
   },
   {
-    "id": "post-to-bluesky",
-    "name": "Post To Bluesky",
-    "author": "rietamura",
-    "description": "Post selected text or entire note to Bluesky.",
-    "repo": "rietamura/Post-To-Bluesky"
-  },
-  {
     "id": "role-switch",
     "name": "Role Switch",
     "author": "zafrem",
@@ -22622,13 +22615,6 @@
     "author": "forketyfork",
     "description": "Renders transcription notes as message app style speech bubbles, similar to Apple Messages. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "forketyfork/obsidian-speech-bubbles"
-  },
-  {
-    "id": "granola-meetings-simple-sync",
-    "name": "Granola Meetings Simple Sync",
-    "author": "philfreo",
-    "description": "Sync your Granola meeting notes, summaries, and transcripts to your vault in a simple way using the official Granola MCP API. Customizable by template. Supports auto-linking of attendee Person notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "philfreo/obsidian-granola-plugin"
   },
   {
     "id": "tab-multi-select",
@@ -30399,6 +30385,13 @@
     "author": "Vetrenar",
     "description": "Translate PDF documents with overlay, supports OpenRouter, OpenAI, Gemini, Ollama, and custom endpoints. Includes layout detection,  and persistent storage of translations.. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vetrenar/Open-PDF-Translate"
+  },
+  {
+    "id": "codeblock-language-detector",
+    "name": "CodeBlock Language Detector",
+    "author": "Lars Bücker",
+    "description": "Automatically detects and adds language tags to code blocks without specified language for proper syntax highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bueckerlars/obsidian-codeblock-language-detector"
   },
   {
     "id": "flowscript-diagrams",
@@ -39795,13 +39788,6 @@
     "repo": "ongiei/obsidian-lexibridge"
   },
   {
-    "id": "artinors-kanban",
-    "name": "ArtinOrs Advanced Kanban",
-    "author": "ArtinŌr",
-    "description": "ArtinŌr's Advanced Kanban, A powerful kanban board. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "artin0r/artinors-kanban"
-  },
-  {
     "id": "cad-viewer",
     "name": "CAD Viewer",
     "author": "栗子仁儿",
@@ -41947,7 +41933,7 @@
     "id": "codianz",
     "name": "Codian",
     "author": "bcs",
-    "description": "A multi-provider AI agent workspace for Obsidian: connect local coding agents with your vault, conversations, skills, and tools while preserving provider-native sessions and permissions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A multi-provider AI agent workspace: connect local coding agents with your vault, conversations, skills, and tools while preserving provider-native sessions and permissions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bcs1037/codian"
   },
   {
@@ -42446,5 +42432,26 @@
     "author": "Dustin Stringer",
     "description": "Orchestrate AI agents, workflows, retrieval, memory, and daily operations across your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "scrunchds/Command-Center"
+  },
+  {
+    "id": "barosaurus",
+    "name": "Barosaurus",
+    "author": "polygonhunter",
+    "description": "One bar for everything — select text and type b for bold, jump to any note, move it to a folder, run any command. Notes, commands and open tabs in one list, ranked by what you are doing right now. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "polygonhunter/barosaurus"
+  },
+  {
+    "id": "harang-contacts",
+    "name": "Harang Contacts",
+    "author": "Ji-ho Lee",
+    "description": "CardDAV 서버의 주소록을 노트에서 참조할 수 있게 해주는 플러그인 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "search5/harang-contacts"
+  },
+  {
+    "id": "transmute",
+    "name": "Transmute",
+    "author": "Johannes Kaindl",
+    "description": "Search and replace by intent — a local LLM writes the regex, you review every match before it runs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johannes-kaindl/obsidian-transmute"
   }
 ]
