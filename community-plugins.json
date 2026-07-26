@@ -11697,6 +11697,13 @@
     "repo": "bhavers/obsidian-ca"
   },
   {
+    "id": "ai-image-analyzer",
+    "name": "AI image analyzer",
+    "author": "swaggeroo",
+    "description": "Analyze images with AI to get keywords of the image.",
+    "repo": "swaggeroo/obsidian-ai-image-analyzer"
+  },
+  {
     "id": "note-linker-with-previewer",
     "name": "Note Linker with Previewer",
     "author": "nickrallison",
@@ -28238,13 +28245,6 @@
     "repo": "blotspot/obsidian-wake-lock"
   },
   {
-    "id": "easy-git",
-    "name": "Easy Git",
-    "author": "Saiki77",
-    "description": "A secure, plug-and-play way to sync individual vault folders or sections with GitHub. Private repos supported, multiple folder mappings, bidirectional sync, and conflict resolution. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "saiki77/Easy-Git"
-  },
-  {
     "id": "smart-tabs",
     "name": "Smart Tabs",
     "author": "ksawl",
@@ -31745,6 +31745,13 @@
     "repo": "noe-av/folder-color"
   },
   {
+    "id": "onedrive-sync",
+    "name": "OneDrive Sync",
+    "author": "Jeff Steinbok",
+    "description": "Sync your Obsidian vault with OneDrive Personal/Consumer - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jeffsteinbok/obsidian-onedrive"
+  },
+  {
     "id": "codeblock-crbasic",
     "name": "CodeBlock CRBasic",
     "author": "samutley",
@@ -32870,6 +32877,13 @@
     "author": "wenjunzhu",
     "description": "Import Outlook PST email archives as Markdown files with metadata, attachments, and Obsidian wikilinks. Supports PST files of any size (including >2GB Unicode PST) via pure JavaScript. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wenciara/obsidian-pst-importer"
+  },
+  {
+    "id": "native-powerpoint-doc-editor",
+    "name": "Native PowerPoint Doc Editor",
+    "author": "Marwan Luay",
+    "description": "Open, view, and edit DOCX and PPTX files directly in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "marsluay/NativePowerPointDocEditor"
   },
   {
     "id": "insider",
@@ -42495,5 +42509,26 @@
     "author": "Johannes Kaindl",
     "description": "Search and replace by intent — a local LLM writes the regex, you review every match before it runs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "johannes-kaindl/obsidian-transmute"
+  },
+  {
+    "id": "feuillets",
+    "name": "Feuillets",
+    "author": "HalYal",
+    "description": "Feuillets turns Obsidian into a complete writing environment for novels, essays, and long projects: structure your manuscript, manage research, check grammar, track progress, and export natively - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sargon01/Feuillets"
+  },
+  {
+    "id": "glyphit",
+    "name": "GlyphIt",
+    "author": "Jakob Marasch",
+    "description": "Add icons to files, folders, tabs, titles and inline text. Icon packs stay compressed, so large packs load fast. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jmarasch/glyphit"
+  },
+  {
+    "id": "silica-bridge",
+    "name": "Silica Bridge",
+    "author": "ALEX",
+    "description": "Chat with the Silica knowledge-graph agent and let it read and edit your vault, over a local (loopback-only) WebSocket bridge. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kiycoh/obsidian-silica"
   }
 ]
