@@ -32039,13 +32039,6 @@
     "repo": "viggomeesters/obsidian-yaml-viewer"
   },
   {
-    "id": "analogy-rag-in-your-vault",
-    "name": "Analogy - RAG in your vault",
-    "author": "liaocaoxuezhe",
-    "description": "Search your vault semantically with local vector embeddings and expose RAG search to MCP clients. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "liaocaoxuezhe/obsidian-extension"
-  },
-  {
     "id": "simple-autolink",
     "name": "Simple Auto-Link",
     "author": "abgmgp",
@@ -41629,13 +41622,6 @@
     "repo": "dxshelley/ai-translate"
   },
   {
-    "id": "pavel-dashboard",
-    "name": "Focus Workbench",
-    "author": "pavel",
-    "description": "A local-first dashboard for Pavel's existing tasks and knowledge cards. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pavelpeng7/obsidian-ultra-dashboard"
-  },
-  {
     "id": "safe-passage",
     "name": "SafePassage",
     "author": "Ji-ho Lee",
@@ -42054,6 +42040,13 @@
     "author": "TAKESHI MORITA",
     "description": "Shared dashboards, timelines, calendars, kanban boards, memos, bases, and secrets. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "takeshy/obsidian-dashboard-hub"
+  },
+  {
+    "id": "aindentpaper",
+    "name": "AindentPaper",
+    "author": "少言",
+    "description": "针对文本段落首行缩进的插件，支持启用段落首行缩进（含 <br> 自动拆分）和段落拆分器（独立开关），并提供纸质纹理背景效果。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "louvlwu/obsidian-aindentpaper"
   },
   {
     "id": "markdown-fixer",
@@ -42586,5 +42579,12 @@
     "author": "Keith Pieper",
     "description": "Manage Markdown checkbox tasks from a dashboard with editable metadata, grouping, sorting, filtering, and source-note links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kpieper876/Task-Cockpit-Pane"
+  },
+  {
+    "id": "selection-to-word-rtf",
+    "name": "Export Selection to Word (RTF)",
+    "author": "Keith Pieper",
+    "description": "Export a selected Markdown passage or whole note as a Word-readable RTF while preserving common formatting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kpieper876/Export-Selection-to-Word-RTF"
   }
 ]
