@@ -18529,13 +18529,6 @@
     "repo": "stefan-imbesi/obsidian-at-link"
   },
   {
-    "id": "math-convert",
-    "name": "Math Convert - Local Image-to-LaTeX",
-    "author": "giacolees",
-    "description": "Convert image regions to LaTeX formulas with local, offline AI inference. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "giacolees/obsidian-math-convert"
-  },
-  {
     "id": "page-width-toggle",
     "name": "Page Width Toggle",
     "author": "heono3h",
@@ -20340,6 +20333,13 @@
     "author": "kynatro",
     "description": "Scans your vault's markdown files for unchecked todos and collates them in a todos sidebar. Supports @mention for team members and natural language due date logic. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kynatro/notepack-obsidian"
+  },
+  {
+    "id": "outlook-event-notes",
+    "name": "Outlook Event Notes",
+    "author": "nathanstorm689",
+    "description": "Create notes from Outlook .msg files — supports meetings, appointments, and recurring events. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nathanstorm689/outlook-event-notes"
   },
   {
     "id": "rag-chat",
@@ -42245,6 +42245,13 @@
     "repo": "jqml/latex-suite-rev"
   },
   {
+    "id": "joplin-server-sync",
+    "name": "Joplin Server Sync",
+    "author": "rosswang",
+    "description": "Sync Obsidian vault with Joplin Server — bidirectional, attachments, tags, links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanqingwang/obsidian-joplin-server-sync"
+  },
+  {
     "id": "o-dashboard",
     "name": "O-Dashboard",
     "author": "wan",
@@ -42558,5 +42565,19 @@
     "author": "Ben Hancock",
     "description": "Makes stacked-tab switching faster while preserving its sliding animation. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "benhancock/faster-stacked-tabs"
+  },
+  {
+    "id": "auto-create-on-paste",
+    "name": "Auto Create Notes on Paste",
+    "author": "Keith Pieper",
+    "description": "Create missing Markdown notes from wikilinks found in pasted text or from the current file via Command Palette. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kpieper876/Auto-Create-Notes-on-Paste"
+  },
+  {
+    "id": "task-cockpit-pane",
+    "name": "Task Cockpit Pane",
+    "author": "Keith Pieper",
+    "description": "Manage Markdown checkbox tasks from a dashboard with editable metadata, grouping, sorting, filtering, and source-note links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kpieper876/Task-Cockpit-Pane"
   }
 ]
