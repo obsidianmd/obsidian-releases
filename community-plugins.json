@@ -27517,13 +27517,6 @@
     "repo": "cheng-zi-qing/stepvox"
   },
   {
-    "id": "remarkable-synchronizer",
-    "name": "Remarkable Synchronizer",
-    "author": "Sébastien Dubois",
-    "description": "Connect to the reMarkable cloud, list, download, and sync notebook pages as images. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dsebastien/obsidian-remarkable-sync"
-  },
-  {
     "id": "excerpt-outline-mindmap-editor",
     "name": "Excerpt-Outline-Mindmap-Editor",
     "author": "kpaede",
@@ -29041,6 +29034,13 @@
     "author": "odo",
     "description": "PARA-based knowledge management with idea flow, spaced repetition, and LLM-powered wiki. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "y15865708228-pixel/yang"
+  },
+  {
+    "id": "sync-wechat-data",
+    "name": "Sync Wechat Data",
+    "author": "frank",
+    "description": "sync wechat data - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "r3215407/obsidian-plugin"
   },
   {
     "id": "simple-timestamp",
@@ -41751,7 +41751,7 @@
     "id": "prayer-chime",
     "name": "PrayerChime",
     "author": "MjavadH",
-    "description": "Offline prayer times for Iranian cities using local city data. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Offline Islamic prayer times for Iranian cities. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mjavadh/PrayerChime"
   },
   {
@@ -42819,6 +42819,13 @@
     "repo": "illuwa/illuwa-nas-sync"
   },
   {
+    "id": "weread-vault",
+    "name": "Weread Vault",
+    "author": "茜宁郑",
+    "description": "同步微信读书、导入纸质书单，并将个人读书笔记整理为长期知识库。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhengxn1/weread-vault"
+  },
+  {
     "id": "mindmap-mode",
     "name": "Mindmap Mode",
     "author": "edolon_phantom",
@@ -42831,5 +42838,19 @@
     "author": "JSTools Space",
     "description": "Generate color palettes, preview hex codes inline, render palette blocks, and pull colors out of the images in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jstoolsspace/colorpalette-obsidian-plugin"
+  },
+  {
+    "id": "daily-prefix-notes",
+    "name": "Daily Notes Prefix Matcher",
+    "author": "chika",
+    "description": "Open today's daily note by matching the date prefix in its filename. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "applespriter/obsidian-daily-notes-prefix-matcher-plugin"
+  },
+  {
+    "id": "full-width-toggle",
+    "name": "Full Width Toggle",
+    "author": "JaeKyung Hwang",
+    "description": "Toggle full width per note from a Notion-style switch in the status bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "do0ori/obsidian-full-width-toggle"
   }
 ]
