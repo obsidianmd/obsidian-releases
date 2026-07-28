@@ -35875,13 +35875,6 @@
     "repo": "sshah7433/obsidian-jira-tiles"
   },
   {
-    "id": "smart-related-notes",
-    "name": "Smart Related Notes",
-    "author": "Saiki77",
-    "description": "Surface notes most semantically similar to the one you're reading in a left-sidebar panel, powered by a small multilingual embedding model that runs entirely on your machine. Private and offline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "saiki77/smart-related-notes"
-  },
-  {
     "id": "aliyun-drive-sync",
     "name": "Aliyun Drive Sync",
     "author": "Wjiajie",
@@ -36517,6 +36510,13 @@
     "author": "Remi HOEPPE",
     "description": "Syncs a markdown word list from your vault into Obsidian's custom spellcheck dictionary. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "remihoeppe/vault-notatypo"
+  },
+  {
+    "id": "daytasks",
+    "name": "DayTasks",
+    "author": "MHElnour",
+    "description": "A lightweight, day-first task manager for your daily notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mhelnour/daytasks"
   },
   {
     "id": "publish-to-wordpress",
@@ -39240,6 +39240,13 @@
     "author": "Justin Rosales",
     "description": "Two-finger trackpad swipes mapped to any command. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "justinrosales/obsidian-swipe-gestures"
+  },
+  {
+    "id": "nous",
+    "name": "Nous",
+    "author": "Andy Ho",
+    "description": "Turn dictated or pasted notes into a linked, tagged knowledge graph, right inside Obsidian - uses Claude Code (your subscription) or a direct API key from Anthropic, OpenAI, Gemini, or a local model, your choice. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andymdh/obsidian-nous"
   },
   {
     "id": "audio-timestamp-player",
@@ -42518,6 +42525,13 @@
     "repo": "ashenashes/floor-notes"
   },
   {
+    "id": "imasync",
+    "name": "Ima Copilot Sync",
+    "author": "hifengzy",
+    "description": "Import Tencent IMA knowledge base and notes, automatically convert to Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hifengzy/ima-sync"
+  },
+  {
     "id": "dida-dashboard",
     "name": "Dida Dashboard",
     "author": "Ayanami",
@@ -42544,13 +42558,6 @@
     "author": "Ordnung",
     "description": "Updates frontmatter properties based on folder structure. Creates folder index files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ordnungen/ord-updater"
-  },
-  {
-    "id": "command-center",
-    "name": "Command Center",
-    "author": "Dustin Stringer",
-    "description": "Orchestrate AI agents, workflows, retrieval, memory, and daily operations across your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "scrunchds/Command-Center"
   },
   {
     "id": "barosaurus",
@@ -42684,6 +42691,13 @@
     "author": "kains",
     "description": "Records vault changes as a machine-readable feed with per-reader cursors, so AI assistants can incrementally catch up on what you changed. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kains2866/vault-change-feed"
+  },
+  {
+    "id": "ridiculous-coding",
+    "name": "Ridiculous Coding",
+    "author": "Jacob",
+    "description": "Blips, booms, fireworks, XP and levels — make your editing experience ridiculous! - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chengou-zheng/obsidian-ridiculous-coding"
   },
   {
     "id": "at-mention-autocomplete",
@@ -42852,5 +42866,19 @@
     "author": "JaeKyung Hwang",
     "description": "Toggle full width per note from a Notion-style switch in the status bar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "do0ori/obsidian-full-width-toggle"
+  },
+  {
+    "id": "delete-line",
+    "name": "Delete Line",
+    "author": "Buckley Research Ltd",
+    "description": "Adds a command to delete the line under the cursor, designed for the mobile toolbar. Fully vibe coded; see the README before use. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "buckleyresearchltd/obsidian-delete-line"
+  },
+  {
+    "id": "gantt-tracker",
+    "name": "Gantt Tracker",
+    "author": "surranov",
+    "description": "Gantt charts for real project tracking: plan vs actual bars, automatic highlighting of delays, early finishes and pauses, vacation and day-off columns, per-day comments, sticky headers. Configured with a simple YAML code block. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "surranov/gantt-tracker"
   }
 ]
