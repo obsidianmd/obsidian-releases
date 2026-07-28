@@ -42056,6 +42056,13 @@
     "repo": "takeshy/obsidian-dashboard-hub"
   },
   {
+    "id": "knowledge-graph-ai",
+    "name": "Knowledge Graph AI",
+    "author": "zero",
+    "description": "Transform text into structured knowledge graphs with AI-powered entity extraction and relationship mapping. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xinxiangmu/knowledge-graph-ai"
+  },
+  {
     "id": "aindentpaper",
     "name": "AindentPaper",
     "author": "少言",
@@ -42584,7 +42591,7 @@
     "id": "cti-stix-workbench",
     "name": "CTI STIX Workbench",
     "author": "rx4747",
-    "description": "Local-first STIX 2.1 workspace for CTI analysts. Create, connect, validate, and export threat intelligence across notes, Canvas, folders, or an entire vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create, visualize, validate, and export local STIX 2.1 intelligence from Obsidian notes, Canvas files, folders, or JSON Bundles. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rx4747/cti-stix-workbench"
   },
   {
@@ -42600,20 +42607,6 @@
     "author": "Ben Hancock",
     "description": "Makes stacked-tab switching faster while preserving its sliding animation. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "benhancock/faster-stacked-tabs"
-  },
-  {
-    "id": "auto-create-on-paste",
-    "name": "Auto Create Notes on Paste",
-    "author": "Keith Pieper",
-    "description": "Create missing Markdown notes from wikilinks found in pasted text or from the current file via Command Palette. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kpieper876/Auto-Create-Notes-on-Paste"
-  },
-  {
-    "id": "task-cockpit-pane",
-    "name": "Task Cockpit Pane",
-    "author": "Keith Pieper",
-    "description": "Manage Markdown checkbox tasks from a dashboard with editable metadata, grouping, sorting, filtering, and source-note links. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kpieper876/Task-Cockpit-Pane"
   },
   {
     "id": "selection-to-word-rtf",
@@ -42640,7 +42633,7 @@
     "id": "mm-clean-links",
     "name": "MM Clean Links",
     "author": "Math Math",
-    "description": "Streamlines editing various types of links while in Live Preview mode, as well as automating consistent formatting for the titles of external links. #links #cleaner #capitalize #lowercase #uppercase - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Streamlines editing various types of links while in Live Preview mode, as well as automating consistent formatting for the titles of external links. #cleaner #links #capitalize #lowercase #uppercase - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lemathmath/Obsidian_MM-Clean-Links"
   },
   {
@@ -42817,5 +42810,12 @@
     "author": "Ji-ho Lee",
     "description": "View CalDAV calendar events directly in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "search5/harang-calendar"
+  },
+  {
+    "id": "illuwa-nas-sync",
+    "name": "NAS Vault Sync",
+    "author": "kihoon shin",
+    "description": "Sync your vault with your own NAS or any WebDAV server. Two-way sync across desktop and mobile, with causal conflict resolution and mass-delete protection. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "illuwa/illuwa-nas-sync"
   }
 ]
