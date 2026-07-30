@@ -2009,13 +2009,6 @@
     "repo": "deathau/snippet-commands-obsidian"
   },
   {
-    "id": "obsidian-livesync",
-    "name": "Self-hosted LiveSync",
-    "author": "vrtmrz",
-    "description": "Sync vaults securely to self-hosted servers or WEBRTC.",
-    "repo": "vrtmrz/obsidian-livesync"
-  },
-  {
     "id": "mysnippets-plugin",
     "name": "MySnippets",
     "author": "chetachiezikeuzor",
@@ -17554,13 +17547,6 @@
     "author": "namikaze-40p",
     "description": "A clipboard and snippet manager — your own, separate from the OS clipboard.",
     "repo": "namikaze-40p/obsidian-cliplet"
-  },
-  {
-    "id": "mobile-sidebar-notes",
-    "name": "Mobile Sidebar Notes",
-    "author": "ckep1",
-    "description": "Open notes & new tabs in the sidebar in the mobile app.",
-    "repo": "ckep1/obsidian-mobile-sidebar-notes"
   },
   {
     "id": "card-viewer",
@@ -43176,11 +43162,39 @@
     "repo": "kidpeterpan/inkbound"
   },
   {
+    "id": "local-fonts",
+    "name": "Local Fonts",
+    "author": "flowing-abyss",
+    "description": "Load fonts from a folder in your vault and apply them to text, interface, headings, code and emoji. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "flowing-abyss/obsidian-local-fonts"
+  },
+  {
     "id": "weave-epub-ai-reader",
     "name": "Weave EPUB AI Reader",
     "author": "HarrySuen626",
     "description": "Read EPUB books with highlights, deep links, and a built-in DeepSeek assistant. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "harrysuen626/weave-epub-ai-reader"
+  },
+  {
+    "id": "pdf-toggle-dark-mode",
+    "name": "PDF Toggle Dark Mode",
+    "author": "Vivek Galatage",
+    "description": "Toggle dark/light appearance for PDF viewers and thumbnails. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vivekgalatage/pdf-toggle-dark-mode"
+  },
+  {
+    "id": "browser-note",
+    "name": "Browser Note",
+    "author": "fengshuzi",
+    "description": "Expose a localhost HTTP API (API-key protected) to view, create, edit and delete vault notes, with a built-in browser UI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fengshuzi/browser-note"
+  },
+  {
+    "id": "calendar-of-notes",
+    "name": "Calendar of Notes",
+    "author": "GOODJINC",
+    "description": "Browse and open your notes by date in a fast, compact calendar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "goodjinc/obsidian-calendar-of-notes"
   },
   {
     "id": "xmind-pal",
@@ -43209,5 +43223,19 @@
     "author": "felixleopold",
     "description": "Search your vault quickly with precise matching and frecency ranking that favors recently and frequently opened notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "felixleopold/lean-search"
+  },
+  {
+    "id": "drive-opener",
+    "name": "Drive Opener",
+    "author": "於深",
+    "description": "Embedded the classic Windows File Explorer directly into Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yushen110/obsidian-drive-opener"
+  },
+  {
+    "id": "expanded-bookmarks",
+    "name": "Expanded Bookmarks",
+    "author": "newcodejin",
+    "description": "An expanded version of the core Bookmarks: moving, sorting, search filtering, and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "newcodejin/expanded-bookmarks"
   }
 ]
