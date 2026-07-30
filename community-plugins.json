@@ -12936,6 +12936,13 @@
     "repo": "wanabeunique/obsidian-workout-tracker"
   },
   {
+    "id": "neurovox",
+    "name": "NeuroVox",
+    "author": "synaptic-labs-ai",
+    "description": "Enhances your note-taking with voice transcription and AI capabilities.",
+    "repo": "synaptic-labs-ai/NeuroVox"
+  },
+  {
     "id": "todos-sort",
     "name": "Todos sort",
     "author": "jsifalda",
@@ -22993,13 +23000,6 @@
     "author": "kgdrathan",
     "description": "Automatically moves completed tasks to the bottom of their lists. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kgdrathan/donedrop"
-  },
-  {
-    "id": "task-planner",
-    "name": "Task Planner",
-    "author": "selfish",
-    "description": "Manage tasks with drag-and-drop planning, Today focus, backlog, overdue tracking, and weekly time horizons. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "selfish/obsidian-task-planner"
   },
   {
     "id": "lighthouse",
@@ -42364,6 +42364,13 @@
     "repo": "faccuo/voz-notas"
   },
   {
+    "id": "frontmatter-kanban-board",
+    "name": "TaskManagement",
+    "author": "Yun Lun Li",
+    "description": "TaskManagement for Markdown task notes with Obsidian-readable frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "apie0419/Obsidian-TasksPlugin"
+  },
+  {
     "id": "mm-notes-expand",
     "name": "MM Notes Expand",
     "author": "Math Math",
@@ -43286,5 +43293,26 @@
     "author": "YOKOYAMA Taku",
     "description": "Animals gather in a side panel while you stay focused on your notes. The longer you focus, the more show up. A paid activation code unlocks rarer animals. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "seekseep/focus-safari"
+  },
+  {
+    "id": "colors",
+    "name": "Colors",
+    "author": "Bahey Shalash",
+    "description": "Color text with hex-based markup that renders identically in live preview, reading mode and PDF export. Menus map palette names to hex colors; notes store only the hex. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bahey-shalash/obsidian-text-color"
+  },
+  {
+    "id": "new-tab-pins",
+    "name": "New Tab Pins",
+    "author": "Joah Peng",
+    "description": "Turn every empty tab into a calm launcher for pinned notes, instant search, and recent files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ptspzy/obsidian-new-tab-pins"
+  },
+  {
+    "id": "ggajos-tasks-eye",
+    "name": "Tasks Eye",
+    "author": "Grzegorz Gajos",
+    "description": "Attention is a currency. Less is more. Tasks Eye saves your attention and reduces friction by returning dated tasks when they need a decision, while your projects, plans, and history stay in Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ggajos/ggajos-tasks-eye"
   }
 ]
