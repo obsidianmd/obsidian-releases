@@ -12936,13 +12936,6 @@
     "repo": "wanabeunique/obsidian-workout-tracker"
   },
   {
-    "id": "neurovox",
-    "name": "NeuroVox",
-    "author": "synaptic-labs-ai",
-    "description": "Enhances your note-taking with voice transcription and AI capabilities.",
-    "repo": "synaptic-labs-ai/NeuroVox"
-  },
-  {
     "id": "todos-sort",
     "name": "Todos sort",
     "author": "jsifalda",
@@ -19860,7 +19853,7 @@
   },
   {
     "id": "code-suite",
-    "name": "CodeSuite",
+    "name": "Code Suite",
     "author": "felixleopold",
     "description": "Execute code inside your notes: Shiki syntax highlighting with 65+ themes, live streaming output, inline Matplotlib and Plotly graphs, shared variables, and styled HTML and PDF export with outputs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "felixleopold/obsidian-code-suite"
@@ -20207,6 +20200,13 @@
     "author": "goberomsu",
     "description": "Chat with your notes & see links to related content with Local or Remote models. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "goberomsu/open-connections"
+  },
+  {
+    "id": "multisync",
+    "name": "Multi Cloud Sync",
+    "author": "d0uub",
+    "description": "Sync individual vault folders with multiple cloud providers (Notion, Dropbox, OneDrive, Google Drive). Per-folder mapping, 3-way snapshot sync, modular operations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "d0uub/obsidian-multisync"
   },
   {
     "id": "stardew-pet-farm",
@@ -31080,6 +31080,13 @@
     "repo": "gabbywelson/obsidian-corduroy"
   },
   {
+    "id": "orbit-graph-view",
+    "name": "Orbit",
+    "author": "studiogamma",
+    "description": "Visualize your vault as a planetary system. Orbit child nodes around their parents based on frontmatter, tags, outlinks, or backlinks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "studiogamma/orbit-graph-view"
+  },
+  {
     "id": "mails-blog-publisher",
     "name": "Mails Blog Publisher",
     "author": "FengXuan",
@@ -39459,6 +39466,13 @@
     "repo": "joelam2023/investment-tracker"
   },
   {
+    "id": "ai-book-manager",
+    "name": "AI Knowledge Manager",
+    "author": "cyk111",
+    "description": "AI-powered book library manager with auto-tagging, knowledge graphs, and multi-tool skill generation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cyk111/ai-book-manager"
+  },
+  {
     "id": "note-publisher",
     "name": "Note publisher",
     "author": "bvn13",
@@ -40736,7 +40750,7 @@
     "id": "word-smith",
     "name": "Word-Smith",
     "author": "sadsnake1",
-    "description": "Distraction-free writing suite - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "The Ultimate Distraction-free Writing Suite - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sadsnake1/word-smith"
   },
   {
@@ -42448,6 +42462,13 @@
     "repo": "search5/harang-contacts"
   },
   {
+    "id": "note-api",
+    "name": "Note API",
+    "author": "fengshuzi",
+    "description": "Expose a localhost HTTP API (API-key protected) to view, create, edit and delete vault notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fengshuzi/note-api"
+  },
+  {
     "id": "transmute",
     "name": "Transmute",
     "author": "Johannes Kaindl",
@@ -42861,6 +42882,13 @@
     "repo": "deltaplanoo/git-ribbon-sync"
   },
   {
+    "id": "mybrain",
+    "name": "myBrain",
+    "author": "Carl Bechstrom",
+    "description": "A high-performance semantic network graph displaying notes in structured Parents, Children, Friends, and Siblings quadrants. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "carlb01/myBrain"
+  },
+  {
     "id": "reading-progress-bookmarks",
     "name": "Reading Progress and Bookmarks",
     "author": "Maxy Park",
@@ -42962,7 +42990,7 @@
     "id": "callander",
     "name": "Callander",
     "author": "Callan",
-    "description": "A private secondary memory for your friendships. Jot gift ideas, conversation threads, and things to do together — Callander resurfaces them when they matter. Never a CRM, never creepy. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A private secondary memory for your friendships. Jot gift ideas, conversation threads, and things to do together — Callander resurfaces them when they matter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zcallan/callander-obsidian"
   },
   {
@@ -43153,5 +43181,33 @@
     "author": "HarrySuen626",
     "description": "Read EPUB books with highlights, deep links, and a built-in DeepSeek assistant. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "harrysuen626/weave-epub-ai-reader"
+  },
+  {
+    "id": "xmind-pal",
+    "name": "Xmind Pal",
+    "author": "Moz",
+    "description": "Embed and preview .xmind mind map files in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "moziar/obsidian-xmind-pal"
+  },
+  {
+    "id": "pdf-resize",
+    "name": "PDF Resize",
+    "author": "puhhh",
+    "description": "Resize embedded PDF files with wiki-link dimensions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "puhhh/pdf-resize"
+  },
+  {
+    "id": "replace-memory",
+    "name": "Replace Memory",
+    "author": "lau",
+    "description": "Remember common replacement rules and apply them all with one click, in your chosen order. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "397327/replace-memory"
+  },
+  {
+    "id": "lean-search",
+    "name": "Lean Search",
+    "author": "felixleopold",
+    "description": "Search your vault quickly with precise matching and frecency ranking that favors recently and frequently opened notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "felixleopold/lean-search"
   }
 ]
