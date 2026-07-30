@@ -2009,6 +2009,13 @@
     "repo": "deathau/snippet-commands-obsidian"
   },
   {
+    "id": "obsidian-livesync",
+    "name": "Self-hosted LiveSync",
+    "author": "vrtmrz",
+    "description": "Sync vaults securely to self-hosted servers or WEBRTC.",
+    "repo": "vrtmrz/obsidian-livesync"
+  },
+  {
     "id": "mysnippets-plugin",
     "name": "MySnippets",
     "author": "chetachiezikeuzor",
@@ -12078,7 +12085,7 @@
     "id": "keepsidian",
     "name": "KeepSydian",
     "author": "lc0rp",
-    "description": "Commands to import Google Keep notes.",
+    "description": "Google Keep sync: one or two-way, on-demand or set and forget.",
     "repo": "lc0rp/KeepSidian"
   },
   {
@@ -26113,7 +26120,7 @@
     "id": "git-file-sync",
     "name": "Git File Sync",
     "author": "ClaudiaFang",
-    "description": "Selectively sync the notes you choose—not your whole vault—with GitHub, GitLab, or Gitea. No local Git repository required. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Both mobile and desktop. Selectively sync the notes you choose—not your whole vault—with GitHub, GitLab, or Gitea. No local Git repository required. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "firstsun-dev/git-files-sync"
   },
   {
@@ -30455,6 +30462,13 @@
     "author": "nightfall",
     "description": "ImgBox Pro searches for external media links in your notes, downloads and saves them locally, adjusts note links, and includes unused attachment cleanup tools. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nightfall-yl/obsidian-imgbox-pro"
+  },
+  {
+    "id": "keyword-notes-editor",
+    "name": "Keyword Notes Editor",
+    "author": "fengshuzi",
+    "description": "View and edit notes grouped by keyword tags, similar to Logseq tag view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fengshuzi/keyword-notes-editor"
   },
   {
     "id": "kilocode",
@@ -41349,6 +41363,13 @@
     "repo": "oxilldat/obsidian-person-network"
   },
   {
+    "id": "domorium",
+    "name": "gedcom",
+    "author": "Andrei Lobanov",
+    "description": "Edit GEDCOM files with autocomplete, validation, navigation, and semantic highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lavich/domorium-obsidian"
+  },
+  {
     "id": "ogenda",
     "name": "Ogenda",
     "author": "jiang198012",
@@ -41984,13 +42005,6 @@
     "author": "Robert Fleming",
     "description": "Turn a simple, YAML-inspired list of image embeds into a responsive photo grid. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "haivri/obsidian-simple-gallery"
-  },
-  {
-    "id": "tasks-datetime",
-    "name": "Tasks Datetime",
-    "author": "DXShelley",
-    "description": "Tasks with date and time support down to seconds. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dxshelley/obsidian-tasks-datetime"
   },
   {
     "id": "life-log",
@@ -42919,7 +42933,7 @@
   {
     "id": "lore-creator",
     "name": "Lore Creator",
-    "author": "Mehmethan",
+    "author": "PancstaR",
     "description": "Design fictional universes: branching timelines, versioned story fragments, custom calendars and structured worldbuilding entities. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pancstar/lore-creator"
   },
@@ -43237,5 +43251,12 @@
     "author": "newcodejin",
     "description": "An expanded version of the core Bookmarks: moving, sorting, search filtering, and more. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "newcodejin/expanded-bookmarks"
+  },
+  {
+    "id": "custom-badges",
+    "name": "Custom Badges",
+    "author": "AbbaraS",
+    "description": "Add inline badges/callouts to notes, with user-definable badge types, icons and colors. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abbaras/custom-badges"
   }
 ]
