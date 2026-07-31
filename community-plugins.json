@@ -108,7 +108,7 @@
     "id": "obsidian-day-planner",
     "name": "Day Planner",
     "author": "ivan-lednev",
-    "description": "Day planning from a task list in a Markdown note with enhanced time block functionality.",
+    "description": "Turn tasks from daily notes, the Tasks plugin, and calendars into time blocks on an editable timeline, with built-in time tracker.",
     "repo": "ivan-lednev/obsidian-day-planner"
   },
   {
@@ -33635,13 +33635,6 @@
     "repo": "viggomeesters/obsidian-folder-sort-view"
   },
   {
-    "id": "stashpad",
-    "name": "Stashpad",
-    "author": "Grub Basket",
-    "description": "A chat-style, nested-notes workspace: rapid capture, outliner navigation, fast search, tasks, and per-folder templates, with one-click Open Knowledge Format (OKF) export for LLMs and agents. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "grub-basket/SP"
-  },
-  {
     "id": "html-experience",
     "name": "HTML Experience",
     "author": "yabs",
@@ -42966,6 +42959,13 @@
     "repo": "dlsdgj/promchip"
   },
   {
+    "id": "graphite-sync",
+    "name": "Graphite Sync",
+    "author": "Omar Yazeedi",
+    "description": "Two-way sync with your self-hosted Graphite (Life Planner) server: pull Spaces into any vault as Markdown, edit in Obsidian, push back through a validate-first merge. Sync panel with per-file status, destination-vault routing, optional auto-push. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "omaryazeedi/graphite-sync"
+  },
+  {
     "id": "markdown-spreadsheets",
     "name": "Markdown Spreadsheets",
     "author": "ondreu",
@@ -43239,13 +43239,6 @@
     "repo": "goodjinc/obsidian-calendar-of-notes"
   },
   {
-    "id": "xmind-pal",
-    "name": "Xmind Pal",
-    "author": "Moz",
-    "description": "Embed and preview .xmind mind map files in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "moziar/obsidian-xmind-pal"
-  },
-  {
     "id": "pdf-resize",
     "name": "PDF Resize",
     "author": "puhhh",
@@ -43391,5 +43384,12 @@
     "author": "Anand Baghel",
     "description": "Generates custom mock tests (Core, General Aptitude, Subject-wise, Random) from GATE past year question papers with interactive answer inputs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "anandrajbaghel/gate-simulator"
+  },
+  {
+    "id": "crisp-annotations",
+    "name": "Crisp Annotations",
+    "author": "letschips",
+    "description": "Adds hand-drawn arrows and handwritten notes to inline Markdown highlights. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hervepotato/crisp-annotations"
   }
 ]
