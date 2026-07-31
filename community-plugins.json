@@ -32560,7 +32560,7 @@
     "id": "grimoire",
     "name": "Grimoire",
     "author": "Michael Makarov",
-    "description": "Run Claude Code, Codex, Grok, AntiGravity, Gemini CLI, and OpenCode as local AI agents in your vault, with chat, inline editing, and tools. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Run Claude Code, Codex, Grok, AntiGravity, Qwen Code, and OpenCode as local AI agents in your vault, with chat, inline editing, and tools. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sandsaber/Grimoire"
   },
   {
@@ -33787,13 +33787,6 @@
     "author": "tenor-john",
     "description": "An all-in-one scholarly workspace with AI-assisted writing, literature management, notes, and productivity tools. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tenor-john/obsidian-scholarium"
-  },
-  {
-    "id": "mv-obcc",
-    "name": "mv-SenceAI",
-    "author": "MV",
-    "description": "AI assistant for Obsidian with inline completion, selection prompts, Claude Code and Codex bridge, MCP tools, and editable diffs. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "aitingtingya/mv-obcc"
   },
   {
     "id": "art-de-one",
@@ -37420,6 +37413,13 @@
     "author": "Waldemar",
     "description": "Adds a command to replace the current tab with an empty page, the same screen shown when opening a new tab. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "waldemar-one/obsidian-empty-tab"
+  },
+  {
+    "id": "bamboo-immortals",
+    "name": "Bamboo Immortals",
+    "author": "羽鳞君",
+    "description": "Bamboo Immortals（竹林修仙传）— 基于OGAS理念的中国风目标自动化管理系统。A Chinese-style goal automation system based on OGAS concepts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "miaoziguan/obsidian-bamboo-immortals"
   },
   {
     "id": "pie-tasks",
@@ -43379,6 +43379,13 @@
     "repo": "search5/harang-nextcloud"
   },
   {
+    "id": "product-backlog-view",
+    "name": "Product Backlog",
+    "author": "Luis Mendez",
+    "description": "Display Bases results as a sortable product backlog tree of Epics, Features, PBIs and Tasks with drag-and-drop ranking, inspired by Azure DevOps Boards. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "luis85/backlog-view"
+  },
+  {
     "id": "doms",
     "name": "D.O.M.S",
     "author": "SirHobby",
@@ -43419,5 +43426,33 @@
     "author": "joey",
     "description": "Sync cloze, Q/A, code practice, and image occlusion flashcards from Obsidian to Anki. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "joeyyu123/obsidian-anki-cloze-sync"
+  },
+  {
+    "id": "open-folder-button",
+    "name": "Open Folder Button",
+    "author": "コウノアルト",
+    "description": "Open folders from Obsidian's file explorer in Windows Explorer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "altokun-number-one/obsidian-open-folder-button"
+  },
+  {
+    "id": "tsconfig-alias",
+    "name": "Tsconfig Alias Image Resolver",
+    "author": "CMSZ",
+    "description": "Read tsconfig.json compilerOptions.paths and resolve @/… style image paths in real time so images render in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cmsz001/obsidian-tsconfig-alias"
+  },
+  {
+    "id": "markdown-autofix",
+    "name": "Markdown Autofix",
+    "author": "swift",
+    "description": "Detects Markdown syntax errors in the active note in real time and automatically fixes the safely fixable ones. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bwtymdb/obsidian-md-autofix"
+  },
+  {
+    "id": "aurora-dashboard",
+    "name": "Aurora Dashboard",
+    "author": "Sean",
+    "description": "A calm home dashboard for vault health, writing activity, recent notes, and actionable details. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tianxiangyu0717-hub/obsidian-aurora-dashboard"
   }
 ]
