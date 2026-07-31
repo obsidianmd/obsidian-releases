@@ -31083,7 +31083,7 @@
     "id": "orbit-graph-view",
     "name": "Orbit",
     "author": "studiogamma",
-    "description": "Visualize your vault as a planetary system. Orbit child nodes around their parents based on frontmatter, tags, outlinks, or backlinks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Visualize your notes as an orbital cosmos. Nodes orbit around their parent nodes based on frontmatter, tags, outlinks, or backlinks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "studiogamma/orbit-graph-view"
   },
   {
@@ -35551,6 +35551,13 @@
     "author": "Jesús García",
     "description": "Plugin centralizado de registro de actividades comunitarias para agrupaciones Bahá'ís. Conexión instantánea con código de invitación. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jaliriogbarrios19/mi-agrupacion-plus"
+  },
+  {
+    "id": "okf-enforcer",
+    "name": "OKF Enforcer",
+    "author": "MartinForReal",
+    "description": "Validate and enforce the Open Knowledge Format (OKF v0.1): required type frontmatter, index.md/log.md structure, quick-fixes, on-save checks, and a vault-wide report. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "martinforreal/okf-enforcer"
   },
   {
     "id": "hub-sidebar",
@@ -42344,7 +42351,7 @@
   },
   {
     "id": "voz-notas",
-    "name": "Voz-notas",
+    "name": "VozNotas",
     "author": "Fernando Abellan",
     "description": "Talk to your notes by voice — a hands-free voice assistant that searches, reads and writes your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "faccuo/voz-notas"
@@ -43323,6 +43330,13 @@
     "repo": "vuecwiz/obsidian-ntfy-sync"
   },
   {
+    "id": "tag-lock",
+    "name": "Tag Lock",
+    "author": "AQiong 阿琼",
+    "description": "Password-gate notes when configured privacy tags or folders are detected. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "agarcabin/obsidian-tag-lock"
+  },
+  {
     "id": "token-usage",
     "name": "Token Usage",
     "author": "Björn-Olaf Lange",
@@ -43351,10 +43365,31 @@
     "repo": "search5/harang-nextcloud"
   },
   {
+    "id": "doms",
+    "name": "D.O.M.S",
+    "author": "SirHobby",
+    "description": "An opinionated, mobile-first workout tracker, logger and reference. Pick a routine, log a session in one tap, and keep the data as plain markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sirhobby/doms"
+  },
+  {
     "id": "layout-switcher-uk-en",
     "name": "Layout Switcher (UA-EN)",
     "author": "kosperun",
     "description": "Convert selected text between English and Ukrainian keyboard layouts, for when you forgot to switch layout before typing - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kosperun/obsidian-layout-switcher-uk-en"
+  },
+  {
+    "id": "anki-card-link",
+    "name": "Anki Card Link",
+    "author": "冰冰冰",
+    "description": "Open Anki searches from Obsidian using note IDs, card IDs, text, or custom queries across desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wangruobing-dev/obsidian-anki-card-link"
+  },
+  {
+    "id": "gate-simulator",
+    "name": "GATE Simulator",
+    "author": "Anand Baghel",
+    "description": "Generates custom mock tests (Core, General Aptitude, Subject-wise, Random) from GATE past year question papers with interactive answer inputs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "anandrajbaghel/gate-simulator"
   }
 ]
