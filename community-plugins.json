@@ -22659,6 +22659,13 @@
     "repo": "forketyfork/obsidian-speech-bubbles"
   },
   {
+    "id": "granola-meetings-simple-sync",
+    "name": "Granola Meetings Simple Sync",
+    "author": "philfreo",
+    "description": "Sync your Granola meeting notes, summaries, and transcripts to your vault in a simple way using the official Granola MCP API. Customizable by template. Supports auto-linking of attendee Person notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "philfreo/obsidian-granola-plugin"
+  },
+  {
     "id": "tab-multi-select",
     "name": "Tab Multi Select",
     "author": "nitero",
@@ -28579,13 +28586,6 @@
     "author": "Mateusz Nitka",
     "description": "Create new paragraph after hitting Enter once instead of twice. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mateusznitka/obsidian-paragraph-break"
-  },
-  {
-    "id": "operon",
-    "name": "Operon",
-    "author": "Hasan Yılmaz",
-    "description": "Task and project management system that unifies inline tasks and file-based tasks in the same workflows with Tables, Filters, Calendar planning, Kanban boards, pinned tasks, and time tracking. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hasanyilmaz/operon"
   },
   {
     "id": "clio",
@@ -36113,13 +36113,6 @@
     "repo": "arias007/obsidian-ntfy"
   },
   {
-    "id": "cancip",
-    "name": "Cancip",
-    "author": "Murat",
-    "description": "AI side panel for vault read&write, memory context, and safe note assistance. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "arias007/cancip"
-  },
-  {
     "id": "canvas-layer-order",
     "name": "Canvas Layer Order",
     "author": "fengzhe",
@@ -43536,7 +43529,7 @@
     "id": "side-notes",
     "name": "Side-Notes",
     "author": "Fried Fishsticks",
-    "description": "Adds ability to create sidenotes in Obsidian with incrementing numbers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Adds ability to create Tufte-style sidenotes in Obsidian with incrementing numbers. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cparsell/sidenotes"
   },
   {
@@ -43580,5 +43573,12 @@
     "author": "Dave Smith",
     "description": "Integrates TaskNotes with Jira. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "thisisthedave/tasknotes-jira"
+  },
+  {
+    "id": "random-note-picker",
+    "name": "Random Note Picker",
+    "author": "tai",
+    "description": "Open random notes from your vault, specific time periods, or custom directories. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "taisukemino/random-note-obsidian"
   }
 ]
