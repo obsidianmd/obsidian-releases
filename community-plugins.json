@@ -6895,13 +6895,6 @@
     "repo": "jamesmagoo/nostr-writer"
   },
   {
-    "id": "image-converter",
-    "name": "Image Converter",
-    "author": "xryul",
-    "description": "Convert, compress, resize, annotate, markup, draw, crop, rotate, flip, align, drag-resize, rename with variables, and batch process images: WEBP, JPG, PNG, HEIC, TIF",
-    "repo": "xryul/obsidian-image-converter"
-  },
-  {
     "id": "solve",
     "name": "Solve",
     "author": "liamriddell",
@@ -17988,13 +17981,6 @@
     "author": "spatariurares",
     "description": "Visualize workout data with interactive charts and advanced search capabilities.",
     "repo": "spatariurares/obsidian-workout-plugin"
-  },
-  {
-    "id": "ai-transcriber",
-    "name": "AI Transcriber",
-    "author": "Musashino Software",
-    "description": "AI-powered speech-to-text transcription using OpenAI GPT-4o and Whisper APIs.",
-    "repo": "mssoftjp/obsidian-ai-transcriber"
   },
   {
     "id": "status-bar-clock",
@@ -39791,7 +39777,7 @@
     "id": "readability-compass",
     "name": "Readability Compass",
     "author": "Max",
-    "description": "Check the readability of your writing to ensure it fits your readers. See a language-independent score (LIX) and specify your own target. Check scores in the status bar and details in the side panel. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Will your readers keep up? Pick a readability target (≈ CEFR B1/B2/C1); the status bar shows on or off target while you write. In any language. The panel shows why, per section, click to jump. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "maxonamission/obsidian-readability-compass"
   },
   {
@@ -42504,13 +42490,6 @@
     "repo": "johannes-kaindl/obsidian-transmute"
   },
   {
-    "id": "feuillets",
-    "name": "Feuillets",
-    "author": "HalYal",
-    "description": "Feuillets turns Obsidian into a complete writing environment for novels, essays, and long projects: structure your manuscript, manage research, check grammar, track progress, and export natively - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sargon01/Feuillets"
-  },
-  {
     "id": "glyphit",
     "name": "GlyphIt",
     "author": "Jakob Marasch",
@@ -42927,7 +42906,7 @@
     "id": "remarkable-round-trip",
     "name": "reMarkable Round-Trip",
     "author": "Max",
-    "description": "Write notes where writing works best and review on reMarkable, and get your remarks back in the note they came from. As markdown you can actually edit and refine. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Write notes where writing works best, review on reMarkable and get your remarks back in the note they came from. As markdown you can actually edit and refine. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "maxonamission/obsidian-remarkable-round-trip"
   },
   {
@@ -43601,5 +43580,40 @@
     "author": "vuecwiz",
     "description": "Receive MQTT messages and route them into deterministic, recoverable Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vuecwiz/obsidian-mqtt-sync"
+  },
+  {
+    "id": "canvas-readonly-copy-fix",
+    "name": "Canvas Read-Only Copy",
+    "author": "J",
+    "description": "Copies selected text from read-only Obsidian Canvas cards. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jeffreyl-3/ObsidianCanvasFixer"
+  },
+  {
+    "id": "stereo",
+    "name": "Stereo",
+    "author": "roman murray",
+    "description": "Stream music from your Navidrome or Subsonic-compatible server with a sidebar player, library browser, and queue. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "romanmurray/obsidian-stereo"
+  },
+  {
+    "id": "homepulse",
+    "name": "HomePulse",
+    "author": "Yuki",
+    "description": "A component-based personal homepage dashboard with grid layout, drag editing, and workflow widgets. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jukkau/HomePulse"
+  },
+  {
+    "id": "redacted",
+    "name": "Redacted",
+    "author": "Julie Sandburg",
+    "description": "Permanently redact selected text using block characters or custom characters - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jsandburg/obsidian-redacted"
+  },
+  {
+    "id": "featherlight",
+    "name": "Featherlight",
+    "author": "Julie Sandburg",
+    "description": "Enforces character limits on notes, with a live status bar counter showing characters used and remaining. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jsandburg/obsidian-featherlight"
   }
 ]
