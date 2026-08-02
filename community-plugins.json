@@ -38563,6 +38563,13 @@
     "repo": "laurent-ferier/pm-compass"
   },
   {
+    "id": "relation-weaver",
+    "name": "relation-weaver",
+    "author": "guilier",
+    "description": "管理人物关系、阵营、时间线，支持热力图、亲密度演化、生命周期可视化、写作仪表盘 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "guilier/relation-weaver"
+  },
+  {
     "id": "folder-backlinks",
     "name": "Folder Backlinks",
     "author": "Vlad",
@@ -41125,13 +41132,6 @@
     "repo": "johannes-kaindl/health-vitals"
   },
   {
-    "id": "graph-insight",
-    "name": "Advanced Graph View",
-    "author": "n23eos",
-    "description": "Alternative graph view for large vaults with 3D visualization, clusters, PageRank and color schemes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "n23eos/advanced_graph_view"
-  },
-  {
     "id": "mq",
     "name": "mq",
     "author": "Takahiro Sato",
@@ -43309,13 +43309,6 @@
     "repo": "yushen110/obsidian-drive-opener"
   },
   {
-    "id": "expanded-bookmarks",
-    "name": "Expanded Bookmarks",
-    "author": "newcodejin",
-    "description": "An expanded version of the core Bookmarks: moving, sorting, search filtering, and more. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "newcodejin/expanded-bookmarks"
-  },
-  {
     "id": "google-cloud-sync",
     "name": "Google Sync",
     "author": "Sertaç Yıldız",
@@ -43874,5 +43867,12 @@
     "author": "xzhi",
     "description": "Auto-switch to the most recently used tab when closing the current one.关闭当前标签页后，自动切换到最近所在的标签页 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "github-xzhi/obsidian-close-and-switch-to-recent-tab"
+  },
+  {
+    "id": "graph-chat",
+    "name": "Graph Chat",
+    "author": "Muhammad Hamza",
+    "description": "An extended graph view where notes open into AI chat boxes powered by your local Claude Code CLI. Branch conversations, link notes by dragging, and every chat is a real markdown note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mhmzdev/obsidian-graph-chat"
   }
 ]
