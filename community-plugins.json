@@ -32574,7 +32574,7 @@
     "id": "autodater",
     "name": "AutoDater",
     "author": "Stanley Cheung",
-    "description": "Automatically adds Created/Updated dates to YAML frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Automatically add Created and Updated dates to new and edited Markdown notes. Zero setup, no manual date tracking. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cheuyin/autodater"
   },
   {
@@ -33626,6 +33626,13 @@
     "author": "yaye.work",
     "description": "Build mermaid flowcharts visually. Enuf said. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yaye-work/obsidian-draw-a-mermaid"
+  },
+  {
+    "id": "arxiv-daily",
+    "name": "arXiv Daily",
+    "author": "Da-Chuan Tian",
+    "description": "Daily arXiv tracker that filters and summarizes papers via LLM into your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tdccccc/arxiv-daily"
   },
   {
     "id": "pageden-sync",
@@ -36696,7 +36703,7 @@
   {
     "id": "sourcedown",
     "name": "SourceDown",
-    "author": "0libots",
+    "author": "0libote",
     "description": "Import documents, media, archives, and web pages as Markdown using Microsoft MarkItDown. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "0libote/SourceDown"
   },
@@ -37662,7 +37669,7 @@
   {
     "id": "codex-usage",
     "name": "Codex Usage",
-    "author": "0libots",
+    "author": "0libote",
     "description": "Display CodexBar-style AI coding usage data inside Obsidian using managed local helpers. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "0libote/Codex-Usage-for-Obsidian"
   },
@@ -37893,7 +37900,7 @@
   {
     "id": "daily-five",
     "name": "Daily Five",
-    "author": "0libots",
+    "author": "0libote",
     "description": "A daily five-letter word game with Daily Note results and lifetime stats. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "0libote/daily-five"
   },
@@ -43708,6 +43715,13 @@
     "repo": "sakurastral/obsidian-property-panels"
   },
   {
+    "id": "media-transcript",
+    "name": "Media Transcript",
+    "author": "semsevens",
+    "description": "Play video/audio with synchronized, clickable transcripts. Click any line to seek; playing line auto-highlights. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "semsevens/obsidian-media-transcript"
+  },
+  {
     "id": "cloudbeaver",
     "name": "CloudBeaver",
     "author": "DBeaver",
@@ -43769,5 +43783,12 @@
     "author": "notenerd",
     "description": "Convert PDF, Word (.docx), PowerPoint (.pptx), Excel (.xlsx) and images to Markdown — headings, tables, lists and embedded images intact. Parsed natively: no Python, no pip, no cloud service, nothing uploaded. Local OCR reads text in images. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "notenerdofficial/convert-to-markdown"
+  },
+  {
+    "id": "integrated-archive",
+    "name": "Integrated Archive",
+    "author": "0libote",
+    "description": "Archive notes instead of deleting them, with optional archive metadata. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "0libote/integrated-archive"
   }
 ]
