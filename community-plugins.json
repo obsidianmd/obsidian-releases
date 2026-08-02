@@ -28749,6 +28749,13 @@
     "repo": "kausthub-kannan/poneglyph"
   },
   {
+    "id": "note-database",
+    "name": "Note Database",
+    "author": "pangy",
+    "description": "Local-first database views for Obsidian notes: table, board, gallery, list, chart, calendar, timeline, formulas, filters, and inline editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pangy9/obsidian-note-database"
+  },
+  {
     "id": "todoist-bridge",
     "name": "Todoist Bridge",
     "author": "Rodrigo Farinha",
@@ -30105,13 +30112,6 @@
     "author": "Kodaskills",
     "description": "Editing PO (Gettext) translation files with format conversion support (ICU, XLIFF, ARB, JSON, YAML) - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kodaskills/obsidian-po-editor"
-  },
-  {
-    "id": "town-forge",
-    "name": "Town Forge",
-    "author": "Obsidian TTRPG Community",
-    "description": "Procedurally generate fantasy landscape and settlement maps for tabletop RPGs, with a live preview panel and optional pinned-map export. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "obsidian-ttrpg-community/Town-Forge"
   },
   {
     "id": "vim-cheatsheet",
@@ -41233,7 +41233,7 @@
     "id": "manuscript-export",
     "name": "Manuscript Export",
     "author": "Dr3pi",
-    "description": "Export a book manuscript written in Obsidian to a clean, professionally-structured EPUB. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Export a book manuscript to a clean, professionally-structured EPUB, including one-command export of Longform projects. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dr3pi/obsidian-manuscript-export"
   },
   {
@@ -43930,5 +43930,12 @@
     "author": "Tacitustus",
     "description": "Propagates graph node colors to uncolored nodes based on their connections. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tacitustus/obsidian-graph-color-propagation"
+  },
+  {
+    "id": "latex-delimiter-renderer",
+    "name": "LaTeX Delimiter Renderer",
+    "author": "Andreas Burger",
+    "description": "Render \\(…\\) and \\[…\\] math without changing note source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "burgerandreas/latex-delimiter-renderer"
   }
 ]
