@@ -28749,13 +28749,6 @@
     "repo": "kausthub-kannan/poneglyph"
   },
   {
-    "id": "note-database",
-    "name": "Note Database",
-    "author": "pangy",
-    "description": "Local-first database views for Obsidian notes: table, board, gallery, list, chart, calendar, timeline, formulas, filters, and inline editing. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pangy9/obsidian-note-database"
-  },
-  {
     "id": "todoist-bridge",
     "name": "Todoist Bridge",
     "author": "Rodrigo Farinha",
@@ -39725,6 +39718,13 @@
     "repo": "jwczju/html-blocks"
   },
   {
+    "id": "terminus",
+    "name": "Terminus",
+    "author": "notenerd",
+    "description": "A real terminal with shell integration and beginner-friendly command help, plus a review workflow for Claude Code file edits: word-level diffs, undo, backlink-breakage warnings, and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "notenerdofficial/terminus"
+  },
+  {
     "id": "mini-tray",
     "name": "Mini Tray",
     "author": "Damon",
@@ -43883,6 +43883,13 @@
     "repo": "lukewowo/obsidian-gcal"
   },
   {
+    "id": "doc-sanctum",
+    "name": "DocSanctum",
+    "author": "Sangchul Lee",
+    "description": "Search and browse your DocSanctum knowledge base from Obsidian via MCP. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "docsanctum/doc-sanctum-obsidian"
+  },
+  {
     "id": "close-and-switch-to-recent-tab",
     "name": "Close and Switch to Recent Tab",
     "author": "xzhi",
@@ -43902,5 +43909,26 @@
     "author": "Sorin Gherghisan",
     "description": "Scroll one line at a time with Ctrl+Up/Down, just like in VSCode and other code editors. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "soringherghisan/obsidian-scroll-control"
+  },
+  {
+    "id": "molren",
+    "name": "Molren",
+    "author": "Josh",
+    "description": "Render 2D chemical structures from SMILES, molfile, SDF, or reaction in your notes, powered by RDKit.js. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "quiachonj/molren"
+  },
+  {
+    "id": "confidant",
+    "name": "Confidant",
+    "author": "Debayan Bhattacharya",
+    "description": "Reflective summaries of your daily journal at weekly, biweekly, monthly and yearly cadences, using OpenRouter or any local OpenAI-compatible server, with a three-tier memory system. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dawnofthedebayan/Confidant"
+  },
+  {
+    "id": "graph-color-propagation",
+    "name": "Graph Color Propagation",
+    "author": "Tacitustus",
+    "description": "Propagates graph node colors to uncolored nodes based on their connections. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tacitustus/obsidian-graph-color-propagation"
   }
 ]
