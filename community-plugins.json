@@ -36073,7 +36073,7 @@
   {
     "id": "gtd-workflow",
     "name": "GTD Workflow",
-    "author": "tiancaijb",
+    "author": "Tim Cole",
     "description": "Org-mode style GTD workflow for Obsidian: TODO/DONE, priorities, scheduled/deadline dates, agenda view, quick capture. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tiancaijb/obsidian-gtd"
   },
@@ -37389,7 +37389,7 @@
   {
     "id": "sobriety-tracker",
     "name": "Sobriety Tracker",
-    "author": "tiancaijb",
+    "author": "Tim Cole",
     "description": "Urge timer, daily check-in reminder, and streak tracking for sobriety recovery. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tiancaijb/obsidian-sobriety-tracker"
   },
@@ -43221,7 +43221,7 @@
     "id": "asset-track",
     "name": "Asset Track",
     "author": "apocly",
-    "description": "在 Obsidian 中完成本地个人财务记录、计算和实时分析。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A local-first personal finance system that turns monthly bill imports into a unified, private source of truth for assets, spending, reconciliation, analytics, and backups. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "apoclyreol/AssetTrack-Obsidian"
   },
   {
@@ -43477,13 +43477,6 @@
     "repo": "hervepotato/crisp-annotations"
   },
   {
-    "id": "window-spaces",
-    "name": "Window Spaces",
-    "author": "Edward Hsieh",
-    "description": "Save and restore window layouts for Obsidian popout windows. Seamlessly manage multi-window popout workspaces. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "edwardsayer/obsidian-window-spaces"
-  },
-  {
     "id": "anki-cloze-sync",
     "name": "Anki Flashcard Sync",
     "author": "joey",
@@ -43659,6 +43652,13 @@
     "repo": "jsandburg/obsidian-featherlight"
   },
   {
+    "id": "dros-doctrinal-copilot",
+    "name": "DROS Doctrinal Copilot",
+    "author": "Jimmy Chen",
+    "description": "DROS companion plugin for dual-track reasoning and doctrinal card anchoring. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "celestial105/dros-doctrinal-copilot"
+  },
+  {
     "id": "kumihimo",
     "name": "kumihimo",
     "author": "Rox Developers",
@@ -43832,5 +43832,19 @@
     "author": "Kris Kelley",
     "description": "Run interactive quizzes inside your notes using the QuizPort JSON format, with explanations, hints, and scoring. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kelleyblackmore/obsidian-quizport"
+  },
+  {
+    "id": "omni-drawio-viewer",
+    "name": "Omni Drawio Viewer",
+    "author": "pavel",
+    "description": "Offline, multi-page Drawio diagram viewing for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pavelpeng7/omni-drawio-viewer"
+  },
+  {
+    "id": "ai-assist",
+    "name": "AI Assist",
+    "author": "mrrepac",
+    "description": "Chat with a language model in the sidebar and rewrite selected text in place: fix spelling, tidy up spacing, clean up transcripts, or run your own prompts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mrrepac/ai-assist"
   }
 ]
