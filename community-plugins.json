@@ -21651,13 +21651,6 @@
     "repo": "lucasmantuan/task-states"
   },
   {
-    "id": "note-maker-ai",
-    "name": "NoteMakerAI",
-    "author": "ricparks",
-    "description": "Create structured notes from photos using AI. Analyze subjects and extract metadata automatically. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ricparks/note-maker-ai"
-  },
-  {
     "id": "read-only-view",
     "name": "Read Only View",
     "author": "mrkazzila",
@@ -40245,7 +40238,7 @@
   {
     "id": "visual-notes",
     "name": "Visual Notes",
-    "author": "Daniel Anderson",
+    "author": "danderson",
     "description": "A visual workspace built on Obsidian's Canvas format: nestable freeform boards, icon tile grids, kanban boards, sticky notes, checklists, columns, drawing with pen, labels, reactions, and more.. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "danderson1988/visual-notes"
   },
@@ -42521,7 +42514,7 @@
     "id": "feuillets",
     "name": "Feuillets",
     "author": "HalYal",
-    "description": "Feuillets turns Obsidian into a complete writing environment for novels, essays, and long projects: structure your manuscript, manage research, track progress, and export natively - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A complete manuscript writing studio for Obsidian, built for novels, essays, and long-form projects. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sargon01/Feuillets"
   },
   {
@@ -42946,7 +42939,7 @@
   },
   {
     "id": "remarkable-tagged-sync",
-    "name": "reMarkable Tagged Sync",
+    "name": "Tagged Sync for reMarkable",
     "author": "Thomas Hochbichler",
     "description": "Sync tagged reMarkable notebooks as searchable Markdown notes, routed to folders by tag. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "thomas-hochbichler/obsidian-remarkable-tagged-sync"
@@ -43806,6 +43799,13 @@
     "repo": "oxilldat/oxill-forms"
   },
   {
+    "id": "envelopes",
+    "name": "Envelopes",
+    "author": "Sebastien Delisle",
+    "description": "Personal finance and envelope budgeting in your vault. Import bank CSVs, log expenses and bills by category, and track cash, income, and where your money goes each month. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lumargh/obsidian-budgets"
+  },
+  {
     "id": "sketch-matter",
     "name": "SketchMatter",
     "author": "Tyler Carrol",
@@ -44126,5 +44126,40 @@
     "author": "Sirwan Afifi",
     "description": "Apply right-to-left direction to Markdown content while leaving Properties and interface elements unchanged. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sirwanafifi/content-rtl"
+  },
+  {
+    "id": "todoist-plug",
+    "name": "Todoist-Plug",
+    "author": "Alberto",
+    "description": "A robust integration with Todoist for managing your tasks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "albibenni/Todoist-Plug"
+  },
+  {
+    "id": "mermaid-flow-zoom",
+    "name": "Mermaid Flow Zoom",
+    "author": "change wang",
+    "description": "Zoom, pan, resize, and fullscreen rendered Mermaid diagrams. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "change-wyc/mermaid-flow-zoom"
+  },
+  {
+    "id": "azure-devops-workitems",
+    "name": "Azure DevOps Work Items",
+    "author": "Florian van Dillen",
+    "description": "Reference Azure DevOps work items inline. Type a trigger, search, and drop a rich work item chip into your note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fvandillen/obsidian-azure-devops-workitems"
+  },
+  {
+    "id": "code-viewer",
+    "name": "Code Viewer",
+    "author": "Kevin",
+    "description": "View and edit code files with native syntax highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tracingorigins/obsidian-code-viewer-plugin"
+  },
+  {
+    "id": "yuhanbo-search",
+    "name": "Yuhanbo Search",
+    "author": "yuhanbo",
+    "description": "Search your vault with customizable weights and insert matching text, headings, or block links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuhanbo758/obsidian-yuhanbo-search"
   }
 ]
