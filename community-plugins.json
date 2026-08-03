@@ -2,7 +2,7 @@
   {
     "id": "table-editor-obsidian",
     "name": "Advanced Tables",
-    "author": "tgrosinger",
+    "author": "Tony Grosinger",
     "description": "Improved table navigation, formatting, and manipulation.",
     "repo": "tgrosinger/advanced-tables-obsidian"
   },
@@ -303,7 +303,7 @@
   {
     "id": "leader-hotkeys-obsidian",
     "name": "Leader Hotkeys",
-    "author": "tgrosinger",
+    "author": "Tony Grosinger",
     "description": "Add leader hotkey support to any command (like tmux or vim).",
     "repo": "tgrosinger/leader-hotkeys-obsidian"
   },
@@ -450,7 +450,7 @@
   {
     "id": "recent-files-obsidian",
     "name": "Recent Files",
-    "author": "tgrosinger",
+    "author": "Tony Grosinger",
     "description": "Display a list of recently opened files.",
     "repo": "tgrosinger/recent-files-obsidian"
   },
@@ -4370,7 +4370,7 @@
   {
     "id": "crumbs-obsidian",
     "name": "Crumbs",
-    "author": "tgrosinger",
+    "author": "Tony Grosinger",
     "description": "Breadcrumb navigation.",
     "repo": "tgrosinger/crumbs-obsidian"
   },
@@ -21574,6 +21574,13 @@
     "repo": "guoang/obsidian-vim-keynav"
   },
   {
+    "id": "advanced-audio-recorder",
+    "name": "Advanced Audio Recorder",
+    "author": "akhmialeuski",
+    "description": "Advanced audio recording with input device and folder configuration. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "akhmialeuski/advanced-audio-recorder"
+  },
+  {
     "id": "banner-images",
     "name": "Banner Images",
     "author": "saltyfireball",
@@ -34638,7 +34645,7 @@
   {
     "id": "pinball-db",
     "name": "Pinball DB",
-    "author": "tgrosinger",
+    "author": "Tony Grosinger",
     "description": "Track and organize a database of pinball machines inside your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tgrosinger/pinball-db-obsidian"
   },
@@ -36053,7 +36060,7 @@
     "id": "simple-wordbook",
     "name": "Simple Wordbook",
     "author": "Bryn",
-    "description": "Highlight words from custom JSON wordbooks across notes and PDFs. Sidebar tracks learning progress with mastery/ignore toggles. Supports local fuzzy search and AI-powered definitions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Highlight words/phrases in notes & PDFs, with learning tracker. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bin-t/obsidian-simple-wordbook"
   },
   {
@@ -43904,13 +43911,6 @@
     "repo": "lukewowo/obsidian-gcal"
   },
   {
-    "id": "doc-sanctum",
-    "name": "DocSanctum",
-    "author": "Sangchul Lee",
-    "description": "Search and browse your DocSanctum knowledge base from Obsidian via MCP. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "docsanctum/doc-sanctum-obsidian"
-  },
-  {
     "id": "close-and-switch-to-recent-tab",
     "name": "Close and Switch to Recent Tab",
     "author": "xzhi",
@@ -44051,6 +44051,13 @@
     "repo": "pleiadesm/Tufte-Sidenote"
   },
   {
+    "id": "flow-writer",
+    "name": "Flow Writer",
+    "author": "David Cohen-Tanugi",
+    "description": "A distraction-free writing mode that promotes flow and focus. Everything already written dims away, only the word you are typing stays lit, and finished words cannot be edited. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dctanugi/obsidian-flow-writer"
+  },
+  {
     "id": "meta-quest-sync",
     "name": "Meta Quest Sync",
     "author": "Elioenai Siqueira Costa",
@@ -44168,5 +44175,19 @@
     "author": "yuhanbo",
     "description": "Use voice recognition, speech synthesis, wake words, and optional AI providers from your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuhanbo758/obsidian-yuhanbo-voice_assistant"
+  },
+  {
+    "id": "store",
+    "name": "Store",
+    "author": "shimeoki",
+    "description": "Manage your notes within a single store. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shimeoki/obsidian-store"
+  },
+  {
+    "id": "obmind",
+    "name": "Branchory",
+    "author": "Yang Lei",
+    "description": "Displays and edits the active Markdown note as an interactive mind map. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "soren-ac/obmind"
   }
 ]
