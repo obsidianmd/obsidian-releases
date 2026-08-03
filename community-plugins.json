@@ -23401,6 +23401,13 @@
     "repo": "fennr/obsidian_leetcode_template"
   },
   {
+    "id": "youtube-transcript-fetcher",
+    "name": "YouTube transcript fetcher",
+    "author": "Leif Jantzen",
+    "description": "Fetch, clean and embed YouTube video transcripts in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ljantzen/obsidian-youtube-transcript"
+  },
+  {
     "id": "attachment-organizer",
     "name": "Attachment Organizer",
     "author": "kiteruunner",
@@ -23651,6 +23658,13 @@
     "author": "Kieran Mansfield",
     "description": "Quickly access bookmarks through a fuzzy search modal. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kieranmansfield/obsidian-quick-bookmarks"
+  },
+  {
+    "id": "claude-sidebar",
+    "name": "Claude Sidebar",
+    "author": "derek-larson14",
+    "description": "Run Claude Code in your sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "derek-larson14/obsidian-claude-sidebar"
   },
   {
     "id": "countdown-timer",
@@ -31283,13 +31297,6 @@
     "repo": "jiaoyingxing/a-plugins"
   },
   {
-    "id": "stargate",
-    "name": "Star Gate",
-    "author": "starhunter",
-    "description": "Clip web pages into Obsidian with a multi-tab browser, AI analysis templates, and content capture. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "starhunt/stargate"
-  },
-  {
     "id": "starcloud-studio",
     "name": "StarCloud Studio",
     "author": "starhunter",
@@ -38745,6 +38752,13 @@
     "repo": "astraaaa02/Obsidian-Torch-Cursor"
   },
   {
+    "id": "omni-viewer",
+    "name": "Omni Viewer",
+    "author": "battlecook",
+    "description": "View audio, image, video, archive, csv, DBC, ARXML, A2L, ASC, BLF, MF4, Avro, ROS bag, PCAP, PCAPNG, STEP, DB3, ReqIF, excel, word, powerpoint, parquet, Shapefile, HDF5, MAT, jsonl, yaml, toml, markdown, mermaid, PlantUML, hwp, PSD and PDF files inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "battlecook/omni-viewer-obsidian"
+  },
+  {
     "id": "schematex",
     "name": "Schematex",
     "author": "Maarten Peels",
@@ -40675,13 +40689,6 @@
     "author": "SVM0N",
     "description": "Compile a tree of wiki-linked notes into a single formatted PDF via Pandoc, with heading-relative nesting and inline or appendix-style page expansion. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "svm0n/obsidian-rollup-to-pdf"
-  },
-  {
-    "id": "workout-block",
-    "name": "Workout Block",
-    "author": "wanguliux",
-    "description": "A flexible workout tracker: customize workout types, log fields, derived stats, muscle heatmaps, and training plans. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "wanguliux/workout-block"
   },
   {
     "id": "lmath",
@@ -43477,13 +43484,6 @@
     "repo": "joeyyu123/obsidian-anki-cloze-sync"
   },
   {
-    "id": "quick-styles",
-    "name": "Quick Styles",
-    "author": "K44rme",
-    "description": "Write and manage your snippets within obsidian vault - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "k44rme/obsidian-quick-styles"
-  },
-  {
     "id": "open-folder-button",
     "name": "Open Folder Button",
     "author": "コウノアルト",
@@ -43904,6 +43904,13 @@
     "repo": "lukewowo/obsidian-gcal"
   },
   {
+    "id": "doc-sanctum",
+    "name": "DocSanctum",
+    "author": "Sangchul Lee",
+    "description": "Search and browse your DocSanctum knowledge base from Obsidian via MCP. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "docsanctum/doc-sanctum-obsidian"
+  },
+  {
     "id": "close-and-switch-to-recent-tab",
     "name": "Close and Switch to Recent Tab",
     "author": "xzhi",
@@ -44142,6 +44149,13 @@
     "repo": "fvandillen/obsidian-azure-devops-workitems"
   },
   {
+    "id": "habit-tracker-dashboard",
+    "name": "Habit Tracker Dashboard",
+    "author": "fardm",
+    "description": "Dashboard-driven Habit Tracker for Obsidian that reads habit frontmatter from your notes and visualizes progress, streaks, and trends. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fardm/Habit-Tracker-Dashboard"
+  },
+  {
     "id": "code-viewer",
     "name": "Code Viewer",
     "author": "Kevin",
@@ -44182,5 +44196,19 @@
     "author": "Yang Lei",
     "description": "Displays and edits the active Markdown note as an interactive mind map. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "soren-ac/obmind"
+  },
+  {
+    "id": "symbat",
+    "name": "Symbat",
+    "author": "iamrecursion",
+    "description": "Integrates the Numbat scientific calculator into your notes, with comprehensive tooling. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "iamrecursion/symbat"
+  },
+  {
+    "id": "date-nullable-time",
+    "name": "Date Nullable Time",
+    "author": "Jakob Lien",
+    "description": "Removes time from datetime properties when the time is 00:00:00. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jakoblien/date-nullable-time"
   }
 ]
