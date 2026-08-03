@@ -19089,13 +19089,6 @@
     "repo": "stefmf/vault-pulse"
   },
   {
-    "id": "mcp-tools-istefox",
-    "name": "MCP Connector",
-    "author": "istefox",
-    "description": "Connect MCP-compatible clients (Claude Desktop, Claude Code, Cline) to your vault with semantic search, templates, file management and gated command execution. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "istefox/obsidian-mcp-connector"
-  },
-  {
     "id": "enhanced-search-replace",
     "name": "Enhanced search and replace",
     "author": "liuhaoxd",
@@ -35070,6 +35063,13 @@
     "repo": "pilafdob/folderandgraphs-plus"
   },
   {
+    "id": "agentage-memory",
+    "name": "Agentage Sync",
+    "author": "Agentage",
+    "description": "Let Claude, ChatGPT, Cursor, and any MCP client read and write your Obsidian vault. Two-way Git sync to a private memory, safe merges with    flagged conflicts, plain Markdown you own, up to 100 MB - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "agentage/obsidian-sync"
+  },
+  {
     "id": "filamental",
     "name": "3D Filamental Graph",
     "author": "CosimoScott",
@@ -43375,7 +43375,7 @@
     "id": "token-usage",
     "name": "Token Usage",
     "author": "Björn-Olaf Lange",
-    "description": "Live token usage tracking for Claude Code — reads local session logs and displays input, output and cache token counts directly in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Real-time Claude Code token tracking inside Obsidian — sidebar with 5 time ranges, Cache Write/Read split, 7-day model chart, HTML dashboard and built-in glossary. No API key needed. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "beolatn/TokenUsage"
   },
   {
@@ -43729,6 +43729,13 @@
     "repo": "sakurastral/obsidian-property-panels"
   },
   {
+    "id": "typelog",
+    "name": "TypeLog",
+    "author": "8&6",
+    "description": "Track typing activity in Obsidian: net vs total input, active editing time, typing speed, calendar heatmap, and daily goals. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "czk200518-hash/Typelog"
+  },
+  {
     "id": "media-transcript",
     "name": "Media Transcript",
     "author": "semsevens",
@@ -43981,6 +43988,13 @@
     "repo": "heidihelena/obsidian-study-familiar"
   },
   {
+    "id": "tufte-backlinks",
+    "name": "Tufte Backlinks",
+    "author": "PleiadesM",
+    "description": "Renders Linked/Unlinked mention snippets as formatted Markdown in the Backlinks pane and the in-document backlinks block. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pleiadesm/Tufte-Backlinks"
+  },
+  {
     "id": "toon-syntax",
     "name": "TOON Syntax Highlight",
     "author": "Sebastián Salas",
@@ -44028,5 +44042,19 @@
     "author": "vuecwiz",
     "description": "Compact the Border theme with aligned tabs and a status-bar menu for Ribbon actions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vuecwiz/obsidian-border-theme-compacted"
+  },
+  {
+    "id": "yuhanbo-task",
+    "name": "Yuhanbo Task",
+    "author": "yuhanbo",
+    "description": "一个简单易用的任务管理插件，支持任务创建、编辑、删除和状态管理，帮助您高效管理待办事项。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuhanbo758/obsidian-yuhanbo-task"
+  },
+  {
+    "id": "timeline-bases",
+    "name": "Timeline for Bases",
+    "author": "Harry Brown",
+    "description": "Plots dated notes from a Base as dots and ranges along a zoomable, pannable time axis. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "purplelawnchairs/Timeline-View"
   }
 ]
