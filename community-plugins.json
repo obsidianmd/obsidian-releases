@@ -8337,6 +8337,13 @@
     "repo": "christianwannerstedt/obsidian-key-value-list"
   },
   {
+    "id": "attachment-uploader",
+    "name": "Attachment Uploader",
+    "author": "zhuxining",
+    "description": "Upload attachments to PicSee or uPic, with customization for commands and file type.",
+    "repo": "zhuxining/obsidian-attachment-uploader"
+  },
+  {
     "id": "formatto-format",
     "name": "Formatto",
     "author": "evasquare",
@@ -30901,7 +30908,7 @@
     "id": "regex-css-highlighter",
     "name": "SwiftGlossa",
     "author": "swiSwift",
-    "description": "Highlight text with regex + custom CSS. Add interlinear notes, remarks with backlinks, AI relation graphs, AskMe, & floating notes (in-app or standalone). - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Highlight keywords with regex + custom CSS. Matching highlights auto-built from vault — add interlinear notes, counts, remarks & info. Click keywords to search. Floating notes (in-app/standalone). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dlsdgj/obsidian-regex-css-highlighter"
   },
   {
@@ -36736,6 +36743,13 @@
     "repo": "zhaohongxuan/journal-partner"
   },
   {
+    "id": "pivi",
+    "name": "Pivi",
+    "author": "shuuul",
+    "description": "Bring AI agents into your vault with fine-grained context controls. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shuuul/obsidian-pivi"
+  },
+  {
     "id": "read-it-never",
     "name": "Read It Never",
     "author": "Jakob He",
@@ -40670,6 +40684,13 @@
     "repo": "wanguliux/workout-block"
   },
   {
+    "id": "lmath",
+    "name": "LMath",
+    "author": "Lenin",
+    "description": "Graph functions, systems, derivatives and integrals in interactive blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lubriedev/lmath"
+  },
+  {
     "id": "manushelf",
     "name": "Manushelf",
     "author": "ivan94",
@@ -40724,13 +40745,6 @@
     "author": "amato21",
     "description": "Type a trigger character to mention anything: links to an existing note, or to a lightweight heading inside a shared stub file if no real note exists yet. Promote a mention to a full note whenever it deserves one. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "amato21/Lightweight-Mentions"
-  },
-  {
-    "id": "agenter",
-    "name": "Agenter",
-    "author": "alinourizadeh",
-    "description": "Chat with AI providers in Obsidian using vault-scoped tools for notes, web search, selected text, custom prompts, and approval-based edits. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ali-nourix/Agenter"
   },
   {
     "id": "task-companion",
@@ -41142,7 +41156,7 @@
     "id": "todo-calendar",
     "name": "Todo Calendar",
     "author": "qingyu",
-    "description": "Visual calendar for your to-do-calendar.md. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Visual calendar for your to-do-calendar.md (or any markdown file keeping your to-do tasks). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "itzqingyu/todo-calendar"
   },
   {
@@ -42903,13 +42917,6 @@
     "repo": "deltaplanoo/git-ribbon-sync"
   },
   {
-    "id": "mybrain",
-    "name": "myBrain",
-    "author": "Carl Bechstrom",
-    "description": "A high-performance semantic network graph displaying notes in structured Parents, Children, Friends, and Siblings quadrants. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "carlb01/myBrain"
-  },
-  {
     "id": "reading-progress-bookmarks",
     "name": "Reading Progress and Bookmarks",
     "author": "Maxy Park",
@@ -43428,18 +43435,18 @@
     "repo": "kosperun/obsidian-layout-switcher-uk-en"
   },
   {
-    "id": "anki-card-link",
-    "name": "Anki Card Link",
-    "author": "王若冰",
-    "description": "Open Anki searches from Obsidian using note IDs, card IDs, text, or custom queries across desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "wangruobing-dev/obsidian-anki-card-link"
-  },
-  {
     "id": "gate-simulator",
     "name": "GATE Simulator",
     "author": "Anand Baghel",
     "description": "Generates custom mock tests (Core, General Aptitude, Subject-wise, Random) from GATE past year question papers with interactive answer inputs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "anandrajbaghel/gate-simulator"
+  },
+  {
+    "id": "bitfield",
+    "name": "Bitfield",
+    "author": "aipyer",
+    "description": "Render bitfield definitions as interactive SVG diagrams and tables. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aipyer/bitfield"
   },
   {
     "id": "crisp-annotations",
@@ -43907,7 +43914,7 @@
     "id": "molren",
     "name": "Molren",
     "author": "Josh",
-    "description": "Render 2D chemical structures from SMILES, molfile, SDF, or reaction in your notes, powered by RDKit.js. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Render 2D chemical structures from SMILES, molfile, SDF, or reaction(rxn) in your notes, powered by RDKit.js. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "quiachonj/molren"
   },
   {
@@ -44000,5 +44007,26 @@
     "author": "PleiadesM",
     "description": "Renders Tufte sidenotes and marginnotes in Reading view while keeping the editor single-column. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pleiadesm/Tufte-Sidenote"
+  },
+  {
+    "id": "meta-quest-sync",
+    "name": "Meta Quest Sync",
+    "author": "Elioenai Siqueira Costa",
+    "description": "Starts and pairs the WebXR viewer to explore the vault in augmented reality. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nelscost/meta-quest-sync"
+  },
+  {
+    "id": "tekken-code-image",
+    "name": "Tekken Code Image",
+    "author": "omowne",
+    "description": "Convert Tekken fighting game notation DSL into SVG images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "osatetsu/tekken-code-image"
+  },
+  {
+    "id": "border-theme-compacted",
+    "name": "Border Theme Compacted",
+    "author": "vuecwiz",
+    "description": "Compact the Border theme with aligned tabs and a status-bar menu for Ribbon actions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vuecwiz/obsidian-border-theme-compacted"
   }
 ]
