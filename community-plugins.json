@@ -15099,6 +15099,13 @@
     "repo": "lecheenax/WordFlow-Tracker"
   },
   {
+    "id": "smart-chatgpt",
+    "name": "Smart Chat",
+    "author": "🌴 Brian",
+    "description": "Integrate OpenAI's ChatGPT seamlessly in notes. Automatically saves links, allows marking threads as done, and integrates with Dataview.",
+    "repo": "brianpetro/smart-chatgpt-obsidian"
+  },
+  {
     "id": "time-bullet",
     "name": "Time Bullet",
     "author": "pedrogdn",
@@ -18529,6 +18536,13 @@
     "repo": "stefan-imbesi/obsidian-at-link"
   },
   {
+    "id": "math-convert",
+    "name": "Math Convert - Local Image-to-LaTeX",
+    "author": "giacolees",
+    "description": "Convert image regions to LaTeX formulas with local, offline AI inference. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "giacolees/obsidian-math-convert"
+  },
+  {
     "id": "page-width-toggle",
     "name": "Page Width Toggle",
     "author": "heono3h",
@@ -19948,6 +19962,13 @@
     "author": "Maclean (Silk Ribbon)",
     "description": "Sync Pocket AI conversations and daily highlights into Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "maclean-d/obsidian-pocket"
+  },
+  {
+    "id": "speakpen-sync",
+    "name": "SpeakPen Sync",
+    "author": "xnjiang",
+    "description": "Sync your SpeakPen voice summaries into your vault as Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xnjiang/speakpen-obsidian"
   },
   {
     "id": "cursor-history",
@@ -21553,13 +21574,6 @@
     "repo": "guoang/obsidian-vim-keynav"
   },
   {
-    "id": "advanced-audio-recorder",
-    "name": "Advanced Audio Recorder",
-    "author": "akhmialeuski",
-    "description": "Advanced audio recording with input device and folder configuration. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "akhmialeuski/advanced-audio-recorder"
-  },
-  {
     "id": "banner-images",
     "name": "Banner Images",
     "author": "saltyfireball",
@@ -22624,13 +22638,6 @@
     "repo": "masoniis/obsidian-syncable-dictionary"
   },
   {
-    "id": "audio-recording-timer",
-    "name": "Audio Recording Timer",
-    "author": "Musashino Software",
-    "description": "Start audio recording with a countdown or end time. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mssoftjp/obsidian-audio-recording-timer"
-  },
-  {
     "id": "speech-bubbles",
     "name": "Speech Bubbles",
     "author": "forketyfork",
@@ -23387,13 +23394,6 @@
     "repo": "fennr/obsidian_leetcode_template"
   },
   {
-    "id": "youtube-transcript-fetcher",
-    "name": "YouTube transcript fetcher",
-    "author": "Leif Jantzen",
-    "description": "Fetch, clean and embed YouTube video transcripts in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ljantzen/obsidian-youtube-transcript"
-  },
-  {
     "id": "attachment-organizer",
     "name": "Attachment Organizer",
     "author": "kiteruunner",
@@ -23644,13 +23644,6 @@
     "author": "Kieran Mansfield",
     "description": "Quickly access bookmarks through a fuzzy search modal. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kieranmansfield/obsidian-quick-bookmarks"
-  },
-  {
-    "id": "claude-sidebar",
-    "name": "Claude Sidebar",
-    "author": "derek-larson14",
-    "description": "Run Claude Code in your sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "derek-larson14/obsidian-claude-sidebar"
   },
   {
     "id": "countdown-timer",
@@ -40824,13 +40817,6 @@
     "repo": "hyeucong/obsidian-my-spaces"
   },
   {
-    "id": "trans-hub-plugin-localizer",
-    "name": "Trans-Hub Localizer",
-    "author": "Saken",
-    "description": "Automatically translate and localize Obsidian community plugin names, descriptions, and interfaces into your preferred language with Trans-Hub. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sakenw/trans-hub-obsidian-localizer"
-  },
-  {
     "id": "icloud-notes",
     "name": "Apple Notes Sync",
     "author": "Adam Coddington",
@@ -43484,6 +43470,13 @@
     "repo": "joeyyu123/obsidian-anki-cloze-sync"
   },
   {
+    "id": "quick-styles",
+    "name": "Quick Styles",
+    "author": "K44rme",
+    "description": "Write and manage your snippets within obsidian vault - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "k44rme/obsidian-quick-styles"
+  },
+  {
     "id": "open-folder-button",
     "name": "Open Folder Button",
     "author": "コウノアルト",
@@ -44156,10 +44149,24 @@
     "repo": "tracingorigins/obsidian-code-viewer-plugin"
   },
   {
+    "id": "browser-history-sync",
+    "name": "Browser Sync",
+    "author": "Aki Hakune",
+    "description": "Import local browser history into organized Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "git-akihakune/obsidian-browser-history-sync"
+  },
+  {
     "id": "yuhanbo-search",
     "name": "Yuhanbo Search",
     "author": "yuhanbo",
     "description": "Search your vault with customizable weights and insert matching text, headings, or block links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuhanbo758/obsidian-yuhanbo-search"
+  },
+  {
+    "id": "yuhanbo-voice-assistant",
+    "name": "Yuhanbo Voice Assistant",
+    "author": "yuhanbo",
+    "description": "Use voice recognition, speech synthesis, wake words, and optional AI providers from your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuhanbo758/obsidian-yuhanbo-voice_assistant"
   }
 ]
