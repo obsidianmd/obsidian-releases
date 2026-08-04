@@ -27538,13 +27538,6 @@
     "repo": "dsebastien/obsidian-remarkable-sync"
   },
   {
-    "id": "excerpt-outline-mindmap-editor",
-    "name": "Excerpt-Outline-Mindmap-Editor",
-    "author": "kpaede",
-    "description": "A visual drag-n-drop mindmap editor (with markdown outline under the hood). - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kpaede/Excerpt-Outline-Mindmap-Editor"
-  },
-  {
     "id": "bookshelf-base",
     "name": "Bookshelf Base",
     "author": "Sébastien Dubois",
@@ -35509,6 +35502,13 @@
     "author": "Meirakami",
     "description": "One-click project time tracking from the macOS menu bar. Stop the timer, tag the project, and a markdown session note lands in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "powderfirm-ship-it/obsidian-menubar-time-tracker"
+  },
+  {
+    "id": "unread-plus",
+    "name": "Unread+",
+    "author": "Lucy",
+    "description": "Marks new files with a dot. Propagates unread counts up the folder tree. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kashicards/unread-plus"
   },
   {
     "id": "real-pin",
@@ -44206,7 +44206,7 @@
   },
   {
     "id": "obmind",
-    "name": "Branchory",
+    "name": "MindBraid",
     "author": "soren-ac",
     "description": "Turn Markdown notes into interactive, editable mind maps (思维导图) with layouts, themes, search, import, and export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "soren-ac/obmind"
@@ -44378,5 +44378,12 @@
     "author": "Manuel Stagars",
     "description": "Shows complete filenames, including extensions, in the native File Explorer. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "stagars-m/full-file-extensions"
+  },
+  {
+    "id": "folder-info",
+    "name": "Folder Info",
+    "author": "Manuel Stagars",
+    "description": "Shows separate file and folder counts beside folders in the native File Explorer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stagars-m/folder-info"
   }
 ]
