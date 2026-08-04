@@ -19096,6 +19096,13 @@
     "repo": "stefmf/vault-pulse"
   },
   {
+    "id": "mcp-tools-istefox",
+    "name": "MCP Connector",
+    "author": "istefox",
+    "description": "Connect MCP-compatible clients (Claude Desktop, Claude Code, Cline) to your vault with semantic search, templates, file management and gated command execution. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "istefox/obsidian-mcp-connector"
+  },
+  {
     "id": "enhanced-search-replace",
     "name": "Enhanced search and replace",
     "author": "liuhaoxd",
@@ -21073,7 +21080,7 @@
     "id": "wechat-converter",
     "name": "Wechat Converter",
     "author": "davidlam-oss",
-    "description": "将 Markdown 转换为微信公众号排版，并支持一键发送到微信公众号、飞书、小红书、知乎、微博、CSDN等20+平台。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "将 Markdown 转换为微信公众号排版，并支持一键发送到微信公众号（支持自定义 CSS和公众号贴图）、飞书、小红书、知乎、微博、CSDN等20+平台。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "davidlam-oss/obsidian-wechat-converter"
   },
   {
@@ -23224,6 +23231,13 @@
     "author": "nnoodle",
     "description": "Ensure files end with a newline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nnoodle/obsidian-require-final-newline"
+  },
+  {
+    "id": "vale-linter",
+    "name": "Vale Linter",
+    "author": "chrischinchilla",
+    "description": "Integrates Vale prose linter, showing style and grammar issues inline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chrischinchilla/obsidian-vale"
   },
   {
     "id": "media-atlas",
@@ -35497,13 +35511,6 @@
     "repo": "powderfirm-ship-it/obsidian-menubar-time-tracker"
   },
   {
-    "id": "unread-plus",
-    "name": "Unread+",
-    "author": "Lucy",
-    "description": "Marks new files with a dot. Propagates unread counts up the folder tree. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kashicards/unread-plus"
-  },
-  {
     "id": "real-pin",
     "name": "Real Pin",
     "author": "Greg Brown",
@@ -44200,7 +44207,7 @@
   {
     "id": "obmind",
     "name": "Branchory",
-    "author": "Yang Lei",
+    "author": "soren-ac",
     "description": "Turn Markdown notes into interactive, editable mind maps (思维导图) with layouts, themes, search, import, and export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "soren-ac/obmind"
   },
@@ -44275,6 +44282,13 @@
     "repo": "lan-zk/obsidian-reader-margins"
   },
   {
+    "id": "clew",
+    "name": "Clew",
+    "author": "Christian Luger",
+    "description": "See your whole vault as a graph and find how any two notes connect, without every path routing through your index notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "christian-luger-at/obsidian-clew"
+  },
+  {
     "id": "jemz-vault-assistant",
     "name": "Jemz Vault Assistant",
     "author": "Jamal",
@@ -44345,10 +44359,24 @@
     "repo": "obsidian-power-plugins/obsidian-power-connect"
   },
   {
+    "id": "powerassistant",
+    "name": "Power Assistant",
+    "author": "Power Plugins",
+    "description": "Record and summarize meetings, import your calendar, track people and commitments, ask your notes anything, and export polished recaps. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "obsidian-power-plugins/obsidian-power-assistant"
+  },
+  {
     "id": "album-gallery",
     "name": "Album Gallery",
     "author": "Emir Aksu",
-    "description": "Create Apple Photos-inspired galleries with managed photos, animated GIFs, and videos. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create Photos-inspired galleries with managed photos, animated GIFs, and videos. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ezakamak/obsidian-album-gallery"
+  },
+  {
+    "id": "full-file-extensions",
+    "name": "Full File Extensions",
+    "author": "Manuel Stagars",
+    "description": "Shows complete filenames, including extensions, in the native File Explorer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stagars-m/full-file-extensions"
   }
 ]
