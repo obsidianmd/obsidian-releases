@@ -20576,7 +20576,7 @@
     "id": "voxtral-transcribe",
     "name": "Voxtral Transcribe",
     "author": "Max",
-    "description": "Talk, type and structure in one flow: high-quality dictation with auto-correction, on desktop and mobile. Voice commands for headings, lists and to-dos in 13 languages. File transcription included. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Talk, type and structure in one flow: high-quality dictation, works on desktop and mobile. Voice commands for headings, lists, to-dos and more in 13 languages. File transcription included. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "maxonamission/obsidian-voxtral"
   },
   {
@@ -24526,6 +24526,13 @@
     "author": "uthvah",
     "description": "Turn static embeds into live synced blocks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "uthvah/sync-embeds"
+  },
+  {
+    "id": "prisma-calendar",
+    "name": "Prisma Calendar",
+    "author": "Matej Vavro Productivity",
+    "description": "Prisma turns any note with a date into a flexible planning system inside Obsidian. There are no rigid schemas or predefined structures — just your data, your rules, fully under your control. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "real1tyy/Prisma-Calendar"
   },
   {
     "id": "style-tags-in-search-results",
@@ -33663,13 +33670,6 @@
     "repo": "viggomeesters/obsidian-folder-sort-view"
   },
   {
-    "id": "stashpad",
-    "name": "Stashpad",
-    "author": "Grub Basket",
-    "description": "A chat-style, nested-notes workspace: rapid capture, outliner navigation, fast search, tasks, and per-folder templates, with one-click Open Knowledge Format (OKF) export for LLMs and agents. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "grub-basket/SP"
-  },
-  {
     "id": "html-experience",
     "name": "HTML Experience",
     "author": "yabs",
@@ -40775,13 +40775,6 @@
     "repo": "grmartin/obsidian-toc-block-plugin"
   },
   {
-    "id": "word-smith",
-    "name": "Word-Smith",
-    "author": "sadsnake1",
-    "description": "The Ultimate Distraction-free Writing Suite - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sadsnake1/word-smith"
-  },
-  {
     "id": "vault-tasks",
     "name": "Taskline",
     "author": "Savar Gupta",
@@ -42530,6 +42523,13 @@
     "author": "rx4747",
     "description": "Create, visualize, validate, and export local STIX 2.1 intelligence from Obsidian notes, Canvas files, folders, or JSON Bundles. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rx4747/cti-stix-workbench"
+  },
+  {
+    "id": "silica-bridge",
+    "name": "Silica Bridge",
+    "author": "Kiycoh",
+    "description": "Chat with the Silica knowledge-graph agent and let it read and edit your vault, over a local (loopback-only) WebSocket bridge. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kiycoh/obsidian-silica"
   },
   {
     "id": "faster-stacked-tabs",
@@ -44450,17 +44450,31 @@
     "repo": "poopchen/obsidian-recallflow-ai"
   },
   {
-    "id": "code-fence-completer",
-    "name": "Code Fence Completer",
-    "author": "SWHL",
-    "description": "Suggests language identifiers and completes Markdown code fences reliably. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "swhl/obsidian-code-fence-completer"
-  },
-  {
     "id": "bold-folder-name",
     "name": "Bold Folder Name",
     "author": "Stagars",
     "description": "Makes native File Explorer folder names bold, with an option to limit styling to top-level folders. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "stagars-m/bold-folder-name"
+  },
+  {
+    "id": "kakao-book-search",
+    "name": "Kakao Book Search",
+    "author": "Yang Haeseung",
+    "description": "카카오 책 검색 API로 책을 검색하고, 표지/저자/역자/출판사 정보를 담은 노트를 자동으로 생성합니다. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chachagogogo/obsidian-kakao-book-search"
+  },
+  {
+    "id": "todoist-pomodoro-heatmap",
+    "name": "Todoist Pomodoro Heatmap",
+    "author": "mimo",
+    "description": "Track Todoist tasks with a Pomodoro timer and a pretty contribution heatmap. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "keptan/obsidian-todoist-pomodoro"
+  },
+  {
+    "id": "recto",
+    "name": "Recto",
+    "author": "Jensen Zheng",
+    "description": "Convert Zotero PDF papers into Markdown, generate AI summaries and Chinese translations, and build a searchable local paper library with bilingual reading. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jensen-zheng-cmd/Recto-plugin"
   }
 ]
