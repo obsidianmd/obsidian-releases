@@ -36939,13 +36939,6 @@
     "repo": "gapmiss/cm-code-editor"
   },
   {
-    "id": "mdx-preview",
-    "name": "MDX Preview",
-    "author": "jovialio",
-    "description": "Preview MDX in Obsidian, with support for Code Hike. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jovialio/obsidian-mdx"
-  },
-  {
     "id": "glossary-linker",
     "name": "Glossary Linker",
     "author": "max-fluff",
@@ -39128,13 +39121,6 @@
     "author": "onlymykazari",
     "description": "Markdown-backed kanban boards with two-way Nextcloud Deck sync. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "onlymykazari/obsidian-nextcloud-deck"
-  },
-  {
-    "id": "spark-memo",
-    "name": "Spark Memo",
-    "author": "Joe Hou",
-    "description": "Highlight timestamps in your Journal section, capture quick notes, images, and audio from a sidebar, dictate with real-time speech-to-text, and review your year with a heatmap. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "houjoe0829/sparkmemo"
   },
   {
     "id": "airtable-tabula",
@@ -44387,6 +44373,13 @@
     "repo": "storm-131/flashcard-genius-obsidian"
   },
   {
+    "id": "journal-view",
+    "name": "Journal View",
+    "author": "RUverse",
+    "description": "Turn your daily notes into one continuous, editable journal—scroll through time, jump to any date, and write without leaving the view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ruverse/journal-view"
+  },
+  {
     "id": "editor-ai-daemons",
     "name": "AI Editors",
     "author": "Sébastien Dubois",
@@ -44441,6 +44434,13 @@
     "author": "vkostyanetsky",
     "description": "Keep frontmatter properties in a custom order. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vkostyanetsky/ObsidianPropertyOrganizer"
+  },
+  {
+    "id": "canvas-draw",
+    "name": "CanvasDraw",
+    "author": "Raushan Kumar",
+    "description": "Seamless inline Excalidraw integration with full drawing tools, library management, and custom canvas controls. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "raushan-kumar-yadav/obsidianDraw"
   },
   {
     "id": "basify",
@@ -44511,5 +44511,19 @@
     "author": "Sha'ira",
     "description": "Gamifies writing with level progression (1-300), crop/monster farming, daily streaks, writing statistics, and energy/cycle tracking. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "poet-coded/Gamified-Writing-Suite"
+  },
+  {
+    "id": "onyx-boox-sync",
+    "name": "Booxidian",
+    "author": "Detlef Beyer",
+    "description": "Watches a folder for Onyx Boox annotation exports and imports highlights and notes into your vault. Desktop only. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "webline/onyx-boox-sync"
+  },
+  {
+    "id": "property-from-backlink",
+    "name": "Property from backlink",
+    "author": "Giacomo D’angelo",
+    "description": "Add a frontmatter property to all notes linking to the current note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jackydangelo/obsidian-property-from-backlink"
   }
 ]
