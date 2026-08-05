@@ -21126,13 +21126,6 @@
     "repo": "ariayd/obsidian-image-markdown-link"
   },
   {
-    "id": "encrypted-folders",
-    "name": "Encrypted Folders",
-    "author": "eng618",
-    "description": "Encrypt and decrypt entire folders within your vault with AES-256-GCM. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "eng618/obsidian-encrypted-folders"
-  },
-  {
     "id": "claude-vault-assistant",
     "name": "Claude Vault Assistant",
     "author": "copperbox",
@@ -36939,6 +36932,13 @@
     "repo": "gapmiss/cm-code-editor"
   },
   {
+    "id": "mdx-preview",
+    "name": "MDX Preview",
+    "author": "jovialio",
+    "description": "Preview MDX in Obsidian, with support for Code Hike. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jovialio/obsidian-mdx"
+  },
+  {
     "id": "glossary-linker",
     "name": "Glossary Linker",
     "author": "max-fluff",
@@ -39123,6 +39123,13 @@
     "repo": "onlymykazari/obsidian-nextcloud-deck"
   },
   {
+    "id": "spark-memo",
+    "name": "Spark Memo",
+    "author": "Joe Hou",
+    "description": "Highlight timestamps in your Journal section, capture quick notes, images, and audio from a sidebar, dictate with real-time speech-to-text, and review your year with a heatmap. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "houjoe0829/sparkmemo"
+  },
+  {
     "id": "airtable-tabula",
     "name": "Airtable Tabula",
     "author": "MehulG",
@@ -40668,6 +40675,13 @@
     "author": "SVM0N",
     "description": "Compile a tree of wiki-linked notes into a single formatted PDF via Pandoc, with heading-relative nesting and inline or appendix-style page expansion. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "svm0n/obsidian-rollup-to-pdf"
+  },
+  {
+    "id": "workout-block",
+    "name": "Workout Block",
+    "author": "wanguliux",
+    "description": "A flexible workout tracker: customize workout types, log fields, derived stats, muscle heatmaps, and training plans. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wanguliux/workout-block"
   },
   {
     "id": "lmath",
@@ -44149,6 +44163,13 @@
     "repo": "fardm/Habit-Tracker-Dashboard"
   },
   {
+    "id": "expandable-folder-bookmarks",
+    "name": "Bookmark Folder Expand",
+    "author": "Samuel-YSZ",
+    "description": "Expand bookmarked folders directly inside the Bookmarks pane. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "samuel-ysz/expandable-folder-bookmarks"
+  },
+  {
     "id": "code-viewer",
     "name": "Code Viewer",
     "author": "Kevin",
@@ -44525,5 +44546,12 @@
     "author": "Giacomo D’angelo",
     "description": "Add a frontmatter property to all notes linking to the current note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jackydangelo/obsidian-property-from-backlink"
+  },
+  {
+    "id": "chinese-plugin-market",
+    "name": "Chinese Market",
+    "author": "羽鳞君",
+    "description": "面向中文用户的 Obsidian 社区插件搜索工具：输入关键词即可检索并展示翻译后的插件卡片，支持 AI 语义 / 名称 / 作者搜索。默认不加载列表，搜索时才出结果。 / A Chinese-region Obsidian community plugin search tool: type a keyword to find and browse translated plugin cards, with AI semantic / name / author search. List loads on demand. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "miaoziguan/obsidian-chinese-plugin-market"
   }
 ]
