@@ -18599,6 +18599,13 @@
     "repo": "diegoeis/ghost-writer-manager-plugin"
   },
   {
+    "id": "simplicial-complex",
+    "name": "Simplicial Complex",
+    "author": "zorvan",
+    "description": "Knowledge discovery through simplicial complex view for vaults. Higher-order relationships, topological analysis, and emergent structure detection. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zorvan/simplicial-complex"
+  },
+  {
     "id": "smart-import",
     "name": "Smart Import",
     "author": "0126-hash",
@@ -19822,13 +19829,6 @@
     "author": "Ahmed Farhat",
     "description": "Build your core identity. Track habits visually in daily notes with adaptive sidebar grids, atomic markdown storage, and rich statistics. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ahmed-farhat99/core-habits"
-  },
-  {
-    "id": "garmin-health-sync",
-    "name": "Garmin Health Sync",
-    "author": "fcandi",
-    "description": "Sync Garmin Connect health data into your Daily Notes as frontmatter properties. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "fcandi/Garmin-Health-Sync"
   },
   {
     "id": "show-hidden-files",
@@ -41503,6 +41503,13 @@
     "repo": "theadamdanielsson/grill"
   },
   {
+    "id": "chartdown",
+    "name": "Chartdown",
+    "author": "Nossimonov",
+    "description": "Render Chartdown map blocks (battlemaps, hex charts, region maps) as SVG, right in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nossimonov/obsidian-chartdown"
+  },
+  {
     "id": "auto-tag-graph-colors",
     "name": "Auto Tag Graph Colors",
     "author": "Tristan Cassius",
@@ -42502,13 +42509,6 @@
     "author": "rx4747",
     "description": "Create, visualize, validate, and export local STIX 2.1 intelligence from Obsidian notes, Canvas files, folders, or JSON Bundles. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rx4747/cti-stix-workbench"
-  },
-  {
-    "id": "silica-bridge",
-    "name": "Silica Bridge",
-    "author": "Kiycoh",
-    "description": "Chat with the Silica knowledge-graph agent and let it read and edit your vault, over a local (loopback-only) WebSocket bridge. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kiycoh/obsidian-silica"
   },
   {
     "id": "faster-stacked-tabs",
@@ -44366,6 +44366,13 @@
     "repo": "stagars-m/folder-info"
   },
   {
+    "id": "backdrop-sync",
+    "name": "BackDrop",
+    "author": "Backstage Pass",
+    "description": "Sync BackDrop wiki and timeline articles with your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tea0s/backdrop-sync"
+  },
+  {
     "id": "seafile-improved",
     "name": "Seafile Sync Improved",
     "author": "tionis",
@@ -44378,5 +44385,12 @@
     "author": "Kalem",
     "description": "Android only. Run Git on your vault through the real Git binary in Termux, with sparse-checkout safety. No background services, no servers, no open ports. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "maxkalem/obsidian-native-git-bridge"
+  },
+  {
+    "id": "task-radar",
+    "name": "Task Radar",
+    "author": "Aura 88 Tech",
+    "description": "A radar for your tasks: a blip's distance from the center is driven by its due date. Postpone, complete, and reprioritize tasks from the radar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aura88-tech/task-radar"
   }
 ]
