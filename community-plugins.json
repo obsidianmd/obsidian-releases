@@ -898,14 +898,14 @@
   {
     "id": "cm-chs-patch",
     "name": "Simplified Chinese Word Splitting",
-    "author": "aidenlx",
+    "author": "Aiden Liu",
     "description": "Adds Simplified Chinese word splitting support for the editor and Vim mode.",
     "repo": "aidenlx/cm-chs-patch"
   },
   {
     "id": "table-extended",
     "name": "Table Extended",
-    "author": "aidenlx",
+    "author": "Aiden Liu",
     "description": "Enable extended table support with MultiMarkdown 6 syntax.",
     "repo": "aidenlx/table-extended"
   },
@@ -919,7 +919,7 @@
   {
     "id": "media-extended",
     "name": "Media Extended",
-    "author": "aidenlx",
+    "author": "Aiden Liu",
     "description": "Integrate, manage video or audio directly in your notes, with enhanced playback and timestamp support. (Closed source)",
     "repo": "aidenlx/media-extended"
   },
@@ -2361,7 +2361,7 @@
   {
     "id": "obsidian-icon-shortcodes",
     "name": "Icon Shortcodes",
-    "author": "aidenlx",
+    "author": "Aiden Liu",
     "description": "Insert emoji and custom icons with shortcodes.",
     "repo": "aidenlx/obsidian-icon-shortcodes"
   },
@@ -7394,7 +7394,7 @@
   {
     "id": "zotlit",
     "name": "ZotLit",
-    "author": "aidenlx",
+    "author": "Aiden Liu",
     "description": "Integrate with Zotero, create literature notes, and insert citations from a Zotero library.",
     "repo": "aidenlx/zotlit"
   },
@@ -37754,7 +37754,7 @@
     "id": "hybrid-git-sync",
     "name": "Hybrid Git Sync",
     "author": "walkskyer",
-    "description": "Cross-platform Git sync plugin. Desktop uses native git, mobile uses GitHub/GitLab API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Cross-platform Git sync plugin. Desktop uses native git and API, mobile uses GitHub/Gitea/GitLab API. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wk-obsidian/HybridGitSync"
   },
   {
@@ -38071,13 +38071,6 @@
     "author": "Abdulkader Safi",
     "description": "A live calculator code block: write expressions and see each line's result, with units, currencies, percentages, and dates. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "abdulkader-safi/obsidian-s_calc-plugins"
-  },
-  {
-    "id": "auto-beautiful-mermaid",
-    "name": "Auto Beautiful Mermaid",
-    "author": "rxdxxxx",
-    "description": "Smart-routes Mermaid diagrams: beautiful-mermaid for its 6 supported types, Obsidian's built-in engine for everything else. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "rxdxxxx/obsidian-auto-beautiful-mermaid"
   },
   {
     "id": "calibre-bridge",
@@ -44399,5 +44392,26 @@
     "author": "vkostyanetsky",
     "description": "Keep frontmatter properties in a custom order. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vkostyanetsky/ObsidianPropertyOrganizer"
+  },
+  {
+    "id": "basify",
+    "name": "Basify",
+    "author": "leolaurindo",
+    "description": "Convert lists, tables and task lists into Obsidian base. One note per item. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leolaurindo/basify"
+  },
+  {
+    "id": "knowledge-heatmap",
+    "name": "Knowledge Heatmap",
+    "author": "Alexandre Charbit",
+    "description": "Review note health, staleness, connections, and maintenance priorities in a local visual dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alex3l3t33/knowledge-heatmap"
+  },
+  {
+    "id": "recallflow-ai",
+    "name": "RecallFlow AI",
+    "author": "Chongpo Chen",
+    "description": "Generate AI flashcards and review them with FSRS spaced repetition scheduler. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "poopchen/obsidian-recallflow-ai"
   }
 ]
