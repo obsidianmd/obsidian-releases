@@ -24717,13 +24717,6 @@
     "repo": "hyungyunlim/obsidian-naver-blog-importer"
   },
   {
-    "id": "semantic-vault-mcp",
-    "name": "Semantic Notes Vault MCP",
-    "author": "Aaron Bockelie",
-    "description": "Give Claude Desktop and other AI assistants semantic access to your notes through a built-in Model Context Protocol (MCP) server. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "aaronsb/obsidian-mcp-plugin"
-  },
-  {
     "id": "co-intelligence",
     "name": "Co-Intelligence AI",
     "author": "epistemic-technology",
@@ -36687,13 +36680,6 @@
     "repo": "viy1204/smart-red-public"
   },
   {
-    "id": "momentum-life",
-    "name": "Momentum Life",
-    "author": "Jaime Nagase",
-    "description": "All-in-one life dashboard for habits, tasks, fitness, nutrition and studies, stored as plain Markdown notes in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jnagase/obsidian-momentum"
-  },
-  {
     "id": "film-artist-search",
     "name": "Film Artist Search",
     "author": "Hamza Moiyadi",
@@ -38169,13 +38155,6 @@
     "author": "Sonna",
     "description": "Tiny progress bars in the file explorer showing how full each note is, relative to a target character count. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sonna-io/obsidian-files-progress"
-  },
-  {
-    "id": "ripple",
-    "name": "Ripple",
-    "author": "Johan Mensah",
-    "description": "A micro-journal over one vault folder: a feed of posts, threaded replies, and AI reflections. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johanmensah/obsidian-ripple"
   },
   {
     "id": "status-words",
@@ -41524,13 +41503,6 @@
     "repo": "theadamdanielsson/grill"
   },
   {
-    "id": "chartdown",
-    "name": "Chartdown",
-    "author": "Nossimonov",
-    "description": "Render Chartdown map blocks (battlemaps, hex charts, region maps) as SVG, right in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "nossimonov/obsidian-chartdown"
-  },
-  {
     "id": "auto-tag-graph-colors",
     "name": "Auto Tag Graph Colors",
     "author": "Tristan Cassius",
@@ -44233,6 +44205,13 @@
     "repo": "jakoblien/date-nullable-time"
   },
   {
+    "id": "tnrapp-tnr",
+    "name": "TNR - Track n Review",
+    "author": "Lucas",
+    "description": "Busca filmes/séries no TMDB e insere cards com embed (com ou sem elenco) na posição do cursor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lumelab-ai/tnrapp-tnr"
+  },
+  {
     "id": "powerextract",
     "name": "Power Extract",
     "author": "Power Plugins",
@@ -44340,7 +44319,7 @@
   {
     "id": "primetask-sync",
     "name": "PrimeTask",
-    "author": "VXXV",
+    "author": "PrimeTask",
     "description": "Browse PrimeTask tasks and projects in a sidebar, promote items into linked notes, and query them with Bases or Dataview. Runs locally; nothing leaves your machine. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "taskcore-dev/PrimeTask_For_Obsidian"
   },
@@ -44385,5 +44364,19 @@
     "author": "Stagars",
     "description": "Shows separate file and folder counts beside folders in the native File Explorer. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "stagars-m/folder-info"
+  },
+  {
+    "id": "seafile-improved",
+    "name": "Seafile Sync Improved",
+    "author": "tionis",
+    "description": "Sync notes across devices using Seafile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tionis/obsidian-seafile-improved"
+  },
+  {
+    "id": "native-git-bridge",
+    "name": "Native Git Bridge",
+    "author": "Kalem",
+    "description": "Android only. Run Git on your vault through the real Git binary in Termux, with sparse-checkout safety. No background services, no servers, no open ports. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "maxkalem/obsidian-native-git-bridge"
   }
 ]
