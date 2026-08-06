@@ -22631,13 +22631,6 @@
     "repo": "forketyfork/obsidian-speech-bubbles"
   },
   {
-    "id": "granola-meetings-simple-sync",
-    "name": "Granola Meetings Simple Sync",
-    "author": "philfreo",
-    "description": "Sync your Granola meeting notes, summaries, and transcripts to your vault in a simple way using the official Granola MCP API. Customizable by template. Supports auto-linking of attendee Person notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "philfreo/obsidian-granola-plugin"
-  },
-  {
     "id": "tab-multi-select",
     "name": "Tab Multi Select",
     "author": "nitero",
@@ -28826,13 +28819,6 @@
     "repo": "mykyquan/kindle-local-sync"
   },
   {
-    "id": "bible-verse",
-    "name": "Bible Verse",
-    "author": "kilrkrow",
-    "description": "Look up and display Bible verses directly in your notes using the HelloAO Bible API. Supports inline references, code blocks, comparison views, and multiple Bible websites. No API key required. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kilrkrow/obsidian-bible-verse"
-  },
-  {
     "id": "daily-checklist",
     "name": "Daily Checklist",
     "author": "Matt Maiorana",
@@ -29104,13 +29090,6 @@
     "author": "Kiang",
     "description": "Upload images to cloud storage (R2/S3) with automatic compression. Paste or drag images to get a Markdown link instantly. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "keepwonder/ezimage-obsidian"
-  },
-  {
-    "id": "lite-tabs",
-    "name": "Lite Tabs",
-    "author": "Azona77",
-    "description": "A lightweight panel for tabs. Supports vertical, card and masonry layout. Performance first. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "azona77/lite-tabs"
   },
   {
     "id": "abal-lang",
@@ -42696,7 +42675,7 @@
     "id": "publish-to-git-repo",
     "name": "Publish to Git Repo",
     "author": "Novelty Liu",
-    "description": "Incrementally publish notes and their images to a GitHub repository (co-located assets, git-tree atomic commit). - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "An Obsidian plugin that publishes vault notes **together with their images** to a GitHub repository. Incremental, atomic, and safe to re-run. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "satlxq/obsidian-publish-to-git-repo"
   },
   {
@@ -44597,6 +44576,13 @@
     "repo": "hanser0521/quick-editing"
   },
   {
+    "id": "qoderian",
+    "name": "Qoderian",
+    "author": "qoder",
+    "description": "Embeds Qoder CLI as an AI collaborator in your vault. Your vault becomes the working directory, giving qodercli capabilities for file reads and writes, search, bash commands, and multi-step workflows. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qoderai/Qoderian"
+  },
+  {
     "id": "tnmsop",
     "name": "TNMSOP",
     "author": "TrueNine",
@@ -44630,5 +44616,12 @@
     "author": "Jasper Mceligot",
     "description": "Show a Letterboxd user's recent diary posters as one clickable collage image in notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jasperdevs/letterboxd-recent-films"
+  },
+  {
+    "id": "canvas-project-autofit",
+    "name": "Canvas Project Autofit",
+    "author": "Peng He",
+    "description": "Zoom canvases on open to fill the viewport width, pinned to the top. Ideal for project boards with many cards. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "brianpenghe/canvas-project-autofit"
   }
 ]
