@@ -14511,13 +14511,6 @@
     "repo": "papyrus-doc-ai/papyrus-obsidian"
   },
   {
-    "id": "nerdfont-icon-picker",
-    "name": "NerdFont Icon Picker",
-    "author": "xavwe",
-    "description": "Search and insert nerdfont icons.",
-    "repo": "xavwe/obsidian-nerdfont-icon-picker"
-  },
-  {
     "id": "every-day-calendar",
     "name": "Every Day Calendar",
     "author": "sporarum",
@@ -15062,13 +15055,6 @@
     "author": "crishood",
     "description": "Convert a folder of PDFs into Markdown files with embedded PDFs",
     "repo": "crishood/pdf-folder-to-markdowns"
-  },
-  {
-    "id": "daily-news-briefing",
-    "name": "Daily News Briefing",
-    "author": "Adam Chen",
-    "description": "Get AI-powered daily news summaries in your vault. Features customizable topics, smart filtering, and automated scheduling.",
-    "repo": "chenziqiadam/Daily-News-Briefing"
   },
   {
     "id": "attachments-cache",
@@ -24806,6 +24792,13 @@
     "author": "dun8",
     "description": "Sync your Lichess/Chess.com games! - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dun8/Chess-Vault"
+  },
+  {
+    "id": "codeian",
+    "name": "Codeian",
+    "author": "wdblink",
+    "description": "Use Codex from a sidebar in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wdblink/codein"
   },
   {
     "id": "cms-xgkb-sync",
@@ -39704,13 +39697,6 @@
     "repo": "jwczju/html-blocks"
   },
   {
-    "id": "terminus",
-    "name": "Terminus",
-    "author": "notenerd",
-    "description": "A real terminal with shell integration and beginner-friendly command help, plus a review workflow for Claude Code file edits: word-level diffs, undo, backlink-breakage warnings, and more. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "notenerdofficial/terminus"
-  },
-  {
     "id": "mini-tray",
     "name": "Mini Tray",
     "author": "Damon",
@@ -43288,6 +43274,13 @@
     "repo": "newcodejin/expanded-bookmarks"
   },
   {
+    "id": "custom-badges",
+    "name": "Custom Badges",
+    "author": "AbbaraS",
+    "description": "Add inline badges/callouts to notes, with user-definable badge types, icons and colors. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abbaras/custom-badges"
+  },
+  {
     "id": "google-cloud-sync",
     "name": "Google Sync",
     "author": "Sertaç Yıldız",
@@ -44493,7 +44486,7 @@
   },
   {
     "id": "recto",
-    "name": "Recto",
+    "name": "Recto Zotero Translation",
     "author": "Jensen Zheng",
     "description": "Convert Zotero PDF papers into Markdown, generate AI summaries and Chinese translations, and build a searchable local paper library with bilingual reading. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jensen-zheng-cmd/Recto-plugin"
@@ -44639,6 +44632,13 @@
     "repo": "birchove/heading-level-changer"
   },
   {
+    "id": "noria",
+    "name": "Noria",
+    "author": "Biao Zhou",
+    "description": "A configurable Obsidian workbench for notes, knowledge, tasks, projects, habits, timelines, statistics, and reviews. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jellyns/obsidian-noria"
+  },
+  {
     "id": "ai-alias",
     "name": "AI Alias",
     "author": "文刀十寸",
@@ -44653,6 +44653,13 @@
     "repo": "kazdonkai/unified-outliner"
   },
   {
+    "id": "zvec-hybrid-search",
+    "name": "ZVec Hybrid Search",
+    "author": "Conor O'Neill",
+    "description": "Search your vault locally with ZVec BM25 and semantic embeddings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "conoro/obsidian-zvec-hybrid-search"
+  },
+  {
     "id": "prose-toolkit",
     "name": "Prose Toolkit",
     "author": "Gabriel Bacha",
@@ -44660,10 +44667,31 @@
     "repo": "gabrielbacha/Obsidian-Prose-Toolkit"
   },
   {
+    "id": "stashwise",
+    "name": "Stashwise",
+    "author": "Stashwise",
+    "description": "Sync your Stashwise library and wiki into your vault, search it from any note, and capture notes back. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stashwiseai/stashwise-obsidian"
+  },
+  {
     "id": "bases-pill-colors",
     "name": "Bases Visuals",
     "author": "Gabriel Bacha",
     "description": "Add Notion-style pill colors and conditional formatting to Base tables. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gabrielbacha/obsidian-base-visuals"
+  },
+  {
+    "id": "markdown-relay",
+    "name": "Markdown Relay",
+    "author": "luffysolution-svg",
+    "description": "Publish Markdown notes one-way to Feishu/Lark, Notion, and ima. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "luffysolution-svg/obsidian-knowledge-sync"
+  },
+  {
+    "id": "link-cards",
+    "name": "Link Cards",
+    "author": "mainamirh",
+    "description": "Fetches URL metadata and displays it as rich embed cards in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mainamirh/obsidian-link-cards"
   }
 ]
