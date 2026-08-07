@@ -12425,13 +12425,6 @@
     "repo": "ssentiago/obsidian-xmind-viewer"
   },
   {
-    "id": "auto-pause",
-    "name": "AutoPause",
-    "author": "ckep1",
-    "description": "Allows one audio track to be played at a time, pausing or stopping any others.",
-    "repo": "ckep1/obsidian-autopause"
-  },
-  {
     "id": "alignment-tracker",
     "name": "Alignment Tracker",
     "author": "fiopio",
@@ -12612,13 +12605,6 @@
     "author": "James Alexandre",
     "description": "Adds fold/unfold properties function to folder and file context menu.",
     "repo": "itsonlyjames/obsidian-fold-properties"
-  },
-  {
-    "id": "japanese-novel-ruby",
-    "name": "Japanese Novel Ruby",
-    "author": "k-quels",
-    "description": "Treat ruby(Furigana) ​​marks commonly used in Japanese novels",
-    "repo": "k-quels/japanese-novel-ruby"
   },
   {
     "id": "replace-all",
@@ -33012,13 +32998,6 @@
     "repo": "cverinc/marktile"
   },
   {
-    "id": "ob-epub-reader",
-    "name": "EPUB Marginalia",
-    "author": "chengshans",
-    "description": "Read EPUB files with TOC, highlights, margin notes, excerpts, and AI integration. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "chengshans/ob-epub-reader"
-  },
-  {
     "id": "qiuqiu",
     "name": "Qiuqiu",
     "author": "ayoyoqiu",
@@ -37406,13 +37385,6 @@
     "author": "Waldemar",
     "description": "Adds a command to replace the current tab with an empty page, the same screen shown when opening a new tab. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "waldemar-one/obsidian-empty-tab"
-  },
-  {
-    "id": "bamboo-immortals",
-    "name": "Bamboo Immortals",
-    "author": "羽鳞君",
-    "description": "Bamboo Immortals（竹林修仙传）— 基于OGAS理念的中国风目标自动化管理系统。A Chinese-style goal automation system based on OGAS concepts. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "miaoziguan/obsidian-bamboo-immortals"
   },
   {
     "id": "pie-tasks",
@@ -44723,13 +44695,6 @@
     "repo": "stashwiseai/stashwise-obsidian"
   },
   {
-    "id": "bases-pill-colors",
-    "name": "Bases Visuals",
-    "author": "Gabriel Bacha",
-    "description": "Add Notion-style pill colors and conditional formatting to Base tables. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gabrielbacha/obsidian-base-visuals"
-  },
-  {
     "id": "markdown-relay",
     "name": "Markdown Relay",
     "author": "luffysolution-svg",
@@ -44786,6 +44751,13 @@
     "repo": "minomaster/ObsMat"
   },
   {
+    "id": "kaos",
+    "name": "Kaos",
+    "author": "Ferusnet",
+    "description": "Korwin Analytical Operating System — analytical layer over the Ferus ecosystem. Data stays in Azure; Obsidian is the display. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ferusnet/kaos-plugin"
+  },
+  {
     "id": "lottery",
     "name": "Note Lottery",
     "author": "wang",
@@ -44798,6 +44770,13 @@
     "author": "bozhang",
     "description": "Upload local images in Markdown to cloud storage (COS, OSS, Qiniu, SM.MS, GitHub) and replace links automatically. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mrelvin/obsidian-image-to-cos"
+  },
+  {
+    "id": "mega-sync",
+    "name": "MEGA Sync",
+    "author": "Thomas ",
+    "description": "Two-way sync between your Obsidian vault and your MEGA.nz cloud, inspired by Remotely Save. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ledokter/obsidian-mega-sync"
   },
   {
     "id": "pakcli-suite",
@@ -44833,5 +44812,26 @@
     "author": "争做学习小先锋",
     "description": "Check in habits from the right sidebar with one click, track streaks and yearly heatmaps, and embed habit heatmaps into notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "notstudytoday/obsidian-habit-check-in"
+  },
+  {
+    "id": "smart-done-mover",
+    "name": "Smart Done Mover",
+    "author": "wxjett",
+    "description": "Move completed tasks into a customizable Done section with nested task filtering, auto mode, and Tasks plugin support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wxjett/obsidian-smart-done-mover"
+  },
+  {
+    "id": "loreweaver",
+    "name": "Loreweaver",
+    "author": "noah",
+    "description": "Character relation graphs, foreshadowing tracker, and worldbuilding templates for novelists. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stardustdreams/loreweaver"
+  },
+  {
+    "id": "explorer-order-editor",
+    "name": "Explorer Order Editor",
+    "author": "vcarus",
+    "description": "Drag folders and notes into a manual order, saved as plain text inside your vault. Requires the Custom File Explorer sorting plugin to display it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vcarus/obsidian-explorer-order-editor"
   }
 ]
