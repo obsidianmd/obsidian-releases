@@ -17339,6 +17339,13 @@
     "repo": "gapmiss/custom-theme-studio"
   },
   {
+    "id": "todoseq",
+    "name": "TODOseq",
+    "author": "Stephen Cross",
+    "description": "Lightweight keyword-based task tracker using Logseq style keywords.",
+    "repo": "scross01/obsidian-todoseq"
+  },
+  {
     "id": "personal-development-plan",
     "name": "Personal Development Plan",
     "author": "artemkorsakov",
@@ -28171,7 +28178,7 @@
     "id": "bijitongbu",
     "name": "Biji Tongbu",
     "author": "beijing-bijitongbu",
-    "description": "文章、视频、文字、笔记、图片、问答、帖子、语音、附件、聊天记录通通交给AI 帮你整理到Obsidian中 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "文章、视频、文字、笔记、图片、问答、帖子、语音、附件、聊天记录通通交给AI 帮你整理到Obsidian中。Your notehelper - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "notesynchelper/obsidian-bijitongbu"
   },
   {
@@ -38927,13 +38934,6 @@
     "repo": "sadsnake1/cursor-smith"
   },
   {
-    "id": "workspace-plus-group",
-    "name": "WorkSpace Plus Group",
-    "author": "cnwenzhihong",
-    "description": "Quickly switch and manage workspaces - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cnwenzhihong/Obsidian-workspace-plus-group"
-  },
-  {
     "id": "llm-content-block",
     "name": "LLM Content Block",
     "author": "Darren Zheng",
@@ -39576,13 +39576,6 @@
     "author": "jiang198012",
     "description": "Chat with the local WorkBuddy/CodeBuddy CLI as an AI agent in your vault: streaming replies, thinking/tool-call cards, @-note references, file attachments, model/permission toolbar, slash commands, inline edit with diff, export and search. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiang198012/workbuddian"
-  },
-  {
-    "id": "daily-work-log",
-    "name": "Daily Work Log",
-    "author": "Hong SeongChan",
-    "description": "Visualize daily time tracking and To-Do lists directly from daily notes with minimal metadata. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "seongchan/DailyWorkLog"
   },
   {
     "id": "url-file-preview",
@@ -42318,7 +42311,7 @@
     "id": "spherical-graph",
     "name": "Spherical Graph",
     "author": "Pavel",
-    "description": "Explore your vault as a globe: notes are cities, links are roads, tags orbit as satellites, and Route Finder reveals every shortest path. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Navigate your vault as a globe: folders form continents, notes become cities, links become roads, tags orbit as satellites, and Route Finder connects ideas. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pavel-mik/obsidian-spherical-graph"
   },
   {
@@ -43477,13 +43470,6 @@
     "repo": "bwtymdb/obsidian-md-autofix"
   },
   {
-    "id": "watermelon-workbench",
-    "name": "Watermelon Workbench",
-    "author": "Lynn",
-    "description": "A cozy novel-writing workbench for Obsidian with chapter navigation, local name generation, time-machine backups, and live writing stats. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pan75291386-hue/watermelon-workbench"
-  },
-  {
     "id": "aurora-dashboard",
     "name": "Dashboard",
     "author": "Sean",
@@ -44548,6 +44534,13 @@
     "repo": "miaoziguan/obsidian-chinese-plugin-market"
   },
   {
+    "id": "chemedit",
+    "name": "ChemEdit",
+    "author": "Ruzal Sitdikov",
+    "description": "Draw and edit chemical structures and reactions using Ketcher and SmilesDrawer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ruzx/obsidian-chemedit"
+  },
+  {
     "id": "copy-outline",
     "name": "Copy Outline",
     "author": "yoav6",
@@ -44772,6 +44765,13 @@
     "repo": "minomaster/ObsMat"
   },
   {
+    "id": "ferus-plugin-auditor",
+    "name": "Ferusnet Security Audit",
+    "author": "Ferusnet",
+    "description": "Static-analysis security audit for your installed community plugins. Flags dangerous APIs, verifies release hashes against GitHub, and scores plugin risk. Fully local — no data leaves your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ferusnet/obsidian-ferus-plugin-auditor"
+  },
+  {
     "id": "kaos",
     "name": "Kaos",
     "author": "Ferusnet",
@@ -44868,5 +44868,26 @@
     "author": "deanxi",
     "description": "Ask your persistent LLM Wiki with local lexical retrieval, Wikilink expansion, and traceable citations. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "deanxizian/obisidian-wiki-copilot"
+  },
+  {
+    "id": "koda-agent",
+    "name": "Koda",
+    "author": "Johannes Kaindl",
+    "description": "Agentic vault companion: chat with an assistant that searches and reads your notes, writes only with your approval, and learns through a transparent memory note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johannes-kaindl/koda-agent"
+  },
+  {
+    "id": "elton-ai",
+    "name": "Elton AI",
+    "author": "EltonLabs",
+    "description": "Talk to your vault: ask questions by voice or text, and it searches your notes, writes and files new ones from your own templates, and answers the same way from your Telegram bot. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "swayinfo/elton-ai"
+  },
+  {
+    "id": "family-bank",
+    "name": "Family Bank",
+    "author": "KuMoo",
+    "description": "Manage monthly/yearly fixed deposits for children. Auto interest settlement, deduction, and asset chart. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kumoonet/obsidian-family-bank"
   }
 ]
