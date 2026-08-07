@@ -8302,13 +8302,6 @@
     "repo": "0skater0/obsidian-custom-note-width"
   },
   {
-    "id": "timethings",
-    "name": "Time Things",
-    "author": "plasmabit",
-    "description": "Show a clock in the corner. Track the total editing time of a note and the last time it was modified.",
-    "repo": "plasmabit/timethings"
-  },
-  {
     "id": "calc-craft",
     "name": "CalcCraft",
     "author": "klaudyu",
@@ -17386,6 +17379,13 @@
     "author": "onikun94",
     "description": "Download RSS feed articles to local files.",
     "repo": "onikun94/obsidian-local-rss"
+  },
+  {
+    "id": "granola-sync",
+    "name": "Granola Sync",
+    "author": "tomelliot",
+    "description": "Sync Granola notes to your vault.",
+    "repo": "tomelliot/obsidian-granola-sync"
   },
   {
     "id": "note-navigator",
@@ -37681,6 +37681,13 @@
     "repo": "cferrugem/obsidian-cfr-find"
   },
   {
+    "id": "beautytasks",
+    "name": "BeautyTasks",
+    "author": "Avni Bilgin",
+    "description": "A Todoist-inspired task and project manager built entirely on Markdown — one note per task, no external services, no dependencies. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "avnibilgin/BeautyTasks"
+  },
+  {
     "id": "libretranslate",
     "name": "LibreTranslate",
     "author": "p0shkar",
@@ -41132,13 +41139,6 @@
     "repo": "itzqingyu/todo-calendar"
   },
   {
-    "id": "gridsense",
-    "name": "GridSense",
-    "author": "Grub Basket",
-    "description": "Excel-grade editable grid over your notes' frontmatter: multi-cell selection, fill down/right, find & replace in selection, keyboard-first editing, heading-content columns. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "grub-basket/gridsense"
-  },
-  {
     "id": "simple-sticky-notes",
     "name": "Simple Sticky Notes",
     "author": "Alper Dogan",
@@ -41888,13 +41888,6 @@
     "repo": "phoelectrix/liefwork-obsidian"
   },
   {
-    "id": "harang-immich",
-    "name": "Harang Immich",
-    "author": "Ji-ho Lee",
-    "description": "Load and save note images from/to Immich. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "search5/harang-immich"
-  },
-  {
     "id": "curtis-ai-chat",
     "name": "Curtis AI Chat",
     "author": "Jordan Newell",
@@ -42292,6 +42285,13 @@
     "author": "elijahchan2019",
     "description": "Click to edit text in HTML blocks directly within Live Preview mode. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elijahchan2019/plugin-html_live_editor"
+  },
+  {
+    "id": "style-context",
+    "name": "Style Context",
+    "author": "Moy",
+    "description": "A CSS snippet helper. Register local images as CSS variables, quickly set vault backgrounds, expose the current theme on body for theme-specific styling, and auto-add cssclasses per folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "moyf/style-context"
   },
   {
     "id": "vaultquiz",
@@ -43438,7 +43438,7 @@
     "id": "bitfield",
     "name": "Bitfield",
     "author": "aipyer",
-    "description": "Render bitfield definitions as interactive SVG diagrams and tables. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "将位域定义渲染为交互式 SVG 图表和表格。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aipyer/bitfield"
   },
   {
@@ -44758,6 +44758,13 @@
     "repo": "sun8854/Obsidian-LaTeX-input"
   },
   {
+    "id": "decision-ledger",
+    "name": "Decision Ledger",
+    "author": "Dinesh S",
+    "description": "Bind decisions to the code they govern and see when that code drifts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "din-es/obsidian-decision-ledger"
+  },
+  {
     "id": "yuhanbo-python-runner",
     "name": "Yuhanbo Python Runner",
     "author": "yuhanbo",
@@ -44793,6 +44800,13 @@
     "repo": "mrelvin/obsidian-image-to-cos"
   },
   {
+    "id": "pakcli-suite",
+    "name": "PakCLI Suite",
+    "author": "pakcli",
+    "description": "All-in-one suite: Symlink Manager, Asset Router, Tree Diagram, SQLSeal & Tablite CSV Editor, and Leaflet bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pakcli/All-Obsidian-Plugin"
+  },
+  {
     "id": "paperless-storage",
     "name": "Paperless Storage",
     "author": "Johannes Kaindl",
@@ -44816,7 +44830,7 @@
   {
     "id": "habit-checkin",
     "name": "Habit Check-in",
-    "author": "liugangyu",
+    "author": "争做学习小先锋",
     "description": "Check in habits from the right sidebar with one click, track streaks and yearly heatmaps, and embed habit heatmaps into notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "notstudytoday/obsidian-habit-check-in"
   }
