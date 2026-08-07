@@ -44551,7 +44551,7 @@
     "id": "chemedit",
     "name": "ChemEdit",
     "author": "Ruzal Sitdikov",
-    "description": "Draw and edit chemical structures and reactions using Ketcher and SmilesDrawer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Draw, edit, and visualize chemical structures and reactions. ChemEdit supports SMILES, MOL, and ChemDraw (CDXML) files with an integrated Ketcher editor. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ruzx/obsidian-chemedit"
   },
   {
@@ -44807,13 +44807,6 @@
     "repo": "mrelvin/obsidian-image-to-cos"
   },
   {
-    "id": "mega-sync",
-    "name": "MEGA Sync",
-    "author": "Thomas ",
-    "description": "Two-way sync between your Obsidian vault and your MEGA.nz cloud, inspired by Remotely Save. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ledokter/obsidian-mega-sync"
-  },
-  {
     "id": "pakcli-suite",
     "name": "PakCLI Suite",
     "author": "pakcli",
@@ -44826,6 +44819,13 @@
     "author": "Johannes Kaindl",
     "description": "Embed documents from your paperless-ngx instance directly in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "johannes-kaindl/paperless-storage"
+  },
+  {
+    "id": "file-explorer-filter",
+    "name": "File Explorer Filter",
+    "author": "singularitopian",
+    "description": "Filter the File explorer by top-level folder and optionally hide files and folders matching configurable text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "summerdawn-ai/obsidian-file-explorer-filter"
   },
   {
     "id": "drag-drop-sort",
@@ -44926,6 +44926,13 @@
     "repo": "drbinsaad/knowledge-base-command-center"
   },
   {
+    "id": "trellosync",
+    "name": "Trello-Sync",
+    "author": "Kfir Gumay",
+    "description": "Live sync between trello and obsidian - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kfirgumay2005-hash/Trello-Sync"
+  },
+  {
     "id": "clinical-workspace",
     "name": "Clinical Workspace",
     "author": "ali",
@@ -44945,5 +44952,26 @@
     "author": "PrEvAl85",
     "description": "A life-in-weeks grid of heart-shaped cells based on the \"Life in Weeks\" idea by WaitButWhy. Built-in journal, events, and one-click export for the Life Calendar Android app. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "preval85/obsidian-life-calendar"
+  },
+  {
+    "id": "html-table-math",
+    "name": "HTML Table Math",
+    "author": "timeofmei",
+    "description": "Render LaTeX math inside raw HTML table cells. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "timeofmei/html-table-math"
+  },
+  {
+    "id": "time-visualization",
+    "name": "Time Visualization",
+    "author": "Ivan",
+    "description": "Day cards with smooth zoom between day, week and month views. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kornilovivan/Time-Visualization"
+  },
+  {
+    "id": "sync-engine",
+    "name": "Sync Engine",
+    "author": "Hēsperus",
+    "description": "The next-generation syncing plugin: Fast · Free · Extend with Modules. Supports WebDAV and S3. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hesprs/sync-engine"
   }
 ]
