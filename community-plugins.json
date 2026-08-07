@@ -30709,6 +30709,13 @@
     "repo": "pandorareads/apex-dashboard"
   },
   {
+    "id": "echo-notes",
+    "name": "Echo Notes",
+    "author": "anbang278",
+    "description": "Transcribe audio into Markdown and generate configurable AI meeting notes and analysis. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "anbang278/echo-notes"
+  },
+  {
     "id": "hilighter",
     "name": "HiLighter",
     "author": "PandoraReads",
@@ -41581,7 +41588,7 @@
   },
   {
     "id": "chrono-notes",
-    "name": "Chrono Notes Calendar",
+    "name": "Chrono Notes",
     "author": "ZhengYX",
     "description": "A calendar workspace for periodic notes, calendar extensions, regional holidays, tasks, and time ranges. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhyx91/obsidian-chrono-notes"
@@ -42285,13 +42292,6 @@
     "author": "elijahchan2019",
     "description": "Click to edit text in HTML blocks directly within Live Preview mode. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elijahchan2019/plugin-html_live_editor"
-  },
-  {
-    "id": "style-context",
-    "name": "Style Context",
-    "author": "Moy",
-    "description": "An Obsidian plugin that publishes runtime context as CSS classes and variables. It turns things like your current theme and vault image paths into predictable hooks for your own custom CSS snippets. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "moyf/style-context"
   },
   {
     "id": "vaultquiz",
@@ -43433,6 +43433,13 @@
     "author": "Anand Baghel",
     "description": "Generates custom mock tests (Core, General Aptitude, Subject-wise, Random) from GATE past year question papers with interactive answer inputs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "anandrajbaghel/gate-simulator"
+  },
+  {
+    "id": "bitfield",
+    "name": "Bitfield",
+    "author": "aipyer",
+    "description": "Render bitfield definitions as interactive SVG diagrams and tables. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aipyer/bitfield"
   },
   {
     "id": "crisp-annotations",
@@ -44730,6 +44737,13 @@
     "repo": "mainamirh/obsidian-link-cards"
   },
   {
+    "id": "latex-input",
+    "name": "LaTeX Input",
+    "author": "yy",
+    "description": "A LaTeX formula input plugin for Obsidian. Click symbols from the palette to auto-generate source, preview live, and insert into the current note; also supports **screen-selection OCR** and **clipboar - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sun8854/Obsidian-LaTeX-input"
+  },
+  {
     "id": "yuhanbo-python-runner",
     "name": "Yuhanbo Python Runner",
     "author": "yuhanbo",
@@ -44770,5 +44784,19 @@
     "author": "Johannes Kaindl",
     "description": "Embed documents from your paperless-ngx instance directly in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "johannes-kaindl/paperless-storage"
+  },
+  {
+    "id": "smart-list-input",
+    "name": "Smart List Input",
+    "author": "hygyh",
+    "description": "智能 Markdown 列表输入：中文标点（1、1。等）自动转标准序号，支持有序/无序/待办列表快速切换，子项类型与所在层级保持一致。Smart Markdown list input: auto-converts Chinese punctuation to standard numbering, quick-switches ordered/bullet/task lists, keeps child types consistent with their level. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hygyh/smart-list-input"
+  },
+  {
+    "id": "habit-checkin",
+    "name": "Habit Check-in",
+    "author": "liugangyu",
+    "description": "Check in habits from the right sidebar with one click, track streaks and yearly heatmaps, and embed habit heatmaps into notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "notstudytoday/obsidian-habit-check-in"
   }
 ]
