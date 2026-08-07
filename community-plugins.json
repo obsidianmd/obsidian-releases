@@ -2380,13 +2380,6 @@
     "repo": "vrtmrz/obsidian-tagfolder"
   },
   {
-    "id": "obsidian-metronome-plugin",
-    "name": "Metronome",
-    "author": "curtgrimes",
-    "description": "Add interactive metronomes to your notes.",
-    "repo": "curtgrimes/obsidian-metronome-plugin"
-  },
-  {
     "id": "quoth",
     "name": "Quoth",
     "author": "erykwalder",
@@ -8300,6 +8293,13 @@
     "author": "0skater0",
     "description": "Effortlessly change the line width of each note individually. Provides multiple ways to customize the experience, making it both efficient and user-friendly to adjust line widths.",
     "repo": "0skater0/obsidian-custom-note-width"
+  },
+  {
+    "id": "timethings",
+    "name": "Time Things",
+    "author": "plasmabit",
+    "description": "Show a clock in the corner. Track the total editing time of a note and the last time it was modified.",
+    "repo": "plasmabit/timethings"
   },
   {
     "id": "calc-craft",
@@ -19943,6 +19943,13 @@
     "repo": "xnjiang/speakpen-obsidian"
   },
   {
+    "id": "discourse-graphs",
+    "name": "Discourse Graph",
+    "author": "discoursegraphs",
+    "description": "Add semantic structure to your notes with the Discourse Graph protocol. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "discoursegraphs/discourse-graph-obsidian"
+  },
+  {
     "id": "cursor-history",
     "name": "Cursor History",
     "author": "abdelrahmanhafez",
@@ -27312,13 +27319,6 @@
     "author": "Yves Lefebvre",
     "description": "Preserves consecutive blank lines in reading mode, matching the source 1:1. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ivanohe73/obsidian-preserve-blank-lines"
-  },
-  {
-    "id": "tracekeeper",
-    "name": "Tracekeeper",
-    "author": "sparkwild",
-    "description": "Review AI-proposed wiki and memory updates before they reach your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sparkwild/obsidian-tracekeeper"
   },
   {
     "id": "liminal",
@@ -44807,6 +44807,13 @@
     "repo": "mrelvin/obsidian-image-to-cos"
   },
   {
+    "id": "mega-sync",
+    "name": "MEGA Sync",
+    "author": "Thomas ",
+    "description": "Two-way sync between your Obsidian vault and your MEGA.nz cloud, inspired by Remotely Save. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ledokter/obsidian-mega-sync"
+  },
+  {
     "id": "pakcli-suite",
     "name": "PakCLI Suite",
     "author": "pakcli",
@@ -44940,6 +44947,13 @@
     "repo": "drbinsaad/obsidian-clinical-workspace"
   },
   {
+    "id": "simple-mentions",
+    "name": "Simple Mentions",
+    "author": "Mayeenul Islam",
+    "description": "Maintain a single contact database and reference people anywhere in your notes using plain @mentions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mayeenulislam/obsidian-simple-mentions"
+  },
+  {
     "id": "folder-timeline",
     "name": "Folder Timeline",
     "author": "R",
@@ -44973,5 +44987,19 @@
     "author": "Hēsperus",
     "description": "The next-generation syncing plugin: Fast · Free · Extend with Modules. Supports WebDAV and S3. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hesprs/sync-engine"
+  },
+  {
+    "id": "filtered-file-commands",
+    "name": "Note Types",
+    "author": "jsmorabito",
+    "description": "Define note types with creation commands, filtered file pickers, hover previews, styled wikilinks, and a sidebar widget. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jsmorabito/obsidian-note-types"
+  },
+  {
+    "id": "subtle-toc-plus",
+    "name": "Subtle TOC Plus",
+    "author": "xzhi",
+    "description": "EN: Enhanced Subtle TOC fork with search, tag filter, H1-H6 badges, color/opacity customization, panel pinning and more. | 中文: Subtle TOC 增强版，支持搜索、标签过滤、层级徽标、颜色/透明度自定义与面板固定等功能。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "github-xzhi/obsidian-suble-toc-plus"
   }
 ]
