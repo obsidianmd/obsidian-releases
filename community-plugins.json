@@ -26770,7 +26770,7 @@
   {
     "id": "pdf-font-rewriter",
     "name": "PDF Font Rewriter",
-    "author": "Tianchen Hao",
+    "author": "Alexander Tian",
     "description": "Live-refont PDFs as you scroll, or export safely rewritten pages in a chosen font with local processing and backups. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alexandert142/pdf-font-rewriter"
   },
@@ -27515,6 +27515,13 @@
     "author": "Sébastien Dubois",
     "description": "Connect to the reMarkable cloud, list, download, and sync notebook pages as images. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dsebastien/obsidian-remarkable-sync"
+  },
+  {
+    "id": "excerpt-outline-mindmap-editor",
+    "name": "Excerpt-Outline-Mindmap-Editor",
+    "author": "kpaede",
+    "description": "A visual drag-n-drop mindmap editor (with markdown outline under the hood). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kpaede/Excerpt-Outline-Mindmap-Editor"
   },
   {
     "id": "bookshelf-base",
@@ -30723,13 +30730,6 @@
     "repo": "pandorareads/apex-dashboard"
   },
   {
-    "id": "echo-notes",
-    "name": "Echo Notes",
-    "author": "anbang278",
-    "description": "Transcribe audio into Markdown and generate configurable AI meeting notes and analysis. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "anbang278/echo-notes"
-  },
-  {
     "id": "hilighter",
     "name": "HiLighter",
     "author": "PandoraReads",
@@ -31927,13 +31927,6 @@
     "repo": "kulysocc/obsidian-folder-base-view"
   },
   {
-    "id": "see-also-sidebar",
-    "name": "See Also Sidebar",
-    "author": "David Breece",
-    "description": "Display related notes in a sidebar view using a custom property or using notes with the same tags. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "davidbreece/obsidian-see-also-sidebar"
-  },
-  {
     "id": "ai-journal-coach",
     "name": "AI Journal Coach",
     "author": "ibrh96-prog",
@@ -32363,7 +32356,7 @@
   {
     "id": "local-pdf-annotator",
     "name": "PDF Annotator",
-    "author": "Tianchen Hao",
+    "author": "Alexander Tian",
     "description": "Read PDFs, highlight passages, place page notes, and manage searchable margin annotations stored as local Markdown sidecars. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alexandert142/Alex-annotator"
   },
@@ -38003,6 +37996,13 @@
     "repo": "erimanga/Latex-assistant"
   },
   {
+    "id": "tab-tint",
+    "name": "Tab Tint",
+    "author": "CypherPoet",
+    "description": "Tint tab headers with custom colors to tell open notes apart at a glance - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cypherpoet/obsidian-tab-tint"
+  },
+  {
     "id": "auto-ledger",
     "name": "Auto Ledger",
     "author": "BetaGifted",
@@ -41020,6 +41020,13 @@
     "repo": "hardes11/llm-token-count"
   },
   {
+    "id": "local-image-generator",
+    "name": "Local Image Generator",
+    "author": "Johannes Kaindl",
+    "description": "Generate images locally inside Obsidian — SD-Turbo via WebGPU, no external software, no cloud. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johannes-kaindl/local-image-generator"
+  },
+  {
     "id": "image-glance",
     "name": "Image Glance",
     "author": "chenjhu",
@@ -42446,6 +42453,13 @@
     "author": "Ordnung",
     "description": "Updates frontmatter properties based on folder structure. Creates folder index files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ordnungen/ord-updater"
+  },
+  {
+    "id": "command-center",
+    "name": "Command Center",
+    "author": "Dustin Stringer",
+    "description": "Deploy an advanced Orchestrator-Worker multi-agent framework to automate vault indexing, template generation, and interactive sidebar chat functions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "scrunchds/Command-Center"
   },
   {
     "id": "barosaurus",
@@ -44429,13 +44443,6 @@
     "repo": "kpndevroot/obsidian-basalt-causeway"
   },
   {
-    "id": "seafile-improved",
-    "name": "Seafile Sync Improved",
-    "author": "tionis",
-    "description": "Sync notes across devices using Seafile. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tionis/obsidian-seafile-improved"
-  },
-  {
     "id": "native-git-bridge",
     "name": "Native Git Bridge",
     "author": "Kalem",
@@ -44633,7 +44640,7 @@
   },
   {
     "id": "rolecall-sync",
-    "name": "Role Call Sync",
+    "name": "RoleCall Sync",
     "author": "rolecall.games",
     "description": "Sync your Published/ notes to a Role Call game. GM notes stay private. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rolecall-games/rolecall-obsidian-sync"
@@ -44784,5 +44791,12 @@
     "author": "bozhang",
     "description": "Upload local images in Markdown to cloud storage (COS, OSS, Qiniu, SM.MS, GitHub) and replace links automatically. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mrelvin/obsidian-image-to-cos"
+  },
+  {
+    "id": "paperless-storage",
+    "name": "Paperless Storage",
+    "author": "Johannes Kaindl",
+    "description": "Embed documents from your paperless-ngx instance directly in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johannes-kaindl/paperless-storage"
   }
 ]
