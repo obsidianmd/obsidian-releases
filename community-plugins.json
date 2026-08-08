@@ -6862,7 +6862,7 @@
   {
     "id": "voice",
     "name": "Voice",
-    "author": "chrisurf",
+    "author": "Chris Oguntolu",
     "description": "Listen to your notes as natural speech with text-to-speech (TTS). Read notes aloud, play them like an audiobook in the voice player, download MP3 audio and listen offline hands-free on mobile.",
     "repo": "chrisurf/obsidian-voice"
   },
@@ -18858,6 +18858,13 @@
     "repo": "anshuman-ecc-eth/hm-obsidian"
   },
   {
+    "id": "inbox-sync",
+    "name": "inBox Sync",
+    "author": "maoruibin",
+    "description": "Sync notes from inBox app to your vault via WebDAV/S3. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "maoruibin/obsidian-inbox-sync"
+  },
+  {
     "id": "tate",
     "name": "Tate",
     "author": "nekoe",
@@ -22386,13 +22393,6 @@
     "repo": "bcs1037/SmartPick"
   },
   {
-    "id": "hierarchical-toc",
-    "name": "Hierarchical TOC",
-    "author": "andresgongora",
-    "description": "Displays child notes of the active note in a hierarchical tree view (fork of Virtual Folder). - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "andresgongora/obsidian-hierarchical-toc"
-  },
-  {
     "id": "datestamp",
     "name": "Datestamp",
     "author": "huynhtranhoanglong",
@@ -24003,6 +24003,13 @@
     "repo": "keksnet/obsidian-mermaid-elk"
   },
   {
+    "id": "automatic-installation-of-plugins",
+    "name": "Community Install Manager",
+    "author": "Konstantin Volobuev",
+    "description": "Install, enable, and configure community plugins from JSON files to sync vault setups across devices. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "skilletron/obsidian-automatic-installation-of-plugins"
+  },
+  {
     "id": "syncthing-manager",
     "name": "Syncthing Manager",
     "author": "Gustavo Carreiro",
@@ -24890,13 +24897,6 @@
     "author": "Yue Zenglei",
     "description": "Monthly worklog tracker with tasks, time entries, calendar, and local JSON storage. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "352662115-hub/worklog-obsidian-plugin"
-  },
-  {
-    "id": "emrald",
-    "name": "Emrald",
-    "author": "Devon",
-    "description": "Track what work costs you: effort, flow, energy, and burnout risk. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "admiral9k/emrald-obsidian"
   },
   {
     "id": "ignoremd",
@@ -33023,14 +33023,14 @@
     "name": "tugtile",
     "author": "CVER Inc.",
     "description": "A card table for your Markdown notes — tug tiles to reorder. Reads your existing kanban boards. CJK-friendly. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cverinc/tugtile"
+    "repo": "cverinc/obsidian-tugtile"
   },
   {
     "id": "marktile",
     "name": "marktile",
     "author": "CVER Inc.",
     "description": "A Markdown editor where the markers never hide — headings grow while ## stays put. Pairs with tugtile. CJK-friendly. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cverinc/marktile"
+    "repo": "cverinc/obsidian-marktile"
   },
   {
     "id": "ob-epub-reader",
@@ -40203,9 +40203,9 @@
   {
     "id": "visual-notes",
     "name": "Visual Notes",
-    "author": "danderson",
+    "author": "dandersondev",
     "description": "A visual workspace built on Obsidian's Canvas format: nestable freeform boards, icon tile grids, kanban boards, sticky notes, checklists, columns, drawing with pen, labels, reactions, and more.. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "danderson1988/visual-notes"
+    "repo": "dandersondev/visual-notes"
   },
   {
     "id": "tetromino",
@@ -41211,7 +41211,7 @@
   {
     "id": "git-history",
     "name": "Git History",
-    "author": "chrisurf",
+    "author": "Chris Oguntolu",
     "description": "Manage Git repositories with an intuitive UI: interactive commit graph, source control panel, and diff viewer. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "chrisurf/obsidian-git-history"
   },
@@ -43533,13 +43533,6 @@
     "repo": "shockwave3301/encrypt-selection"
   },
   {
-    "id": "couchdb-sync",
-    "name": "CouchDB Sync",
-    "author": "chrisurf",
-    "description": "Simple, reliable live synchronization of your vault with a self-hosted CouchDB server. End-to-end encrypted with AES-256-GCM: note content and metadata (file paths, sizes, timestamps). - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "chrisurf/obsidian-cauchdb-sync"
-  },
-  {
     "id": "slidex",
     "name": "SlideX",
     "author": "Noct",
@@ -44576,6 +44569,13 @@
     "repo": "jackydangelo/obsidian-property-from-backlink"
   },
   {
+    "id": "chinese-plugin-market",
+    "name": "Chinese Market",
+    "author": "羽鳞君",
+    "description": "面向中文用户的 Obsidian 社区插件搜索工具：输入关键词即可检索并展示翻译后的插件卡片，支持 AI 语义 / 名称 / 作者搜索。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "miaoziguan/obsidian-chinese-plugin-market"
+  },
+  {
     "id": "chemedit",
     "name": "ChemEdit",
     "author": "Ruzal Sitdikov",
@@ -45239,5 +45239,26 @@
     "author": "gnowgi",
     "description": "Render nodeBook CNL knowledge graphs from nodeBook code fences: interactive concept maps, morphs, inference, containment view, and Petri-net token simulation. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gnowgi/obsidian-nodebook"
+  },
+  {
+    "id": "tasks-custom-date",
+    "name": "Tasks custom date",
+    "author": "ssjy1919",
+    "description": "Automatically write created, completion and cancelled timestamps, with custom state transitions and format templates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ssjy1919/ssjy1919-obsidian-tasks-custom-date"
+  },
+  {
+    "id": "windpost",
+    "name": "WindPost",
+    "author": "windzu",
+    "description": "Publish the current note to a blog or WeChat Official Account draft. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "windzu/windpost"
+  },
+  {
+    "id": "base-form",
+    "name": "BaseForm",
+    "author": "Tyler Carrol",
+    "description": "Create editable form views for Bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tylercarrol/obsidian-base-form"
   }
 ]
