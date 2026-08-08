@@ -17962,13 +17962,6 @@
     "repo": "hunter-ji/obsidian-easy-tracker"
   },
   {
-    "id": "colorful-note-background",
-    "name": "Colorful Note Background",
-    "author": "andresgongora",
-    "description": "Set note background based on file location or frontmatter metadata.",
-    "repo": "andresgongora/obsidian-colorful-note-background"
-  },
-  {
     "id": "workout-planner",
     "name": "Workout Planner",
     "author": "spatariurares",
@@ -43302,13 +43295,6 @@
     "repo": "newcodejin/expanded-bookmarks"
   },
   {
-    "id": "delta-sync",
-    "name": "Delta Sync",
-    "author": "Folimie U",
-    "description": "Incremental GitHub sync with writer and pull-only device roles. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "franklinnexus/obsidian-delta-sync"
-  },
-  {
     "id": "custom-badges",
     "name": "Custom Badges",
     "author": "AbbaraS",
@@ -44922,7 +44908,7 @@
     "id": "explorer-order-editor",
     "name": "Explorer Order Editor",
     "author": "vcarus",
-    "description": "Drag folders and notes into a manual order, saved as plain text inside your vault. Requires the Custom File Explorer sorting plugin to display it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Drag folders and notes into a manual order for the file explorer, stored as plain text inside your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vcarus/obsidian-explorer-order-editor"
   },
   {
@@ -44931,6 +44917,13 @@
     "author": "deanxi",
     "description": "Ask your persistent LLM Wiki with local lexical retrieval, Wikilink expansion, and traceable citations. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "deanxizian/obisidian-wiki-copilot"
+  },
+  {
+    "id": "zima-topic-sync",
+    "name": "Zima Topic Sync",
+    "author": "atopos31",
+    "description": "Sync the current Obsidian vault into a selected Zima Topic. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "atopos31/zima-topic-sync"
   },
   {
     "id": "koda-agent",
@@ -45148,5 +45141,19 @@
     "author": "Seiichi Arai",
     "description": "Creates today's daily note at a scheduled time by copying yesterday's daily note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "seiichi1101/obsidian-daily-note-carryover"
+  },
+  {
+    "id": "single-page-pdf",
+    "name": "Single Page PDF Export",
+    "author": "IO",
+    "description": "Export obsidian notes as single-page PDF without page breaks. Height is auto-calculated from content. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ilinuxio/obsidian-single-page-pdf"
+  },
+  {
+    "id": "graph-spawn",
+    "name": "Graph Spawn",
+    "author": "Taylor Scott",
+    "description": "Seeds each disconnected cluster of the graph at its own starting position, so components do not spawn on top of each other and stay tangled. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tjqscott/obsidian-graph-spawn"
   }
 ]
