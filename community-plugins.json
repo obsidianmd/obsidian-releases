@@ -24899,6 +24899,13 @@
     "repo": "352662115-hub/worklog-obsidian-plugin"
   },
   {
+    "id": "emrald",
+    "name": "Emrald",
+    "author": "Devon",
+    "description": "Track what work costs you: effort, flow, energy, and burnout risk. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "admiral9k/emrald-obsidian"
+  },
+  {
     "id": "ignoremd",
     "name": "ignoreMD",
     "author": "zhanpeng329-arch",
@@ -26752,13 +26759,6 @@
     "author": "Lumyo",
     "description": "Make the local graph show all notes connected through shared tags. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lumyo/obsidian-local-graph-tag-links"
-  },
-  {
-    "id": "yet-another-memos-sync",
-    "name": "Yet Another Memos Sync",
-    "author": "exusiaiwei",
-    "description": "Enhanced Memos sync plugin with emoji timeline and List Callout format support. Features intelligent sync, visual enhancements, and i18n support. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "exusiaiwei/yet-another-memos-sync"
   },
   {
     "id": "git-folder-sync",
@@ -38140,7 +38140,7 @@
     "name": "Ripple",
     "author": "nejm",
     "description": "A micro-journal over one vault folder: a feed of posts, threaded replies, and AI reflections. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johanmensah/obsidian-ripple"
+    "repo": "nejmlabs/obsidian-ripple"
   },
   {
     "id": "status-words",
@@ -44576,13 +44576,6 @@
     "repo": "miaoziguan/obsidian-chinese-plugin-market"
   },
   {
-    "id": "chemedit",
-    "name": "ChemEdit",
-    "author": "Ruzal Sitdikov",
-    "description": "Draw, edit, and visualize chemical structures and reactions. ChemEdit supports SMILES, MOL, and ChemDraw (CDXML) files with an integrated Ketcher editor. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ruzx/obsidian-chemedit"
-  },
-  {
     "id": "copy-outline",
     "name": "Copy Outline",
     "author": "yoav6",
@@ -44929,7 +44922,7 @@
     "id": "explorer-order-editor",
     "name": "Explorer Order Editor",
     "author": "vcarus",
-    "description": "Drag folders and notes into a manual order for the file explorer, stored as plain text inside your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Drag folders and notes into a manual order, in the file explorer itself or in a dialog. Stored as plain text inside your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vcarus/obsidian-explorer-order-editor"
   },
   {
@@ -44966,6 +44959,13 @@
     "author": "KuMoo",
     "description": "Manage monthly/yearly fixed deposits for children. Auto interest settlement, deduction, and asset chart. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kumoonet/obsidian-family-bank"
+  },
+  {
+    "id": "dayframe",
+    "name": "Dayframe",
+    "author": "Ganessh Kumar R P",
+    "description": "like a picture frame but for your daily notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ganesshkumar/obsidian-dayframe"
   },
   {
     "id": "ent-vault-command-center",
@@ -45055,7 +45055,7 @@
     "id": "single-file-section-cards",
     "name": "Single File Section Cards",
     "author": "JORDAN LONG",
-    "description": "View a single note's subsections as a set of cards. Edit, reorder, add and delete document sections graphically — ideal for single-file daily notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "View any note's subsections as a set of cards. Edit, reorder, add and delete document sections graphically. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jordanlong121/singlefilesectioncards"
   },
   {
@@ -45260,5 +45260,26 @@
     "author": "Tyler Carrol",
     "description": "Create editable form views for Bases. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tylercarrol/obsidian-base-form"
+  },
+  {
+    "id": "heading-numerals",
+    "name": "Heading Numerals",
+    "author": "ZhengYX",
+    "description": "Write, remove, show, or conceal heading numbers without losing control of your Markdown source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhyx91/obsidian-heading-numerals"
+  },
+  {
+    "id": "link-integrity",
+    "name": "Link Integrity",
+    "author": "ZhengYX",
+    "description": "Continuously find broken internal links and isolated files across your Vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhyx91/obsidian-link-integrity"
+  },
+  {
+    "id": "html-table-toolbar",
+    "name": "HTML Table Toolbar",
+    "author": "Charette-AI-Group",
+    "description": "Word-style toolbar for HTML tables: rows and columns, merged and split cells, header rows, alignment, per-row and per-column borders, and cell shading — things pipe tables cannot do. Sister plugin to HTML Font Toolbar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "charette-ai-group/html-table-toolbar"
   }
 ]
