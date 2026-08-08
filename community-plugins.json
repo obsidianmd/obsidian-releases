@@ -30233,13 +30233,6 @@
     "repo": "marcpanu/obsidian-mobile-explorer"
   },
   {
-    "id": "folder-sort",
-    "name": "Folder Sort",
-    "author": "Tomas Gutierrez",
-    "description": "Sort folders A-Z or Z-A - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "t0masgutierrez/folder-sort"
-  },
-  {
     "id": "gallery-view-dashboard",
     "name": "Gallery View Dashboard",
     "author": "Kawê Cezar",
@@ -31050,6 +31043,13 @@
     "author": "Pierre Bisiaux",
     "description": "Hide whole folders from the graph view and reveal their notes on demand by clicking a related node. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bisiaux-dev/obsidian-lore-graph"
+  },
+  {
+    "id": "tasknotes-workflows",
+    "name": "TaskNotes Workflows",
+    "author": "callumalpass",
+    "description": "Markdown-defined workflow automation for TaskNotes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "callumalpass/tasknotes-workflows"
   },
   {
     "id": "eisenhower-tasks",
@@ -31932,6 +31932,13 @@
     "author": "KulySocc",
     "description": "Open a folder in the file explorer to view its contents as a Bases-powered table of contents, with no companion note required. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kulysocc/obsidian-folder-base-view"
+  },
+  {
+    "id": "see-also-sidebar",
+    "name": "See Also Sidebar",
+    "author": "David Breece",
+    "description": "Display related notes in a sidebar view using a custom property or using notes with the same tags. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "davidbreece/obsidian-see-also-sidebar"
   },
   {
     "id": "ai-journal-coach",
@@ -42101,7 +42108,7 @@
     "id": "drawio-blocks",
     "name": "draw.io Blocks",
     "author": "dy",
-    "description": "An Obsidian plugin for editing and rendering draw.io diagrams directly inside Markdown code blocks using the hosted diagrams.net editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Edit and render draw.io diagrams directly inside Markdown code blocks using either the hosted diagrams.net editor or an optional offline editor. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "deyixtan/obsidian-drawio-blocks"
   },
   {
@@ -44576,6 +44583,13 @@
     "repo": "miaoziguan/obsidian-chinese-plugin-market"
   },
   {
+    "id": "chemedit",
+    "name": "ChemEdit",
+    "author": "Ruzal Sitdikov",
+    "description": "Draw, edit, and visualize chemical structures and reactions. ChemEdit supports SMILES, MOL, and ChemDraw (CDXML) files with an integrated Ketcher editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ruzx/obsidian-chemedit"
+  },
+  {
     "id": "copy-outline",
     "name": "Copy Outline",
     "author": "yoav6",
@@ -45269,6 +45283,20 @@
     "repo": "zhyx91/obsidian-heading-numerals"
   },
   {
+    "id": "open-to-side",
+    "name": "Open to Side",
+    "author": "Josh Sterckx",
+    "description": "Cmd+Alt+click (or a modifier of your choice) opens links in the existing tab group to the right instead of always creating a new split. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "joshsterckx/obsidian-open-to-side"
+  },
+  {
+    "id": "bonsai-almanac",
+    "name": "Bonsai Almanac",
+    "author": "Knut Hagane-Lunden",
+    "description": "Track bonsai care windows (repotting, feeding, pruning, wiring, and more) from species notes written in Markdown with frontmatter, right inside your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dotknewt/bonsai-almanac"
+  },
+  {
     "id": "link-integrity",
     "name": "Link Integrity",
     "author": "ZhengYX",
@@ -45281,5 +45309,12 @@
     "author": "Charette-AI-Group",
     "description": "Word-style toolbar for HTML tables: rows and columns, merged and split cells, header rows, alignment, per-row and per-column borders, and cell shading — things pipe tables cannot do. Sister plugin to HTML Font Toolbar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "charette-ai-group/html-table-toolbar"
+  },
+  {
+    "id": "enhanced-memos-sync",
+    "name": "Enhanced Memos Sync",
+    "author": "Mohammad Kanaan",
+    "description": "Sync memos from a Memos server into individual Markdown notes linked inside your Daily Notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mohammadkanaan/enhanced-memos-sync"
   }
 ]
