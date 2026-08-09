@@ -20944,13 +20944,6 @@
     "repo": "marekpola/obsidian-biblens"
   },
   {
-    "id": "igdb-game-search",
-    "name": "IGDB Game Search",
-    "author": "tetsuya-dev-jp",
-    "description": "Search IGDB and create game notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tetsuya-dev-jp/igdb-game-search"
-  },
-  {
     "id": "librarian",
     "name": "Librarian",
     "author": "lastratalive",
@@ -42182,13 +42175,6 @@
     "repo": "nickolay-kondratyev/obsidian-foldable-embedded-notes"
   },
   {
-    "id": "joplin-server-sync",
-    "name": "Joplin Server Sync",
-    "author": "rosswang",
-    "description": "Sync Obsidian vault with Joplin Server — bidirectional, attachments, tags, links. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yanqingwang/obsidian-joplin-server-sync"
-  },
-  {
     "id": "o-dashboard",
     "name": "O-Dashboard",
     "author": "wan",
@@ -43720,13 +43706,6 @@
     "author": "Jakob Lien",
     "description": "Replaces your text as you write, using configurable regexes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jakoblien/writing-regex-replacer"
-  },
-  {
-    "id": "vault-aquarium",
-    "name": "Vault Aquarium",
-    "author": "Ogyanuntius XIII",
-    "description": "ヴォルトの色グループ構成を、一匹のベタの姿として表示します。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ogyanuntiusxiii/vault-aquarium"
   },
   {
     "id": "margin-notes",
@@ -45311,6 +45290,13 @@
     "repo": "mohammadkanaan/enhanced-memos-sync"
   },
   {
+    "id": "hexo-send",
+    "name": "Hexo Send",
+    "author": "BeckChan",
+    "description": "Prepare Obsidian notes for Hexo, create a local commit, and push only after confirmation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fountainchan/obsidian-hexo-send"
+  },
+  {
     "id": "paper-manager",
     "name": "Paper Manager",
     "author": "Elliot Dong",
@@ -45421,5 +45407,12 @@
     "author": "kjoner",
     "description": "Sync your vault with your own self-hosted LiteSync server. End-to-end encryption, version history, and automatic three-way merge. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kjoner/litesync"
+  },
+  {
+    "id": "advanced-maps",
+    "name": "Advanced Maps",
+    "author": "Jin1c",
+    "description": "Supercharge the built-in Maps view: GPX/GeoJSON tracks drawn from note embeds, zoom-to-fit, GCJ-02/BD-09 tile alignment, inline rendering for ![[track.gpx]], and coordinates from a pasted map link, a place search or your device. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jin1c-3/obsidian-advanced-maps"
   }
 ]
