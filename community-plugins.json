@@ -19040,13 +19040,6 @@
     "repo": "barisdincer/VaultPrune"
   },
   {
-    "id": "folio",
-    "name": "Folio",
-    "author": "danigarvire",
-    "description": "Project-based long-form writing environment for books and scripts. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "danigarvire/Folio"
-  },
-  {
     "id": "lite-calendar",
     "name": "Lite Calendar",
     "author": "fengshuzi",
@@ -20935,6 +20928,13 @@
     "author": "marekpola",
     "description": "Detects Bible references, displays verse or passage text on hover, and lets you insert it into your note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "marekpola/obsidian-biblens"
+  },
+  {
+    "id": "igdb-game-search",
+    "name": "IGDB Game Search",
+    "author": "tetsuya-dev-jp",
+    "description": "Search IGDB and create game notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tetsuya-dev-jp/igdb-game-search"
   },
   {
     "id": "librarian",
@@ -40250,6 +40250,13 @@
     "repo": "einfachsj/obsidian-corvidae"
   },
   {
+    "id": "atoms",
+    "name": "Atoms",
+    "author": "Tai Hartman",
+    "description": "Classify past daily-note captures into linked atomic notes via the Anthropic API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "taihartman/obsidian-atoms"
+  },
+  {
     "id": "galley-studio",
     "name": "Galley Studio",
     "author": "CHEN",
@@ -41081,13 +41088,6 @@
     "author": "n23eos",
     "description": "Alternative graph view for large vaults with 3D visualization, clusters, PageRank and color schemes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "n23eos/advanced_graph_view"
-  },
-  {
-    "id": "mq",
-    "name": "mq",
-    "author": "Takahiro Sato",
-    "description": "Run mq (a jq-like query language for Markdown) queries directly in Obsidian: live query blocks, note/vault transforms, and editor support. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "harehare/obsidian-mq"
   },
   {
     "id": "interval-timer",
@@ -42159,6 +42159,13 @@
     "author": "Nickolay Kondratyev",
     "description": "Make embedded notes foldable in reading view and Live Preview, with a trailing-dash syntax to fold by default. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nickolay-kondratyev/obsidian-foldable-embedded-notes"
+  },
+  {
+    "id": "joplin-server-sync",
+    "name": "Joplin Server Sync",
+    "author": "rosswang",
+    "description": "Sync Obsidian vault with Joplin Server — bidirectional, attachments, tags, links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanqingwang/obsidian-joplin-server-sync"
   },
   {
     "id": "o-dashboard",
@@ -45493,6 +45500,13 @@
     "repo": "nejmlabs/Things-Pages"
   },
   {
+    "id": "study-time-statistics",
+    "name": "Study Time Statistics",
+    "author": "miss",
+    "description": "Private, local-first study analytics for notes and PDFs: sessions, streaks, heatmaps, trends, and rankings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tanzy226/obsidian-study-time-statistics"
+  },
+  {
     "id": "checkbox-progress",
     "name": "Checkbox Progress",
     "author": "Wallace Wyslas",
@@ -45584,10 +45598,31 @@
     "repo": "davidhurtadoai/visual-card-writer"
   },
   {
+    "id": "agent-review",
+    "name": "Agent Review",
+    "author": "皎琇",
+    "description": "Structured highlights, annotations, spatial notes, visual relations, and Human–AI Agent collaboration. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jiaoxiu20040903-crypto/Agent_Review"
+  },
+  {
     "id": "copy-as-zed-link",
     "name": "Copy as Zed Link",
-    "author": "Alexander Menzel",
-    "description": "Select lines in Obsidian and link them into your agent panel in Zed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "author": "Santuzius",
+    "description": "Select contents in Obsidian and link them into your agent panel in Zed. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "santuzius/copy-as-zed-link"
+  },
+  {
+    "id": "vantell",
+    "name": "Vantell",
+    "author": "Tim Goffings",
+    "description": "Connect your second brain to your team's. Colleagues discover what you know from topic labels and note counts in folders you choose — note contents never leave your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "goffiti/vantell-obsidian"
+  },
+  {
+    "id": "syncer",
+    "name": "Syncer",
+    "author": "Daniel Simpson",
+    "description": "Sync external sources like Google Tasks to your vault. More integrations to come. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "desimpson/syncer"
   }
 ]
