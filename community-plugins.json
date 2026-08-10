@@ -27324,7 +27324,7 @@
     "id": "tracekeeper",
     "name": "Tracekeeper",
     "author": "sparkwild",
-    "description": "Review AI-proposed wiki and memory updates before they reach your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Connect AI agents to your vault through a local MCP runtime for scoped recall, task tracking, source capture, and governed memory updates. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sparkwild/obsidian-tracekeeper"
   },
   {
@@ -41265,13 +41265,6 @@
     "repo": "jonmccon/obsidian-time-blocks"
   },
   {
-    "id": "myspace-tasks",
-    "name": "MySpace Tasks",
-    "author": "李向阳",
-    "description": "Send the current line or selected text to your linked MySpace task account. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hankleechn/myspace-tasks"
-  },
-  {
     "id": "swipe-words",
     "name": "Swipe Words",
     "author": "LeafChage",
@@ -43715,6 +43708,13 @@
     "repo": "jakoblien/writing-regex-replacer"
   },
   {
+    "id": "vault-aquarium",
+    "name": "Vault Aquarium",
+    "author": "Ogyanuntius XIII",
+    "description": "ヴォルトの色グループ構成を、一匹のベタの姿として表示します。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ogyanuntiusxiii/vault-aquarium"
+  },
+  {
     "id": "margin-notes",
     "name": "Margin Notes",
     "author": "Abdul Majeed",
@@ -44856,11 +44856,25 @@
     "repo": "summerdawn-ai/obsidian-file-explorer-filter"
   },
   {
+    "id": "places",
+    "name": "Places",
+    "author": "bobstanton",
+    "description": "with markers, tracks, overlays, image alignment, heatmaps, VaultQuery data, CSV and GPX imports, custom styling, charts, search, directions, and provider extensions.Create interactive maps - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places"
+  },
+  {
     "id": "drag-drop-sort",
     "name": "Drag and Drop Sort",
     "author": "singularitopian",
     "description": "Drag & drop to reorder files and folders in the File explorer, with context-menu and command-palette controls. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "summerdawn-ai/obsidian-drag-drop-sort"
+  },
+  {
+    "id": "places-openfreemap",
+    "name": "Places - OpenFreeMap",
+    "author": "bobstanton",
+    "description": "Map provider for Places using OpenFreeMap, with free vector maps and POI discovery. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-openfreemap"
   },
   {
     "id": "my-desk-sync",
@@ -45654,11 +45668,39 @@
     "repo": "emrity4/obsidian-wifi-sync"
   },
   {
+    "id": "places-environment",
+    "name": "Places - Environment",
+    "author": "bobstanton",
+    "description": "Environment provider for Places, with NOAA tides, solar events, Open-Meteo weather. Output to charts, tables, templates and maps via VaultQuery providers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-environment"
+  },
+  {
     "id": "voice-notes",
     "name": "Voice Notes",
     "author": "again",
     "description": "朗读当前笔记，或用大模型概括后朗读。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jhm531/obsidian-voice-notes"
+  },
+  {
+    "id": "places-freeroute",
+    "name": "Places - FreeRoute",
+    "author": "bobstanton",
+    "description": "Routing provider for Places using FreeRoute, with directions, isochrones, and track snapping. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-freeroute"
+  },
+  {
+    "id": "places-geoapify",
+    "name": "Places - Geoapify",
+    "author": "bobstanton",
+    "description": "Map provider for Places using Geoapify, with vector maps, POI search, elevation replacement, directions, isochrones, and track snapping. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-geoapify"
+  },
+  {
+    "id": "places-maptiler",
+    "name": "Places - MapTiler",
+    "author": "bobstanton",
+    "description": "Map provider for Places using MapTiler, with vector maps, POI search, and elevation replacement. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-maptiler"
   },
   {
     "id": "lancer-companion",
@@ -45673,5 +45715,75 @@
     "author": "huggzer",
     "description": "Turn public web pages, images, and videos into Markdown notes, securely synced to your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "huggzer-dev/reelleaf-obsidian"
+  },
+  {
+    "id": "places-mapbox",
+    "name": "Places - Mapbox",
+    "author": "bobstanton",
+    "description": "Map provider for Places using Mapbox, with vector maps, POI search, elevation replacement, directions, isochrones, and track snapping. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-mapbox"
+  },
+  {
+    "id": "places-graphhopper",
+    "name": "Places - GraphHopper",
+    "author": "bobstanton",
+    "description": "Routing provider for Places using GraphHopper, with track snapping and way details, track matching, directions, isochrones, POI search, and elevation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-graphhopper"
+  },
+  {
+    "id": "places-leaflet",
+    "name": "Places - Leaflet",
+    "author": "bobstanton",
+    "description": "Map provider for Places using Leaflet, with raster maps, custom tile layers, markers, tracks, and overlays. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-leaflet"
+  },
+  {
+    "id": "places-photon",
+    "name": "Places - Photon",
+    "author": "bobstanton",
+    "description": "Search provider for Places using Photon, with POI search over OpenStreetMap data. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-photon"
+  },
+  {
+    "id": "places-protomaps",
+    "name": "Places - Protomaps",
+    "author": "bobstanton",
+    "description": "Map provider for Places using Protomaps, with vector maps and POI discovery. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-protomaps"
+  },
+  {
+    "id": "places-stadia",
+    "name": "Places - Stadia Maps",
+    "author": "bobstanton",
+    "description": "Map provider for Places using Stadia Maps, with vector maps, POI search, elevation replacement, directions, isochrones, track snapping, and track matching. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-stadia"
+  },
+  {
+    "id": "places-openrouteservice",
+    "name": "Places - OpenRouteService",
+    "author": "bobstanton",
+    "description": "Routing provider for Places using openrouteservice, with POI search, elevation replacement, directions, isochrones, and track snapping. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-openrouteservice"
+  },
+  {
+    "id": "custom-timer",
+    "name": "Custom Timer",
+    "author": "catalyys",
+    "description": "Run interval timers from timer code blocks with sets, work and pause durations for workout or other stuff. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "catalyys/obsidian-timer"
+  },
+  {
+    "id": "places-thunderforest",
+    "name": "Places - Thunderforest",
+    "author": "bobstanton",
+    "description": "Map provider for Places using Thunderforest, with raster and vector maps, and outdoor, cycling, transport, and atlas styles. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-thunderforest"
+  },
+  {
+    "id": "dynamic-notes",
+    "name": "Dynamic Notes",
+    "author": "deadhedd",
+    "description": "Move structured Markdown blocks through your daily note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "deadhedd/dynamic-notes"
   }
 ]
