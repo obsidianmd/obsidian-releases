@@ -26442,7 +26442,7 @@
     "id": "note-ai-translator",
     "name": "L10n.dev - AI Translator",
     "author": "Anton L10n",
-    "description": "Translate notes into any of 165 languages with AI. Preserves Markdown formatting and structure. Powered by L10n.dev's AI translation API. Supports json, yaml, other plain-text formats. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Translate notes, selected text, into any of 165 languages with AI. Preserves Markdown formatting and structure. Powered by L10n.dev's AI translation API. Supports json, yaml, other plain-text formats. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "l10n-dev/obsidian-plugin-ai-translator"
   },
   {
@@ -28152,13 +28152,6 @@
     "author": "zgfdada",
     "description": "Automatically create corresponding Obsidian daily notes based on the created date in the note's frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zgfdada/created-daily-note-sync"
-  },
-  {
-    "id": "extended-embeds",
-    "name": "Extended Embeds",
-    "author": "David V. Kimball",
-    "description": "Embed rich media from GitHub, Spotify, CodePen, and more directly in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "davidvkimball/obsidian-extended-embeds"
   },
   {
     "id": "uni-calendar",
@@ -41300,13 +41293,6 @@
     "repo": "quincysx/obsidian-tracetime"
   },
   {
-    "id": "budget-app",
-    "name": "Budget Vault",
-    "author": "Ruan",
-    "description": "Personal budget dashboard — reads and writes markdown files in your vault's budget folder. Dashboard, transactions, budgets, savings, accounts, owed money, services, tax and CSV import. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ruanpienaarcode/budget-vault"
-  },
-  {
     "id": "bible-search",
     "name": "Bible Search",
     "author": "Ruan",
@@ -44849,13 +44835,6 @@
     "repo": "ledokter/obsidian-mega-sync"
   },
   {
-    "id": "pakcli-suite",
-    "name": "PakCLI Suite",
-    "author": "pakcli",
-    "description": "All-in-one suite: Symlink Manager, Asset Router, Tree Diagram, SQLSeal & Tablite CSV Editor, and Leaflet bases. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pakcli/All-Obsidian-Plugin"
-  },
-  {
     "id": "paperless-storage",
     "name": "Paperless Storage",
     "author": "Johannes Kaindl",
@@ -46000,7 +45979,35 @@
     "id": "yoga-workout-importer",
     "name": "Yoga Workout Importer",
     "author": "Konstantin Valuiskii",
-    "description": "Собирает локальную заметку тренировки из скопированного текста и личных материалов пользователя. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Compiles a local workout note from copied text and the user's personal materials. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sveekey/yoga-workout-importer"
+  },
+  {
+    "id": "tree-obs",
+    "name": "Tree Obs",
+    "author": "Yuyang",
+    "description": "Turn marked TreeChat exports into linked tree notes for graph view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kanye-shen/tree-obs"
+  },
+  {
+    "id": "gitlab-gitless-sync",
+    "name": "GitLab Gitless Sync",
+    "author": "Aleksandr Terekhin",
+    "description": "Sync a vault with a GitLab repository without requiring Git. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "terekhinao/obsidian-gitlab-sync"
+  },
+  {
+    "id": "stream-embed",
+    "name": "Stream Embed",
+    "author": "devsdocs",
+    "description": "Automatically convert pasted Spotify and YouTube links into embedded players. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "devsdocs/obsidian_media_embed"
+  },
+  {
+    "id": "tasknotes-views",
+    "name": "TaskNotes Views",
+    "author": "Dave Smith",
+    "description": "Adds project progress views to TaskNotes project notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "thisisthedave/tasknotes-views"
   }
 ]
