@@ -26082,6 +26082,13 @@
     "repo": "polleoai/gryphon"
   },
   {
+    "id": "action-deck",
+    "name": "ActionDeck",
+    "author": "tashihiki",
+    "description": "A customizable sidebar launcher that lets you run any command with a single click. Organize buttons into groups, use emoji, Lucide icons, images, or SVG as icons. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tashihiki/action-deck"
+  },
+  {
     "id": "vibgyor",
     "name": "vibgyor",
     "author": "zerodark-0",
@@ -32200,6 +32207,13 @@
     "repo": "zaemyung/yunseul"
   },
   {
+    "id": "inline-tikz",
+    "name": "Inline TikZ",
+    "author": "Lachlan Harris",
+    "description": "Render seamless TikZ, CircuiTikZ & PGFPlots LaTeX diagrams directly in your notes - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lachlanharrisdev/obsidian-inline-tikz"
+  },
+  {
     "id": "json-viewer",
     "name": "JSON Viewer",
     "author": "Viggo Meesters",
@@ -34519,7 +34533,7 @@
   {
     "id": "agentic-chat",
     "name": "Agentic Chat",
-    "author": "tardigrde",
+    "author": "Levente Csőke",
     "description": "Privacy-first agentic AI chat in the sidebar. The agent reads, searches, and edits your vault through visible tool calls, routed to zero-data-retention providers by default, or runs fully local with Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tardigrde/obsidian-agentic-chat"
   },
@@ -37147,13 +37161,6 @@
     "author": "rixct",
     "description": "Anki + LeetCode inside Obsidian: cloze deletions in code with auto-graded active recall and spaced repetition. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rixct/code-recall"
-  },
-  {
-    "id": "towrite-open-questions",
-    "name": "ToWrite Open Questions",
-    "author": "Rick",
-    "description": "Track ToThink and ToWrite annotations beside your source notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gitmorric/towrite-open-questions"
   },
   {
     "id": "step-viewer",
@@ -42952,13 +42959,6 @@
     "repo": "thomas-hochbichler/obsidian-remarkable-tagged-sync"
   },
   {
-    "id": "telegram-sync-amvera-r",
-    "name": "Telegram Sync Amvera R",
-    "author": "Victor Stupin",
-    "description": "Sync messages from Telegram bot into Obsidian, with audio transcription and  AI post-processing. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "vicstu/obsidian_telegram_sync_amvera_r"
-  },
-  {
     "id": "mm-clean-headers",
     "name": "MM Clean Headers",
     "author": "Math Math",
@@ -43832,6 +43832,13 @@
     "author": "Ben Hancock",
     "description": "Replaces today's Daily Note tab icon with a solid yellow star. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "benhancock/daily-note-icon"
+  },
+  {
+    "id": "convert-to-markdown",
+    "name": "Convert to Markdown",
+    "author": "notenerd",
+    "description": "Convert PDF, Word (.docx), PowerPoint (.pptx), Excel (.xlsx) and images to Markdown — headings, tables, lists and embedded images intact. Parsed natively: no Python, no pip, no cloud service, nothing uploaded. Local OCR reads text in images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "notenerdofficial/convert-to-markdown"
   },
   {
     "id": "merefolk",
@@ -44723,13 +44730,6 @@
     "repo": "wendao10/ai-alias"
   },
   {
-    "id": "unified-outliner",
-    "name": "Unified Outliner",
-    "author": "Kazumi Kaizuka",
-    "description": "Move, reorganize, and locally edit heading sections and list subtrees. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kazdonkai/unified-outliner"
-  },
-  {
     "id": "zvec-hybrid-search",
     "name": "ZVec Hybrid Search",
     "author": "Conor O'Neill",
@@ -45423,13 +45423,6 @@
     "repo": "zhenya-yadlovskij/obsidian-book-highlights-importer"
   },
   {
-    "id": "sircatx-toolkit",
-    "name": "Sircatx Toolkit",
-    "author": "sircatx",
-    "description": "提供阅读模式锁定、行内代码复制等可独立配置的 Obsidian 增强功能。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sircatx/sircatx-toolkit"
-  },
-  {
     "id": "glimpse",
     "name": "Glimpse",
     "author": "Sofqi",
@@ -45897,5 +45890,19 @@
     "author": "Terry Li",
     "description": "Turn tagged Markdown tasks into interactive cards with due dates, projects, labels, and recurrence, then query them as lists or an Eisenhower matrix. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "terryli710/Obsidian-TaskCard"
+  },
+  {
+    "id": "agent-dashboard",
+    "name": "Xboard",
+    "author": "wrbin",
+    "description": "A local-first workspace for notes, tasks, external information, and AI workflows. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wruibin803-jpg/Xboard"
+  },
+  {
+    "id": "agentic-vault-dashboard",
+    "name": "Agent Dashboard",
+    "author": "ripple",
+    "description": "Track AI agent workflows, Vault activity, tasks, projects, and research feeds in one dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ripple-asuna/agent-dashboard"
   }
 ]
