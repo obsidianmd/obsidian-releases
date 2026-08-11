@@ -20132,13 +20132,6 @@
     "repo": "cursivez/journalit"
   },
   {
-    "id": "direct-git-sync",
-    "name": "Direct Git Sync",
-    "author": "swekizer",
-    "description": "Sync your vault natively with a GitHub repository on both Desktop and Mobile. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "swekizer/GitHub-Sync"
-  },
-  {
     "id": "inline-tag",
     "name": "Inline Tag",
     "author": "mb-yul",
@@ -42966,6 +42959,13 @@
     "repo": "thomas-hochbichler/obsidian-remarkable-tagged-sync"
   },
   {
+    "id": "telegram-sync-amvera-r",
+    "name": "Telegram Sync Amvera R",
+    "author": "Victor Stupin",
+    "description": "Sync messages from Telegram bot into Obsidian, with audio transcription and  AI post-processing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vicstu/obsidian_telegram_sync_amvera_r"
+  },
+  {
     "id": "mm-clean-headers",
     "name": "MM Clean Headers",
     "author": "Math Math",
@@ -43589,6 +43589,13 @@
     "repo": "soulbits-vibe/obsidian-home-launcher"
   },
   {
+    "id": "inoh",
+    "name": "Inoh",
+    "author": "tai",
+    "description": "Highlights words from your Inoh vocabulary deck while you write and suggests places to use them, so you actually use what you're learning. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "taisukemino/inoh-obsidian"
+  },
+  {
     "id": "aloha",
     "name": "Aloha",
     "author": "kepano",
@@ -44105,6 +44112,13 @@
     "author": "vuecwiz",
     "description": "Compact the Border theme with aligned tabs and a status-bar menu for Ribbon actions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vuecwiz/obsidian-border-theme-compacted"
+  },
+  {
+    "id": "wordlens",
+    "name": "WordLens",
+    "author": "linfe",
+    "description": "Word translation, quick dictionary lookup and vocabulary marking - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "546335130/wordlens"
   },
   {
     "id": "yuhanbo-task",
@@ -45283,6 +45297,13 @@
     "repo": "gnowgi/obsidian-nodebook"
   },
   {
+    "id": "vault-sweep",
+    "name": "VaultSweep",
+    "author": "CosmicSeaFox",
+    "description": "Clean and maintain your vault: find duplicate files, unused attachments, empty and orphan notes, and large files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cosmicseafox/vault-sweep"
+  },
+  {
     "id": "tasks-custom-date",
     "name": "Tasks custom date",
     "author": "ssjy1919",
@@ -45918,5 +45939,26 @@
     "author": "AJ",
     "description": "Track a wine cellar by note, vintage, lot and drinking window, with dashboard, monthly and sidebar views. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "arangutambo/wine-tracker"
+  },
+  {
+    "id": "mybox-sync",
+    "name": "MYBOX Sync",
+    "author": "Hyeoncheol Choi",
+    "description": "Automatically sync a mapped folder to NAVER MYBOX (upload/rename/move/trash) with a manual pull, via the MYBOX Open API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "choihc/mybox-sync"
+  },
+  {
+    "id": "auto-navigator-pages",
+    "name": "Auto Navigator Pages",
+    "author": "Carlos Chen",
+    "description": "自动生成并维护文件夹导航页和 Home.md，支持缺失导航页创建、导航页置顶、下划线开头文件和目录沉底排序、_node 新笔记归集、排除规则、工作区快照恢复和孤立导航页清理。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ccccarlos0504/auto_navigator_pages"
+  },
+  {
+    "id": "gallery-excluder",
+    "name": "Gallery Excluder",
+    "author": "calmtea",
+    "description": "Prevent Android gallery apps from indexing images stored inside your Obsidian vault using .nomedia files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "calmtea5209/Gallery-Excluder"
   }
 ]
