@@ -20951,6 +20951,13 @@
     "repo": "oscampo/obsidian-neural-composer"
   },
   {
+    "id": "today-alias",
+    "name": "Today Alias",
+    "author": "tanoshia",
+    "description": "Shows configurable aliases (e.g. \"Today\" / \"Yesterday\") for notes with date prefix in the file explorer. Hides date prefixes from all other notes. Sort order is preserved. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tanoshia/obsidian-today-alias"
+  },
+  {
     "id": "rhino-pdf-export",
     "name": "Rhino PDF Export",
     "author": "degun-osint",
@@ -26472,13 +26479,6 @@
     "author": "Manex",
     "description": "Local AI brain for your Obsidian vault. Indexes all your notes and answers questions privately using a local Apple Silicon MLX model — no cloud, no API keys. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "krcnow/manex-brain"
-  },
-  {
-    "id": "ai-wiki",
-    "name": "AI Wiki",
-    "author": "Ilya",
-    "description": "AI-powered compoundable knowledge base — extracts, synthesizes and maintains a wiki from raw sources. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ikeniborn/obsidian-llm-wiki"
   },
   {
     "id": "copy-highlighter",
@@ -32086,6 +32086,13 @@
     "author": "kkbin505",
     "description": "A Tomato timer with sidebar view, status bar display, OS notifications, and work session logging. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kkbin505/tomato-clock-plugin"
+  },
+  {
+    "id": "personal-life-system",
+    "name": "Life OS Assistant",
+    "author": "Xiaoqiang Huang",
+    "description": "Organize diary entries, tasks, knowledge, memory, and AI-assisted reviews inside your Obsidian vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xiaoqiang-huang/obsidian-life-os-community"
   },
   {
     "id": "logcollector",
@@ -40904,7 +40911,7 @@
     "id": "checkbox-status",
     "name": "Checkbox Status",
     "author": "emklasson",
-    "description": "Show checked and total checkbox counts in the status bar and/or a separate view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Show checked and total checkbox counts in the status bar and/or a separate view. Use commands to cycle lines through custom sets of checkbox states. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "emklasson/obsidian-checkbox-status"
   },
   {
@@ -44107,13 +44114,6 @@
     "repo": "vuecwiz/obsidian-border-theme-compacted"
   },
   {
-    "id": "wordlens",
-    "name": "WordLens",
-    "author": "linfe",
-    "description": "Word translation, quick dictionary lookup and vocabulary marking - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "546335130/wordlens"
-  },
-  {
     "id": "yuhanbo-task",
     "name": "Yuhanbo Task",
     "author": "yuhanbo",
@@ -44590,13 +44590,6 @@
     "repo": "jackydangelo/obsidian-property-from-backlink"
   },
   {
-    "id": "chinese-plugin-market",
-    "name": "Chinese Market",
-    "author": "羽鳞君",
-    "description": "面向中文用户的 Obsidian 社区插件搜索工具：输入关键词即可检索并展示翻译后的插件卡片，支持 AI 语义 / 名称 / 作者搜索。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "miaoziguan/obsidian-chinese-plugin-market"
-  },
-  {
     "id": "chemedit",
     "name": "ChemEdit",
     "author": "Ruzal Sitdikov",
@@ -44821,18 +44814,18 @@
     "repo": "din-es/obsidian-decision-ledger"
   },
   {
+    "id": "nanalstamp",
+    "name": "nanalStamp",
+    "author": "HanSeop Kwak",
+    "description": "Seals each note with a tamper-proof, content-private timestamp anchored to Bitcoin — day by day. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hskwak82/nanalstamp-obsidian"
+  },
+  {
     "id": "yuhanbo-python-runner",
     "name": "Yuhanbo Python Runner",
     "author": "yuhanbo",
     "description": "Run Python code blocks with a local interpreter and view their output inside your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuhanbo758/obsidian-yuhanbo-python"
-  },
-  {
-    "id": "web-clippers",
-    "name": "Smart Web Clipper",
-    "author": "JC5",
-    "description": "网页剪藏：粘贴链接即可将网页内容保存为 Markdown 笔记，自动去除广告、导航栏、页脚等无关内容，保留原文排版。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gibsonchan-5/obsidian-web-clippers"
   },
   {
     "id": "note-status-checkbox",
@@ -45936,7 +45929,7 @@
   {
     "id": "foxycape-pdf",
     "name": "Foxycape PDF",
-    "author": "Foxycape",
+    "author": "jansxue",
     "description": "Embed Foxycape PDF reader in Obsidian with annotation sync. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "foxycape/obsidian-pdf"
   },
@@ -45995,5 +45988,19 @@
     "author": "Giacomo D’angelo",
     "description": "Convert selected CSV text into a Markdown table. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jackydangelo/obsidian-csv-to-table"
+  },
+  {
+    "id": "mark-and-link",
+    "name": "Mark e Link",
+    "author": "Giovanni Cinque",
+    "description": "Visually highlights selected text and converts it into a clickable internal link. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wgg2bhccq2-afk/obsidian-mark-and-link"
+  },
+  {
+    "id": "publora",
+    "name": "Publora",
+    "author": "Publora",
+    "description": "Publish or schedule the current note to LinkedIn, X, Instagram, Threads, TikTok, YouTube, Facebook, Bluesky, Mastodon and Telegram. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "publora/obsidian-publora"
   }
 ]
