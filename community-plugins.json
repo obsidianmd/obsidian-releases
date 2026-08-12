@@ -27282,7 +27282,7 @@
     "id": "vaultguard-sync",
     "name": "VaultGuard Sync",
     "author": "Peter Sedmak",
-    "description": "Permission-aware encrypted cloud sync for enterprise vaults. Enforces per-file permissions, E2E encryption, and full audit logging through AWS. Replaces standard cloud sync. Desktop + mobile supported - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Permission-aware encrypted cloud sync for teams. Client-side encryption with KMS-backed server-managed keys, per-file permissions, and full audit logging through AWS. Desktop + mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "peter70700/vaultguard-obsidian"
   },
   {
@@ -30455,13 +30455,6 @@
     "author": "Baka",
     "description": "Fullscreen scratchpad that allows for freehand annotations directly over Markdown files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mikuloverfan/draft-paper"
-  },
-  {
-    "id": "plugin-name-locker",
-    "name": "Custom Extension Names",
-    "author": "AQiong 阿琼",
-    "description": "Customize the display names of your installed plugins and optionally keep them unchanged across updates. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "agarcabin/plugin-name-locker"
   },
   {
     "id": "project-view",
@@ -45703,6 +45696,13 @@
     "repo": "leoray1990/obsidian-folder-column-navigator"
   },
   {
+    "id": "notes-wifi-sync",
+    "name": "Notes WiFi Sync",
+    "author": "Emran Seid",
+    "description": "Two-way sync of a chosen folder (or whole vault) between Obsidian vaults over WiFi. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "emrity4/obsidian-wifi-sync"
+  },
+  {
     "id": "places-environment",
     "name": "Places - Environment",
     "author": "bobstanton",
@@ -46111,8 +46111,8 @@
   {
     "id": "knowledge-brain",
     "name": "Knowledge Brain",
-    "author": "Stefan Stefan",
-    "description": "Turn markdown notes into a connected knowledge graph (DAG) with streaming AI chat. DeepSeek, OpenAI, Gemini, Claude — AI-suggested links, tags, statuses, and follow-up questions. Local BM25 search, no embeddings needed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "author": "Kerekes Stefan",
+    "description": "Turn markdown notes into a connected knowledge graph with streaming AI chat. DeepSeek, OpenAI, Gemini, Claude — AI-suggested links, tags, statuses, and follow-up questions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "stef4678/knowledge-brain"
   },
   {
@@ -46149,6 +46149,13 @@
     "author": "Lam Phuc Hai",
     "description": "Record backtest and live trades with plans, statistics, images, and an economic calendar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hailp-vn38/trader-journal-plugin"
+  },
+  {
+    "id": "tasks-bridge",
+    "name": "Tasks Bridge",
+    "author": "Haiqiang Zhang",
+    "description": "Tasks Bridge is an integration layer for connecting Obsidian with external task-management services, currently supporting Todoist with more backends planned. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haiqiang-zhang/obsidian-tasks-bridge-plugin"
   },
   {
     "id": "strip-images",
