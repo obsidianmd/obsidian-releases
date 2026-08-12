@@ -11811,7 +11811,7 @@
   {
     "id": "system3-relay",
     "name": "Relay",
-    "author": "no-instructions",
+    "author": "Relay.md",
     "description": "Collaborate in real time with live cursors. Share folders. Manage access to updates.",
     "repo": "no-instructions/Relay"
   },
@@ -35322,6 +35322,13 @@
     "repo": "erykjj/traverture"
   },
   {
+    "id": "bible-study",
+    "name": "Bible Study",
+    "author": "linkongren",
+    "description": "圣经研读助手 — 快速引用经文、圣经阅读面板，支持和合本 (CUV) - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "linkongren/obsidian-bible-study"
+  },
+  {
     "id": "pdf-scholia-scribe",
     "name": "PDF Scholia Scribe",
     "author": "michellegdyason",
@@ -36715,13 +36722,6 @@
     "repo": "rcanand/obsidian-one-file"
   },
   {
-    "id": "journal-partner",
-    "name": "Journal Partner",
-    "author": "zhaohongxuan",
-    "description": "Highlight timestamps in your Journal section, capture quick notes, images, and audio from a sidebar, dictate with real-time speech-to-text, and review your year with a heatmap. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zhaohongxuan/journal-partner"
-  },
-  {
     "id": "pivi",
     "name": "Pivi",
     "author": "shuuul",
@@ -37588,13 +37588,6 @@
     "author": "msnp",
     "description": "Expose local MCP tools to search, read, and append confirmed change notes in a project vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "msnp1381/mcp-notes-tools"
-  },
-  {
-    "id": "heading-aligner",
-    "name": "H1Aligner",
-    "author": "Aiken Lin",
-    "description": "Keep note filenames aligned with the first H1 — automatically and safely. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "aiken884/obsidian-h1aligner"
   },
   {
     "id": "obsyncian",
@@ -44789,7 +44782,7 @@
     "id": "nanalstamp",
     "name": "nanalStamp",
     "author": "HanSeop Kwak",
-    "description": "Seals each note with a tamper-proof, content-private timestamp anchored to Bitcoin — day by day. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Seals each note with a tamper-proof, content-private timestamp anchored to Bitcoin — proof of existence and an unbroken edit history for your research notes, day by day. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hskwak82/nanalstamp-obsidian"
   },
   {
@@ -46037,5 +46030,26 @@
     "author": "Axel Rea Eklund",
     "description": "A straightforward, easy-to-use flashcard quizzer and editor that uses standard CSV files. Features native compatibility with NotebookLM exports and skips the complicated spaced repetition for a no-fuss study experience. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "axelreaeklund/csv-flashcard-obsidian-plugin"
+  },
+  {
+    "id": "hemi-sync-helper",
+    "name": "Hemi-Sync Helper",
+    "author": "Dylan Wright",
+    "description": "Log Hemi-Sync and Gateway Experience meditation sessions into your daily note — wave and track pickers, focus levels that fill themselves in, and an embeddable one-tap button. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dyllonwright/Hemi-Sync-Helper"
+  },
+  {
+    "id": "gallery-navigator",
+    "name": "Gallery Navigator",
+    "author": "groundfic",
+    "description": "Visual vault navigator: folder/tag tree with a cover-image card wall, full-text search (including PDFs), image quick-look, and link preview cards. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "groundfic/obsidian-gallery-navigator"
+  },
+  {
+    "id": "bullet-depth-markers",
+    "name": "Bullet Depth Markers",
+    "author": "michael-5653",
+    "description": "Keeps unordered list markers (-, *, +) in sync with nesting depth, both in the file and on screen. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "michaelnguyen5653/Bullet-Depth-Markers"
   }
 ]
