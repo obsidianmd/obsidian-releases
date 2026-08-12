@@ -45650,7 +45650,7 @@
     "id": "syncer",
     "name": "Syncer",
     "author": "Daniel Simpson",
-    "description": "Sync external sources like Google Tasks to your vault. More integrations to come. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync references/links to Google Tasks, Gmail Starred, Microsoft To Do, Outlook flagged mail, Azure DevOps work items, and Firefox Bookmarks into your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "desimpson/syncer"
   },
   {
@@ -46051,5 +46051,12 @@
     "author": "Hiroshi Watanabe",
     "description": "Render guitar fretboard diagrams from lightweight YAML in fenced code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hiroshi-watanabe/fretboard-renderer"
+  },
+  {
+    "id": "zettelcasting",
+    "name": "ZettelCasting",
+    "author": "Dayne Daniell",
+    "description": "Publish and schedule notes from your vault to your connected social platforms via the ZettelCasting service. Linked and embedded notes are pulled in, so the post stands on its own. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "daynedaniell/zettelcasting-plugin"
   }
 ]
