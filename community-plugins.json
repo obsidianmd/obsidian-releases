@@ -24997,13 +24997,6 @@
     "repo": "ialex32x/ai-note-mate"
   },
   {
-    "id": "sheet-music",
-    "name": "Sheet Music",
-    "author": "corecube",
-    "description": "Render ABC notation, strumming patterns, and chord sheets inside notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "corecube/obsidian-sheet-music"
-  },
-  {
     "id": "image-zoom",
     "name": "Image Zoom",
     "author": "liominsb",
@@ -42507,7 +42500,7 @@
     "id": "silica-bridge",
     "name": "Silica Bridge",
     "author": "Kiycoh",
-    "description": "Chat with the Silica knowledge-graph agent and let it read and edit your vault, over a local (loopback-only) WebSocket bridge. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A panel that tells you what your vault already knows about the note you have open: which notes are about the same thing, which say it twice, which links point at nothing and more. No LLM  necessary. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kiycoh/obsidian-silica"
   },
   {
@@ -42782,13 +42775,6 @@
     "author": "Ampdat",
     "description": "Convert a PDF into clean, readable Markdown entirely on your device. Figures, tables, and math survive. No API key, no upload, no page limit. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ampdat/reflow"
-  },
-  {
-    "id": "mindmap-mode",
-    "name": "Mindmap Mode",
-    "author": "edolon_phantom",
-    "description": "Toggle any note into an editable, radial mind map in the same tab. Every edit writes straight back to the original note, and no new files are ever created. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "phantom-nw/obsidian-mindmap-mode"
   },
   {
     "id": "palette-vault",
@@ -46443,5 +46429,12 @@
     "author": "Evan Steinhilb",
     "description": "Open a note or folder as an md2hd map. Frontmatter becomes nodes, wikilinks become edges. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "evan-steinhilb/md2hd-obsidian"
+  },
+  {
+    "id": "omnidrive",
+    "name": "OmniDrive",
+    "author": "chubby",
+    "description": "Synchronize your vault with Google Drive using a privacy-first BYOK architecture. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chubbyy/omnidrive"
   }
 ]
