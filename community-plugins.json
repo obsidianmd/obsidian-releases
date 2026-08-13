@@ -19054,13 +19054,6 @@
     "repo": "fengshuzi/image-viewer"
   },
   {
-    "id": "file-commander",
-    "name": "File Commander",
-    "author": "fengshuzi",
-    "description": "Batch file operations - select, delete, move, tag, rename images, find broken links and orphan notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "fengshuzi/file-commander"
-  },
-  {
     "id": "quick-page",
     "name": "Quick Page",
     "author": "fengshuzi",
@@ -43449,13 +43442,6 @@
     "repo": "aipyer/bitfield"
   },
   {
-    "id": "crisp-annotations",
-    "name": "Crisp Annotations",
-    "author": "letschips",
-    "description": "Adds hand-drawn arrows and handwritten notes to inline Markdown highlights. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hervepotato/crisp-annotations"
-  },
-  {
     "id": "window-spaces",
     "name": "Window Spaces",
     "author": "Edward Hsieh",
@@ -45458,13 +45444,6 @@
     "repo": "kjoner/litesync"
   },
   {
-    "id": "fleurpilot",
-    "name": "FleurPilot",
-    "author": "JC5",
-    "description": "AI writing companion — chat, inline editing, and writing assistance - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gibsonchan-5/fleurpilot"
-  },
-  {
     "id": "advanced-maps",
     "name": "Advanced Maps",
     "author": "Jin1c",
@@ -46021,7 +46000,7 @@
     "id": "papercraft",
     "name": "PaperCraft",
     "author": "JC5",
-    "description": "客制化稿纸样式，提供多种优质模板，支持纸张质感、条纹、颜色、字体排版和绘图标注功能 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "客制化稿纸样式，提供多种优质模板，支持纸张质感、条纹、颜色、字体排版客制化功能。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gibsonchan-5/PaperCraft"
   },
   {
@@ -46296,5 +46275,33 @@
     "author": "Quan Nguyen",
     "description": "Interactive single, multiple, matching, and ordering quizzes from YAML code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "quannh-netalik/quizcraft"
+  },
+  {
+    "id": "lure",
+    "name": "Lure",
+    "author": "elypter",
+    "description": "Shows a clickable, editable breadcrumb of the vault path in each note's header, like a Dolphin file manager address bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gelaende51/obsidian-lure"
+  },
+  {
+    "id": "covault",
+    "name": "Covault",
+    "author": "Jakob He",
+    "description": "Team knowledge base client — share, consume, and evolve your company's knowledge through silently synced shared folders. An LLM agent handles all the git plumbing so you never have to. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leweii/covault"
+  },
+  {
+    "id": "latest-mathjax",
+    "name": "Latest MathJax",
+    "author": "华佳浩",
+    "description": "Render math with a bundled, up-to-date MathJax 4 engine, without replacing Obsidian's built-in MathJax. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "danlingdan/fastMathJax"
+  },
+  {
+    "id": "canvas-image-lod",
+    "name": "Canvas Image LOD",
+    "author": "Ilia Gorbunov",
+    "description": "Swaps large canvas images for downscaled proxies based on zoom level, removing zoom lag on image-heavy boards. Originals are never modified. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "seadhe/obsidian-canvas-image-lod"
   }
 ]
