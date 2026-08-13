@@ -15512,13 +15512,6 @@
     "repo": "stracker-phil/obsidian-mention-things"
   },
   {
-    "id": "note-sync",
-    "name": "Note Sync",
-    "author": "zigholding",
-    "description": "Sync notes or plugins between vaults.",
-    "repo": "zigholding/obsidian-notesync-plugin"
-  },
-  {
     "id": "white-noise",
     "name": "White Noise",
     "author": "zhouhua",
@@ -33873,13 +33866,6 @@
     "repo": "hata-suriiken/obsidian-mobile-pinch-zoom"
   },
   {
-    "id": "buddybridge",
-    "name": "BuddyBridge",
-    "author": "BuddyBridge",
-    "description": "在 Obsidian 中与 WorkBuddy/CodeBuddy 聊天，多轮对话，流式输出。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ben4202121/buddybridge"
-  },
-  {
     "id": "vault-lens",
     "name": "Vault Lens",
     "author": "suzhan",
@@ -44555,6 +44541,13 @@
     "repo": "jackydangelo/obsidian-property-from-backlink"
   },
   {
+    "id": "chinese-plugin-market",
+    "name": "Chinese Market",
+    "author": "羽鳞君",
+    "description": "面向中文用户的 Obsidian 社区插件搜索工具：输入关键词即可检索并展示翻译后的插件卡片，支持 AI 语义 / 名称 / 作者搜索。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "miaoziguan/obsidian-chinese-plugin-market"
+  },
+  {
     "id": "vault-orrery",
     "name": "Vault Orrery",
     "author": "Elliott Park",
@@ -45640,6 +45633,13 @@
     "repo": "davidhurtadoai/visual-card-writer"
   },
   {
+    "id": "spin-the-wheel",
+    "name": "Spin The Wheel",
+    "author": "Alessandro Vettorel",
+    "description": "An interactive spinning wheel with sounds, to randomly pick from a list of options. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "avettorel71/spin-the-wheel"
+  },
+  {
     "id": "agent-review",
     "name": "Agent Review",
     "author": "皎琇",
@@ -46161,7 +46161,7 @@
     "id": "hop-link-viewer",
     "name": "Hop-Link Viewer",
     "author": "sk-obsidian",
-    "description": "Suggest wiki-linked notes up to N hops from an anchor note - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Suggest indirectly linked notes up to N-hops from an anchor note - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sunwookwak-polisci/Hop-Link-Viewer"
   },
   {
@@ -46277,9 +46277,16 @@
     "repo": "quannh-netalik/quizcraft"
   },
   {
+    "id": "extra-info-inserter",
+    "name": "Extra Info Inserter",
+    "author": "gbt777",
+    "description": "自动统计笔记的字数、图片数量和阅读用时，支持自定义文案和 Frontmatter 字段策略。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gbt777/extra-info-inserter"
+  },
+  {
     "id": "lure",
     "name": "Lure",
-    "author": "elypter",
+    "author": "Vault51",
     "description": "Shows a clickable, editable breadcrumb of the vault path in each note's header, like a Dolphin file manager address bar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gelaende51/obsidian-lure"
   },
@@ -46298,10 +46305,38 @@
     "repo": "danlingdan/fastMathJax"
   },
   {
+    "id": "gantt-this",
+    "name": "Gantt this",
+    "author": "Altarok",
+    "description": "Proof of concept for TTRPG Gantt timeline - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "altarok/gantt-this"
+  },
+  {
     "id": "canvas-image-lod",
     "name": "Canvas Image LOD",
     "author": "Ilia Gorbunov",
     "description": "Swaps large canvas images for downscaled proxies based on zoom level, removing zoom lag on image-heavy boards. Originals are never modified. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "seadhe/obsidian-canvas-image-lod"
+  },
+  {
+    "id": "atomic-tracker",
+    "name": "Atomic Tracker",
+    "author": "Justin",
+    "description": "Track exercise and hobbies with heatmaps, cues, timers, and a daily dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "justinw0ng/obsidian-atomic"
+  },
+  {
+    "id": "bases-plus",
+    "name": "Bases Plus",
+    "author": "김동현",
+    "description": "Adds timeline, calendar and graph views to Bases, plus paging, group controls, manual ordering and configurable open targets in an enhanced table view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kim109238/obsidian-bases-plus"
+  },
+  {
+    "id": "mesh-sync",
+    "name": "MeshSync",
+    "author": "此沐",
+    "description": "Server-free LAN sync with automatic discovery, encrypted transfer, and sub-second updates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cimu233/obsidian-mesh-sync"
   }
 ]
