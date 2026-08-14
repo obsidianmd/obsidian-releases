@@ -22631,13 +22631,6 @@
     "repo": "timobechtel/obsidian-block-view"
   },
   {
-    "id": "ttrpg-tools-publish",
-    "name": "TTRPG Tools - Publish",
-    "author": "Johannes Schwartz",
-    "description": "Generates publish.js/publish.css and a publish-assets manifest for TTRPG Tools: Maps (Zoom Map). - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jareika/TTRPG-Tools-Publish"
-  },
-  {
     "id": "flow-state",
     "name": "Flowstate",
     "author": "findflowstate",
@@ -26999,6 +26992,13 @@
     "repo": "elmoneedsarson/Obsidian-3D-embed"
   },
   {
+    "id": "zoom-map",
+    "name": "TTRPG Tools - Maps",
+    "author": "Johannes Schwartz",
+    "description": "A toolbox for interactive fantasy maps. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jareika/zoom-map"
+  },
+  {
     "id": "ttrpg-soundboard",
     "name": "TTRPG Tools - Soundboard",
     "author": "Johannes Schwartz",
@@ -27018,6 +27018,13 @@
     "author": "Johannes Schwartz",
     "description": "Timeline-Renderer für Calendarium-Frontmatter (fc-date/fc-end). 200×315 Bild, Callout-Stil, native Popover, mobilfreundlich. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jareika/Simple-Timeline"
+  },
+  {
+    "id": "ttrpg-tools-time",
+    "name": "TTRPG Tools - Time",
+    "author": "Johannes Schwartz",
+    "description": "Fantasy calendar with timeline view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jareika/ttrpg-tools-time"
   },
   {
     "id": "swaggerjson-to-markdown",
@@ -32977,13 +32984,6 @@
     "repo": "bagoftips/rpg-levelling"
   },
   {
-    "id": "giganttix",
-    "name": "Giganttix",
-    "author": "GRoY",
-    "description": "Simple Gantt Chart based on task notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ali3ngr2/Giganttix"
-  },
-  {
     "id": "task-journal-checkbox-sink",
     "name": "Task Journal Checkbox Sink",
     "author": "inciyang2022-a11y",
@@ -34410,6 +34410,13 @@
     "author": "Ori Kabeli",
     "description": "Publish a note to Google Docs and keep the two in two-way sync, auto-merging changes and surfacing real conflicts. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kwanum/obsidian-docs-sync"
+  },
+  {
+    "id": "audio-inbox",
+    "name": "Audio Inbox",
+    "author": "Andsea",
+    "description": "One-click voice recording → Speech-to-Text → AI summarization. Works on desktop & mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andsea007/obsidian-audio-inbox"
   },
   {
     "id": "dbml-erd",
@@ -41398,13 +41405,6 @@
     "repo": "lavich/domorium-obsidian"
   },
   {
-    "id": "ogenda",
-    "name": "Ogenda",
-    "author": "jiang198012",
-    "description": "Two-way calendar sync (CalDAV/iCloud) with an agenda view. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jiang198012/ogenda"
-  },
-  {
     "id": "quizzable",
     "name": "Quizzable",
     "author": "Ashly Lorenzana",
@@ -46604,5 +46604,19 @@
     "author": "jakdab",
     "description": "Highlights a note in the graph view when you hover over it in the file explorer — or every note in a folder when you hover the folder. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jakdab/obsidian-graph-files-highlight-sync"
+  },
+  {
+    "id": "note-zoom",
+    "name": "Note Zoom",
+    "author": "Fusioncorn",
+    "description": "Zoom note content with Ctrl+Scroll, per-tab memory, sidebar unaffected. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fusionc0rn/obsidian-note-zoom"
+  },
+  {
+    "id": "ttrpg-tools-controls",
+    "name": "TTRPG Tools - Controls",
+    "author": "Johannes Schwartz",
+    "description": "Configurable control center for the TTRPG Tools plugin suite. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jareika/ttrpg-tools-controls"
   }
 ]
