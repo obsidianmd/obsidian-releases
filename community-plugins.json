@@ -7350,13 +7350,6 @@
     "repo": "pbrw/obsidian-size-history"
   },
   {
-    "id": "zettelflow",
-    "name": "ZettelFlow",
-    "author": "rafaelgb",
-    "description": "Create and manage your notes in a Zettelkasten way via Canvas.",
-    "repo": "rafaelgb/Obsidian-ZettelFlow"
-  },
-  {
     "id": "excel",
     "name": "Excel",
     "author": "ljcoder",
@@ -9028,13 +9021,6 @@
     "author": "vran-dev",
     "description": "Generate an interactive heatmap to visualize and track your productivity.",
     "repo": "vran-dev/obsidian-contribution-graph"
-  },
-  {
-    "id": "journals",
-    "name": "Journals",
-    "author": "srg-kostyrko",
-    "description": "Manage your journals.",
-    "repo": "srg-kostyrko/obsidian-journal"
   },
   {
     "id": "mathematica-plot",
@@ -37247,6 +37233,13 @@
     "repo": "zqdejob/obsidian-plugin-helper"
   },
   {
+    "id": "trellis",
+    "name": "Trellis",
+    "author": "CocaPls",
+    "description": "Sync a hierarchical location tag (source of truth) into the filename prefix (tagkey). Cascade rename, sidebar tree view, vault bootstrap, and separator batch-change — all link-safe. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cocapls/obsidian-trellis"
+  },
+  {
     "id": "excalidraw-stylus-menu",
     "name": "Excalidraw Stylus Menu",
     "author": "avtarasov210",
@@ -43974,13 +43967,6 @@
     "repo": "obsidian-power-plugins/obsidian-power-explorer"
   },
   {
-    "id": "tufte-figures",
-    "name": "Tufte Figures",
-    "author": "PleiadesM",
-    "description": "Drop-to-insert Tufte-style figures: column, full-width, and margin figures with captions, size adjustment, multi-image rows, an image-quilt generator, click-to-enlarge, edit-at-cursor, and auto-numbered clickable references. Renders in Reading view. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pleiadesm/Tufte-Sidenotes"
-  },
-  {
     "id": "auto-remove",
     "name": "Auto Remove",
     "author": "Reza Bahinkor",
@@ -44016,13 +44002,6 @@
     "repo": "heidihelena/obsidian-study-familiar"
   },
   {
-    "id": "tufte-backlinks",
-    "name": "Tufte Backlinks",
-    "author": "PleiadesM",
-    "description": "Renders Linked/Unlinked mention snippets as formatted Markdown in the Backlinks pane and the in-document backlinks block. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pleiadesm/Tufte-Backlinks"
-  },
-  {
     "id": "toon-syntax",
     "name": "TOON Syntax Highlight",
     "author": "Sebastián Salas",
@@ -44030,25 +44009,11 @@
     "repo": "sebasalas/obsidian-toon-syntax"
   },
   {
-    "id": "tufte-inline",
-    "name": "Tufte Inline",
-    "author": "PleiadesM",
-    "description": "Inline typography shorthands rendered in Reading view and Live Preview: ^^text^^ for a small-caps new-thought opener, &&text&& for an italic run-in lead-in, and @@字@@ for a two-line CJK drop cap (首字下沉). Styling is provided by the Tufte theme. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pleiadesm/Tufte-Inline"
-  },
-  {
     "id": "yaaiop",
     "name": "Yaaiop",
     "author": "Nicolas Sassi",
     "description": "Chat with an AI model about your vault. API-only and mobile-friendly, with optional Smart Connections semantic search. Read-only. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nicolasassi/yaaiop"
-  },
-  {
-    "id": "tufte-sidenotes",
-    "name": "Tufte Sidenotes",
-    "author": "PleiadesM",
-    "description": "Renders Tufte sidenotes and marginnotes in Reading view while keeping the editor single-column. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pleiadesm/Tufte-Sidenote"
   },
   {
     "id": "flow-writer",
@@ -44728,13 +44693,6 @@
     "author": "文刀十寸",
     "description": "Mask sensitive names in your notes with custom aliases before sending text to an AI, then restore them on the AI's reply. Your mapping table never leaves your machine. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wendao10/ai-alias"
-  },
-  {
-    "id": "unified-outliner",
-    "name": "Unified Outliner",
-    "author": "Kazumi Kaizuka",
-    "description": "Move, reorganize, and locally edit heading sections and list subtrees. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kazdonkai/unified-outliner"
   },
   {
     "id": "zvec-hybrid-search",
@@ -45428,6 +45386,13 @@
     "author": "Evgeniy Yadlovskiy",
     "description": "Import book highlights and notes into managed Markdown sections. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhenya-yadlovskij/obsidian-book-highlights-importer"
+  },
+  {
+    "id": "sircatx-toolkit",
+    "name": "Sircatx Toolkit",
+    "author": "sircatx",
+    "description": "提供阅读模式锁定、行内代码复制等可独立配置的 Obsidian 增强功能。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sircatx/sircatx-toolkit"
   },
   {
     "id": "glimpse",
@@ -46497,7 +46462,7 @@
     "id": "amoeba",
     "name": "Amoeba",
     "author": "Gregory Manni",
-    "description": "Adds a living organism to Graph view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Adds a living organism to Graph view. The \"Amoeba\" grabs on to your notes as it moves around the global graph, creating a unique dynamic visual. It can scan your vault for broken links too. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gregorymanni/Amoeba"
   },
   {
@@ -46513,5 +46478,19 @@
     "author": "awesomedog",
     "description": "Search the current vault through a managed local Soma server. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "awesomedog/obsidian-soma-search"
+  },
+  {
+    "id": "edit-history-heatmap",
+    "name": "Edit History Heatmap",
+    "author": "mimo",
+    "description": "Like the github contribution graph but for obsidian edits, works on edits before you installed it too. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "keptan/obsidian-activity-heatmap"
+  },
+  {
+    "id": "discord-emoji-picker",
+    "name": "Discord Emoji Picker",
+    "author": "kuroTheDev",
+    "description": "Discord-style emoji and sticker picker that reads images from folders in your vault, fully offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kurothecoder/DiscordEmojiPicker"
   }
 ]
