@@ -30730,13 +30730,6 @@
     "repo": "lumargh/obsidian-date-list"
   },
   {
-    "id": "apex-dashboard",
-    "name": "Apex Dashboard",
-    "author": "PandoraReads",
-    "description": "Your personal command center — memos, todos, and projects in one stunning glassmorphism dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pandorareads/apex-dashboard"
-  },
-  {
     "id": "echo-notes",
     "name": "Echo Notes",
     "author": "anbang278",
@@ -42941,7 +42934,7 @@
     "id": "remarkable-tagged-sync",
     "name": "Tagged Sync for reMarkable",
     "author": "Thomas Hochbichler",
-    "description": "Sync tagged reMarkable notebooks as searchable Markdown notes, routed to folders by tag. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync tagged reMarkable notebooks and PDFs as searchable Markdown, routed to folders by tag. Handwriting transcribed on your own machine, highlights quoted. One-way; nothing is written back. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "thomas-hochbichler/obsidian-remarkable-tagged-sync"
   },
   {
@@ -45878,6 +45871,13 @@
     "repo": "bobstanton/places-utilities"
   },
   {
+    "id": "vicinity-graph",
+    "name": "Vicinity Graph",
+    "author": "Nickolay Kondratyev",
+    "description": "A richer local graph of the notes near your active note — a folder-grouped alternative to the built-in local graph. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nickolay-kondratyev/obsidian-vicinity-graph-plugin"
+  },
+  {
     "id": "places-valhalla",
     "name": "Places - Valhalla",
     "author": "bobstanton",
@@ -45897,13 +45897,6 @@
     "author": "bobstanton",
     "description": "Search provider for Places using Nominatim and OpenStreetMap, with free geocoding and POI search. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bobstanton/places-nominatim"
-  },
-  {
-    "id": "notecolab",
-    "name": "Note Colab",
-    "author": "felixleopold",
-    "description": "Share encrypted notes and collaborate live in Obsidian or the browser - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "felixleopold/notecolab"
   },
   {
     "id": "task-card",
@@ -46763,7 +46756,7 @@
     "id": "dsh-harness",
     "name": "DeepSeek Harness",
     "author": "cloudhjx",
-    "description": "在 Obsidian 中打开 DeepSeek Harness 界面（内嵌 Web GUI，自动启动服务） - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "内嵌 DeepSeek Harness Web GUI，一键安装、自动启动、静默后台运行，即开即用。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hjxcloud-tech/dsh-harness"
   },
   {
@@ -46781,10 +46774,38 @@
     "repo": "michaelnguyen5653/feel-the-notion"
   },
   {
+    "id": "weak-link-auditor",
+    "name": "Weak Link Auditor",
+    "author": "Kerekes Stefan",
+    "description": "A shiny dashboard that surfaces notes connected by only one link and unlinked mentions, prompting you to strengthen your graph. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stef4678/weak-link-auditor"
+  },
+  {
     "id": "dark-pdf-export",
     "name": "Dark PDF Export",
     "author": "Alex",
     "description": "Export notes as clean dark-mode PDFs using the native PDF exporter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zazencodes/obsidian-dark-pdf-export"
+  },
+  {
+    "id": "kakoune",
+    "name": "Kakoune",
+    "author": "Yukai",
+    "description": "Kakoune modal editing keybindings for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yukaii/codemirror-kakoune"
+  },
+  {
+    "id": "linkdex",
+    "name": "LinkDex",
+    "author": "KBonn",
+    "description": "LinkDex — automatically wrap relevant terms in wiki-style links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kbonn/obsidian-linkdex"
+  },
+  {
+    "id": "local-graph-depth",
+    "name": "Local Graph Depth",
+    "author": "Chandra Sivaraman",
+    "description": "Open local graph views at a configurable default depth. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cs31415/local-graph-depth"
   }
 ]
