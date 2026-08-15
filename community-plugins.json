@@ -19565,13 +19565,6 @@
     "repo": "rekby/obsidian-header-backlinks"
   },
   {
-    "id": "infobox",
-    "name": "Infobox",
-    "author": "ozzycosmo",
-    "description": "Renders Wikipedia-style infoboxes from YAML frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ozzycosmo/obsidian-infobox"
-  },
-  {
     "id": "muse",
     "name": "Muse",
     "author": "tekgadgt",
@@ -44856,13 +44849,6 @@
     "repo": "din-es/obsidian-decision-ledger"
   },
   {
-    "id": "nanalstamp",
-    "name": "nanalStamp",
-    "author": "HanSeop Kwak",
-    "description": "Seals each note with a tamper-proof, content-private timestamp anchored to Bitcoin — proof of existence, unbroken version history, and a local git backup for your research notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hskwak82/nanalstamp-obsidian"
-  },
-  {
     "id": "yuhanbo-python-runner",
     "name": "Yuhanbo Python Runner",
     "author": "yuhanbo",
@@ -46712,7 +46698,7 @@
   },
   {
     "id": "knowz-sync",
-    "name": "Knowz Sync",
+    "name": "Knowz AI Sync",
     "author": "Knowz AI",
     "description": "Connect your vault to Knowz for semantic search, vector retrieval, agentic RAG, and AI chat grounded in your own notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "knowz-io/obsidian-knowz-sync"
@@ -46758,5 +46744,19 @@
     "author": "shuiyi",
     "description": "快捷创建日记（标题为日期+自定义名字）；日历面板按日期管理待办；定时提醒；标题等级调整；粘贴代码自动识别语言；粘贴图片自动保存到指定目录；图片渲染增强（裁剪/放大/复制/重命名/删除）；Mermaid 图表增强（缩放/下载/PDF 优化）。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "456-77/quick-daily-note"
+  },
+  {
+    "id": "dsh-math-assistant",
+    "name": "DSH Math Notes Assistant",
+    "author": "枫叶",
+    "description": "Math-focused, experimental DeepSeek Harness memory agent in the right sidebar: automatic dsh service management, layered long-term memory, note workflow, and proactive idea-memo reminders. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "maple110011/dsh-obsidian-math"
+  },
+  {
+    "id": "vault-canary",
+    "name": "Vault Canary",
+    "author": "nyonyataro",
+    "description": "Warns when your vault unexpectedly loses files, Markdown notes, or storage size. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nyonyataro/obsidian-vault-canary"
   }
 ]
