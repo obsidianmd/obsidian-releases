@@ -20006,13 +20006,6 @@
     "repo": "xmisio72/obsidian-embed-editor"
   },
   {
-    "id": "the-deleometer",
-    "name": "The Deleometer",
-    "author": "michellegdyason",
-    "description": "A plugin for deep self-discovery journaling using AI. Use analysis history, and export options. Requires an OpenAI API key. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "michellegdyason/The_Obsidian_Deleometer_v2"
-  },
-  {
     "id": "hexmaker",
     "name": "Hexmap World Creator",
     "author": "sbuffkin",
@@ -21712,6 +21705,13 @@
     "author": "mderazon",
     "description": "Organize notes into Kanban boards using frontmatter properties. Drag and drop cards between columns powered by Bases. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mderazon/obsidian-base-board"
+  },
+  {
+    "id": "zotero-redisearch-rag",
+    "name": "Zotero Research Assistant",
+    "author": "Jens Mittelbach",
+    "description": "Import and OCR Zotero PDFs using a Docling pipeline, sync metadata including annotations, and chat with your research literature using local Redis-powered RAG. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jmiba/zotero-redisearch-rag"
   },
   {
     "id": "flownote",
@@ -25851,13 +25851,6 @@
     "repo": "kool-ankit-raj/Alignment"
   },
   {
-    "id": "my-todo",
-    "name": "My Todo",
-    "author": "amanxarora",
-    "description": "Sorting based personal todo system with categories, weekly and daily planning for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "amanxarora/my-todo"
-  },
-  {
     "id": "advanced-import-export",
     "name": "Notes Bridge",
     "author": "Cheng",
@@ -27403,13 +27396,6 @@
     "author": "codybontecou",
     "description": "Navigate and visualize data exported from the time.md screen-time analytics app. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "codybontecou/timemd-visualizer"
-  },
-  {
-    "id": "mouse-tooltip-translator",
-    "name": "Mouse Tooltip Translator",
-    "author": "ときくん",
-    "description": "Inspired by 'Mouse Tooltip Translator' Chrome extension. Hover to translate. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "toki1703/mouse-tooltip-translator"
   },
   {
     "id": "osmosis",
@@ -41587,13 +41573,6 @@
     "repo": "dxshelley/ai-translate"
   },
   {
-    "id": "pavel-dashboard",
-    "name": "Omni Workbench",
-    "author": "pavel",
-    "description": "A local-first dashboard for Pavel's existing tasks and knowledge cards. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pavelpeng7/obsidian-ultra-dashboard"
-  },
-  {
     "id": "safe-passage",
     "name": "SafePassage",
     "author": "Ji-ho Lee",
@@ -46669,6 +46648,13 @@
     "repo": "tomayachi/obsidian-vault-link-checker"
   },
   {
+    "id": "prism-dashboard",
+    "name": "Prism Dashboard",
+    "author": "Kerekes Stefan",
+    "description": "A context-adaptive dashboard that reconfigures itself by time of day, active project, and live priority. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stef4678/prism-dashboard"
+  },
+  {
     "id": "knowz-sync",
     "name": "Knowz AI Sync",
     "author": "Knowz AI",
@@ -46774,10 +46760,31 @@
     "repo": "prgrmmrjns/vault-talk"
   },
   {
+    "id": "dsh-harness",
+    "name": "DeepSeek Harness",
+    "author": "cloudhjx",
+    "description": "在 Obsidian 中打开 DeepSeek Harness 界面（内嵌 Web GUI，自动启动服务） - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hjxcloud-tech/dsh-harness"
+  },
+  {
     "id": "cfr-mermaid-size",
     "name": "CFR Mermaid Size",
     "author": "cferrugem",
     "description": "Drag any Mermaid diagram to resize it and right-click to align it. Desktop and mobile keep independent sizes, and everything is stored inside the block itself, so it survives re-renders and travels between your devices. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cferrugem/obsidian-cfr-mermaid-size"
+  },
+  {
+    "id": "feel-the-notion",
+    "name": "Feel the Notion",
+    "author": "michael-5653",
+    "description": "Notion-like block editing in Live Preview: drag whole blocks, select whole blocks, block-aware Cmd+A and Backspace, and a slash insert menu. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "michaelnguyen5653/feel-the-notion"
+  },
+  {
+    "id": "dark-pdf-export",
+    "name": "Dark PDF Export",
+    "author": "Alex",
+    "description": "Export notes as clean dark-mode PDFs using the native PDF exporter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zazencodes/obsidian-dark-pdf-export"
   }
 ]
