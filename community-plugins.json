@@ -14640,7 +14640,7 @@
     "id": "daily-routine",
     "name": "Daily Routine",
     "author": "sechan100",
-    "description": "Manage your daily tasks as 'ROUTINES' and organize your everyday life more effectively.",
+    "description": "Track recurring tasks and build daily habits. Schedule routines by weekday, date, or interval, manage todos, and follow your progress with calendar and achievement views.",
     "repo": "sechan100/daily-routine-2"
   },
   {
@@ -33012,13 +33012,6 @@
     "repo": "ckelsoe/obsidian-annoteca"
   },
   {
-    "id": "editorialist",
-    "name": "Editorialist",
-    "author": "Eric R Taylor",
-    "description": "Import structured editorial feedback from curated human editors, beta readers, or AI, then review editorial suggestions across manuscript scenes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ericrhystaylor/Editorialist"
-  },
-  {
     "id": "star-pins",
     "name": "Star Pins",
     "author": "Brightwav3",
@@ -34529,13 +34522,6 @@
     "author": "Atharva Dhamankar",
     "description": "A tag folder based explorer for obsidian. Uses the nested tags feature of obsidian to create virtual folders, allowing individual files to exist in multiple locations, inside a single vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "semisenioritis/Tag-Folder-Explorer"
-  },
-  {
-    "id": "local-runner",
-    "name": "Local Runner",
-    "author": "joke-lx",
-    "description": "在侧边栏启动本地命令并查看输出(如 npm run dev / npx vite)。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "joke-lx/ob-ps"
   },
   {
     "id": "understory",
@@ -42966,6 +42952,13 @@
     "repo": "wyc7758775/zettlab-sync"
   },
   {
+    "id": "inkbound",
+    "name": "Inkbound",
+    "author": "kidpeterpan",
+    "description": "Export notes, book folders, or linked notes as EPUB for e-ink readers, with optional wireless delivery to Onyx Boox. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kidpeterpan/inkbound"
+  },
+  {
     "id": "local-fonts",
     "name": "Local Fonts",
     "author": "flowing-abyss",
@@ -43489,6 +43482,13 @@
     "author": "8&6",
     "description": "Track typing activity in Obsidian: net vs total input, active editing time, typing speed, calendar heatmap, and daily goals. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "czk200518-hash/Typelog"
+  },
+  {
+    "id": "media-transcript",
+    "name": "Media Transcript",
+    "author": "semsevens",
+    "description": "Play video/audio with synchronized, clickable transcripts. Click any line to seek; playing line auto-highlights. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "semsevens/obsidian-media-transcript"
   },
   {
     "id": "cloudbeaver",
@@ -46858,10 +46858,24 @@
     "repo": "xuvi7/obsidian-personal-crm"
   },
   {
+    "id": "nested-notes-rework",
+    "name": "Nested Notes R",
+    "author": "Lyn Raine",
+    "description": "Nest notes under other notes with drag-and-drop and collapse/expand. Manual rearrange supported. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lynrayy/nested-notes-rework"
+  },
+  {
     "id": "fg-notation",
     "name": "FG Notation",
     "author": "teaya",
     "description": "Render fighting game combo notation for Marvel Tokon, Street Fighter, Tekken, Guilty Gear, Granblue and more into clean, colour-coded combos. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kh0p/fg-notation"
+  },
+  {
+    "id": "ezdict",
+    "name": "Ezdict",
+    "author": "Juehming Shi",
+    "description": "High-performance offline markdown dictionary reader & lookup engine for Obsidian. 專為巨型 Markdown 辭典設計，支援 Byte 切片秒開、三種檢索模式與劃詞即查。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jmedzen/ezdict"
   }
 ]
