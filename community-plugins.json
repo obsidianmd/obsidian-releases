@@ -20832,6 +20832,13 @@
     "repo": "dwbutler/obsidian-pdf-page-numbers"
   },
   {
+    "id": "yaos",
+    "name": "YAOS",
+    "author": "kavin",
+    "description": "Simple real-time sync powered by your own Cloudflare Worker. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kavinsood/yaos"
+  },
+  {
     "id": "portals",
     "name": "Portals",
     "author": "samaraliwarsi",
@@ -26897,7 +26904,7 @@
     "id": "recent-edits",
     "name": "Recent Edits",
     "author": "Christopher Wagner",
-    "description": "Shows files modified in the last N days, grouped by day. Marks edits made from filesystem writes with a configurable indicator. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "See what actually changed in your vault, grouped by day, with a marker on anything edited outside the editor. Built for vaults where scripts and AI tools are collaboratively in one vault - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cwagner223355/obsidian-recent-edits"
   },
   {
@@ -46067,13 +46074,6 @@
     "repo": "danlingdan/fastMathJax"
   },
   {
-    "id": "gantt-this",
-    "name": "Gantt this",
-    "author": "Altarok",
-    "description": "Proof of concept for TTRPG Gantt timeline - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "altarok/gantt-this"
-  },
-  {
     "id": "canvas-image-lod",
     "name": "Canvas Image LOD",
     "author": "Ilia Gorbunov",
@@ -46970,6 +46970,13 @@
     "repo": "jmedzen/ezdict"
   },
   {
+    "id": "wallet-tracker",
+    "name": "Wallet Tracker",
+    "author": "atlassociety",
+    "description": "Management of bank accounts, expenses, income, savings goals, and installment payments. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "marketinglimites-web/wallet-tracker"
+  },
+  {
     "id": "tomos-publisher",
     "name": "Tomos Publisher",
     "author": "Goro Kawasaki",
@@ -47143,5 +47150,19 @@
     "author": "TranscriptExporter",
     "description": "Receives meeting notes from the TranscriptExporter Chrome extensions (for Granola, Fathom, and Fireflies) and writes them into your vault automatically, minutes after each call. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "transcriptexporter/transcriptexporter-sync"
+  },
+  {
+    "id": "file-timestamp",
+    "name": "File Timestamp",
+    "author": "elginas",
+    "description": "Create files with timestamps - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "elginas/obsidian-file-timestamp-plugin"
+  },
+  {
+    "id": "atproto-sync",
+    "name": "ATProto Sync",
+    "author": "thatsit.dev",
+    "description": "Sync your vault to your ATProto PDS (Bluesky, Blacksky, Eurosky, self-hosted). E2E-encrypted, with per-note publishing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "thats-it-dev/atproto-sync"
   }
 ]
