@@ -19810,6 +19810,13 @@
     "repo": "ahmed-farhat99/core-habits"
   },
   {
+    "id": "garmin-health-sync",
+    "name": "Garmin Health Sync",
+    "author": "fcandi",
+    "description": "Sync Garmin Connect health data into your Daily Notes as frontmatter properties. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fcandi/Garmin-Health-Sync"
+  },
+  {
     "id": "show-hidden-files",
     "name": "Show Hidden Files",
     "author": "witi42",
@@ -20823,13 +20830,6 @@
     "author": "dwbutler",
     "description": "Adds page numbers to PDF exports (e.g. 'Page 1 of 5'). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dwbutler/obsidian-pdf-page-numbers"
-  },
-  {
-    "id": "yaos",
-    "name": "YAOS",
-    "author": "kavinsood",
-    "description": "Simple real-time sync powered by your own Cloudflare Worker. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kavinsood/yaos"
   },
   {
     "id": "portals",
@@ -33264,13 +33264,6 @@
     "repo": "emberleif/Chronoboard"
   },
   {
-    "id": "vim-motions",
-    "name": "Vim Motions",
-    "author": "Emile Bangma",
-    "description": "Full Neovim experience inside Obsidian with Lua scripting, Flash/EasyMotion jumps, Telescope-style picker, Oil explorer, snippets, surround, animated cursor, undo tree, and Markdown text objects. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "saberzero1/motions"
-  },
-  {
     "id": "lindar",
     "name": "Lindar",
     "author": "punkyard",
@@ -44303,6 +44296,13 @@
     "repo": "elliott-json-park/obsidian-vault-orrery"
   },
   {
+    "id": "interview-review",
+    "name": "Interview Review Assistant",
+    "author": "shuyuan Fan",
+    "description": "录音转文字 + AI深度分析，一键生成面试复盘报告。一个阿里云百炼API Key全搞定。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wenwenshenqihailuo/interview-review"
+  },
+  {
     "id": "chemedit",
     "name": "ChemEdit",
     "author": "Ruzal Sitdikov",
@@ -46984,6 +46984,13 @@
     "repo": "mohamedgb00714/obsidian-autoplans"
   },
   {
+    "id": "xyls-starmap",
+    "name": "Xyls Starmap",
+    "author": "xylhazlhztarr",
+    "description": "Release Version of Xyl's Starmap plugin! Yay! - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "archivist-3/Xyl-s-Starmap"
+  },
+  {
     "id": "chinabrat",
     "name": "China BRAT",
     "author": "快速安装插件",
@@ -47083,10 +47090,31 @@
   },
   {
     "id": "project-manager-insights",
-    "name": "PM Insights",
+    "name": "Project Manager Insights",
     "author": "Deng's",
     "description": "Read-only assignee workload insights across Project Manager projects. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "coffeecheese/obsidian-pm-insights"
+  },
+  {
+    "id": "torbert-text-ai",
+    "name": "Torbert Text AI",
+    "author": "Rahul S",
+    "description": "Clean up Markdown, apply text transformations, and use OpenRouter for AI-assisted note editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Torbert-Text-AI-Obsidian"
+  },
+  {
+    "id": "denali-ai-file-renamer-front-matter",
+    "name": "Denali AI Renamer and Front Matter",
+    "author": "Rahul S",
+    "description": "Rename Markdown notes and generate searchable frontmatter with OpenRouter AI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Denali-AI-Renamer-and-Front-Matter-Obsidian"
+  },
+  {
+    "id": "culebra-ai-spell-correct",
+    "name": "Culebra AI Spell Correct",
+    "author": "Rahul S",
+    "description": "Correct spelling, grammar, and punctuation in selected text, notes, and Markdown files using OpenRouter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Culebra-Obsidian-AI-Auto-Correct-Spelling"
   },
   {
     "id": "vault-issues",
@@ -47094,5 +47122,26 @@
     "author": "Aizic Albert",
     "description": "GitHub Issues-inspired tracker with Kanban board, labels, priorities, and note-to-note linking. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "albertaizic/obsidian-issues"
+  },
+  {
+    "id": "gdrive-bisync",
+    "name": "OmniSync GDrive",
+    "author": "donespeak",
+    "description": "Synchronize your vault with Google Drive - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "donespeak/obsidian-plugin-googe-drive-sync"
+  },
+  {
+    "id": "obsyncer",
+    "name": "Oppsyncer",
+    "author": "Low Nam Lee",
+    "description": "Deterministic desktop and mobile vault sync through GitHub with automatic recovery snapshots. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lownamlee/ObSyncer"
+  },
+  {
+    "id": "transcriptexporter-sync",
+    "name": "TranscriptExporter Sync",
+    "author": "TranscriptExporter",
+    "description": "Receives meeting notes from the TranscriptExporter Chrome extensions (for Granola, Fathom, and Fireflies) and writes them into your vault automatically, minutes after each call. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "transcriptexporter/transcriptexporter-sync"
   }
 ]
