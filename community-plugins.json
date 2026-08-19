@@ -20111,6 +20111,13 @@
     "repo": "cursivez/journalit"
   },
   {
+    "id": "direct-git-sync",
+    "name": "Direct Git Sync",
+    "author": "swekizer",
+    "description": "Sync your vault natively with a GitHub repository on both Desktop and Mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "swekizer/GitHub-Sync"
+  },
+  {
     "id": "inline-tag",
     "name": "Inline Tag",
     "author": "mb-yul",
@@ -41706,6 +41713,13 @@
     "repo": "polygonhunter/daily-bible-verse"
   },
   {
+    "id": "vaultbridge",
+    "name": "Vaultbridge",
+    "author": "wenzel1983",
+    "description": "End-to-end encrypted vault sync to your own CouchDB, with a conflict diff view, one-string setup, and mobile support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "donnervs/vaultbridge"
+  },
+  {
     "id": "tcg-binder",
     "name": "TCG Binder",
     "author": "bgarciamoura",
@@ -46865,13 +46879,6 @@
     "repo": "puriakazemieh/obsidian-inline-handwriting"
   },
   {
-    "id": "vault-ai-chat",
-    "name": "AI Vault Memory",
-    "author": "puria",
-    "description": "AI-powered local vault memory and context-aware chat with any OpenAI-compatible API. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "puriakazemieh/vault-ai-assistant-obsidian"
-  },
-  {
     "id": "clear-unused-assets",
     "name": "clear-unused-assets",
     "author": "QuincyLeo",
@@ -47201,10 +47208,38 @@
     "repo": "builditinc/obsidian-stockr-sync"
   },
   {
+    "id": "canvas-to-html",
+    "name": "Canvas to HTML",
+    "author": "Shao-En Ju",
+    "description": "Export a Canvas to a single self-contained HTML file you can share. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sam080626-arch/obsidian-canvas-to-html"
+  },
+  {
     "id": "servicenow-manage",
     "name": "ServiceNow Manage",
     "author": "thkim9916",
     "description": "Manage ServiceNow ticket notes, work notes, document links, status updates, and task dashboards. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kth9916/obsidian-servicenow-manage"
+  },
+  {
+    "id": "llm-settings-translator",
+    "name": "LLM Settings Translator",
+    "author": "lindongyan",
+    "description": "用 OpenAI 兼容 LLM 自动翻译 Obsidian 插件设置弹窗内的全部文本（标签名、描述、按钮等），支持自定义端点/模型/API Key 与测试连接，不修改任何插件文件。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lindongyan1992/llm-settings-translator"
+  },
+  {
+    "id": "local-font-loader",
+    "name": "Local Font Loader",
+    "author": "InVerse",
+    "description": "Load local fonts (TTF/OTF/WOFF/WOFF2) with Base64 caching. Manage UI, text, code, and math fonts separately. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lmce72/obsidian-local-font-loader"
+  },
+  {
+    "id": "weather-bar",
+    "name": "Weather Bar",
+    "author": "mrrepac",
+    "description": "Shows the current temperature and sky for your city in the status bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mrrepac/weather-bar"
   }
 ]
