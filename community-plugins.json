@@ -33558,13 +33558,6 @@
     "repo": "jiahuacaogoodman-art/guozha"
   },
   {
-    "id": "marknice-wechat",
-    "name": "MarkNice WeChat",
-    "author": "Willmove",
-    "description": "将 Markdown 笔记一键转换为微信公众号排版：多主题、一键复制不乱版、直接发送到公众号草稿箱。Convert notes into WeChat Official Account layouts with themes, one-click copy, and direct draft publishing. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "willmove/obsidian-marknice"
-  },
-  {
     "id": "engram-chat",
     "name": "Engram Chat",
     "author": "PixelAnay",
@@ -46893,6 +46886,13 @@
     "repo": "puriakazemieh/obsidian-inline-handwriting"
   },
   {
+    "id": "vault-ai-chat",
+    "name": "AI Vault Memory",
+    "author": "puria",
+    "description": "AI-powered local vault memory and context-aware chat with any OpenAI-compatible API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "puriakazemieh/vault-ai-assistant-obsidian"
+  },
+  {
     "id": "clear-unused-assets",
     "name": "clear-unused-assets",
     "author": "QuincyLeo",
@@ -47243,6 +47243,13 @@
     "repo": "kth9916/obsidian-servicenow-manage"
   },
   {
+    "id": "dsh-ob",
+    "name": "DSH for Vaults",
+    "author": "moozhu",
+    "description": "在 Obsidian 中嵌入 DeepSeek Harness Web UI，按库（vault）管理独立的工作区与 AI 会话。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "moozhu/dsh-obsidian"
+  },
+  {
     "id": "llm-settings-translator",
     "name": "LLM Settings Translator",
     "author": "lindongyan",
@@ -47259,7 +47266,7 @@
   {
     "id": "local-note-share",
     "name": "NoteLAN",
-    "author": "Olivier Le Bloas",
+    "author": "Olivier LB",
     "description": "Share selected Obsidian notes or folders as read-only web pages on the local network. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "olivierlb/NoteLAN"
   },
@@ -47278,6 +47285,13 @@
     "repo": "dmagg/obsidian-llm-translate"
   },
   {
+    "id": "heading-view",
+    "name": "Heading View",
+    "author": "菅原ユリア",
+    "description": "Show the first heading of a Markdown note instead of its file name in the file explorer. Files are never renamed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yin-ori/heading-view"
+  },
+  {
     "id": "dsh-dock",
     "name": "DSH Dock",
     "author": "eLerVi",
@@ -47290,5 +47304,19 @@
     "author": "Ferenc Kiss",
     "description": "Automatically number headings in your notes based on folder structure and a configurable format. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kicsifercsi/obsidian-headnumatic"
+  },
+  {
+    "id": "todo-sidebar",
+    "name": "Todo Sidebar",
+    "author": "Andrii Oriekhov",
+    "description": "Lists every checkbox from the currently open note in a sidebar panel. Toggle tasks or jump to their line. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andriyor/obsidian-todo-sidebar"
+  },
+  {
+    "id": "daily-task-mover",
+    "name": "Daily Task Mover",
+    "author": "Moz",
+    "description": "Move the task to the same heading on the previous or next day. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "moziar/obsidian-daily-task-mover"
   }
 ]
