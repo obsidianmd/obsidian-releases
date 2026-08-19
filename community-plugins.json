@@ -17129,6 +17129,13 @@
     "repo": "shaharyar-developer/remote-fetch"
   },
   {
+    "id": "xiangqi",
+    "name": "Chinese Chess",
+    "author": "weshell",
+    "description": "Chinese chess variation tree.",
+    "repo": "west-shell/obsidian-xiangqi"
+  },
+  {
     "id": "yandex-tracker-issue",
     "name": "Yandex Tracker Issue",
     "author": "cubieprog",
@@ -18821,13 +18828,6 @@
     "author": "binnyva",
     "description": "Create custom slash commands that insert custom text based on templates. Insert dates, shell command output, processed clipboard content, and more. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "binnyva/obsidian-slasher"
-  },
-  {
-    "id": "memex",
-    "name": "Memex",
-    "author": "worldbrain",
-    "description": "Search, cite & chat with your bookmarking second brain. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "worldbrain/obsidian-memex"
   },
   {
     "id": "engnese",
@@ -21530,13 +21530,6 @@
     "author": "mderazon",
     "description": "Organize notes into Kanban boards using frontmatter properties. Drag and drop cards between columns powered by Bases. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mderazon/obsidian-base-board"
-  },
-  {
-    "id": "zotero-redisearch-rag",
-    "name": "Zotero Research Assistant",
-    "author": "Jens Mittelbach",
-    "description": "Import and OCR Zotero PDFs using a Docling pipeline, sync metadata including annotations, and chat with your research literature using local Redis-powered RAG. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jmiba/zotero-redisearch-rag"
   },
   {
     "id": "flownote",
@@ -37289,6 +37282,13 @@
     "repo": "maverickhq/obsidian-vault-reader"
   },
   {
+    "id": "auto-headings",
+    "name": "Auto Headings",
+    "author": "AArlert",
+    "description": "Automatic heading numbering with fully customizable templates, per-folder rules, whitelist and backlink sync. Bilingual UI (English / 中文). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aarlert/obsidian-auto-headings"
+  },
+  {
     "id": "bullet-time",
     "name": "Bullet-time",
     "author": "Herve Sliwa",
@@ -44800,13 +44800,6 @@
     "repo": "jordanlong121/singlefilesectioncards"
   },
   {
-    "id": "unmemos",
-    "name": "UNmemos",
-    "author": "UNcore",
-    "description": "A faithful Memos-inspired flash-capture plugin. Timeline, tags, reactions, comments, and more. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "uncore-gh/UNmemos"
-  },
-  {
     "id": "withings-sync",
     "name": "Withings Sync",
     "author": "Iyigun Cevik",
@@ -45792,13 +45785,6 @@
     "author": "Relay.md",
     "description": "Add Relay-aware comments and suggestions to Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "no-instructions/Relay-Comments"
-  },
-  {
-    "id": "stream-embed",
-    "name": "Stream Embed",
-    "author": "devsdocs",
-    "description": "Automatically convert pasted Spotify and YouTube links into embedded players. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "devsdocs/obsidian_media_embed"
   },
   {
     "id": "tasknotes-views",
@@ -47341,10 +47327,31 @@
     "repo": "surdeddd/obsidian-table-cards"
   },
   {
+    "id": "cognitree",
+    "name": "CogniTree",
+    "author": "Kerekes Stefan",
+    "description": "AI-powered branching knowledge trees. Grow a concept into tens of thousands of interconnected notes with a polymathic taxonomist LLM. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stef4678/cognitree"
+  },
+  {
     "id": "vault-web-launcher",
     "name": "Vault Web",
     "author": "Mikhail Solovev",
     "description": "Starts the local Vault Web browser editor for this vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "meshokho/obsidian-vault-web"
+  },
+  {
+    "id": "noteshield",
+    "name": "NoteShield",
+    "author": "Jessie Kano",
+    "description": "Finds sensitive data in your vault — national identifiers, bank accounts, cards, API keys — with checksum validation, fully offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vypeoux-glitch/noteshield"
+  },
+  {
+    "id": "meetily-sync",
+    "name": "Meetily Sync",
+    "author": "Sahil Maheshwari",
+    "description": "Sync summaries and transcripts from your local Meetily meeting recorder into your vault. Fully on-device, no cloud. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sahil1/meetily-obsidian-sync"
   }
 ]
