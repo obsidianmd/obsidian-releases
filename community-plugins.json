@@ -29199,7 +29199,7 @@
   {
     "id": "language-learn",
     "name": "Language Learn",
-    "author": "",
+    "author": "mizu1",
     "description": "AI-powered language learning with word analysis, relation graphs, hover tooltips, and structured note-taking. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mizu1/obsidian-languageLearnCopilot"
   },
@@ -30354,7 +30354,7 @@
   {
     "id": "docx-importer",
     "name": "DOCX Importer",
-    "author": "",
+    "author": "mayac5",
     "description": "Import DOCX files into your Obsidian vault as Markdown - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mayac5/obsidian-docx-importer"
   },
@@ -33033,6 +33033,13 @@
     "repo": "ckelsoe/obsidian-annoteca"
   },
   {
+    "id": "editorialist",
+    "name": "Editorialist",
+    "author": "Eric R Taylor",
+    "description": "Import structured editorial feedback from curated human editors, beta readers, or AI, then review editorial suggestions across manuscript scenes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ericrhystaylor/Editorialist"
+  },
+  {
     "id": "star-pins",
     "name": "Star Pins",
     "author": "Brightwav3",
@@ -33532,7 +33539,7 @@
   {
     "id": "wandlog",
     "name": "Wandlog",
-    "author": "",
+    "author": "yuffiee",
     "description": "Stroll through notes, mark your days - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuffiee/obsidian-wandlog"
   },
@@ -36871,7 +36878,7 @@
   {
     "id": "image-toolbar",
     "name": "Rin Image Toolbar",
-    "author": "",
+    "author": "witheredad",
     "description": "Hover over images for toolbar: copy, crop, and fullscreen - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "witheredad/Rin-s-Image-Toolbar"
   },
@@ -37396,7 +37403,7 @@
   {
     "id": "secure-git-sync",
     "name": "Secure Git Sync",
-    "author": "",
+    "author": "vinci0007",
     "description": "Password-confirmed Git sync with optional encrypted remote note snapshots. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vinci0007/obsidian-EncryptSecure-GitSync"
   },
@@ -37830,7 +37837,7 @@
   {
     "id": "latex-assistant",
     "name": "LaTeX Assistant",
-    "author": "",
+    "author": "erimanga",
     "description": "VSCode+LaTeX Workshop-like editing experience: snippets, auto-completion, smart newlines, bracket pairing, and more. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "erimanga/Latex-assistant"
   },
@@ -47201,6 +47208,13 @@
     "repo": "thats-it-dev/atproto-sync"
   },
   {
+    "id": "recap-raven",
+    "name": "Recap Raven",
+    "author": "Recap Raven",
+    "description": "Import player-safe Recap Raven session recaps into your vault as structured Markdown, with previews, duplicate detection, safe filenames, campaign indexes, and create-only writes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "recapraven/obsidian-recap-raven"
+  },
+  {
     "id": "havemind-sync",
     "name": "Havemind",
     "author": "Mikolaj Sapek",
@@ -47355,13 +47369,6 @@
     "repo": "moellenbeck-digital/bloommd-obsidian"
   },
   {
-    "id": "attachment-steward",
-    "name": "Attachment Steward",
-    "author": "Miroff",
-    "description": "Organizes attachments into templated folders and filenames - never loses the original filename, never breaks links elsewhere, and catches bulk imports (e.g. from Apple Notes) the moment they land. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "m1roff/obsidian-attachment-steward"
-  },
-  {
     "id": "table-cards",
     "name": "Table Cards",
     "author": "Maxim Kravtsov",
@@ -47416,5 +47423,33 @@
     "author": "Miroff",
     "description": "Opens local .html files as real rendered pages, with working CSS, images and video - zoom, bookmarks and scroll memory included, on desktop and mobile alike. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "m1roff/obsidian-local-web-page-viewer"
+  },
+  {
+    "id": "fold-rage",
+    "name": "Fold Rage",
+    "author": "VJ",
+    "description": "Repair Live Preview fold ranges that expand past their Markdown structure and hide unrelated content. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "silentcoffee0/obsidian-fold-rage"
+  },
+  {
+    "id": "samind-graph",
+    "name": "Samind 3D Graph",
+    "author": "Samuel Bangslund",
+    "description": "A 3D force-directed graph with AI-driven topic clustering and gap-insight analysis. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sbangslund/samind-3d-graph"
+  },
+  {
+    "id": "timeline-canvas",
+    "name": "Timeline Canvas",
+    "author": "John Fannin",
+    "description": "Create vertical timeline backgrounds on Canvas, including custom evenly spaced increments and selectable vault output folders. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pengd0t/TimelineLayout"
+  },
+  {
+    "id": "gcal-sync",
+    "name": "Google Calendar Sync",
+    "author": "Murat Can Uste",
+    "description": "Sync Google Calendar events declared in vault notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mcuste/obsidian-gcal-sync"
   }
 ]
