@@ -8400,6 +8400,13 @@
     "repo": "aleksey-rowan/obsidian-vim-yank-highlight"
   },
   {
+    "id": "tickticksync",
+    "name": "TickTickSync",
+    "author": "thesamim",
+    "description": "Sync TickTick tasks.",
+    "repo": "thesamim/TickTickSync"
+  },
+  {
     "id": "slash-commander",
     "name": "Slash Commander",
     "author": "alephpiece",
@@ -25452,6 +25459,13 @@
     "repo": "fantsga/attachment-butler"
   },
   {
+    "id": "autolink",
+    "name": "Autolink",
+    "author": "NellowTCS",
+    "description": "Automatically creates backlinks from and to notes with easy customizability. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nellowtcs/Obsidian-AutoLink"
+  },
+  {
     "id": "paperforge",
     "name": "PaperForge",
     "author": "lllin000",
@@ -29993,6 +30007,13 @@
     "author": "Marcus Breiden",
     "description": "Direct integration with Tomo, the Claude Code agent, for session interaction and automated vault updates. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mmomm-org/miyo-tomo-hashi"
+  },
+  {
+    "id": "mermaid-flow",
+    "name": "Mermaid Flow",
+    "author": "Mohammed Thanseer",
+    "description": "Create and edit Mermaid flowcharts visually by dragging nodes and drawing connections. No Mermaid syntax required. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "thansheer/obsidian-mermaid-flow"
   },
   {
     "id": "toggle-excluded-folders",
@@ -44299,7 +44320,7 @@
     "id": "chemedit",
     "name": "ChemEdit",
     "author": "Ruzal Sitdikov",
-    "description": "Draw, edit, and visualize chemical structures and reactions. ChemEdit supports SMILES, MOL, and ChemDraw (CDXML) files with an integrated Ketcher editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Chemistry editor for Obsidian with ELN support. Draw and edit chemical structures and reactions for organic chemistry. Supports SMILES, MOL, and ChemDraw (CDXML) files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ruzx/obsidian-chemedit"
   },
   {
@@ -47152,13 +47173,6 @@
     "repo": "laillei-plugins/character-archive"
   },
   {
-    "id": "obsyncer",
-    "name": "Oppsyncer",
-    "author": "Low Nam Lee",
-    "description": "Deterministic desktop and mobile vault sync through GitHub with automatic recovery snapshots. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lownamlee/ObSyncer"
-  },
-  {
     "id": "transcriptexporter-sync",
     "name": "TranscriptExporter Sync",
     "author": "TranscriptExporter",
@@ -47341,6 +47355,13 @@
     "repo": "moellenbeck-digital/bloommd-obsidian"
   },
   {
+    "id": "attachment-steward",
+    "name": "Attachment Steward",
+    "author": "Miroff",
+    "description": "Organizes attachments into templated folders and filenames - never loses the original filename, never breaks links elsewhere, and catches bulk imports (e.g. from Apple Notes) the moment they land. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "m1roff/obsidian-attachment-steward"
+  },
+  {
     "id": "table-cards",
     "name": "Table Cards",
     "author": "Maxim Kravtsov",
@@ -47381,5 +47402,19 @@
     "author": "Sahil Maheshwari",
     "description": "Sync summaries and transcripts from your local Meetily meeting recorder into your vault. Fully on-device, no cloud. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sahil1/meetily-obsidian-sync"
+  },
+  {
+    "id": "highlight-matches",
+    "name": "Highlight Same Matches",
+    "author": "Ivan Rybakov",
+    "description": "Plugin for Obsidian. Highlights all occurrences of the selected text in the current note, similar to Notepad++. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ivgittest/Highlight-Same-Matches"
+  },
+  {
+    "id": "local-web-page-viewer",
+    "name": "Local Web Page Viewer",
+    "author": "Miroff",
+    "description": "Opens local .html files as real rendered pages, with working CSS, images and video - zoom, bookmarks and scroll memory included, on desktop and mobile alike. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "m1roff/obsidian-local-web-page-viewer"
   }
 ]
