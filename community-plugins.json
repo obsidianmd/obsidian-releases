@@ -8400,13 +8400,6 @@
     "repo": "aleksey-rowan/obsidian-vim-yank-highlight"
   },
   {
-    "id": "tickticksync",
-    "name": "TickTickSync",
-    "author": "thesamim",
-    "description": "Sync TickTick tasks.",
-    "repo": "thesamim/TickTickSync"
-  },
-  {
     "id": "slash-commander",
     "name": "Slash Commander",
     "author": "alephpiece",
@@ -32438,6 +32431,13 @@
     "repo": "levis-code/markcalc"
   },
   {
+    "id": "dainvo-task-manager",
+    "name": "Dainvo Task Manager",
+    "author": "intagri-technologies",
+    "description": "Sync  tasks and daily notes, with Dainvo calendar and task planner - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "intagri-technologies/dainvo-task-manager"
+  },
+  {
     "id": "html-visual-editor",
     "name": "HTML Visual Editor",
     "author": "suntinglu777",
@@ -38958,7 +38958,7 @@
     "id": "nous",
     "name": "Nous",
     "author": "Andy Ho",
-    "description": "Turn dictated or pasted notes into a linked, tagged knowledge graph, right inside Obsidian - uses Claude Code (your subscription) or a direct API key from Anthropic, OpenAI, Gemini, or a local model, your choice. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Turns meetings, voice notes, photos, and PDFs into a tagged, linked knowledge base - built as context your AI assistant can use. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "andymdh/obsidian-nous"
   },
   {
@@ -42616,6 +42616,13 @@
     "repo": "mrmupfel/FinKey"
   },
   {
+    "id": "momento",
+    "name": "Momento",
+    "author": "jepicaju862-lab",
+    "description": "A cozy local-first life logging and memory vault supporting text notes, photos, videos, voice recordings, attachments, timeline, calendar, media gallery, 3D roaming, and tag search. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jepicaju862-lab/Momento"
+  },
+  {
     "id": "tinycal",
     "name": "tinyCal",
     "author": "Owais Sadiqque Dayderh",
@@ -44483,6 +44490,13 @@
     "author": "luffysolution-svg",
     "description": "Publish Markdown notes one-way to Feishu/Lark, Notion, and ima. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "luffysolution-svg/obsidian-knowledge-sync"
+  },
+  {
+    "id": "easy-bookkeeping",
+    "name": "Easy Bookkeeping",
+    "author": "北漠海",
+    "description": "Easy bookkeeping and expense tracking tool. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "beimohai/Easy-Bookkeeping-Obsidian"
   },
   {
     "id": "link-cards",
@@ -47173,6 +47187,13 @@
     "repo": "artem98/obsidian_tasks_sort"
   },
   {
+    "id": "filen-sync",
+    "name": "Filen Sync",
+    "author": "Erik Vaněk",
+    "description": "Sync your vault with Filen end-to-end encrypted cloud storage. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "neddy3z/filen-obsidian"
+  },
+  {
     "id": "refine",
     "name": "Refine",
     "author": "Refine",
@@ -47236,10 +47257,38 @@
     "repo": "lmce72/obsidian-local-font-loader"
   },
   {
+    "id": "local-note-share",
+    "name": "NoteLAN",
+    "author": "Olivier Le Bloas",
+    "description": "Share selected Obsidian notes or folders as read-only web pages on the local network. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "olivierlb/NoteLAN"
+  },
+  {
     "id": "weather-bar",
     "name": "Weather Bar",
     "author": "mrrepac",
     "description": "Shows the current temperature and sky for your city in the status bar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mrrepac/weather-bar"
+  },
+  {
+    "id": "translate-note",
+    "name": "TranslateNote",
+    "author": "Maggiora Duccio",
+    "description": "Translate a selection or a whole note with any OpenAI-compatible LLM. The translation opens in a side panel for review, so the note only changes when you insert it. YAML front-matter is left intact. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dmagg/obsidian-llm-translate"
+  },
+  {
+    "id": "dsh-dock",
+    "name": "DSH Dock",
+    "author": "eLerVi",
+    "description": "Dock the official DeepSeek Harness Web (127.0.0.1:3080) into an Obsidian sidebar panel. Runs the official dsh CLI with per-vault isolated sessions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "elervi/obsidian-dsh-dock"
+  },
+  {
+    "id": "headnumatic",
+    "name": "HeadNumatic",
+    "author": "Ferenc Kiss",
+    "description": "Automatically number headings in your notes based on folder structure and a configurable format. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kicsifercsi/obsidian-headnumatic"
   }
 ]
