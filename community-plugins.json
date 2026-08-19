@@ -16264,7 +16264,7 @@
     "id": "auto-note-importer",
     "name": "Auto Note Importer",
     "author": "uppinote20",
-    "description": "Sync notes bidirectionally between your vault and Airtable, SeaTable, or Supabase databases.",
+    "description": "Two-way sync between Obsidian and your databases — Airtable, SeaTable, Supabase, Notion. Multi-config, conflict resolution, computed fields, Notion page-body pull.",
     "repo": "uppinote20/obsidian-auto-note-importer"
   },
   {
@@ -28126,6 +28126,13 @@
     "repo": "mellowmarsh-git/Obsidian-Translucent-BG"
   },
   {
+    "id": "four-d-eisenhower-matrix",
+    "name": "4D Eisenhower Matrix",
+    "author": "Jaroslav Krčál",
+    "description": "Visualize tasks across your vault in a 5-quadrant Eisenhower matrix (DO / DECIDE / DELEGATE / DELETE / OPEN) + Kanban view. Reads and writes standard task — tags, due/start/done dates, and priority. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "krcaljaroslav/4D-eisenhower-matrix"
+  },
+  {
     "id": "link-extractor",
     "name": "Link Extractor",
     "author": "Andrew Mutavdzija",
@@ -35075,13 +35082,6 @@
     "author": "rapphcd",
     "description": "Habit tracking and daily statistics directly in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rapphcd/daily-tracker"
-  },
-  {
-    "id": "epub-reader-highlighter",
-    "name": "EPUB Reader and Highlighter",
-    "author": "Aria",
-    "description": "Read EPUB files inside Obsidian with persistent, color-coded highlights, notes, and Markdown export. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "okkio-31mon/epub-reader-highlighter"
   },
   {
     "id": "outline-level-fold",
@@ -47171,5 +47171,12 @@
     "author": "Artem Oreshkin",
     "description": "Physically reorders checklist tasks in a note by priority and due date. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "artem98/obsidian_tasks_sort"
+  },
+  {
+    "id": "k-tech-heading-jump-fix",
+    "name": "Heading Jump Fix",
+    "author": "k-tech-studio",
+    "description": "Auto-correct scroll position after outline or heading clicks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "crossbeat461-a11y/k-tech-heading-jump-fix"
   }
 ]
