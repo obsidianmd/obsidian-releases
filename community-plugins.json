@@ -27664,6 +27664,13 @@
     "repo": "timikays/markpage-obsidian-plugin"
   },
   {
+    "id": "local-dictation",
+    "name": "Speech Kit",
+    "author": "Alexander Brittain",
+    "description": "Offline and private speech-to-text, text-to-speech, and translation for desktop notes. Dictate notes, transcribe meetings, and more. NVIDIA, Whisper, and natural voices running on your machine. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "brittain9/speech-kit-obsidian-plugin"
+  },
+  {
     "id": "markr",
     "name": "Markr",
     "author": "visua1hue",
@@ -27885,7 +27892,7 @@
     "name": "Glass",
     "author": "Scott Kosman",
     "description": "Run Claude Code inside Obsidian on macOS, Linux, and Windows: interactive terminal, quick-ask modal, and a built-in MCP server for structured vault access. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "humantorch/blackglass"
+    "repo": "humantorch/glass"
   },
   {
     "id": "easy-recall",
@@ -40607,6 +40614,13 @@
     "repo": "savar-g/taskline"
   },
   {
+    "id": "tw-read-aloud",
+    "name": "Hans TW TTS",
+    "author": "Hans Lin 林思翰",
+    "description": "用系統內建繁中語音朗讀筆記,逐句反白跟讀,介面全繁體中文。Read notes aloud with a built-in Traditional Chinese system voice and sentence-by-sentence highlight follow. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hansai-art/obsidian-tw-tts"
+  },
+  {
     "id": "vault-autopilot",
     "name": "Vault Autopilot",
     "author": "Ava li",
@@ -42782,6 +42796,13 @@
     "author": "SirHobby",
     "description": "Quiz yourself on your own notes with adaptive spaced repetition, powered by an LLM key you supply. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sirhobby/wetstone"
+  },
+  {
+    "id": "callander",
+    "name": "Callander",
+    "author": "Callan",
+    "description": "A private secondary memory for your friendships. Jot gift ideas, conversation threads, and things to do together — Callander resurfaces them when they matter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zcallan/callander-obsidian"
   },
   {
     "id": "bible-search-reader",
@@ -46837,13 +46858,6 @@
     "repo": "weakingwang/Wireloom-for-Obsidian"
   },
   {
-    "id": "mosaic",
-    "name": "Mosaic",
-    "author": "GilbertzzzZZ",
-    "description": "Declarative content blocks for your notes: charts, data tables, timelines, metric cards, decision records and flow diagrams from inline CSV, JSON or dataset files. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gilbertzzzzz/mosaic"
-  },
-  {
     "id": "notion-table",
     "name": "Notion Table",
     "author": "YunFeng",
@@ -47383,6 +47397,13 @@
     "repo": "meshokho/obsidian-vault-web"
   },
   {
+    "id": "fleurpdf-tint",
+    "name": "FleurPDF tint",
+    "author": "JC5",
+    "description": "Change PDF page background color for better reading experience. Supports presets, custom templates, and pattern overlays. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gibsonchan-5/fleurpdf-tint"
+  },
+  {
     "id": "noteshield",
     "name": "NoteShield",
     "author": "Jessie Kano",
@@ -47486,5 +47507,26 @@
     "author": "Carlos Brotas",
     "description": "Beautiful markdown reading in Obsidian, powered by magzdown.com - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xarl3z/magzdown-obsidian"
+  },
+  {
+    "id": "workbuddy",
+    "name": "WorkBuddy",
+    "author": "Jason",
+    "description": "Chat with your locally installed WorkBuddy from your vault. Sends the current note or selection as context, streams replies in a sidebar, and lets WorkBuddy read and edit notes. Unofficial community plugin; needs WorkBuddy installed and signed in. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jsun2020/workbuddy-obsidian-plugin"
+  },
+  {
+    "id": "switch-to-cursor",
+    "name": "Switch2Cursor",
+    "author": "xingzixhh",
+    "description": "从 Obsidian 一键打开 Cursor：支持打开整个 Vault 或当前笔记并跳转到光标位置。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xingzixhh/switch2cursor"
+  },
+  {
+    "id": "pdf-native-notes",
+    "name": "PDF to Markdown Native",
+    "author": "Andres Herle Lang",
+    "description": "Convert Vault PDFs into clean Markdown with local text and table extraction, compressed images, optional SVG tables, and safe PDF handling. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andyherle/obsidian-pdf-to-markdown"
   }
 ]
