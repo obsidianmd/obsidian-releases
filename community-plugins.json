@@ -40624,7 +40624,7 @@
     "id": "tw-read-aloud",
     "name": "Hans TW TTS",
     "author": "Hans Lin 林思翰",
-    "description": "用系統內建繁中語音朗讀筆記,逐句反白跟讀,介面全繁體中文。Read notes aloud with a built-in Traditional Chinese system voice and sentence-by-sentence highlight follow. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Traditional-Chinese-first TTS for notes with offline system, Edge CLI or Azure voices, sentence highlighting, folder playback, cursor start, pronunciation rules, and Callout/Highlightr support. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hansai-art/obsidian-tw-tts"
   },
   {
@@ -46721,7 +46721,7 @@
     "id": "star-icons",
     "name": "Star Icons",
     "author": "Kerekes Stefan",
-    "description": "The icon collection manager for Obsidian. Browse and manage 1600+ bundled icons from Lucide, Material Symbols and custom star packs, build collections and tags, and apply icons to files, folders and tabs with an intuitive rules engine and live preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "The icon collection manager for Obsidian. Browse 71,000+ bundled icons, build collections and tags, and apply icons to files, folders and tabs with an intuitive rules engine and live preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "stef4678/star-icons"
   },
   {
@@ -47185,6 +47185,13 @@
     "author": "elginas",
     "description": "Create files with timestamps - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elginas/obsidian-file-timestamp-plugin"
+  },
+  {
+    "id": "drawculator",
+    "name": "Drawculator for Excalidraw",
+    "author": "boogie",
+    "description": "Calculates math equations & expressions drawn in Excalidraw - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alandoescode/drawculator-obsidian"
   },
   {
     "id": "atproto-sync",
@@ -47696,5 +47703,19 @@
     "author": "花海",
     "description": "Preview Markdown notes in Bloomtype and copy styled content to WeChat. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "0flowerocean0/bloomtype-obsidian"
+  },
+  {
+    "id": "obsiminal",
+    "name": "Vault Shell",
+    "author": "Nhat Duy Mai",
+    "description": "Open an interactive terminal inside your Obsidian workspace. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mainhatduy/obsiminal"
+  },
+  {
+    "id": "attachment-link-rules",
+    "name": "Attachment Link Rules",
+    "author": "Viggo Meesters",
+    "description": "Choose link or embed syntax for dropped attachments by file extension. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "viggomeesters/obsidian-attachment-link-rules"
   }
 ]
