@@ -801,7 +801,7 @@
     "id": "obsidian-languagetool-plugin",
     "name": "LanguageTool Integration",
     "author": "clemens-e",
-    "description": "advanced spell/grammar checks with the help of language-tool.",
+    "description": "Advanced grammar and spell checking, powered by LanguageTool.",
     "repo": "clemens-e/obsidian-languagetool-plugin"
   },
   {
@@ -9112,6 +9112,13 @@
     "author": "opisek",
     "description": "Rearrange and hide status bar elements.",
     "repo": "opisek/obsidian-statusbar-organizer"
+  },
+  {
+    "id": "languagetool",
+    "name": "LanguageTool",
+    "author": "wrenger",
+    "description": "Unofficial integration of the LanguageTool spell and grammar checker.",
+    "repo": "wrenger/obsidian-languagetool"
   },
   {
     "id": "image-inline",
@@ -24743,13 +24750,6 @@
     "author": "John Banister",
     "description": "A full creative writing workflow: project creation, scene management, and manuscript compilation with frontmatter-native data and Bases compatibility. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "banisterious/obsidian-draft-bench"
-  },
-  {
-    "id": "getnote-importer",
-    "name": "Dedao Brain Sync",
-    "author": "Andy Zheng（公众号：关山的月儿）",
-    "description": "最好用的 【得到大脑/Get笔记 Obsidian】 插件（永久免费） - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "andyzhengyan/obsidian-getnote-importer"
   },
   {
     "id": "reminder-telegram",
@@ -47845,6 +47845,13 @@
     "repo": "songjiajun0209-byte/recording-minutes"
   },
   {
+    "id": "ai-scheduler",
+    "name": "AI Scheduler",
+    "author": "Rachit Asthana",
+    "description": "Autonomous AI assistant layer for Claudian with AI planning, scheduled work, self-talk, nightly vault reviews, and notifications. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "racstan/obsidian-ai-scheduler"
+  },
+  {
     "id": "ebbinghaus-review",
     "name": "Note Review Reminder",
     "author": "rheor108",
@@ -47976,5 +47983,26 @@
     "author": "supralune",
     "description": "Publish selected Markdown notes and local attachments to a configurable local blog project. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "supralune/obsidian-blog-outbox"
+  },
+  {
+    "id": "to-do-list-manager",
+    "name": "ToDoList",
+    "author": "Ivan Petrov",
+    "description": "Plugin for manage ToDos. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sasunhuevich/ToDoList"
+  },
+  {
+    "id": "omni-book-reader",
+    "name": "Omni Book Reader",
+    "author": "pavel",
+    "description": "An all-in-one, local-first EPUB reading workbench with a bookshelf, annotations, exports, focus mode, and reading statistics. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pavelpeng7/omni-book-reader"
+  },
+  {
+    "id": "vault-calendar",
+    "name": "Vault Calendar",
+    "author": "Jax Ho",
+    "description": "Turn Markdown notes into a property-driven calendar with editable cards and start-to-end date ranges. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jax-ho/vault-calendar"
   }
 ]
