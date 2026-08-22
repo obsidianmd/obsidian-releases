@@ -9107,13 +9107,6 @@
     "repo": "opisek/obsidian-statusbar-organizer"
   },
   {
-    "id": "languagetool",
-    "name": "LanguageTool",
-    "author": "wrenger",
-    "description": "Unofficial integration of the LanguageTool spell and grammar checker.",
-    "repo": "wrenger/obsidian-languagetool"
-  },
-  {
     "id": "image-inline",
     "name": "Image Inline",
     "author": "zackaryw",
@@ -21815,7 +21808,7 @@
     "id": "tags-color-files",
     "name": "Tags Color Files",
     "author": "pan4ratte",
-    "description": "Allows you to automatically color files in file explorer based on the tags they contain. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Color files in file explorer automatically, based on the tags they contain and the rules you create. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pan4ratte/obsidian-tags-color-files"
   },
   {
@@ -22790,6 +22783,13 @@
     "author": "ducktapekiller",
     "description": "Bulk convert all tags in your vault to lowercase, verify stats, and generate tag lists. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ducktapekiller/obsidian-bulk-tag-manager"
+  },
+  {
+    "id": "reader-highlighter-tags",
+    "name": "Reader Highlighter Tags",
+    "author": "ducktapekiller",
+    "description": "Highlight text and add tags in Reading View. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ducktapekiller/obsidian-reader-highlighter-tags"
   },
   {
     "id": "napkin-notes",
@@ -47831,13 +47831,6 @@
     "repo": "songjiajun0209-byte/recording-minutes"
   },
   {
-    "id": "ai-scheduler",
-    "name": "AI Scheduler",
-    "author": "Rachit Asthana",
-    "description": "Autonomous AI assistant layer for Claudian with AI planning, scheduled work, self-talk, nightly vault reviews, and notifications. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "racstan/obsidian-ai-scheduler"
-  },
-  {
     "id": "ebbinghaus-review",
     "name": "Note Review Reminder",
     "author": "rheor108",
@@ -47920,5 +47913,54 @@
     "author": "Error Dev",
     "description": "cool task management for daily/periodic notes!! - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "devicals/Daily-Tasks"
+  },
+  {
+    "id": "writing-asset",
+    "name": "Writing Asset",
+    "author": "creative781",
+    "description": "Link local files into an asset group and insert them while writing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "creative781/writing-asset"
+  },
+  {
+    "id": "easy-writing-goal",
+    "name": "Easy Writing Goal",
+    "author": "creative781",
+    "description": "Scrivener-style writing goals across notes grouped by frontmatter. Track project totals, daily session targets, and history. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "creative781/easy-writing-goal"
+  },
+  {
+    "id": "paper-pdf-translator",
+    "name": "PDF Translator",
+    "author": "Jinqian Ju",
+    "description": "Read and translate academic PDFs with precise source alignment. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jujinqian162/pdf-translator"
+  },
+  {
+    "id": "omni-quiz",
+    "name": "Omni Quiz",
+    "author": "pavel",
+    "description": "Render interactive single-choice quizzes from Markdown quiz blocks and persist answer progress. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pavelpeng7/omni-quiz"
+  },
+  {
+    "id": "python-editor",
+    "name": "Python Editor",
+    "author": "Juan Miguel Dela Cruz",
+    "description": "Browse and edit Python files with Lezer-powered structure, highlighting, search, and auto-save. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "issac404/obsidian-python-plugin"
+  },
+  {
+    "id": "canvas-from-headings",
+    "name": "Canvas From Headings",
+    "author": "ColorBox",
+    "description": "Create a Canvas whiteboard from a note's H1 groups and H2 text cards. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hotdog-box/canvas-from-headings"
+  },
+  {
+    "id": "blog-outbox",
+    "name": "Blog Outbox",
+    "author": "supralune",
+    "description": "Publish selected Markdown notes and local attachments to a configurable local blog project. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "supralune/obsidian-blog-outbox"
   }
 ]
