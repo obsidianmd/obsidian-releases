@@ -798,13 +798,6 @@
     "repo": "dy-sh/obsidian-consistent-attachments-and-links"
   },
   {
-    "id": "obsidian-languagetool-plugin",
-    "name": "LanguageTool Integration",
-    "author": "clemens-e",
-    "description": "advanced spell/grammar checks with the help of language-tool.",
-    "repo": "clemens-e/obsidian-languagetool-plugin"
-  },
-  {
     "id": "obsidian-plantuml",
     "name": "PlantUML",
     "author": "Johannes Theiner",
@@ -9590,13 +9583,6 @@
     "repo": "nhannht/obsidian-historica"
   },
   {
-    "id": "date-inserter",
-    "name": "Date Inserter",
-    "author": "namikaze-40p",
-    "description": "Insert a date at the cursor position using a calendar.",
-    "repo": "namikaze-40p/obsidian-date-inserter"
-  },
-  {
     "id": "tekken-notation",
     "name": "Tekken Notation",
     "author": "opti9",
@@ -10265,7 +10251,7 @@
     "id": "supernote",
     "name": "Supernote (Unofficial)",
     "author": "Brandon Philips",
-    "description": "View Supernote notes, generate markdown from note and capture screen mirror.",
+    "description": "Sync and view Supernote notes and Atelier drawings in your vault",
     "repo": "philips/supernote-obsidian-plugin"
   },
   {
@@ -21236,13 +21222,6 @@
     "author": "caesarloo",
     "description": "Manage SVN working copies inside your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "caesarloo/obsidian-svn"
-  },
-  {
-    "id": "evc-team-relay",
-    "name": "EVC Team Relay",
-    "author": "entire-vc",
-    "description": "Real-time multiplayer editing, shared folders with permissions, one-click web publishing, and read and write access for AI agents through the MCP, over a self-hosted or managed relay. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "entire-vc/evc-team-relay-obsidian-plugin"
   },
   {
     "id": "collaborative-folders",
@@ -47838,13 +47817,6 @@
     "repo": "songjiajun0209-byte/recording-minutes"
   },
   {
-    "id": "ai-scheduler",
-    "name": "AI Scheduler",
-    "author": "Rachit Asthana",
-    "description": "Autonomous AI assistant layer for Claudian with AI planning, scheduled work, self-talk, nightly vault reviews, and notifications. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "racstan/obsidian-ai-scheduler"
-  },
-  {
     "id": "ebbinghaus-review",
     "name": "Note Review Reminder",
     "author": "rheor108",
@@ -47892,5 +47864,12 @@
     "author": "Reece W.",
     "description": "Displays a badge/overlay over vaults to distinguish them. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "meadow-field/obsidian-vault-badge"
+  },
+  {
+    "id": "llm-wiki-sync",
+    "name": "LLM Wiki Sync",
+    "author": "Jiho Song",
+    "description": "Bidirectional Obsidian and Notion synchronization with explicit conflict protection. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jiho-0629/llm-wiki-sync"
   }
 ]
