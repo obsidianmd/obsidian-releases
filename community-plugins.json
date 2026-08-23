@@ -33012,6 +33012,13 @@
     "repo": "ckelsoe/obsidian-annoteca"
   },
   {
+    "id": "editorialist",
+    "name": "Editorialist",
+    "author": "Eric R Taylor",
+    "description": "Import structured editorial feedback from curated human editors, beta readers, or AI, then review editorial suggestions across manuscript scenes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ericrhystaylor/Editorialist"
+  },
+  {
     "id": "star-pins",
     "name": "Star Pins",
     "author": "Brightwav3",
@@ -45347,7 +45354,7 @@
   },
   {
     "id": "open-powershell-here",
-    "name": "Open PowerShell Here",
+    "name": "Native Terminal Here",
     "author": "Ethan Fu",
     "description": "Open PowerShell 7+ at the vault root or any folder (Windows only). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ethanffu/open-powershell-here"
@@ -47106,7 +47113,7 @@
     "id": "project-manager-insights",
     "name": "Project Manager Insights",
     "author": "Deng's",
-    "description": "Read-only assignee workload insights across Project Manager projects. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A read-only analytics layer for Project Manager, adding cross-project workload, delivery   progress, data quality, and schedule risk insights. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "coffeecheese/obsidian-pm-insights"
   },
   {
@@ -47838,6 +47845,13 @@
     "repo": "rheor108/ebbinghaus-review"
   },
   {
+    "id": "free-doodle",
+    "name": "Free Doodle",
+    "author": "T-T2333",
+    "description": "在笔记上直接涂鸦划线标注，墨迹保存在 md 文件中；另附独立画板可导出 PNG。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "t-t2333/obsidian-free-doodle"
+  },
+  {
     "id": "sync-git",
     "name": "SyncGit",
     "author": "Bhoopesh R K",
@@ -48006,13 +48020,6 @@
     "repo": "rheithron/final-craft"
   },
   {
-    "id": "run-in-background",
-    "name": "Run in Background",
-    "author": "Gabriel Bacha",
-    "description": "Keep vaults running in the background for quick access and continued Obsidian Sync. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gabrielbacha/Obsidian-Run-in-background"
-  },
-  {
     "id": "ribbon-groups",
     "name": "Open Ribbon Groups",
     "author": "aione314159",
@@ -48153,10 +48160,38 @@
     "repo": "abm9111/chamber-obsidian"
   },
   {
+    "id": "markown-anywhere",
+    "name": "Markown Anywhere",
+    "author": "ZhangCeeKey",
+    "description": "Open Markdown files from anywhere with Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhangcongke/markdown-anywhere"
+  },
+  {
     "id": "niplex-agentic-research",
     "name": "Niplex Research AI",
     "author": "Adarsh Jaiswal",
     "description": "Autonomous, mobile-first Obsidian research AI with bounded vault context, transparent prompts, and approved edits. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aj-niplex/Niplex-obsidian-Research-AI"
+  },
+  {
+    "id": "review-comments-plus",
+    "name": "Review Comments Plus",
+    "author": "Mike stephan",
+    "description": "Review comments with reply threads, suggestion mode and a vault-wide panel. Stored as CriticMarkup inside the note, so an LLM can follow the thread. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mikegafert/obsidian-review-comments-plus"
+  },
+  {
+    "id": "wizard",
+    "name": "Wizard",
+    "author": "goed nieuws",
+    "description": "Step through a template-defined questionnaire and save the answers straight into your active note as you go. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "driekeerj/wizard"
+  },
+  {
+    "id": "journal-sync-bridge",
+    "name": "Journal Sync",
+    "author": "LinYun",
+    "description": "在 Obsidian 中记录日记并发布到 flomo、Telegram、Mastodon、Misskey 和 Notion，无需额外后端服务。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "linyunerr/Journal-Sync"
   }
 ]
