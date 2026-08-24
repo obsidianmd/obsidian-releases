@@ -42623,13 +42623,6 @@
     "repo": "yinfi/baizer"
   },
   {
-    "id": "daily-prefix-notes",
-    "name": "Daily Notes Prefix Matcher",
-    "author": "chika",
-    "description": "Open today's daily note by matching the date prefix in its filename. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "applespriter/obsidian-daily-notes-prefix-matcher-plugin"
-  },
-  {
     "id": "full-width-toggle",
     "name": "Full Width Toggle",
     "author": "JaeKyung Hwang",
@@ -46189,7 +46182,7 @@
     "id": "article-info-inserter",
     "name": "Article Info Inserter",
     "author": "gbt777",
-    "description": "统计笔记的字数、图片数量，插入正文和 Frontmatter .Automatically counts the characters, images, and estimated reading time of the current Markdown note, then inserts to the note - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "在笔记正文、Frontmatter一键追加\"文章信息\"：字数、阅读时间、图片数、创建/修改时间、自定义链接与图片等……appends configurable article-info lines (word count, reading time, images, timestamps, custom links/images…) to your note and Frontmatter - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gbt777/article-info-inserter"
   },
   {
@@ -48170,7 +48163,7 @@
     "id": "lumen-pdf-annotator",
     "name": "Lumen PDF Annotator",
     "author": "Ben Gutteridge",
-    "description": "Read, search, highlight, and annotate PDFs with themes, searchable notes, local Markdown storage, and performance-focused rendering. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Read, search, highlight, and annotate PDFs with themes, searchable notes, local storage, and performance-focused rendering. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bengutteridge1/lumen-pdf-annotator"
   },
   {
@@ -48249,13 +48242,6 @@
     "author": "Johannes Kaindl",
     "description": "Mirror CalDAV events and CardDAV contacts as notes; the server stays the source of truth. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "johannes-kaindl/calendar-notes"
-  },
-  {
-    "id": "context-calendar",
-    "name": "Context Calendar",
-    "author": "woonyong-kr",
-    "description": "Explore dated Markdown notes with their links and context in a month-first calendar. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "woonyong-kr/simple-calendar"
   },
   {
     "id": "living-mindmap",
@@ -48410,5 +48396,12 @@
     "author": "NeverCode",
     "description": "Turn Tasks query results into urgency dashboards with summaries, filters, collapsible details, notes, and dependency links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fzk177/tasks-dashboard-enhancer"
+  },
+  {
+    "id": "formatted-chinese",
+    "name": "Formatted Chinese",
+    "author": "FormattedChinese",
+    "description": "Romanize and translate Chinese text in your notes: Jyutping, Yale, or pinyin with a formatted bilingual layout. Supports Cantonese and Mandarin via FormattedChinese.com. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "formattedchinese/formatted-chinese-obsidian"
   }
 ]
