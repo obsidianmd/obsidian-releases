@@ -6944,13 +6944,6 @@
     "repo": "chenfeicqq/obsidian-attachment-manager"
   },
   {
-    "id": "solve",
-    "name": "Solve",
-    "author": "liamriddell",
-    "description": "Real-time equation and date calculations.",
-    "repo": "liamriddell/obsidian-solve"
-  },
-  {
     "id": "graph-nested-tags",
     "name": "Nested tags graph",
     "author": "drpilman",
@@ -33453,6 +33446,13 @@
     "repo": "miro0o/miniWorldMap"
   },
   {
+    "id": "pdftion",
+    "name": "Pdftion",
+    "author": "Murat",
+    "description": "AI-open PDF annotation, editing, export, and Obsidian integration tools. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arias007/pdftion"
+  },
+  {
     "id": "reading-inbox-synthesizer",
     "name": "Reading Inbox Synthesizer",
     "author": "ibrh96-prog",
@@ -47064,7 +47064,7 @@
     "id": "chinabrat",
     "name": "China BRAT",
     "author": "快速安装插件",
-    "description": "粘贴一个插件文件地址即可安装，内置三个示例地址，解决访问Github 慢导致的插件无法安装问题。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "粘贴一个插件文件地址即可安装，内置三个示例地址，解决网络慢导致的插件无法安装问题。装shoujidiannao（shouji diannao）插件就用这个 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "notesynchelper/chinabrat"
   },
   {
@@ -47971,6 +47971,13 @@
     "repo": "meadow-field/obsidian-vault-badge"
   },
   {
+    "id": "llm-wiki-sync",
+    "name": "LLM Wiki Sync",
+    "author": "Jiho Song",
+    "description": "Bidirectional Obsidian and Notion synchronization with explicit conflict protection. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jiho-0629/llm-wiki-sync"
+  },
+  {
     "id": "lumen-stage",
     "name": "Lumen Stage",
     "author": "paddy",
@@ -47990,6 +47997,13 @@
     "author": "Error Dev",
     "description": "cool task management for daily/periodic notes!! - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "devicals/Daily-Tasks"
+  },
+  {
+    "id": "book-note",
+    "name": "Book Note",
+    "author": "hellokunzai",
+    "description": "Non-invasive reading annotation plugin for PDF and EPUB. Highlights, notes, and tags are stored in separate sidecar files — your original documents are never modified. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hellokunzai/obsidian-book-note"
   },
   {
     "id": "pixnote",
@@ -48088,6 +48102,13 @@
     "author": "Domenico Pozzetti",
     "description": "Compile screenplays from Markdown notes using industry standard rules. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rheithron/final-craft"
+  },
+  {
+    "id": "run-in-background",
+    "name": "Run in Background",
+    "author": "Gabriel Bacha",
+    "description": "Keep vaults running in the background for quick access and continued Obsidian Sync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gabrielbacha/Obsidian-Run-in-background"
   },
   {
     "id": "ribbon-groups",
@@ -48202,13 +48223,6 @@
     "repo": "sprintzerzz/explorer-icon-studio"
   },
   {
-    "id": "context-graph",
-    "name": "Context Graph",
-    "author": "woonyong-kr",
-    "description": "Explore Markdown knowledge as an expandable context-preserving graph. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "woonyong-kr/context-tree"
-  },
-  {
     "id": "calendar-notes",
     "name": "Calendar and Contact Notes",
     "author": "Johannes Kaindl",
@@ -48251,16 +48265,23 @@
     "repo": "aj-niplex/Niplex-obsidian-Research-AI"
   },
   {
+    "id": "niplex-skills-helper",
+    "name": "Niplex Skills Helper",
+    "author": "Niplex Foundation",
+    "description": "Safely look up and install instruction-only Niplex skills by five-character marketplace code. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aj-niplex/niplex-obsidian-helper"
+  },
+  {
     "id": "review-comments-plus",
     "name": "Review Comments Plus",
-    "author": "Mike stephan",
+    "author": "Mike Stephan",
     "description": "Review comments with reply threads, suggestion mode and a vault-wide panel. Stored as CriticMarkup inside the note, so an LLM can follow the thread. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mikegafert/obsidian-review-comments-plus"
   },
   {
     "id": "wizard",
     "name": "Wizard",
-    "author": "goed nieuws",
+    "author": "WallWay",
     "description": "Step through a template-defined questionnaire and save the answers straight into your active note as you go. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "driekeerj/wizard"
   },
@@ -48340,5 +48361,19 @@
     "author": "Jason Quesada Gomez",
     "description": "Trello-style task boards with cards, labels, dates, and highly customizable Markdown-formatted checklists. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jasonqg26/Kanux"
+  },
+  {
+    "id": "gutenberg-publisher",
+    "name": "Gutenberg Publisher",
+    "author": "RA",
+    "description": "Convert Obsidian Markdown to Gutenberg blocks and publish it to WordPress in one click. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "insdel-lab/gutenberg-publisher"
+  },
+  {
+    "id": "reading-markers",
+    "name": "Reading Markers",
+    "author": "ptwm",
+    "description": "Adds persistent color-coded reading markers inside Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ptwm-git/reading-markers"
   }
 ]
