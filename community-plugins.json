@@ -19334,13 +19334,6 @@
     "repo": "taggrobs/obsidian-taggr-sync"
   },
   {
-    "id": "relation-sync",
-    "name": "Relation Sync",
-    "author": "Alessandro Casnigo",
-    "description": "Automatically syncs inverse relations in frontmatter. Define relation pairs like parent-child or spouse and the plugin keeps both sides in sync. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "casungo/relation-sync-plugin"
-  },
-  {
     "id": "polymind",
     "name": "PolyMind",
     "author": "semernyakov",
@@ -20095,6 +20088,13 @@
     "author": "logotipza",
     "description": "AI assistant with multi-provider support: Yandex AI Studio, Groq, OpenAI, Anthropic, GigaChat. Chat panel, vault search, inline text editing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "logotipza/obsidian-ya-gpt"
+  },
+  {
+    "id": "mindmap-ai",
+    "name": "Mindmap AI",
+    "author": "prashantyella",
+    "description": "Desktop-first plugin that orchestrates the Mindmap Python engine. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "prashantyella/mindmap-obsidian"
   },
   {
     "id": "search-external-files",
@@ -35819,6 +35819,13 @@
     "repo": "newo-j/note-decay"
   },
   {
+    "id": "ziran-llm-wiki",
+    "name": "Ziran LLM Wiki",
+    "author": "Natural Growth Notes",
+    "description": "基于 Karpathy LLM Wiki 方法论，通过对话驱动构建深度专题知识库 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "iamxiaoming-gif/ziran-llm-wiki"
+  },
+  {
     "id": "lotus",
     "name": "Lotus",
     "author": "James Karlsson & Thomas Goldman",
@@ -48272,13 +48279,6 @@
     "repo": "aj-niplex/niplex-obsidian-helper"
   },
   {
-    "id": "review-comments-plus",
-    "name": "Review Comments Plus",
-    "author": "Mike Stephan",
-    "description": "Review comments with reply threads, suggestion mode and a vault-wide panel. Stored as CriticMarkup inside the note, so an LLM can follow the thread. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mikegafert/obsidian-review-comments-plus"
-  },
-  {
     "id": "wizard",
     "name": "Wizard",
     "author": "WallWay",
@@ -48308,10 +48308,17 @@
   },
   {
     "id": "creative-writer",
-    "name": "creative-writer",
+    "name": "Creative Writer",
     "author": "André Amnc",
     "description": "Zen Mode, typewriter scrolling, focus fade, paragraph rhythm and offline style checks for creative writing. Optional local-model assistant. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "amancioandre/creative-writer"
+  },
+  {
+    "id": "webview-ua-override",
+    "name": "Web Viewer UA Override",
+    "author": "Ian Monroe",
+    "description": "Routes Obsidian's web views through a clean Electron session with a real Chrome user agent, so Google and other embedded-browser-hostile sign-ins work. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "imonroe/obsidian-webview-ua-override"
   },
   {
     "id": "camel-case-spellcheck",
@@ -48410,5 +48417,54 @@
     "author": "冬季蚊子",
     "description": "在 Obsidian 中创建和编辑专业思维导图，六种布局、节点搜索、拖拽排序、右键菜单、Obsidian 内部链接（[[笔记名]]、文件拖拽、反向链接）、附件拖入导入（遵循附件存放位置设置）、图片统一尺寸、自动整理、性能模式、JSON/PNG/Markdown 导入导出。基于 simple-mind-map 引擎。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wintermosquito/the-mind-map"
+  },
+  {
+    "id": "dnd-charactersheet",
+    "name": "DnD Character Sheet Tool",
+    "author": "Simon Zweers",
+    "description": "This is a plugin that allows you to view charactersheets - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "simonzweers/obsidian-dnd-charactersheet"
+  },
+  {
+    "id": "focus-tab-groups",
+    "name": "Focus Tab Groups",
+    "author": "Stanislaw",
+    "description": "Focus editor tab groups by number using configurable hotkeys. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "raykotarou/focus-tab-groups-obsidian"
+  },
+  {
+    "id": "onebib",
+    "name": "OneBib",
+    "author": "Navid Nobani",
+    "description": "Add simple, local BibTeX citations, references, and bibliographies to your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "naviden/OneBib"
+  },
+  {
+    "id": "review-comments-ai",
+    "name": "Review Comments AI",
+    "author": "Mike Stephan",
+    "description": "Review comments built to work with your AI coding assistant: threads live in the note as CriticMarkup, so Claude Code or a local agent reads the discussion, edits the text and replies in place. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mikegafert/obsidian-review-comments-ai"
+  },
+  {
+    "id": "best-dedao-brain-sync",
+    "name": "Best Dedao Brain Sync",
+    "author": "Andy Zheng（公众号：关山的月儿）",
+    "description": "最好用的 【得到大脑 Obsidian】 插件（永久免费） - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andyzhengyan/best-obsidian-dedao-brain-sync"
+  },
+  {
+    "id": "examined-human",
+    "name": "Examined Human Dashboards",
+    "author": "Ahmadreza Azimi Kohnabi",
+    "description": "Examined Human dashboards and guarded native EQH data import on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ossahmad/obsidian-examined-human"
+  },
+  {
+    "id": "sugar-high",
+    "name": "Sugar High",
+    "author": "ankitchouhan1020",
+    "description": "Highlight rendered code blocks with Sugar High's lightweight semantic syntax colours. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ankitchouhan1020/obsidian-sugar-high"
   }
 ]
