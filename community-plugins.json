@@ -24584,13 +24584,6 @@
     "repo": "rogerdigital/vault-inspector"
   },
   {
-    "id": "chess-vault",
-    "name": "Chess Vault",
-    "author": "dun8",
-    "description": "Sync your Lichess/Chess.com games! - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dun8/Chess-Vault"
-  },
-  {
     "id": "codeian",
     "name": "Codeian",
     "author": "wdblink",
@@ -48594,6 +48587,13 @@
     "repo": "rockychang7/obsidian-github-image-host"
   },
   {
+    "id": "data-autocomplete",
+    "name": "Data Autocomplete",
+    "author": "phoenixyun",
+    "description": "Obsidian 内完全本地运行的数据自动补全引擎：直接解析 vault 内 Excel/CSV，按报告上下文从真实数据检索候选数值并强制溯源；无外部服务、无 LLM。支持占位符补全、指标缺值波浪线 + 下拉/Tab 补全、语义兜底、手动搜索、备份恢复。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "phoenixyun/obsidian-data-autocomplete"
+  },
+  {
     "id": "ray-vault-sync",
     "name": "Ray Vault Sync",
     "author": "Raylabs",
@@ -48606,5 +48606,19 @@
     "author": "dudaanton",
     "description": "All-in-one productivity plugin. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dudaanton/abele-obsidian-plugin"
+  },
+  {
+    "id": "boardwalk",
+    "name": "Boardwalk",
+    "author": "zeiosmb",
+    "description": "Markdown kanban boards with per-card move history. Drag-and-drop cards and lanes, multi-select, tags, due dates, undo, search, and an archive — fully compatible with the Kanban board file format. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zeiosmb/obsidian-boardwalk"
+  },
+  {
+    "id": "quickcite",
+    "name": "QuickCite",
+    "author": "ismai saoulaj",
+    "description": "Inline, zero-friction fact-checking and citations. DuckDuckGo search with no API keys required. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ismailsaoulaj/quickcite"
   }
 ]
