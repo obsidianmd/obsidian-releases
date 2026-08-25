@@ -47540,7 +47540,7 @@
     "id": "dispatch",
     "name": "Dispatch",
     "author": "Kai Mysliwiec",
-    "description": "The agentic ticket board — property-driven kanban, milestone and meeting boards, plus chips that dispatch AI coding agents (Claude Code, Codex) from your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Dispatch is a board for Obsidian that gives a small agent-native team a working process: skills that run through the wiki and the team chat, and a chip on every card that sends an agent at the work. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kaimys/obsidian-dispatch"
   },
   {
@@ -48496,10 +48496,59 @@
     "repo": "chiahsien/obsidian-snapshot-sync"
   },
   {
+    "id": "vps-publish",
+    "name": "Publish to VPS",
+    "author": "Jonathan ROUQUETTE",
+    "description": "Publish selected vault folders to your personal VPS with property-based filtering and remote upload. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jorouquette/vps-publish"
+  },
+  {
+    "id": "plik-uploader",
+    "name": "Plik Uploader",
+    "author": "Aguay",
+    "description": "Upload the current note or any vault file to a self-hosted Plik instance and copy the share link. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aguay-val/obsidian-plik-uploader"
+  },
+  {
     "id": "highlight-pen",
     "name": "Highlight Pen",
     "author": "Alberto Vittadello",
     "description": "Turn the cursor into a pen: pick a style once and every selection you make gets highlighted, bolded, italicised, underlined, struck through or coloured. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "afterlaughter/obsidian-highlight-pen"
+  },
+  {
+    "id": "halyard-sync",
+    "name": "Halyard Sync",
+    "author": "Tim Helgeson",
+    "description": "Sync your vault with a git repository (GitHub, GitLab, Bitbucket, Gitea/Forgejo, Azure DevOps, or any HTTPS host) on desktop and mobile. No native git required. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "timrs2998/halyard-sync"
+  },
+  {
+    "id": "halyard-fetch",
+    "name": "Halyard Fetch",
+    "author": "Tim Helgeson",
+    "description": "Mirror a GitLab package or GitHub release artifact into a vault folder on a schedule. Read-only, no git required, works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "timrs2998/halyard-fetch"
+  },
+  {
+    "id": "wechat-publish-preview",
+    "name": "WeChat Publish Preview",
+    "author": "ianchen",
+    "description": "Preview Markdown with WeChat-compatible styling and copy rich text to the WeChat editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "joahyi-ai/Ob2Wechat"
+  },
+  {
+    "id": "number-suite",
+    "name": "Number Suite",
+    "author": "ZhengYX",
+    "description": "Display or manage heading, caption, footnote, endnote, and reference numbers without changing Markdown unexpectedly. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhyx91/obsidian-number-suite"
+  },
+  {
+    "id": "github-image-host",
+    "name": "GitHub Image Host",
+    "author": "rocky",
+    "description": "Upload pasted or dropped images to a GitHub repository and insert the public link into your note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rockychang7/obsidian-github-image-host"
   }
 ]
