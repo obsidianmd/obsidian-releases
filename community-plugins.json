@@ -9639,13 +9639,6 @@
     "repo": "gubchik123/obsidian-movie-search-plugin"
   },
   {
-    "id": "view-count",
-    "name": "View Count",
-    "author": "decaf-dev",
-    "description": "Tracks view count for each vault file.",
-    "repo": "decaf-dev/obsidian-view-count"
-  },
-  {
     "id": "notice-controller",
     "name": "Notification Controller",
     "author": "juan-miii",
@@ -10708,13 +10701,6 @@
     "author": "alexkurowski",
     "description": "Helpful tools for playing TTRPG games, geared towards solo play with a GM emulator.",
     "repo": "alexkurowski/solo-toolkit"
-  },
-  {
-    "id": "vault-explorer",
-    "name": "Vault Explorer",
-    "author": "decaf-dev",
-    "description": "Explore your vault in visual format",
-    "repo": "decaf-dev/obsidian-vault-explorer"
   },
   {
     "id": "cursor-jump",
@@ -12213,13 +12199,6 @@
     "author": "jdchart",
     "description": "Manage projects according to an ontology.",
     "repo": "jdchart/onto-tracker"
-  },
-  {
-    "id": "journaling",
-    "name": "Journaling",
-    "author": "ordeeper",
-    "description": "View daily notes in a journal-like format, similar to Logseq. It enhances note organization and facilitates better reflection by consolidating daily notes into a continuous journaling view.",
-    "repo": "ordeeper/obsidian-journaling-plugin"
   },
   {
     "id": "shortcut-edit-mode",
@@ -48188,6 +48167,13 @@
     "repo": "artemislin/guyu-bazi"
   },
   {
+    "id": "planflow",
+    "name": "PlanFlow",
+    "author": "YH",
+    "description": "基于Obsidian的计划自动拆解行动系统：年度计划自动拆解，量化任务自动流转，每日行动打卡/周/月/年度目标/看板/甘特六视图目标追踪，自统计徽章激励系统。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yezhangdeng01/PlanFlow"
+  },
+  {
     "id": "calendar-notes",
     "name": "Calendar and Contact Notes",
     "author": "Johannes Kaindl",
@@ -48447,6 +48433,13 @@
     "repo": "desynkd/chicago"
   },
   {
+    "id": "brewvault",
+    "name": "BrewVault",
+    "author": "luiserivaldo",
+    "description": "Render Markdown notes into Homebrewery-style, paginated D&D 5e documents right inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "luiserivaldo/BrewVaultPlugin"
+  },
+  {
     "id": "table-style-tweaks",
     "name": "Table Style Tweaks",
     "author": "rix",
@@ -48494,5 +48487,12 @@
     "author": "Nontaphat Saksathianpong",
     "description": "Preview and pull files from Google Cloud Storage without changing remote objects. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nontaphat/obsidian-gcs-pull"
+  },
+  {
+    "id": "gemini-universal-summarizer",
+    "name": "Gemini Universal Summarizer",
+    "author": "my-credits",
+    "description": "Fast, direct AI summarizer for YouTube, Reddit, and Web links into simple Target/Words/Summary format using Google Gemini API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "my-credits/obsidian-gemini-summarizer"
   }
 ]
