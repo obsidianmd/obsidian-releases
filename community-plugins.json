@@ -13988,7 +13988,7 @@
   {
     "id": "keep-the-rhythm",
     "name": "Keep the Rhythm",
-    "author": "benjaminezequiel",
+    "author": "Benjamin Ezequiel",
     "description": "Turns out watching your word count go up is all the motivation you need.",
     "repo": "benjaminezequiel/keep-the-rhythm"
   },
@@ -20027,13 +20027,6 @@
     "repo": "sdkasper/lean-obsidian-terminal"
   },
   {
-    "id": "vaultchat",
-    "name": "VaultChat",
-    "author": "kpulik",
-    "description": "Multi-provider AI chat with file reading, editing, creation, and deletion. Supports Anthropic, OpenAI, Google Gemini, OpenRouter, and Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kpulik/Chatsidian"
-  },
-  {
     "id": "deepl-translate-selection",
     "name": "DeepL Translate Selection",
     "author": "fanxin199",
@@ -20287,9 +20280,9 @@
   },
   {
     "id": "dynalist-mover",
-    "name": "Dynalist Mover",
+    "name": "Dynalist-Style Moves",
     "author": "oneoffobject",
-    "description": "Move selected lines up and down like Dynalist. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Renamed from Dynalist Mover. Move selected lines up or down while preserving selection, with optional parent-and-child movement. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "oneoffobject/dynalist-mover"
   },
   {
@@ -20858,6 +20851,13 @@
     "author": "khaldevmedia",
     "description": "Take timestamped Markdown notes across multiple embedded YouTube videos, all inside a single note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "khaldevmedia/obsidian-youtnote"
+  },
+  {
+    "id": "local-llm-hub",
+    "name": "Local LLM Hub",
+    "author": "TAKESHI MORITA",
+    "description": "Chat with local LLMs (Ollama, LM Studio) with local embeddings RAG, file encryption, edit history, slash commands, and workflow automation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "takeshy/obsidian-local-llm-hub"
   },
   {
     "id": "open-in-claude-code",
@@ -29211,13 +29211,6 @@
     "repo": "jedgrant/wh-obsidian"
   },
   {
-    "id": "bases-tag-colors",
-    "name": "Bases Tag Colors",
-    "author": "Oleg Brovchenko",
-    "description": "Color your Bases tags per-base. Each .base file owns its palette — no global tag soup. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "olegbrovchenko/bases-tag-colors"
-  },
-  {
     "id": "ytkn",
     "name": "YT Knowledge Notes",
     "author": "aawhb",
@@ -32366,6 +32359,13 @@
     "author": "Michael Makarov",
     "description": "Run Claude Code, Codex, Grok, AntiGravity, Qwen Code, and OpenCode as local AI agents in your vault, with chat, inline editing, and tools. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sandsaber/Grimoire"
+  },
+  {
+    "id": "metadata-validator",
+    "name": "Metadata Validator",
+    "author": "flowing-abyss",
+    "description": "Manifest-driven metadata validation, auto-fix, and field picker for notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "flowing-abyss/obsidian-metadata-validator"
   },
   {
     "id": "headings-indicator",
@@ -41958,6 +41958,13 @@
     "repo": "ionmint/get-covers"
   },
   {
+    "id": "llm-hub",
+    "name": "LLM Hub",
+    "author": "TAKESHI MORITA",
+    "description": "AI assistant with chat, workflow automation, and semantic search (RAG). Supports Gemini, OpenAI, Anthropic, OpenRouter, Grok, local LLMs, and CLI backends. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "takeshy/obsidian-llm-hub"
+  },
+  {
     "id": "foldable-embedded-notes",
     "name": "Foldable Embedded Notes",
     "author": "Nickolay Kondratyev",
@@ -46123,6 +46130,13 @@
     "repo": "seadhe/obsidian-canvas-image-lod"
   },
   {
+    "id": "atomic-tracker",
+    "name": "Atomic Tracker",
+    "author": "Justin",
+    "description": "Track exercise and hobbies with heatmaps, cues, timers, and a daily dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "justinw0ng/obsidian-atomic"
+  },
+  {
     "id": "bases-plus",
     "name": "Bases Plus",
     "author": "heykim109",
@@ -46821,6 +46835,13 @@
     "author": "Francisco",
     "description": "Convert notes to EPUB locally and send them to Amazon Kindle using an unofficial desktop integration. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "franchixco/notes-to-kindle"
+  },
+  {
+    "id": "colorcoder-tables",
+    "name": "ColorCoder Tables",
+    "author": "Jan Ma",
+    "description": "2D Kanban/Swimlane task board with Task-as-File architecture, virtual grouping, and dynamic color coding. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jaho123i/ColorCoder_Tables_System"
   },
   {
     "id": "omniscient",
@@ -48286,6 +48307,13 @@
     "repo": "matheusz-nied/finance-vault-obsidian"
   },
   {
+    "id": "handwriting",
+    "name": "Handwriting",
+    "author": "Alan Liu",
+    "description": "Write on your notes with a pen. Ink, highlighter, eraser, and lasso directly on Markdown, saved beside your files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ellimist-afk/handwriting"
+  },
+  {
     "id": "vault-searchlight",
     "name": "Vault Searchlight",
     "author": "Ben Gutteridge",
@@ -48333,6 +48361,13 @@
     "author": "RA",
     "description": "Convert Obsidian Markdown to Gutenberg blocks and publish it to WordPress in one click. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "insdel-lab/gutenberg-publisher"
+  },
+  {
+    "id": "slipbox",
+    "name": "Slipbox Desk",
+    "author": "John Gargalionis",
+    "description": "A paper-like Zettelkasten: addressed cards, a browsable sequence, and a desk to lay them out on. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johngarg/obsidian-slipbox"
   },
   {
     "id": "reading-markers",
@@ -48410,13 +48445,6 @@
     "author": "Fabrice Bernhard",
     "description": "Render markdown notes as a Toyota-style A3 problem-solving report: a 42cm x 29.7cm two-column page that fits on screen, with mermaid diagrams. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fabriceb/obsidian-a3-plugin"
-  },
-  {
-    "id": "best-dedao-brain-sync",
-    "name": "Best Dedao Brain Sync",
-    "author": "Andy Zheng（公众号：关山的月儿）",
-    "description": "Dedao Brain Sync升级版，最好用的 【得到大脑 Obsidian】 插件（永久免费） - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "andyzhengyan/best-obsidian-dedao-brain-sync"
   },
   {
     "id": "examined-human",
