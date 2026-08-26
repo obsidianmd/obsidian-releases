@@ -33943,13 +33943,6 @@
     "repo": "xhydros/pdf-to-markdown-local"
   },
   {
-    "id": "note-reader-cosyvoice",
-    "name": "Note Reader CosyVoice",
-    "author": "Note Reader CosyVoice Contributors",
-    "description": "Read Obsidian notes through the local CosyVoice TTS pipeline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "laginae/note-reader-cosyvoice"
-  },
-  {
     "id": "x-bookmarks-to-vault",
     "name": "X Bookmarks",
     "author": "Ken",
@@ -41342,6 +41335,13 @@
     "repo": "kamijoucen/obsidian-openyolo"
   },
   {
+    "id": "chrono-notes",
+    "name": "Chrono Notes",
+    "author": "ZhengYX",
+    "description": "A calendar workspace for periodic notes, calendar extensions, regional holidays, tasks, and time ranges. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhyx91/obsidian-chrono-notes"
+  },
+  {
     "id": "local-image-resizer",
     "name": "Local Image Resizer",
     "author": "JSTools Space",
@@ -47250,6 +47250,13 @@
     "repo": "aceduan/obsidian-handy-toolkit"
   },
   {
+    "id": "deepseek-harness-native",
+    "name": "DeepSeek Harness Native",
+    "author": "wuruihi",
+    "description": "在 Obsidian 侧边栏内驱动本地 DeepSeek Harness (DSH) Web GUI，支持 vault 双向桥接与 DSH 服务自动管理。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wuruihi/obsidian-deepseek-harness-native"
+  },
+  {
     "id": "stockr-sync",
     "name": "Stockr Sync",
     "author": "株式会社ビルディット",
@@ -48013,6 +48020,13 @@
     "repo": "sharfaroz7/Grid-tab-switcher"
   },
   {
+    "id": "folder-nodes",
+    "name": "Folder Nodes",
+    "author": "ZhengYX",
+    "description": "Turn every folder into a same-named node with visual navigation, selection creation, and scalable ordering. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhyx91/obsidian-folder-nodes"
+  },
+  {
     "id": "final-craft",
     "name": "Final Craft",
     "author": "Domenico Pozzetti",
@@ -48531,6 +48545,13 @@
     "repo": "chiahsien/obsidian-snapshot-sync"
   },
   {
+    "id": "fleurdict",
+    "name": "FleurDict",
+    "author": "JC5",
+    "description": "An elegant English dictionary plugin with word lookup, AI translation, vocabulary notebook and flashcard review. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gibsonchan-5/fleurdict"
+  },
+  {
     "id": "vps-publish",
     "name": "Publish to VPS",
     "author": "Jonathan ROUQUETTE",
@@ -48555,7 +48576,7 @@
     "id": "open-taiwan-calendar",
     "name": "Open Taiwan Calendar",
     "author": "aione314159",
-    "description": "A Taiwanese almanac calendar showing public holidays, substitute-day adjustments, the lunar calendar and solar terms, with month/year views, a sidebar view and a draggable floating window. Pairs with QuickAdd for periodic notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Taiwanese almanac calendar: public holidays, day-off adjustments, lunar dates and solar terms in a month or year view, with a sidebar view, a floating window and periodic notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aione314159/open-taiwan-calendar"
   },
   {
@@ -48571,13 +48592,6 @@
     "author": "Tim Helgeson",
     "description": "Mirror a GitLab package or GitHub release artifact into a vault folder on a schedule. Read-only, no git required, works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "timrs2998/halyard-fetch"
-  },
-  {
-    "id": "wechat-publish-preview",
-    "name": "WeChat Publish Preview",
-    "author": "ianchen",
-    "description": "Preview Markdown with WeChat-ready styling and two-way scroll sync. Convert local images to Base64 and copy rich text to the WeChat draft editor—no image host needed. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "joahyi-ai/Ob2Wechat"
   },
   {
     "id": "structural-tables",
@@ -48634,5 +48648,26 @@
     "author": "ismai saoulaj",
     "description": "Inline, zero-friction fact-checking and citations. DuckDuckGo search with no API keys required. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ismailsaoulaj/quickcite"
+  },
+  {
+    "id": "niplex-research-brain",
+    "name": "Niplex Research Brain",
+    "author": "Niplex Foundation",
+    "description": "Privacy-first vault connection index with optional Gemini embeddings and a focused research map. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aj-niplex/Niplex-Research-Brain"
+  },
+  {
+    "id": "niplex-writing-insights",
+    "name": "Niplex Writing Insights",
+    "author": "Niplex Foundation",
+    "description": "Private local writing activity heatmap, streaks, and optional user-controlled reflection prompts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aj-niplex/Niplex-Writing-Insights"
+  },
+  {
+    "id": "ai-vault-assistant",
+    "name": "AI Vault Assistant",
+    "author": "陶鑫旺",
+    "description": "接入 cc-switch 本地代理使用 AI：对话整理 Vault、构建相互关联的笔记、列出插件与命令、内置 Skills、开放 MCP 服务供 Codex 等外部 Agent 接入、推荐并安装社区插件、经确认后修改插件配置。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "1716775457damn/obsidian-ai-vault-assistant"
   }
 ]
