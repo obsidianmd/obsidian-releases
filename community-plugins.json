@@ -33946,7 +33946,7 @@
     "id": "note-reader-cosyvoice",
     "name": "Note and PDF Voice Reader",
     "author": "Note Reader CosyVoice Contributors",
-    "description": "Read notes and searchable PDFs using local CosyVoice or opt-in Edge, Azure, and OpenRouter TTS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Privacy-first voice reading for notes and text-based PDFs with fast local processing; continue from a PDF selection or read only selected text. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "laginae/note-reader-cosyvoice"
   },
   {
@@ -48552,6 +48552,13 @@
     "repo": "chiahsien/obsidian-snapshot-sync"
   },
   {
+    "id": "fleurdict",
+    "name": "FleurDict",
+    "author": "JC5",
+    "description": "An elegant English dictionary plugin with word lookup, AI translation, vocabulary notebook and flashcard review. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gibsonchan-5/fleurdict"
+  },
+  {
     "id": "vps-publish",
     "name": "Publish to VPS",
     "author": "Jonathan ROUQUETTE",
@@ -48655,6 +48662,13 @@
     "author": "ismai saoulaj",
     "description": "Inline, zero-friction fact-checking and citations. DuckDuckGo search with no API keys required. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ismailsaoulaj/quickcite"
+  },
+  {
+    "id": "authorship-tracker",
+    "name": "Authorship Tracker",
+    "author": "bloknayrb",
+    "description": "Tracks who creates and modifies notes — designed for human/AI collaborative vaults. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bloknayrb/obsidian-authorship-tracker"
   },
   {
     "id": "niplex-research-brain",
@@ -48774,5 +48788,19 @@
     "author": "hkohlhoff",
     "description": "Collapse and expand hierarchical branches in Obsidian Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hkohlhoff/canvas-folding"
+  },
+  {
+    "id": "ai-pm-tool",
+    "name": "AI PM Tool",
+    "author": "caesarloo",
+    "description": "Turn requirement notes into a live project overview: parse frontmatter, sync SVN snapshots, track milestone progress with AI reminders, and send milestone emails. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "caesarloo/ai-pm-tool"
+  },
+  {
+    "id": "bases-board",
+    "name": "Bases Board",
+    "author": "flowing-abyss",
+    "description": "Interactive board view for bases, use as Kanban or Gallery, with grouping for rows and columns. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "flowing-abyss/obsidian-bases-board"
   }
 ]
