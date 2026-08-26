@@ -18252,7 +18252,7 @@
     "id": "vault-as-mcp",
     "name": "Vault as MCP",
     "author": "ebullient",
-    "description": "MCP server connecting Open WebUI, Claude Desktop, and other LLMs to your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Runs an MCP server inside Obsidian, exposing your vault to external LLM tools with read, search, and edit operations. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ebullient/obsidian-vault-mcp"
   },
   {
@@ -47530,6 +47530,13 @@
     "repo": "guancyxx/task-vault"
   },
   {
+    "id": "goodcharts",
+    "name": "GoodCharts",
+    "author": "Times",
+    "description": "Render simple, theme-aware charts from YAML using TanStack Charts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "times0/good-charts"
+  },
+  {
     "id": "magzdown",
     "name": "Magzdown",
     "author": "Carlos Brotas",
@@ -48188,13 +48195,6 @@
     "repo": "johannes-kaindl/calendar-notes"
   },
   {
-    "id": "context-calendar",
-    "name": "Context Calendar",
-    "author": "woonyong-kr",
-    "description": "Explore dated Markdown notes with their links and context in a month-first calendar. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "woonyong-kr/simple-calendar"
-  },
-  {
     "id": "living-mindmap",
     "name": "Living Mindmap",
     "author": "Chansocheat Tieng",
@@ -48643,6 +48643,13 @@
     "repo": "zeiosmb/obsidian-boardwalk"
   },
   {
+    "id": "makarios-studio",
+    "name": "Makarios Studio",
+    "author": "David Bernardes Junior",
+    "description": "Ambiente de estudo bíblico avançado para o Obsidian com sincronização de versículos, léxicos e comentários. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "davidbernardes/makarios-studio"
+  },
+  {
     "id": "quickcite",
     "name": "QuickCite",
     "author": "ismai saoulaj",
@@ -48753,5 +48760,19 @@
     "author": "ty",
     "description": "Turn your home tab into a customizable dashboard for capturing tasks, tracking projects, and reviewing your note activity. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tanyinaia/Xove-Dashboard"
+  },
+  {
+    "id": "familiar",
+    "name": "Familiar",
+    "author": "Pier-Rick Lamontagne",
+    "description": "An AI assistant that can read and write your notes. Bring your own model - OpenAI, Anthropic, Ollama, or any OpenAI-compatible endpoint. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bardicus-kilgore/familiar"
+  },
+  {
+    "id": "canvas-folding",
+    "name": "Canvas Folding",
+    "author": "hkohlhoff",
+    "description": "Collapse and expand hierarchical branches in Obsidian Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hkohlhoff/canvas-folding"
   }
 ]
