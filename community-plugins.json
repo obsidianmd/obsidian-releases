@@ -23334,7 +23334,7 @@
     "id": "similarity",
     "name": "Similarity",
     "author": "jorammillenaar",
-    "description": "Bring semantic search to Obsidian — find related notes by meaning, not just shared keywords. All embedding generation and search runs 100% locally on your device: no API keys. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Search, explore and see related notes based on their meaning. Using a tiny AI running fully on-device: data never leaves your machine, no API keys needed. Great for journaling, or a second brain. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jorammillenaar/obsidian-similarity"
   },
   {
@@ -33946,7 +33946,7 @@
     "id": "note-reader-cosyvoice",
     "name": "Note and PDF Voice Reader",
     "author": "Note Reader CosyVoice Contributors",
-    "description": "Privacy-first voice reading for notes and text-based PDFs with fast local processing; continue from a PDF selection or read only selected text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Privacy-first plugin that can read aloud notes and text-based PDFs with fast local processing; continue from a PDF selection or read only selected text. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "laginae/note-reader-cosyvoice"
   },
   {
@@ -45276,13 +45276,6 @@
     "repo": "madforstrength/obsidian-wispr-flow-sync"
   },
   {
-    "id": "drum-notation-renderer",
-    "name": "Drum Notation Renderer",
-    "author": "Ganzo",
-    "description": "Write modern drum grooves as positions or grids and render responsive SVG notation. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ganzosupremo/drum-notation-plugin"
-  },
-  {
     "id": "kindle-bridge",
     "name": "Kindle Bridge",
     "author": "Daisuke Masuda",
@@ -48160,6 +48153,13 @@
     "repo": "obsidiest/obsidian-dynamic-template-children-updater"
   },
   {
+    "id": "claudian-mobile",
+    "name": "Claudian Mobile",
+    "author": "charlesxiaomi",
+    "description": "A minimal AI writing and knowledge agent for your vault. Calls the Anthropic API directly, so it works on mobile as well as desktop. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "charlesxiaomi/claudian-mobile"
+  },
+  {
     "id": "explorer-icon-studio",
     "name": "Explorer Icon Studio",
     "author": "SpZyph3r",
@@ -48277,13 +48277,6 @@
     "author": "Matheus",
     "description": "Registre receitas, despesas, cartões, gastos fixos, parcelamentos e aportes em arquivos Markdown locais. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "matheusz-nied/finance-vault-obsidian"
-  },
-  {
-    "id": "canvas-retro-engine",
-    "name": "Canvas Retro Engine",
-    "author": "Mo.",
-    "description": "Play 8-bit NES and 32-bit PlayStation 1 games directly on the Obsidian Canvas with interactive 3D console hardware, CRT screen shaders, and tactile gamepad overlays. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mothemansour/canvas-retro-engine"
   },
   {
     "id": "handwriting",
@@ -48685,6 +48678,13 @@
     "repo": "whitekid/typstian"
   },
   {
+    "id": "lite-atlas",
+    "name": "Lite Atlas",
+    "author": "Nikoleta",
+    "description": "A customizable visual dashboard for notes, projects, and frequently used content. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mumuer1024/Obsidian-Atlas"
+  },
+  {
     "id": "streak-heatmap",
     "name": "Streak Heatmap",
     "author": "v1n1-03",
@@ -48783,13 +48783,6 @@
     "repo": "hkohlhoff/canvas-folding"
   },
   {
-    "id": "dedao-brain-sync-plus",
-    "name": "Dedao Brain Sync Plus",
-    "author": "Andy Zheng（公众号：关山的月儿）",
-    "description": "BEST DedaoBrain/GetNote Sync, enjoy! - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "andyzhengyan/dedao-brain-sync2"
-  },
-  {
     "id": "ai-pm-tool",
     "name": "AI PM Tool",
     "author": "caesarloo",
@@ -48846,6 +48839,13 @@
     "repo": "jmshinhwa/readystack-obsidian-meeting-notes"
   },
   {
+    "id": "tome-connector",
+    "name": "Tome Connector",
+    "author": "Ghatazhak",
+    "description": "Sends statblocks, maps, props, encounters and characters to a Tome server, and compiles a folder of notes into a PDF for its reference library. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ghatazhak/tome-connector"
+  },
+  {
     "id": "justftables",
     "name": "JustFTables",
     "author": "codeforge11",
@@ -48879,5 +48879,47 @@
     "author": "Thomas ",
     "description": "Insert Tabler icons into your notes and activate them across the TBDL theme. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ledokter/tbdl-tabler-icons"
+  },
+  {
+    "id": "metronome-tuner",
+    "name": "Metronome + Tuner",
+    "author": "Patrick Fanella",
+    "description": "A precise metronome and chromatic tuner inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "patrickfanella/obsidian-plugin-metronome-tuner"
+  },
+  {
+    "id": "auto-link-creator",
+    "name": "Auto Link Creator",
+    "author": "Autumn Fox",
+    "description": "Create notes and links from list templates, repeated phrases, and NLP keyword detection across your vault with a preview before applying. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "autumnevans418/Obsidian-Auto-Link-Creator"
+  },
+  {
+    "id": "focus-explorer",
+    "name": "Focus Explorer",
+    "author": "Wanten",
+    "description": "An Obsidian file explorer with folder focus. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wantenmn/focus-explorer"
+  },
+  {
+    "id": "standard-manuscript-format",
+    "name": "Standard Manuscript Format Export",
+    "author": "Beth Dean",
+    "description": "Export a story to Shunn's standard manuscript format as a .docx or .rtf, ready to submit. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hexennacht666/obsidian-standard-manuscript-format"
+  },
+  {
+    "id": "wordbook-layout",
+    "name": "Wordbook Layout",
+    "author": "dxx",
+    "description": "Arrange heading-based word lists as a responsive wordbook in reading view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xddd1111111/wordbook-layout"
+  },
+  {
+    "id": "auto-webp-image-manager",
+    "name": "Auto WebP Image Manager",
+    "author": "gmsz-1603",
+    "description": "粘贴/拖拽图片自动保存为WebP（质量75%、可缩放），按笔记名自动命名，笔记重命名时图片同步重命名。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gmsz-1603/obsidian-auto-webp-image-manager"
   }
 ]
