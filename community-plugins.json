@@ -11181,7 +11181,7 @@
   {
     "id": "tars",
     "name": "Tars",
-    "author": "tarslab",
+    "author": "ae86jack",
     "description": "Text generation based on tag suggestions, using Claude, OpenAI, Ollama, Kimi, Doubao, Qwen, Zhipu, DeepSeek, QianFan & more.",
     "repo": "tarslab/obsidian-tars"
   },
@@ -26393,7 +26393,7 @@
     "id": "karpathywiki",
     "name": "Karpathy LLM Wiki",
     "author": "Greener-Dalii",
-    "description": "Karpathy's LLM Wiki implementation - multi-page knowledge generation with entity/concept pages and conversational query. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Karpathy's LLM Wiki implementation plugin for Obsidian - turns notes and PDFs into a linked, LLM-powered knowledge base with entity pages, concept pages, graph-powered Q&A, and local-first privacy. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "green-dalii/obsidian-llm-wiki"
   },
   {
@@ -42668,7 +42668,7 @@
     "id": "remarkable-tagged-sync",
     "name": "Tagged Sync for reMarkable",
     "author": "Thomas Hochbichler",
-    "description": "Sync tagged reMarkable notebooks and PDFs as searchable Markdown, routed to folders by tag. Handwriting transcribed on your own machine, highlights quoted. One-way; nothing is written back. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync tagged reMarkable notebooks, PDFs and EPUBs as searchable Markdown, routed by tag. Handwriting transcribed locally — no uploads, no subscription. Unofficial; not affiliated with reMarkable AS. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "thomas-hochbichler/obsidian-remarkable-tagged-sync"
   },
   {
@@ -45965,7 +45965,7 @@
     "id": "big-characters",
     "name": "Big Characters",
     "author": "artem",
-    "description": "Styles Chinese text with optional pinyin annotations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Styles Chinese and Korean text with optional pronunciation (pinyin, romanization) annotations. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "a-zasypalov/Obsidian-Big-Characters"
   },
   {
@@ -46569,13 +46569,6 @@
     "author": "Juan Ferranti",
     "description": "Convert Supernote .note files to PDF, and stamp .mark annotation layers onto a copy of the original PDF. Optionally index recognized handwriting as searchable Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "junskix1/obsidian-supernote-annotations"
-  },
-  {
-    "id": "agent-ogent",
-    "name": "Ogent",
-    "author": "Akali",
-    "description": "Run a vault-aware AI agent with streaming output, safe file tools, and configurable OpenAI-compatible providers. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "akali-yyds/ObsidianAgent-Ogent"
   },
   {
     "id": "quick-access-dashboard",
@@ -48699,13 +48692,6 @@
     "repo": "pgyogesh/obsidian-plainpage-settings"
   },
   {
-    "id": "dns-toolkit",
-    "name": "DnS Toolkit",
-    "author": "d0u9",
-    "description": "Render extensible custom Markdown containers delimited by :::. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "d0u9/obsidian-dns-toolkit"
-  },
-  {
     "id": "zhihu-favorites-sync",
     "name": "Zhihu Favorites Sync",
     "author": "gaofeng",
@@ -48762,6 +48748,13 @@
     "repo": "gao-feng/auto-heading-numbers"
   },
   {
+    "id": "gitee-sync-better",
+    "name": "Gitee Sync Better",
+    "author": "memoryl7",
+    "description": "Sync your vault to a Gitee or GitHub repository. Enhanced with folder sync support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "memoryl7/obsidian-git-sync-better"
+  },
+  {
     "id": "xove-dashboard",
     "name": "Xove Dashboard",
     "author": "ty",
@@ -48816,6 +48809,13 @@
     "author": "Aaron Ade",
     "description": "Creates and syncs Anki flashcards from Markdown while preserving review history. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aaronade0/obsidian-anki-bridge"
+  },
+  {
+    "id": "nautilus-log",
+    "name": "Nautilus Log",
+    "author": "accessiblefish",
+    "description": "A visual time-blocking and daily planning plugin: fixed events stay pinned to a spiral timeline, flexible tasks fill the gaps, and a now-pointer pushes unfinished tasks forward. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "accessiblefish/obsidian-nautilus-log"
   },
   {
     "id": "vault-dashboard-x",
@@ -48921,5 +48921,33 @@
     "author": "gmsz-1603",
     "description": "粘贴/拖拽图片自动保存为WebP（质量75%、可缩放），按笔记名自动命名，笔记重命名时图片同步重命名。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gmsz-1603/obsidian-auto-webp-image-manager"
+  },
+  {
+    "id": "ugougo-moji",
+    "name": "Ugougo Moji",
+    "author": "Yuichi Mizutani",
+    "description": "Renders text in ugougo code blocks as wobbling retro-TV style graphics. （ウゴウゴ・ぶるぶると小刻みに動く文字アニメーションを実現します） - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yumizu11/markdown-ugougo-moji"
+  },
+  {
+    "id": "simple-tasks",
+    "name": "Simple Tasks",
+    "author": "alex-roc",
+    "description": "Task management on plain markdown checkboxes: completion heatmap, hover actions, outline hierarchy and tag grouping. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alex-roc/simple-tasks"
+  },
+  {
+    "id": "periodic-calendar",
+    "name": "Periodic Calendar",
+    "author": "alex-roc",
+    "description": "Calendar for your periodic notes — daily, weekly, monthly, quarterly, semester and yearly — shaded by how much each day holds, and extensible by other plugins. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alex-roc/periodic-calendar"
+  },
+  {
+    "id": "chapter-pipeline",
+    "name": "Charter Pipeline",
+    "author": "zemengzhou",
+    "description": "Minimalist Linear-style floating horizontal dash stepper with KaTeX formula preview and pinned top navigation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leaninglearner/obsidian-charter-pipeline"
   }
 ]
