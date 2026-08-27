@@ -26607,13 +26607,6 @@
     "repo": "foundlegacy/zulu-agent"
   },
   {
-    "id": "ai-tag-curator",
-    "name": "AI Tag Curator",
-    "author": "edge",
-    "description": "AI tag management and governance for Obsidian vaults. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "qmkcamel/obsidian-ai-tag-curator"
-  },
-  {
     "id": "base-backlinks-viewer",
     "name": "Base Backlinks Viewer",
     "author": "Lumyo",
@@ -34459,6 +34452,13 @@
     "author": "Atharva Dhamankar",
     "description": "A tag folder based explorer for obsidian. Uses the nested tags feature of obsidian to create virtual folders, allowing individual files to exist in multiple locations, inside a single vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "semisenioritis/Tag-Folder-Explorer"
+  },
+  {
+    "id": "local-runner",
+    "name": "Local Runner",
+    "author": "on-devplan",
+    "description": "在侧边栏启动本地命令并查看输出(如 npm run dev / npx vite)。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "on-devplan/ob-ps"
   },
   {
     "id": "understory",
@@ -44807,13 +44807,6 @@
     "repo": "hesprs/sync-engine"
   },
   {
-    "id": "version",
-    "name": "Multi-Version Notes",
-    "author": "Ikue",
-    "description": "Create and switch between multiple editable versions of a note. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mizhidaili/version"
-  },
-  {
     "id": "filtered-file-commands",
     "name": "Note Types",
     "author": "jsmorabito",
@@ -48293,6 +48286,13 @@
     "repo": "mothemansour/canvas-retro-engine"
   },
   {
+    "id": "handwriting",
+    "name": "Handwriting",
+    "author": "Alan Liu",
+    "description": "Write on your notes with a pen. Ink, highlighter, eraser, and lasso directly on Markdown, saved beside your files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ellimist-afk/handwriting"
+  },
+  {
     "id": "tradecraft",
     "name": "Tradecraft",
     "author": "Michael Boyle",
@@ -48872,5 +48872,12 @@
     "author": "Thomas ",
     "description": "Insert Lucide icons into your notes and activate them across the TBDL theme. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ledokter/tbdl-lucide-icons"
+  },
+  {
+    "id": "tbdl-tabler-icons",
+    "name": "Tabler Icons for TBDL",
+    "author": "Thomas ",
+    "description": "Insert Tabler icons into your notes and activate them across the TBDL theme. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ledokter/tbdl-tabler-icons"
   }
 ]
