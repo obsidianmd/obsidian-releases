@@ -20888,6 +20888,13 @@
     "repo": "ariayd/obsidian-image-markdown-link"
   },
   {
+    "id": "encrypted-folders",
+    "name": "Encrypted Folders",
+    "author": "eng618",
+    "description": "Encrypt and decrypt entire folders within your vault with AES-256-GCM. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "eng618/obsidian-encrypted-folders"
+  },
+  {
     "id": "claude-vault-assistant",
     "name": "Claude Vault Assistant",
     "author": "copperbox",
@@ -46914,13 +46921,6 @@
     "repo": "hortensej/knowledge-inbox"
   },
   {
-    "id": "daily-note-flow",
-    "name": "Daily Note Flow",
-    "author": "Minhang-Zhang",
-    "description": "Capture daily tasks, todos, time-classified records, and summaries into pure Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zhimahuzzz/daily-note-flow"
-  },
-  {
     "id": "personal-crm",
     "name": "Personal CRM",
     "author": "xuvi",
@@ -47150,6 +47150,13 @@
     "author": "TranscriptExporter",
     "description": "Receives meeting notes from the TranscriptExporter Chrome extensions (for Granola, Fathom, and Fireflies) and writes them into your vault automatically, minutes after each call. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "transcriptexporter/transcriptexporter-sync"
+  },
+  {
+    "id": "mybrain-ai",
+    "name": "mybrain.ai",
+    "author": "mybrain.ai",
+    "description": "Sync your Obsidian vault into mybrain.ai. Notes and links become a searchable, lasting personal knowledge asset you can query and build on. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mybrain-ai/obsidian-plugin"
   },
   {
     "id": "file-timestamp",
@@ -48174,13 +48181,6 @@
     "repo": "chansocheat-tieng/obsidian-living-mindmap"
   },
   {
-    "id": "chamber-drift",
-    "name": "Chamber Drift",
-    "author": "Apachae",
-    "description": "Shows which of your conclusions lost support when notes changed — renders the drift report written by Chamber's scheduled verify. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "abm9111/chamber-obsidian"
-  },
-  {
     "id": "markown-anywhere",
     "name": "Markown Anywhere",
     "author": "ZhangCeeKey",
@@ -48716,7 +48716,7 @@
     "id": "task-wheel",
     "name": "Task Wheel",
     "author": "Max",
-    "description": "Review every open task with certainty. Your tasks become a turnable radial tree: angle is life domain, radius is hierarchy depth. Turn the wheel, pass each task once, finish the round. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "See every open task once, on purpose. Task Wheel is a visual overview for reviewing tasks: each one is a stop on a wheel you turn, so nothing hides at the bottom of a long todo list. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "maxonamission/obsidian-task-wheel"
   },
   {
@@ -49143,7 +49143,7 @@
     "id": "unseen-changes-dot",
     "name": "Unseen Changes Dot",
     "author": "Miguel Sousa",
-    "description": "Shows dots for new or changed notes you have not viewed yet, including folder and tab indicators, without editing note frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Shows dots beside new and changed notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mightycrumbs/unseen-changes-dot"
   },
   {
@@ -49161,6 +49161,13 @@
     "repo": "mit-bach/mixed-explorer-sort"
   },
   {
+    "id": "docker-connector",
+    "name": "Docker Connector",
+    "author": "Anthony Fitzpatrick",
+    "description": "A desktop Docker environment dashboard with secure local, Context, SSH, and mutual TLS connections. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "anthonyfitzpatrick/obsidian-docker-connector"
+  },
+  {
     "id": "perhaps",
     "name": "Perhaps",
     "author": "panat",
@@ -49173,6 +49180,13 @@
     "author": "Alex",
     "description": "Bring daily notes, Markdown tasks, writing statistics, and an activity heatmap into a local home dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hu2849901083-source/daily-desk"
+  },
+  {
+    "id": "dsh-embedded",
+    "name": "DSH Embedded",
+    "author": "bzlir",
+    "description": "Host DeepSeek Harness (dsh) inside Obsidian — unified surface, vault-aware agent, persistent memory. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bzlir/obsidian-dsh-plugin"
   },
   {
     "id": "wechat-workbench",
@@ -49273,11 +49287,25 @@
     "repo": "philaxis/history"
   },
   {
+    "id": "levart",
+    "name": "Levart",
+    "author": "jcig789",
+    "description": "A private travel journal. Plan your itinerary before departure, travel with it in hand, and write your record after returning. Every folio lives in your vault as a standard Obsidian note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jcig789/levart"
+  },
+  {
     "id": "parallel-translator",
     "name": "Parallel Translator",
     "author": "liang",
     "description": "Scientific Markdown translation, reading assistance, and minimal bilingual source synchronization. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "llbbaagg66/parallel-translator"
+  },
+  {
+    "id": "wisp",
+    "name": "Wisp",
+    "author": "RecurEngine-dev",
+    "description": "A small intelligence that follows you everywhere, for managing your Obsidian vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "recurengine/wisp"
   },
   {
     "id": "main-tab-commands",
@@ -49292,5 +49320,89 @@
     "author": "YULEI LI",
     "description": "Turn conversations, files, clipboard text, and web articles into linked A-mem-inspired Obsidian notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xtshanlei/auto-zettelkasten"
+  },
+  {
+    "id": "nautilus-logger",
+    "name": "Nautilus Logger",
+    "author": "dimpurr",
+    "description": "A spiral day planner with explicit time capacity. Fixed events stay fixed, flexible tasks flow into what remains, and overload never disappears from view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dimpurr/obsidian-nautilus-logger"
+  },
+  {
+    "id": "outlook-sync",
+    "name": "Outlook to Day Planner Sync",
+    "author": "Gabriel Miranda",
+    "description": "Syncs Outlook calendar events into the Day Planner section of daily notes, filtered by the note's frontmatter Date. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dtobia/outlook-to-day-planner-sync"
+  },
+  {
+    "id": "codex-sidebar",
+    "name": "Tandem",
+    "author": "Olivier LB",
+    "description": "A contextual AI assistant for discussing, improving, and organizing your Obsidian notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "olivierlb/Tandem"
+  },
+  {
+    "id": "fleur-annotation",
+    "name": "FleurAnnotation",
+    "author": "JC5",
+    "description": "Markdown 智能阅读与标注插件，支持高亮、划线、AI 批注与翻译。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gibsonchan-5/fleur-annotation"
+  },
+  {
+    "id": "project-planner",
+    "name": "Project Planner",
+    "author": "Harrison Milburn",
+    "description": "Plan projects from your Markdown tasks with a dependency graph, Gantt chart with critical path, kanban board, and cost tracking. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hmil1151/project-planner"
+  },
+  {
+    "id": "attention",
+    "name": "Attention",
+    "author": "semsevens",
+    "description": "Record where your attention went — highlights and comments on notes, transcripts and subtitles — then revisit them. Never modifies the original file. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "semsevens/obsidian-attention"
+  },
+  {
+    "id": "icor-planner",
+    "name": "ICOR Planner",
+    "author": "Paperless Movement S.L.",
+    "description": "Plan your week on one board inside your vault: Todoist, ClickUp, starred email and Google Calendar sync in as markdown notes you drag onto your days, with two-way sync behind explicit toggles. Part of the ICOR for Life Obsidian Edition. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myicor/icor-planner"
+  },
+  {
+    "id": "icor-focus",
+    "name": "ICOR Focus",
+    "author": "Paperless Movement S.L.",
+    "description": "See where your attention actually goes: you sit in the center of the map, today's work orbits close, older work ripples outward, and every entity type keeps its own color and shape. Part of the ICOR for Life Obsidian Edition. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myicor/icor-focus"
+  },
+  {
+    "id": "myicor-connect",
+    "name": "myICOR Connect",
+    "author": "Paperless Movement S.L.",
+    "description": "Your app.myicor.com account inside your vault: ICOR Journey and Growth Assignment dashboards, knowledge-base search, reflections synced as notes you own, and myICOR context for Claude sessions. Part of the ICOR for Life Obsidian Edition. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myicor/myicor-connect"
+  },
+  {
+    "id": "job-application-tracker",
+    "name": "Job Application Tracker",
+    "author": "Jim Nuzzi",
+    "description": "Track job applications, contacts, and interviews with Kanban, Table, List, and Sankey analytics dashboards. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cruisencode/obsidian-job-application-tracker"
+  },
+  {
+    "id": "excalink",
+    "name": "Excalink",
+    "author": "Aditya Kumar",
+    "description": "Suggests and links the named frames and groups inside your Excalidraw drawings when typing [[filename# in the editor - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aarambhaanta/Excalink"
+  },
+  {
+    "id": "simple-vault-statistics",
+    "name": "Simple Vault Statistics",
+    "author": "jimmycushnie",
+    "description": "View statistics about your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jimmycushnie/Simple-Vault-Statistics"
   }
 ]
