@@ -24664,7 +24664,7 @@
     "id": "getnote-importer",
     "name": "Dedao Brain Sync",
     "author": "Andy Zheng（公众号：关山的月儿）",
-    "description": "BEST DedaoBrain/GetNote & Obsidian Sync, enjoy! - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "最好用的 【得到大脑/Get笔记/GetNote <-> Obsidian】 插件（永久免费） - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "andyzhengyan/obsidian-getnote-importer"
   },
   {
@@ -26325,13 +26325,6 @@
     "author": "fleker",
     "description": "Find Liked Songs that aren't in any of your Spotify playlists and save them as a note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fleker/spotify-organizer-for-obsidian"
-  },
-  {
-    "id": "simple-storage-sync-and-backup",
-    "name": "S3 Sync + Backup",
-    "author": "Sathindu",
-    "description": "Vault synchronization and scheduled backups across devices using S3-compatible storage (AWS S3, Cloudflare R2, RustFS, etc.) with optional end-to-end encryption. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ceilaolabs/obsidian-s3-sync-and-backup"
   },
   {
     "id": "agentic-note-references",
@@ -30289,13 +30282,6 @@
     "repo": "shrekbytes/advanced-pdf-export"
   },
   {
-    "id": "lucrjournal",
-    "name": "LucrJournal",
-    "author": "lucrtrade2",
-    "description": "Record your trades as local Markdown files and link every entry to its key levels, confluences, market analysis, and news — turning your journal into a connected, private knowledge graph. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lucrtrade/lucrjournal-obsidian-plugin"
-  },
-  {
     "id": "local-rest-api-second-brain-mcp-extension",
     "name": "Local REST API Second Brain MCP Extension",
     "author": "Mehran Ziadloo",
@@ -33178,13 +33164,6 @@
     "author": "Aaron Penne",
     "description": "Automatically move completed tasks to the bottom of their checkbox group - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aaronpenne/move-completed-tasks"
-  },
-  {
-    "id": "float-on-top",
-    "name": "Pin on Top",
-    "author": "Joe Utke",
-    "description": "Pin Obsidian window above all other application windows. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "joeutke-dev/obsidian-float"
   },
   {
     "id": "chronoboard",
@@ -46557,6 +46536,13 @@
     "repo": "junskix1/obsidian-supernote-annotations"
   },
   {
+    "id": "agent-ogent",
+    "name": "Ogent",
+    "author": "Akali",
+    "description": "Run a vault-aware AI agent with streaming output, safe file tools, and configurable OpenAI-compatible providers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "akali-yyds/ObsidianAgent-Ogent"
+  },
+  {
     "id": "quick-access-dashboard",
     "name": "Quick Access Dashboard",
     "author": "Harrison Edwards",
@@ -48013,13 +47999,6 @@
     "repo": "sharfaroz7/Grid-tab-switcher"
   },
   {
-    "id": "folder-nodes",
-    "name": "Folder Nodes",
-    "author": "ZhengYX",
-    "description": "Turn every folder into a same-named node with visual navigation, selection creation, and scalable ordering. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zhyx91/obsidian-folder-nodes"
-  },
-  {
     "id": "final-craft",
     "name": "Final Craft",
     "author": "Domenico Pozzetti",
@@ -48431,13 +48410,6 @@
     "author": "rix",
     "description": "Customize table styles: minimum column width before wrapping, break tables out of readable line width, center or align tables, and scroll wide tables horizontally. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "richard-wyz/table-style-tweaks"
-  },
-  {
-    "id": "wechat-content-sync",
-    "name": "WeChat Content Sync",
-    "author": "gordon.g",
-    "description": "把微信生态内容（文章/图片/视频/文字）经配套小程序转发到 Obsidian 知识库并自动建立双链；也可把笔记发布回小程序。内置 AI 对话视图，自动续接上次文档。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gordon-g/wechat-inbox-sync"
   },
   {
     "id": "image-order-reverser",
@@ -48937,13 +48909,6 @@
     "repo": "hexennacht666/obsidian-standard-manuscript-format"
   },
   {
-    "id": "wordbook-layout",
-    "name": "Wordbook Layout",
-    "author": "dxx",
-    "description": "Arrange heading-based word lists as a responsive wordbook in reading view. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "xddd1111111/wordbook-layout"
-  },
-  {
     "id": "auto-webp-image-manager",
     "name": "Auto WebP Image Manager",
     "author": "gmsz-1603",
@@ -49070,6 +49035,13 @@
     "repo": "yanqingwang/vault-github-with-force"
   },
   {
+    "id": "bullet-list-outline",
+    "name": "Bullet List Outline",
+    "author": "yyldps",
+    "description": "Generate a dedicated sidebar outline for bullet lists. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yyldps/obsidian-bullet-list-outline"
+  },
+  {
     "id": "section-goals-badge",
     "name": "Section Goals Badge",
     "author": "k-quels",
@@ -49124,5 +49096,26 @@
     "author": "Dominik Bach",
     "description": "Sort files and folders together in File Explorer by modified time, created time, or name. Folders mix with files instead of listing first. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mit-bach/mixed-explorer-sort"
+  },
+  {
+    "id": "perhaps",
+    "name": "Perhaps",
+    "author": "panat",
+    "description": "Roll random tables written in plain text in your notes. Perchance-style syntax, interactive rerolls, works offline and on mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "script-wizards/perhaps-obsidian"
+  },
+  {
+    "id": "alex-desk",
+    "name": "Daily Desk",
+    "author": "Alex",
+    "description": "Bring daily notes, Markdown tasks, writing statistics, and an activity heatmap into a local home dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hu2849901083-source/daily-desk"
+  },
+  {
+    "id": "cst-notes",
+    "name": "CST Notes",
+    "author": "PeriSlate",
+    "description": "Cross-platform surgical technologist case notes with specialty, surgeon, and case organization. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "perislate/cst-notes"
   }
 ]
