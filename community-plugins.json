@@ -8743,13 +8743,6 @@
     "repo": "donkeypacific/obsidian-full-screen-cross-platform-plugin"
   },
   {
-    "id": "pkvs",
-    "name": "Persistent Key-Value Store",
-    "author": "iamrecursion",
-    "description": "Provides a persistent key-value store for use in scripts in Obsidian.",
-    "repo": "iamrecursion/obsidian-pkvs"
-  },
-  {
     "id": "settings-profiles",
     "name": "Settings profiles",
     "author": "4source",
@@ -21098,6 +21091,13 @@
     "repo": "intelskya/obsidian-redact"
   },
   {
+    "id": "clist-calc",
+    "name": "CList Calc",
+    "author": "abdur-nur-porag",
+    "description": "Perform calculations on nested or simple task lists using sum, average, and math expressions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abdur-nur-porag/CList-Calc"
+  },
+  {
     "id": "ai-notes",
     "name": "AI Notes",
     "author": "Gabriele De Rosa",
@@ -24657,7 +24657,7 @@
     "id": "getnote-importer",
     "name": "Dedao Brain Sync",
     "author": "Andy Zheng（公众号：关山的月儿）",
-    "description": "最好用的 【得到大脑/Get笔记/GetNote <-> Obsidian】 插件（永久免费） - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "得到大脑官方推荐｜很好用的【得到大脑 / Get笔记 / GetNote <-> Obsidian】双向同步插件 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "andyzhengyan/obsidian-getnote-importer"
   },
   {
@@ -32172,13 +32172,6 @@
     "repo": "mrl-00/poke-obsidian"
   },
   {
-    "id": "activity-dashboard",
-    "name": "Activity Dashboard",
-    "author": "Saim",
-    "description": "Comprehensive media statistics and multi-resolution activity dashboard for Media DB notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "saimdeniz/activity-dashboard"
-  },
-  {
     "id": "arabic-poetry-formatter",
     "name": "Arabic Poetry Formatter",
     "author": "Hayyan",
@@ -36671,6 +36664,13 @@
     "author": "gapmiss",
     "description": "Code file editor with syntax highlighting and code folding. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gapmiss/cm-code-editor"
+  },
+  {
+    "id": "mdx-preview",
+    "name": "MDX Preview",
+    "author": "jovialio",
+    "description": "Preview MDX in Obsidian, with support for Code Hike. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jovialio/obsidian-mdx"
   },
   {
     "id": "glossary-linker",
@@ -44030,13 +44030,6 @@
     "repo": "zzpolariszz/obsidian-snowflake-method"
   },
   {
-    "id": "oh-my-claudian",
-    "name": "Oh My Claudian",
-    "author": "Lee",
-    "description": "Bring Claude Code, Codex, Cursor, Grok, OpenCode, Oh My Pi, and Pi into your Obsidian vault — a Claudian fork. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lee259/oh-my-claudian"
-  },
-  {
     "id": "voicenote-image-migrator",
     "name": "Voicenote Image Migrator",
     "author": "kageetai",
@@ -46424,13 +46417,6 @@
     "repo": "stef4678/fieldforge"
   },
   {
-    "id": "dsh-math-assistant",
-    "name": "DSH Math Notes Assistant",
-    "author": "枫叶",
-    "description": "Math-focused, experimental DeepSeek Harness memory agent in the right sidebar: automatic dsh service management, layered long-term memory, note workflow, and proactive idea-memo reminders. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "maple110011/dsh-obsidian-math"
-  },
-  {
     "id": "md-butler",
     "name": "MD Butler",
     "author": "Peter Petschownik",
@@ -48685,6 +48671,13 @@
     "repo": "pgyogesh/obsidian-plainpage-settings"
   },
   {
+    "id": "dns-toolkit",
+    "name": "DnS Toolkit",
+    "author": "d0u9",
+    "description": "Render extensible custom Markdown containers delimited by :::. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "d0u9/obsidian-dns-toolkit"
+  },
+  {
     "id": "zhihu-favorites-sync",
     "name": "Zhihu Favorites Sync",
     "author": "gaofeng",
@@ -49287,6 +49280,13 @@
     "repo": "llbbaagg66/parallel-translator"
   },
   {
+    "id": "fenced-blocks",
+    "name": "Advanced Markdown Blocks",
+    "author": "HPuntu",
+    "description": "Create, customise and style visual blocks with simple fenced Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hpuntu/advanced-obsidian-blocks"
+  },
+  {
     "id": "wisp",
     "name": "Wisp",
     "author": "RecurEngine-dev",
@@ -49565,5 +49565,26 @@
     "author": "Jordi",
     "description": "Render code diffs embedded in the middle of your notes, from pasted patches or from a Git repository. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "izquiratops/obsidian-code-diff"
+  },
+  {
+    "id": "nest-note",
+    "name": "NestNote",
+    "author": "LiShaocheng",
+    "description": "Treat folders as nested documents in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "exbob/obsidian-nest-note"
+  },
+  {
+    "id": "link-hover-reveal",
+    "name": "Link Hover Reveal",
+    "author": "Mat Paradela",
+    "description": "Keeps markdown links collapsed to just their title in Live Preview, so arrowing between lines doesn't expand them. Only reveals the raw [text](url) when the cursor is placed strictly inside it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "matiasparadela/link-hover-reveal"
+  },
+  {
+    "id": "listsheet",
+    "name": "ListSheet",
+    "author": "abdur-nur-porag",
+    "description": "Turn markdown lists into a live spreadsheet — instant sums, budgets, checklists, and calculator-style formulas (math, conditions, sin/sqrt) with full Bangla/Bengali support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abdur-nur-porag/ListSheet"
   }
 ]
