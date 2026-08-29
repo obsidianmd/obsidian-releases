@@ -4263,6 +4263,13 @@
     "repo": "quorafind/Obsidian-Daily-Notes-Editor"
   },
   {
+    "id": "bpmn-plugin",
+    "name": "BPMN",
+    "author": "joleaf",
+    "description": "Enable viewing BPMN diagrams using bpmn-js.",
+    "repo": "joleaf/obsidian-bpmn-plugin"
+  },
+  {
     "id": "obsidian-image-layouts",
     "name": "Image Layouts",
     "author": "vertis",
@@ -26449,7 +26456,7 @@
     "id": "vaultman",
     "name": "Vaultman",
     "author": "meibbo",
-    "description": "Composable navigation layout, bulk data editor and vault management tool for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Composable navigation explorer, widgets, bulk data editor and workspace management tool for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "meibbo/Vaultman"
   },
   {
@@ -32821,13 +32828,6 @@
     "author": "GotSaeng OS contributors",
     "description": "Compile local Markdown vault context into GotSaeng OS context packs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wonkwonlee/gotsaeng-os"
-  },
-  {
-    "id": "link-trace",
-    "name": "Link Trace",
-    "author": "lucas",
-    "description": "Publish notes as short links and track who's viewed them. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tcyeee/obsidian-link-trace"
   },
   {
     "id": "nas-sync",
@@ -44814,6 +44814,13 @@
     "repo": "iyiguncevik/obsidian-withings-sync"
   },
   {
+    "id": "unagent",
+    "name": "UNagent",
+    "author": "UNcore",
+    "description": "Mobile-first AI assistant: lightweight on phones/tablets, heavy-duty task capabilities on desktop via hermes ACP. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "uncore-gh/UNagent"
+  },
+  {
     "id": "quick-export",
     "name": "Quick Export",
     "author": "mikagosz",
@@ -49432,5 +49439,33 @@
     "author": "Xianpi Duan",
     "description": "Provides optional offline resources for ZotFlow reading features. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "duanxianpi/zotflow-enhancement-pack"
+  },
+  {
+    "id": "oss-sync",
+    "name": "OSS Sync and Share",
+    "author": "HikariTish",
+    "description": "Self-hosted sync and share for Obsidian: Markdown + attachments + .obsidian config, LWW-based multi-device sync, lightweight blog publishing, and collaboration editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "helantianshen/oss-sync"
+  },
+  {
+    "id": "wiki-task-status",
+    "name": "Wiki Task Status",
+    "author": "General Sentiment",
+    "description": "Render standalone wikilinks as checkboxes backed by a configurable note property. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "general-sentiment/wiki-task-status"
+  },
+  {
+    "id": "copy-guard",
+    "name": "CopyGuard",
+    "author": "k-tech-studio",
+    "description": "Find sync-conflict copies, empty files, and leftover temp files in the same folder, review them, and move only what you approve into a dedicated trash folder before deleting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "crossbeat461-a11y/copy-guard"
+  },
+  {
+    "id": "nested-markdown-renderer",
+    "name": "Nested Markdown Renderer",
+    "author": "joechen",
+    "description": "Renders nested GFM tables and repairs indented callouts in Live Preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "joechen2me/obsidian-nested-markdown-renderer"
   }
 ]
