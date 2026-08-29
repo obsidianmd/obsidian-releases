@@ -44768,7 +44768,7 @@
     "id": "sync-engine",
     "name": "Sync Engine",
     "author": "Hēsperus",
-    "description": "The next-generation syncing plugin: Fast · Free · Extend with Modules. Supports WebDAV, S3, and Google Drive. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "The extensible vault synchronization engine: Fast · Free · Reliable. Supports WebDAV, S3, and Google Drive. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hesprs/sync-engine"
   },
   {
@@ -45673,6 +45673,13 @@
     "author": "calmtea",
     "description": "Prevent Android gallery apps from indexing images stored inside your Obsidian vault using .nomedia files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "calmtea5209/Gallery-Excluder"
+  },
+  {
+    "id": "chemedit-universal",
+    "name": "ChemEdit Universal",
+    "author": "Ruzal Sitdikov",
+    "description": "Draw and edit chemical structures (SMILES, MOL) offline on Mobile and Desktop - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ruzx/ChemEdit-Universal"
   },
   {
     "id": "calendar-panel",
@@ -49523,5 +49530,40 @@
     "author": "GroupiesM",
     "description": "Like IDEA's 'Scroll from Source' — reveal, scroll to center, and highlight the active note in the file explorer sidebar with one click. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "groupiesm/Obsidian-locate-in-explorer-Plugin"
+  },
+  {
+    "id": "materin-view",
+    "name": "Materin View",
+    "author": "leapord",
+    "description": "Read OpenAPI/Swagger specs and render a knife4j-style documentation view with request debugging. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leapord/Materin-view"
+  },
+  {
+    "id": "syd-pml-highlight",
+    "name": "PML Syntax Highlighting",
+    "author": "Mouiz LANIKPEKOUN",
+    "description": "Syntax highlighting for AVEVA PML/PML2 code: ```pml blocks in notes, and raw .pml, .pmlobj, .pmlfnc, .pmlfrm, .pmlmac, .pmlcmd files opened directly. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ml9373/syd-pml-highlight"
+  },
+  {
+    "id": "colloquy",
+    "name": "Colloquy",
+    "author": "Ibon Escalada Ruiz de Loizaga",
+    "description": "Build a knowledge base out of your AI conversations. Each one is saved to your vault as markdown, then summarised so the next starts with the context. Supports Ollama, OpenAI, Anthropic, Google and DeepSeek. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yoitsrdl/colloquy"
+  },
+  {
+    "id": "compress-image-webp",
+    "name": "Compress Image (WebP)",
+    "author": "Bjorn Clauw",
+    "description": "Automatically compresses and converts images to WebP on paste, drop, and upload. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bjornclauw/compress-image-webp"
+  },
+  {
+    "id": "code-diff",
+    "name": "Code Diff",
+    "author": "Jordi",
+    "description": "Render code diffs embedded in the middle of your notes, from pasted patches or from a Git repository. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "izquiratops/obsidian-code-diff"
   }
 ]
