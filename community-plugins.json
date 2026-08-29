@@ -29169,13 +29169,6 @@
     "repo": "abdur-nur-porag/CEvent-Planner"
   },
   {
-    "id": "gcal-sidebar",
-    "name": "GCal Sidebar",
-    "author": "ShawnSomething",
-    "description": "Interactive Google Calendar sidebar for Obsidian with multi-account support. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "shawnsomething/obsidian-gcal"
-  },
-  {
     "id": "anycontent-vault-importer",
     "name": "AnyContent Vault Importer",
     "author": "Coder4",
@@ -32828,6 +32821,13 @@
     "author": "GotSaeng OS contributors",
     "description": "Compile local Markdown vault context into GotSaeng OS context packs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wonkwonlee/gotsaeng-os"
+  },
+  {
+    "id": "link-trace",
+    "name": "Link Trace",
+    "author": "lucas",
+    "description": "Publish notes as short links and track who's viewed them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tcyeee/obsidian-link-trace"
   },
   {
     "id": "nas-sync",
@@ -36664,13 +36664,6 @@
     "author": "gapmiss",
     "description": "Code file editor with syntax highlighting and code folding. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gapmiss/cm-code-editor"
-  },
-  {
-    "id": "mdx-preview",
-    "name": "MDX Preview",
-    "author": "jovialio",
-    "description": "Preview MDX in Obsidian, with support for Code Hike. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jovialio/obsidian-mdx"
   },
   {
     "id": "glossary-linker",
@@ -49516,5 +49509,19 @@
     "author": "Hannes Delbeke",
     "description": "Tracks startup time and per-plugin load breakdown, writing structured JSON and Markdown logs for AI analysis and optimization. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hannesdelbeke/obsidian-startup-metrics-logger"
+  },
+  {
+    "id": "bases-export-xlsx",
+    "name": "Bases Export to Excel",
+    "author": "GroupiesM",
+    "description": "Export the filtered results of the current Bases view to a local Excel file. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "groupiesm/Obsidian-bases-export-xlsx-Plugin"
+  },
+  {
+    "id": "locate-in-explorer",
+    "name": "Locate in Explorer",
+    "author": "GroupiesM",
+    "description": "Like IDEA's 'Scroll from Source' — reveal, scroll to center, and highlight the active note in the file explorer sidebar with one click. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "groupiesm/Obsidian-locate-in-explorer-Plugin"
   }
 ]
