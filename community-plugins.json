@@ -46938,7 +46938,7 @@
     "id": "ezdict",
     "name": "Ezdict",
     "author": "Juehming Shi",
-    "description": "High-performance offline markdown dictionary reader & lookup engine for Obsidian. 專為巨型 Markdown 辭典設計，支援 Byte 切片秒開、三種檢索模式與劃詞即查。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Custom plain markdown dictionary reader & lookup engine, make your own dictionary and share. 自定義 Markdown 辭典查詢工具，寫出自己的詞條創建辭典，並與夥伴分享。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jmedzen/ezdict"
   },
   {
@@ -49427,6 +49427,13 @@
     "repo": "streamient/streamient-obsidian"
   },
   {
+    "id": "time-logger",
+    "name": "Time Logger",
+    "author": "jsux",
+    "description": "Automatic time and date stamps for daily journaling, permanently scoped to timelgr blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "satox69/Time-Logger-obsidian-plugin"
+  },
+  {
     "id": "task-calendar",
     "name": "Task Calendar",
     "author": "Spencer Frame",
@@ -49467,5 +49474,26 @@
     "author": "joechen",
     "description": "Renders nested GFM tables and repairs indented callouts in Live Preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "joechen2me/obsidian-nested-markdown-renderer"
+  },
+  {
+    "id": "gym-app",
+    "name": "Gym Vault",
+    "author": "Ruan",
+    "description": "Your training as plain files in your own vault — a daily dashboard, exercise library, plans, goals, workout history and body stats. No account, no server. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ruanpienaarcode/Gym-Vault"
+  },
+  {
+    "id": "lacewing",
+    "name": "Lacewing Window Transparency",
+    "author": "mohammad",
+    "description": "Control the transparency and always-on-top behavior of Obsidian windows with per-window settings, Smart Fade, Contrast Shield, and quick note overlays. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mohamm-ad/obsidian-lacewing"
+  },
+  {
+    "id": "nextcloud-sync-yanc",
+    "name": "Nextcloud sync YANC",
+    "author": "rosswang",
+    "description": "Bidirectional Vault Nextcloud sync with smart/force modes, chunked uploads, and built-in exclusion of hidden files and dotfolders (the YANC fork). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanqingwang/obsidian-nextcloud-sync-yanc"
   }
 ]
