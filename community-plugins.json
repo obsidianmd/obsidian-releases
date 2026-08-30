@@ -23562,13 +23562,6 @@
     "repo": "choonkending/obsidian-squire"
   },
   {
-    "id": "regex-replace",
-    "name": "Regex Replace",
-    "author": "bongho",
-    "description": "Find and replace text using regular expressions with real-time preview and match highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "bongho/obsidian-regex-replace"
-  },
-  {
     "id": "ink-buddy",
     "name": "Ink Buddy",
     "author": "mgcsysinfcat",
@@ -26173,6 +26166,13 @@
     "repo": "dsebastien/obsidian-journal-base"
   },
   {
+    "id": "graph-explorer-base-view",
+    "name": "Graph Explorer Base View",
+    "author": "Sébastien Dubois",
+    "description": "A custom Obsidian Bases view that renders notes as an interactive force-directed graph with explored/unexplored tracking - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dsebastien/obsidian-graph-explorer-base-view"
+  },
+  {
     "id": "hidden-folders-access",
     "name": "Hidden Folders Access",
     "author": "Sébastien Dubois",
@@ -26449,7 +26449,7 @@
     "id": "vaultman",
     "name": "Vaultman",
     "author": "meibbo",
-    "description": "Composable navigation explorer, widgets, bulk data editor and workspace management tool for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Workspace Settings. Composable navigation explorer. Widgets. Bulk data & metadata editor tool for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "meibbo/Vaultman"
   },
   {
@@ -47950,6 +47950,13 @@
     "repo": "creative781/easy-writing-goal"
   },
   {
+    "id": "fortune-weather-calendar",
+    "name": "Fortune Weather Calendar",
+    "author": "钱慧璇",
+    "description": "每天根据你的八字生成专属人生天气运势，包含每日宜忌、幸运色、吉时，以及事业、财运、健康、情感四维分析。由命局、大运、流年、流日四层推演，内容供传统文化娱乐参考。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qhx-hx/life-weather-forecast"
+  },
+  {
     "id": "paper-pdf-translator",
     "name": "PDF Translator",
     "author": "Jinqian Ju",
@@ -49677,5 +49684,40 @@
     "author": "DevCadet",
     "description": "Project tracker inspired by Atlassian and GitHub's own project tooling. Display kanban boards and table views. Compatible with Obsidian Sync, plugin works with local notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dev-cadet/obsidian-project-tracker"
+  },
+  {
+    "id": "omnichannel-diary",
+    "name": "Omnichannel Diary",
+    "author": "builtbyxm",
+    "description": "Save messages, web pages, and attachments from nine chat channels into your local vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ai-scarlett/obsidian-omnichannel-diary"
+  },
+  {
+    "id": "advanced-rename-and-delete-handler",
+    "name": "Advanced Rename and Delete Handler",
+    "author": "Michael Naumov",
+    "description": "Handles renames and deletes for the whole vault in one place: updates links, moves attachment files and folders, and cleans up what a deletion leaves behind. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-advanced-rename-and-delete-handler"
+  },
+  {
+    "id": "nvc-tools",
+    "name": "Nonviolent Communication",
+    "author": "Justin Magaram",
+    "description": "Pick feelings, emotions, and needs from a list to insert into your note. Based on the Center for Nonviolent Communication (NVC) word list. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jmagaram/nvc-tools"
+  },
+  {
+    "id": "weekfit",
+    "name": "Weekfit",
+    "author": "Tyler Williams",
+    "description": "Press one button and see where the week's work fits. Schedules your unscheduled tasks into the gaps between your commitments. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "thequetx/weekfit"
+  },
+  {
+    "id": "canvas-comments",
+    "name": "Canvas Comments",
+    "author": "kairosgold",
+    "description": "Add anonymous, threaded comments to Canvas elements, Canvas text selections, and selected note text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kairosgold/canvas-comments"
   }
 ]
