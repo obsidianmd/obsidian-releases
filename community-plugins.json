@@ -21049,13 +21049,6 @@
     "repo": "mvru/focus-mode-pro"
   },
   {
-    "id": "gemini-ai-commander",
-    "name": "Gemini AI Commander",
-    "author": "etsefzale",
-    "description": "A simple AI assistant to help with your notes using the Google Gemini API. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "etsefzale/obsidian_gemini-ai-commander"
-  },
-  {
     "id": "agents",
     "name": "Agents",
     "author": "tsilva",
@@ -21271,6 +21264,13 @@
     "author": "saltyfireball",
     "description": "Highlights non-ASCII characters in your notes with a red background in both Edit and Reading views. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "saltyfireball/obsidian-highlight-non-ascii"
+  },
+  {
+    "id": "live-share",
+    "name": "Live Share",
+    "author": "mewski",
+    "description": "Real-time collaborative editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mewski/obsidian-live-share"
   },
   {
     "id": "camera-embed",
@@ -48615,13 +48615,6 @@
     "repo": "phoenixyun/obsidian-data-autocomplete"
   },
   {
-    "id": "zotflow-atomiser",
-    "name": "Ariane",
-    "author": "liotou",
-    "description": "Downstream companion of ZotFlow for Obsidian: atomises Zotero annotations and notes, live Zotero citations, local suggestions, Word export with refreshable Zotero fields. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "liotou/obsidian-ariane"
-  },
-  {
     "id": "ray-vault-sync",
     "name": "Ray Vault Sync",
     "author": "Raylabs",
@@ -49406,13 +49399,6 @@
     "repo": "semsevens/obsidian-attention"
   },
   {
-    "id": "myicor-connect",
-    "name": "myICOR Connect",
-    "author": "Thomas Roedl",
-    "description": "Your app.myicor.com account inside your vault: ICOR Journey and Growth Assignment dashboards, knowledge-base search, reflections synced as notes you own, and myICOR context for Claude sessions. Part of the ICOR for Life Obsidian Edition. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "myicor/myicor-connect"
-  },
-  {
     "id": "job-application-tracker",
     "name": "Job Application Tracker",
     "author": "Jim Nuzzi",
@@ -49721,13 +49707,6 @@
     "repo": "gengbl/articlewriter-obsidian"
   },
   {
-    "id": "omnichannel-diary",
-    "name": "Omnichannel Diary",
-    "author": "builtbyxm",
-    "description": "Save messages, web pages, and attachments from nine chat channels into your local vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ai-scarlett/obsidian-omnichannel-diary"
-  },
-  {
     "id": "advanced-rename-and-delete-handler",
     "name": "Advanced Rename and Delete Handler",
     "author": "Michael Naumov",
@@ -49805,6 +49784,13 @@
     "repo": "chenxuan520/obsidian-qiniuimage"
   },
   {
+    "id": "position-restore",
+    "name": "Position Restore",
+    "author": "kaidima",
+    "description": "Restore each note's cursor and scroll position across sessions and devices, in both editing and reading view, with flicker-free native recovery in the editor - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aisahpa/obsidian-position-restore"
+  },
+  {
     "id": "cow-shadow-atlas",
     "name": "Chronicle of Whispers - Shadow Atlas",
     "author": "Chronicle of Whispers",
@@ -49819,17 +49805,24 @@
     "repo": "maxwellnewage/obsidian-youtube-paste-embed"
   },
   {
-    "id": "icor-diagrams",
-    "name": "ICOR Diagrams",
-    "author": "Thomas Roedl",
-    "description": "Adds a fullscreen button to every rendered mermaid diagram: open it large, zoom around the cursor with the mouse wheel or a pinch, drag to pan, double-click to reset. Part of the ICOR for Life suite. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "myicor/icor-diagrams"
-  },
-  {
     "id": "cursor-layout-indicator",
     "name": "Cursor Layout Indicator",
     "author": "bashdays",
     "description": "Show and correct the active Windows, macOS, or Linux keyboard layout next to the editor cursor. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bashdays/cursor-layout-indicator"
+  },
+  {
+    "id": "nested-ordered-numbering",
+    "name": "Nested Ordered Numbering",
+    "author": "spark",
+    "description": "Create and maintain hierarchical plain-text numbering with a trailing period at every depth. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "spark00000/NestedOrderedNumbering"
+  },
+  {
+    "id": "mermaid-relay",
+    "name": "Mermaid Relay",
+    "author": "Arman",
+    "description": "Edit Mermaid diagrams visually while keeping portable Markdown in sync with external tools and AI agents. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "armanjr/obsidian-mermaid-relay"
   }
 ]
