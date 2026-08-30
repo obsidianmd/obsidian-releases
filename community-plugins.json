@@ -35518,6 +35518,13 @@
     "repo": "mrdanrave/auto-linker"
   },
   {
+    "id": "md-razor",
+    "name": "MDRazor",
+    "author": "Sofqi",
+    "description": "Hide formatting markers, list enhancement with soft-break, dir focus, vertical tabs, auto save workspace, auto pic clean. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dyse-sofqi/MDRazor"
+  },
+  {
     "id": "notebookpoint",
     "name": "NotebookPoint",
     "author": "monoi",
@@ -40829,13 +40836,6 @@
     "author": "AQiong 阿琼",
     "description": "Click #tag to navigate to [[tag]] page like Logseq - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "agarcabin/obsdian-tag-to-page"
-  },
-  {
-    "id": "epub-exporter",
-    "name": "EPUB Exporter",
-    "author": "Johannes Kaindl",
-    "description": "Export a note — or a book note with embedded chapters — as an EPUB. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/epub-exporter"
   },
   {
     "id": "smart-gantt",
@@ -48237,13 +48237,6 @@
     "repo": "linyunerr/Journal-Sync"
   },
   {
-    "id": "llm-lab",
-    "name": "LLM Lab",
-    "author": "Johannes Kaindl",
-    "description": "Record the local LLM calls your plugins make — stored only inside your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/llm-lab"
-  },
-  {
     "id": "creative-writer",
     "name": "Creative Writer",
     "author": "André Amnc",
@@ -48837,6 +48830,13 @@
     "author": "cyber-bike01",
     "description": "Bridge your notes to AI agents — rich markdown and linked context replace the single prompt box, with local and remote terminal sessions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cyber-bike1949/LingXi1949"
+  },
+  {
+    "id": "anki-bridge",
+    "name": "Anki Bridge",
+    "author": "Aaron Ade",
+    "description": "Creates and syncs Anki flashcards from Markdown while preserving review history. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aaronade0/obsidian-anki-bridge"
   },
   {
     "id": "nautilus-log",
@@ -49812,6 +49812,13 @@
     "repo": "bashdays/cursor-layout-indicator"
   },
   {
+    "id": "app-update-notifier",
+    "name": "App Update Notifier",
+    "author": "Michael Naumov",
+    "description": "Notifies you about new app, beta and installer releases — not plugin updates — even when auto-update is disabled. It never installs anything. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-app-update-notifier"
+  },
+  {
     "id": "nested-ordered-numbering",
     "name": "Nested Ordered Numbering",
     "author": "spark",
@@ -49819,10 +49826,80 @@
     "repo": "spark00000/NestedOrderedNumbering"
   },
   {
+    "id": "attest",
+    "name": "Attest AI Deep Research",
+    "author": "Ilya",
+    "description": "Chat with your notes: AI search across your vault that answers with citations you can open. Works with local models (Ollama, LM Studio) or cloud APIs. RAG, semantic search, deep research. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "altavelor/attest_deep_research"
+  },
+  {
     "id": "mermaid-relay",
     "name": "Mermaid Relay",
     "author": "Arman",
     "description": "Edit Mermaid diagrams visually while keeping portable Markdown in sync with external tools and AI agents. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "armanjr/obsidian-mermaid-relay"
+  },
+  {
+    "id": "icor-for-life-planner",
+    "name": "ICOR for Life - Planner",
+    "author": "Paperless Movement S.L.",
+    "description": "Plan your week on one board inside your vault: Todoist, ClickUp, starred email and Google Calendar sync in as markdown notes you drag onto your days, with two-way sync behind explicit toggles. Part of the ICOR for Life suite. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myicor/icor-for-life-planner"
+  },
+  {
+    "id": "icor-for-life-focus",
+    "name": "ICOR for Life - Focus",
+    "author": "Paperless Movement S.L.",
+    "description": "See where your attention actually goes: you sit in the center of the map, today's work orbits close, older work ripples outward, and every entity type keeps its own color and shape. Part of the ICOR for Life suite. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myicor/icor-for-life-focus"
+  },
+  {
+    "id": "icor-for-life-diagrams",
+    "name": "ICOR for Life - Diagrams",
+    "author": "Paperless Movement S.L.",
+    "description": "Adds a fullscreen button to every rendered mermaid diagram: open it large, zoom around the cursor with the mouse wheel or a pinch, drag to pan, double-click to reset. Part of the ICOR for Life suite. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myicor/icor-for-life-diagrams"
+  },
+  {
+    "id": "icor-for-life-connect",
+    "name": "ICOR for Life - Connect",
+    "author": "Paperless Movement S.L.",
+    "description": "Your app.myicor.com account inside your vault: ICOR Journey and Growth Assignment dashboards, knowledge-base search, reflections synced as notes you own, and myICOR context for Claude sessions. Part of the ICOR for Life suite. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myicor/icor-for-life-connect"
+  },
+  {
+    "id": "mobiletranslate",
+    "name": "Mobile-Translate",
+    "author": "KfirG",
+    "description": "Select the text and click button for Translation , Uses Gemini API - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kfirgumay2005-hash/Mobile-Translate"
+  },
+  {
+    "id": "claude-notes",
+    "name": "Claude Notes",
+    "author": "Jefferson Simão Gonçalves",
+    "description": "Sidebar, generate-note command, and live refresh for Markdown notes written into this vault by the Claude Code obsidian-notes CLI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jeffersongoncalves/obsidian-claude-notes"
+  },
+  {
+    "id": "numbers-viewer",
+    "name": "Numbers Viewer",
+    "author": "jorbelca",
+    "description": "Read-only viewer for Apple Numbers spreadsheets. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jorbelca/obsidian_numbers"
+  },
+  {
+    "id": "icor-for-life-chat",
+    "name": "ICOR for Life - Chat",
+    "author": "Paperless Movement S.L.",
+    "description": "Talk to your AI team where the knowledge lives. A Claude chat inside the vault: it sees the note you have open and the text you selected, answers in readable ICOR cards, and archives your sessions as notes. Part of the ICOR for Life suite. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myicor/icor-for-life-chat"
+  },
+  {
+    "id": "cmux-agent-orchestrator",
+    "name": "cmux Agent Orchestrator",
+    "author": "Swayam Gupta",
+    "description": "Coordinate Claude Code and Codex sessions running in cmux from Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "swayamg20/cmux-agent-orchestrator"
   }
 ]
