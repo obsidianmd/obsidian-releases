@@ -31549,13 +31549,6 @@
     "repo": "youfoundjk/TeXcore"
   },
   {
-    "id": "notepic-oss",
-    "name": "NotePic OSS",
-    "author": "Luhui Dev",
-    "description": "Upload images referenced in the current note to Aliyun OSS, compress them first, and rewrite the links in place. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "luhui-dev/NotePic-OSS-Obsidian"
-  },
-  {
     "id": "mac-now-playing",
     "name": "Mac Now Playing",
     "author": "Hajorda",
@@ -36818,13 +36811,6 @@
     "author": "aplikofi",
     "description": "High-performance vault backups using native Zstandard compression streams, SHA256 integrity checks, and GFS time-tiered retention. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aplikofi/Obsidian-bckp-Plugin"
-  },
-  {
-    "id": "codefile",
-    "name": "Code File Embed",
-    "author": "Willian Saez",
-    "description": "Embed the contents of a vault file as a syntax-highlighted code block via a codefile fenced block. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "williansaez/code-ref-vault"
   },
   {
     "id": "neural-vault",
@@ -45073,13 +45059,6 @@
     "repo": "kjoner/litesync"
   },
   {
-    "id": "fleurpilot",
-    "name": "FleurPilot",
-    "author": "JC5",
-    "description": "AI writing companion — chat, inline editing, and writing assistance - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gibsonchan-5/fleurpilot"
-  },
-  {
     "id": "advanced-maps",
     "name": "Advanced Maps",
     "author": "Jin1c",
@@ -48454,13 +48433,6 @@
     "repo": "pengze369-stack/homepage-dashboard"
   },
   {
-    "id": "number-suite",
-    "name": "Number Suite",
-    "author": "ZhengYX",
-    "description": "Display or manage heading, caption, footnote, endnote, and reference numbers without changing Markdown unexpectedly. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zhyx91/obsidian-number-suite"
-  },
-  {
     "id": "github-image-host",
     "name": "GitHub Image Host",
     "author": "rocky",
@@ -49581,6 +49553,13 @@
     "repo": "gengbl/articlewriter-obsidian"
   },
   {
+    "id": "omnichannel-diary",
+    "name": "Omnichannel Diary",
+    "author": "builtbyxm",
+    "description": "Save messages, web pages, and attachments from nine chat channels into your local vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ai-scarlett/obsidian-omnichannel-diary"
+  },
+  {
     "id": "advanced-rename-and-delete-handler",
     "name": "Advanced Rename and Delete Handler",
     "author": "Michael Naumov",
@@ -50001,6 +49980,13 @@
     "repo": "kadima-tech/kadima-obsidian-sync"
   },
   {
+    "id": "dev-runner",
+    "name": "Dev Runner",
+    "author": "Nico Blum",
+    "description": "Run and manage package scripts and README shell commands in the background. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nblum/obsidian-dev-runner"
+  },
+  {
     "id": "action-kanban",
     "name": "Action Kanban",
     "author": "spinechoarcanist",
@@ -50013,5 +49999,12 @@
     "author": "Dan",
     "description": "Replace git submodules with plain nested git repos, ignored via .gitignore and tracked via folder-note frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "danrfletcher/obsidian-not-submodules"
+  },
+  {
+    "id": "runnable-code-blocks",
+    "name": "Runnable Code Blocks",
+    "author": "woonyong-kr",
+    "description": "Edit and run 21 Markdown code-block languages through browser, remote, or local adapters. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "woonyong-kr/runnable-code-blocks"
   }
 ]
