@@ -1799,13 +1799,6 @@
     "repo": "michaellee/stille"
   },
   {
-    "id": "obsidian-markmind",
-    "name": "Markmind",
-    "author": "markmindckm",
-    "description": "Mind map, outline and PDF annotation tool. (Closed source)",
-    "repo": "markmindckm/obsidian-markmind"
-  },
-  {
     "id": "obsidian-carry-forward",
     "name": "Carry-Forward",
     "author": "jglev",
@@ -38899,13 +38892,6 @@
     "repo": "jannik-el/survey-log-obsidian-plugin"
   },
   {
-    "id": "paperize",
-    "name": "Paperize",
-    "author": "Johannes Kaindl",
-    "description": "Export the active note as a clean, text-selectable vector PDF — no letterhead. Works on desktop, iPhone and iPad. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/obsidian-paperize"
-  },
-  {
     "id": "pinup",
     "name": "Pinup",
     "author": "pilafdob",
@@ -39254,13 +39240,6 @@
     "author": "Roberto Allende",
     "description": "Kanban that finally lives where your notes do. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "robertoallende/fancy-kanban"
-  },
-  {
-    "id": "yijing-oracle",
-    "name": "Yijing Oracle",
-    "author": "Johannes Kaindl",
-    "description": "Cast the I Ching (Yijing) in your vault: three-coin oracle with Wilhelm hexagram texts, readings saved as notes. Local-first, no cloud. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/yijing-oracle"
   },
   {
     "id": "agent-mcp",
@@ -39772,13 +39751,6 @@
     "author": "DaoYoung",
     "description": "A native dashboard for focus, tasks, learning, review, and news. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "daoyoung/obsidian-worktable"
-  },
-  {
-    "id": "neurovim",
-    "name": "NeuroVim",
-    "author": "Johannes Kaindl",
-    "description": "Learn Vim by playing a cyberpunk spy-thriller. Missions are Vim exercises you fix in real Obsidian notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/neurovim-obsidian"
   },
   {
     "id": "office-viewer",
@@ -40822,13 +40794,6 @@
     "author": "Doug (FIRE University)",
     "description": "Import your Kobo highlights into Obsidian: one clean note per book, sorted by true reading order and grouped by chapter, with your own notes protected. Reads from a connected Kobo eReader or the Kobo desktop app. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fire-university/paperfolio-obsidian"
-  },
-  {
-    "id": "health-vitals",
-    "name": "Health Vitals",
-    "author": "Johannes Kaindl",
-    "description": "Import Apple Health exports and explore your health data in charts and tables. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/health-vitals"
   },
   {
     "id": "graph-insight",
@@ -41972,13 +41937,6 @@
     "repo": "sourit2001/Obsidian-dashboard"
   },
   {
-    "id": "kuro-gamification",
-    "name": "Kuro Gamification",
-    "author": "Johannes Kaindl",
-    "description": "Neurodivergence-friendly gamification: XP, levels, streaks with freeze tokens, deterministic loot, and lore. Off-by-default for anything that could escalate. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/kuro-gamification"
-  },
-  {
     "id": "carnet-du-poete",
     "name": "Carnet du Poete",
     "author": "Sébastien Wallachia",
@@ -42173,13 +42131,6 @@
     "author": "fengshuzi",
     "description": "Expose a localhost HTTP API (API-key protected) to view, create, edit and delete vault notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fengshuzi/note-api"
-  },
-  {
-    "id": "transmute",
-    "name": "Transmute",
-    "author": "Johannes Kaindl",
-    "description": "Search and replace by intent — a local LLM writes the regex, you review every match before it runs. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/obsidian-transmute"
   },
   {
     "id": "feuillets",
@@ -49784,6 +49735,13 @@
     "repo": "chronicle-of-whispers/cow-shadow-atlas"
   },
   {
+    "id": "audio-to-text",
+    "name": "Audio to Text",
+    "author": "geekwang",
+    "description": "Transcribe audio embeds in Obsidian with configurable speech-to-text services. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wangminli/Obsidian-Audio-To-Text"
+  },
+  {
     "id": "youtube-paste-embed",
     "name": "Paste YouTube embed",
     "author": "Maximiliano Burgos",
@@ -49796,6 +49754,13 @@
     "author": "bashdays",
     "description": "Show and correct the active Windows, macOS, or Linux keyboard layout next to the editor cursor. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bashdays/cursor-layout-indicator"
+  },
+  {
+    "id": "anki-exporter",
+    "name": "Anki Exporter",
+    "author": "Erik Mielke",
+    "description": "Exports Obsidian Markdown to Anki Flashcards. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "erikmielke/Obsidian2Anki"
   },
   {
     "id": "app-update-notifier",
@@ -49971,5 +49936,26 @@
     "author": "zhenbin_huang",
     "description": "Sync Markdown notes to CSDN blog drafts via a local Playwright bridge, with multi-account support, draft management, and write-back editing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ncepuee/csdn-draft-publisher"
+  },
+  {
+    "id": "protocol-structure-viewer",
+    "name": "Protocol Structure Viewer",
+    "author": "liert",
+    "description": "Render concise protocol field definitions as responsive byte and bit structure diagrams. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "liert/protocol-structure-viewer"
+  },
+  {
+    "id": "ai-bridge",
+    "name": "Context Anywhere AI Bridge",
+    "author": "uid21",
+    "description": "Mirror selected context and referenced attachments remotely and make them accessible to any MCP-compatible AI, keeping your knowledge readily accessible anywhere. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "uid21/Context-Anywhere"
+  },
+  {
+    "id": "daily-note-snapshot",
+    "name": "Daily Note Snapshot",
+    "author": "Seiichi Arai",
+    "description": "Copies a daily note into a snapshot folder at a scheduled time, named after the snapshot date. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "seiichi1101/obsidian-daily-note-snapshot"
   }
 ]
