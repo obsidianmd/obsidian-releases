@@ -16359,6 +16359,13 @@
     "repo": "ccmdi/smart-link-formatter"
   },
   {
+    "id": "quartz-syncer",
+    "name": "Quartz Syncer",
+    "author": "Emile Bangma",
+    "description": "Manage and publish your notes to Quartz, the fast, batteries-included static-site generator.",
+    "repo": "saberzero1/quartz-syncer"
+  },
+  {
     "id": "current-view",
     "name": "Current View",
     "author": "Lucas Ostmann",
@@ -33782,13 +33789,6 @@
     "repo": "aziz-zahran/obsidian-chroma-key"
   },
   {
-    "id": "json-editor",
-    "name": "JSON Editor",
-    "author": "Johannes Kaindl",
-    "description": "View and edit JSON files with a Tree/Source toggle. Renders JSON code blocks in Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/json-editor"
-  },
-  {
     "id": "color-tab",
     "name": "Color Tab",
     "author": "Rafael Ordaz",
@@ -44576,13 +44576,6 @@
     "repo": "ledokter/obsidian-mega-sync"
   },
   {
-    "id": "paperless-storage",
-    "name": "Paperless Storage",
-    "author": "Johannes Kaindl",
-    "description": "Embed documents from your paperless-ngx instance directly in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/paperless-storage"
-  },
-  {
     "id": "file-explorer-filter",
     "name": "File Explorer Filter",
     "author": "singularitopian",
@@ -45967,13 +45960,6 @@
     "author": "swekizer",
     "description": "A beautiful, central library for the books, manga, magazines and documents in your vault - browse covers, tag and organize, and track reading progress. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "swekizer/Ebook-Library"
-  },
-  {
-    "id": "wikijs-maintainer",
-    "name": "Wiki.js Maintainer",
-    "author": "Johannes Kaindl",
-    "description": "Publish and sync notes from a folder of your vault to a Wiki.js 2.x instance over GraphQL, with drift detection before every push. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/wikijs-maintainer"
   },
   {
     "id": "remember",
@@ -49616,6 +49602,13 @@
     "repo": "izquiratops/obsidian-code-diff"
   },
   {
+    "id": "sprint",
+    "name": "Sprint",
+    "author": "shijimi-soup",
+    "description": "Automatic sprint planning, rollover, project boards, and Bases views. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shijimi-soup/Sprint"
+  },
+  {
     "id": "nest-note",
     "name": "NestNote",
     "author": "LiShaocheng",
@@ -49714,6 +49707,13 @@
     "repo": "gengbl/articlewriter-obsidian"
   },
   {
+    "id": "omnichannel-diary",
+    "name": "Omnichannel Diary",
+    "author": "builtbyxm",
+    "description": "Save messages, web pages, and attachments from nine chat channels into your local vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ai-scarlett/obsidian-omnichannel-diary"
+  },
+  {
     "id": "advanced-rename-and-delete-handler",
     "name": "Advanced Rename and Delete Handler",
     "author": "Michael Naumov",
@@ -49761,6 +49761,13 @@
     "author": "Pazzy",
     "description": "Lock your vaults and pages behind a full-screen lock screen, unlock it with your fingerprint on both Windows and MacOS. Even use a hardware security key if you want, a fallback password is optional.. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alexpazzy/obsidian-fingerprint"
+  },
+  {
+    "id": "resume-editor",
+    "name": "Resume Editor",
+    "author": "hellokunzai",
+    "description": "Form-driven resume editor with live preview, Chinese templates and PDF/HTML/DOCX/LaTeX export, plus a configurable resume directory. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hellokunzai/obsidian-resume-editor"
   },
   {
     "id": "folder-toolkit",
@@ -49938,10 +49945,24 @@
     "repo": "eghosa-osayande/safe_vault"
   },
   {
-    "id": "privacy-bridge",
-    "name": "Hans SafeDoc",
+    "id": "markdown-trip-planner",
+    "name": "Markdown Trip Planner",
+    "author": "Czeglédy Péter",
+    "description": "Obsidian plugin for planning trips. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "peterczegledy/Obsidian-Trip-Planner"
+  },
+  {
+    "id": "materin-ctx",
+    "name": "Materin Ctx",
+    "author": "leapord",
+    "description": "Open JSON / YAML files in a native-feeling editor view with formatting, folding and search. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leapord/Materin-ctx"
+  },
+  {
+    "id": "safedoc",
+    "name": "SafeDoc",
     "author": "Hans Lin 林思翰",
     "description": "Read-only local pseudonymization for MD, TXT, CSV, DOCX, and XLSX with manual review. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hansai-art/privacy-bridge"
+    "repo": "hansai-art/safedoc"
   }
 ]
