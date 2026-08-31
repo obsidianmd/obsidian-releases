@@ -33292,13 +33292,6 @@
     "repo": "arias007/notedraw"
   },
   {
-    "id": "letterhead",
-    "name": "Letterhead",
-    "author": "Johannes Kaindl",
-    "description": "Generate professionally formatted business letters (DIN 5008 and modern) from note frontmatter and export them to PDF — via the print dialog on desktop, or the system share sheet on iPhone and iPad. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/obsidian-letterhead"
-  },
-  {
     "id": "auto-scroll",
     "name": "Auto Scroll",
     "author": "femto",
@@ -34930,13 +34923,6 @@
     "repo": "gustavczar/local-agent-obsidian-plugin"
   },
   {
-    "id": "vault-retrieval",
-    "name": "Vault Retrieval",
-    "author": "Johannes Kaindl",
-    "description": "Local, offline retrieval over your vault: related notes, semantic search, and grounded chat with a local LLM — nothing leaves your machine. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/vault-rag"
-  },
-  {
     "id": "custom-tag-color",
     "name": "Custom Tag Color",
     "author": "Anand Baghel",
@@ -36402,7 +36388,7 @@
   {
     "id": "lexis",
     "name": "Lexis",
-    "author": "Hz & Claude",
+    "author": "heptazero",
     "description": "Turn note titles in a folder into your word bank: in-text highlighting, hover definitions, FSRS spaced-repetition review, auto-collected occurrences, and a review heatmap. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "heptazero/obsidian-lexis"
   },
@@ -36580,13 +36566,6 @@
     "author": "Olivier Rouiller",
     "description": "Publish your vault notes for free in a few clicks - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "oilandrust/obsidian-github-publish"
-  },
-  {
-    "id": "slide-deck",
-    "name": "Slide Deck",
-    "author": "Johannes Kaindl",
-    "description": "Turn a Markdown note into a slide deck and export it to PDF or a PNG image series, with live readability checks. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/slide-deck"
   },
   {
     "id": "learning-practice-coevolution",
@@ -37728,13 +37707,6 @@
     "author": "YzYhhhstudy",
     "description": "CS conference deadline countdowns inside your vault: sidebar panel, in-note deadline boards, frontmatter-linked countdown banners and status-bar badge. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yzyhhhstudy/paper-deadlines"
-  },
-  {
-    "id": "vault-crews",
-    "name": "Vault Crews",
-    "author": "Johannes Kaindl",
-    "description": "Run autonomous local LLM agent teams (crews) on your vault via LM Studio - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johannes-kaindl/vault-crews"
   },
   {
     "id": "obsync-webdav-gpg",
@@ -49945,6 +49917,13 @@
     "repo": "eghosa-osayande/safe_vault"
   },
   {
+    "id": "pptx-studio",
+    "name": "PPTX Studio",
+    "author": "Yuto Takagi",
+    "description": "Open, edit and inspect PowerPoint (.pptx) decks natively in Obsidian: a PowerPoint-style editing surface, an OOXML property inspector, slide embeds, Markdown extraction and PNG export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yut0takagi/obsidian-pptx-studio"
+  },
+  {
     "id": "markdown-trip-planner",
     "name": "Markdown Trip Planner",
     "author": "Czeglédy Péter",
@@ -49966,10 +49945,31 @@
     "repo": "hansai-art/safedoc"
   },
   {
-    "id": "shelf",
-    "name": "Shelf",
-    "author": "AndyPandy1189",
-    "description": "A Progressive Web App style media library inside Obsidian - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "andypandy1189/shelf-obsidian"
+    "id": "folder-terminal",
+    "name": "Folder Terminal",
+    "author": "First Kang",
+    "description": "Hover over a folder in the file explorer to reveal a terminal icon; click it to open a real shell (PTY) docked at the bottom, rooted at that folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "firstkang/folder-terminal"
+  },
+  {
+    "id": "bases-wrap-text",
+    "name": "Bases Wrap Text",
+    "author": "GroupiesM",
+    "description": "Add an Excel-style 'Wrap Text' toggle to Bases table views. When enabled, long cell content wraps to multiple lines instead of being truncated. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "groupiesm/Obsidian-Bases-Wrap-Text-Plugin"
+  },
+  {
+    "id": "link-picker",
+    "name": "Link Picker",
+    "author": "Michael Naumov",
+    "description": "Pick a note by navigating folders and insert a link to it, from a command or from your own scripts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-link-picker"
+  },
+  {
+    "id": "csdn-draft-publisher",
+    "name": "CSDN Draft Publisher",
+    "author": "zhenbin_huang",
+    "description": "Sync Markdown notes to CSDN blog drafts via a local Playwright bridge, with multi-account support, draft management, and write-back editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ncepuee/csdn-draft-publisher"
   }
 ]
