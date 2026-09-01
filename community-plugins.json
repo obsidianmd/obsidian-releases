@@ -19280,9 +19280,9 @@
   {
     "id": "project-manager",
     "name": "Project Manager",
-    "author": "stepankropachev",
+    "author": "dotpm2",
     "description": "Full-featured task and project management: stunning Gantt charts, Kanban boards, Table views, customizable fields, due date notifications, dependancies - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "stepankropachev/obsidian-pm"
+    "repo": "dotpm/obsidian-pm"
   },
   {
     "id": "trawl-intelligence",
@@ -26908,13 +26908,6 @@
     "repo": "akisantin/Nodian"
   },
   {
-    "id": "diary-view",
-    "name": "Diary View",
-    "author": "likemuuxi",
-    "description": "A notebook-style diary view built from your daily notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "likemuuxi/obsidian-diary-view"
-  },
-  {
     "id": "rtm-sync",
     "name": "RTM Sync",
     "author": "Ishigami_D",
@@ -30189,6 +30182,13 @@
     "author": "LQ",
     "description": "An English learning plugin for grammar feedback, reading practice, vocabulary lookup, syntax analysis, and progress tracking. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "liuba1223/obsidian-english-assistant"
+  },
+  {
+    "id": "imgbox-pro",
+    "name": "ImgBox Pro",
+    "author": "nightfall",
+    "description": "ImgBox Pro searches for external media links in your notes, downloads and saves them locally, adjusts note links, and includes unused attachment cleanup tools. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nightfall-yl/obsidian-imgbox-pro"
   },
   {
     "id": "context-nine",
@@ -40670,13 +40670,6 @@
     "repo": "anuzdhk/autoicon"
   },
   {
-    "id": "animelist",
-    "name": "AnimeList",
-    "author": "cwh555",
-    "description": "A local-first anime, manga, and novel library backed by Markdown, with metadata search, covers, ratings, templates, filters, and a completion timeline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cwh555/AnimeList"
-  },
-  {
     "id": "heading-linker",
     "name": "Heading Linker",
     "author": "max-fluff",
@@ -41242,13 +41235,6 @@
     "author": "kamijoucen",
     "description": "A lightweight yet powerful ACP chat client, inheriting models, tools, and sessions from opencode. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kamijoucen/obsidian-openyolo"
-  },
-  {
-    "id": "chrono-notes",
-    "name": "Chrono Notes",
-    "author": "ZhengYX",
-    "description": "A calendar workspace for periodic notes, calendar extensions, regional holidays, tasks, and time ranges. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zhyx91/obsidian-chrono-notes"
   },
   {
     "id": "local-image-resizer",
@@ -44614,7 +44600,7 @@
     "id": "trellosync",
     "name": "Trello-Sync",
     "author": "KfirG",
-    "description": "Live sync between trello and obsidian - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Live bidirectional sync between Trello and Obsidian - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kfirgumay2005-hash/Trello-Sync"
   },
   {
@@ -49759,7 +49745,7 @@
     "id": "mobiletranslate",
     "name": "Mobile-Translate",
     "author": "KfirG",
-    "description": "Select the text and click button for Translation , Uses Gemini API - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Select the text and click button for translation , uses Google Translate (API not required) - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kfirgumay2005-hash/Mobile-Translate"
   },
   {
@@ -50034,5 +50020,26 @@
     "author": "张Km",
     "description": "Start work from one calm dashboard: create notes and projects, reopen recent files, track active work, and optionally sync WeRead highlights. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhangkaiming2579-dev/digital-desk"
+  },
+  {
+    "id": "canvas-image-clipboard",
+    "name": "Canvas Image Clipboard",
+    "author": "oldking",
+    "description": "Copy a selected image node in Obsidian Canvas directly to the system clipboard with a keyboard shortcut. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tunied/canvas-image-clipboard"
+  },
+  {
+    "id": "mermaid-spacing",
+    "name": "Mermaid Node Spacing",
+    "author": "isaya",
+    "description": "Changes mermaid node spacings only. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "isayagit/obsidian-mermaid-spacing"
+  },
+  {
+    "id": "extreme-editor",
+    "name": "Extreme Editor",
+    "author": "Extreme",
+    "description": "Refine selected text or entire notes with OpenAI-compatible providers, select prompts automatically by folder, and review results before applying changes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "forget-c/extreme-editor"
   }
 ]
