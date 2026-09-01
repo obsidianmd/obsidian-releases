@@ -20895,13 +20895,6 @@
     "repo": "sotirangelo/obsidian-fantasy-map"
   },
   {
-    "id": "inline-annotations",
-    "name": "Inline Annotations",
-    "author": "cetrodk",
-    "description": "Add inline annotations to selected text that show in a popup on click. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cetrodk/obsidian-inline-annotations"
-  },
-  {
     "id": "map-note",
     "name": "Map Note",
     "author": "isaiahsarju",
@@ -42121,7 +42114,7 @@
   {
     "id": "feuillets",
     "name": "Feuillets",
-    "author": "HalYal",
+    "author": "Halim Yalcin",
     "description": "Local long-form writing and editorial studio for Markdown manuscripts, novels, and nonfiction, with a Binder, continuous writing, research, revision, preview, and export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sargon01/Feuillets"
   },
@@ -46532,7 +46525,7 @@
     "id": "side-thing",
     "name": "side Thing",
     "author": "Sergei",
-    "description": "Add marginal (sidebar) comments to selected text in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Add marginal (sidebar) comments to selected text in your notes. (google doc vibe) - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "k0ccc/side-thing"
   },
   {
@@ -48116,6 +48109,13 @@
     "author": "Matheus",
     "description": "Registre receitas, despesas, cartões, gastos fixos, parcelamentos e aportes em arquivos Markdown locais. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "matheusz-nied/finance-vault-obsidian"
+  },
+  {
+    "id": "handwriting",
+    "name": "Handwriting",
+    "author": "Alan Liu",
+    "description": "Write on your notes with a pen. Ink, highlighter, eraser, and lasso directly on Markdown, saved beside your files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ellimist-afk/handwriting"
   },
   {
     "id": "vault-searchlight",
@@ -50174,5 +50174,26 @@
     "author": "zeiosmb",
     "description": "Render isokit YAML code blocks as isometric architecture diagrams (self-contained SVG). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zeiosmb/isokit"
+  },
+  {
+    "id": "import-code",
+    "name": "Import Code",
+    "author": "yu4n2h1",
+    "description": "Import and embed local or remote code files into your notes using ![[file.ext]] syntax, with syntax highlighting, symbol and line extraction, and auto-refresh. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yu4n2h1/obsidian-import-code"
+  },
+  {
+    "id": "layout-switcher",
+    "name": "Layout Switcher",
+    "author": "Aristarkh Khalmirzaev",
+    "description": "Переводит выделенный текст из латиницы в кириллицу (и обратно) — исправляет «слепую» печать на неправильной раскладке. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arigurj/obsidian-english-to-russian-layot-switcher"
+  },
+  {
+    "id": "html-document-viewer",
+    "name": "HTML Document Viewer",
+    "author": "Tyson Gern",
+    "description": "View static HTML files in a strict no-script, no-network sandbox. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "initialcapacity/obsidian-html-viewer"
   }
 ]
