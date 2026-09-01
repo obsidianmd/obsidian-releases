@@ -17238,7 +17238,7 @@
     "name": "Local Bible Ref",
     "author": "camelchief",
     "description": "Quickly and easily reference Bible passages stored locally in your vault.",
-    "repo": "camelchief/local-bible-ref"
+    "repo": "c4mpbellsoup/local-bible-ref"
   },
   {
     "id": "personal-development-plan",
@@ -24650,7 +24650,7 @@
     "id": "getnote-importer",
     "name": "Dedao Brain Sync",
     "author": "Andy Zheng（公众号：关山的月儿）",
-    "description": "得到大脑官方推荐｜很好用的【得到大脑 / Get笔记 / GetNote <-> Obsidian】双向同步插件 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "得到大脑官方推荐｜很好用的【得到大脑 / Get笔记 / GetNote / Getbiji <-> Obsidian】双向同步插件 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "andyzhengyan/obsidian-getnote-importer"
   },
   {
@@ -29144,7 +29144,7 @@
     "id": "bases-tag-colors",
     "name": "Bases Tag Colors",
     "author": "Oleg Brovchenko",
-    "description": "Color your Bases tags per-base. Each .base file owns its palette — no global tag soup. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Colored tags for Bases and note Properties: auto-color every value, Notion-style pills, per-base palettes. No global tag soup. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "olegbrovchenko/bases-tag-colors"
   },
   {
@@ -49682,7 +49682,7 @@
     "id": "attest",
     "name": "Attest AI Deep Research",
     "author": "Ilya",
-    "description": "Chat with your notes: AI search across your vault that answers with citations you can open. Works with local models (Ollama, LM Studio) or cloud APIs. RAG, semantic search, deep research. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Ask questions across your notes and the web, then open the note, heading, PDF page, or URL behind every answer. Use local models with Ollama or LM Studio, or connect a cloud API. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "altavelor/attest_deep_research"
   },
   {
@@ -50081,7 +50081,7 @@
     "id": "wireframy",
     "name": "Wireframy",
     "author": "Divyaraj Murugan",
-    "description": "Lo-fi wireframing without leaving your vault. A drag-and-drop editor with 82 UI widgets, 160 icons, shapes and text you can place anywhere, transform-in-place, connecting arrows and three hand-drawn skins. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Lo-fi wireframing without leaving your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "divyaraj-m/wireframy"
   },
   {
@@ -50134,10 +50134,31 @@
     "repo": "hasanyilmaz/sync-assets"
   },
   {
+    "id": "folder-pin-view",
+    "name": "Folder Pin View",
+    "author": "CH",
+    "description": "Pin folders to a custom file tree view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cimuyang/folder-pin-view"
+  },
+  {
     "id": "journals-aware-rollover-todos",
     "name": "Journals Aware Rollover Todos",
     "author": "Asef Hossain Khan",
     "description": "Rolls unfinished todos forward into notes created by the Journals plugin. Finds the previous note via journal-date frontmatter instead of Daily Notes paths, so it works with Journals' nested, date-templated folders. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "asefhossainkhan/journals-aware-rollover-todos"
+  },
+  {
+    "id": "writing-calendar",
+    "name": "Writing Calendar",
+    "author": "多多",
+    "description": "记录本地写作活动，并用日历、热力图和条状图呈现。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "idoncar2/writing-calendar"
+  },
+  {
+    "id": "isokit",
+    "name": "isokit",
+    "author": "zeiosmb",
+    "description": "Render isokit YAML code blocks as isometric architecture diagrams (self-contained SVG). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zeiosmb/isokit"
   }
 ]
