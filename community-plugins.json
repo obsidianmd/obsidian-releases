@@ -25914,13 +25914,6 @@
     "repo": "daniel-fiuk/simple-map"
   },
   {
-    "id": "git-file-sync",
-    "name": "Git File Sync",
-    "author": "ClaudiaFang",
-    "description": "Both mobile and desktop. Selectively sync the notes you choose—not your whole vault—with GitHub, GitLab, or Gitea. No local Git repository required. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "firstsun-dev/git-files-sync"
-  },
-  {
     "id": "cooklang-codeblock",
     "name": "Cooklang Codeblock",
     "author": "Raunaq Gupta",
@@ -26908,6 +26901,13 @@
     "repo": "akisantin/Nodian"
   },
   {
+    "id": "diary-view",
+    "name": "Diary View",
+    "author": "likemuuxi",
+    "description": "A notebook-style diary view built from your daily notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "likemuuxi/obsidian-diary-view"
+  },
+  {
     "id": "rtm-sync",
     "name": "RTM Sync",
     "author": "Ishigami_D",
@@ -27590,7 +27590,7 @@
     "id": "codex-echoink",
     "name": "EchoInk Agent",
     "author": "Akin-Lvyf",
-    "description": "Use Codex CLI or OpenCode in Obsidian to manage knowledge, ask vault questions, and review local agent work. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "EchoInk is a personal knowledge agent in your Obsidian sidebar — it chats, remembers, and keeps your vault's knowledge organized. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "akin-lvyifang/codex-echoink"
   },
   {
@@ -40670,6 +40670,13 @@
     "repo": "anuzdhk/autoicon"
   },
   {
+    "id": "animelist",
+    "name": "AnimeList",
+    "author": "cwh555",
+    "description": "A local-first anime, manga, and novel library backed by Markdown, with metadata search, covers, ratings, templates, filters, and a completion timeline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cwh555/AnimeList"
+  },
+  {
     "id": "heading-linker",
     "name": "Heading Linker",
     "author": "max-fluff",
@@ -49560,13 +49567,6 @@
     "repo": "solankidushyant07/Author-Toolkit-Plugin"
   },
   {
-    "id": "nvc-tools",
-    "name": "Nonviolent Communication",
-    "author": "Justin Magaram",
-    "description": "Pick feelings, emotions, and needs from a list to insert into your note. Based on the Center for Nonviolent Communication (NVC) word list. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jmagaram/nvc-tools"
-  },
-  {
     "id": "weekfit",
     "name": "Weekfit",
     "author": "Tyler Williams",
@@ -50041,5 +50041,33 @@
     "author": "Extreme",
     "description": "Refine selected text or entire notes with OpenAI-compatible providers, select prompts automatically by folder, and review results before applying changes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "forget-c/extreme-editor"
+  },
+  {
+    "id": "japanese-reading-assistant",
+    "name": "Japanese Reading Assistant",
+    "author": "zhangyicong",
+    "description": "OCR a selected PDF region locally, then translate Japanese with contextual vocabulary and concise, color-linked grammar notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "normanchine/obsidian-japanese-reading-assistant"
+  },
+  {
+    "id": "markdown-memos",
+    "name": "Markdown Memos",
+    "author": "王小",
+    "description": "Capture one memo per Markdown file in an Obsidian-native timeline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tyh-art/markdown-memos"
+  },
+  {
+    "id": "hans-safedoc",
+    "name": "Hans SafeDoc",
+    "author": "Hans Lin 林思翰",
+    "description": "Read-only local pseudonymization for MD, TXT, CSV, DOCX, and XLSX with manual review. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hansai-art/hans-safedoc"
+  },
+  {
+    "id": "trending-radar",
+    "name": "Trending Radar",
+    "author": "云沧",
+    "description": "Manually run a configurable, auditable trend radar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuncang123/trending-radar"
   }
 ]
