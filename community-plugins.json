@@ -33916,7 +33916,7 @@
   },
   {
     "id": "watermark-bucket-uploader",
-    "name": "Watermark Bucket Uploader",
+    "name": "Paste to S3",
     "author": "ClaudiaFang",
     "description": "Upload images to any S3-compatible storage. Features: WebP conversion, image compression, text & logo watermark with live preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "firstsun-dev/watermark-bucket-uploader"
@@ -45885,13 +45885,6 @@
     "repo": "gelaende51/obsidian-lure"
   },
   {
-    "id": "covault",
-    "name": "Covault",
-    "author": "Jakob He",
-    "description": "Team knowledge base client — share, consume, and evolve your company's knowledge through silently synced shared folders. An LLM agent handles all the git plumbing so you never have to. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "leweii/covault"
-  },
-  {
     "id": "latest-mathjax",
     "name": "Latest MathJax",
     "author": "华佳浩",
@@ -48790,13 +48783,6 @@
     "repo": "alex-roc/periodic-calendar"
   },
   {
-    "id": "chapter-pipeline",
-    "name": "Charter Pipeline",
-    "author": "zemengzhou",
-    "description": "Minimalist Linear-style floating horizontal dash stepper with KaTeX formula preview and pinned top navigation. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "leaninglearner/obsidian-charter-pipeline"
-  },
-  {
     "id": "weeklog",
     "name": "Weeklog",
     "author": "adamtruth",
@@ -49403,7 +49389,7 @@
     "name": "PML Syntax Highlighting",
     "author": "Mouiz LANIKPEKOUN",
     "description": "Syntax highlighting for AVEVA PML/PML2 code: ```pml blocks in notes, and raw .pml, .pmlobj, .pmlfnc, .pmlfrm, .pmlmac, .pmlcmd files opened directly. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ml9373/syd-pml-highlight"
+    "repo": "ml9373/obsidian-pml-highlight"
   },
   {
     "id": "ads-query",
@@ -50029,6 +50015,13 @@
     "repo": "zhangkaiming2579-dev/digital-desk"
   },
   {
+    "id": "come-gither",
+    "name": "Come Gither",
+    "author": "Raymond Kaleho",
+    "description": "Sync your vault with a GitHub repository through the GitHub API. Works on mobile. No local git needed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kaleho/come-gither"
+  },
+  {
     "id": "canvas-image-clipboard",
     "name": "Canvas Image Clipboard",
     "author": "oldking",
@@ -50132,5 +50125,19 @@
     "author": "Paperless Movement S.L.",
     "description": "Is your vault up to date with the ICOR for Life Scaffold, and is what it has still intact? Compares the vault with the latest scaffold version, read-only, and writes a report you can fix by hand or hand to your AI. Part of the ICOR for Life suite. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "myicor/icor-for-life-scaffold-check"
+  },
+  {
+    "id": "sync-assets",
+    "name": "Sync Assets",
+    "author": "Hasan Yılmaz",
+    "description": "Detect and repair oversized community plugin assets skipped by Obsidian Sync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hasanyilmaz/sync-assets"
+  },
+  {
+    "id": "journals-aware-rollover-todos",
+    "name": "Journals Aware Rollover Todos",
+    "author": "Asef Hossain Khan",
+    "description": "Rolls unfinished todos forward into notes created by the Journals plugin. Finds the previous note via journal-date frontmatter instead of Daily Notes paths, so it works with Journals' nested, date-templated folders. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "asefhossainkhan/journals-aware-rollover-todos"
   }
 ]
