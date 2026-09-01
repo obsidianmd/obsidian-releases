@@ -17178,6 +17178,13 @@
     "repo": "obsidianmd/obsidian-maps"
   },
   {
+    "id": "radial-timeline",
+    "name": "Radial timeline",
+    "author": "Eric R Taylor",
+    "description": "Visualize longform writing projects as an interactive radial timeline that displays scenes organized by act, subplot, and narrative or chronological order for a complete view of the project.",
+    "repo": "ericrhystaylor/Radial-Timeline"
+  },
+  {
     "id": "tasks-map",
     "name": "Tasks Map",
     "author": "nicoknl",
@@ -19423,6 +19430,13 @@
     "author": "rekby",
     "description": "Displays anchor icons next to headings targeted by internal links and lets you navigate to every note that references each heading. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rekby/obsidian-header-backlinks"
+  },
+  {
+    "id": "muse",
+    "name": "Muse",
+    "author": "Ryan McGovern",
+    "description": "Distraction-free writing mode with AI-generated prompts personalized to your projects and interests. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tekgadgt/Muse"
   },
   {
     "id": "authorship",
@@ -26311,6 +26325,13 @@
     "author": "fleker",
     "description": "Find Liked Songs that aren't in any of your Spotify playlists and save them as a note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fleker/spotify-organizer-for-obsidian"
+  },
+  {
+    "id": "simple-storage-sync-and-backup",
+    "name": "S3 Sync + Backup",
+    "author": "Sathindu",
+    "description": "Vault synchronization and scheduled backups across devices using S3-compatible storage (AWS S3, Cloudflare R2, RustFS, etc.) with optional end-to-end encryption. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sathinduga/obsidian-s3-sync-and-backup"
   },
   {
     "id": "agentic-note-references",
@@ -44677,7 +44698,7 @@
     "id": "single-file-section-cards",
     "name": "Single File Section Cards",
     "author": "JORDAN LONG",
-    "description": "View any note's subsections and linked images as a set of cards. Edit, reorder, add and delete document sections graphically. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "View any note's subsections and linked images/URLs as a set of cards. Edit, reorder, add and delete document sections graphically. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jordanlong121/singlefilesectioncards"
   },
   {
@@ -48097,11 +48118,11 @@
     "repo": "matheusz-nied/finance-vault-obsidian"
   },
   {
-    "id": "handwriting",
-    "name": "Handwriting",
-    "author": "Alan Liu",
-    "description": "Write on your notes with a pen. Ink, highlighter, eraser, and lasso directly on Markdown, saved beside your files. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ellimist-afk/handwriting"
+    "id": "vault-searchlight",
+    "name": "Beacon",
+    "author": "Ben Gutteridge",
+    "description": "Fast, theme-aware search and heading navigation for the current note or whole vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bengutteridge1/beacon"
   },
   {
     "id": "tradecraft",
@@ -48235,13 +48256,6 @@
     "author": "Fabrice Bernhard",
     "description": "Render markdown notes as a Toyota-style A3 problem-solving report: a 42cm x 29.7cm two-column page that fits on screen, with mermaid diagrams. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fabriceb/obsidian-a3-plugin"
-  },
-  {
-    "id": "examined-human",
-    "name": "Examined Human",
-    "author": "Ahmadreza Azimi Kohnabi",
-    "description": "Examined Human dashboards and guarded native EQH data import on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ossahmad/obsidian-examined-human"
   },
   {
     "id": "sugar-high",
@@ -49770,6 +49784,13 @@
     "repo": "eghosa-osayande/safe_vault"
   },
   {
+    "id": "shadow-dark",
+    "name": "ShadowDark",
+    "author": "Luis Vierroth",
+    "description": "An expansive toolkit for Shadowdark GMs - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "p-mercury/obsidian-shadow-dark"
+  },
+  {
     "id": "pptx-studio",
     "name": "PPTX Studio",
     "author": "Yuto Takagi",
@@ -49966,6 +49987,13 @@
     "repo": "woonyong-kr/runnable-code-blocks"
   },
   {
+    "id": "inline-agents",
+    "name": "Inline Agents",
+    "author": "Dan",
+    "description": "Turn \"run this workflow\" instructions in a note into a button that fires Claude Code or OpenCode at the note, with a live terminal underneath. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "danrfletcher/obsidian-inline-agents"
+  },
+  {
     "id": "piem",
     "name": "Piem",
     "author": "shangxin",
@@ -50048,13 +50076,6 @@
     "author": "王小",
     "description": "Capture one memo per Markdown file in an Obsidian-native timeline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tyh-art/markdown-memos"
-  },
-  {
-    "id": "hans-safedoc",
-    "name": "Hans SafeDoc",
-    "author": "Hans Lin 林思翰",
-    "description": "Read-only local pseudonymization for MD, TXT, CSV, DOCX, and XLSX with manual review. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hansai-art/hans-safedoc"
   },
   {
     "id": "trending-radar",
@@ -50153,12 +50174,5 @@
     "author": "zeiosmb",
     "description": "Render isokit YAML code blocks as isometric architecture diagrams (self-contained SVG). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zeiosmb/isokit"
-  },
-  {
-    "id": "import-code",
-    "name": "Import Code",
-    "author": "yu4n2h1",
-    "description": "Import and embed local or remote code files into your notes using ![[file.ext]] syntax, with syntax highlighting, symbol and line extraction, and auto-refresh. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yu4n2h1/obsidian-import-code"
   }
 ]
