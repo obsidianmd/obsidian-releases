@@ -4291,6 +4291,13 @@
     "repo": "scrybbling-together/scrybble"
   },
   {
+    "id": "auto-glossary",
+    "name": "Auto Glossary",
+    "author": "ennioit",
+    "description": "Automatically create a glossary of files, an index of files, or both.",
+    "repo": "ennioitaliano/obsidian-auto-glossary"
+  },
+  {
     "id": "samepage",
     "name": "SamePage",
     "author": "samepage-network",
@@ -11225,7 +11232,7 @@
     "name": "Heading Adjuster",
     "author": "netajam",
     "description": "Easily adjust header levels in Markdown documents by increasing or decreasing their levels.",
-    "repo": "netajam/header-adjuster"
+    "repo": "netajam/heading-adjuster"
   },
   {
     "id": "note-promixity",
@@ -25898,6 +25905,13 @@
     "author": "daniel-fiuk",
     "description": "Upload your own maps and plant pins on important locations, each linking back to your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "daniel-fiuk/simple-map"
+  },
+  {
+    "id": "git-file-sync",
+    "name": "Git File Sync",
+    "author": "ClaudiaFang",
+    "description": "Both mobile and desktop. Selectively sync the notes you choose—not your whole vault—with GitHub, GitLab, or Gitea. No local Git repository required. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "firstsun-dev/git-files-sync"
   },
   {
     "id": "cooklang-codeblock",
@@ -42087,7 +42101,7 @@
     "id": "feuillets",
     "name": "Feuillets",
     "author": "HalYal",
-    "description": "A local writing and editorial studio for Obsidian, from a single article or essay to a collection, nonfiction project, or novel. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Local long-form writing and editorial studio for Markdown manuscripts, novels, and nonfiction, with a Binder, continuous writing, research, revision, preview, and export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sargon01/Feuillets"
   },
   {
@@ -49154,6 +49168,13 @@
     "repo": "xtshanlei/auto-zettelkasten"
   },
   {
+    "id": "laser-pointer",
+    "name": "Laser Pointer",
+    "author": "Alessandro Vettorel",
+    "description": "A glowing laser pointer that follows your cursor and draws trails that fade away after a set duration. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "avettorel71/laser-pointer"
+  },
+  {
     "id": "nautilus-logger",
     "name": "Nautilus Logger",
     "author": "dimpurr",
@@ -49630,6 +49651,13 @@
     "repo": "wangminli/Obsidian-Audio-To-Text"
   },
   {
+    "id": "heading-keeper",
+    "name": "Heading Keeper",
+    "author": "nestealin",
+    "description": "Keep heading numbers and heading-fragment links coherent with conservative, recoverable updates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nestealin/obsidian-heading-keeper"
+  },
+  {
     "id": "youtube-paste-embed",
     "name": "Paste YouTube embed",
     "author": "Maximiliano Burgos",
@@ -50062,5 +50090,47 @@
     "author": "Divyaraj Murugan",
     "description": "Lo-fi wireframing without leaving your vault. A drag-and-drop editor with 82 UI widgets, 160 icons, shapes and text you can place anywhere, transform-in-place, connecting arrows and three hand-drawn skins. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "divyaraj-m/wireframy"
+  },
+  {
+    "id": "ai-advice",
+    "name": "AI Advice",
+    "author": "Dory",
+    "description": "Analyze the current note with DeepSeek, then copy or insert the suggestions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "doryyan/obsidian-ai-advice"
+  },
+  {
+    "id": "redlark-receiver",
+    "name": "RedLark Receiver",
+    "author": "larry",
+    "description": "Receives current-page captures from RedLark Clipper and stores notes with local attachments. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "larry-biu/redlark-receiver"
+  },
+  {
+    "id": "icor-for-life-interface",
+    "name": "ICOR for Life - Interface",
+    "author": "Paperless Movement S.L.",
+    "description": "The vault's chrome in one place: hide the ribbon and Obsidian's own controls, and give any folder a colour, an icon and a label. Writes no CSS; the INKLINE theme draws it. Part of the ICOR for Life suite. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myicor/icor-for-life-interface"
+  },
+  {
+    "id": "tag-group-organizer",
+    "name": "Tag Group Organizer",
+    "author": "aki",
+    "description": "Organize tags into flexible groups and blocks without changing your tag structure. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "inoriakiha/Tag-Group-Organizer"
+  },
+  {
+    "id": "midjourney-viewer",
+    "name": "Midjourney Viewer",
+    "author": "Spencer Clark",
+    "description": "Browse downloaded Midjourney images with full prompts read from embedded metadata, search, a lightbox, and gallery embeds in notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "spencer1975/obsidian-midjourney-viewer"
+  },
+  {
+    "id": "icor-for-life-scaffold-check",
+    "name": "ICOR for Life - Scaffold Check",
+    "author": "Paperless Movement S.L.",
+    "description": "Is your vault up to date with the ICOR for Life Scaffold, and is what it has still intact? Compares the vault with the latest scaffold version, read-only, and writes a report you can fix by hand or hand to your AI. Part of the ICOR for Life suite. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myicor/icor-for-life-scaffold-check"
   }
 ]
