@@ -8078,13 +8078,6 @@
     "repo": "andrewbrereton/obsidian-to-ical-plugin"
   },
   {
-    "id": "desci",
-    "name": "Desci",
-    "author": "obsidian-desci",
-    "description": "Web3, IPFS, and Desci integrations.",
-    "repo": "obsidian-desci/Obsidian-Desci"
-  },
-  {
     "id": "arena",
     "name": "Are.na unofficial",
     "author": "0xroko",
@@ -8181,13 +8174,6 @@
     "author": "shadowoption",
     "description": "Import notes and images from Hunchly.",
     "repo": "shadowoption/Hunchly-obsidian-plugin"
-  },
-  {
-    "id": "periodic-table",
-    "name": "Periodic Table",
-    "author": "r-cramer4",
-    "description": "View a periodic table of elements in the sidebar.",
-    "repo": "r-cramer4/Periodic-Table-Obsidian"
   },
   {
     "id": "helpmate",
@@ -26033,13 +26019,6 @@
     "repo": "ekrizdis367/obsidian-mtg-decklist"
   },
   {
-    "id": "make-it-rain",
-    "name": "Make It Rain",
-    "author": "Jonathan 'frostmute' Wagner",
-    "description": "Pull Raindrop.io bookmarks, highlights, and attachments into Markdown notes with rich metadata, smart folder structures, and native file support. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "frostmute/make-it-rain"
-  },
-  {
     "id": "gitlab-inbox",
     "name": "GitLab Inbox",
     "author": "srwildman",
@@ -40415,7 +40394,7 @@
     "name": "Vimium Navigation",
     "author": "Giuseppe",
     "description": "Navigate notes, links, sidebars, and tabs with Vimium-style keyboard controls. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "giuseqpe/vimium-for-obsidian"
+    "repo": "giustto/vimium-for-obsidian"
   },
   {
     "id": "lightweight-mentions",
@@ -48118,6 +48097,13 @@
     "repo": "ellimist-afk/handwriting"
   },
   {
+    "id": "vault-searchlight",
+    "name": "Beacon",
+    "author": "Ben Gutteridge",
+    "description": "Fast, theme-aware search and heading navigation for the current note or whole vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bengutteridge1/beacon"
+  },
+  {
     "id": "tradecraft",
     "name": "Tradecraft",
     "author": "Michael Boyle",
@@ -48326,13 +48312,6 @@
     "author": "duo",
     "description": "Discover, run, and monitor local services and tools. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "reiji777/workbay"
-  },
-  {
-    "id": "gcs-pull",
-    "name": "GCS Pull",
-    "author": "Nontaphat Saksathianpong",
-    "description": "Preview and pull files from Google Cloud Storage without changing remote objects. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "nontaphat/obsidian-gcs-pull"
   },
   {
     "id": "lockstep-sync",
@@ -48585,13 +48564,6 @@
     "author": "BrookZeng",
     "description": "Edit complete LaTeX projects, compile them locally, inspect diagnostics, and preview PDFs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "brookzeng2023/obsidian-latex-studio"
-  },
-  {
-    "id": "chess-repertoire",
-    "name": "Chess Repertoire",
-    "author": "moise",
-    "description": "Import a PGN, annotate lines with notes, arrows and move classifications, then drill them back with hints and a report of what you got wrong. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "moise-dev/obsidian-chess-repertoire"
   },
   {
     "id": "auto-heading-numbers",
@@ -49171,8 +49143,8 @@
     "id": "main-tab-commands",
     "name": "Slightly Better Tab Commands",
     "author": "jimmycushnie",
-    "description": "Adds commands to manage the note tabs in your main view without affecting widget tabs in the sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jimmycushnie/Main-Tab-Commands"
+    "description": "Adds commands to manage the note tabs that are slightly better than stock. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jimmycushnie/Slightly-Better-Tab-Commands"
   },
   {
     "id": "auto-zettelkasten",
@@ -49763,6 +49735,13 @@
     "repo": "jorbelca/obsidian_numbers"
   },
   {
+    "id": "icor-for-life-chat",
+    "name": "ICOR for Life - AI Chat",
+    "author": "Paperless Movement S.L.",
+    "description": "Talk to your AI team where the knowledge lives. A Claude chat inside the vault: it sees the note you have open and the text you selected, answers in readable ICOR cards, and archives your sessions as notes. Part of the ICOR for Life suite. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myicor/icor-for-life-chat"
+  },
+  {
     "id": "cmux-agent-orchestrator",
     "name": "cmux Agent Orchestrator",
     "author": "Swayam Gupta",
@@ -50069,5 +50048,19 @@
     "author": "云沧",
     "description": "Manually run a configurable, auditable trend radar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuncang123/trending-radar"
+  },
+  {
+    "id": "immersive-folder",
+    "name": "Immersive Folder",
+    "author": "Blink",
+    "description": "Keeps the folder you are working in readable and covers every other file and folder with skeleton bars. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "iblinkq/immersive-folder"
+  },
+  {
+    "id": "wireframy",
+    "name": "Wireframy",
+    "author": "Divyaraj Murugan",
+    "description": "Lo-fi wireframing without leaving your vault. A drag-and-drop editor with 82 UI widgets, 160 icons, shapes and text you can place anywhere, transform-in-place, connecting arrows and three hand-drawn skins. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "divyaraj-m/wireframy"
   }
 ]
