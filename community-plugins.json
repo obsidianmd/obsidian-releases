@@ -18890,7 +18890,7 @@
     "name": "Advanced Find and Replace",
     "author": "rockofox",
     "description": "Find and replace text across your vault using regular expressions, with advanced features like capturing groups and a live preview. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "rockofox/obsidian-advanced-find-and-replace"
+    "repo": "kilofox/obsidian-advanced-find-and-replace"
   },
   {
     "id": "discord-rpc",
@@ -20193,6 +20193,13 @@
     "author": "calghar",
     "description": "Save and categorise links into your knowledge base using AI. Supports Claude, Ollama, and OpenRouter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "calghar/LinkVault"
+  },
+  {
+    "id": "textflow",
+    "name": "textFlow",
+    "author": "tine-schreibt",
+    "description": "Compile multiple notes into a single editable flow - like Scrivenings. Define flows from DVQueries, folders/tags/props, or bookmarks. Edits are synced automatically between flows and their sources. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tine-schreibt/textflow"
   },
   {
     "id": "export-image-xhs",
@@ -41790,13 +41797,6 @@
     "repo": "ionmint/get-covers"
   },
   {
-    "id": "llm-hub",
-    "name": "LLM Hub",
-    "author": "TAKESHI MORITA",
-    "description": "AI assistant with chat, workflow automation, and semantic search (RAG). Supports Gemini, OpenAI, Anthropic, OpenRouter, Grok, local LLMs, and CLI backends. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "takeshy/obsidian-llm-hub"
-  },
-  {
     "id": "foldable-embedded-notes",
     "name": "Foldable Embedded Notes",
     "author": "Nickolay Kondratyev",
@@ -42368,7 +42368,7 @@
     "name": "Siden",
     "author": "Giuseppe",
     "description": "Annotate Markdown and PDF text with highlights, margin notes, and a review sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "giuseqpe/siden"
+    "repo": "giustto/siden"
   },
   {
     "id": "harang-calendar",
@@ -48104,13 +48104,6 @@
     "repo": "ellimist-afk/handwriting"
   },
   {
-    "id": "vault-searchlight",
-    "name": "Beacon",
-    "author": "Ben Gutteridge",
-    "description": "Fast, theme-aware search and heading navigation for the current note or whole vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "bengutteridge1/beacon"
-  },
-  {
     "id": "tradecraft",
     "name": "Tradecraft",
     "author": "Michael Boyle",
@@ -49427,13 +49420,6 @@
     "repo": "shijimi-soup/Sprint"
   },
   {
-    "id": "nest-note",
-    "name": "NestNote",
-    "author": "LiShaocheng",
-    "description": "Treat folders as nested documents in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "exbob/obsidian-nest-note"
-  },
-  {
     "id": "feynman-gate",
     "name": "Feynman Gate",
     "author": "He yunyan",
@@ -49980,6 +49966,13 @@
     "repo": "woonyong-kr/runnable-code-blocks"
   },
   {
+    "id": "piem",
+    "name": "Piem",
+    "author": "shangxin",
+    "description": "Agentic AI side panel that edits your vault, delegates to subagents, and suggests what to ask next. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "youngsx/piem"
+  },
+  {
     "id": "dgs-wechat-publisher",
     "name": "DGS WeChat Publisher",
     "author": "d0u9",
@@ -50160,5 +50153,12 @@
     "author": "zeiosmb",
     "description": "Render isokit YAML code blocks as isometric architecture diagrams (self-contained SVG). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zeiosmb/isokit"
+  },
+  {
+    "id": "import-code",
+    "name": "Import Code",
+    "author": "yu4n2h1",
+    "description": "Import and embed local or remote code files into your notes using ![[file.ext]] syntax, with syntax highlighting, symbol and line extraction, and auto-refresh. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yu4n2h1/obsidian-import-code"
   }
 ]
