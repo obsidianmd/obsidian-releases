@@ -30150,7 +30150,7 @@
   },
   {
     "id": "open-pdf-translate",
-    "name": "OPEN PDF Translate",
+    "name": "OpenRouter PDF Translator",
     "author": "Vetrenar",
     "description": "Translate PDF documents with overlay, supports OpenRouter, OpenAI, Gemini, Ollama, and custom endpoints. Includes layout detection,  and persistent storage of translations.. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vetrenar/Open-PDF-Translate"
@@ -46517,7 +46517,7 @@
   {
     "id": "side-thing",
     "name": "side Thing",
-    "author": "Sergei",
+    "author": "k0ccc",
     "description": "Add marginal (sidebar) comments to selected text in your notes. (google doc vibe) - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "k0ccc/side-thing"
   },
@@ -47710,13 +47710,6 @@
     "author": "verygood2024",
     "description": "One-click copy the current file to its target path. Per-file target paths can be set individually. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "verygood2024/copy-on-demand"
-  },
-  {
-    "id": "socrates-pen",
-    "name": "Socrates",
-    "author": "Tangyi Qian",
-    "description": "Highlight a passage in your notes and question it through a local sidecar. Desktop only. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "xesws/socrates-pen"
   },
   {
     "id": "canary-edge",
@@ -50057,13 +50050,6 @@
     "repo": "normanchine/obsidian-japanese-reading-assistant"
   },
   {
-    "id": "markdown-memos",
-    "name": "Markdown Memos",
-    "author": "王小",
-    "description": "Capture one memo per Markdown file in an Obsidian-native timeline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tyh-art/markdown-memos"
-  },
-  {
     "id": "hans-safedoc",
     "name": "Hans SafeDoc",
     "author": "Hans Lin 林思翰",
@@ -50104,6 +50090,13 @@
     "author": "Dory",
     "description": "Analyze the current note with DeepSeek, then copy or insert the suggestions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "doryyan/obsidian-ai-advice"
+  },
+  {
+    "id": "compact-empty-properties",
+    "name": "Compact Empty Properties",
+    "author": "allberry",
+    "description": "Hide empty Properties rows in Markdown editing views without changing note data. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "allberry-dev/compact-empty-properties"
   },
   {
     "id": "redlark-receiver",
@@ -50314,5 +50307,26 @@
     "author": "trbatukim",
     "description": "Finds and deletes orphan nodes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "trbatukim/obsidian-orphan-cleaner"
+  },
+  {
+    "id": "image-scroll-gallery",
+    "name": "Image Scroll Gallery",
+    "author": "yujia",
+    "description": "Render a group of images as one horizontal scrolling strip instead of a tall vertical stack, with upload, paste, drag to reorder and a full-screen viewer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rainajia716/obsidian-image-scroll-gallery"
+  },
+  {
+    "id": "file-folder-status-icons",
+    "name": "File and Folder Status Icons",
+    "author": "Dan",
+    "description": "Traffic-light style status icons for files and folders in the file tree, with custom statuses, per-folder defaults, and persistent sort/group by status. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "danrfletcher/obsidian-file-folder-status-icons"
+  },
+  {
+    "id": "annotator-explorer-companion",
+    "name": "Annotator Explorer Companion",
+    "author": "Charles Zhao Changlin",
+    "description": "Right-click a PDF or EPUB to create its Annotator note and open it in annotation view in one step. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zharliesinefine/annotator-explorer-companion"
   }
 ]
