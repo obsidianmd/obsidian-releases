@@ -20380,7 +20380,7 @@
     "id": "voxtral-transcribe",
     "name": "Voxtral Transcribe",
     "author": "Max",
-    "description": "Talk, type and structure in one flow: high-quality live dictation, works on desktop and mobile. Voice commands for headings, lists, to-dos and more in 13 languages. File transcription included. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Your notes, done when you stop talking. Dictate with structure by voice (headings, lists, to-dos), grab the keyboard mid-sentence, transcribe recordings. Mistral Voxtral, 13 languages. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "maxonamission/obsidian-voxtral"
   },
   {
@@ -26269,6 +26269,13 @@
     "author": "Manex",
     "description": "Local AI brain for your Obsidian vault. Indexes all your notes and answers questions privately using a local Apple Silicon MLX model — no cloud, no API keys. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "krcnow/manex-brain"
+  },
+  {
+    "id": "ai-wiki",
+    "name": "AI Wiki",
+    "author": "Ilya",
+    "description": "Build and maintain a local wiki from your notes using an OpenAI-compatible language model. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ikeniborn/obsidian-ai-wiki"
   },
   {
     "id": "copy-highlighter",
@@ -32723,13 +32730,6 @@
     "author": "Amin Ica",
     "description": "Minimal floating timer widget with keyboard-first input, procedural alarm, and theme-aware clock face. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rezgi/obsidian-tiny-timer"
-  },
-  {
-    "id": "rpg-levelling",
-    "name": "RPG Levelling",
-    "author": "Bag of Tips",
-    "description": "Gain XP as you type, level up forever, and track progress with a small RPG-style overlay. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "bagoftips/rpg-levelling"
   },
   {
     "id": "giganttix",
@@ -41755,13 +41755,6 @@
     "repo": "ununnamed/book-reader"
   },
   {
-    "id": "foldable-frontmatter-groups",
-    "name": "Foldable Frontmatter Groups",
-    "author": "Christopher Wagner",
-    "description": "Adds collapsible group headers, canonical key ordering, folder-scoped templates, and cleanup tools to the native Properties panel. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cwagner223355/obsidian-foldable-frontmatter-groups"
-  },
-  {
     "id": "sort-checked-tasks",
     "name": "Sort Checked Tasks",
     "author": "adamk",
@@ -47600,6 +47593,13 @@
     "repo": "lornezhang66/obsidian-remnic-manage"
   },
   {
+    "id": "simple-journal",
+    "name": "Simple Journal",
+    "author": "Utku Aytaç",
+    "description": "A continuous journal for Obsidian. One entry is one Markdown note, a day holds as many as you wrote, and you edit them all inline in a single timeline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ukaytac/obsidian-simple-journal"
+  },
+  {
     "id": "vault-sunburst",
     "name": "Vault Sunburst - Disk Usage",
     "author": "n23eos",
@@ -47999,6 +47999,13 @@
     "repo": "charlesxiaomi/claudian-mobile"
   },
   {
+    "id": "zerocloud-notes",
+    "name": "Link to Notes",
+    "author": "skylines010101",
+    "description": "Clip Xiaohongshu, Bilibili, and web articles into local Markdown notes — 100% offline, zero API cost. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lamvanbien65-crypto/obsidian-zerocloud-notes"
+  },
+  {
     "id": "explorer-icon-studio",
     "name": "Explorer Icon Studio",
     "author": "SpZyph3r",
@@ -48241,7 +48248,7 @@
     "name": "A3 Problem-Solving",
     "author": "Fabrice Bernhard",
     "description": "Render markdown notes as a Toyota-style A3 problem-solving report: a 42cm x 29.7cm two-column page that fits on screen, with mermaid diagrams. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "fabriceb/obsidian-a3-plugin"
+    "repo": "fabriceb/vscode-obsidian-a3-plugin"
   },
   {
     "id": "examined-human",
@@ -49532,6 +49539,13 @@
     "repo": "dwesolowski/create-nested-note"
   },
   {
+    "id": "buddybridge-deep",
+    "name": "BuddyBridge Deep",
+    "author": "BuddyBridge",
+    "description": "An unofficial bridge for DeepSeek Harness via the Agent Client Protocol (ACP): multi-turn chat, streaming responses, thinking blocks and tool calls. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ben4202121/buddybridge-deep"
+  },
+  {
     "id": "fingerprint-lock",
     "name": "Fingerprint Lock",
     "author": "Pazzy",
@@ -50204,6 +50218,13 @@
     "repo": "masked-knight02/Tidy-Tabs"
   },
   {
+    "id": "feishu-diary",
+    "name": "Feishu Diary",
+    "author": "Yourtion",
+    "description": "Talk to a Feishu bot, and it lands in your vault as a diary. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yourtion/obsidian-feishu-diary"
+  },
+  {
     "id": "pakcli-table",
     "name": "PakCLI Table",
     "author": "pakcli",
@@ -50349,5 +50370,19 @@
     "author": "Charles Zhao Changlin",
     "description": "Right-click a PDF or EPUB to create its Annotator note and open it in annotation view in one step. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zharliesinefine/annotator-explorer-companion"
+  },
+  {
+    "id": "note-banners",
+    "name": "Note Banners",
+    "author": "Bag of Tips",
+    "description": "Display a frontmatter image behind the inline title as a seamless note banner. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bagoftips/Note-Banners"
+  },
+  {
+    "id": "d-two-file-preview",
+    "name": "D2 File Preview",
+    "author": "jeongsol",
+    "description": "Edit D2 source files and automatically render SVG previews in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "soljeong/d2-file-preview"
   }
 ]
