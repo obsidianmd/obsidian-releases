@@ -17591,13 +17591,6 @@
     "repo": "thewheelbarrow/quick-matrix"
   },
   {
-    "id": "hydrate",
-    "name": "Hydrate",
-    "author": "hydrateagent",
-    "description": "Cursor-like note agent with MCP support.",
-    "repo": "hydrateagent/hydrate"
-  },
-  {
     "id": "dangerous-mode",
     "name": "Dangerous Mode",
     "author": "vanshkumar",
@@ -48650,13 +48643,6 @@
     "repo": "accessiblefish/obsidian-nautilus-log"
   },
   {
-    "id": "vault-dashboard-x",
-    "name": "Vault Dashboard X",
-    "author": "shayherchen",
-    "description": "A vault dashboard with an activity heatmap, folder distribution, and configurable visual-folder quick links. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "shayher5525/obsidian-vault-dashboard"
-  },
-  {
     "id": "chemspec",
     "name": "ChemSpec",
     "author": "Ruzal Sitdikov",
@@ -50337,6 +50323,13 @@
     "repo": "moodstudios/moodstudios-collab-dist"
   },
   {
+    "id": "ai-agent-panel",
+    "name": "AI Agent Panel",
+    "author": "Yoav Aharoni",
+    "description": "Chat with an AI coding agent inside your vault. Unofficial; works with Anthropic's Claude Code CLI, which you install and log in to yourself. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yoava/obsidian-ai-agent-panel"
+  },
+  {
     "id": "tidy-paste",
     "name": "TidyPaste",
     "author": "k-tech-studio",
@@ -50400,6 +50393,13 @@
     "repo": "zktww/feishu-lark-sync"
   },
   {
+    "id": "md-to-latex",
+    "name": "Convert to LaTeX",
+    "author": "Striker-909",
+    "description": "Adds the ability to convert .md files to .tex files and PDFs to produce simple LaTeX documents. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "striker909-celestial/obsidian-md-to-latex-plugin"
+  },
+  {
     "id": "film-tracker",
     "name": "Film Tracker",
     "author": "erklig",
@@ -50412,5 +50412,33 @@
     "author": "Tyler Teschon",
     "description": "Create and manage note-per-task records with RRULE recurrence, backed by a Bases task base. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tteschon/obsidian-task-base"
+  },
+  {
+    "id": "aware-line-capitalizer",
+    "name": "Aware Line Capitalizer",
+    "author": "Ehren Lampcov",
+    "description": "Automatically capitalize the first letter of each line as you type with context awareness and overwrite support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ehrentheman/aware-obsidian-line-capitalizer"
+  },
+  {
+    "id": "abap-syntax-highlight",
+    "name": "ABAP Syntax Highlight",
+    "author": "Laurin Sorgend",
+    "description": "Adds ABAP syntax highlighting to fenced abap code blocks in Reading view and while editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "laurinsorgend/ObsidianABAPSyntaxHighlight"
+  },
+  {
+    "id": "defuddle-clipper",
+    "name": "Defuddle Web Clipper",
+    "author": "Laurin Sorgend",
+    "description": "Parse a URL with Defuddle and save the extracted article as a note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "laurinsorgend/ObisidianDefuddlePlugin"
+  },
+  {
+    "id": "linkhaven",
+    "name": "Linkhaven",
+    "author": "Real-Fruit-Snacks",
+    "description": "Navigate web bookmarks as vault notes with a collection tree, cover-card grid, and automatic metadata capture. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "real-fruit-snacks/obsidian-linkhaven"
   }
 ]
