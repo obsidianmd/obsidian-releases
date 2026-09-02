@@ -41797,6 +41797,13 @@
     "repo": "ionmint/get-covers"
   },
   {
+    "id": "llm-hub",
+    "name": "LLM Hub",
+    "author": "TAKESHI MORITA",
+    "description": "AI assistant with chat, workflow automation, and semantic search (RAG). Supports Gemini, OpenAI, Anthropic, OpenRouter, Grok, local LLMs, and CLI backends. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "takeshy/obsidian-llm-hub"
+  },
+  {
     "id": "foldable-embedded-notes",
     "name": "Foldable Embedded Notes",
     "author": "Nickolay Kondratyev",
@@ -48069,13 +48076,6 @@
     "repo": "linyunerr/Journal-Sync"
   },
   {
-    "id": "creative-writer",
-    "name": "Creative Writer",
-    "author": "André Amnc",
-    "description": "Zen Mode, typewriter scrolling, focus fade, paragraph rhythm and offline style checks for creative writing. Optional local-model assistant. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "amancioandre/creative-writer"
-  },
-  {
     "id": "webview-ua-override",
     "name": "Web Viewer UA Override",
     "author": "Ian Monroe",
@@ -49054,6 +49054,13 @@
     "author": "강형준",
     "description": "Search note titles first, then hand the same query to the core full-text search. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "skkukang/obsidian-title-first-search"
+  },
+  {
+    "id": "syncidian",
+    "name": "Syncidian",
+    "author": "Shangeeth Sivan",
+    "description": "Sync your vault across devices through a self-hosted Syncidian server, with optional GitHub backup and MCP for AI tools. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shangeethsivan/Syncidian"
   },
   {
     "id": "constellation-sync",
@@ -50218,6 +50225,20 @@
     "repo": "pakcli/table"
   },
   {
+    "id": "shorthand",
+    "name": "Shorthand",
+    "author": "Horizon Vector",
+    "description": "Capture Shorthand transcripts and maintain an AI-owned meeting-note summary. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mshish/shorthand-obsidian-plugin"
+  },
+  {
+    "id": "style-tuner",
+    "name": "Style Tuner",
+    "author": "Sofqi",
+    "description": "Fine-tune theme, plugin, and snippet CSS variables with configurable controls. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dyse-sofqi/obsidian-style-tuner"
+  },
+  {
     "id": "layout-switcher",
     "name": "Layout Switcher (RU-EN)",
     "author": "Aristarkh Khalmirzaev",
@@ -50351,6 +50372,13 @@
     "repo": "rainajia716/obsidian-image-scroll-gallery"
   },
   {
+    "id": "link-router",
+    "name": "Link Router",
+    "author": "Adam Fried-Gintis",
+    "description": "Route specially delimited web links to another browser, browser mode, custom launch action, or clipboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "adamf-g/obsidian-link-router"
+  },
+  {
     "id": "file-folder-status-icons",
     "name": "File and Folder Status Icons",
     "author": "Dan",
@@ -50433,5 +50461,12 @@
     "author": "Real-Fruit-Snacks",
     "description": "Navigate web bookmarks as vault notes with a collection tree, cover-card grid, and automatic metadata capture. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "real-fruit-snacks/obsidian-linkhaven"
+  },
+  {
+    "id": "custom-syntax",
+    "name": "Custom Syntax",
+    "author": "BAIYUMIAN",
+    "description": "Define custom inline syntax delimiters and style them with your own CSS, with native real-time preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "baiyumian/obsidian-custom-syntax"
   }
 ]
