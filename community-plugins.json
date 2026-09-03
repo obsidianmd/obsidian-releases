@@ -22001,13 +22001,6 @@
     "repo": "hcyt/taskweaver"
   },
   {
-    "id": "logseqer",
-    "name": "Logseqer",
-    "author": "sisyphe42",
-    "description": "Provides a Logseq-native experience and enhance workflow compatibility between both applications. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sisyphe42/obsidian-logseqer-plugin"
-  },
-  {
     "id": "trouble-tags",
     "name": "Trouble Tags",
     "author": "Simon Späti",
@@ -30154,13 +30147,6 @@
     "author": "Kostya Struga",
     "description": "Track Readwise reading progress, highlights, heatmaps, and reading inbox notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "free-solo-lab/obsidian-readwise-tracker"
-  },
-  {
-    "id": "open-pdf-translate",
-    "name": "OpenRouter PDF Translator",
-    "author": "Vetrenar",
-    "description": "Translate PDF documents with overlay, supports OpenRouter, OpenAI, Gemini, Ollama, and custom endpoints. Includes layout detection,  and persistent storage of translations.. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "vetrenar/Open-PDF-Translate"
   },
   {
     "id": "codeblock-language-detector",
@@ -50685,5 +50671,26 @@
     "author": "cyrill",
     "description": "Collect TODO markers from your vault in a sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cyrill0/obsidian-cairn"
+  },
+  {
+    "id": "remove-empty-assets",
+    "name": "Remove Empty Assets",
+    "author": "xzhi",
+    "description": "中文: 删除附件目录中的空目录，支持桌面端与移动端。附件目录路径支持绝对路径、相对每个笔记目录（./）、相对仓库根三种写法；删除 md 笔记或附件时自动定点扫描，支持定时扫描，删除方式可选回收站或永久删除，中英文界面 | EN: Remove empty folders inside attachment directories, desktop & mobile. Configurable path (absolute, per-note, vault-root), auto-scan on note/attachment deletion, scheduled scan, trash/permanent delete, bilingual UI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "github-xzhi/obsidian-remove-empty-assets"
+  },
+  {
+    "id": "seeker",
+    "name": "Seeker",
+    "author": "Nickolay Kondratyev",
+    "description": "Search your vault with hybrid semantic and lexical retrieval, powered by an on-device embedding model. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nickolay-kondratyev/Obsidian-Seeker"
+  },
+  {
+    "id": "tree-view",
+    "name": "Tree View",
+    "author": "Jesse",
+    "description": "Create multiple editable file-explorer views that reference the vault's real file tree, without altering it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "biehenjia/tv"
   }
 ]
