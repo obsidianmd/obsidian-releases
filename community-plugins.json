@@ -20482,6 +20482,13 @@
     "repo": "junjieim/better-quote"
   },
   {
+    "id": "incremental-reading",
+    "name": "Incremental Reading",
+    "author": "gpanakkal",
+    "description": "Leverage spaced repetition to incrementally build understanding and retain knowledge. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gpanakkal/incremental-reading-obsidian"
+  },
+  {
     "id": "custom-selectors",
     "name": "Custom Selectors",
     "author": "hodie",
@@ -24472,6 +24479,13 @@
     "repo": "hyungyunlim/obsidian-naver-blog-importer"
   },
   {
+    "id": "semantic-vault-mcp",
+    "name": "Semantic Notes Vault MCP",
+    "author": "Aaron Bockelie",
+    "description": "Give Claude Desktop and other AI assistants semantic access to your notes through a built-in Model Context Protocol (MCP) server. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aaronsb/obsidian-mcp-plugin"
+  },
+  {
     "id": "co-intelligence",
     "name": "Co-Intelligence AI",
     "author": "epistemic-technology",
@@ -26817,13 +26831,6 @@
     "repo": "nymbo/Markdown-Minimap"
   },
   {
-    "id": "recent-edits",
-    "name": "Recent Edits",
-    "author": "Christopher Wagner",
-    "description": "See what actually changed in your vault, grouped by day, with a marker on anything edited outside the editor. Built for vaults where scripts and AI tools are collaboratively in one vault - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cwagner223355/obsidian-recent-edits"
-  },
-  {
     "id": "highlightr-plus",
     "name": "Highlightr Plus",
     "author": "Olivier and Chetachi",
@@ -28453,13 +28460,6 @@
     "author": "chefrocker",
     "description": "Display live MQTT and REST API data directly in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "chefrocker/obsidian-awesome-livedata-plugin"
-  },
-  {
-    "id": "live-cursor",
-    "name": "Live-Cursor",
-    "author": "panospds",
-    "description": "A free, open-source, privacy-first collaborative sync plugin. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "live-cursor/Live-Cursor"
   },
   {
     "id": "ogstack",
@@ -45101,13 +45101,6 @@
     "repo": "notenerdofficial/working-tabs"
   },
   {
-    "id": "mark-base",
-    "name": "MarkBase",
-    "author": "Tyler Carrol",
-    "description": "Create freeform markdown base views. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tylercarrol/obsidian-mark-base"
-  },
-  {
     "id": "agent-ledger",
     "name": "Agent Ledger",
     "author": "Keivn Lee",
@@ -50489,5 +50482,19 @@
     "author": "BAIYUMIAN",
     "description": "Define custom inline syntax delimiters and style them with your own CSS, with native real-time preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "baiyumian/obsidian-custom-syntax"
+  },
+  {
+    "id": "nvc-toolkit",
+    "name": "Giraffe",
+    "author": "Justin Magaram",
+    "description": "Insert feelings and needs into your notes. Scan by category (Angry, Sad… Connection, Play…) or focus on one word at a time, with definitions. Based on Center for Nonviolent Communication (NVC) lists. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jmagaram/nvc-obsidian"
+  },
+  {
+    "id": "sentence-capitalizer",
+    "name": "Sentence Capitalizer",
+    "author": "kosperun",
+    "description": "Auto-capitalizes the first letter you type at the start of a sentence, undoes cleanly with Cmd/Ctrl+Z - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kosperun/obsidian-sentence-capitalizer"
   }
 ]
