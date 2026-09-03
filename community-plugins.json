@@ -43400,13 +43400,6 @@
     "repo": "lumargh/obsidian-budgets"
   },
   {
-    "id": "sketch-matter",
-    "name": "SketchMatter",
-    "author": "Tyler Carrol",
-    "description": "Render SVG images from frontmatter-defined objects, layers, and views. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tylercarrol/obsidian-sketch-matter"
-  },
-  {
     "id": "cn-emoji",
     "name": "Chinese Emoji Picker",
     "author": "bighead2425",
@@ -46450,6 +46443,13 @@
     "author": "余航",
     "description": "Embed DSH (DeepSeek Harness) as the single AI agent in your vault: chat panel, session history, per-session model/reasoning-effort/permission switching, live thinking process, and model discovery. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tudo9710/obsidian-dsh"
+  },
+  {
+    "id": "smart-notes",
+    "name": "Smart Notes",
+    "author": "hellokunzai",
+    "description": "Analyze your vault with AI to generate bidirectional links, enrich frontmatter properties, optimize notes, and provide in-editor autocompletion. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hellokunzai/obsidian-smart-notes"
   },
   {
     "id": "canvas-to-tasks",
@@ -49925,7 +49925,7 @@
   },
   {
     "id": "communitynoteshub",
-    "name": "notes-hub",
+    "name": "Notes hub",
     "author": "adi gorn",
     "description": "Browse, download, and publish knowledge packages shared by the community. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "s-t-i-h-i/notesHub-plugin"
@@ -50116,7 +50116,7 @@
     "id": "immersive-folder",
     "name": "Immersive Folder",
     "author": "Blink",
-    "description": "Keeps the folder you are working in readable and covers every other file and folder with skeleton bars. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "One click hides everything but the folder you're working in. Drag folders into your own order instead of naming them 01_Inbox, 02_Projects to line them up. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "iblinkq/immersive-folder"
   },
   {
@@ -50582,10 +50582,24 @@
     "repo": "adlinz/obsidian-image-annotator"
   },
   {
+    "id": "notelens",
+    "name": "NoteLens",
+    "author": "jotatito05",
+    "description": "Infinite whiteboard with pressure-sensitive stylus ink, smart tags, PDFs and interactive videos on the canvas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "veloik/Plugin-Obsidian"
+  },
+  {
     "id": "ltoolkit",
     "name": "LToolkit",
     "author": "lee112358",
     "description": "A bundle of small editing, attachment, and appearance tweaks: Notion-style progressive select, per-note attachment folders, unused-attachment cleanup, filenames on code blocks, and scroll position memory. Each feature toggles on its own. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lee112358/ltoolkit"
+  },
+  {
+    "id": "loud-outline",
+    "name": "Loud Outline",
+    "author": "Dan",
+    "description": "Like Quiet Outline, but louder! Shows each note's headings, tasks and lists as expandable nodes right in the file explorer — no separate outline pane needed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "danrfletcher/obsidian-loud-outline"
   }
 ]
