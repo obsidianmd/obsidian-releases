@@ -22176,13 +22176,6 @@
     "repo": "saydullayev017/deadline"
   },
   {
-    "id": "workspace-plus-plus",
-    "name": "Workspace++",
-    "author": "s1m4ne",
-    "description": "Workspace session manager with a native-feeling UI/UX. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "s1m4ne/obsidian-workspace-plus"
-  },
-  {
     "id": "thought-completion",
     "name": "Thought Completion",
     "author": "talhabw",
@@ -37450,13 +37443,6 @@
     "repo": "electroluminescent/obsidian-extended-properties"
   },
   {
-    "id": "hybrid-git-sync",
-    "name": "Hybrid Git Sync",
-    "author": "walkskyer",
-    "description": "Cross-platform Git sync plugin. Desktop uses native git and API, mobile uses GitHub/Gitea/GitLab API. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "wk-obsidian/HybridGitSync"
-  },
-  {
     "id": "eve-apple-tree",
     "name": "Eve Apple Tree Thinking System",
     "author": "Evelyn Chan",
@@ -41256,6 +41242,13 @@
     "author": "kamijoucen",
     "description": "A lightweight yet powerful ACP chat client, inheriting models, tools, and sessions from opencode. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kamijoucen/obsidian-openyolo"
+  },
+  {
+    "id": "chrono-notes",
+    "name": "Chrono Notes",
+    "author": "ZhengYX",
+    "description": "A calendar workspace for periodic notes, calendar extensions, regional holidays, tasks, and time ranges. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhyx91/obsidian-chrono-notes"
   },
   {
     "id": "local-image-resizer",
@@ -49521,7 +49514,7 @@
     "id": "articlewriter",
     "name": "ArticleWriter",
     "author": "天天",
-    "description": "AI 小说创作工具（Obsidian 版）：建书/建章/建卷、打开文档、保存章节、字数统计，全部基于 Vault MD 文档约定，手动下载写作指南定义个人风格 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "AI 小说创作工具（Obsidian 版）：建书/建章/建卷、打开文档、保存章节、字数统计，全部基于 Vault MD 文档约定，增加使用说明，增加写作指南的生成，更新章节管理功能，增加书籍磁盘同步功能 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gengbl/articlewriter-obsidian"
   },
   {
@@ -50379,6 +50372,13 @@
     "repo": "moodstudios/moodstudios-collab-dist"
   },
   {
+    "id": "local-pi-chat",
+    "name": "Pi Chat",
+    "author": "acewan",
+    "description": "Chat with your local pi coding agent. Pi runs on your machine; this plugin provides the UI and exposes your vault over a local HTTP endpoint so pi can read it via curl. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "acewan-kai/obsidian-pi-chat"
+  },
+  {
     "id": "ai-agent-panel",
     "name": "AI Agent Panel",
     "author": "Yoav Aharoni",
@@ -50566,5 +50566,26 @@
     "author": "klomix",
     "description": "Plugin for learning words in the format: Word - [Transcription] - Translation - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "klomix/Klomimory"
+  },
+  {
+    "id": "terminalogue-presenter",
+    "name": "Terminalogue Presenter",
+    "author": "Yuichi Mizutani",
+    "description": "Turns a Marp note into an HTML presentation with animated Terminalogue terminals, and opens it in the default browser. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yumizu11/obsidian-terminalogue-presenter"
+  },
+  {
+    "id": "image-annotator",
+    "name": "Image Annotator",
+    "author": "Adlin",
+    "description": "Annotate images in your vault with rectangles, arrows, text, and freehand marks, then save the result as a PNG. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "adlinz/obsidian-image-annotator"
+  },
+  {
+    "id": "ltoolkit",
+    "name": "LToolkit",
+    "author": "lee112358",
+    "description": "A bundle of small editing, attachment, and appearance tweaks: Notion-style progressive select, per-note attachment folders, unused-attachment cleanup, filenames on code blocks, and scroll position memory. Each feature toggles on its own. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lee112358/ltoolkit"
   }
 ]
