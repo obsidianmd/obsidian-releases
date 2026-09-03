@@ -18910,7 +18910,7 @@
     "id": "date-helpers",
     "name": "Date Helpers",
     "author": "patrice-bour",
-    "description": "Centralized date tools with keyboard-first interaction, natural language parsing, and full internationalization support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Insert dates without leaving the line: a keyboard-first picker, an inline popup that reads natural language in six languages, format presets you can extend, and daily note links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "patrice-bour/obsidian-date-helpers"
   },
   {
@@ -24246,13 +24246,6 @@
     "author": "David V. Kimball",
     "description": "Ensure your public-facing notes are optimized for search engines and AI. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "davidvkimball/obsidian-seo"
-  },
-  {
-    "id": "speech-to-text",
-    "name": "Speech to Text",
-    "author": "asyouplz",
-    "description": "Convert audio recordings to text using multiple AI providers (OpenAI Whisper, Deepgram) - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "asyouplz/SpeechNote"
   },
   {
     "id": "agent-client",
@@ -49238,13 +49231,6 @@
     "repo": "julius-gmeinder/anchor-notes"
   },
   {
-    "id": "pidian",
-    "name": "Pidian",
-    "author": "yuru7",
-    "description": "Chat with a Pi coding agent in the sidebar to ask about or edit the open note, search notes, and search the web. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yuru7/obsidian-pidian"
-  },
-  {
     "id": "nested-frontmatter-properties",
     "name": "Nested Frontmatter Properties",
     "author": "copperbox",
@@ -50253,13 +50239,6 @@
     "repo": "pakcli/table"
   },
   {
-    "id": "shorthand",
-    "name": "Shorthand",
-    "author": "Horizon Vector",
-    "description": "Capture Shorthand transcripts and maintain an AI-owned meeting-note summary. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mshish/shorthand-obsidian-plugin"
-  },
-  {
     "id": "style-tuner",
     "name": "Style Tuner",
     "author": "Sofqi",
@@ -50426,6 +50405,13 @@
     "author": "Adam Fried-Gintis",
     "description": "Route specially delimited web links to another browser, browser mode, custom launch action, or clipboard. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "adamf-g/obsidian-link-router"
+  },
+  {
+    "id": "file-folder-status-icons",
+    "name": "File Folder Status Sets",
+    "author": "Dan",
+    "description": "Traffic-light style status icons for files and folders in the file tree, with custom statuses, per-folder defaults, and persistent sort/group by status. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "danrfletcher/obsidian-file-folder-status-icons"
   },
   {
     "id": "annotator-explorer-companion",
@@ -50603,10 +50589,24 @@
     "repo": "caijyii/obsidian-tab-cleaner"
   },
   {
-    "id": "rollover-to-tomorrow",
-    "name": "Rollover+",
+    "id": "happy-squid",
+    "name": "Happy Squid",
+    "author": "Happy Squid",
+    "description": "Start and stop Happy Squid tasks from checkboxes in your notes, and keep permanent records of you task goals and daily summaries. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "happy-squid-blocker/obsidian-happy-squid"
+  },
+  {
+    "id": "rollover-plus",
+    "name": "Rollover Plus",
     "author": "Wren",
     "description": "Rolls unfinished tasks to today or tomorrow, or moves the current selection to tomorrow. Based on Rollover Daily Todos by lumoe. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "turnipsforme/wrens-rollover-to-tomorrow"
+    "repo": "turnipsforme/rollover-plus"
+  },
+  {
+    "id": "fast-external-embed",
+    "name": "Fast External Embed",
+    "author": "imAndyrrr",
+    "description": "Embed external web pages and local files with standard Markdown and wiki embed syntax - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "imandyrrr/obsidian-fast-external-embed"
   }
 ]
