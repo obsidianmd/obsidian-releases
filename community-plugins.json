@@ -9082,7 +9082,7 @@
     "id": "smart-second-brain",
     "name": "Smart Second Brain",
     "author": "S2B Devs",
-    "description": "Interact with your privacy focused assistant by leveraging Ollama or OpenAI and making your second brain even smarter.",
+    "description": "Chat with an agent that knows your notes, search by meaning, and see your vault grouped into topics. Runs on Ollama, OpenAI, Anthropic, and more.",
     "repo": "s2b-dev/smart-second-brain"
   },
   {
@@ -20895,6 +20895,13 @@
     "repo": "sotirangelo/obsidian-fantasy-map"
   },
   {
+    "id": "inline-annotations",
+    "name": "Inline Annotations",
+    "author": "cetrodk",
+    "description": "Add inline annotations to selected text that show in a popup on click. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cetrodk/obsidian-inline-annotations"
+  },
+  {
     "id": "map-note",
     "name": "Map Note",
     "author": "isaiahsarju",
@@ -22199,7 +22206,7 @@
   {
     "id": "evc-local-sync",
     "name": "EVC Local Sync to AI Agent",
-    "author": "entire-vc",
+    "author": "Entire VC",
     "description": "Keep a vault folder and an external project documentation folder in two-way sync, so your notes and a codebase's docs stay current automatically without manual copy-paste. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "entire-vc/evc-local-sync-plugin"
   },
@@ -30319,7 +30326,7 @@
   {
     "id": "lucrjournal",
     "name": "LucrJournal",
-    "author": "lucrtrade",
+    "author": "astroyhs",
     "description": "Record your trades as local Markdown files and link every entry to its key levels, confluences, market analysis, and news — turning your journal into a connected, private knowledge graph. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lucrtrade/lucrjournal-obsidian-plugin"
   },
@@ -37450,6 +37457,13 @@
     "repo": "electroluminescent/obsidian-extended-properties"
   },
   {
+    "id": "hybrid-git-sync",
+    "name": "Hybrid Git Sync",
+    "author": "walkskyer",
+    "description": "Cross-platform Git sync plugin. Desktop uses native git and API, mobile uses GitHub/Gitea/GitLab API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wk-obsidian/HybridGitSync"
+  },
+  {
     "id": "eve-apple-tree",
     "name": "Eve Apple Tree Thinking System",
     "author": "Evelyn Chan",
@@ -38820,6 +38834,13 @@
     "author": "onlymykazari",
     "description": "Markdown-backed kanban boards with two-way Nextcloud Deck sync. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "onlymykazari/obsidian-nextcloud-deck"
+  },
+  {
+    "id": "remember-every-pay",
+    "name": "Remember Every Pay",
+    "author": "chinaqianb",
+    "description": "To record any money your pay and make a summary - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chinaqianb/obsidian-Remember-every-pay"
   },
   {
     "id": "spark-memo",
@@ -46158,13 +46179,6 @@
     "repo": "jakdab/obsidian-graph-files-highlight-sync"
   },
   {
-    "id": "cool-dashboard",
-    "name": "Aurora Dashboard",
-    "author": "Kerekes Stefan",
-    "description": "A polished interactive dashboard and control center with draggable widgets, a calendar, and activity tracking. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "stef4678/aurora-dashboard"
-  },
-  {
     "id": "gifs-md",
     "name": "GIFs.md",
     "author": "Krish",
@@ -47351,7 +47365,7 @@
     "id": "goodcharts",
     "name": "GoodCharts",
     "author": "Times",
-    "description": "Render simple, theme-aware charts from YAML using TanStack Charts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Render simple, theme-aware good charts from YAML using TanStack Charts. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "times0/good-charts"
   },
   {
@@ -48417,6 +48431,13 @@
     "author": "pengze",
     "description": "A theme-aware homepage with reorderable widgets for notes, tasks, journals, and projects. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pengze369-stack/homepage-dashboard"
+  },
+  {
+    "id": "number-suite",
+    "name": "Number Suite",
+    "author": "ZhengYX",
+    "description": "Display or manage heading, caption, footnote, endnote, and reference numbers without changing Markdown unexpectedly. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhyx91/obsidian-number-suite"
   },
   {
     "id": "github-image-host",
@@ -49728,13 +49749,6 @@
     "repo": "myicor/icor-for-life-focus"
   },
   {
-    "id": "icor-for-life-diagrams",
-    "name": "ICOR for Life - Diagrams",
-    "author": "Paperless Movement S.L.",
-    "description": "Adds a fullscreen button to every rendered mermaid diagram: open it large, zoom around the cursor with the mouse wheel or a pinch, drag to pan, double-click to reset. Part of the ICOR for Life suite. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "myicor/icor-for-life-diagrams"
-  },
-  {
     "id": "icor-for-life-connect",
     "name": "ICOR for Life - Connect",
     "author": "Paperless Movement S.L.",
@@ -50547,6 +50561,13 @@
     "repo": "virus7976/2026-09-02_school_habit-tracker_v1"
   },
   {
+    "id": "obelisk",
+    "name": "Obelisk",
+    "author": "Zach Hannum",
+    "description": "Comment on any passage in a note and propose GitHub-style suggested edits. Comments live in the note's frontmatter, so they travel with the file. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zachhannum/obelisk"
+  },
+  {
     "id": "youspot",
     "name": "YouSpot",
     "author": "YouSpot",
@@ -50643,5 +50664,12 @@
     "author": "Wren",
     "description": "Improve editing with tools for organizing notes, formatting selections, managing tasks and tabs, and safely deleting linked files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "turnipsforme/better-editor"
+  },
+  {
+    "id": "team-relay",
+    "name": "Team Relay",
+    "author": "Entire VC",
+    "description": "Enterprise collaboration with self-hosted relay infrastructure. Real-time editing with live cursors and secure team workspaces. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "entire-vc/evc-team-relay-plugin"
   }
 ]
