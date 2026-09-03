@@ -17591,6 +17591,13 @@
     "repo": "thewheelbarrow/quick-matrix"
   },
   {
+    "id": "hydrate",
+    "name": "Hydrate",
+    "author": "hydrateagent",
+    "description": "Cursor-like note agent with MCP support.",
+    "repo": "hydrateagent/hydrate"
+  },
+  {
     "id": "dangerous-mode",
     "name": "Dangerous Mode",
     "author": "vanshkumar",
@@ -22979,13 +22986,6 @@
     "author": "eugeny-dementev",
     "description": "Generate AI agent briefs from the current note using path-based templates and task extraction. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "eugeny-dementev/briefmaker"
-  },
-  {
-    "id": "knox-sync",
-    "name": "Knox Sync",
-    "author": "trinitytime",
-    "description": "Sync your vault with knox portal. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "trinitytime/knox-sync-plugin"
   },
   {
     "id": "lm-studio-connect",
@@ -30319,7 +30319,7 @@
   {
     "id": "lucrjournal",
     "name": "LucrJournal",
-    "author": "astroyhs",
+    "author": "lucrtrade",
     "description": "Record your trades as local Markdown files and link every entry to its key levels, confluences, market analysis, and news — turning your journal into a connected, private knowledge graph. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lucrtrade/lucrjournal-obsidian-plugin"
   },
@@ -30644,6 +30644,13 @@
     "author": "Kiril",
     "description": "prompt workflow automation, batch runs, run history, external vector index storage, Daily Note workflows, prompt library, RAG, and source references. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kiril-liu/obsidian-ai-plugin"
+  },
+  {
+    "id": "better-calendar",
+    "name": "Better Calendar",
+    "author": "Xheldon",
+    "description": "A compact, space-filling calendar for your daily notes — open or create them from your template, and mark days that match your own highlight rules. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xheldon/Obsidian-Better-Calendar"
   },
   {
     "id": "regex-css-highlighter",
@@ -48643,6 +48650,13 @@
     "repo": "accessiblefish/obsidian-nautilus-log"
   },
   {
+    "id": "vault-dashboard-x",
+    "name": "Vault Dashboard X",
+    "author": "shayherchen",
+    "description": "A vault dashboard with an activity heatmap, folder distribution, and configurable visual-folder quick links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shayher5525/obsidian-vault-dashboard"
+  },
+  {
     "id": "chemspec",
     "name": "ChemSpec",
     "author": "Ruzal Sitdikov",
@@ -48732,6 +48746,13 @@
     "author": "Beth Dean",
     "description": "Export a story to Shunn's standard manuscript format as a .docx or .rtf, ready to submit. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hexennacht666/obsidian-standard-manuscript-format"
+  },
+  {
+    "id": "auto-webp-image-manager",
+    "name": "Auto WebP Image Manager",
+    "author": "gmsz-1603",
+    "description": "粘贴/拖拽图片自动保存为WebP（质量75%、可缩放），按笔记名自动命名，笔记重命名时图片同步重命名。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gmsz-1603/obsidian-auto-webp-image-manager"
   },
   {
     "id": "ugougo-moji",
@@ -49584,7 +49605,7 @@
     "id": "position-restore",
     "name": "Position Restore",
     "author": "kaidima",
-    "description": "Restore each note's cursor and scroll position across sessions and devices, in both editing and reading view, with flicker-free native recovery in the editor - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Restore cursor and scroll position for each note across sessions and devices — exact landing, no jump. An optimized alternative to Remember Cursor Position. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aisahpa/obsidian-position-restore"
   },
   {
@@ -50496,5 +50517,19 @@
     "author": "kosperun",
     "description": "Auto-capitalizes the first letter you type at the start of a sentence, undoes cleanly with Cmd/Ctrl+Z - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kosperun/obsidian-sentence-capitalizer"
+  },
+  {
+    "id": "tally",
+    "name": "Tally",
+    "author": "Liam Gour",
+    "description": "Track daily habits from your notes. Reads and writes plain frontmatter and Dataview inline fields, draws a year heatmap and streaks, and is built to be tapped one-handed on a phone. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "virus7976/2026-09-02_school_habit-tracker_v1"
+  },
+  {
+    "id": "youspot",
+    "name": "YouSpot",
+    "author": "YouSpot",
+    "description": "Two-way sync between a vault folder and your YouSpot Brain. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "onstartups/youspot-obsidian"
   }
 ]
