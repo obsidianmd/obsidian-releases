@@ -26194,6 +26194,13 @@
     "repo": "one-wheeled-driver/obsidian-passport"
   },
   {
+    "id": "blip-capture",
+    "name": "Blip Capture",
+    "author": "Your Name",
+    "description": "Quickly capture short notes (Blips) via hotkey or ribbon button and save them to a central file. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gamesinplay/obsidian-blip-capture"
+  },
+  {
     "id": "journal-bases",
     "name": "Journal Bases",
     "author": "Sébastien Dubois",
@@ -47054,6 +47061,13 @@
     "repo": "mikolajsapek/obsidian-havemind"
   },
   {
+    "id": "worklife-calendar",
+    "name": "WorkLife Calendar",
+    "author": "RavenLife",
+    "description": "Calendar, task tracker, habit tracker, and financial planner — all in one plugin for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "atinss/WorkLife-Calendar-for-Obsidian"
+  },
+  {
     "id": "task-sorter",
     "name": "Task Sorter",
     "author": "Artem Oreshkin",
@@ -50019,7 +50033,7 @@
     "name": "Runnable Code Blocks",
     "author": "woonyong-kr",
     "description": "Run 21 languages inside your notes with IntelliJ-style editors and no server to host. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "woonyong-kr/runnable-code-blocks"
+    "repo": "woonyong-kr/obsidian-runnable-code-blocks"
   },
   {
     "id": "inline-agents",
@@ -50848,10 +50862,24 @@
     "repo": "toropanov/obsidian-conflict-resolver"
   },
   {
-    "id": "post-quantum-webdav",
-    "name": "PQC WebDAV Sync",
-    "author": "obsync",
-    "description": "Encrypt your vault with post-quantum cryptography (ML-DSA/ML-KEM) and sync to any WebDAV server (Nextcloud, etc.) with chunked transfer and multi-device conflict resolution. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "normanify/post-quantum-webdav"
+    "id": "icor-for-life-terminal",
+    "name": "ICOR for Life - Terminal",
+    "author": "Thomas Roedl",
+    "description": "A real terminal inside your vault. Your login shell in a tab or a split, keyboard capture that still lets Obsidian keep its palette, and a one-command launcher for Claude Code in the vault folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myicor/icor-for-life-terminal"
+  },
+  {
+    "id": "simple-backup",
+    "name": "Simple Backup",
+    "author": "Laszlo Repassy",
+    "description": "Backs up the vault to a folder of your choice, versioned by date and time, in the background without blocking the interface, with automatic daily/weekly/monthly retention. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "laszlorepassy/obsidian-simple-backup"
+  },
+  {
+    "id": "punctilious",
+    "name": "Punctilious",
+    "author": "bozhang",
+    "description": "统一 Markdown 标点格式：中文标点转英文标点，并在中英文与数字之间自动补空格，链接 URL 自动豁免。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mrelvin/obsidian-punctilious"
   }
 ]
