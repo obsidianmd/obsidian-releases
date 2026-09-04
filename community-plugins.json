@@ -1799,6 +1799,13 @@
     "repo": "michaellee/stille"
   },
   {
+    "id": "obsidian-markmind",
+    "name": "Markmind",
+    "author": "markmindckm",
+    "description": "Mind map, outline and PDF annotation tool. (Closed source)",
+    "repo": "markmindckm/obsidian-markmind"
+  },
+  {
     "id": "obsidian-carry-forward",
     "name": "Carry-Forward",
     "author": "jglev",
@@ -15426,13 +15433,6 @@
     "author": "vannamhh",
     "description": "Track task completion with a visual progress bar in your sidebar, auto update column Kanban",
     "repo": "vannamhh/progress-tracker"
-  },
-  {
-    "id": "easy-copy",
-    "name": "Easy Copy",
-    "author": "Moy",
-    "description": "Easily copy the text within inline code, bold text (and many other formats), or quickly generate an elegant link to a heading or block.",
-    "repo": "moyf/easy-copy"
   },
   {
     "id": "open-tab-settings",
@@ -36183,13 +36183,6 @@
     "repo": "remihoeppe/vault-notatypo"
   },
   {
-    "id": "daytasks",
-    "name": "DayTasks",
-    "author": "MHElnour",
-    "description": "A lightweight, day-first task manager for your daily notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mhelnour/daytasks"
-  },
-  {
     "id": "publish-to-wordpress",
     "name": "Publish to WordPress",
     "author": "DevidCode",
@@ -36832,6 +36825,13 @@
     "author": "aplikofi",
     "description": "High-performance vault backups using native Zstandard compression streams, SHA256 integrity checks, and GFS time-tiered retention. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aplikofi/Obsidian-bckp-Plugin"
+  },
+  {
+    "id": "codefile",
+    "name": "Code File Embed",
+    "author": "Willian Saez",
+    "description": "Embed the contents of a vault file as a syntax-highlighted code block via a codefile fenced block. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "williansaez/obsidian-code-file-embed"
   },
   {
     "id": "neural-vault",
@@ -49984,14 +49984,14 @@
     "name": "Link Calendar Navigator",
     "author": "woonyong-kr",
     "description": "Navigate dated Markdown by month and open canonical notes from a compact daily agenda. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "woonyong-kr/link-calendar"
+    "repo": "woonyong-kr/obsidian-link-calendar-navigator"
   },
   {
     "id": "linked-graph",
     "name": "Linked Graph Navigator",
     "author": "woonyong-kr",
     "description": "Browse the current Markdown note as an outline or one-hop graph. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "woonyong-kr/linked-graph"
+    "repo": "woonyong-kr/obsidian-linked-graph-navigator"
   },
   {
     "id": "kadima-sync",
@@ -50293,13 +50293,6 @@
     "author": "pakcli",
     "description": "Visual tables, interactive SQL database explorer, ASCII canvas drawing, and interactive Leaflet maps. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pakcli/table"
-  },
-  {
-    "id": "shorthand",
-    "name": "Shorthand",
-    "author": "Horizon Vector",
-    "description": "Capture Shorthand transcripts and maintain an AI-owned meeting-note summary. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mshish/shorthand-obsidian-plugin"
   },
   {
     "id": "style-tuner",
@@ -50631,6 +50624,13 @@
     "repo": "adlinz/obsidian-image-annotator"
   },
   {
+    "id": "notelens",
+    "name": "NoteLens",
+    "author": "jotatito05",
+    "description": "Infinite whiteboard with pressure-sensitive stylus ink, smart tags, PDFs and interactive videos on the canvas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "veloik/Plugin-Obsidian"
+  },
+  {
     "id": "ltoolkit",
     "name": "LToolkit",
     "author": "lee112358",
@@ -50839,5 +50839,19 @@
     "author": "awesomedog",
     "description": "A Markdown formatting bar for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "awesomedog/obsidian-awesome-format-bar"
+  },
+  {
+    "id": "superproductivity-todo-sync",
+    "name": "SuperProductivity Todo Sync",
+    "author": "oswalt",
+    "description": "View and edit your SuperProductivity tasks via SuperProductivity's local REST API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "oswaltx/obsidian-superproductivity-todo-sync"
+  },
+  {
+    "id": "conflict-resolver",
+    "name": "Conflict Resolver",
+    "author": "Anton",
+    "description": "Finds sync-conflict copies and safely resolves duplicates in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "toropanov/obsidian-conflict-resolver"
   }
 ]
