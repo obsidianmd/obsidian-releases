@@ -30326,7 +30326,7 @@
   {
     "id": "lucrjournal",
     "name": "LucrJournal",
-    "author": "astroyhs",
+    "author": "lucrtrade",
     "description": "Record your trades as local Markdown files and link every entry to its key levels, confluences, market analysis, and news — turning your journal into a connected, private knowledge graph. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lucrtrade/lucrjournal-obsidian-plugin"
   },
@@ -50274,13 +50274,6 @@
     "repo": "pakcli/local"
   },
   {
-    "id": "import-code",
-    "name": "Import Code",
-    "author": "yu4n2h1",
-    "description": "Import and embed local or remote code files into your notes using ![[file.ext]] syntax, with syntax highlighting, symbol and line extraction, and auto-refresh. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yu4n2h1/obsidian-import-code"
-  },
-  {
     "id": "tidy-tabs",
     "name": "Tidy Tabs",
     "author": "假面的爵士",
@@ -50841,6 +50834,13 @@
     "repo": "arigurj/obsidian-georgian-script-switcher"
   },
   {
+    "id": "vision-to-canvas",
+    "name": "Vision2Canvas",
+    "author": "Jhe",
+    "description": "Convert physical handwritten notes into structured .canvas whiteboards via Vision AI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "beno66edu/obsidian-vision2canvas"
+  },
+  {
     "id": "awesome-format-bar",
     "name": "Awesome Format Bar",
     "author": "awesomedog",
@@ -50862,6 +50862,13 @@
     "repo": "toropanov/obsidian-conflict-resolver"
   },
   {
+    "id": "gitlab-mr",
+    "name": "GitLab Merge Request",
+    "author": "Ris Adams",
+    "description": "Reference GitLab merge requests inline or in code blocks and see their live status, right in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "risadams/obsidian-gitlab-mr"
+  },
+  {
     "id": "icor-for-life-terminal",
     "name": "ICOR for Life - Terminal",
     "author": "Thomas Roedl",
@@ -50881,5 +50888,12 @@
     "author": "bozhang",
     "description": "统一 Markdown 标点格式：中文标点转英文标点，并在中英文与数字之间自动补空格，链接 URL 自动豁免。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mrelvin/obsidian-punctilious"
+  },
+  {
+    "id": "twenty-eight-notes-mindmap",
+    "name": "28 Notes Mind Map",
+    "author": "Shin",
+    "description": "28Notes 思维导图：frontmatter 带 28notes: mindmap 的 md 文件，点开即为可拖拽、可编辑、可下钻的思维导图，编辑实时写回文件 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ollwow/28-Notes-MindMap"
   }
 ]
