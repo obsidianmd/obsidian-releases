@@ -22001,6 +22001,13 @@
     "repo": "hcyt/taskweaver"
   },
   {
+    "id": "logseqer",
+    "name": "Logseqer",
+    "author": "sisyphe42",
+    "description": "Provides a Logseq-native experience and enhance workflow compatibility between both applications. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sisyphe42/obsidian-logseqer-plugin"
+  },
+  {
     "id": "trouble-tags",
     "name": "Trouble Tags",
     "author": "Simon Späti",
@@ -22153,6 +22160,13 @@
     "author": "gogothegogo",
     "description": "Copy folder contents (Markdown & Canvas files) to the clipboard formatted for LLM context. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gogothegogo/Simple-exporter-for-LLM"
+  },
+  {
+    "id": "notes-dashboard",
+    "name": "Notes Dashboard",
+    "author": "Kiryl Harbacheuski",
+    "description": "Dashboard with favorite notes as cards displayed in a Kanban-style board. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kharbacheuski/obsidian-notes-dashboard"
   },
   {
     "id": "timelink",
@@ -25676,13 +25690,6 @@
     "repo": "correctroadh/obsidian-task-center"
   },
   {
-    "id": "kaper",
-    "name": "Kaper",
-    "author": "kaper",
-    "description": "Edit and preview Kaper recipes inline as structured blocks. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "nikoneex/obsidian-kaper"
-  },
-  {
     "id": "implicit-macros",
     "name": "Implicit Macros",
     "author": "eriskii",
@@ -27459,13 +27466,6 @@
     "author": "caulfieldsbrain",
     "description": "Create, import, and render Shadowdark RPG monster stat blocks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "caulfieldsbrain/shadowdark-statblocks"
-  },
-  {
-    "id": "opencode",
-    "name": "OpenCode",
-    "author": "krisspy",
-    "description": "Use OpenCode CLI without leaving your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kriss-spy/obsidian-opencode"
   },
   {
     "id": "claude-panel-ryukyuhub",
@@ -49854,13 +49854,6 @@
     "repo": "andypandy1189/shelf-obsidian"
   },
   {
-    "id": "folder-terminal",
-    "name": "Folder Terminal",
-    "author": "First Kang",
-    "description": "Hover over a folder in the file explorer to reveal a terminal icon; click it to open a real shell (PTY) docked at the bottom, rooted at that folder. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "firstkang/folder-terminal"
-  },
-  {
     "id": "bases-wrap-text",
     "name": "Bases Wrap Text",
     "author": "GroupiesM",
@@ -50125,6 +50118,13 @@
     "author": "zhangyicong",
     "description": "OCR a selected PDF region locally, then translate Japanese with contextual vocabulary and concise, color-linked grammar notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "normanchine/obsidian-japanese-reading-assistant"
+  },
+  {
+    "id": "markdown-memos",
+    "name": "Markdown Memos",
+    "author": "王小",
+    "description": "Capture one memo per Markdown file in an Obsidian-native timeline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tyh-art/markdown-memos"
   },
   {
     "id": "hans-safedoc",
@@ -50680,6 +50680,13 @@
     "repo": "jmiba/obsidian-hybrid-chat"
   },
   {
+    "id": "claudian-wechat",
+    "name": "Claudian WeChat Bridge",
+    "author": "xsvm",
+    "description": "Drive your Obsidian Claudian AI coding agent from WeChat. Chat, send images, switch sessions, run slash commands, and mirror desktop turns to mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xsvm/obsidian-claudian-wechat"
+  },
+  {
     "id": "cairn",
     "name": "Cairn",
     "author": "cyrill",
@@ -50708,6 +50715,13 @@
     "repo": "biehenjia/tv"
   },
   {
+    "id": "scribe-of-lagash-visualization",
+    "name": "Scribe of Lagash - Visualization",
+    "author": "Alejandro",
+    "description": "Visualize your novel: arrange chapters and scenes as cards on colored story lines, and plan ahead with an outline whose rows become real notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aescanes/scribe-of-lagash-visualization"
+  },
+  {
     "id": "uzbek-script-switcher",
     "name": "Uzbek Script Switcher",
     "author": "Aristarkh Khalmirzaev",
@@ -50734,5 +50748,26 @@
     "author": "hlyang1992",
     "description": "Convert pasted LaTeX delimiters and recover exact math source from rich text while preserving Markdown formatting. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hlyang1992/math-paste-bridge"
+  },
+  {
+    "id": "release-file-publisher",
+    "name": "Release File Publisher",
+    "author": "Christina",
+    "description": "Upload files to daily GitHub Release assets and insert ready-to-use links or media players. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "christinahyh/Release-File-Publisher"
+  },
+  {
+    "id": "workbench-dashboard",
+    "name": "Lyra",
+    "author": "Miyoung_liu",
+    "description": "Obsidian 内打开好看的工作台：任务汇总 + 看板拖拽 + 笔记卡片墙，实时读写 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "miyoungliu/obsidian-workbench-dashboard"
+  },
+  {
+    "id": "onyx",
+    "name": "Onyx",
+    "author": "Jesse",
+    "description": "Edit source files with CodeMirror 6 and language servers, without leaving the app. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "biehenjia/onyx"
   }
 ]
