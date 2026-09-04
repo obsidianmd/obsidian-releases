@@ -24951,7 +24951,7 @@
     "id": "workout-journal",
     "name": "Workout Journal",
     "author": "i-am-rudi",
-    "description": "Track your workouts, exercises, and fitness progress. Create repeatable workout templates, structure in workout plans and log in an interactive sessions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A fitness tracking app with a polished UI, track in an active session, but have every part live in and interact with your Vault as notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "i-am-rudi/workout-journal"
   },
   {
@@ -50281,13 +50281,6 @@
     "repo": "pakcli/table"
   },
   {
-    "id": "shorthand",
-    "name": "Shorthand",
-    "author": "Horizon Vector",
-    "description": "Capture Shorthand transcripts and maintain an AI-owned meeting-note summary. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mshish/shorthand-obsidian-plugin"
-  },
-  {
     "id": "style-tuner",
     "name": "Style Tuner",
     "author": "Sofqi",
@@ -50888,5 +50881,12 @@
     "author": "NameIsKyro",
     "description": "Keep YAML tidy by showing, collapsing, or hiding frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nameiskyro/Tidy-YAML"
+  },
+  {
+    "id": "zotero-mirror",
+    "name": "Zotero Mirror",
+    "author": "Kerekes Stefan",
+    "description": "Mirror your Zotero library into a git-friendly folder in the vault (one JSON file per item, per-PDF annotation files) via Zotero's local HTTP API, syncing incrementally whenever Zotero changes. Generated note 'views' read from the mirror, so they work with Zotero closed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stef4678/zotero-mirror"
   }
 ]
