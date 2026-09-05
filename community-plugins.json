@@ -19265,7 +19265,7 @@
   },
   {
     "id": "project-manager",
-    "name": "Project Manager",
+    "name": "dotpm",
     "author": "dotpm2",
     "description": "Full-featured task and project management: stunning Gantt charts, Kanban boards, Table views, customizable fields, due date notifications, dependancies - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dotpm/obsidian-pm"
@@ -50036,6 +50036,13 @@
     "repo": "danrfletcher/obsidian-not-submodules"
   },
   {
+    "id": "mengshi-workbench",
+    "name": "Mengshi Cockpit",
+    "author": "孙鹏飞",
+    "description": "猛士驾驶舱 — Calendar, Projects, Todos, Gantt, Feishu, Sessions integrated workbench - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "spenf710/obsidian-mengshi-cockpit"
+  },
+  {
     "id": "inline-agents",
     "name": "Inline Agents",
     "author": "Dan",
@@ -50792,13 +50799,6 @@
     "repo": "miyoungliu/obsidian-workbench-dashboard"
   },
   {
-    "id": "rich-mindmap",
-    "name": "Rich Mindmap",
-    "author": "Younian",
-    "description": "Editable mind maps backed by plain Markdown lists — priority, progress and flag marks, drag to reorganize. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "younianc/obsidian-rich-mindmap"
-  },
-  {
     "id": "onyx",
     "name": "Onyx",
     "author": "Jesse",
@@ -50869,11 +50869,25 @@
     "repo": "oswaltx/obsidian-superproductivity-todo-sync"
   },
   {
+    "id": "conflict-resolver",
+    "name": "Conflict Resolver",
+    "author": "Anton",
+    "description": "Finds sync-conflict copies and safely resolves duplicates in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "toropanov/obsidian-conflict-resolver"
+  },
+  {
     "id": "gitlab-mr",
     "name": "GitLab Merge Request",
     "author": "Ris Adams",
     "description": "Reference GitLab merge requests inline or in code blocks and see their live status, right in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "risadams/obsidian-gitlab-mr"
+  },
+  {
+    "id": "post-quantum-webdav",
+    "name": "PQC WebDAV Sync",
+    "author": "obsync",
+    "description": "Encrypt your vault with post-quantum cryptography (ML-DSA/ML-KEM) and sync to any WebDAV server (Nextcloud, etc.) with chunked transfer and multi-device conflict resolution. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "normanify/post-quantum-webdav"
   },
   {
     "id": "icor-for-life-terminal",
@@ -50944,5 +50958,54 @@
     "author": "Bryson McClung",
     "description": "Campaign management for TTRPG vaults: a game index, campaign folders, and session notes with live history tables. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bmcclung055/obsidian-dragon-glass"
+  },
+  {
+    "id": "inline-comments",
+    "name": "Inline Comments",
+    "author": "IvyYang1999",
+    "description": "Feishu-style inline comments stored right in your Markdown. Highlight text, leave a note, @ an AI coding session to reply. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ivyyang1999/obsidian-inline-comments"
+  },
+  {
+    "id": "selfgrow",
+    "name": "SelfGrow",
+    "author": "Jing",
+    "description": "Capture links, text, images, PDF, and Markdown files as local Raw cards for review and Wiki distillation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "deeenia/SelfGrow"
+  },
+  {
+    "id": "ai-knowledge-workflow",
+    "name": "AI Knowledge Workflow",
+    "author": "KellyNovaX",
+    "description": "Organize project knowledge, track tasks, and prepare structured context for AI coding agents. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kellynovax/ai-knowledge-workflow"
+  },
+  {
+    "id": "poppy",
+    "name": "Poppy",
+    "author": "opa-oz",
+    "description": "Poppy: A local plugin registry manager for Obsidian. Sync plugins to S3-compatible storage and restore them in other vaults. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "opa-oz/poppy"
+  },
+  {
+    "id": "enex-card",
+    "name": "Enex Card",
+    "author": "Kerekes Stefan",
+    "description": "Visual notes board: parse Evernote .enex exports (the same files Embeds+ previews inline) into one Obsidian canvas card per note, with images, tags, colors and notebook groups. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stef4678/enex-card"
+  },
+  {
+    "id": "spot-linker",
+    "name": "Spot Linker",
+    "author": "zoupuyo",
+    "description": "On-demand highlight of vault note titles and aliases in the current note, then confirm and insert wikilinks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zoupuyo-obsidian/obsidian-spot-linker"
+  },
+  {
+    "id": "att-meta-map",
+    "name": "Att Meta Map",
+    "author": "heptazero",
+    "description": "Maps resource collections to index notes through the source property, with sidecar/folder layouts and a paired source view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "heptazero/obsidian-attach-meta-map"
   }
 ]
