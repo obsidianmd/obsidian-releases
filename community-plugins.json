@@ -37618,6 +37618,13 @@
     "repo": "cygnusyang/obsidian-enhanced-pdf-export"
   },
   {
+    "id": "mergdowntotex",
+    "name": "mergdowntotex",
+    "author": "DJONTSO V. dvrchipro@gmail.com",
+    "description": "Merge & doc. export everything — embeds, Zotero/Pandoc citations, Mermaid, equations, cross-refs — into a unique .tex file. Compile to PDF, DOCX, or InDesign. WASM engine, zero build step. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dvrch/mergdown2tex"
+  },
+  {
     "id": "extensions-sync-manager",
     "name": "Extensions Sync Manager",
     "author": "diegomarzaa",
@@ -49854,6 +49861,13 @@
     "repo": "andypandy1189/shelf-obsidian"
   },
   {
+    "id": "folder-terminal",
+    "name": "Folder Terminal",
+    "author": "First Kang",
+    "description": "Hover over a folder in the file explorer to reveal a terminal icon; click it to open a real shell (PTY) docked at the bottom, rooted at that folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "firstkang/folder-terminal"
+  },
+  {
     "id": "bases-wrap-text",
     "name": "Bases Wrap Text",
     "author": "GroupiesM",
@@ -50013,13 +50027,6 @@
     "author": "Dan",
     "description": "Replace git submodules with plain nested git repos, ignored via .gitignore and tracked via folder-note frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "danrfletcher/obsidian-not-submodules"
-  },
-  {
-    "id": "runnable-code-blocks",
-    "name": "Runnable Code Blocks",
-    "author": "woonyong-kr",
-    "description": "Run 21 languages inside your notes with IntelliJ-style editors and no server to host. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "woonyong-kr/obsidian-runnable-code-blocks"
   },
   {
     "id": "inline-agents",
@@ -50883,10 +50890,17 @@
     "repo": "nameiskyro/Tidy-YAML"
   },
   {
-    "id": "zotero-mirror",
-    "name": "Zotero Mirror",
+    "id": "ics-exporter",
+    "name": "Export as .ics",
+    "author": "berenluth",
+    "description": "Takes the current note and export it as a .ics file, ready to be imported in your favourite calendar app. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "berenluth/obsidian-ics-exporter"
+  },
+  {
+    "id": "zotero-vault-sync",
+    "name": "Zotero Vault Sync",
     "author": "Kerekes Stefan",
-    "description": "Mirror your Zotero library into a git-friendly folder in the vault (one JSON file per item, per-PDF annotation files) via Zotero's local HTTP API, syncing incrementally whenever Zotero changes. Generated note 'views' read from the mirror, so they work with Zotero closed. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "stef4678/zotero-mirror"
+    "description": "Mirror your Zotero library into a git-versioned folder in the vault — one JSON file per item plus per-PDF annotations — synced incrementally via Zotero's local HTTP API, with regenerable notes and Dataview views that work with Zotero closed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stef4678/zotero-vault-sync"
   }
 ]
