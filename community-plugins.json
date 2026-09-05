@@ -11578,13 +11578,6 @@
     "repo": "mnaoumov/obsidian-better-markdown-links"
   },
   {
-    "id": "geulo-youtube-liked-video",
-    "name": "Geulo",
-    "author": "Junyoung Bang",
-    "description": "Fetch all the YouTube videos you have liked, search and sort them with multiple sort options, and add them to your daily note.",
-    "repo": "zzunebye/obsidian-google-liked-video"
-  },
-  {
     "id": "ca-sync",
     "name": "Cognitive Architect Sync",
     "author": "bhavers",
@@ -15433,6 +15426,13 @@
     "author": "vannamhh",
     "description": "Track task completion with a visual progress bar in your sidebar, auto update column Kanban",
     "repo": "vannamhh/progress-tracker"
+  },
+  {
+    "id": "easy-copy",
+    "name": "Easy Copy",
+    "author": "Moy",
+    "description": "Easily copy the text within inline code, bold text (and many other formats), or quickly generate an elegant link to a heading or block.",
+    "repo": "moyf/easy-copy"
   },
   {
     "id": "open-tab-settings",
@@ -38815,6 +38815,13 @@
     "repo": "szynszyl320/spell-picker-obsidian"
   },
   {
+    "id": "random-review",
+    "name": "Random Review",
+    "author": "TimeLine",
+    "description": "从指定文件夹随机抽取笔记，支持标签和属性筛选，全屏浏览复习。Randomly select notes from specified folders with tag and property filtering, and review them in fullscreen. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ktlamors/obsidian-random-review"
+  },
+  {
     "id": "html-to-md-effect",
     "name": "HTML to MD Effectiveness",
     "author": "rosswang",
@@ -42238,13 +42245,6 @@
     "repo": "jepicaju862-lab/duowei-table"
   },
   {
-    "id": "vault-change-feed",
-    "name": "Vault Change Feed",
-    "author": "kains",
-    "description": "Records vault changes as a machine-readable feed with per-reader cursors, so AI assistants can incrementally catch up on what you changed. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kains2866/vault-change-feed"
-  },
-  {
     "id": "ridiculous-coding",
     "name": "Ridiculous Coding",
     "author": "Jacob",
@@ -42383,13 +42383,6 @@
     "author": "Marios",
     "description": "Convert notes to LaTeX and optionally compile them to PDF using a bundled Python converter script. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mariosgkmeng/Straightforward-Obsidian2Latex"
-  },
-  {
-    "id": "smart-cluster-graph",
-    "name": "Smart Cluster Graph",
-    "author": "Alan Li",
-    "description": "Folder-based cluster graph explorer with strongest cross-community bridges, line crossing avoidance, and tight convex hulls. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "comedianhhh/obsidian-smart-cluster-graph"
   },
   {
     "id": "supernote-cloud-sync",
@@ -48230,13 +48223,6 @@
     "repo": "l05k/obsidian-native-slides"
   },
   {
-    "id": "the-mind-map",
-    "name": "The Mind Map",
-    "author": "冬季蚊子",
-    "description": "在 Obsidian 中创建和编辑专业思维导图，六种布局、节点搜索、拖拽排序、右键菜单、Obsidian 内部链接（[[笔记名]]、文件拖拽、反向链接）、附件拖入导入（遵循附件存放位置设置）、图片统一尺寸、自动整理、性能模式、JSON/PNG/Markdown 导入导出。基于 simple-mind-map 引擎。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "wintermosquito/the-mind-map"
-  },
-  {
     "id": "dnd-charactersheet",
     "name": "DnD Character Sheet Tool",
     "author": "Simon Zweers",
@@ -50757,6 +50743,13 @@
     "repo": "arigurj/obsidian-uzbek-script-switcher"
   },
   {
+    "id": "makespdf",
+    "name": "MakesPDF",
+    "author": "makesPDF",
+    "description": "Export notes to accessible, archival-quality PDFs (PDF/A-2A and PDF/UA-1) using the makespdf.com API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "makespdf/makespdf-obsidian-plugin"
+  },
+  {
     "id": "askmyu",
     "name": "askMyu",
     "author": "askMyu",
@@ -51063,5 +51056,12 @@
     "author": "KuMoo",
     "description": "日历视图：阳历/农历、黄历宜忌与12时辰吉凶、全库文件活动时间线。Calendar with lunar dates, almanac luck hours, and file activity timeline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kumoonet/obsidian-kumoo-calendar"
+  },
+  {
+    "id": "hash-pasted-image-plus",
+    "name": "Hash Pasted Image Plus",
+    "author": "xzhi",
+    "description": "中文:通过哈希算法自动重命名粘贴到仓库中的图片；Hash Pasted Image 加强版，新增忽略指定目录、中英文界面、目录模糊选择等功能。 | EN:Auto rename pasted images added to the vault via hash algorithm; Enhanced version of Hash Pasted Image with ignored directories, bilingual UI, and fuzzy folder selection. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "github-xzhi/obsidian-hash-pasted-image-plus"
   }
 ]
