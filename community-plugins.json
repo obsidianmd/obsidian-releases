@@ -42245,6 +42245,13 @@
     "repo": "jepicaju862-lab/duowei-table"
   },
   {
+    "id": "vault-change-feed",
+    "name": "Vault Change Feed",
+    "author": "kains",
+    "description": "Records vault changes as a machine-readable feed with per-reader cursors, so AI assistants can incrementally catch up on what you changed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kains2866/vault-change-feed"
+  },
+  {
     "id": "ridiculous-coding",
     "name": "Ridiculous Coding",
     "author": "Jacob",
@@ -47677,13 +47684,6 @@
     "repo": "songjiajun0209-byte/recording-minutes"
   },
   {
-    "id": "ai-scheduler",
-    "name": "AI Scheduler",
-    "author": "Rachit Asthana",
-    "description": "Autonomous AI assistant layer for Claudian with AI planning, scheduled work, self-talk, nightly vault reviews, and notifications. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "racstan/obsidian-ai-scheduler"
-  },
-  {
     "id": "ebbinghaus-review",
     "name": "Note Review Reminder",
     "author": "rheor108",
@@ -49455,6 +49455,13 @@
     "repo": "yunyan-he/obsidian-feynman"
   },
   {
+    "id": "link-hover-reveal",
+    "name": "Link Hover Reveal",
+    "author": "Mat Paradela",
+    "description": "Keeps markdown links collapsed to just their title in Live Preview, so arrowing between lines doesn't expand them. Only reveals the raw [text](url) when the cursor is placed strictly inside it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mat-paradela/link-hover-reveal"
+  },
+  {
     "id": "codex-share",
     "name": "Codex Share",
     "author": "ctrlvish",
@@ -50907,7 +50914,7 @@
     "id": "twenty-eight-notes-mindmap",
     "name": "28 Notes Mind Map",
     "author": "Shin",
-    "description": "28Notes 思维导图：frontmatter 带 28notes: mindmap 的 md 文件，点开即为可拖拽、可编辑、可下钻的思维导图，编辑实时写回文件 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Markdown-based Mind Maps. Al-friendly. Clean and clutter-free. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ollwow/28-Notes-MindMap"
   },
   {
@@ -50958,13 +50965,6 @@
     "author": "Bryson McClung",
     "description": "Campaign management for TTRPG vaults: a game index, campaign folders, and session notes with live history tables. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bmcclung055/obsidian-dragon-glass"
-  },
-  {
-    "id": "inline-comments",
-    "name": "Inline Comments",
-    "author": "IvyYang1999",
-    "description": "Feishu-style inline comments stored right in your Markdown. Highlight text, leave a note, @ an AI coding session to reply. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ivyyang1999/obsidian-inline-comments"
   },
   {
     "id": "selfgrow",
@@ -51063,5 +51063,26 @@
     "author": "xzhi",
     "description": "中文:通过哈希算法自动重命名粘贴到仓库中的图片；Hash Pasted Image 加强版，新增忽略指定目录、中英文界面、目录模糊选择等功能。 | EN:Auto rename pasted images added to the vault via hash algorithm; Enhanced version of Hash Pasted Image with ignored directories, bilingual UI, and fuzzy folder selection. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "github-xzhi/obsidian-hash-pasted-image-plus"
+  },
+  {
+    "id": "custom-folder-links",
+    "name": "Custom Folder Links",
+    "author": "Ian Hays",
+    "description": "Enables wikilinks pointing to folders, with custom settings to control how those links appear in the editor and what happens when one is clicked. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ianhays/obsidian-custom-folder-links"
+  },
+  {
+    "id": "typesetter",
+    "name": "Typesetter",
+    "author": "CHEN Hua",
+    "description": "Render publication-quality typography in prose without changing Markdown source, with syntax-aware protection for technical content. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ichenh/obsidian-typesetter"
+  },
+  {
+    "id": "summary-only",
+    "name": "SummaryOnly",
+    "author": "Tyler Carrol",
+    "description": "Base view that shows summaries only. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tylercarrol/obsidian-summary-only"
   }
 ]
