@@ -47099,7 +47099,7 @@
     "id": "havemind-sync",
     "name": "Havemind",
     "author": "Mikolaj Sapek",
-    "description": "Sync a shared vault in real time across your own devices, on a server you host yourself. Full authorship, no silent overwrites - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync a shared vault in real time across desktop and mobile, on a server you host yourself. Full authorship, no silent overwrites. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mikolajsapek/obsidian-havemind"
   },
   {
@@ -48366,7 +48366,7 @@
     "id": "markdown-easy-editor",
     "name": "Markdown Easy Editor",
     "author": "Chizmo",
-    "description": "Easily insert Markdown elements with a single click and clean up messy AI-pasted text instantly. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A one-click Markdown toolbar — no need to memorize syntax. Insert Markdown elements instantly and clean up messy AI-pasted text too. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "chizmo-byte/obsidian-markdown-easy-editor"
   },
   {
@@ -50018,14 +50018,14 @@
     "id": "link-calendar",
     "name": "Link Calendar Navigator",
     "author": "woonyong-kr",
-    "description": "Navigate dated Markdown by month and open canonical notes from a compact daily agenda. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Find dated Markdown notes in a calendar, open the original, and optionally sync selected notes with Google Calendar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "woonyong-kr/obsidian-link-calendar-navigator"
   },
   {
     "id": "linked-graph",
     "name": "Linked Graph Navigator",
     "author": "woonyong-kr",
-    "description": "Browse the current Markdown note as an outline or one-hop graph. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Follow links in your current note as an ordered outline or focused graph, and preview where to read next. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "woonyong-kr/obsidian-linked-graph-navigator"
   },
   {
@@ -50349,6 +50349,13 @@
     "author": "Aristarkh Khalmirzaev",
     "description": "Переводит выделенный текст из латиницы в кириллицу (и обратно) — исправляет «слепую» печать на неправильной раскладке. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "arigurj/obsidian-english-to-russian-layot-switcher"
+  },
+  {
+    "id": "quran-key",
+    "name": "Quran Key",
+    "author": "Mohamed Saleh",
+    "description": "Contextual Quran extraction, snippet trimming, and multi-source tafsir lookup for Obsidian — fully re-architected for customizability. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mohamedsaleh0-0/quran-key"
   },
   {
     "id": "html-document-viewer",
@@ -50827,6 +50834,13 @@
     "repo": "christinahyh/Release-File-Publisher"
   },
   {
+    "id": "workbench-dashboard",
+    "name": "Lyra",
+    "author": "Miyoung_liu",
+    "description": "Obsidian 内打开好看的工作台：任务汇总 + 看板拖拽 + 笔记卡片墙，实时读写 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "miyoungliu/obsidian-workbench-dashboard"
+  },
+  {
     "id": "rich-mindmap",
     "name": "Rich Mindmap",
     "author": "Younian",
@@ -51154,6 +51168,13 @@
     "author": "kuberrr05",
     "description": "Markdown-native Inbox, Today, Upcoming, All Tasks, and Projects views. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kuberrr0/obsidian-integrated-tasks"
+  },
+  {
+    "id": "dev-prod-plugin-switcher",
+    "name": "Dev-Prod Switcher",
+    "author": "Dan",
+    "description": "Register your installed plugins, link each to a local dev build, and hot-reload between the dev build and the live version. Desktop only, requires Hot Reload. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "danrfletcher/obsidian-plugin-dev-prod-switcher"
   },
   {
     "id": "hash-pasted-image-plus",
@@ -51653,6 +51674,13 @@
     "repo": "irisable/png-webp-companion"
   },
   {
+    "id": "bookview",
+    "name": "BookView",
+    "author": "nonkuri",
+    "description": "A PDF and EPUB reader with two-page spread support for right-to-left bound (vertical Japanese) books, including an Acrobat-style cover page option. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nonkuri/obsidian-bookview"
+  },
+  {
     "id": "embed-link",
     "name": "Embed Link",
     "author": "LiShaocheng",
@@ -51800,6 +51828,13 @@
     "repo": "d0uub/obsidian-html-viewer"
   },
   {
+    "id": "linear-year-calendar",
+    "name": "Linear Year Calendar",
+    "author": "gordond",
+    "description": "A linear year planner: see all 12 months at once, create events from notes, and import Google Calendar via ICS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gzd2032/linear_calendar_obsidian"
+  },
+  {
     "id": "ob-mail-client",
     "name": "Mail as Notes",
     "author": "l4fu",
@@ -51924,6 +51959,13 @@
     "author": "SUNGWON PARK",
     "description": "Intelligent Markdown proofreading and translation specialized plugin with OpenAI-compatible LLM proxy support. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sparklings/emily"
+  },
+  {
+    "id": "basecamp-sync",
+    "name": "Basecamp Sync",
+    "author": "fodoj",
+    "description": "Sync selected notes and folders to formatted Basecamp documents. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mkdev-me/obsidian-basecamp-sync"
   },
   {
     "id": "quick-notes-board",
@@ -52272,7 +52314,49 @@
     "id": "markdown-heading-links",
     "name": "Markdown Heading Links",
     "author": "Hamirdreza Zamanian",
-    "description": "Make GFM-style Markdown heading links previewable and easy to create. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Preview and create standard Markdown links to headings in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zmn-hamid/markdown-heading-links"
+  },
+  {
+    "id": "obshomepages",
+    "name": "Folder Homepage",
+    "author": "Michael Collard",
+    "description": "Automatically opens a homepage/readme when a folder is expanded in the file explorer. Supports auto-creation of notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mcollard0/obsHomepages"
+  },
+  {
+    "id": "obs-sqlite-md",
+    "name": "SQLite to Markdown",
+    "author": "Michael Collard",
+    "description": "Render SQLite queries as markdown tables via fenced code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mcollard0/OBSSQLiteMd"
+  },
+  {
+    "id": "power-roll-detector",
+    "name": "Power Roll Detector",
+    "author": "Zach Hall",
+    "description": "Detects \"Power Roll + N\" text in Draw Steel statblocks and turns it into a clickable 2d10+N roller. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zachhall/power-roll-detector"
+  },
+  {
+    "id": "task-rollover-companion",
+    "name": "Task Rollover Companion",
+    "author": "i-am-rudi",
+    "description": "Roll unfinished tagged tasks forward, park them in a collection note, or schedule them, from a code block you place anywhere in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "i-am-rudi/task-companion"
+  },
+  {
+    "id": "latex-complete",
+    "name": "LaTeX Complete",
+    "author": "yetchill",
+    "description": "Autocomplete LaTeX commands in math expressions with Chinese and English descriptions and configurable completion keys. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yetchill/obsidian-latex-complete"
+  },
+  {
+    "id": "vault-switcher",
+    "name": "Vault Switcher",
+    "author": "Yoonchae Lee",
+    "description": "Switch vaults with a single click - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bluegreenmagick/obsidian-vault-switcher"
   }
 ]
