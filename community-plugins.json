@@ -40663,13 +40663,6 @@
     "repo": "tboules/supernote-obsidian-digest"
   },
   {
-    "id": "wetongbu",
-    "name": "WeTongbu",
-    "author": "felix ne",
-    "description": "将微信文章、飞书文档和文章型网页同步到 Obsidian。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ygx2378/wetongbu-obsidian-plugin"
-  },
-  {
     "id": "line-multi-selector",
     "name": "line-multi-selector",
     "author": "ibarv",
@@ -41272,6 +41265,13 @@
     "repo": "valleytheknight/Canvas-Positioning-Toolkit"
   },
   {
+    "id": "fullscreen-image",
+    "name": "Fullscreen Image",
+    "author": "Robert Fleming",
+    "description": "Click any image to expand it fullscreen, with pinch, wheel, and button zoom plus drag to pan. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haivri/obsidian-fullscreen-image"
+  },
+  {
     "id": "ai-translate",
     "name": "AI Translate",
     "author": "DXShelley",
@@ -41739,6 +41739,13 @@
     "author": "Daniel Xu",
     "description": "A vector handwriting annotation view layered over rendered Markdown, with pen/touch separation, autosave, SVG preview, and basic block re-anchoring. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "decai335335-debug/handwriting-markdown-view"
+  },
+  {
+    "id": "simple-gallery",
+    "name": "Simple Gallery",
+    "author": "Robert Fleming",
+    "description": "Turn a simple, YAML-inspired list of image embeds into a responsive photo grid. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haivri/obsidian-simple-gallery"
   },
   {
     "id": "tasks-datetime",
@@ -46133,7 +46140,7 @@
     "id": "soma-search",
     "name": "Soma Search",
     "author": "awesomedog",
-    "description": "Search the current vault through a managed local Soma server. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Local-first AI search for Obsidian. Semantic, keyword & hybrid search across notes, PDFs, scanned docs, images (OCR + vision) and audio — 100% offline and private, powered by Soma. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "awesomedog/obsidian-soma-search"
   },
   {
@@ -52111,7 +52118,7 @@
     "id": "flymind",
     "name": "FlyMind",
     "author": "fairyang",
-    "description": "打赏+v: zionboy,支付宝:bitmoney@139.com。将 Markdown 笔记转换为交互式思维导图，支持同标签切换、水平与垂直布局、段落折叠、自由拖动和焦点缩放。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A Markdown mind map and mindmap plugin that converts notes into interactive, collapsible mind maps with split preview, same-tab switching, draggable nodes, scrolling details, and zoom controls. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "smofox/flymind"
   },
   {
@@ -52255,13 +52262,6 @@
     "repo": "dos2locos/pocket-blocks-render"
   },
   {
-    "id": "link-float",
-    "name": "Link Float",
-    "author": "Igor Hajduk",
-    "description": "Open web links in a temporary overlay with modifier-click. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "igorhajduk/obsidian-link-float"
-  },
-  {
     "id": "xu-number-headings",
     "name": "XU Number Headings",
     "author": "xcloud-ai",
@@ -52386,5 +52386,40 @@
     "author": "Yoonchae Lee",
     "description": "Switch vaults with a single click - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bluegreenmagick/obsidian-vault-switcher"
+  },
+  {
+    "id": "on-demand-cache",
+    "name": "On-Demand Cache",
+    "author": "czhhbp",
+    "description": "Cache remote attachments on demand. Downloads files only when you open a note, then serves the local copy instead of the network file while keeping your original links unchanged. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "czhhbp/obsidian-on-demand-cache"
+  },
+  {
+    "id": "universal-ui-translator",
+    "name": "Universal UI Translator",
+    "author": "feifei",
+    "description": "Translate Obsidian core and community plugin UI with your own translation API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "garrettfynn/obsidian-universal-ui-translator"
+  },
+  {
+    "id": "inkslash",
+    "name": "InkSlash",
+    "author": "jeff niu",
+    "description": "Insert content and run available commands with a Chinese slash menu, fuzzy search, pinned commands, and callout icons. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jeffshancha/inkslash"
+  },
+  {
+    "id": "deer-notes",
+    "name": "Deer Notes",
+    "author": "eko",
+    "description": "A local-first Obsidian plugin for quick notes, reading, excerpts, and recent note activity. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ekowang-pd/obsidianknow"
+  },
+  {
+    "id": "motusai-vault-agent",
+    "name": "MotusAI Agent",
+    "author": "AGIMX AI",
+    "description": "Connect your vault to Agent Harness in MotusAI Seed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "agimx-ai/motusai-obsidian-agent"
   }
 ]
