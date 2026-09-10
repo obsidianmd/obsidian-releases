@@ -11228,13 +11228,6 @@
     "repo": "quorafind/Obsidian-Search-In-Canvas"
   },
   {
-    "id": "header-adjuster",
-    "name": "Heading Adjuster",
-    "author": "netajam",
-    "description": "Easily adjust header levels in Markdown documents by increasing or decreasing their levels.",
-    "repo": "netajam/heading-adjuster"
-  },
-  {
     "id": "note-promixity",
     "name": "Lookalike",
     "author": "jlweston",
@@ -28602,6 +28595,13 @@
     "repo": "kausthub-kannan/poneglyph"
   },
   {
+    "id": "note-database",
+    "name": "Note Database",
+    "author": "pangy",
+    "description": "Local-first database views for Obsidian notes: table, board, gallery, list, chart, calendar, timeline, formulas, filters, and inline editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pangy9/obsidian-note-database"
+  },
+  {
     "id": "todoist-bridge",
     "name": "Todoist Bridge",
     "author": "Rodrigo Farinha",
@@ -37889,13 +37889,6 @@
     "author": "Russ",
     "description": "Make slide decks as single-file HTML presentations: PPTX-like editing with drag-to-reorder, inline text with a format toolbar, image paste/drag/resize, and a built-in player with fullscreen and PDF export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "russquan/slidedope"
-  },
-  {
-    "id": "trade-rythm",
-    "name": "Trade Rythm",
-    "author": "iblameaza",
-    "description": "Personal trading journal — table view, inline editing, PnL dashboard, checklist templates, draggable lists, and more. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "iblameaza/Trade-Rythm"
   },
   {
     "id": "copy-file-to-clipboard",
@@ -50071,6 +50064,13 @@
     "repo": "spenf710/obsidian-mengshi-cockpit"
   },
   {
+    "id": "runnable-code-blocks",
+    "name": "Runnable Code Blocks",
+    "author": "woonyong-kr",
+    "description": "Edit and run code inside Obsidian notes, with inline results and optional local or remote runtimes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "woonyong-kr/obsidian-runnable-code-blocks"
+  },
+  {
     "id": "inline-agents",
     "name": "Inline Agents",
     "author": "Dan",
@@ -51793,6 +51793,13 @@
     "repo": "wrngo/an-tou"
   },
   {
+    "id": "html-dev-viewer",
+    "name": "HTML Dev Viewer",
+    "author": "d0uub",
+    "description": "Open and edit HTML files inside Obsidian with a live preview tab, in-app DevTools, and a CORS-free fetch bridge -- local development pages can call any API with no restrictions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "d0uub/obsidian-html-viewer"
+  },
+  {
     "id": "ob-mail-client",
     "name": "Mail as Notes",
     "author": "l4fu",
@@ -52080,6 +52087,13 @@
     "repo": "power-ioi/card-kit"
   },
   {
+    "id": "level-colors-for-markmind",
+    "name": "Level Colors for MarkMind",
+    "author": "sdesolator",
+    "description": "Automatically colours MarkMind Basic nodes and branches by hierarchy level. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "church06/Level-colors-for-MarkMind"
+  },
+  {
     "id": "editor-breadcrumbs",
     "name": "Editor Breadcrumbs",
     "author": "xyls184",
@@ -52211,5 +52225,54 @@
     "author": "Code-Sub",
     "description": "Seamlessly preserves exact scroll position when switching between Edit and Reading modes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "code-sub/obsidian-mode-switch-scroll-fix"
+  },
+  {
+    "id": "plugin-sync",
+    "name": "StoreSync",
+    "author": "likangjie",
+    "description": "Share Obsidian community plugins across all your vaults through a single shared store. New vaults connect automatically. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "likangjie110/obsidian-plugin-sync"
+  },
+  {
+    "id": "webdav-proxy-sync",
+    "name": "WebDAV Proxy Sync",
+    "author": "liushm",
+    "description": "Bidirectional WebDAV sync with HTTP, HTTPS and SOCKS proxy support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "liushm/obsidian-webdav-proxy-sync"
+  },
+  {
+    "id": "xu-quiet-outline",
+    "name": "XU Quiet Outline",
+    "author": "xcloud-ai",
+    "description": "大纲：侧边栏大纲树，点击跳转，滚动与光标双向定位，层级拖拽与标题样式定制. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xcloud-ai/xu-quiet-outline"
+  },
+  {
+    "id": "local-secret-vault",
+    "name": "Local Secret Vault",
+    "author": "HSU HAO CHUN",
+    "description": "Store API keys, tokens, SSH keys and credentials in an encrypted vault with tags, custom properties and secure note links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yamantaka520/Local-Secret-Vault"
+  },
+  {
+    "id": "format-convert-copy",
+    "name": "Format Convert Copy",
+    "author": "shallow1992",
+    "description": "Convert selected Markdown text or active notes into Slack, Discord, and WhatsApp formats, or copy as raw Markdown with one tap. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shallow1992/obsidian-format-convert-copy"
+  },
+  {
+    "id": "simple-badge",
+    "name": "Simple Badge",
+    "author": "Zhuoshang Wang",
+    "description": "Select, create, and manage colored badges, then insert them in your chosen order. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johnsonwangzs/OB-SimpleBadge"
+  },
+  {
+    "id": "markdown-heading-links",
+    "name": "Markdown Heading Links",
+    "author": "Hamirdreza Zamanian",
+    "description": "Make GFM-style Markdown heading links previewable and easy to create. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zmn-hamid/markdown-heading-links"
   }
 ]
