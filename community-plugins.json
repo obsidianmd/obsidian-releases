@@ -17271,9 +17271,9 @@
   {
     "id": "granola-sync",
     "name": "Granola Sync",
-    "author": "tomelliot",
+    "author": "og-sync",
     "description": "Sync Granola notes to your vault.",
-    "repo": "tomelliot/obsidian-granola-sync"
+    "repo": "og-sync/obsidian-granola-sync"
   },
   {
     "id": "daggerforge",
@@ -35917,13 +35917,6 @@
     "repo": "joeytoday/obsidian-md2flomo"
   },
   {
-    "id": "mobile-webviewer",
-    "name": "Mobile Webviewer",
-    "author": "Murat",
-    "description": "Lightweight mobile-first web viewer for Obsidian with search, history, bookmarks, and quick note capture. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "arias007/obsidian-mobile-webviewer"
-  },
-  {
     "id": "path-picker",
     "name": "Path Picker",
     "author": "U-ways E.",
@@ -37539,13 +37532,6 @@
     "author": "walkskyer",
     "description": "Cross-platform Git sync plugin. Desktop uses native git and API, mobile uses GitHub/Gitea/GitLab API. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wk-obsidian/HybridGitSync"
-  },
-  {
-    "id": "eve-apple-tree",
-    "name": "Eve Apple Tree Thinking System",
-    "author": "Evelyn Chan",
-    "description": "Grow your notes into a living 3D tree of light - a thinking tool, not a filing cabinet. Each folder becomes a tree; notes are leaves placed by field and time; links are the rhizome; flowers are ah-ha moments; apples are outputs. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "brandthebrand/eve-apple-tree"
   },
   {
     "id": "flowtaker-inbox",
@@ -48209,6 +48195,13 @@
     "repo": "matheusz-nied/finance-vault-obsidian"
   },
   {
+    "id": "handwriting",
+    "name": "Handwriting",
+    "author": "Alan Liu",
+    "description": "Handwrite, highlight, erase and lasso directly on your notes and PDFs. Your notes stay Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ellimist-afk/handwriting"
+  },
+  {
     "id": "vault-searchlight",
     "name": "Beacon",
     "author": "Ben Gutteridge",
@@ -52757,5 +52750,33 @@
     "author": "LSJ",
     "description": "Preview static HTML in a native sidebar, edit page text in place, and save changes while preserving source formatting. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "384615666/obsidian-html-atelier"
+  },
+  {
+    "id": "canvas-branch-manager",
+    "name": "Canvas Branch Manager",
+    "author": "Ryan",
+    "description": "Explicit hierarchy, branch movement, focus, and collapse tools for Obsidian Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "heixizhu/canvas-branch-manager"
+  },
+  {
+    "id": "html-direct-reader",
+    "name": "HTML Direct Reader",
+    "author": "conquert",
+    "description": "Bypass cross-origin limits to render in-vault .html in Obsidian by inlining CSS/images/scripts. In-vault .html/.md link interception with back/forward, in-page search, zoom, outline, fullscreen, scroll restore. Desktop & mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xiaoyihr/html-direct-reader"
+  },
+  {
+    "id": "open-in-vscode",
+    "name": "Open in VSCode",
+    "author": "elonmusk007",
+    "description": "Open the current note in VS Code, jump to the cursor line, or open the entire vault as a folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "steelan9199/obsidian-open-in-vscode"
+  },
+  {
+    "id": "asyntai-ai-chatbot",
+    "name": "Asyntai AI Chatbot",
+    "author": "Asyntai",
+    "description": "Send your notes to the Asyntai AI chatbot knowledge base, ask it questions, and read your website chats and leads. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "asyntai/obsidian-ai-chatbot"
   }
 ]
