@@ -27027,6 +27027,13 @@
     "repo": "notoriouslab/vault-curate"
   },
   {
+    "id": "second-brain-sync",
+    "name": "Second Brain Sync",
+    "author": "Rahil Pirani",
+    "description": "Sync notes to your self-hosted Second Brain on Cloudflare Workers. Choose whether each note goes to your private memory or a shared team memory, search from a sidebar, and import memories back. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rahilp/second-brain-obsidian-plugin"
+  },
+  {
     "id": "openagent-canvas",
     "name": "OpenAgent Canvas",
     "author": "OpenAgentMarket",
@@ -46634,13 +46641,6 @@
     "repo": "jimmy-web169/obsidian-sync-sentry"
   },
   {
-    "id": "wechat-format",
-    "name": "WeChat Format",
-    "author": "achang",
-    "description": "Format Markdown notes into WeChat article style. Supports multiple themes, heading styles, code block decorations, and live preview. Copy and paste directly into the WeChat editor to publish. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zhhcdf/obsidian-wechat-format"
-  },
-  {
     "id": "obsync-ptop",
     "name": "P2P Vault Sync",
     "author": "Shreekrishna chinta",
@@ -52925,5 +52925,19 @@
     "author": "Ake",
     "description": "Arrange images and videos side by side, then drag to reorder and resize them. Notes keep plain embeds plus an HTML comment, so they stay readable without the plugin. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yi-luo-hua/obsidian-adjustable-media"
+  },
+  {
+    "id": "grammalecte",
+    "name": "Grammalecte",
+    "author": "unurled",
+    "description": "French grammar and spell checking with Grammalecte, using a local server, a remote server, or a fully offline engine. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mpeterschmitt/grammalecte-obsidian"
+  },
+  {
+    "id": "dngngen",
+    "name": "DNGNGEN Renderer",
+    "author": "Barrow Rook",
+    "description": "Render dungeons copied from DNGNGEN as structured notes for Mork Borg. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rbell13/obsidian-dngngen"
   }
 ]
