@@ -15514,9 +15514,9 @@
   {
     "id": "draw-steel-retainer",
     "name": "Draw Steel Retainer",
-    "author": "martindampier",
+    "author": "martin-dampier",
     "description": "Provides Director facing sidebar tools for the TTRPG Draw Steel",
-    "repo": "martindampier/draw-steel-retainer"
+    "repo": "martin-dampier/draw-steel-retainer"
   },
   {
     "id": "reactive-notes",
@@ -49343,13 +49343,6 @@
     "repo": "julius-gmeinder/anchor-notes"
   },
   {
-    "id": "pidian",
-    "name": "Pidian",
-    "author": "yuru7",
-    "description": "Chat with a Pi coding agent in the sidebar to ask about or edit the open note, search notes, and search the web. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yuru7/obsidian-pidian"
-  },
-  {
     "id": "nested-frontmatter-properties",
     "name": "Nested Frontmatter Properties",
     "author": "copperbox",
@@ -50991,7 +50984,7 @@
     "id": "rowbase",
     "name": "Rowbase",
     "author": "soulaymane01",
-    "description": "Interactive Notion-style database for Obsidian — table, kanban, list, gallery, chart, timeline, stats, and dashboard views backed by human-readable .rbase files. Supports formulas, rollups, relations, sorting, filtering, grouping, and import/export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Interactive database for Obsidian with different views backed by human-readable .rbase files. Supports formulas, rollups, relations, sorting, filtering, grouping - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "soulaymane01/Rowbase"
   },
   {
@@ -52780,6 +52773,13 @@
     "repo": "ph-ramos/Books-and-Comics-Tracker"
   },
   {
+    "id": "isotask",
+    "name": "Isotask",
+    "author": "Diego Pasquali",
+    "description": "Notes as tasks: due dates, recurrence, priorities, and feed and calendar views built on Bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dgopsq/isotask"
+  },
+  {
     "id": "media-quick-edit",
     "name": "Media Quick Edit",
     "author": "oisngodr",
@@ -53163,5 +53163,33 @@
     "author": "Tajk19",
     "description": "Generate customizable Spaced Repetition flashcards from notes with Gemini. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tajk19/ai-flashcard-generator"
+  },
+  {
+    "id": "xingyu-note-atlas",
+    "name": "Xingyu Note Atlas",
+    "author": "Eventhorizon-XingYu ",
+    "description": "Explore and manage notes in an interactive graph with search, previews, local neighborhoods and live updates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "eventhorizon-xingyu/obsidian-knowledge-atlas"
+  },
+  {
+    "id": "oura-metrics",
+    "name": "Oura Metrics",
+    "author": "Jaan Altosaar",
+    "description": "Summarize Oura sleep, heart-rate and activity metrics into one LLM-ready note — 7, 14, or 28 days, compared against the weeks before. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "altosaar/obsidian-oura-metrics"
+  },
+  {
+    "id": "task-timeline",
+    "name": "Task Timeline",
+    "author": "Kelt",
+    "description": "Automatically moves completed checklist items from a to-do note into a dated completion timeline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "imkelt/task-timeline"
+  },
+  {
+    "id": "jujutsu-sync",
+    "name": "Jujutsu Sync",
+    "author": "daemon-sec",
+    "description": "Version and sync your vault with Jujutsu (jj) instead of Git: commit, fetch, rebase and push from Obsidian, with conflicts surfaced in your notes and nothing ever forced. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "daemon-404/obsidian-jujutsu-sync"
   }
 ]
