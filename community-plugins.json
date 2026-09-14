@@ -25967,7 +25967,7 @@
     "name": "Review Anew",
     "author": "citrusrenegade",
     "description": "Revisit notes on a schedule you define. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "citrusrenegade/review-simple-obsidian"
+    "repo": "citrusrenegade/review-anew-obsidian"
   },
   {
     "id": "drag-out",
@@ -41293,13 +41293,6 @@
     "repo": "dxshelley/ai-translate"
   },
   {
-    "id": "pavel-dashboard",
-    "name": "Omni Workbench",
-    "author": "pavel",
-    "description": "A local-first dashboard for Pavel's existing tasks and knowledge cards. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pavelpeng7/omni-workbench"
-  },
-  {
     "id": "safe-passage",
     "name": "SafePassage",
     "author": "Ji-ho Lee",
@@ -49329,6 +49322,13 @@
     "repo": "julius-gmeinder/anchor-notes"
   },
   {
+    "id": "pidian",
+    "name": "Pidian",
+    "author": "yuru7",
+    "description": "Chat with a Pi coding agent in the sidebar to ask about or edit the open note, search notes, and search the web. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuru7/obsidian-pidian"
+  },
+  {
     "id": "nested-frontmatter-properties",
     "name": "Nested Frontmatter Properties",
     "author": "copperbox",
@@ -53123,6 +53123,13 @@
     "repo": "telecomshy/TaskNotesAiReporter"
   },
   {
+    "id": "image-kit",
+    "name": "Image Kit",
+    "author": "Robert Fleming",
+    "description": "Size, align, and caption images alongside Obsidian's native image controls. Layout is saved in the link itself. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haivri/obsidian-image-kit"
+  },
+  {
     "id": "pubmed-fetcher",
     "name": "PubMed Article Fetcher",
     "author": "Svend Gundestrup",
@@ -53254,5 +53261,26 @@
     "author": "向阳乔木",
     "description": "Discover and play live radio stations from around the world inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "joeseesun/qiaomu-radio"
+  },
+  {
+    "id": "vault-agent",
+    "name": "Vault Agent",
+    "author": "rosswang",
+    "description": "AI vault agent powered by China-accessible LLM APIs — DeepSeek, GLM, Kimi, Qwen or any OpenAI-compatible endpoint. Agentic read/search/create/edit of notes. No CLI, no proxy, 中文优先. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanqingwang/obsidian-vault-agent"
+  },
+  {
+    "id": "elias-hivemind",
+    "name": "Elias HiveMind",
+    "author": "elias north",
+    "description": "Summarize notes, suggest tags and find unlinked mentions, offline or with a local Ollama model. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "elias-hivemind/obsidian-elias-hivemind"
+  },
+  {
+    "id": "vault-shortcuts",
+    "name": "Vault Shortcuts",
+    "author": "Vincent La",
+    "description": "Create desktop shortcuts to your vault and notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vincentlaucsb/obsidian-vault-shortcuts"
   }
 ]
