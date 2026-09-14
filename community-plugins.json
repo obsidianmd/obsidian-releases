@@ -44772,13 +44772,6 @@
     "repo": "jordanlong121/singlefilesectioncards"
   },
   {
-    "id": "unmemos",
-    "name": "UNmemos",
-    "author": "UNcore",
-    "description": "A faithful Memos-inspired flash-capture plugin. Timeline, tags, reactions, comments, and more. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "uncore-gh/UNmemos"
-  },
-  {
     "id": "withings-sync",
     "name": "Withings Sync",
     "author": "Iyigun Cevik",
@@ -47213,6 +47206,13 @@
     "author": "lindongyan",
     "description": "用 OpenAI 兼容 LLM 自动翻译 Obsidian 插件设置弹窗内的全部文本（标签名、描述、按钮等），支持自定义端点/模型/API Key 与测试连接，不修改任何插件文件。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lindongyan1992/llm-settings-translator"
+  },
+  {
+    "id": "local-font-loader",
+    "name": "Local Font Loader",
+    "author": "InVerse",
+    "description": "Load local fonts (TTF/OTF/WOFF/WOFF2) with Base64 caching. Manage UI, text, code, and math fonts separately. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lmce72/obsidian-local-font-loader"
   },
   {
     "id": "local-note-share",
@@ -53289,5 +53289,26 @@
     "author": "Vincent La",
     "description": "Create desktop shortcuts to your vault and notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vincentlaucsb/obsidian-vault-shortcuts"
+  },
+  {
+    "id": "vinyl-life",
+    "name": "Vinyl Life",
+    "author": "MacGuffin",
+    "description": "Vinyl album shelf + turntable player for your notes: local audio, NetEase Cloud Music and QQ Music with your own account. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "louiss342/Vinyl-life"
+  },
+  {
+    "id": "roudoku",
+    "name": "Roudoku",
+    "author": "analosmith",
+    "description": "Read Japanese notes aloud with Google Cloud text-to-speech, a sidebar player, and device speech fallback. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "analosmith/obsidian-roudoku"
+  },
+  {
+    "id": "japanese-invoice-helper",
+    "name": "Japanese Invoice Helper",
+    "author": "e8dev",
+    "description": "Write Japanese invoices (適格請求書) in Markdown. Calculates consumption tax by rate, withholding tax and payment due dates, and renders a printable invoice. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "e8dev-note/japanese-invoice-helper"
   }
 ]
