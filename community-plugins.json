@@ -51002,13 +51002,6 @@
     "repo": "nameiskyro/Tidy-YAML"
   },
   {
-    "id": "ion-sync",
-    "name": "IonSync",
-    "author": "Sean Richards",
-    "description": "Self-hosted vault live synchronization - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "s39n/IonSync"
-  },
-  {
     "id": "simple-streams",
     "name": "Simple Streams",
     "author": "Utku Aytaç",
@@ -51590,6 +51583,13 @@
     "repo": "emarpiee/obsidian-rcrypt"
   },
   {
+    "id": "advanced-formatting",
+    "name": "Advanced Formatting",
+    "author": "Mohamed Saleh",
+    "description": "Typography and user-defined inline formatting roles for Obsidian, live in the editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mohamedsaleh0-0/Advanced-Formatting"
+  },
+  {
     "id": "export-ics-schedule",
     "name": "Export ICS Schedule",
     "author": "lindongyan",
@@ -51858,7 +51858,7 @@
   {
     "id": "linear-year-calendar",
     "name": "Linear Year Calendar",
-    "author": "gordond",
+    "author": "gordon-deng",
     "description": "A linear year planner: see all 12 months at once, create events from notes, and import Google Calendar via ICS. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gzd2032/linear_calendar_obsidian"
   },
@@ -53559,7 +53559,7 @@
   {
     "id": "harada-method-goals",
     "name": "Harada Method Goals",
-    "author": "gordond",
+    "author": "gordon-deng",
     "description": "Build a Harada Method chart from a vault folder: one main goal, eight Key Plan folders, and sixty-four action notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gzd2032/obsidian-harada-method-goals"
   },
@@ -53569,13 +53569,6 @@
     "author": "Jens Eldering",
     "description": "Sync Obsidian folders to external directories. Supports multiple folder pairs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "scribilicious/local-folder-sync"
-  },
-  {
-    "id": "heading-word-count",
-    "name": "Heading Word Count",
-    "author": "cy",
-    "description": "Shows a per-section word count after every H1–H6 heading in a dedicated outline panel. Counts Chinese characters one-by-one and English by words, with configurable punctuation rules. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "windar92/heading-word-count"
   },
   {
     "id": "engiware",
@@ -53751,5 +53744,40 @@
     "author": "MarcBolo",
     "description": "将本地和保险库中的文件嵌入到您的文档中。支持图片、音频和视频的内联渲染. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "marcbolo/DLink"
+  },
+  {
+    "id": "kinopoisk-enricher",
+    "name": "Kinopoisk Film Enricher",
+    "author": "Andrei",
+    "description": "Enrich film notes with data from Kinopoisk (description, rating, poster, link). Flexible field-to-property mapping, dynamic API keys, configurable overwrite behavior. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "viz6411/Obsidian-Kinopoisk-plugin"
+  },
+  {
+    "id": "dynamic-text-highlighting",
+    "name": "Dynamic Text Highlighting",
+    "author": "Philipp Reichelt",
+    "description": "Highlight text with custom search terms, regular expressions and badges in the editor, reading view and PDF export, and highlight all matches of the selected word. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "reicheltmediadesign/obsidian-dynamic-text-highlighting"
+  },
+  {
+    "id": "spaces",
+    "name": "Spaces",
+    "author": "Peter Jamrozinski",
+    "description": "Switch between curated views of your vault's folders and notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "psjdev/obsidian-spaces"
+  },
+  {
+    "id": "colored-file-names",
+    "name": "Colored File Names",
+    "author": "Philipp Reichelt",
+    "description": "Color folders and files in the file explorer from the context menu. Manage a color palette and export or import your colors to back them up or move them to another device. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "reicheltmediadesign/obsidian-colored-file-names"
+  },
+  {
+    "id": "reliable-vault-sync",
+    "name": "Reliable Vault Sync",
+    "author": "Gleb",
+    "description": "Synchronize a vault through a private Git-backed server with recoverable conflicts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ghloii/reliable-vault-sync"
   }
 ]
