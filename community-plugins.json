@@ -30285,7 +30285,7 @@
     "id": "imgbox-pro",
     "name": "ImgBox Pro",
     "author": "nightfall",
-    "description": "ImgBox Pro searches for external media links in your notes, downloads and saves them locally, adjusts note links, and includes unused attachment cleanup tools. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Searches for external media links in your notes, downloads and saves them locally, adjusts note links, and includes unused attachment cleanup tools. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nightfall-yl/obsidian-imgbox-pro"
   },
   {
@@ -33106,7 +33106,7 @@
     "id": "third-party-sync",
     "name": "Third-party Sync",
     "author": "nightfall",
-    "description": "Security and feature updates for the remotely-save unofficial plugin allowing users to synchronize notes between local device and the cloud service. Not backwards compatible. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync your vault with S3, WebDAV, or OneDrive between local device and cloud service. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nightfall-yl/obsidian-third-party-sync"
   },
   {
@@ -53564,6 +53564,13 @@
     "repo": "scribilicious/local-folder-sync"
   },
   {
+    "id": "heading-word-count",
+    "name": "Heading Word Count",
+    "author": "cy",
+    "description": "Shows a per-section word count after every H1–H6 heading in a dedicated outline panel. Counts Chinese characters one-by-one and English by words, with configurable punctuation rules. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "windar92/heading-word-count"
+  },
+  {
     "id": "engiware",
     "name": "Engiware",
     "author": "Green Pipe Partners LLC",
@@ -53839,7 +53846,7 @@
   {
     "id": "ios-tts",
     "name": "Full Document View for iOS TTS",
-    "author": "Tadhg O'Brien",
+    "author": "tigger developer",
     "description": "Lets iOS/macOS Accessibility Reader see the whole document for on-device Text-to-Speech (TTS) - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tigger-developer/ios-tts"
   },
@@ -53921,6 +53928,13 @@
     "repo": "mojunbeiming/obsidian-taskdown"
   },
   {
+    "id": "claude-synapse",
+    "name": "Claude Synapse",
+    "author": "Nuno Ricardo",
+    "description": "Bring Claude Agent SDK-powered assistance into Obsidian with agents, tools, skills, and workflows in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nunomotaricardo/obsidian-synapse"
+  },
+  {
     "id": "skiss",
     "name": "Skiss",
     "author": "Erik Näslund",
@@ -53937,7 +53951,7 @@
   {
     "id": "today-note-custom-hotkey",
     "name": "Daily Note Key",
-    "author": "Tadhg O'Brien",
+    "author": "tigger developer",
     "description": "This is a very simple Obsidian plugin: a ribbon button and a configurable keyboard shortcut that open one pre-selected note. That is all. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tigger-developer/Obsidian-Today-Note"
   }
