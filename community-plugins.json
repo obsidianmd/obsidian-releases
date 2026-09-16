@@ -19397,6 +19397,13 @@
     "repo": "twrusstw/penny-wallet"
   },
   {
+    "id": "ai-chat-assistant",
+    "name": "AI Chat Assistant",
+    "author": "zzzzzllllllaaaa",
+    "description": "A powerful AI assistant that supports multiple models, knowledge base retrieval (RAG), intelligent agents, long-term memory, and role-playing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zzzzzllllllaaaa/ai-chat-assistant"
+  },
+  {
     "id": "canvas-card-materializer",
     "name": "Canvas Card-Materializer",
     "author": "redsheep913",
@@ -44233,13 +44240,6 @@
     "repo": "jackydangelo/obsidian-property-from-backlink"
   },
   {
-    "id": "chinese-plugin-market",
-    "name": "Chinese Market",
-    "author": "羽鳞君",
-    "description": "面向中文用户的 Obsidian 社区插件搜索工具：输入关键词即可检索并展示翻译后的插件卡片，支持 AI 语义 / 名称 / 作者搜索。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "miaoziguan/obsidian-chinese-plugin-market"
-  },
-  {
     "id": "vault-orrery",
     "name": "Vault Orrery",
     "author": "Elliott Park",
@@ -51180,7 +51180,7 @@
     "id": "integrated-task-manager",
     "name": "Integrated Task Manager",
     "author": "kuberrr05",
-    "description": "Markdown-native Inbox, Today, Upcoming, All Tasks, and Projects views. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Manage Markdown tasks with Inbox, Today, Upcoming, projects, tags, and smart lists. Organize work with filters, calendars, Kanban boards, and Gantt charts. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kuberrr0/obsidian-integrated-tasks"
   },
   {
@@ -52713,7 +52713,7 @@
     "id": "first-recall",
     "name": "FirstRecall",
     "author": "Jason Swartz",
-    "description": "Create active-recall Note Briefs and Section Study Cards without modifying your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create active-recall Note Briefs and Section Study Cards with AI. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "swartzrock/obsidian-firstrecall-plugin"
   },
   {
@@ -53131,9 +53131,9 @@
   },
   {
     "id": "pubmed-fetcher",
-    "name": "PubMed Article Fetcher",
+    "name": "Research Article Fetcher",
     "author": "Svend Gundestrup",
-    "description": "Fetch article metadata from PubMed ID or DOI links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Fetch research article metadata from PubMed, PMC, DOI, arXiv, and Web of Science links automatically. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gundestrup/obsidian-research"
   },
   {
@@ -53838,7 +53838,7 @@
   },
   {
     "id": "ios-tts",
-    "name": "Full Document Reader",
+    "name": "Full Document View for iOS TTS",
     "author": "Tadhg O'Brien",
     "description": "Lets iOS/macOS Accessibility Reader see the whole document for on-device Text-to-Speech (TTS) - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tigger-developer/ios-tts"
@@ -53879,6 +53879,13 @@
     "repo": "ztrawhcs/obsidian-font-slider"
   },
   {
+    "id": "vault-linker",
+    "name": "Vault Linker",
+    "author": "Arshad Mehmood",
+    "description": "Link note titles and YAML aliases as wikilinks. Audit pending or broken links and remove auto-style links you no longer want. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arshad115/obsidian-linker"
+  },
+  {
     "id": "da-tool",
     "name": "Discourse Analysis Tool",
     "author": "sots1689",
@@ -53893,6 +53900,13 @@
     "repo": "kumsht/nooka-obsidian"
   },
   {
+    "id": "euphoric-flashcards",
+    "name": "Euphoric Flashcards",
+    "author": "Daniel",
+    "description": "Enchanting spaced-repetition flashcards that teach you how to use the word, instead of memorising it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "git-hub-dangel/euphoric-flashcards"
+  },
+  {
     "id": "sfc-flashcards",
     "name": "FSRS Flashcards",
     "author": "北冥尘",
@@ -53905,5 +53919,26 @@
     "author": "北冥尘",
     "description": "Turn notes into a task board: due dates, recurrence and goals live in Markdown checkbox lines, with a dashboard, heatmap, calendar and query blocks. Optional AI planning with AI Host. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mojunbeiming/obsidian-taskdown"
+  },
+  {
+    "id": "skiss",
+    "name": "Skiss",
+    "author": "Erik Näslund",
+    "description": "Renders Skiss code blocks as diagrams and exports them to LinkML. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "erik-naslund/obsidian-skiss"
+  },
+  {
+    "id": "totonio-presentation",
+    "name": "Totonio Presentation",
+    "author": "Totonio",
+    "description": "View architecture, flowchart, and sequence diagrams from local Totonio files. Navigate presentation frames and embed read-only previews in notes, offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "guruvlk/totonio-obsidian-plugin"
+  },
+  {
+    "id": "today-note-custom-hotkey",
+    "name": "Daily Note Key",
+    "author": "Tadhg O'Brien",
+    "description": "This is a very simple Obsidian plugin: a ribbon button and a configurable keyboard shortcut that open one pre-selected note. That is all. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tigger-developer/Obsidian-Today-Note"
   }
 ]
