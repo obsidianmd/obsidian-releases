@@ -24521,6 +24521,13 @@
     "repo": "hyungyunlim/obsidian-naver-blog-importer"
   },
   {
+    "id": "semantic-vault-mcp",
+    "name": "Semantic Notes Vault MCP",
+    "author": "Aaron Bockelie",
+    "description": "Give Claude Desktop and other AI assistants semantic access to your notes through a built-in Model Context Protocol (MCP) server. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aaronsb/obsidian-mcp-plugin"
+  },
+  {
     "id": "co-intelligence",
     "name": "Co-Intelligence AI",
     "author": "epistemic-technology",
@@ -33022,7 +33029,7 @@
     "id": "mysync",
     "name": "MySync",
     "author": "Henrique Manduca",
-    "description": "Sync notes to your home CouchDB database with MySync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync notes to your home Nextcloud, Opencloud or CouchDB database with MySync. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "henriquemanduca/mysync-plugin"
   },
   {
@@ -48692,6 +48699,13 @@
     "repo": "calirko/minio-vault-sync"
   },
   {
+    "id": "lingxi-bridge",
+    "name": "LingXi1949",
+    "author": "cyber-bike01",
+    "description": "Bridge your notes to AI agents — rich markdown and linked context replace the single prompt box, with local and remote terminal sessions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cyber-bike1949/LingXi1949"
+  },
+  {
     "id": "anki-bridge",
     "name": "Anki Bridge",
     "author": "Aaron Ade",
@@ -49674,7 +49688,7 @@
   {
     "id": "hevy-sync",
     "name": "Hevy Sync",
-    "author": "adi gorn",
+    "author": "stihi",
     "description": "Syncs data with Hevy. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "s-t-i-h-i/obsidian-hevy-plugin"
   },
@@ -49975,7 +49989,7 @@
   {
     "id": "communitynoteshub",
     "name": "Notes hub",
-    "author": "adi gorn",
+    "author": "stihi",
     "description": "Browse, download, and publish knowledge packages shared by the community. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "s-t-i-h-i/notesHub-plugin"
   },
@@ -51887,7 +51901,7 @@
     "id": "class-timetable",
     "name": "Class Timetable",
     "author": "Elliott Park",
-    "description": "A weekly class timetable in the sidebar. Class times live in your notes' frontmatter, so renaming or moving folders never breaks them. Click a class to browse its folders, or create today's note from a template. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A weekly class timetable and course schedule for students, in the sidebar on desktop and mobile. Times live in your notes' frontmatter, so moving or renaming folders never breaks them. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elliott-json-park/obsidian-class-timetable"
   },
   {
@@ -52512,6 +52526,13 @@
     "author": "Rito",
     "description": "Groups your graph view by folder, so every folder becomes its own cluster, like grapes on a vine. All your links stay, the ones between folders are just drawn lighter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "creativemindrito/grape-clusters-obsidian"
+  },
+  {
+    "id": "drag-image-auto-arrange",
+    "name": "Drag Image Auto Arrange",
+    "author": "lishuai1993",
+    "description": "Auto-arrange consecutive images into side-by-side rows with drag-to-reorder, resize handles, and draggable dividers, similar to Feishu documents. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lishuai1993/DragImageAutoArrange"
   },
   {
     "id": "memvault",
@@ -53805,7 +53826,28 @@
     "id": "ios-tts",
     "name": "Full Document Reader",
     "author": "Tadhg O'Brien",
-    "description": "Present the whole current note for Apple's native Accessibility Reader on macOS and iOS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Lets iOS/macOS Accessibility Reader see the whole document for on-device Text-to-Speech (TTS) - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tigger-developer/ios-tts"
+  },
+  {
+    "id": "local-ollama-websearch",
+    "name": "Local Ollama with Web Search",
+    "author": "Frank Lechtenberg",
+    "description": "Chat with local Ollama AI models directly in Obsidian. Includes built-in DuckDuckGo web search – no API key, no cloud, no telemetry. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "geolech/obsidian-local-ollama"
+  },
+  {
+    "id": "pharos",
+    "name": "Pharos",
+    "author": "disasta-g",
+    "description": "Focus the file explorer on the active note and show how many open tasks each note and folder holds. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "disasta-g/pharos"
+  },
+  {
+    "id": "date-trees",
+    "name": "Date Trees",
+    "author": "Ankur Sethi",
+    "description": "Organize chronological notes in a date tree directory structure. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "s3thi/date-trees"
   }
 ]
