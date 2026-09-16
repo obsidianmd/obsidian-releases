@@ -24514,13 +24514,6 @@
     "repo": "hyungyunlim/obsidian-naver-blog-importer"
   },
   {
-    "id": "semantic-vault-mcp",
-    "name": "Semantic Notes Vault MCP",
-    "author": "Aaron Bockelie",
-    "description": "Give Claude Desktop and other AI assistants semantic access to your notes through a built-in Model Context Protocol (MCP) server. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "aaronsb/obsidian-mcp-plugin"
-  },
-  {
     "id": "co-intelligence",
     "name": "Co-Intelligence AI",
     "author": "epistemic-technology",
@@ -44264,7 +44257,7 @@
     "id": "vault-orrery",
     "name": "Vault Orrery",
     "author": "Elliott Park",
-    "description": "Folders become stars, notes orbit them, cited sources become moons. Replay how the vault formed, open any note from orbit, map its neighbours. No network access at all. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A 3D graph where folders are stars and notes orbit them. Replay how your vault grew. Works offline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elliott-json-park/obsidian-vault-orrery"
   },
   {
@@ -47213,13 +47206,6 @@
     "author": "lindongyan",
     "description": "用 OpenAI 兼容 LLM 自动翻译 Obsidian 插件设置弹窗内的全部文本（标签名、描述、按钮等），支持自定义端点/模型/API Key 与测试连接，不修改任何插件文件。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lindongyan1992/llm-settings-translator"
-  },
-  {
-    "id": "local-font-loader",
-    "name": "Local Font Loader",
-    "author": "InVerse",
-    "description": "Load local fonts (TTF/OTF/WOFF/WOFF2) with Base64 caching. Manage UI, text, code, and math fonts separately. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lmce72/obsidian-local-font-loader"
   },
   {
     "id": "local-note-share",
@@ -53800,5 +53786,19 @@
     "author": "Felipe Córdova",
     "description": "Shows your vault as a layered neural network, explains why each note connects, and suggests reasons with your own AI — always with verified quotes and your approval. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dbb-fc/mapa-neuronal"
+  },
+  {
+    "id": "search-highlight-plus",
+    "name": "Search Highlight+",
+    "author": "lindongyan",
+    "description": "Highlights only the matched keyword — not the whole block — inside tables, callouts, code blocks and list items when you open a note from search results. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lindongyan1992/search-highlight-plus"
+  },
+  {
+    "id": "signal-rss",
+    "name": "Signal RSS",
+    "author": "hellokunzai",
+    "description": "Subscribe to RSS and Atom feeds, read articles in a dedicated reader tab, and save any article to your vault as a Markdown note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hellokunzai/obsidian-signal-rss"
   }
 ]
