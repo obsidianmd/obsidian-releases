@@ -46522,13 +46522,6 @@
     "repo": "tudo9710/obsidian-dsh"
   },
   {
-    "id": "smart-notes",
-    "name": "Smart Notes",
-    "author": "hellokunzai",
-    "description": "Analyze your vault with AI to generate bidirectional links, enrich frontmatter properties, optimize notes, and provide in-editor autocompletion. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hellokunzai/obsidian-smart-notes"
-  },
-  {
     "id": "canvas-to-tasks",
     "name": "Canvas to Tasks",
     "author": "Ryan",
@@ -53883,7 +53876,7 @@
     "name": "Vault Linker",
     "author": "Arshad Mehmood",
     "description": "Link note titles and YAML aliases as wikilinks. Audit pending or broken links and remove auto-style links you no longer want. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "arshad115/obsidian-linker"
+    "repo": "arshad115/vault-linker"
   },
   {
     "id": "da-tool",
@@ -53926,6 +53919,13 @@
     "author": "北冥尘",
     "description": "Turn notes into a task board: due dates, recurrence and goals live in Markdown checkbox lines, with a dashboard, heatmap, calendar and query blocks. Optional AI planning with AI Host. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mojunbeiming/obsidian-taskdown"
+  },
+  {
+    "id": "heading-rail",
+    "name": "Heading Rail",
+    "author": "dast",
+    "description": "Dock-style clickable heading bars with live scroll tracking, wave hover and an expandable outline panel. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dast-gh/obsidian-heading-rail"
   },
   {
     "id": "claude-synapse",
@@ -54017,5 +54017,19 @@
     "author": "Gerrit Kruse",
     "description": "Renders wikilinks to Better BibTeX citekeys as APA 7 in-text citations while keeping them clickable vault links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gerritkruse/obsidian-citation-links"
+  },
+  {
+    "id": "zotero-deep-linker",
+    "name": "Zotero Deep Linker",
+    "author": "bionux",
+    "description": "Visually search Zotero and insert links to items, PDFs, and annotations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bionux-th/Obsidian-Zotero-Deep-Linker"
+  },
+  {
+    "id": "folder-nav",
+    "name": "Folder Nav",
+    "author": "mian Fuqu",
+    "description": "Browse the sidebar one folder at a time instead of scrolling an indented tree. Click into a folder, follow the breadcrumb back. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mianfuqu/obsidian-folder-nav"
   }
 ]
