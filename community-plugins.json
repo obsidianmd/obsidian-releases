@@ -44447,7 +44447,7 @@
     "name": "LaTeX Input",
     "author": "yy",
     "description": "A LaTeX formula input plugin for Obsidian. Click symbols from the palette to auto-generate source, preview live, and insert into the current note; also supports **screen-selection OCR** and **clipboar - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sun8854/Obsidian-LaTeX-input"
+    "repo": "sunlo123/Obsidian-LaTeX-input"
   },
   {
     "id": "decision-ledger",
@@ -47885,6 +47885,13 @@
     "author": "Ivan Petrov",
     "description": "Plugin for manage ToDos. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sasunhuevich/ToDoList"
+  },
+  {
+    "id": "omni-book-reader",
+    "name": "Omni Book Reader",
+    "author": "pavel",
+    "description": "An all-in-one, local-first EPUB reading workbench with a bookshelf, annotations, exports, focus mode, and reading statistics. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pavelpeng7/omni-book-reader"
   },
   {
     "id": "vault-calendar",
@@ -51933,13 +51940,6 @@
     "repo": "exemplarov/vibed"
   },
   {
-    "id": "canvas-mind-map",
-    "name": "Canvas Mind Map",
-    "author": "zenolzx",
-    "description": "Create collapsible Canvas mind maps from Markdown with seven layouts. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zenolzx/Canvas-Mind-Map"
-  },
-  {
     "id": "vietnam-ai-rss",
     "name": "Vietnam AI RSS",
     "author": "TonyX",
@@ -52113,6 +52113,13 @@
     "author": "fairyang",
     "description": "A Markdown mind map and mindmap plugin that converts notes into interactive, collapsible mind maps with split preview, same-tab switching, draggable nodes, scrolling details, and zoom controls. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "smofox/flymind"
+  },
+  {
+    "id": "fleur-epub",
+    "name": "FleurEPUB",
+    "author": "JC5",
+    "description": "Read EPUB books with highlights, wavy underlines, comments, full-text search and AI annotations — the FleurPDF experience for e-books. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gibsonchan-5/fleur-epub"
   },
   {
     "id": "cloud-image-uploader",
@@ -52852,7 +52859,7 @@
   {
     "id": "note-improver",
     "name": "Note Improver",
-    "author": "nuye",
+    "author": "aquinas",
     "description": "Improve active notes with reviewed AI edits using Groq or local Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nuuye/obsidian-agent-plugin"
   },
@@ -53203,7 +53210,7 @@
     "id": "citation-suite",
     "name": "Citation Suite",
     "author": "pan4ratte",
-    "description": "Cite literature in Pandoc style from your Zotero library, view literature list in the sidebar, preview citations with citation styles, automate footnotes creation, and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Cite literature in Pandoc style from your Zotero library or from the vault, view literature list in the sidebar, preview citations with citation styles, automate footnotes creation, and more. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pan4ratte/obsidian-citation-suite"
   },
   {
@@ -53991,6 +53998,13 @@
     "repo": "hharry112/harry-toolkit"
   },
   {
+    "id": "mermaid-link-nav",
+    "name": "Mermaid Link Navigator",
+    "author": "w-java123",
+    "description": "在 Mermaid 流程图节点中嵌入 [[笔记链接]]，Ctrl/⌘+单击跳转；右键可视化编辑（添加/编辑/删除节点、改变形状、添加父/子节点、设置判断节点、更换位置）并自动写回笔记；画布式滚轮缩放与拖动平移；可指定新笔记默认文件夹；笔记重命名自动同步 mermaid 链接；当前节点标记与一键定位。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "w-java123/mermaid-link-nav"
+  },
+  {
     "id": "citation-links",
     "name": "Citation Links",
     "author": "Gerrit Kruse",
@@ -54054,10 +54068,38 @@
     "repo": "haperone/paste-image-rename-folder-guard"
   },
   {
+    "id": "mimic",
+    "name": "Mimic",
+    "author": "wang",
+    "description": "拟态加工：模仿-扭曲。把知识点笔记按可配置的提示词配方加工成传播视角的叙述笔记（正文 + 关联知识点 wiki-link）。Compose knowledge notes via mimic-distort recipes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wangeek/obsidian-mimic"
+  },
+  {
     "id": "quiet-shelf",
     "name": "Quiet Shelf",
     "author": "yunmin",
     "description": "Tuck archived and index notes out of the file explorer without moving them, and focus on one set of folders at a time. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yunmin311/quiet-shelf-obsidian"
+  },
+  {
+    "id": "desk-sidebar",
+    "name": "Desk Sidebar",
+    "author": "Niels-Oliver Walkwoski",
+    "description": "A pane in the sidebar where you can put notes temporarily while you are writing in your current note of focus. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cutuchiqueno/obsidian-desk-pane"
+  },
+  {
+    "id": "nested-hidden-folders",
+    "name": "Nested Hidden Folders",
+    "author": "Dominik Bach",
+    "description": "Index hidden folders at every vault level so they appear in the file tree. Toggle each path. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mit-bach/nested-hidden-folders"
+  },
+  {
+    "id": "select-code-lines-highlighter",
+    "name": "Select Code Lines Highlighter",
+    "author": "Jacopo Gori",
+    "description": "Highlight selected lines in fenced code blocks without modifying the code itself. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tc-xonor/select-code-lines-highlighter"
   }
 ]
