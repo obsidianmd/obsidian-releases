@@ -20846,13 +20846,6 @@
     "repo": "hantae-ho/obsidian-our-kyobo-book-search"
   },
   {
-    "id": "tag-explorer",
-    "name": "Tag Explorer",
-    "author": "Jorrit van der Heide",
-    "description": "Navigate your vault through a tag-generated folder tree. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jorritvanderheide/obsidian-tag-explorer"
-  },
-  {
     "id": "caldav-sync",
     "name": "CalDAV Task Sync",
     "author": "speze88",
@@ -47894,13 +47887,6 @@
     "repo": "sasunhuevich/ToDoList"
   },
   {
-    "id": "omni-book-reader",
-    "name": "Omni Book Reader",
-    "author": "pavel",
-    "description": "An all-in-one, local-first EPUB reading workbench with a bookshelf, annotations, exports, focus mode, and reading statistics. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pavelpeng7/omni-book-reader"
-  },
-  {
     "id": "vault-calendar",
     "name": "Vault Calendar",
     "author": "Jax Ho",
@@ -51317,6 +51303,13 @@
     "repo": "isaquepereira/obsidian-apple-reminders-plus"
   },
   {
+    "id": "mindmap-studio",
+    "name": "MindMap Studio",
+    "author": "冬季蚊子",
+    "description": "Mind map rendering for Markdown: edit .mindmap.md as a mind map, with Markdown outline round-trip, native wikilinks and images, layouts, search, auto-arrange and PNG export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wintermosquito/Obsidian-Mindmap-Studio"
+  },
+  {
     "id": "cn-natsort",
     "name": "CN Natural Sort",
     "author": "琉璃幻影",
@@ -52120,13 +52113,6 @@
     "author": "fairyang",
     "description": "A Markdown mind map and mindmap plugin that converts notes into interactive, collapsible mind maps with split preview, same-tab switching, draggable nodes, scrolling details, and zoom controls. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "smofox/flymind"
-  },
-  {
-    "id": "fleur-epub",
-    "name": "FleurEPUB",
-    "author": "JC5",
-    "description": "Read EPUB books with highlights, wavy underlines, comments, full-text search and AI annotations — the FleurPDF experience for e-books. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gibsonchan-5/fleur-epub"
   },
   {
     "id": "cloud-image-uploader",
@@ -53438,6 +53424,13 @@
     "repo": "preeteshgm/atlas-presenter"
   },
   {
+    "id": "hexcrawl",
+    "name": "Hexcrawl",
+    "author": "Vasilii Negrebetskii",
+    "description": "Render zoomable, pannable hexcrawl maps from a folder of hex notes via a `hexcrawl` code block. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kompoth/obsidian-hexcrawl"
+  },
+  {
     "id": "graph-highlight-lock",
     "name": "Graph Highlight Lock",
     "author": "goverse",
@@ -53998,13 +53991,6 @@
     "repo": "hharry112/harry-toolkit"
   },
   {
-    "id": "mermaid-link-nav",
-    "name": "Mermaid Link Navigator",
-    "author": "w-java123",
-    "description": "在 Mermaid 流程图节点中嵌入 [[笔记链接]]，Ctrl/⌘+单击跳转；右键可视化编辑（添加/编辑/删除节点、改变形状、添加父/子节点、设置判断节点、更换位置）并自动写回笔记；画布式滚轮缩放与拖动平移；可指定新笔记默认文件夹；笔记重命名自动同步 mermaid 链接；当前节点标记与一键定位。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "w-java123/mermaid-link-nav"
-  },
-  {
     "id": "citation-links",
     "name": "Citation Links",
     "author": "Gerrit Kruse",
@@ -54052,5 +54038,26 @@
     "author": "cynthia-ding",
     "description": "Evaluate late departures, overnight work, and weekend work from local attendance records. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cynthia2023xy/obsidian-overtime-visualizer"
+  },
+  {
+    "id": "secondary-screen-snap",
+    "name": "Secondary Screen Snap",
+    "author": "Farno Lee",
+    "description": "Capture a specific monitor (e.g. a secondary display showing an online course) with a hotkey and insert the image at the cursor. macOS only; all screenshots stay in your local vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "farno/obsidian-secondary-screen-snap"
+  },
+  {
+    "id": "paste-image-rename-folder-guard",
+    "name": "Paste Image Rename Folder Guard",
+    "author": "haperone",
+    "description": "Exclude vault folders from automatic attachment renaming by Paste image rename. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haperone/paste-image-rename-folder-guard"
+  },
+  {
+    "id": "quiet-shelf",
+    "name": "Quiet Shelf",
+    "author": "yunmin",
+    "description": "Tuck archived and index notes out of the file explorer without moving them, and focus on one set of folders at a time. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yunmin311/quiet-shelf-obsidian"
   }
 ]
