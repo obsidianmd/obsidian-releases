@@ -700,13 +700,6 @@
     "repo": "thek3nger/obsidian-chessboard"
   },
   {
-    "id": "obsidian-vault-changelog",
-    "name": "Vault Changelog",
-    "author": "Mark Ayers",
-    "description": "Maintain a changelog of recently edited notes.",
-    "repo": "philoserf/obsidian-vault-changelog"
-  },
-  {
     "id": "obsidian-furigana",
     "name": "Furigana",
     "author": "uonr",
@@ -36178,7 +36171,7 @@
   {
     "id": "graph-background",
     "name": "Graph Background",
-    "author": "You",
+    "author": "JK",
     "description": "Customize the background of the global and local graph views with a solid color, gradient, or image — set it all from the plugin settings. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jk-cpu-jpg/Graph-Background"
   },
@@ -38953,6 +38946,13 @@
     "author": "Justin Rosales",
     "description": "Two-finger trackpad swipes mapped to any command. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "justinrosales/obsidian-swipe-gestures"
+  },
+  {
+    "id": "nous",
+    "name": "Nous",
+    "author": "Andy Ho",
+    "description": "Turns meetings, voice notes, photos, and PDFs into a tagged, linked knowledge base - built as context your AI assistant can use. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andymdh/obsidian-nous"
   },
   {
     "id": "audio-timestamp-player",
@@ -52544,7 +52544,7 @@
   {
     "id": "folder-auto-tagger",
     "name": "Folder Auto Tagger",
-    "author": "You",
+    "author": "JK",
     "description": "Automatically adds tags to notes based on their folder path — nested folders add nested tags too (e.g. History/Medieval Europe → #history and #medieval-europe). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jk-cpu-jpg/Folder-Auto-Tagger"
   },
@@ -53410,6 +53410,13 @@
     "repo": "butterflyx/ingrain"
   },
   {
+    "id": "baidu-netdisk-sync",
+    "name": "Baidu Netdisk Sync",
+    "author": "owl234",
+    "description": "Cross-platform bi-directional synchronization with Baidu Netdisk for your vaults. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "owl234/obsidian-baidu-netdisk-sync"
+  },
+  {
     "id": "m-ai-remote-reader",
     "name": "m-aI",
     "author": "migwajang-wq",
@@ -53996,5 +54003,19 @@
     "author": "Harry",
     "description": "A personal toolkit: typewriter-style scrolling, a publishing calendar with article scheduling and to-dos, and a Threads analytics dashboard (official API, read-only). All data stays in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hharry112/harry-toolkit"
+  },
+  {
+    "id": "mermaid-link-nav",
+    "name": "Mermaid Link Navigator",
+    "author": "w-java123",
+    "description": "在 Mermaid 流程图节点中嵌入 [[笔记链接]]，Ctrl/⌘+单击跳转；右键可视化编辑（添加/编辑/删除节点、改变形状、添加父/子节点、设置判断节点、更换位置）并自动写回笔记；画布式滚轮缩放与拖动平移；可指定新笔记默认文件夹；笔记重命名自动同步 mermaid 链接；当前节点标记与一键定位。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "w-java123/mermaid-link-nav"
+  },
+  {
+    "id": "citation-links",
+    "name": "Citation Links",
+    "author": "Gerrit Kruse",
+    "description": "Renders wikilinks to Better BibTeX citekeys as APA 7 in-text citations while keeping them clickable vault links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gerritkruse/obsidian-citation-links"
   }
 ]
