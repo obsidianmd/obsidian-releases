@@ -18816,6 +18816,13 @@
     "repo": "shygoly/obsidian-local-html-embed"
   },
   {
+    "id": "objects",
+    "name": "Objects",
+    "author": "Finn",
+    "description": "Instantly create and organize notes from templates using customizable @-triggers without breaking your flow. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "finn-kraemer/obsidian-objects"
+  },
+  {
     "id": "folder-auto-properties",
     "name": "Folder Auto Properties",
     "author": "Kawê Cezar",
@@ -26465,13 +26472,6 @@
     "author": "Sdesuyo",
     "description": "Convert handwritten notes and images to searchable text using AI Vision APIs (Gemini / Claude). Note: images are sent to external APIs (Google / Anthropic). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sdesuyo/obsidian-tegaki"
-  },
-  {
-    "id": "holos",
-    "name": "Holos",
-    "author": "caasion",
-    "description": "Bridge the gap between your calendar and daily planning by creating a long-range plan for what you do everyday. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "caasion/holos"
   },
   {
     "id": "bunny-publisher",
@@ -43414,6 +43414,13 @@
     "repo": "ivana331100/VPS-R2-Obsidian-sync"
   },
   {
+    "id": "speak-selection",
+    "name": "Speak Selection",
+    "author": "Celina",
+    "description": "Right-click to read selected text aloud via Web Speech API. Auto-detects Chinese, Japanese, German, and English. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sylionchen/obsidian--speak-selection"
+  },
+  {
     "id": "writing-regex-replacer",
     "name": "Writing Regex Replacer",
     "author": "Jakob Lien",
@@ -45710,6 +45717,13 @@
     "repo": "publora/obsidian-publora"
   },
   {
+    "id": "isomite",
+    "name": "Isomite",
+    "author": "glam",
+    "description": "Connect your vault to a private Cloudflare R2 bucket for controlled synchronization. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ratatulieoi/obsidian-isomite"
+  },
+  {
     "id": "floating-sticky-notes",
     "name": "Floating Sticky Notes",
     "author": "kasairo",
@@ -46926,6 +46940,13 @@
     "author": "Juehming Shi",
     "description": "Custom plain markdown dictionary reader & lookup engine, make your own dictionary and share. 自定義 Markdown 辭典查詢工具，寫出自己的詞條創建辭典，並與夥伴分享。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jmedzen/ezdict"
+  },
+  {
+    "id": "wallet-tracker",
+    "name": "Wallet Tracker",
+    "author": "atlassociety",
+    "description": "Management of bank accounts, expenses, income, savings goals, and installment payments. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "marketinglimites-web/wallet-tracker"
   },
   {
     "id": "tomos-publisher",
@@ -51166,7 +51187,7 @@
     "id": "story-map",
     "name": "Story Map",
     "author": "prohui",
-    "description": "Plan user journeys with activities, tasks, stories, roles and milestones, link notes, and export to XMind. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Map user journeys and plan releases with user story mapping. Keep local maps alongside project notes so humans and file-capable agents can work from the same plan. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "prohui/obsidian-story-map"
   },
   {
@@ -51539,6 +51560,13 @@
     "author": "Adobiz",
     "description": "错题本（Mistake notebook）: mask answers (blur/white/mosaic/black), click to reveal, auto-split long answers to a linked page, insert at cursor, question emphasis, minimal mode. Plain Markdown, no lock-in. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "adobiz/obsidian-mistake-notebook"
+  },
+  {
+    "id": "shuai-wechat-formatter",
+    "name": "Shuai WeChat Formatter",
+    "author": "qizong007",
+    "description": "一键将当前 Markdown 笔记复制为微信公众号富文本，并在侧边栏实时预览。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qizong007/shuai-ob-wx-offi-plugin"
   },
   {
     "id": "baidu-ai-notes",
@@ -53896,7 +53924,7 @@
     "id": "ideascape",
     "name": "Ideascape",
     "author": "Jonathan Wong",
-    "description": "Build mind maps with intuitive keyboard actions, shortcuts, and an outline view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Mind maps you type, not draw. Tab adds a child, Enter a sibling, and one shortcut turns the map into an outline. Underneath it is a plain Markdown note, readable anywhere and yours to keep. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jonathanmcw/obsidian-ideascape"
   },
   {
@@ -53975,6 +54003,13 @@
     "author": "Daniel",
     "description": "Enchanting spaced-repetition flashcards that teach you how to use the word, instead of memorising it. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "git-hub-dangel/euphoric-flashcards"
+  },
+  {
+    "id": "visual-agent-map",
+    "name": "Visual Agent Map",
+    "author": "Kevin Tsai",
+    "description": "Explore topics with asynchronous AI tasks in a visual map backed by Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kevcltsai/visual-agent-map"
   },
   {
     "id": "sfc-flashcards",
@@ -54493,5 +54528,33 @@
     "author": "dstraub",
     "description": "Link your notes to people, families, events, places and sources in a Gramps Web genealogy server. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "davidmstraub/obsidian-gramps-web"
+  },
+  {
+    "id": "share-publisher",
+    "name": "Publish Note",
+    "author": "jinhefeng",
+    "description": "Publish active Markdown notes and linked pages to a shareable website through your Cloudflare Worker. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jinhefeng/Obsidian-Publish-Note"
+  },
+  {
+    "id": "kairos",
+    "name": "Kairos",
+    "author": "caasion",
+    "description": "Time-blocked daily planning in your notes. Blocks own your hours; tasks live inside them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "caasion/kairos"
+  },
+  {
+    "id": "dsh-sidebar",
+    "name": "DSH Sidebar",
+    "author": "Juan Palomino Tuero",
+    "description": "Connect your vault to DeepSeek Harness, run its agents from a sidebar panel, and give them a token-saving local knowledge graph. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jelbautista/dsh-sidebar"
+  },
+  {
+    "id": "one-click-publish",
+    "name": "One-Click Publish",
+    "author": "jinhefeng",
+    "description": "Publish the active Obsidian note with one click after a one-time Cloudflare setup, including linked pages and local assets. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jinhefeng/One-Click-Publish"
   }
 ]
