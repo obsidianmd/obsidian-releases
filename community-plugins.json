@@ -21581,13 +21581,6 @@
     "repo": "ergesmema/obsidian-atline-ai"
   },
   {
-    "id": "tag-toggler",
-    "name": "Tag Toggler",
-    "author": "studiogamma",
-    "description": "Hide specific tag nodes from Graph View by converting tags to plain text (e.g. #Year → —#Year). Unhide to restore them. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "studiogamma/tag-toggler"
-  },
-  {
     "id": "ai-copilot",
     "name": "AI Copilot",
     "author": "alexjiaguo",
@@ -22790,13 +22783,6 @@
     "author": "kgdrathan",
     "description": "Automatically moves completed tasks to the bottom of their lists. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kgdrathan/donedrop"
-  },
-  {
-    "id": "task-planner",
-    "name": "Task Planner",
-    "author": "selfish",
-    "description": "Manage tasks with drag-and-drop planning, Today focus, backlog, overdue tracking, and weekly time horizons. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "selfish/obsidian-task-planner"
   },
   {
     "id": "lighthouse",
@@ -24308,7 +24294,7 @@
     "name": "Image Link Updater",
     "author": "hikosalaidarkcommit",
     "description": "Automatically updates markdown image links when image files are renamed or moved in the vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "andy51002000/obsidian-image-link-updater"
+    "repo": "hikosalaidarkcommit/obsidian-image-link-updater"
   },
   {
     "id": "copy-link",
@@ -41244,13 +41230,6 @@
     "repo": "rajalokan/obsidian-just-note-plugin"
   },
   {
-    "id": "getlava",
-    "name": "Getlava",
-    "author": "Timur",
-    "description": "Getlava brings the ideas you have already captured into the conversation—so your vault becomes active material for better thinking. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "itipo/lava-plugin"
-  },
-  {
     "id": "bulk-image-to-file-importer",
     "name": "Bulk Image to File Importer",
     "author": "John McAnearney",
@@ -42091,6 +42070,13 @@
     "repo": "faccuo/voz-notas"
   },
   {
+    "id": "frontmatter-kanban-board",
+    "name": "TaskManagement",
+    "author": "yun-lun-li2",
+    "description": "TaskManagement for Markdown task notes with Obsidian-readable frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yun-lun-li/Obsidian-TasksPlugin"
+  },
+  {
     "id": "mm-notes-expand",
     "name": "MM Notes Expand",
     "author": "Math Math",
@@ -42740,13 +42726,6 @@
     "author": "Callan",
     "description": "A private secondary memory for your friendships. Jot gift ideas, conversation threads, and things to do together — Callander resurfaces them when they matter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zcallan/callander-obsidian"
-  },
-  {
-    "id": "bible-search-reader",
-    "name": "Bible Search and Reader",
-    "author": "viacai",
-    "description": "Local Bible Markdown document search and reading plugin, supporting theme/outline/verse search with focus/parallel/mixed projection modes - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "viacai/obsidian-bible-search-reader"
   },
   {
     "id": "aa-codeblock",
@@ -46438,13 +46417,6 @@
     "repo": "tcyeee/obsidian-better-link-display"
   },
   {
-    "id": "writex",
-    "name": "WriteX",
-    "author": "pakco77",
-    "description": "AI 强化原创，利用 Codex、Claude 或 WorkBuddy 在Obsidian里增加聊天，本地文件与图片，预览微信排版，并同步草稿。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pakco77/WriteX"
-  },
-  {
     "id": "gitsync-portal",
     "name": "GitSync Portal",
     "author": "Kai Liu",
@@ -46658,7 +46630,7 @@
     "id": "star-icons",
     "name": "Star Icons",
     "author": "Kerekes Stefan",
-    "description": "The icon collection manager for Obsidian. Browse 103,000+ bundled icons, build collections and tags, and apply icons to files, folders and tabs with an intuitive rules engine and live preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "The icon collection manager for Obsidian. Browse 160,000+ bundled icons, build collections and tags, and apply icons to files, folders and tabs with an intuitive rules engine and live preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "stef4678/star-icons"
   },
   {
@@ -50078,6 +50050,20 @@
     "repo": "yamantaka520/Codex-Plugin-for-Obsidian"
   },
   {
+    "id": "link-calendar",
+    "name": "Manta Calendar",
+    "author": "woonyong-choi",
+    "description": "Find dated Markdown notes in a calendar, open the original, and optionally sync selected notes with Google Calendar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "woonyong-choi/manta-calendar"
+  },
+  {
+    "id": "linked-graph",
+    "name": "Manta Graph",
+    "author": "woonyong-choi",
+    "description": "Follow links in your current note as an ordered outline or focused graph, and preview where to read next. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "woonyong-choi/manta-graph"
+  },
+  {
     "id": "kadima-sync",
     "name": "Kadima Sync",
     "author": "kadima-tech",
@@ -50111,6 +50097,13 @@
     "author": "孙鹏飞",
     "description": "猛士驾驶舱 — Calendar, Projects, Todos, Gantt, Feishu, Sessions integrated workbench - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "spenf710/obsidian-mengshi-cockpit"
+  },
+  {
+    "id": "runnable-code-blocks",
+    "name": "Manta Code Blocks",
+    "author": "woonyong-choi",
+    "description": "Edit and run code inside Obsidian notes, with inline results and optional local or remote runtimes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "woonyong-choi/manta-code-blocks"
   },
   {
     "id": "inline-agents",
@@ -53354,6 +53347,13 @@
     "repo": "michael-jb/place-notes"
   },
   {
+    "id": "live-plots",
+    "name": "Live Plots",
+    "author": "Andrea",
+    "description": "Live, interactive Desmos graphs from desmos-graph code blocks. Requires a free Desmos API key. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "adb991/live-plots"
+  },
+  {
     "id": "print-studio",
     "name": "Print Studio",
     "author": "5krus",
@@ -54570,5 +54570,12 @@
     "author": "kotaindah55",
     "description": "Inject additional mainstream icons from Lucide and Lucide Lab. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kotaindah55/mainstream-icons"
+  },
+  {
+    "id": "cyriform-companion",
+    "name": "Cyriform Companion",
+    "author": "Cyrius Weng",
+    "description": "Apply note states, widths and accents, and insert callouts, highlights, task states and image layouts for Cyriform. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cyriusweng/cyriform-companion"
   }
 ]
