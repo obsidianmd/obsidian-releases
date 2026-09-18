@@ -700,6 +700,13 @@
     "repo": "thek3nger/obsidian-chessboard"
   },
   {
+    "id": "obsidian-vault-changelog",
+    "name": "Vault Changelog",
+    "author": "Mark Ayers",
+    "description": "Maintain a changelog of recently edited notes.",
+    "repo": "philoserf/obsidian-vault-changelog"
+  },
+  {
     "id": "obsidian-furigana",
     "name": "Furigana",
     "author": "uonr",
@@ -1314,13 +1321,6 @@
     "author": "ozntel",
     "description": "See the number of notes in each folder within the file explorer.",
     "repo": "ozntel/file-explorer-note-count"
-  },
-  {
-    "id": "quickadd",
-    "name": "QuickAdd",
-    "author": "chhoumann",
-    "description": "Quickly add new notes or content to your vault.",
-    "repo": "chhoumann/quickadd"
   },
   {
     "id": "obsidian-pandoc",
@@ -34104,13 +34104,6 @@
     "repo": "18621063286/xBookmarksObsidian"
   },
   {
-    "id": "inline-fold",
-    "name": "Inline Fold",
-    "author": "Mohamed Saleh",
-    "description": "Extend Markdown capabilities by adding inline fold, encapsulate text anywhere in the note, create spoilers, even flashcards for active recall. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mohamedsaleh0-0/obsidian-inline-fold"
-  },
-  {
     "id": "dictava-sync",
     "name": "Dictava",
     "author": "Dictava",
@@ -43067,7 +43060,7 @@
     "id": "token-usage",
     "name": "Token Usage",
     "author": "Björn-Olaf Lange",
-    "description": "Real-time Claude Code token tracking — see exactly how close you are to your rate limit, not just raw counts. NextGen sidebar with heatmap and calendar, plus an HTML dashboard. No API key needed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Real-time Claude Code token tracking, plus a rate-limit estimate that gets more precise the more you use it. NextGen sidebar with heatmap and calendar, HTML dashboard. No API key needed. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "beolatn/TokenUsage"
   },
   {
@@ -47794,13 +47787,6 @@
     "author": "Cardy",
     "description": "Art asset gallery: manage images, videos, audio and links with AI generation prompts, waterfall gallery, filtering, and an infinite canvas for curation. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "durancex/Obsidian-GalleryHub"
-  },
-  {
-    "id": "nosygraph",
-    "name": "NosyGraph",
-    "author": "Jan Bergholz",
-    "description": "Build and explore structured, expandable graphs from your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "janb987/NosyGraph"
   },
   {
     "id": "copy-on-demand",
@@ -53956,13 +53942,6 @@
     "repo": "git-hub-dangel/euphoric-flashcards"
   },
   {
-    "id": "visual-agent-map",
-    "name": "Visual Agent Map",
-    "author": "Kevin Tsai",
-    "description": "Explore topics with asynchronous AI tasks in a visual map backed by Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kevcltsai/visual-agent-map"
-  },
-  {
     "id": "sfc-flashcards",
     "name": "FSRS Flashcards",
     "author": "北冥尘",
@@ -54306,6 +54285,13 @@
     "repo": "micahchoo/keep-writing"
   },
   {
+    "id": "darkroom",
+    "name": "Darkroom",
+    "author": "Consonance Trad",
+    "description": "Play A Dark Room inside your vault. Ported from the original open-source game by Doublespeak Games. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "consonancetrad/obsidian-darkroom"
+  },
+  {
     "id": "unified-typography",
     "name": "Unified Typography",
     "author": "Aether Markey",
@@ -54332,5 +54318,12 @@
     "author": "Fokus",
     "description": "Two-way sync between your vault and Fokus notes, with tags, buckets, and embedded images. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "getfokus-app/obsidian-plugin"
+  },
+  {
+    "id": "task-overview",
+    "name": "Task Overview",
+    "author": "carlesba",
+    "description": "Lists the tasks of the note in focus, filtered by open or completed, and optionally grouped under their headings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "carlesba/obsidian-task-overview"
   }
 ]
