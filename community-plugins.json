@@ -19929,6 +19929,13 @@
     "repo": "sdkasper/lean-obsidian-terminal"
   },
   {
+    "id": "vaultchat",
+    "name": "VaultChat",
+    "author": "kpulik",
+    "description": "Multi-provider AI chat with file reading, editing, creation, and deletion. Supports Anthropic, OpenAI, Google Gemini, OpenRouter, and Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kpulik/VaultChat"
+  },
+  {
     "id": "deepl-translate-selection",
     "name": "DeepL Translate Selection",
     "author": "fanxin199",
@@ -22769,6 +22776,13 @@
     "author": "kgdrathan",
     "description": "Automatically moves completed tasks to the bottom of their lists. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kgdrathan/donedrop"
+  },
+  {
+    "id": "task-planner",
+    "name": "Task Planner",
+    "author": "selfish",
+    "description": "Manage tasks with drag-and-drop planning, Today focus, backlog, overdue tracking, and weekly time horizons. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "selfish/obsidian-task-planner"
   },
   {
     "id": "lighthouse",
@@ -29141,6 +29155,13 @@
     "repo": "keithwithai/reading-progress"
   },
   {
+    "id": "new-note-np",
+    "name": "New Note NP",
+    "author": "leruetkins",
+    "description": "Adds a Create new note button back to the left ribbon. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leruetkins/new-note-np"
+  },
+  {
     "id": "lark-doc",
     "name": "Lark Wiki",
     "author": "SpatialOnee",
@@ -29300,6 +29321,13 @@
     "author": "Rafael Mehdiyev",
     "description": "Track time spent on notes. Timer keeps running even when Obsidian is running on background. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rafaelmehdiyev/obsidian-vault-time-tracker"
+  },
+  {
+    "id": "plugin-profile-manager",
+    "name": "Profile Manager",
+    "author": "K0324-j",
+    "description": "Edit community plugin enablement across multiple config profiles. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "k0324-j/profile-manager"
   },
   {
     "id": "slash-commands",
@@ -30093,6 +30121,13 @@
     "repo": "t0masgutierrez/folder-sort"
   },
   {
+    "id": "gallery-view-dashboard",
+    "name": "Gallery View Dashboard",
+    "author": "Kawê Cezar",
+    "description": "Transforms your vault's directory structures into a streamlined grid of card visuals with fallback banners and interactive metadata. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kawecz/gallery-view-dashboard"
+  },
+  {
     "id": "vir",
     "name": "Vir",
     "author": "Djordje Marković",
@@ -30324,6 +30359,13 @@
     "repo": "mikuloverfan/draft-paper"
   },
   {
+    "id": "plugin-name-locker",
+    "name": "Custom Extension Names",
+    "author": "AQiong 阿琼",
+    "description": "Customize the display names of your installed plugins and optionally keep them unchanged across updates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "agarcabin/obsidian-custom-extension-names"
+  },
+  {
     "id": "project-view",
     "name": "Project View",
     "author": "ngchenghow",
@@ -30532,6 +30574,13 @@
     "author": "Yuto Takagi",
     "description": "Hosted alternative to org-share: sign in with email, share notes with org / allowlist / public audiences. No Cloudflare setup required. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yut0takagi/obsidian-share-hosted"
+  },
+  {
+    "id": "image-insert-hotkey",
+    "name": "Image insert hotkey",
+    "author": "MeatBall",
+    "description": "Insert images via a configurable hotkey, with customizable alt text templates and path options. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "banbianzhang/Image-insert-hotkey"
   },
   {
     "id": "system-recording",
@@ -30805,6 +30854,13 @@
     "author": "Ryan Bakker",
     "description": "A streamlined, context-aware calendar interface for Obsidian. Easily track events, daily notes, and time-sensitive tasks directly from your workspace layout. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "carnalmatrix/obsidian-mantle-calendar"
+  },
+  {
+    "id": "sage",
+    "name": "Sage",
+    "author": "networkgestalt",
+    "description": "Generate linked concept notes from selected text in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nicholasjroy/obsidian-sage"
   },
   {
     "id": "granola-notes-merger",
@@ -38962,6 +39018,13 @@
     "repo": "itnq18/obsidian-audio-timestamp-player"
   },
   {
+    "id": "shortcuts",
+    "name": "Command Shortcuts",
+    "author": "jsmorabito",
+    "description": "Activate commands using multiple shortcut methods. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jsmorabito/Obsidian-Command-Shortcuts"
+  },
+  {
     "id": "column-explorer",
     "name": "Column Explorer",
     "author": "n23eos",
@@ -45286,7 +45349,7 @@
     "id": "table-csv",
     "name": "TableCSV",
     "author": "k-tech-studio",
-    "description": "Open CSV as tables. Create a CSV from a folder. Filter and sort without changing the file. Set a column type (text, number, date, checkbox). Pin last row or first column. Copy, cut, paste. Offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Open CSV as tables. Create a CSV from a folder. Filter and sort without changing the file. Set a column type. Tab, Enter, arrows between cells. Pin last row or first column. Copy, cut, paste. Offline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "crossbeat461-a11y/table-csv"
   },
   {
@@ -47038,6 +47101,13 @@
     "author": "laillei",
     "description": "Card-view character archive for Obsidian. Notes stay in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "laillei-plugins/character-archive"
+  },
+  {
+    "id": "obsyncer",
+    "name": "Oppsyncer",
+    "author": "Low Nam Lee",
+    "description": "Deterministic desktop and mobile vault sync through GitHub with automatic recovery snapshots. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lownamlee/Oppsyncer"
   },
   {
     "id": "transcriptexporter-sync",
@@ -52451,6 +52521,13 @@
     "repo": "agimx-ai/motusai-obsidian-agent"
   },
   {
+    "id": "merlay",
+    "name": "Merlay",
+    "author": "Ali Hashemi",
+    "description": "Visual overlay editor for Mermaid diagrams. Mermaid, your way. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dev-hashemi/merlay"
+  },
+  {
     "id": "morphic",
     "name": "Morphic",
     "author": "lunarch",
@@ -54171,5 +54248,19 @@
     "author": "Wilfried AGO",
     "description": "Edit, preview, and export Typst documents using the Tinymist language server. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wilfriedago/obsidian-tinymist"
+  },
+  {
+    "id": "noctua",
+    "name": "Noctua",
+    "author": "Glyn Darkin",
+    "description": "Send notes to Noctua to be converted into audio episodes in your personal podcast feed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "darkin100/noctua-plugins-obsidian"
+  },
+  {
+    "id": "speedlog",
+    "name": "Speedlog",
+    "author": "Real-Fruit-Snacks",
+    "description": "Run an internet speed test and log every result as a note: download, upload, latency and jitter as front matter, with a self-updating summary. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "real-fruit-snacks/obsidian-speedlog"
   }
 ]
