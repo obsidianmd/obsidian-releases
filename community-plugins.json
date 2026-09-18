@@ -19663,6 +19663,13 @@
     "repo": "ahmed-farhat99/core-habits"
   },
   {
+    "id": "garmin-health-sync",
+    "name": "Garmin Health Sync",
+    "author": "fcandi",
+    "description": "Sync Garmin Connect health data into your Daily Notes as frontmatter properties. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fcandi/Garmin-Health-Sync"
+  },
+  {
     "id": "show-hidden-files",
     "name": "Show Hidden Files",
     "author": "witi42",
@@ -33941,13 +33948,6 @@
     "author": "PatruusBarba",
     "description": "Wrap selected text in a collapsible spoiler callout, or unwrap an existing spoiler, from a ribbon button. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "patruusbarba/ObsidianSpoilerPlugin"
-  },
-  {
-    "id": "plaud-importer",
-    "name": "Plaud Importer",
-    "author": "Charles Kelsoe",
-    "description": "Import meeting summaries, transcripts, and attachments from Plaud.AI into your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ckelsoe/obsidian-plaud-importer"
   },
   {
     "id": "cite-engine",
@@ -48282,7 +48282,7 @@
     "id": "formatted-chinese",
     "name": "Formatted Chinese",
     "author": "FormattedChinese",
-    "description": "Romanize and translate Chinese text in your notes: Jyutping, Yale, or pinyin with a formatted bilingual layout. Supports Cantonese and Mandarin via FormattedChinese.com. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Cantonese-first Jyutping, Yale, or pinyin study layouts with translation. Works without an API key; optional free key raises limits. Text is sent to FormattedChinese.com. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "formattedchinese/formatted-chinese-obsidian"
   },
   {
@@ -52003,6 +52003,13 @@
     "repo": "exemplarov/vibed"
   },
   {
+    "id": "canvas-mind-map",
+    "name": "Canvas Mind Map",
+    "author": "zenolzx",
+    "description": "Create collapsible Canvas mind maps from Markdown with seven layouts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zenolzx/Canvas-Mind-Map"
+  },
+  {
     "id": "vietnam-ai-rss",
     "name": "Vietnam AI RSS",
     "author": "TonyX",
@@ -54285,6 +54292,13 @@
     "repo": "chaojikai/obsidian-task-pool"
   },
   {
+    "id": "syncvault",
+    "name": "SyncVault",
+    "author": "talon",
+    "description": "同步你的笔记库到自托管 CouchDB 服务器，支持端到端加密，双向实时更新，全中文界面。参考 Self-hosted LiveSync（MIT）重写，数据完全由你掌控。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tiga89/syncvault"
+  },
+  {
     "id": "keep-writing",
     "name": "keep-writing",
     "author": "suffername",
@@ -54304,5 +54318,19 @@
     "author": "Pitt",
     "description": "Sync IMA shared text articles to local Markdown notes using Windows desktop automation. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "oooing/ima-share-sync"
+  },
+  {
+    "id": "nectenda",
+    "name": "Nectenda",
+    "author": "Nectenda",
+    "description": "Collaborate on notes in real time with live cursors, shared folders and offline editing, end-to-end encrypted so the server cannot read them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nectenda/nectenda-plugin"
+  },
+  {
+    "id": "fokus-sync",
+    "name": "Fokus Sync",
+    "author": "Fokus",
+    "description": "Two-way sync between your vault and Fokus notes, with tags, buckets, and embedded images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "getfokus-app/obsidian-plugin"
   }
 ]
