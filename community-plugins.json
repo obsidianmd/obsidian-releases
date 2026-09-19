@@ -11536,13 +11536,6 @@
     "repo": "chfourie/obsidian-journal-folder"
   },
   {
-    "id": "harper",
-    "name": "Harper",
-    "author": "automattic",
-    "description": "The fastest grammar and spell checker that respects your privacy.",
-    "repo": "automattic/harper-obsidian-plugin"
-  },
-  {
     "id": "account-viewer",
     "name": "Account Viewer",
     "author": "muaz742",
@@ -12733,13 +12726,6 @@
     "repo": "charliecm/obsidian-open-with-nldates"
   },
   {
-    "id": "hierarchical-backlinks",
-    "name": "Hierarchical Backlinks",
-    "author": "jasonmotylinski",
-    "description": "Displays backlinks in a tree structure.",
-    "repo": "jasonmotylinski/hierarchical-backlinks"
-  },
-  {
     "id": "exmemo-client",
     "name": "ExMemo Client",
     "author": "exmemo-ai",
@@ -13363,13 +13349,6 @@
     "repo": "hoshino-yumetsuki/obsidian-plugin-abbrlink"
   },
   {
-    "id": "instant-above-divider",
-    "name": "Instant Above Divider",
-    "author": "sedationh",
-    "description": "Quickly insert a divider line at the beginning of your note.",
-    "repo": "sedationh/obsidian-instant-above-divider"
-  },
-  {
     "id": "scribe",
     "name": "Scribe",
     "author": "mikodin",
@@ -13522,13 +13501,6 @@
     "author": "smallzombie",
     "description": "Restore the link opening method to Ctrl + Left Click.",
     "repo": "smallzombie/link-opening-restore"
-  },
-  {
-    "id": "anchor-display-text",
-    "name": "Anchor Link Display Text",
-    "author": "rca-umb",
-    "description": "Automatically uses the linked heading as the display text for anchor links.",
-    "repo": "rca-umb/anchor-link-display-text"
   },
   {
     "id": "focus-time",
@@ -30994,13 +30966,6 @@
     "author": "Gabby Welson",
     "description": "Search Google Maps and insert place coordinates into note frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gabbywelson/obsidian-corduroy"
-  },
-  {
-    "id": "supernovae-tab",
-    "name": "Supernovae Tab",
-    "author": "sikoso774",
-    "description": "A galaxy-themed new tab for Obsidian — animated starfield, space aesthetics, and your vault at the center of the universe. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sikoso774/supernovae-tab"
   },
   {
     "id": "orbit-graph-view",
@@ -50792,13 +50757,6 @@
     "repo": "turnipsforme/better-editor"
   },
   {
-    "id": "team-relay",
-    "name": "Team Relay",
-    "author": "Entire VC",
-    "description": "Enterprise collaboration with self-hosted relay infrastructure. Real-time editing with live cursors and secure team workspaces. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "entire-vc/evc-team-relay-plugin"
-  },
-  {
     "id": "hybrid-chat",
     "name": "Hybrid Chat",
     "author": "Jens Mittelbach",
@@ -51586,7 +51544,7 @@
     "id": "shuai-wechat-formatter",
     "name": "Shuai WeChat Formatter",
     "author": "qizong007",
-    "description": "一键将当前 Markdown 笔记复制为微信公众号富文本，并在侧边栏实时预览。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Copy Markdown notes as WeChat-ready rich text, with live preview in an editor split or new tab. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "qizong007/shuai-ob-wx-offi-plugin"
   },
   {
@@ -54717,5 +54675,40 @@
     "author": "Kempf",
     "description": "A file-based visual decision map for comparing options, benefits, drawbacks, and tradeoffs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "the-kempf/kempfs-simple-decision-helper"
+  },
+  {
+    "id": "remote-archive",
+    "name": "Remote Archive",
+    "author": "StarPanda",
+    "description": "Move vault files to remote storage and restore them when needed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "starpandabeg/webdav-archive"
+  },
+  {
+    "id": "ultra-budget-tracker",
+    "name": "Ultra Budget Tracker",
+    "author": "Ahmed Hassan",
+    "description": "Turn bank SMS messages into structured transaction notes, then track spending, budgets, merchants and account balances in a built-in budget view. Runs entirely offline on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "a7med7asan15/obsidian-finance-automation"
+  },
+  {
+    "id": "proxima",
+    "name": "Proxima",
+    "author": "santhoshsram",
+    "description": "Local-first semantic search: related notes, interactive proximity graph, and concept search, all on-device. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "santhoshsram/obsidian-proxima"
+  },
+  {
+    "id": "batch-copy-paths",
+    "name": "Batch Copy Names and Paths",
+    "author": "双流赵师傅",
+    "description": "Copy the names, vault-relative paths, absolute paths, wiki links, Markdown links, and Obsidian URIs of multiple selected notes to the clipboard at once. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhaoscsc/obsidian-batch-copy-paths"
+  },
+  {
+    "id": "vault-pet",
+    "name": "Vault Pet",
+    "author": "Elliott Park",
+    "description": "A pixel pet that grows as you write. Characters, links and new notes become XP, with daily quests, badges, streaks and accessories to unlock. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "elliott-json-park/obsidian-vault-pet"
   }
 ]
