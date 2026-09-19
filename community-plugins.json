@@ -47040,6 +47040,13 @@
     "repo": "coffeecheese/obsidian-pm-insights"
   },
   {
+    "id": "culebra-ai-spell-correct",
+    "name": "Culebra AI Spell Correct",
+    "author": "Rahul S",
+    "description": "Correct spelling, grammar, and punctuation in selected text, notes, and Markdown files using OpenRouter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Culebra-Obsidian-AI-Auto-Correct-Spelling"
+  },
+  {
     "id": "vault-issues",
     "name": "Vault Issues",
     "author": "Aizic Albert",
@@ -53623,7 +53630,7 @@
     "id": "heading-word-count",
     "name": "Heading Word Count",
     "author": "cy",
-    "description": "Shows a per-section word count after every H1–H6 heading in a dedicated outline panel. Counts Chinese characters one-by-one and English by words, with configurable punctuation rules. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Per-heading (H1–H6) word count outline for Chinese and English writing. Counts CJK characters one-by-one and English by words, with configurable punctuation and a bilingual interface. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "windar92/heading-word-count"
   },
   {
@@ -54726,10 +54733,24 @@
     "repo": "tommyhedgerow/obsidian-lesson-publisher"
   },
   {
+    "id": "stock-valuations",
+    "name": "Stock Valuations",
+    "author": "fernanluyano",
+    "description": "Calculate WACC, DCF, Graham, and Ten Cap intrinsic value, and track saved valuations in a vault summary note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fernanluyano/obs-stock-valuations"
+  },
+  {
     "id": "folder-palette",
     "name": "Folder Palette",
     "author": "Emir Kaan Ozver",
     "description": "Color File Explorer folders and files with dynamic, stable, preset, or custom palettes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ekozf/folder-palette"
+  },
+  {
+    "id": "shared-blocks",
+    "name": "Shared Blocks",
+    "author": "siulved54",
+    "description": "Reuse one block of text in many notes. Edit the block in its source note and every reference re-renders live. Everything stays in your vault, with no network access. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "perezamadorluisenrique-gif/shared-blocks"
   }
 ]
