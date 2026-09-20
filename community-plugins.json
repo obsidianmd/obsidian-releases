@@ -12127,7 +12127,7 @@
     "id": "nexus-ai-chat-importer",
     "name": "Nexus AI Chat Importer",
     "author": "superkikim",
-    "description": "Import AI chat conversations from ChatGPT, Claude, and Mistral Vibe (formerly Le Chat) exports into Obsidian as clean, readable Markdown files.",
+    "description": "Import AI chat conversations from ChatGPT, Claude, Mistral Vibe, Perplexity* and Grok* exports into Obsidian as clean, readable Markdown files.",
     "repo": "superkikim/nexus-ai-chat-importer"
   },
   {
@@ -46725,6 +46725,13 @@
     "repo": "dudethatserin/FolderColor"
   },
   {
+    "id": "fleur-pdf",
+    "name": "FleurPDF",
+    "author": "JC5",
+    "description": "Smart PDF reading and annotation plugin with AI-powered features - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gibsonchan-5/fleur-pdf"
+  },
+  {
     "id": "review-edit",
     "name": "Review Edit",
     "author": "wenzhi-ding",
@@ -52661,34 +52668,6 @@
     "repo": "power-ioi/code-block-char-count"
   },
   {
-    "id": "kairo-quick-capture",
-    "name": "Kairo Quick Capture",
-    "author": "Rahul S",
-    "description": "Capture fleeting thoughts quickly and deliver them safely to an inbox or daily note. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Kairo-Quick-Capture"
-  },
-  {
-    "id": "cairn-vault-linter",
-    "name": "Cairn Vault Linter",
-    "author": "Rahul S",
-    "description": "Offline vault health report for broken links, duplicate references, block IDs, and dangling stubs. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Cairn-Vault-Linter"
-  },
-  {
-    "id": "tundra-frontmatter-wrangler",
-    "name": "Tundra Frontmatter Wrangler",
-    "author": "Rahul S",
-    "description": "Safely preview, apply, and roll back bulk frontmatter and property changes offline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Tundra-Frontmatter-Wrangler"
-  },
-  {
-    "id": "meridian-timeline",
-    "name": "Meridian Timeline",
-    "author": "Rahul S",
-    "description": "Explore dated notes and historical spans on an interactive, local-only timeline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Meridian-Timeline"
-  },
-  {
     "id": "aegis-note-locker",
     "name": "Aegis Note Locker",
     "author": "Rahul S",
@@ -54670,6 +54649,13 @@
     "repo": "cachewraith/shard-icons"
   },
   {
+    "id": "automatic-file-icons",
+    "name": "Automatic File Icons",
+    "author": "Philipp Reichelt",
+    "description": "Show icons for open and closed folders, notes and other files in the file explorer, with colors for dark and light themes, the accent color or your own colors. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "reicheltmediadesign/obsidian-automatic-file-icons"
+  },
+  {
     "id": "llm-wiki-review",
     "name": "LLM Wiki Review",
     "author": "Elliott Park",
@@ -54864,5 +54850,19 @@
     "author": "suzkapu",
     "description": "Draws section hierarchy guides from Heading Level Indent in Reading view. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "suzkapu/obsidian-list-guide-bridge"
+  },
+  {
+    "id": "gtd-brain",
+    "name": "GTD Brain",
+    "author": "Minosin AB",
+    "description": "Set up a Getting Things Done vault (Inbox, Next Actions by context, Projects, Waiting For, Someday/Maybe, Weekly Review) and sync it two-way with your GTD Brain board. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "minosin/gtdbrain-obsidian"
+  },
+  {
+    "id": "ai-codingplan-check",
+    "name": "AI CodingPlan Check",
+    "author": "Jiao Yingxing",
+    "description": "查询 AI 编程订阅套餐剩余额度（OpenCode Go / Command Code / 火山方舟），支持多账号多套餐. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jiaoyingxing/ai-codingplan-check"
   }
 ]
