@@ -9723,13 +9723,6 @@
     "repo": "aarol/obsidian-hugo-codeblock-highlight"
   },
   {
-    "id": "canvas-node-screenshot",
-    "name": "Node Screenshot",
-    "author": "cestfredy",
-    "description": "Capture node effortlessly with precision screenshot.",
-    "repo": "cestfredy/obsidian-canvas-node-screenshot"
-  },
-  {
     "id": "line-commands",
     "name": "Line Commands",
     "author": "charliecm",
@@ -11037,6 +11030,13 @@
     "author": "typhoon-kim",
     "description": "Syntax highlighting for Svelte code blocks.",
     "repo": "typhoon-kim/obsidian-svelte-syntax-highlighter"
+  },
+  {
+    "id": "task-list-kanban",
+    "name": "Task List Kanban",
+    "author": "erikars",
+    "description": "Organizes all of the tasks within your files into a kanban view.",
+    "repo": "erikars/task-list-kanban"
   },
   {
     "id": "midi-logger",
@@ -46529,6 +46529,13 @@
     "repo": "tudo9710/obsidian-dsh"
   },
   {
+    "id": "smart-notes",
+    "name": "Smart Notes",
+    "author": "hellokunzai",
+    "description": "Analyze your vault with AI to generate bidirectional links, enrich frontmatter properties, optimize notes, and provide in-editor autocompletion. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hellokunzai/obsidian-smart-notes"
+  },
+  {
     "id": "canvas-to-tasks",
     "name": "Canvas to Tasks",
     "author": "Ryan",
@@ -46966,7 +46973,7 @@
     "id": "insert-callout",
     "name": "Insert Callout",
     "author": "nonkuri",
-    "description": "Insert a callout via a type-selection dialog, or with autocomplete by typing [! in a quote block. Turns the cursor line or selection into a callout, and can remove a callout along with its quote markers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create callouts with a type-selection dialog or inline autocomplete, remove them along with quote markers, and navigate the current note's callouts from a sidebar list. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nonkuri/insert-callout"
   },
   {
@@ -52668,13 +52675,6 @@
     "repo": "power-ioi/code-block-char-count"
   },
   {
-    "id": "aegis-note-locker",
-    "name": "Aegis Note Locker",
-    "author": "Rahul S",
-    "description": "Protect note bodies and selected frontmatter values with local authenticated encryption. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Aegis-Note-Locker"
-  },
-  {
     "id": "icor-for-life-scratchpad",
     "name": "ICOR for Life - Scratchpad",
     "author": "Thomas Roedl",
@@ -52694,13 +52694,6 @@
     "author": "Torus Hidenami",
     "description": "Collects unchecked tasks from Obsidian Canvas cards into an Inbox card. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "torus211/canvas-inbox-sync"
-  },
-  {
-    "id": "mica-webp-optimizer",
-    "name": "Mica WebP Optimizer",
-    "author": "Rahul S",
-    "description": "Optimize PNG and JPEG media locally as verified WebP files without breaking Obsidian links. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Mica-WebP-Optimizer"
   },
   {
     "id": "rememo",
@@ -54817,6 +54810,13 @@
     "repo": "micahchoo/image-annotation"
   },
   {
+    "id": "refined-layout",
+    "name": "Refined Layout",
+    "author": "floratina",
+    "description": "Independent layout controls for Obsidian editing and reading views. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "floratina/Obsidian-Refined-Layout"
+  },
+  {
     "id": "self-hosted-note-share",
     "name": "Self-Hosted Note Share",
     "author": "Somonor Hong",
@@ -54829,6 +54829,20 @@
     "author": "囍樂",
     "description": "Track birthdays and anniversaries with lunar/solar dates, countdowns, reminders, and iCal export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xileshuo/jinianri"
+  },
+  {
+    "id": "mini-translator",
+    "name": "Mini Translator",
+    "author": "georgecao",
+    "description": "Translate selected text and PDFs with built-in services and OpenAI-compatible models. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "georgecao-001/mini-translator"
+  },
+  {
+    "id": "materin-office",
+    "name": "Materin Office",
+    "author": "leapord",
+    "description": "Read, edit and save Office files (docx, xlsx, pptx, xls, doc, ppt) inside Obsidian with faithful write-back. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leapord/Materin-office"
   },
   {
     "id": "mermaid-lazy-render",
@@ -54852,6 +54866,13 @@
     "repo": "suzkapu/obsidian-list-guide-bridge"
   },
   {
+    "id": "academic-notes",
+    "name": "Academic Notes",
+    "author": "Kristal Boltinn",
+    "description": "Number and reference theorems, equations, figures, and tables across notes, with cross-file links, a table of contents, and multi-note PDF export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kristal-boltinn/academic-notes"
+  },
+  {
     "id": "gtd-brain",
     "name": "GTD Brain",
     "author": "Minosin AB",
@@ -54864,5 +54885,19 @@
     "author": "Jiao Yingxing",
     "description": "查询 AI 编程订阅套餐剩余额度（OpenCode Go / Command Code / 火山方舟），支持多账号多套餐. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiaoyingxing/ai-codingplan-check"
+  },
+  {
+    "id": "telegram-bot-integration-by-msxd",
+    "name": "Telegram Vault Bot",
+    "author": "Alex",
+    "description": "Send messages to your own Telegram bot to file them into notes, and ask it what tasks are due. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "msxd/obsidian-telegram-bot-integration"
+  },
+  {
+    "id": "longhai-podscript",
+    "name": "Longhai Podscript",
+    "author": "longhai",
+    "description": "Fetch full podcast transcripts (YouTube, Apple Podcasts, audio links, or a title) — reuse existing captions or transcribe audio locally with Whisper — and save them as structured notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "longhaiqwe/longhai-podscript"
   }
 ]
