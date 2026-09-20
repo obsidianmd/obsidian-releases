@@ -18200,13 +18200,6 @@
     "repo": "mnaoumov/obsidian-nested-properties"
   },
   {
-    "id": "vault-as-mcp",
-    "name": "Vault as MCP",
-    "author": "ebullient",
-    "description": "Runs an MCP server inside Obsidian, exposing your vault to external LLM tools with read, search, and edit operations. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ebullient/obsidian-vault-mcp"
-  },
-  {
     "id": "simplest-todo",
     "name": "Simplest Todo",
     "author": "kintolayli",
@@ -19148,7 +19141,7 @@
     "id": "writing-heatmap",
     "name": "Writing Heatmap",
     "author": "0xaikang",
-    "description": "GitHub-style heatmap for daily note creation and writing word count. Visualize your writing habit. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Visualize your daily writing as a GitHub-style heatmap in the sidebar, alongside vault-wide note, tag and usage-day counters. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "0xaikang/obsidian-writing-heatmap"
   },
   {
@@ -53102,6 +53095,13 @@
     "repo": "feifangit/obsidian-vault-in-vault"
   },
   {
+    "id": "kirio-highlights",
+    "name": "Kirio",
+    "author": "Devansh Jhawar",
+    "description": "View and navigate your Kirio web highlights inside your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "programmerdsj/kirio-obsidian-plugin"
+  },
+  {
     "id": "ask-ai",
     "name": "Ask AI",
     "author": "Alberto",
@@ -53758,13 +53758,6 @@
     "author": "Hanqi Zhang",
     "description": "Lets Wedelia search this vault on your device, sending only matching excerpts or a note she asks to open. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jibanzi/wedelia-notes"
-  },
-  {
-    "id": "braincore-lifeos",
-    "name": "BrainCore LifeOS",
-    "author": "囍樂",
-    "description": "Obsidian 知识库的「核心呼吸机」，它由 7 大模块组成，涵盖了时间感知、极速收集、工作流转、习惯养成与知识内化。一切信息从这里输入，最终也会在这里沉淀。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "xileshuo/BrainCore-LifeOS"
   },
   {
     "id": "evolution-homepage",
@@ -54857,5 +54850,19 @@
     "author": "suffername",
     "description": "Mark image regions, add captions, and attach them to notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "micahchoo/image-annotation"
+  },
+  {
+    "id": "self-hosted-note-share",
+    "name": "Self-Hosted Note Share",
+    "author": "Somonor Hong",
+    "description": "Publish a note to a public link on a server you run yourself. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cachewraith/share-note-web"
+  },
+  {
+    "id": "jinianri",
+    "name": "Anniversaries",
+    "author": "囍樂",
+    "description": "Track birthdays and anniversaries with lunar/solar dates, countdowns, reminders, and iCal export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xileshuo/jinianri"
   }
 ]
