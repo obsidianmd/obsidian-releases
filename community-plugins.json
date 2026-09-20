@@ -20948,7 +20948,7 @@
     "name": "My Export To HTML",
     "author": "justwsh",
     "description": "Export notes to beautiful HTML files. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "justwsh/obsidianExportHTML"
+    "repo": "bitscache/obsidianExportHTML"
   },
   {
     "id": "highmagician-any-task",
@@ -47145,13 +47145,6 @@
     "repo": "mikolajsapek/obsidian-havemind"
   },
   {
-    "id": "worklife-calendar",
-    "name": "WorkLife Calendar",
-    "author": "RavenLife",
-    "description": "Calendar, task tracker, habit tracker, and financial planner — all in one plugin for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "atinss/WorkLife-Calendar-for-Obsidian"
-  },
-  {
     "id": "task-sorter",
     "name": "Task Sorter",
     "author": "Artem Oreshkin",
@@ -47724,6 +47717,13 @@
     "author": "n23eos",
     "description": "Interactive sunburst chart of your vault. See folder sizes on disk, word counts and file counts at a glance, with animated zoom and 13 languages. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "n23eos/obsidian-vault-sunburst"
+  },
+  {
+    "id": "re-supercharged-links",
+    "name": "Re-supercharged Links",
+    "author": "Carl Bechstrom",
+    "description": "Re-Supercharged Links is an advanced link-styling plugin for Obsidian that has evolved far beyond the original fork into a substantially redesigned and expanded implementation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "carlb01/re-supercharged-links"
   },
   {
     "id": "local-agent-assistant",
@@ -50591,7 +50591,7 @@
   {
     "id": "film-tracker",
     "name": "Film + Anime-Manga Tracker",
-    "author": "erklig",
+    "author": "yunuseymenkarasu",
     "description": "Add a film to your vault as a note with metadata and a poster. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yunuskarasu/obsidian-film-tracker"
   },
@@ -52689,6 +52689,41 @@
     "repo": "power-ioi/code-block-char-count"
   },
   {
+    "id": "kairo-quick-capture",
+    "name": "Kairo Quick Capture",
+    "author": "Rahul S",
+    "description": "Capture fleeting thoughts quickly and deliver them safely to an inbox or daily note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Kairo-Quick-Capture"
+  },
+  {
+    "id": "cairn-vault-linter",
+    "name": "Cairn Vault Linter",
+    "author": "Rahul S",
+    "description": "Offline vault health report for broken links, duplicate references, block IDs, and dangling stubs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Cairn-Vault-Linter"
+  },
+  {
+    "id": "tundra-frontmatter-wrangler",
+    "name": "Tundra Frontmatter Wrangler",
+    "author": "Rahul S",
+    "description": "Safely preview, apply, and roll back bulk frontmatter and property changes offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Tundra-Frontmatter-Wrangler"
+  },
+  {
+    "id": "meridian-timeline",
+    "name": "Meridian Timeline",
+    "author": "Rahul S",
+    "description": "Explore dated notes and historical spans on an interactive, local-only timeline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Meridian-Timeline"
+  },
+  {
+    "id": "aegis-note-locker",
+    "name": "Aegis Note Locker",
+    "author": "Rahul S",
+    "description": "Protect note bodies and selected frontmatter values with local authenticated encryption. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Aegis-Note-Locker"
+  },
+  {
     "id": "icor-for-life-scratchpad",
     "name": "ICOR for Life - Scratchpad",
     "author": "Thomas Roedl",
@@ -52708,6 +52743,13 @@
     "author": "Torus Hidenami",
     "description": "Collects unchecked tasks from Obsidian Canvas cards into an Inbox card. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "torus211/canvas-inbox-sync"
+  },
+  {
+    "id": "mica-webp-optimizer",
+    "name": "Mica WebP Optimizer",
+    "author": "Rahul S",
+    "description": "Optimize PNG and JPEG media locally as verified WebP files without breaking Obsidian links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Mica-WebP-Optimizer"
   },
   {
     "id": "rememo",
@@ -55004,5 +55046,19 @@
     "author": "Max Dokukin",
     "description": "Select text in a PDF and click a color. Highlights are listed in a note next to the PDF, grouped by color and sorted by page, and drawn on the PDF without modifying the file. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "maxdokukin/easy-pdf-highlight"
+  },
+  {
+    "id": "vaire",
+    "name": "Vaire",
+    "author": "Maarten",
+    "description": "Vairë knowledge packages inside Obsidian: typed references, suggestions, dependencies, catalog and registries via the vaire CLI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dezemand/obsidian-vaire"
+  },
+  {
+    "id": "project-curie-sync",
+    "name": "Curie",
+    "author": "datronizer",
+    "description": "Sync your Obsidian vault with a Project Curie virtual vault via Fastify backend. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "datronizer/curie-obsidian-plugin"
   }
 ]
