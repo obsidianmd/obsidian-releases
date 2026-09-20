@@ -24710,6 +24710,13 @@
     "repo": "banisterious/obsidian-draft-bench"
   },
   {
+    "id": "getnote-importer",
+    "name": "Dedao Brain Sync",
+    "author": "Andy Zheng（公众号：关山的月儿）",
+    "description": "得到大脑官方推荐｜很好用的【得到大脑 / Get笔记 / GetNote / Getbiji <-> Obsidian】双向同步插件 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andyzhengyan/obsidian-getnote-importer"
+  },
+  {
     "id": "reminder-telegram",
     "name": "Reminder Telegram",
     "author": "Lorenzo Strambi",
@@ -25674,13 +25681,6 @@
     "author": "Cheng",
     "description": "Copy notes as portable Markdown and bridge with Bear, WPS Cloud Note, and Youdao Note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "huangcheng/obsidian-notes-bridge"
-  },
-  {
-    "id": "vithanco",
-    "name": "Vithanco",
-    "author": "vithanco",
-    "description": "Render Vithanco diagrams (IBIS, Concept Maps, Timelines, Theory of Constraints, Impact Mapping, Causal Loop Diagrams, and more) in your notes using VGL code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "vithanco/obsidian-vithanco"
   },
   {
     "id": "qmd-semantic-search",
@@ -30292,7 +30292,7 @@
     "id": "imgbox-pro",
     "name": "ImgBox Pro",
     "author": "nightfall",
-    "description": "Searches for external media links in your notes, downloads and saves them locally, adjusts note links, and includes unused attachment cleanup tools. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Localize images, rename attachments, and clean up unused files with ImgBox Pro, keeping your vault tidy. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nightfall-yl/obsidian-imgbox-pro"
   },
   {
@@ -47712,13 +47712,6 @@
     "repo": "n23eos/obsidian-vault-sunburst"
   },
   {
-    "id": "re-supercharged-links",
-    "name": "Re-supercharged Links",
-    "author": "Carl Bechstrom",
-    "description": "Re-Supercharged Links is an advanced link-styling plugin for Obsidian that has evolved far beyond the original fork into a substantially redesigned and expanded implementation. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "carlb01/re-supercharged-links"
-  },
-  {
     "id": "local-agent-assistant",
     "name": "Local Agent Assistant",
     "author": "zero",
@@ -54808,5 +54801,33 @@
     "author": "siulved54",
     "description": "Reuse one block of text in many notes. Edit the block in its source note and every reference re-renders live. Everything stays in your vault, with no network access. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "perezamadorluisenrique-gif/shared-blocks"
+  },
+  {
+    "id": "pointix-sheet-navigation",
+    "name": "Pointix Sheet Navigation",
+    "author": "Explorer IT",
+    "description": "Pan Sheet Plus spreadsheets with touch or pen, or Alt/Option + left-drag on desktop. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "exploreras/Pointix-Sheet-Navigation"
+  },
+  {
+    "id": "qualitative-query",
+    "name": "Qualitative Query",
+    "author": "suffername",
+    "description": "Find source passages with saved questions and Jev scoring, then connect them with native block embeds. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "micahchoo/qualitative-query"
+  },
+  {
+    "id": "dated",
+    "name": "Dated",
+    "author": "spwx",
+    "description": "Writes created and modified date-times into the frontmatter of notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "spwx/obsidian-dated"
+  },
+  {
+    "id": "pointix-sheet-copy",
+    "name": "Pointix Sheet Copy",
+    "author": "Explorer IT",
+    "description": "Copy Sheet Plus cells with double tap on touch or pen, or Ctrl/Cmd + click on desktop. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "exploreras/Pointix-Sheet-Copy"
   }
 ]
