@@ -18207,6 +18207,13 @@
     "repo": "mnaoumov/obsidian-nested-properties"
   },
   {
+    "id": "vault-as-mcp",
+    "name": "Vault as MCP",
+    "author": "ebullient",
+    "description": "Runs an MCP server inside Obsidian, exposing your vault to external LLM tools with read, search, and edit operations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ebullient/obsidian-vault-mcp"
+  },
+  {
     "id": "simplest-todo",
     "name": "Simplest Todo",
     "author": "kintolayli",
@@ -29178,7 +29185,7 @@
   {
     "id": "omni-infobox",
     "name": "Omni Infobox",
-    "author": "Claude (Anthropic)",
+    "author": "Omni",
     "description": "Renders Wikipedia-style infoboxes from YAML frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "omni-gh549/obsidian-infobox"
   },
@@ -41468,13 +41475,6 @@
     "repo": "strombraaten/dim-lights"
   },
   {
-    "id": "coupon-scheduler",
-    "name": "Coupon Scheduler",
-    "author": "vrytfmcat",
-    "description": "Schedule coupons, groceries, shopping reminders, and recurring activities in a calendar. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "vrytfmcat/coupon-scheduler"
-  },
-  {
     "id": "property-order",
     "name": "Property Order",
     "author": "ZhengYX",
@@ -44800,6 +44800,13 @@
     "repo": "iyiguncevik/obsidian-withings-sync"
   },
   {
+    "id": "unagent",
+    "name": "UNagent",
+    "author": "UNcore",
+    "description": "Mobile-first AI assistant: lightweight on phones/tablets, heavy-duty task capabilities on desktop via hermes ACP. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "uncore-gh/UNagent"
+  },
+  {
     "id": "quick-export",
     "name": "Quick Export",
     "author": "mikagosz",
@@ -44931,13 +44938,6 @@
     "author": "RUIzg",
     "description": "使用DeepSeek API将Obsidian笔记转换为Anki卡片，支持多种模型、识图、Cloze填空、批量标签等扩展功能 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ruizg/Ankify-plus"
-  },
-  {
-    "id": "find-in-note",
-    "name": "Find in Note",
-    "author": "mikagosz",
-    "description": "Search the current note and highlight every match in place, without unrendering tables, callouts or other blocks. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mikagosz/obsidian-find-in-note"
   },
   {
     "id": "vault-mirror",
@@ -45136,13 +45136,6 @@
     "repo": "inscriptum/obsidian-plugin"
   },
   {
-    "id": "color-note",
-    "name": "Color Note",
-    "author": "mikagosz",
-    "description": "Colour note and folder titles in the file explorer from the right-click menu, using states you define yourself. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mikagosz/obsidian-color-note"
-  },
-  {
     "id": "litesync",
     "name": "LiteSync",
     "author": "kjoner",
@@ -45323,13 +45316,6 @@
     "author": "AC",
     "description": "Bring dedicated mind-mapping workflows to Canvas with branch drag-and-drop, collapsible trees, familiar hotkeys, automatic layout, and an outline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cuatrecasespro/cammvas"
-  },
-  {
-    "id": "diary-stats",
-    "name": "Diary Stats",
-    "author": "mikagosz",
-    "description": "Charts for periodic notes: how sessions were spread over time, which projects took the period, task states, and goal progress. Reads the notes you already write. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mikagosz/obsidian-diary-stats"
   },
   {
     "id": "visual-card-writer",
@@ -54932,7 +54918,7 @@
     "id": "pronounce",
     "name": "Pronounce",
     "author": "Louis Vicat",
-    "description": "Add a discreet speaker button next to any word or phrase to hear its exact pronunciation instantly, in any language — built for language learners. 100% local, works offline, on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Add a discreet speaker button next to any word or phrase to hear its exact pronunciation instantly, in any language - built for language learners. 100% local, works offline, on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "louisvct/obsidian-pronounce"
   },
   {
@@ -54955,5 +54941,33 @@
     "author": "Miłosz Lamański",
     "description": "Assign different accent colors and themes to different folders - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "spajciuch/accent-theme-customizer"
+  },
+  {
+    "id": "dialogue-stats",
+    "name": "Dialogue Stats",
+    "author": "Carlo",
+    "description": "Word count and dialogue percentage for the active note in the status bar. Thresholds and colors are yours to set. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "blossomz37/dialogue-stats-obsidian"
+  },
+  {
+    "id": "slick-outline",
+    "name": "SlickOutline",
+    "author": "Puneeth Shetty",
+    "description": "Navigate note headings with a floating glass outline and reading-progress ring. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shettypuneeth/slick-outline-obsidian"
+  },
+  {
+    "id": "atlas-vtt",
+    "name": "Atlas VTT",
+    "author": "Fabian Urbanek",
+    "description": "Run tabletop RPG battle maps with tokens, fog of war, grids, dice and a separate player view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bytemirror/atlas-vtt"
+  },
+  {
+    "id": "proofread",
+    "name": "Proofread",
+    "author": "Codomaniac",
+    "description": "Highlights proofreading findings in a note, with the rule behind each, and lets you fix them in place. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "codomaniac/obsidian-proofread"
   }
 ]
