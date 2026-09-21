@@ -12127,7 +12127,7 @@
     "id": "nexus-ai-chat-importer",
     "name": "Nexus AI Chat Importer",
     "author": "superkikim",
-    "description": "Import AI chat conversations from ChatGPT, Claude, Mistral Vibe, Perplexity* and Grok* exports into Obsidian as clean, readable Markdown files.",
+    "description": "Import AI chats from ChatGPT, Claude, Mistral Vibe, Perplexity, and Grok into Obsidian as clean Markdown notes.",
     "repo": "superkikim/nexus-ai-chat-importer"
   },
   {
@@ -27967,7 +27967,7 @@
   {
     "id": "decision-matrix-bases-view",
     "name": "Decision Matrix Bases View",
-    "author": "jortscity",
+    "author": "bubba8587",
     "description": "A weighted decision matrix custom view for Bases. Score options across criteria, apply weights, and see ranked results. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jortscity/dmatrix-bases-view"
   },
@@ -30910,13 +30910,6 @@
     "author": "vofen",
     "description": "Copies ChatGPT Web Viewer responses as Markdown with strict KaTeX-to-LaTeX conversion. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vofen430/obsidian-chatgpt-math-clipboard"
-  },
-  {
-    "id": "ownly",
-    "name": "Ownly",
-    "author": "liuh886",
-    "description": "Track objects, subscriptions, and experience costs in your Vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "liuh886/ownly"
   },
   {
     "id": "narrate",
@@ -54019,6 +54012,13 @@
     "repo": "ashishsaud2025/note-occlusion"
   },
   {
+    "id": "list-vibes",
+    "name": "List Vibes",
+    "author": "D",
+    "description": "Turn a folder of markdown files into to-do lists, with a task list, a completed section, and a detail panel for steps and dates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dkthecoder/list-vibes"
+  },
+  {
     "id": "sidemark",
     "name": "Sidemark",
     "author": "Adam Coddington",
@@ -54698,13 +54698,6 @@
     "repo": "piyushdongre-dot-com/milo"
   },
   {
-    "id": "ambernyadesk",
-    "name": "AmberNyaDesk",
-    "author": "amber",
-    "description": "把「本地日历」和「IMAP 邮箱」搬进 Obsidian：日程管理、任务看板与邮件收发，本地优先 | Local calendar, task boards and IMAP mail inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "st31orange/ambernyadesk"
-  },
-  {
     "id": "pigeonhole",
     "name": "Pigeonhole",
     "author": "nori",
@@ -55013,6 +55006,13 @@
     "repo": "ml9373/canvas-card-view"
   },
   {
+    "id": "trmnlcast",
+    "name": "TRMNLcast",
+    "author": "mprazz",
+    "description": "A TRMNL Obsidian bridge: pushes your Claude Code token usage — and any other screen you write — to a TRMNL e-ink display over a private-plugin webhook. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mprazz/trmnlcast"
+  },
+  {
     "id": "note-wormhole",
     "name": "Note Wormhole",
     "author": "vaalrl",
@@ -55221,5 +55221,26 @@
     "author": "crabeater",
     "description": "「书放哪了」小程序同步：图书录入｜书架整理｜阅读笔记. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "crab-taster/obsidian-findmybook-plugin"
+  },
+  {
+    "id": "ticktick-panel",
+    "name": "TickTick Panel",
+    "author": "Raccoon Overlord Dev",
+    "description": "Embed the TickTick web app in an Obsidian tab or sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "raccoon-overlord-dev/obsidian-ticktick-panel"
+  },
+  {
+    "id": "solenoid-properties",
+    "name": "Solenoid Properties",
+    "author": "bubba8587",
+    "description": "List, Matrix, Frame and Cube property types, with Solenoid's chips and table editors. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bubba8587/Solenoid-Properties"
+  },
+  {
+    "id": "mendeley-integration",
+    "name": "Mendeley Integration",
+    "author": "elipexx",
+    "description": "Sync your Mendeley library into reading notes: metadata, citekeys, and (soon) annotations and Pandoc-style citations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "elisaurrejola16/obsidian-mendeley-integration"
   }
 ]
