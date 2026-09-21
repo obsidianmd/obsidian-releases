@@ -51639,6 +51639,13 @@
     "repo": "emarpiee/obsidian-rcrypt"
   },
   {
+    "id": "advanced-formatting",
+    "name": "Advanced Formatting",
+    "author": "Mohamed Saleh",
+    "description": "Typography and user-defined inline formatting roles for Obsidian, live in the editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mohamedsaleh0-0/Advanced-Formatting"
+  },
+  {
     "id": "export-ics-schedule",
     "name": "Export ICS Schedule",
     "author": "lindongyan",
@@ -54943,13 +54950,6 @@
     "repo": "msxd/obsidian-telegram-bot-integration"
   },
   {
-    "id": "longhai-podscript",
-    "name": "Longhai Podscript",
-    "author": "longhai",
-    "description": "Fetch full podcast transcripts (YouTube, Apple Podcasts, audio links, or a title) — reuse existing captions or transcribe audio locally with Whisper — and save them as structured notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "longhaiqwe/longhai-podscript"
-  },
-  {
     "id": "easy-paper",
     "name": "Easy Paper",
     "author": "grozta",
@@ -55137,5 +55137,47 @@
     "author": "Nico Blum",
     "description": "Adds \"Export to Textile\" to the file context menu, copying the note as Textile markup. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nblum/obsidian-textile-export"
+  },
+  {
+    "id": "daily-note-manager",
+    "name": "Daily Note Manager",
+    "author": "DoHyun",
+    "description": "Automate daily note carryover, aging warnings, drop, archive, monthly summary, and timeline visualization. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kiimdohyun/obsidian-daily-note-manager"
+  },
+  {
+    "id": "better-md-diff",
+    "name": "Better MD Diff",
+    "author": "kamacheng",
+    "description": "Compare Markdown with Git HEAD using paired diffs, synchronized navigation, and confirmed per-hunk restoration. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kamacheng/better-md-diff"
+  },
+  {
+    "id": "nyahome",
+    "name": "NyaHome",
+    "author": "amber",
+    "description": "NyaHome：Obsidian 统一主页与本地优先的工作台；可选接入在线日历和邮箱 | NyaHome: a unified Obsidian home with local-first notes, calendars and optional connected services. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "st31orange/NyaHome"
+  },
+  {
+    "id": "prepend-creation-date",
+    "name": "Prepend Creation Date",
+    "author": "fizzy",
+    "description": "Provides shortcuts to prefix files with their creation dates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fizzyhex/obsidian-prepend-creation-date"
+  },
+  {
+    "id": "card-home-tab",
+    "name": "CardHomeTab",
+    "author": "guyu",
+    "description": "A start page with user-defined cards. Card content lives in a single dashboard note, split by headings, with per-card CSS snippets. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "guyu-guyu/CardHomeTab"
+  },
+  {
+    "id": "auto-tagger-jev",
+    "name": "Auto Tagger (Jev)",
+    "author": "Parth",
+    "description": "Suggests or applies a tag to the current note using TypeSafe's Jev model and your vault's existing tags. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "parthsidpara/obsidian-auto-tagger-jev"
   }
 ]
