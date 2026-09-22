@@ -11032,6 +11032,13 @@
     "repo": "typhoon-kim/obsidian-svelte-syntax-highlighter"
   },
   {
+    "id": "task-list-kanban",
+    "name": "Task List Kanban",
+    "author": "erikars",
+    "description": "Organizes all of the tasks within your files into a kanban view.",
+    "repo": "erikars/task-list-kanban"
+  },
+  {
     "id": "midi-logger",
     "name": "MIDI Logger",
     "author": "maybe-hello-world",
@@ -12511,9 +12518,9 @@
   {
     "id": "metadata-auto-classifier",
     "name": "Metadata Auto Classifier",
-    "author": "goberomsu",
+    "author": "xia-ataraxia",
     "description": "Automatically classifies and applies metadata to your notes.",
-    "repo": "goberomsu/Metadata-Auto-Classifier"
+    "repo": "xia-ataraxia/Metadata-Auto-Classifier"
   },
   {
     "id": "note-from-form",
@@ -17204,6 +17211,13 @@
     "author": "gapmiss",
     "description": "Create and customize themes with a built-in CSS editor. Modify colors, styles, and export your custom theme.",
     "repo": "gapmiss/custom-theme-studio"
+  },
+  {
+    "id": "todoseq",
+    "name": "TODOseq",
+    "author": "Stephen Cross",
+    "description": "Lightweight keyword-based task tracker using Logseq style keywords.",
+    "repo": "scross01/obsidian-todoseq"
   },
   {
     "id": "local-bible-ref",
@@ -33187,6 +33201,13 @@
     "repo": "nightfall-yl/obsidian-third-party-sync"
   },
   {
+    "id": "confluence-vault-uploader",
+    "name": "Confluence Vault Uploader",
+    "author": "stephenkall",
+    "description": "Push an entire Obsidian vault into a custom Confluence parent page using Confluence REST API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stephenkall/obsidian-confluence-vault-uploader"
+  },
+  {
     "id": "headless-mode",
     "name": "Headless Mode",
     "author": "Meirakami",
@@ -48174,13 +48195,6 @@
     "repo": "matheusz-nied/finance-vault-obsidian"
   },
   {
-    "id": "handwriting",
-    "name": "Handwriting",
-    "author": "Alan Liu",
-    "description": "Handwrite, highlight, erase and lasso directly on your notes and PDFs. Your notes stay Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ellimist-afk/handwriting"
-  },
-  {
     "id": "vault-searchlight",
     "name": "Beacon",
     "author": "Ben Gutteridge",
@@ -54015,7 +54029,7 @@
     "id": "list-vibes",
     "name": "List Vibes",
     "author": "D",
-    "description": "Turn a folder of markdown files into to-do lists, with a task list, a completed section, and a detail panel for steps and dates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A native-feeling list/to-do extension for Obsidian for those who dont want to be using pure markdown for everything. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dkthecoder/list-vibes"
   },
   {
@@ -55356,6 +55370,13 @@
     "repo": "a14174110-cloud/canvas-live-snapshot"
   },
   {
+    "id": "abbara-phd-manager",
+    "name": "Abbara PhD Manager",
+    "author": "AbbaraS",
+    "description": "Manage roles, projects and typed tasks from your daily notes, visualised with Custom Badges. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abbaras/abbara-phd-manager"
+  },
+  {
     "id": "mythic-support",
     "name": "Mythic GME",
     "author": "Martin Ellison",
@@ -55396,5 +55417,19 @@
     "author": "ZhangMin.name",
     "description": "Present any Markdown note as full-screen slides. Auto-splits by rules or headings, continues long sections, fits content to screen, and adds a laser pointer and pen. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhangmin510/obsidian-podium"
+  },
+  {
+    "id": "graph-filter-chips",
+    "name": "Graph Filter Chips",
+    "author": "Paulo Vianna",
+    "description": "Turn graph filter queries into removable chips: Esc leaves editing without clearing, and Enter saves the filter as a chip you can remove with x. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "thepaulean/obsidian-graph-filter-chips"
+  },
+  {
+    "id": "mindweave",
+    "name": "MindWeave",
+    "author": "blktree",
+    "description": "Explore and edit Markdown as a mind map with pointer-anchored navigation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "blktree/mindweave"
   }
 ]
