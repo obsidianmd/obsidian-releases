@@ -34895,13 +34895,6 @@
     "repo": "mrdanrave/Note-Doctor"
   },
   {
-    "id": "workspace-clock",
-    "name": "Workspace Clock",
-    "author": "toyotathief",
-    "description": "A clock + dropdown stopwatch and calendar that lives in the workspace tab - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "toyotathief/obsidian-workspace-clock"
-  },
-  {
     "id": "real-chat",
     "name": "Real Chat",
     "author": "Chris Gage",
@@ -41202,13 +41195,6 @@
     "repo": "c8vzn4ym5g-ai/jdb-command"
   },
   {
-    "id": "person-network",
-    "name": "Person Network",
-    "author": "oxilldat",
-    "description": "Visualize the people in your vault as an interactive relationship map, with roles, filtering, potential contacts and Bases support. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "oxilldat/obsidian-person-network"
-  },
-  {
     "id": "domorium",
     "name": "Gedcom",
     "author": "Andrei Lobanov",
@@ -41263,6 +41249,13 @@
     "author": "Phil Palmieri",
     "description": "Aggregate your native markdown tasks into one fast dashboard, organized by their Projects, People, and Areas context. No separate database, no special files, no rules to adopt. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "philpalmieri/obsidian-taskgregator"
+  },
+  {
+    "id": "smart-quiz-tutor",
+    "name": "Smart Question Tutor",
+    "author": "XXJ",
+    "description": "读取本地md知识库，调用Ollama/OpenAI兼容API自动生成试题，支持导出MD、Word、PDF，AI识别试卷、错题本、间隔复习 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xxinjie21/Smart-Quiz-Tutor"
   },
   {
     "id": "easyfilereplace",
@@ -44280,13 +44273,6 @@
     "author": "Sha'ira",
     "description": "Gamifies writing with level progression (1-300), crop/monster farming, daily streaks, writing statistics, and energy/cycle tracking. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "poet-coded/Gamified-Writing-Suite"
-  },
-  {
-    "id": "onyx-boox-sync",
-    "name": "Booxidian",
-    "author": "Detlef Beyer",
-    "description": "Watches a folder for Onyx Boox annotation exports and imports highlights and notes into your vault. Desktop only. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "webline/onyx-boox-sync"
   },
   {
     "id": "property-from-backlink",
@@ -53956,13 +53942,6 @@
     "repo": "ztrawhcs/obsidian-font-slider"
   },
   {
-    "id": "da-tool",
-    "name": "Discourse Analysis Tool",
-    "author": "sots1689",
-    "description": "Create and edit visual discourse-analysis bracket diagrams for biblical texts, natively in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sots1689/DA-Tool"
-  },
-  {
     "id": "nooka-inbox",
     "name": "Nooka Inbox",
     "author": "Sergey Revin",
@@ -55307,11 +55286,25 @@
     "repo": "deadhedd/symlink-notes"
   },
   {
+    "id": "reel-to-md",
+    "name": "Reel2MD",
+    "author": "RichDir",
+    "description": "Import Instagram videos into structured Markdown (MD) notes with captions, metadata, and optional local transcription. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aptoren/obsidian-reel2md"
+  },
+  {
     "id": "kempfs-simple-mind-map",
     "name": "The Kempf Simple Mind Map",
     "author": "Kempf",
     "description": "File-based, keyboard-, mouse-, and touch-driven mind maps in an Obsidian canvas-style view. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "the-kempf/kempfs-simple-mind-map"
+  },
+  {
+    "id": "anki-ast-sync",
+    "name": "Anki AST Sync",
+    "author": "zunaid-farouque",
+    "description": "Sync flashcards directly to Anki using an AST markdown engine via AnkiConnect. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zunaidfarouque/Obsidian-Anki-AST-Engine"
   },
   {
     "id": "just-simple-calendar",
@@ -55473,5 +55466,33 @@
     "author": "雷士电",
     "description": "Merge the current note into another note, then automatically open the target note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhaoscsc/merge-open-target-plugin"
+  },
+  {
+    "id": "java-annotation-highlight",
+    "name": "Java Annotation Highlight",
+    "author": "kisetsu",
+    "description": "Customize colors for JVM annotations (@...) and comments (//, /* */, <!-- -->). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mutiaaaaaaa/java-annotation-highlight"
+  },
+  {
+    "id": "space-command-palette",
+    "name": "Space Command Palette",
+    "author": "oxilldat",
+    "description": "A context-aware command palette driven by Obsidian's built-in Workspaces plugin. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "oxilldat/space-command-palette"
+  },
+  {
+    "id": "archify-html-preview",
+    "name": "Archify HTML Preview",
+    "author": "charonwwang",
+    "description": "Click an Archify diagram thumbnail to preview its self-contained interactive HTML in a sandboxed frame inside the app. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "charonwwang/obsidian-archify-preview"
+  },
+  {
+    "id": "sidebar-terminal",
+    "name": "Sidebar Terminal",
+    "author": "rhynelabs",
+    "description": "Run Claude Code, Codex and other terminal tools beside your notes, with native tabs and tmux-style splits. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rhynelabs/sidebar-terminal"
   }
 ]
