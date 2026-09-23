@@ -33776,7 +33776,7 @@
   },
   {
     "id": "thought-synapse-desktop",
-    "name": "Thought Synapse (Desktop)",
+    "name": "Floating Glimpse (Desktop)",
     "author": "liyaoming",
     "description": "A 3D interactive knowledge topology graph and word cloud engine optimized for desktop devices. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "liyaomingme/Obsidian-Thought-Synapse-Desktop"
@@ -33811,7 +33811,7 @@
   },
   {
     "id": "mobile-dashboard",
-    "name": "Mobile Dashboard",
+    "name": "Time Desk (Mobile)",
     "author": "liyaoming",
     "description": "A mobile-first dashboard for quick capture and note statistics with charts. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "liyaomingme/obsidian-mobile-dashboard"
@@ -33867,7 +33867,7 @@
   },
   {
     "id": "thought-synapse-mobile",
-    "name": "Thought Synapse (Mobile)",
+    "name": "Floating Glimpse (Mobile)",
     "author": "liyaoming",
     "description": "An interactive, visually stunning 3D semantic network injected directly into your mobile file explorer. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "liyaomingme/thought-synapse-mobile"
@@ -34007,7 +34007,7 @@
   },
   {
     "id": "desktop-dashboard",
-    "name": "Desktop Dashboard",
+    "name": "Time Desk (Desktop)",
     "author": "liyaoming",
     "description": "A beautifully crafted, traditional typography dashboard featuring dual-column layout and advanced date parsing engine for desktop and tablet screens. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "liyaomingme/desktop-dashboard"
@@ -44828,6 +44828,13 @@
     "repo": "uncore-gh/UNagent"
   },
   {
+    "id": "quick-export",
+    "name": "Quick Export",
+    "author": "mikagosz",
+    "description": "Right-click a note or a text selection to save a copy outside the vault as .md or .txt. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mikagosz/obsidian-quick-export"
+  },
+  {
     "id": "linkr",
     "name": "Linkr",
     "author": "NameIsKyro",
@@ -46170,6 +46177,13 @@
     "author": "Jimmy-web169",
     "description": "Browse and organize notes in a Notion-style page tree: a note and its same-name folder act as one nested page, with sub-page creation, drag-and-drop, icons, and filtering. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jimmy-web169/obsidian-nested-pages"
+  },
+  {
+    "id": "bondie-docferry",
+    "name": "MediaFerry",
+    "author": "fyaic",
+    "description": "Paste an article, audio, or video link and get a MD note in your vault. Import DocFerry shares. Built mobile-first: specially optimized for phones, works great on desktop. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fyaic/MediaFerry-Obsidian-Plugin"
   },
   {
     "id": "soma-search",
@@ -55391,6 +55405,13 @@
     "repo": "abbaras/abbara-phd-manager"
   },
   {
+    "id": "zotero-annotation-to-pandoc",
+    "name": "Zotero Annotation Citations",
+    "author": "Jacques B",
+    "description": "Converts Zotero drag-and-drop annotation links into Pandoc-style citations that still link through to the specific PDF annotation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jacquesb26/Zotero-Annotation-Citations"
+  },
+  {
     "id": "mythic-support",
     "name": "Mythic GME",
     "author": "Martin Ellison",
@@ -55571,5 +55592,12 @@
     "author": "Kieran Mansfield",
     "description": "Save, load, and manage workspace layouts with enhanced features for power users. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kieranmansfield/supercharged-workspaces"
+  },
+  {
+    "id": "encrypted-gdrive-sync",
+    "name": "Encrypted Google Drive Sync",
+    "author": "Nick",
+    "description": "Sync file contents with Google Drive using AES-256-GCM encryption, with encryption keys kept on your device. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "explor3universe/ObsidianE2EGDriveSync"
   }
 ]
