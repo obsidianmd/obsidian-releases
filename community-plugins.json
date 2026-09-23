@@ -21847,6 +21847,13 @@
     "repo": "cloudac7/obsidian-github-pager"
   },
   {
+    "id": "folder-git",
+    "name": "Folder Git",
+    "author": "octadira",
+    "description": "Per-folder Git source control with GitHub and Forgejo support — manage a separate Git repository for each folder in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "octadira/obsidian-folder-git"
+  },
+  {
     "id": "new-paragraph-on-enter",
     "name": "New Paragraph on Enter",
     "author": "biigfish",
@@ -47922,6 +47929,13 @@
     "repo": "sasunhuevich/ToDoList"
   },
   {
+    "id": "omni-book-reader",
+    "name": "Omni Book Reader",
+    "author": "pavel",
+    "description": "An all-in-one, local-first EPUB reading workbench with a bookshelf, annotations, exports, focus mode, and reading statistics. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pavelpeng7/omni-book-reader"
+  },
+  {
     "id": "vault-calendar",
     "name": "Vault Calendar",
     "author": "Jax Ho",
@@ -48389,13 +48403,6 @@
     "author": "duo",
     "description": "Discover, run, and monitor local services and tools. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "reiji777/workbay"
-  },
-  {
-    "id": "lockstep-sync",
-    "name": "Lockstep Sync",
-    "author": "Stephan Sergeev",
-    "description": "Sync your Obsidian vault between desktop, iOS and Android through your own server. Self-hosted, end-to-end encrypted, free and open source: no cloud, no subscription. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "stephansergeev/obsidian-lockstep-sync"
   },
   {
     "id": "gemini-universal-summarizer",
@@ -52668,6 +52675,13 @@
     "repo": "tutivsoft-com/tool-app-Obsidian-Meridian-Timeline"
   },
   {
+    "id": "aegis-note-locker",
+    "name": "Aegis Note Locker",
+    "author": "Rahul S",
+    "description": "Protect note bodies and selected frontmatter values with local authenticated encryption. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Aegis-Note-Locker"
+  },
+  {
     "id": "icor-for-life-scratchpad",
     "name": "ICOR for Life - Scratchpad",
     "author": "Thomas Roedl",
@@ -52687,6 +52701,13 @@
     "author": "Torus Hidenami",
     "description": "Collects unchecked tasks from Obsidian Canvas cards into an Inbox card. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "torus211/canvas-inbox-sync"
+  },
+  {
+    "id": "mica-webp-optimizer",
+    "name": "Mica WebP Optimizer",
+    "author": "Rahul S",
+    "description": "Optimize PNG and JPEG media locally as verified WebP files without breaking Obsidian links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Mica-WebP-Optimizer"
   },
   {
     "id": "rememo",
@@ -55329,10 +55350,10 @@
   },
   {
     "id": "nested-outline-numbering",
-    "name": "Nested Outline Numbering",
+    "name": "Multilevel Number Indent",
     "author": "alungranpj",
     "description": "Hierarchical plain-text numbering (1. / 1.1. / 1.1.1.) driven by Tab, Shift-Tab, Enter and Alt-Up/Down. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "alungranpj/obsidian-nested-outline-numbering"
+    "repo": "alungranpj/obsidian-multilevel-number-indent"
   },
   {
     "id": "harbor-tab",
@@ -55347,6 +55368,13 @@
     "author": "Markos Narinian",
     "description": "Toggle CSS snippets from the command palette instead of going into Settings. Adds one command per snippet plus a quick picker, enable-all and disable-all. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "markosnarinian/obsidian-snippet-master"
+  },
+  {
+    "id": "thoughtspace",
+    "name": "ThoughtSpace Whiteboard",
+    "author": "ancher",
+    "description": "Visual research workspace with mind maps, linked Markdown cards, writing and optional standalone calendar integration. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuguangli-lab/obsidian-thoughtspace"
   },
   {
     "id": "algoforge",
@@ -55440,11 +55468,11 @@
     "repo": "zhangmin510/obsidian-podium"
   },
   {
-    "id": "daily-report",
-    "name": "Daily Report",
-    "author": "kaka",
-    "description": "Daily notes with dynamic directory paths, template rendering, task carry-over, and section-level confirmation. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "njuptlzf/daily-report"
+    "id": "fluent-image-toolkit",
+    "name": "Fluent Image Toolkit",
+    "author": "Jeff1024",
+    "description": "Hover image + Ctrl+C to copy image to clipboard; click to preview with zoom, move, rotate, flip, invert, and copy. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "2607044640/fluent-image-toolkit"
   },
   {
     "id": "graph-filter-chips",
@@ -55655,5 +55683,19 @@
     "author": "jennydoter",
     "description": "随机抽卡：像素风抽卡弹窗，点击侧边栏骰子图标或执行命令，随机打开库中的一篇笔记；每次抽卡随机抽出一只像素小猫（20 只）；支持排除文件夹、只抽日记、避免连抽同一篇，抽到自动打卡记录. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jennyyue051/random-notes-cat"
+  },
+  {
+    "id": "unison",
+    "name": "Unison",
+    "author": "Sasiscka",
+    "description": "Sync a vault in real time across devices with live multi-user editing, three-way merge, file history, folder scope and presence. Runs on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "iluha067/Unison"
+  },
+  {
+    "id": "sundry-calendar",
+    "name": "Calendar Notes",
+    "author": "Sundrykit",
+    "description": "A maintained calendar for periodic notes. Click a day to open or create it; week, month and year headings open their own notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sundrykit/obsidian-calendar"
   }
 ]
