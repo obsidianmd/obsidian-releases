@@ -31724,6 +31724,13 @@
     "repo": "coldhan258/obsidian-local-bg-image-server"
   },
   {
+    "id": "auto-card-link-enhanced",
+    "name": "Auto Card Link Enhanced",
+    "author": "KreNtal",
+    "description": "Automatically convert URLs into beautiful card-styled or Markdown links with metadata, thumbnails and favicons. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "krental/obsidian-auto-card-link"
+  },
+  {
     "id": "drawio-editor",
     "name": "Drawio",
     "author": "doge-liang",
@@ -33990,6 +33997,13 @@
     "author": "PatruusBarba",
     "description": "Wrap selected text in a collapsible spoiler callout, or unwrap an existing spoiler, from a ribbon button. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "patruusbarba/ObsidianSpoilerPlugin"
+  },
+  {
+    "id": "plaud-importer",
+    "name": "Plaud Importer",
+    "author": "Charles Kelsoe",
+    "description": "Import meeting summaries, transcripts, and attachments from Plaud.AI into your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ckelsoe/obsidian-plaud-importer"
   },
   {
     "id": "cite-engine",
@@ -44261,6 +44275,13 @@
     "repo": "poet-coded/Gamified-Writing-Suite"
   },
   {
+    "id": "onyx-boox-sync",
+    "name": "Booxidian",
+    "author": "Detlef Beyer",
+    "description": "Watches a folder for Onyx Boox annotation exports and imports highlights and notes into your vault. Desktop only. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "webline/onyx-boox-sync"
+  },
+  {
     "id": "property-from-backlink",
     "name": "Property from backlink",
     "author": "Giacomo D’angelo",
@@ -44947,6 +44968,13 @@
     "repo": "ruizg/Ankify-plus"
   },
   {
+    "id": "find-in-note",
+    "name": "Find in Note",
+    "author": "mikagosz",
+    "description": "Search the current note and highlight every match in place, without unrendering tables, callouts or other blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mikagosz/obsidian-find-in-note"
+  },
+  {
     "id": "vault-mirror",
     "name": "Vault Mirror",
     "author": "boogiemia",
@@ -45143,6 +45171,13 @@
     "repo": "inscriptum/obsidian-plugin"
   },
   {
+    "id": "color-note",
+    "name": "Color Note",
+    "author": "mikagosz",
+    "description": "Colour note and folder titles in the file explorer from the right-click menu, using states you define yourself. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mikagosz/obsidian-color-note"
+  },
+  {
     "id": "litesync",
     "name": "LiteSync",
     "author": "kjoner",
@@ -45323,6 +45358,13 @@
     "author": "AC",
     "description": "Bring dedicated mind-mapping workflows to Canvas with branch drag-and-drop, collapsible trees, familiar hotkeys, automatic layout, and an outline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cuatrecasespro/cammvas"
+  },
+  {
+    "id": "diary-stats",
+    "name": "Diary Stats",
+    "author": "mikagosz",
+    "description": "Charts for periodic notes: how sessions were spread over time, which projects took the period, task states, and goal progress. Reads the notes you already write. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mikagosz/obsidian-diary-stats"
   },
   {
     "id": "visual-card-writer",
@@ -48494,6 +48536,13 @@
     "author": "pengze",
     "description": "A theme-aware homepage with reorderable widgets for notes, tasks, journals, and projects. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pengze369-stack/homepage-dashboard"
+  },
+  {
+    "id": "number-suite",
+    "name": "Number Suite",
+    "author": "ZhengYX",
+    "description": "Display or manage heading, caption, footnote, endnote, and reference numbers without changing Markdown unexpectedly. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhyx91/obsidian-number-suite"
   },
   {
     "id": "github-image-host",
@@ -53389,6 +53438,13 @@
     "repo": "joeseesun/qiaomu-radio"
   },
   {
+    "id": "seam",
+    "name": "Seam",
+    "author": "William A. Costa",
+    "description": "Tag-driven note organization with automatic archiving and a Universal Palette. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "willacosta/obsidian-seam"
+  },
+  {
     "id": "vault-agent",
     "name": "Vault Agent",
     "author": "rosswang",
@@ -55636,13 +55692,6 @@
     "repo": "dimagious/dashsidian"
   },
   {
-    "id": "topmind-stream",
-    "name": "Topmind Stream",
-    "author": "msdp",
-    "description": "Personal stream + AI co-pilot for Obsidian — jot, confirm suggestions, files stay yours. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "topmindspace/topmind-obsidian"
-  },
-  {
     "id": "outline-collapse",
     "name": "Outline Collapse",
     "author": "hibara",
@@ -55688,7 +55737,7 @@
     "id": "process-tracker",
     "name": "Process Tracker",
     "author": "skrpln",
-    "description": "Tracker table for habits and processes, with tracks as rows and dates as columns. Requires Dataview for track filtering and Templater for entry templates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Daily habit and progress tracker in a table: rows are your tracks, columns are days, and every checked day is a note you can open and edit in place. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "skrpln/process-tracker"
   },
   {
@@ -55720,11 +55769,25 @@
     "repo": "lengedliu/obsidian-plugin"
   },
   {
+    "id": "academic-paper-citation-manager",
+    "name": "Academic Paper Citation Manager",
+    "author": "Sang-Min Park",
+    "description": "AI-native citation manager: PubMed search, LLM summaries, MeSH tags, CSL citations, and optional Claude Code/Codex MCP access to the live vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "grotyx/rag-obsidian"
+  },
+  {
     "id": "confluence-integration-plus",
     "name": "Confluence Integration Plus",
     "author": "Jake",
     "description": "Publish notes to Atlassian Confluence and pull changes made in Confluence back into your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "flyxhub/obsidian-integration-plus"
+  },
+  {
+    "id": "docshelf",
+    "name": "DocShelf",
+    "author": "Oliver Im",
+    "description": "Edit registered external Markdown, browse HTML reports, and share source-line links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "oliver-im/docshelf"
   },
   {
     "id": "base-graph",
@@ -55739,5 +55802,26 @@
     "author": "Taichoco",
     "description": "Suggests destination folders for Markdown notes using your existing vault structure. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "taichocop/Jevault"
+  },
+  {
+    "id": "noteshortcut",
+    "name": "Note-Shortcut",
+    "author": "KfirG",
+    "description": "Access a specific note in an instant using editing toolbar plugin. Perfect for mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kfirgumay2005-hash/Note-Shortcut"
+  },
+  {
+    "id": "tufte-map",
+    "name": "Tufte Map",
+    "author": "PleiadesM",
+    "description": "Draws the vault's link graph as a contour map: notes that link to one another lie close together, the land rises where notes are dense, and each summit is named after its most connected note. Styled by the Tufte theme. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pleiadesm/tufte-map"
+  },
+  {
+    "id": "environment-variables",
+    "name": "Environment Variables",
+    "author": "Emanuell",
+    "description": "Store API tokens and environment variables encrypted, reference them in notes by key, and let AI agents use them in requests without ever seeing the values. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "emanuellcarvalhopires/obsidian-environment-variables"
   }
 ]
