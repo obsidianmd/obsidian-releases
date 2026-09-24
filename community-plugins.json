@@ -34198,7 +34198,7 @@
     "id": "german-law-lookup",
     "name": "European Law Lookup",
     "author": "GammaFunds",
-    "description": "Look up EU regulations, directives and decisions in 24 official languages, plus German, Austrian and Swiss law. Preview legal text from official sources and insert formatted citations into your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Look up EU law in 24 official languages, plus German, Austrian, Swiss, Spanish, Finnish, Italian and Dutch law. Preview legal text from official sources and insert formatted citations into your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gammafunds/European-Law-Lookup"
   },
   {
@@ -41319,13 +41319,6 @@
     "author": "13green13",
     "description": "Annotates ingredient lines with kcal values from USDA FoodData Central. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "13green13/kcal-calc"
-  },
-  {
-    "id": "grill",
-    "name": "Grill",
-    "author": "Adam Danielsson",
-    "description": "Quiz yourself on your own notes. BYOK or run locally. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "theadamdanielsson/grill"
   },
   {
     "id": "chartdown",
@@ -48657,13 +48650,6 @@
     "repo": "bloknayrb/obsidian-authorship-tracker"
   },
   {
-    "id": "niplex-writing-insights",
-    "name": "Niplex Writing Insights",
-    "author": "Niplex Foundation",
-    "description": "Private local writing activity heatmap, streaks, and optional user-controlled reflection prompts. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "aj-niplex/Niplex-Writing-Insights"
-  },
-  {
     "id": "ai-vault-assistant",
     "name": "AI Vault Assistant",
     "author": "陶鑫旺",
@@ -55504,7 +55490,7 @@
   },
   {
     "id": "snippet-toggles",
-    "name": "Snippet Toggles",
+    "name": "Snippet Master",
     "author": "Markos Narinian",
     "description": "Toggle CSS snippets from the command palette instead of going into Settings. Adds one command per snippet plus a quick picker, enable-all and disable-all. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "markosnarinian/obsidian-snippet-master"
@@ -55599,6 +55585,13 @@
     "author": "Hussain Elemam",
     "description": "Turn handwritten pages in any language into structured Markdown notes using the Gemini API. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hussainelemam/Obsidian-Handwritten-Notebook-digitizer"
+  },
+  {
+    "id": "paper-trail",
+    "name": "Paper Trail",
+    "author": "Jorrit van der Heide",
+    "description": "Decide what to read before you read it, and keep the decision. Triage papers from your Zotero library and keep the record of what you ruled out and why. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jorritvanderheide/obsidian-paper-trail"
   },
   {
     "id": "podium",
@@ -55774,6 +55767,13 @@
     "author": "dimagious",
     "description": "Dashboard blocks for your notes: tiles, number cards, progress bars, a day row, countdowns and a year heatmap. Configured in YAML, no JavaScript. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dimagious/dashsidian"
+  },
+  {
+    "id": "wechat-designer",
+    "name": "WeChat Article Designer",
+    "author": "AdolphLee",
+    "description": "Convert Markdown to WeChat-compatible HTML with inline styles, preview it in a phone frame, and copy it straight into the WeChat Official Account editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "moyansuyu/obsidian-wechat-designer"
   },
   {
     "id": "topmind-stream",
@@ -56004,6 +56004,13 @@
     "name": "Minimalist Audio Recorder",
     "author": "Reinny Almonte",
     "description": "A small floating button for recording voice notes into notes that match a folder or tag. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jighdan/obsidian-audio-recorder"
+    "repo": "reinnyalmonte/obsidian-audio-recorder"
+  },
+  {
+    "id": "mdfit",
+    "name": "mdfit - Fit Any Markdown",
+    "author": "che1sy",
+    "description": "Auto-convert pasted LLM output (ChatGPT / Claude / Gemini) into Obsidian-flavored Markdown: math delimiters, headings, citations, tables. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "naloam/mdfit-obsidian-plugin"
   }
 ]
