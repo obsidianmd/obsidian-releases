@@ -17013,7 +17013,7 @@
     "id": "xiangqi",
     "name": "Chinese Chess",
     "author": "weshell",
-    "description": "Chinese chess variation tree.",
+    "description": "Chinese chess (xiangqi 象棋) variation tree.",
     "repo": "west-shell/obsidian-xiangqi"
   },
   {
@@ -21374,7 +21374,7 @@
     "id": "floating-quick-note",
     "name": "Floating Quick Note",
     "author": "sabosman",
-    "description": "Open a floating always-on-top note window for quick notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A floating always-on-top scratchpad for Obsidian. Create notes while you work in other apps. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sabosman/obisidian-floatingnote"
   },
   {
@@ -42952,6 +42952,13 @@
     "repo": "wyc7758775/zettlab-sync"
   },
   {
+    "id": "inkbound",
+    "name": "Inkbound",
+    "author": "kidpeterpan",
+    "description": "Export notes, book folders, or linked notes as EPUB for e-ink readers, with optional wireless delivery to Onyx Boox. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kidpeterpan/inkbound"
+  },
+  {
     "id": "local-fonts",
     "name": "Local Fonts",
     "author": "flowing-abyss",
@@ -50886,7 +50893,7 @@
     "id": "scribe-of-lagash-visualization",
     "name": "Scribe of Lagash - Visualization",
     "author": "Alejandro",
-    "description": "Visualize your story: arrange chapters and scenes as cards on colored story lines, and plan ahead with an outline whose rows become real notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Plot your story visually: chapter and scene cards on colored story lines, plus an outline whose rows become real notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aescanes/scribe-of-lagash-visualization"
   },
   {
@@ -52757,13 +52764,6 @@
     "author": "Rahul S",
     "description": "Offline vault health report for broken links, duplicate references, block IDs, and dangling stubs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/tool-app-Obsidian-Cairn-Vault-Linter"
-  },
-  {
-    "id": "tundra-frontmatter-wrangler",
-    "name": "Tundra Frontmatter Wrangler",
-    "author": "Rahul S",
-    "description": "Safely preview, apply, and roll back bulk frontmatter and property changes offline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Tundra-Frontmatter-Wrangler"
   },
   {
     "id": "meridian-timeline",
@@ -55566,6 +55566,13 @@
     "repo": "isink/obsidian-codex-daily-sync"
   },
   {
+    "id": "pointix-file-hub",
+    "name": "Pointix File Hub",
+    "author": "Explorer IT",
+    "description": "Create, organize and open notes, Office documents, data files and visual canvases from one polished hub. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "exploreras/Pointix-File-Hub"
+  },
+  {
     "id": "firefly-sync",
     "name": "FireFly Sync",
     "author": "Dean Yu",
@@ -56033,5 +56040,47 @@
     "author": "Walter Forkel",
     "description": "Record, transcribe, clean up, and append thoughts with configurable providers. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wko/obsidian-voice-notes"
+  },
+  {
+    "id": "goko",
+    "name": "Goko",
+    "author": "Artem",
+    "description": "Collect links, images, videos and PDFs on one visual wall. Sort them into grids and folders, search all of it, and keep every picture and video in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "artem-levchenko-2/obsidian-goko"
+  },
+  {
+    "id": "leftovers",
+    "name": "Leftovers",
+    "author": "Kobi Versano",
+    "description": "Pull unfinished checkboxes from previous daily notes into the current daily note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mrversano/obsidian-leftovers"
+  },
+  {
+    "id": "table-width",
+    "name": "Table Width",
+    "author": "Capgemini",
+    "description": "Resize Markdown table columns by dragging their borders, or double-click a border to fit a column to its text. Tables you haven't resized keep their normal layout. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "capgemini-c/obsidian-table-width"
+  },
+  {
+    "id": "bloomscroll",
+    "name": "bloomscroll",
+    "author": "sudipto",
+    "description": "rediscover your notes one at a time, in a paper-card feed you can scroll. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "swoodipto/bloomscroll"
+  },
+  {
+    "id": "tag-along",
+    "name": "Tag Along",
+    "author": "Jorrit van der Heide",
+    "description": "Navigate your vault through a tag-generated folder tree. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jorritvanderheide/obsidian-tag-along"
+  },
+  {
+    "id": "loose-ends",
+    "name": "Loose Ends",
+    "author": "Jorrit van der Heide",
+    "description": "Capture notes without classifying them, then file them by tag and see what is still unfiled. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jorritvanderheide/obsidian-loose-ends"
   }
 ]
