@@ -31458,13 +31458,6 @@
     "repo": "icarian-systems/kanban-pro-plugin"
   },
   {
-    "id": "calendar-list",
-    "name": "Calendar List",
-    "author": "Sebastien Delisle",
-    "description": "Insert a list of macOS Calendar events between two dates. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lumargh/obsidian-calendar-list"
-  },
-  {
     "id": "ai-audio-transcription-summary",
     "name": "AI Audio Transcription and Summary",
     "author": "HackerHomeLab",
@@ -42777,6 +42770,13 @@
     "repo": "zcallan/callander-obsidian"
   },
   {
+    "id": "bible-search-reader",
+    "name": "Bible Search and Reader",
+    "author": "viacai",
+    "description": "Local Bible Markdown document search and reading plugin, supporting theme/outline/verse search with focus/parallel/mixed projection modes - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "viacai/obsidian-bible-search-reader"
+  },
+  {
     "id": "aa-codeblock",
     "name": "AA Code Block",
     "author": "azulika",
@@ -44306,7 +44306,7 @@
     "id": "vault-orrery",
     "name": "Vault Orrery",
     "author": "Elliott Park",
-    "description": "A 3D graph where folders are stars and notes orbit them. Replay how your vault grew. Works offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A 3D graph view where folders are stars and notes orbit them. Replay how your vault grew, map any note's links, and fly it all offline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elliott-json-park/obsidian-vault-orrery"
   },
   {
@@ -52048,7 +52048,7 @@
     "id": "class-timetable",
     "name": "Class Timetable",
     "author": "Elliott Park",
-    "description": "A weekly class timetable and course schedule for students, in the sidebar on desktop and mobile. Times live in your notes' frontmatter, so moving or renaming folders never breaks them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Weekly class timetable and course schedule for students, on desktop and mobile. Open each class's notes in one click, start today's lecture note, and share your week as a PNG. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elliott-json-park/obsidian-class-timetable"
   },
   {
@@ -56061,5 +56061,19 @@
     "author": "Jorrit van der Heide",
     "description": "Capture notes without classifying them, then file them by tag and see what is still unfiled. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jorritvanderheide/obsidian-loose-ends"
+  },
+  {
+    "id": "better-backlinks",
+    "name": "Better Backlinks",
+    "author": "Kobi Versano",
+    "description": "Show backlinks at the bottom of every note as cards with the whole block around each link, plus title matches and unlinked mentions you can link in one click. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mrversano/obsidian-better-backlinks"
+  },
+  {
+    "id": "mermaid-boost",
+    "name": "Mermaid Boost",
+    "author": "zemengzhou",
+    "description": "Smart compact sizing, modern palettes, and interactive controls for Mermaid diagrams. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dreamfarer-space/obsidian-mermaid-boost"
   }
 ]
