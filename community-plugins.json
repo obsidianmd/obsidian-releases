@@ -31808,13 +31808,6 @@
     "repo": "mayeenulislam/obsidian-dbml-visualizer"
   },
   {
-    "id": "ai-knowledge-hub",
-    "name": "Veynrel",
-    "author": "Zinvernix",
-    "description": "Semantic search and AI tools for Obsidian. Search notes by meaning, discover related ideas, detect duplicates, audit your vault, and work locally with Ollama or cloud AI providers. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zinverno/vault-audit-AI"
-  },
-  {
     "id": "maps-of-content",
     "name": "Maps of Content",
     "author": "mkshp-dev",
@@ -35140,6 +35133,13 @@
     "repo": "gustavczar/local-agent-obsidian-plugin"
   },
   {
+    "id": "vault-retrieval",
+    "name": "Vault Retrieval",
+    "author": "Johannes Kaindl",
+    "description": "Local, offline retrieval over your vault: related notes, semantic search, and grounded chat with a local LLM — nothing leaves your machine. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johannes-kaindl/vault-rag"
+  },
+  {
     "id": "image-to-markdown",
     "name": "Image to Markdown",
     "author": "Johannes Kaindl",
@@ -37896,6 +37896,13 @@
     "author": "YzYhhhstudy",
     "description": "CS conference deadline countdowns inside your vault: sidebar panel, in-note deadline boards, frontmatter-linked countdown banners and status-bar badge. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yzyhhhstudy/paper-deadlines"
+  },
+  {
+    "id": "vault-crews",
+    "name": "Vault Crews",
+    "author": "Johannes Kaindl",
+    "description": "Run autonomous local LLM agent teams (crews) on your vault via LM Studio - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johannes-kaindl/vault-crews"
   },
   {
     "id": "obsync-webdav-gpg",
@@ -47194,27 +47201,6 @@
     "repo": "coffeecheese/obsidian-pm-insights"
   },
   {
-    "id": "torbert-text-ai",
-    "name": "Torbert Text AI",
-    "author": "Rahul S",
-    "description": "Clean up Markdown, apply text transformations, and use OpenRouter for AI-assisted note editing. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/Torbert-Text-AI-Obsidian"
-  },
-  {
-    "id": "denali-ai-file-renamer-front-matter",
-    "name": "Denali AI Renamer",
-    "author": "Rahul S",
-    "description": "Rename Markdown notes and generate searchable frontmatter with OpenRouter AI. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/Denali-AI-Renamer-and-Front-Matter-Obsidian"
-  },
-  {
-    "id": "culebra-ai-spell-correct",
-    "name": "Culebra AI Spell Correct",
-    "author": "Rahul S",
-    "description": "Correct spelling, grammar, and punctuation in selected text, notes, and Markdown files using OpenRouter. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/Culebra-Obsidian-AI-Auto-Correct-Spelling"
-  },
-  {
     "id": "vault-issues",
     "name": "Vault Issues",
     "author": "Aizic Albert",
@@ -55195,6 +55181,13 @@
     "repo": "shettypuneeth/slick-outline-obsidian"
   },
   {
+    "id": "atlas-vtt",
+    "name": "Atlas VTT",
+    "author": "Fabian Urbanek",
+    "description": "Run TTRPG battle maps with tokens, fog of war, grids, dice and a separate player view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bytemirror/atlas-vtt"
+  },
+  {
     "id": "proofread",
     "name": "Proofread",
     "author": "Codomaniac",
@@ -56187,5 +56180,12 @@
     "author": "Jose David Murillo",
     "description": "Switch the file explorer between named focus presets, each showing only the folders you choose. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jdmurillo-art/Obsidian-Focus-Modes"
+  },
+  {
+    "id": "web-browser",
+    "name": "Web Browser",
+    "author": "Raccoon Overlord Dev",
+    "description": "Browse the web in a tabbed panel, with persistent logins, bookmarks, Chrome bookmark import and page clipping to notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "raccoon-overlord-dev/obsidian-web-browser"
   }
 ]
