@@ -38430,6 +38430,13 @@
     "repo": "vladb-evs/obsidian-explorer-sort"
   },
   {
+    "id": "code-runner",
+    "name": "Code Runner",
+    "author": "chujiu-dev",
+    "description": "Interactively run code blocks in Obsidian with stdin input support,works on desktop, iOS & Android.. Supports Python, C, C++, Java, Go, JavaScript, TypeScript, Rust, Kotlin and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chujiu-dev/obsidian-code-runner"
+  },
+  {
     "id": "pm-compass",
     "name": "PM Compass",
     "author": "Laurent Ferier",
@@ -47180,6 +47187,13 @@
     "repo": "coffeecheese/obsidian-pm-insights"
   },
   {
+    "id": "denali-ai-file-renamer-front-matter",
+    "name": "Denali AI Renamer",
+    "author": "Rahul S",
+    "description": "Generate filenames from Markdown notes with AI, then rename automatically or after review. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Denali-AI-Renamer-and-Front-Matter-Obsidian"
+  },
+  {
     "id": "culebra-ai-spell-correct",
     "name": "Culebra AI Spell Correct",
     "author": "Rahul S",
@@ -52801,27 +52815,6 @@
     "repo": "power-ioi/code-block-char-count"
   },
   {
-    "id": "kairo-quick-capture",
-    "name": "Kairo Quick Capture",
-    "author": "Rahul S",
-    "description": "Capture fleeting thoughts quickly and deliver them safely to an inbox or daily note. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Kairo-Quick-Capture"
-  },
-  {
-    "id": "cairn-vault-linter",
-    "name": "Cairn Vault Linter",
-    "author": "Rahul S",
-    "description": "Offline vault health report for broken links, duplicate references, block IDs, and dangling stubs. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Cairn-Vault-Linter"
-  },
-  {
-    "id": "meridian-timeline",
-    "name": "Meridian Timeline",
-    "author": "Rahul S",
-    "description": "Explore dated notes and historical spans on an interactive, local-only timeline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Meridian-Timeline"
-  },
-  {
     "id": "icor-for-life-scratchpad",
     "name": "ICOR for Life - Scratchpad",
     "author": "Thomas Roedl",
@@ -53058,6 +53051,13 @@
     "author": "jelenv",
     "description": "Opinionated LazyVim-style keyboard setup: space leader keys and a neo-tree-style file explorer with vim keys. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jelenv/obsidian-vimakase"
+  },
+  {
+    "id": "card-table",
+    "name": "Card Table - Dated Tasks",
+    "author": "jiajiunwu",
+    "description": "Read one markdown note as a table of task cards. Inspired by the kanban table way of working, but dates, assignees, pins, comments and repeats all stay as plain text inside the note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wuyeahs/obsidian-card-table"
   },
   {
     "id": "quillstone",
@@ -56243,5 +56243,26 @@
     "author": "singhaf9270",
     "description": "Show meanings for ==highlighted== words from a glossary note referenced in each note's frontmatter, with quick add for missing terms. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "singhaf9270/obsidian-highlight-reference"
+  },
+  {
+    "id": "modelica-studio",
+    "name": "Modelica Studio",
+    "author": "mechanical-eng",
+    "description": "Model, simulate, and plot Modelica systems with a visual drag-and-drop schematic editor powered by OpenModelica. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ahmedalfahdi/modelica-studio"
+  },
+  {
+    "id": "page-scanner",
+    "name": "Page Scanner",
+    "author": "Page Scanner",
+    "description": "Save a browser tab into your vault as a vector PDF and a Markdown note, through the Page Scanner browser extension. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sbd530/page-scanner-obsidian"
+  },
+  {
+    "id": "underleaf",
+    "name": "Underleaf",
+    "author": "ech0xff",
+    "description": "Translate paragraphs beneath the original text in Reading view, using your preferred AI service without changing your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ech0xff/underleaf"
   }
 ]
