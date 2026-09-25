@@ -44856,6 +44856,13 @@
     "repo": "kfirgumay2005-hash/Trello-Sync"
   },
   {
+    "id": "clinical-workspace",
+    "name": "Clinical Workspace",
+    "author": "ali",
+    "description": "Mobile-first local clinical workflow for patients, care episodes, tasks and surgery logbook entries. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "drbinsaad/obsidian-clinical-workspace"
+  },
+  {
     "id": "simple-mentions",
     "name": "Simple Mentions",
     "author": "Mayeenul Islam",
@@ -45078,13 +45085,6 @@
     "author": "RUIzg",
     "description": "使用DeepSeek API将Obsidian笔记转换为Anki卡片，支持多种模型、识图、Cloze填空、批量标签等扩展功能 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ruizg/Ankify-plus"
-  },
-  {
-    "id": "find-in-note",
-    "name": "Find in Note",
-    "author": "mikagosz",
-    "description": "Search the current note and highlight every match in place, without unrendering tables, callouts or other blocks. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mikagosz/obsidian-find-in-note"
   },
   {
     "id": "vault-mirror",
@@ -45463,13 +45463,6 @@
     "author": "AC",
     "description": "Bring dedicated mind-mapping workflows to Canvas with branch drag-and-drop, collapsible trees, familiar hotkeys, automatic layout, and an outline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cuatrecasespro/cammvas"
-  },
-  {
-    "id": "diary-stats",
-    "name": "Diary Stats",
-    "author": "mikagosz",
-    "description": "Charts for periodic notes: how sessions were spread over time, which projects took the period, task states, and goal progress. Reads the notes you already write. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mikagosz/obsidian-diary-stats"
   },
   {
     "id": "visual-card-writer",
@@ -46191,13 +46184,6 @@
     "author": "gbt777",
     "description": "在笔记正文、Frontmatter一键追加\"文章信息\"：字数、阅读时间、图片数、创建/修改时间、自定义链接与图片等……appends configurable article-info lines (word count, reading time, images, timestamps, custom links/images…) to your note and Frontmatter - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gbt777/article-info-inserter"
-  },
-  {
-    "id": "html-preview",
-    "name": "HTML-Preview",
-    "author": "Mounib Bouchareb",
-    "description": "Render HTML code blocks as live, sandboxed webpages inside your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sunshinelife83/obsidian-html-preview"
   },
   {
     "id": "better-paste",
@@ -47206,6 +47192,13 @@
     "author": "Deng's",
     "description": "A read-only analytics layer for Project Manager, adding cross-project workload, delivery   progress, data quality, and schedule risk insights. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "coffeecheese/obsidian-pm-insights"
+  },
+  {
+    "id": "torbert-text-ai",
+    "name": "Torbert Text AI",
+    "author": "Rahul S",
+    "description": "Clean up Markdown, apply text transformations, and use OpenRouter for AI-assisted note editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Torbert-Text-AI-Obsidian"
   },
   {
     "id": "denali-ai-file-renamer-front-matter",
@@ -52713,7 +52706,7 @@
     "id": "excalidraw-mirror",
     "name": "Excalidraw Mirror",
     "author": "Zackary Burns",
-    "description": "Excalidraw Mirror and Guidlines addition for easy mirrored drawing - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Excalidraw Mirror and Guidlines addition for easy mirrored drawing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zoroaster1x/Excalidraw-Mirror-Guidelines-Obsidian-Plugin"
   },
   {
@@ -52864,6 +52857,20 @@
     "repo": "tutivsoft-com/tool-app-Obsidian-Tundra-Frontmatter-Wrangler"
   },
   {
+    "id": "meridian-timeline",
+    "name": "Meridian Timeline",
+    "author": "Rahul S",
+    "description": "Explore dated notes and historical spans on an interactive, local-only timeline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Meridian-Timeline"
+  },
+  {
+    "id": "aegis-note-locker",
+    "name": "Aegis Note Locker",
+    "author": "Rahul S",
+    "description": "Protect note bodies and selected frontmatter values with local authenticated encryption. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Aegis-Note-Locker"
+  },
+  {
     "id": "icor-for-life-scratchpad",
     "name": "ICOR for Life - Scratchpad",
     "author": "Thomas Roedl",
@@ -52883,6 +52890,13 @@
     "author": "Torus Hidenami",
     "description": "Collects unchecked tasks from Obsidian Canvas cards into an Inbox card. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "torus211/canvas-inbox-sync"
+  },
+  {
+    "id": "mica-webp-optimizer",
+    "name": "Mica WebP Optimizer",
+    "author": "Rahul S",
+    "description": "Optimize PNG and JPEG media locally as verified WebP files without breaking Obsidian links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Mica-WebP-Optimizer"
   },
   {
     "id": "rememo",
@@ -54010,13 +54024,6 @@
     "author": "Alvaro Lobato",
     "description": "Integrated meeting transcription, note-taking, and summarization on macOS: Google Calendar sync, dual-channel recording, transcription, and AI summaries. Granola style meeting transcript. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alvarolobato/obsidian-meeting-copilot"
-  },
-  {
-    "id": "xlsx-styled-viewer",
-    "name": "XLSX Styled Viewer",
-    "author": "Zackary Burns",
-    "description": "A decent spreadsheet viewer (.xls & xlsx files) with rich colouring, fills, fonts, borders, and merged cells. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zoroaster1x/XLSX-Styled-Viewer-Obsidian-Plugin"
   },
   {
     "id": "dlink",
@@ -56343,10 +56350,59 @@
     "repo": "vanillafairy/creative-buddy"
   },
   {
+    "id": "mobile-export",
+    "name": "Mobile Export",
+    "author": "Valerio Clemenzi",
+    "description": "Export your notes even when you are on your mobile device. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "clemenzi/obsidian-mobile-export"
+  },
+  {
     "id": "universal-text-style-manager",
     "name": "Universal Text Style Manager",
     "author": "singhaf9270",
     "description": "Visually style text, headings, blocks, lists, tables, links and embeds without writing CSS. Works in Live Preview and Reading View. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "singhaf9270/universal-text-style-manager"
+  },
+  {
+    "id": "auto-expander",
+    "name": "Auto Expander",
+    "author": "jeansordes",
+    "description": "Expand text snippets as you type, with support for mobile, regex triggers, and commands. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jeansordes/auto-expander"
+  },
+  {
+    "id": "styled-ms-office-viewer",
+    "name": "Styled MS Office Viewer",
+    "author": "Zackary Burns",
+    "description": "View Excel, Word and PowerPoint files in Obsidian with their real styling, including equations and embedded fonts. Great for the Microsoft Office Suite. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zoroaster1x/Styled-MS-Office-Viewer-for-Obsidian"
+  },
+  {
+    "id": "cloudbrain-sync",
+    "name": "CloudBrain Sync",
+    "author": "ferrantealberto69",
+    "description": "Push your Markdown notes — and, from the folders you choose, PDFs, images and Office files — to CloudBrain so they become searchable from WhatsApp, Telegram and the web. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ferrantealberto69/obsidian-cloudbrain-sync"
+  },
+  {
+    "id": "claudian-collab",
+    "name": "Claudian Collab",
+    "author": "Yishen Tu",
+    "description": "Collaborate on shared projects with tickets, reviews, and LAN or Cloud hosting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yishentu/claudian-collab"
+  },
+  {
+    "id": "vault-map",
+    "name": "Vault Map",
+    "author": "m1000",
+    "description": "Writes a JSON Lines index of every note (frontmatter, links, embeds, backlinks and broken links) that scripts and AI agents can read without scanning the vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lavemile02-afk/Vault-Map-for-Obsidian"
+  },
+  {
+    "id": "zenith",
+    "name": "Zenith",
+    "author": "Magomed Gadzhiev",
+    "description": "All-in-one life organizer: dashboard, tasks, content tracker with modular architecture. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "saifun0/obsidian-zenith"
   }
 ]
