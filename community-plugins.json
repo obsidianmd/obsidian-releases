@@ -21178,7 +21178,7 @@
     "id": "library",
     "name": "Library",
     "author": "kigrok",
-    "description": "Organize movies, series, books, anime, comics, games, and music into a visual card gallery inside Obsidian. Auto-fetch metadata, track progress, and graph everything. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Organize movies, series, books, anime, comics, games, and music as cover cards. Search titles in the app, fetch metadata, track progress, and link genres, creators, and actors in the graph. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kigrok/obsidian-library-plugin"
   },
   {
@@ -53060,13 +53060,6 @@
     "repo": "jelenv/obsidian-vimakase"
   },
   {
-    "id": "card-table",
-    "name": "Card Table - Dated Tasks",
-    "author": "jiajiunwu",
-    "description": "Read one markdown note as a table of task cards. Inspired by the kanban table way of working, but dates, assignees, pins, comments and repeats all stay as plain text inside the note. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "wuyeahs/obsidian-card-table"
-  },
-  {
     "id": "quillstone",
     "name": "QuillStone",
     "author": "Marijan Stajic",
@@ -55598,7 +55591,7 @@
     "name": "Codex Daybook",
     "author": "isink",
     "description": "Saves new local Codex Desktop main tasks as notes and links them into your daily track once sync is running. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "isink/obsidian-codex-daily-sync"
+    "repo": "isink/Codex-Daybook"
   },
   {
     "id": "pointix-file-hub",
@@ -55816,13 +55809,6 @@
     "author": "AdolphLee",
     "description": "Convert Markdown to WeChat-compatible HTML with inline styles, preview it in a phone frame, and copy it straight into the WeChat Official Account editor. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "moyansuyu/obsidian-wechat-designer"
-  },
-  {
-    "id": "topmind-stream",
-    "name": "Topmind Stream",
-    "author": "msdp",
-    "description": "Personal stream + AI co-pilot for Obsidian — jot, confirm suggestions, files stay yours. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "topmindspace/topmind-obsidian"
   },
   {
     "id": "section-numbering",
@@ -56229,5 +56215,33 @@
     "author": "Andy Nguyen",
     "description": "Turn vocabulary notes into Anki flashcards, with optional AI-generated text and images. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "stoic031/vocabweave"
+  },
+  {
+    "id": "gradient-focus",
+    "name": "Gradient Focus",
+    "author": "Wang2",
+    "description": "Keep a fixed reading area clear while gradually blurring and fading the content above and below it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hana11000/obsidian-gradient-focus"
+  },
+  {
+    "id": "sequential-note-nav",
+    "name": "Sequential Note Navigator",
+    "author": "bunetj",
+    "description": "Jump to the previous or next note by creation or modification time. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bunetj/obsidian-sequential-nav"
+  },
+  {
+    "id": "aiden-memory-sync",
+    "name": "AIDEN Memory Sync",
+    "author": "Efe Kapici",
+    "description": "Synchronize the dedicated AIDEN Memory vault folder with an AIDEN node. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kapiciefe84-ops/aiden-memory-sync"
+  },
+  {
+    "id": "highlight-reference",
+    "name": "Highlight Reference",
+    "author": "singhaf9270",
+    "description": "Show meanings for ==highlighted== words from a glossary note referenced in each note's frontmatter, with quick add for missing terms. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "singhaf9270/obsidian-highlight-reference"
   }
 ]
