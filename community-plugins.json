@@ -48832,6 +48832,13 @@
     "repo": "brookzeng2023/obsidian-latex-studio"
   },
   {
+    "id": "chess-repertoire",
+    "name": "Chess Repertoire",
+    "author": "moise",
+    "description": "Import a PGN, annotate lines with notes, arrows and move classifications, then drill them back with hints and a report of what you got wrong. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "moise-dev/obsidian-chess-repertoire"
+  },
+  {
     "id": "auto-heading-numbers",
     "name": "Auto Heading Numbers",
     "author": "gaofeng",
@@ -56322,13 +56329,6 @@
     "repo": "hana11000/obsidian-gradient-focus"
   },
   {
-    "id": "sequential-note-nav",
-    "name": "Sequential Note Navigator",
-    "author": "bunetj",
-    "description": "Jump to the previous or next note by creation or modification time. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "bunetj/obsidian-sequential-nav"
-  },
-  {
     "id": "aiden-memory-sync",
     "name": "AIDEN Memory Sync",
     "author": "Efe Kapici",
@@ -56497,6 +56497,13 @@
     "repo": "zachhannum/obsidian-local-plugin-linker"
   },
   {
+    "id": "yc-pages-publish",
+    "name": "YC Pages Publish",
+    "author": "avtarasov210",
+    "description": "Publish notes and folders as temporary (TTL) websites on Yandex Cloud Object Storage — with images, folder navigation, filters and QR codes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "delfinchiknakite-netizen/obsidian-yc-pages-publish"
+  },
+  {
     "id": "skill-symlinks",
     "name": "Skill Symlinks",
     "author": "nikled",
@@ -56509,5 +56516,47 @@
     "author": "engenharick",
     "description": "Record voice notes as MP3 and insert the player right where you started recording: in a note, or inside an Excalidraw drawing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "engenharick/voicecomment"
+  },
+  {
+    "id": "cloud-relay",
+    "name": "Cloud Relay",
+    "author": "kafaw",
+    "description": "Self-hosted vault sync across devices. Real-time per-keystroke, conflict-safe offline edits, mirrors notes, attachments, folders, and settings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "enl69/cloud-relay"
+  },
+  {
+    "id": "simplesync",
+    "name": "SimpleSync",
+    "author": "Jiří Čepelka ",
+    "description": "Sync your vaults through your own self-hosted SimpleSync server. Enter the server address, name and password, then pick a vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jirkacepelka/SimpleSync"
+  },
+  {
+    "id": "dada-todo-list",
+    "name": "Dada Todo List",
+    "author": "plover",
+    "description": "Tasks and checklists in plain Markdown checkboxes. Day, week, month and agenda views, grouped checklists, subtasks, tags, links, drag-to-reschedule, lunar calendar and holidays. Fully local. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sishen0112/obsidian-DadaTodoList"
+  },
+  {
+    "id": "qiaomu-home",
+    "name": "Qiaomu Home",
+    "author": "向阳乔木",
+    "description": "A calm start page: search, create, and continue what you were reading, listening to, or asking. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "joeseesun/qiaomu-home"
+  },
+  {
+    "id": "glassine-sync",
+    "name": "Glassine Sync",
+    "author": "yoav6",
+    "description": "Sync selected notes with a self-hosted Glassine instance over its REST sync API - no git required, works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yoav6/obsidian-glassine-sync"
+  },
+  {
+    "id": "hybrid-line-numbers",
+    "name": "Hybrid Line Numbers",
+    "author": "siulved54",
+    "description": "Relative and hybrid line numbers for Vim-style jumps. A folded section counts as one line, and numbers can turn absolute in Vim insert mode. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "perezamadorluisenrique-gif/hybrid-line-numbers"
   }
 ]
