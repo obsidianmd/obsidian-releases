@@ -17801,13 +17801,6 @@
     "repo": "dsokolov/goboard"
   },
   {
-    "id": "rss-dashboard",
-    "name": "RSS Dashboard",
-    "author": "amatya-aditya",
-    "description": "A dashboard for organizing and consuming RSS feeds, YouTube channels, and podcasts with smart tagging, media playback, and seamless content flow.",
-    "repo": "amatya-aditya/obsidian-rss-dashboard"
-  },
-  {
     "id": "yolo",
     "name": "YOLO",
     "author": "lapis0x0",
@@ -19703,6 +19696,13 @@
     "author": "Eric Lowry",
     "description": "Preconfigure custom search and replace actions using plain text or regex to quickly modify selections or documents. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elowry/obsidian-replace-commands"
+  },
+  {
+    "id": "true-recall",
+    "name": "True Recall",
+    "author": "Lucas Piera",
+    "description": "Anki-like native system in obsidian. Review flashcards with FSRS spaced repetition. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pieralukasz/true-recall"
   },
   {
     "id": "study-flow-planner",
@@ -34854,9 +34854,9 @@
   },
   {
     "id": "contextual-ai-reader",
-    "name": "Contextual AI Reader",
+    "name": "Read and Watch with AI",
     "author": "Taoye",
-    "description": "AI language-learning reader for Obsidian with contextual translation, vocabulary explanations, and bilingual Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Translate documents, learn from videos with bilingual subtitles, and turn screenshots and AI conversations into notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "skye1349/contextual-ai-reader"
   },
   {
@@ -41944,6 +41944,13 @@
     "repo": "deyixtan/obsidian-drawio-blocks"
   },
   {
+    "id": "freedraw-pdf",
+    "name": "Freedraw PDF",
+    "author": "vida sana",
+    "description": "Freehand PDF annotation workspace for Obsidian with vault-backed sidecar saves. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vividasasana/freedraw-pdf"
+  },
+  {
     "id": "book-reader",
     "name": "Book Reader",
     "author": "ununnamed",
@@ -48097,6 +48104,13 @@
     "repo": "sasunhuevich/ToDoList"
   },
   {
+    "id": "omni-book-reader",
+    "name": "Omni Book Reader",
+    "author": "pavel",
+    "description": "An all-in-one, local-first EPUB reading workbench with a bookshelf, annotations, exports, focus mode, and reading statistics. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pavelpeng7/omni-book-reader"
+  },
+  {
     "id": "vault-calendar",
     "name": "Vault Calendar",
     "author": "Jax Ho",
@@ -53959,7 +53973,7 @@
     "id": "beresta",
     "name": "Beresta",
     "author": "secondbrainprod",
-    "description": "Brings highlights from the Beresta reader into your book notes as   Markdown callouts, one managed section per book, your own text   untouched, no network. Notes follow your Obsidian language (English - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Brings highlights from the Beresta reader into your book notes as Markdown callouts: one managed section per book, your own text untouched, no network. Panels and notes in English or Russian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "secondbrainprod/beresta-obsidian"
   },
   {
