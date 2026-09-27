@@ -50326,7 +50326,7 @@
     "id": "piem",
     "name": "Piem",
     "author": "shangxin",
-    "description": "Agentic AI side panel that edits your vault, delegates to subagents, and suggests what to ask next. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "An agentic AI side panel that edits your vault directly. No copy-pasting required: you ask, it acts, and your notes update right where they are. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "youngsx/piem"
   },
   {
@@ -55503,6 +55503,13 @@
     "repo": "port22-dev/note-quiz-engine"
   },
   {
+    "id": "content-library-dashboard",
+    "name": "Content Library Dashboard",
+    "author": "sourit2001",
+    "description": "A liquid-glass home for books, podcasts, web clips, news, and any Vault folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sourit2001/content-library"
+  },
+  {
     "id": "chenggao",
     "name": "Chenggao",
     "author": "ryyai",
@@ -55529,6 +55536,13 @@
     "author": "HJXArthurAtlas",
     "description": "PARA-based sidebar navigator with per-folder Bases tables and statistics dashboards. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hjxarthuratlas/PARA-Navigator"
+  },
+  {
+    "id": "bases-utilities",
+    "name": "Bases Utilities",
+    "author": "Bag of Tips",
+    "description": "Add pagination, column search, and quality-of-life enhancements to native Obsidian Bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bagoftips/Bases-Utilities"
   },
   {
     "id": "scientific-article-card",
@@ -56761,5 +56775,47 @@
     "author": "Zackary Burns",
     "description": "Highly configuarable plugin for effortless render of quick-and-dirty notation such as `n^(-1)` as its MathJax counterpart, eg `$n^{-1}$`. (Support for symbols such as -> and [deg] for degrees too!) - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zoroaster1x/Notation-Prettifier"
+  },
+  {
+    "id": "base-source-editor",
+    "name": "Base Source Editor",
+    "author": "fronglemog",
+    "description": "Edit the YAML source of a Base without leaving Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fronglemog/obsidian-base-source-editor-plugin"
+  },
+  {
+    "id": "tri-sync",
+    "name": "Tri Sync",
+    "author": "aho",
+    "description": "Sync notes through WebDAV, S3-compatible storage, or Baidu Netdisk, with conflict copies and local backups. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hao5516/obsidian-tri-sync"
+  },
+  {
+    "id": "obsyncdian",
+    "name": "Sync Setup",
+    "author": "Greg Poggiali",
+    "description": "Carry your community plugin setup between devices using a profile in your synced vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "2tallgreg/Sync-Setup"
+  },
+  {
+    "id": "local-html-view",
+    "name": "Local HTML View",
+    "author": "Axe",
+    "description": "Open local HTML files in a full browser view, keeping scripts, styles and interactivity intact instead of stripping them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "atlas555/obsidian-local-html-view"
+  },
+  {
+    "id": "ord-dashboard",
+    "name": "ORDdashboard",
+    "author": "Ordnung",
+    "description": "Shows note analytics and lists the notes that are ready to refresh. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ordnungen/ord-dashboard"
+  },
+  {
+    "id": "read-aloud",
+    "name": "Read Aloud",
+    "author": "Laszlo Repassy",
+    "description": "Read notes aloud sentence by sentence with a natural Piper voice that runs on your computer (through calibre), highlighting the sentence being read. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "laszlorepassy/obsidian-read-aloud"
   }
 ]
