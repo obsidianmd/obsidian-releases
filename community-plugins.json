@@ -12201,13 +12201,6 @@
     "repo": "morgen-so/morgen-obsidian"
   },
   {
-    "id": "immich",
-    "name": "Immich",
-    "author": "talal-a",
-    "description": "Link your Immich images within your vault.",
-    "repo": "talal-a/obsidian-immich"
-  },
-  {
     "id": "brain-dump-mode",
     "name": "Brain Dump Mode",
     "author": "yesjinu",
@@ -14068,13 +14061,6 @@
     "author": "makebit",
     "description": "Import bookmarks from Readeck.",
     "repo": "makebit/obsidian-readeck-importer"
-  },
-  {
-    "id": "data-files-editor",
-    "name": "Data Files Editor",
-    "author": "zuktol",
-    "description": "Create and edit .txt, .json and .xml files.",
-    "repo": "zuktol/obsidian-data-files-editor"
   },
   {
     "id": "new-note-fixer",
@@ -32018,13 +32004,6 @@
     "repo": "kkbin505/tomato-clock-plugin"
   },
   {
-    "id": "personal-life-system",
-    "name": "Life OS Assistant",
-    "author": "Xiaoqiang Huang",
-    "description": "Organize diary entries, tasks, knowledge, memory, and AI-assisted reviews inside your Obsidian vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "xiaoqiang-huang/obsidian-life-os-community"
-  },
-  {
     "id": "live-image-editor",
     "name": "Live Image Editor",
     "author": "britz",
@@ -34298,6 +34277,13 @@
     "author": "Sean local",
     "description": "Search within the active note and align each next match's line to the top of the editor. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tyronewj/top-aligned-search"
+  },
+  {
+    "id": "context-titles",
+    "name": "Context Titles",
+    "author": "Blake Cary",
+    "description": "Make duplicate note names in graph view readable by adding folder context. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "blakec2010/context-titles"
   },
   {
     "id": "geo-capture",
@@ -41594,6 +41580,13 @@
     "repo": "strombraaten/dim-lights"
   },
   {
+    "id": "property-order",
+    "name": "Property Order",
+    "author": "ZhengYX",
+    "description": "Reorder property values and customize property key suggestion order in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhyx91/obsidian-property-order"
+  },
+  {
     "id": "kuaifanyi",
     "name": "Kuaifanyi",
     "author": "wjzixi",
@@ -48636,6 +48629,13 @@
     "repo": "reiji777/workbay"
   },
   {
+    "id": "lockstep-sync",
+    "name": "Lockstep Sync",
+    "author": "Stephan Sergeev",
+    "description": "Sync your Obsidian vault between desktop, iOS and Android through your own server. Self-hosted, end-to-end encrypted, free and open source: no cloud, no subscription. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stephansergeev/obsidian-lockstep-sync"
+  },
+  {
     "id": "gemini-universal-summarizer",
     "name": "Gemini Universal Summarizer",
     "author": "my-credits",
@@ -53732,6 +53732,13 @@
     "repo": "vinvinvin444/A-Personal-Records-Releases"
   },
   {
+    "id": "a-my-island",
+    "name": "A-My-Island",
+    "author": "evinvin",
+    "description": "Build an interactive personal island workspace for tasks, notes, planning, and daily life in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vinvinvin444/A-My-Island-Releases"
+  },
+  {
     "id": "sermon-studio-public",
     "name": "Sermon Studio Public",
     "author": "jakelul",
@@ -55965,6 +55972,13 @@
     "repo": "topmindspace/topmind-obsidian"
   },
   {
+    "id": "section-numbering",
+    "name": "Section Numbering",
+    "author": "siulved54",
+    "description": "Numbers your headings as an outline (1, 1.1, 1.2) and renumbers them when sections move. Links to a renumbered heading, in the note and across the vault, are rewritten so they keep working. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "perezamadorluisenrique-gif/section-numbering"
+  },
+  {
     "id": "outline-collapse",
     "name": "Outline Collapse",
     "author": "hibara",
@@ -56623,6 +56637,13 @@
     "repo": "alexivanovvv/bb-ai-agent"
   },
   {
+    "id": "hybrid-line-numbers",
+    "name": "Hybrid Line Numbers",
+    "author": "siulved54",
+    "description": "Relative and hybrid line numbers for Vim-style jumps. A folded section counts as one line, and numbers can turn absolute in Vim insert mode. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "perezamadorluisenrique-gif/hybrid-line-numbers"
+  },
+  {
     "id": "deepsidian",
     "name": "Deepseedian",
     "author": "Tonks",
@@ -56817,5 +56838,33 @@
     "author": "Laszlo Repassy",
     "description": "Read notes aloud sentence by sentence with a natural Piper voice that runs on your computer (through calibre), highlighting the sentence being read. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "laszlorepassy/obsidian-read-aloud"
+  },
+  {
+    "id": "wakatime-box-lifeos",
+    "name": "WakaTime Box for LifeOS",
+    "author": "luke33",
+    "description": "Write your WakaTime project, language, editor and category stats into your LifeOS daily note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "luke-evan/wakatime-box-lifeos"
+  },
+  {
+    "id": "list-item-callouts",
+    "name": "List Item Callouts",
+    "author": "siulved54",
+    "description": "Highlight single list items as coloured callouts by starting them with a character such as & ! ? or @. Compatible with List Callouts notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "perezamadorluisenrique-gif/list-item-callouts"
+  },
+  {
+    "id": "create-in-chosen-folder",
+    "name": "Create In Chosen Folder",
+    "author": "Bubba",
+    "description": "Choose which folder to create a note in when you click a link to a note that doesn't exist yet. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bubbatlc/create-in-chosen-folder"
+  },
+  {
+    "id": "split-groups",
+    "name": "Split Groups",
+    "author": "Fuad Laguda",
+    "description": "A Bases view that puts a note in every group its list property names, instead of one combined group. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lagudafuadtosin/split-groups"
   }
 ]
