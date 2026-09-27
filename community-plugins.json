@@ -27706,13 +27706,6 @@
     "repo": "timikays/markpage-obsidian-plugin"
   },
   {
-    "id": "local-dictation",
-    "name": "Speech Kit",
-    "author": "Alexander Brittain",
-    "description": "Offline and private speech-to-text, text-to-speech, and translation for desktop notes. Dictate notes, transcribe meetings, and more. NVIDIA, Whisper, and natural voices running on your machine. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "brittain9/speech-kit-obsidian-plugin"
-  },
-  {
     "id": "markr",
     "name": "Markr",
     "author": "visua1hue",
@@ -36069,6 +36062,13 @@
     "author": "Murat",
     "description": "Send vault reminders and captured app notices to ntfy with auto scan, editable queues, delayed notifications, repeats, and optional AI webhooks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "arias007/obsidian-ntfy"
+  },
+  {
+    "id": "cancip",
+    "name": "Cancip",
+    "author": "Murat",
+    "description": "AI side panel for vault read&write, memory context, and safe note assistance. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arias007/obsidian-cancip-ai"
   },
   {
     "id": "canvas-layer-order",
@@ -55944,6 +55944,13 @@
     "repo": "moyansuyu/obsidian-wechat-designer"
   },
   {
+    "id": "topmind-stream",
+    "name": "Topmind Stream",
+    "author": "msdp",
+    "description": "Personal stream + AI co-pilot for Obsidian — jot, confirm suggestions, files stay yours. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "topmindspace/topmind-obsidian"
+  },
+  {
     "id": "section-numbering",
     "name": "Section Numbering",
     "author": "siulved54",
@@ -56686,13 +56693,6 @@
     "repo": "johannes-kaindl/mailstone"
   },
   {
-    "id": "star-tracker",
-    "name": "Star Tracker",
-    "author": "Divyaraj Murugan",
-    "description": "Kanban boards, sprints with burndown and velocity, a dashboard, a weekly update and an epic timeline for Bases. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "divyaraj-m/star-tracker"
-  },
-  {
     "id": "enot",
     "name": "Enot",
     "author": "Danila Nekrasov",
@@ -56747,5 +56747,19 @@
     "author": "Tyrel Delaney",
     "description": "One-click button in the note tab header that copies the current file's path. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tyrelh/obsidian-copy-path-button"
+  },
+  {
+    "id": "task-flow",
+    "name": "Task Flow",
+    "author": "shenfan19",
+    "description": "Requires the Tasks plugin. Visualizes Tasks' id/dependsOn dependencies as an interactive, drag-and-drop node graph, so you can see task blockers, dependency chains, and what's ready to work on at a glance. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shenfan19/task-flow"
+  },
+  {
+    "id": "audiopen",
+    "name": "AudioPen",
+    "author": "Louis Pereira",
+    "description": "Sync your AudioPen voice notes into your vault as Markdown files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "louispereira23/audiopen-obsidian-sync"
   }
 ]
