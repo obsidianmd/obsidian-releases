@@ -34027,13 +34027,6 @@
     "repo": "ckelsoe/obsidian-plaud-importer"
   },
   {
-    "id": "cite-engine",
-    "name": "Cite Engine",
-    "author": "Nick",
-    "description": "Drift-proof, closed-corpus citations via block refs. Cite only from your clipped sources — fabrication impossible by construction. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "flyingmiata-droid/cite-engine"
-  },
-  {
     "id": "desktop-dashboard",
     "name": "Time Desk (Desktop)",
     "author": "liyaoming",
@@ -42901,6 +42894,13 @@
     "author": "SirHobby",
     "description": "Quiz yourself on your own notes with adaptive spaced repetition, powered by an LLM key you supply. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sirhobby/wetstone"
+  },
+  {
+    "id": "callander",
+    "name": "Callander",
+    "author": "Callan",
+    "description": "A private secondary memory for your friendships. Jot gift ideas, conversation threads, and things to do together — Callander resurfaces them when they matter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zcallan/callander-obsidian"
   },
   {
     "id": "bible-search-reader",
@@ -56210,13 +56210,6 @@
     "repo": "max-208/obsidian-syntree-plugin"
   },
   {
-    "id": "soundings",
-    "name": "Soundings",
-    "author": "Mario Camaj",
-    "description": "Turn transcript files into safe, structured Markdown beside their originals. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kormiloio/Soundings"
-  },
-  {
     "id": "codazo",
     "name": "Codazo",
     "author": "Codazo",
@@ -56926,7 +56919,7 @@
   {
     "id": "pickme",
     "name": "Pick Me",
-    "author": "seanishoo",
+    "author": "sean-390",
     "description": "Annotate and ask questions about the text or region you select, in notes and PDFs, without leaving the page. Annotations live in their own Markdown files and stay linked to the source; the original document is never modified. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sxinyuhoo/pickme"
   },
@@ -57036,6 +57029,13 @@
     "repo": "lose-memory/obsidian-background-cover"
   },
   {
+    "id": "tips",
+    "name": "Tips",
+    "author": "谈谈子",
+    "description": "Pick code block languages from a floating two-column panel, with built-in languages, Mermaid, plugin-registered names, and reusable content templates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tan-tanzi/obsidian-tips"
+  },
+  {
     "id": "video-player-ai",
     "name": "Video Player (AI integrated)",
     "author": "Taoye",
@@ -57055,5 +57055,47 @@
     "author": "Taoye",
     "description": "Translate selected text and documents, explain vocabulary, and save bilingual notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "skye1349/obsidian-ai-translator"
+  },
+  {
+    "id": "obs-projects-plus",
+    "name": "Projects Plus",
+    "author": "Pavel",
+    "description": "Turn your notes into projects with dashboards, tables, boards, calendars and galleries built from note properties, relations, rollups and formulas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "parkpavel/obs-projects-plus"
+  },
+  {
+    "id": "tagged",
+    "name": "Tagged",
+    "author": "jjyr",
+    "description": "Organize notes with existing tags and optional root-folder filing using your preferred LLM. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jjyr/obsidian-tagged-plugin"
+  },
+  {
+    "id": "structurizr-diagrams",
+    "name": "Structurizr Diagrams",
+    "author": "kdas",
+    "description": "Embed interactive Structurizr views in Obsidian notes with local rendering. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "okdas/obsidian-structurizr"
+  },
+  {
+    "id": "app-view",
+    "name": "Quick View",
+    "author": "Peter Fun",
+    "description": "Extract and view key points in a clean, read-only quick view within the same note. Dual-state toggle with memory. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zephyr333/obsidian-app-view"
+  },
+  {
+    "id": "qnalog",
+    "name": "QnALog",
+    "author": "Q&A Log",
+    "description": "Record and transcribe conversations, then turn them into structured Markdown notes with your own AI provider. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qnalog/qnalog"
+  },
+  {
+    "id": "tasknotes-caldav",
+    "name": "TaskNotes CalDAV",
+    "author": "Fabian Schober",
+    "description": "Two-way sync of TaskNotes tasks with a CalDAV task list (VTODO). Requires TaskNotes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "schobernoise/tasknotes-caldav"
   }
 ]
