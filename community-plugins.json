@@ -6594,6 +6594,13 @@
     "repo": "lukewh/fantasy-name"
   },
   {
+    "id": "tag-many",
+    "name": "TagMany",
+    "author": "Joshua",
+    "description": "Add the same tag(s) to multiple notes in a folder (optionally including subfolders) at once.",
+    "repo": "joshua-martius/tagmany"
+  },
+  {
     "id": "better-search-views",
     "name": "Better Search Views",
     "author": "ivan-lednev",
@@ -11412,7 +11419,7 @@
   {
     "id": "shrink-pinned-tabs",
     "name": "Shrink pinned tabs",
-    "author": "nicosomb",
+    "author": "Nicolas Lœuillet",
     "description": "Shrinks pinned tabs to save screen space.",
     "repo": "nicosomb/obsidian-shrink-pinned-tabs"
   },
@@ -29417,7 +29424,7 @@
     "id": "advanced-word-count",
     "name": "Advanced Word Count",
     "author": "pan4ratte",
-    "description": "Create complex word count presets that will be displayed in the status bar or in the right pane tab. Install tens of community presets, custom metrics, and settings from the extension store. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create complex word count presets and display them in the status bar or in a sidebar tab. Install dozens of community presets, custom metrics, and settings from the extension store. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pan4ratte/obsidian-advanced-word-count"
   },
   {
@@ -45272,7 +45279,7 @@
     "id": "pandoc-gui",
     "name": "Pandoc GUI",
     "author": "pan4ratte",
-    "description": "Export and import notes via Pandoc with a modern GUI both on desktop and mobile. Create templates for Word, PDF, LaTeX, HTML, EPUB, etc., and install dozens of lua filters from the store. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Export and import notes via Pandoc with a modern GUI on both desktop and mobile. Create templates for Word, PDF, LaTeX, HTML, EPUB, and many other formats, and install Lua filters from the store. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pan4ratte/obsidian-pandoc-gui"
   },
   {
@@ -47353,6 +47360,13 @@
     "author": "Mikolaj Sapek",
     "description": "Sync a shared vault in real time across desktop and mobile, on a server you host yourself. Full authorship, no silent overwrites. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mikolajsapek/obsidian-havemind"
+  },
+  {
+    "id": "worklife-calendar",
+    "name": "WorkLife Calendar",
+    "author": "RavenLife",
+    "description": "Calendar, task tracker, habit tracker, and financial planner — all in one plugin for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "atinss/WorkLife-Calendar-for-Obsidian"
   },
   {
     "id": "task-sorter",
@@ -54070,9 +54084,9 @@
   {
     "id": "writing-buddy",
     "name": "Writing Buddy",
-    "author": "onezeroooo",
+    "author": "xtenlab2",
     "description": "Write and revise long-form work with manuscript context, reviewable AI edits, writing skills, and your own models. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "onezeroooo/obsidian-writing-buddy"
+    "repo": "xtenlab/obsidian-writing-buddy"
   },
   {
     "id": "ai-exporter-hub",
@@ -56959,6 +56973,13 @@
     "repo": "zmattew/obsidian-plot"
   },
   {
+    "id": "tag-match",
+    "name": "Tag Match",
+    "author": "Nathan Cheng",
+    "description": "Quickly find the right tags from your vault for a given note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nweii/tag-match"
+  },
+  {
     "id": "folder-counts",
     "name": "Folder Counts",
     "author": "siulved54",
@@ -57115,7 +57136,7 @@
   {
     "id": "time-tools",
     "name": "Time Tools",
-    "author": "明",
+    "author": "stray",
     "description": "Insert a timestamp at the cursor, and run a draggable Pomodoro timer with per-scenario duration presets and session logging. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "steries/time-tools"
   },
@@ -57167,5 +57188,33 @@
     "author": "xmmw",
     "description": "将各种格式文件（Word/PPT/PDF）一键转换为 Markdown，支持图片和表格提取。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xmmw-fun/obsidian-alltomd"
+  },
+  {
+    "id": "local-mirror-sync",
+    "name": "Stateful Git Sync",
+    "author": "yyhzyjk",
+    "description": "Stateful multi-device sync for Obsidian via GitHub, with three-way sync, conflict protection, recovery, and verification. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zainhuang/vaultbridge"
+  },
+  {
+    "id": "erd-editor",
+    "name": "ERD Editor",
+    "author": "dineug",
+    "description": "Edit Entity-Relationship Diagrams in .erd files: design tables and relationships, import SQL and export DDL. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dineug/erd-editor-obsidian-plugin"
+  },
+  {
+    "id": "graph-colour-spawn",
+    "name": "Graph Colour Spawn",
+    "author": "Taylor Scott",
+    "description": "A living colour wheel: population-aware colours, natural physics and new notes spawned beside their group. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tjqscott/obsidian-graph-colour-spawn"
+  },
+  {
+    "id": "smart-rtl",
+    "name": "Smart RTL",
+    "author": "milad-s5",
+    "description": "Sets each line's text direction from the majority of its words, so a Persian, Arabic or Hebrew line that starts with an English word still reads right-to-left. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "milad-s5/obsidian-smart-rtl"
   }
 ]
