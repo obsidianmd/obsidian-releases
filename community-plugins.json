@@ -6594,13 +6594,6 @@
     "repo": "lukewh/fantasy-name"
   },
   {
-    "id": "tag-many",
-    "name": "TagMany",
-    "author": "joshua-martius",
-    "description": "Add the same tag(s) to multiple notes in a folder (optionally including subfolders) at once.",
-    "repo": "joshua-martius/tagmany"
-  },
-  {
     "id": "better-search-views",
     "name": "Better Search Views",
     "author": "ivan-lednev",
@@ -47005,13 +46998,6 @@
     "repo": "zhouchangui/brainpost-obsidian"
   },
   {
-    "id": "depthinker-timer",
-    "name": "Depthinker Timer",
-    "author": "Depthinker",
-    "description": "Pomodoro and stopwatch timing with a calendar focus log stored as notes in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "depthinker925/depthinker-timer"
-  },
-  {
     "id": "folder-space",
     "name": "Folder Space",
     "author": "MatheusZarkov",
@@ -47360,13 +47346,6 @@
     "author": "Mikolaj Sapek",
     "description": "Sync a shared vault in real time across desktop and mobile, on a server you host yourself. Full authorship, no silent overwrites. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mikolajsapek/obsidian-havemind"
-  },
-  {
-    "id": "worklife-calendar",
-    "name": "WorkLife Calendar",
-    "author": "RavenLife",
-    "description": "Calendar, task tracker, habit tracker, and financial planner — all in one plugin for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "atinss/WorkLife-Calendar-for-Obsidian"
   },
   {
     "id": "task-sorter",
@@ -49633,7 +49612,7 @@
     "id": "copy-guard",
     "name": "CopyGuard",
     "author": "k-tech-studio",
-    "description": "Find sync-conflict copies (Proton Drive, official Sync -conflict- names, Dropbox, and similar), empty files, and leftover temp files. Review them and move only what you approve. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Find sync-conflict copies, empty files, and leftover temp files. Compare with the original (name-only if bytes match). Restore from the Trash Box. Two-step delete. Does not merge. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "crossbeat461-a11y/copy-guard"
   },
   {
@@ -53984,13 +53963,6 @@
     "repo": "justinjia0813/the-last-brain"
   },
   {
-    "id": "note-content-studio",
-    "name": "Note Content Studio",
-    "author": "runnerback",
-    "description": "Turn notes into WeChat Official Account articles, Xiaohongshu image cards, and Feishu docs, with live preview. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "runnerback/content-studio"
-  },
-  {
     "id": "codex-companion",
     "name": "Codex Notes Companion",
     "author": "Zhuofu Chen",
@@ -54227,6 +54199,13 @@
     "author": "3zh",
     "description": "Embed the pi coding agent in a sidebar: chat alongside your notes and reference the current note, selection, or pasted image. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zzzzzllllllaaaa/obsidian-pi-panel"
+  },
+  {
+    "id": "concept-indexer",
+    "name": "Concept Indexer",
+    "author": "Corrosion Labs",
+    "description": "Mechanical concept indexer for Obsidian with wikilinks, master pages, and global indexes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "corrosionlabs/concept-indexer"
   },
   {
     "id": "ios-tts",
@@ -55536,13 +55515,6 @@
     "author": "paradox-adi",
     "description": "A deterministic, rights-aware visual research tool for finding educational and reference images from public web sources and inserting remote URLs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "adityavijay214/free-web-image-search"
-  },
-  {
-    "id": "qiuqiu-wechat-editor",
-    "name": "QiuQiu WeChat Editor",
-    "author": "wangsiji",
-    "description": "Turn Markdown into WeChat-friendly rich HTML with live preview and one-click copy. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "wangsiji/qiuqiu-wechat-editor"
   },
   {
     "id": "note-quiz-engine",
@@ -56891,7 +56863,7 @@
   {
     "id": "wakatime-box-lifeos",
     "name": "WakaTime Box for LifeOS",
-    "author": "luke33",
+    "author": "luke-evan",
     "description": "Write your WakaTime project, language, editor and category stats into your LifeOS daily note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "luke-evan/wakatime-box-lifeos"
   },
@@ -56932,7 +56904,7 @@
   },
   {
     "id": "catea-paper",
-    "name": "Catea Paper",
+    "name": "Catea",
     "author": "cunyu666",
     "description": "Paper workspace with a native Catea Agent. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cunyu6666/catea-obsidian-plugin"
@@ -57132,5 +57104,40 @@
     "author": "Qunwei Li",
     "description": "Automatically adds links to related notes at the end of each note and an index page for each folder, in plain Markdown, without touching your own text. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "goldenxingxing/obsidian-vault-linker"
+  },
+  {
+    "id": "mappy",
+    "name": "Mappy",
+    "author": "hiroyaiizuka",
+    "description": "View and edit Markdown as linked, illustrated mind maps. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hiroyaiizuka/Mappy"
+  },
+  {
+    "id": "insert-week",
+    "name": "Insert Week",
+    "author": "Bugra Sitemkar",
+    "description": "Insert a dated week template with day headings and checkboxes. Choose the week of the year and the first day of the week. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bugrasitemkar/obsidian-insert-weekdays"
+  },
+  {
+    "id": "visimark",
+    "name": "VisiMark",
+    "author": "Michał Niedźwiedzki",
+    "description": "Keeps the numbers in a note honest: every computed value carries the formula that produced it, and the note is still ordinary Markdown outside the vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "michal-niedzwiedzki/visimark"
+  },
+  {
+    "id": "current-note-chat",
+    "name": "Screen and File QA",
+    "author": "123",
+    "description": "Ask AI about your screen or files, practise concepts with Feynman learning, and automatically save each conversation to a note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "clarkdonaldtfgbw5081-del/current-note-chat"
+  },
+  {
+    "id": "depthinker",
+    "name": "Depthinker",
+    "author": "Depthinker",
+    "description": "A workbench panel that groups a clock, to-do list, Pomodoro timer, habit and diary calendars, note tools, and office utilities. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "depthinker925/Depthinker"
   }
 ]
