@@ -27566,13 +27566,6 @@
     "repo": "alcatrazyu/better-footnote"
   },
   {
-    "id": "thought-navigator",
-    "name": "Thought Navigator",
-    "author": "qingxuanlin-s",
-    "description": "A visual knowledge-processing workspace for Obsidian: connect notes, shape MOCs, build mind  maps, and turn Zettelkasten-style thinking into navigable thought maps. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "qingxuanlin-s/obsidian-thought-navigator"
-  },
-  {
     "id": "shadowdark-statblocks",
     "name": "Shadowdark Statblocks",
     "author": "caulfieldsbrain",
@@ -36685,13 +36678,6 @@
     "author": "zhaohongxuan",
     "description": "Highlight timestamps in your Journal section, capture quick notes, images, and audio from a sidebar, dictate with real-time speech-to-text, and review your year with a heatmap. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhaohongxuan/journal-partner"
-  },
-  {
-    "id": "pivi",
-    "name": "Pivi",
-    "author": "shuuul",
-    "description": "Bring AI agents into your vault with fine-grained context controls. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "shuuul/obsidian-pivi"
   },
   {
     "id": "read-it-never",
@@ -49777,6 +49763,13 @@
     "repo": "benhancock/drag-and-drop-lists"
   },
   {
+    "id": "chinese-writing-layout",
+    "name": "Chinese Writing Layout",
+    "author": "多多",
+    "description": "为中文长文提供多主题纸张、自定义背景、高级文本整理和多格式导出. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "idoncar2/chinese-writing-layout"
+  },
+  {
     "id": "outcrop",
     "name": "Outcrop",
     "author": "Sanket Saurav",
@@ -52815,6 +52808,13 @@
     "repo": "aznan-triks/trello-vault-sync"
   },
   {
+    "id": "share-md",
+    "name": "Share MD",
+    "author": "高正杰",
+    "description": "Publish Obsidian Markdown notes to a self-hosted share page. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gaozhengjie/Share-MD"
+  },
+  {
     "id": "grape-clusters",
     "name": "Grape Clusters",
     "author": "Rito",
@@ -54743,7 +54743,7 @@
     "id": "luggit",
     "name": "Luggit",
     "author": "Hyunyoung Park",
-    "description": "Review, stage, commit, push and pull your vault's Git changes from a sidebar panel. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Review and merge your vault's Git changes from a sidebar panel. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lugglory/luggit"
   },
   {
@@ -57335,5 +57335,33 @@
     "author": "veryeasyshj",
     "description": "하루 단위 업무 카드를 월간 달력에 쌓고, 업무 분류 색·상태값·산출경로로 정리한다. 카드 1개 = 노트 1개. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "veryeasyshj/daily-scrum-calendar"
+  },
+  {
+    "id": "mermaid-beauty",
+    "name": "Mermaid Beauty",
+    "author": "theChildinus",
+    "description": "Style Mermaid diagrams with a consistent theme and choose rendering, colors, typography, and layout for each diagram type. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "thechildinus/mermaid-beauty"
+  },
+  {
+    "id": "notes-list",
+    "name": "Notes List",
+    "author": "Alessandro Melandri",
+    "description": "Show notes from a folder as a chronological list with an activity heatmap, tag browser, pinning, and date filters. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "amelandri/NotesList"
+  },
+  {
+    "id": "qard",
+    "name": "Qard",
+    "author": "Kylian",
+    "description": "A focused study workspace for Markdown flashcards, manual sessions, and optional spaced repetition. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kylianmarceau/qard-obsidian"
+  },
+  {
+    "id": "agent-sessions",
+    "name": "Agent Sessions",
+    "author": "Kaz Namba",
+    "description": "Run Claude Code and Codex sessions as terminal tabs, with a session list, usage analytics, and a daemon that keeps sessions running. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kulikala/obsidian-agent-sessions"
   }
 ]
