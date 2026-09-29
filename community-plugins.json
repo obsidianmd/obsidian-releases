@@ -28182,13 +28182,6 @@
     "repo": "ksawl/obsidian-smart-tabs"
   },
   {
-    "id": "search-movies-tv-tmdb",
-    "name": "Search Movies and TV Shows TMDB",
-    "author": "Bernardo Nogueira",
-    "description": "Search for movies and TV shows on TMDB and automatically create notes with ratings. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "bernardonogueira8/search-movies-tv-tmdb"
-  },
-  {
     "id": "translucent-bg",
     "name": "Translucent BG",
     "author": "MellowMarsh",
@@ -40124,6 +40117,13 @@
     "repo": "ocuclaw/obsidian-wayfinder"
   },
   {
+    "id": "visual-notes",
+    "name": "Visual Notes",
+    "author": "dandersondev",
+    "description": "A visual workspace built on Obsidian's Canvas format: nestable freeform boards, icon tile grids, kanban boards, sticky notes, checklists, columns, drawing with pen, labels, reactions, and more.. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dandersondev/visual-notes"
+  },
+  {
     "id": "tetromino",
     "name": "Tetromino",
     "author": "Jonathan 'frostmute' Wagner",
@@ -42061,6 +42061,13 @@
     "author": "SETIX-A",
     "description": "Revisit your past: surface notes written on this day in previous years as collapsible cards in the sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "setix-a/obsidian-time-canvas"
+  },
+  {
+    "id": "zibase",
+    "name": "ZiBase",
+    "author": "Rohith A",
+    "description": "Markdown tables as living databases. Rich UI with full Obsidian markdown rendering, [[wikilinks]], Alt+Click editing, sort, filter, formula columns, Kanban/Gallery/Calendar views, export, schema inference and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rohith-am/ZiBase"
   },
   {
     "id": "local-rest-api-periodic-notes",
@@ -52899,13 +52906,6 @@
     "repo": "tutivsoft-com/tool-app-Obsidian-Meridian-Timeline"
   },
   {
-    "id": "aegis-note-locker",
-    "name": "Aegis Note Locker",
-    "author": "Rahul S",
-    "description": "Protect note bodies and selected frontmatter values with local authenticated encryption. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Aegis-Note-Locker"
-  },
-  {
     "id": "icor-for-life-scratchpad",
     "name": "ICOR for Life - Scratchpad",
     "author": "Thomas Roedl",
@@ -52925,13 +52925,6 @@
     "author": "Torus Hidenami",
     "description": "Collects unchecked tasks from Obsidian Canvas cards into an Inbox card. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "torus211/canvas-inbox-sync"
-  },
-  {
-    "id": "mica-webp-optimizer",
-    "name": "Mica WebP Optimizer",
-    "author": "Rahul S",
-    "description": "Optimize PNG and JPEG media locally as verified WebP files without breaking Obsidian links. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Mica-WebP-Optimizer"
   },
   {
     "id": "rememo",
@@ -56406,13 +56399,6 @@
     "repo": "spiderk-104/search-replace-helper"
   },
   {
-    "id": "tagline-timelines",
-    "name": "Tagline - Timelines",
-    "author": "Jordn Bastian",
-    "description": "Turn your notes into a timeline. No lists, no manual code blocks, no hand-written YAML. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jordn-bastian/tagline-timelines-obsidian-plugin"
-  },
-  {
     "id": "highlight-reference",
     "name": "Highlight Reference",
     "author": "singhaf9270",
@@ -57372,6 +57358,13 @@
     "repo": "kulikala/obsidian-agent-sessions"
   },
   {
+    "id": "wiki-paste",
+    "name": "Wiki Paste",
+    "author": "xfjbnlsnflb",
+    "description": "Preserve copied wiki text when pasting into Obsidian Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hawaka6667-dev/obsidian-wiki-paste"
+  },
+  {
     "id": "whenreset",
     "name": "Codex Reset Radar (WhenReset)",
     "author": "zack",
@@ -57475,5 +57468,40 @@
     "author": "Eugeny",
     "description": "Review an Inbox and explicitly process notes whose review date has expired. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jjuchara/obsidian-para-inbox-review"
+  },
+  {
+    "id": "webdav-nas",
+    "name": "WebDAV nas",
+    "author": "Hadesr",
+    "description": "轻量 WebDAV 同步插件：只上传 / 只下载 / 双向，配合\"只传变动 / 全部对齐\"；删除跟随方向，自动同步不打扰，进度只走通知。桌面与移动端通用。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hadesls/webdav-nas"
+  },
+  {
+    "id": "settings-navigator",
+    "name": "Settings Navigator",
+    "author": "Lawrence Lee",
+    "description": "Navigate settings history, manage plugins from the sidebar, and remember search filters and expanded sections. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pulserh/Obsidian-Settings-Navigator"
+  },
+  {
+    "id": "tray-extended",
+    "name": "Tray-Extended",
+    "author": "Raphael Kuster",
+    "description": "Tray-Extended is a fork of Tray with extended window management and global quick notes - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bighoss/obsidian-tray-extended"
+  },
+  {
+    "id": "plugin-drawers",
+    "name": "Extension Drawers",
+    "author": "Bohdan Rak",
+    "description": "Organise community and core plugins into folders in a single Plugins tab. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bsdbx/obsidian-extension-drawers"
+  },
+  {
+    "id": "goodnotes-handwriting-workflow",
+    "name": "Goodnotes Handwriting Workflow",
+    "author": "Eugeny",
+    "description": "Start a Goodnotes handwriting session from a note and safely attach the exported PDF or image. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jjuchara/proektirovanie-workflow-obsidian-goodnotes-essential"
   }
 ]
