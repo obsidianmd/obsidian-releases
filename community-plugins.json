@@ -19789,13 +19789,6 @@
     "repo": "xnjiang/speakpen-obsidian"
   },
   {
-    "id": "discourse-graphs",
-    "name": "Discourse Graph",
-    "author": "discoursegraphs",
-    "description": "Add semantic structure to your notes with the Discourse Graph protocol. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "discoursegraphs/discourse-graph-obsidian"
-  },
-  {
     "id": "scroll-line",
     "name": "Scroll Line",
     "author": "abdelrahmanhafez",
@@ -30126,6 +30119,13 @@
     "author": "Kawê Cezar",
     "description": "Transforms your vault's directory structures into a streamlined grid of card visuals with fallback banners and interactive metadata. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kawecz/gallery-view-dashboard"
+  },
+  {
+    "id": "vir",
+    "name": "Vir",
+    "author": "Djordje Marković",
+    "description": "An LLM Wiki for Claude Code, in your Obsidian sidebar. Surface relevant notes from your distilled session knowledge as you work. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "djolex999/vir-obsidian"
   },
   {
     "id": "didasync",
@@ -47229,27 +47229,6 @@
     "repo": "coffeecheese/obsidian-pm-insights"
   },
   {
-    "id": "torbert-text-ai",
-    "name": "Torbert Text AI",
-    "author": "Rahul S",
-    "description": "Clean up Markdown, apply text transformations, and use OpenRouter for AI-assisted note editing. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/Torbert-Text-AI-Obsidian"
-  },
-  {
-    "id": "denali-ai-file-renamer-front-matter",
-    "name": "Denali AI Renamer",
-    "author": "Rahul S",
-    "description": "Generate filenames from Markdown notes with AI, then rename automatically or after review. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/Denali-AI-Renamer-and-Front-Matter-Obsidian"
-  },
-  {
-    "id": "culebra-ai-spell-correct",
-    "name": "Culebra AI Spell Correct",
-    "author": "Rahul S",
-    "description": "Correct spelling, grammar, and punctuation in selected text, notes, and Markdown files using OpenRouter. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/Culebra-Obsidian-AI-Auto-Correct-Spelling"
-  },
-  {
     "id": "vault-issues",
     "name": "Vault Issues",
     "author": "Aizic Albert",
@@ -57524,5 +57503,19 @@
     "author": "racoon",
     "description": "Live two-way sync of your vault with a folder on your own server over SSH and SFTP. Works on Windows, Linux and Android. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tequrity/syncher"
+  },
+  {
+    "id": "lecture-transcriber",
+    "name": "Transcriber and Summary for Idiots",
+    "author": "William/Tripp Hinch",
+    "description": "Transcribe lecture recordings locally with Whisper and summarise them with a local model. Works offline; nothing is uploaded. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abysslotus/obsidian-lecture-transcriber"
+  },
+  {
+    "id": "proton-drive-sync",
+    "name": "Proton Drive Sync",
+    "author": "Marcos",
+    "description": "End-to-end encrypted bidirectional sync of your vault with Proton Drive, with three-way conflict remediation for offline edits. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "marckfp/obsidian-proton-sync"
   }
 ]
