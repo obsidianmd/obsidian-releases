@@ -27111,6 +27111,13 @@
     "repo": "guchang/Odaily-Plugin"
   },
   {
+    "id": "review-comments",
+    "name": "Review Comments",
+    "author": "Shota Shirai",
+    "description": "Notion-style review comments stored as CriticMarkup. AI-friendly format for LLM-assisted editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shotashirai1719/obsidian-review-comments"
+  },
+  {
     "id": "lumen-ai-assistant",
     "name": "Lumen",
     "author": "chinoryunqin",
@@ -30133,13 +30140,6 @@
     "author": "Kawê Cezar",
     "description": "Transforms your vault's directory structures into a streamlined grid of card visuals with fallback banners and interactive metadata. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kawecz/gallery-view-dashboard"
-  },
-  {
-    "id": "vir",
-    "name": "Vir",
-    "author": "Djordje Marković",
-    "description": "An LLM Wiki for Claude Code, in your Obsidian sidebar. Surface relevant notes from your distilled session knowledge as you work. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "djolex999/vir-obsidian"
   },
   {
     "id": "didasync",
@@ -56588,6 +56588,13 @@
     "repo": "v-samodelkin/obsidian-skill-symlinks"
   },
   {
+    "id": "voicecomment",
+    "name": "VoiceComment",
+    "author": "engenharick",
+    "description": "Record voice notes as MP3 and insert the player right where you started recording: in a note, or inside an Excalidraw drawing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "engenharick/voicecomment"
+  },
+  {
     "id": "note-proofreader",
     "name": "Veritas Howler - Note Proofreader",
     "author": "Jingwen Wang",
@@ -57246,6 +57253,13 @@
     "repo": "stef4678/Markdown_to_CHM"
   },
   {
+    "id": "plugin-groups-admin",
+    "name": "PlugiGroups",
+    "author": "gmgiglio",
+    "description": "Organize installed community plugins into custom groups. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gmgiglio/PlugiGroups"
+  },
+  {
     "id": "ribbon-drawers",
     "name": "Ribbon Drawers",
     "author": "Bohdan Rak",
@@ -57272,5 +57286,26 @@
     "author": "remriel",
     "description": "Automatically generate concise titles for untitled notes with Groq or local content extraction. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "remriel/obsidian-untitled-auto-title"
+  },
+  {
+    "id": "spotlight",
+    "name": "Spotlight",
+    "author": "zymetm",
+    "description": "Star notes, folders, and files to surface them on a shelf at the top of their folder in the file explorer, without moving anything. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zymetm/spotlight"
+  },
+  {
+    "id": "move-tab-to-group",
+    "name": "Move Tab to Group",
+    "author": "Changhun Han",
+    "description": "Move the active tab into the tab group on its left or right. If there is no group on that side, a new one is split off for it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hanchanghun/move-tab-to-group"
+  },
+  {
+    "id": "spaced-dive",
+    "name": "Spaced Dive",
+    "author": "6iedog",
+    "description": "Review whole notes on a forgetting curve. Draw one from your vault, read it, rate it. No flashcards to make. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "6iedog/obsidian-spaced-dive"
   }
 ]
