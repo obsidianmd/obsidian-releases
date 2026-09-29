@@ -51177,13 +51177,6 @@
     "repo": "toropanov/obsidian-conflict-resolver"
   },
   {
-    "id": "astral-trek",
-    "name": "Astra",
-    "author": "nightfall",
-    "description": "An interactive Obsidian home dashboard for tasks, knowledge graph, plugins, vault health, and writing activity. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "nightfall-yl/obsidian-astral-trek"
-  },
-  {
     "id": "rowbase",
     "name": "Rowbase",
     "author": "soulaymane01",
@@ -51420,6 +51413,13 @@
     "author": "Edward Hsieh",
     "description": "Create folder-scoped File Explorer spaces in sidebars, editor tabs, and popout windows. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "edwardsayer/obsidian-folder-spaces"
+  },
+  {
+    "id": "integrated-task-manager",
+    "name": "Integrated Task Manager",
+    "author": "kuberrr05",
+    "description": "Manage Markdown tasks with Inbox, Today, Upcoming, projects, tags, and smart lists. Organize work with filters, calendars, Kanban boards, and Gantt charts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kuberrr0/obsidian-integrated-tasks"
   },
   {
     "id": "dev-prod-plugin-switcher",
@@ -54727,7 +54727,7 @@
   },
   {
     "id": "luggit",
-    "name": "Luggit",
+    "name": "Lugdiff",
     "author": "Hyunyoung Park",
     "description": "Review and merge your vault's Git changes from a sidebar panel. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lugglory/luggit"
@@ -56882,13 +56882,6 @@
     "repo": "sxinyuhoo/pickme"
   },
   {
-    "id": "catea-paper",
-    "name": "Catea",
-    "author": "cunyu666",
-    "description": "The only Agent plugin you need. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cunyu6666/catea-obsidian-plugin"
-  },
-  {
     "id": "workspace-word-highlight",
     "name": "Workspace Word Highlight",
     "author": "harduino",
@@ -57090,6 +57083,13 @@
     "author": "stray",
     "description": "Insert a timestamp at the cursor, and run a draggable Pomodoro timer with per-scenario duration presets and session logging. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "steries/time-tools"
+  },
+  {
+    "id": "vault-linker-auto",
+    "name": "Vault Linker Auto",
+    "author": "Qunwei Li",
+    "description": "Automatically adds links to related notes at the end of each note and an index page for each folder, in plain Markdown, without touching your own text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "goldenxingxing/obsidian-vault-linker"
   },
   {
     "id": "mappy",
@@ -57496,5 +57496,19 @@
     "author": "Eugeny",
     "description": "Start a Goodnotes handwriting session from a note and safely attach the exported PDF or image. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jjuchara/proektirovanie-workflow-obsidian-goodnotes-essential"
+  },
+  {
+    "id": "reading-vault",
+    "name": "Reading Vault",
+    "author": "John Hesch",
+    "description": "Read EPUB and PDF books in your vault with highlights, notes, bookmarks and read-aloud. Pro adds 28 natural voices, Ask the book with your own AI key, summaries and highlight review. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "b0xfan/reading-vault"
+  },
+  {
+    "id": "hakisend-publisher",
+    "name": "HakiSend Publisher",
+    "author": "Kien",
+    "description": "Publish Markdown notes from Obsidian to HakiSend. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kienteaching-arch/hakisend-publisher"
   }
 ]
