@@ -36666,6 +36666,13 @@
     "repo": "zhaohongxuan/journal-partner"
   },
   {
+    "id": "pivi",
+    "name": "Pivi",
+    "author": "shuuul",
+    "description": "Bring AI agents into your vault with fine-grained context controls. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shuuul/obsidian-pivi"
+  },
+  {
     "id": "read-it-never",
     "name": "Read It Never",
     "author": "Jakob He",
@@ -40115,13 +40122,6 @@
     "author": "Matthew Ford",
     "description": "Wayfinder Maps turns a GitHub repo's issues into a live picture of what to work on next. Each issue labeled wayfinder:map renders as a head card with its tickets laid out in a dependency-layered tree, - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ocuclaw/obsidian-wayfinder"
-  },
-  {
-    "id": "visual-notes",
-    "name": "Visual Notes",
-    "author": "dandersondev",
-    "description": "A visual workspace built on Obsidian's Canvas format: nestable freeform boards, icon tile grids, kanban boards, sticky notes, checklists, columns, drawing with pen, labels, reactions, and more.. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dandersondev/visual-notes"
   },
   {
     "id": "tetromino",
@@ -44744,6 +44744,13 @@
     "repo": "notstudytoday/obsidian-habit-check-in"
   },
   {
+    "id": "sanity-sync",
+    "name": "Sanity",
+    "author": "violetchen",
+    "description": "Publish and pull Obsidian documents to/from your Sanity studio (bidirectional sync). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "violet27chen/sanity-obsidian-plugin"
+  },
+  {
     "id": "blogizi",
     "name": "Blogizi",
     "author": "Rudolfs Rijkuris",
@@ -48032,6 +48039,13 @@
     "author": "Anand",
     "description": "Times how long each checklist item takes to complete. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "anandsie/obsidian_plugin_checklist_timer"
+  },
+  {
+    "id": "daily-tasks",
+    "name": "Daily Tasks",
+    "author": "Error Dev",
+    "description": "cool task management for daily/periodic notes!! - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "devicals/Daily-Tasks"
   },
   {
     "id": "book-note",
@@ -55867,6 +55881,13 @@
     "repo": "0slow0/black-hole-graph"
   },
   {
+    "id": "drive-bridge",
+    "name": "Drive Bridge",
+    "author": "Murat Mayadağ",
+    "description": "Two-way Google Drive sync for your Obsidian vault on desktop and mobile. Picks up files other apps put in the folder, keeps both versions on conflict and confirms deletions. No telemetry. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mmayadag/drive-bridge"
+  },
+  {
     "id": "notekit-edit",
     "name": "Notekit Edit",
     "author": "POCKETCORP",
@@ -56383,6 +56404,13 @@
     "author": "jyqqs",
     "description": "A lightweight find and replace with a floating, semi-transparent and draggable panel. Highlights matches in the selection or the whole note as you type, supports regex and case sensitivity, and replaces with full undo support. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "spiderk-104/search-replace-helper"
+  },
+  {
+    "id": "tagline-timelines",
+    "name": "Tagline - Timelines",
+    "author": "Jordn Bastian",
+    "description": "Turn your notes into a timeline. No lists, no manual code blocks, no hand-written YAML. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jordn-bastian/tagline-timelines-obsidian-plugin"
   },
   {
     "id": "highlight-reference",
@@ -57309,6 +57337,13 @@
     "repo": "veryeasyshj/daily-scrum-calendar"
   },
   {
+    "id": "one-calendar",
+    "name": "OneCalendar",
+    "author": "Vincent Chang",
+    "description": "Ideas, lightweight projects, repeating tasks, boards and calendars stored in Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhang-wenjun/OneCalendar"
+  },
+  {
     "id": "mermaid-beauty",
     "name": "Mermaid Beauty",
     "author": "theChildinus",
@@ -57365,6 +57400,13 @@
     "repo": "dewada9/weknora-bridge"
   },
   {
+    "id": "procon-decisions",
+    "name": "Pro-Con Decisions",
+    "author": "haderlka",
+    "description": "Weigh pro and contra arguments in a Markdown table. Rendered as editable cards with weights and a result bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haderlka/obsidian-procon-decisions"
+  },
+  {
     "id": "atlas-explorer",
     "name": "Atlas Explorer",
     "author": "Dan",
@@ -57393,10 +57435,45 @@
     "repo": "perezamadorluisenrique-gif/zoom-into-section"
   },
   {
+    "id": "note-inspector",
+    "name": "Note Inspector",
+    "author": "Geminic",
+    "description": "Inspector panel for the active note: frontmatter properties, heading outline and footnotes in one collapsible sidebar view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xinthink/obsidian-note-inspector"
+  },
+  {
     "id": "due-credit",
     "name": "Due Credit",
     "author": "Jorrit van der Heide",
     "description": "Export notes with [[citekey]] links as citations. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jorritvanderheide/obsidian-due-credit"
+  },
+  {
+    "id": "canvas-node-align",
+    "name": "Canvas Node Align",
+    "author": "江边雁",
+    "description": "Align text inside Canvas cards, group labels, edge labels and card labels, plus Markdown note bodies. Each item keeps its own alignment, stored as plain text so .canvas files stay standard JSON Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jiangbianyan-gif/obsidian-canvas-node-align"
+  },
+  {
+    "id": "callouts-plus",
+    "name": "Callouts Plus",
+    "author": "Gustavo Gomes Ribeiro",
+    "description": "Pick callout colors and types from a visual menu, with 20 extra colors and custom callouts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "guguinhass/callouts-plus"
+  },
+  {
+    "id": "a-outline",
+    "name": "A outline",
+    "author": "batapha",
+    "description": "Inline block references, a clean outline look with indentation guides, and Roam-style cursor and Enter behavior for lists. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "batapha/a-outline"
+  },
+  {
+    "id": "para-inbox-review",
+    "name": "PARA Review",
+    "author": "Eugeny",
+    "description": "Review an Inbox and explicitly process notes whose review date has expired. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jjuchara/obsidian-para-inbox-review"
   }
 ]
