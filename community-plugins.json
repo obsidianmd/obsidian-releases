@@ -27111,13 +27111,6 @@
     "repo": "guchang/Odaily-Plugin"
   },
   {
-    "id": "review-comments",
-    "name": "Review Comments",
-    "author": "Shota Shirai",
-    "description": "Notion-style review comments stored as CriticMarkup. AI-friendly format for LLM-assisted editing. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "shotashirai1719/obsidian-review-comments"
-  },
-  {
     "id": "lumen-ai-assistant",
     "name": "Lumen",
     "author": "chinoryunqin",
@@ -55636,13 +55629,6 @@
     "repo": "aptoren/obsidian-reel2md"
   },
   {
-    "id": "forge-actions",
-    "name": "Forge Actions",
-    "author": "Oded Fuhrmann",
-    "description": "Obsidian client for Forge. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "frmoded/forge-client-obsidian"
-  },
-  {
     "id": "kempfs-simple-mind-map",
     "name": "The Kempf Simple Mind Map",
     "author": "Kempf",
@@ -56941,7 +56927,7 @@
     "id": "tag-match",
     "name": "Tag Match",
     "author": "Nathan Cheng",
-    "description": "Quickly find the right tags from your vault for a given note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Quickly find the right tags for each note with Jev, using your vault's tags and any guidance you provide. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nweii/tag-match"
   },
   {
@@ -57279,5 +57265,12 @@
     "author": "Joseph McConnell",
     "description": "A rolling per-paycheck budget dashboard. Allocate savings, audit debt and subscriptions, track spending, and import transactions directly from your bank or portfolio. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "boxofdog/cash-hemorrhage"
+  },
+  {
+    "id": "untitled-auto-title",
+    "name": "Untitled Auto Title",
+    "author": "remriel",
+    "description": "Automatically generate concise titles for untitled notes with Groq or local content extraction. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "remriel/obsidian-untitled-auto-title"
   }
 ]
