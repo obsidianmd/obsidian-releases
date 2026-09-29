@@ -19684,13 +19684,6 @@
     "repo": "elowry/obsidian-replace-commands"
   },
   {
-    "id": "true-recall",
-    "name": "True Recall",
-    "author": "Lucas Piera",
-    "description": "Anki-like native system in obsidian. Review flashcards with FSRS spaced repetition. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pieralukasz/true-recall"
-  },
-  {
     "id": "study-flow-planner",
     "name": "Study Flow Planner",
     "author": "felipe villela",
@@ -20464,7 +20457,7 @@
     "id": "pagecord",
     "name": "Pagecord",
     "author": "lylo",
-    "description": "Publish notes to your Pagecord blog. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Publish notes to your Pagecord blog - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lylo/obsidian-pagecord"
   },
   {
@@ -32555,13 +32548,6 @@
     "author": "Levis-Code",
     "description": "Spreadsheet-style formulas in Markdown tables. Results live as plain, portable text, not a rendered view. Aggregates, lookups, dates, custom functions, and cross-note references with automatic recalculation. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "levis-code/markcalc"
-  },
-  {
-    "id": "dainvo-task-manager",
-    "name": "Dainvo Task Manager",
-    "author": "intagri-technologies",
-    "description": "Sync  tasks and daily notes, with Dainvo calendar and task planner - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "intagri-technologies/dainvo-task-manager"
   },
   {
     "id": "html-visual-editor",
@@ -48048,13 +48034,6 @@
     "repo": "anandsie/obsidian_plugin_checklist_timer"
   },
   {
-    "id": "daily-tasks",
-    "name": "Daily Tasks",
-    "author": "Error Dev",
-    "description": "cool task management for daily/periodic notes!! - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "devicals/Daily-Tasks"
-  },
-  {
     "id": "book-note",
     "name": "Book Note",
     "author": "hellokunzai",
@@ -51415,13 +51394,6 @@
     "repo": "edwardsayer/obsidian-folder-spaces"
   },
   {
-    "id": "integrated-task-manager",
-    "name": "Integrated Task Manager",
-    "author": "kuberrr05",
-    "description": "Manage Markdown tasks with Inbox, Today, Upcoming, projects, tags, and smart lists. Organize work with filters, calendars, Kanban boards, and Gantt charts. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kuberrr0/obsidian-integrated-tasks"
-  },
-  {
     "id": "dev-prod-plugin-switcher",
     "name": "Dev-Prod Switcher",
     "author": "Dan",
@@ -54035,7 +54007,7 @@
   {
     "id": "writing-buddy",
     "name": "Writing Buddy",
-    "author": "xtenlab2",
+    "author": "onezeroooo",
     "description": "Write and revise long-form work with manuscript context, reviewable AI edits, writing skills, and your own models. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xtenlab/obsidian-writing-buddy"
   },
@@ -56889,13 +56861,6 @@
     "repo": "sxinyuhoo/pickme"
   },
   {
-    "id": "catea-paper",
-    "name": "Catea",
-    "author": "cunyu666",
-    "description": "Paper workspace with a native Catea Agent. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cunyu6666/catea-obsidian-plugin"
-  },
-  {
     "id": "workspace-word-highlight",
     "name": "Workspace Word Highlight",
     "author": "harduino",
@@ -57363,5 +57328,54 @@
     "author": "Kaz Namba",
     "description": "Run Claude Code and Codex sessions as terminal tabs, with a session list, usage analytics, and a daemon that keeps sessions running. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kulikala/obsidian-agent-sessions"
+  },
+  {
+    "id": "whenreset",
+    "name": "Codex Reset Radar (WhenReset)",
+    "author": "zack",
+    "description": "追踪 Codex 公开重置消息与预测倒计时。Track public Codex reset signals with a live countdown in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zackzhangkai/obsidian-whenreset"
+  },
+  {
+    "id": "mindedit",
+    "name": "MindEdit",
+    "author": "Scarelym",
+    "description": "Visualisez et éditez vos notes Markdown en mindmap, façon FreeMind. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "scarelym/MindEdit"
+  },
+  {
+    "id": "decision-tagger",
+    "name": "Decision Tagger",
+    "author": "lixinye",
+    "description": "Classify notes with TypeSafe or OpenRouter decision models, review tag suggestions, and follow batch tagging progress. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xinye1017/obsidian-decision-tagger"
+  },
+  {
+    "id": "weknora-bridge",
+    "name": "WeKnora Bridge",
+    "author": "dewada9",
+    "description": "Publish notes and files to WeKnora, track parsing, and archive completed uploads while preserving document associations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dewada9/weknora-bridge"
+  },
+  {
+    "id": "note-reading-time",
+    "name": "Note Reading Time",
+    "author": "siulved54",
+    "description": "Show how long the current note, or your selection, takes to read, in the status bar, with your own reading speed and support for Chinese, Japanese and Korean. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "perezamadorluisenrique-gif/note-reading-time"
+  },
+  {
+    "id": "task-rollover",
+    "name": "Task Rollover",
+    "author": "siulved54",
+    "description": "Move the unfinished tasks of your last daily note into today's note when it is created, under a heading you choose, with undo, nested items and no duplicates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "perezamadorluisenrique-gif/task-rollover"
+  },
+  {
+    "id": "zoom-into-section",
+    "name": "Zoom Into Section",
+    "author": "siulved54",
+    "description": "Zoom into a heading or list item to see only it and its contents, with a breadcrumb bar to climb back out. Works without turning on any fold settings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "perezamadorluisenrique-gif/zoom-into-section"
   }
 ]
