@@ -28742,13 +28742,6 @@
     "repo": "brianling/obsidian-copy-as-rich-url"
   },
   {
-    "id": "obsidian-moonreader-sync",
-    "name": "MoonReader Note Sync",
-    "author": "seeyou2night",
-    "description": "Sync MoonReader reading notes via WebDAV and parse .an files directly into your Vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "seeyou2n1ght/obsidian-MoonReaderNoteSync"
-  },
-  {
     "id": "meetings-plus",
     "name": "Meetings Plus",
     "author": "jabaho9523",
@@ -47330,7 +47323,7 @@
     "id": "k-tech-heading-jump-fix",
     "name": "Heading Jump Fix",
     "author": "k-tech-studio",
-    "description": "Auto-correct scroll after outline, search, wikilink, heading, and block-reference clicks, including Reading view, so one click is enough. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Auto-correct scroll after outline, search, wikilink, heading, and block-reference jumps from click or keyboard, including Reading view, so one action is enough. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "crossbeat461-a11y/k-tech-heading-jump-fix"
   },
   {
@@ -57540,6 +57533,13 @@
     "repo": "marckfp/obsidian-proton-sync"
   },
   {
+    "id": "discogs-music-sync",
+    "name": "Discogs music sync and dashboard",
+    "author": "Anthony Fitzpatrick",
+    "description": "Sync your Discogs collection into album notes with covers, tracklists, lyrics links and prices, sorted by format, with a built-in dashboard and library. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "anthonyfitzpatrick/discogs-music-sync-to-obsidian"
+  },
+  {
     "id": "gitline",
     "name": "GitLine",
     "author": "qingchuan",
@@ -57552,6 +57552,13 @@
     "author": "Dreiza",
     "description": "Imports public DiceCloud v2 characters as Obsidian notes compatible with Fantasy Statblocks and Initiative Tracker. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "enzoip3/dicecloud-importer"
+  },
+  {
+    "id": "game-metadata",
+    "name": "Game and Visual Novel Metadata",
+    "author": "emdcatalyst",
+    "description": "Fetch video game and visual novel metadata, artwork, and personal stats into notes with Banner and Dataview integration. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "emdcatalyst/obsidian-game-metadata"
   },
   {
     "id": "openlist-attach",
@@ -57624,6 +57631,13 @@
     "repo": "davidpoppell/bases-kanban-card-colors"
   },
   {
+    "id": "sparkore-kb-reader",
+    "name": "Sparkore KB Reader",
+    "author": "Sparkore",
+    "description": "Read selected GitHub knowledge base folders in a mobile-friendly local cache. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sparkore/sparkore-kb-reader"
+  },
+  {
     "id": "open-in-typora",
     "name": "Open in Typora",
     "author": "nicejames",
@@ -57657,5 +57671,19 @@
     "author": "Yuto Takagi",
     "description": "Paste a URL and pick how it lands: a preview card with title, description and thumbnail, a Markdown link with the page title, or the plain URL. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yut0takagi/obsidian-link-or-card"
+  },
+  {
+    "id": "relations-suite",
+    "name": "Relations Suite",
+    "author": "Vishwas Upponi",
+    "description": "3 in 1 plugin suite featuring instant relationship property sync, interactive family tree view and interactive relations graph view - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vishwasupponi/relations-suite"
+  },
+  {
+    "id": "scys-radar",
+    "name": "Scys Radar",
+    "author": "zack",
+    "description": "生财有术 MCP 雷达：在 Obsidian 里浏览热门/精华/风向标/航海，兴趣关键词高亮，一键收藏为笔记。Scys (shengcaiyoushu) MCP radar inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zackzhangkai/scys-radar-obsidian"
   }
 ]
