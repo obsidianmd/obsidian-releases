@@ -54852,13 +54852,6 @@
     "repo": "spwx/obsidian-evil-org"
   },
   {
-    "id": "momoan-todo",
-    "name": "Momoan Todo",
-    "author": "안희준",
-    "description": "Plan daily tasks, recurring routines, categories, groups, and monthly reviews in your Obsidian vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "momoan01/momoan-todo"
-  },
-  {
     "id": "spoonie-lrpg",
     "name": "Spoonie LRPG",
     "author": "TeaHaus Shindan",
@@ -57547,11 +57540,25 @@
     "repo": "marckfp/obsidian-proton-sync"
   },
   {
+    "id": "gitline",
+    "name": "GitLine",
+    "author": "qingchuan",
+    "description": "Show Git blame (time / author / message) at the end of the current line. 在当前光标所在行的行尾显示该行 Git 归属：提交人、提交时间、提交消息，格式可配置. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qingchuan-x/gitline"
+  },
+  {
     "id": "dicecloud-importer",
     "name": "DiceCloud Character Importer",
     "author": "Dreiza",
     "description": "Imports public DiceCloud v2 characters as Obsidian notes compatible with Fantasy Statblocks and Initiative Tracker. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "enzoip3/dicecloud-importer"
+  },
+  {
+    "id": "openlist-attach",
+    "name": "OpenList Attach",
+    "author": "mars",
+    "description": "Upload attachments to OpenList (AList) on paste, drop, or right-click, and insert stable direct links. Supports API token or password auth and file-type filters. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "marshaha/openlist_upload"
   },
   {
     "id": "yh-inklight",
@@ -57615,5 +57622,40 @@
     "author": "David Poppell",
     "description": "Color Bases Kanban cards by due date or by any property, with due-date badges and an optional card filter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "davidpoppell/bases-kanban-card-colors"
+  },
+  {
+    "id": "open-in-typora",
+    "name": "Open in Typora",
+    "author": "nicejames",
+    "description": "Open Markdown files in Typora from the file context menu or command palette on macOS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leessju/obsidian-open-in-typora"
+  },
+  {
+    "id": "home-pages",
+    "name": "Home Pages",
+    "author": "jepicaju862-lab",
+    "description": "Customizable homepage dashboard with greeting banners, recent notes, quick access, countdowns, pomodoro timer, daily quotes, habits, task kanban, and vault statistics. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jepicaju862-lab/home-pages"
+  },
+  {
+    "id": "typora-match",
+    "name": "Typora Match",
+    "author": "nicejames",
+    "description": "Apply typography and reading layout inspired by the Typora GitHub theme, with an optional right outline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leessju/obsidian-typora-match"
+  },
+  {
+    "id": "section-reader",
+    "name": "Section Reader",
+    "author": "SeraphinaGlacia",
+    "description": "Read long Markdown notes one section at a time, with native links, embeds, task interactions, and reading progress preserved. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "seraphinaglacia/obsidian-section-reader"
+  },
+  {
+    "id": "link-or-card",
+    "name": "Link or Card",
+    "author": "Yuto Takagi",
+    "description": "Paste a URL and pick how it lands: a preview card with title, description and thumbnail, a Markdown link with the page title, or the plain URL. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yut0takagi/obsidian-link-or-card"
   }
 ]
