@@ -31997,6 +31997,13 @@
     "repo": "kkbin505/tomato-clock-plugin"
   },
   {
+    "id": "personal-life-system",
+    "name": "Life OS Assistant",
+    "author": "Xiaoqiang Huang",
+    "description": "Organize diary entries, tasks, knowledge, memory, and AI-assisted reviews inside your Obsidian vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xiaoqiang-huang/obsidian-life-os-community"
+  },
+  {
     "id": "live-image-editor",
     "name": "Live Image Editor",
     "author": "britz",
@@ -41690,13 +41697,6 @@
     "author": "save2obsidian",
     "description": "Save posts and threads from X into your Obsidian as clean Markdown notes. Mention @save2obsidian under any post on X. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "notesynchelper/save2obsidian"
-  },
-  {
-    "id": "gpx-preview",
-    "name": "GPX Preview",
-    "author": "Thomas",
-    "description": "Renders Apple-style map previews of embedded GPX files, with workout stats and offline caching. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tschoffelen/obsidian-gpx"
   },
   {
     "id": "docs-sync",
@@ -52116,9 +52116,9 @@
   },
   {
     "id": "readonly-git-mirror",
-    "name": "Read-only Git Mirror",
+    "name": "Data Transmission",
     "author": "wangru",
-    "description": "Mirror a Git repository into your vault, one-way and read-only. Never commits, never pushes, never touches untracked files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Receive items from a personal inbox server into your vault. Link with a one-time setup code; syncs every 10 seconds, only adds files, and never deletes or overwrites your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yomicoding/Obs-readonly-git-mirror"
   },
   {
@@ -55930,6 +55930,13 @@
     "repo": "topmindspace/topmind-obsidian"
   },
   {
+    "id": "photo-row-layout",
+    "name": "Photo Row Layout",
+    "author": "harderheng",
+    "description": "Lay images out the way a published site will: images written one after another in a paragraph become one equal-height row, with captions, optional EXIF, and grid / masonry / scroll blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "harderheng/photo-row-layout"
+  },
+  {
     "id": "section-numbering",
     "name": "Section Numbering",
     "author": "siulved54",
@@ -57233,7 +57240,7 @@
   },
   {
     "id": "linb-sync",
-    "name": "LINBSYNC",
+    "name": "LINB",
     "author": "LINB",
     "description": "A collaborative workspace with notes, tasks, Kanban, comments, and invite-only synchronization through LINB ID. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "linb-dev/SYNC-PUBLIC"
@@ -57407,6 +57414,13 @@
     "repo": "jorritvanderheide/obsidian-due-credit"
   },
   {
+    "id": "sanzo-wada",
+    "name": "Sanzo Wada Color Combinations",
+    "author": "Nahom A",
+    "description": "Fenced code block processor, palette modal, and clipboard tools for Sanzo Wada's 348 classic color combinations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "boltlights/obsidian-sanzo-wada"
+  },
+  {
     "id": "canvas-node-align",
     "name": "Canvas Node Align",
     "author": "江边雁",
@@ -57545,5 +57559,33 @@
     "author": "Nory",
     "description": "Convert Bilibili video URLs in Canvas to embedded player URLs (player.bilibili.com), auto-fit node size to 16:9 and set the real video title as node label. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nory-x/obsidian-canvas-bili-player"
+  },
+  {
+    "id": "canvas-card-shapes",
+    "name": "Canvas Card Shapes",
+    "author": "江边雁",
+    "description": "Shape presets for Canvas cards: rounded, pill, ellipse, diamond, hexagon, parallelogram, star, folded note, plus the flowchart symbols used in logic diagrams (terminator, process, decision, input/output, document, database, delay). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jiangbianyan-gif/obsidian-canvas-card-shapes"
+  },
+  {
+    "id": "full-block-embed",
+    "name": "Full Block Embed",
+    "author": "Matt Troncali",
+    "description": "Embed the full Markdown of a source block in other notes and keep every copy syncronized. Because each reference contains ordinary Markdown, notes remain complete and readable in other editors, renderers, scripts, and LLM workflows. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "troncali/full-block-embed"
+  },
+  {
+    "id": "xhs-product-search",
+    "name": "XHS Product Search",
+    "author": "唐尚斌",
+    "description": "Collect Xiaohongshu product details (price, shipping origin, shop rating, listing age, sales) with a bundled standard-library-only Python script. Works standalone or as the data backend for other plugins. No login required. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gitbins/xhs-product-search"
+  },
+  {
+    "id": "xhs-importer-pro",
+    "name": "XHS Importer Pro",
+    "author": "唐尚斌",
+    "description": "Import Xiaohongshu notes into your vault with configurable folders, frontmatter fields, local image downloads, and engagement metrics such as likes, saves, and comments. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gitbins/xhs-importer-pro"
   }
 ]
