@@ -28742,6 +28742,13 @@
     "repo": "brianling/obsidian-copy-as-rich-url"
   },
   {
+    "id": "obsidian-moonreader-sync",
+    "name": "MoonReader Note Sync",
+    "author": "seeyou2night",
+    "description": "Sync MoonReader reading notes via WebDAV and parse .an files directly into your Vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "seeyou2n1ght/obsidian-MoonReaderNoteSync"
+  },
+  {
     "id": "meetings-plus",
     "name": "Meetings Plus",
     "author": "jabaho9523",
@@ -56616,6 +56623,13 @@
     "repo": "pymym213/obsidian-eye-hider"
   },
   {
+    "id": "quran-life",
+    "name": "Quran Life",
+    "author": "Imed Ghomari",
+    "description": "Daily Qur'an review, mindmap memorization and Anki export — vault-synced via Resilio Sync - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "imed-ghomari/quran-life"
+  },
+  {
     "id": "geo-story-map",
     "name": "Geo Story Map",
     "author": "kywk",
@@ -57526,6 +57540,20 @@
     "repo": "qingchuan-x/gitline"
   },
   {
+    "id": "advanced-metadata-cache",
+    "name": "Advanced Metadata Cache",
+    "author": "Michael Naumov",
+    "description": "Maintains the vault indexes that are otherwise rebuilt on every call, and answers the built-in lookups from them, so backlinks come from an index instead of a fresh scan of every note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-advanced-metadata-cache"
+  },
+  {
+    "id": "file-bundles",
+    "name": "File Bundles",
+    "author": "Michael Naumov",
+    "description": "Declare which files and folders a file depends on, and move, rename, duplicate or delete them as one locked bundle. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-file-bundles"
+  },
+  {
     "id": "dicecloud-importer",
     "name": "DiceCloud Character Importer",
     "author": "Dreiza",
@@ -57685,5 +57713,75 @@
     "author": "Caleb Smith",
     "description": "Worldbuilding timelines with custom calendars, nested eras, story threads and linked notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fyresmith/evra"
+  },
+  {
+    "id": "metamorpheme",
+    "name": "Metamorpheme",
+    "author": "gualabanana",
+    "description": "Put in one word what a word can't say. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "9ualabanana/Metamorpheme"
+  },
+  {
+    "id": "whatsapp-bridge",
+    "name": "WhatsApp Bridge",
+    "author": "Kaipora Labs",
+    "description": "Import messages from your local wacli store into conversation notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kaiporalabs/whatsapp-bridge-obsidian"
+  },
+  {
+    "id": "two-way-table-of-contents",
+    "name": "Two-Way Table of Contents",
+    "author": "CocaPls",
+    "description": "Navigate between a table of contents and numbered headings without changing heading text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cocapls/obsidian-two-way-table-of-contents"
+  },
+  {
+    "id": "fractional-guru-sync",
+    "name": "Fractional Guru Sync",
+    "author": "Fractional Guru",
+    "description": "Sync selected Markdown notes and folders to your Fractional Guru knowledge base. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yellow-mango/fractional-guru-obsidian-sync"
+  },
+  {
+    "id": "more-events",
+    "name": "More Events",
+    "author": "Michael Naumov",
+    "description": "Publishes named, typed workspace events the public API does not expose, so other plugins can react without patching internals. A growing set, starting with core and community plugins being enabled and disabled. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-more-events"
+  },
+  {
+    "id": "preserve-frontmatter-formatting",
+    "name": "Preserve Frontmatter Formatting",
+    "author": "Michael Naumov",
+    "description": "Keeps the formatting of your YAML front matter - comments, quoting, blank lines, indentation and inline lists - when any plugin edits a property. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-preserve-frontmatter-formatting"
+  },
+  {
+    "id": "auto-fold-properties",
+    "name": "Auto Fold Properties",
+    "author": "Vishwas Upponi",
+    "description": "Automatically folds note frontmatter properties on open with folder targeting, new note exemption, and session state memory. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vishwasupponi/auto-fold-properties"
+  },
+  {
+    "id": "auto-reading-view",
+    "name": "Auto Reading View",
+    "author": "Vishwas Upponi",
+    "description": "Automatically opens specified notes in Reading View while letting you choose your preferred default view mode for all other notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vishwasupponi/auto-reading-view"
+  },
+  {
+    "id": "sidebar-fold",
+    "name": "Sidebar Fold",
+    "author": "Jeff Bouganim",
+    "description": "Hide the sidebars when you open a note or click into it, remember their width, and pin them open when you need them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bouganim-labs/sidebar-fold"
+  },
+  {
+    "id": "slack-flavor",
+    "name": "Slack Flavor",
+    "author": "Yuto Takagi",
+    "description": "Write and preview Slack mrkdwn, render your workspace's custom emoji, import Slack threads, and copy notes as Slack-ready text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yut0takagi/obsidian-slack-flavor"
   }
 ]
