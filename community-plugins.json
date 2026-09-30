@@ -3019,7 +3019,7 @@
   {
     "id": "obsidian-wordnik",
     "name": "Wordnik Definitions",
-    "author": "lizard-heart",
+    "author": "Henry Gustafson",
     "description": "Grab information from Wordnik for a topic and bring it into your notes.",
     "repo": "lizard-heart/obsidian-wordnik-definitions"
   },
@@ -3964,7 +3964,7 @@
   {
     "id": "obsidian-note-content-pusher",
     "name": "Note Content Pusher",
-    "author": "lizard-heart",
+    "author": "Henry Gustafson",
     "description": "Prepend or append specified content to a note (existing or new) without opening another pane.",
     "repo": "lizard-heart/obsidian-note-content-pusher"
   },
@@ -4727,7 +4727,7 @@
   {
     "id": "order-list",
     "name": "Order List",
-    "author": "lizard-heart",
+    "author": "Henry Gustafson",
     "description": "Add 'Order selected list' command to take the selected list and order it by the number at the end.",
     "repo": "lizard-heart/obsidian-order-list-plugin"
   },
@@ -5371,7 +5371,7 @@
   {
     "id": "tasks-to-omnifocus",
     "name": "Send Tasks to OmniFocus",
-    "author": "lizard-heart",
+    "author": "Henry Gustafson",
     "description": "Extract tasks from the current note and create them in OmniFocus.",
     "repo": "lizard-heart/obsidian-to-omnifocus"
   },
@@ -12924,14 +12924,14 @@
   {
     "id": "bottom-to-top",
     "name": "Bottom to Top",
-    "author": "lizard-heart",
+    "author": "Henry Gustafson",
     "description": "Makes text go from left-to-right, bottom-to-top.",
     "repo": "lizard-heart/obsidian-bottom-to-top-text"
   },
   {
     "id": "tab-limit",
     "name": "Tab Limiter",
-    "author": "lizard-heart",
+    "author": "Henry Gustafson",
     "description": "Limits the number of tabs that can be opened.",
     "repo": "lizard-heart/obsidian-tab-limit"
   },
@@ -51156,6 +51156,13 @@
     "repo": "toropanov/obsidian-conflict-resolver"
   },
   {
+    "id": "astral-trek",
+    "name": "Astra",
+    "author": "nightfall",
+    "description": "An interactive Obsidian home dashboard for tasks, knowledge graph, plugins, vault health, and writing activity. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nightfall-yl/obsidian-astral-trek"
+  },
+  {
     "id": "rowbase",
     "name": "Rowbase",
     "author": "soulaymane01",
@@ -56553,13 +56560,6 @@
     "repo": "v-samodelkin/obsidian-skill-symlinks"
   },
   {
-    "id": "voicecomment",
-    "name": "VoiceComment",
-    "author": "engenharick",
-    "description": "Record voice notes as MP3 and insert the player right where you started recording: in a note, or inside an Excalidraw drawing. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "engenharick/voicecomment"
-  },
-  {
     "id": "note-proofreader",
     "name": "Veritas Howler - Note Proofreader",
     "author": "Jingwen Wang",
@@ -57386,6 +57386,13 @@
     "repo": "danrfletcher/atlas"
   },
   {
+    "id": "outline-jump",
+    "name": "Outline Jump",
+    "author": "yujia",
+    "description": "Adds jump-to-top and jump-to-bottom buttons to the core Outline pane. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rainajia716/obsidian-outline-jump"
+  },
+  {
     "id": "note-reading-time",
     "name": "Note Reading Time",
     "author": "siulved54",
@@ -57419,6 +57426,13 @@
     "author": "Jorrit van der Heide",
     "description": "Export notes with [[citekey]] links as citations. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jorritvanderheide/obsidian-due-credit"
+  },
+  {
+    "id": "canvas-node-align",
+    "name": "Canvas Node Align",
+    "author": "江边雁",
+    "description": "Align text inside Canvas cards, group labels, edge labels and card labels, plus Markdown note bodies. Each item keeps its own alignment, stored as plain text so .canvas files stay standard JSON Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jiangbianyan-gif/obsidian-canvas-node-align"
   },
   {
     "id": "callouts-plus",
@@ -57477,6 +57491,13 @@
     "repo": "jjuchara/proektirovanie-workflow-obsidian-goodnotes-essential"
   },
   {
+    "id": "word-table-sync",
+    "name": "Word Table Sync",
+    "author": "yjs",
+    "description": "Vocabulary review manager for Markdown tables: automatic table detection, spaced review dates, due/overdue sidebar, archiving, reactivation, and plain-text mobile output. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "slm080913-max/obsidian-word-table-sync"
+  },
+  {
     "id": "reading-vault",
     "name": "Reading Vault",
     "author": "John Hesch",
@@ -57517,5 +57538,12 @@
     "author": "Marcos",
     "description": "End-to-end encrypted bidirectional sync of your vault with Proton Drive, with three-way conflict remediation for offline edits. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "marckfp/obsidian-proton-sync"
+  },
+  {
+    "id": "dicecloud-importer",
+    "name": "DiceCloud Character Importer",
+    "author": "Dreiza",
+    "description": "Imports public DiceCloud v2 characters as Obsidian notes compatible with Fantasy Statblocks and Initiative Tracker. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "enzoip3/dicecloud-importer"
   }
 ]
