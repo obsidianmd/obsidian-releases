@@ -57676,7 +57676,7 @@
     "id": "section-reader",
     "name": "Section Reader",
     "author": "SeraphinaGlacia",
-    "description": "Read long Markdown notes one section at a time, with native links, embeds, task interactions, and reading progress preserved. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Read long notes one section at a time, without splitting files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "seraphinaglacia/obsidian-section-reader"
   },
   {
@@ -57699,6 +57699,13 @@
     "author": "zack",
     "description": "生财有术 MCP 雷达：在 Obsidian 里浏览热门/精华/风向标/航海，兴趣关键词高亮，一键收藏为笔记。Scys (shengcaiyoushu) MCP radar inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zackzhangkai/scys-radar-obsidian"
+  },
+  {
+    "id": "myagenda",
+    "name": "MyAgenda",
+    "author": "loulan23253",
+    "description": "Two-way iCloud / CalDAV calendar sync — Apple-style day, week & month views, recurring events, drag & drop, daily-note injection and reminders. Your credentials stay on your device. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "loulan23253/my-agenda"
   },
   {
     "id": "note-site-builder",
@@ -57764,6 +57771,13 @@
     "repo": "vishwasupponi/auto-fold-properties"
   },
   {
+    "id": "axxa-agent",
+    "name": "AXXA Agent",
+    "author": "AXXA Lab™",
+    "description": "Chat with AI, query your vault with local RAG, and let an agent read and edit your notes across six LLM providers. Bring your own API key. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "axxalab/axxa-agent"
+  },
+  {
     "id": "auto-reading-view",
     "name": "Auto Reading View",
     "author": "Vishwas Upponi",
@@ -57783,5 +57797,19 @@
     "author": "Yuto Takagi",
     "description": "Write and preview Slack mrkdwn, render your workspace's custom emoji, import Slack threads, and copy notes as Slack-ready text. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yut0takagi/obsidian-slack-flavor"
+  },
+  {
+    "id": "advanced-markdown-export",
+    "name": "Advanced Markdown Export",
+    "author": "Michael Naumov",
+    "description": "Export notes with their attachments and linked notes, picked in a dependency tree. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-advanced-markdown-export"
+  },
+  {
+    "id": "alias-quick-switcher",
+    "name": "Alias Quick Switcher",
+    "author": "Michael Naumov",
+    "description": "Quick switcher that resolves aliases in every path segment, folder notes included. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-alias-quick-switcher"
   }
 ]
