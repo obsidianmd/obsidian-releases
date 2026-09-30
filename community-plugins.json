@@ -57239,13 +57239,6 @@
     "repo": "hanchanghun/move-tab-to-group"
   },
   {
-    "id": "linb-sync",
-    "name": "LINB",
-    "author": "LINB",
-    "description": "A collaborative workspace with notes, tasks, Kanban, comments, and invite-only synchronization through LINB ID. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "linb-dev/SYNC-PUBLIC"
-  },
-  {
     "id": "spaced-dive",
     "name": "Spaced Dive",
     "author": "6iedog",
@@ -57491,6 +57484,13 @@
     "repo": "slm080913-max/obsidian-word-table-sync"
   },
   {
+    "id": "voice-aloud",
+    "name": "Voice Aloud",
+    "author": "aloneatwar",
+    "description": "逐句朗读笔记：点击句子从该句开始连读，多 TTS 供应商账号，预取 + 哈希缓存无缝衔接，桌面与移动端可用。Read notes aloud sentence by sentence with multi-provider TTS, prefetching and hash-based caching. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aloneatwar/obsidian-voice-aloud"
+  },
+  {
     "id": "reading-vault",
     "name": "Reading Vault",
     "author": "John Hesch",
@@ -57540,13 +57540,6 @@
     "repo": "enzoip3/dicecloud-importer"
   },
   {
-    "id": "openlist-attach",
-    "name": "OpenList Attach",
-    "author": "mars",
-    "description": "Upload attachments to OpenList (AList) on paste, drop, or right-click, and insert stable direct links. Supports API token or password auth and file-type filters. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "marshaha/openlist_upload"
-  },
-  {
     "id": "yh-inklight",
     "name": "yh-InkLight",
     "author": "angelwdx",
@@ -57587,5 +57580,19 @@
     "author": "唐尚斌",
     "description": "Import Xiaohongshu notes into your vault with configurable folders, frontmatter fields, local image downloads, and engagement metrics such as likes, saves, and comments. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gitbins/xhs-importer-pro"
+  },
+  {
+    "id": "agent-monitor",
+    "name": "Agent Monitor",
+    "author": "zack",
+    "description": "Monitor local Codex, Claude Code, and WorkBuddy projects, sessions, processes, and services on macOS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zackzhangkai/obsidian-agent-monitor"
+  },
+  {
+    "id": "text-bookmarks",
+    "name": "Text Bookmarks",
+    "author": "laznology",
+    "description": "Bookmark arbitrary text selections and jump back to them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "laznology/text-bookmarks"
   }
 ]
