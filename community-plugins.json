@@ -6587,13 +6587,6 @@
     "repo": "open-horizon-labs/obsidian-ics"
   },
   {
-    "id": "fantasy-name",
-    "name": "Fantasy name generator",
-    "author": "lukewh",
-    "description": "Insert a random fantasy name.",
-    "repo": "lukewh/fantasy-name"
-  },
-  {
     "id": "tag-many",
     "name": "TagMany",
     "author": "Joshua",
@@ -30590,6 +30583,13 @@
     "repo": "yut0takagi/obsidian-system-recording"
   },
   {
+    "id": "copsilot",
+    "name": "Co-Ober",
+    "author": "player-Muteki",
+    "description": "Embed the complete OpenCode agent inside Obsidian sidebar - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "player-muteki/co-ober"
+  },
+  {
     "id": "table-formatter",
     "name": "Table Formatter",
     "author": "fangface-hub",
@@ -52220,6 +52220,13 @@
     "repo": "ppocass/obsidian-graphiques"
   },
   {
+    "id": "assistant-emily",
+    "name": "Assistant Emily",
+    "author": "SUNGWON PARK",
+    "description": "Intelligent Markdown proofreading and translation specialized plugin with OpenAI-compatible LLM proxy support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sparklings/emily"
+  },
+  {
     "id": "basecamp-sync",
     "name": "Basecamp Sync",
     "author": "fodoj",
@@ -53632,13 +53639,6 @@
     "author": "evinvin",
     "description": "用于管理个人记录、物品、关系、账单与数据画板的 Obsidian 插件。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vinvinvin444/A-Personal-Records-Releases"
-  },
-  {
-    "id": "a-my-island",
-    "name": "A-My-Island",
-    "author": "evinvin",
-    "description": "Build an interactive personal island workspace for tasks, notes, planning, and daily life in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "vinvinvin444/A-My-Island-Releases"
   },
   {
     "id": "sermon-studio-public",
@@ -56486,7 +56486,7 @@
     "id": "local-plugin-linker",
     "name": "Local Linker",
     "author": "Zach Hannum",
-    "description": "Link plugin folders on disk into the vault, and reload the plugins when they rebuild. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Link plugin folders on disk or from Github PR into the vault, and reload the plugins when they rebuild. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zachhannum/obsidian-local-plugin-linker"
   },
   {
@@ -57034,13 +57034,6 @@
     "author": "Bugra Sitemkar",
     "description": "Insert a dated week template with day headings and checkboxes. Choose the week of the year and the first day of the week. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bugrasitemkar/obsidian-insert-weekdays"
-  },
-  {
-    "id": "visimark",
-    "name": "VisiMark",
-    "author": "Michał Niedźwiedzki",
-    "description": "Keeps the numbers in a note honest: every computed value carries the formula that produced it, and the note is still ordinary Markdown outside the vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "michal-niedzwiedzki/visimark"
   },
   {
     "id": "current-note-chat",
@@ -57695,7 +57688,7 @@
   },
   {
     "id": "evra",
-    "name": "Evra",
+    "name": "Evra Timelines",
     "author": "Caleb Smith",
     "description": "Worldbuilding timelines with custom calendars, nested eras, story threads and linked notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fyresmith/evra"
@@ -57766,7 +57759,7 @@
   {
     "id": "pin-toggle",
     "name": "Pin Toggle",
-    "author": "广财初生黄义威",
+    "author": "yaki-blake",
     "description": "可以将软件呼唤并置顶，再次点击可将软件最小化。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yaki-blake/pin-toggle"
   },
@@ -57958,5 +57951,19 @@
     "author": "Preetesh Magadum",
     "description": "Carry a folder of notes between vaults as a single encrypted file. No server, no accounts: publish what you own, send it any way you like, unpack it after a preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "preeteshgm/obsidian-ferry"
+  },
+  {
+    "id": "parrot-plan",
+    "name": "Parrot Plan",
+    "author": "parrot-23",
+    "description": "A weekly schedule planner with time blocks, event planning, and execution tracking. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "parrot-23/parrot-plan"
+  },
+  {
+    "id": "magicnotes",
+    "name": "MagicNotes",
+    "author": "Cosmakes",
+    "description": "Ingest notes into a knowledge base of topics and subtopics, with an agent that answers questions about PDFs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cosmakes/MagicNotes"
   }
 ]
