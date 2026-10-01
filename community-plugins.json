@@ -40432,13 +40432,6 @@
     "repo": "maitake4211/property-kanban"
   },
   {
-    "id": "fluent-tasks",
-    "name": "Fluent Tasks",
-    "author": "Jeff1024",
-    "description": "A beautiful, drag-and-drop task manager inspired by Fluent Design. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "2607044640/fluent-tasks"
-  },
-  {
     "id": "ling-sync",
     "name": "Ling Sync",
     "author": "Ling",
@@ -47302,7 +47295,7 @@
     "id": "k-tech-heading-jump-fix",
     "name": "Heading Jump Fix",
     "author": "k-tech-studio",
-    "description": "Auto-correct scroll after outline, search, wikilink, heading, and block-reference jumps from click or keyboard, including Reading view, so one action is enough. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Auto-correct scroll after outline, search, wikilink, heading, and block-reference jumps from click or keyboard, including Reading view. Unfolds folded headings at the jump target. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "crossbeat461-a11y/k-tech-heading-jump-fix"
   },
   {
@@ -51168,6 +51161,13 @@
     "author": "Laszlo Repassy",
     "description": "Backs up the vault to a folder of your choice, versioned by date and time, in the background without blocking the interface, with automatic daily/weekly/monthly retention. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "laszlorepassy/obsidian-simple-backup"
+  },
+  {
+    "id": "fluent-pomofocus",
+    "name": "Fluent Pomofocus",
+    "author": "Jeff1024",
+    "description": "A Pomofocus recreation for Obsidian with system sound notifications, drift-free timer, and popout mini-window. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "2607044640/fluent-pomofocus"
   },
   {
     "id": "punctilious",
@@ -56518,13 +56518,6 @@
     "repo": "jiwawang/obsidian-note-proofreader"
   },
   {
-    "id": "cloud-relay",
-    "name": "Cloud Relay",
-    "author": "kafaw",
-    "description": "Self-hosted vault sync across devices. Real-time per-keystroke, conflict-safe offline edits, mirrors notes, attachments, folders, and settings. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "enl69/cloud-relay"
-  },
-  {
     "id": "simplesync",
     "name": "SimpleSync",
     "author": "Jiří Čepelka ",
@@ -57382,7 +57375,7 @@
     "id": "due-credit",
     "name": "Due Credit",
     "author": "Jorrit van der Heide",
-    "description": "Export notes with [[citekey]] links as citations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Export a note to Word, PDF or LaTeX, with its links turned into real citations. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jorritvanderheide/obsidian-due-credit"
   },
   {
@@ -57925,6 +57918,13 @@
     "repo": "dingzy53/obsidian-tikz"
   },
   {
+    "id": "svg-quick-editor",
+    "name": "SVG Quick Editor",
+    "author": "Jeff1024",
+    "description": "Quickly edit SVG text chips in place, duplicate on Alt+drag, and delete empty chips in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "2607044640/svg-quick-editor"
+  },
+  {
     "id": "sidebar-tasks",
     "name": "Sidebar Tasks",
     "author": "Alejandro G. Lacasa",
@@ -57937,5 +57937,19 @@
     "author": "张青青",
     "description": "Discuss concepts with DeepSeek, organize Markdown notes, and link them to your knowledge graph. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "f1ameyqq/concept-roamer"
+  },
+  {
+    "id": "football-playbook",
+    "name": "Football Playbook",
+    "author": "Adrián Meléndez",
+    "description": "Manage American football playbooks: teams, formations and plays drawn with Excalidraw. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "adrianmelendez/obsidian-football-playbook"
+  },
+  {
+    "id": "ferry",
+    "name": "Ferry",
+    "author": "Preetesh Magadum",
+    "description": "Carry a folder of notes between vaults as a single encrypted file. No server, no accounts: publish what you own, send it any way you like, unpack it after a preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "preeteshgm/obsidian-ferry"
   }
 ]
