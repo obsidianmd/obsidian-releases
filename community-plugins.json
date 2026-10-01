@@ -10885,13 +10885,6 @@
     "repo": "udus122/checkbox-time-tracker"
   },
   {
-    "id": "fast-text-color",
-    "name": "Fast Text Color",
-    "author": "superschnizel",
-    "description": "Quickly apply fully integrated text coloring and formatting with a custom syntax and a keyboard-centric interface.",
-    "repo": "superschnizel/obsidian-fast-text-color"
-  },
-  {
     "id": "plot-vectors-graphs",
     "name": "Plot Vectors and Graphs",
     "author": "nicoletanyt",
@@ -33593,13 +33586,6 @@
     "repo": "viggomeesters/obsidian-folder-sort-view"
   },
   {
-    "id": "stashpad",
-    "name": "Stashpad",
-    "author": "Grub Basket",
-    "description": "A chat-style, nested-notes workspace: rapid capture, outliner navigation, fast search, tasks, and per-folder templates, with one-click Open Knowledge Format (OKF) export for LLMs and agents. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "grub-basket/SP"
-  },
-  {
     "id": "html-experience",
     "name": "HTML Experience",
     "author": "yabs",
@@ -53641,6 +53627,13 @@
     "repo": "vinvinvin444/A-Personal-Records-Releases"
   },
   {
+    "id": "a-my-island",
+    "name": "A-My-Island",
+    "author": "evinvin",
+    "description": "Build an interactive personal island workspace for tasks, notes, planning, and daily life in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vinvinvin444/A-My-Island-Releases"
+  },
+  {
     "id": "sermon-studio-public",
     "name": "Sermon Studio Public",
     "author": "jakelul",
@@ -54108,13 +54101,6 @@
     "author": "tigger developer",
     "description": "Lets iOS/macOS Accessibility Reader see the whole document for on-device Text-to-Speech (TTS) - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tigger-developer/ios-tts"
-  },
-  {
-    "id": "local-ollama-websearch",
-    "name": "Local Ollama with Web Search",
-    "author": "Frank Lechtenberg",
-    "description": "Chat with local Ollama AI models directly in Obsidian. Includes built-in DuckDuckGo web search – no API key, no cloud, no telemetry. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "geolech/obsidian-local-ollama"
   },
   {
     "id": "pharos",
@@ -56850,7 +56836,7 @@
     "id": "tag-match",
     "name": "Tag Match",
     "author": "Nathan Cheng",
-    "description": "Find and apply the right tags for each note with an AI decision model tagger (Jev), using your vault's tags and any guidance you provide. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Match & apply tags with a fast AI decision model (Jev). The tagger scores from a selection sample of most-used and forgotten tags, plus any guidance you provide about your tagging system. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nweii/tag-match"
   },
   {
@@ -57722,6 +57708,13 @@
     "repo": "yellow-mango/fractional-guru-obsidian-sync"
   },
   {
+    "id": "yh-mp-preview",
+    "name": "yh-mp-preview",
+    "author": "angelwdx",
+    "description": "Typeset Markdown for WeChat with themes, rich-text copying, image exports, and optional note layout enhancements. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rezonegame/yh-mp-preview"
+  },
+  {
     "id": "more-events",
     "name": "More Events",
     "author": "Michael Naumov",
@@ -57946,6 +57939,13 @@
     "repo": "adrianmelendez/obsidian-football-playbook"
   },
   {
+    "id": "synapse-vault",
+    "name": "Synapse Vault AI",
+    "author": "Homesh Mypudi",
+    "description": "Dynamic Island AI copilot for Obsidian with local multimodal RAG and instant Ghost-Typer form filling. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "homesh2235/synapsevalut"
+  },
+  {
     "id": "ferry",
     "name": "Ferry",
     "author": "Preetesh Magadum",
@@ -57965,5 +57965,40 @@
     "author": "Cosmakes",
     "description": "Ingest notes into a knowledge base of topics and subtopics, with an agent that answers questions about PDFs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cosmakes/MagicNotes"
+  },
+  {
+    "id": "background",
+    "name": "Background",
+    "author": "Qiulin Fan",
+    "description": "Local wallpapers and live per-tab opacity controls for your workspace. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qiulinfan/obsidian-background"
+  },
+  {
+    "id": "latex-live",
+    "name": "LaTeX Live",
+    "author": "Qiulin Fan",
+    "description": "Edit .tex files with live compilation and PDF preview, using the TeX distribution installed on your machine (pdfLaTeX, XeLaTeX, LuaLaTeX, latexmk, SyncTeX). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qiulinfan/obsidian-latex-live"
+  },
+  {
+    "id": "typst-live",
+    "name": "Typst Live",
+    "author": "Qiulin Fan",
+    "description": "Edit Typst documents with language-server completion, project-aware math rendering, and an incremental preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qiulinfan/obsidian-tinymist"
+  },
+  {
+    "id": "kgdistiller",
+    "name": "kgdistiller",
+    "author": "Qiulin Fan",
+    "description": "Explore typed semantic relations and source references from a kgdistiller vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qiulinfan/kgdistiller"
+  },
+  {
+    "id": "feishu-wiki-sync",
+    "name": "Feishu Wiki Sync",
+    "author": "guanxu chen",
+    "description": "Sync Markdown notes with a Feishu Wiki space as editable cloud documents or original Markdown files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chenqaq123/ObsidianSync"
   }
 ]
