@@ -23212,13 +23212,6 @@
     "repo": "mshr-h/obsidian-vault-backup"
   },
   {
-    "id": "embed-metadata",
-    "name": "Embed Metadata",
-    "author": "schemen",
-    "description": "Render frontmatter metadata (Properties) inside your notes with a lightweight inline syntax. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "schemen/embed-metadata"
-  },
-  {
     "id": "naver-sync",
     "name": "NAVER Sync",
     "author": "buwon",
@@ -37506,13 +37499,6 @@
     "repo": "cexyz01/obsidian-basecraft"
   },
   {
-    "id": "standard-garden",
-    "name": "Standard Garden",
-    "author": "zefish",
-    "description": "The obsidian plugin for managing and publishing your notes on standard.garden - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zefish/obsidian-standard-garden"
-  },
-  {
     "id": "vaultpack",
     "name": "VaultPack",
     "author": "Aki",
@@ -46564,6 +46550,13 @@
     "repo": "lufei150426/lumi-sync"
   },
   {
+    "id": "vault-talk",
+    "name": "Vault Talk",
+    "author": "Jonas Wolber",
+    "description": "Speak or type to your vault. Chat via Mistral, Ollama, or LM Studio. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "prgrmmrjns/vault-talk"
+  },
+  {
     "id": "dsh-harness",
     "name": "DeepSeek Harness",
     "author": "cloudhjx",
@@ -48669,13 +48662,6 @@
     "author": "Raylabs",
     "description": "Easy, free, cross-device GitHub sync for your vault with 3-way merge and zero silent data loss. Works seamlessly across Desktop and Mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ufebri/ray-vault-sync"
-  },
-  {
-    "id": "abele",
-    "name": "Abele",
-    "author": "dudaanton",
-    "description": "All-in-one productivity plugin. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dudaanton/abele-obsidian-plugin"
   },
   {
     "id": "boardwalk",
@@ -55429,7 +55415,7 @@
     "id": "vault-librarian",
     "name": "Vault Librarian",
     "author": "PubCyBerry",
-    "description": "Chat with an agent that finds, reads, creates and edits your notes with tool calling. Bring your own OpenAI-compatible model. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "AI Agent living in Obsidian. Support PC and Mobile. Browse your vault and internet. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pubcyberry/obsidian-vault-librarian"
   },
   {
@@ -57841,6 +57827,13 @@
     "repo": "xiawen-shyan-wen/xw-card-writing-assistant"
   },
   {
+    "id": "css-snippet-designer",
+    "name": "CSS Snippet Designer",
+    "author": "jeffjberry",
+    "description": "Design CSS snippets visually for typography, colors, shadows and UI elements. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jeffjberry/obsidian-css-snippet-designer"
+  },
+  {
     "id": "checkbox-styles",
     "name": "Checkbox Sty1es",
     "author": "Haissam Makki",
@@ -58091,5 +58084,26 @@
     "author": "yihuiting",
     "description": "发布前检查中文文案里的广告法风险表达，给出依据和改法。Flag risky claims in Chinese ad copy as you write: superlatives, health and income promises, unsupported endorsements. Works fully offline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "baocanmou/obsidian-ad-compliance-check"
+  },
+  {
+    "id": "spoken",
+    "name": "Spoken",
+    "author": "Michael Hejazi",
+    "description": "Speak into a note on phone or desktop and get clean text at the cursor: transcribed by Gemini under your own API key, with your own names spelled right. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "michaelhejazi/spoken"
+  },
+  {
+    "id": "geo-writing-check",
+    "name": "GEO Writing Check",
+    "author": "yihuiting",
+    "description": "检查文章是否便于 AI 搜索理解和引用：开头是否直接回答、主体是否明确、说法有无出处、段落能否单独摘录。Check Chinese articles for AI search citability: answer-first leads, clear entities, sourced claims, self-contained passages. Works fully offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "baocanmou/obsidian-geo-writing-check"
+  },
+  {
+    "id": "platform-ready-check",
+    "name": "Platform Ready Check",
+    "author": "yihuiting",
+    "description": "按目标平台检查成稿：标题和正文字数、平台不支持的格式、待补内容、文末落款，并复制为可直接粘贴的文本。Check a note against Chinese publishing platforms, keep its sign-off in sync, and copy it ready to paste. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "baocanmou/obsidian-platform-ready-check"
   }
 ]
