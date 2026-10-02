@@ -13804,13 +13804,6 @@
     "repo": "woodchen-ink/obsidian-publish-to-discourse"
   },
   {
-    "id": "imgur-tencent-cos",
-    "name": "Tencent COS for Imgur",
-    "author": "bobostudio",
-    "description": "Upload images to Tencent COS for Imgur.",
-    "repo": "bobostudio/obsidian-imgur-plugin"
-  },
-  {
     "id": "hoarder-sync",
     "name": "Karakeep Sync",
     "author": "jhofker",
@@ -21838,6 +21831,13 @@
     "author": "rvzenteno",
     "description": "Smart daily timeboxing with automatic task rollover and structured planning. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rvzenteno/O-Timebox-Daily"
+  },
+  {
+    "id": "grab-a-prompt",
+    "name": "Grab a Prompt",
+    "author": "Max Kotin",
+    "description": "Ready-made AI prompt templates for writers — research, summarizing, editing, proofing, and more. Pick a template, auto-fill it with your document or selection, and copy to clipboard for ChatGPT, Claude, Gemini, or any LLM. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pishihod2/obsidian-grab-a-prompt"
   },
   {
     "id": "note-lock",
@@ -37033,7 +37033,7 @@
     "id": "recipe-box",
     "name": "Recipe Box",
     "author": "Adam Tommasi",
-    "description": "Turn Markdown recipe notes into an interactive cookbook with meal planning, grocery lists, timers, cook history, and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Plan meals, build grocery lists, and view recipes as interactive cards, all from Markdown notes. Import from the web, scale servings, track what you cook, and share by link. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "adamarcane/obsidian-recipebox"
   },
   {
@@ -47201,6 +47201,13 @@
     "repo": "coffeecheese/obsidian-pm-insights"
   },
   {
+    "id": "culebra-ai-spell-correct",
+    "name": "Culebra AI Spell Correct",
+    "author": "Rahul S",
+    "description": "Correct spelling, grammar, and punctuation in selected text, notes, and Markdown files using OpenRouter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Culebra-Obsidian-AI-Auto-Correct-Spelling"
+  },
+  {
     "id": "vault-issues",
     "name": "Vault Issues",
     "author": "Aizic Albert",
@@ -47885,13 +47892,6 @@
     "author": "Jiajun Song",
     "description": "On macOS, record microphone audio to your vault, transcribe it locally with your own Whisper CLI, and create source-linked Markdown notes with optional Codex summaries. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "songjiajun0209-byte/recording-minutes"
-  },
-  {
-    "id": "ai-scheduler",
-    "name": "AI Scheduler",
-    "author": "Rachit Asthana",
-    "description": "Autonomous AI assistant layer for Claudian with AI planning, scheduled work, self-talk, nightly vault reviews, and notifications. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "racstan/obsidian-ai-scheduler"
   },
   {
     "id": "ebbinghaus-review",
@@ -49033,13 +49033,6 @@
     "author": "onefishman",
     "description": "Browse vault notes as a todo note tree with completion checkboxes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "onefishmanx/obsidian-todo-note"
-  },
-  {
-    "id": "docwen-assistant",
-    "name": "DocWen Assistant",
-    "author": "ZhengYX",
-    "description": "Open files, convert, proofread, and control local DocWen through the public DocWenCLI protocol. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zhyx91/obsidian-docwen-assistant"
   },
   {
     "id": "clipmd",
@@ -57666,6 +57659,13 @@
     "repo": "zackzhangkai/scys-radar-obsidian"
   },
   {
+    "id": "myagenda",
+    "name": "MyAgenda",
+    "author": "loulan23253",
+    "description": "Two-way iCloud / CalDAV calendar sync — Apple-style day, week & month views, recurring events, drag & drop, daily-note injection and reminders. Your credentials stay on your device. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "loulan23253/my-agenda"
+  },
+  {
     "id": "note-site-builder",
     "name": "Note Site Builder",
     "author": "daggermaster3000",
@@ -58062,7 +58062,7 @@
     "name": "Block Draw",
     "author": "Sudesh Kumar",
     "description": "Draw block diagrams with titled blocks, connections and frames that link to each other. Export to JSON, Google Sheets (one tab per frame) or Excel. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sudesh309/Template-Generator"
+    "repo": "sudesh309/Block-Draw"
   },
   {
     "id": "giltmargin",
@@ -58231,5 +58231,12 @@
     "author": "ff",
     "description": "Render task, PRD, and custom tag states on editable nested list blocks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pkulilboat/block-state-renderer"
+  },
+  {
+    "id": "reading-view-full-range",
+    "name": "Reading View Full Range",
+    "author": "Trose",
+    "description": "Keep the active note's native Reading View fully rendered to preserve layouts while scrolling. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "trosses/reading-view-full-range"
   }
 ]
