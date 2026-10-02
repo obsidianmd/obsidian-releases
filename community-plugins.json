@@ -17717,13 +17717,6 @@
     "repo": "deeplook/obsidian-asciinema-player"
   },
   {
-    "id": "open-in-terminal",
-    "name": "Open in Terminal",
-    "author": "feng6611",
-    "description": "Open your vault in a new terminal window or launch Claude Code, Codex CLI, or Gemini CLI directly from a terminal.",
-    "repo": "feng6611/Obsidian-open-in-Teminal"
-  },
-  {
     "id": "default-template",
     "name": "Default Template",
     "author": "raeperd",
@@ -46144,13 +46137,6 @@
     "repo": "danlingdan/fastMathJax"
   },
   {
-    "id": "gantt-this",
-    "name": "Gantt this",
-    "author": "Altarok",
-    "description": "Interactive Gantt charts for custom TTRPG calendars, with support for Bases views. Track campaign events, eras, and timestamps directly from note frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "altarok/gantt-this"
-  },
-  {
     "id": "canvas-image-lod",
     "name": "Canvas Image LOD",
     "author": "Ilia Gorbunov",
@@ -47201,6 +47187,20 @@
     "repo": "coffeecheese/obsidian-pm-insights"
   },
   {
+    "id": "torbert-text-ai",
+    "name": "Torbert Text AI",
+    "author": "Rahul S",
+    "description": "Clean up Markdown, apply text transformations, and use OpenRouter for AI-assisted note editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Torbert-Text-AI-Obsidian"
+  },
+  {
+    "id": "denali-ai-file-renamer-front-matter",
+    "name": "Denali AI Renamer",
+    "author": "Rahul S",
+    "description": "Generate filenames from Markdown notes with AI, then rename automatically or after review. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Denali-AI-Renamer-and-Front-Matter-Obsidian"
+  },
+  {
     "id": "culebra-ai-spell-correct",
     "name": "Culebra AI Spell Correct",
     "author": "Rahul S",
@@ -47283,6 +47283,13 @@
     "author": "Mikolaj Sapek",
     "description": "Sync a shared vault in real time across desktop and mobile, on a server you host yourself. Full authorship, no silent overwrites. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mikolajsapek/obsidian-havemind"
+  },
+  {
+    "id": "worklife-calendar",
+    "name": "WorkLife Calendar",
+    "author": "RavenLife",
+    "description": "Calendar, task tracker, habit tracker, and financial planner — all in one plugin for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "atinss/WorkLife-Calendar-for-Obsidian"
   },
   {
     "id": "task-sorter",
@@ -47563,6 +47570,13 @@
     "author": "Murat Can Uste",
     "description": "Sync Google Calendar events declared in vault notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mcuste/obsidian-gcal-sync"
+  },
+  {
+    "id": "garda-handwriting-text-ocr",
+    "name": "Garda Handwriting Text OCR",
+    "author": "Rahul S",
+    "description": "Transcribe handwritten images and PDFs into searchable Markdown with GPT-5 mini. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Garda-Handwriting-Text-OCR"
   },
   {
     "id": "nice-korean-spell-checker",
@@ -48662,6 +48676,13 @@
     "author": "Raylabs",
     "description": "Easy, free, cross-device GitHub sync for your vault with 3-way merge and zero silent data loss. Works seamlessly across Desktop and Mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ufebri/ray-vault-sync"
+  },
+  {
+    "id": "abele",
+    "name": "Abele",
+    "author": "dudaanton",
+    "description": "All-in-one productivity plugin. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dudaanton/abele-obsidian-plugin"
   },
   {
     "id": "boardwalk",
@@ -52801,6 +52822,41 @@
     "repo": "power-ioi/code-block-char-count"
   },
   {
+    "id": "kairo-quick-capture",
+    "name": "Kairo Quick Capture",
+    "author": "Rahul S",
+    "description": "Capture fleeting thoughts quickly and deliver them safely to an inbox or daily note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Kairo-Quick-Capture"
+  },
+  {
+    "id": "cairn-vault-linter",
+    "name": "Cairn Vault Linter",
+    "author": "Rahul S",
+    "description": "Offline vault health report for broken links, duplicate references, block IDs, and dangling stubs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Cairn-Vault-Linter"
+  },
+  {
+    "id": "tundra-frontmatter-wrangler",
+    "name": "Tundra Frontmatter Wrangler",
+    "author": "Rahul S",
+    "description": "Safely preview, apply, and roll back bulk frontmatter and property changes offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Tundra-Frontmatter-Wrangler"
+  },
+  {
+    "id": "meridian-timeline",
+    "name": "Meridian Timeline",
+    "author": "Rahul S",
+    "description": "Explore dated notes and historical spans on an interactive, local-only timeline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Meridian-Timeline"
+  },
+  {
+    "id": "aegis-note-locker",
+    "name": "Aegis Note Locker",
+    "author": "Rahul S",
+    "description": "Protect note bodies and selected frontmatter values with local authenticated encryption. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Aegis-Note-Locker"
+  },
+  {
     "id": "icor-for-life-scratchpad",
     "name": "ICOR for Life - Scratchpad",
     "author": "Thomas Roedl",
@@ -52820,6 +52876,13 @@
     "author": "Torus Hidenami",
     "description": "Collects unchecked tasks from Obsidian Canvas cards into an Inbox card. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "torus211/canvas-inbox-sync"
+  },
+  {
+    "id": "mica-webp-optimizer",
+    "name": "Mica WebP Optimizer",
+    "author": "Rahul S",
+    "description": "Optimize PNG and JPEG media locally as verified WebP files without breaking Obsidian links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Mica-WebP-Optimizer"
   },
   {
     "id": "rememo",
@@ -56686,6 +56749,13 @@
     "repo": "zoroaster1x/Notation-Prettifier"
   },
   {
+    "id": "block-editor",
+    "name": "Block Editor",
+    "author": "MarcBolo",
+    "description": "Notion 风格块编辑：块手柄、拖拽排序、多选、类型转换与斜杠命令。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "marcbolo/block-editor"
+  },
+  {
     "id": "linten",
     "name": "Linten",
     "author": "Loopstates",
@@ -56789,13 +56859,6 @@
     "author": "harduino",
     "description": "Highlight the word under the cursor or selected text across all visible Markdown editor panes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "harduino/obsidian-workspace-word-highlight"
-  },
-  {
-    "id": "simple-one",
-    "name": "Simple One",
-    "author": "zo00oey",
-    "description": "Format notes, manage diaries and attachments, and streamline links. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zo00oey/simple-one"
   },
   {
     "id": "food-assistant-module",
@@ -58030,6 +58093,13 @@
     "repo": "chenqaq123/ObsidianSync"
   },
   {
+    "id": "temperans-habits",
+    "name": "Temperans Habits",
+    "author": "adg0",
+    "description": "Track personal habits in Markdown and explore them through an annual heat map. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "adg0/temperans"
+  },
+  {
     "id": "snap-slides",
     "name": "Snap Slides",
     "author": "Jared Cherup",
@@ -58238,5 +58308,19 @@
     "author": "Trose",
     "description": "Keep the active note's native Reading View fully rendered to preserve layouts while scrolling. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "trosses/reading-view-full-range"
+  },
+  {
+    "id": "copy-all-note",
+    "name": "Copy All Note",
+    "author": "loganjuhl",
+    "description": "Adds a native header button that copies the entire note's Markdown to the clipboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "loganjuhl/copy-all-note"
+  },
+  {
+    "id": "mdmap",
+    "name": "mdmap",
+    "author": "daniel",
+    "description": "Edit notes as mind maps with two-way Markdown sync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pererinha/mdmap"
   }
 ]
