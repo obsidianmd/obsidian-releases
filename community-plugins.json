@@ -19588,8 +19588,8 @@
   {
     "id": "stratum",
     "name": "Stratum",
-    "author": "sprice",
-    "description": "Sync your Zotero library into structured literature notes with zero configuration. - This plugin has not been manually reviewed by Obsidian staff.",
+    "author": "Shawn Price",
+    "description": "The simplest and fastest way to bring Zotero into Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sprice/stratum-obsidian"
   },
   {
@@ -25590,6 +25590,13 @@
     "author": "pedroaraujo74",
     "description": "Import highlights and sources from Screvi. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pedroaraujo74/screvi-obsidian-plugin"
+  },
+  {
+    "id": "istart-note-ai",
+    "name": "IStart-Note-AI",
+    "author": "yan-istart",
+    "description": "Generate structured knowledge notes from questions and selected text using DeepSeek AI, with automatic concept pages, bidirectional links, and a question graph. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yan-istart/IStart-Note-AI-Plugin"
   },
   {
     "id": "notekeeper",
@@ -47698,13 +47705,6 @@
     "repo": "fzk177/project-manager-enhanced"
   },
   {
-    "id": "imperial-to-metric",
-    "name": "Imperial to Metric Converter",
-    "author": "p0shkar",
-    "description": "Plugin to convert measurements between imperial and metric. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "p0shkar/ImperialToMetric-for-Obsidian"
-  },
-  {
     "id": "daylio-mood-graph",
     "name": "Daylio Mood Graph",
     "author": "toldry",
@@ -57939,6 +57939,20 @@
     "repo": "preeteshgm/obsidian-ferry"
   },
   {
+    "id": "mineru-converter",
+    "name": "MinerU Converter",
+    "author": "liyifan",
+    "description": "Right-click any PDF, Word, PPT, Excel, or image in your vault to convert it to Markdown via the MinerU parse API. Long PDFs are auto-split and merged back into one file, with an images/ sidecar and a run-in-background option. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "liyifan2004/obsidian-mineru-converter"
+  },
+  {
+    "id": "multifolio",
+    "name": "MultiFolio",
+    "author": "liyifan",
+    "description": "A continuous multi-column workspace for seamless reading and editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "liyifan2004/obsidian-folio"
+  },
+  {
     "id": "parrot-plan",
     "name": "Parrot Plan",
     "author": "parrot-23",
@@ -58091,5 +58105,12 @@
     "author": "yihuiting",
     "description": "按目标平台检查成稿：标题和正文字数、平台不支持的格式、待补内容、文末落款，并复制为可直接粘贴的文本。Check a note against Chinese publishing platforms, keep its sign-off in sync, and copy it ready to paste. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "baocanmou/obsidian-platform-ready-check"
+  },
+  {
+    "id": "agenthub",
+    "name": "AgentHub",
+    "author": "wh01s17",
+    "description": "Use coding agents like Claude Code and Codex from a sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wh01s17/agenthub-plugin-obsidian"
   }
 ]
