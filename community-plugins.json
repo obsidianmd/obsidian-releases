@@ -21084,13 +21084,6 @@
     "repo": "mvru/focus-mode-pro"
   },
   {
-    "id": "agents",
-    "name": "Agents",
-    "author": "tsilva",
-    "description": "Launch AI agents from your vault — right-click any file or folder to open a terminal with context. Supports Claude, Codex, and other AI CLI tools. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tsilva/obsidian-agents-plugin"
-  },
-  {
     "id": "notebook-mindmap-to-canvas",
     "name": "NotebookLM Mindmap to Canvas",
     "author": "ayv4zyan",
@@ -40520,7 +40513,7 @@
     "name": "Leif",
     "author": "Luiz Gustavo",
     "description": "Organize concursos, ciclos, editais, materiais e sessões de estudo. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ttusk/leif"
+    "repo": "luizlisps/leif"
   },
   {
     "id": "qdrant-sync",
@@ -56861,6 +56854,13 @@
     "repo": "raccoon-overlord-dev/obsidian-daily-glance"
   },
   {
+    "id": "grok-mobile",
+    "name": "Grok",
+    "author": "Chrostn Woods",
+    "description": "Talk to Grok  on laptop, tablet, and phone. Sidebar chat on desktop, sheet on phone. Ask about a note or selection, summarize, rewrite, and insert the reply. Uses the xAI API — no CLI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chrostnwo/Grok-Mobile"
+  },
+  {
     "id": "paste-link-as",
     "name": "Paste Link As",
     "author": "llighter",
@@ -58077,5 +58077,19 @@
     "author": "Lucas",
     "description": "Save drafts of a note and see what changed between them. Get back passages you cut, and restore any earlier draft. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lucastraba/pentimento-obsidian"
+  },
+  {
+    "id": "vault-nexus",
+    "name": "Vault Nexus",
+    "author": "schattenbeutel",
+    "description": "Finds context-related notes for the current note using a local Miyo index and suggests links you accept or dismiss. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "waaboy/vault-nexus"
+  },
+  {
+    "id": "ad-compliance-check",
+    "name": "Ad Compliance Check",
+    "author": "yihuiting",
+    "description": "发布前检查中文文案里的广告法风险表达，给出依据和改法。Flag risky claims in Chinese ad copy as you write: superlatives, health and income promises, unsupported endorsements. Works fully offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "baocanmou/obsidian-ad-compliance-check"
   }
 ]
