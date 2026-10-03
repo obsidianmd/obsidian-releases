@@ -22596,13 +22596,6 @@
     "repo": "owo/obsidian-chatterbox-plugin"
   },
   {
-    "id": "albus-imagine",
-    "name": "Imagine",
-    "author": "albusguo",
-    "description": "A comprehensive image management plugin for managing, inserting, resizing, viewing, and batch processing images. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "albusguo/albus-imagine"
-  },
-  {
     "id": "sankrypt",
     "name": "Sankrypt",
     "author": "hgiorgis",
@@ -27312,6 +27305,13 @@
     "author": "david4liu",
     "description": "AI for your vault: grounded RAG chat with citations, hybrid BM25 + vector + summary retrieval, multi-format indexing (MD/PDF/DOCX/XLSX/PPTX), image OCR/Vision, and artifact generation. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "david46liu/obsidian-knowledge-ai"
+  },
+  {
+    "id": "nox-sync",
+    "name": "NoX Sync",
+    "author": "Mapherez",
+    "description": "Manual, self-hosted sync for Obsidian vaults. Requires a running NoX Backend instance. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mapherez/nox-sync"
   },
   {
     "id": "pluto-hub",
@@ -44629,7 +44629,7 @@
     "name": "MathMacro",
     "author": "Mehdi Khaksar",
     "description": "A plugin simulating the WordMat experience. Write Math/Physics/Chemistry notation comfortably like in WordMat, rather than spending more time writing LaTeX. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "minomaster/ObsMat"
+    "repo": "medi31k/ObsMat"
   },
   {
     "id": "ferus-plugin-auditor",
@@ -48102,6 +48102,13 @@
     "author": "sharfaroz",
     "description": "Easily switch to any recently opened file from a 3x3 grid that opens front and centre and is out of the way once you select the file - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sharfaroz7/Grid-tab-switcher"
+  },
+  {
+    "id": "folder-nodes",
+    "name": "Folder Nodes",
+    "author": "ZhengYX",
+    "description": "Turn every folder into a same-named node with visual navigation, selection creation, and scalable ordering. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhyx91/obsidian-folder-nodes"
   },
   {
     "id": "final-craft",
@@ -52998,10 +53005,10 @@
   },
   {
     "id": "colecao-livros-quadrinhos",
-    "name": "Books and Comics Tracker",
+    "name": "Personal Library",
     "author": "Pedro Henrique Ramos",
     "description": "Catalog books and comics in your vault by searching ISBN or title, building your own personal library. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ph-ramos/Books-and-Comics-Tracker"
+    "repo": "ph-ramos/Personal-Library"
   },
   {
     "id": "isotask",
@@ -58278,7 +58285,7 @@
     "id": "dictionary-notes",
     "name": "Dictionary Notes",
     "author": "Tony Herrera",
-    "description": "Look up a word in a dictionary and create a note from its definition using your own template. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Build a dictionary in your vault: look up definitions, idioms, and quotes, and save each one as a note using your own templates. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "burningburrito/obsidian-dictionary-notes"
   },
   {
@@ -58336,5 +58343,12 @@
     "author": "akremenetsky",
     "description": "Organize notes as Kanban boards backed by plain markdown, with linked boards across files, dates, tags and WIP limits. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "akremenetsky/kanban-starlane"
+  },
+  {
+    "id": "moi-icons",
+    "name": "My Own Icons",
+    "author": "arnaudfeld",
+    "description": "Use your own SVGs, Devicon, Simple Icons and Lucide in notes via a shortcode, and in the file explorer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arnaudfeld/my-own-icons"
   }
 ]
