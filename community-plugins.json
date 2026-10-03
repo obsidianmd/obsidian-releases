@@ -22603,6 +22603,13 @@
     "repo": "owo/obsidian-chatterbox-plugin"
   },
   {
+    "id": "albus-imagine",
+    "name": "Imagine",
+    "author": "albusguo",
+    "description": "A comprehensive image management plugin for managing, inserting, resizing, viewing, and batch processing images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "albusguo/albus-imagine"
+  },
+  {
     "id": "sankrypt",
     "name": "Sankrypt",
     "author": "hgiorgis",
@@ -30933,13 +30940,6 @@
     "repo": "dzplus/obsidian-sync-confluence"
   },
   {
-    "id": "card-workspace",
-    "name": "Card Workspace",
-    "author": "kenan",
-    "description": "Browse folder notes as a warm retro card stream in the left sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kenanlian/obsidian-card-workspace"
-  },
-  {
     "id": "quickclip-capture",
     "name": "QuickClip Capture Manager",
     "author": "Vipul Bansal",
@@ -33096,13 +33096,6 @@
     "repo": "henriquemanduca/mysync-plugin"
   },
   {
-    "id": "annoteca",
-    "name": "Annoteca",
-    "author": "Charles Kelsoe",
-    "description": "Categorized inline feedback comments for long-form markdown documents. Plain HTML storage, threaded AI conversations, readable by humans and any AI assistant. Works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ckelsoe/obsidian-annoteca"
-  },
-  {
     "id": "editorialist",
     "name": "Editorialist",
     "author": "Eric R Taylor",
@@ -33556,13 +33549,6 @@
     "author": "yaye.work",
     "description": "Build mermaid flowcharts visually. Enuf said. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yaye-work/obsidian-draw-a-mermaid"
-  },
-  {
-    "id": "arxiv-daily",
-    "name": "arXiv Daily",
-    "author": "Da-Chuan Tian",
-    "description": "Daily arXiv tracker that filters and summarizes papers via LLM into your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tdccccc/arxiv-daily"
   },
   {
     "id": "pageden-sync",
@@ -34114,7 +34100,7 @@
     "id": "note-reader-cosyvoice",
     "name": "Note and PDF Voice Reader",
     "author": "Note Reader CosyVoice Contributors",
-    "description": "Privacy-first read aloud for notes, text-based PDFs and local HTML. Read selected text or continue from a PDF/HTML selection; use local speech or opt in to online TTS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Privacy-first read aloud for notes, text-based PDFs, local HTML and Obsidian Web viewer pages. Read selected text or continue from a selection, with local speech or opt-in online TTS. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "laginae/note-reader-cosyvoice"
   },
   {
@@ -56877,7 +56863,7 @@
   {
     "id": "catea-paper",
     "name": "Catea",
-    "author": "cunyu666",
+    "author": "Clever Yuki",
     "description": "The only Agent plugin you need. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cunyu6666/catea-obsidian-plugin"
   },
@@ -58434,5 +58420,26 @@
     "author": "heptazero",
     "description": "Read PDFs page by page with mobile landscape paging, resume position, bookmarks, and width controls. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "heptazero/obsidian-PDF-pager"
+  },
+  {
+    "id": "mdsync",
+    "name": "MDSync",
+    "author": "k1tbyte",
+    "description": "Sync your vault end-to-end encrypted through your own S3, WebDAV or Google Drive storage, with conflict resolution, file history, shared folders and live editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "k1tbyte/mdsync"
+  },
+  {
+    "id": "discogs-cover",
+    "name": "Discogs Cover",
+    "author": "Florent",
+    "description": "Shows the Discogs cover art for a note's 'discogs' release ID, cached locally and usable in Bases image columns. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "3f3l0/obsidian-discogs-cover"
+  },
+  {
+    "id": "folder-first-ai-shared-vaults",
+    "name": "Folder First AI Shared Vaults",
+    "author": "Folder First AI",
+    "description": "Connect and safely refresh approved Company and Team shared vaults from GitHub. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "folderfirstai/folder-first-ai-shared-vaults"
   }
 ]
