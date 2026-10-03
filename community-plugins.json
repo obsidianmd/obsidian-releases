@@ -19575,7 +19575,7 @@
     "id": "stratum",
     "name": "Stratum",
     "author": "Shawn Price",
-    "description": "The simplest and fastest way to bring Zotero into Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync your Zotero library into literature notes. Citations in any style, as you focus on writing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sprice/stratum-obsidian"
   },
   {
@@ -47386,7 +47386,7 @@
     "id": "local-font-loader",
     "name": "Local Font Loader",
     "author": "InVerse",
-    "description": "Load local fonts (TTF/OTF/WOFF/WOFF2) with Base64 caching. Manage UI, text, code, and math fonts separately. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Load local fonts (TTF/OTF/WOFF/WOFF2) straight from your vault. Manage UI, text, code, and math fonts separately. Support cross-device font presets. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lmce72/obsidian-local-font-loader"
   },
   {
@@ -52475,7 +52475,7 @@
     "id": "kalendae",
     "name": "Kalendae",
     "author": "unpreditable",
-    "description": "Change an existing date in your note by picking it from a calendar, instead of retyping it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Change an existing date in your note with a date picker or Ctrl/Option + ↑/↓, instead of retyping it. Insert new ones by typing them in plain words. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "unpreditable/Kalendae"
   },
   {
@@ -55055,13 +55055,6 @@
     "repo": "micahchoo/image-annotation"
   },
   {
-    "id": "refined-layout",
-    "name": "Refined Layout",
-    "author": "floratina",
-    "description": "Independent layout controls for Obsidian editing and reading views. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "floratina/Obsidian-Refined-Layout"
-  },
-  {
     "id": "codriver",
     "name": "CoDriver",
     "author": "nikchallenger",
@@ -56553,6 +56546,13 @@
     "repo": "jiwawang/obsidian-note-proofreader"
   },
   {
+    "id": "cloud-relay",
+    "name": "Cloud Relay",
+    "author": "kafaw",
+    "description": "Self-hosted vault sync across devices. Real-time per-keystroke, conflict-safe offline edits, mirrors notes, attachments, folders, and settings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "enl69/cloud-relay"
+  },
+  {
     "id": "simplesync",
     "name": "SimpleSync",
     "author": "Jiří Čepelka ",
@@ -57715,6 +57715,13 @@
     "repo": "yut0takagi/obsidian-link-or-card"
   },
   {
+    "id": "attachment-location-manager",
+    "name": "Attachment Location Manager",
+    "author": "lishuai1993",
+    "description": "Set attachment location per note or folder: global, folder and file settings resolve by nearest match, each with its own per-extension exceptions; supports variables, auto-rename and re-arranging existing links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lishuai1993/attachment-location-manager"
+  },
+  {
     "id": "relations-suite",
     "name": "Relations Suite",
     "author": "Vishwas Upponi",
@@ -58357,5 +58364,12 @@
     "author": "Kebb",
     "description": "Create reminders with dates, times and repeats, and get customizable toast notifications when they come due. Includes a calendar for the sidebar and notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kebbrokk/reminder-toast"
+  },
+  {
+    "id": "obtion",
+    "name": "Notebase",
+    "author": "hakubisual",
+    "description": "Project status at a glance (principle, to do, done, verification limits) plus wiki pages, databases, templates, relations, quick find and CSV/Markdown import and export. Everything stays in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hakubisual/notebase"
   }
 ]
