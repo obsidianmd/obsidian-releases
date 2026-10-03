@@ -41716,7 +41716,7 @@
     "id": "curtis-ai-chat",
     "name": "Curtis AI Chat",
     "author": "Jordan Newell",
-    "description": "Polyglot AI chat with 30+ providers (Anthropic, OpenAI, Gemini, Ollama, and more), image attachments, long-term memory, slash commands, and inline selection actions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Polyglot AI chat for Obsidian. 30+ providers, agent mode with 10 vault tools, multi-model arena, voice, memory. Local-first, free, MIT. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jordannewell/curtis-ai-chat"
   },
   {
@@ -46109,6 +46109,13 @@
     "repo": "danlingdan/fastMathJax"
   },
   {
+    "id": "gantt-this",
+    "name": "Gantt this",
+    "author": "Altarok",
+    "description": "Interactive Gantt charts for custom TTRPG calendars, with support for Bases views. Track campaign events, eras, and timestamps directly from note frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "altarok/gantt-this"
+  },
+  {
     "id": "canvas-image-lod",
     "name": "Canvas Image LOD",
     "author": "Ilia Gorbunov",
@@ -49042,6 +49049,13 @@
     "repo": "onefishmanx/obsidian-todo-note"
   },
   {
+    "id": "docwen-assistant",
+    "name": "DocWen Assistant",
+    "author": "ZhengYX",
+    "description": "Open files, convert, proofread, and control local DocWen through the public DocWenCLI protocol. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhyx91/obsidian-docwen-assistant"
+  },
+  {
     "id": "clipmd",
     "name": "Clip2MD",
     "author": "Clip2MD",
@@ -50944,6 +50958,13 @@
     "author": "Jesse",
     "description": "Create multiple editable file-explorer views that reference the vault's real file tree, without altering it. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "biehenjia/tv"
+  },
+  {
+    "id": "scribe-of-lagash-visualization",
+    "name": "Scribe of Lagash - Visualization",
+    "author": "Alejandro",
+    "description": "Plot your story visually: StoryLines, Characters and Locations views of your chapters and scenes, plus an outline whose rows become notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aescanes/scribe-of-lagash-visualization"
   },
   {
     "id": "uzbek-script-switcher",
@@ -58380,13 +58401,6 @@
     "repo": "arnaudfeld/my-own-icons"
   },
   {
-    "id": "reminder-toast",
-    "name": "Reminder Toast",
-    "author": "Kebb",
-    "description": "Create reminders with dates, times and repeats, and get customizable toast notifications when they come due. Includes a calendar for the sidebar and notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kebbrokk/reminder-toast"
-  },
-  {
     "id": "obtion",
     "name": "Notebase",
     "author": "hakubisual",
@@ -58478,6 +58492,13 @@
     "repo": "relks-00/leetcode-Helper"
   },
   {
+    "id": "pix-lifespan-calendar",
+    "name": "Pix Lifespan Calendar",
+    "author": "Andrei Gladkov",
+    "description": "Draw your life as a grid of days, weeks or months, with life expectancy from WHO data. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andreygladkov/pix-lifespan-calendar"
+  },
+  {
     "id": "session-atlas",
     "name": "Session Atlas",
     "author": "Oleg Testov",
@@ -58522,9 +58543,9 @@
   {
     "id": "unitedshare",
     "name": "UnitedShare",
-    "author": "unitedshare",
+    "author": "united-share",
     "description": "Ask the model behind api.unitedshare.ai from the current note. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mikebaumgart/obsidian-unitedshare"
+    "repo": "united-share/obsidian-unitedshare"
   },
   {
     "id": "multiline-tabs-wheel-scroll",
@@ -58546,5 +58567,19 @@
     "author": "wzh",
     "description": "Drag to resize table columns in reading view. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bubble-wu/obsidian-table-column-resizer"
+  },
+  {
+    "id": "typed-graph",
+    "name": "Typed Graph",
+    "author": "Volodymyr Pavlyshyn",
+    "description": "Typed, signed, labeled property graph over your notes with openCypher queries, edge properties and graph views. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "volland/obsigraph"
+  },
+  {
+    "id": "chess-notebook",
+    "name": "Chess Notebook",
+    "author": "saltyfireball",
+    "description": "Interactive chessboards from FEN and PGN code blocks, with puzzle and step modes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "saltyfireball/obsidian-chess-notebook"
   }
 ]
