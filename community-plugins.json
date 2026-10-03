@@ -18956,13 +18956,6 @@
     "repo": "stefmf/vault-pulse"
   },
   {
-    "id": "mcp-tools-istefox",
-    "name": "MCP Connector",
-    "author": "istefox",
-    "description": "Connect MCP-compatible clients (Claude Desktop, Claude Code, Cline) to your vault with semantic search, templates, file management and gated command execution. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "istefox/obsidian-mcp-connector"
-  },
-  {
     "id": "enhanced-search-replace",
     "name": "Enhanced search and replace",
     "author": "liuhaoxd",
@@ -47887,6 +47880,13 @@
     "repo": "songjiajun0209-byte/recording-minutes"
   },
   {
+    "id": "ai-scheduler",
+    "name": "AI Scheduler",
+    "author": "Rachit Asthana",
+    "description": "Autonomous AI assistant layer for Claudian with AI planning, scheduled work, self-talk, nightly vault reviews, and notifications. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "racstan/obsidian-ai-scheduler"
+  },
+  {
     "id": "ebbinghaus-review",
     "name": "Note Review Reminder",
     "author": "rheor108",
@@ -50946,13 +50946,6 @@
     "repo": "biehenjia/tv"
   },
   {
-    "id": "scribe-of-lagash-visualization",
-    "name": "Scribe of Lagash - Visualization",
-    "author": "Alejandro",
-    "description": "Plot your story visually: chapter and scene cards on colored story lines, plus an outline whose rows become real notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "aescanes/scribe-of-lagash-visualization"
-  },
-  {
     "id": "uzbek-script-switcher",
     "name": "Uzbek Script Switcher",
     "author": "Aristarkh Khalmirzaev",
@@ -52468,7 +52461,7 @@
     "id": "kalendae",
     "name": "Kalendae",
     "author": "unpreditable",
-    "description": "Change an existing date in your note with a date picker or Ctrl/Option + ↑/↓, instead of retyping it. Insert new ones by typing them in plain words. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Change an existing date in your note with a date picker or                             Ctrl/Option + ↑/↓, instead of retyping it. Insert new ones by typing them in plain words. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "unpreditable/Kalendae"
   },
   {
@@ -55060,6 +55053,13 @@
     "author": "floratina",
     "description": "Independent layout controls for Obsidian editing and reading views. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "floratina/Obsidian-Refined-Layout"
+  },
+  {
+    "id": "codriver",
+    "name": "CoDriver",
+    "author": "nikchallenger",
+    "description": "Chat with your Obsidian vault through connected LLM providers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nikchallenger/codriver"
   },
   {
     "id": "plain-ledger",
@@ -58303,6 +58303,13 @@
     "repo": "burningburrito/obsidian-dictionary-notes"
   },
   {
+    "id": "leaf-reader",
+    "name": "Leaf Reader",
+    "author": "wanderxuhq",
+    "description": "An EPUB reader that turns highlights and annotations into linked Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wanderxuhq/leaf-reader"
+  },
+  {
     "id": "note-minimap",
     "name": "Note-Minimap",
     "author": "lorenbll",
@@ -58322,6 +58329,13 @@
     "author": "ff",
     "description": "Render task, PRD, and custom tag states on editable nested list blocks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pkulilboat/block-state-renderer"
+  },
+  {
+    "id": "finance-ledger",
+    "name": "Finance Ledger",
+    "author": "Johannes Kaindl",
+    "description": "View and triage hledger journals: filterable transaction table, balance and category dashboards, and categorizer-rule management synced with an external importer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johannes-kaindl/finance-ledger"
   },
   {
     "id": "reading-view-full-range",
@@ -58450,11 +58464,18 @@
     "repo": "cloudenshine/OpenContent"
   },
   {
-    "id": "pix-lifespan-calendar",
-    "name": "Pix Lifespan Calendar",
-    "author": "Andrei Gladkov",
-    "description": "Draw your life as a grid of days, weeks or months, with life expectancy from WHO data. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "andreygladkov/pix-lifespan-calendar"
+    "id": "docx-export-studio",
+    "name": "DOCX Export Studio",
+    "author": "Vuk Djordjevic",
+    "description": "Export notes to .docx files (the format Microsoft Word uses) without Pandoc. Exporting needs no network. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "megatronjeremy/docx-export-studio"
+  },
+  {
+    "id": "leetcode-helper",
+    "name": "leetcode helper",
+    "author": "Rishi Jha",
+    "description": "A fully integrated LeetCode workspace featuring a built-in code editor, test case runner, and a custom Socratic AI Copilot that provides algorithmic hints without spoiling the solution. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "relks-00/leetcode-Helper"
   },
   {
     "id": "session-atlas",
@@ -58469,5 +58490,61 @@
     "author": "siatko",
     "description": "Insert Bible verses from bolls.life as Markdown quotes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "siatko/obsidian-simple-bible-fetcher"
+  },
+  {
+    "id": "annotations-everywhere",
+    "name": "Annotations Everywhere",
+    "author": "heptazero",
+    "description": "Add editable Markdown sidenotes and PDF annotations with shared documents, searchable layers, manual outlines, and mobile-friendly controls. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "heptazero/annotations-everywhere"
+  },
+  {
+    "id": "feuillets-grammalecte",
+    "name": "Feuillets Grammalecte",
+    "author": "Halim Yalcin",
+    "description": "Adds local French grammar and spelling checking to Feuillets using Grammalecte. Requires the Feuillets plugin. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sargon01/Feuillets-Grammalecte"
+  },
+  {
+    "id": "polaris-dashboard",
+    "name": "Polaris Dashboard",
+    "author": "alvin-0111",
+    "description": "工作/知识库/复习三看板仪表盘,支持Dataview读取Vault任务笔记,内置专注计时器、可拖拽甘特视图,玻璃拟态深色UI - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alvin-0111/polaris-dashboard"
+  },
+  {
+    "id": "semantic-map-canvas",
+    "name": "Semantic Map Canvas",
+    "author": "Ryan",
+    "description": "Semantic zoom, node visibility and readable group overviews for the official Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ryanleefm/semantic-map-canvas"
+  },
+  {
+    "id": "unitedshare",
+    "name": "UnitedShare",
+    "author": "unitedshare",
+    "description": "Ask the model behind api.unitedshare.ai from the current note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mikebaumgart/obsidian-unitedshare"
+  },
+  {
+    "id": "multiline-tabs-wheel-scroll",
+    "name": "Multiline Tabs Wheel Scroll",
+    "author": "f2work",
+    "description": "Smooth wheel scrolling and drag-and-drop reordering for wrapped editor tabs, including cross-window moves. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ltz6/obsidian-multiline-tabs-wheel-scroll"
+  },
+  {
+    "id": "iphone-photo",
+    "name": "Photo from iPhone",
+    "author": "madarame-bk",
+    "description": "Take a photo with your iPhone, save it in the note's iPhone Photos subfolder, and embed it at the cursor. Requires macOS and a separate camera helper. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "madarame-bk/obsidian-iphone-photo"
+  },
+  {
+    "id": "table-column-resizer",
+    "name": "Table Column Resizer",
+    "author": "wzh",
+    "description": "Drag to resize table columns in reading view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bubble-wu/obsidian-table-column-resizer"
   }
 ]
