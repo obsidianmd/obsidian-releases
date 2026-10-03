@@ -19582,7 +19582,7 @@
     "id": "stratum",
     "name": "Stratum",
     "author": "Shawn Price",
-    "description": "Sync your Zotero library into literature notes. Citations in any style, as you focus on writing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync your Zotero library into literature notes. Swap and use any citation style. Focus on your writing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sprice/stratum-obsidian"
   },
   {
@@ -34114,7 +34114,7 @@
     "id": "note-reader-cosyvoice",
     "name": "Note and PDF Voice Reader",
     "author": "Note Reader CosyVoice Contributors",
-    "description": "Privacy-first plugin that can read aloud notes and text-based PDFs with fast local processing; continue from a PDF selection or read only selected text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Privacy-first read aloud for notes, text-based PDFs and local HTML. Read selected text or continue from a PDF/HTML selection; use local speech or opt in to online TTS. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "laginae/note-reader-cosyvoice"
   },
   {
@@ -51541,6 +51541,13 @@
     "repo": "isaquepereira/obsidian-apple-reminders-plus"
   },
   {
+    "id": "mindmap-studio",
+    "name": "MindMap Studio",
+    "author": "冬季蚊子",
+    "description": "Mind map rendering for Markdown: edit .mindmap.md as a mind map, with Markdown outline round-trip, native wikilinks and images, layouts, search, auto-arrange and PNG export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wintermosquito/Obsidian-Mindmap-Studio"
+  },
+  {
     "id": "cn-natsort",
     "name": "CN Natural Sort",
     "author": "琉璃幻影",
@@ -51686,6 +51693,13 @@
     "author": "Wren",
     "description": "Sync Letterboxd RSS watches into one Obsidian note per movie. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "turnipsforme/letterboxd-sync"
+  },
+  {
+    "id": "highlightextractor",
+    "name": "Highlight-Extractor",
+    "author": "KfirG",
+    "description": "Extract highlights and bold from different notes into a single note - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kfirgumay2005-hash/Highlight-Extractor"
   },
   {
     "id": "mistake-notebook",
@@ -57971,7 +57985,7 @@
     "name": "Download Pulse",
     "author": "Elliott Park",
     "description": "Analytics for authors with several plugins. Track every plugin's downloads, rank and milestones in one dashboard, and see when you'll pass the competitors ahead. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "elliott-json-park/obsidian-plugin-pulse"
+    "repo": "elliott-json-park/obsidian-download-pulse"
   },
   {
     "id": "visual-gallery",
@@ -58385,5 +58399,26 @@
     "author": "hakubisual",
     "description": "Project status at a glance (principle, to do, done, verification limits) plus wiki pages, databases, templates, relations, quick find and CSV/Markdown import and export. Everything stays in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hakubisual/notebase"
+  },
+  {
+    "id": "persistent-player",
+    "name": "Persistent Player",
+    "author": "Quang Nguyen",
+    "description": "Keep audio playing when its embed scrolls out of view, and pick up where you left off when you return. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "quangnd159/persistent-player"
+  },
+  {
+    "id": "bilinote-sync",
+    "name": "BiliNote Sync",
+    "author": "Rui-0221",
+    "description": "Import selected local BiliNote notes and screenshots, with optional automatic import and shared image storage. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rui-0221/bilinote-sync"
+  },
+  {
+    "id": "lattice-board",
+    "name": "Lattice Board",
+    "author": "xwtaidev",
+    "description": "A kanban board of your notes. Columns are the values of a property, cards are notes, and dragging a card into a column writes that value back to the note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xwtaidev/obsidian-lattice-plugin"
   }
 ]
