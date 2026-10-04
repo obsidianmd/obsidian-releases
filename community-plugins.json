@@ -18956,6 +18956,13 @@
     "repo": "stefmf/vault-pulse"
   },
   {
+    "id": "mcp-tools-istefox",
+    "name": "MCP Connector",
+    "author": "istefox",
+    "description": "Connect MCP-compatible clients (Claude Desktop, Claude Code, Cline) to your vault with semantic search, templates, file management and gated command execution. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "istefox/obsidian-mcp-connector"
+  },
+  {
     "id": "enhanced-search-replace",
     "name": "Enhanced search and replace",
     "author": "liuhaoxd",
@@ -27503,13 +27510,6 @@
     "repo": "mvstro/canvas-node-linker"
   },
   {
-    "id": "colorful-stickynotes",
-    "name": "Colorful StickyNotes",
-    "author": "pandanocturne",
-    "description": "Floating colorful sticky notes in Vault - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pandanocturne/obsidian-colorful-stickynotes"
-  },
-  {
     "id": "better-footnote",
     "name": "Better Footnote",
     "author": "alcatrazyu",
@@ -27758,7 +27758,7 @@
     "id": "zotflow",
     "name": "ZotFlow",
     "author": "Xianpi Duan",
-    "description": "Keep your research in flow! #Zotero #PDF #Annotation - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Read, annotate and cite your Zotero library in Obsidian: two-way sync, built-in PDF/EPUB reader, templated literature notes and CSL citations. #Zotero #PDF #Annotation - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "duanxianpi/zotflow"
   },
   {
@@ -28607,13 +28607,6 @@
     "author": "giblicious",
     "description": "Rich text editing mode (WYSIWYG). Focus on writing, not syntax. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "spreadwell/butter-editor"
-  },
-  {
-    "id": "zotero-lib-view",
-    "name": "Zotero Lib View",
-    "author": "Lebenswille",
-    "description": "View and manage your Zotero library from a vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lebenswille/zotero-lib-view"
   },
   {
     "id": "photo-album",
@@ -30364,6 +30357,13 @@
     "author": "Daniil Shipilov",
     "description": "Adds configurable AI auto-completion to Obsidian using OpenAI, Anthropic, Gemini, Azure OpenAI, or Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yetanotherrepo/obsidian-copilot-auto-completion-plus"
+  },
+  {
+    "id": "docx-importer",
+    "name": "DOCX Importer",
+    "author": "mayac5",
+    "description": "Import DOCX files into your Obsidian vault as Markdown - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mayac5/obsidian-docx-importer"
   },
   {
     "id": "checkers-hider",
@@ -42572,6 +42572,13 @@
     "author": "yinfei",
     "description": "Chat with your vault, get inline AI completions, and compile your notes into a searchable knowledge base. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yinfi/baizer"
+  },
+  {
+    "id": "material-icons-inline",
+    "name": "Material Icons Inline",
+    "author": "Meiorz",
+    "description": "Render Google Material Icons inline using !icon[name] syntax. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "meiorz/material-icons-obsidian"
   },
   {
     "id": "daily-prefix-notes",
@@ -57305,7 +57312,7 @@
     "id": "agent-sessions",
     "name": "Agent Sessions",
     "author": "Kaz Namba",
-    "description": "Run Claude Code and Codex sessions as terminal tabs, with a session list, usage analytics, and a daemon that keeps sessions running. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Run Claude Code, Codex, and OpenCode sessions as terminal tabs, with a session list, usage analytics, and a daemon that keeps sessions running. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kulikala/obsidian-agent-sessions"
   },
   {
@@ -58520,6 +58527,13 @@
     "repo": "ryanleefm/semantic-map-canvas"
   },
   {
+    "id": "root-books-workspace",
+    "name": "Root Books Toolkit",
+    "author": "John Smith",
+    "description": "Coordinate folder notes, portable book metadata, note creation, dates, and sorting in book-organized vaults. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vinggit/obsidian-root-books-workspace"
+  },
+  {
     "id": "unitedshare",
     "name": "UnitedShare",
     "author": "united-share",
@@ -58623,5 +58637,12 @@
     "author": "M",
     "description": "Build a cluster of ideas on a rotating sphere. Drag notes, follow links, and search to find pages. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "m-spectral/omega-centaur"
+  },
+  {
+    "id": "better-relative-wikilinks",
+    "name": "Better Relative Wikilinks",
+    "author": "Fractal",
+    "description": "Uses relative wikilink paths instead of absolute paths when filenames conflict. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fractalscripts/Better-Relative-Wikilinks"
   }
 ]
