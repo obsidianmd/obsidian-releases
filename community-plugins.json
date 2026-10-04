@@ -14724,7 +14724,7 @@
     "id": "sync-vault-ce",
     "name": "Sync Vault",
     "author": "abcamus",
-    "description": "Professional cloud sync & VFS for Obsidian. Features zero-space VFS, 4K streaming, MCP AI engine, and P2P collaboration. Supports Baidu/Aliyun/Quark/WebDAV/S3.",
+    "description": "Free your Obsidian vault from disk limits: zero-space VFS keeps files in the cloud with near-zero local storage and streams 4K video on demand. Encrypted sync across devices, MCP AI engine, P2P collab",
     "repo": "abcamus/obsidian-sync-vault-ce"
   },
   {
@@ -21441,13 +21441,6 @@
     "repo": "1095327780/FLOWnote"
   },
   {
-    "id": "spatial-task-graph",
-    "name": "Spatial Task Graph",
-    "author": "cccjhuan",
-    "description": "Visualize tasks on an infinite canvas with an Apple-style UI. Features smart auto-layout, mind-map connections, and two-way synchronization with markdown files. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cccjhuan/spatial-task-graph"
-  },
-  {
     "id": "image-metadata-stripper",
     "name": "Image Metadata Stripper",
     "author": "tiemio",
@@ -21964,6 +21957,13 @@
     "author": "Meghan Lendhe",
     "description": "Copy a Markdown note as structured JSON blocks to the clipboard. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "meghan-lendhe/md-to-json"
+  },
+  {
+    "id": "mandala-grid",
+    "name": "Mandala Grid",
+    "author": "panatgithub",
+    "description": "Mandala grid (3×3 / 9×9) editor built on Lineage. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "panatgithub/obsidian-mandala-grid"
   },
   {
     "id": "handwriting-to-text",
@@ -22657,13 +22657,6 @@
     "author": "grhawk",
     "description": "Sync the active note to Confluence using the REST API. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "grhawk/obsidian-2-confluence"
-  },
-  {
-    "id": "md-publisher",
-    "name": "Markdown Publisher",
-    "author": "volcanicll",
-    "description": "Publish Obsidian notes to WeChat Official Account drafts in one click: six designer themes, automatic image upload, KaTeX math, and code highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "volcanicll/obsidian-md-publisher"
   },
   {
     "id": "mermaid-view",
@@ -30371,13 +30364,6 @@
     "author": "Daniil Shipilov",
     "description": "Adds configurable AI auto-completion to Obsidian using OpenAI, Anthropic, Gemini, Azure OpenAI, or Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yetanotherrepo/obsidian-copilot-auto-completion-plus"
-  },
-  {
-    "id": "docx-importer",
-    "name": "DOCX Importer",
-    "author": "mayac5",
-    "description": "Import DOCX files into your Obsidian vault as Markdown - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mayac5/obsidian-docx-importer"
   },
   {
     "id": "checkers-hider",
@@ -49420,6 +49406,13 @@
     "repo": "hmil1151/project-planner"
   },
   {
+    "id": "attention",
+    "name": "Attention",
+    "author": "semsevens",
+    "description": "Record where your attention went — highlights and comments on notes, transcripts and subtitles — then revisit them. Never modifies the original file. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "semsevens/obsidian-attention"
+  },
+  {
     "id": "job-application-tracker",
     "name": "Job Application Tracker",
     "author": "Jim Nuzzi",
@@ -54939,7 +54932,7 @@
     "id": "vault-pet",
     "name": "Vault Pet",
     "author": "Elliott Park",
-    "description": "A pixel pet that grows as you write. Characters, links and new notes become XP, with daily quests, badges, streaks and accessories to unlock. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Raise a pixel cat that grows as you write. Every word earns XP and coins for 260+ costumes, toys and mini-games, with daily quests, 161 badges and visiting neighbor cats. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elliott-json-park/obsidian-vault-pet"
   },
   {
@@ -58499,6 +58492,13 @@
     "repo": "heptazero/annotations-everywhere"
   },
   {
+    "id": "mermaid-viewer",
+    "name": "Mermaid Viewer",
+    "author": "jason wan",
+    "description": "View Mermaid diagrams on a light canvas with fullscreen zoom, pan, and configurable note scope. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "realcoderandom/obsidian-mermaid-viewer"
+  },
+  {
     "id": "feuillets-grammalecte",
     "name": "Feuillets Grammalecte",
     "author": "Halim Yalcin",
@@ -58532,6 +58532,13 @@
     "author": "f2work",
     "description": "Smooth wheel scrolling and drag-and-drop reordering for wrapped editor tabs, including cross-window moves. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ltz6/obsidian-multiline-tabs-wheel-scroll"
+  },
+  {
+    "id": "feishu-lite",
+    "name": "Feishu Lite",
+    "author": "mx - pai",
+    "description": "飞书文档风格的编辑体验：斜杠菜单、图片分栏网格、粘贴自动命名、彩色高亮。Feishu-doc-style editing for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mx-pai/feishu-lite"
   },
   {
     "id": "iphone-photo",
@@ -58609,5 +58616,12 @@
     "author": "saltyfireball",
     "description": "Generate and display ASCII art text using Figlet fonts. Supports 326 bundled fonts, gradient colors, code blocks, and a cross-plugin API. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "saltyfireball/obsidian-figlet-generator"
+  },
+  {
+    "id": "omega-centaur",
+    "name": "Omega Centaur",
+    "author": "M",
+    "description": "Build a cluster of ideas on a rotating sphere. Drag notes, follow links, and search to find pages. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "m-spectral/omega-centaur"
   }
 ]
