@@ -26887,13 +26887,6 @@
     "repo": "jheddings/obsidian-folderize"
   },
   {
-    "id": "aside",
-    "name": "Aside",
-    "author": "vicky469",
-    "description": "Side comments for humans and agents. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "vicky469/aside"
-  },
-  {
     "id": "markdown-minimap",
     "name": "Markdown Minimap",
     "author": "Nymbo",
@@ -34065,7 +34058,7 @@
     "id": "note-reader-cosyvoice",
     "name": "Note and PDF Voice Reader",
     "author": "Note Reader CosyVoice Contributors",
-    "description": "Privacy-first read aloud for notes, text-based PDFs, local HTML and Obsidian Web viewer pages. Read selected text or continue from a selection, with local speech or opt-in online TTS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Privacy-first read aloud with fast playback startup for notes, text PDFs, local HTML and Web viewer pages. Read selections or continue from them, using local speech or opt-in online TTS. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "laginae/note-reader-cosyvoice"
   },
   {
@@ -40782,6 +40775,13 @@
     "repo": "masoudmim/obsidian-dogear"
   },
   {
+    "id": "claudian-plus",
+    "name": "Claudian Plus",
+    "author": "wuyifan-code",
+    "description": "A Codex-first enhanced Claudian fork for local-first knowledge work in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wuyifan-code/Claudian-plus"
+  },
+  {
     "id": "knowstruct",
     "name": "KnowStruct",
     "author": "jackyun6",
@@ -46102,13 +46102,6 @@
     "repo": "seadhe/obsidian-canvas-image-lod"
   },
   {
-    "id": "atomic-tracker",
-    "name": "Atomic Tracker",
-    "author": "Justin",
-    "description": "Track exercise and hobbies with heatmaps, cues, timers, and a daily dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "justinw0ng/obsidian-atomic"
-  },
-  {
     "id": "bases-plus",
     "name": "Bases Plus",
     "author": "heykim109",
@@ -46842,13 +46835,6 @@
     "author": "Erin Skidds",
     "description": "Customizable File Explorer folder colors, recursive inheritance, palettes, and Lucide-style icons powered by Style Settings. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dudethatserin/FolderColor"
-  },
-  {
-    "id": "fleur-pdf",
-    "name": "FleurPDF",
-    "author": "JC5",
-    "description": "Smart PDF reading and annotation plugin with AI-powered features - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gibsonchan-5/fleur-pdf"
   },
   {
     "id": "review-edit",
@@ -54638,7 +54624,7 @@
     "id": "k-tech-vault-atlas",
     "name": "K-Tech Vault Atlas",
     "author": "k-tech-studio",
-    "description": "Scan folder and hub (MOC) layout in your vault. Spot gaps, create or remove hub notes with toggles, fix parent and entry links, protect hand-written hubs. Deep Scan when structure changes. Offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Scan folder and hub (MOC) layout. Spot gaps, toggle hubs, fix parent and entry links, see notes missing from a hub list. Protect hand-written hubs. Deep Scan when structure changes. Offline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "crossbeat461-a11y/K-Tech-Vault-Atlas"
   },
   {
@@ -58429,13 +58415,6 @@
     "repo": "3f3l0/obsidian-discogs-cover"
   },
   {
-    "id": "folder-first-ai-shared-vaults",
-    "name": "Folder First AI Shared Vaults",
-    "author": "Folder First AI",
-    "description": "Connect and safely refresh approved Company and Team shared vaults from GitHub. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "folderfirstai/folder-first-ai-shared-vaults"
-  },
-  {
     "id": "kmind-palace",
     "name": "KMind Palace",
     "author": "suka233",
@@ -58681,6 +58660,13 @@
     "repo": "depthinker925/Thinkers"
   },
   {
+    "id": "ghostmark",
+    "name": "Ghostmark",
+    "author": "iceblyte",
+    "description": "Inspect and clean invisible watermark characters in clipped notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "iceblyte/ghostmark"
+  },
+  {
     "id": "roost-sync",
     "name": "Roost Sync",
     "author": "smal3",
@@ -58700,5 +58686,33 @@
     "author": "Harald Daltveit",
     "description": "Marks a selected passage as redacted. The Manifold theme draws it as a bar with the words knocked out. Run it again to lift the bar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vibecodertoolkit/obsidian-manifold-redact"
+  },
+  {
+    "id": "wallvia",
+    "name": "Wallvia",
+    "author": "Maplelia",
+    "description": "Bring your Wallpaper Engine everywhere. A frosted-glass wallpaper for your workspace. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "maplelia/wallvia-obsidian"
+  },
+  {
+    "id": "synclab",
+    "name": "SyncLab",
+    "author": "strider-ape",
+    "description": "Review your changes and sync your vault with a GitLab repository in one press. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "strider-ape/SyncLab"
+  },
+  {
+    "id": "bases-multi-group",
+    "name": "Bases Multi-Group",
+    "author": "bongho",
+    "description": "A Bases table view that lists a note under every value of a grouped list property. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bongho/obsidian-bases-multi-group"
+  },
+  {
+    "id": "english-wordbook",
+    "name": "English Wordbook",
+    "author": "丫丫",
+    "description": "单词释义、造句批改与折叠收藏、四六级长难句英译中练习；自带 Key 直连 AI，多设备同步，App 感界面。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "csy540010-dotcom/english-wordbook"
   }
 ]
