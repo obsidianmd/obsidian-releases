@@ -3511,7 +3511,7 @@
     "name": "Trim Whitespace",
     "author": "husjon",
     "description": "Trim unnecessary whitespace.",
-    "repo": "zlovatt/obsidian-trim-whitespace"
+    "repo": "husjon/obsidian-trim-whitespace"
   },
   {
     "id": "ninja-cursor",
@@ -19497,7 +19497,7 @@
   {
     "id": "advanced-search-ui",
     "name": "Advanced Search UI",
-    "author": "pandanocturne",
+    "author": "熊猫别熬夜",
     "description": "A powerful search UI that provides AND/OR/NOT operators and easy access to search filters. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pandanocturne/obsidian-advanced-search-ui"
   },
@@ -20827,7 +20827,7 @@
   {
     "id": "wechat-converter",
     "name": "Wechat Converter",
-    "author": "davidlam-oss",
+    "author": "DavidLam | 公众号：林小卫很行",
     "description": "将 Markdown 转换为微信公众号排版，并支持一键发送到微信(weixin/wx)公众号（支持自定义 CSS和公众号贴图）、飞书、小红书（rednote)、知乎、微博、CSDN等20+平台。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "davidlam-oss/obsidian-wechat-converter"
   },
@@ -25895,7 +25895,7 @@
   {
     "id": "password-manager",
     "name": "Password Manager",
-    "author": "pandanocturne",
+    "author": "熊猫别熬夜",
     "description": "A lightweight local password manager with encryption, backup, trash, and import/export support. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pandanocturne/obsidian-password-manager"
   },
@@ -27498,7 +27498,7 @@
   {
     "id": "colorful-stickynotes",
     "name": "Colorful StickyNotes",
-    "author": "pandanocturne",
+    "author": "熊猫别熬夜",
     "description": "Floating colorful sticky notes in Vault - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pandanocturne/obsidian-colorful-stickynotes"
   },
@@ -30903,6 +30903,13 @@
     "author": "duanzhang",
     "description": "Sync notes to Confluence pages on a schedule, bound by a confluence_url field in frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dzplus/obsidian-sync-confluence"
+  },
+  {
+    "id": "card-workspace",
+    "name": "Card Workspace",
+    "author": "kenan",
+    "description": "Browse folder notes as a warm retro card stream in the left sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kenanlian/obsidian-card-workspace"
   },
   {
     "id": "quickclip-capture",
@@ -41688,7 +41695,7 @@
     "id": "curtis-ai-chat",
     "name": "Curtis AI Chat",
     "author": "Jordan Newell",
-    "description": "Polyglot AI chat for Obsidian. 30+ providers, agent mode with 10 vault tools, multi-model arena, voice, memory. Local-first, free, MIT. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Polyglot AI chat for Obsidian. 30+ providers, agent mode with 11 vault tools + your MCP servers, vault retrieval, multi-model arena, voice, memory. Local-first, free, MIT. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jordannewell/curtis-ai-chat"
   },
   {
@@ -46102,6 +46109,13 @@
     "repo": "seadhe/obsidian-canvas-image-lod"
   },
   {
+    "id": "atomic-tracker",
+    "name": "Atomic Tracker",
+    "author": "Justin",
+    "description": "Track exercise and hobbies with heatmaps, cues, timers, and a daily dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "justinw0ng/obsidian-atomic"
+  },
+  {
     "id": "bases-plus",
     "name": "Bases Plus",
     "author": "heykim109",
@@ -46835,6 +46849,13 @@
     "author": "Erin Skidds",
     "description": "Customizable File Explorer folder colors, recursive inheritance, palettes, and Lucide-style icons powered by Style Settings. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dudethatserin/FolderColor"
+  },
+  {
+    "id": "fleur-pdf",
+    "name": "FleurPDF",
+    "author": "JC5",
+    "description": "Smart PDF reading and annotation plugin with AI-powered features - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gibsonchan-5/fleur-pdf"
   },
   {
     "id": "review-edit",
@@ -57064,6 +57085,13 @@
     "repo": "bugrasitemkar/obsidian-insert-weekdays"
   },
   {
+    "id": "visimark",
+    "name": "VisiMark",
+    "author": "Michał Niedźwiedzki",
+    "description": "Keeps the numbers in a note honest: every computed value carries the formula that produced it, and the note is still ordinary Markdown outside the vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "michal-niedzwiedzki/visimark"
+  },
+  {
     "id": "current-note-chat",
     "name": "Screen and File QA",
     "author": "123",
@@ -58436,6 +58464,13 @@
     "repo": "cloudenshine/OpenContent"
   },
   {
+    "id": "update-radar",
+    "name": "Update Radar",
+    "author": "siulved54",
+    "description": "Checks your installed community add-ons for updates in the background, shows release notes and flags abandoned ones. A successor to the unmaintained Update Tracker. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "perezamadorluisenrique-gif/community-update-checker"
+  },
+  {
     "id": "docx-export-studio",
     "name": "DOCX Export Studio",
     "author": "Vuk Djordjevic",
@@ -58462,6 +58497,13 @@
     "author": "Oleg Testov",
     "description": "Search, watch and resume Claude Code sessions: full-text search, live session cards you can answer from, usage stats, and Claude Code and Codex terminal tabs that come back after a restart. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "olegtestov/obsidian-session-atlas"
+  },
+  {
+    "id": "lab-kit",
+    "name": "Lab Kit",
+    "author": "johnsonolly4",
+    "description": "Live calculation tables, lab snippet forms and a hazard header for a chemistry lab notebook. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johnsonolly4/lab-kit"
   },
   {
     "id": "simple-bible-fetcher",
@@ -58562,6 +58604,13 @@
     "repo": "everydaymind/obsidian-advanced-new-tab"
   },
   {
+    "id": "vpahexcrawl",
+    "name": "VPA HexCrawl",
+    "author": "darkdvr",
+    "description": "Endless hex-crawl map for TTRPGs & worldbuilding. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "darkdvr/VPA-HexCrawl"
+  },
+  {
     "id": "image-rows-and-wraps",
     "name": "Image Rows and Wraps",
     "author": "black-manthor",
@@ -58611,6 +58660,13 @@
     "repo": "saltyfireball/obsidian-figlet-generator"
   },
   {
+    "id": "quadrant-chart",
+    "name": "Quadrant Chart",
+    "author": "rosswang",
+    "description": "Draw labelled N x M quadrant charts with free-floating text, stored as plain-YAML .mdx files you can also edit by hand or with a script. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanqingwang/quadrant-chart"
+  },
+  {
     "id": "omega-centaur",
     "name": "Omega Centaur",
     "author": "M",
@@ -58658,6 +58714,20 @@
     "author": "Depthinker",
     "description": "A focus timer in the right sidebar: Pomodoro and stopwatch, a week chart and a month calendar of your focus, and a focus/rest ring for any day you pick - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "depthinker925/Thinkers"
+  },
+  {
+    "id": "quick-zoom",
+    "name": "Quick Zoom",
+    "author": "熊猫别熬夜",
+    "description": "Quickly zoom into headings and lists, with a sticky navigation bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pandanocturne/obsidian-quick-zoom"
+  },
+  {
+    "id": "deck-to-anki",
+    "name": "Deck To Anki",
+    "author": "熊猫别熬夜",
+    "description": "Sync decks notes to Anki. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pandanocturne/obsidian-deck-to-anki"
   },
   {
     "id": "ghostmark",
@@ -58714,5 +58784,54 @@
     "author": "丫丫",
     "description": "单词释义、造句批改与折叠收藏、四六级长难句英译中练习；自带 Key 直连 AI，多设备同步，App 感界面。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "csy540010-dotcom/english-wordbook"
+  },
+  {
+    "id": "top-strip-acrylic",
+    "name": "Top Strip Acrylic",
+    "author": "BKmanli",
+    "description": "Add native Acrylic to the top tab strip on Windows while keeping the sidebar and note content opaque. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bkmanli/obsidian-top-strip-acrylic"
+  },
+  {
+    "id": "ftwo-quick-rename",
+    "name": "F2 Quick Rename",
+    "author": "熊猫别熬夜",
+    "description": "F2 to quick rename the current note, or an embedded note/image under the cursor (including wiki aliases and markdown image alt text). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pandanocturne/obsidian-f2-quick-rename"
+  },
+  {
+    "id": "easy-cloud-sync",
+    "name": "Easy Cloud Sync",
+    "author": "Geno Zhou",
+    "description": "Sync your vault to AWS S3, Cloudflare R2, or any S3-compatible storage, with manual snapshot backups and clear conflict resolution. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "genozhou/easy-sync-s3"
+  },
+  {
+    "id": "autonatic",
+    "name": "Autonatic",
+    "author": "Ahmed Tawfik",
+    "description": "Turn text and shared AI conversations into structured Obsidian notes using your choice of AI provider. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "freygold/autonatic"
+  },
+  {
+    "id": "hotlink-media",
+    "name": "Hotlink Media",
+    "author": "semsevens",
+    "description": "Play hotlink-protected videos, audio and images in notes by fetching them with the headers the source site expects. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "semsevens/obsidian-hotlink-media"
+  },
+  {
+    "id": "focus-file-manager",
+    "name": "Focus File Manager",
+    "author": "yuri55448",
+    "description": "File Management Area + Focus Area (Shortcuts), cross-library copy and paste, batch renaming, manual sorting, and opening tags.文件管理區 + 專注區（捷徑）、跨庫複製貼上、批量重新命名、手動排序、開啟標記。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuri55448/Focus-File-Manager"
+  },
+  {
+    "id": "oss-gallery",
+    "name": "OSS Gallery",
+    "author": "stmoonar",
+    "description": "Upload and manage media and documents across multiple providers (Local on desktop, S3, MinIO, Cloudflare R2, SM.MS, GitHub, Aliyun, Tencent, Qiniu, Upyun, Imgur). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stmoonar/oss-gallery-plugin-obsidian"
   }
 ]
