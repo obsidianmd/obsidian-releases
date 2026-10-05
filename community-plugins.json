@@ -17497,7 +17497,7 @@
     "name": "SideNote",
     "author": "mofukuru",
     "description": "Add comment on the part of sentence and refer in comment view.",
-    "repo": "mofukuru/SideNote"
+    "repo": "mofukuru/side-note"
   },
   {
     "id": "table-checkbox-renderer",
@@ -17658,7 +17658,7 @@
     "name": "TsumugiMark",
     "author": "mofukuru",
     "description": "vertical editor for Japanese writer.",
-    "repo": "mofukuru/TsumugiMark"
+    "repo": "mofukuru/tsumugi-mark"
   },
   {
     "id": "tag-timer",
@@ -35728,13 +35728,6 @@
     "repo": "tahayigitmelek/status-pilot"
   },
   {
-    "id": "inkswell",
-    "name": "Inkswell",
-    "author": "Dan King",
-    "description": "A complete workbench for novelists. Plan with beat sheets and a story bible, draft with sprints and goals, revise with an audit toolkit, and prepare to publish. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "leethobbit/obsidian-inkswell-plugin"
-  },
-  {
     "id": "tidemark",
     "name": "Tidemark",
     "author": "Real-Fruit-Snacks",
@@ -48223,6 +48216,13 @@
     "repo": "artemislin/guyu-bazi"
   },
   {
+    "id": "planflow",
+    "name": "PlanFlow",
+    "author": "YH",
+    "description": "基于Obsidian的计划自动拆解行动系统：年度计划自动拆解，量化任务自动流转，每日行动打卡/周/月/年度目标/看板/甘特六视图目标追踪，自统计徽章激励系统。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yezhangdeng01/PlanFlow"
+  },
+  {
     "id": "calendar-notes",
     "name": "Calendar and Contact Notes",
     "author": "Johannes Kaindl",
@@ -49095,7 +49095,7 @@
     "name": "Vault Force Sync",
     "author": "rosswang",
     "description": "Force/incremental sync vault data to a configurable GitHub remote (git path configurable), skips >100MB files and continues; logs results to a viewable log. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yanqingwang/vault-github-with-force"
+    "repo": "yanqingwang/github-vault-force-sync"
   },
   {
     "id": "contradiction-finder",
@@ -49607,13 +49607,6 @@
     "author": "Ibon Escalada Ruiz de Loizaga",
     "description": "Build a knowledge base out of your AI conversations. Each is saved to your vault as markdown, then summarised so the next starts with the context. Supports Ollama, OpenAI, Anthropic, Google, DeepSeek. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yoitsrdl/colloquy"
-  },
-  {
-    "id": "compress-image-webp",
-    "name": "Compress Image (WebP)",
-    "author": "Bjorn Clauw",
-    "description": "Automatically compresses and converts images to WebP on paste, drop, and upload. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "bjornclauw/compress-image-webp"
   },
   {
     "id": "code-diff",
@@ -58905,6 +58898,13 @@
     "repo": "mcrich23/asciimath-blocks"
   },
   {
+    "id": "miro-canvas",
+    "name": "Miro Canvas",
+    "author": "nix",
+    "description": "Add sticky notes, shapes, drawing tools, comments and layers to Canvas. Export boards to PDF and PowerPoint. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nixwrk/Obsidian-Plugin---Miro-Canvas"
+  },
+  {
     "id": "oauth-token-fetcher",
     "name": "OAuth Token Fetcher",
     "author": "abovetheborg",
@@ -59066,6 +59066,13 @@
     "repo": "aaronledray/Hotkey_HTML_Color_changer"
   },
   {
+    "id": "eddie-doc",
+    "name": "Eddie Doc",
+    "author": "Volodymyr Pavlyshyn",
+    "description": "Map an editor's PDF annotations back onto your AsciiDoc source as navigable, resolvable review items. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "volland/eddie-doc"
+  },
+  {
     "id": "tinted-highlights",
     "name": "Tinted Highlights",
     "author": "Fuad Laguda",
@@ -59076,7 +59083,14 @@
     "id": "transformpipe",
     "name": "TransformPipe",
     "author": "raudar.labs",
-    "description": "Publish a note as a page with a link that stays the same after every edit. Share it with named people, add a password or an end date, and export Word or PDF. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Turn any note into a web page with one command. Edit it, publish again, and the same link shows the update. Share with named people, or export Word and PDF. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "raudarlabs/transformpipe-obsidian"
+  },
+  {
+    "id": "pdf-export-enhancer",
+    "name": "PDF Export Enhancer",
+    "author": "kirliffilan",
+    "description": "Enhance PDF export with customizable text size, an A4 page preview, page navigation, and support for themes, Style Settings, and CSS snippets. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kirliffilan/pdf-export-enhancer"
   }
 ]
