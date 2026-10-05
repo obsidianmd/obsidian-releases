@@ -33530,6 +33530,13 @@
     "repo": "yaye-work/obsidian-draw-a-mermaid"
   },
   {
+    "id": "arxiv-daily",
+    "name": "arXiv Daily",
+    "author": "Da-Chuan Tian",
+    "description": "Daily arXiv tracker that filters and summarizes papers via LLM into your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tdccccc/arxiv-daily"
+  },
+  {
     "id": "pageden-sync",
     "name": "Pageden Sync",
     "author": "Chris Ian Fiel",
@@ -55987,7 +55994,7 @@
   },
   {
     "id": "academic-paper-citation-manager",
-    "name": "Academic Paper Citation Manager",
+    "name": "Refwright",
     "author": "Sang-Min Park",
     "description": "AI-native citation manager: PubMed search, LLM summaries, MeSH tags, CSL citations, and optional Claude Code/Codex MCP access to the live vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "grotyx/rag-obsidian"
@@ -57314,6 +57321,13 @@
     "author": "Kaz Namba",
     "description": "Run Claude Code, Codex, and OpenCode sessions as terminal tabs, with a session list, usage analytics, and a daemon that keeps sessions running. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kulikala/obsidian-agent-sessions"
+  },
+  {
+    "id": "wiki-paste",
+    "name": "Wiki Paste",
+    "author": "xfjbnlsnflb",
+    "description": "Preserve copied wiki text when pasting into Obsidian Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hawaka6667-dev/obsidian-wiki-paste"
   },
   {
     "id": "whenreset",
@@ -58803,7 +58817,7 @@
     "id": "easy-cloud-sync",
     "name": "Easy Cloud Sync",
     "author": "Geno Zhou",
-    "description": "Sync your vault to AWS S3, Cloudflare R2, or any S3-compatible storage, with manual snapshot backups and clear conflict resolution. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync your vault to any S3-compatible store with clear conflict resolution and a mobile-friendly sync UI. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "genozhou/easy-sync-s3"
   },
   {
@@ -58896,5 +58910,12 @@
     "author": "Gabriel Kleiman",
     "description": "Converts Markdown tables into notes and Obsidian Bases. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kleim4n/obsidian-table-to-base-plugin"
+  },
+  {
+    "id": "oauth-token-fetcher",
+    "name": "OAuth Token Fetcher",
+    "author": "abovetheborg",
+    "description": "Periodically fetches an OAuth2 client-credentials token and stores it in Obsidian's SecretStorage so other plugins can use it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abovetheborg/obsidian-oauth-token-fetcher"
   }
 ]
