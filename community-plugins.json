@@ -57963,7 +57963,7 @@
     "id": "plugin-pulse",
     "name": "Download Pulse",
     "author": "Elliott Park",
-    "description": "Analytics for authors with several plugins. Track every plugin's downloads, rank and milestones in one dashboard, and see when you'll pass the competitors ahead. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Analytics for authors with several plugins. Track every plugin's downloads, rank and milestones in one dashboard, see when you'll pass rivals, and share it as a card. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elliott-json-park/obsidian-download-pulse"
   },
   {
@@ -57995,25 +57995,11 @@
     "repo": "rainfr0g/frog-encrypter"
   },
   {
-    "id": "mythic-gme-support",
-    "name": "Mythic GME Support",
-    "author": "Martin Ellison",
-    "description": "Support the Mythic Game Master Emulator. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "martinellison/mythic-gme-support"
-  },
-  {
     "id": "tikz",
     "name": "TikZ",
     "author": "dingzy53",
     "description": "Render TikZ code blocks with your locally installed TeX distribution (TeX Live, MacTeX, MiKTeX) instead of a browser WASM engine. Full TikZ, real compiler logs, transparent caching. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dingzy53/obsidian-tikz"
-  },
-  {
-    "id": "svg-quick-editor",
-    "name": "SVG Quick Editor",
-    "author": "Jeff1024",
-    "description": "Quickly edit SVG text chips in place, duplicate on Alt+drag, and delete empty chips in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "2607044640/svg-quick-editor"
   },
   {
     "id": "sidebar-tasks",
@@ -58124,7 +58110,7 @@
     "id": "temperans-habits",
     "name": "Temperans Habits",
     "author": "adg0",
-    "description": "Track personal habits in Markdown and explore them through an annual heat map. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A minimalist home for your habits — track manually or automatically, all in Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "adg0/temperans"
   },
   {
@@ -58569,13 +58555,6 @@
     "repo": "united-share/obsidian-unitedshare"
   },
   {
-    "id": "feishu-lite",
-    "name": "Feishu Lite",
-    "author": "mx - pai",
-    "description": "飞书文档风格的编辑体验：斜杠菜单、图片分栏网格、粘贴自动命名、彩色高亮。Feishu-doc-style editing for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mx-pai/feishu-lite"
-  },
-  {
     "id": "iphone-photo",
     "name": "Photo from iPhone",
     "author": "madarame-bk",
@@ -58912,6 +58891,13 @@
     "repo": "chrostnwo/unique-word-tracker"
   },
   {
+    "id": "neovim-view",
+    "name": "Neovim View",
+    "author": "Pedro Almirall",
+    "description": "Edit notes in an embedded Neovim instance. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ktowen/obsidian-neovim-view"
+  },
+  {
     "id": "table-to-base",
     "name": "Table to Base",
     "author": "Gabriel Kleiman",
@@ -58931,5 +58917,26 @@
     "author": "wfz1990",
     "description": "记录词根与单词，并在侧栏查阅、搜索和标记熟悉度。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wfz1990/root-vocabulary"
+  },
+  {
+    "id": "duckuments-live-sync",
+    "name": "Duckuments LiveSync",
+    "author": "duckuments",
+    "description": "Minimal self-hosted CouchDB live sync for your vault, with end-to-end encryption and multiple remote vaults. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "duckuments/duckuments-live-sync"
+  },
+  {
+    "id": "jev-organizer",
+    "name": "Jev Organizer",
+    "author": "cecam",
+    "description": "Classify the active note with TypeSafe's Jev and move it to a selected folder, with a review folder and undo. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cecam/jev-organizer"
+  },
+  {
+    "id": "link-tag-search",
+    "name": "Link Tag Search",
+    "author": "leeguamanse",
+    "description": "Tag notes and individual links, then search their tags together. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leeguamanse/obsidian-link-tag-search"
   }
 ]
