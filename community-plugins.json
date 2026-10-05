@@ -13325,7 +13325,7 @@
     "name": "Auto File Organizer",
     "author": "mofukuru",
     "description": "Automatically organizes files into folders based on their extensions.",
-    "repo": "mofukuru/auto_file_organizer"
+    "repo": "mofukuru/auto-file-organizer"
   },
   {
     "id": "abbrlink",
@@ -15939,13 +15939,6 @@
     "repo": "callumalpass/obsidian-template-filename"
   },
   {
-    "id": "simple-table-math",
-    "name": "Simple Table Math",
-    "author": "eatcodeplay",
-    "description": "Do some math (sum, average, etc.) in your markdown tables.",
-    "repo": "eatcodeplay/obsidian-simple-table-math"
-  },
-  {
     "id": "simple-tab-indent",
     "name": "Simple Tab Indent",
     "author": "hoomersinpsom",
@@ -16042,13 +16035,6 @@
     "author": "remememe",
     "description": "Add dynamic live wallpapers (images/videos) to your workspace with customizable effects",
     "repo": "remememe/Live-Wallpaper"
-  },
-  {
-    "id": "simple-banner",
-    "name": "Simple Banner",
-    "author": "eatcodeplay",
-    "description": "Visually enhance your notes with a customizable banner. Supports icons and time/date display.",
-    "repo": "eatcodeplay/obsidian-simple-banner"
   },
   {
     "id": "google-contacts",
@@ -33558,6 +33544,13 @@
     "repo": "viggomeesters/obsidian-folder-sort-view"
   },
   {
+    "id": "stashpad",
+    "name": "Stashpad",
+    "author": "Grub Basket",
+    "description": "A chat-style, nested-notes workspace: rapid capture, outliner navigation, fast search, tasks, and per-folder templates, with one-click Open Knowledge Format (OKF) export for LLMs and agents. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "grub-basket/SP"
+  },
+  {
     "id": "html-experience",
     "name": "HTML Experience",
     "author": "yabs",
@@ -46147,7 +46140,7 @@
     "id": "article-info-inserter",
     "name": "Article Info Inserter",
     "author": "gbt777",
-    "description": "在笔记正文、Frontmatter一键追加\"文章信息\"：字数、阅读时间、图片数、创建/修改时间、自定义链接与图片等……appends configurable article-info lines (word count, reading time, images, timestamps, custom links/images…) to your note and Frontmatter - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "文章信息追加器：一键插入/更新自动统计信息或自定义内容，含文字/图片/特殊块统计、编辑标记、自定义图文、文章结构思维导图。Article Info Inserter: insert auto-counted stats or custom content into frontmatter、article; one click re-counts all. Mind map included. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gbt777/article-info-inserter"
   },
   {
@@ -48228,13 +48221,6 @@
     "author": "artemislin",
     "description": "Chart BaZi four pillars with luck cycles, drill-down flows, and dynamic shensha, and keep case notes linked two-way to your charts. Fully offline, zero network requests. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "artemislin/guyu-bazi"
-  },
-  {
-    "id": "planflow",
-    "name": "PlanFlow",
-    "author": "YH",
-    "description": "基于Obsidian的计划自动拆解行动系统：年度计划自动拆解，量化任务自动流转，每日行动打卡/周/月/年度目标/看板/甘特六视图目标追踪，自统计徽章激励系统。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yezhangdeng01/PlanFlow"
   },
   {
     "id": "calendar-notes",
@@ -58765,6 +58751,13 @@
     "repo": "x-ideas/obsidian-echarts-lite"
   },
   {
+    "id": "caldav-calendar-tasks",
+    "name": "CalDAV Calendar and Tasks",
+    "author": "vilifetime",
+    "description": "Sync calendar events and todos both ways with your CalDAV server (Radicale, Nextcloud, Baikal and more). Offers month, week, day and year views, a task list, inline editing, and one-click export of the day's agenda into your daily note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vilifetime/obsidian-caldav-calendar-tasks"
+  },
+  {
     "id": "wallvia",
     "name": "Wallvia",
     "author": "Maplelia",
@@ -58891,13 +58884,6 @@
     "repo": "adityanotealong/obsidian-notealong"
   },
   {
-    "id": "unique-word-tracker",
-    "name": "Unique Word Tracker",
-    "author": "Chrostn Woods",
-    "description": "Track how often you use specific words across the vault, the current note, or the current folder. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "chrostnwo/unique-word-tracker"
-  },
-  {
     "id": "neovim-view",
     "name": "Neovim View",
     "author": "Pedro Almirall",
@@ -58989,6 +58975,13 @@
     "repo": "droidstreamer/foldermate"
   },
   {
+    "id": "advanced-bookmarks",
+    "name": "Advanced Bookmarks",
+    "author": "Daniel Nikolaev",
+    "description": "Extend core Bookmarks with dynamic folders, nested folders, bookmark folder notes, and style options. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dartungar/obsidian-advanced-bookmarks"
+  },
+  {
     "id": "tag-graph",
     "name": "Tag Graph",
     "author": "Elliott Park",
@@ -59038,6 +59031,13 @@
     "repo": "gaiussheh/pressroom"
   },
   {
+    "id": "indexa",
+    "name": "Indexa",
+    "author": "romakhov",
+    "description": "Organizes notes by meaning: local semantic analysis proposes index notes. No external AI services. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "romakhov/Indexa"
+  },
+  {
     "id": "visualink",
     "name": "VisuaLink",
     "author": "Macp",
@@ -59064,5 +59064,19 @@
     "author": "Aaron Ledray",
     "description": "Cycle through text or highlight colors on selected text using customizable hotkeys. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aaronledray/Hotkey_HTML_Color_changer"
+  },
+  {
+    "id": "tinted-highlights",
+    "name": "Tinted Highlights",
+    "author": "Fuad Laguda",
+    "description": "Colour-coded highlighting that stays readable on any theme, recolours highlights in place, and shows every highlight in a note in one panel. Built on Highlightr by Chetachi Ezikeuzor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lagudafuadtosin/tinted-highlights"
+  },
+  {
+    "id": "transformpipe",
+    "name": "TransformPipe",
+    "author": "raudar.labs",
+    "description": "Publish a note as a page with a link that stays the same after every edit. Share it with named people, add a password or an end date, and export Word or PDF. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "raudarlabs/transformpipe-obsidian"
   }
 ]
