@@ -2464,13 +2464,6 @@
     "repo": "qawatake/obsidian-local-file-interface-plugin"
   },
   {
-    "id": "obsidian-siteswap",
-    "name": "Siteswap",
-    "author": "tdresser",
-    "description": "Visualize Juggling Pattern Siteswap via the JugglingLab gif server.",
-    "repo": "tdresser/obsidian-siteswap"
-  },
-  {
     "id": "obsidian-memos",
     "name": "Thino",
     "author": "Boninall",
@@ -56897,7 +56890,7 @@
   },
   {
     "id": "grok-mobile",
-    "name": "Grok",
+    "name": "Grok Notes",
     "author": "Chrostn Woods",
     "description": "Talk to Grok  on laptop, tablet, and phone. Sidebar chat on desktop, sheet on phone. Ask about a note or selection, summarize, rewrite, and insert the reply. Uses the xAI API — no CLI. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "chrostnwo/Grok-Notes"
@@ -58368,7 +58361,7 @@
   {
     "id": "tradebook",
     "name": "Tradebook",
-    "author": "Hugo",
+    "author": "YamiHugo",
     "description": "A local-first futures trading journal for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yamihugo/Tradebook"
   },
@@ -58560,6 +58553,13 @@
     "author": "united-share",
     "description": "Ask the model behind api.unitedshare.ai from the current note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "united-share/obsidian-unitedshare"
+  },
+  {
+    "id": "feishu-lite",
+    "name": "Feishu Lite",
+    "author": "mx - pai",
+    "description": "飞书文档风格的编辑体验：斜杠菜单、图片分栏网格、粘贴自动命名、彩色高亮。Feishu-doc-style editing for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mx-pai/feishu-lite"
   },
   {
     "id": "iphone-photo",
@@ -58769,7 +58769,7 @@
     "name": "Wallvia",
     "author": "Maplelia",
     "description": "Bring your Wallpaper Engine everywhere. A frosted-glass wallpaper for your workspace. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "maplelia/wallvia-obsidian"
+    "repo": "maplelia/Wallvia"
   },
   {
     "id": "synclab",
@@ -58784,13 +58784,6 @@
     "author": "bongho",
     "description": "A Bases table view that lists a note under every value of a grouped list property. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bongho/obsidian-bases-multi-group"
-  },
-  {
-    "id": "english-wordbook",
-    "name": "English Wordbook",
-    "author": "丫丫",
-    "description": "单词释义、造句批改与折叠收藏、四六级长难句英译中练习；自带 Key 直连 AI，多设备同步，App 感界面。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "csy540010-dotcom/english-wordbook"
   },
   {
     "id": "top-strip-acrylic",
@@ -58966,5 +58959,12 @@
     "author": "wjsyuwls",
     "description": "Move project notes to status-based folders and create tasks alongside the built-in Bases Kanban view. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jeonnewjin/bases-kanban-companion"
+  },
+  {
+    "id": "plugin-hub",
+    "name": "Community Extension Hub",
+    "author": "icecode",
+    "description": "Unified plugin manager: Chinese localization, icon groups, notes, sidebar hiding, enable/disable with Lazy Loader sync, and context menus. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sss66666666/obsidian-plugin-hub"
   }
 ]
