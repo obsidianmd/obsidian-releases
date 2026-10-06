@@ -50620,7 +50620,7 @@
     "id": "tidy-paste",
     "name": "TidyPaste",
     "author": "k-tech-studio",
-    "description": "Clean text pasted from Word, a web selection, or a PDF copy into readable Markdown. Keeps headings and lists; does not open office or PDF files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Clean text pasted from Word, a web selection, or a PDF copy into readable Markdown. Keeps headings, lists, and marker colors as six-color highlights. Does not open office or PDF files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "crossbeat461-a11y/tidy-paste"
   },
   {
@@ -55370,13 +55370,6 @@
     "repo": "midokarin/longshot-pdf"
   },
   {
-    "id": "nyahome",
-    "name": "NyaHome",
-    "author": "amber",
-    "description": "NyaHome：Obsidian 统一主页与本地优先的工作台；可选接入在线日历和邮箱 | NyaHome: a unified Obsidian home with local-first notes, calendars and optional connected services. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "st31orange/NyaHome"
-  },
-  {
     "id": "prepend-creation-date",
     "name": "Prepend Creation Date",
     "author": "fizzy",
@@ -58548,13 +58541,6 @@
     "repo": "united-share/obsidian-unitedshare"
   },
   {
-    "id": "feishu-lite",
-    "name": "Feishu Lite",
-    "author": "mx - pai",
-    "description": "飞书文档风格的编辑体验：斜杠菜单、图片分栏网格、粘贴自动命名、彩色高亮。Feishu-doc-style editing for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mx-pai/feishu-lite"
-  },
-  {
     "id": "iphone-photo",
     "name": "Photo from iPhone",
     "author": "madarame-bk",
@@ -58763,13 +58749,6 @@
     "author": "vilifetime",
     "description": "Sync calendar events and todos both ways with your CalDAV server (Radicale, Nextcloud, Baikal and more). Offers month, week, day and year views, a task list, inline editing, and one-click export of the day's agenda into your daily note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vilifetime/obsidian-caldav-calendar-tasks"
-  },
-  {
-    "id": "wallvia",
-    "name": "Wallvia",
-    "author": "Maplelia",
-    "description": "Bring your Wallpaper Engine everywhere. A frosted-glass wallpaper for your workspace. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "maplelia/Wallvia"
   },
   {
     "id": "synclab",
@@ -59267,5 +59246,33 @@
     "author": "siulved54",
     "description": "Shows web addresses as cards with title, description and image, and reads existing cardlink blocks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "perezamadorluisenrique-gif/url-cards"
+  },
+  {
+    "id": "line-editing-commands",
+    "name": "Line Editing Commands",
+    "author": "siulved54",
+    "description": "Duplicate, join, sort, reverse and clean up lines, insert blank lines and jump to a line number, with multi-cursor support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "perezamadorluisenrique-gif/line-editing-commands"
+  },
+  {
+    "id": "xi-qwen",
+    "name": "Xi Qwen",
+    "author": "xinn",
+    "description": "Bilingual Qwen assistant that reads your vault: understand, organize, and integrate your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhang66633/obsidian-xi"
+  },
+  {
+    "id": "tech-tree-companion",
+    "name": "Tech Tree Companion",
+    "author": "Mu_Alive",
+    "description": "Create and manage SVG cards, templates, connections, and linked note details in Excalidraw. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hwmllv/tech-tree-companion"
+  },
+  {
+    "id": "xwiki-publisher",
+    "name": "XWiki Publisher",
+    "author": "Tunahan ALTINTOP",
+    "description": "Publish notes to XWiki and sync XWiki pages back into your vault as Markdown, using an XWiki access token. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tunahanaltintop/xwiki-publisher"
   }
 ]
