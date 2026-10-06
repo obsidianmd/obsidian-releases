@@ -5202,10 +5202,10 @@
   },
   {
     "id": "fantasy-content-generator",
-    "name": "Fantasy Content Generator",
+    "name": "TTRPG Content Generator",
     "author": "gregory-jagermeister",
     "description": "A fantasy content generator for all your TTRPG and world-building needs.",
-    "repo": "gregory-jagermeister/Fantasy-Content-Generator"
+    "repo": "gregory-jagermeister/TTRPG-Content-Generator"
   },
   {
     "id": "tasks-calendar-wrapper",
@@ -5752,13 +5752,6 @@
     "author": "ivan-lednev",
     "description": "Automatically repair internal links to blocks and headings when moving them between files.",
     "repo": "ivan-lednev/obsidian-persistent-links"
-  },
-  {
-    "id": "personal-assistant",
-    "name": "Personal Assistant",
-    "author": "edonyzpc",
-    "description": "AI-powered workflows to streamline the management of records, callouts, frontmatter, graph view, themes, and plugins.",
-    "repo": "edonyzpc/personal-assistant"
   },
   {
     "id": "aprils-automatic-timelines",
@@ -19204,7 +19197,7 @@
     "id": "polymind",
     "name": "PolyMind",
     "author": "Ivan Semernyakov",
-    "description": "PolyMind: One Vault. Any Model. Infinite Evolution. Multimodal AI chat with Groq API — one-click model switching, history, and cross-device sync for seamless productivity. OpenAI and Claude support coming soon. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Bring Groq and OpenRouter AI chat to Obsidian. Use vault notes as context, expand wikilinks, switch models with one click, and keep chat history in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "semernyakov/polymind"
   },
   {
@@ -47705,6 +47698,13 @@
     "repo": "javatoai/obsidian-native-file-copy"
   },
   {
+    "id": "openaleph-search",
+    "name": "OpenAleph Search",
+    "author": "noop",
+    "description": "Search OpenAleph instances and import entities as notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "noop-ptf/OpenAlephSearch"
+  },
+  {
     "id": "latex-paste-cleaner",
     "name": "Latex Paste Cleaner",
     "author": "ren yi",
@@ -57288,13 +57288,6 @@
     "repo": "kylianmarceau/qard-obsidian"
   },
   {
-    "id": "agent-sessions",
-    "name": "Agent Sessions",
-    "author": "Kaz Namba",
-    "description": "Run Claude Code, Codex, and OpenCode sessions as terminal tabs, with a session list, usage analytics, and a daemon that keeps sessions running. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kulikala/obsidian-agent-sessions"
-  },
-  {
     "id": "wiki-paste",
     "name": "Wiki Paste",
     "author": "xfjbnlsnflb",
@@ -58541,6 +58534,13 @@
     "repo": "united-share/obsidian-unitedshare"
   },
   {
+    "id": "feishu-lite",
+    "name": "Feishu Lite",
+    "author": "mx - pai",
+    "description": "飞书文档风格的编辑体验：斜杠菜单、图片分栏网格、粘贴自动命名、彩色高亮。Feishu-doc-style editing for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mx-pai/feishu-lite"
+  },
+  {
     "id": "iphone-photo",
     "name": "Photo from iPhone",
     "author": "madarame-bk",
@@ -59213,6 +59213,13 @@
     "repo": "theboyroy05/Obsidian-Unified-Tag-Links"
   },
   {
+    "id": "intelliscroll",
+    "name": "IntelliScroll",
+    "author": "InVerse",
+    "description": "Resurface your own notes on a spaced-repetition schedule. Nothing is ever written into your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lmce72/intelliscroll"
+  },
+  {
     "id": "vscode-search",
     "name": "VSCode Search",
     "author": "Rawlence",
@@ -59274,5 +59281,12 @@
     "author": "Tunahan ALTINTOP",
     "description": "Publish notes to XWiki and sync XWiki pages back into your vault as Markdown, using an XWiki access token. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tunahanaltintop/xwiki-publisher"
+  },
+  {
+    "id": "dot-kanban",
+    "name": "dot-kanban",
+    "author": "deepika",
+    "description": "Kanban board of the vault's tasks, one column per checkbox status, configured by dot-kanban code blocks. Works with the Tasks plugin's formats. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "deepika-public/dot-kanban"
   }
 ]
