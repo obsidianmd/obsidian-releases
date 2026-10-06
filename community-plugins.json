@@ -12492,7 +12492,7 @@
     "name": "Metadata Auto Classifier",
     "author": "xia-ataraxia",
     "description": "Automatically classifies and applies metadata to your notes.",
-    "repo": "xia-ataraxia/Metadata-Auto-Classifier"
+    "repo": "xia-ataraxia/obsidian-metadata-auto-classifier"
   },
   {
     "id": "note-from-form",
@@ -52360,13 +52360,6 @@
     "repo": "huakaifang/cloud-image-uploader"
   },
   {
-    "id": "mynasbridge",
-    "name": "NAS Vault",
-    "author": "Mateo Jiménez Moraleda",
-    "description": "Self-hosted NAS overview, calendar, daily notes, and optional private vault synchronization. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mateojimmor/nas-vault-sync"
-  },
-  {
     "id": "level-colors-for-markmind",
     "name": "Level Colors for MarkMind",
     "author": "sdesolator",
@@ -53156,13 +53149,6 @@
     "author": "xiande shui",
     "description": "A dashboard for tracking AI agent workflows, sessions, and outputs in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "shuixiande/Nexusnote"
-  },
-  {
-    "id": "opensync",
-    "name": "OpenSync",
-    "author": "OpenSync",
-    "description": "End-to-end encrypted sync for your Obsidian vault. Notes sync free and unlimited, attachments are the paid tier, and you can point it at a relay you run yourself. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "open-sync/opensync-obsidian"
   },
   {
     "id": "kanbase",
@@ -55522,6 +55508,13 @@
     "author": "RichDir",
     "description": "Import Instagram videos into structured Markdown (MD) notes with captions, metadata, and optional local transcription. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aptoren/obsidian-reel2md"
+  },
+  {
+    "id": "kempfs-simple-mind-map",
+    "name": "The Kempf Simple Mind Map",
+    "author": "Kempf",
+    "description": "File-based, keyboard-, mouse-, and touch-driven mind maps in an Obsidian canvas-style view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "the-kempf/kempfs-simple-mind-map"
   },
   {
     "id": "anki-ast-sync",
@@ -58299,7 +58292,7 @@
     "id": "sheiko-task-lifecycle",
     "name": "Sheiko Task Lifecycle",
     "author": "Sheikh M Sahil",
-    "description": "Track task lifecycle alongside TaskNotes: context log, status history, time per status, sign-off prompts and daily auto-roll. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Works with TaskNotes to track each task's lifecycle: status history, context log, time per status, sign-off prompts, break and deep-work slots with daily reports, and a daily auto-roll for unfinished - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ashura-sheikh/Sheiko-obsidian-plugin"
   },
   {
@@ -58385,6 +58378,13 @@
     "author": "jonathana-harris",
     "description": "A tutor that plans goals from first principles, calibrates what you know with quizzes, and keeps that memory in this vault. Optionally publishes your concept map to your Groundwork profile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jonathanharris15/Groundwork"
+  },
+  {
+    "id": "automatic-mood-history",
+    "name": "Automatic Mood History",
+    "author": "remriel",
+    "description": "Local-first mood history dashboard for dated Obsidian notes, with optional Groq analysis. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "remriel/automatic-mood-history"
   },
   {
     "id": "obtion",
@@ -59209,7 +59209,7 @@
     "id": "scrollspy-rail",
     "name": "Margin Rail",
     "author": "march",
-    "description": "Navigate long notes with a compact heading rail, customizable scroll tracking, hover previews, and heading bookmarks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A compact scrollspy for long notes: track headings and reading progress, preview sections, and jump between them. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mars-den/margin-rail"
   },
   {
@@ -59332,10 +59332,38 @@
     "repo": "deepika-public/dot-sync"
   },
   {
+    "id": "betterunderline",
+    "name": "Better-Underline",
+    "author": "KfirG",
+    "description": "Make underline great again - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kfirgumay2005-hash/Better-Underline"
+  },
+  {
     "id": "finanzas-local",
     "name": "Finanzas",
     "author": "omar-salvatierra",
     "description": "Organiza deudas, abonos e ingresos mediante una aplicación Python local integrada en una pestaña. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "omarsalvatierra99/Finanzas-Obsidian"
+  },
+  {
+    "id": "canvas-for-storyline",
+    "name": "Canvas for StoryLine",
+    "author": "hkohlhoff",
+    "description": "Turn StoryLine writing projects into connected Canvas books and export-ready master notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hkohlhoff/canvas-for-storyline"
+  },
+  {
+    "id": "duet",
+    "name": "Duet",
+    "author": "Nathan Aday",
+    "description": "Work with Claude Code or Codex in your notes. Mention an agent on a line, or chat in a conversation note. You see the agent edit the note live while you type. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nathanaday/obsidian-duet"
+  },
+  {
+    "id": "agent-brain",
+    "name": "Agent Brain",
+    "author": "clouvra",
+    "description": "Watch your AI coding agent work as live activity on a real MRI brain: sessions, subagents, every tool call and its result. Works with Claude Code for now. Local only; uses no tokens. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mucahitkumlay/agent-brain"
   }
 ]
