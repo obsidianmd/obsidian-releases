@@ -51338,6 +51338,13 @@
     "repo": "edwardsayer/obsidian-folder-spaces"
   },
   {
+    "id": "integrated-task-manager",
+    "name": "Integrated Task Manager",
+    "author": "kv05",
+    "description": "Manage Markdown tasks with Inbox, Today, Upcoming, projects, tags, and smart lists. Organize work with filters, calendars, Kanban boards, and Gantt charts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kuberrr0/obsidian-integrated-tasks"
+  },
+  {
     "id": "dev-prod-plugin-switcher",
     "name": "Dev-Prod Switcher",
     "author": "Dan",
@@ -53366,13 +53373,6 @@
     "author": "t1seo",
     "description": "Use your own images as icons for files, folders, tabs, note titles, and inline text, with a local icon library and Markdown annotations. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "t1seo/icon-fairy"
-  },
-  {
-    "id": "pdfium-gate",
-    "name": "PDFium Gate",
-    "author": "lad47",
-    "description": "PDFium Gate 0.1.224 - permanent product identity transition to pdfium-gate; runtime features unchanged. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lad47/PDFium-Gate"
   },
   {
     "id": "rustdocs",
@@ -57288,6 +57288,13 @@
     "repo": "kylianmarceau/qard-obsidian"
   },
   {
+    "id": "agent-sessions",
+    "name": "Agent Sessions",
+    "author": "Kaz Namba",
+    "description": "Run Claude Code, Codex, and OpenCode sessions as terminal tabs, with a session list, usage analytics, and a daemon that keeps sessions running. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kulikala/obsidian-agent-sessions"
+  },
+  {
     "id": "wiki-paste",
     "name": "Wiki Paste",
     "author": "xfjbnlsnflb",
@@ -58261,6 +58268,13 @@
     "repo": "chenjieya/secret-mask"
   },
   {
+    "id": "close-reflect",
+    "name": "Close Reflect",
+    "author": "InVerse",
+    "description": "Intercept the app quit and show a reflection prompt with an editable title, Markdown body and action buttons before the window closes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lmce72/obsidian-close-reflect"
+  },
+  {
     "id": "dictionary-notes",
     "name": "Dictionary Notes",
     "author": "Tony Herrera",
@@ -58783,7 +58797,7 @@
     "name": "Easy Cloud Sync",
     "author": "Geno Zhou",
     "description": "Sync your vault to any S3-compatible store with clear conflict resolution and a mobile-friendly sync UI. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "genozhou/easy-sync-s3"
+    "repo": "genozhou/easy-cloud-sync"
   },
   {
     "id": "autonatic",
@@ -59288,5 +59302,33 @@
     "author": "deepika",
     "description": "Kanban board of the vault's tasks, one column per checkbox status, configured by dot-kanban code blocks. Works with the Tasks plugin's formats. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "deepika-public/dot-kanban"
+  },
+  {
+    "id": "code-emphasis",
+    "name": "Code Emphasis",
+    "author": "elfmedy",
+    "description": "Highlight important code and comments in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "elfmedy/code-emphasis"
+  },
+  {
+    "id": "latest-arrivals",
+    "name": "Latest Arrivals",
+    "author": "mc",
+    "description": "Find notes that were most recently synced into your vault by Syncthing or other third-party tools, and open them in one tap. Sort by arrival, created or modified time, size, or pinyin initials. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "iwannaknow2000/obsidian-latest-arrivals"
+  },
+  {
+    "id": "better-quizbox",
+    "name": "Better Quiz Box",
+    "author": "junzi-ana",
+    "description": "Render an interactive multiple-choice quiz blocks in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "junzi-ana/better-quizbox"
+  },
+  {
+    "id": "dot-sync",
+    "name": "dot-sync",
+    "author": "deepika",
+    "description": "Live collaboration on Markdown folders, peer to peer, through the local deepika-sync daemon. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "deepika-public/dot-sync"
   }
 ]
