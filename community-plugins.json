@@ -19614,6 +19614,13 @@
     "repo": "bkindler/obsidian-tagescape"
   },
   {
+    "id": "core-habits",
+    "name": "Core Habits",
+    "author": "Ahmed Farhat",
+    "description": "Build your core identity. Track habits visually in daily notes with adaptive sidebar grids, atomic markdown storage, and rich statistics. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ahmed-farhat99/core-habits"
+  },
+  {
     "id": "garmin-health-sync",
     "name": "Garmin Health Sync",
     "author": "fcandi",
@@ -20352,7 +20359,7 @@
     "id": "voxtral-transcribe",
     "name": "Voxtral Transcribe",
     "author": "Max",
-    "description": "Your notes, done when you stop talking. Dictate with structure by voice (headings, lists, to-dos), grab the keyboard mid-sentence, transcribe recordings. Mistral Voxtral, 13 languages. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Your notes, done when you stop talking. Dictate with structure by voice (headings, lists, to-dos), grab the keyboard mid-sentence, transcribe recordings. Speech-to-text and vice versa with Voxtral - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "maxonamission/obsidian-voxtral"
   },
   {
@@ -37502,7 +37509,7 @@
     "id": "consensus-research",
     "name": "Parallax",
     "author": "Max",
-    "description": "Where research thinking takes shape: explore before you search, think with theoretical lenses, challenge your framing, keep the account. Free via OpenAlex & Semantic Scholar; bring any LLM or none. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Where research thinking takes shape: explore before you search, think with theoretical lenses, challenge your framing and keep track. Free via OpenAlex & Semantic Scholar; bring any LLM or none. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "maxonamission/obsidian-parallax"
   },
   {
@@ -41317,7 +41324,7 @@
     "id": "grill",
     "name": "Grill",
     "author": "Adam Danielsson",
-    "description": "Quiz yourself on your own notes. BYOK or run locally. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Quiz yourself on your own notes. AI writes the questions, grades your answers and maps what you know. Start free, bring your own key, or study offline - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theadamdanielsson/grill"
   },
   {
@@ -54278,13 +54285,6 @@
     "repo": "bionux-th/Obsidian-Zotero-Deep-Linker"
   },
   {
-    "id": "zheng-tally",
-    "name": "Zheng Tally",
-    "author": "yunmin",
-    "description": "Count with traditional five-stroke Zheng tallies inline in Obsidian and resume them later. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yunmin311/zheng-tally-obsidian"
-  },
-  {
     "id": "evoldown",
     "name": "Evoldown",
     "author": "SleeplessJiang",
@@ -56196,13 +56196,6 @@
     "repo": "johannes-kaindl/anysource-sideloader"
   },
   {
-    "id": "word-memo",
-    "name": "Word Memo",
-    "author": "Goupl Fesim",
-    "description": "Look up words and translate selected text from notes and PDFs, backed by an in-app dictionary, semantic word nebula, spaced repetition review, and AI explanations. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "losecloud/Obsidian-Word-Memo"
-  },
-  {
     "id": "gtd-board",
     "name": "GTD Board",
     "author": "Johannes Scherbaum",
@@ -56705,6 +56698,13 @@
     "author": "Zackary Burns",
     "description": "Highly configuarable plugin for effortless render of quick-and-dirty notation such as `n^(-1)` as its MathJax counterpart, eg `$n^{-1}$`. (Support for symbols such as -> and [deg] for degrees too!) - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zoroaster1x/Notation-Prettifier"
+  },
+  {
+    "id": "block-editor",
+    "name": "Block Editor",
+    "author": "MarcBolo",
+    "description": "Notion 风格块编辑：块手柄、拖拽排序、多选、类型转换与斜杠命令。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "marcbolo/block-editor"
   },
   {
     "id": "linten",
@@ -57334,7 +57334,7 @@
     "name": "Atlas Explorer",
     "author": "Dan",
     "description": "A replacement file explorer that shows every meaningful unit in the vault (blocks, files, folders) as one flat list, and lets you arrange those units into as many hierarchies as you like, without ever moving anything on disk. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "danrfletcher/atlas"
+    "repo": "danrfletcher/atlas-explorer"
   },
   {
     "id": "outline-jump",
@@ -58014,13 +58014,6 @@
     "author": "liyifan",
     "description": "A continuous multi-column workspace for seamless reading and editing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "liyifan2004/obsidian-folio"
-  },
-  {
-    "id": "parrot-plan",
-    "name": "Parrot Plan",
-    "author": "parrot-23",
-    "description": "A weekly schedule planner with time blocks, event planning, and execution tracking. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "parrot-23/parrot-plan"
   },
   {
     "id": "magicnotes",
@@ -58751,6 +58744,13 @@
     "repo": "vilifetime/obsidian-caldav-calendar-tasks"
   },
   {
+    "id": "wallvia",
+    "name": "Wallvia",
+    "author": "Maplelia",
+    "description": "Bring your Wallpaper Engine everywhere. A frosted-glass wallpaper for your workspace. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "maplelia/Wallvia"
+  },
+  {
     "id": "synclab",
     "name": "SyncLab",
     "author": "strider-ape",
@@ -59199,6 +59199,13 @@
     "repo": "mars-den/margin-rail"
   },
   {
+    "id": "dbml-studio",
+    "name": "DBML Studio",
+    "author": "konyshev.av",
+    "description": "Draws DBML database models as ER diagrams in notes, reading the .dbml files from disk, also outside the vault, with the tables, height and theme a block asks for. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "akonyshev/obsidian-dbml-studio"
+  },
+  {
     "id": "date-linker",
     "name": "Date Linker",
     "author": "tecipry",
@@ -59533,5 +59540,61 @@
     "author": "novmi777",
     "description": "Local task board with projects, planned dates, checklists, recurring tasks, search and six interface languages. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "novmi111-hash/my-project-tasks"
+  },
+  {
+    "id": "download-tracker",
+    "name": "Download Tracker",
+    "author": "Anthony Fitzpatrick",
+    "description": "Shows download counts for the plugins and themes you publish and keeps dated snapshots. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "anthonyfitzpatrick/obsidian-download-tracker"
+  },
+  {
+    "id": "chattaker",
+    "name": "ChatTaker",
+    "author": "htmikan",
+    "description": "Save official ChatGPT and Gemini web conversations to your vault—not an API chat client. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "htmikan/ChatTaker"
+  },
+  {
+    "id": "activity-timeline",
+    "name": "Activity Timeline",
+    "author": "Pavel",
+    "description": "Show a timeline of everything that happens in your vault: notes, tasks, captures and canvas files. Rebuilds past activity from git. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abbsol/obsidian-activity-timeline"
+  },
+  {
+    "id": "mtg-collection-tracker",
+    "name": "MTG Collection Tracker",
+    "author": "louis1190",
+    "description": "Track your physical Magic: The Gathering collection, decks and wantlists, with card data and prices from Scryfall. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "louis1190/obsidian-mtg-collection-tracker"
+  },
+  {
+    "id": "shared-tasks",
+    "name": "Shared Tasks",
+    "author": "OpenLFCP",
+    "description": "Share tasks between vaults, end-to-end encrypted, without uploading your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "openlfcp/obsidian"
+  },
+  {
+    "id": "template-derive",
+    "name": "Template Derive",
+    "author": "江边雁",
+    "description": "自定义规则，把源笔记里某个段落自动衍生到指定位置的文件。写了才生成，没写就不生成。Derive files from a note section with custom rules and templates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jiangbianyan-gif/obsidian-template-derive"
+  },
+  {
+    "id": "bulkpublish",
+    "name": "BulkPublish",
+    "author": "bulkpublish",
+    "description": "Publish the current note or a selection to 15 social media platforms, including X, LinkedIn, Instagram, Threads and Bluesky, with scheduling, team approval and channels set in frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "azeemkafridi/obsidian-bulkpublish"
+  },
+  {
+    "id": "tts-chapter-reader",
+    "name": "TTS Chapter Reader",
+    "author": "xmisio72",
+    "description": "Listen to notes like an audiobook: every heading is a chapter, and only chapters you edit are recorded again. Free natural voice that runs on your computer, or your own server or API key. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xmisio72/tts-chapter-reader"
   }
 ]
