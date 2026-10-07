@@ -5208,13 +5208,6 @@
     "repo": "gregory-jagermeister/TTRPG-Content-Generator"
   },
   {
-    "id": "tasks-calendar-wrapper",
-    "name": "Tasks Calendar Wrapper",
-    "author": "leonezz",
-    "description": "Simple wrapper for Tasks Calendar and Tasks Timeline.",
-    "repo": "leonezz/obsidian-tasks-calendar-wrapper"
-  },
-  {
     "id": "open-in-new-tab",
     "name": "Open In New Tab",
     "author": "patleeman",
@@ -22671,6 +22664,13 @@
     "author": "grhawk",
     "description": "Sync the active note to Confluence using the REST API. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "grhawk/obsidian-2-confluence"
+  },
+  {
+    "id": "md-publisher",
+    "name": "Markdown Publisher",
+    "author": "volcanicll",
+    "description": "Publish Obsidian notes to WeChat Official Account drafts in one click: six designer themes, automatic image upload, KaTeX math, and code highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "volcanicll/obsidian-md-publisher"
   },
   {
     "id": "mermaid-view",
@@ -56196,6 +56196,13 @@
     "repo": "johannes-kaindl/anysource-sideloader"
   },
   {
+    "id": "word-memo",
+    "name": "Word Memo",
+    "author": "Goupl Fesim",
+    "description": "Look up words and translate selected text from notes and PDFs, backed by an in-app dictionary, semantic word nebula, spaced repetition review, and AI explanations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "losecloud/Obsidian-Word-Memo"
+  },
+  {
     "id": "gtd-board",
     "name": "GTD Board",
     "author": "Johannes Scherbaum",
@@ -57391,13 +57398,6 @@
     "author": "江边雁",
     "description": "Align text inside Canvas cards, group labels, edge labels and card labels, plus Markdown note bodies. Each item keeps its own alignment, stored as plain text so .canvas files stay standard JSON Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiangbianyan-gif/obsidian-canvas-node-align"
-  },
-  {
-    "id": "atlas-physical-dice",
-    "name": "Atlas VTT Extension - Interactive Dice",
-    "author": "Joao Bento",
-    "description": "Roll 3D physical dice with drag-to-throw over your notes, and send every result to Atlas VTT's roll log, toast and player view. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "evoljoaobento/atlas-physical-dice"
   },
   {
     "id": "callouts-plus",
@@ -59596,5 +59596,19 @@
     "author": "xmisio72",
     "description": "Listen to notes like an audiobook: every heading is a chapter, and only chapters you edit are recorded again. Free natural voice that runs on your computer, or your own server or API key. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xmisio72/tts-chapter-reader"
+  },
+  {
+    "id": "pion",
+    "name": "Pion",
+    "author": "j",
+    "description": "Run the Pi coding agent in your vault with two isolated modes: a configurable study coach and daily coding. Sharing credentials but never context. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "solren-zhen/obsidian-pion"
+  },
+  {
+    "id": "outline-math",
+    "name": "Outline Math",
+    "author": "lzjin426",
+    "description": "Render LaTeX formulas in the built-in Outline pane without changing your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lzjin426/obsidian-outline-math"
   }
 ]
