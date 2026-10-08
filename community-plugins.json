@@ -20009,7 +20009,7 @@
     "id": "vlm-ocr",
     "name": "VLMs OCR",
     "author": "Agostino Cesarano",
-    "description": "Extract text and formulas from images, locally (Ollama) or in the cloud (Hugging Face) with VLMs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Multimodal OCR for Obsidian: extract text, LaTeX math formulas, and tables from images & PDFs, or generate detailed descriptions of charts and diagrams using local or cloud VLMs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "agostino-code/obsidian-ocr"
   },
   {
@@ -52122,6 +52122,13 @@
     "repo": "vinvinvin444/A-Home-Releases"
   },
   {
+    "id": "agent-annotations",
+    "name": "Agent Annotations",
+    "author": "exceedhl",
+    "description": "Select Markdown text, write Agent instructions, and hand the queue to any Agent via current.json. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "exceedhl/obsidian-agent-annotations"
+  },
+  {
     "id": "inline-conversions",
     "name": "Inline Conversions",
     "author": "Oleg Bezrukavnikov",
@@ -59409,6 +59416,13 @@
     "repo": "iwannaknow2000/obsidian-latest-arrivals"
   },
   {
+    "id": "better-quizbox",
+    "name": "Better Quiz Box",
+    "author": "junzi-ana",
+    "description": "Render an interactive multiple-choice quiz blocks in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "junzi-ana/better-quizbox"
+  },
+  {
     "id": "dot-sync",
     "name": "dot-sync",
     "author": "deepika",
@@ -59976,6 +59990,13 @@
     "repo": "thanhan1997tr/vault-to-notion"
   },
   {
+    "id": "task-archive",
+    "name": "Task Archive",
+    "author": "siulved54",
+    "description": "Moves completed tasks, with their sub-items, into an archive section or note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "perezamadorluisenrique-gif/task-archive"
+  },
+  {
     "id": "notework-ai",
     "name": "Notework AI",
     "author": "hpsonghyun",
@@ -60023,5 +60044,26 @@
     "author": "Klippel",
     "description": "Sync your vault with a Nextcloud folder over WebDAV, with conflict copies and deletion safeguards. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "miqueiasklippel/obsinext"
+  },
+  {
+    "id": "study-curve",
+    "name": "Study Curve",
+    "author": "taka727",
+    "description": "Schedule note reviews on the Ebbinghaus forgetting curve and see which notes are due today, with an optional cram mode before exams. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "taka727/study-curve"
+  },
+  {
+    "id": "momentlog",
+    "name": "Momentlog",
+    "author": "puran1218",
+    "description": "Capture quick notes and photos as moments in a simple daily timeline, stored as plain Markdown in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "puran1218/obsidian-momentlog"
+  },
+  {
+    "id": "constellation-graph",
+    "name": "Constellation Graph",
+    "author": "JusVibin",
+    "description": "A fluid, orbiting 3D constellation of your notes, coloured by folder, with keyboard and screen-reader support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xjusvibin/obsidian-constellation-graph"
   }
 ]
