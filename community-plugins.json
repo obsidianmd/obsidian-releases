@@ -19589,7 +19589,7 @@
     "id": "zotero-annotations",
     "name": "Zotero Annotations",
     "author": "bpiwowar",
-    "description": "Automatically show Zotero PDF annotations in a sidebar when the cursor is on a zotero:// link. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Show the Zotero annotations of the paper under the cursor in a sidebar, and keep literature notes in sync with Zotero notes, in both directions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bpiwowar/obsidian-zotero-annotations"
   },
   {
@@ -60371,7 +60371,7 @@
     "id": "mermaid-flow-enhancer",
     "name": "Mermaid Flow Enhancer",
     "author": "Nikolay Ponomarev",
-    "description": "Enhance Mermaid flowcharts with compact layouts, aligned branches, and smooth ancestor path highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Make Mermaid flowcharts easier to read with compact layouts, aligned branches, and smooth path highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "itsnikolay/obsidian-mermaid-flow-enhancer"
   },
   {
@@ -60394,5 +60394,54 @@
     "author": "Masson17",
     "description": "Sync your vault through your own server, with no lost edits: automatic merges, conflict copies, deleted file recovery, file history and optional end-to-end encryption. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "darkildo/selfsync"
+  },
+  {
+    "id": "clean-empty-lines",
+    "name": "Clean Empty Lines",
+    "author": "Mikhail Yatsenko",
+    "description": "Remove duplicate empty lines, format spacing around headings, tighten list items, and remove horizontal rules. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yamixst/obsidian-clean-empty-lines"
+  },
+  {
+    "id": "gridlock-tables",
+    "name": "Gridlock Tables",
+    "author": "Horizon Vector",
+    "description": "Size table columns to their content, let wide tables use the free space in the pane, and drag column edges to set widths that are saved with the note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mshish/gridlock-tables"
+  },
+  {
+    "id": "kifu",
+    "name": "Kifu",
+    "author": "Lux Betancourt",
+    "description": "Draw print-style Go (baduk, weiqi) diagrams in your notes: positions, numbered figures, problems that play back, and SGF files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "luxbetancourt/obsidian-kifu"
+  },
+  {
+    "id": "andante",
+    "name": "Andante",
+    "author": "jordtcasbeer535",
+    "description": "An elegant metronome that lives in your sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jordtcasbeer535/obsidian-andante"
+  },
+  {
+    "id": "canvas-plus",
+    "name": "Canvas Plus",
+    "author": "jsmorabito",
+    "description": "Canvas tools in one bar, free text, ink and a layers panel. With Note Types: note cards, relations on edges and key images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jsmorabito/obsidian-canvas-plus"
+  },
+  {
+    "id": "trmnl-screens",
+    "name": "TRMNL Screens",
+    "author": "Barry Michael Doyle",
+    "description": "Push today's tasks, due tasks, Dataview queries, resurfaced notes, writing stats or a pinned note to a TRMNL e-ink display. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "barrymichaeldoyle/obsidian-trmnl-screens"
+  },
+  {
+    "id": "sync-witness",
+    "name": "Sync Witness",
+    "author": "CyberNative AI LLC",
+    "description": "Notices when a sync tool silently removes notes or rolls them back to an older version, tells you once, and restores the exact bytes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cybernative-ai/sync-witness"
   }
 ]
