@@ -19579,13 +19579,6 @@
     "repo": "hanamizuki/obsidian-skill-graph"
   },
   {
-    "id": "zotero-annotations",
-    "name": "Zotero Annotations",
-    "author": "bpiwowar",
-    "description": "Automatically show Zotero PDF annotations in a sidebar when the cursor is on a zotero:// link. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "bpiwowar/obsidian-zotero-annotations"
-  },
-  {
     "id": "dxf-viewer",
     "name": "DXF Viewer",
     "author": "eweinhoffer",
@@ -22713,6 +22706,13 @@
     "author": "volcanicll",
     "description": "Publish Obsidian notes to WeChat Official Account drafts in one click: six designer themes, automatic image upload, KaTeX math, and code highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "volcanicll/obsidian-md-publisher"
+  },
+  {
+    "id": "financial-accounting",
+    "name": "Financial Accounting",
+    "author": "morok1407",
+    "description": "Financial control system directly without internet connection. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "morok1407/Financial-Accounting"
   },
   {
     "id": "mermaid-view",
@@ -33129,6 +33129,13 @@
     "author": "Giuseppe De Martino",
     "description": "Map and work through the contradictions in your vault: tensions, tradeoffs, and conflicting goals organized in 5 layers via frontmatter, with an AI Contradiction Hunter and PDF concept extraction. Works with cloud APIs or fully local models. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "demartinogiuseppe/antinomia"
+  },
+  {
+    "id": "mysync",
+    "name": "MySync",
+    "author": "Henrique Manduca",
+    "description": "Sync notes to your home Nextcloud, Opencloud or CouchDB database with MySync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "henriquemanduca/mysync-plugin"
   },
   {
     "id": "annoteca",
@@ -54068,6 +54075,13 @@
     "repo": "marcbolo/DLink"
   },
   {
+    "id": "kinopoisk-enricher",
+    "name": "Kinopoisk Film Enricher",
+    "author": "Andrei",
+    "description": "Enrich film notes with data from Kinopoisk (description, rating, poster, link). Flexible field-to-property mapping, dynamic API keys, configurable overwrite behavior. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "viz6411/Obsidian-Kinopoisk-plugin"
+  },
+  {
     "id": "dynamic-text-highlighting",
     "name": "Dynamic Text Highlighting",
     "author": "Philipp Reichelt",
@@ -55440,13 +55454,6 @@
     "repo": "midokarin/longshot-pdf"
   },
   {
-    "id": "nyahome",
-    "name": "NyaHome",
-    "author": "amber",
-    "description": "NyaHome：Obsidian 统一主页与本地优先的工作台；可选接入在线日历和邮箱 | NyaHome: a unified Obsidian home with local-first notes, calendars and optional connected services. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "st31orange/NyaHome"
-  },
-  {
     "id": "prepend-creation-date",
     "name": "Prepend Creation Date",
     "author": "fizzy",
@@ -56050,7 +56057,7 @@
   },
   {
     "id": "nimbus-sync",
-    "name": "Nimbus Vault Sync",
+    "name": "Nimbus vault Sync",
     "author": "lengedliu",
     "description": "Real-time bidirectional synchronization with self-hosted Nimbus Server for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lengedliu/obsidian-plugin"
@@ -59922,7 +59929,7 @@
   {
     "id": "page-tree",
     "name": "PageTree",
-    "author": "jonwang",
+    "author": "JonWang",
     "description": "Replace folder-based organization with a page tree, where each page can hold both content and child pages. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alpadoze/obsidian-pagetree"
   },
@@ -60147,7 +60154,7 @@
     "id": "inkidian",
     "name": "Inkidian",
     "author": "Thomas Toffalori",
-    "description": "Preview handwritten Inkidian notes (.inkd) and open them in the Inkidian iPad app. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Handwritten notes, drawings and PDF annotation with Apple Pencil, saved as files in your vault. Shows Inkidian notes and opens them in the Inkidian iPad app. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "toffalori/obsidian-inkidian"
   },
   {
@@ -60291,13 +60298,6 @@
     "repo": "modularidea/canteen"
   },
   {
-    "id": "pdf-form-studio",
-    "name": "PDF Editor (Beta)",
-    "author": "holtsdav",
-    "description": "Edit PDF text fields and add text and ink inside Obsidian, with automatic saving and recovery copies. Desktop beta. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "holtsdav/PDF_Editor"
-  },
-  {
     "id": "sudoku",
     "name": "Sudoku",
     "author": "diyufeng",
@@ -60310,5 +60310,33 @@
     "author": "师尧",
     "description": "Companion plugin for the Ignorance theme: Mermaid and ECharts blocks, paged reading, presentations, exports (PDF, Word, PPTX, HTML), image tools, code and table helpers. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ignorance-shiyao/obsidian-ignorance-advanced"
+  },
+  {
+    "id": "myone-page",
+    "name": "MyOnePage",
+    "author": "TeamOnTrack, LLC",
+    "description": "Turn a note into a one-page report that people can read, edit in place and share. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "itsdionis/MyOnePage"
+  },
+  {
+    "id": "pdf-editor",
+    "name": "PDF Editor",
+    "author": "holtsdav",
+    "description": "Edit PDF text fields and add text and ink inside Obsidian, with automatic saving and recovery copies. Desktop beta. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "holtsdav/PDF-Editor"
+  },
+  {
+    "id": "research-connected",
+    "name": "Research Connected",
+    "author": "Junwei Bai",
+    "description": "Explore a paper's citation neighborhood as an interactive similarity map in a graph pane or note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abe-junwei/research-connected"
+  },
+  {
+    "id": "vault-variables",
+    "name": "Vault Variables",
+    "author": "nicostav",
+    "description": "Define variables once and use them as {{name}} anywhere in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nicostav/vault-variables"
   }
 ]
