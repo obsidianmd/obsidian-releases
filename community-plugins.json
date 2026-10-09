@@ -17579,7 +17579,7 @@
   {
     "id": "fix-math",
     "name": "Fix Math",
-    "author": "loglux",
+    "author": "Vladislav Sorokin",
     "description": "Convert LaTeX equations from ChatGPT and AI assistants to the correct Markdown format: block equations to display math, inline to inline math.",
     "repo": "loglux/fix-math-for-obsidian"
   },
@@ -18027,7 +18027,7 @@
   {
     "id": "auto-math",
     "name": "Auto Math",
-    "author": "loglux",
+    "author": "Vladislav Sorokin",
     "description": "Auto-expands LaTeX snippets. External rules with live reload, Custom Rules Editor, and default math pack.",
     "repo": "loglux/auto-math-for-obsidian"
   },
@@ -46641,13 +46641,6 @@
     "repo": "junskix1/obsidian-supernote-annotations"
   },
   {
-    "id": "agent-ogent",
-    "name": "Ogent",
-    "author": "Akali",
-    "description": "Run a vault-aware AI agent with streaming output, safe file tools, and configurable OpenAI-compatible providers. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "akali-yyds/ObsidianAgent-Ogent"
-  },
-  {
     "id": "quick-access-dashboard",
     "name": "Quick Access Dashboard",
     "author": "Harrison Edwards",
@@ -53053,6 +53046,13 @@
     "repo": "hemashishi12/mixed-outline"
   },
   {
+    "id": "checklist-flow",
+    "name": "Checklist Flow",
+    "author": "oisngodr",
+    "description": "Sink completed checklist tasks and drag-reorder task or numbered list items. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hemashishi12/obsidian-checklist-flow"
+  },
+  {
     "id": "calendar-plus-plus",
     "name": "Calendar++",
     "author": "dreamofcoffee",
@@ -53569,13 +53569,6 @@
     "author": "William A. Costa",
     "description": "Tag-driven note organization with automatic archiving and a Universal Palette. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "willacosta/obsidian-seam"
-  },
-  {
-    "id": "vault-agent",
-    "name": "Vault Agent",
-    "author": "rosswang",
-    "description": "AI vault agent powered by China-accessible LLM APIs — DeepSeek, GLM, Kimi, Qwen or any OpenAI-compatible endpoint. Agentic read/search/create/edit of notes. No CLI, no proxy, 中文优先. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yanqingwang/opensource-AI-vault-agent"
   },
   {
     "id": "elias-hivemind",
@@ -54297,6 +54290,13 @@
     "author": "marchell",
     "description": "Upload vault attachments to S3-compatible storage and swap links; localize them back. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "marchellll/obsidian-assets-offloader"
+  },
+  {
+    "id": "copilot-chat-marker",
+    "name": "Chat Marker for Copilot",
+    "author": "Soulbits",
+    "description": "Mark the active Copilot Agent chat and quietly attach the marker meaning to the next message. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "soulbits-vibe/obsidian-copilot-chat-markers"
   },
   {
     "id": "penseed",
@@ -56934,7 +56934,7 @@
     "id": "tag-match",
     "name": "Tag Match",
     "author": "Nathan Cheng",
-    "description": "Match & apply existing tags with a fast AI decision model (Jev). The tagger scores from a selection sample of most-used and forgotten tags, plus any guidance you provide about your tagging system. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Match and apply tags to one note or many with AI decision models (default: Jev), using your vault’s tags or a specific set you provide. Faster + cheaper than LLMs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nweii/tag-match"
   },
   {
@@ -59535,13 +59535,6 @@
     "repo": "theambinder/obsidian-gallery"
   },
   {
-    "id": "draft-companion",
-    "name": "Draft Companion",
-    "author": "chenduola",
-    "description": "Discuss, review, and revise Markdown drafts with custom AI roles, diff previews, and undo. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zibochen6/draft-companion"
-  },
-  {
     "id": "batch-pdf-export",
     "name": "Batch PDF Export",
     "author": "Dryden Bryson",
@@ -60163,5 +60156,40 @@
     "author": "cabra-arretado",
     "description": "Chat with a local ACP agent (Kiro CLI) in the sidebar, with note selections as context. macOS only. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cabra-arretado/sir-scribbles"
+  },
+  {
+    "id": "copy-markdown-source",
+    "name": "Copy Markdown Source",
+    "author": "Dominik Bach",
+    "description": "Copy the Markdown source of a selection, including headings and math delimiters, not the rendered preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mit-bach/copy-markdown-source"
+  },
+  {
+    "id": "copy-selected-paths",
+    "name": "Copy Selected Paths",
+    "author": "Dominik Bach",
+    "description": "Copy the absolute filesystem paths of files and folders selected in File Explorer, including multi-select. Hotkey Command-Option-C. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mit-bach/copy-selected-paths"
+  },
+  {
+    "id": "by-ear",
+    "name": "By Ear",
+    "author": "bas-vr",
+    "description": "Learn songs by ear: loop, slow down and pitch-shift audio and video, keeping your progress in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "basvanrzdl/obsidian-by-ear"
+  },
+  {
+    "id": "rebuild-vault-index",
+    "name": "Rebuild Vault Index",
+    "author": "Dominik Bach",
+    "description": "Sidebar button to rescan hidden folders, refresh the file tree, reindex the metadata cache, and reload community plugins. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mit-bach/rebuild-vault-index"
+  },
+  {
+    "id": "prism-viz",
+    "name": "Prism",
+    "author": "floorianmb",
+    "description": "Render sandboxed, theme-aware interactive charts, diagrams and dashboards from viz code blocks, designed to be written by AI agents. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "floorianmb/prism-viz"
   }
 ]
