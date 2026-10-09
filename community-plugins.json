@@ -5208,6 +5208,13 @@
     "repo": "gregory-jagermeister/TTRPG-Content-Generator"
   },
   {
+    "id": "tasks-calendar-wrapper",
+    "name": "Tasks Calendar Wrapper",
+    "author": "leonezz",
+    "description": "Simple wrapper for Tasks Calendar and Tasks Timeline.",
+    "repo": "leonezz/obsidian-tasks-calendar-wrapper"
+  },
+  {
     "id": "open-in-new-tab",
     "name": "Open In New Tab",
     "author": "patleeman",
@@ -19579,6 +19586,13 @@
     "repo": "hanamizuki/obsidian-skill-graph"
   },
   {
+    "id": "zotero-annotations",
+    "name": "Zotero Annotations",
+    "author": "bpiwowar",
+    "description": "Automatically show Zotero PDF annotations in a sidebar when the cursor is on a zotero:// link. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bpiwowar/obsidian-zotero-annotations"
+  },
+  {
     "id": "dxf-viewer",
     "name": "DXF Viewer",
     "author": "eweinhoffer",
@@ -20205,7 +20219,7 @@
     "id": "vault-coach",
     "name": "Vault Coach",
     "author": "wanjin5508",
-    "description": "AI learning assistant with cited RAG, semantic search, scoped exams, reviewable knowledge graphs, and mastery tracking for notes and PDFs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "AI learning assistant that turns Obsidian notes and PDFs into cited answers, exams, knowledge graphs, and personalized mastery tracking. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wanjin5508/vault-coach"
   },
   {
@@ -21380,7 +21394,7 @@
   {
     "id": "read-only-view",
     "name": "Read Only View",
-    "author": "mrkazzila",
+    "author": "Ilya Kazakov",
     "description": "Keep selected Markdown notes in Reading view using include and exclude path rules. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mrkazzila/Read-Only-View"
   },
@@ -51387,13 +51401,6 @@
     "repo": "csuyincs-creator/Baixiao-Reading-Cockpit"
   },
   {
-    "id": "sideband-comments",
-    "name": "Sideband Comments",
-    "author": "insung",
-    "description": "Document-grounded AI collaboration with shared comments across Obsidian and VS Code. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "insung/sideband-comments"
-  },
-  {
     "id": "kumoo-calendar",
     "name": "Kumoo Calendar",
     "author": "KuMoo",
@@ -56028,13 +56035,6 @@
     "repo": "fzk177/branch-delivery-manager"
   },
   {
-    "id": "process-tracker",
-    "name": "Process Tracker",
-    "author": "skrpln",
-    "description": "Daily habit and progress tracker in a table: rows are your tracks, columns are days, and every checked day is a note you can open and edit in place. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "skrpln/process-tracker"
-  },
-  {
     "id": "random-notes-cat",
     "name": "Random Notes Cat",
     "author": "jennydoter",
@@ -56962,7 +56962,7 @@
     "id": "tag-match",
     "name": "Tag Match",
     "author": "Nathan Cheng",
-    "description": "Match and apply tags to one note or many with AI decision models (default: Jev), using your vault’s tags or a specific set you provide. Faster + cheaper than LLMs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Match and apply tags to one note or many with AI decision models (default: Jev), using your vault’s tags or a specific set you provide. Faster + cheaper than LLM-based taggers. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nweii/tag-match"
   },
   {
@@ -60312,6 +60312,13 @@
     "repo": "ignorance-shiyao/obsidian-ignorance-advanced"
   },
   {
+    "id": "nihong-ai-explain",
+    "name": "Nihong AI explaination",
+    "author": "iikira",
+    "description": "霓虹AI讲解: 选中日语单词或句子，AI 讲解生成详解笔记、语法拆解、翻译、离线查词典与朗读。Nihong AI Explanation: Select a Japanese word or sentence, and the AI generates detailed notes, grammar breakdowns, translations, offline dictionary lookups, and audio pronunciation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "iikira/obsidian-nihong-ai-explain"
+  },
+  {
     "id": "myone-page",
     "name": "MyOnePage",
     "author": "TeamOnTrack, LLC",
@@ -60338,5 +60345,19 @@
     "author": "nicostav",
     "description": "Define variables once and use them as {{name}} anywhere in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nicostav/vault-variables"
+  },
+  {
+    "id": "ember-brain",
+    "name": "Ember Brain",
+    "author": "Ederson Melo",
+    "description": "Watch your vault come alive: an animated graph where your most active notes glow and pulse. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "edersonmelo/obsidian-ember-brain"
+  },
+  {
+    "id": "pdf-simple",
+    "name": "PDF Simple",
+    "author": "taiyou kanada",
+    "description": "Highlight PDFs in the built-in viewer and keep only the highlighted text in a paired note, with jumps both ways. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tk-pkm111/obsidian-pdf-simple"
   }
 ]
