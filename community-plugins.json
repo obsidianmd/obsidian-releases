@@ -18179,13 +18179,6 @@
     "repo": "ebullient/obsidian-vault-mcp"
   },
   {
-    "id": "simplest-todo",
-    "name": "Simplest Todo",
-    "author": "kintolayli",
-    "description": "Minimalist task manager with automatic monthly archiving. Bilingual (RU/EN). - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kintolayli/simplest-todo"
-  },
-  {
     "id": "interactive-hill-chart",
     "name": "Interactive Hill Chart",
     "author": "volodymyrkoval",
@@ -43221,7 +43214,7 @@
     "id": "token-usage",
     "name": "Token Usage",
     "author": "Björn-Olaf Lange",
-    "description": "Real-time Claude Code token tracking with three live gauges (5h window, today, this week), measured against limits estimated from your own data. Heatmap, calendar, dashboard, CSV export. No API key. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Real-time Claude Code token tracking with three live gauges (5h window, today, this week), measured against your limits: estimated from your data or official via status line. Heatmap, dashboard, CSV. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "beolatn/TokenUsage"
   },
   {
@@ -47899,6 +47892,13 @@
     "author": "n23eos",
     "description": "Interactive sunburst chart of your vault. See folder sizes on disk, word counts and file counts at a glance, with animated zoom and 13 languages. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "n23eos/obsidian-vault-sunburst"
+  },
+  {
+    "id": "re-supercharged-links",
+    "name": "Re-supercharged Links",
+    "author": "Carl Bechstrom",
+    "description": "Re-Supercharged Links is an advanced link-styling plugin for Obsidian that has evolved far beyond the original fork into a substantially redesigned and expanded implementation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "carlb01/re-supercharged-links"
   },
   {
     "id": "local-agent-assistant",
@@ -60443,5 +60443,12 @@
     "author": "CyberNative AI LLC",
     "description": "Notices when a sync tool silently removes notes or rolls them back to an older version, tells you once, and restores the exact bytes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cybernative-ai/sync-witness"
+  },
+  {
+    "id": "dishonored-dunwall",
+    "name": "Dishonored - Dunwall",
+    "author": "SentientShawarma",
+    "description": "The Dishonored - Dunwall camp on every empty tab. The mask and the menu under it open the vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sentientshawarma/dishonored-dunwall-plugin"
   }
 ]
