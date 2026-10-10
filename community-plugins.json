@@ -21151,7 +21151,7 @@
     "name": "Library",
     "author": "venv",
     "description": "Organize movies, series, books, anime, comics, games, and music as cover cards. Search titles in the app, fetch metadata, track progress, and link genres, creators, and actors in the graph. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kigrok/obsidian-library-plugin"
+    "repo": "venvk/obsidian-library-plugin"
   },
   {
     "id": "ghostty-terminal",
@@ -41902,13 +41902,6 @@
     "repo": "deyixtan/obsidian-drawio-blocks"
   },
   {
-    "id": "freedraw-pdf",
-    "name": "Freedraw PDF",
-    "author": "vida sana",
-    "description": "Freehand PDF annotation workspace for Obsidian with vault-backed sidecar saves. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "vividasasana/freedraw-pdf"
-  },
-  {
     "id": "book-reader",
     "name": "Book Reader",
     "author": "ununnamed",
@@ -54218,7 +54211,7 @@
     "id": "heading-rail",
     "name": "Heading Rail",
     "author": "DAST",
-    "description": "Dock-style clickable heading bars with live scroll tracking, wave hover and an expandable outline panel. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Table of contents (TOC) as heading bars at the note's edge, plus a floating outline. Hover to preview, click to jump, search headings and text, drag and edit sections, undo every action. Mobile-ready. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "justdast/obsidian-heading-rail"
   },
   {
@@ -60585,6 +60578,13 @@
     "repo": "abdullahalhariri/axon"
   },
   {
+    "id": "bases-freeze-panes",
+    "name": "Bases Freeze Panes",
+    "author": "theluckystrike",
+    "description": "Keeps the header row and the first columns of a Bases table in view while you scroll, in base files and in bases embedded in notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/bases-freeze-panes"
+  },
+  {
     "id": "abyss-tasks",
     "name": "Abyss Tasks",
     "author": "flowing-abyss",
@@ -60667,5 +60667,40 @@
     "author": "paddy",
     "description": "Pan, zoom, fit, and fullscreen for Mermaid diagrams, with Ctrl/Cmd+wheel zoom and touch gestures. Works with any theme. Ordinary wheel still scrolls the page. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "paddychenc75/obsidian-mermaid-kit"
+  },
+  {
+    "id": "publisher-workbench",
+    "name": "Publisher Workbench",
+    "author": "chenglong",
+    "description": "Create styled WeChat drafts and X Articles handoffs from Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haomiaoonline/obsidian-publisher"
+  },
+  {
+    "id": "busqueda-sin-tildes",
+    "name": "Accent Insensitive Search",
+    "author": "Guillermo Gutiérrez Teuler",
+    "description": "Ignore accents and diaereses in Quick switcher and link suggestions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "thewillym4ak/obsidian-accent-insensitive-search"
+  },
+  {
+    "id": "pdf-cover-cards",
+    "name": "PDF Cover Cards",
+    "author": "theluckystrike",
+    "description": "Shows the first page, or a chosen page, of the PDF linked from each note as the card cover in a Bases view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/pdf-cover-cards"
+  },
+  {
+    "id": "embed-outline",
+    "name": "Embed Outline",
+    "author": "theluckystrike",
+    "description": "Shows the headings of embedded notes and callout titles in one outline, nested where each note is embedded. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/embed-outline"
+  },
+  {
+    "id": "kanban-embed",
+    "name": "Kanban Embed",
+    "author": "theluckystrike",
+    "description": "Shows a Kanban board inside any note, read from the board file, with live updates, lane picking and card check-off. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/kanban-embed"
   }
 ]
