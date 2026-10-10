@@ -33411,13 +33411,6 @@
     "repo": "punkyard/obsidian-lindar"
   },
   {
-    "id": "swift-match",
-    "name": "SwiftMatch",
-    "author": "swiSwift",
-    "description": "Quickly match and mark selected text across your vault with visual highlights - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dlsdgj/Obsidian-SwiftMatch"
-  },
-  {
     "id": "lecture-lens",
     "name": "Lecture Lens",
     "author": "Yima",
@@ -52510,7 +52503,7 @@
     "id": "kalendae",
     "name": "Kalendae",
     "author": "unpreditable",
-    "description": "Change an existing date in your note with a date picker or                             Ctrl/Option + ↑/↓, instead of retyping it. Insert new ones by typing them in plain words. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Change a date or a time already in your note with a calendar, a clock, or Ctrl/Option + ↑/↓, instead of retyping it. Insert new dates by typing them in plain words. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "unpreditable/Kalendae"
   },
   {
@@ -60074,6 +60067,13 @@
     "repo": "flyxhub/obsidian-vault-sidekick"
   },
   {
+    "id": "latex-tikz-renderer",
+    "name": "LaTeX and TikZ Renderer",
+    "author": "Agostino Cesarano",
+    "description": "Render LaTeX and TikZ diagrams locally using your system TeX installation with support for any package. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "agostino-code/obsidian-tikz"
+  },
+  {
     "id": "study-curve",
     "name": "Study Curve",
     "author": "taka727",
@@ -60233,6 +60233,13 @@
     "author": "蜗牛",
     "description": "Render .jps jianpu scripts into sheet music inside your notes, with playback, and edit scores in a full built-in iJipu editor. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "snailhome/obsidian-ijipu"
+  },
+  {
+    "id": "wcc-base-views",
+    "name": "WCC Base Views",
+    "author": "wcchristian",
+    "description": "Table, List, Kanban, Calendar, and Timeline views for Obsidian Bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wcchristian/obsidian-wcc-base-views"
   },
   {
     "id": "hideaway",
@@ -60487,6 +60494,13 @@
     "repo": "bernardonogueira8/kindle-reader"
   },
   {
+    "id": "dangling-links-with-replace",
+    "name": "Dangling links with replace",
+    "author": "graydon",
+    "description": "This plugin shows any dangling links in your vault and can fix them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dwightivany/obsidian-dangling-links-with-replace"
+  },
+  {
     "id": "voice-briefing",
     "name": "Voice Briefing",
     "author": "reallygood83",
@@ -60499,5 +60513,26 @@
     "author": "Farhad Al Marzook",
     "description": "Study Anki-style flashcards written inside your notes, with FSRS scheduling, real card backs, one-by-one reveals, image occlusion, deck import, and full mobile support. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "farhadmarzook-commits/osteon"
+  },
+  {
+    "id": "surface-tablet",
+    "name": "Surface Tablet",
+    "author": "emekalim",
+    "description": "Adds Windows Surface Pen controls to Canvas, including mouse emulation and pen-based panning. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "emekalim/obsidian-surface-tablet"
+  },
+  {
+    "id": "trace",
+    "name": "Trace",
+    "author": "swiSwift",
+    "description": "outline navigation synced with minimap hover, vault-wide match highlighting with pin markers, and cached full-vault search.(Formerly SwiftMatch) - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dlsdgj/trace"
+  },
+  {
+    "id": "nori-sync",
+    "name": "Nori Sync",
+    "author": "Nori",
+    "description": "Sync your vault with your Nori study account (nori.study) using a one-time code. Sincroniza tu vault con tu cuenta de Nori. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "srdews/nori-sync"
   }
 ]
