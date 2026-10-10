@@ -21163,7 +21163,7 @@
   {
     "id": "library",
     "name": "Library",
-    "author": "kigrok",
+    "author": "venv",
     "description": "Organize movies, series, books, anime, comics, games, and music as cover cards. Search titles in the app, fetch metadata, track progress, and link genres, creators, and actors in the graph. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kigrok/obsidian-library-plugin"
   },
@@ -31626,13 +31626,6 @@
     "repo": "oilandrust/obsidian-gdocs"
   },
   {
-    "id": "pimate",
-    "name": "Pimate",
-    "author": "Gorazen",
-    "description": "Pimate embeds Pi Coding Agent into Obsidian as an AI collaborator for your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gorazenxu/pimate"
-  },
-  {
     "id": "remember-code-block-lang",
     "name": "Remember Code Block Language",
     "author": "Junyoung Bang",
@@ -36692,13 +36685,6 @@
     "author": "Masoud Masoumi",
     "description": "Live hand-drawn animations of 2D mechanisms (four-bar, slider-crank, gears, cam, pendulum, spring) from a simple code block. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "masoudmim/sketch-mechanisms"
-  },
-  {
-    "id": "hilo",
-    "name": "Hilo",
-    "author": "san",
-    "description": "Multi-color highlights using Obsidian's native ==text== syntax. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "opellen/Hilo"
   },
   {
     "id": "style-html-viewer",
@@ -49889,6 +49875,13 @@
     "repo": "chenxuan520/obsidian-qiniuimage"
   },
   {
+    "id": "position-restore",
+    "name": "Position Restore",
+    "author": "kaidima",
+    "description": "Remembers the cursor and scroll position for each note and puts you right back when it reopens, with back/forward navigation and a recent-files list. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aisahpa/obsidian-position-restore"
+  },
+  {
     "id": "digent-view",
     "name": "Digent View",
     "author": "hua yang",
@@ -57085,13 +57078,6 @@
     "repo": "zephyr333/obsidian-app-view"
   },
   {
-    "id": "qnalog",
-    "name": "QnALog",
-    "author": "Q&A Log",
-    "description": "Record and transcribe conversations, then turn them into structured Markdown notes with your own AI provider. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "qnalog/qnalog"
-  },
-  {
     "id": "tasknotes-caldav",
     "name": "TaskNotes CalDAV",
     "author": "Fabian Schober",
@@ -59894,7 +59880,7 @@
   {
     "id": "page-tree",
     "name": "PageTree",
-    "author": "JonWang",
+    "author": "Jonwang",
     "description": "Replace folder-based organization with a page tree, where each page can hold both content and child pages. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alpadoze/obsidian-pagetree"
   },
@@ -59925,6 +59911,13 @@
     "author": "kougami",
     "description": "A local-first anime, manga, and novel library backed by Markdown with Bangumi two-way sync, metadata search, covers, ratings, and a timeline - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kougami132/AnimeList"
+  },
+  {
+    "id": "mermaid-excalidraw-renderer",
+    "name": "Mermaid Excalidraw Renderer",
+    "author": "Taichoco",
+    "description": "Render Mermaid diagrams in an Excalidraw-style view in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "taichocop/mermaid-excalidraw-renderer"
   },
   {
     "id": "gantt",
@@ -60534,5 +60527,40 @@
     "author": "Nori",
     "description": "Sync your vault with your Nori study account (nori.study) using a one-time code. Sincroniza tu vault con tu cuenta de Nori. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "srdews/nori-sync"
+  },
+  {
+    "id": "super-useful-sql",
+    "name": "Super Useful SQL",
+    "author": "chengmiaofan",
+    "description": "Query SQLite databases that live outside your vault and read the results in a side panel. Read-only by design, with cross-database joins, an optional data dictionary, and plain Markdown exports. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "serena-sheng/obsidian-super-useful-sql"
+  },
+  {
+    "id": "domain-first-file-allocator",
+    "name": "Domain First File Allocator",
+    "author": "Anthirayas",
+    "description": "File notes into folders using a domain property, and set the property from a note's folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jrayas/domain-first-file-allocator"
+  },
+  {
+    "id": "dynamic-lock",
+    "name": "Dynamic Lock",
+    "author": "ryeom",
+    "description": "Dynamically switch between Reading and Editing modes based on file properties, folders, or time. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ryeom/obsidian-dynamic-lock"
+  },
+  {
+    "id": "distari-sync",
+    "name": "Distari sync",
+    "author": "Distari",
+    "description": "Import your Distari papers, summaries, and notes into this vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "distari-ai/obsidian-sync"
+  },
+  {
+    "id": "file-explorer-timestamps",
+    "name": "File explorer timestamps",
+    "author": "Zhm Chan",
+    "description": "Show the last modified time next to each file in the native file explorer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhmchan/obsidian-file-explorer-timestamps"
   }
 ]
