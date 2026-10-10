@@ -700,13 +700,6 @@
     "repo": "thek3nger/obsidian-chessboard"
   },
   {
-    "id": "obsidian-vault-changelog",
-    "name": "Vault Changelog",
-    "author": "Mark Ayers",
-    "description": "Maintain a changelog of recently edited notes.",
-    "repo": "philoserf/obsidian-vault-changelog"
-  },
-  {
     "id": "obsidian-furigana",
     "name": "Furigana",
     "author": "uonr",
@@ -33775,13 +33768,6 @@
     "repo": "gaedol/gtd-flow"
   },
   {
-    "id": "feishu-lark-cli-sync",
-    "name": "Feishu Lark CLI Sync",
-    "author": "wanghuan",
-    "description": "通过 lark-cli 发布 Obsidian 笔记到飞书文档及后续自动同步。Publish Obsidian notes to Feishu documents and subsequent automatic synchronization via lark-cli - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "wanghuan9/obsidian-feishu-lark-cli-sync"
-  },
-  {
     "id": "mobile-dashboard",
     "name": "Time Desk (Mobile)",
     "author": "liyaoming",
@@ -39971,7 +39957,7 @@
   },
   {
     "id": "paper-link",
-    "name": "Paper Link",
+    "name": "Paper Vault",
     "author": "Jiangnan Ye",
     "description": "Replace pasted paper URLs (arXiv, OpenReview, ACL Anthology, …) with [Title (Venue Year)](url) links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiangnan0522/paper-link"
@@ -60466,6 +60452,13 @@
     "repo": "jimmycallsaul/vault-race"
   },
   {
+    "id": "flowstitch",
+    "name": "Flowstitch",
+    "author": "0libote",
+    "description": "Connect your notes and Todoist tasks with a live dashboard and opt-in synchronisation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "0libote/Flowstitch"
+  },
+  {
     "id": "escrita",
     "name": "Escrita",
     "author": "Claudio",
@@ -60613,6 +60606,13 @@
     "repo": "kgway/keep-view"
   },
   {
+    "id": "matters-that-matter",
+    "name": "Matters that Matter",
+    "author": "Manuel Delgado Tenorio",
+    "description": "Plan your work on a kanban board with swimlanes, a list, a calendar and a timeline, where every card and every lane is a note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "manueldelgado/Matters-that-Matter"
+  },
+  {
     "id": "quick-access",
     "name": "Quick Access",
     "author": "MrVersano",
@@ -60632,5 +60632,40 @@
     "author": "siulved54",
     "description": "Search the web for selected text or the note title from the right-click menu, with engines you define. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "perezamadorluisenrique-gif/web-search-menu"
+  },
+  {
+    "id": "bases-task-rows",
+    "name": "Bases Task Rows",
+    "author": "theluckystrike",
+    "description": "Shows each checklist task in the notes a base selects as its own row, with due dates, tags and the source note, and ticks tasks from the view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/bases-task-rows"
+  },
+  {
+    "id": "bases-filter-switches",
+    "name": "Bases Filter Switches",
+    "author": "theluckystrike",
+    "description": "One-click switches above a base that turn saved filters on and off, in base tabs and embedded bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/bases-filter-switches"
+  },
+  {
+    "id": "asciidoc-files",
+    "name": "AsciiDoc Files",
+    "author": "theluckystrike",
+    "description": "Opens and edits AsciiDoc files in the vault with a highlighted source editor and a safe rendered preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/asciidoc-files"
+  },
+  {
+    "id": "heading-link-sync",
+    "name": "Heading Link Sync",
+    "author": "theluckystrike",
+    "description": "Updates every link and embed to a heading or block ID when you edit the heading text in the editor, with no rename dialog. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/heading-link-sync"
+  },
+  {
+    "id": "mermaid-kit",
+    "name": "Mermaid Kit",
+    "author": "paddy",
+    "description": "Pan, zoom, fit, and fullscreen for Mermaid diagrams, with Ctrl/Cmd+wheel zoom and touch gestures. Works with any theme. Ordinary wheel still scrolls the page. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "paddychenc75/obsidian-mermaid-kit"
   }
 ]
