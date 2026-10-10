@@ -54637,9 +54637,9 @@
   {
     "id": "cells-garden",
     "name": "cells.garden",
-    "author": "lukketsvane",
+    "author": "cells-garden2",
     "description": "Turn projects and tasks into a pixel-art garden. Work locally in Obsidian, or sign in to sync, share and assign tasks across devices. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lukketsvane/cells.garden"
+    "repo": "cells-garden/cells.garden"
   },
   {
     "id": "nestboard",
@@ -59923,7 +59923,7 @@
     "id": "scholiast",
     "name": "Scholiast",
     "author": "Slouyang ",
-    "description": "Read and annotate Markdown, PDF and ebooks with highlights, notes and tags without editing the source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Capture flow notes with keyboard-first selection in Markdown and ebooks; annotate PDFs and review highlights and thoughts without editing the source. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "github-oysl/obsidian-annotation-plugin"
   },
   {
@@ -60399,7 +60399,7 @@
     "id": "kifu",
     "name": "Kifu",
     "author": "Lux Betancourt",
-    "description": "Draw print-style Go (baduk, weiqi) diagrams in your notes: positions, numbered figures, problems that play back, and SGF files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Draw print-style Go (baduk, weiqi) diagrams in your notes: positions, numbered figures, interactive problems, and SGF files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "luxbetancourt/obsidian-kifu"
   },
   {
@@ -60609,7 +60609,7 @@
     "id": "keep-view",
     "name": "Keep View Explorer",
     "author": "kgway",
-    "description": "Browse, filter, and manage notes in a Google Keep-style card view. Use Boolean tag queries, folder and date filters, full-text search, and bulk actions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Browse, filter, and organize notes in a Google Keep-style card view. Narrow results with Boolean tag queries, folders, dates, and full-text search, then move or retag notes in bulk. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kgway/keep-view"
   },
   {
@@ -60793,5 +60793,47 @@
     "author": "Oskar Kraak",
     "description": "Open all Syncthing conflicts in the vault as Meld tabs, then choose which conflict files to delete. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "oskarkraak/obsidian-meld-syncthing-conflicts"
+  },
+  {
+    "id": "task-date-links",
+    "name": "Task Date Links",
+    "author": "theluckystrike",
+    "description": "Adds a real daily note link to a task when you complete it, so backlinks show what you finished each day. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/task-date-links"
+  },
+  {
+    "id": "context-trees",
+    "name": "Context Trees",
+    "author": "theluckystrike",
+    "description": "A side view that shows search results and backlinks with their heading path and parent list items. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/context-trees"
+  },
+  {
+    "id": "toggl-mobile-timer",
+    "name": "Mobile Timer for Toggl Track",
+    "author": "theluckystrike",
+    "description": "Starts, stops and switches your Toggl Track timer from a note, on phone and desktop, and shows the running timer and today's total. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/toggl-mobile-timer"
+  },
+  {
+    "id": "page-turner",
+    "name": "Page Turner",
+    "author": "junhcha",
+    "description": "Turn PDF pages with taps, pedals, and page-fit scrolling, like a sheet music viewer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "junhcha/obsidian-page-turner"
+  },
+  {
+    "id": "snapshot-diff",
+    "name": "Snapshot Diff",
+    "author": "arghonis",
+    "description": "Take quick snapshots of notes and compare them, file recovery versions or git commits side by side with the live note. Highlights, an editable current side and one-click restore of changed blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "miguelpafume/SnapshotDiff"
+  },
+  {
+    "id": "bases-templates",
+    "name": "Bases Templates",
+    "author": "Fuad Laguda",
+    "description": "Makes the New button in a base create the note from a template you choose, for each base or each view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lagudafuadtosin/bases-templates"
   }
 ]
