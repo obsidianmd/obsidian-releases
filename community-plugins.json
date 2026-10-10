@@ -54943,6 +54943,13 @@
     "repo": "piyushdongre-dot-com/milo"
   },
   {
+    "id": "vtabs-engine",
+    "name": "VTabs Engine",
+    "author": "Dev_AbdallahAbdelrahim",
+    "description": "Manual, nested vertical tab management for Obsidian — group and organize Markdown, Canvas, Graph, Bases, and PDF tabs exactly the way you want, with zero forced auto-grouping. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "devabdallahabdelrahim/obsidian-vtabs-engine"
+  },
+  {
     "id": "scribe-of-lagash-goals-stats",
     "name": "Scribe of Lagash - Goals and Stats",
     "author": "Alejandro",
@@ -55970,6 +55977,13 @@
     "author": "NeverCode",
     "description": "在 Obsidian 中管理 Git 分支交付记录、关联事项、验收证据与上线检查。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fzk177/branch-delivery-manager"
+  },
+  {
+    "id": "process-tracker",
+    "name": "Process Tracker",
+    "author": "skrpln",
+    "description": "Daily habit and progress tracker in a table: rows are your tracks, columns are days, and every checked day is a note you can open and edit in place. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "skrpln/process-tracker"
   },
   {
     "id": "random-notes-cat",
@@ -60602,7 +60616,7 @@
     "id": "keep-view",
     "name": "Keep View Explorer",
     "author": "kgway",
-    "description": "Browse notes as cards with tag expressions, folder navigation, date filters, and bulk editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Browse, filter, and manage notes in a Google Keep-style card view. Use Boolean tag queries, folder and date filters, full-text search, and bulk actions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kgway/keep-view"
   },
   {
@@ -60639,6 +60653,13 @@
     "author": "theluckystrike",
     "description": "Shows each checklist task in the notes a base selects as its own row, with due dates, tags and the source note, and ticks tasks from the view. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/bases-task-rows"
+  },
+  {
+    "id": "sticky-folders",
+    "name": "Sticky Folders",
+    "author": "Kevin Yan",
+    "description": "Keeps parent folders pinned at the top of the file explorer while you scroll, merging deep paths into one row and highlighting a folder's range from its indent guide. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tuosang/obsidian-sticky-folders"
   },
   {
     "id": "bases-filter-switches",
@@ -60702,5 +60723,47 @@
     "author": "theluckystrike",
     "description": "Shows a Kanban board inside any note, read from the board file, with live updates, lane picking and card check-off. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/kanban-embed"
+  },
+  {
+    "id": "bases-note-templates",
+    "name": "Bases Note Templates",
+    "author": "theluckystrike",
+    "description": "Creates new notes from a base with a template file, the base's filter values as properties, a folder and a name pattern. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/bases-note-templates"
+  },
+  {
+    "id": "bases-link-graph",
+    "name": "Bases Link Graph",
+    "author": "theluckystrike",
+    "description": "Draws the notes that a base selects as an interactive graph. Links become edges, and you click a node to open its note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/bases-link-graph"
+  },
+  {
+    "id": "hz-workbench",
+    "name": "HZ Workbench",
+    "author": "hz347006366-max",
+    "description": "Manage your daily journal, tasks, and projects from a draggable dashboard for PARA vaults. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hz347006366-max/hz-workbench"
+  },
+  {
+    "id": "flatten-table",
+    "name": "Flatten Table",
+    "author": "theluckystrike",
+    "description": "Shows one table row for each item of a list property, as a Bases view, so one note can give many rows. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/flatten-table"
+  },
+  {
+    "id": "beancount",
+    "name": "Beancount",
+    "author": "thomaszdxsn",
+    "description": "Edit Beancount ledgers with completion, alignment, outline, and bean-check validation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "thomaszdxsn/obsidian-beancount"
+  },
+  {
+    "id": "search-operators",
+    "name": "Search Operators",
+    "author": "theluckystrike",
+    "description": "Search notes by created and modified date, links to and from a note, tag and path, in a search modal with a preview line for each result. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/search-operators"
   }
 ]
