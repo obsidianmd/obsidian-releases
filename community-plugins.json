@@ -20169,7 +20169,7 @@
   {
     "id": "rag-chat",
     "name": "RAG Chat",
-    "author": "a2fsa2k",
+    "author": "obhor",
     "description": "Chat with your vault using local vector search (RAG) and any AI provider — OpenAI, Claude, Gemini, Mistral, Groq, Ollama, and more. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "a2fsa2k/obsidian-ask-my-vault-plugin"
   },
@@ -52661,13 +52661,6 @@
     "repo": "ibloud/narrative-provenance"
   },
   {
-    "id": "motusai-vault-agent",
-    "name": "MotusAI Agent",
-    "author": "AGIMX AI",
-    "description": "Connect your vault to Agent Harness in MotusAI Seed. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "agimx-ai/motusai-obsidian-agent"
-  },
-  {
     "id": "merlay",
     "name": "Merlay",
     "author": "Ali Hashemi",
@@ -54932,7 +54925,7 @@
     "id": "vault-pet",
     "name": "Vault Pet",
     "author": "Elliott Park",
-    "description": "Raise a pixel cat that grows as you write. Every word earns XP and coins for 260+ costumes, toys and mini-games, with daily quests, 161 badges and visiting neighbor cats. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Raise a pixel cat that grows as you write. Every word earns XP and coins for 320 costumes, toys and mini-games, with daily quests, 165 badges, neighbor cats and a star shop after Lv.80. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elliott-json-park/obsidian-vault-pet"
   },
   {
@@ -60765,5 +60758,40 @@
     "author": "theluckystrike",
     "description": "Search notes by created and modified date, links to and from a note, tag and path, in a search modal with a preview line for each result. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/search-operators"
+  },
+  {
+    "id": "iris-companion",
+    "name": "Iris Companion",
+    "author": "Markos Narinian",
+    "description": "Distinguish agent-authored notes with a banner and explorer dot. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "markosnarinian/obsidian-iris"
+  },
+  {
+    "id": "visual-line-numbers",
+    "name": "Visual Line Numbers",
+    "author": "theluckystrike",
+    "description": "Numbers every wrapped display line in the editor gutter, with relative, hybrid and absolute modes, so counted Vim motions land where the gutter says. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/visual-line-numbers"
+  },
+  {
+    "id": "callout-table-footnotes",
+    "name": "Footnotes in Callouts and Tables",
+    "author": "theluckystrike",
+    "description": "Shows footnote references as numbered links inside callouts and table cells in Live Preview, with a hover preview and a jump to the definition. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/callout-table-footnotes"
+  },
+  {
+    "id": "vault-scout",
+    "name": "Vault Scout",
+    "author": "floorianmb",
+    "description": "Research your vault with ChatGPT on desktop and mobile, billed to your own ChatGPT plan. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "floorianmb/vault-scout"
+  },
+  {
+    "id": "syncthing-meld",
+    "name": "Meld Syncthing Conflicts",
+    "author": "Oskar Kraak",
+    "description": "Open all Syncthing conflicts in the vault as Meld tabs, then choose which conflict files to delete. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "oskarkraak/obsidian-meld-syncthing-conflicts"
   }
 ]
