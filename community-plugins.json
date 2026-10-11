@@ -9359,6 +9359,13 @@
     "repo": "scotttomaszewski/obsidian-inline-admonitions"
   },
   {
+    "id": "filtered-opener",
+    "name": "Filtered Opener",
+    "author": "balibaloo",
+    "description": "Open notes and folders, chose from sets defined by filters.",
+    "repo": "balibaloo/obsidian-filtered-opener"
+  },
+  {
     "id": "todoist-review",
     "name": "Todoist Review",
     "author": "imcauley",
@@ -19206,6 +19213,13 @@
     "author": "taggrobs",
     "description": "Bidirectional sync with Taggr, a decentralized publishing platform. Push notes to publish in social feeds, pull posts back as markdown. Earn from engagement. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "taggrobs/obsidian-taggr-sync"
+  },
+  {
+    "id": "relation-sync",
+    "name": "Relation Sync",
+    "author": "Alessandro Casnigo",
+    "description": "Automatically syncs inverse relations in frontmatter. Define relation pairs like parent-child or spouse and the plugin keeps both sides in sync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "casungo/relation-sync-plugin"
   },
   {
     "id": "polymind",
@@ -29629,6 +29643,13 @@
     "author": "greedyhao",
     "description": "一键发布 Obsidian 笔记到微信公众号等平台 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "greedyhao/obsidian-note-to-public"
+  },
+  {
+    "id": "semlink",
+    "name": "Semlink",
+    "author": "Zhongyuan Ou",
+    "description": "AI assistant for Obsidian: chat with your notes, drag in notes for Q&A, semantic search via MCP - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ouou365/Semlink"
   },
   {
     "id": "semantic-todoist-sync",
@@ -41699,13 +41720,6 @@
     "repo": "bcs1037/codian"
   },
   {
-    "id": "curtis-ai-chat",
-    "name": "Curtis AI Chat",
-    "author": "Jordan Newell",
-    "description": "Polyglot AI chat for Obsidian. 30+ providers, agent mode with 11 vault tools + your MCP servers, vault retrieval, multi-model arena, voice, memory. Local-first, free, MIT. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jordannewell/curtis-ai-chat"
-  },
-  {
     "id": "messenger-for-chat",
     "name": "Messenger for chat view",
     "author": "CD",
@@ -48804,13 +48818,6 @@
     "repo": "memoryl7/obsidian-git-sync-better"
   },
   {
-    "id": "xove-dashboard",
-    "name": "Xove Dashboard",
-    "author": "ty",
-    "description": "Turn your home tab into a customizable dashboard for capturing tasks, tracking projects, and reviewing your note activity. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tanyinaia/Xove-Dashboard"
-  },
-  {
     "id": "familiar",
     "name": "Familiar",
     "author": "Pier-Rick Lamontagne",
@@ -54103,13 +54110,6 @@
     "repo": "tigger-developer/ios-tts"
   },
   {
-    "id": "local-ollama-websearch",
-    "name": "Local Ollama with Web Search",
-    "author": "Frank Lechtenberg",
-    "description": "Chat with local Ollama AI models directly in Obsidian. Includes built-in DuckDuckGo web search – no API key, no cloud, no telemetry. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "geolech/obsidian-local-ollama"
-  },
-  {
     "id": "pharos",
     "name": "Pharos",
     "author": "disasta-g",
@@ -59367,13 +59367,6 @@
     "repo": "iwannaknow2000/obsidian-latest-arrivals"
   },
   {
-    "id": "better-quizbox",
-    "name": "Better Quiz Box",
-    "author": "junzi-ana",
-    "description": "Render an interactive multiple-choice quiz blocks in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "junzi-ana/better-quizbox"
-  },
-  {
     "id": "dot-sync",
     "name": "dot-sync",
     "author": "deepika",
@@ -60051,13 +60044,6 @@
     "author": "JusVibin",
     "description": "A fluid, orbiting 3D constellation of your notes, coloured by folder, with keyboard and screen-reader support. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xjusvibin/obsidian-constellation-graph"
-  },
-  {
-    "id": "doc-works",
-    "name": "Doc Works",
-    "author": "Miles",
-    "description": "View and edit Word (.docx) and PowerPoint (.pptx) files inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zarnuq/DocWorks"
   },
   {
     "id": "book-lookup",
@@ -61077,8 +61063,29 @@
   {
     "id": "storyteller-comic-drafter",
     "name": "Storyteller Comic Drafter",
-    "author": "Jimiel Balitayo",
+    "author": "Jim",
     "description": "Draft comic scripts with drag-and-drop page, panel and lettering blocks, then export to an editable Word file. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "s-urchin/obsidian-storyteller"
+  },
+  {
+    "id": "magical-cards",
+    "name": "Magical Cards",
+    "author": "FF Barry",
+    "description": "Turn book and film collections into interactive cover cards with draggable modules and note embeds. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abigblackcat/Obsidian-Magical_Cards"
+  },
+  {
+    "id": "link-mindmap",
+    "name": "Link Mindmap",
+    "author": "licf",
+    "description": "结合卢曼笔记层级思想与 Obsidian 双链功能，取消编号——每个节点是一篇笔记，通过 frontmatter children/parent 链接自然关联。支持多选导图、工作台统计、拖拽连线、批量操作、键盘快捷键、横纵布局、导出 SVG/PNG/Markdown，适配手机端触屏。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "licfcn/link-mindmap"
+  },
+  {
+    "id": "special-characters-panel",
+    "name": "Special Characters Panel",
+    "author": "ronsayshello",
+    "description": "A searchable, categorized panel of special characters (arrows, math, currency, bullets, dingbats, accented Latin, Greek, punctuation). Click to copy and insert. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ronsayshello/special-characters-panel"
   }
 ]
