@@ -5086,7 +5086,7 @@
     "name": "ActivityWatch",
     "author": "lordgrimmauld",
     "description": "Integrate with ActivityWatch to allow detailed tracking of time spent in Obsidian.",
-    "repo": "lordgrimmauld/aw-watcher-obsidian"
+    "repo": "grimmtheshrimp/aw-watcher-obsidian"
   },
   {
     "id": "mixa",
@@ -6739,13 +6739,6 @@
     "author": "yulei-chen",
     "description": "Preview MDX in Obsidian, with support for Code Hike.",
     "repo": "yulei-chen/obsidian-mdx"
-  },
-  {
-    "id": "emacs-text-editor",
-    "name": "Emacs text editor",
-    "author": "klojer",
-    "description": "Partial emulation of Emacs text editor.",
-    "repo": "klojer/obsidian-emacs-text-editor"
   },
   {
     "id": "waka_time_box",
@@ -54292,6 +54285,13 @@
     "repo": "hharry112/harry-toolkit"
   },
   {
+    "id": "mermaid-link-nav",
+    "name": "Mermaid Link Navigator",
+    "author": "w-java123",
+    "description": "在 Mermaid 流程图节点中嵌入 [[笔记链接]]，Ctrl/⌘+单击跳转；右键可视化编辑（添加/编辑/删除节点、改变形状、添加父/子节点、设置判断节点、更换位置）并自动写回笔记；画布式滚轮缩放与拖动平移；可指定新笔记默认文件夹；笔记重命名自动同步 mermaid 链接；当前节点标记与一键定位。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "w-java123/mermaid-link-nav"
+  },
+  {
     "id": "citation-links",
     "name": "Citation Links",
     "author": "Gerrit Kruse",
@@ -59976,13 +59976,6 @@
     "repo": "zymetm/readout"
   },
   {
-    "id": "clean-mermaid",
-    "name": "Clean Mermaid",
-    "author": "Marcus Wu",
-    "description": "Render Mermaid diagrams as clean cards with ELK layout, auto-fit and centering, zoom and pan, image preview, PNG/SVG export, and built-in or custom themes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "astudymachine/clean-mermaid"
-  },
-  {
     "id": "glass-shelf",
     "name": "Glass Shelf Companion",
     "author": "UmmBition",
@@ -60725,13 +60718,6 @@
     "repo": "theluckystrike/flatten-table"
   },
   {
-    "id": "beancount",
-    "name": "Beancount",
-    "author": "thomaszdxsn",
-    "description": "Edit Beancount ledgers with completion, alignment, outline, and bean-check validation. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "thomaszdxsn/obsidian-beancount"
-  },
-  {
     "id": "search-operators",
     "name": "Search Operators",
     "author": "theluckystrike",
@@ -61005,6 +60991,13 @@
     "repo": "heixizhu/sync-reminder"
   },
   {
+    "id": "lets-hear-it",
+    "name": "Lets Hear It",
+    "author": "Rahul Rajeev",
+    "description": "Fast, private local neural text-to-speech for English notes with live word tracking and MP3 audio export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "drawablex86/lets-hear-it"
+  },
+  {
     "id": "genkan",
     "name": "Genkan",
     "author": "Kenroy Harrison",
@@ -61080,5 +61073,12 @@
     "author": "Niklas J. Thaler",
     "description": "Run Claude Code sessions as terminal views inside Obsidian, with a cockpit dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nyko073006/glasscockpit"
+  },
+  {
+    "id": "storyteller-comic-drafter",
+    "name": "Storyteller Comic Drafter",
+    "author": "Jimiel Balitayo",
+    "description": "Draft comic scripts with drag-and-drop page, panel and lettering blocks, then export to an editable Word file. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "s-urchin/obsidian-storyteller"
   }
 ]
