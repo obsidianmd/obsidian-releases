@@ -10244,7 +10244,7 @@
     "id": "systemsculpt-ai",
     "name": "SystemSculpt AI",
     "author": "systemsculpt",
-    "description": "Enhance your data flow with AI-powered tools for note-taking, task management, templates, and so much more.",
+    "description": "Chat with your vault, run approved actions, transcribe audio, find related notes, and build visual AI workflows.",
     "repo": "systemsculpt/obsidian-systemsculpt-ai"
   },
   {
@@ -33726,13 +33726,6 @@
     "repo": "nsyout/obsidian-concordance"
   },
   {
-    "id": "scholarium",
-    "name": "Scholarium",
-    "author": "tenor-john",
-    "description": "An all-in-one scholarly workspace with AI-assisted writing, literature management, notes, and productivity tools. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tenor-john/obsidian-scholarium"
-  },
-  {
     "id": "mv-obcc",
     "name": "mv-AIDE",
     "author": "MV",
@@ -35310,9 +35303,9 @@
   {
     "id": "lemma-flashcards",
     "name": "Lemma",
-    "author": "Sabin Pokharel",
+    "author": "fundaments-work2",
     "description": "An Obsidian plugin for creating and reviewing flashcards powered by the FSRS spaced repetition algorithm. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sapienskid/Lemma"
+    "repo": "fundaments-work/Lemma"
   },
   {
     "id": "glossa",
@@ -60375,6 +60368,13 @@
     "repo": "itsnikolay/obsidian-mermaid-flow-enhancer"
   },
   {
+    "id": "note-pulse",
+    "name": "Note Pulse",
+    "author": "shovy",
+    "description": "A dashboard for your vault: note and word trends, writing streak heatmap, task completion, tags and link stats. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fengbul/note-pulse"
+  },
+  {
     "id": "prompt-shelf",
     "name": "Prompt Shelf",
     "author": "Milad Samimifar",
@@ -61003,5 +61003,33 @@
     "author": "theluckystrike",
     "description": "Unofficial sync of your Fathom meeting summaries and action items into your vault, one note per meeting. Not made by Fathom. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/call-notes-sync"
+  },
+  {
+    "id": "handylearn",
+    "name": "HandyLearn",
+    "author": "ying feng",
+    "description": "Pick up English effortlessly while reading in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "navonivalis/handylearn"
+  },
+  {
+    "id": "super-reviewer",
+    "name": "Super Reviewer",
+    "author": "Ryan",
+    "description": "Review and edit random notes, Markdown sections, and Canvas nodes in a mobile-first view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "heixizhu/super-reviewer"
+  },
+  {
+    "id": "genkan",
+    "name": "Genkan",
+    "author": "Kenroy Harrison",
+    "description": "Show a dashboard homepage with a clock, calendar, favourites, tasks, quick note, web clips and recent notes, plus optional Pebble ring voice notes. Works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kenroy/genkan"
+  },
+  {
+    "id": "ai-translation",
+    "name": "AI Translation",
+    "author": "Caoshengzhao",
+    "description": "Lightweight translation plugin supporting DeepSeek, Tongyi Qianwen, Doubao, Google Gemini, and arbitrary custom models. Select English text and translate with one click, inserting below the original. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wolframscs/obsidian-AI-Translation"
   }
 ]
