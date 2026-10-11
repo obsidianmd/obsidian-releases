@@ -29638,13 +29638,6 @@
     "repo": "greedyhao/obsidian-note-to-public"
   },
   {
-    "id": "semlink",
-    "name": "Semlink",
-    "author": "Zhongyuan Ou",
-    "description": "AI assistant for Obsidian: chat with your notes, drag in notes for Q&A, semantic search via MCP - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ouou365/Semlink"
-  },
-  {
     "id": "semantic-todoist-sync",
     "name": "Semantic Todoist Sync",
     "author": "Neurocloud",
@@ -29825,6 +29818,13 @@
     "author": "LinneaCai",
     "description": "A Markdown-first mood calendar with custom SVG faces, tag/frontmatter input, and readable quarter-by-quarter year layout. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "linglingcai0314/obsidian-mood-quarter-calendar"
+  },
+  {
+    "id": "knomo",
+    "name": "Knomo",
+    "author": "BanyanSo",
+    "description": "A lightweight Memos entry for Obsidian: quick capture, daily context, monthly collection, and local-first control. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "banyanso/knomo"
   },
   {
     "id": "teacher-planner",
@@ -35296,7 +35296,7 @@
   {
     "id": "lemma-flashcards",
     "name": "Lemma",
-    "author": "fundaments-work2",
+    "author": "Sabin Pokharel",
     "description": "An Obsidian plugin for creating and reviewing flashcards powered by the FSRS spaced repetition algorithm. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fundaments-work/Lemma"
   },
@@ -41331,7 +41331,7 @@
     "id": "grill",
     "name": "Grill",
     "author": "Adam Danielsson",
-    "description": "Quiz yourself on your own notes. AI writes the questions, grades your answers and maps what you know. Start free, bring your own key, or study offline - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Chat with your notes and get grilled on them. An AI that reads, edits and tests you on your own notes, and remembers what you got wrong. Start free, or use your own key, Claude Code or Codex. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theadamdanielsson/grill"
   },
   {
@@ -43202,13 +43202,6 @@
     "author": "kosperun",
     "description": "Convert selected text between English and Ukrainian keyboard layouts, for when you forgot to switch layout before typing - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kosperun/obsidian-fix-word-layout-uk-en"
-  },
-  {
-    "id": "anki-card-link",
-    "name": "Anki Card Link",
-    "author": "王若冰",
-    "description": "Open Anki searches from Obsidian using note IDs, card IDs, text, or custom queries across desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "wangruobing-dev/obsidian-anki-card-link"
   },
   {
     "id": "gate-simulator",
@@ -51842,13 +51835,6 @@
     "repo": "eightk1ll/obsidian-claude-usage"
   },
   {
-    "id": "agentnote",
-    "name": "agentNote",
-    "author": "Xinxin",
-    "description": "Share local notes and files with AI agents through a private HTTP service. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "xinxinrana/agentNote-Obsidian-"
-  },
-  {
     "id": "copy-with-footnotes",
     "name": "Copy with Footnotes",
     "author": "Systina12",
@@ -55606,13 +55592,6 @@
     "author": "Markos Narinian",
     "description": "Toggle CSS snippets from the command palette instead of going into Settings. Adds one command per snippet plus a quick picker, enable-all and disable-all. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "markosnarinian/obsidian-snippet-master"
-  },
-  {
-    "id": "thoughtspace",
-    "name": "ThoughtSpace Whiteboard",
-    "author": "ancher",
-    "description": "Visual research workspace with mind maps, linked Markdown cards, writing and optional standalone calendar integration. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yuguangli-lab/obsidian-thoughtspace"
   },
   {
     "id": "algoforge",
@@ -60966,7 +60945,7 @@
     "id": "clarity-ledger",
     "name": "Clarity Ledger",
     "author": "kelon0522",
-    "description": "Daily clarity planner based on the T-grid note method. Todos are the master table; the plan and actual tracks are two projections of it. Data lives as Markdown in your vault, so it is fully searchable. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Daily clarity planner built on the T-grid note method from the book 认知觉醒 (Cognitive Awakening). Data stays as Markdown in your vault, so it is fully searchable. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kelon0522/obsidian-clarity-ledger"
   },
   {
@@ -61026,13 +61005,6 @@
     "repo": "heixizhu/sync-reminder"
   },
   {
-    "id": "lets-hear-it",
-    "name": "Lets Hear It",
-    "author": "Rahul Rajeev",
-    "description": "Fast, private local neural text-to-speech for English notes with live word tracking and MP3 audio export. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "drawablex86/lets-hear-it"
-  },
-  {
     "id": "genkan",
     "name": "Genkan",
     "author": "Kenroy Harrison",
@@ -61066,5 +61038,47 @@
     "author": "joffoo",
     "description": "Interactive semantic topographic contour map for your Obsidian vault. Explore note density, clusters, and peaks as a living landscape. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "joffoo/obsidian-knowledge-topography"
+  },
+  {
+    "id": "atmos",
+    "name": "Atmos",
+    "author": "Alben Lumenix",
+    "description": "Search for a location and insert current weather into your note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alben-lumenix/obsidian-atmos"
+  },
+  {
+    "id": "file-to-code-block",
+    "name": "File to Code Block",
+    "author": "medusero",
+    "description": "Insert text files (such as dotfiles or scripts) from your computer into the current note as fenced code blocks, with the language detected from the file name. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "medusero/file-to-code-block-obsidian-plugin"
+  },
+  {
+    "id": "sewlore-measurement-revisions",
+    "name": "Measurement Revisions",
+    "author": "Sewlore",
+    "description": "Compare sewing measurement revisions with explicit units and save a separate change report in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gokimedia/sewlore-measurement-revisions"
+  },
+  {
+    "id": "dgracy-application-flow",
+    "name": "Application Flow",
+    "author": "Zhijie Deng",
+    "description": "Track job applications, recruitment stages, deadlines, and preparation notes in a central Markdown database. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dgracy/obsidian-job-application-system"
+  },
+  {
+    "id": "pivot-tables",
+    "name": "Pivot Tables",
+    "author": "haderlka",
+    "description": "Turn any Markdown table into an interactive pivot table with a drag and drop field list, filters, subtotals and grand totals. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haderlka/obsidian-pivot-tables"
+  },
+  {
+    "id": "glasscockpit",
+    "name": "Glasscockpit",
+    "author": "Niklas J. Thaler",
+    "description": "Run Claude Code sessions as terminal views inside Obsidian, with a cockpit dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nyko073006/glasscockpit"
   }
 ]
