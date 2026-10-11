@@ -31605,6 +31605,13 @@
     "repo": "oilandrust/obsidian-gdocs"
   },
   {
+    "id": "pimate",
+    "name": "Pimate",
+    "author": "Gorazen",
+    "description": "Pimate embeds Pi Coding Agent into Obsidian as an AI collaborator for your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gorazenxu/pimate"
+  },
+  {
     "id": "remember-code-block-lang",
     "name": "Remember Code Block Language",
     "author": "Junyoung Bang",
@@ -60036,7 +60043,7 @@
     "name": "NextSync",
     "author": "Klippel",
     "description": "Sync your vault with a Nextcloud folder over WebDAV, with conflict copies and deletion safeguards. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "miqueiasklippel/obsinext"
+    "repo": "miqueiasklippel/nextsync"
   },
   {
     "id": "vault-sidekick",
@@ -60912,5 +60919,47 @@
     "author": "hay-kot",
     "description": "Build interactive character sheets for D&D and other TTRPGs with health trackers, ability scores, skills, and spell slots. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hay-kot/obsidian-ttrpg-ui-toolkit"
+  },
+  {
+    "id": "passbook",
+    "name": "PassBook",
+    "author": "Milo",
+    "description": "Pull your bank and credit card accounts, balances and transactions into your vault in a stable, documented format. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mloy97/passbook"
+  },
+  {
+    "id": "caldera",
+    "name": "Caldera",
+    "author": "mjonesone",
+    "description": "The social layer for your vault: a living profile, friends between vaults, encrypted shared notes, asks, offers and gravity. Private by default. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "schoettle-cmd/caldera"
+  },
+  {
+    "id": "annotation-inbox",
+    "name": "Annotation Inbox",
+    "author": "theluckystrike",
+    "description": "Pull your Hypothesis web highlights, page notes and tags into your vault as one note per page, with incremental resync that skips duplicates and never recreates notes you deleted. Unofficial, not made by Hypothesis. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/annotation-inbox"
+  },
+  {
+    "id": "dot-diagrams",
+    "name": "DOT Diagrams",
+    "author": "theluckystrike",
+    "description": "Render Graphviz DOT code blocks as diagrams in your notes, fully offline, with theme-aware colors. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/dot-diagrams"
+  },
+  {
+    "id": "shortcuts-bridge",
+    "name": "Shortcuts Bridge",
+    "author": "theluckystrike",
+    "description": "Runs an Apple Shortcut from a note or a command and passes text to it. Works on iPhone, iPad and Mac. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/shortcuts-bridge"
+  },
+  {
+    "id": "hide-sidebars-thino",
+    "name": "Hide Sidebars in Thino",
+    "author": "stwang",
+    "description": "Hide both sidebars while a Thino view is active, and show them again after you switch to another tab. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "5twang/hide-sidebars-thino"
   }
 ]
