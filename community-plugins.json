@@ -6748,6 +6748,13 @@
     "repo": "yulei-chen/obsidian-mdx"
   },
   {
+    "id": "emacs-text-editor",
+    "name": "Emacs text editor",
+    "author": "klojer",
+    "description": "Partial emulation of Emacs text editor.",
+    "repo": "klojer/obsidian-emacs-text-editor"
+  },
+  {
     "id": "waka_time_box",
     "name": "Waka time box",
     "author": "simonla",
@@ -19995,7 +20002,7 @@
     "id": "mindmap-ai",
     "name": "Mindmap AI",
     "author": "prashantyella",
-    "description": "Desktop-first plugin that orchestrates the Mindmap Python engine. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Summarize notes, suggest tags and links, and research Apple Books highlights with a local, private AI workflow. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "prashantyella/mindmap-obsidian"
   },
   {
@@ -48412,6 +48419,13 @@
     "repo": "fzk177/tasks-dashboard-enhancer"
   },
   {
+    "id": "anatomy-map",
+    "name": "Anatomy Map",
+    "author": "Jingting Xu",
+    "description": "Interactive 2D human body map in the sidebar. Click anatomical regions to find related notes via frontmatter anatomy field. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "westphlen/anatomy-map"
+  },
+  {
     "id": "formatted-chinese",
     "name": "Formatted Chinese",
     "author": "FormattedChinese",
@@ -51140,13 +51154,6 @@
     "author": "bozhang",
     "description": "统一 Markdown 标点格式：中文标点转英文标点，并在中英文与数字之间自动补空格，链接 URL 自动豁免。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mrelvin/obsidian-punctilious"
-  },
-  {
-    "id": "twenty-eight-notes-mindmap",
-    "name": "28 Notes Mind Map",
-    "author": "Shin",
-    "description": "Markdown-based Mind Maps. Al-friendly. Clean and clutter-free. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ollwow/28-Notes-MindMap"
   },
   {
     "id": "citation-atlas",
@@ -57123,7 +57130,7 @@
     "id": "smart-rtl",
     "name": "Smart RTL",
     "author": "Milad Samimifar",
-    "description": "Sets each line's text direction from the majority of its words, so a Persian, Arabic or Hebrew line that starts with an English word still reads right-to-left. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sets each line's text direction from the majority of its words, so a Persian or Arabic line that starts with an English word still reads right-to-left. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "milad-s5/obsidian-smart-rtl"
   },
   {
@@ -61388,5 +61395,26 @@
     "author": "theluckystrike",
     "description": "Show dynamic template results while you edit notes in Live Preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/live-template-results"
+  },
+  {
+    "id": "enterprise-issue-cards",
+    "name": "Enterprise Issue Cards",
+    "author": "theluckystrike",
+    "description": "Show private GitHub ticket details in local notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/enterprise-issue-cards"
+  },
+  {
+    "id": "fixation-reader",
+    "name": "Fixation Reader",
+    "author": "theluckystrike",
+    "description": "Bold the first letters of words in Reading view to guide the eye through long text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/fixation-reader"
+  },
+  {
+    "id": "angle-bracket-shield",
+    "name": "Angle Bracket Shield",
+    "author": "yaki-blake",
+    "description": "阻止 < 被自动配对或解析为 HTML 标签：输入即转义为 \\<，并提供一键修复已有笔记。避免未闭合标签吞掉后续内容导致排版崩塌。代码块与行内代码自动跳过. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yaki-blake/Angle-Bracket-Shield"
   }
 ]
