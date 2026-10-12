@@ -700,6 +700,13 @@
     "repo": "thek3nger/obsidian-chessboard"
   },
   {
+    "id": "obsidian-vault-changelog",
+    "name": "Vault Changelog",
+    "author": "Mark Ayers",
+    "description": "Maintain a changelog of recently edited notes.",
+    "repo": "philoserf/obsidian-vault-changelog"
+  },
+  {
     "id": "obsidian-furigana",
     "name": "Furigana",
     "author": "uonr",
@@ -27650,6 +27657,13 @@
     "repo": "thejusticeman/obsidian-find-replace-regex"
   },
   {
+    "id": "superpower-inside",
+    "name": "Superpower Inside",
+    "author": "Superpower Inside Team",
+    "description": "Desktop AI copilot for Obsidian with LLM chat, RAG, MCP tools, and source-aware context - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "magnitus99/Superpower-Inside"
+  },
+  {
     "id": "wiki-to-note",
     "name": "Wiki To Note",
     "author": "Johannes Hans",
@@ -41711,13 +41725,6 @@
     "author": "bcs",
     "description": "A multi-provider AI agent workspace: connect local coding agents with your vault, conversations, skills, and tools while preserving provider-native sessions and permissions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bcs1037/codian"
-  },
-  {
-    "id": "curtis-ai-chat",
-    "name": "Curtis.ai",
-    "author": "Jordan Newell",
-    "description": "(changes coming) Curtis AI chat and agent layer for Obsidian: 53 providers (OpenAI to Ollama), vault tools + MCP servers, skills, scheduled runs, arena, long-term memory. Local-first. Free, MIT - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jordannewell/curtis-ai-chat"
   },
   {
     "id": "messenger-for-chat",
@@ -61145,13 +61152,6 @@
     "repo": "azv133/obsidian-chord-bars"
   },
   {
-    "id": "vault-bus",
-    "name": "Vault Bus",
-    "author": "Jordan Newell",
-    "description": "(debuggin currently) Chat inside your vault - A vault-local markdown message bus: give plugins, agents, and humans addresses and let them talk through inbox notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jordannewell/vault-bus"
-  },
-  {
     "id": "silk-plugins-hub",
     "name": "Silk Hub",
     "author": "silk-idea",
@@ -61192,13 +61192,6 @@
     "author": "Jordan Newell",
     "description": "(changes coming)  Local-first audit trail for AI agent activity. Every agent inference gets an append-only markdown receipt in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jordannewell/curtis-ai-audit"
-  },
-  {
-    "id": "curtis-ai-chat-porter",
-    "name": "Curtis Porter",
-    "author": "Jordan Newell",
-    "description": "(changes coming)  Port ChatGPT, Claude, DeepSeek or any transcript into .curt files and vault-ready Markdown. Standalone, local-first, free and open source. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jordannewell/curtis-ai-chat-porter"
   },
   {
     "id": "token-receipt",
@@ -61367,5 +61360,33 @@
     "author": "hatsune_miku",
     "description": "Use OpenCode Web in a desktop sidebar with per-vault connections and Markdown math copying. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hatsunemiku533/opencode-web-sidebar"
+  },
+  {
+    "id": "task-field-labels",
+    "name": "Task Field Labels",
+    "author": "theluckystrike",
+    "description": "Show text labels for dates, priority, and recurrence in rendered tasks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/task-field-labels"
+  },
+  {
+    "id": "kanban-draft-vault",
+    "name": "Kanban Draft Vault",
+    "author": "theluckystrike",
+    "description": "Keep new-card drafts and copy lost text from a recovery list. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/kanban-draft-vault"
+  },
+  {
+    "id": "loose-json",
+    "name": "Loose JSON",
+    "author": "cynthia-ding",
+    "description": "Format loose JSON, copy JavaScript values, decode stringified fields, repair JSON, and extract log data offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cynthia2023xy/obsidian-loose-json"
+  },
+  {
+    "id": "live-template-results",
+    "name": "Live Template Results",
+    "author": "theluckystrike",
+    "description": "Show dynamic template results while you edit notes in Live Preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/live-template-results"
   }
 ]
