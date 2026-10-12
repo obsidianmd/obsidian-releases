@@ -20804,13 +20804,6 @@
     "repo": "khaldevmedia/obsidian-youtnote"
   },
   {
-    "id": "local-llm-hub",
-    "name": "Local LLM Hub",
-    "author": "TAKESHI MORITA",
-    "description": "Chat with local LLMs (Ollama, LM Studio) with local embeddings RAG, file encryption, edit history, slash commands, and workflow automation. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "takeshy/obsidian-local-llm-hub"
-  },
-  {
     "id": "open-in-claude-code",
     "name": "Open in Claude Code",
     "author": "wepee",
@@ -23581,13 +23574,6 @@
     "author": "liuyangart",
     "description": "Canvas AI Plugin - use Gemini AI in Canvas view, support text / image / node generation. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "liuyangart/obsidian-canvas-banana"
-  },
-  {
-    "id": "gemini-helper",
-    "name": "Gemini Helper",
-    "author": "TAKESHI MORITA",
-    "description": "AI chat, workflow automation, semantic search (RAG), LLM Wiki (OKF), and dashboards with reading memos powered by Google Gemini. Works on both desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "takeshy/obsidian-gemini-helper"
   },
   {
     "id": "dropdown-vars",
@@ -30954,6 +30940,13 @@
     "repo": "liuh886/ownly-obsidian"
   },
   {
+    "id": "markdown-wechat-publisher",
+    "name": "Markdown WeChat Publisher",
+    "author": "Ancle",
+    "description": "Preview, style, copy, and publish Markdown notes to multiple WeChat Official Accounts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhangloveyan/obsidian-to-wechat"
+  },
+  {
     "id": "narrate",
     "name": "Narrate",
     "author": "jade",
@@ -35227,7 +35220,7 @@
     "id": "traverture",
     "name": "traVERture",
     "author": "Eryk J.",
-    "description": "Parse, convert, and preview scripture references; insert citations from NWT Bible, and launch in JW Library and JW.ORG. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Parse and convert scripture references, view Bible text and study notes from the NWT, insert citations, and open in JW Library or JW.ORG. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "erykjj/traverture"
   },
   {
@@ -41723,7 +41716,7 @@
     "id": "curtis-ai-chat",
     "name": "Curtis.ai",
     "author": "Jordan Newell",
-    "description": "Curtis AI chat and agent layer for Obsidian: 53 providers (OpenAI to Ollama), vault tools + MCP servers, skills, scheduled runs, arena, long-term memory. Local-first. Free, MIT - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "(changes coming) Curtis AI chat and agent layer for Obsidian: 53 providers (OpenAI to Ollama), vault tools + MCP servers, skills, scheduled runs, arena, long-term memory. Local-first. Free, MIT - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jordannewell/curtis-ai-chat"
   },
   {
@@ -49530,13 +49523,6 @@
     "author": "joechen",
     "description": "Renders nested GFM tables and repairs indented callouts in Live Preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "joechen2me/obsidian-nested-markdown-renderer"
-  },
-  {
-    "id": "gym-app",
-    "name": "Gym Vault",
-    "author": "Ruan",
-    "description": "Your training as plain files in your own vault — a daily dashboard, exercise library, plans, goals, workout history and body stats. No account, no server. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ruanpienaarcode/Gym-Vault"
   },
   {
     "id": "lacewing",
@@ -57740,7 +57726,7 @@
     "name": "Scys Radar",
     "author": "zack",
     "description": "生财有术 MCP 雷达：在 Obsidian 里浏览热门/精华/风向标/航海，兴趣关键词高亮，一键收藏为笔记。Scys (shengcaiyoushu) MCP radar inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zackzhangkai/scys-radar-obsidian"
+    "repo": "zack6116/scys-radar-obsidian"
   },
   {
     "id": "myagenda",
@@ -60718,13 +60704,6 @@
     "repo": "theluckystrike/embed-outline"
   },
   {
-    "id": "kanban-embed",
-    "name": "Kanban Embed",
-    "author": "theluckystrike",
-    "description": "Shows a Kanban board inside any note, read from the board file, with live updates, lane picking and card check-off. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "theluckystrike/kanban-embed"
-  },
-  {
     "id": "bases-note-templates",
     "name": "Bases Note Templates",
     "author": "theluckystrike",
@@ -60938,7 +60917,7 @@
     "id": "vtable",
     "name": "Vtable",
     "author": "vmsimab",
-    "description": "Create and edit enhanced tables with merged cells, in-cell line breaks, Excel-style formulas, checkable tasks, images, math, charts, diagonal split headers, and export to Markdown or HTML. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create and edit enhanced tables within native Markdown documents, featuring unique functions such as cell merging. Convert between Markdown and HTML formats whilst ensuring a smooth editing experience - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ming145/Vtable"
   },
   {
@@ -61043,13 +61022,13 @@
     "id": "first-sentence-title",
     "name": "First Sentence Title",
     "author": "mersol",
-    "description": "保存笔记时，自动把正文第一句（以句号。结尾）设为文件名（标题）。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "保存笔记时自动以正文第一句或标题行命名文件；支持中文「。」与英文「.」等句末标点，跳过 Mr./版本号缩写，双链自动同步。 Auto-titles notes from the first sentence or title line; supports Chinese「。」/English「.」, skips Mr./v1.0.0, wikilinks sync. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ri0977-code/first-sentence-title"
   },
   {
     "id": "oe-link",
     "name": "OE Link",
-    "author": "王腾",
+    "author": "TenW",
     "description": "Connect Eagle assets with Obsidian notes and canvases. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ten-w/OE-Link"
   },
@@ -61211,21 +61190,21 @@
     "id": "curtis-ai-audit",
     "name": "Curtis AI Audit",
     "author": "Jordan Newell",
-    "description": "Local-first audit trail for AI agent activity. Every agent inference gets an append-only markdown receipt in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "(changes coming)  Local-first audit trail for AI agent activity. Every agent inference gets an append-only markdown receipt in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jordannewell/curtis-ai-audit"
   },
   {
     "id": "curtis-ai-chat-porter",
     "name": "Curtis Porter",
     "author": "Jordan Newell",
-    "description": "Port ChatGPT, Claude, DeepSeek or any transcript into .curt files and vault-ready Markdown. Standalone, local-first, free and open source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "(changes coming)  Port ChatGPT, Claude, DeepSeek or any transcript into .curt files and vault-ready Markdown. Standalone, local-first, free and open source. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jordannewell/curtis-ai-chat-porter"
   },
   {
     "id": "token-receipt",
     "name": "Token Receipt",
     "author": "matsurimw",
-    "description": "Turn a day of Claude Code and WorkBuddy token usage into a shop receipt: tokens by model, cache reads and writes, and the cost at API prices. Copy it as an image or save it as a PNG. Reads local session logs only. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Turn a day of token usage into a shop receipt - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "matsurimw/token-receipt"
   },
   {
@@ -61255,6 +61234,13 @@
     "author": "Matt MOOre",
     "description": "Start Obsidian with Windows and optionally keep each vault in the system tray. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "the-matt-moo/obsidian-windows-startup"
+  },
+  {
+    "id": "telegram-companion",
+    "name": "Telegram Companion",
+    "author": "matsurimw",
+    "description": "Capture Telegram messages into your daily note, and chat with a bot that has read your recent notes. It keeps a profile note about you and works with the model you choose. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "matsurimw/telegram-companion"
   },
   {
     "id": "png-metadata-editor",
@@ -61332,5 +61318,54 @@
     "author": "sejder",
     "description": "Spaced-repetition flashcards from simple Question::Answer lines,   scheduled with FSRS. All review data stays out of your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sejder/retain"
+  },
+  {
+    "id": "sync-auto-save",
+    "name": "sync-auto-save",
+    "author": "zlll",
+    "description": "bug fix。Based on Remotely Save. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhouli1473805572/sync-auto-save"
+  },
+  {
+    "id": "bases-view-checkpoints",
+    "name": "Bases View Checkpoints",
+    "author": "theluckystrike",
+    "description": "Save a Bases view setup and restore it after temporary changes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/bases-view-checkpoints"
+  },
+  {
+    "id": "property-reminders",
+    "name": "Property Reminders",
+    "author": "Abdulkader Safi",
+    "description": "Get a notification when the date and time in a note's property arrives, and open that note with one click. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abdulkader-safi/obsidian-reminder-plugin"
+  },
+  {
+    "id": "discussion-brief-cards",
+    "name": "Discussion Brief Cards",
+    "author": "theluckystrike",
+    "description": "Show GitHub discussion text and answer state beside your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/discussion-brief-cards"
+  },
+  {
+    "id": "hr-fold-stop",
+    "name": "Fold Stop",
+    "author": "theluckystrike",
+    "description": "Stop heading folds at horizontal rules so the next section stays visible. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/hr-fold-stop"
+  },
+  {
+    "id": "table-row-links",
+    "name": "Table Row Links",
+    "author": "theluckystrike",
+    "description": "Copy links to marked data rows in Markdown tables and open notes at those rows. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/table-row-links"
+  },
+  {
+    "id": "opencode-web-sidebar",
+    "name": "OpenCode Web Sidebar",
+    "author": "hatsune_miku",
+    "description": "Use OpenCode Web in a desktop sidebar with per-vault connections and Markdown math copying. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hatsunemiku533/opencode-web-sidebar"
   }
 ]
