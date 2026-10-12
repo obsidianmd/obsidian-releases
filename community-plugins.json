@@ -42399,6 +42399,13 @@
     "repo": "reticenceji/better-quick-switcher"
   },
   {
+    "id": "lifeweeks",
+    "name": "Life in Weeks",
+    "author": "Michael Baumann",
+    "description": "Render a life-in-weeks grid over your vault's weekly and daily notes. Click a cell to open its note, long-press for the day view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "micha12323/lifeweeks-obsidian"
+  },
+  {
     "id": "duowei-table",
     "name": "Duowei Table",
     "author": "jepicaju862-lab",
@@ -48717,7 +48724,7 @@
     "name": "AI Vault Assistant",
     "author": "陶鑫旺",
     "description": "接入 cc-switch 本地代理使用 AI：对话整理 Vault、构建相互关联的笔记、列出插件与命令、内置 Skills、开放 MCP 服务供 Codex 等外部 Agent 接入、推荐并安装社区插件、经确认后修改插件配置。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "1716775457damn/obsidian-ai-vault-assistant"
+    "repo": "xinwangtao/obsidian-ai-vault-assistant"
   },
   {
     "id": "typstian",
@@ -54124,6 +54131,13 @@
     "repo": "tigger-developer/ios-tts"
   },
   {
+    "id": "local-ollama-websearch",
+    "name": "Local Ollama with Web Search",
+    "author": "Frank Lechtenberg",
+    "description": "Chat with local Ollama AI models directly in Obsidian. Includes built-in DuckDuckGo web search – no API key, no cloud, no telemetry. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "geolech/obsidian-local-ollama"
+  },
+  {
     "id": "pharos",
     "name": "Pharos",
     "author": "disasta-g",
@@ -57656,7 +57670,7 @@
     "name": "Agent Monitor",
     "author": "zack",
     "description": "Monitor local Codex, Claude Code, and WorkBuddy projects, sessions, processes, and services on macOS. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zackzhangkai/obsidian-agent-monitor"
+    "repo": "zack6116/obsidian-agent-monitor"
   },
   {
     "id": "text-bookmarks",
@@ -58590,6 +58604,13 @@
     "repo": "united-share/obsidian-unitedshare"
   },
   {
+    "id": "multiline-tabs-wheel-scroll",
+    "name": "Multiline Tabs Wheel Scroll",
+    "author": "ltz6",
+    "description": "Multiline editor tabs with adjustable layout, smooth scrolling, and cross-window drag and drop. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ltz6/obsidian-multiline-tabs-wheel-scroll"
+  },
+  {
     "id": "feishu-lite",
     "name": "Feishu Lite",
     "author": "mx - pai",
@@ -59505,6 +59526,13 @@
     "author": "向阳乔木",
     "description": "Learn UI design: browse 13,500+ real designs, a bilingual UI dictionary, a style atlas and an aesthetic quiz, then take notes and copy replication prompts for vibe coding. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "joeseesun/qiaomu-ui-learn"
+  },
+  {
+    "id": "rhen-info-vault",
+    "name": "Rhen Vault",
+    "author": "Mark Schmidt",
+    "description": "Seals private information from AI agents and harnesses to protect your data from unwanted usage. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "markaschmidt/Rhen-Vault"
   },
   {
     "id": "rev-view",
@@ -60571,13 +60599,6 @@
     "repo": "arkkwang/obsidian-inline-notes"
   },
   {
-    "id": "ink-notes",
-    "name": "Ink Notes",
-    "author": "HU Jihan",
-    "description": "Goodnotes-style handwritten notebooks that sync as Vault files across Obsidian devices. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mghurryo/ink-notes"
-  },
-  {
     "id": "axon",
     "name": "Axon",
     "author": "Abdullah Alhariri",
@@ -61162,7 +61183,7 @@
     "id": "vault-bus",
     "name": "Vault Bus",
     "author": "Jordan Newell",
-    "description": "Chat inside your vault - A vault-local markdown message bus: give plugins, agents, and humans addresses and let them talk through inbox notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "(debuggin currently) Chat inside your vault - A vault-local markdown message bus: give plugins, agents, and humans addresses and let them talk through inbox notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jordannewell/vault-bus"
   },
   {
@@ -61257,6 +61278,13 @@
     "repo": "automandc/obsidian-png-metadata-editor"
   },
   {
+    "id": "markdown-x-publisher",
+    "name": "Markdown X Publisher",
+    "author": "Ancle",
+    "description": "Preview Markdown notes and save X Article drafts using your Chrome session. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhangloveyan/obsidian-to-x"
+  },
+  {
     "id": "zim-notebook-import",
     "name": "Zim Notebook Import",
     "author": "theluckystrike",
@@ -61311,5 +61339,12 @@
     "author": "theluckystrike",
     "description": "Copy one saved Bases view as a complete embedded query. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/bases-view-extract"
+  },
+  {
+    "id": "retain",
+    "name": "Retain",
+    "author": "sejder",
+    "description": "Spaced-repetition flashcards from simple Question::Answer lines,   scheduled with FSRS. All review data stays out of your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sejder/retain"
   }
 ]
