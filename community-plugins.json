@@ -41737,7 +41737,7 @@
     "id": "curtis-ai-chat",
     "name": "Curtis.ai",
     "author": "Jordan Newell",
-    "description": "AI chat and agent layer for Obsidian: 53 providers (OpenAI to Ollama), vault tools + MCP servers, skills, scheduled runs, arena, long-term memory. Local-first. Free, MIT - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Curtis AI chat and agent layer for Obsidian: 53 providers (OpenAI to Ollama), vault tools + MCP servers, skills, scheduled runs, arena, long-term memory. Local-first. Free, MIT - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jordannewell/curtis-ai-chat"
   },
   {
@@ -44378,6 +44378,13 @@
     "author": "shuyuan Fan",
     "description": "录音转文字 + AI深度分析，一键生成面试复盘报告。一个阿里云百炼API Key全搞定。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wenwenshenqihailuo/interview-review"
+  },
+  {
+    "id": "chemedit",
+    "name": "ChemEdit",
+    "author": "Ruzal Sitdikov",
+    "description": "Chemistry editor for Obsidian with ELN support. Draw and edit chemical structures, molecules and reactions for organic chemistry. Supports SMILES, MOL, and ChemDraw (CDXML) files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ruzx/obsidian-chemedit"
   },
   {
     "id": "copy-outline",
@@ -51842,6 +51849,13 @@
     "repo": "eightk1ll/obsidian-claude-usage"
   },
   {
+    "id": "agentnote",
+    "name": "agentNote",
+    "author": "Xinxin",
+    "description": "Share local notes and files with AI agents through a private HTTP service. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xinxinrana/agentNote-Obsidian-"
+  },
+  {
     "id": "copy-with-footnotes",
     "name": "Copy with Footnotes",
     "author": "Systina12",
@@ -55046,6 +55060,13 @@
     "author": "nikchallenger",
     "description": "Chat with your Obsidian vault through connected LLM providers. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nikchallenger/codriver"
+  },
+  {
+    "id": "plain-ledger",
+    "name": "PlainLedger",
+    "author": "囍樂",
+    "description": "Standalone ledger for vault-local bills, budgets, subscriptions, and reports. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xileshuo/plain-ledger-obsidian"
   },
   {
     "id": "jinianri",
@@ -60053,6 +60074,13 @@
     "repo": "xjusvibin/obsidian-constellation-graph"
   },
   {
+    "id": "doc-works",
+    "name": "Doc Works",
+    "author": "Miles",
+    "description": "View and edit Word (.docx) and PowerPoint (.pptx) files inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zarnuq/DocWorks"
+  },
+  {
     "id": "book-lookup",
     "name": "Book Lookup",
     "author": "siulved54",
@@ -60345,13 +60373,6 @@
     "author": "paddy",
     "description": "Format code blocks with one click and run Python, JavaScript, TypeScript, and shell blocks in place. Formatting supports JavaScript, TypeScript, JSON, CSS, HTML, Vue, Markdown, YAML, and GraphQL. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "paddychenc75/obsidian-code-block-kit"
-  },
-  {
-    "id": "selfsync",
-    "name": "Selfsync",
-    "author": "Masson17",
-    "description": "Sync your vault through your own server, with no lost edits: automatic merges, conflict copies, deleted file recovery, file history and optional end-to-end encryption. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "darkildo/selfsync"
   },
   {
     "id": "graph-plus",
@@ -61180,6 +61201,20 @@
     "repo": "serena-sheng/super-useful-claudian"
   },
   {
+    "id": "curtis-ai-audit",
+    "name": "Curtis AI Audit",
+    "author": "Jordan Newell",
+    "description": "Local-first audit trail for AI agent activity. Every agent inference gets an append-only markdown receipt in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jordannewell/curtis-ai-audit"
+  },
+  {
+    "id": "curtis-ai-chat-porter",
+    "name": "Curtis Porter",
+    "author": "Jordan Newell",
+    "description": "Port ChatGPT, Claude, DeepSeek or any transcript into .curt files and vault-ready Markdown. Standalone, local-first, free and open source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jordannewell/curtis-ai-chat-porter"
+  },
+  {
     "id": "token-receipt",
     "name": "Token Receipt",
     "author": "matsurimw",
@@ -61220,5 +61255,40 @@
     "author": "Tobias Zimmerman",
     "description": "View and edit PNG metadata, with a dedicated mode for SillyTavern character cards. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "automandc/obsidian-png-metadata-editor"
+  },
+  {
+    "id": "zim-notebook-import",
+    "name": "Zim Notebook Import",
+    "author": "theluckystrike",
+    "description": "Convert basic Zim pages into linked Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/zim-notebook-import"
+  },
+  {
+    "id": "standard-notes-import",
+    "name": "Standard Notes Import",
+    "author": "theluckystrike",
+    "description": "Import decrypted Standard Notes backups with tags and dates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/standard-notes-import"
+  },
+  {
+    "id": "embedded-text-finder",
+    "name": "Embedded Text Finder",
+    "author": "theluckystrike",
+    "description": "Find containing notes by text in their Markdown embeds. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/embedded-text-finder"
+  },
+  {
+    "id": "opml-note-import",
+    "name": "OPML Note Import",
+    "author": "theluckystrike",
+    "description": "Convert outline exports into ordered Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/opml-note-import"
+  },
+  {
+    "id": "bases-transpose-table",
+    "name": "Bases Transpose Table",
+    "author": "theluckystrike",
+    "description": "Compare notes in columns and edit simple properties in rows. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/bases-transpose-table"
   }
 ]
