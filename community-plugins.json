@@ -16019,7 +16019,7 @@
     "id": "come-through",
     "name": "Come Through",
     "author": "mntno",
-    "description": "Drill flashcards using spaced repetition.",
+    "description": "Drill yourself using spaced repetition.",
     "repo": "mntno/obsidian-come-through"
   },
   {
@@ -44919,13 +44919,6 @@
     "repo": "iyiguncevik/obsidian-withings-sync"
   },
   {
-    "id": "unagent",
-    "name": "UNagent",
-    "author": "UNcore",
-    "description": "Mobile-first AI assistant: lightweight on phones/tablets, heavy-duty task capabilities on desktop via hermes ACP. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "uncore-gh/UNagent"
-  },
-  {
     "id": "quick-export",
     "name": "Quick Export",
     "author": "mikagosz",
@@ -60375,6 +60368,13 @@
     "repo": "paddychenc75/obsidian-code-block-kit"
   },
   {
+    "id": "selfsync",
+    "name": "Selfsync",
+    "author": "Masson17",
+    "description": "Sync your vault through your own server, with no lost edits: automatic merges, conflict copies, deleted file recovery, file history and optional end-to-end encryption. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "darkildo/selfsync"
+  },
+  {
     "id": "graph-plus",
     "name": "Graph+",
     "author": "woodamsclark",
@@ -60774,13 +60774,6 @@
     "repo": "theluckystrike/callout-table-footnotes"
   },
   {
-    "id": "read-progress",
-    "name": "Read Progress",
-    "author": "Goupl Fesim",
-    "description": "Renders a reading progress bar below each markdown note in the file explorer. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "losecloud/Obsidian-Read-Progress"
-  },
-  {
     "id": "vault-scout",
     "name": "Vault Scout",
     "author": "floorianmb",
@@ -61096,13 +61089,6 @@
     "repo": "haderlka/obsidian-pivot-tables"
   },
   {
-    "id": "glasscockpit",
-    "name": "Glasscockpit",
-    "author": "Niklas J. Thaler",
-    "description": "Run Claude Code sessions as terminal views inside Obsidian, with a cockpit dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "nyko073006/glasscockpit"
-  },
-  {
     "id": "storyteller-comic-drafter",
     "name": "Storyteller Comic Drafter",
     "author": "Jim",
@@ -61113,8 +61099,15 @@
     "id": "magical-cards",
     "name": "Magical Cards",
     "author": "FF Barry",
-    "description": "Turn book and film collections into interactive cover cards with draggable modules and note embeds. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Browse book, film and image showcase cards with editable descriptions, draggable modules and note embeds. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "abigblackcat/Obsidian-Magical_Cards"
+  },
+  {
+    "id": "flashcard",
+    "name": "FlashCard",
+    "author": "Ansu Samanta",
+    "description": "Obsidian plugin: automatic flashcards, spaced repetition, active recall and retention analytics. Local and free. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "samantaansu2010/flashcard"
   },
   {
     "id": "oriva",
@@ -61136,6 +61129,13 @@
     "author": "licf",
     "description": "结合卢曼笔记层级思想与 Obsidian 双链功能，取消编号——每个节点是一篇笔记，通过 frontmatter children/parent 链接自然关联。支持多选导图、工作台统计、拖拽连线、批量操作、键盘快捷键、横纵布局、导出 SVG/PNG/Markdown，适配手机端触屏。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "licfcn/link-mindmap"
+  },
+  {
+    "id": "vault-connect-bridge",
+    "name": "Vault Connect Bridge",
+    "author": "Ansu Samanta",
+    "description": "Link between separate vaults on this computer without merging them. Local-only, no network. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "samantaansu2010/vault-connect-bridge"
   },
   {
     "id": "special-characters-panel",
@@ -61290,5 +61290,26 @@
     "author": "theluckystrike",
     "description": "Compare notes in columns and edit simple properties in rows. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/bases-transpose-table"
+  },
+  {
+    "id": "bigorneau",
+    "name": "Bigorneau",
+    "author": "Holweck",
+    "description": "Write long documents as a mind map: organise headings visually, then export a typeset PDF with the line breaking of TeX, footnotes, tables, figures and formulas. Suited to academic reports. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bigorneau15652/bigorneau"
+  },
+  {
+    "id": "scene-subtree-mover",
+    "name": "Scene Subtree Mover",
+    "author": "theluckystrike",
+    "description": "Move a chapter and its child scenes together in a manuscript index. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/scene-subtree-mover"
+  },
+  {
+    "id": "bases-view-extract",
+    "name": "Bases View Extract",
+    "author": "theluckystrike",
+    "description": "Copy one saved Bases view as a complete embedded query. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/bases-view-extract"
   }
 ]
