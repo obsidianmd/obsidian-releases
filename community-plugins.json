@@ -52384,7 +52384,7 @@
     "id": "qiaomu-reader",
     "name": "Qiaomu Reader",
     "author": "向阳乔木",
-    "description": "Read EPUB, PDF, MOBI, FB2 and comics with highlights, notes, progress, custom fonts and optional AI assistance. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Read EPUB, PDF, MOBI, FB2, comics, Markdown, TXT and HTML with highlights, notes, reading progress and optional AI assistance. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "joeseesun/qiaomu-reader"
   },
   {
@@ -52645,13 +52645,6 @@
     "author": "Dominique Devereaux",
     "description": "Record and review authorship, sources, rights, consent, and narrative status in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ibloud/narrative-provenance"
-  },
-  {
-    "id": "motusai-vault-agent",
-    "name": "MotusAI Agent",
-    "author": "AGIMX AI",
-    "description": "Connect your vault to Agent Harness in MotusAI Seed. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "agimx-ai/motusai-obsidian-agent"
   },
   {
     "id": "merlay",
@@ -60084,7 +60077,7 @@
     "id": "doc-works",
     "name": "Doc Works",
     "author": "Miles",
-    "description": "View and edit Word (.docx) and PowerPoint (.pptx) files inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "View and edit Word (.docx) PowerPoint (.pptx) and Excel (.xlsx) files inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zarnuq/DocWorks"
   },
   {
@@ -60716,6 +60709,13 @@
     "author": "theluckystrike",
     "description": "Shows the headings of embedded notes and callout titles in one outline, nested where each note is embedded. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/embed-outline"
+  },
+  {
+    "id": "kanban-embed",
+    "name": "Kanban Embed",
+    "author": "theluckystrike",
+    "description": "Shows a Kanban board inside any note, read from the board file, with live updates, lane picking and card check-off. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/kanban-embed"
   },
   {
     "id": "bases-note-templates",
@@ -61404,6 +61404,13 @@
     "repo": "theluckystrike/enterprise-issue-cards"
   },
   {
+    "id": "vault-sync-git",
+    "name": "Vault Sync for Git",
+    "author": "x-o-r-r-o",
+    "description": "Sync and back up your vault on desktop and mobile with a Git repository on GitHub, GitLab or Gitea. No Git install needed, with smart merging, version history and optional end-to-end encryption. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "x-o-r-r-o/vault-sync-github"
+  },
+  {
     "id": "fixation-reader",
     "name": "Fixation Reader",
     "author": "theluckystrike",
@@ -61416,5 +61423,68 @@
     "author": "yaki-blake",
     "description": "阻止 < 被自动配对或解析为 HTML 标签：输入即转义为 \\<，并提供一键修复已有笔记。避免未闭合标签吞掉后续内容导致排版崩塌。代码块与行内代码自动跳过. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yaki-blake/Angle-Bracket-Shield"
+  },
+  {
+    "id": "native-mindmap",
+    "name": "Native Mindmap",
+    "author": "kevin",
+    "description": "Animated, keyboard-first mindmaps that live in plain Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "azilone/obsidian-native-mindmap"
+  },
+  {
+    "id": "foyer",
+    "name": "Foyer",
+    "author": "Toni López",
+    "description": "A beautiful, minimal start page for your notes. Instant fuzzy search, real recent history, and a warm greeting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tonilopezphoto/foyer"
+  },
+  {
+    "id": "inkling-markup",
+    "name": "Inkling Markup",
+    "author": "Andrew Brož",
+    "description": "Suggest edits, add comments, and annotate your notes using CriticMarkup syntax. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andrewbroz/obsidian-inkling"
+  },
+  {
+    "id": "pdf-collation",
+    "name": "PDF Collation",
+    "author": "hongdonglee",
+    "description": "Compare Markdown notes with PDFs side by side, synchronize text selections and pages, generate paginated drafts, and edit page blocks inline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hongdonglee/obsidian-pdf-collation"
+  },
+  {
+    "id": "transclusion-extractor",
+    "name": "Transclusion Extractor",
+    "author": "Andrew Brož",
+    "description": "Export notes built from transclusions with every embed expanded, or inline a single transclusion for separate editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andrewbroz/obsidian-transclusion-extractor"
+  },
+  {
+    "id": "sync-churn-watch",
+    "name": "Sync Churn Watch",
+    "author": "theluckystrike",
+    "description": "Find the files and settings that your vault rewrites most often, so you can see what fills your sync history. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/sync-churn-watch"
+  },
+  {
+    "id": "journey-import",
+    "name": "Journey Diary Import",
+    "author": "theluckystrike",
+    "description": "Convert Journey diary ZIP backups into dated Markdown notes with photos. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/journey-import"
+  },
+  {
+    "id": "vault-loss-alarm",
+    "name": "Vault Loss Alarm",
+    "author": "theluckystrike",
+    "description": "Warn you when notes or attachments vanish from your vault and list each missing path with its last known size. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/vault-loss-alarm"
+  },
+  {
+    "id": "secret-parcel",
+    "name": "Secret Parcel",
+    "author": "theluckystrike",
+    "description": "Move selected keychain secrets to another device in one passphrase-encrypted file. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/secret-parcel"
   }
 ]
