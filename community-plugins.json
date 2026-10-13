@@ -39987,7 +39987,7 @@
     "id": "easy-sync",
     "name": "EasySync",
     "author": "Jiao Yingxing",
-    "description": "Two-way OneDrive sync for Obsidian, with conflict safeguards, mobile support, and optional settings/plugin sync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Two-way and one-way OneDrive sync for Obsidian, with conflict safeguards, mobile support, and optional settings/plugin sync. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiaoyingxing/easy-sync"
   },
   {
@@ -41923,13 +41923,6 @@
     "repo": "jiwooroh/multi-ai-assistant"
   },
   {
-    "id": "extended-base",
-    "name": "Extended Base",
-    "author": "Jiwoo Roh",
-    "description": "An Extended Base view with column wrap, top-aligned cells, and transparent background. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jiwooroh/extended-base"
-  },
-  {
     "id": "drawio-blocks",
     "name": "draw.io Blocks",
     "author": "dy",
@@ -43251,6 +43244,13 @@
     "author": "kosperun",
     "description": "Convert selected text between English and Ukrainian keyboard layouts, for when you forgot to switch layout before typing - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kosperun/obsidian-fix-word-layout-uk-en"
+  },
+  {
+    "id": "anki-card-link",
+    "name": "Anki Card Link",
+    "author": "王若冰",
+    "description": "Open Anki searches from Obsidian using note IDs, card IDs, text, or custom queries across desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wangruobing-dev/obsidian-anki-card-link"
   },
   {
     "id": "gate-simulator",
@@ -46046,13 +46046,6 @@
     "repo": "codewithelvin/confluence-for-obsidian"
   },
   {
-    "id": "big-characters",
-    "name": "Big Characters",
-    "author": "artem",
-    "description": "Styles Chinese and Korean text with optional pronunciation (pinyin, romanization) annotations. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "a-zasypalov/Obsidian-Big-Characters"
-  },
-  {
     "id": "ebook-library",
     "name": "Ebook Library",
     "author": "swekizer",
@@ -46702,6 +46695,13 @@
     "author": "余航",
     "description": "Embed DSH (DeepSeek Harness) as the single AI agent in your vault: chat panel, session history, per-session model/reasoning-effort/permission switching, live thinking process, and model discovery. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tudo9710/obsidian-dsh"
+  },
+  {
+    "id": "smart-notes",
+    "name": "Smart Notes",
+    "author": "hellokunzai",
+    "description": "Analyze your vault with AI to generate bidirectional links, enrich frontmatter properties, optimize notes, and provide in-editor autocompletion. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hellokunzai/obsidian-smart-notes"
   },
   {
     "id": "canvas-to-tasks",
@@ -60221,13 +60221,6 @@
     "repo": "loglux/obsidian-blueproof"
   },
   {
-    "id": "ijipu",
-    "name": "iJipu",
-    "author": "蜗牛",
-    "description": "Render .jps jianpu scripts into sheet music inside your notes, with playback, and edit scores in a full built-in iJipu editor. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "snailhome/obsidian-ijipu"
-  },
-  {
     "id": "wcc-base-views",
     "name": "WCC Base Views",
     "author": "wcchristian",
@@ -61432,6 +61425,13 @@
     "repo": "cynthia2023xy/obsidian-loose-json"
   },
   {
+    "id": "daymark-chinese-calendar",
+    "name": "Daymark - Chinese Holiday Calendar",
+    "author": "cynthia-ding",
+    "description": "Plan important events and rolling to-dos with built-in Chinese public holidays, embedded calendars, and a customizable focus timer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cynthia2023xy/obsidian-daymark"
+  },
+  {
     "id": "epub-viewer",
     "name": "Epub Viewer",
     "author": "hellokunzai",
@@ -61544,6 +61544,13 @@
     "repo": "theluckystrike/secret-parcel"
   },
   {
+    "id": "bases-read-only",
+    "name": "Bases Read Only",
+    "author": "theluckystrike",
+    "description": "Lock chosen bases to block clicks, keys and drags that change cells, cards or view settings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/bases-read-only"
+  },
+  {
     "id": "easy-quiz",
     "name": "EasyQuiz",
     "author": "Anking Lin",
@@ -61563,6 +61570,13 @@
     "author": "Finn-Christopher Krause",
     "description": "Automatically move completed tasks to the bottom of each Markdown task list, keeping subtasks attached and surrounding text in place. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "finnxwz/tidytasks"
+  },
+  {
+    "id": "pocket-markwhen",
+    "name": "Pocket Markwhen",
+    "author": "theluckystrike",
+    "description": "Read and edit Markwhen timelines on phones and tablets without a change to the file format. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/pocket-markwhen"
   },
   {
     "id": "rewind-vault",
@@ -61619,5 +61633,47 @@
     "author": "pedroilidio",
     "description": "Serialize a Bases view into static Markdown, wrapped in sentinel comments so it can be refreshed in place. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pedroilidio/obsidian-bases-serializer"
+  },
+  {
+    "id": "codem-chat",
+    "name": "CodeM Chat",
+    "author": "孙鹏飞",
+    "description": "Embeds CodeM (Feishu AI coding agent) as a sidebar chat in your vault. Your vault becomes its working directory. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "spenf710/codem-obsidian-chat"
+  },
+  {
+    "id": "cherrytree-import",
+    "name": "CherryTree Import",
+    "author": "theluckystrike",
+    "description": "Convert CherryTree XML documents into nested Markdown notes with links and images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/cherrytree-import"
+  },
+  {
+    "id": "thebrain-import",
+    "name": "TheBrain Import",
+    "author": "theluckystrike",
+    "description": "Convert TheBrain thoughts and links into linked Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/thebrain-import"
+  },
+  {
+    "id": "eos-workspace",
+    "name": "EOS Workspace",
+    "author": "xixi",
+    "description": "Create a local EOS workspace with reusable templates and user-owned apps in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ligg1990-cmd/eosidian"
+  },
+  {
+    "id": "epoch-note-converter",
+    "name": "Epoch Note Converter",
+    "author": "theluckystrike",
+    "description": "Convert a selected Unix timestamp into an explicit UTC or local date and time. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/epoch-note-converter"
+  },
+  {
+    "id": "flashcard-studio",
+    "name": "Flashcard Studio",
+    "author": "Almalkiid",
+    "description": "Turn notes into flashcards and review them with FSRS scheduling, daily limits, statistics and an exam mode, on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "almalkiid/flashcard-studio"
   }
 ]
