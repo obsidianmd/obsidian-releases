@@ -59374,13 +59374,6 @@
     "repo": "zhang66633/obsidian-xi"
   },
   {
-    "id": "tech-tree-companion",
-    "name": "Tech Tree Companion",
-    "author": "Mu_Alive",
-    "description": "Create and manage SVG cards, templates, connections, and linked note details in Excalidraw. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hwmllv/tech-tree-companion"
-  },
-  {
     "id": "xwiki-publisher",
     "name": "XWiki Publisher",
     "author": "Tunahan ALTINTOP",
@@ -60515,13 +60508,6 @@
     "repo": "stefanmayer06/obsidian-blob-sync"
   },
   {
-    "id": "kindle-reader",
-    "name": "Kindle Reader",
-    "author": "Bernardo Nogueira",
-    "description": "Kindle-reader is based on Book Reader by Elton, which provided the original URL import base. This project was substantially rewritten and extended with new features. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "bernardonogueira8/kindle-reader"
-  },
-  {
     "id": "dangling-links-with-replace",
     "name": "Dangling links with replace",
     "author": "graydon",
@@ -61334,6 +61320,13 @@
     "repo": "theluckystrike/bases-transpose-table"
   },
   {
+    "id": "img-cleanup",
+    "name": "Img Cleanup",
+    "author": "Radix",
+    "description": "Selective attachment cleanup: detects images unlinked from a note and offers to send them to the trash. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "radixtenshi/obsidian-img"
+  },
+  {
     "id": "bigorneau",
     "name": "Bigorneau",
     "author": "Holweck",
@@ -61437,6 +61430,13 @@
     "author": "cynthia-ding",
     "description": "Format loose JSON, copy JavaScript values, decode stringified fields, repair JSON, and extract log data offline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cynthia2023xy/obsidian-loose-json"
+  },
+  {
+    "id": "epub-viewer",
+    "name": "Epub Viewer",
+    "author": "hellokunzai",
+    "description": "Open EPUB, MOBI, AZW3, FB2, CBZ and TXT in a clean reader: paginated or continuous scrolling, adjustable font size, reading themes, table of contents, full-text search, a progress bookshelf and reading-time tracking. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hellokunzai/obsidian-epub-viewer"
   },
   {
     "id": "live-template-results",
@@ -61612,5 +61612,12 @@
     "author": "Charles Kelsoe",
     "description": "Shows Annoteca comment badges on Mind map editor nodes and lets you comment on a node. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ckelsoe/obsidian-annoteca-mindmap-bridge"
+  },
+  {
+    "id": "bases-serializer",
+    "name": "Bases Serializer",
+    "author": "pedroilidio",
+    "description": "Serialize a Bases view into static Markdown, wrapped in sentinel comments so it can be refreshed in place. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pedroilidio/obsidian-bases-serializer"
   }
 ]
