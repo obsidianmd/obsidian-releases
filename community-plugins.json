@@ -41923,6 +41923,13 @@
     "repo": "jiwooroh/multi-ai-assistant"
   },
   {
+    "id": "folgezettel-navigator",
+    "name": "Folgezettel Navigator",
+    "author": "Niels-Oliver Walkwoski",
+    "description": "Visualize and navigate a Luhmann-style Folgezettel note sequence in a sidebar panel. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cutuchiqueno/obsidian-folgezettel-navigator"
+  },
+  {
     "id": "drawio-blocks",
     "name": "draw.io Blocks",
     "author": "dy",
@@ -46121,13 +46128,6 @@
     "author": "华佳浩",
     "description": "Render math with a bundled, up-to-date MathJax 4 engine, without replacing Obsidian's built-in MathJax. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "danlingdan/fastMathJax"
-  },
-  {
-    "id": "gantt-this",
-    "name": "Gantt this",
-    "author": "Altarok",
-    "description": "Interactive Gantt charts for custom TTRPG calendars, with support for Bases views. Track campaign events, eras, and timestamps directly from note frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "altarok/gantt-this"
   },
   {
     "id": "canvas-image-lod",
@@ -61516,13 +61516,6 @@
     "repo": "theluckystrike/enterprise-issue-cards"
   },
   {
-    "id": "vault-sync-git",
-    "name": "Vault Sync for Git",
-    "author": "x-o-r-r-o",
-    "description": "Sync and back up your vault on desktop and mobile with a Git repository on GitHub, GitLab or Gitea. No Git install needed, with smart merging, version history and optional end-to-end encryption. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "x-o-r-r-o/git-sync-backup"
-  },
-  {
     "id": "fixation-reader",
     "name": "Fixation Reader",
     "author": "theluckystrike",
@@ -62109,5 +62102,26 @@
     "author": "Edward Titievskiy",
     "description": "Link Bible references and publications of Jehovah's Witnesses to JW Library, and cite verses and paragraphs from jw.org in English, Russian, and Spanish. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "argonfatl/jwl-linker-ENRU"
+  },
+  {
+    "id": "dm-kit-sync",
+    "name": "DM Kit Sync",
+    "author": "Emanuele",
+    "description": "Send selected notes to DM Kit so your campaign tools and Lorekeeper can use them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "emanuele-moricci/dm-kit_obsidian-sync"
+  },
+  {
+    "id": "sheiko-pokedex",
+    "name": "Sheiko Pokedex",
+    "author": "Sheikh M Sahil",
+    "description": "Catch a Gen 1 Pokémon each time a task closes. Needs TaskNotes and Sheiko Task Lifecycle. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ashura-sheikh/Sheiko-pokedex-plugin"
+  },
+  {
+    "id": "compendio-srd",
+    "name": "Compendio SRD 2024",
+    "author": "Obsidian Die",
+    "description": "Import the official SRD 5.2.1 as linked notes in five languages, with 2024 stat blocks and an encounter budget you can send to Initiative Tracker. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ismaelbase/compendio-srd"
   }
 ]
