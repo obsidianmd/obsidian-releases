@@ -9817,7 +9817,7 @@
     "id": "time-saver",
     "name": "TimeSaver",
     "author": "odayou",
-    "description": "Save your time. 1. Quickly insert todo directive. 2. Quickly count the time spent on tasks in the current note and the total time spent.",
+    "description": "Drag and resize the images to change their size, and easily track the time spent on each task.通过拖拽调整图片大小，并轻松追踪每个任务所花费的时间。",
     "repo": "odayou/task-processing-extension"
   },
   {
@@ -31668,13 +31668,6 @@
     "repo": "gorazenxu/pimate"
   },
   {
-    "id": "remember-code-block-lang",
-    "name": "Remember Code Block Language",
-    "author": "Junyoung Bang",
-    "description": "Remember the language of the last code block you used and automatically insert it next time. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zzunebye/remember-last-code-block-lang"
-  },
-  {
     "id": "auto-close-oldest-tabs",
     "name": "Auto Close Oldest Tabs",
     "author": "usero2-endofday",
@@ -46431,6 +46424,13 @@
     "repo": "jareika/ttrpg-tools-controls"
   },
   {
+    "id": "project-manager-with-time-tracking",
+    "name": "Project Manager with Time Tracking",
+    "author": "Milad Samimifar",
+    "description": "Plan projects and tasks as Markdown notes, track time against them, and review it on a dashboard. Gregorian or Jalali (Shamsi/Persian) calendar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "milad-s5/obsidian-project-manager-with-time-tracking"
+  },
+  {
     "id": "codecks-bridge",
     "name": "Codecks Bridge",
     "author": "Milad Samimifar",
@@ -54826,7 +54826,7 @@
   {
     "id": "crystal-vault",
     "name": "Crystal Vault",
-    "author": "Zhangrunyao",
+    "author": "fengyu",
     "description": "Turn a folder of Markdown cards into a living crystal vault: see the structure, follow the links, read PDFs side by side, and recall what you wrote. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "runyao-zhang/crystal-vault"
   },
@@ -60599,6 +60599,13 @@
     "repo": "arkkwang/obsidian-inline-notes"
   },
   {
+    "id": "ink-notes",
+    "name": "Ink Notes",
+    "author": "mgHurryo",
+    "description": "Goodnotes-style handwritten notebooks that sync as Vault files across Obsidian devices. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mghurryo/ink-notes"
+  },
+  {
     "id": "axon",
     "name": "Axon",
     "author": "Abdullah Alhariri",
@@ -61589,7 +61596,7 @@
     "id": "rewind-vault",
     "name": "Rewind Vault",
     "author": "danrhodes",
-    "description": "Bac up and restore your vault with verification, retention and optional encryption. Works on mobile and desktop. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Backup and restore your vault with verification, retention and optional encryption. Works on mobile and desktop. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "danrhodes/Rewind-Vault"
   },
   {
@@ -61752,5 +61759,12 @@
     "author": "roy",
     "description": "Export Markdown files from Finder with the native PDF renderer, including files outside your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "schnee013/obsidian-finder-pdf"
+  },
+  {
+    "id": "easy-git-sync",
+    "name": "Easy Git Sync",
+    "author": "69jesse",
+    "description": "Easy, uncompromising Git sync for your vault, on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "69jesse/obsidian-easy-git-sync"
   }
 ]
