@@ -12429,7 +12429,7 @@
     "name": "Zoomdrag",
     "author": "ssentiago",
     "description": "Make any image or diagram interactive with zoom, drag, and control panels",
-    "repo": "ssentiago/image-zoom-drag"
+    "repo": "ssentiago/zoomdrag"
   },
   {
     "id": "custom-node-size",
@@ -20818,6 +20818,13 @@
     "repo": "khaldevmedia/obsidian-youtnote"
   },
   {
+    "id": "local-llm-hub",
+    "name": "Local LLM Hub",
+    "author": "TAKESHI MORITA",
+    "description": "Chat with local LLMs (Ollama, LM Studio) with local embeddings RAG, file encryption, edit history, slash commands, and workflow automation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "takeshy/obsidian-local-llm-hub"
+  },
+  {
     "id": "open-in-claude-code",
     "name": "Open in Claude Code",
     "author": "wepee",
@@ -23595,6 +23602,13 @@
     "author": "liuyangart",
     "description": "Canvas AI Plugin - use Gemini AI in Canvas view, support text / image / node generation. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "liuyangart/obsidian-canvas-banana"
+  },
+  {
+    "id": "gemini-helper",
+    "name": "Gemini Helper",
+    "author": "TAKESHI MORITA",
+    "description": "AI chat, workflow automation, semantic search (RAG), LLM Wiki (OKF), and dashboards with reading memos powered by Google Gemini. Works on both desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "takeshy/obsidian-gemini-helper"
   },
   {
     "id": "dropdown-vars",
@@ -51359,6 +51373,13 @@
     "repo": "edwardsayer/obsidian-folder-spaces"
   },
   {
+    "id": "integrated-task-manager",
+    "name": "Integrated Task Manager",
+    "author": "kuberrr0",
+    "description": "Manage Markdown tasks with Inbox, Today, Upcoming, projects, tags, and smart lists. Organize work with filters, calendars, Kanban boards, and Gantt charts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kuberrr0/obsidian-integrated-tasks"
+  },
+  {
     "id": "dev-prod-plugin-switcher",
     "name": "Dev-Prod Switcher",
     "author": "Dan",
@@ -53212,13 +53233,6 @@
     "author": "frank-smith",
     "description": "Ask AI about selected Markdown text and files, with local conversation history and explicit context control. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jm-frank/obsidian-quick-ask"
-  },
-  {
-    "id": "simple-reminder",
-    "name": "Simple Reminder",
-    "author": "Dmitry",
-    "description": "Reminder list with system notifications. Supports interval, one-shot and scheduled types. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dimanchello/obsidian-simple-reminder"
   },
   {
     "id": "vault-in-vault",
@@ -61169,7 +61183,7 @@
     "id": "things-flow",
     "name": "Things Flow",
     "author": "eldani",
-    "description": "Two-way task sync with Things3. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Multi-platform two-way task sync with Things3. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "eldani37/obsidian-things-flow"
   },
   {
@@ -61563,6 +61577,20 @@
     "author": "mooncodee",
     "description": "Sync your vault across devices through your own Google Drive, end-to-end encrypted and compatible with rclone crypt. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mooncodee/crypt-drive-sync"
+  },
+  {
+    "id": "vaultos",
+    "name": "VaultOS",
+    "author": "Bennett",
+    "description": "Vault operating system, customizable bento dashboard, telemetry, and non-blocking multi-model AI assistant for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rbm3267/obsidian-vaultos"
+  },
+  {
+    "id": "vaultflow",
+    "name": "VaultFlow",
+    "author": "Bennett",
+    "description": "Intelligent note ingestion, meeting synthesis, account intelligence, and knowledge graphs powered by your choice of LLM. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rbm3267/obsidian-flow"
   },
   {
     "id": "kanban-to-bases",
