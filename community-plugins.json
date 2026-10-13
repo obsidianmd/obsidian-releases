@@ -55384,13 +55384,6 @@
     "repo": "moonsand79/Obsidian-Placeholder-Manager"
   },
   {
-    "id": "joyspace-publisher",
-    "name": "JoySpace Publisher",
-    "author": "cynthia-ding",
-    "description": "Publish, update, and import Markdown documents with JoySpace. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cynthia2023xy/obsidian-joyspace-publisher"
-  },
-  {
     "id": "textile-export",
     "name": "Textile Export",
     "author": "Nico Blum",
@@ -60921,6 +60914,13 @@
     "repo": "laurinphilip/live-canvas"
   },
   {
+    "id": "cortex-graph",
+    "name": "Cortex Graph",
+    "author": "Bastian Ziemann",
+    "description": "3D graph with glowing nodes: live updates, time lapse with video export, folder colors in the explorer, link suggestions, base forms like sphere, pyramid or brain, activity heat, shortest paths and touch controls. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lowki2/cortex-graph"
+  },
+  {
     "id": "neural-graph",
     "name": "Neural Graph 3D",
     "author": "Carlos",
@@ -61285,6 +61285,13 @@
     "repo": "the-matt-moo/obsidian-windows-startup"
   },
   {
+    "id": "j-studio-export",
+    "name": "PDF-export",
+    "author": "Jerome.wwwwww",
+    "description": "精美 PDF 导出：Paged.js 分页引擎，封面、目录、页眉页码，三套排版预设（正式报告 / 预览快照 / 紧凑打印）。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jerommewei/j-studio-export"
+  },
+  {
     "id": "telegram-companion",
     "name": "Telegram Companion",
     "author": "matsurimw",
@@ -61537,13 +61544,6 @@
     "repo": "hongdonglee/obsidian-pdf-collation"
   },
   {
-    "id": "move-to-linking-file",
-    "name": "Move to Linking File",
-    "author": "Helge Tobias Kosuch",
-    "description": "Moves the selected notes to the folders of their backlinking notes if exactly one backlink exists - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "silidev/obsididan-move-to-linking-file"
-  },
-  {
     "id": "transclusion-extractor",
     "name": "Transclusion Extractor",
     "author": "Andrew Brož",
@@ -61647,13 +61647,6 @@
     "author": "Brievora",
     "description": "Convert boards made with the Kanban community plugin into notes and a base shown in the native Kanban view. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "brievora/kanban-to-bases"
-  },
-  {
-    "id": "ontomark",
-    "name": "Ontomark",
-    "author": "DreamLab AI",
-    "description": "Ontologies in Markdown: index typed notes, run local OWL 2 EL reasoning and SPARQL, apply reviewed frontmatter edits, and optionally extract facts with a model you choose. Offline by default - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dreamlab-ai/ontomark-obsidian"
   },
   {
     "id": "annoteca-mindmap-bridge",
@@ -61794,5 +61787,61 @@
     "author": "69jesse",
     "description": "Easy, uncompromising Git sync for your vault, on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "69jesse/obsidian-easy-git-sync"
+  },
+  {
+    "id": "onedrive-vault-sync",
+    "name": "OneDrive Vault Sync",
+    "author": "seed",
+    "description": "Sync your Obsidian vault with OneDrive (personal, App Folder). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myplugin/obsidian-onedrive-sync"
+  },
+  {
+    "id": "achmage-bases-look",
+    "name": "Achmage Bases Look",
+    "author": "Achmage",
+    "description": "Thumbnails and group colors for core Bases views. Drop images onto cards, kanban, table and list rows, save them to your vault, a URL, Cloudflare R2 or Eagle, and color each group. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "laguna821/achmage-bases-look"
+  },
+  {
+    "id": "quick-move",
+    "name": "Quick Move",
+    "author": "yujia",
+    "description": "Move the current note to a folder in one click: a button in the note header opens a menu of your favorite preset folders, in your order, with aliases. Updates links. Works on mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rainajia716/obsidian-quick-move"
+  },
+  {
+    "id": "pocket-note-quiz",
+    "name": "Pocket Note Quiz",
+    "author": "theluckystrike",
+    "description": "Quiz yourself on question lines in the current note and mark each one right or wrong, on phone or desktop. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/pocket-note-quiz"
+  },
+  {
+    "id": "pocket-mochi-export",
+    "name": "Pocket Mochi Export",
+    "author": "theluckystrike",
+    "description": "Export card tagged notes and their local images to a .mochi archive for Mochi. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/pocket-mochi-export"
+  },
+  {
+    "id": "property-change-ledger",
+    "name": "Property Change Ledger",
+    "author": "theluckystrike",
+    "description": "Record observed changes to selected note properties in a local history file. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/property-change-ledger"
+  },
+  {
+    "id": "bases-property-repair",
+    "name": "Bases Property Repair",
+    "author": "theluckystrike",
+    "description": "Repair exact property references in Base files after a property rename. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/bases-property-repair"
+  },
+  {
+    "id": "revision-session-marks",
+    "name": "Revision Session Marks",
+    "author": "theluckystrike",
+    "description": "Save a writing baseline and turn later edits into a new CriticMarkup review note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/revision-session-marks"
   }
 ]
