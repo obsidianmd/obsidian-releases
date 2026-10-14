@@ -33166,13 +33166,6 @@
     "repo": "ckelsoe/obsidian-annoteca"
   },
   {
-    "id": "editorialist",
-    "name": "Editorialist",
-    "author": "Eric R Taylor",
-    "description": "Import structured editorial feedback from curated human editors, beta readers, or AI, then review editorial suggestions across manuscript scenes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ericrhystaylor/Editorialist"
-  },
-  {
     "id": "star-pins",
     "name": "Star Pins",
     "author": "Brightwav3",
@@ -33220,6 +33213,13 @@
     "author": "usero2-endofday",
     "description": "Read CBZ files - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "usero2/obsidian-plugins-cbz-reader"
+  },
+  {
+    "id": "third-party-sync",
+    "name": "Third-party Sync",
+    "author": "nightfall",
+    "description": "Sync your vault with S3, WebDAV, or OneDrive between local device and cloud service. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nightfall-yl/obsidian-third-party-sync"
   },
   {
     "id": "confluence-vault-uploader",
@@ -44387,6 +44387,13 @@
     "repo": "wenwenshenqihailuo/interview-review"
   },
   {
+    "id": "chemedit",
+    "name": "ChemEdit",
+    "author": "Ruzal Sitdikov",
+    "description": "Chemistry editor for Obsidian with ELN support. Draw and edit chemical structures, molecules and reactions for organic chemistry. Supports SMILES, MOL, and ChemDraw (CDXML) files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ruzx/obsidian-chemedit"
+  },
+  {
     "id": "copy-outline",
     "name": "Copy Outline",
     "author": "yoav6",
@@ -44917,6 +44924,13 @@
     "author": "Iyigun Cevik",
     "description": "Sync Withings scale measurements into core Daily Notes frontmatter (desktop only). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "iyiguncevik/obsidian-withings-sync"
+  },
+  {
+    "id": "unagent",
+    "name": "UNagent",
+    "author": "UNcore",
+    "description": "Mobile-first AI assistant: lightweight on phones/tablets, heavy-duty task capabilities on desktop via hermes ACP. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "uncore-gh/UNagent"
   },
   {
     "id": "quick-export",
@@ -61348,13 +61362,6 @@
     "repo": "automandc/obsidian-png-metadata-editor"
   },
   {
-    "id": "markdown-x-publisher",
-    "name": "Markdown X Publisher",
-    "author": "Ancle",
-    "description": "Preview Markdown notes and save X Article drafts using your Chrome session. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zhangloveyan/obsidian-to-x"
-  },
-  {
     "id": "zim-notebook-import",
     "name": "Zim Notebook Import",
     "author": "theluckystrike",
@@ -61883,7 +61890,7 @@
     "id": "momo",
     "name": "Momo",
     "author": "Capybara",
-    "description": "Momo is a lightweight note-taking plugin that lives inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Momo is a card-note plugin. All files is a local markdown file. It manages file names, titles, storage and formats for you, leaving only the note itself: every note is kept with tags and places. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "iamxiaobing47/Momo"
   },
   {
@@ -62076,6 +62083,13 @@
     "repo": "garrett2918/obsidian-rclone-bisync"
   },
   {
+    "id": "compile-loss-check",
+    "name": "Compile Loss Check",
+    "author": "theluckystrike",
+    "description": "Find source paragraphs that do not match a compiled manuscript. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/compile-loss-check"
+  },
+  {
     "id": "atlas-sidebar",
     "name": "Atlas Sidebar",
     "author": "Fabian Urbanek",
@@ -62200,5 +62214,47 @@
     "author": "Anthirayas",
     "description": "Find broken links, headings, blocks and embeds, and spot empty notes, in a side panel and a dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jrayas/link-doctor"
+  },
+  {
+    "id": "folder-child-count",
+    "name": "Folder Child Count",
+    "author": "Jesus",
+    "description": "Show the number of files and subfolders contained in each folder in the file explorer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jalvarado-it/folder-child-count"
+  },
+  {
+    "id": "tagging-folder",
+    "name": "Tagging Folder",
+    "author": "Dryden Bryson",
+    "description": "Automatically tag notes based on the folder they live in. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dryd33n/obsidian-tagging-folder"
+  },
+  {
+    "id": "gogoga-icons",
+    "name": "gogoga icons",
+    "author": "jackweigogoga",
+    "description": "Companion plugin for the gogoga theme: replaces Obsidian's built-in Lucide icons with Phosphor icons (the set used by Tolaria). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jackweigogoga/gogoga-icons"
+  },
+  {
+    "id": "ai-reading-highlights",
+    "name": "AI Reading Highlights",
+    "author": "joshwong",
+    "description": "Automatically highlights key sentences, terms, and concepts in your notes using an LLM you configure. Works in reading view and live preview, and never modifies note files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "joshwong1908/obsidian-ai-reading-highlights"
+  },
+  {
+    "id": "gogoga-outline",
+    "name": "gogoga outline",
+    "author": "jackweigogoga",
+    "description": "A collapsed heading rail on the edge of the editor: ticks by heading level, expands on hover with titles and section previews, smooth scroll to any heading. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jackweigogoga/gogoga-outline"
+  },
+  {
+    "id": "gogoga-mindmap",
+    "name": "gogoga Mind Map",
+    "author": "jackweigogoga",
+    "description": "Edit Markdown notes as XMind-style mind maps. Headings and list items become nodes, and edits on either side stay in sync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jackweigogoga/gogoga-mindmap"
   }
 ]
