@@ -44527,13 +44527,6 @@
     "repo": "birchove/heading-level-changer"
   },
   {
-    "id": "noria",
-    "name": "Noria",
-    "author": "Biao Zhou",
-    "description": "A configurable Obsidian workbench for notes, knowledge, tasks, projects, habits, timelines, statistics, and reviews. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jellyns/obsidian-noria"
-  },
-  {
     "id": "ai-alias",
     "name": "AI Alias",
     "author": "wendao10",
@@ -48865,6 +48858,13 @@
     "author": "memoryl7",
     "description": "Sync your vault to a Gitee or GitHub repository. Enhanced with folder sync support. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "memoryl7/obsidian-git-sync-better"
+  },
+  {
+    "id": "xove-dashboard",
+    "name": "Xove Dashboard",
+    "author": "ty",
+    "description": "Turn your home tab into a customizable dashboard for capturing tasks, tracking projects, and reviewing your note activity. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tanyinaia/Xove-Dashboard"
   },
   {
     "id": "familiar",
@@ -53975,13 +53975,6 @@
     "author": "awesomedog",
     "description": "A beautiful, zero-config dashboard of your vault's writing stats: heatmaps, streaks, top tags, folder treemaps, and shareable year-in-review cards. Nothing is stored — every number is recomputed from a single scan. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "awesomedog/obsidian-awesome-yearbook"
-  },
-  {
-    "id": "beresta",
-    "name": "Beresta",
-    "author": "secondbrainprod",
-    "description": "Brings highlights from the Beresta reader into your book notes as Markdown callouts: one managed section per book, your own text untouched, no network. Panels and notes in English or Russian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "secondbrainprod/beresta-obsidian"
   },
   {
     "id": "mdfriday-publish",
@@ -59885,6 +59878,13 @@
     "repo": "missyeahhh/adhd-hyperfocus-graph"
   },
   {
+    "id": "html-entity-renderer",
+    "name": "HTML Entity Renderer",
+    "author": "Reggie Fluker",
+    "description": "Renders HTML character entities such as `&copy;` and `&#169;` as characters in Live Preview while preserving the Markdown source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rflukerii-dev/html-entity-renderer"
+  },
+  {
     "id": "vim-config",
     "name": "Vim Config",
     "author": "siulved54",
@@ -62347,5 +62347,33 @@
     "author": "siulved54",
     "description": "Inline dice rolls you click to reroll, in Live Preview and Reading view, with full dice notation, a roll dialog and a roll history. Reads Dice Roller notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "perezamadorluisenrique-gif/dice-rolls"
+  },
+  {
+    "id": "tasks-inline-edit",
+    "name": "Tasks Inline Edit",
+    "author": "Geo",
+    "description": "Edit task descriptions directly in rendered Tasks queries. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "geokhv/obsidian-tasks-inline-edit"
+  },
+  {
+    "id": "muesli",
+    "name": "Muesli",
+    "author": "kevin",
+    "description": "Record meetings without a bot and get a diarized transcript, an AI summary and action items in your vault. Also turns spoken journal entries into daily-note bullets. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "azilone/obsidian-muesli"
+  },
+  {
+    "id": "vimwiki-import",
+    "name": "Vimwiki Import",
+    "author": "theluckystrike",
+    "description": "Convert default Vimwiki pages into Markdown notes with working local links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/vimwiki-import"
+  },
+  {
+    "id": "ai-search",
+    "name": "ai-search",
+    "author": "QuincyLeo",
+    "description": "Use an AI decision model for fast fuzzy search, without exact keyword matching or a complex search engine. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "quincy-leo/obsidian-ai-search"
   }
 ]
