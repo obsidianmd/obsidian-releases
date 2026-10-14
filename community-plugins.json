@@ -24619,13 +24619,6 @@
     "repo": "wudanyang27/ticktick-today"
   },
   {
-    "id": "latex-autocomplete-customizable",
-    "name": "Customizable LaTeX Autocomplete",
-    "author": "aiksxd",
-    "description": "Build a personalized autocomplete list for any LaTeX formula. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "aiksxd/latex-autocomplete"
-  },
-  {
     "id": "naver-blog-importer",
     "name": "Naver Blog Importer",
     "author": "Jun Lim",
@@ -39987,7 +39980,7 @@
     "id": "easy-sync",
     "name": "EasySync",
     "author": "Jiao Yingxing",
-    "description": "Two-way and one-way OneDrive sync for Obsidian, with conflict safeguards, mobile support, and optional settings/plugin sync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "在电脑、手机和平板间同步你的 Obsidian 仓库，直连 OneDrive。Sync your Obsidian vault across devices via your own OneDrive - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiaoyingxing/easy-sync"
   },
   {
@@ -43573,6 +43566,13 @@
     "author": "8&6",
     "description": "Track typing activity in Obsidian: net vs total input, active editing time, typing speed, calendar heatmap, and daily goals. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "czk200518-hash/Typelog"
+  },
+  {
+    "id": "media-transcript",
+    "name": "Media Transcript",
+    "author": "semsevens",
+    "description": "Play video/audio with synchronized, clickable transcripts. Click any line to seek; playing line auto-highlights. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "semsevens/obsidian-media-transcript"
   },
   {
     "id": "cloudbeaver",
@@ -50890,6 +50890,13 @@
     "repo": "danrfletcher/obsidian-loud-outline"
   },
   {
+    "id": "tab-cleaner",
+    "name": "Tab Cleaner",
+    "author": "caijyii",
+    "description": "Visually find, review, and safely close groups of Obsidian tabs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "caijyii/obsidian-tab-cleaner"
+  },
+  {
     "id": "happy-squid",
     "name": "Happy Squid",
     "author": "Happy Squid",
@@ -54073,13 +54080,6 @@
     "author": "Gleb",
     "description": "Synchronize a vault through a private Git-backed server with recoverable conflicts. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ghloii/reliable-vault-sync"
-  },
-  {
-    "id": "inrefens",
-    "name": "inREFens",
-    "author": "Eryk J.",
-    "description": "Find references/citations to publications of Jehovah's Witnesses and link them to wol.jw.org - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "erykjj/inrefens"
   },
   {
     "id": "mapa-neuronal",
@@ -62160,10 +62160,24 @@
     "repo": "ismaelbase/compendio-srd"
   },
   {
+    "id": "scholar-weft",
+    "name": "ScholarWeft",
+    "author": "Joseph",
+    "description": "Weaving your ideas, notes, Zotero references, and word processor output into a connected scholarly workflow. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nebedaay/ScholarWeft"
+  },
+  {
     "id": "full-keep-mode",
     "name": "Full Keep Mode",
     "author": "Gabriel Leuenberger",
     "description": "Turn your notes into Google Keep: a board of coloured cards with pins, labels, archive and reminders, and Keep's checklists, where ticked items move down and items can be dragged and indented. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "leuenberger/obsidian-full-Keep-mode"
+  },
+  {
+    "id": "clear-properties",
+    "name": "Clear Properties",
+    "author": "yujia",
+    "description": "Delete, remove or strip all properties (YAML frontmatter / front matter metadata) from a note in one click with a button beside the properties block. Undoable. Quick cleanup of old notes, mobile too. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rainajia716/obsidian-clear-properties"
   }
 ]
