@@ -33166,6 +33166,13 @@
     "repo": "ckelsoe/obsidian-annoteca"
   },
   {
+    "id": "editorialist",
+    "name": "Editorialist",
+    "author": "Eric R Taylor",
+    "description": "Import structured editorial feedback from curated human editors, beta readers, or AI, then review editorial suggestions across manuscript scenes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ericrhystaylor/Editorialist"
+  },
+  {
     "id": "star-pins",
     "name": "Star Pins",
     "author": "Brightwav3",
@@ -52220,13 +52227,6 @@
     "repo": "exemplarov/vibed"
   },
   {
-    "id": "canvas-mind-map",
-    "name": "Canvas Mind Map",
-    "author": "zenolzx",
-    "description": "Create collapsible Canvas mind maps from Markdown with seven layouts. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zenolzx/Canvas-Mind-Map"
-  },
-  {
     "id": "vietnam-ai-rss",
     "name": "Vietnam AI RSS",
     "author": "TonyX",
@@ -58688,13 +58688,6 @@
     "repo": "bubble-wu/obsidian-table-column-resizer"
   },
   {
-    "id": "typed-graph",
-    "name": "Typed Graph",
-    "author": "Volodymyr Pavlyshyn",
-    "description": "Typed, signed, labeled property graph over your notes with openCypher queries, edge properties and graph views. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "volland/obsigraph"
-  },
-  {
     "id": "chess-notebook",
     "name": "Chess Notebook",
     "author": "saltyfireball",
@@ -60917,7 +60910,7 @@
     "id": "native-split-groups",
     "name": "Native Split Groups",
     "author": "Bea",
-    "description": "In native Bases views, a note appears for each option in its list property, rather than in a merged group. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Show each note under every option of its list property in native Bases views, instead of in one merged group. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "beakarnstein/Native-Split-Groups"
   },
   {
@@ -62181,6 +62174,13 @@
     "repo": "ashura-sheikh/Sheiko-pokedex-plugin"
   },
   {
+    "id": "finally-a-reader",
+    "name": "Finally A Reader",
+    "author": "david-fcp",
+    "description": "Read and annotate PDFs and EPUBs with no learning curve, a clean layout, sidebar annotation tracker, and one click to turn annotations into Markdown - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "david-fcp/finally-a-reader"
+  },
+  {
     "id": "compendio-srd",
     "name": "Compendio SRD 2024",
     "author": "Obsidian Die",
@@ -62193,6 +62193,13 @@
     "author": "Joseph",
     "description": "Weaving your ideas, notes, Zotero references, and word processor output into a connected scholarly workflow. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nebedaay/ScholarWeft"
+  },
+  {
+    "id": "logic-circuits",
+    "name": "Logic circuits",
+    "author": "Yinlong Zhao",
+    "description": "Draw and edit digital logic circuits directly inside Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "watawata39/Obsidian-Plugin-Logic-Circuit-Drawer"
   },
   {
     "id": "full-keep-mode",
@@ -62377,6 +62384,41 @@
     "repo": "noop-ptf/OpenAlephExplore"
   },
   {
+    "id": "zettelkasten-archive-import",
+    "name": "Zettelkasten Archive Import",
+    "author": "theluckystrike",
+    "description": "Convert version 3.8 Zettelkasten archives into notes with keywords, links, and note sequences. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/zettelkasten-archive-import"
+  },
+  {
+    "id": "subtitle-sentence-miner",
+    "name": "Subtitle Sentence Miner",
+    "author": "theluckystrike",
+    "description": "Create sentence cards from local subtitle files and keep each source path and timestamp. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/subtitle-sentence-miner"
+  },
+  {
+    "id": "openapi-spec-viewer",
+    "name": "Local API Reference",
+    "author": "theluckystrike",
+    "description": "Read local OpenAPI files as endpoint lists with parameter and response details. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/openapi-spec-viewer"
+  },
+  {
+    "id": "jsonpath-vault-query",
+    "name": "Local JSON Queries",
+    "author": "theluckystrike",
+    "description": "Run local JSON queries on vault files and show the results as tables or text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/jsonpath-vault-query"
+  },
+  {
+    "id": "csv-schema-linter",
+    "name": "CSV Rule Check",
+    "author": "theluckystrike",
+    "description": "Check CSV columns against local rules and show errors by row and column. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/csv-schema-linter"
+  },
+  {
     "id": "ai-search",
     "name": "ai-search",
     "author": "QuincyLeo",
@@ -62391,6 +62433,13 @@
     "repo": "codybontecou/gitsync-obsidian-connect"
   },
   {
+    "id": "books-and-reviews",
+    "name": "Books and Reviews",
+    "author": "Alessandro Vettorel",
+    "description": "Your personal library: catalog books, rate them with yes/no questions grouped by theme (ARL score from 0 to 10 with a configurable star rating), and keep notes, quotes and characters. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "avettorel71/books-and-reviews"
+  },
+  {
     "id": "case-formatter",
     "name": "Case Formatter",
     "author": "Dario Castellano",
@@ -62403,5 +62452,75 @@
     "author": "Vladislav Plotnikov",
     "description": "Interactive genealogy graph from person note properties, with image and print export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vladushked/genealogy-graph"
+  },
+  {
+    "id": "agentlens-social-importer",
+    "name": "AgentLens Social Importer",
+    "author": "AgentLens",
+    "description": "Save public social content as traceable Markdown research notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "inkad-code/AgentLens-for-Obsidian"
+  },
+  {
+    "id": "s-color-inline",
+    "name": "S-Color-Inline",
+    "author": "Abdulkader Safi",
+    "description": "Show color swatches next to CSS color values in inline code. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abdulkader-safi/s-color-inline"
+  },
+  {
+    "id": "yaml-json-toml-converter",
+    "name": "Data Format Converter",
+    "author": "theluckystrike",
+    "description": "Convert selected YAML, JSON, or TOML data with a preview and checks for data loss. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/yaml-json-toml-converter"
+  },
+  {
+    "id": "card-question-sheet",
+    "name": "Card Question Sheet",
+    "author": "theluckystrike",
+    "description": "Export text study cards as a PDF question sheet with a separate answer key. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/card-question-sheet"
+  },
+  {
+    "id": "wordpress-wxr-import",
+    "name": "WordPress WXR Import",
+    "author": "theluckystrike",
+    "description": "Import WordPress XML exports as notes with dates, tags, and comments. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/wordpress-wxr-import"
+  },
+  {
+    "id": "notestation-nsx-import",
+    "name": "Note Station NSX Import",
+    "author": "theluckystrike",
+    "description": "Import Note Station backups as notes with notebooks, dates, tags, and local attachments. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/notestation-nsx-import"
+  },
+  {
+    "id": "substack-export-import",
+    "name": "Substack Export Import",
+    "author": "theluckystrike",
+    "description": "Import Substack writer exports as notes with post bodies, dates, and publication fields. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/substack-export-import"
+  },
+  {
+    "id": "pi-harness",
+    "name": "Pi Harness",
+    "author": "CHAO0120",
+    "description": "Chat with your local pi agent (running in Termux on the same device) from inside Obsidian, with the note you are reading as context and answers you can write back. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chao0120/pi-harness"
+  },
+  {
+    "id": "neon-amber-glass-companion",
+    "name": "Neon Amber Glass Companion",
+    "author": "khedrub",
+    "description": "Switch between clear, frosted and dark HUD window materials on macOS when using the Neon Amber Glass theme. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "khedrub/neon-amber-glass-companion"
+  },
+  {
+    "id": "propex",
+    "name": "Propex",
+    "author": "emberunderwater",
+    "description": "Track project-specific and general expenses. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "emberunderwater/obsidian-propex"
   }
 ]
