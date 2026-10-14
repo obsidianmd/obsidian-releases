@@ -44376,7 +44376,7 @@
     "id": "vault-orrery",
     "name": "Vault Orrery",
     "author": "Elliott Park",
-    "description": "A 3D graph view where folders are stars and notes orbit them. Replay how your vault grew, map any note's links, and fly it all offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A 3D graph view that draws your vault as a galaxy: every folder is a solar system, with its notes in orbit. Replay how your vault grew, map any note's links, and fly it all offline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elliott-json-park/obsidian-vault-orrery"
   },
   {
@@ -46128,13 +46128,6 @@
     "author": "华佳浩",
     "description": "Render math with a bundled, up-to-date MathJax 4 engine, without replacing Obsidian's built-in MathJax. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "danlingdan/fastMathJax"
-  },
-  {
-    "id": "gantt-this",
-    "name": "Gantt this",
-    "author": "Altarok",
-    "description": "Interactive Gantt charts for custom TTRPG calendars, with support for Bases views. Track campaign events, eras, and timestamps directly from note frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "altarok/gantt-this"
   },
   {
     "id": "canvas-image-lod",
@@ -52167,7 +52160,7 @@
     "id": "class-timetable",
     "name": "Class Timetable",
     "author": "Elliott Park",
-    "description": "Weekly class timetable for students: courses, exams and assignment deadlines in your sidebar. Open each class's lecture notes in one click. Odd/even weeks, desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Class schedule and weekly timetable for school and university students: courses, exams and homework deadlines in your sidebar. Open lecture notes in one click. Odd/even weeks, desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elliott-json-park/obsidian-class-timetable"
   },
   {
@@ -54974,7 +54967,7 @@
     "id": "vault-pet",
     "name": "Vault Pet",
     "author": "Elliott Park",
-    "description": "Raise a pixel cat that grows as you write. Every word earns XP and coins for 320 costumes, toys and mini-games, with daily quests, 165 badges, neighbor cats and a star shop after Lv.80. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A virtual desktop pet that gamifies writing: a pixel cat levels up with your word count. Earn XP and coins for 320 costumes and mini-games, and keep a writing streak with daily quests and 165 badges. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elliott-json-park/obsidian-vault-pet"
   },
   {
@@ -58033,7 +58026,7 @@
     "id": "plugin-pulse",
     "name": "Download Pulse",
     "author": "Elliott Park",
-    "description": "Analytics for authors with several plugins. Track every plugin's downloads, rank and milestones in one dashboard, see when you'll pass rivals, and share it as a card. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Plugin download stats for developers with several plugins: downloads, rank and milestones in one dashboard, daily growth insights, competitor monitoring, and share cards for posts and stories. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elliott-json-park/obsidian-download-pulse"
   },
   {
@@ -61806,7 +61799,7 @@
     "id": "qiaomu-audio",
     "name": "Qiaomu Audio",
     "author": "向阳乔木",
-    "description": "Read notes aloud and dictate speech into notes, with system, local and cloud speech services. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Export notes as audio or subtitled video, read aloud from your cursor, and dictate into notes with system, local or cloud speech. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "joeseesun/qiaomu-audio"
   },
   {
@@ -62370,10 +62363,24 @@
     "repo": "theluckystrike/vimwiki-import"
   },
   {
+    "id": "openaleph-explore",
+    "name": "OpenAleph Explore",
+    "author": "noop",
+    "description": "Turn your notes into contextual, structured data, by querying OpenAleph instances. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "noop-ptf/OpenAlephExplore"
+  },
+  {
     "id": "ai-search",
     "name": "ai-search",
     "author": "QuincyLeo",
     "description": "Use an AI decision model for fast fuzzy search, without exact keyword matching or a complex search engine. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "quincy-leo/obsidian-ai-search"
+  },
+  {
+    "id": "gitsync-connect",
+    "name": "GitSync.md Connect",
+    "author": "codybontecou",
+    "description": "Connect the Git plugin using your existing GitSync.md GitHub sign-in. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "codybontecou/gitsync-obsidian-connect"
   }
 ]
