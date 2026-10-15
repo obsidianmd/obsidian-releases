@@ -60140,7 +60140,7 @@
     "id": "constellation-graph",
     "name": "Constellation Graph",
     "author": "JusVibin",
-    "description": "A fluid, orbiting 3D constellation of your notes, coloured by folder, with keyboard and screen-reader support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Explore your Obsidian vault in an interactive 3D galaxy. Discover note connections, customize your graph, and pilot a starfighter through your knowledge universe with privacy and accessibility. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xjusvibin/obsidian-constellation-graph"
   },
   {
@@ -61218,7 +61218,7 @@
     "id": "link-mindmap",
     "name": "Link Mindmap",
     "author": "licf",
-    "description": "结合卢曼笔记层级思想与 Obsidian 双链功能，取消编号——每个节点是一篇笔记，通过 frontmatter children/parent 链接自然关联。支持多选导图、工作台统计、拖拽连线、批量操作、键盘快捷键、横纵布局、导出 SVG/PNG/Markdown，适配手机端触屏。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "结合卢曼笔记层级思想与 Obsidian 双链功能，取消编号—每个节点是一篇笔记，通过frontmatter children/parent 链接自然关联。 支持多选导图、工作台统计、拖拽连线、批量操作、键盘快捷键、横纵布局、导出SVG/PNG/Markdown，适配手机端触屏。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "licfcn/link-mindmap"
   },
   {
@@ -62697,5 +62697,33 @@
     "author": "theluckystrike",
     "description": "Export PDF review comments and their replies as a Markdown note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/pdf-reply-export"
+  },
+  {
+    "id": "inline-todo",
+    "name": "Inline Todo",
+    "author": "冰块",
+    "description": "Inline todos anywhere in a line: []text/ and [x]text/. Multi-line content, native Markdown inside, click to toggle, source reveals on cursor, skipped in code, JS API for other plugins. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "icecode825/inline-todo"
+  },
+  {
+    "id": "fence-file-export",
+    "name": "Fence File Export",
+    "author": "theluckystrike",
+    "description": "Write named code blocks from the current note to new files in a chosen vault folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/fence-file-export"
+  },
+  {
+    "id": "annotator-json-export",
+    "name": "Annotator JSON Export",
+    "author": "theluckystrike",
+    "description": "Export saved annotation notes as a local JSON archive with quotes, comments, and tags. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/annotator-json-export"
+  },
+  {
+    "id": "vaultsail",
+    "name": "VaultSail",
+    "author": "Eboo",
+    "description": "Sync notes and attachments through Baidu Netdisk with version preservation and encrypted device pairing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gongteng0215/obsidian-vaultsail"
   }
 ]
