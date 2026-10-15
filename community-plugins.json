@@ -39712,10 +39712,10 @@
   },
   {
     "id": "image-magick",
-    "name": "ImageMagick",
+    "name": "Pixkit",
     "author": "Abdulkader Safi",
     "description": "Resize, crop, rotate, compress and convert images in your vault, powered by Safi-Image. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "abdulkader-safi/obsidian-image-magick-plugins"
+    "repo": "abdulkader-safi/obsidian-pixkit-plugins"
   },
   {
     "id": "chorefast",
@@ -41907,6 +41907,13 @@
     "author": "Jiwoo Roh",
     "description": "Index your notes and uploaded files, then ask Gemini, Groq, or OpenAI. Supports Gemini CLI. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiwooroh/multi-ai-assistant"
+  },
+  {
+    "id": "extended-base",
+    "name": "Extended Base",
+    "author": "Jiwoo Roh",
+    "description": "An Extended Base view with column wrap, top-aligned cells, and transparent background. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jiwooroh/extended-base"
   },
   {
     "id": "folgezettel-navigator",
@@ -55447,6 +55454,13 @@
     "repo": "midokarin/longshot-pdf"
   },
   {
+    "id": "nyahome",
+    "name": "NyaHome",
+    "author": "amber",
+    "description": "NyaHome：Obsidian 统一主页与本地优先的工作台；可选接入在线日历和邮箱 | NyaHome: a unified Obsidian home with local-first notes, calendars and optional connected services. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "st31orange/NyaHome"
+  },
+  {
     "id": "prepend-creation-date",
     "name": "Prepend Creation Date",
     "author": "fizzy",
@@ -58135,13 +58149,6 @@
     "repo": "liyifan2004/obsidian-folio"
   },
   {
-    "id": "parrot-plan",
-    "name": "Parrot Plan",
-    "author": "parrot-23",
-    "description": "A weekly schedule planner with time blocks, event planning, and execution tracking. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "parrot-23/parrot-plan"
-  },
-  {
     "id": "magicnotes",
     "name": "MagicNotes",
     "author": "Cosmakes",
@@ -60368,6 +60375,13 @@
     "repo": "itsdionis/MyOnePage"
   },
   {
+    "id": "documents-activity-tracker",
+    "name": "Documents Activity Tracker",
+    "author": "InVerse",
+    "description": "跟踪每个文档的阅读时长（区分窗口内/脱离窗口），并提供独立的手动计时；侧栏统一查看，数据存于 SQLite。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lmce72/documents-activity-tracker"
+  },
+  {
     "id": "pdf-editor",
     "name": "PDF Editor",
     "author": "holtsdav",
@@ -62219,7 +62233,7 @@
     "id": "full-keep-mode",
     "name": "Full Keep Mode",
     "author": "Gabriel Leuenberger",
-    "description": "Handles just like Google Keep and the import transfers all information, including the orderning of your notes, the indentations of check list items, colors, etc. Includes drag & drop, dark more, etc. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Handles just like Google Keep and the import transfers all information, including the ordering of your notes, the indentations of check list items, colors, etc. Includes drag & drop, dark mode, etc. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "leuenberger/obsidian-full-Keep-mode"
   },
   {
@@ -62893,5 +62907,40 @@
     "author": "Yuri Braz",
     "description": "Brings your Lareia journal into your vault: daily entries under a heading of your choice, media, mind maps and notebooks. Requires a Lareia account. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ybraz/lareia-write-reflect"
+  },
+  {
+    "id": "inline-ask",
+    "name": "Inline Ask",
+    "author": "Hølje Berge",
+    "description": "Ask an AI inline: wrap a question in ?, ?? or ??? and get answers that replace it in place. Uses your own OpenRouter key. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hbergeio/inline-ask"
+  },
+  {
+    "id": "atlas-vtt-connect",
+    "name": "Atlas VTT Extension - Connect",
+    "author": "Joao Bento",
+    "description": "Online play for Atlas VTT: host sessions, let players join from a web page or a tab, and share notes and maps. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "evoljoaobento/atlas-vtt-connect"
+  },
+  {
+    "id": "trader-editor-tools",
+    "name": "Mengren Editor",
+    "author": "猛人",
+    "description": "Keep paragraph, code, quote, table and image spacing consistent, resize images by dragging, and add text color, highlight and underline while keeping native Markdown editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "longpeng1413/mengren-obsidian-editor-plugin"
+  },
+  {
+    "id": "primecore-search",
+    "name": "Radar Search",
+    "author": "InVerse",
+    "description": "Unified vault, command, property, link, and web search, with CJK full-text indexing and a floating search bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lmce72/obsidian-radar-search"
+  },
+  {
+    "id": "tahoe-math",
+    "name": "Tahoe Math",
+    "author": "Krishnan",
+    "description": "Type an expression ending in = and the answer appears as you type, with variables, functions, units, conversions, percentages, currency and dates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "krishnanefx/obsidian-tahoe-math"
   }
 ]
