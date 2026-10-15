@@ -47292,6 +47292,13 @@
     "repo": "alandoescode/drawculator-obsidian"
   },
   {
+    "id": "atproto-sync",
+    "name": "ATProto Sync",
+    "author": "thatsit.dev",
+    "description": "Sync your vault to your ATProto PDS (Bluesky, Blacksky, Eurosky, self-hosted). E2E-encrypted, with per-note publishing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "thats-it-dev/atproto-sync"
+  },
+  {
     "id": "recap-raven",
     "name": "Recap Raven",
     "author": "Recap Raven",
@@ -55433,13 +55440,6 @@
     "repo": "midokarin/longshot-pdf"
   },
   {
-    "id": "nyahome",
-    "name": "NyaHome",
-    "author": "amber",
-    "description": "NyaHome：Obsidian 统一主页与本地优先的工作台；可选接入在线日历和邮箱 | NyaHome: a unified Obsidian home with local-first notes, calendars and optional connected services. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "st31orange/NyaHome"
-  },
-  {
     "id": "prepend-creation-date",
     "name": "Prepend Creation Date",
     "author": "fizzy",
@@ -62720,10 +62720,38 @@
     "repo": "theluckystrike/annotator-json-export"
   },
   {
-    "id": "vaultsail",
-    "name": "VaultSail",
-    "author": "Eboo",
-    "description": "Sync notes and attachments through Baidu Netdisk with version preservation and encrypted device pairing. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gongteng0215/obsidian-vaultsail"
+    "id": "shoujidiannao-absyw",
+    "name": "Shouji-Diannao",
+    "author": "手机电脑同步插件",
+    "description": "「手机电脑同步」插件：手机、平板、电脑就是同一份库，比特币强度加密、私钥仅在本地，改动平均10 秒送达。图片附件按需加载，点开笔记时才下载，10 GB 的库手机只占几十 MB；每台设备可以单独设只上传、只下载或双向，删错了有云端回收站，保留期内随时找回，改坏了有版本回溯，每次同步都留快照，能回到任意版本。iOS、安卓、鸿蒙、Windows、macOS、统信 UOS 通通支持 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "absyw/shoujidiannao"
+  },
+  {
+    "id": "conventional-commit-draft",
+    "name": "Conventional Commit Draft",
+    "author": "theluckystrike",
+    "description": "Group selected conventional commit subjects into a new release draft. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/conventional-commit-draft"
+  },
+  {
+    "id": "openers",
+    "name": "Openers",
+    "author": "Roman",
+    "description": "One code block — one line of buttons that open a directory or file in Finder, the system terminal, or any CLI (zed, cursor, …). Global defaults, per-block overrides. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "exemplarov/openers"
+  },
+  {
+    "id": "relative-scroll-lock",
+    "name": "Relative Scroll Lock",
+    "author": "v-49",
+    "description": "Position two Markdown panes independently, then lock relative scrolling without jumping. Hold Alt to adjust one pane. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "v-49/obsidian-relative-scroll-lock"
+  },
+  {
+    "id": "caute",
+    "name": "Caute",
+    "author": "Axionary Labs",
+    "description": "Link, quote and search what you've caught in Caute, and publish notes to your library. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "axionary-jwc/caute-obsidian"
   }
 ]
