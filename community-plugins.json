@@ -22897,6 +22897,13 @@
     "repo": "wanja-l/delete-checked-items"
   },
   {
+    "id": "flakepiles",
+    "name": "Flakepiles",
+    "author": "idlist",
+    "description": "Put small stickies / cards in a dedicated file. Manage them in masonry layout. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "idlist/flakepiles"
+  },
+  {
     "id": "simple-graph-builder",
     "name": "Simple Graph Builder",
     "author": "junhewk",
@@ -44219,13 +44226,6 @@
     "repo": "katrinasenpai/tome-reader"
   },
   {
-    "id": "flashcard-genius",
-    "name": "Flashcard Genius",
-    "author": "Tom Maus",
-    "description": "Open Markdown flashcard decks from your vault in a dedicated study view. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "storm-131/flashcard-genius-obsidian"
-  },
-  {
     "id": "journal-view",
     "name": "Journal View",
     "author": "RUverse",
@@ -57526,6 +57526,13 @@
     "repo": "jiangbianyan-gif/obsidian-canvas-node-align"
   },
   {
+    "id": "atlas-physical-dice",
+    "name": "Atlas VTT Extension - Interactive Dice",
+    "author": "Joao Bento",
+    "description": "Roll 3D physical dice with drag-to-throw over your notes, and send every result to Atlas VTT's roll log, toast and player view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "evoljoaobento/atlas-physical-dice"
+  },
+  {
     "id": "callouts-plus",
     "name": "Callouts Plus",
     "author": "Gustavo Gomes Ribeiro",
@@ -61246,7 +61253,7 @@
     "id": "link-mindmap",
     "name": "Link Mindmap",
     "author": "licf",
-    "description": "结合卢曼笔记层级思想与 Obsidian 双链功能，取消编号—每个节点是一篇笔记，通过frontmatter children/parent 链接自然关联。 支持多选导图、工作台统计、拖拽连线、批量操作、键盘快捷键、横纵布局、导出SVG/PNG/Markdown，适配手机端触屏。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "结合卢曼笔记层级思想与 Obsidian 双链功能的链接思维导图插件。Luhmann's Zettelkasten mindmap — node = note, linked via frontmatter. Drag to connect, multi-select, presets, dashboard, export. Mobile-friendly. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "licfcn/link-mindmap"
   },
   {
@@ -62902,6 +62909,13 @@
     "repo": "davidhurtadoai/just-simple-file-viewer"
   },
   {
+    "id": "xsync",
+    "name": "xSync",
+    "author": "y",
+    "description": "Sync your vault across your devices with end-to-end encryption, your own server, and explicit conflict review. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "deku0818/xSync"
+  },
+  {
     "id": "lareia-write-reflect",
     "name": "Lareia Write and Reflect",
     "author": "Yuri Braz",
@@ -62937,10 +62951,31 @@
     "repo": "lmce72/obsidian-radar-search"
   },
   {
+    "id": "transparent-translate",
+    "name": "Transparent Translate",
+    "author": "Jay Leimer",
+    "description": "Switch a note's display between the original text, English and German using any OpenAI-compatible LLM. The file on disk never changes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "codingjinxx/transparent-translate"
+  },
+  {
     "id": "tahoe-math",
     "name": "Tahoe Math",
     "author": "Krishnan",
     "description": "Type an expression ending in = and the answer appears as you type, with variables, functions, units, conversions, percentages, currency and dates. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "krishnanefx/obsidian-tahoe-math"
+  },
+  {
+    "id": "objupyter",
+    "name": "Jupyter Notebook Editor",
+    "author": "yuanqh23",
+    "description": "Edit and run Jupyter notebooks in an Obsidian vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pluto417-qing/ObJupyter"
+  },
+  {
+    "id": "my-note-minimap",
+    "name": "My Note Minimap",
+    "author": "Khalid",
+    "description": "Adds a colour-coded minimap beside each markdown note, with click-and-drag navigation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sythewardon/my-note-minimap"
   }
 ]
