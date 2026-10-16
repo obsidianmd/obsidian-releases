@@ -7878,7 +7878,7 @@
     "id": "backlink-cache",
     "name": "Backlink Cache",
     "author": "Michael Naumov",
-    "description": "Store backlink cache to speed up `app.metadataCache.getBacklinksForFile`.",
+    "description": "Points to its successor, Advanced Metadata Cache, and does nothing else.",
     "repo": "mnaoumov/obsidian-backlink-cache"
   },
   {
@@ -59489,7 +59489,7 @@
     "id": "binders",
     "name": "Binders",
     "author": "Caleb Smith",
-    "description": "Write a novel in ordered folders: chapters and scenes on a corkboard of index cards, in an outliner, or as one editable manuscript. Word count targets, snapshots, export to EPUB, Word and PDF. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Write your book in Obsidian. Chapters and scenes in your order, on a corkboard, an outliner, a story timeline or one editable manuscript. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fyresmith/binders"
   },
   {
@@ -59582,13 +59582,6 @@
     "author": "Dryden Bryson",
     "description": "Export a whole folder of notes to PDF, either one PDF per note or one combined PDF with a table of contents, bookmarks and working links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dryd33n/obsidian-batch-pdf-export"
-  },
-  {
-    "id": "hexloom-ce-tracker",
-    "name": "CE Credit Tracker",
-    "author": "Hexloom Labs",
-    "description": "Track continuing education credits such as CPE, CLE and PDH toward a license renewal, with a progress dashboard and an audit export. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hexloom-labs/hexloom-ce-tracker"
   },
   {
     "id": "bidi-flow-navigator",
@@ -63117,5 +63110,33 @@
     "author": "ashotis",
     "description": "Play seven-colour stereo noise with binaural tones, an adjustable pulse and a sleep timer in your sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ashotis/static-fm"
+  },
+  {
+    "id": "ribbon-bookmarks",
+    "name": "Ribbon Bookmarks",
+    "author": "Bryan",
+    "description": "A bookmark bar in the left ribbon: web links, any file, nested folders, separators, drag and drop, and monochrome icons. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bryanmongesolano/obsidian-ribbon-bookmarks"
+  },
+  {
+    "id": "comsift",
+    "name": "comsift-new",
+    "author": "comwhore",
+    "description": "Canvas mind maps, folder investigations, local analysis and chat, and embedded spreadsheets. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "comwhore/comsift"
+  },
+  {
+    "id": "frog-encrypter-mobile",
+    "name": "Frog Encrypter Mobile",
+    "author": "rainfr0g",
+    "description": "Encrypt text fragments, notes, and files in your vault on mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rainfr0g/frog-encrypter-mobile"
+  },
+  {
+    "id": "git-sync",
+    "name": "Auto Git Sync",
+    "author": "jeff-stapleton",
+    "description": "Automatically commit, push and pull your vault over git, like Obsidian Sync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jeff-stapleton/git-sync"
   }
 ]
