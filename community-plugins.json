@@ -42028,13 +42028,6 @@
     "repo": "giacolees/obsidian-local-voiceover"
   },
   {
-    "id": "four-layer-todo",
-    "name": "Four Layer Todo",
-    "author": "vrytfmcat",
-    "description": "Centering on the whiteboard, manage attention among the cache workspace, task memory, and peripheral long-term objects. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "vrytfmcat/four-layer-todo"
-  },
-  {
     "id": "multi-definitions",
     "name": "Multi Definitions",
     "author": "Daniel Xu",
@@ -43284,14 +43277,14 @@
     "id": "redacted",
     "name": "Redacted",
     "author": "Julie Sandburg",
-    "description": "Permanently redact selected text using block characters or custom characters - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Permanently redact selected text and replace with block or custom characters - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jsandburg/obsidian-redacted"
   },
   {
     "id": "featherlight",
     "name": "Featherlight",
     "author": "Julie Sandburg",
-    "description": "Enforces character limits on notes, with a live status bar counter showing characters used and remaining. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Enforces character limits on notes, with a live status-bar counter - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jsandburg/obsidian-featherlight"
   },
   {
@@ -45946,6 +45939,13 @@
     "author": "华佳浩",
     "description": "Render math with a bundled, up-to-date MathJax 4 engine, without replacing Obsidian's built-in MathJax. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "danlingdan/fastMathJax"
+  },
+  {
+    "id": "gantt-this",
+    "name": "Gantt this",
+    "author": "Altarok",
+    "description": "Interactive Gantt charts for custom TTRPG calendars, with support for Bases views. Track campaign events, eras, and timestamps directly from note frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "altarok/gantt-this"
   },
   {
     "id": "canvas-image-lod",
@@ -58142,6 +58142,13 @@
     "repo": "jonathanharris15/Groundwork"
   },
   {
+    "id": "automatic-mood-history",
+    "name": "Automatic Mood History",
+    "author": "remriel",
+    "description": "Local-first mood history dashboard for dated Obsidian notes, with optional Groq analysis. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "remriel/automatic-mood-history"
+  },
+  {
     "id": "obtion",
     "name": "Notebase",
     "author": "hakubisual",
@@ -62652,7 +62659,7 @@
   {
     "id": "pokemon-typing-pokedex",
     "name": "Pokemon Typing Pokedex",
-    "author": "1e21hg6vh",
+    "author": "Briec Lamour",
     "description": "Catch wild Pokemon as you type in your notes, featuring animations, a chronological catch log, and a full 1025 National Pokedex. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "briec-dev/obsidian-pokemon-typing-pokedex"
   },
@@ -62718,5 +62725,26 @@
     "author": "Atif Ahmed",
     "description": "Share the note you are reading, the section you are in and the text you select with Claude Code. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "signioratif/Obsidian-CC-connector"
+  },
+  {
+    "id": "wasl",
+    "name": "Wasl",
+    "author": "Sultan",
+    "description": "Finds places in your notes where you mention another note by title without linking it, even when Arabic spelling hides it («وبالكتابةِ» for «الكتابة»), and links them only when you approve. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "isltanx/obsidian-wasl"
+  },
+  {
+    "id": "path-focus-explorer",
+    "name": "Path Focus Explorer",
+    "author": "Curelove",
+    "description": "Highlight the active note path and directly related notes in the File Explorer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "curelove/obsidian-path-focus-explorer"
+  },
+  {
+    "id": "matinee",
+    "name": "Matinee",
+    "author": "ashotis",
+    "description": "Plays random public-domain black-and-white films from the Internet Archive in a small screen under your file list. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ashotis/matinee"
   }
 ]
