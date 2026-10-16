@@ -21588,6 +21588,13 @@
     "repo": "xsixteen/obsidian-daily-heatmap"
   },
   {
+    "id": "rentry-integration",
+    "name": "Rentry integration",
+    "author": "akatopo",
+    "description": "Share your vault notes using Rentry - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "akatopo/rentry-integration"
+  },
+  {
     "id": "jotbird",
     "name": "JotBird",
     "author": "jotbirdhq",
@@ -35546,6 +35553,13 @@
     "repo": "superskypper/super-rss"
   },
   {
+    "id": "folder-routines",
+    "name": "Habit Checklist",
+    "author": "shabbirpatheria",
+    "description": "Render a checklist in your daily note from a folder structure. Checking an item logs the daily note's date into that note's 'entries' property. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shabbirpatheria/folder-routines"
+  },
+  {
     "id": "modern-outline",
     "name": "Modern Outline",
     "author": "KreNtal",
@@ -39422,6 +39436,13 @@
     "author": "Yinno",
     "description": "Render live HTML, CSS and JavaScript directly in your notes with html-block code fences, each isolated in its own Shadow DOM. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jwczju/html-blocks"
+  },
+  {
+    "id": "terminus",
+    "name": "Terminus",
+    "author": "notenerd",
+    "description": "A real terminal with shell integration and beginner-friendly command help, plus a multi-agent workflow for Claude Code sessions: word-level diffs, undo, backlink-breakage warnings, and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "notenerdofficial/terminus"
   },
   {
     "id": "mini-tray",
@@ -45959,7 +45980,7 @@
     "name": "Atomic Tracker",
     "author": "Justin",
     "description": "Track exercise and hobbies with heatmaps, cues, timers, and a daily dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "justinw0ng/obsidian-atomic"
+    "repo": "justinwxng/obsidian-atomic"
   },
   {
     "id": "bases-plus",
@@ -60613,6 +60634,13 @@
     "repo": "mloy97/passbook"
   },
   {
+    "id": "caldera",
+    "name": "Caldera",
+    "author": "Michael Jones",
+    "description": "The social layer for your vault: a living profile, friends between vaults, encrypted shared notes, asks, offers and gravity. Private by default. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "schoettle-cmd/caldera"
+  },
+  {
     "id": "annotation-inbox",
     "name": "Annotation Inbox",
     "author": "theluckystrike",
@@ -62580,6 +62608,13 @@
     "repo": "encomjp/obsidian-time-machine"
   },
   {
+    "id": "weight-bmi-tracker",
+    "name": "Weight BMI Tracker",
+    "author": "jasonzou",
+    "description": "Track daily weight, visualize trends, and automatically calculate & chart BMI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jasonzou/weight-bmi-tracker"
+  },
+  {
     "id": "static-fm",
     "name": "Static FM",
     "author": "ashotis",
@@ -62727,11 +62762,25 @@
     "repo": "signioratif/Obsidian-CC-connector"
   },
   {
+    "id": "spanish-dialogue-dash",
+    "name": "Spanish Dialogue Dash",
+    "author": "Elisa De Gregorio",
+    "description": "Turns hyphens into Spanish dialogue dashes (raya) and fixes spacing and punctuation around narrator incisos. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "coffeearmy/obsidian-spanish-dialogue"
+  },
+  {
     "id": "wasl",
     "name": "Wasl",
     "author": "Sultan",
     "description": "Finds places in your notes where you mention another note by title without linking it, even when Arabic spelling hides it («وبالكتابةِ» for «الكتابة»), and links them only when you approve. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "isltanx/obsidian-wasl"
+  },
+  {
+    "id": "clar",
+    "name": "Clar",
+    "author": "Juan Giraldo",
+    "description": "Adds a Kanban Board view for Obsidian Bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qjuanp/clar"
   },
   {
     "id": "path-focus-explorer",
@@ -62746,5 +62795,19 @@
     "author": "ashotis",
     "description": "Plays random public-domain black-and-white films from the Internet Archive in a small screen under your file list. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ashotis/matinee"
+  },
+  {
+    "id": "cloudflare-vault-backup",
+    "name": "Cloudflare Vault Backup",
+    "author": "Bapusaheb Patil",
+    "description": "Back up your vault to your own Cloudflare R2 bucket with versioned snapshots, per-note restore and optional encryption. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bapspatil/cloudflare-vault-backup"
+  },
+  {
+    "id": "repeated-words",
+    "name": "Repeated Words",
+    "author": "Elisa De Gregorio",
+    "description": "Highlights words repeated too close together, in English and Spanish. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "coffeearmy/obsidian-repeated-words"
   }
 ]
