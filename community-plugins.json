@@ -43478,7 +43478,7 @@
   },
   {
     "id": "media-transcript",
-    "name": "Media Transcript",
+    "name": "Media One",
     "author": "semsevens",
     "description": "Play video/audio with synchronized, clickable transcripts. Click any line to seek; playing line auto-highlights. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "semsevens/obsidian-media-transcript"
@@ -56966,13 +56966,6 @@
     "repo": "schobernoise/tasknotes-caldav"
   },
   {
-    "id": "qiaomu-publish",
-    "name": "Qiaomu Publish",
-    "author": "向阳乔木",
-    "description": "Preview notes in WeChat Official Account style, copy formatted HTML, or send them to your drafts. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "joeseesun/qiaomu-publish"
-  },
-  {
     "id": "db-atlas",
     "name": "DB Atlas",
     "author": "Luca Berselli",
@@ -60648,6 +60641,13 @@
     "repo": "markosnarinian/obsidian-iris"
   },
   {
+    "id": "note-name-generator",
+    "name": "Note Name Generator",
+    "author": "Robert Graf",
+    "description": "Create or rename notes with a generated name: a random GUID, or the output of any external program that can read the note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "meph24/obsidian-note-name-generator"
+  },
+  {
     "id": "visual-line-numbers",
     "name": "Visual Line Numbers",
     "author": "theluckystrike",
@@ -63140,6 +63140,13 @@
     "repo": "dhwan0112/obsidian-atomview"
   },
   {
+    "id": "stickyflow",
+    "name": "Stickyflow",
+    "author": "StickyFlow Labs",
+    "description": "Render SFL diagram code blocks as interactive diagrams you can pan, zoom and edit in place. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stickyflow/obsidian-sfl"
+  },
+  {
     "id": "weinc-publish",
     "name": "WeInc Publish",
     "author": "weinc",
@@ -63159,5 +63166,12 @@
     "author": "Agata Dalach",
     "description": "Checklists that aren't tasks: tick \"- ( )\" items with a progress bar and heading counts, while task plugins ignore them. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "adalach/obsidian-checkboxes"
+  },
+  {
+    "id": "speakflow",
+    "name": "Speakflow",
+    "author": "Amir Tavakolian",
+    "description": "High-accuracy live voice dictation powered by Google Gemini AI directly at the cursor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tavakoliian/speakflow"
   }
 ]
