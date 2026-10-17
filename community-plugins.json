@@ -29760,7 +29760,7 @@
     "id": "combat-ledger",
     "name": "Combat Ledger",
     "author": "Snifer",
-    "description": "Battle tracker for role-playing games. Reads YAML properties from your combatant notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "TTRPG Battle tracker for role-playing games. Reads YAML properties from your combatant notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "snifer/combat-ledger"
   },
   {
@@ -63236,5 +63236,26 @@
     "author": "Gonçalo Cartaxana",
     "description": "Generate a static canvas that maps your vault. Each folder with a folder note becomes a group holding its notes and subfolder groups. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "goncascartaxana/folder-note-map"
+  },
+  {
+    "id": "outlink-node-size",
+    "name": "Outlink Node Size",
+    "author": "Gonçalo Cartaxana",
+    "description": "Size graph view nodes by the combined size of the notes they link to. The inverse of backlink importance: notes that link to big notes grow, and notes that link to nothing stay small. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "goncascartaxana/outlink-node-size"
+  },
+  {
+    "id": "zisuzi-weread-mp",
+    "name": "Zisuzi-Weread-MP",
+    "author": "紫苏子ACG",
+    "description": "微信读书公众号盯采：登录后自动抓取书架里订阅的公众号更新，把每篇文章（含图片）归档为本地 Markdown 笔记。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pixelxzen/Zisuzi-Weread-MP"
+  },
+  {
+    "id": "feishu-docs-publisher",
+    "name": "Feishu Docs Publisher",
+    "author": "poli",
+    "description": "Publish Markdown notes, folders, and PDFs to Feishu/Lark Docs and keep them in sync through the local lark-cli. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "totok22/feishu-docs-publisher"
   }
 ]
