@@ -28406,6 +28406,13 @@
     "repo": "creagleone/obsidian-iconik"
   },
   {
+    "id": "weave-epub-reader",
+    "name": "Weave EPUB Reader",
+    "author": "zhuzhige123",
+    "description": "Standalone EPUB reader with bookshelf, deep links, and reading state persistence. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhuzhige123/obsidian-weave-reader"
+  },
+  {
     "id": "heic-viewer",
     "name": "HEIC Viewer",
     "author": "Kiara Orquera",
@@ -37245,6 +37252,13 @@
     "author": "ondreu",
     "description": "Simple light DXF viewer and editor, capable of measuring lenght, area, diameter, angles, and more. Aswell as simple editing like lines, polylines, rectangles, circles, elipses, arcs, fill, hatches... - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ondreu/DXF-Viewer-and-editor"
+  },
+  {
+    "id": "bamboo-immortals",
+    "name": "Bamboo Immortals",
+    "author": "羽鳞君",
+    "description": "Bamboo Immortals（竹林修仙传）— 基于OGAS理念的中国风目标自动化管理系统。A Chinese-style goal automation system based on OGAS concepts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "miaoziguan/obsidian-bamboo-immortals"
   },
   {
     "id": "pie-tasks",
@@ -47089,6 +47103,27 @@
     "repo": "coffeecheese/obsidian-pm-insights"
   },
   {
+    "id": "torbert-text-ai",
+    "name": "Torbert Text AI",
+    "author": "Rahul S",
+    "description": "Clean up Markdown, apply text transformations, and use OpenRouter for AI-assisted note editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Torbert-Text-AI-Obsidian"
+  },
+  {
+    "id": "denali-ai-file-renamer-front-matter",
+    "name": "Denali AI Renamer",
+    "author": "Rahul S",
+    "description": "Generate filenames from Markdown notes with AI, then rename automatically or after review. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Denali-AI-Renamer-and-Front-Matter-Obsidian"
+  },
+  {
+    "id": "culebra-ai-spell-correct",
+    "name": "Culebra AI Spell Correct",
+    "author": "Rahul S",
+    "description": "Correct spelling, grammar, and punctuation in selected text, notes, and Markdown files using OpenRouter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Culebra-Obsidian-AI-Auto-Correct-Spelling"
+  },
+  {
     "id": "vault-issues",
     "name": "Vault Issues",
     "author": "Aizic Albert",
@@ -47451,6 +47486,13 @@
     "author": "Murat Can Uste",
     "description": "Sync Google Calendar events declared in vault notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mcuste/obsidian-gcal-sync"
+  },
+  {
+    "id": "garda-handwriting-text-ocr",
+    "name": "Garda Handwriting Text OCR",
+    "author": "Rahul S",
+    "description": "Transcribe handwritten images and PDFs into searchable Markdown with GPT-5 mini. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Garda-Handwriting-Text-OCR"
   },
   {
     "id": "nice-korean-spell-checker",
@@ -48515,6 +48557,13 @@
     "author": "ianchen",
     "description": "Preview Markdown with WeChat-ready styling and two-way scroll sync. Convert local images to Base64 and copy rich text to the WeChat draft editor—no image host needed. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "joahyi-ai/WeChat-Publish-Preview"
+  },
+  {
+    "id": "structural-tables",
+    "name": "Structural Tables",
+    "author": "ZhengYX",
+    "description": "Merged cells, multi-row headers, and row headers for readable Markdown tables. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhyx91/obsidian-structural-tables"
   },
   {
     "id": "homepage-dashboard",
@@ -52661,6 +52710,41 @@
     "repo": "power-ioi/code-block-char-count"
   },
   {
+    "id": "kairo-quick-capture",
+    "name": "Kairo Quick Capture",
+    "author": "Rahul S",
+    "description": "Capture fleeting thoughts quickly and deliver them safely to an inbox or daily note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Kairo-Quick-Capture"
+  },
+  {
+    "id": "cairn-vault-linter",
+    "name": "Cairn Vault Linter",
+    "author": "Rahul S",
+    "description": "Offline vault health report for broken links, duplicate references, block IDs, and dangling stubs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Cairn-Vault-Linter"
+  },
+  {
+    "id": "tundra-frontmatter-wrangler",
+    "name": "Tundra Frontmatter Wrangler",
+    "author": "Rahul S",
+    "description": "Safely preview, apply, and roll back bulk frontmatter and property changes offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Tundra-Frontmatter-Wrangler"
+  },
+  {
+    "id": "meridian-timeline",
+    "name": "Meridian Timeline",
+    "author": "Rahul S",
+    "description": "Explore dated notes and historical spans on an interactive, local-only timeline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Meridian-Timeline"
+  },
+  {
+    "id": "aegis-note-locker",
+    "name": "Aegis Note Locker",
+    "author": "Rahul S",
+    "description": "Protect note bodies and selected frontmatter values with local authenticated encryption. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Aegis-Note-Locker"
+  },
+  {
     "id": "icor-for-life-scratchpad",
     "name": "ICOR for Life - Scratchpad",
     "author": "Thomas Roedl",
@@ -52680,6 +52764,13 @@
     "author": "Torus Hidenami",
     "description": "Collects unchecked tasks from Obsidian Canvas cards into an Inbox card. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "torus211/canvas-inbox-sync"
+  },
+  {
+    "id": "mica-webp-optimizer",
+    "name": "Mica WebP Optimizer",
+    "author": "Rahul S",
+    "description": "Optimize PNG and JPEG media locally as verified WebP files without breaking Obsidian links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Mica-WebP-Optimizer"
   },
   {
     "id": "rememo",
@@ -58261,6 +58352,13 @@
     "repo": "hellokunzai/obsidian-markdown-toolkit"
   },
   {
+    "id": "pdf-pager-hz",
+    "name": "PDF Pager",
+    "author": "heptazero",
+    "description": "Read PDFs page by page with mobile landscape paging, resume position, bookmarks, and width controls. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "heptazero/obsidian-PDF-pager"
+  },
+  {
     "id": "mdsync",
     "name": "MDSync",
     "author": "k1tbyte",
@@ -58973,6 +59071,13 @@
     "author": "cordelia242",
     "description": "Fill formatted Excel templates with properties from your notes and their related notes, preview the result and export it as XLSX files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cordelia242/obsidian-excel-exporter"
+  },
+  {
+    "id": "folder-encrypt",
+    "name": "Folder Encrypt",
+    "author": "archiwizzard",
+    "description": "Encrypt notes including their file names, or whole folders at once. A companion to Meld Encrypt that uses the same file format. Notes are only decrypted in memory. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "archiwzzard/Obsidian-Folder-Encrypt"
   },
   {
     "id": "circuit",
@@ -63012,5 +63117,47 @@
     "author": "Vincent Oostindie",
     "description": "Triggers Alfred on the active editor. macOS only. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "voostindie/obsidian-alfred-trigger-plugin"
+  },
+  {
+    "id": "line-marks",
+    "name": "Line Marks",
+    "author": "namikaze-40p",
+    "description": "Mark lines you want to come back to, and jump between them across notes. Marks follow their lines as you edit. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "namikaze-40p/obsidian-line-marks"
+  },
+  {
+    "id": "hangul-manuscript",
+    "name": "Hangul Manuscript",
+    "author": "hw725",
+    "description": "Write Korean manuscripts: corner-bracket input, auto-renumbered footnotes, paragraph styles, manuscript count, and HWPX export with real footnotes. A port of the VS Code extension HanMark by gkman1. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hw725/hangul-manuscript"
+  },
+  {
+    "id": "atomview",
+    "name": "AtomView",
+    "author": "Denny Kim",
+    "description": "Local atom structures and MD trajectories with preserved scientific metadata. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dhwan0112/obsidian-atomview"
+  },
+  {
+    "id": "weinc-publish",
+    "name": "WeInc Publish",
+    "author": "weinc",
+    "description": "Turn the current note into a website. Opens the WeInc builder with your note as the starting brief, so you can review it and press Send. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "umairalisadaqat/weinc-obsidian-publish"
+  },
+  {
+    "id": "pdf-sync-scroll",
+    "name": "PDF Sync Scroll",
+    "author": "chmod777h",
+    "description": "Synchronize scrolling across selected PDF panes and popout windows, with page alignment, reading progress, and manual offsets. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chmod777h/pdf-sync-scroll"
+  },
+  {
+    "id": "checkboxes",
+    "name": "Checkboxes",
+    "author": "Agata Dalach",
+    "description": "Checklists that aren't tasks: tick \"- ( )\" items with a progress bar and heading counts, while task plugins ignore them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "adalach/obsidian-checkboxes"
   }
 ]
