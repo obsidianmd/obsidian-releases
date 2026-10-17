@@ -21448,6 +21448,13 @@
     "repo": "antoineart/obsidian-nav-buttons"
   },
   {
+    "id": "gtd-tasks",
+    "name": "GTD Tasks",
+    "author": "unpreditable",
+    "description": "A dedicated panel to organize tasks across the vault using the Getting Things Done methodology (Today, This Week, Someday…) - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "unpreditable/GettingThingsDone"
+  },
+  {
     "id": "highlight-on-copy",
     "name": "Highlight on Copy",
     "author": "trevortylerlee",
@@ -29608,6 +29615,13 @@
     "author": "greedyhao",
     "description": "一键发布 Obsidian 笔记到微信公众号等平台 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "greedyhao/obsidian-note-to-public"
+  },
+  {
+    "id": "semlink",
+    "name": "Semlink",
+    "author": "Zhongyuan Ou",
+    "description": "AI assistant for Obsidian: chat with your notes, drag in notes for Q&A, semantic search via MCP - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ouou365/Semlink"
   },
   {
     "id": "semantic-todoist-sync",
@@ -47026,27 +47040,6 @@
     "repo": "coffeecheese/obsidian-pm-insights"
   },
   {
-    "id": "torbert-text-ai",
-    "name": "Torbert Text AI",
-    "author": "Rahul S",
-    "description": "Clean up Markdown, apply text transformations, and use OpenRouter for AI-assisted note editing. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/Torbert-Text-AI-Obsidian"
-  },
-  {
-    "id": "denali-ai-file-renamer-front-matter",
-    "name": "Denali AI Renamer",
-    "author": "Rahul S",
-    "description": "Generate filenames from Markdown notes with AI, then rename automatically or after review. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/Denali-AI-Renamer-and-Front-Matter-Obsidian"
-  },
-  {
-    "id": "culebra-ai-spell-correct",
-    "name": "Culebra AI Spell Correct",
-    "author": "Rahul S",
-    "description": "Correct spelling, grammar, and punctuation in selected text, notes, and Markdown files using OpenRouter. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/Culebra-Obsidian-AI-Auto-Correct-Spelling"
-  },
-  {
     "id": "vault-issues",
     "name": "Vault Issues",
     "author": "Aizic Albert",
@@ -50370,6 +50363,13 @@
     "author": "Jim Ezesinachi",
     "description": "Keeps TV series, season, and episode Seen properties synchronized. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jimezesinachi/obsidian-tv-progress-sync"
+  },
+  {
+    "id": "tikzjax-next",
+    "name": "TikZJax Next",
+    "author": "jackvinati",
+    "description": "Render TikZ and LaTeX diagrams in your notes (even on iOS). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jackvinati/tikzjax-next"
   },
   {
     "id": "enodios",
@@ -59906,6 +59906,13 @@
     "repo": "loglux/obsidian-blueproof"
   },
   {
+    "id": "ijipu",
+    "name": "iJipu",
+    "author": "蜗牛",
+    "description": "Render .jps jianpu scripts into sheet music inside your notes, with playback, and edit scores in a full built-in iJipu editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "snailhome/obsidian-ijipu"
+  },
+  {
     "id": "wcc-base-views",
     "name": "WCC Base Views",
     "author": "wcchristian",
@@ -61880,6 +61887,13 @@
     "repo": "cosmik-network/semble-plugin-obsidian"
   },
   {
+    "id": "jupyter-notebook",
+    "name": "Jupyter Notebook",
+    "author": "kains",
+    "description": "Edit and run native Jupyter notebooks with local Python environments, dependency checks, Markdown previews, and saved outputs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kains2866/obsidian-jupyter-notebook"
+  },
+  {
     "id": "trip-ledger",
     "name": "Trip Ledger",
     "author": "SHIN.DONGMYUNG",
@@ -62616,7 +62630,7 @@
   },
   {
     "id": "comsift",
-    "name": "comsift-new",
+    "name": "Comsift",
     "author": "comwhore",
     "description": "Canvas mind maps, folder investigations, local analysis and chat, and embedded spreadsheets. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "comwhore/comsift"
@@ -62837,5 +62851,19 @@
     "author": "André Santos",
     "description": "Interactive fifth edition (2014 rules) character sheets: SRD 5.1 included, manual mode, optional import of your own data and compendium links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "admiravelhomemdasneves/5eCharacterSheet"
+  },
+  {
+    "id": "youtube-embed",
+    "name": "Video Embed (YouTube + Instagram + TikTok)",
+    "author": "haotiencheng",
+    "description": "Paste a YouTube link and choose to embed it, paste an iframe, or add its title. Supports Shorts and playlists. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haotiencheng/obsidian-video-embed"
+  },
+  {
+    "id": "foldwise",
+    "name": "Foldwise",
+    "author": "Anthirayas",
+    "description": "Route pasted files into per-folder asset folders and manage saved assets on one page. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jrayas/foldwise"
   }
 ]
