@@ -21192,7 +21192,7 @@
     "id": "library",
     "name": "Library",
     "author": "venv",
-    "description": "Organize movies, series, books, anime, comics, games, and music as cover cards. Search titles in the app, fetch metadata, track progress, and link genres, creators, and actors in the graph. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Movies, series, anime, books, games and music as Markdown notes in a gallery of covers. Search fills in each note, and AniList, MyAnimeList, IMDb, Netflix, Steam and more sync your lists. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "venvk/obsidian-library-plugin"
   },
   {
@@ -38164,6 +38164,13 @@
     "repo": "simonsbookclub/readingrate-obsidian"
   },
   {
+    "id": "masonry",
+    "name": "Masonry",
+    "author": "Mario Miletta",
+    "description": "Browse your vault and filtered Bases as a visual masonry gallery. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mariomile/obsidian-masonry"
+  },
+  {
     "id": "json-table-viewer",
     "name": "JSON Table Viewer",
     "author": "usero2-endofday",
@@ -41282,7 +41289,7 @@
     "id": "grill",
     "name": "Grill",
     "author": "Adam Danielsson",
-    "description": "Chat with your notes and get grilled on them. An agentic AI that reads, edits and tests you on your notes, remembers what you got wrong, and shares that record with claude code, codex and your agents - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Chat with your notes and get grilled on them. An agentic AI that reads, edits and tests you on your notes, remembers what you got wrong, and uses your MCP servers, skills and the web. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theadamdanielsson/grill"
   },
   {
@@ -62104,6 +62111,13 @@
     "repo": "dryd33n/obsidian-tagging-folder"
   },
   {
+    "id": "gogoga-icons",
+    "name": "gogoga icons",
+    "author": "jackweigogoga",
+    "description": "Companion plugin for the gogoga theme: replaces Obsidian's built-in Lucide icons with Phosphor icons (the set used by Tolaria). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jackweigogoga/gogoga-icons"
+  },
+  {
     "id": "ai-reading-highlights",
     "name": "AI Reading Highlights",
     "author": "joshwong",
@@ -62972,6 +62986,13 @@
     "repo": "kjs104901/obsidian-boardline"
   },
   {
+    "id": "kanban-smart-columns",
+    "name": "Smart tasks-kanban",
+    "author": "lindongyan",
+    "description": "Works together with the Kanban and Tasks plugins, automatically filtering tasks across the vault into the columns you specify on a board, and letting you mark a task as - [x] simply by dragging it into your done column. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lindongyan1992/kanban-smart-columns"
+  },
+  {
     "id": "live-note-parameters",
     "name": "Live Note Parameters",
     "author": "nestealin",
@@ -63660,8 +63681,8 @@
   {
     "id": "bucket-sidebar",
     "name": "Bucket Sidebar",
-    "author": "ChaX",
-    "description": "Organize Markdown notes, PDFs and folders into virtual spaces and groups without moving the original files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "author": "Cha X.",
+    "description": "Organise notes, PDFs and folders around your projects without moving or duplicating files. Reuse the same reference across spaces and groups, with English and Chinese UI. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "badtobad/obsidian-bucket-sidebar"
   },
   {
@@ -63677,5 +63698,54 @@
     "author": "Yinno",
     "description": "Foldable Markdown tables with rich cell editing, groups, and nested records. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jwczju/markdown-treetable"
+  },
+  {
+    "id": "penbook",
+    "name": "Penbook Notes",
+    "author": "wangcccccct",
+    "description": "本地手写笔记本、S Pen 压感书写、PDF 批注、页面管理与导入导出。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wangcccccct/penbook"
+  },
+  {
+    "id": "aiditor",
+    "name": "AIditor",
+    "author": "Mario Miletta",
+    "description": "Durable, resolvable margin annotations anchored to blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mariomile/obsidian-aiditor"
+  },
+  {
+    "id": "composer",
+    "name": "Composer",
+    "author": "Mario Miletta",
+    "description": "Notion-style block handle (+ insert menu, block actions) and a right-edge document outline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mariomile/obsidian-composer"
+  },
+  {
+    "id": "glance",
+    "name": "Glance",
+    "author": "Mario Miletta",
+    "description": "Turn standalone web links into source-pure rich cards. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mariomile/obsidian-glance"
+  },
+  {
+    "id": "horizon",
+    "name": "Horizon",
+    "author": "Mario Miletta",
+    "description": "Calendar for your vault: daily and periodic notes, tasks, and dated notes in one place. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mariomile/obsidian-horizon"
+  },
+  {
+    "id": "commonmark-live-preview",
+    "name": "CommonMark Live Preview",
+    "author": "lruijsink",
+    "description": "Make Live Preview render Markdown the way CommonMark does: soft line breaks as spaces and nested lists with any valid indent, without touching your files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lruijsink/commonmark-live-preview"
+  },
+  {
+    "id": "paperless-sync",
+    "name": "Paperless Sync",
+    "author": "Duc Anh Nguyen",
+    "description": "Sync document metadata from Paperless-ngx into notes. Creates one note per document with properties you can link and query. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "itsanhreal/obsidian-paperless-sync"
   }
 ]
