@@ -10290,13 +10290,6 @@
     "repo": "rostunic/obsidian-alias-picker"
   },
   {
-    "id": "browser-interface",
-    "name": "Browser Interface",
-    "author": "jason-lieb",
-    "description": "Allows you to interact with the browser.",
-    "repo": "jason-lieb/obsidian-browser-interface-plugin"
-  },
-  {
     "id": "fuzzy-note-creator",
     "name": "Fuzzy Note Creator",
     "author": "halogamer33",
@@ -37800,6 +37793,13 @@
     "repo": "yzyhhhstudy/paper-deadlines"
   },
   {
+    "id": "vault-crews",
+    "name": "Vault Crews",
+    "author": "Johannes Kaindl",
+    "description": "Run autonomous local LLM agent teams (crews) on your vault via LM Studio - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johannes-kaindl/vault-crews"
+  },
+  {
     "id": "obsync-webdav-gpg",
     "name": "Webdav PQC Sync",
     "author": "obsync",
@@ -59031,13 +59031,6 @@
     "repo": "romakhov/Indexa"
   },
   {
-    "id": "visualink",
-    "name": "Visualink",
-    "author": "Macp",
-    "description": "Save links as light visual cards with their cover, title and description. Sort them into collections and keep them offline in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "opmacp/visualink"
-  },
-  {
     "id": "desklamp",
     "name": "Desk Lamp",
     "author": "SigiL",
@@ -63077,13 +63070,6 @@
     "repo": "dlf2001/selection-ai-button-for-obsidian"
   },
   {
-    "id": "mica",
-    "name": "Mica",
-    "author": "devguyrash",
-    "description": "Versioned, structured content blocks — fast nested tabs and grids with first-class version history and Meld-class diffing. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "devguyrash/mica"
-  },
-  {
     "id": "recent-notes-feed",
     "name": "ReNotes",
     "author": "ebmshll",
@@ -63511,6 +63497,13 @@
     "repo": "hyunho058/obsidian-ai-terminal"
   },
   {
+    "id": "vaultore",
+    "name": "VaultOre",
+    "author": "CronAI",
+    "description": "Run AI, TypeScript, and shell workflow cells inside Markdown notes, sandboxed in containers, with cron scheduling. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cronai-labs/vaultore"
+  },
+  {
     "id": "daily-notes-stream",
     "name": "Daily notes stream",
     "author": "Madhurya",
@@ -63735,10 +63728,24 @@
     "repo": "lruijsink/commonmark-live-preview"
   },
   {
+    "id": "kb-semantic-search",
+    "name": "KB Semantic Search",
+    "author": "Xiao.Hu_1987",
+    "description": "调用本地混合检索服务（bge-small-zh 向量 + FTS5 全文 + RRF 融合），在 Obsidian 内进行中文语义搜索并跳转笔记. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xiao-hu1987/obsidian-kb-semantic-search"
+  },
+  {
     "id": "paperless-sync",
     "name": "Paperless Sync",
     "author": "Duc Anh Nguyen",
     "description": "Sync document metadata from Paperless-ngx into notes. Creates one note per document with properties you can link and query. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "itsanhreal/obsidian-paperless-sync"
+  },
+  {
+    "id": "locky",
+    "name": "Locky",
+    "author": "Boink!",
+    "description": "Encrypt note contents at rest while keeping the title visible. Lock, unlock, or permanently decrypt notes with a vault-wide password or a per-note password. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "boinkdevteam/obsidian-locky"
   }
 ]
