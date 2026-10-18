@@ -26365,7 +26365,7 @@
     "id": "resojot",
     "name": "Resojot",
     "author": "Jiao Yingxing",
-    "description": "Capture voice notes in Obsidian, write them into Markdown, and transcribe them with local or cloud providers. (Closed source) - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "录音、转写与整理，把语音内容更快变成可查可用的笔记。Record, transcribe, and organize voice recordings to turn them into searchable, usable notes faster. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiaoyingxing/resojot"
   },
   {
@@ -31195,7 +31195,7 @@
     "id": "a-plugins",
     "name": "A Loader",
     "author": "Jiao Yingxing",
-    "description": "Make plugin-heavy Obsidian vaults start smoother, especially on mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "把不紧要的插件晚点加载，启动更快。Load non-essential plugins later to speed up startup. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiaoyingxing/a-loader"
   },
   {
@@ -37744,13 +37744,6 @@
     "repo": "diegomarzaa/obsidian-extensions-sync-manager"
   },
   {
-    "id": "nameforge",
-    "name": "nameForge",
-    "author": "volcanicMole",
-    "description": "Feed it a list of names, by Markov Magic it works out their secrets, then generates ever-changing fresh names, ready to use whenever, however (legally please). - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kennyrn/nameForge"
-  },
-  {
     "id": "drivesync",
     "name": "DriveSync",
     "author": "lcjury",
@@ -39896,7 +39889,7 @@
     "id": "easy-sync",
     "name": "EasySync",
     "author": "Jiao Yingxing",
-    "description": "在电脑、手机和平板间同步你的 Obsidian 仓库，直连 OneDrive。Sync your Obsidian vault across devices via your own OneDrive - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "在电脑、手机和平板之间轻松同步你的仓库。Easily keep your vault in sync across your computer, phone, and tablet. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiaoyingxing/easy-sync"
   },
   {
@@ -41667,14 +41660,14 @@
     "id": "square",
     "name": "Square",
     "author": "Jiao Yingxing",
-    "description": "A lightweight habit tracker for Obsidian with built-in templates, project notes, and overview charts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "用小方块追踪习惯与项目，周月视图纵览进度。Track habits and projects with a grid of small squares, plus weekly and monthly progress views. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiaoyingxing/square"
   },
   {
     "id": "sidet",
     "name": "Sidet",
     "author": "Jiao Yingxing",
-    "description": "An Obsidian AI chat plugin built to feel smooth, natural, mobile-friendly, and easy to keep using. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "流畅自然的 AI 对话体验，移动端也出色。A smooth, natural AI chat experience that also works great on mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiaoyingxing/sidet"
   },
   {
@@ -46956,6 +46949,13 @@
     "repo": "jmedzen/ezdict"
   },
   {
+    "id": "ezindex",
+    "name": "EzIndex",
+    "author": "Juehming Shi",
+    "description": "Easy index and table of contents generator for Obsidian notes and folders. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jmedzen/ezindex"
+  },
+  {
     "id": "wallet-tracker",
     "name": "Wallet Tracker",
     "author": "atlassociety",
@@ -49108,7 +49108,7 @@
     "id": "openplug",
     "name": "OpenPlug",
     "author": "Jiao Yingxing",
-    "description": "Install official Obsidian community plugins via domestic mirror acceleration, without a VPN. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "不用 VPN，轻松装好社区插件与主题。Easily install community plugins and themes without a VPN. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiaoyingxing/openplug"
   },
   {
@@ -49488,6 +49488,13 @@
     "author": "Paul Groth",
     "description": "Brighten your day with delights when you complete a task (check a checkbox). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "paulmrg2/delightful-obsidian"
+  },
+  {
+    "id": "nextcloud-sync-yanc",
+    "name": "Nextcloud sync YANC",
+    "author": "rosswang",
+    "description": "Bidirectional Vault Nextcloud sync with smart/force modes, chunked uploads, and built-in exclusion of hidden files and dotfolders (the YANC fork). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanqingwang/obsidian-nextcloud-sync-yanc"
   },
   {
     "id": "startup-metrics-logger",
@@ -53613,6 +53620,13 @@
     "repo": "ibrahimsteed/nextclaw-sync"
   },
   {
+    "id": "unreader",
+    "name": "UNreader",
+    "author": "UNcore",
+    "description": "A beautiful e-book reader for Obsidian. EPUB first. Also MOBI/AZW3 and TXT. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "uncore-gh/UNreader"
+  },
+  {
     "id": "tag-calendar",
     "name": "Tag Calendar",
     "author": "Synaphi",
@@ -55016,7 +55030,7 @@
     "id": "ai-codingplan-check",
     "name": "AI CodingPlan Check",
     "author": "Jiao Yingxing",
-    "description": "查询 AI 编程订阅套餐剩余额度（OpenCode Go / Command Code / 火山方舟），支持多账号多套餐. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "一站式查询多家 AI 编程平台的套餐余额与用量，支持多账号管理。Check plan balances and usage for multiple AI coding platforms in one place, with multi-account support. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jiaoyingxing/ai-codingplan-check"
   },
   {
@@ -61684,6 +61698,13 @@
     "repo": "69jesse/obsidian-easy-git-sync"
   },
   {
+    "id": "whiteboat",
+    "name": "Whiteboat",
+    "author": "千百慧",
+    "description": "Begin on a quiet water surface and turn a thought into a new Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "circleyan/whiteboat-obsidian-water"
+  },
+  {
     "id": "planning-dashboard",
     "name": "Planning Dashboard",
     "author": "puria",
@@ -63553,10 +63574,38 @@
     "repo": "theluckystrike/table-csv-encoding"
   },
   {
+    "id": "replay",
+    "name": "Replay",
+    "author": "Elia Scotto",
+    "description": "Record and replay your writing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "eliascotto/obsidian-replay"
+  },
+  {
     "id": "task-format-bridge",
     "name": "Task Format Bridge",
     "author": "theluckystrike",
     "description": "Preview and convert task date fields between emoji and Dataview syntax. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/task-format-bridge"
+  },
+  {
+    "id": "aurora-clock",
+    "name": "Aurora Clock",
+    "author": "Ash Otis",
+    "description": "Your theme follows the sky: the glow drifts through night, dawn, day, golden hour and dusk. Made for Static Aurora; any theme can use its colours. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ashotis/Aurora-Clock"
+  },
+  {
+    "id": "one-page",
+    "name": "One Page",
+    "author": "Ash Otis",
+    "description": "Drops a reflective question, or now and then a story, poem, dialogue or gratitude prompt, into each new daily note. A pause before the scroll. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ashotis/One-Page"
+  },
+  {
+    "id": "ai-box",
+    "name": "AI Box",
+    "author": "beauty",
+    "description": "Create a local knowledge base and connect DeepSeek Harness, Claude Code, and Codex through global instructions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "baeauty/obsidian-ai-box"
   }
 ]
