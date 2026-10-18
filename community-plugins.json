@@ -22899,7 +22899,7 @@
   {
     "id": "flakepiles",
     "name": "Flakepiles",
-    "author": "idlist",
+    "author": "i'DLisT",
     "description": "Put small notes / stickies / code snippets in a single file, and manage them in a masonry layout. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "idlist/flakepiles"
   },
@@ -29647,7 +29647,7 @@
   {
     "id": "semlink",
     "name": "Semlink",
-    "author": "Zhongyuan Ou",
+    "author": "ouzhongyuan",
     "description": "Your Obsidian AI Agent：Chat with your vault, drag notes for grounded Q&A, semantic search via MCP. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ouou365/Semlink"
   },
@@ -41282,7 +41282,7 @@
     "id": "grill",
     "name": "Grill",
     "author": "Adam Danielsson",
-    "description": "Chat with your notes and get grilled on them. An agentic AI that reads, edits and tests you on your notes, remembers what you got wrong, and shares that record with Claude Code, Codex and your other a - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Chat with your notes and get grilled on them. An agentic AI that reads, edits and tests you on your notes, remembers what you got wrong, and shares that record with claude code, codex and your agents - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theadamdanielsson/grill"
   },
   {
@@ -49553,6 +49553,13 @@
     "repo": "yoitsrdl/colloquy"
   },
   {
+    "id": "compress-image-webp",
+    "name": "Compress Image (WebP)",
+    "author": "Bjorn Clauw",
+    "description": "Automatically compresses and converts images to WebP on paste, drop, and upload. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bjornclauw/compress-image-webp"
+  },
+  {
     "id": "code-diff",
     "name": "Code Diff",
     "author": "Jordi",
@@ -55093,7 +55100,7 @@
     "id": "vaultrecall",
     "name": "VaultRecall Spaced Repetition",
     "author": "Chris",
-    "description": "(In beta) Spaced repetition for your vault with SM-2 scheduling and optional BYOK AI-generated quizzes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Spaced repetition for your vault with SM-2 scheduling and optional BYOK AI-generated quizzes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "chrisnmorrison/vaultrecall-sr"
   },
   {
@@ -62986,13 +62993,6 @@
     "repo": "xmmw-fun/obsidian-dice-table"
   },
   {
-    "id": "mfp-player",
-    "name": "MFP Player",
-    "author": "Ash Otis",
-    "description": "Play the Music For Programming series as a playlist in your sidebar, with resume, favourites, themes and an ASCII EQ. Unofficial. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ashotis/mf-player"
-  },
-  {
     "id": "hifi-tuner",
     "name": "Hi-Fi Tuner",
     "author": "Ash Otis",
@@ -63637,10 +63637,45 @@
     "repo": "sedghimohammadamin/recovery-engine-v2"
   },
   {
+    "id": "agent-sidebar",
+    "name": "Agent Sidebar",
+    "author": "Vladimir",
+    "description": "Chat with your local Claude Code agent in a sidebar, with streamed replies, tool calls, diffs, permission prompts, plan mode and session history. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vsaraikin/obsidian-claude-plugin"
+  },
+  {
     "id": "abc-solfa",
     "name": "ABC Sol-fa",
     "author": "Damian Evans",
     "description": "Render ABC tunes with sol-fa syllables and Kodály stick rhythm notation, each layer switchable per block. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "damianeire/obsidian-abc-solfa"
+  },
+  {
+    "id": "agent-note-terminal",
+    "name": "TermNote",
+    "author": "ptwm",
+    "description": "Run local agents in tabbed terminals and continuously save each session to a Markdown note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ptwm-git/termnote"
+  },
+  {
+    "id": "bucket-sidebar",
+    "name": "Bucket Sidebar",
+    "author": "ChaX",
+    "description": "Organize Markdown notes, PDFs and folders into virtual spaces and groups without moving the original files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "badtobad/obsidian-bucket-sidebar"
+  },
+  {
+    "id": "claudian-thinking-translator",
+    "name": "Claudian Thinking Translator",
+    "author": "chengmiaofan",
+    "description": "Translate Claudian's thinking into Chinese as it streams, only when you expand a block. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "serena-sheng/claudian-thinking-translator"
+  },
+  {
+    "id": "markdown-treetable",
+    "name": "TreeTable",
+    "author": "Yinno",
+    "description": "Foldable Markdown tables with rich cell editing, groups, and nested records. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jwczju/markdown-treetable"
   }
 ]
