@@ -17570,13 +17570,6 @@
     "repo": "myluster/Obsidian-LaTeX-Helper"
   },
   {
-    "id": "advanced-ruby",
-    "name": "Advanced Ruby",
-    "author": "peter-yanase",
-    "description": "Enable multi-layered ruby annotation rendering usable for everything from Japanese furigana to layered commentaries.",
-    "repo": "peter-yanase/obsidian-advanced-ruby"
-  },
-  {
     "id": "newslog",
     "name": "newslog",
     "author": "protoavatar",
@@ -39942,13 +39935,6 @@
     "repo": "jerrywiltz/np-rf-analysis"
   },
   {
-    "id": "code-playground",
-    "name": "Code Playground",
-    "author": "touss59",
-    "description": "Live, editable code playgrounds with instant preview inside your notes: HTML/CSS, React, Vue, Svelte, Angular, Solid, Next.js, TypeScript, JavaScript and more. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "touss59/obsidian-code-playground"
-  },
-  {
     "id": "yaml-properties",
     "name": "YAML Properties",
     "author": "Robert Fleming",
@@ -46039,13 +46025,6 @@
     "repo": "danlingdan/fastMathJax"
   },
   {
-    "id": "gantt-this",
-    "name": "Gantt this",
-    "author": "Altarok",
-    "description": "Interactive Gantt charts for custom TTRPG calendars, with support for Bases views. Track campaign events, eras, and timestamps directly from note frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "altarok/gantt-this"
-  },
-  {
     "id": "canvas-image-lod",
     "name": "Canvas Image LOD",
     "author": "Ilia Gorbunov",
@@ -47617,7 +47596,7 @@
     "id": "chemrender",
     "name": "ChemRender3D",
     "author": "Ruzal Sitdikov",
-    "description": "Chemistry and molecular 3D viewer. Visualize proteins, molecules, and chemical structures from PDB, CIF, MOL, SDF, XYZ, and other formats. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Chemistry and molecular 3D viewer. Visualize proteins, molecules, atoms and chemical structures from PDB, CIF, MOL, SDF, XYZ, and other formats. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ruzx/chemrender3d"
   },
   {
@@ -50860,6 +50839,13 @@
     "author": "Aristarkh Khalmirzaev",
     "description": "Converts selected text between Uzbek Latin and Cyrillic scripts — fixes wrong script with one click. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "arigurj/obsidian-uzbek-script-switcher"
+  },
+  {
+    "id": "makespdf",
+    "name": "MakesPDF",
+    "author": "makesPDF",
+    "description": "Export notes to accessible, archival-quality PDFs (PDF/A-2A and PDF/UA-1) using the makespdf.com API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "makespdf/makespdf-obsidian-plugin"
   },
   {
     "id": "highlight-migrator",
@@ -62860,6 +62846,13 @@
     "repo": "krishnanefx/obsidian-tahoe-intelligence"
   },
   {
+    "id": "taskgift",
+    "name": "Task Gift",
+    "author": "KfirG",
+    "description": "Two-way Google Tasks sync with a Kanban board and a gift mode that reveals one random task at a time. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kfirgumay2005-hash/Task-Gift"
+  },
+  {
     "id": "tasks-view",
     "name": "Tasks View",
     "author": "encomjp",
@@ -63775,5 +63768,33 @@
     "author": "dddeewww",
     "description": "Save the images of clipped web pages into your own Cloudflare R2 bucket so they never disappear, and upload pasted or dropped images to R2. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yunasuka/obsidian-r2-image-uploader"
+  },
+  {
+    "id": "virtual-pen-cursor",
+    "name": "Virtual Pen Cursor",
+    "author": "kriket",
+    "description": "Always-visible virtual cursors (arrow, brush, reticle, nib, laser, wand) with click animations for stylus, Windows Ink, and Excalidraw. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "henrique244466666/obsidian-virtual-pen-cursor"
+  },
+  {
+    "id": "maps-plus",
+    "name": "Maps+",
+    "author": "Tyler Carrol",
+    "description": "Adds a Bases map view with polygon areas, routes, and point markers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tylercarrol/obsidian-maps-plus"
+  },
+  {
+    "id": "latex-notes",
+    "name": "LaTeX Notes",
+    "author": "davidn",
+    "description": "Open .tex files as rendered, editable notes: LaTeX is converted to markdown in memory and shown with your theme. No TeX installation needed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "david-nagy/obsidian-latex-notes"
+  },
+  {
+    "id": "find-replace-in-selection",
+    "name": "Find + Replace in Selection",
+    "author": "Manoj",
+    "description": "Find and replace limited to the selected text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "manojkarthick/obsidian-find-replace-selection"
   }
 ]
