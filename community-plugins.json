@@ -22190,6 +22190,13 @@
     "repo": "bcs1037/SmartPick"
   },
   {
+    "id": "reading-tracker",
+    "name": "Reading Tracker",
+    "author": "minseon9",
+    "description": "Reading Tracker for importing books from Open Library, organizing your reading shelves, and analyzing your reading habits. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "minseon9/obsidian-reading-tracker-plugin"
+  },
+  {
     "id": "datestamp",
     "name": "Datestamp",
     "author": "huynhtranhoanglong",
@@ -63500,7 +63507,7 @@
     "id": "vaultore",
     "name": "VaultOre",
     "author": "CronAI",
-    "description": "Run AI, TypeScript, and shell workflow cells inside Markdown notes, sandboxed in containers, with cron scheduling. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Run AI, TypeScript, and shell workflow cells inside Markdown notes, with per-note permissions, code cells in containers, and cron scheduling. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cronai-labs/vaultore"
   },
   {
@@ -63747,5 +63754,26 @@
     "author": "Boink!",
     "description": "Encrypt note contents at rest while keeping the title visible. Lock, unlock, or permanently decrypt notes with a vault-wide password or a per-note password. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "boinkdevteam/obsidian-locky"
+  },
+  {
+    "id": "agenda-panel",
+    "name": "Agenda Panel",
+    "author": "emirhanoguz0",
+    "description": "Show dated tasks and events from a plain Markdown file as a four-week calendar and agenda list in the right sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "emirhanoguz0/obsidian-agenda-plugin"
+  },
+  {
+    "id": "baidu-sync",
+    "name": "Baidu Sync Safe",
+    "author": "minlaoge",
+    "description": "Sync files with Baidu Netdisk using conflict copies, optional end-to-end encryption, and recoverable desktop file replacement. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "minlaoge/obsidian-baidu-netdisk-sync"
+  },
+  {
+    "id": "cloudflare-image-uploader",
+    "name": "Cloudflare Image Uploader",
+    "author": "dddeewww",
+    "description": "Save the images of clipped web pages into your own Cloudflare R2 bucket so they never disappear, and upload pasted or dropped images to R2. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yunasuka/obsidian-r2-image-uploader"
   }
 ]
