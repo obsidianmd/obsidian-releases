@@ -41296,7 +41296,7 @@
     "id": "grill",
     "name": "Grill",
     "author": "Adam Danielsson",
-    "description": "Chat with your notes and get grilled on them. An agentic AI that reads, edits and tests you on your notes, remembers what you got wrong, and uses your MCP servers, skills and the web. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "An agentic learning system. Grill keeps state on what you know, note by note. Chat, tests and your other agents all work from it. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theadamdanielsson/grill"
   },
   {
@@ -44826,6 +44826,13 @@
     "author": "Ikue",
     "description": "Create and switch between multiple editable versions of a note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mizhidaili/version"
+  },
+  {
+    "id": "filtered-file-commands",
+    "name": "Note Types",
+    "author": "jsmorabito",
+    "description": "Define note types with creation commands, filtered file pickers, hover previews, styled wikilinks, and a sidebar widget. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jsmorabito/obsidian-note-types"
   },
   {
     "id": "subtle-toc-plus",
@@ -56826,13 +56833,6 @@
     "repo": "zmattew/obsidian-plot"
   },
   {
-    "id": "tag-match",
-    "name": "Tag Match",
-    "author": "Nathan Cheng",
-    "description": "Match and apply tags to one note or many with AI decision models (default: Jev), using your vault’s tags or a specific set you provide. Faster + cheaper than LLM-based taggers. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "nweii/tag-match"
-  },
-  {
     "id": "folder-counts",
     "name": "Folder Counts",
     "author": "siulved54",
@@ -57102,7 +57102,7 @@
     "id": "firstdraft",
     "name": "First Draft",
     "author": "grobmeier",
-    "description": "Write screenplays efficiently in portable Fountain text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Write screenplays in plain text, plan scenes, develop characters and export PDF or Final Draft files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "grobmeier/firstdraft"
   },
   {
@@ -64143,7 +64143,7 @@
   {
     "id": "note-purge",
     "name": "Note Purge",
-    "author": "Joel Reymon",
+    "author": "Joel Reymont",
     "description": "Delete every note in the current search results at once, for example all notes with a given tag. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "joelreymont/obsidian-note-purge"
   },
@@ -64160,5 +64160,19 @@
     "author": "zhang",
     "description": "Canvas cards show only a clickable title; click to open a popup with the full body content. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "knink-owo/obsidian-canvas-cards"
+  },
+  {
+    "id": "word-hover-actions",
+    "name": "Word Hover Actions",
+    "author": "Mohan Das Adhikari",
+    "description": "Hold Shift over a word to open an action wheel: link or create notes, format text, extract passages, and look up definitions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jokeroct/word-hover-actions"
+  },
+  {
+    "id": "helin-assistant",
+    "name": "Helin Assistant",
+    "author": "yuxhe15",
+    "description": "Read AI summaries beside notes, connect related knowledge, and review or undo background changes through an authorized assistant service. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuxhe15/helin-assistant"
   }
 ]
