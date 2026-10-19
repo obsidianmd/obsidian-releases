@@ -17570,6 +17570,13 @@
     "repo": "myluster/Obsidian-LaTeX-Helper"
   },
   {
+    "id": "advanced-ruby",
+    "name": "Advanced Ruby",
+    "author": "peter-yanase",
+    "description": "Enable multi-layered ruby annotation rendering usable for everything from Japanese furigana to layered commentaries.",
+    "repo": "peter-yanase/obsidian-advanced-ruby"
+  },
+  {
     "id": "newslog",
     "name": "newslog",
     "author": "protoavatar",
@@ -23266,13 +23273,6 @@
     "author": "wuhup",
     "description": "Create new notes from a hover button on each folder in the Files view. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wuhup/obsidian-folder-new-note-button"
-  },
-  {
-    "id": "vault-backup",
-    "name": "Vault Backup",
-    "author": "Masahiro Hiramori",
-    "description": "Create local ZIP backups of your vault with automatic retention management. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mshr-h/obsidian-vault-backup"
   },
   {
     "id": "embed-metadata",
@@ -54663,13 +54663,6 @@
     "repo": "kotaindah55/mainstream-icons"
   },
   {
-    "id": "nosh",
-    "name": "Nosh",
-    "author": "Jonathon Brearley",
-    "description": "Log meals and ingredients from your own notes and watch them add up against DASH targets — nutrients, food-group servings, and a suggestion for what to eat next. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "brearleyjonathon/nosh"
-  },
-  {
     "id": "cyriform-companion",
     "name": "Cyriform Companion",
     "author": "Cyrius Weng",
@@ -63694,7 +63687,7 @@
   },
   {
     "id": "markdown-treetable",
-    "name": "TreeTable",
+    "name": "Rich Treetable",
     "author": "Yinno",
     "description": "Foldable Markdown tables with rich cell editing, groups, and nested records. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jwczju/markdown-treetable"
@@ -63733,6 +63726,13 @@
     "author": "Mario Miletta",
     "description": "Calendar for your vault: daily and periodic notes, tasks, and dated notes in one place. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mariomile/obsidian-horizon"
+  },
+  {
+    "id": "sixtyfourpadgrid",
+    "name": "64 Pad Grid",
+    "author": "Satoshi Nagata",
+    "description": "Draw clickable pad patterns for grid controllers in your notes - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "supezou/64padgrid"
   },
   {
     "id": "commonmark-live-preview",
@@ -63845,5 +63845,26 @@
     "author": "Anthirayas",
     "description": "Browse the notes linked to and from the active note on a calm, full-page grid. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jrayas/linkroom"
+  },
+  {
+    "id": "vaultlottery",
+    "name": "Vault Lottery",
+    "author": "KfirG",
+    "description": "Randomizer games in the right sidebar: spin wheel, note lottery, dice & coin, and team picker. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kfirgumay2005-hash/Vault-Lottery"
+  },
+  {
+    "id": "labelled-links",
+    "name": "Labelled Links",
+    "author": "Michael Naumov",
+    "description": "Label your links: give each link a relation, show the inverse relation from the other end, and browse every relation of a note in one pane. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-labelled-links"
+  },
+  {
+    "id": "explorer-multi-select",
+    "name": "Explorer Multi-Select",
+    "author": "Michael Naumov",
+    "description": "Select many files and folders in the File explorer with ease: a touch selection mode, keyboard selection, select by rule and batch actions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-explorer-multi-select"
   }
 ]
