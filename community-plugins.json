@@ -29641,7 +29641,7 @@
     "id": "semlink",
     "name": "Semlink",
     "author": "ouzhongyuan",
-    "description": "Your Obsidian AI assistant: Chat with your vault, drag notes for grounded Q&A, and provide MCP-powered semantic search for Claude and CodeX. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Your Obsidian AI assistant: Chat with your vault, drag notes to run grounded Q&A, and expose semantic search via MCP for Claude, Codex, Cline, Cursor, Copilot, Goose and other MCP-compatible AI agents - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ouou365/Semlink"
   },
   {
@@ -30698,7 +30698,7 @@
     "id": "csvzall",
     "name": "csvzall",
     "author": "Vincent La",
-    "description": "A fast CSV viewer, editor, and charting plugin for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A fast CSV and TSV viewer, editor, and charting plugin for Obsidian. Use SQLite queries over CSV files, and export them directly to your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vincentlaucsb/obsidian-csvzall"
   },
   {
@@ -52857,13 +52857,6 @@
     "repo": "snaraj/obsync"
   },
   {
-    "id": "colecao-livros-quadrinhos",
-    "name": "Personal Library",
-    "author": "Pedro Henrique Ramos",
-    "description": "Catalog books and comics in your vault by searching ISBN or title, building your own personal library. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ph-ramos/Personal-Library"
-  },
-  {
     "id": "isotask",
     "name": "Isotask",
     "author": "Diego Pasquali",
@@ -63887,5 +63880,12 @@
     "author": "hztoyr",
     "description": "Keep all daily notes in one file. Capture a line with a hotkey, pick recent or frequent tags, and jump to any day from a sidebar calendar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hztoyr/unidaily"
+  },
+  {
+    "id": "sibling-notes",
+    "name": "Sibling Notes",
+    "author": "Michael Naumov",
+    "description": "Step through the notes of a folder in File explorer order, with a navigator bar above and below the note and a folder map. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-sibling-notes"
   }
 ]
