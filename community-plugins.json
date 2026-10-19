@@ -33756,7 +33756,7 @@
   {
     "id": "gtd-flow",
     "name": "GTD Flow",
-    "author": "Marco Guidetti",
+    "author": "MG",
     "description": "Structured GTD: sequential/parallel projects, defer dates, next actions, forecast and review. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gaedol/gtd-flow"
   },
@@ -37294,13 +37294,6 @@
     "author": "SATOSprod",
     "description": "Inline preview for embedded HTML files in Obsidian. Expand HTML files directly inside notes with fixed 16:9 or infinite-height rendering. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "satosprod/html-page-preview"
-  },
-  {
-    "id": "habits",
-    "name": "Habits",
-    "author": "jamescliffordspratt",
-    "description": "Habit tracker with streaks, charts, and statistics. Log daily habits from a carousel dashboard or sidebar panel, pause habits without losing streaks, and export printable PDF reports. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jamescliffordspratt/obsidian-habits"
   },
   {
     "id": "inkedmark",
@@ -52010,13 +52003,6 @@
     "repo": "yomicoding/Obs-readonly-git-mirror"
   },
   {
-    "id": "a-home",
-    "name": "A-Home",
-    "author": "evinvin",
-    "description": "All-in-one Obsidian dashboard for managing tasks, plans, notes, countdowns, progress, calendar, Pomodoro, weather, and daily life. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "vinvinvin444/A-Home-Releases"
-  },
-  {
     "id": "agent-annotations",
     "name": "Agent Annotations",
     "author": "exceedhl",
@@ -55529,13 +55515,6 @@
     "author": "alungranpj",
     "description": "Hierarchical plain-text numbering (1. / 1.1. / 1.1.1.) driven by Tab, Shift-Tab, Enter and Alt-Up/Down. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alungranpj/obsidian-multilevel-number-indent"
-  },
-  {
-    "id": "harbor-tab",
-    "name": "Harbor Tab",
-    "author": "Moy",
-    "description": "A browser-like home tab with instant file search, starred and recent files, and an optional interactive particle wordmark. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "moyf/harbor-tab"
   },
   {
     "id": "snippet-toggles",
@@ -62636,13 +62615,6 @@
     "repo": "theluckystrike/annotator-json-export"
   },
   {
-    "id": "vaultsail",
-    "name": "VaultSail",
-    "author": "Eboo",
-    "description": "Sync notes and attachments through Baidu Netdisk with version preservation and encrypted device pairing. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gongteng0215/obsidian-vaultsail"
-  },
-  {
     "id": "shoujidiannao-absyw",
     "name": "Shouji-Diannao",
     "author": "手机电脑同步插件",
@@ -64029,6 +64001,13 @@
     "repo": "offluisangel/obsidian-yt-tracker"
   },
   {
+    "id": "super-table",
+    "name": "Super Table",
+    "author": "King",
+    "description": "Create database-like tables directly in Markdown notes, with typed fields, filtering, sorting, grouping, and multiple named views over shared records. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kingbeyond/obsidian-super-table"
+  },
+  {
     "id": "linkedquran",
     "name": "Linked Quran",
     "author": "Ulvi",
@@ -64113,6 +64092,13 @@
     "repo": "komakiharunobu-dot/obsidian-furigara-plugin"
   },
   {
+    "id": "syncup-notes",
+    "name": "SyncUp Notes",
+    "author": "LEXYCORE",
+    "description": "Sync an Obsidian vault with SyncUp Notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lexycore/syncup-notes-obsidian"
+  },
+  {
     "id": "ink-canvas",
     "name": "Ink Canvas (S Pen)",
     "author": "andre3wb",
@@ -64120,10 +64106,52 @@
     "repo": "andre3wb/ink_canva"
   },
   {
+    "id": "gtd-book-writing",
+    "name": "GTD Book Writing",
+    "author": "MG",
+    "description": "Write books the GTD way: next actions, available-now scenes, stalled detection, and pacing — inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gaedol/gtd-book-writing"
+  },
+  {
+    "id": "slide-autosummarize",
+    "name": "Slide Autosummarize",
+    "author": "Bartolomeo Zisa",
+    "description": "Auto-summarize PDF slide decks into study-ready Markdown class notes with LaTeX equations and LLM-picked figure crops. Providers: Gemini, OpenAI, Anthropic, Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bartolomeozisa/obsidian-slide-autosummarize"
+  },
+  {
     "id": "gloss-reader",
     "name": "Banana Reader",
     "author": "banana",
-    "description": "Read Markdown, original PDF pages and EPUB books with an AI companion, anchored highlights, margin notes and focus mode. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Read and annotate Markdown, PDF and EPUB, ask about selected passages, and export notes with source links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "treydong/banana-reader"
+  },
+  {
+    "id": "recall-lab",
+    "name": "Recall Lab",
+    "author": "Muhammad Younas",
+    "description": "Spaced-repetition reviews, tiered exams, CTF-style labs and a skill radar over your notes, marked and written by Claude through the Claude Code CLI. No API key. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myounas126/recall-lab"
+  },
+  {
+    "id": "xielab-creation-studio",
+    "name": "Creation Studio",
+    "author": "Liwei Xie",
+    "description": "Manage ideas, production, publishing schedules and reviews in linked notes, with optional one-way iCloud calendar sync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xielab2017/creator-workbench"
+  },
+  {
+    "id": "note-purge",
+    "name": "Note Purge",
+    "author": "Joel Reymon",
+    "description": "Delete every note in the current search results at once, for example all notes with a given tag. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "joelreymont/obsidian-note-purge"
+  },
+  {
+    "id": "lantern-focus",
+    "name": "Lantern Focus",
+    "author": "Ash Otis",
+    "description": "Focus sessions for wandering minds: one task, a timer with breaks, a place to park stray thoughts, a calm screen that fades everything but your note, and what your music players or Spotify are playing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ashotis/lantern-focus"
   }
 ]
