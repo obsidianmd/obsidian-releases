@@ -38248,6 +38248,13 @@
     "repo": "israerusan/vault-triage"
   },
   {
+    "id": "attachment-audit",
+    "name": "Attachment Audit",
+    "author": "saiken",
+    "description": "Audit attachments for true orphans, duplicates, oversized files, bad names, and misplaced files, then clean them up safely. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "israerusan/attachment-audit"
+  },
+  {
     "id": "pins-save",
     "name": "Pins Save",
     "author": "SATOSprod",
@@ -52612,6 +52619,13 @@
     "repo": "yuegu7800/yue-douyin-knowledge"
   },
   {
+    "id": "memvector-knowledge-engine",
+    "name": "MemVector Knowledge Engine",
+    "author": "Kevin Mike Kaupert",
+    "description": "Local-first 2D vector-space graph, SQLite graph engine, and hybrid GraphRAG AI co-pilot for Obsidian — powered by Ollama, Anthropic Claude, OpenAI, or DeepSeek. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kevinkaupert/obsidian-memvector-knowledge-engine"
+  },
+  {
     "id": "release-timeline-base-view",
     "name": "Release Timeline Base View",
     "author": "Jared Cherup",
@@ -62794,7 +62808,7 @@
     "name": "Radar Search",
     "author": "InVerse",
     "description": "Unified vault, command, property, link, and web search, with CJK full-text indexing and a floating search bar. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lmce72/obsidian-radar-search"
+    "repo": "lmce72/radar-search"
   },
   {
     "id": "transparent-translate",
@@ -63054,13 +63068,6 @@
     "author": "bluebeard63",
     "description": "Captioned figures, side-by-side image rows and [!gallery|N] grids, in reading view and Live Preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bluebeard63/obsidian-figure-layouts"
-  },
-  {
-    "id": "dice-table",
-    "name": "Dice Table",
-    "author": "xmmw",
-    "description": "Roll a random result set from Markdown dice tables and save it with one click. Engine and data are fully separated: H1 = dice name, H2 = pool, - = face. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "xmmw-fun/obsidian-dice-table"
   },
   {
     "id": "hifi-tuner",
@@ -64050,6 +64057,13 @@
     "repo": "tareqayz/Obsidian-Garmin-Connect"
   },
   {
+    "id": "deck-home",
+    "name": "Deck homepage",
+    "author": "barontsui",
+    "description": "一个简洁的 Obsidian 自用首页：RSS 阅读、待办、每日瞬间、提醒、内容收集和快捷入口。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bigmanbaron/qingjian-home"
+  },
+  {
     "id": "stretch",
     "name": "Stretch",
     "author": "Channing Walton",
@@ -64090,5 +64104,26 @@
     "author": "zeng198708",
     "description": "短剧创作者六模块工具：选题评分与灵感卡、立项检查、单集写作流水线、政策红线快检、46项质检清单、去AI味改写、投稿格式/转小说检查。规则源自 AI短剧创作系统（六大赛道选题引擎、四维评分 v4.8、立项工作流 v3.22、8 类政策红线、46 项问题模板库、台词去AI化与投稿转换规则）。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zeng198708/ai-short-drama-assistant"
+  },
+  {
+    "id": "komaki-furigana",
+    "name": "Komaki Furigana",
+    "author": "komaki",
+    "description": "日语假名标注：选中文字后添加、编辑或移除 Ruby 注音，支持批量标注、效果预览和显示设置。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "komakiharunobu-dot/obsidian-furigara-plugin"
+  },
+  {
+    "id": "ink-canvas",
+    "name": "Ink Canvas (S Pen)",
+    "author": "andre3wb",
+    "description": "Handschrift-Notizen mit S Pen auf einer unendlichen Leinwand – inklusive Custom-Farben, PDF-Ausdruck & PDF-Anhang-Verknüpfung. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andre3wb/ink_canva"
+  },
+  {
+    "id": "gloss-reader",
+    "name": "Banana Reader",
+    "author": "banana",
+    "description": "Read Markdown, original PDF pages and EPUB books with an AI companion, anchored highlights, margin notes and focus mode. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "treydong/banana-reader"
   }
 ]
