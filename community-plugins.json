@@ -23705,7 +23705,7 @@
     "id": "regex-replace",
     "name": "Regex Replace",
     "author": "bongho",
-    "description": "Find and replace text using regular expressions with real-time preview and match highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Regex find and replace in one note, or search and replace in bulk across your whole vault: preview every match, pick the files, undo the run. Includes reusable multi-step pipelines. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bongho/obsidian-regex-replace"
   },
   {
@@ -28182,13 +28182,6 @@
     "repo": "polleoai/athena"
   },
   {
-    "id": "screen-wake-lock",
-    "name": "Cook Mode",
-    "author": "blotspot",
-    "description": "Keeps the display awake while the app is in the foreground, so you can keep cooking in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "blotspot/obsidian-wake-lock"
-  },
-  {
     "id": "easy-git",
     "name": "Easy Git",
     "author": "Saiki77",
@@ -29648,7 +29641,7 @@
     "id": "semlink",
     "name": "Semlink",
     "author": "ouzhongyuan",
-    "description": "Semlink is built for LLM Wiki. It delivers Agentic RAG & AI Agent capabilities for Obsidian. You can chat with your vault, drag notes for grounded Q&A, and run semantic search via MCP. Turn your Obsid - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Your Obsidian AI assistant: Chat with your vault, drag notes for grounded Q&A, and provide MCP-powered semantic search for Claude and CodeX. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ouou365/Semlink"
   },
   {
@@ -54663,6 +54656,13 @@
     "repo": "kotaindah55/mainstream-icons"
   },
   {
+    "id": "nosh",
+    "name": "Nosh",
+    "author": "Jonathon Brearley",
+    "description": "Log meals and ingredients from your own notes and watch them add up against DASH targets — nutrients, food-group servings, and a suggestion for what to eat next. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "brearleyjonathon/nosh"
+  },
+  {
     "id": "cyriform-companion",
     "name": "Cyriform Companion",
     "author": "Cyrius Weng",
@@ -60840,7 +60840,7 @@
     "id": "freeexcel",
     "name": "Free-Excel",
     "author": "KfirG",
-    "description": " - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sheets experience that ain't like shit - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kfirgumay2005-hash/Free-Excel"
   },
   {
@@ -63820,9 +63820,9 @@
   },
   {
     "id": "visual-math-editor",
-    "name": "Visual Math Editor",
+    "name": "Visual Math",
     "author": "Oliver",
-    "description": "Edit math and science formulas, plot real functions and complex numbers, and pan or zoom saved graphs, entirely offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Write math, chemistry and physics notes visually without learning LaTeX. Plot functions, polar curves and 3D surfaces. Explore calculus and convert units offline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "oranipost/visual-math-editor"
   },
   {
@@ -63866,5 +63866,26 @@
     "author": "Michael Naumov",
     "description": "Select many files and folders in the File explorer with ease: a touch selection mode, keyboard selection, select by rule and batch actions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mnaoumov/obsidian-explorer-multi-select"
+  },
+  {
+    "id": "termsidian",
+    "name": "System Terminal",
+    "author": "Ricardo",
+    "description": "Open a real terminal in the right sidebar, running your system shell on Windows, macOS and Linux. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "inusui/obsidian-termsidian"
+  },
+  {
+    "id": "canvas-quick-mindmap",
+    "name": "Canvas Quick Mindmap",
+    "author": "yujia",
+    "description": "Keyboard mind mapping and brainstorming on Canvas: Enter/Tab add child and sibling nodes, auto layout tree, tidy edges, nodes resize to fit text, search/find, copy and rename pasted images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rainajia716/obsidian-canvas-quick-mindmap"
+  },
+  {
+    "id": "unidaily",
+    "name": "Unidaily",
+    "author": "hztoyr",
+    "description": "Keep all daily notes in one file. Capture a line with a hotkey, pick recent or frequent tags, and jump to any day from a sidebar calendar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hztoyr/unidaily"
   }
 ]
