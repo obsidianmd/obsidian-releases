@@ -31272,7 +31272,7 @@
     "id": "chess-tree",
     "name": "Chess Tree",
     "author": "weshell",
-    "description": "Chess variation tree. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Chess(960) variation tree. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "west-shell/obsidian-chess-tree"
   },
   {
@@ -37287,6 +37287,13 @@
     "author": "ondreu",
     "description": "Simple light DXF viewer and editor, capable of measuring lenght, area, diameter, angles, and more. Aswell as simple editing like lines, polylines, rectangles, circles, elipses, arcs, fill, hatches... - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ondreu/DXF-Viewer-and-editor"
+  },
+  {
+    "id": "bamboo-immortals",
+    "name": "Bamboo Immortals",
+    "author": "羽鳞君",
+    "description": "Bamboo Immortals（竹林修仙传）— 基于OGAS理念的中国风目标自动化管理系统。A Chinese-style goal automation system based on OGAS concepts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "miaoziguan/obsidian-bamboo-immortals"
   },
   {
     "id": "pie-tasks",
@@ -60249,6 +60256,13 @@
     "repo": "diyufeng/obsidian-sudoku"
   },
   {
+    "id": "ignorance-advanced",
+    "name": "Ignorance Advanced",
+    "author": "师尧",
+    "description": "Companion plugin for the Ignorance theme: Mermaid and ECharts blocks, paged reading, presentations, exports (PDF, Word, PPTX, HTML), image tools, code and table helpers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ignorance-shiyao/obsidian-ignorance-advanced"
+  },
+  {
     "id": "nihong-ai-explain",
     "name": "Nihong AI explaination",
     "author": "iikira",
@@ -60940,13 +60954,6 @@
     "author": "theluckystrike",
     "description": "Pull your Hypothesis web highlights, page notes and tags into your vault as one note per page, with incremental resync that skips duplicates and never recreates notes you deleted. Unofficial, not made by Hypothesis. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/annotation-inbox"
-  },
-  {
-    "id": "vtable",
-    "name": "Vtable",
-    "author": "vmsimab",
-    "description": "Create and edit enhanced tables within native Markdown documents, featuring unique functions such as cell merging. Convert between Markdown and HTML formats whilst ensuring a smooth editing experience - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ming145/Vtable"
   },
   {
     "id": "dot-diagrams",
@@ -64433,5 +64440,26 @@
     "author": "Abdulkader Safi",
     "description": "Draw charts from a markdown table or from note properties, in your theme's colours. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "abdulkader-safi/obsidian-s-chart-plugins"
+  },
+  {
+    "id": "drawio-preview",
+    "name": "Drawio Preview",
+    "author": "OLanO",
+    "description": "Preview .drawio diagrams inline as read-only SVGs, with zoom, pan, and multi-page support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nnq7/obsidian-drawio-preview"
+  },
+  {
+    "id": "tag-ontology",
+    "name": "Tag Ontology",
+    "author": "namhyun ko",
+    "description": "Explore a tag hierarchy defined in a JSON dictionary inside the core graph view, with note counts and a dictionary check. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "namhyeonko/obsidian-tag-ontology"
+  },
+  {
+    "id": "vcoder-ide",
+    "name": "VCoder IDE",
+    "author": "weank",
+    "description": "Connect your vault to the vcoder CLI: share selections, review proposed edits as diffs, surface broken links and note lint as diagnostics. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "weank1984/obsidian-vcoder-ide"
   }
 ]
