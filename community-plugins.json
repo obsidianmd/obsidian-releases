@@ -23821,6 +23821,13 @@
     "repo": "kazi-aidah/emoticon-picker"
   },
   {
+    "id": "graphene",
+    "name": "Graphene",
+    "author": "suniyao",
+    "description": "Creates a semantic graph based on content similarity using vector embeddings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "suniyao/obsidian-graphene"
+  },
+  {
     "id": "contexts",
     "name": "Contexts",
     "author": "ba2slk",
@@ -35292,13 +35299,6 @@
     "author": "jkraccoon",
     "description": "Explore your vault as a fast 3D force-directed graph. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jkraccoon/obsidian-fast-graph"
-  },
-  {
-    "id": "lemma-flashcards",
-    "name": "Lemma",
-    "author": "Sabin Pokharel",
-    "description": "An Obsidian plugin for creating and reviewing flashcards powered by the FSRS spaced repetition algorithm. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "fundaments-work/Lemma"
   },
   {
     "id": "glossa",
@@ -51341,7 +51341,7 @@
     "id": "easy-paste-table",
     "name": "Paste Table",
     "author": "jyqqs",
-    "description": "把 AI 对话（豆包/DeepSeek 等）复制的 Tab/空格纯文本一键转成标准 Markdown 表格，支持可选的数字排序列 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Convert AI- or browser-copied plain-text (tab/space-aligned) tables into clean Markdown tables - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "spiderk-104/paste-table"
   },
   {
@@ -53296,13 +53296,6 @@
     "author": "Dmitry",
     "description": "Учёт доходов и расходов по счетам прямо в заметках Obsidian - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dimanchello/obsidian-finance"
-  },
-  {
-    "id": "image-kit",
-    "name": "Image Kit",
-    "author": "Robert Fleming",
-    "description": "Size, align, and caption images alongside Obsidian's native image controls. Layout is saved in the link itself. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "haivri/obsidian-image-kit"
   },
   {
     "id": "pubmed-fetcher",
@@ -62650,6 +62643,13 @@
     "repo": "theluckystrike/annotator-json-export"
   },
   {
+    "id": "vaultsail",
+    "name": "VaultSail",
+    "author": "Eboo",
+    "description": "Sync notes and attachments through Baidu Netdisk with version preservation and encrypted device pairing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gongteng0215/obsidian-vaultsail"
+  },
+  {
     "id": "shoujidiannao-absyw",
     "name": "Shouji-Diannao",
     "author": "手机电脑同步插件",
@@ -64265,5 +64265,19 @@
     "author": "Kamil",
     "description": "Seamless bridge connecting your Obsidian notes with Google NotebookLM and Gemini in the sidebar, with context menu actions, automatic notebook mapping, and Google search. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cesemess/obsidian-ai-bridge"
+  },
+  {
+    "id": "study-flow-assistant",
+    "name": "Study Flow Assistant",
+    "author": "dalvt",
+    "description": "Comprehensive academic study assistant: customizable Pomodoro timer, task and habit tracker, time blocking calendar, metrics, and distraction-free Zen mode. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dalvt/StudyFlow"
+  },
+  {
+    "id": "dualtran-translate",
+    "name": "DualTran",
+    "author": "Seigwen Lee",
+    "description": "Translate selections and whole notes with Google or your own AI model (20+ BYOK providers). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "seigwen/dualtran-obsidian"
   }
 ]
