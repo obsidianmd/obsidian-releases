@@ -21807,7 +21807,7 @@
   {
     "id": "donext",
     "name": "Do Next Task",
-    "author": "alexesdev",
+    "author": "Alexey Yurchenko",
     "description": "Mark the first uncompleted task in the current note with timestamp. Your monkey should just do a next task. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alexesdev/donext"
   },
@@ -28551,6 +28551,13 @@
     "author": "Geo",
     "description": "Focus the first empty checkbox when opening daily notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "geokhv/obsidian-daily-checkbox-focus"
+  },
+  {
+    "id": "knowlery",
+    "name": "Knowlery",
+    "author": "Jay Jiang",
+    "description": "A warm personal knowledge review space for Obsidian vaults. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jayjiangct/knowlery"
   },
   {
     "id": "deep-research-formatter",
@@ -35299,6 +35306,13 @@
     "author": "jkraccoon",
     "description": "Explore your vault as a fast 3D force-directed graph. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jkraccoon/obsidian-fast-graph"
+  },
+  {
+    "id": "lemma-flashcards",
+    "name": "Lemma",
+    "author": "Sabin Pokharel",
+    "description": "An Obsidian plugin for creating and reviewing flashcards powered by the FSRS spaced repetition algorithm. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fundaments-work/Lemma"
   },
   {
     "id": "glossa",
@@ -53473,6 +53487,13 @@
     "repo": "willacosta/obsidian-seam"
   },
   {
+    "id": "vault-agent",
+    "name": "Vault Agent",
+    "author": "rosswang",
+    "description": "AI vault agent powered by China-accessible LLM APIs — DeepSeek, GLM, Kimi, Qwen or any OpenAI-compatible endpoint. Agentic read/search/create/edit of notes. No CLI, no proxy, 中文优先. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanqingwang/opensource-AI-vault-agent"
+  },
+  {
     "id": "elias-hivemind",
     "name": "Elias HiveMind",
     "author": "elias north",
@@ -60280,7 +60301,7 @@
     "id": "research-connected",
     "name": "Research Connected",
     "author": "Junwei Bai",
-    "description": "Explore a paper's citation neighborhood as an interactive similarity map in a graph pane or note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Discover related papers, inspect citation evidence, and organize your reading in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "abe-junwei/research-connected"
   },
   {
@@ -64349,5 +64370,19 @@
     "author": "Anthirayas",
     "description": "Browse your vault in a dedicated tab with Finder-style columns, list, icon and gallery views, a preview column and platform-exact keyboard shortcuts. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jrayas/cascade-view"
+  },
+  {
+    "id": "repo-board",
+    "name": "Repo Board",
+    "author": "Ash Otis",
+    "description": "A board of your GitHub repos in a tab: open issues as tasks you can tick off, and whether each plugin or theme release is ready for the directory. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ashotis/Repo-Board"
+  },
+  {
+    "id": "studiolo",
+    "name": "Studiolo",
+    "author": "slummo",
+    "description": "A daily page to organize your work or study: a pomodoro timer, a kanban board split by category, and notes, with unfinished tasks carried over from earlier days. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "slummo/studiolo"
   }
 ]
