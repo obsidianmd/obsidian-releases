@@ -45563,13 +45563,6 @@
     "repo": "bobstanton/places-openrouteservice"
   },
   {
-    "id": "custom-timer",
-    "name": "Custom Timer",
-    "author": "catalyys",
-    "description": "Run interval timers from timer code blocks with sets, work and pause durations for workout or other stuff. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "catalyys/obsidian-timer"
-  },
-  {
     "id": "places-thunderforest",
     "name": "Places - Thunderforest",
     "author": "bobstanton",
@@ -58866,7 +58859,7 @@
     "id": "oss-gallery",
     "name": "OSS Gallery",
     "author": "stmoonar",
-    "description": "Upload and manage media and documents across multiple providers (Local on desktop, S3, MinIO, Cloudflare R2, SM.MS, GitHub, Aliyun, Tencent, Qiniu, Upyun, Imgur). - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Upload and manage media and documents across multiple providers (Local on desktop, S3, MinIO, Cloudflare R2, SM.MS, GitHub, Aliyun, Tencent, Qiniu, Upyun, Imgur). Gallery and AI image search. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "stmoonar/oss-gallery-plugin-obsidian"
   },
   {
@@ -64092,6 +64085,13 @@
     "repo": "channingwalton/obsidian-stretch"
   },
   {
+    "id": "json-toolbox",
+    "name": "JSON Toolbox",
+    "author": "Genglin Zheng",
+    "description": "View JSON as a collapsible rich tree with inline previews for images, colors, links, timestamps, JWT and more. Format, validate, convert to YAML or a table. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kbmjj123/json-toolbox"
+  },
+  {
     "id": "agent-deck",
     "name": "Agent Deck",
     "author": "matsurimw",
@@ -64267,6 +64267,13 @@
     "repo": "cesemess/obsidian-ai-bridge"
   },
   {
+    "id": "clear-unused-attachments",
+    "name": "Clear Unused Attachments",
+    "author": "rosswang",
+    "description": "Clear unused images and attachments with folder and file type selection. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanqingwang/Clean_unused_attachments_selectable"
+  },
+  {
     "id": "study-flow-assistant",
     "name": "Study Flow Assistant",
     "author": "dalvt",
@@ -64279,5 +64286,26 @@
     "author": "Seigwen Lee",
     "description": "Translate selections and whole notes with Google or your own AI model (20+ BYOK providers). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "seigwen/dualtran-obsidian"
+  },
+  {
+    "id": "enclave",
+    "name": "Enclave",
+    "author": "flo-wolf",
+    "description": "Encrypt notes and whole folders with a vault password or their own password. Locked notes keep their names and links, lock again automatically, and can be decrypted for good at any time. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "flo-wolf/obsidian-enclave"
+  },
+  {
+    "id": "plaintext-stopwatch",
+    "name": "Plaintext Stopwatch",
+    "author": "Mushu B",
+    "description": "Add in-text stopwatches that store their state as plain text in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mbugti04/Obsidian-Plaintext-Stopwatch"
+  },
+  {
+    "id": "cloudflare-artifacts-sync",
+    "name": "Cloudflare Artifacts Sync",
+    "author": "Yoshihiro Arakawa",
+    "description": "Sync your vault, or one folder of it, with a Cloudflare Artifacts repository (a Git-compatible store). Commit, pull and push with one command or on a timer. Works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alancodvo/obsidian-artifacts-sync"
   }
 ]
