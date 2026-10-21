@@ -9062,7 +9062,7 @@
     "name": "GPG Encrypt",
     "author": "lajg-dev",
     "description": "Encrypt partial text or complete notes using GPG technology, it is compatible with security keys such as YubiKey or traditional GPG encryption methods",
-    "repo": "lajg-dev/Obsidian-Plugin-GPG-Inline-Encrypt"
+    "repo": "itslucho-com/Obsidian-Plugin-GPG-Inline-Encrypt"
   },
   {
     "id": "smart-second-brain",
@@ -9707,6 +9707,13 @@
     "author": "aarol",
     "description": "Highlights lines in code blocks using Hugo's hl_lines syntax.",
     "repo": "aarol/obsidian-hugo-codeblock-highlight"
+  },
+  {
+    "id": "canvas-node-screenshot",
+    "name": "Node Screenshot",
+    "author": "cestfredy",
+    "description": "Capture node effortlessly with precision screenshot.",
+    "repo": "cestfredy/obsidian-canvas-node-screenshot"
   },
   {
     "id": "line-commands",
@@ -22437,7 +22444,7 @@
   {
     "id": "granola-meetings-simple-sync",
     "name": "Granola Meetings Simple Sync",
-    "author": "philfreo",
+    "author": "Phil Freo",
     "description": "Sync your Granola meeting notes, summaries, and transcripts to your vault in a simple way using the official Granola MCP API. Customizable by template. Supports auto-linking of attendee Person notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "philfreo/obsidian-granola-plugin"
   },
@@ -29697,7 +29704,7 @@
     "id": "semlink",
     "name": "Semlink",
     "author": "ouzhongyuan",
-    "description": "Your Obsidian AI assistant: Chat with your vault, drag notes to run grounded Q&A, and expose semantic search via MCP for Claude, Codex, Cline, Cursor, Copilot, Goose and other MCP-compatible AI agents - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Semlink brings semantic linking and a local MCP server to Obsidian. Chat with your vault, and let Claude, Cursor and other AI agents access your notes natively. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ouou365/Semlink"
   },
   {
@@ -30583,6 +30590,13 @@
     "repo": "qianwei4712/obsidian-word-reader"
   },
   {
+    "id": "pandocit",
+    "name": "PandoCit",
+    "author": "l'Atelier",
+    "description": "Citations Pandoc, bibliothèque Zotero (API), lecteurs PDF/EPUB et annotations dans Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "atelier-recherche/pandocit"
+  },
+  {
     "id": "youtube-search",
     "name": "YouTube Search",
     "author": "plasch",
@@ -30665,6 +30679,13 @@
     "author": "Sebastien Delisle",
     "description": "Quickly search for and add a single date or an entire list of dates, formatted exactly as you like them. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lumargh/obsidian-date-list"
+  },
+  {
+    "id": "apex-dashboard",
+    "name": "Apex Dashboard",
+    "author": "PandoraReads",
+    "description": "Your personal command center — memos, todos, and projects in one stunning glassmorphism dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pandorareads/apex-dashboard"
   },
   {
     "id": "echo-notes",
@@ -35915,13 +35936,6 @@
     "author": "James Karlsson & Thomas Goldman",
     "description": "Run normal fenced Markdown code blocks in Obsidian while keeping native syntax highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tzadikimbiu/lotus"
-  },
-  {
-    "id": "html-effectiveness",
-    "name": "HTML Effectiveness",
-    "author": "rosswang",
-    "description": "边对比 / 流程图 / 幻灯片 / 报告 / 时间线 — 在 Obsidian 中直接渲染空间化 HTML 内容。基于 html-effectiveness 方法论。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yanqingwang/obsidian-html-effectiveness"
   },
   {
     "id": "lapis-lazuli-ai-assistant",
@@ -47908,13 +47922,6 @@
     "repo": "durancex/Obsidian-GalleryHub"
   },
   {
-    "id": "nosygraph",
-    "name": "NosyGraph",
-    "author": "Jan Bergholz",
-    "description": "Build and explore structured, expandable graphs from your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "janb987/NosyGraph"
-  },
-  {
     "id": "copy-on-demand",
     "name": "Copy On Demand",
     "author": "verygood2024",
@@ -58852,7 +58859,7 @@
     "id": "oss-gallery",
     "name": "OSS Gallery",
     "author": "stmoonar",
-    "description": "Upload and manage media and documents across multiple providers (Local on desktop, S3, MinIO, Cloudflare R2, SM.MS, GitHub, Aliyun, Tencent, Qiniu, Upyun, Imgur). Gallery and AI image search. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Upload and manage media and documents across multiple providers (Local, S3, MinIO, Cloudflare R2, SM.MS, GitHub, Aliyun, Tencent, Qiniu, Upyun, Imgur). Gallery and AI image search. 支持语义搜索文件的对象存储管理. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "stmoonar/oss-gallery-plugin-obsidian"
   },
   {
@@ -59099,6 +59106,13 @@
     "author": "Fuad Laguda",
     "description": "Colour-coded highlighting that stays readable on any theme, recolours highlights in place, and shows every highlight in a note in one panel. Built on Highlightr by Chetachi Ezikeuzor. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lagudafuadtosin/tinted-highlights"
+  },
+  {
+    "id": "transformpipe",
+    "name": "TransformPipe",
+    "author": "raudar.labs",
+    "description": "Turn any note into a web page with one command. Edit it, publish again, and the same link shows the update. Share with named people, or export Word and PDF. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "raudarlabs/transformpipe-obsidian"
   },
   {
     "id": "pdf-export-enhancer",
@@ -62153,6 +62167,13 @@
     "repo": "jackweigogoga/gogoga-outline"
   },
   {
+    "id": "gogoga-mindmap",
+    "name": "gogoga Mind Map",
+    "author": "jackweigogoga",
+    "description": "Edit Markdown notes as XMind-style mind maps. Headings and list items become nodes, and edits on either side stay in sync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jackweigogoga/gogoga-mindmap"
+  },
+  {
     "id": "embed-file-menu",
     "name": "Embed File Menu",
     "author": "LXXVII",
@@ -64655,7 +64676,7 @@
     "id": "automatic-paragraph-review",
     "name": "Automatic Paragraph Review",
     "author": "William Booth",
-    "description": "Automatic study feedback as hover annotations: reasoning, useful questions, and possible factual gaps, using your local Codex sign-in. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Automatic context, explanations, and examples as hover annotations to deepen your understanding, using your local Codex sign-in. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "williambooth0803-ui/Codex-Writing-in-Obsidian"
   },
   {
@@ -64876,6 +64897,13 @@
     "repo": "yunmin311/native-pdf-theme-bridge"
   },
   {
+    "id": "obi-i",
+    "name": "Mesa",
+    "author": "Marcio Vieira",
+    "description": "Run a team of AI agents inside Obsidian, with chat, tasks, schedules and a graph of who does what. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pitbullfuzo/Mesa"
+  },
+  {
     "id": "worktree-switcher",
     "name": "Worktree Switcher",
     "author": "Rohit Girdhar",
@@ -64902,5 +64930,12 @@
     "author": "John Hesch",
     "description": "Plan your day, week and projects in your own notes: a Today page, a Planner, Projects with tasks, and a sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "b0xfan/lifeworld"
+  },
+  {
+    "id": "html-works",
+    "name": "HTML Works",
+    "author": "Miles",
+    "description": "View HTML files and edit their source in the native editor, with Vim motions and editor extensions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zarnuq/HTMLWorks"
   }
 ]
