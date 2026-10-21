@@ -17712,7 +17712,7 @@
   {
     "id": "open-in-terminal",
     "name": "Open in Terminal",
-    "author": "feng6611",
+    "author": "chenfeng",
     "description": "Open your vault in a new terminal window or launch Claude Code, Codex CLI, or Gemini CLI directly from a terminal.",
     "repo": "feng6611/Obsidian-open-in-Teminal"
   },
@@ -36575,13 +36575,6 @@
     "repo": "yu-zou/obsidian-auto-numbered-headings"
   },
   {
-    "id": "smart-red",
-    "name": "Smart RED",
-    "author": "Viy1204",
-    "description": "Convert Obsidian notes to Xiaohongshu (RED) style images - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "viy1204/smart-red-public"
-  },
-  {
     "id": "momentum-life",
     "name": "Momentum Life",
     "author": "Jaime Nagase",
@@ -38085,13 +38078,6 @@
     "author": "Juan Pérez Sierra",
     "description": "Export your vault to PDF, DOCX, or LaTeX book formats. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "perezsjuan/Obsidian-Document-Export"
-  },
-  {
-    "id": "taskslite",
-    "name": "TaskLite",
-    "author": "SunnyYYLin",
-    "description": "A lightweight tree-aware task manager with Tasks-compatible emoji metadata. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sunnyyylin/obsidian-tasklite"
   },
   {
     "id": "bookmark-list-generator",
@@ -56959,6 +56945,13 @@
     "repo": "skye1349/obsidian-video-player-ai"
   },
   {
+    "id": "llm-connect-hub",
+    "name": "LLM Connect Hub",
+    "author": "TAKESHI MORITA",
+    "description": "Connect Discord and Kakeratta to models, RAG, and skills provided by LLM Hub. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "takeshy/obsidian-llm-connect-hub"
+  },
+  {
     "id": "ai-translator-by-taoye",
     "name": "AI Translation Assistant",
     "author": "Taoye",
@@ -59757,13 +59750,6 @@
     "author": "tripstoph",
     "description": "Pace a writing session against a gentle words-per-hour ghost, with thinking and writing intervals. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tripstoph/obsidian-focus-flow"
-  },
-  {
-    "id": "tiny-planner",
-    "name": "Tiny Planner",
-    "author": "TragerSec",
-    "description": "Plan tasks, recurring work and expenses by area and project. Review your calendar, workload and statistics with all data stored in Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tragersec/tiny-planner"
   },
   {
     "id": "prismical-sync",
@@ -62639,7 +62625,7 @@
     "id": "shoujidiannao-absyw",
     "name": "Shouji-Diannao",
     "author": "手机电脑同步插件",
-    "description": "「手机电脑同步」插件：手机、平板、电脑就是同一份库，比特币强度加密、私钥仅在本地，改动平均10 秒送达。图片附件按需加载，点开笔记时才下载，10 GB 的库手机只占几十 MB；每台设备可以单独设只上传、只下载或双向，删错了有云端回收站，保留期内随时找回，改坏了有版本回溯，每次同步都留快照，能回到任意版本。iOS、安卓、鸿蒙、Windows、macOS、统信 UOS 通通支持 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "「shoujidianna」「手机电脑同步」插件：手机、平板、电脑就是同一份库，比特币强度加密、私钥仅在本地，改动平均10 秒送达。图片附件按需加载，点开笔记时才下载，10 GB 的库手机只占几十 MB；每台设备可以单独设只上传、只下载或双向，删错了有云端回收站，保留期内随时找回，改坏了有版本回溯，能回到任意版本。iOS、安卓、鸿蒙、Windows、macOS、统信 UOS 都支持 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "absyw/shoujidiannao"
   },
   {
@@ -64253,6 +64239,13 @@
     "repo": "tsquare-js/tsquare-obsidian-plugin"
   },
   {
+    "id": "exam-quiz-hub",
+    "name": "Exam and Quiz Hub",
+    "author": "d1pl3xx",
+    "description": "High-performance offline exam simulation, quiz hub and spaced repetition with 5-item MC scoring, crash recovery and intelligent error pool. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tobiasottost-cmd/obsidian-quiz-hub"
+  },
+  {
     "id": "scribe-of-lagash-focus",
     "name": "Scribe of Lagash - Focus",
     "author": "Alejandro Escanes",
@@ -64624,6 +64617,13 @@
     "repo": "zloyso/quests-list"
   },
   {
+    "id": "inkpad",
+    "name": "Inkpad",
+    "author": "Blulyk",
+    "description": "A low-latency, infinite Apple Pencil canvas stored as sync-friendly files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "blulyk/obsidian-inkpad"
+  },
+  {
     "id": "envoy",
     "name": "Envoy",
     "author": "flo-wolf",
@@ -64769,5 +64769,47 @@
     "author": "theluckystrike",
     "description": "Find vault paths that can fail when moved between devices. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/vault-path-portability"
+  },
+  {
+    "id": "lean",
+    "name": "Lean4",
+    "author": "ewigmidori",
+    "description": "Check independent Lean 4 blocks or shared sessions and inspect proof goals with an automatically managed basic environment. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ewigmidori/obsidian-lean4"
+  },
+  {
+    "id": "hover-outline",
+    "name": "Hover Outline",
+    "author": "马自立",
+    "description": "A hidden table of contents in the corner of the editor: a column of short dashes that expands into an outline card on hover. Choose left or right, top, middle or bottom. Journals are split into DONE / DOING / TODO sections. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "matsurimw/hover-outline"
+  },
+  {
+    "id": "docview",
+    "name": "DocView",
+    "author": "xmmw",
+    "description": "Render Markdown notes into card-based panel views with a simple data contract: checkboxes write back to the source note, edits refresh instantly, no scripts needed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xmmw-fun/obsidian-docview"
+  },
+  {
+    "id": "emacs-logseq-inspired-outline",
+    "name": "Emacs Logseq Inspired Outline",
+    "author": "马自立",
+    "description": "Outliner editing inspired by Logseq and Emacs: Esc to select whole list blocks, move between blocks, wrap selections in pairs, jump to the parent block, create a sibling at the end of the level, group rows, and convert block types. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "matsurimw/emacs-logseq-inspired-outline"
+  },
+  {
+    "id": "streakwise",
+    "name": "Streakwise",
+    "author": "Roger Chang",
+    "description": "A habit heatmap and streak tracker for your daily notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "smallbench-labs/streakwise"
+  },
+  {
+    "id": "tahoe-glass",
+    "name": "Tahoe Glass",
+    "author": "Krishnan",
+    "description": "Companion to the Tahoe theme: real refraction for its glass, with dispersion, glare and a pointer highlight, a battery saver, and header cards on settings pages. macOS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "krishnanefx/obsidian-tahoe-glass"
   }
 ]
