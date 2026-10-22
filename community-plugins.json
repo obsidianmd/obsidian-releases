@@ -8463,6 +8463,13 @@
     "repo": "ransurf/obsidian-intelligence"
   },
   {
+    "id": "neighbouring-files",
+    "name": "Neighbouring Files",
+    "author": "fabianuntermoser",
+    "description": "Navigate to the next and previous file in the current directory.",
+    "repo": "fabianuntermoser/obsidian-neighbouring-files-plugin"
+  },
+  {
     "id": "storyclock",
     "name": "Storyclock Viewer",
     "author": "jonzfisher",
@@ -21931,13 +21938,6 @@
     "repo": "omnbird/syncscroll"
   },
   {
-    "id": "vault-cleaner",
-    "name": "Vault Cleaner",
-    "author": "rapphcd",
-    "description": "Clean unused medias, untitled and duplicated leafs. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "rapphcd/obsidian-vault-cleaner"
-  },
-  {
     "id": "mobile-desktop-theme-switcher",
     "name": "Device Theme Switcher",
     "author": "asingularphoton",
@@ -23889,6 +23889,13 @@
     "author": "caduct-3ateuhuk",
     "description": "Plugin for integrating daily notes with Yandex Calendar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "caduct-3ateuhuk/obsidian-yandex-calendar-integration"
+  },
+  {
+    "id": "coherence-wizard",
+    "name": "Coherence Wizard",
+    "author": "coherence-wizard",
+    "description": "Organize, summarize, split, merge, and refine notes with Ollama and bulk file tools. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "coherence-wizard/Coherence-Wizard"
   },
   {
     "id": "charted-roots",
@@ -45661,13 +45668,6 @@
     "repo": "ripple-asuna/agent-dashboard"
   },
   {
-    "id": "foxycape-pdf",
-    "name": "Foxycape PDF",
-    "author": "jansxue",
-    "description": "Embed Foxycape PDF reader in Obsidian with annotation sync. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "foxycape/obsidian-pdf"
-  },
-  {
     "id": "microsoft-todo",
     "name": "Microsoft To Do",
     "author": "Jimmie Davis",
@@ -52764,41 +52764,6 @@
     "author": "wbl",
     "description": "在代码块右下角显示字符数量统计，支持阅读视图与实时预览。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "power-ioi/code-block-char-count"
-  },
-  {
-    "id": "kairo-quick-capture",
-    "name": "Kairo Quick Capture",
-    "author": "Rahul S",
-    "description": "Capture fleeting thoughts quickly and deliver them safely to an inbox or daily note. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Kairo-Quick-Capture"
-  },
-  {
-    "id": "cairn-vault-linter",
-    "name": "Cairn Vault Linter",
-    "author": "Rahul S",
-    "description": "Offline vault health report for broken links, duplicate references, block IDs, and dangling stubs. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Cairn-Vault-Linter"
-  },
-  {
-    "id": "tundra-frontmatter-wrangler",
-    "name": "Tundra Frontmatter Wrangler",
-    "author": "Rahul S",
-    "description": "Safely preview, apply, and roll back bulk frontmatter and property changes offline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Tundra-Frontmatter-Wrangler"
-  },
-  {
-    "id": "meridian-timeline",
-    "name": "Meridian Timeline",
-    "author": "Rahul S",
-    "description": "Explore dated notes and historical spans on an interactive, local-only timeline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Meridian-Timeline"
-  },
-  {
-    "id": "aegis-note-locker",
-    "name": "Aegis Note Locker",
-    "author": "Rahul S",
-    "description": "Protect note bodies and selected frontmatter values with local authenticated encryption. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Aegis-Note-Locker"
   },
   {
     "id": "icor-for-life-scratchpad",
@@ -62756,7 +62721,7 @@
   },
   {
     "id": "atlas-vtt-connect",
-    "name": "Atlas VTT Extension - Connect",
+    "name": "Connect for Atlas VTT",
     "author": "Bento's Grimoire of Things",
     "description": "Online play for Atlas VTT: host sessions, let players join from a web page or a tab, and share notes and maps. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "evoljoaobento/atlas-vtt-connect"
@@ -64519,13 +64484,6 @@
     "repo": "wangmikuwang/obsidian-notewise-ai"
   },
   {
-    "id": "hebrew-da",
-    "name": "Hebrew Discourse Analysis",
-    "author": "sots1689",
-    "description": "Lay out Hebrew prose clause by clause (Hx/Dx, mainline/offline) with conjunction, predicate pattern, and discourse-function notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sots1689/hebrew-da"
-  },
-  {
     "id": "octavo-toolbar",
     "name": "Octavo Toolbar",
     "author": "jiuxianzai",
@@ -65002,13 +64960,6 @@
     "repo": "justanotherjurastudent/obsidian-gemini-notebooklm"
   },
   {
-    "id": "echostrata",
-    "name": "Echostrata",
-    "author": "sene-kela",
-    "description": "Record microphone + Mac system audio right inside a note, then transcribe (whisper.cpp) and summarise (Ollama) locally. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "senekela/echostrata-for-obsidian"
-  },
-  {
     "id": "terminal-tabs",
     "name": "Terminal Tabs",
     "author": "krzysztofkut",
@@ -65173,7 +65124,7 @@
     "id": "hemingway",
     "name": "Hemingway",
     "author": "Dhruvir Zala",
-    "description": "Unofficial. Not affiliated with Hemingway Editor. Highlights hard sentences, adverbs, passive voice and complex words, with a readability grade. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Automatically highlights hard sentences, adverbs, passive voice and complex words, with a readability grade. Not affiliated with Hemingway Editor. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dhruvir-zala/hemingway-for-obsidian"
   },
   {
@@ -65203,5 +65154,47 @@
     "author": "hacpaka",
     "description": "Shows a readable name from a note's frontmatter in place of its filename: explorer, tabs, graph, search and more. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hacpaka/obsidian-meaningful-name"
+  },
+  {
+    "id": "hex-preview",
+    "name": "Hex Preview",
+    "author": "Paul Renvoise",
+    "description": "Preview six- and eight-digit hex colors in notes and native Bases table columns. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "paulrenvoise/obsidian-hex-preview"
+  },
+  {
+    "id": "markdown-tasks",
+    "name": "Markdown Tasks",
+    "author": "jsmorabito",
+    "description": "Manage tasks as notes organized into ordered chains. Supports multiple chains, cross-chain membership, and a meta-chain for personal sequencing across projects. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jsmorabito/obsidian-markdown-tasks"
+  },
+  {
+    "id": "paranoid-tasks",
+    "name": "Paranoid Tasks",
+    "author": "paranoid-mann",
+    "description": "Simple Kanban task board backed by a single Markdown file. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "paranoidmann/Paranoid-Tasks"
+  },
+  {
+    "id": "ultra-paste",
+    "name": "Ultra Paste",
+    "author": "Mohammad Mahdi Zamani",
+    "description": "Cross-platform smart paste for Markdown, math, PDFs and images with mobile-safe network and clipboard fallbacks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zamanimm/obsidian-ultra-paste"
+  },
+  {
+    "id": "note-compass",
+    "name": "Note Compass",
+    "author": "carlesba",
+    "description": "Jump to notes related to the note in focus or in lists you define, set its properties from one picker, and create notes that join your link properties. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "carlesba/obsidian-note-compass"
+  },
+  {
+    "id": "bibliomancy-atmospheric-noise",
+    "name": "Bibliomancy (Atmospheric Noise)",
+    "author": "coherence-wizard",
+    "description": "Discover random notes and passages using local randomness or optional atmospheric randomness from RANDOM.ORG. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "coherence-wizard/obsidian-bibliomancy"
   }
 ]
