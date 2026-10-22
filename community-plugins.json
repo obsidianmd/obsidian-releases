@@ -8463,13 +8463,6 @@
     "repo": "ransurf/obsidian-intelligence"
   },
   {
-    "id": "neighbouring-files",
-    "name": "Neighbouring Files",
-    "author": "fabianuntermoser",
-    "description": "Navigate to the next and previous file in the current directory.",
-    "repo": "fabianuntermoser/obsidian-neighbouring-files-plugin"
-  },
-  {
     "id": "storyclock",
     "name": "Storyclock Viewer",
     "author": "jonzfisher",
@@ -47824,6 +47817,13 @@
     "repo": "n23eos/obsidian-vault-sunburst"
   },
   {
+    "id": "re-supercharged-links",
+    "name": "Re-supercharged Links",
+    "author": "Carl Bechstrom",
+    "description": "Re-Supercharged Links is an advanced link-styling plugin for Obsidian that has evolved far beyond the original fork into a substantially redesigned and expanded implementation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "carlb01/re-supercharged-links"
+  },
+  {
     "id": "local-agent-assistant",
     "name": "Local Agent Assistant",
     "author": "zero",
@@ -58989,13 +58989,6 @@
     "repo": "jeonnewjin/bases-kanban-companion"
   },
   {
-    "id": "my-tracker",
-    "name": "My Tracker",
-    "author": "Ansu Samanta",
-    "description": "Track time, activities, goals, and productivity with local-first analytics, charts, comparisons, and a simple or advanced dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "samantaansu2010/my-tracker"
-  },
-  {
     "id": "foldermate",
     "name": "FolderMate",
     "author": "droidstream",
@@ -59841,6 +59834,13 @@
     "author": "kougami",
     "description": "A local-first anime, manga, and novel library backed by Markdown with Bangumi two-way sync, metadata search, covers, ratings, and a timeline - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kougami132/AnimeList"
+  },
+  {
+    "id": "mermaid-excalidraw-renderer",
+    "name": "Mermaid Excalidraw Renderer",
+    "author": "Taichoco",
+    "description": "Render Mermaid diagrams in an Excalidraw-style view in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "taichocop/mermaid-excalidraw-renderer"
   },
   {
     "id": "gantt",
@@ -65088,7 +65088,7 @@
   {
     "id": "bookdrop",
     "name": "Bookdrop",
-    "author": "Paul H.",
+    "author": "Paul Hong",
     "description": "Drop a book into your vault: search Kakao Book Search or Google Books by title, author, or ISBN, then create a templated book note or fill the current note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "b2winus/bookdrop"
   },
@@ -65168,5 +65168,40 @@
     "author": "IMSOOBIN",
     "description": "Display dialogue written as Name: Dialogue in a professional script layout. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "unluxiddream/obsidian-scriptview-plugin"
+  },
+  {
+    "id": "hemingway",
+    "name": "Hemingway",
+    "author": "Dhruvir Zala",
+    "description": "Unofficial. Not affiliated with Hemingway Editor. Highlights hard sentences, adverbs, passive voice and complex words, with a readability grade. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dhruvir-zala/hemingway-for-obsidian"
+  },
+  {
+    "id": "handnote",
+    "name": "HandNote",
+    "author": "Yanzhe Shao",
+    "description": "Write and draw by hand in notebook pages with Apple Pencil, touch or mouse, and convert handwriting into editable text, formulas, mind maps and flowcharts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pilgrimagecoding/obsidian-handnote-public"
+  },
+  {
+    "id": "yuzu-bases-plus",
+    "name": "Yuzu Bases Plus",
+    "author": "yuzuvalentine",
+    "description": "Adds a Cards Plus view to Bases: a card layout with extra features. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuzhengwen/bases_plus"
+  },
+  {
+    "id": "versedrop",
+    "name": "Versedrop",
+    "author": "Paul Hong",
+    "description": "Search a Bible reference and insert it in Korean, English, Chinese, Japanese, Greek or Hebrew — public-domain texts, ESV and NET, your Accordance modules (Mac) or JSON files — with copyright notices and Logos/Accordance links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "b2winus/versedrop"
+  },
+  {
+    "id": "meaningful-name",
+    "name": "Meaningful Name",
+    "author": "hacpaka",
+    "description": "Shows a readable name from a note's frontmatter in place of its filename: explorer, tabs, graph, search and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hacpaka/obsidian-meaningful-name"
   }
 ]
