@@ -7875,6 +7875,13 @@
     "repo": "lumetrium/obsidian-teleprompter"
   },
   {
+    "id": "backlink-cache",
+    "name": "Backlink Cache",
+    "author": "Michael Naumov",
+    "description": "Points to its successor, Advanced Metadata Cache, and does nothing else.",
+    "repo": "mnaoumov/obsidian-backlink-cache"
+  },
+  {
     "id": "enhance-youtube-links",
     "name": "Enhance YouTube Links",
     "author": "git-sum",
@@ -22734,13 +22741,6 @@
     "author": "volcanicll",
     "description": "Publish Obsidian notes to WeChat Official Account drafts in one click: six designer themes, automatic image upload, KaTeX math, and code highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "volcanicll/obsidian-md-publisher"
-  },
-  {
-    "id": "financial-accounting",
-    "name": "Financial Accounting",
-    "author": "dannyveil",
-    "description": "Financial control system directly without internet connection. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dannyveil/Financial-Accounting"
   },
   {
     "id": "mermaid-view",
@@ -44093,13 +44093,6 @@
     "repo": "zzpolariszz/obsidian-snowflake-method"
   },
   {
-    "id": "oh-my-claudian",
-    "name": "Oh My Claudian",
-    "author": "Lee",
-    "description": "Bring Claude Code, Codex, Cursor, Grok, OpenCode, Oh My Pi, and Pi into your Obsidian vault — a Claudian fork. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lee259/oh-my-claudian"
-  },
-  {
     "id": "voicenote-image-migrator",
     "name": "Voicenote Image Migrator",
     "author": "kageetai",
@@ -45498,6 +45491,13 @@
     "author": "bobstanton",
     "description": "Map provider for Places using MapTiler, with vector maps, POI search, and elevation replacement. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bobstanton/places-maptiler"
+  },
+  {
+    "id": "lancer-companion",
+    "name": "Lancer Companion",
+    "author": "ShakToth",
+    "description": "The ultimate Lancer RPG suite: Encounter tracker, PC/NPC Importers, dice roller, and clocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shaktoth/Lancer-Obsidian-Addon"
   },
   {
     "id": "reelleaf",
@@ -48104,13 +48104,6 @@
     "repo": "aione314159/obsidian-ribbon-groups"
   },
   {
-    "id": "proton-search",
-    "name": "Proton Search",
-    "author": "Percefia",
-    "description": "Search Proton Drive files and create reference notes with a browser link and a local path. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "percefia/obsidian-proton-search"
-  },
-  {
     "id": "git-pad",
     "name": "Git Pad",
     "author": "Alberto",
@@ -49096,13 +49089,6 @@
     "author": "zhenghaoyang24",
     "description": "Sidebar AI chat powered by the local DeepSeek Harness (dsh): streaming replies, tool calls, and real vault file edits. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhenghaoyang24/obsidian-plugin-deepshian"
-  },
-  {
-    "id": "vault-force-sync",
-    "name": "Vault Force Sync",
-    "author": "rosswang",
-    "description": "Force/incremental sync vault data to a configurable GitHub remote (git path configurable), skips >100MB files and continues; logs results to a viewable log. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yanqingwang/github-vault-force-sync"
   },
   {
     "id": "contradiction-finder",
@@ -52766,6 +52752,41 @@
     "repo": "power-ioi/code-block-char-count"
   },
   {
+    "id": "kairo-quick-capture",
+    "name": "Kairo Quick Capture",
+    "author": "Rahul S",
+    "description": "Capture fleeting thoughts quickly and deliver them safely to an inbox or daily note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Kairo-Quick-Capture"
+  },
+  {
+    "id": "cairn-vault-linter",
+    "name": "Cairn Vault Linter",
+    "author": "Rahul S",
+    "description": "Offline vault health report for broken links, duplicate references, block IDs, and dangling stubs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Cairn-Vault-Linter"
+  },
+  {
+    "id": "tundra-frontmatter-wrangler",
+    "name": "Tundra Frontmatter Wrangler",
+    "author": "Rahul S",
+    "description": "Safely preview, apply, and roll back bulk frontmatter and property changes offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Tundra-Frontmatter-Wrangler"
+  },
+  {
+    "id": "meridian-timeline",
+    "name": "Meridian Timeline",
+    "author": "Rahul S",
+    "description": "Explore dated notes and historical spans on an interactive, local-only timeline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Meridian-Timeline"
+  },
+  {
+    "id": "aegis-note-locker",
+    "name": "Aegis Note Locker",
+    "author": "Rahul S",
+    "description": "Protect note bodies and selected frontmatter values with local authenticated encryption. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Aegis-Note-Locker"
+  },
+  {
     "id": "icor-for-life-scratchpad",
     "name": "ICOR for Life - Scratchpad",
     "author": "Thomas Roedl",
@@ -52785,6 +52806,13 @@
     "author": "Torus Hidenami",
     "description": "Collects unchecked tasks from Obsidian Canvas cards into an Inbox card. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "torus211/canvas-inbox-sync"
+  },
+  {
+    "id": "mica-webp-optimizer",
+    "name": "Mica WebP Optimizer",
+    "author": "Rahul S",
+    "description": "Optimize PNG and JPEG media locally as verified WebP files without breaking Obsidian links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/tool-app-Obsidian-Mica-WebP-Optimizer"
   },
   {
     "id": "rememo",
@@ -58315,13 +58343,6 @@
     "author": "arnaudfeld",
     "description": "Use your own SVGs, Devicon, Simple Icons and Lucide in notes via a shortcode, and in the file explorer. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "arnaudfeld/my-own-icons"
-  },
-  {
-    "id": "groundwork",
-    "name": "Groundwork",
-    "author": "jonathan-harris",
-    "description": "A tutor that plans goals from first principles, calibrates what you know with quizzes, and keeps that memory in this vault. Optionally publishes your concept map to your Groundwork profile. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jonathanharris15/Groundwork"
   },
   {
     "id": "automatic-mood-history",
@@ -65245,5 +65266,19 @@
     "author": "Elisa De Gregorio",
     "description": "Plan your novel on a board of colored post-its: one per chapter, colored by its stage in the Hero's Journey, Save the Cat, Three-Act and other structures. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "coffeearmy/obsidian-novel-board"
+  },
+  {
+    "id": "bases-content-cards",
+    "name": "Bases Content Cards",
+    "author": "Marcel Schwarz",
+    "description": "Show notes as cards in Bases, using each note's own content as the cover instead of an image. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "icaotix/obsidian-bases-content-cards"
+  },
+  {
+    "id": "rich-csv",
+    "name": "Rich CSV",
+    "author": "Marcel Schwarz",
+    "description": "View and edit CSV files as a sortable, filterable table. Sorting never touches the file, and edits are written back byte-for-byte. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "icaotix/obsidian-rich-csv"
   }
 ]
