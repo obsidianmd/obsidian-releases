@@ -41048,13 +41048,6 @@
     "repo": "zangeti/obsidian-smart-autocorrect"
   },
   {
-    "id": "visit-history",
-    "name": "Visit History",
-    "author": "Nickolay Kondratyev",
-    "description": "Records the visit history of notes and canvases, and visualizes vault activity as a treemap heatmap. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "nickolay-kondratyev/obsidian-visit-history-plugin"
-  },
-  {
     "id": "clang-format-code-blocks",
     "name": "Clang-Format Code Blocks",
     "author": "Ömer Kara",
@@ -46445,6 +46438,13 @@
     "repo": "arasan95/obsidian-main-pane"
   },
   {
+    "id": "chat-lab",
+    "name": "Chat Lab AI",
+    "author": "Deepak Vaid",
+    "description": "AI-powered chat with multi-device relay, agentic tools, and collaborative conversation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "space-cadet/obsidian-ai"
+  },
+  {
     "id": "harness-like",
     "name": "Harness Like",
     "author": "Frank6",
@@ -49605,7 +49605,7 @@
     "id": "colloquy",
     "name": "Colloquy",
     "author": "Ibon Escalada Ruiz de Loizaga",
-    "description": "Build a knowledge base out of your AI conversations. Each is saved to your vault as markdown, then summarised so the next starts with the context. Supports Ollama, OpenAI, Anthropic, Google, DeepSeek. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Turn your AI conversations into a knowledge base: saved as markdown, briefly summarised, and a short digest goes to the next one. Supports Ollama, OpenAI, Anthropic, Google and DeepSeek. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yoitsrdl/colloquy"
   },
   {
@@ -52785,13 +52785,6 @@
     "author": "Torus Hidenami",
     "description": "Collects unchecked tasks from Obsidian Canvas cards into an Inbox card. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "torus211/canvas-inbox-sync"
-  },
-  {
-    "id": "mica-webp-optimizer",
-    "name": "Mica WebP Optimizer",
-    "author": "Rahul S",
-    "description": "Optimize PNG and JPEG media locally as verified WebP files without breaking Obsidian links. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tutivsoft-com/tool-app-Obsidian-Mica-WebP-Optimizer"
   },
   {
     "id": "rememo",
@@ -64960,6 +64953,13 @@
     "repo": "justanotherjurastudent/obsidian-gemini-notebooklm"
   },
   {
+    "id": "echostrata",
+    "name": "Echostrata",
+    "author": "sene-kela",
+    "description": "Record your microphone and your Mac's system audio directly within the note you're writing. Get a transcript, a summary and action items. Nothing leaves your Mac. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "senekela/echostrata-for-obsidian"
+  },
+  {
     "id": "terminal-tabs",
     "name": "Terminal Tabs",
     "author": "krzysztofkut",
@@ -65149,13 +65149,6 @@
     "repo": "b2winus/versedrop"
   },
   {
-    "id": "meaningful-name",
-    "name": "Meaningful Name",
-    "author": "hacpaka",
-    "description": "Shows a readable name from a note's frontmatter in place of its filename: explorer, tabs, graph, search and more. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hacpaka/obsidian-meaningful-name"
-  },
-  {
     "id": "hex-preview",
     "name": "Hex Preview",
     "author": "Paul Renvoise",
@@ -65192,9 +65185,23 @@
   },
   {
     "id": "bibliomancy-atmospheric-noise",
-    "name": "Bibliomancy (Atmospheric Noise)",
+    "name": "Bibliomancy",
     "author": "coherence-wizard",
-    "description": "Discover random notes and passages using local randomness or optional atmospheric randomness from RANDOM.ORG. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Divine answers with bibliomancy by choosing random notes and passages using true random from atmospheric noise (RANDOM.ORG). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "coherence-wizard/obsidian-bibliomancy"
+  },
+  {
+    "id": "sidecar-agent",
+    "name": "Sidecar Agent",
+    "author": "Manuel Niehues",
+    "description": "Run Claude Code and Antigravity in a real terminal in the sidebar, with a session list, search, a reading view with clickable links, per-session model switching and usage limits. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "manuelniehues/obsidian-sidecar-agent"
+  },
+  {
+    "id": "view-tabs-for-bases",
+    "name": "View Tabs for Bases",
+    "author": "tttatsuo",
+    "description": "Show a base's views as tabs next to the result count. Drag to reorder, and set each tab's color, size and visibility. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tttatsuo/obsidian-view-tabs-for-bases"
   }
 ]
