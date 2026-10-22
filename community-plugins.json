@@ -21966,13 +21966,6 @@
     "repo": "cokaizoku/obsidian-global-ticker"
   },
   {
-    "id": "image-uploader-to-api",
-    "name": "Image Uploader to API",
-    "author": "babarot",
-    "description": "Upload images to any API endpoint on drag & drop or paste, and insert the public URL as Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "babarot/obsidian-image-uploader-to-api"
-  },
-  {
     "id": "hotkey-capture",
     "name": "Hotkey Capture",
     "author": "mihailgusev",
@@ -35929,6 +35922,13 @@
     "author": "James Karlsson & Thomas Goldman",
     "description": "Run normal fenced Markdown code blocks in Obsidian while keeping native syntax highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tzadikimbiu/lotus"
+  },
+  {
+    "id": "html-effectiveness",
+    "name": "HTML Effectiveness",
+    "author": "rosswang",
+    "description": "边对比 / 流程图 / 幻灯片 / 报告 / 时间线 — 在 Obsidian 中直接渲染空间化 HTML 内容。基于 html-effectiveness 方法论。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanqingwang/obsidian-html-effectiveness"
   },
   {
     "id": "lapis-lazuli-ai-assistant",
@@ -52668,13 +52668,6 @@
     "repo": "yuegu7800/yue-douyin-knowledge"
   },
   {
-    "id": "memvector-knowledge-engine",
-    "name": "MemVector Knowledge Engine",
-    "author": "Kevin Mike Kaupert",
-    "description": "Local-first 2D vector-space graph, SQLite graph engine, and hybrid GraphRAG AI co-pilot for Obsidian — powered by Ollama, Anthropic Claude, OpenAI, or DeepSeek. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kevinkaupert/obsidian-memvector-knowledge-engine"
-  },
-  {
     "id": "release-timeline-base-view",
     "name": "Release Timeline Base View",
     "author": "Jared Cherup",
@@ -65028,5 +65021,19 @@
     "author": "YOAV PALTI",
     "description": "Render MyST Markdown admonitions, math, figures, roles, and nested directives directly in your notes while preserving source files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yoav-palti/myst-reader"
+  },
+  {
+    "id": "pi-edge",
+    "name": "Pi Edge",
+    "author": "Jiyu Yan",
+    "description": "Connect to Pi on your computer from desktop or mobile with one-time pairing and note context. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "anderbone/pi-obsidian-edge"
+  },
+  {
+    "id": "ai-pen",
+    "name": "p3n",
+    "author": "Nikita Andreiev",
+    "description": "Check selected text for AI writing, see the sentences that give it away, and rewrite it so it reads as human, with the p3n API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "barabosik/p3n-obsidian"
   }
 ]
