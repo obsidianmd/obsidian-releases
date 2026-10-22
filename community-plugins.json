@@ -34566,13 +34566,6 @@
     "repo": "c-miles/orrery"
   },
   {
-    "id": "writing-menu",
-    "name": "Writing Menu",
-    "author": "zpzp13",
-    "description": "A writing environment customization plugin with typography controls, focus mode, smart quotes, text substitution, typewriter scroll, word counter, and more. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zpzp13/obsidian-writing-menu"
-  },
-  {
     "id": "pinball-db",
     "name": "Pinball DB",
     "author": "Tony Grosinger",
@@ -39564,6 +39557,13 @@
     "repo": "jwczju/html-blocks"
   },
   {
+    "id": "terminus",
+    "name": "Terminus",
+    "author": "notenerd",
+    "description": "A real terminal with shell integration and beginner-friendly command help, plus a multi-agent workflow for Claude Code sessions: word-level diffs, undo, backlink-breakage warnings, and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "notenerdofficial/terminus"
+  },
+  {
     "id": "mini-tray",
     "name": "Mini Tray",
     "author": "Damon",
@@ -43272,13 +43272,6 @@
     "author": "Lynn",
     "description": "A cozy novel-writing workbench for Obsidian with chapter navigation, local name generation, time-machine backups, and live writing stats. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pan75291386-hue/watermelon-workbench"
-  },
-  {
-    "id": "cymose",
-    "name": "Cymose",
-    "author": "Cymose",
-    "description": "Branch an AI conversation across a real canvas instead of one linear chat. Ask a question three ways at once, then promote what held up so later branches inherit it. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cymosehq/cymose-obsidian"
   },
   {
     "id": "aurora-dashboard",
@@ -47026,6 +47019,13 @@
     "repo": "mohamedgb00714/obsidian-autoplans"
   },
   {
+    "id": "xyls-starmap",
+    "name": "Xyls Starmap",
+    "author": "xylhazlhztarr",
+    "description": "A fully free plugin for creating interactive, note-linked starmaps and planetviews inside notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "archivist-3/Xyl-s-Starmap"
+  },
+  {
     "id": "chinabrat",
     "name": "China BRAT",
     "author": "快速安装插件",
@@ -47808,13 +47808,6 @@
     "author": "n23eos",
     "description": "Interactive sunburst chart of your vault. See folder sizes on disk, word counts and file counts at a glance, with animated zoom and 13 languages. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "n23eos/obsidian-vault-sunburst"
-  },
-  {
-    "id": "re-supercharged-links",
-    "name": "Re-supercharged Links",
-    "author": "Carl Bechstrom",
-    "description": "Re-Supercharged Links is an advanced link-styling plugin for Obsidian that has evolved far beyond the original fork into a substantially redesigned and expanded implementation. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "carlb01/re-supercharged-links"
   },
   {
     "id": "local-agent-assistant",
@@ -61523,6 +61516,13 @@
     "repo": "finnxwz/tidytasks"
   },
   {
+    "id": "pocket-markwhen",
+    "name": "Pocket Markwhen",
+    "author": "theluckystrike",
+    "description": "Read and edit Markwhen timelines on phones and tablets without a change to the file format. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/pocket-markwhen"
+  },
+  {
     "id": "rewind-vault",
     "name": "Rewind Vault",
     "author": "danrhodes",
@@ -61591,6 +61591,20 @@
     "author": "孙鹏飞",
     "description": "Embeds CodeM (Feishu AI coding agent) as a sidebar chat in your vault. Your vault becomes its working directory. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "spenf710/codem-obsidian-chat"
+  },
+  {
+    "id": "cherrytree-import",
+    "name": "CherryTree Import",
+    "author": "theluckystrike",
+    "description": "Convert CherryTree XML documents into nested Markdown notes with links and images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/cherrytree-import"
+  },
+  {
+    "id": "thebrain-import",
+    "name": "TheBrain Import",
+    "author": "theluckystrike",
+    "description": "Convert TheBrain thoughts and links into linked Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/thebrain-import"
   },
   {
     "id": "eos-workspace",
@@ -62557,6 +62571,13 @@
     "author": "冰块",
     "description": "Inline todos anywhere in a line: []text/ and [x]text/. Multi-line content, native Markdown inside, click to toggle, source reveals on cursor, skipped in code, JS API for other plugins. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "icecode825/inline-todo"
+  },
+  {
+    "id": "fence-file-export",
+    "name": "Fence File Export",
+    "author": "theluckystrike",
+    "description": "Write named code blocks from the current note to new files in a chosen vault folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/fence-file-export"
   },
   {
     "id": "annotator-json-export",
@@ -64911,6 +64932,13 @@
     "repo": "m24ih/obsidian-kitap"
   },
   {
+    "id": "native-notes",
+    "name": "Native Notes",
+    "author": "Pratiyush Tiwari",
+    "description": "Apple-inspired themes and editor tools, with iCloud setup and optional recovery history for your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pratiyusht/native-notes"
+  },
+  {
     "id": "bases-view-favorites",
     "name": "Bases Enhancements",
     "author": "danniebgoode",
@@ -64988,10 +65016,38 @@
     "repo": "badtobad/with-keyline"
   },
   {
+    "id": "margin-ai-proofreader",
+    "name": "Margin AI Proofreader",
+    "author": "Ahmed Khaled",
+    "description": "An AI second pass after Harper: catches what grammar rules can't and rewrites on request. Local model or Gemini. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "phoenixak/margin-obsidian"
+  },
+  {
     "id": "mdbase",
     "name": "MD Base64",
     "author": "Hadesr",
     "description": "将当前笔记导出为图片内联的单文件 Markdown，支持 Wiki 与标准图片语法，不依赖 Electron，桌面与移动端通用. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hadesls/MDbase64"
+  },
+  {
+    "id": "name-dialogue",
+    "name": "Name Dialogue",
+    "author": "Charles Qiang",
+    "description": "An Obsidian plugin that adds formatting to dialogue in scripts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qiangcharles/Name-Dialogue"
+  },
+  {
+    "id": "markvis",
+    "name": "Markvis Charts",
+    "author": "Sean",
+    "description": "Draw charts from a short code block: a few header lines and a CSV or Markdown table. Seventeen chart types, your theme's colors, no network. The block stays plain text, so it reads as a table anywhere else. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "geekplux/markvis-obsidian"
+  },
+  {
+    "id": "lazybird",
+    "name": "Lazybird",
+    "author": "Lazybird",
+    "description": "Read your notes aloud and save them as MP3 files with natural AI voices. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lazybirdai/obsidian-lazybird"
   }
 ]
