@@ -17887,7 +17887,7 @@
   {
     "id": "anki-helper",
     "name": "Anki Helper",
-    "author": "panatgithub",
+    "author": "Dusk",
     "description": "Standardizes Anki card display for seamless integration with the expand_to_anki plugin.",
     "repo": "panatgithub/anki-helper"
   },
@@ -22038,7 +22038,7 @@
   {
     "id": "mandala-grid",
     "name": "Mandala Grid",
-    "author": "panatgithub",
+    "author": "Dusk",
     "description": "Mandala grid (3×3 / 9×9) editor built on Lineage. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "panatgithub/obsidian-mandala-grid"
   },
@@ -25713,7 +25713,7 @@
   {
     "id": "anki-heading-sync",
     "name": "Anki Heading Sync",
-    "author": "panatgithub",
+    "author": "Dusk",
     "description": "Focused heading-based Markdown to Anki sync plugin. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "panatgithub/AnkiHeadingSync"
   },
@@ -45325,6 +45325,13 @@
     "repo": "nejmlabs/Things-Pages"
   },
   {
+    "id": "study-time-statistics",
+    "name": "Study Time Statistics",
+    "author": "miss",
+    "description": "Private, local-first study analytics for notes and PDFs: sessions, streaks, heatmaps, trends, and rankings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tanzy226/obsidian-study-time-statistics"
+  },
+  {
     "id": "checkbox-progress",
     "name": "Checkbox Progress",
     "author": "Wallace Wyslas",
@@ -53809,13 +53816,6 @@
     "repo": "xileshuo/BrainCore-LifeOS"
   },
   {
-    "id": "evolution-homepage",
-    "name": "Evolution homepage",
-    "author": "PandaDalmore",
-    "description": "A configurable personal command center for notes, tasks, and daily reflection. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pandadalmore/obsidian-evolution-homepage"
-  },
-  {
     "id": "task-status-selector",
     "name": "Task Status Selector",
     "author": "Raphael Quast",
@@ -56262,7 +56262,7 @@
     "id": "search-replace-helper",
     "name": "Search and replace helper",
     "author": "jyqqs",
-    "description": "A lightweight find and replace with a floating, semi-transparent and draggable panel. Highlights matches in the selection or the whole note as you type, supports regex and case sensitivity, and replaces with full undo support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A lightweight find and replace with a floating, semi-transparent and draggable panel. Highlights matches in the selection or the whole note as you type, supports regex and case sensitivity - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "spiderk-104/search-replace-helper"
   },
   {
@@ -60977,6 +60977,13 @@
     "repo": "drawablex86/lets-hear-it"
   },
   {
+    "id": "genkan",
+    "name": "Genkan",
+    "author": "Kenroy Harrison",
+    "description": "Show a dashboard homepage with a clock, calendar, favourites, tasks, quick note, web clips and recent notes, plus optional Pebble ring voice notes. Works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kenroy/genkan"
+  },
+  {
     "id": "ai-translation",
     "name": "AI Translation",
     "author": "Caoshengzhao",
@@ -64918,6 +64925,13 @@
     "repo": "yanqingwang/obsidian-theme-view-studio"
   },
   {
+    "id": "young-look",
+    "name": "YoungLook Japanese",
+    "author": "younglook",
+    "description": "把本机里的动漫视频和字幕，变成可以拆开、查词、练习、复习的日语学习素材。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "young-look/younglook-japanese"
+  },
+  {
     "id": "superier-highlighter",
     "name": "Superier Highlighter",
     "author": "WooJIN OH",
@@ -64951,13 +64965,6 @@
     "author": "ARCXCOVAEL LLC",
     "description": "Explore the native graph with Overview, Focused Writing and Structure views, real-link tracing, branch folding and saved node positions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "arcxcovael/graph-views"
-  },
-  {
-    "id": "klaar",
-    "name": "Klaar",
-    "author": "Fran",
-    "description": "Tasks and periodic notes for Obsidian: schedule plain Markdown tasks into day, week, month, quarter and year notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "i-am-fran/obsidian-klaar"
   },
   {
     "id": "hide",
@@ -65063,5 +65070,26 @@
     "author": "Lazybird",
     "description": "Read your notes aloud and save them as MP3 files with natural AI voices. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lazybirdai/obsidian-lazybird"
+  },
+  {
+    "id": "cascade-templates",
+    "name": "Cascade Templates",
+    "author": "Matteo Palazzolo",
+    "description": "A modular cascading templating system based on folder-level !Template.md files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "matteopalazzolo/obsidian-cascade-templates"
+  },
+  {
+    "id": "hadesr-obai",
+    "name": "Hadesr AI",
+    "author": "Hadesr",
+    "description": "选中文字即可改写，支持行内补全、AI 对话与 16 个写作动作，兼容 OpenAI、Anthropic 与 Google. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hadesls/Hadesr-obai"
+  },
+  {
+    "id": "sent-to-e-ink-reader",
+    "name": "Sent to E-ink Reader",
+    "author": "ifrecycable",
+    "description": "Send Markdown text to a WebDAV inbox for e-ink readers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yiifanrecyclable/Sent-to-E-ink-Reader"
   }
 ]
