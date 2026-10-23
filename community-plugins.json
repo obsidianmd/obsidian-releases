@@ -22743,6 +22743,13 @@
     "repo": "volcanicll/obsidian-md-publisher"
   },
   {
+    "id": "financial-accounting",
+    "name": "Financial Accounting",
+    "author": "dannyveil",
+    "description": "Financial control system directly without internet connection. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dannyveil/Financial-Accounting"
+  },
+  {
     "id": "mermaid-view",
     "name": "Mermaid View",
     "author": "weppos",
@@ -24883,13 +24890,6 @@
     "author": "zhanpeng329-arch",
     "description": "Adds a hover formatting toolbar for Markdown headings, emphasis, lists, links, and code. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhanpeng329-arch/obsidian-CodeIndentation"
-  },
-  {
-    "id": "kanban-sync",
-    "name": "Kanban Sync",
-    "author": "jcacdc",
-    "description": "Syncs Kanban board state with note frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jcacdc/obsidian-kanban-sync"
   },
   {
     "id": "html-viewer",
@@ -49507,7 +49507,7 @@
     "id": "copy-guard",
     "name": "CopyGuard",
     "author": "k-tech-studio",
-    "description": "Find sync-conflict copies, empty files, and leftover temp files. Compare with the original (name-only if bytes match). Restore from the Trash Box. Two-step delete. Does not merge. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Find sync-conflict copies, empty files, empty folders, and leftover temp files. Compare with the original (name-only if bytes match). Restore from the Trash Box. Two-step delete. Does not merge - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "crossbeat461-a11y/copy-guard"
   },
   {
@@ -65315,5 +65315,33 @@
     "author": "孙同阳",
     "description": "Create math question sheets and handouts, with student and teacher PDF exports and printing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sunsimilarsun/Mathsemble"
+  },
+  {
+    "id": "tranmd",
+    "name": "TranMD",
+    "author": "wjy2335",
+    "description": "Copy note content as clean Markdown by stripping Obsidian-specific syntax, ready for MarginNote 4 and other Markdown apps. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wjy2335/tranmd"
+  },
+  {
+    "id": "brainos-graph",
+    "name": "BrainOS Graph",
+    "author": "othnielsu",
+    "description": "Record thought paths in Markdown lists and explore an editable graph with reusable nodes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "radical7vii/brainos-obsidian"
+  },
+  {
+    "id": "jev-classificador",
+    "name": "Jev Classificador",
+    "author": "matteo",
+    "description": "Classifica a nota com o Jev (TypeSafe): grava genero e categoria (taxonomia em PT-BR) e gera tags de pasta e de assunto no frontmatter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "matteoandradeboschi/jev-classificador"
+  },
+  {
+    "id": "rubik-visualizer",
+    "name": "Rubik Studio Visualizer",
+    "author": "Fabian Serna",
+    "description": "Render 3D and 2D Rubik's Cube (3x3x3 and 4x4x4) states, animated move sequences, and real-cube color solver inside Markdown code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fabianserna/rubik-visualizer"
   }
 ]
