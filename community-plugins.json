@@ -26602,7 +26602,7 @@
   {
     "id": "karpathywiki",
     "name": "Karpathy LLM Wiki",
-    "author": "gd4ai",
+    "author": "Greener-Dalii",
     "description": "Karpathy's LLM Wiki implementation plugin for Obsidian - turns notes and PDFs into a linked, LLM-powered knowledge base with entity pages, concept pages, graph-powered Q&A, and local-first privacy. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gd4ai/obsidian-llm-wiki"
   },
@@ -45850,13 +45850,6 @@
     "repo": "thisisthedave/tasknotes-views"
   },
   {
-    "id": "csv-flashcards",
-    "name": "CSV Flashcards",
-    "author": "Axel Rea Eklund",
-    "description": "A straightforward, easy-to-use flashcard quizzer and editor that uses standard CSV files. Features native compatibility with NotebookLM exports and skips the complicated spaced repetition for a no-fuss study experience. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "axelreaeklund/csv-flashcard-obsidian-plugin"
-  },
-  {
     "id": "hemi-sync-helper",
     "name": "Hemi-Sync Helper",
     "author": "Dylan Wright",
@@ -62104,6 +62097,13 @@
     "repo": "jalvarado-it/folder-child-count"
   },
   {
+    "id": "prism-studio",
+    "name": "Prism Studio",
+    "author": "Meno",
+    "description": "多套配色与玻璃材质、独立界面与笔记字体、章节滚动条、图片堆叠、任务管理与内容工作台。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "menoking/Prism-Studio"
+  },
+  {
     "id": "tagging-folder",
     "name": "Tagging Folder",
     "author": "Dryden Bryson",
@@ -65121,6 +65121,13 @@
     "repo": "ttangents/obsidian-relate"
   },
   {
+    "id": "vault-code",
+    "name": "Vault Code",
+    "author": "SPACESODA",
+    "description": "Turn your vault into a lightweight IDE and code editor. Reveal hidden dotfiles, edit over 70 programming languages, live-preview HTML, SVG, and MJML, and search and replace with zero bloat. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "spacesoda/obsidian-vault-code"
+  },
+  {
     "id": "training-log",
     "name": "Training Log",
     "author": "flexksx",
@@ -65320,7 +65327,7 @@
     "id": "tranmd",
     "name": "TranMD",
     "author": "wjy2335",
-    "description": "Copy note content as clean Markdown by stripping Obsidian-specific syntax, ready for MarginNote 4 and other Markdown apps. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Copy notes or a selection as clean, portable Markdown by stripping wikilinks, embeds, callouts, frontmatter, comments, tags, highlights and footnotes. Ready for MarginNote 4 or any Markdown app. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wjy2335/tranmd"
   },
   {
@@ -65350,5 +65357,26 @@
     "author": "Material Plugins",
     "description": "Create and preview read-only programming exercise projects, then copy them to a local working folder. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "obsidian-material-plugins/obsidian-exerciser-plugin"
+  },
+  {
+    "id": "quaestio",
+    "name": "Quaestio",
+    "author": "aceofspadesomelette",
+    "description": "Turn quaestio code blocks into interactive multiple-choice questions in Reading view, with answers saved in the note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aceofspadesomelette/quaestio"
+  },
+  {
+    "id": "type-to-remember",
+    "name": "Type to Remember",
+    "author": "Anthirayas",
+    "description": "Practise recall by typing your own notes, with spaced repetition and a progress heatmap. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jrayas/type-to-remember"
+  },
+  {
+    "id": "paragraph-enter",
+    "name": "Paragraph Enter",
+    "author": "theluckystrike",
+    "description": "Press Enter once to start a new paragraph, and use Shift-Enter for a line break. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/paragraph-enter"
   }
 ]
