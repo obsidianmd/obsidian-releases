@@ -47775,13 +47775,6 @@
     "repo": "crossbeat461-a11y/k-tech-update-guard"
   },
   {
-    "id": "cmds-share",
-    "name": "CMDS Share",
-    "author": "Yohan Koo",
-    "description": "Share notes to the web instantly. Self-hostable or managed backends (CMDSPACE, Synology NAS, GitHub Pages, Supabase, Convex) with view counts, expiry, revocation, and optional end-to-end encryption. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "johnfkoo951/cmds-share"
-  },
-  {
     "id": "obsiminal",
     "name": "Vault Shell",
     "author": "Nhat Duy Mai",
@@ -54773,6 +54766,20 @@
     "author": "WallWay",
     "description": "Show a Kindle-style reading ruler: a clear band at reading height while the rest of the text is dimmed. Works in Markdown notes and PDFs, on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "driekeerj/obsidian-reading-ruler"
+  },
+  {
+    "id": "linearis",
+    "name": "Linearis",
+    "author": "aceofspadesomelette",
+    "description": "Linearis: source-line gutters on the left or right of your notes in editor and reading mode. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aceofspadesomelette/obsidian-linearis"
+  },
+  {
+    "id": "ordinal-headings",
+    "name": "Ordinal Headings",
+    "author": "aceofspadesomelette",
+    "description": "Live Word-style numbering for Heading 1–6 with presets and custom patterns (visual by default). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aceofspadesomelette/ordinal-headings"
   },
   {
     "id": "dense-reading",
@@ -64936,7 +64943,7 @@
     "name": "Superier Highlighter",
     "author": "WooJIN OH",
     "description": "Highlight exact selections in Reading View using surrounding context, with native colours, tags, and annotations. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "owjxyz/Obsidian-Superier-Highlighter"
+    "repo": "owjxyz/Obsidian-Superior-Highlighter"
   },
   {
     "id": "sourcebook",
@@ -65156,6 +65163,13 @@
     "repo": "unluxiddream/obsidian-scriptview-plugin"
   },
   {
+    "id": "hemingway",
+    "name": "Hemingway",
+    "author": "Dhruvir Zala",
+    "description": "Unofficial Hemingway-style readability feedback for Obsidian, with live highlights, writing stats, and optional on-device AI rewriting and proofreading. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dhruvir-zala/hemingway-for-obsidian"
+  },
+  {
     "id": "handnote",
     "name": "HandNote",
     "author": "Yanzhe Shao",
@@ -65196,6 +65210,13 @@
     "author": "jsmorabito",
     "description": "Manage tasks as notes organized into ordered chains. Supports multiple chains, cross-chain membership, and a meta-chain for personal sequencing across projects. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jsmorabito/obsidian-markdown-tasks"
+  },
+  {
+    "id": "conspectus",
+    "name": "Conspectus",
+    "author": "aceofspadesomelette",
+    "description": "Live in-note table of contents from a conspectus code block, with configurable max heading level. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aceofspadesomelette/obsidian-conspectus"
   },
   {
     "id": "paranoid-tasks",
@@ -65359,6 +65380,20 @@
     "repo": "obsidian-material-plugins/obsidian-exerciser-plugin"
   },
   {
+    "id": "attachment-atlas",
+    "name": "Attachment Atlas",
+    "author": "gua",
+    "description": "Find duplicate and unreferenced images, inspect references, and recycle images with recoverable changes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "saltcoffee/AttachmentAtlas"
+  },
+  {
+    "id": "mermaid-lumina",
+    "name": "Mermaid Lumina",
+    "author": "aceofspadesomelette",
+    "description": "Open Mermaid diagrams in a zoomable lightbox with a bright white canvas — works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aceofspadesomelette/mermaid-lumina"
+  },
+  {
     "id": "quaestio",
     "name": "Quaestio",
     "author": "aceofspadesomelette",
@@ -65392,5 +65427,12 @@
     "author": "Kibeom Lee",
     "description": "Show the live graph view as your desktop wallpaper, slowly rotating, on Windows and Linux (X11). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kbeom9307/obsidian-graph-wallpaper"
+  },
+  {
+    "id": "terminology-replacer",
+    "name": "Terminology Replacer",
+    "author": "Shangrui",
+    "description": "Replace selected or preceding terminology with configurable literal text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wool0312/obsidian-terminology-replacer"
   }
 ]
