@@ -10258,7 +10258,7 @@
     "id": "systemsculpt-ai",
     "name": "SystemSculpt AI",
     "author": "systemsculpt",
-    "description": "Chat with your vault, run approved actions, transcribe audio, find related notes, and build visual AI workflows. Free to start.",
+    "description": "Chat with your vault using your own Claude Code or Codex on desktop, or hosted AI. The AI agent edits notes with your approval, transcribes audio and finds related notes. Free to start.",
     "repo": "systemsculpt/obsidian-systemsculpt-ai"
   },
   {
@@ -23476,13 +23476,6 @@
     "author": "sean2077",
     "description": "Adds a paginated table view with quick filtering to Bases. Features include pagination controls, global search, click-to-filter, and filter presets. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sean2077/obsidian-bases-paginator"
-  },
-  {
-    "id": "chordgrid",
-    "name": "Chord Grid With Rhythmic Notation",
-    "author": "mathieucgit",
-    "description": "Displays chord grids with rhythmic notation from a simple syntax. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mathieucgit/ChordGrid_for_Obsidian"
   },
   {
     "id": "snipsidian",
@@ -49098,6 +49091,13 @@
     "repo": "zhenghaoyang24/obsidian-plugin-deepshian"
   },
   {
+    "id": "vault-force-sync",
+    "name": "Vault Force Sync",
+    "author": "rosswang",
+    "description": "Force/incremental sync vault data to a configurable GitHub remote (git path configurable), skips >100MB files and continues; logs results to a viewable log. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanqingwang/github-vault-force-sync"
+  },
+  {
     "id": "contradiction-finder",
     "name": "Contradiction Finder",
     "author": "aguilaaa",
@@ -64925,6 +64925,13 @@
     "repo": "qieyifengzhi/obsidian-mathematica-notebook-viewer"
   },
   {
+    "id": "aurora-tracker",
+    "name": "Aurora Tracker",
+    "author": "Ash Otis",
+    "description": "A small, fun tracker for making music: six synth tracks with noise and FM drums and a C64-style SID mode. Songs are plain text in your notes, with WAV and MIDI export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ashotis/Aurora-Tracker"
+  },
+  {
     "id": "lifeworld",
     "name": "LifeWorld",
     "author": "John Hesch",
@@ -65028,6 +65035,13 @@
     "author": "YOAV PALTI",
     "description": "Render MyST Markdown admonitions, math, figures, roles, and nested directives directly in your notes while preserving source files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yoav-palti/myst-reader"
+  },
+  {
+    "id": "agent-manager",
+    "name": "Agent Manager",
+    "author": "Matt Maiorana",
+    "description": "Run Claude Code, Codex, or Antigravity in a terminal inside Obsidian. Start a session from any note, and keep every session listed, resumable, and saved. macOS only for now. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mattmaiorana/agent-manager"
   },
   {
     "id": "pi-edge",
@@ -65597,6 +65611,13 @@
     "repo": "ayyoubelkouri/overlay"
   },
   {
+    "id": "linker",
+    "name": "Linker",
+    "author": "bratietokone",
+    "description": "Automatically embed attachments and YouTube videos, customize Wiki-links, and link to files outside your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bratietokone/Linker4Obsidian"
+  },
+  {
     "id": "rsn-habit-calendar-one-b",
     "name": "rsn habit calendar one b",
     "author": "Rajendra Singh Negi",
@@ -65616,5 +65637,33 @@
     "author": "abenstirling",
     "description": "Create beautiful resumes from Markdown. Choose a design, preview as you write, and export a one-page PDF. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "abenstirling/tja-obsidian"
+  },
+  {
+    "id": "game-tracker",
+    "name": "Game Tracker",
+    "author": "austinwilcox",
+    "description": "Track the games you play, retro or modern. Search for a game to add it with box art and details, and log when you beat it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "austinwilcox/obsidian-game-tracker"
+  },
+  {
+    "id": "easy-symbols",
+    "name": "Easy Symbols",
+    "author": "chaowen",
+    "description": "Type symbols in Obsidian with simple shortcuts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chaovven/obsidian-easy-symbols"
+  },
+  {
+    "id": "boardmd",
+    "name": "BoardMD",
+    "author": "Eric Fisher",
+    "description": "Plan work with a Jira-style backlog, sprints and boards. Issues and sprints are plain notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ericfisherdev/boardmd"
+  },
+  {
+    "id": "clipboard-compare",
+    "name": "Clipboard Compare",
+    "author": "chaowen",
+    "description": "Compare the active note with your clipboard and apply individual changes, just like VS Code. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chaovven/obsidian-clipboard-compare"
   }
 ]
