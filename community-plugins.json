@@ -10258,7 +10258,7 @@
     "id": "systemsculpt-ai",
     "name": "SystemSculpt AI",
     "author": "systemsculpt",
-    "description": "Chat with your vault, run approved actions, transcribe audio, find related notes, and build visual AI workflows.",
+    "description": "Chat with your vault, run approved actions, transcribe audio, find related notes, and build visual AI workflows. Free to start.",
     "repo": "systemsculpt/obsidian-systemsculpt-ai"
   },
   {
@@ -31804,7 +31804,7 @@
     "id": "ai-knowledge-hub",
     "name": "Veynrel",
     "author": "Zinvernix",
-    "description": "Health, discovery, native spaced repetition, and AI workflows for Obsidian. Search by meaning, review findings, and stay in control. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Review connections and overlaps, prepare guarded note changes, and practise spaced repetition. Local checks with optional AI. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zinverno/veynrel"
   },
   {
@@ -58072,13 +58072,6 @@
     "repo": "qiulinfan/obsidian-tinymist"
   },
   {
-    "id": "kgdistiller",
-    "name": "kgdistiller",
-    "author": "Qiulin Fan",
-    "description": "Explore typed semantic relations and source references from a kgdistiller vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "qiulinfan/kgdistiller"
-  },
-  {
     "id": "feishu-wiki-sync",
     "name": "Feishu Wiki Sync",
     "author": "guanxu chen",
@@ -58863,13 +58856,6 @@
     "repo": "stmoonar/oss-gallery-plugin-obsidian"
   },
   {
-    "id": "synki",
-    "name": "Synki",
-    "author": "gengsta1",
-    "description": "Sync embedded Synki blocks from Obsidian notes to Anki. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gengsta1/synki"
-  },
-  {
     "id": "seexmind",
     "name": "SeeXmind",
     "author": "leyem",
@@ -58889,13 +58875,6 @@
     "author": "harrythotter",
     "description": "Turn note-taking into a blocky survival game with XP for writing, advancements, page-turn arrows, title-screen splashes, colour codes and sounds. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "smit4450/book-and-quill"
-  },
-  {
-    "id": "locally-save",
-    "name": "Locally Save",
-    "author": "Kflho",
-    "description": "Syncs your vault to a local folder copy in seconds, and exports changes as a single transferable file you can carry on a USB drive. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kflho/obsidian-locally-save"
   },
   {
     "id": "nodra",
@@ -60380,6 +60359,13 @@
     "author": "jordtcasbeer535",
     "description": "An elegant metronome that lives in your sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jordtcasbeer535/obsidian-andante"
+  },
+  {
+    "id": "canvas-plus",
+    "name": "Canvas Plus",
+    "author": "jsmorabito",
+    "description": "Canvas tools in one bar, free text, ink and a layers panel. With Note Types: note cards, relations on edges and key images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jsmorabito/obsidian-canvas-plus"
   },
   {
     "id": "trmnl-screens",
@@ -64977,7 +64963,7 @@
     "id": "native-notes",
     "name": "Native Notes",
     "author": "Pratiyush Tiwari",
-    "description": "Apple-inspired design, editor tools, and portable appearance profiles. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Apple-inspired design, built-in code highlighting, editor tools, and portable profiles. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pratiyusht/native-notes"
   },
   {
@@ -65534,6 +65520,13 @@
     "repo": "maxcohn/obsidian-simple-image-convert"
   },
   {
+    "id": "perun",
+    "name": "Perun",
+    "author": "noiseweaver",
+    "description": "Run live circuit simulations in your notes and edit .circuit files in a full circuit editor. Based on Paul Falstad's CircuitJS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "noiseweaver/perun-obsidian"
+  },
+  {
     "id": "diachronic",
     "name": "Diachronic",
     "author": "Johannes Kaindl",
@@ -65548,6 +65541,13 @@
     "repo": "alvinfunborn/lac-costset"
   },
   {
+    "id": "make-a-wiki",
+    "name": "Make-a-Wiki",
+    "author": "Bruno Jales de Sousa",
+    "description": "Wiki-style infobox sheets for your story's characters, items and anything else: customisable templates, coloured badges, dictionary links, and forms to create and edit them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "brunojalessousa/obsidian-make-a-wiki"
+  },
+  {
     "id": "seowebchecker-seo-audit",
     "name": "SEOWebChecker SEO Audit",
     "author": "SEOWebChecker",
@@ -65560,5 +65560,19 @@
     "author": "Cheng He",
     "description": "Write by hand on a tablet and get Markdown at the cursor: text, LaTeX and Mermaid, read from your handwriting by Claude or another vision model. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "stanh123h/obsidian-inkdown"
+  },
+  {
+    "id": "branch-mover",
+    "name": "Branch Mover",
+    "author": "Mohan Das Adhikari",
+    "description": "Right-click a note in Graph View to move its branch of linked notes into folders, with links kept intact. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jokeroct/branch-mover"
+  },
+  {
+    "id": "heading-guard",
+    "name": "Heading Guard",
+    "author": "OLanO",
+    "description": "Auto-number Markdown headings with per-level rules: brackets, level separators and suffixes. Keeps [[note#heading]] links pointing at the right heading when numbers change. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nnq7/obsidian-heading-guard"
   }
 ]
