@@ -28455,6 +28455,13 @@
     "repo": "hatanochihiro/obsidian-webnovel-assistant"
   },
   {
+    "id": "ghost-publish",
+    "name": "Ghost Publish",
+    "author": "Sébastien Dubois",
+    "description": "Publish your vault notes to a Ghost blog with configurable presets for tags, newsletters, and frontmatter conventions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dsebastien/obsidian-ghost-publish"
+  },
+  {
     "id": "list-to-table",
     "name": "List to Table",
     "author": "kepano",
@@ -29776,13 +29783,6 @@
     "author": "Jenny Tai",
     "description": "Recap your journal entries with AI generated summaries. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aegerita/journal-recap"
-  },
-  {
-    "id": "pickle",
-    "name": "Pickle",
-    "author": "callumalpass",
-    "description": "Local-first, file-based agent inbox for typed requests and responses. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "callumalpass/pickle-obsidian"
   },
   {
     "id": "kandyban",
@@ -45311,13 +45311,6 @@
     "repo": "madforstrength/obsidian-wispr-flow-sync"
   },
   {
-    "id": "drum-notation-renderer",
-    "name": "Drum Notation Renderer",
-    "author": "Ganzo",
-    "description": "Write modern drum grooves as positions or grids and render responsive SVG notation. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ganzosupremo/drum-notation-plugin"
-  },
-  {
     "id": "kindle-bridge",
     "name": "Kindle Bridge",
     "author": "Daisuke Masuda",
@@ -48311,7 +48304,7 @@
     "name": "Finance Vault",
     "author": "Matheus",
     "description": "Registre receitas, despesas, cartões, gastos fixos, parcelamentos e aportes em arquivos Markdown locais. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "matheusz-nied/finance-vault-obsidian"
+    "repo": "theusz-dev/finance-vault-obsidian"
   },
   {
     "id": "handwriting",
@@ -60977,6 +60970,13 @@
     "repo": "drawablex86/lets-hear-it"
   },
   {
+    "id": "genkan",
+    "name": "Genkan",
+    "author": "Kenroy Harrison",
+    "description": "Show a dashboard homepage with a clock, calendar, favourites, tasks, quick note, web clips and recent notes, plus optional Pebble ring voice notes. Works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kenroy/genkan"
+  },
+  {
     "id": "ai-translation",
     "name": "AI Translation",
     "author": "Caoshengzhao",
@@ -65068,7 +65068,7 @@
     "id": "with-keyline",
     "name": "With Keyline",
     "author": "Cha X.",
-    "description": "Write and navigate with less setup: selection tools, block handles, page mentions, file icons, typography and workspace switching. Pair with the Keyline theme. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Write and navigate with less setup: selection tools, block handles, page mentions, file icons, typography and workspace switching. Pair with the Keyline theme. Mobile support is Beta. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "badtobad/with-keyline"
   },
   {
@@ -65098,13 +65098,6 @@
     "author": "Sean",
     "description": "Draw charts from a short code block: a few header lines and a CSV or Markdown table. Seventeen chart types, your theme's colors, no network. The block stays plain text, so it reads as a table anywhere else. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "geekplux/markvis-obsidian"
-  },
-  {
-    "id": "bookdrop",
-    "name": "Bookdrop",
-    "author": "Paul Hong",
-    "description": "Drop a book into your vault: search Kakao Book Search or Google Books by title, author, or ISBN, then create a templated book note or fill the current note. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "b2winus/bookdrop"
   },
   {
     "id": "lazybird",
@@ -65681,9 +65674,16 @@
     "repo": "fernanluyano/obs-nestegg"
   },
   {
+    "id": "rsvp-speed-reader",
+    "name": "Speed Reader (RSVP)",
+    "author": "Dmitry",
+    "description": "Speed read notes using Spritz-style RSVP with Optimal Recognition Point (ORP), smart pacing, chunking, and text-to-speech. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bathert/obsidian-speed-reader"
+  },
+  {
     "id": "gentle-speller",
     "name": "Gentle Speller",
-    "author": "battrip",
+    "author": "Dmitry",
     "description": "Correct Russian, English and Ukrainian spelling with Yandex Speller, optional automatic checks and a manual command. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bathert/obsidian-gentle-speller"
   },
@@ -65714,5 +65714,12 @@
     "author": "Tiffany Iong",
     "description": "Choose dates and times for note Properties with a cozy paper-style picker. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tiffanyiong/obsidian-animal-island-calendar"
+  },
+  {
+    "id": "seamless-note-embed",
+    "name": "Seamless Note Embed",
+    "author": "AfzGit",
+    "description": "Makes embedded notes seamless: shifts their headings, integrates them into the Outline view, and adds optional embed appearance controls. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "afzgit/obsidian-seamless-note-embed"
   }
 ]
