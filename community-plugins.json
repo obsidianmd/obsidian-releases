@@ -47754,6 +47754,13 @@
     "repo": "wolfgangotter/cover-image-picker"
   },
   {
+    "id": "colsdown",
+    "name": "Colsdown",
+    "author": "grafanakibana",
+    "description": "Create responsive Markdown columns and stacks that adapt to available space. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "grafanakibana/obsidian-colsdown"
+  },
+  {
     "id": "lecture-workflow",
     "name": "Lecture Workflow",
     "author": "Dorlment",
@@ -56693,6 +56700,13 @@
     "repo": "louispereira23/audiopen-obsidian-sync"
   },
   {
+    "id": "callout-quick",
+    "name": "Callout Quick",
+    "author": "ren yi",
+    "description": "选中文字后按快捷键，弹出选择框，一键把选中内容包成 [!important]、[!note]、[!tip] 等 Callout。类型列表可自定义。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zych2023/callout-quick"
+  },
+  {
     "id": "notation-prettifier",
     "name": "Notation Prettifier",
     "author": "Zackary Burns",
@@ -59220,13 +59234,6 @@
     "repo": "theboyroy05/Obsidian-Unified-Tag-Links"
   },
   {
-    "id": "intelliscroll",
-    "name": "IntelliScroll",
-    "author": "InVerse",
-    "description": "Resurface your own notes on a spaced-repetition schedule. Nothing is ever written into your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lmce72/intelliscroll"
-  },
-  {
     "id": "vscode-search",
     "name": "VSCode Search",
     "author": "Rawlence",
@@ -60219,13 +60226,6 @@
     "author": "TeamOnTrack, LLC",
     "description": "Turn a note into a one-page report that people can read, edit in place and share. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "itsdionis/MyOnePage"
-  },
-  {
-    "id": "documents-activity-tracker",
-    "name": "Documents Activity Tracker",
-    "author": "InVerse",
-    "description": "跟踪每个文档的阅读时长（区分窗口内/脱离窗口），并提供独立的手动计时；侧栏统一查看，数据存于 SQLite。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lmce72/documents-activity-tracker"
   },
   {
     "id": "pdf-editor",
@@ -62783,13 +62783,6 @@
     "repo": "longpeng1413/mengren-obsidian-editor-plugin"
   },
   {
-    "id": "primecore-search",
-    "name": "Radar Search",
-    "author": "InVerse",
-    "description": "Unified vault, command, property, link, and web search, with CJK full-text indexing and a floating search bar. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lmce72/radar-search"
-  },
-  {
     "id": "transparent-translate",
     "name": "Transparent Translate",
     "author": "Jay Leimer",
@@ -65208,7 +65201,7 @@
     "id": "versedrop",
     "name": "Versedrop",
     "author": "Paul Hong",
-    "description": "Search a Bible reference and insert it in Korean, English, Chinese, Japanese, Greek or Hebrew — public-domain texts, ESV and NET, your Accordance modules (Mac) or JSON files — with copyright notices and Logos/Accordance links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Search a Bible reference and insert it in Korean, English, Chinese, Japanese, Greek or Hebrew — public-domain texts, ESV and NET, your Accordance modules (Mac) or JSON files - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "b2winus/versedrop"
   },
   {
@@ -65597,6 +65590,13 @@
     "repo": "nnq7/obsidian-heading-guard"
   },
   {
+    "id": "gnosis",
+    "name": "Gnosis",
+    "author": "Paul",
+    "description": "Search your vault with gnosis's retrieval pipeline, from a portable index built on your own machine. No server, no API key. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ptsouchlos/obsidian-gnosis"
+  },
+  {
     "id": "note-template-sync",
     "name": "Note Template Sync",
     "author": "Joel Oliveira",
@@ -65765,6 +65765,13 @@
     "repo": "depthinker925/Thinkers-TomaToDo"
   },
   {
+    "id": "eari-sync",
+    "name": "eari-sync",
+    "author": "earify",
+    "description": "Sync notes across devices in real time using your own self-hosted server - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "earify/eari-sync"
+  },
+  {
     "id": "organise-tasks",
     "name": "Organise Tasks",
     "author": "davison",
@@ -65856,6 +65863,13 @@
     "repo": "oxilldat/oxill-finance"
   },
   {
+    "id": "hwpx-exporter",
+    "name": "HWP Exporter",
+    "author": "everydaymind",
+    "description": "Export Markdown notes to Hangul HWPX documents formatted by HWPX templates, with an MCP-like API for AI agent plugins. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "everydaymind/obsidian-hwp-exporter"
+  },
+  {
     "id": "paperlane",
     "name": "Paperlane",
     "author": "Chulwoo Choi",
@@ -65868,5 +65882,19 @@
     "author": "gua",
     "description": "Format selected text with a floating toolbar, text colors, highlights, and internal links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "saltcoffee/hover-bar"
+  },
+  {
+    "id": "pinned-tab-bar",
+    "name": "Pinned Tab Bar",
+    "author": "ren yi",
+    "description": "Move pinned tabs into a separate sidebar strip and control each one independently: keep it in the strip, send it back to the tab bar, or shrink it to a small badge. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zych2023/Pinned-Tab-Bar"
+  },
+  {
+    "id": "super-pin",
+    "name": "Super Pin",
+    "author": "opswhisperer",
+    "description": "Keep chosen notes pinned as tabs in the right sidebar so they are never replaced, with optional enforced reading view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "opswhisperer/obsidian-superpin"
   }
 ]
