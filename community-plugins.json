@@ -45405,7 +45405,7 @@
     "id": "table-csv",
     "name": "TableCSV",
     "author": "k-tech-studio",
-    "description": "Open CSV as tables. Filter rows or a column without changing the file. Select cells to see sum, average, and count. Set column types. Pin last row or first column. Copy, cut, paste. Offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Open CSV as tables. Filter without changing the file. Select cells for sum, average, and count. Pin last row or first column. Copy, cut, paste. Paste entire table from the clipboard. Offline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "crossbeat461-a11y/table-csv"
   },
   {
@@ -49649,13 +49649,6 @@
     "author": "ctrlvish",
     "description": "Copy explicitly selected notes and embedded attachments into a separate AI workspace. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ctrlvish/codex-share"
-  },
-  {
-    "id": "cycle-latest-tab",
-    "name": "Cycle Latest Tab",
-    "author": "Axel Rea Eklund",
-    "description": "Changes tab navigation to cycle through most recently used tabs. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "axelreaeklund/cycle-latest-tab"
   },
   {
     "id": "listsheet",
@@ -62727,6 +62720,13 @@
     "repo": "kfirgumay2005-hash/Overpowered-Canvas"
   },
   {
+    "id": "nox",
+    "name": "Nox",
+    "author": "howlildotech",
+    "description": "Learn from your notes with AI-powered explanations, practice, reviews, and guided learning plans. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "howlil/nox"
+  },
+  {
     "id": "claude-studio",
     "name": "Claude Studio",
     "author": "siulved54",
@@ -64396,7 +64396,7 @@
     "id": "wujie-sync",
     "name": "Wujie Sync",
     "author": "adventurer",
-    "description": "Sync notes, attachments and selected settings with compression and client-side encryption. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync notes and attachments with client-side encryption and commercial cloud storage. Customize sorting, pin notes and revisit recent files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "adventurer2008/obsidian-smart-sync-release-cn"
   },
   {
@@ -64970,7 +64970,7 @@
     "id": "kitap",
     "name": "Kitap",
     "author": "Melih AK",
-    "description": "Search books and metadata from Kitapyurdu to create structured reading notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Search Turkish books and metadata from Kitapyurdu and D&R to create structured reading notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "m24ih/obsidian-kitap"
   },
   {
@@ -65665,5 +65665,19 @@
     "author": "chaowen",
     "description": "Compare the active note with your clipboard and apply individual changes, just like VS Code. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "chaovven/obsidian-clipboard-compare"
+  },
+  {
+    "id": "simboard",
+    "name": "Simboard",
+    "author": "Zhe Zhou",
+    "description": "Turn any note into a home dashboard with a banner clock, a calendar, quick links, a Markdown-backed todo list and vault activity. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhezhou1106/obsidian-simboard"
+  },
+  {
+    "id": "sigilizer",
+    "name": "Sigilizer",
+    "author": "Adam Esch",
+    "description": "Turn intentions into sigils inscribed in a magic circle, and export them as PNGs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "adamesch/obsidian-sigilizer"
   }
 ]
