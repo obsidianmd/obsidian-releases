@@ -64946,13 +64946,6 @@
     "repo": "young-look/younglook-japanese"
   },
   {
-    "id": "sourcebook",
-    "name": "Sourcebook",
-    "author": "shishen",
-    "description": "A local-first source and note system for creative work—built for designers, deck makers, video creators, and every creator working with AI. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yanze-he/sourcebook-for-obsidian"
-  },
-  {
     "id": "kitap",
     "name": "Kitap",
     "author": "Melih AK",
@@ -65821,6 +65814,13 @@
     "repo": "theluckystrike/block-drag-links"
   },
   {
+    "id": "confitext",
+    "name": "Confitext",
+    "author": "Dheeraz",
+    "description": "An animated, Matrix-inspired visual masking layer for private-feeling writing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dheeraz101/Confitext"
+  },
+  {
     "id": "rubric",
     "name": "Rubric",
     "author": "Anthirayas",
@@ -66045,6 +66045,20 @@
     "repo": "abdullahwaqar/obsidian-plane-sync"
   },
   {
+    "id": "mysecret",
+    "name": "MySecret",
+    "author": "abismalmx",
+    "description": "Cifra tus notas y archivos de Obsidian con AES-256-GCM y Argon2id. Privacidad absoluta: nadie, más que tú, podrá ver el contenido de tus notas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abismalmx/MySecret"
+  },
+  {
+    "id": "obmind-map",
+    "name": "Weaver Mindmap",
+    "author": "salt-baked-universe",
+    "description": "Turn the current note's headings and indentation into an interactive, XMind-style mindmap that edits the note back. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "salt-baked-universe/obmind"
+  },
+  {
     "id": "heading-indent-guides",
     "name": "Heading Indent Guides",
     "author": "TIM_MIT",
@@ -66057,5 +66071,40 @@
     "author": "北漠海",
     "description": "本地优先的 Markdown 交易复盘、日历与可选 AI 日报周报分析。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "beimohai/TradeNote-Obsidian"
+  },
+  {
+    "id": "md-cleanup",
+    "name": "Markdown Cleanup",
+    "author": "cge",
+    "description": "Strip bold markers, remove non-breaking spaces, merge single-sentence paragraphs, fix colon spacing, and break lines at sentence boundaries. Tuned for Korean text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "goeun23/obsidian-md-cleanup"
+  },
+  {
+    "id": "badge-chip",
+    "name": "Badge Chip",
+    "author": "cge",
+    "description": "Type !! to pick a badge from a searchable list and insert it in the Badges plugin syntax. The badge list is editable in settings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "goeun23/obsidian-badge-chip"
+  },
+  {
+    "id": "plain-path-relink",
+    "name": "Plain Path Relink",
+    "author": "cge",
+    "description": "When you move notes or folders, rewrite plain-text paths that Obsidian does not update, such as paths in frontmatter or inline code, and log mentions left unchanged. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "goeun23/obsidian-plain-path-relink"
+  },
+  {
+    "id": "vault-version-control",
+    "name": "Vault Version Control",
+    "author": "ZEMAO CHEN",
+    "description": "Manage local Git versions, file history, branches, restores, and text diffs inside an Obsidian vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "czmatwhu/vault-version-control"
+  },
+  {
+    "id": "source-peek",
+    "name": "Source Peek",
+    "author": "meng.wang",
+    "description": "Rest the pointer on a link and read what it points at: lines of a source file, a file in a repository, or one heading of a web page. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yunforge/obsidian-source-peek"
   }
 ]
