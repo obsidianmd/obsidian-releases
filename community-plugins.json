@@ -65793,6 +65793,13 @@
     "repo": "depthinker925/Thinkers-TomaToDo"
   },
   {
+    "id": "eari-sync",
+    "name": "eari-sync",
+    "author": "earify",
+    "description": "Sync notes across devices in real time using your own self-hosted server - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "earify/eari-sync"
+  },
+  {
     "id": "organise-tasks",
     "name": "Organise Tasks",
     "author": "davison",
@@ -66045,13 +66052,6 @@
     "repo": "nexziz/pocket-watch"
   },
   {
-    "id": "md-to-hwpx",
-    "name": "HWPX Exporter",
-    "author": "everydaymind",
-    "description": "Export Markdown notes to Hangul HWPX documents formatted by HWPX templates, with an MCP-like API for AI agent plugins. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "everydaymind/obsidian-hwpx-exporter"
-  },
-  {
     "id": "relative-image-width",
     "name": "Relative Image Width",
     "author": "theluckystrike",
@@ -66164,11 +66164,25 @@
     "repo": "mazaoshe/ypp-book-shelf"
   },
   {
+    "id": "bigao",
+    "name": "Collate",
+    "author": "SigiL",
+    "description": "并排对照两篇笔记，按词高亮差异。Two notes side by side, differences marked word by word. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ouatis/obsidian-bigao"
+  },
+  {
     "id": "vault-sync-git",
     "name": "Vault Sync for Git",
     "author": "x-o-r-r-o",
     "description": "Sync and back up your vault with GitHub, GitLab, Codeberg, Gitea, Forgejo or Bitbucket on desktop and mobile. No Git install needed. Smart merging, version history and optional end-to-end encryption. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "x-o-r-r-o/vault-sync-git"
+  },
+  {
+    "id": "nextcloud-collectives",
+    "name": "Nextcloud Collectives Sync",
+    "author": "Martin Schumacher",
+    "description": "Synchronize all Nextcloud Collectives of a server bidirectionally with your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "keineantwort/obsidian-nextcloud-collectives"
   },
   {
     "id": "mermaid-autozoom",
@@ -66227,10 +66241,31 @@
     "repo": "dignity-ghost/latex_references"
   },
   {
+    "id": "org-live",
+    "name": "Org Live",
+    "author": "zeit",
+    "description": "Edit and read Org-mode files with Obsidian-quality live preview and reading view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zzeitt/obsidian-org-live"
+  },
+  {
     "id": "note-review-comments",
     "name": "Note Review Comments",
     "author": "nd",
     "description": "Comment on passages in Reading view and track AI review resolution. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hello1101n/obsidian-reading-comments"
+  },
+  {
+    "id": "syntax-palette",
+    "name": "Syntax Palette",
+    "author": "Frank",
+    "description": "Desktop-only syntax coloring for Markdown fenced code, with 15 theme families and optional backgrounds, line numbers, and editor wrapping. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bilibilijojo/obsidian-syntax-palette"
+  },
+  {
+    "id": "language-tool",
+    "name": "Language Tool Advanced",
+    "author": "ducktapekiller",
+    "description": "Spelling, grammar and Spanish style checking with LanguageTool, on your own server or LanguageTool's. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ducktapekiller/language-tool-advanced"
   }
 ]
