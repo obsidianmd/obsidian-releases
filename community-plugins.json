@@ -34783,13 +34783,6 @@
     "repo": "augmentableai/tpsreport-obsidian-sync"
   },
   {
-    "id": "contextual-ai-reader",
-    "name": "Read and Watch with AI",
-    "author": "Taoye",
-    "description": "Translate documents, learn from videos with bilingual subtitles, and turn screenshots and AI conversations into notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "skye1349/contextual-ai-reader"
-  },
-  {
     "id": "epub-reading-importer",
     "name": "EPUB Transfer to Markdown",
     "author": "Taoye",
@@ -60193,6 +60186,13 @@
     "repo": "itsdionis/MyOnePage"
   },
   {
+    "id": "documents-activity-tracker",
+    "name": "Documents Activity Tracker",
+    "author": "InVerse",
+    "description": "跟踪每个文档的阅读时长（区分窗口内/脱离窗口），并提供独立的手动计时；侧栏统一查看，数据存于 SQLite。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lmce72/documents-activity-tracker"
+  },
+  {
     "id": "pdf-editor",
     "name": "PDF Editor",
     "author": "holtsdav",
@@ -62748,6 +62748,13 @@
     "repo": "longpeng1413/mengren-obsidian-editor-plugin"
   },
   {
+    "id": "primecore-search",
+    "name": "Radar Search",
+    "author": "InVerse",
+    "description": "Unified vault, command, property, link, and web search, with CJK full-text indexing and a floating search bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lmce72/radar-search"
+  },
+  {
     "id": "transparent-translate",
     "name": "Transparent Translate",
     "author": "Jay Leimer",
@@ -63381,7 +63388,7 @@
     "id": "vault-bridge-toolkit",
     "name": "NoteParcel",
     "author": "Frank Wang",
-    "description": "Copy notes with attachments between vaults, repair pasted math and tables, and copy local file paths. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Copy notes across vaults with attachments and updated links, drag and drop between windows, and repair pasted math and tables. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "frankwangthu/vault-bridge"
   },
   {
@@ -63598,7 +63605,7 @@
     "id": "ovo-chat",
     "name": "OvO Chat",
     "author": "munroe153",
-    "description": "Mobile-friendly DeepSeek chat with branching conversations, web search, read-only vault tools, and chart rendering. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Custom conversation plugin based on deepseek API. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "munroe153/OvO-Chat"
   },
   {
@@ -63684,13 +63691,6 @@
     "author": "Wandermyz",
     "description": "Sync notes with GitHub or GitHub Enterprise Server through the GitHub REST API, with no Git binary required. Signs in with OAuth device flow, so it works with enterprise SSO and on mobile, including iOS. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wandermyz/obsidian-github-sync"
-  },
-  {
-    "id": "recovery-engine-study",
-    "name": "Recovery Engine Study",
-    "author": "Mohammadamin",
-    "description": "A customizable study review and recovery system with Jalali date support, flexible scheduling, and checklists. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sedghimohammadamin/recovery-engine-v2"
   },
   {
     "id": "agent-sidebar",
@@ -65975,6 +65975,13 @@
     "repo": "jcolorxy/obsidian-focus-hub"
   },
   {
+    "id": "jcolorxy-world-map",
+    "name": "World Map",
+    "author": "jcolorxy",
+    "description": "A globe and world map of the countries you have visited, with the years you went and trips linked to your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jcolorxy/obsidian-world-map"
+  },
+  {
     "id": "pin-indicator",
     "name": "Pin Indicator",
     "author": "nicholaskj",
@@ -65987,5 +65994,33 @@
     "author": "nexsis",
     "description": "Track your time in the vault with a calm little watch over your notes. It pauses when you go idle and opens into a calendar with time and word stats. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nexziz/pocket-watch"
+  },
+  {
+    "id": "md-to-hwpx",
+    "name": "HWPX Exporter",
+    "author": "everydaymind",
+    "description": "Export Markdown notes to Hangul HWPX documents formatted by HWPX templates, with an MCP-like API for AI agent plugins. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "everydaymind/obsidian-hwpx-exporter"
+  },
+  {
+    "id": "relative-image-width",
+    "name": "Relative Image Width",
+    "author": "theluckystrike",
+    "description": "Sizes embedded images with percent, em, rem and viewport units in Reading view and Live Preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/relative-image-width"
+  },
+  {
+    "id": "six-dots",
+    "name": "SixDots",
+    "author": "gua",
+    "description": "Reorder Markdown blocks with drag handles and apply quick block actions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "saltcoffee/six-dots"
+  },
+  {
+    "id": "reading-tap-guard",
+    "name": "Reading Tap Guard",
+    "author": "theluckystrike",
+    "description": "Stops a double tap in Reading view on phone and tablet from switching the note to editing, with a setting for what a double tap does. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/reading-tap-guard"
   }
 ]
