@@ -19653,7 +19653,7 @@
     "name": "Garmin Health Sync",
     "author": "Dany",
     "description": "Sync Garmin Connect health data into your Daily Notes as frontmatter properties. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "fcandi/Garmin-Health-Sync"
+    "repo": "davadev/Garmin-Health-Sync"
   },
   {
     "id": "show-hidden-files",
@@ -23373,6 +23373,13 @@
     "repo": "glebglazov/obsidian-external-codeblock-editor"
   },
   {
+    "id": "custom-views",
+    "name": "Custom Views",
+    "author": "Anup Chavan",
+    "description": "Create custom HTML views for your notes based on filter rules. Transform how your notes are displayed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "anupchavan/obsidian-custom-views"
+  },
+  {
     "id": "task-count",
     "name": "Task Count",
     "author": "Reaty",
@@ -26850,6 +26857,13 @@
     "author": "Jan Sandström",
     "description": "Disable indented code blocks so tabs/spaces become normal indentation. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pixerojan/obsidian-indent"
+  },
+  {
+    "id": "chronicle",
+    "name": "Chronicle",
+    "author": "cubiclewar",
+    "description": "Chronicle your life through the stories you watch and read. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cubiclewar/obsidian-chronicle"
   },
   {
     "id": "fingertip-translation",
@@ -49469,6 +49483,13 @@
     "repo": "duanxianpi/zotflow-enhancement-pack"
   },
   {
+    "id": "oss-sync",
+    "name": "OSS Sync and Share",
+    "author": "HikariTish",
+    "description": "Self-hosted sync and share for Obsidian: Markdown + attachments + .obsidian config, LWW-based multi-device sync, lightweight blog publishing, and collaboration editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "helantianshen/oss-sync"
+  },
+  {
     "id": "copy-guard",
     "name": "CopyGuard",
     "author": "k-tech-studio",
@@ -64946,6 +64967,13 @@
     "repo": "young-look/younglook-japanese"
   },
   {
+    "id": "sourcebook",
+    "name": "Sourcebook",
+    "author": "shishen",
+    "description": "A local-first source and note system for creative work—built for designers, deck makers, video creators, and every creator working with AI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanze-he/sourcebook-for-obsidian"
+  },
+  {
     "id": "kitap",
     "name": "Kitap",
     "author": "Melih AK",
@@ -65765,13 +65793,6 @@
     "repo": "depthinker925/Thinkers-TomaToDo"
   },
   {
-    "id": "eari-sync",
-    "name": "eari-sync",
-    "author": "earify",
-    "description": "Sync notes across devices in real time using your own self-hosted server - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "earify/eari-sync"
-  },
-  {
     "id": "organise-tasks",
     "name": "Organise Tasks",
     "author": "davison",
@@ -65829,10 +65850,10 @@
   },
   {
     "id": "two-space-indent",
-    "name": "Two Space Indent",
+    "name": "Indent with Spaces",
     "author": "leondgarse",
     "description": "Make Tab indent by 2 spaces and Shift+Tab unindent by 2 spaces. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "leondgarse/obsidian-two-space-indent"
+    "repo": "leondgarse/obsidian-indent-with-spaces"
   },
   {
     "id": "fold-unfold-headings",
@@ -66062,7 +66083,7 @@
     "id": "mysecret",
     "name": "MySecret",
     "author": "abismalmx",
-    "description": "Cifra tus notas y archivos de Obsidian con AES-256-GCM y Argon2id. Privacidad absoluta: nadie, más que tú, podrá ver el contenido de tus notas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Encrypt your Obsidian notes and files with AES-256-GCM and Argon2id. Absolute privacy: no one but you will be able to see the content of your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "abismalmx/MySecret"
   },
   {
@@ -66150,6 +66171,13 @@
     "repo": "x-o-r-r-o/vault-sync-git"
   },
   {
+    "id": "mermaid-autozoom",
+    "name": "Mermaid Autozoom",
+    "author": "Jiří Václavovič",
+    "description": "Fits wide Mermaid diagrams to the page width and shows them at full size in an overlay on click. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jvaclavovic/obsidian-mermaid-autozoom"
+  },
+  {
     "id": "indented-table-render",
     "name": "Indented Table Render",
     "author": "leondgarse",
@@ -66169,5 +66197,40 @@
     "author": "Raymond",
     "description": "文字、录音和图片快速记录，支持腾讯云转写、年度 noteCount、附件清理与今日重逢。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "raymond0316/flomo-quick-capture"
+  },
+  {
+    "id": "stellar-graph",
+    "name": "Stellar Graph 3D",
+    "author": "thor040175",
+    "description": "Explore your notes as a glowing 3D galaxy: comets along links, time travel, spiral mode, routes, constellations and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "thor040175/stellar-graph-3d"
+  },
+  {
+    "id": "outlook-drop-importer",
+    "name": "Mail Drop",
+    "author": "Viggo Meesters",
+    "description": "Save dropped Apple Mail and Outlook .eml files beside the target note with an attachment log. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "viggomeesters/obsidian-mail-drop"
+  },
+  {
+    "id": "tahoe-ocr",
+    "name": "Tahoe OCR",
+    "author": "Krishnan",
+    "description": "Search the text in your images: screenshots, photos of slides and scanned pages are read on your Mac with macOS Vision (OCR), so you can find an image by its words, copy its text. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "krishnanefx/obsidian-tahoe-ocr"
+  },
+  {
+    "id": "latex-references",
+    "name": "LaTeX References",
+    "author": "jared cui",
+    "description": "Render and navigate portable LaTeX labels, references, figures, and BibTeX citations in Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dignity-ghost/latex_references"
+  },
+  {
+    "id": "note-review-comments",
+    "name": "Note Review Comments",
+    "author": "nd",
+    "description": "Comment on passages in Reading view and track AI review resolution. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hello1101n/obsidian-reading-comments"
   }
 ]
