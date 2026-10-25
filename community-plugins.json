@@ -10731,6 +10731,13 @@
     "repo": "triangular-sneaky/obsidian-list-outline-helper"
   },
   {
+    "id": "timekeep",
+    "name": "Timekeep",
+    "author": "jacobtread",
+    "description": "Time tracking.",
+    "repo": "jacobtread/obsidian-timekeep"
+  },
+  {
     "id": "index-notes",
     "name": "Index Notes",
     "author": "adanielnoel",
@@ -18226,13 +18233,6 @@
     "author": "threeyang3",
     "description": "Sync your Bangumi collections to notes with episode tracking, control panel, and batch editing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "threeyang3/bangumi-sync"
-  },
-  {
-    "id": "zone-scroll-zoom",
-    "name": "Zone Scroll Zoom",
-    "author": "kqint",
-    "description": "Zoom where your mouse is — font in editor, interface elsewhere. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kqint/obsidian-zone-scroll-zoom"
   },
   {
     "id": "rodin-export",
@@ -32009,13 +32009,6 @@
     "author": "kkbin505",
     "description": "A Tomato timer with sidebar view, status bar display, OS notifications, and work session logging. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kkbin505/tomato-clock-plugin"
-  },
-  {
-    "id": "personal-life-system",
-    "name": "Life OS Assistant",
-    "author": "Xiaoqiang Huang",
-    "description": "Organize diary entries, tasks, knowledge, memory, and AI-assisted reviews inside your Obsidian vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "xiaoqiang-huang/obsidian-life-os-community"
   },
   {
     "id": "live-image-editor",
@@ -59318,13 +59311,6 @@
     "repo": "iwannaknow2000/obsidian-latest-arrivals"
   },
   {
-    "id": "better-quizbox",
-    "name": "Better Quiz Box",
-    "author": "junzi-ana",
-    "description": "Render an interactive multiple-choice quiz blocks in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "junzi-ana/better-quizbox"
-  },
-  {
     "id": "dot-sync",
     "name": "dot-sync",
     "author": "deepika",
@@ -63415,7 +63401,7 @@
   {
     "id": "druhy-mozek",
     "name": "Second Brain for KISK",
-    "author": "Jakub Josef Sova",
+    "author": "JJ",
     "description": "Study system for KISK students at Masaryk University: course notes, flashcards, deadlines, courses and Word assignments, with or without AI. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "shadowsh1t/second-brain-kisk"
   },
@@ -65096,7 +65082,7 @@
     "id": "with-keyline",
     "name": "With Keyline",
     "author": "Cha X.",
-    "description": "Write and navigate with less setup: selection tools, block handles, page mentions, file icons, typography and workspace switching. Pair with the Keyline theme. Mobile support is Beta. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Write with selection tools, block handles, page/date mentions, blank property entry and a themed calendar. File icons, typography and workspaces pair with Keyline. Mobile support is Beta. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "badtobad/with-keyline"
   },
   {
@@ -65350,6 +65336,13 @@
     "author": "Bento's Grimoire of Things",
     "description": "Opens Atlas VTT maps on a 3D board, with 3D minis on tokens, walls, doors, lights and props. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "evoljoaobento/atlas-vtt-tabletop"
+  },
+  {
+    "id": "fast-graph-view",
+    "name": "Fast Graph View",
+    "author": "cyrill",
+    "description": "Standalone WebGL graph view with a worker-based force layout that stays responsive in huge vaults by collapsing large folders into metadata nodes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cyrill0/fast-graph-view"
   },
   {
     "id": "vanity-windows",
@@ -66316,5 +66309,33 @@
     "author": "Puneeth Shetty",
     "description": "Compact, visual task lists inside your notes, backed by plain-text YAML. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "shettypuneeth/kanso-todos-obsidian"
+  },
+  {
+    "id": "mcq-tracker",
+    "name": "MCQ Tracker",
+    "author": "Isaac Friedenson",
+    "description": "Serve practice questions from your notes, grade answers, and track time, confidence and spaced review in note properties. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ifriedenson/mcq-tracker"
+  },
+  {
+    "id": "rho-network",
+    "name": "Rho Network",
+    "author": "clowsuzu",
+    "description": "Your vault as a living galaxy: notes orbit as planets, and the sky reacts as you write. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "clowsuzu/rho-network"
+  },
+  {
+    "id": "mermaid-walkthrough",
+    "name": "Mermaid Walkthrough",
+    "author": "Max Kurapov",
+    "description": "Walk through Mermaid sequence diagrams in a document one step at a time, as a sequence or on a draggable participant map, highlighting the active path. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mkurapov/obsidian-mermaid-walkthrough"
+  },
+  {
+    "id": "purewrite-export",
+    "name": "PureWrite Export",
+    "author": "Yechiel Ben David",
+    "description": "Export a note or a whole folder as a book-ready Word, PDF or EPUB file, with real footnotes, tables, images and chapter breaks, in Hebrew and English alike. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yybd/purewrite-export"
   }
 ]
