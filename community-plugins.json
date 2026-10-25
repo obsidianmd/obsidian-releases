@@ -41863,7 +41863,7 @@
     "id": "freedraw-pdf",
     "name": "Freedraw PDF",
     "author": "vida sana",
-    "description": "Handwrite pressured strokes and annotate your PDFs in Obsidian’s PDF viewer with native interface. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Handwrite and annotate your PDFs with stylus in Obsidian’s PDF viewer with native interface. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vividasasana/freedraw-pdf"
   },
   {
@@ -47402,6 +47402,13 @@
     "author": "AJ",
     "description": "Read PDFs, EPUBs, articles and video transcripts inside Obsidian and clip what matters into your notes — a passage becomes a quote, a dragged box becomes an image, and you write underneath it. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "arangutambo/democratised-read-it-later"
+  },
+  {
+    "id": "bloommd",
+    "name": "BloomMD",
+    "author": "moellenbeck-digital",
+    "description": "Visualize your Markdown notes as interactive mind maps while keeping Markdown as the source of truth. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "moellenbeck-digital/bloommd-obsidian"
   },
   {
     "id": "attachment-steward",
@@ -59794,13 +59801,6 @@
     "repo": "kougami132/AnimeList"
   },
   {
-    "id": "mermaid-excalidraw-renderer",
-    "name": "Mermaid Excalidraw Renderer",
-    "author": "Taichoco",
-    "description": "Render Mermaid diagrams in an Excalidraw-style view in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "taichocop/mermaid-excalidraw-renderer"
-  },
-  {
     "id": "gantt",
     "name": "OpenGantt",
     "author": "jebby",
@@ -62695,7 +62695,7 @@
     "id": "overpoweredcanvas",
     "name": "Overpowered Canvas",
     "author": "KfirG",
-    "description": "\"You're either perfect or you're not me\" (Perfect Cell , 2015)  .Includes all the features from both Advanced canvas and Canvas mindmap plugins , and far more , the perfected form of ultra instinct. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "\"You're either perfect or you're not me\" (Perfect Cell , 2015)  .Includes all the features from both Advanced canvas and Canvas mindmap plugins , and far more. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kfirgumay2005-hash/Overpowered-Canvas"
   },
   {
@@ -63719,6 +63719,13 @@
     "author": "Damian Evans",
     "description": "Render ABC tunes with sol-fa syllables and Kodály stick rhythm notation, each layer switchable per block. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "damianeire/obsidian-abc-solfa"
+  },
+  {
+    "id": "knowledge-curator",
+    "name": "Knowledge Curator",
+    "author": "Hannah Lin",
+    "description": "Evaluate incoming sources, verify conflicts, and propose reviewable updates to your Obsidian knowledge base. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hannah12110/knowledge-curator-obsidian"
   },
   {
     "id": "agent-note-terminal",
@@ -64925,13 +64932,6 @@
     "repo": "zarnuq/HTMLWorks"
   },
   {
-    "id": "sports",
-    "name": "Sports",
-    "author": "Trainvent",
-    "description": "Synchronize your training from spreadsheets and turn it into calendars, workout logs, and goal notes, with optional Garmin Connect support. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "trainvent/obsidian-sports-plugin"
-  },
-  {
     "id": "theme-view-studio",
     "name": "Theme View Studio",
     "author": "rosswang",
@@ -65975,6 +65975,20 @@
     "repo": "koosolek/obsidian-sidebar-manager"
   },
   {
+    "id": "tradoshi",
+    "name": "Tradoshi Trading Journal",
+    "author": "Tradoshi",
+    "description": "A complete trading journal in your notes: dashboard, trade log, trade cards, prop firm challenges and goals, with trades synced from over 2,000 brokers, imported or entered by hand. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tradoshi-ltd/tradoshi-obsidian"
+  },
+  {
+    "id": "herdr",
+    "name": "Herdr",
+    "author": "xicu",
+    "description": "Run and watch herdr AI coding agents from a terminal view, on desktop and mobile, and sync this vault with your laptop. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xicum/herdr-obsidian"
+  },
+  {
     "id": "regex-search-bar",
     "name": "Regex Search Bar",
     "author": "Patrick Stephens",
@@ -66106,5 +66120,54 @@
     "author": "meng.wang",
     "description": "Rest the pointer on a link and read what it points at: lines of a source file, a file in a repository, or one heading of a web page. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yunforge/obsidian-source-peek"
+  },
+  {
+    "id": "salah-hijri-times",
+    "name": "Salah and Hijri Times",
+    "author": "AfzGit",
+    "description": "Get Salah and Iqama Timings in Obsidian with notifications, and track Islamic Hijri dates. For Muslim. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "afzgit/obsidian-salah-and-hijri-times"
+  },
+  {
+    "id": "skill-switchboard",
+    "name": "Skill Switchboard",
+    "author": "SigiL",
+    "description": "Maintain skills in Obsidian and distribute complete, managed copies to local agents. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ouatis/obsidian-skill-switchboard"
+  },
+  {
+    "id": "ypp-book-shelf",
+    "name": "YPP Book Shelf",
+    "author": "杨鹏鹏",
+    "description": "Browse book notes in your vault as a cover shelf, and fetch covers and metadata from WeRead and Douban. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mazaoshe/ypp-book-shelf"
+  },
+  {
+    "id": "vault-sync-git",
+    "name": "Vault Sync for Git",
+    "author": "x-o-r-r-o",
+    "description": "Sync and back up your vault with GitHub, GitLab, Codeberg, Gitea, Forgejo or Bitbucket on desktop and mobile. No Git install needed. Smart merging, version history and optional end-to-end encryption. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "x-o-r-r-o/vault-sync-git"
+  },
+  {
+    "id": "indented-table-render",
+    "name": "Indented Table Render",
+    "author": "leondgarse",
+    "description": "Render indented pipe tables, nested in list items or under headings, in Live Preview and Reading view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leondgarse/obsidian-indented-table-render"
+  },
+  {
+    "id": "examiner",
+    "name": "Examiner",
+    "author": "Luminxyia",
+    "description": "Create reusable maths practice questions with random values and multi-step formulas, then practice them in isolation, or in exam conditions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "luminxyia/examiner"
+  },
+  {
+    "id": "flomo-quick-capture",
+    "name": "Flomo Quick Capture",
+    "author": "Raymond",
+    "description": "文字、录音和图片快速记录，支持腾讯云转写、年度 noteCount、附件清理与今日重逢。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "raymond0316/flomo-quick-capture"
   }
 ]
