@@ -23373,13 +23373,6 @@
     "repo": "glebglazov/obsidian-external-codeblock-editor"
   },
   {
-    "id": "custom-views",
-    "name": "Custom Views",
-    "author": "Anup Chavan",
-    "description": "Create custom HTML views for your notes based on filter rules. Transform how your notes are displayed. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "anupchavan/obsidian-custom-views"
-  },
-  {
     "id": "task-count",
     "name": "Task Count",
     "author": "Reaty",
@@ -33465,6 +33458,13 @@
     "author": "Johannes Kaindl",
     "description": "Generate professionally formatted business letters (DIN 5008 and modern) from note frontmatter and export them to PDF — via the print dialog on desktop, or the system share sheet on iPhone and iPad. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "johannes-kaindl/obsidian-letterhead"
+  },
+  {
+    "id": "auto-scroll",
+    "name": "Auto Scroll",
+    "author": "femto",
+    "description": "Automatically scrolls the editor while typing when the cursor reaches a configurable point in the viewport. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "femto-0/auto-scroll"
   },
   {
     "id": "lens",
@@ -64918,6 +64918,13 @@
     "repo": "trainvent/obsidian-sports-plugin"
   },
   {
+    "id": "theme-view-studio",
+    "name": "Theme View Studio",
+    "author": "rosswang",
+    "description": "Folder-scoped appearance: reading width, typography, background image and opacity, transparency, and an e-ink mode. One default theme for the vault, different looks per folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanqingwang/obsidian-theme-view-studio"
+  },
+  {
     "id": "young-look",
     "name": "YoungLook Japanese",
     "author": "younglook",
@@ -65674,13 +65681,6 @@
     "repo": "fernanluyano/obs-nestegg"
   },
   {
-    "id": "rsvp-speed-reader",
-    "name": "Speed Reader (RSVP)",
-    "author": "Dmitry",
-    "description": "Speed read notes using Spritz-style RSVP with Optimal Recognition Point (ORP), smart pacing, chunking, and text-to-speech. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "bathert/obsidian-speed-reader"
-  },
-  {
     "id": "gentle-speller",
     "name": "Gentle Speller",
     "author": "Dmitry",
@@ -65856,13 +65856,6 @@
     "repo": "oxilldat/oxill-finance"
   },
   {
-    "id": "hwpx-exporter",
-    "name": "HWP Exporter",
-    "author": "everydaymind",
-    "description": "Export Markdown notes to Hangul HWPX documents formatted by HWPX templates, with an MCP-like API for AI agent plugins. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "everydaymind/obsidian-hwp-exporter"
-  },
-  {
     "id": "paperlane",
     "name": "Paperlane",
     "author": "Chulwoo Choi",
@@ -65987,5 +65980,12 @@
     "author": "nicholaskj",
     "description": "Show a lock icon in the note's more options button while the note is pinned. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nicholaskj/pin-indicator"
+  },
+  {
+    "id": "pocket-watch",
+    "name": "Pocket Watch",
+    "author": "nexsis",
+    "description": "Track your time in the vault with a calm little watch over your notes. It pauses when you go idle and opens into a calendar with time and word stats. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nexziz/pocket-watch"
   }
 ]
