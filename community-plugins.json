@@ -37303,13 +37303,6 @@
     "repo": "maverickhq/obsidian-vault-reader"
   },
   {
-    "id": "auto-headings",
-    "name": "Auto Headings",
-    "author": "AArlert",
-    "description": "Automatic heading numbering with fully customizable templates, per-folder rules, whitelist and backlink sync. Bilingual UI (English / 中文). - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "aarlert/obsidian-auto-headings"
-  },
-  {
     "id": "bullet-time",
     "name": "Bullet-time",
     "author": "Herve Sliwa",
@@ -45806,6 +45799,13 @@
     "author": "Lam Phuc Hai",
     "description": "Record backtest and live trades with plans, statistics, images, and an economic calendar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hailp-vn38/trader-journal-plugin"
+  },
+  {
+    "id": "tasks-bridge",
+    "name": "Tasks Bridge",
+    "author": "Haiqiang Zhang",
+    "description": "Tasks Bridge is an integration layer for connecting Obsidian with external task-management services, currently supporting Todoist with more backends planned. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haiqiang-zhang/obsidian-tasks-bridge-plugin"
   },
   {
     "id": "lingua-study",
@@ -58387,6 +58387,13 @@
     "repo": "ryanleefm/semantic-map-canvas"
   },
   {
+    "id": "root-books-workspace",
+    "name": "Quartz Workspace Sync",
+    "author": "Material Plugins",
+    "description": "Watch plugin state and settings, manage portable frontmatter, and coordinate Quartz workflows. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "obsidian-material-plugins/obsidian-root-books-workspace"
+  },
+  {
     "id": "unitedshare",
     "name": "UnitedShare",
     "author": "united-share",
@@ -61838,13 +61845,6 @@
     "repo": "garrettfynn/muyun-companion"
   },
   {
-    "id": "ideaverse-maps",
-    "name": "Maps of the Ideaverse",
-    "author": "Linking Your Thinking",
-    "description": "Visualize your notes across a suite of insanely cool interactive maps—Emergence, Ideaverse, Starfield, and many more. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "nickmilo/ideaverse-maps"
-  },
-  {
     "id": "link-target-switch",
     "name": "Link Target Switch",
     "author": "Remko H. Pape",
@@ -63180,6 +63180,13 @@
     "author": "Denny Kim",
     "description": "Local atom structures and MD trajectories with preserved scientific metadata. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dhwan0112/obsidian-atomview"
+  },
+  {
+    "id": "stickyflow",
+    "name": "Stickyflow",
+    "author": "StickyFlow Labs",
+    "description": "Render SFL diagram code blocks as interactive diagrams you can pan, zoom and edit in place. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stickyflow/obsidian-sfl"
   },
   {
     "id": "weinc-publish",
@@ -66575,5 +66582,47 @@
     "author": "Fernlow Works",
     "description": "Export notes to Word (.docx) with real Word styles on desktop and mobile, without Pandoc. Optional paid Pro adds your own Word template and page numbers. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fernlow-works/docx-styler"
+  },
+  {
+    "id": "spotlight-slides",
+    "name": "Spotlight Slides",
+    "author": "spanishguy",
+    "description": "Present any note as slides inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "the-spanish-guy/obsidian-spotlight-slides"
+  },
+  {
+    "id": "magalu-vault-sync",
+    "name": "Magalu Vault Sync",
+    "author": "SergioRicJr",
+    "description": "Sync notes and attachments with Magalu Cloud S3 using on-device encryption and revision history. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sergioricjr/magalu-vault-sync-releases"
+  },
+  {
+    "id": "kdm-planner",
+    "name": "KDM Planner",
+    "author": "Tunahan ALTINTOP",
+    "description": "Plan your week in notes and enter tasks, leave days and completions into the KDM work tracker, with a weekly calendar that mirrors KDM. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tunahanaltintop/kdm-planner"
+  },
+  {
+    "id": "cross-vault-sync",
+    "name": "Cross-Vault Sync",
+    "author": "Einar Aleksejev",
+    "description": "Keep notes synchronized across multiple vaults using the sync_targets frontmatter property. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ealeksejev/cross-vault-sync"
+  },
+  {
+    "id": "marginalius",
+    "name": "Marginalius",
+    "author": "wlo2",
+    "description": "Show adaptive marginalia. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wlo2/Marginalius"
+  },
+  {
+    "id": "medical-image-finder",
+    "name": "Medical Image Finder",
+    "author": "Atharva Savnerkar ",
+    "description": "Search medical reference images from note selections, preview in sidebar, copy to clipboard, and insert offline into notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ayush4265/medical-image-finder"
   }
 ]
