@@ -19446,13 +19446,6 @@
     "repo": "mr-flannery/obsidian-shopping-list-plugin"
   },
   {
-    "id": "bases-chart-views",
-    "name": "Bases Chart Views",
-    "author": "Haiqiang Zhang",
-    "description": "Interactive chart views and AI charts for Bases, powered by Apache ECharts. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "haiqiang-zhang/obsidian-bases-charts"
-  },
-  {
     "id": "mdshare",
     "name": "mdshare",
     "author": "urbanmorph",
@@ -20034,11 +20027,25 @@
     "repo": "agostino-code/obsidian-ocr"
   },
   {
+    "id": "qmd",
+    "name": "QMD Search",
+    "author": "xia-ataraxia",
+    "description": "Local QMD search, related notes, and autosync for your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xia-ataraxia/obsidian-qmd"
+  },
+  {
     "id": "open-connections",
     "name": "Open Connections",
     "author": "xia-ataraxia",
     "description": "Chat with your notes & see links to related content with Local or Remote models. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xia-ataraxia/obsidian-open-connections"
+  },
+  {
+    "id": "note-player",
+    "name": "Note Player",
+    "author": "xia-ataraxia",
+    "description": "Play note-backed playlists with YouTube, cached audio, and local files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xia-ataraxia/obsidian-note-player"
   },
   {
     "id": "resume-pdf-exporter",
@@ -21488,13 +21495,6 @@
     "author": "tiemio",
     "description": "Automatically strips privacy-sensitive metadata from images and PDFs added to your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tiemio/Image-Metadata-Stripper"
-  },
-  {
-    "id": "cjk-bold-fix",
-    "name": "CJK Bold Fix",
-    "author": "ebibibi",
-    "description": "Fixes CJK (Chinese/Japanese/Korean) bold and italic rendering in Live Preview mode. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ebibibi/obsidian-cjk-bold-fix"
   },
   {
     "id": "dinox-sync",
@@ -24769,7 +24769,7 @@
     "id": "vim-scrolling",
     "name": "Vim Scrolling",
     "author": "xlongfeng",
-    "description": "Adds vim-style scrolling (j/k, Ctrl+D/U, gg, G) in reading view when vim key bindings are enabled. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Vim-style navigation and search in reading view (preview) when vim key bindings are enabled. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xlongfeng/obsidian-vim-scrolling"
   },
   {
@@ -38199,13 +38199,6 @@
     "repo": "mattbirchler/claude-code-obsidian"
   },
   {
-    "id": "terminal-workbench-pet",
-    "name": "Terminal Workbench Pet",
-    "author": "Real-Fruit-Snacks",
-    "description": "A small floating ghost that drifts around your vault, follows your cursor, and recolors when you boop it. Matches the Terminal Workbench theme palette. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "real-fruit-snacks/terminal-workbench-pet"
-  },
-  {
     "id": "read-in-edge",
     "name": "Read in Edge",
     "author": "Ooheroism",
@@ -38409,13 +38402,6 @@
     "repo": "fjx-dylanz/obsidian-drawer-explorer"
   },
   {
-    "id": "graphite",
-    "name": "Graphite",
-    "author": "Real-Fruit-Snacks",
-    "description": "A calm, Todoist-like task manager for Obsidian — tasks stay as local Markdown files in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "real-fruit-snacks/Graphite"
-  },
-  {
     "id": "social-network-analysis",
     "name": "Social Network Analysis",
     "author": "fiddlestix27",
@@ -38617,20 +38603,6 @@
     "author": "IshibashiCustomize",
     "description": "Automatically manages frontmatter tags from Obsidian folder paths. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ishibashi-c/ishibashi-auto-tagger"
-  },
-  {
-    "id": "nested-vaults",
-    "name": "Nested Vaults",
-    "author": "Real-Fruit-Snacks",
-    "description": "Scope your vault to a specific folder, effectively treating it as a nested sub-vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "real-fruit-snacks/obsidian-nested-vaults"
-  },
-  {
-    "id": "gym-tracker",
-    "name": "Gym Tracker",
-    "author": "Real-Fruit-Snacks",
-    "description": "Track gym workouts, exercise volume, streaks, and history on mobile and desktop. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "real-fruit-snacks/obsidian-gym-tracker"
   },
   {
     "id": "contextos",
@@ -39947,13 +39919,6 @@
     "author": "Samer Jaber",
     "description": "View your vault as a living galaxy: your most-linked notes become suns, hubs orbit them, and every note orbits what it links to — with grabbable, link-coupled spring physics. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sjhealthadvising-prog/vault-galaxy"
-  },
-  {
-    "id": "terminal-workbench-cursor",
-    "name": "Terminal Workbench Cursor",
-    "author": "Real-Fruit-Snacks",
-    "description": "A cursor engine for the Terminal Workbench family: gliding carets, torch spotlight, and a Ghost Trail that peels the Terminal Workbench Pet ghost off your text as you type. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "real-fruit-snacks/terminal-workbench-cursor"
   },
   {
     "id": "standing-questions",
@@ -47929,13 +47894,6 @@
     "repo": "hellokunzai/obsidian-book-note"
   },
   {
-    "id": "pixnote",
-    "name": "PixNote",
-    "author": "Sofia Milton",
-    "description": "Import images and PDFs with metadata, tags, and EXIF data - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sofiabytes/obsidian-image-context"
-  },
-  {
     "id": "writing-asset",
     "name": "Writing Asset",
     "author": "creative781",
@@ -52577,13 +52535,6 @@
     "repo": "jarbochov/release-timeline-base-view"
   },
   {
-    "id": "thoughtbin",
-    "name": "Thoughtbin",
-    "author": "Real-Fruit-Snacks",
-    "description": "A private timeline for quick thoughts. Type, save, move on — every thought is a plain note in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "real-fruit-snacks/obsidian-Thoughtbin"
-  },
-  {
     "id": "vault-arcade",
     "name": "Vault Arcade",
     "author": "HIBIKI",
@@ -53128,13 +53079,6 @@
     "author": "Zach Hall",
     "description": "Imports a ForgeSteel .ds-hero export or a filled MCDM character-sheet PDF into a Draw Steel Elements formatted Note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zachhall/drawsteel-hero-importer"
-  },
-  {
-    "id": "theme-lab",
-    "name": "Theme Lab",
-    "author": "Real-Fruit-Snacks",
-    "description": "Build themes from inside the app: inspect which CSS rule wins, capture a screenshot matrix into contact sheets, and write a lint, contrast and variables report. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "real-fruit-snacks/obsidian-theme-lab"
   },
   {
     "id": "snapshot-relay",
@@ -54318,13 +54262,6 @@
     "author": "Glyn Darkin",
     "description": "Send notes to Noctua to be converted into audio episodes in your personal podcast feed. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "darkin100/noctua-plugins-obsidian"
-  },
-  {
-    "id": "speedlog",
-    "name": "Speedlog",
-    "author": "Real-Fruit-Snacks",
-    "description": "Run an internet speed test and log every result as a note: download, upload, latency and jitter as front matter, with a self-updating summary. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "real-fruit-snacks/obsidian-speedlog"
   },
   {
     "id": "novelr",
@@ -66090,7 +66027,7 @@
     "id": "salah-hijri-times",
     "name": "Salah and Hijri Times",
     "author": "AfzGit",
-    "description": "Get Salah and Iqama Timings in Obsidian with notifications, and track Islamic Hijri dates. For Muslim. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Get Salah and Iqama Timings with notifications and track Islamic Hijri dates. A must-have for practicing Muslims. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "afzgit/obsidian-salah-and-hijri-times"
   },
   {
@@ -66146,7 +66083,7 @@
     "id": "examiner",
     "name": "Examiner",
     "author": "Luminxyia",
-    "description": "Create reusable maths practice questions with random values and multi-step formulas, then practice them in isolation, or in exam conditions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "An exam generator plugin for obsidian - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "luminxyia/examiner"
   },
   {
@@ -66351,5 +66288,19 @@
     "author": "mason-bryant",
     "description": "Manage tasks across your notes with configurable kanban boards, due-date rows, colored labels, and mobile task capture. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mason-bryant/obsidian-task-trellis"
+  },
+  {
+    "id": "dayglance-bridge",
+    "name": "dayGLANCE Bridge",
+    "author": "Jason Krellner",
+    "description": "Show your dayGLANCE agenda in the sidebar and keep tasks in daily notes, chosen folders and project notes in step with the planner. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "glance-apps/dayglance-bridge"
+  },
+  {
+    "id": "syncy",
+    "name": "Syncy",
+    "author": "Moritz Wielers",
+    "description": "Self-hosted sync for your vault with the Syncy server. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zazikii/Syncy-Obsidian-Plugin"
   }
 ]
