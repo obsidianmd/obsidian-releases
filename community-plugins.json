@@ -19446,6 +19446,13 @@
     "repo": "mr-flannery/obsidian-shopping-list-plugin"
   },
   {
+    "id": "bases-chart-views",
+    "name": "Bases Chart Views",
+    "author": "Haiqiang Zhang",
+    "description": "Interactive chart views and AI charts for Bases, powered by Apache ECharts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haiqiang-zhang/obsidian-bases-charts"
+  },
+  {
     "id": "mdshare",
     "name": "mdshare",
     "author": "urbanmorph",
@@ -23154,13 +23161,6 @@
     "author": "arcticleo",
     "description": "Fetch what happened today in history from Wikipedia. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "arcticleo/wiki-otd"
-  },
-  {
-    "id": "toggle-premium",
-    "name": "Toggle",
-    "author": "jawoojo",
-    "description": "A premium, Notion-style toggle plugin with enhanced styling and deep nesting support. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jawoojo/obsidian-toggle"
   },
   {
     "id": "image-manager",
@@ -66202,7 +66202,7 @@
     "id": "purewrite-export",
     "name": "PureWrite Export",
     "author": "Yechiel Ben David",
-    "description": "Export a note or a whole folder as a book-ready Word, PDF or EPUB file, with real footnotes, tables, images and chapter breaks, in Hebrew and English alike. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Export notes or folders as books: Word (DOCX), PDF and EPUB ebooks with footnotes and chapters. Right-to-left (RTL) Hebrew, Arabic and Persian beside English. No Pandoc, offline, on mobile too. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yybd/purewrite-export"
   },
   {
@@ -66290,6 +66290,13 @@
     "repo": "mason-bryant/obsidian-task-trellis"
   },
   {
+    "id": "cardsmith",
+    "name": "Cardsmith",
+    "author": "Mira Forge",
+    "description": "Generate spaced-repetition flashcards from your notes with your own AI key or a local Ollama model, review them before they are saved, and export them to Anki. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mira-forge/cardsmith"
+  },
+  {
     "id": "dayglance-bridge",
     "name": "dayGLANCE Bridge",
     "author": "Jason Krellner",
@@ -66302,5 +66309,19 @@
     "author": "Moritz Wielers",
     "description": "Self-hosted sync for your vault with the Syncy server. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zazikii/Syncy-Obsidian-Plugin"
+  },
+  {
+    "id": "pretty-punctuation",
+    "name": "Pretty Punctuation",
+    "author": "Philip Linden",
+    "description": "Displays curly quotes, dashes, ellipses, and arrows without changing the file. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "philiplinden/obsidian-pretty-punctuation"
+  },
+  {
+    "id": "pin-daily-note",
+    "name": "Pin daily note",
+    "author": "Philip Linden",
+    "description": "Keeps one pinned tab on today's daily note and moves it to the new note when the day changes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "philiplinden/obsidian-pin-daily-note"
   }
 ]
