@@ -18970,13 +18970,6 @@
     "repo": "fengshuzi/lite-memo"
   },
   {
-    "id": "rainbow-highlight",
-    "name": "Rainbow Highlight",
-    "author": "norman-lawyer",
-    "description": "Beautiful multi-color text highlighting with a quick color palette popup. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "norman-lawyer/obsidian-rainbow-highlight"
-  },
-  {
     "id": "theme-quick-switch",
     "name": "Theme Quick Switch",
     "author": "lyxtsinghua",
@@ -37301,6 +37294,13 @@
     "author": "MaverickHQ",
     "description": "Focused speed reading for Obsidian notes with in-note highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "maverickhq/obsidian-vault-reader"
+  },
+  {
+    "id": "auto-headings",
+    "name": "Auto Headings",
+    "author": "AArlert",
+    "description": "Automatic heading numbering with fully customizable templates, per-folder rules, whitelist and backlink sync. Bilingual UI (English / 中文). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aarlert/obsidian-auto-headings"
   },
   {
     "id": "bullet-time",
@@ -61005,13 +61005,6 @@
     "repo": "serena-sheng/obsidian-html-preview"
   },
   {
-    "id": "super-useful-claudian",
-    "name": "Super Useful Claudian",
-    "author": "chengmiaofan",
-    "description": "Run Oh My Pi, DeepSeek Harness, Claude Code, Codex, Grok, OpenCode and Pi inside your vault as chat collaborators. A fork of Claudian with provider readiness checks, a capability matrix and a token usage meter. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "serena-sheng/super-useful-claudian"
-  },
-  {
     "id": "curtis-ai-audit",
     "name": "Curtis AI Audit",
     "author": "Jordan Newell",
@@ -61843,6 +61836,13 @@
     "author": "feifei",
     "description": "MuYun theme companion: reading progress bar, spotlight, edge minimap, resume reading, breadcrumb & more. MuYun 慕云主题配套增强：阅读进度条、阅读聚光灯、侧缘小地图、续读记忆、标题面包屑等。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "garrettfynn/muyun-companion"
+  },
+  {
+    "id": "ideaverse-maps",
+    "name": "Maps of the Ideaverse",
+    "author": "Linking Your Thinking",
+    "description": "Visualize your notes across a suite of insanely cool interactive maps—Emergence, Ideaverse, Starfield, and many more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nickmilo/ideaverse-maps"
   },
   {
     "id": "link-target-switch",
@@ -66269,6 +66269,13 @@
     "repo": "ashotis/Plain-Prose-plgn"
   },
   {
+    "id": "brain-map",
+    "name": "Brain Map",
+    "author": "Jaroslav Krčál",
+    "description": "Mind map of your vault, drawn like a neural network: folders as branches, notes as leaves, links between them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "krcaljaroslav/brain-map"
+  },
+  {
     "id": "next-day-planner",
     "name": "Next Day Planner",
     "author": "Martin Gallauner",
@@ -66587,7 +66594,7 @@
     "id": "spotlight-slides",
     "name": "Spotlight Slides",
     "author": "spanishguy",
-    "description": "Present any note as slides inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Present any note as slides. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "the-spanish-guy/obsidian-spotlight-slides"
   },
   {
@@ -66605,6 +66612,13 @@
     "repo": "tunahanaltintop/kdm-planner"
   },
   {
+    "id": "compare",
+    "name": "Compare",
+    "author": "Agata Dalach",
+    "description": "Compare two notes or LaTeX files side by side: changed lines and words are highlighted in the editor, matching text sits level, and each change can be copied to the other note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "adalach/obsidian-compare"
+  },
+  {
     "id": "cross-vault-sync",
     "name": "Cross-Vault Sync",
     "author": "Einar Aleksejev",
@@ -66619,10 +66633,24 @@
     "repo": "wlo2/Marginalius"
   },
   {
+    "id": "scn-sync",
+    "name": "SCN Sync",
+    "author": "Z-Space",
+    "description": "Keep a vault of Markdown notes in step with your notes on the Shared Computer Network. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "z-space-society/scn-obsidian"
+  },
+  {
     "id": "medical-image-finder",
     "name": "Medical Image Finder",
     "author": "Atharva Savnerkar ",
     "description": "Search medical reference images from note selections, preview in sidebar, copy to clipboard, and insert offline into notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ayush4265/medical-image-finder"
+  },
+  {
+    "id": "attachment-lens",
+    "name": "Attachment Lens",
+    "author": "Mohan Das Adhikari",
+    "description": "See where attachments are used, find broken attachment links, and repair them one at a time after reviewing the exact change. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jokeroct/attachment-lens"
   }
 ]
