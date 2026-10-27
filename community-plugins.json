@@ -17276,6 +17276,13 @@
     "repo": "themanuelml/obsidian-agent"
   },
   {
+    "id": "canvas-llm",
+    "name": "Canvas LLM",
+    "author": "farlenkov",
+    "description": "A canvas-like UI to talk with LLMs.",
+    "repo": "farlenkov/obsidian-canvas-llm"
+  },
+  {
     "id": "emoji-selector",
     "name": "Emoji selector",
     "author": "infinitesum",
@@ -22389,7 +22396,7 @@
     "id": "aiwxedit",
     "name": "AIWXEdit",
     "author": "ishexx",
-    "description": "Publish notes to WeChat Official Account with perfect formatting, code highlighting, math formulas, and local image upload support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Format Markdown notes for WeChat Official Account drafts with code highlighting, themes, image uploads, and publishing metadata. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ishexx/AIWXEdit"
   },
   {
@@ -30658,13 +30665,6 @@
     "author": "pathfind1103",
     "description": "Explore music and build a connected knowledge base with structured notes, logical graph links, and rich previews. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pathfind1103/groove-kb"
-  },
-  {
-    "id": "bible-reference-preview",
-    "name": "Bible Reference Preview",
-    "author": "YuBak",
-    "description": "Recognize Bible references in Obsidian notes and show verse previews from imported EPUB Bible translations. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yuriy-bak/obsidian-bible-reference-preview"
   },
   {
     "id": "todoapp",
@@ -64971,7 +64971,7 @@
     "name": "Send to E-ink Reader",
     "author": "ifrecycable",
     "description": "Send Markdown and device-optimized images to a WebDAV inbox for e-ink readers. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yiifanrecyclable/Sent-to-E-ink-Reader"
+    "repo": "yiifanrecyclable/Send-to-E-ink-Reader"
   },
   {
     "id": "okf-wiki",
@@ -66129,6 +66129,13 @@
     "repo": "shettypuneeth/kanso-todos-obsidian"
   },
   {
+    "id": "wechat-reader",
+    "name": "WeChat Reader",
+    "author": "cynthia-ding",
+    "description": "订阅 RSS、Atom 和微信公众号，阅读、收藏并归档为 Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cynthia2023xy/obsidian-wechat-reader"
+  },
+  {
     "id": "mcq-tracker",
     "name": "MCQ Tracker",
     "author": "Isaac Friedenson",
@@ -66633,6 +66640,13 @@
     "repo": "jorammillenaar/obsidian-titler"
   },
   {
+    "id": "todo-tracker",
+    "name": "Todo Tracker",
+    "author": "yoouyeon",
+    "description": "Track monthly Markdown todo notes: overdue, today and upcoming at a glance. Korean UI and note format only. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yoouyeon/todo-tracker"
+  },
+  {
     "id": "explorer-uxfix",
     "name": "Explorer UX Fix",
     "author": "Hyunyoung Park",
@@ -66645,5 +66659,19 @@
     "author": "MDZip",
     "description": "Open and edit .mdz (MDZip) archives: Markdown documents and their images in one file, with folders, links and search. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mdzip-project/mdzip-obsidian"
+  },
+  {
+    "id": "language-leaf",
+    "name": "Language Leaf",
+    "author": "cynthia-ding",
+    "description": "在原生 Markdown 中阅读、查询和收录词句，保存为 Spaced Repetition 闪卡。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cynthia2023xy/obsidian-language-leaf"
+  },
+  {
+    "id": "papertrail-forms",
+    "name": "Papertrail Forms",
+    "author": "Ashly Lorenzana",
+    "description": "Create customizable forms and manage fictional correspondence as submissions and shared threads. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "monapdx/Papertrail-Forms"
   }
 ]
