@@ -18228,6 +18228,13 @@
     "repo": "threeyang3/bangumi-sync"
   },
   {
+    "id": "zone-scroll-zoom",
+    "name": "Zone Scroll Zoom",
+    "author": "kqint",
+    "description": "Zoom where your mouse is — font in editor, interface elsewhere. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kqint/obsidian-zone-scroll-zoom"
+  },
+  {
     "id": "rodin-export",
     "name": "Export to Rodin",
     "author": "peacewalkert",
@@ -53270,13 +53277,6 @@
     "repo": "willacosta/obsidian-seam"
   },
   {
-    "id": "vault-agent",
-    "name": "AI Vault Agent CN",
-    "author": "rosswang",
-    "description": "AI vault agent powered by China-accessible LLM APIs — DeepSeek, GLM, Kimi, Qwen or any OpenAI-compatible endpoint. Agentic read/search/create/edit of notes. No CLI, no proxy, 中文优先. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yanqingwang/opensource-AI-vault-agent"
-  },
-  {
     "id": "elias-hivemind",
     "name": "Elias HiveMind",
     "author": "elias north",
@@ -53672,7 +53672,7 @@
     "id": "rich-view",
     "name": "Rich View",
     "author": "sdking",
-    "description": "Render draw.io and Visio diagrams inline in your notes — zoom, pan, multi-page tabs, shape links, a magnifier, and third-party shape libraries. More file formats planned. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Render draw.io, Visio diagrams, Powerpoint inline in your notes — zoom, pan, multi-page tabs, shape links, a magnifier, and third-party shape libraries. More file formats planned. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sdkay/obsidian-rich-view"
   },
   {
@@ -66122,13 +66122,6 @@
     "repo": "cynthia2023xy/obsidian-wechat-reader"
   },
   {
-    "id": "mcq-tracker",
-    "name": "MCQ Tracker",
-    "author": "Isaac Friedenson",
-    "description": "Serve practice questions from your notes, grade answers, and track time, confidence and spaced review in note properties. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ifriedenson/mcq-tracker"
-  },
-  {
     "id": "rho-network",
     "name": "Rho Network",
     "author": "clowsuzu",
@@ -66678,7 +66671,7 @@
     "id": "fast-find",
     "name": "Fast Find 10K",
     "author": "Simon Späti",
-    "description": "Fast fuzzy search built for large vaults. Titles first, then headings, then content. Finds duplicates, creates missing notes, uses Smart Connections if present. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Fast fuzzy search for large vaults: titles first, then headings, then content. Live preview, typo tolerance, finds duplicates, instant on 10k+ notes, uses Smart Connections if present. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ssp-data/obsidian-fast-find-10k"
   },
   {
@@ -66694,5 +66687,12 @@
     "author": "CJ Zhou",
     "description": "Remember and restore each canvas's last position and zoom. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "starsyork/canvas-view-memory"
+  },
+  {
+    "id": "folder-styles",
+    "name": "Folder Sty1es",
+    "author": "Haissam Makki",
+    "description": "Icons for every folder and file in the file explorer, plus colors and text styles you pick from the right-click menu. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ha1ssam/obsidian-folder-sty1es"
   }
 ]
