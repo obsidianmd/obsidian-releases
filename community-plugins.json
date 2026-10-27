@@ -20839,6 +20839,13 @@
     "repo": "enhen3/Tidelog"
   },
   {
+    "id": "on-demand-plugins",
+    "name": "On-Demand",
+    "author": "22-2",
+    "description": "Lazy load plugins by caching their commands. Plugins are enabled on-demand when you trigger their commands (or open specific views), keeping startup fast. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "22-2/obsidian-on-demand-plugins"
+  },
+  {
     "id": "hiker-scrolls",
     "name": "HikerScrolls",
     "author": "rickliang-jy",
@@ -31729,6 +31736,13 @@
     "author": "Jovi Koikkara",
     "description": "Automatic equation numbering, Tex Diagrams rendering, and more for Obsidian.md. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "youfoundjk/TeXcore"
+  },
+  {
+    "id": "notepic-oss",
+    "name": "NotePic OSS",
+    "author": "Luhui Dev",
+    "description": "Upload images referenced in the current note to Aliyun OSS, compress them first, and rewrite the links in place. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "luhui-dev/NotePic-OSS-Obsidian"
   },
   {
     "id": "mac-now-playing",
@@ -53277,6 +53291,13 @@
     "repo": "willacosta/obsidian-seam"
   },
   {
+    "id": "vault-agent",
+    "name": "AI Vault Agent CN",
+    "author": "rosswang",
+    "description": "AI vault agent powered by China-accessible LLM APIs — DeepSeek, GLM, Kimi, Qwen or any OpenAI-compatible endpoint. Agentic read/search/create/edit of notes. No CLI, no proxy, 中文优先. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yanqingwang/opensource-AI-vault-agent"
+  },
+  {
     "id": "elias-hivemind",
     "name": "Elias HiveMind",
     "author": "elias north",
@@ -54290,6 +54311,13 @@
     "author": "Aether Markey",
     "description": "Unify body line height, source line break spacing, and heading sizes and spacing across reading view, Live Preview, and source mode. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tychoon/unified-typography"
+  },
+  {
+    "id": "ima-speed-sync",
+    "name": "IMA Share Sync",
+    "author": "Pitt",
+    "description": "Save articles and files shared through IMA on Windows. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "oooing/ima-share-sync"
   },
   {
     "id": "nectenda",
@@ -66122,6 +66150,13 @@
     "repo": "cynthia2023xy/obsidian-wechat-reader"
   },
   {
+    "id": "mcq-tracker",
+    "name": "MCQ Tracker",
+    "author": "Isaac Friedenson",
+    "description": "Serve practice questions from your notes, grade answers, and track time, confidence and spaced review in note properties. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ifriedenson/mcq-tracker"
+  },
+  {
     "id": "rho-network",
     "name": "Rho Network",
     "author": "clowsuzu",
@@ -66668,6 +66703,13 @@
     "repo": "monapdx/Papertrail-Forms"
   },
   {
+    "id": "wikiship",
+    "name": "wikiship",
+    "author": "creasac",
+    "description": "Review AI edits from local agents in Obsidian with an authenticated local MCP server and reversible change journal. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "creasac/wikiship"
+  },
+  {
     "id": "fast-find",
     "name": "Fast Find 10K",
     "author": "Simon Späti",
@@ -66694,5 +66736,33 @@
     "author": "Haissam Makki",
     "description": "Icons for every folder and file in the file explorer, plus colors and text styles you pick from the right-click menu. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ha1ssam/obsidian-folder-sty1es"
+  },
+  {
+    "id": "quiet-kanban",
+    "name": "Quiet Kanban",
+    "author": "jjeejj",
+    "description": "A compact Kanban view for Bases, with colored cards and collapsible previews. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jjeejj/obsidian-quiet-kanban"
+  },
+  {
+    "id": "blockquote-counter",
+    "name": "Blockquote Counter",
+    "author": "name555difficult",
+    "description": "Count characters and words in individual blockquotes and callouts, track configurable limits, and copy the exact counted Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "name555difficult/obsidian-blockquote-counter"
+  },
+  {
+    "id": "meeting-live",
+    "name": "Meeting Live",
+    "author": "YzW0408",
+    "description": "Embed a live meeting workspace in your notes: local recording, real-time Volcengine speech recognition, AI stage summaries, and meeting notes from recordings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "n0ctx/obsidian-meeting-live"
+  },
+  {
+    "id": "inventexplorer",
+    "name": "InventExplorer",
+    "author": "solidinvent",
+    "description": "Add custom icons and colors next to file and folder names in the file explorer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "solidinvent-dev/inventexplorer"
   }
 ]
