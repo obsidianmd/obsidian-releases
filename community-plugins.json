@@ -13687,9 +13687,9 @@
   {
     "id": "better-plugins-manager",
     "name": "Better Manager",
-    "author": "eondrcode",
+    "author": "obsidian-forged",
     "description": "Make plugin management more intuitive and efficient.",
-    "repo": "eondrcode/obsidian-manager"
+    "repo": "obsidian-forged/better-manager"
   },
   {
     "id": "jira-issue-managing",
@@ -34041,13 +34041,6 @@
     "repo": "meganjjzhang/Promptuary"
   },
   {
-    "id": "drawio-view",
-    "name": "Draw.io View",
-    "author": "sdking",
-    "description": "Render draw.io diagrams inline in your notes with zoom, pan, and multi-page support. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sdkay/obsidian-drawio-view"
-  },
-  {
     "id": "slide-and-reveal",
     "name": "Slide and Reveal",
     "author": "Grub Basket",
@@ -34367,7 +34360,7 @@
     "name": "StoneGate",
     "author": "𝐀𝐛𝐝𝐨𝐮 | 𝐭𝟒𝟎𝐢𝐱",
     "description": "Lock screen protection for your vault - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "t40ix/StoneGate-plugin"
+    "repo": "vexoiz/StoneGate-plugin"
   },
   {
     "id": "synapse-ai",
@@ -35313,13 +35306,6 @@
     "author": "jkraccoon",
     "description": "Explore your vault as a fast 3D force-directed graph. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jkraccoon/obsidian-fast-graph"
-  },
-  {
-    "id": "lemma-flashcards",
-    "name": "Lemma",
-    "author": "Sabin Pokharel",
-    "description": "An Obsidian plugin for creating and reviewing flashcards powered by the FSRS spaced repetition algorithm. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "fundaments-work/Lemma"
   },
   {
     "id": "glossa",
@@ -63927,7 +63913,7 @@
     "id": "super-table",
     "name": "Super Table",
     "author": "King",
-    "description": "Create database-like tables directly in Markdown notes, with typed fields, filtering, sorting, grouping, and multiple named views over shared records. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create Notion-style database tables directly in Markdown notes, with typed fields, filtering, sorting, grouping, and multiple named views. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kingbeyond/obsidian-super-table"
   },
   {
@@ -64048,6 +64034,13 @@
     "author": "Bartolomeo Zisa",
     "description": "Auto-summarize PDF slide decks into study-ready Markdown class notes with LaTeX equations and LLM-picked figure crops. Providers: Gemini, OpenAI, Anthropic, Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bartolomeozisa/obsidian-slide-autosummarize"
+  },
+  {
+    "id": "gloss-reader",
+    "name": "Banana Reader",
+    "author": "banana",
+    "description": "Read and annotate Markdown, PDF and EPUB, ask about selected passages, and export notes with source links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "treydong/banana-reader"
   },
   {
     "id": "recall-lab",
@@ -64181,6 +64174,13 @@
     "author": "dalvt",
     "description": "Comprehensive academic study assistant: customizable Pomodoro timer, task and habit tracker, time blocking calendar, metrics, and distraction-free Zen mode. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dalvt/StudyFlow"
+  },
+  {
+    "id": "dualtran-translate",
+    "name": "DualTran",
+    "author": "Seigwen Lee",
+    "description": "Translate selections and whole notes with Google or your own AI model (20+ BYOK providers). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "seigwen/dualtran-obsidian"
   },
   {
     "id": "enclave",
@@ -66437,13 +66437,6 @@
     "repo": "jeff1995/embed-google-docs"
   },
   {
-    "id": "local-issues",
-    "name": "Local Issues",
-    "author": "Xinxin",
-    "description": "Manage local Markdown projects, issues, boards, comments and attachments, with an optional API and agent CLI. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "xinxinrana/obsidian-local-issues"
-  },
-  {
     "id": "vault-gallery",
     "name": "Media Hub",
     "author": "Sahand",
@@ -66738,13 +66731,6 @@
     "repo": "mdzip-project/mdzip-obsidian"
   },
   {
-    "id": "language-leaf",
-    "name": "Language Leaf",
-    "author": "cynthia-ding",
-    "description": "在原生 Markdown 中阅读、查询和收录词句，保存为 Spaced Repetition 闪卡。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cynthia2023xy/obsidian-language-leaf"
-  },
-  {
     "id": "articledrop",
     "name": "Articledrop",
     "author": "Paul Hong",
@@ -66787,10 +66773,17 @@
     "repo": "starsyork/canvas-view-memory"
   },
   {
+    "id": "batch-export",
+    "name": "Batch Export",
+    "author": "dingzy53",
+    "description": "Export a folder of notes to a single PDF with an outline, contents page, cross-references and unfolded callouts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dingzy53/obsidian-batch-export"
+  },
+  {
     "id": "code-palette",
     "name": "Code Palette",
     "author": "Skrch",
-    "description": "Theme inline code and code blocks with file or folder language rules, optional language overrides, and a vault-wide palette without language guessing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Theme inline code and code blocks with scoped language rules, Markdown body previews, and a vault-wide fallback palette. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tillerion/obsidian-code-palette"
   },
   {
@@ -66988,5 +66981,68 @@
     "author": "Kim Kanghyeon",
     "description": "Mirror and back up your entire vault untouched (1:1 binary preservation) to Google Drive once a day, and restore or sync on demand across macOS, Windows, and Android. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kkh041014/drive-vault-keeper"
+  },
+  {
+    "id": "market-zh",
+    "name": "Market Translator",
+    "author": "chengmiaofan",
+    "description": "Translate the community plugin browser on demand: cards, detail descriptions and READMEs become Chinese, with the English original kept on hover. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "serena-sheng/market-zh"
+  },
+  {
+    "id": "post-to-emdash",
+    "name": "Post To EmDash",
+    "author": "rietamura",
+    "description": "Send notes to an EmDash site as blog posts, with images, tags and categories. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rietamura/Post-To-EmDash"
+  },
+  {
+    "id": "dice-tray",
+    "name": "Dice Tray",
+    "author": "Walker Brown",
+    "description": "Roll dice, random tables, lists and note sections inline, reading the same dice: syntax as Dice Roller so existing notes keep working. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "walkertbrown/dice-tray"
+  },
+  {
+    "id": "rich-search",
+    "name": "Rich Search",
+    "author": "sdking",
+    "description": "Cross-file search: whole-word and regex matching, folder and file-type scope, and results from notes, PDF, Excalidraw, Excel, PowerPoint, draw.io and Visio files, with every match marked where it opens. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sdkay/obsidian-rich-search"
+  },
+  {
+    "id": "quick-initiative",
+    "name": "Quick Initiative",
+    "author": "Walker Brown",
+    "description": "A light initiative tracker that keeps the whole fight as plain text in your note. Reads HP, AC and Dex from Fantasy Statblocks creature notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "walkertbrown/quick-initiative"
+  },
+  {
+    "id": "session-log",
+    "name": "Session Log",
+    "author": "Walker Brown",
+    "description": "A quick log for tabletop sessions. Type what happened and it lands in your session note with the time, tags and links. Logs Quick Initiative fights by itself. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "walkertbrown/session-log"
+  },
+  {
+    "id": "encounter-builder",
+    "name": "Encounter Builder",
+    "author": "Walker Brown",
+    "description": "Build tabletop fights in a note. List the party and the monsters, see the XP budget and how hard it is, then start the fight in Quick Initiative. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "walkertbrown/encounter-builder"
+  },
+  {
+    "id": "flashcards-md",
+    "name": "Flashcards MD",
+    "author": "sreegjl",
+    "description": "Write flashcards in your notes, including multiple-choice and typed-answer cards, and study them in a flip-card view or right in the note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sreegjl/flashcards-md"
+  },
+  {
+    "id": "vault-sync-for-google-drive",
+    "name": "Vault Sync for Google Drive",
+    "author": "Hyunho Kim",
+    "description": "Two-way sync between your vault and Google Drive using your own Google credentials. Works on desktop and iOS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hyunho058/obsidian-google-drive-sync"
   }
 ]
