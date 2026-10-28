@@ -26579,6 +26579,13 @@
     "repo": "neves007/line-ref-copier"
   },
   {
+    "id": "karpathywiki",
+    "name": "Karpathy LLM Wiki",
+    "author": "Greener-Dalii",
+    "description": "Karpathy's LLM Wiki implementation plugin for Obsidian - turns notes and PDFs into a linked, LLM-powered knowledge base with entity pages, concept pages, graph-powered Q&A, and local-first privacy. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gd4ai/obsidian-llm-wiki"
+  },
+  {
     "id": "sync-trakt",
     "name": "Sync Trakt",
     "author": "o1xhack",
@@ -28061,6 +28068,13 @@
     "author": "karx",
     "description": "Digital garden pipeline: inbox scoring, LLM-powered frontmatter enrichment, and WikiLink suggestions — no terminal needed. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "karx/kaaroGarden"
+  },
+  {
+    "id": "screenshot-selection",
+    "name": "Screenshot Selection",
+    "author": "HWY1dot0",
+    "description": "Capture the currently selected content as a PNG and copy it to the clipboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hwy1dot0/obsidian-screenshot-selection"
   },
   {
     "id": "created-daily-note-sync",
@@ -59101,13 +59115,6 @@
     "repo": "vaditim/obsidian-monorepo-sync"
   },
   {
-    "id": "canvas-mindmap-widget",
-    "name": "Canvas Mindmap Widget",
-    "author": "yidachen-14",
-    "description": "Edit lightweight mind maps directly inside Canvas. All mind-map data stays in the .canvas file. Requires Advanced Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yidachen-14/obsidian-canvas-mindmap-widget"
-  },
-  {
     "id": "tab-history",
     "name": "Tab History",
     "author": "siulved54",
@@ -63638,7 +63645,7 @@
   },
   {
     "id": "markdown-treetable",
-    "name": "Rich TreeTable",
+    "name": "TreeTable",
     "author": "Yinno",
     "description": "Foldable Markdown tables with rich cell editing, groups, and nested records. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jwczju/markdown-treetable"
@@ -66381,6 +66388,13 @@
     "repo": "yanqingwang/personal-config-sync"
   },
   {
+    "id": "drive-view",
+    "name": "Drive View",
+    "author": "alex-sherman",
+    "description": "Use a Google Drive folder as your vault, with a local cache for fast access on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alex-sherman/obsidian-drive-view"
+  },
+  {
     "id": "thread-studio",
     "name": "Thread Studio",
     "author": "马自立",
@@ -66773,11 +66787,25 @@
     "repo": "starsyork/canvas-view-memory"
   },
   {
+    "id": "code-palette",
+    "name": "Code Palette",
+    "author": "Skrch",
+    "description": "Theme inline code and code blocks with file or folder language rules, optional language overrides, and a vault-wide palette without language guessing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tillerion/obsidian-code-palette"
+  },
+  {
     "id": "folder-styles",
     "name": "Folder Sty1es",
     "author": "Haissam Makki",
     "description": "Icons for every folder and file in the file explorer, plus colors and text styles you pick from the right-click menu. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ha1ssam/obsidian-folder-sty1es"
+  },
+  {
+    "id": "chx-mindmap",
+    "name": "Chx MindMap",
+    "author": "Xuan Chang",
+    "description": "Create local mind maps with rich text, layouts, outlines, import and export, and links to notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chxcode/obsidian-chx-mindmap"
   },
   {
     "id": "quiet-kanban",
@@ -66885,10 +66913,52 @@
     "repo": "rtm/obsidian-keep-sorted"
   },
   {
+    "id": "paraflow",
+    "name": "ParaFlow",
+    "author": "flovst",
+    "description": "Provides structured Live Preview list editing with bundled Typora-style reading and editing visuals. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "flovst/obsidian-paraflow"
+  },
+  {
     "id": "threatback",
     "name": "Threatback",
     "author": "Dario Simpson",
     "description": "Follow your navigation trail and discover likely paths through your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dariusbarbus/threatback"
+  },
+  {
+    "id": "univocal-read-aloud",
+    "name": "Univocal Read Aloud",
+    "author": "Yun Han",
+    "description": "Read notes aloud with Univocal and highlight each word as it's spoken. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ychani/obsidian-univocal"
+  },
+  {
+    "id": "hmb-vault-scm-git",
+    "name": "HMB Vault SCM Git",
+    "author": "Herber Madrigal",
+    "description": "Version your vault with git: commit, push, pull, review changes and browse history. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hmadrigal/hmb-vault-scm-git"
+  },
+  {
+    "id": "mermaid-pilot",
+    "name": "Mermaid Pilot",
+    "author": "A.J",
+    "description": "Zoom, pan, and view Mermaid diagrams in full screen. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andrwj/obsidian-plugin-mermaid-pilot"
+  },
+  {
+    "id": "godspeed-quick-add",
+    "name": "Godspeed Quick Add",
+    "author": "Nick Wolf",
+    "description": "Send the current note, or the section you are in, to Godspeed as a task that links back to it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "quintrino/obsidian-godspeed-quick-add"
+  },
+  {
+    "id": "weekcraft",
+    "name": "WeekCraft",
+    "author": "heheeeeeeer",
+    "description": "Plan weekly tasks by time and category, with schedule forms and automatic completion timestamps. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "heheeeeeeer/obsidian-weekcraft"
   }
 ]
