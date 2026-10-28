@@ -23737,13 +23737,6 @@
     "repo": "justrelaxdc/tracker-habits-metrics"
   },
   {
-    "id": "rumdl",
-    "name": "rumdl",
-    "author": "rvben",
-    "description": "Lint markdown files with rumdl - a fast markdown linter. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "rvben/obsidian-rumdl"
-  },
-  {
     "id": "colorful-heading-underlines",
     "name": "Colorful Heading Underlines",
     "author": "greetclammy",
@@ -51971,7 +51964,7 @@
     "id": "pickpen",
     "name": "Pickpen Sync",
     "author": "RecurEngine-dev",
-    "description": "多设备同步 Obsidian 笔记与云同步，支持端到端加密、版本历史与冲突副本。Sync notes across Windows, macOS, iOS, and Android with optional end-to-end encryption (E2EE). - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "多设备同步笔记与云端快照，支持端到端加密、版本历史、智能冲突合并与冲突副本。Sync notes across Windows, macOS, iOS, and Android with optional end-to-end encryption (E2EE), version history, smart conflict merging, and conflict copies. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "recurengine/pickpen"
   },
   {
@@ -56784,6 +56777,13 @@
     "repo": "zachhannum/obsidian-orca"
   },
   {
+    "id": "background-cover",
+    "name": "Background Cover",
+    "author": "lose-memory",
+    "description": "Customize Obsidian background with a local image folder: only the currently used image is loaded into memory, supports folders outside the vault, fixed-interval auto rotation and manual random switch. Does not modify theme variables. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lose-memory/obsidian-background-cover"
+  },
+  {
     "id": "tips",
     "name": "Tips",
     "author": "谈谈子",
@@ -60954,6 +60954,13 @@
     "author": "Tyler Richards",
     "description": "Wrap text around images, like with a word processor. Pick a layout from a toolbar on the selected image, and drag images to move them. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tyler21richards/image-text-wrap"
+  },
+  {
+    "id": "link-mindmap",
+    "name": "Link Mindmap",
+    "author": "licf",
+    "description": "结合卢曼笔记层级思想与 Obsidian 双链功能的链接思维导图插件。Luhmann's Zettelkasten mindmap — node = note, linked via frontmatter. Drag to connect, multi-select, presets, dashboard, export. Mobile-friendly. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "licfcn/link-mindmap"
   },
   {
     "id": "vault-connect-bridge",
@@ -66869,5 +66876,19 @@
     "author": "Tushar",
     "description": "Sync your notes with a private GitHub repository on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "triptu/markdown-github-sync"
+  },
+  {
+    "id": "keep-sorted",
+    "name": "Keep Sorted",
+    "author": "torazaburo",
+    "description": "Automatically keep marked list regions sorted in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rtm/obsidian-keep-sorted"
+  },
+  {
+    "id": "threatback",
+    "name": "Threatback",
+    "author": "Dario Simpson",
+    "description": "Follow your navigation trail and discover likely paths through your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dariusbarbus/threatback"
   }
 ]
