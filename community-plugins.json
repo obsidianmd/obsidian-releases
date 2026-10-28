@@ -29669,7 +29669,7 @@
     "id": "semlink",
     "name": "Semlink",
     "author": "ouzhongyuan",
-    "description": "AI assistant for Obsidian: chat with your notes, drag notes for Q&A, and expose an MCP semantic search service for Claude, Codex and other agents - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "AI assistant for Obsidian: chat with your notes, drag notes to ask questions, and expose an MCP semantic search service. Supports OpenAI, Anthropic, Gemini, OpenRouter, Mistral, DeepSeek, Groq... - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ouou365/Semlink"
   },
   {
@@ -41769,13 +41769,6 @@
     "repo": "jiwooroh/multi-ai-assistant"
   },
   {
-    "id": "extended-base",
-    "name": "Extended Base",
-    "author": "Jiwoo Roh",
-    "description": "An Extended Base view with column wrap, top-aligned cells, and transparent background. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jiwooroh/extended-base"
-  },
-  {
     "id": "folgezettel-navigator",
     "name": "Folgezettel Navigator",
     "author": "Niels-Oliver Walkwoski",
@@ -45251,7 +45244,7 @@
     "id": "open-powershell-here",
     "name": "Native Terminal Here",
     "author": "Ethan Fu",
-    "description": "Open PowerShell 7+ at the vault root or any folder (Windows only). - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Open your computer's native terminal directly from Obsidian without typing cd <folder> every time. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "upand0wn/open-powershell-here"
   },
   {
@@ -66178,13 +66171,6 @@
     "repo": "xia-ataraxia/obsidian-hermes"
   },
   {
-    "id": "team-relay-sync",
-    "name": "Team Relay Sync",
-    "author": "Entire VC",
-    "description": "Real-time collaboration and web publishing: live cursors, shared folders, AI agent access, self-hosted or hosted. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "entire-vc/evc-team-relay-obsidian"
-  },
-  {
     "id": "kanso-todos",
     "name": "Kanso Todos",
     "author": "Puneeth Shetty",
@@ -67107,5 +67093,54 @@
     "author": "Denis S",
     "description": "Sync your vault across devices through your own private GitHub repository, end-to-end encrypted with your password. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "solidens/gitvault-sync"
+  },
+  {
+    "id": "plugin-manager-cn",
+    "name": "Community Manager CN",
+    "author": "adventurer",
+    "description": "Search, install, and update community plugins through download mirrors, and manage Wujie Sync test releases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "adventurer2008/plugin-manager-cn"
+  },
+  {
+    "id": "inkwell",
+    "name": "Inkwell",
+    "author": "westkronos147",
+    "description": "Color, highlight, size and style font families for selected text with inline HTML spans. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "martinbixente89-lab/obsidian-inkwell"
+  },
+  {
+    "id": "dm-screen",
+    "name": "DM Screen",
+    "author": "Walker Brown",
+    "description": "Put the table on your players' phones: turn order, clocks and rolls, live from your notes. They open a link or scan a code, nothing to install. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "walkertbrown/dm-screen"
+  },
+  {
+    "id": "notes-activity-calendar",
+    "name": "Notes Activity Calendar",
+    "author": "norman-lawyer",
+    "description": "Show a calendar of created and modified notes, with lunar dates and daily note shortcuts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "norman-lawyer/notes-activity-calendar"
+  },
+  {
+    "id": "device-tracker",
+    "name": "Device Tracker",
+    "author": "nicholaskj",
+    "description": "Records which device created and last edited each note in its frontmatter. Device names stay local, so sync tools never overwrite them, and synced-in edits don't count as local edits. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nicholaskj/obsidian-device-tracker"
+  },
+  {
+    "id": "music-practice",
+    "name": "Music Practice",
+    "author": "Sébastien Dubois",
+    "description": "Log practice with a timer, plan sessions, track mastery and catch what is slipping with spaced review, for guitar, piano and any instrument. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dsebastien/obsidian-music-practice"
+  },
+  {
+    "id": "thinker",
+    "name": "Thinker",
+    "author": "Depthinker",
+    "description": "A start page: a clock, your notes as an outline, a focus timer, and a month of focus history. Opens on startup and stays out of the way. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "depthinker925/Thinker"
   }
 ]
