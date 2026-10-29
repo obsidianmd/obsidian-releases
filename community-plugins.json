@@ -40901,13 +40901,6 @@
     "repo": "tamiroh/obsidian-interval-timer"
   },
   {
-    "id": "canvas-smart-paste",
-    "name": "Canvas Smart Paste",
-    "author": "zhao414",
-    "description": "Intelligently paste clipboard content into Canvas as nodes — single node, heading tree, list tree, or paragraphs with auto-detection. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zhao414/canvas-smart-paste"
-  },
-  {
     "id": "todo-calendar",
     "name": "Todo Calendar",
     "author": "qingyu",
@@ -47626,6 +47619,13 @@
     "author": "NeverCode",
     "description": "Enhanced project management with ZenTao fields, virtualized views, and composable filters. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fzk177/project-manager-enhanced"
+  },
+  {
+    "id": "imperial-to-metric",
+    "name": "Imperial to Metric Converter",
+    "author": "p0shkar",
+    "description": "Plugin to convert measurements between imperial and metric. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "p0shkar/ImperialToMetric-for-Obsidian"
   },
   {
     "id": "daylio-mood-graph",
@@ -61299,13 +61299,6 @@
     "repo": "azilone/obsidian-native-mindmap"
   },
   {
-    "id": "foyer",
-    "name": "Foyer",
-    "author": "Toni López",
-    "description": "A beautiful, minimal start page for your notes. Instant fuzzy search, real recent history, and a warm greeting. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tonilopezphoto/foyer"
-  },
-  {
     "id": "inkling-markup",
     "name": "Inkling Markup",
     "author": "Andrew Brož",
@@ -64253,13 +64246,6 @@
     "repo": "tcrouzet/obsidian-french-typos"
   },
   {
-    "id": "goal-tree",
-    "name": "Goal Tree",
-    "author": "Muhammad Tahoun",
-    "description": "Manage goals, projects, tasks, habits, meetings, calendars, graphs, and personal lists. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "t47oun/obsidian-goal-tree"
-  },
-  {
     "id": "wujie-sync",
     "name": "Wujie Sync",
     "author": "adventurer",
@@ -66829,6 +66815,13 @@
     "repo": "n0ctx/obsidian-meeting-live"
   },
   {
+    "id": "chatgpt-inbox-community",
+    "name": "ChatGPT Inbox Community",
+    "author": "DAVID",
+    "description": "Create Markdown notes through a paired relay, Lite links or an advanced GitHub inbox. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "davidsegade/chatgpt-inbox-community"
+  },
+  {
     "id": "inventexplorer",
     "name": "InventExplorer",
     "author": "solidinvent",
@@ -67256,13 +67249,6 @@
     "repo": "aaronw122/obsidian-nutshell"
   },
   {
-    "id": "wave-ai",
-    "name": "Wave AI",
-    "author": "Josh Mohrer",
-    "description": "Sync your Wave AI recordings into your vault as Markdown: summaries, action items and transcripts, with your Wave folders mirrored as vault folders. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "joshmohrer/wave-obsidian"
-  },
-  {
     "id": "colunas-fixas",
     "name": "Colunas fixas",
     "author": "Raul Holanda Lopes ",
@@ -67310,6 +67296,20 @@
     "author": "Mack",
     "description": "Offline neural text-to-speech with dual teleprompter and per-note memory. Powered by Piper TTS. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mack-yilman/vocalis-tts"
+  },
+  {
+    "id": "dotdotgod-traceability",
+    "name": "dotdotgod Traceability",
+    "author": "dotdotgod",
+    "description": "Explore exported project traceability in the native graph with relation colors, weights, filters, and document groups. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dotdotgod/dotdotgod-kit"
+  },
+  {
+    "id": "augmented-view",
+    "name": "Augmented View",
+    "author": "megatron",
+    "description": "Colour each sentence of a note by the role it plays using machine intelligence. The note itself is never changed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gameboard-dev/obsidian-augmented-view"
   },
   {
     "id": "princelists",
@@ -67445,6 +67445,13 @@
     "repo": "dingzy53/equation-refs"
   },
   {
+    "id": "biosequence",
+    "name": "BioSequence",
+    "author": "Joe Reda",
+    "description": "Render amino acid, DNA, and RNA sequences with per-residue coloring and biophysical property calculations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jwreda/obsidian-biosequence"
+  },
+  {
     "id": "base-toolbar-config",
     "name": "Base Toolbar Config",
     "author": "alnpokrovsky",
@@ -67485,5 +67492,33 @@
     "author": "LLLLAAAA",
     "description": "Sync projects and Markdown tasks with Feishu, with configurable folders, tags, and two-way completion updates. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "llllaaaa2333/feishu-task-sync"
+  },
+  {
+    "id": "latex",
+    "name": "LaTeX",
+    "author": "megatron",
+    "description": "Turns a folder of Markdown notes into a LaTeX document. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gameboard-dev/latex"
+  },
+  {
+    "id": "notebook",
+    "name": "Notebook",
+    "author": "Alex",
+    "description": "Write by hand with a stylus in pressure-sensitive notebooks saved as vector files in your vault. Designed for Android tablets with a pen. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "plagemes/Obsidian-Notebook"
+  },
+  {
+    "id": "inkwright",
+    "name": "Inkwright",
+    "author": "nukcole",
+    "description": "Write, playtest and debug ink interactive fiction: live play panel, saves, knot graph, web export and bilingual stories. English and Chinese interface. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "luoxin9510/inkwright"
+  },
+  {
+    "id": "studyos-notes",
+    "name": "StudyOS Notes",
+    "author": "Yann Djoko",
+    "description": "Fast class notes: a / menu of study blocks, symbols by name, numbered headings, tables you can grow, a formatting bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yannx8/studyos-notes"
   }
 ]
