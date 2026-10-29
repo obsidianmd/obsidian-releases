@@ -30740,7 +30740,7 @@
     "id": "csvzall",
     "name": "csvzall",
     "author": "Vincent La",
-    "description": "A fast CSV and TSV viewer, editor, and charting plugin for Obsidian. Use SQLite queries over CSV files, and export them directly to your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A fast CSV and TSV viewer, editor, and charting plugin for Obsidian. Use SQLite queries over CSV files, and export them as tables directly to your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vincentlaucsb/obsidian-csvzall"
   },
   {
@@ -33948,13 +33948,6 @@
     "author": "Sonophage",
     "description": "Pulls watched movies (Trakt) and full-album listens (Last.fm) into reference notes via Templater. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sonophage/stardust-importer"
-  },
-  {
-    "id": "rootweave",
-    "name": "Rootweave",
-    "author": "Max Oliver",
-    "description": "A conlang workspace for worldbuilders — manage roots, build words, validate grammar, and translate. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "molive6316github/rootweave"
   },
   {
     "id": "chroma-key",
@@ -66731,6 +66724,13 @@
     "repo": "mdzip-project/mdzip-obsidian"
   },
   {
+    "id": "language-leaf",
+    "name": "Language Leaf",
+    "author": "cynthia-ding",
+    "description": "在原生 Markdown 中阅读、查询和收录词句，保存为 Spaced Repetition 闪卡。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cynthia2023xy/obsidian-language-leaf"
+  },
+  {
     "id": "articledrop",
     "name": "Articledrop",
     "author": "Paul Hong",
@@ -67366,5 +67366,26 @@
     "author": "Tiffany Iong",
     "description": "Highlight, underline, and organize selected text. Filter highlights by color or style, then copy them or create a Markdown note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tiffanyiong/easy-text-highlighter"
+  },
+  {
+    "id": "leafmark-reader",
+    "name": "Leafmark Reader",
+    "author": "Zane",
+    "description": "Read EPUB books, highlight passages, and collect source-linked excerpts on Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "clearner1/leafmark-reader"
+  },
+  {
+    "id": "media-consumption-calendar",
+    "name": "Media Consumption Calendar",
+    "author": "Arnav R",
+    "description": "Log comics, manga, books, movies, TV, anime, games and podcasts on a month calendar with cover art, stored in one JSON file in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arnavratan/media-consumption-calendar"
+  },
+  {
+    "id": "fortynine-notion-gpt",
+    "name": "49 Notion GPT Style",
+    "author": "v-49",
+    "description": "Refine reading layout, preserve rich-text paste and web cards, resize table columns, and synchronize scrolling between two note panes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "v-49/obsidian-49-notion-gpt"
   }
 ]
