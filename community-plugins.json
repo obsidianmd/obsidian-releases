@@ -23702,6 +23702,13 @@
     "repo": "choonkending/obsidian-squire"
   },
   {
+    "id": "regex-replace",
+    "name": "Regex Replace",
+    "author": "bongho",
+    "description": "Regex find and replace in one note, or search and replace in bulk across your whole vault: preview every match, pick the files, undo the run. Includes reusable multi-step pipelines. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bongho/obsidian-regex-replace"
+  },
+  {
     "id": "ink-buddy",
     "name": "Ink Buddy",
     "author": "mgcsysinfcat",
@@ -27620,13 +27627,6 @@
     "author": "alcatrazyu",
     "description": "A writing-focused footnote sidebar for editing, navigating, and preserving context in academic Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alcatrazyu/better-footnote"
-  },
-  {
-    "id": "thought-navigator",
-    "name": "Thought Navigator",
-    "author": "qingxuanlin-s",
-    "description": "A visual knowledge-processing workspace for Obsidian: connect notes, shape MOCs, build mind  maps, and turn Zettelkasten-style thinking into navigable thought maps. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "qingxuanlin-s/obsidian-thought-navigator"
   },
   {
     "id": "shadowdark-statblocks",
@@ -41886,13 +41886,6 @@
     "author": "Nickolay Kondratyev",
     "description": "Make embedded notes foldable in reading view and Live Preview, with a trailing-dash syntax to fold by default. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nickolay-kondratyev/obsidian-foldable-embedded-notes"
-  },
-  {
-    "id": "joplin-server-sync",
-    "name": "Joplin Server Sync",
-    "author": "rosswang",
-    "description": "Sync Obsidian vault with Joplin Server — bidirectional, attachments, tags, links. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yanqingwang/obsidian-joplin-server-sync"
   },
   {
     "id": "o-dashboard",
@@ -64290,7 +64283,7 @@
   {
     "id": "lectern",
     "name": "Lectern",
-    "author": "Jared Winslow",
+    "author": "James C.",
     "description": "Preview Word, Excel, PowerPoint and 130+ code files with selectable slide text, and add Word-style margin comments to them and to PDFs, saved as Markdown in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sqxirts/lectern"
   },
@@ -66661,11 +66654,11 @@
     "repo": "b2winus/media-diary"
   },
   {
-    "id": "daily-todos",
-    "name": "Daily Todos",
-    "author": "p6inter",
-    "description": "A fully featured replacement for the built-in daily notes plugin. Daily Todos functions like a virtual bullet journal by copying over unchecked to-do items to your new daily note, along with adding any scheduled items you've set up. Forked from obligator - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ahmadinne/obsidian-daily-todos"
+    "id": "simple-git-sync",
+    "name": "Simple Git Sync",
+    "author": "Keven B.",
+    "description": "Automatically pull and push your vault to a single git repo, on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mkauto/obsidian-simple-git-sync"
   },
   {
     "id": "attachment-lens",
@@ -66699,7 +66692,7 @@
     "id": "mdzip",
     "name": "MDZip",
     "author": "MDZip",
-    "description": "Open and edit .mdz (MDZip) archives: Markdown documents and their images in one file, with folders, links and search. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Open and edit MDZip (.mdz) files: Markdown documents and their images packed into one file. Edit, link, search and graph them like any note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mdzip-project/mdzip-obsidian"
   },
   {
@@ -66876,6 +66869,13 @@
     "author": "Benjamin Vorwerk",
     "description": "Plan your novel, develop characters, organize scenes, and shape your story in Obsidian. Export your writing projects to Writeller and continue working on your manuscript. Built for every author. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cmdr-hawkeye/writeller-obsidian"
+  },
+  {
+    "id": "novel-view",
+    "name": "NovelView",
+    "author": "yukisova",
+    "description": "Novel writing mode with auto mode, inline article rename, outline slides, inspiration cards, special pages, and find/replace. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yukisova/obsidian-novel-view"
   },
   {
     "id": "keep-sorted",
@@ -67061,9 +67061,9 @@
   },
   {
     "id": "plugin-manager-cn",
-    "name": "Community Manager CN",
+    "name": "Community Manager CN Legacy",
     "author": "adventurer",
-    "description": "Search, install, and update community plugins through download mirrors, and manage Wujie Sync test releases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Legacy plugin manager retained at 0.1.16. New installations should use Wujie Hub with ID wujie-hub. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "adventurer2008/plugin-manager-cn"
   },
   {
@@ -67226,5 +67226,26 @@
     "author": "Rafael Ordaz",
     "description": "Moves notes to folders by matching their tag or title against your rules, automatically on create, edit, or rename, or manually. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rordaz/obsidian-auto-note-mover"
+  },
+  {
+    "id": "solo-oracle",
+    "name": "Solo Oracle",
+    "author": "Walker Brown",
+    "description": "A yes or no oracle, scenes, threads and your own tables for solo tabletop play, in Obsidian. Every roll writes itself into your note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "walkertbrown/solo-oracle"
+  },
+  {
+    "id": "wujie-hub",
+    "name": "Wujie Hub",
+    "author": "adventurer",
+    "description": "Search, install, and update community plugins through download mirrors for users in China, and manage Wujie Sync releases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "adventurer2008/wujie-hub"
+  },
+  {
+    "id": "vocalis-tts",
+    "name": "Vocalis TTS",
+    "author": "Mack",
+    "description": "Offline neural text-to-speech with dual teleprompter and per-note memory. Powered by Piper TTS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mack-yilman/vocalis-tts"
   }
 ]
