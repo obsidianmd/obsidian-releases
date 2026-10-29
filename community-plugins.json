@@ -23751,6 +23751,13 @@
     "repo": "justrelaxdc/tracker-habits-metrics"
   },
   {
+    "id": "rumdl",
+    "name": "rumdl",
+    "author": "rvben",
+    "description": "Lint markdown files with rumdl - a fast markdown linter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rvben/obsidian-rumdl"
+  },
+  {
     "id": "colorful-heading-underlines",
     "name": "Colorful Heading Underlines",
     "author": "greetclammy",
@@ -29683,7 +29690,7 @@
     "id": "semlink",
     "name": "Semlink",
     "author": "ouzhongyuan",
-    "description": "AI assistant for Obsidian: chat with your notes, drag notes to ask questions, and expose an MCP semantic search service. Supports OpenAI, Anthropic, Gemini, OpenRouter, Mistral, DeepSeek, Groq... - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "AI assistant for Obsidian: chat with your notes and expose an MCP semantic search service. Supports OpenAI, Anthropic, Gemini, Meta, Gork, OpenRouter, Mistral, DeepSeek, Groq, Qwen, Z.AI, MiniMax... - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ouou365/Semlink"
   },
   {
@@ -66146,7 +66153,7 @@
     "id": "mcq-tracker",
     "name": "MCQ Tracker",
     "author": "Isaac Friedenson",
-    "description": "Serve and extract practice questions from your notes and PDFs, grade answers, and track time, confidence and spaced review in note properties. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Serve and extract practice questions from your notes and PDFs and track progress in note properties. Calendar and schedule sidebar with connected class notes to know when and what to study. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ifriedenson/mcq-tracker"
   },
   {
@@ -67095,13 +67102,6 @@
     "repo": "jorritvanderheide/obsidian-in-the-open"
   },
   {
-    "id": "visual-canvas",
-    "name": "Direct Canvas",
-    "author": "yidachen-14",
-    "description": "An infinite whiteboard that opens your native .canvas files, with rich text cards, mind maps, image arranging and full export. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yidachen-14/visual-canvas"
-  },
-  {
     "id": "device-tracker",
     "name": "Device Tracker",
     "author": "nicholaskj",
@@ -67247,5 +67247,40 @@
     "author": "Mack",
     "description": "Offline neural text-to-speech with dual teleprompter and per-note memory. Powered by Piper TTS. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mack-yilman/vocalis-tts"
+  },
+  {
+    "id": "princelists",
+    "name": "PrinceLists",
+    "author": "Prince Lundgren",
+    "description": "Todo lists on plain Markdown notes, with sections, item notes and drag and drop. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "princelundgren/PrinceListsObsidianPlugin"
+  },
+  {
+    "id": "amazecomplete",
+    "name": "AmazeComplete",
+    "author": "nout",
+    "description": "Smart unified autocomplete for natural language dates, Templater templates, and vault file links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "notnout/amazecomplete"
+  },
+  {
+    "id": "dictionary-and-synonyms",
+    "name": "Dictionary and Synonyms",
+    "author": "megatron",
+    "description": "Select a word to see its synonyms and click one to replace it, or select it with Ctrl or Cmd to see its definitions. Each word is looked up once and kept as a note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gameboard-dev/dictionary-and-synonyms"
+  },
+  {
+    "id": "plain-text-tables",
+    "name": "Plain Text Tables",
+    "author": "theluckystrike",
+    "description": "Shows a Markdown table as plain text in Live Preview while the cursor is in it, and renders it again when the cursor leaves. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theluckystrike/plain-text-tables"
+  },
+  {
+    "id": "concepts",
+    "name": "Concepts",
+    "author": "Yiran",
+    "description": "Organize, track, and link concepts stored in callout blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yiran-frank-mao/obsidian-concepts"
   }
 ]
