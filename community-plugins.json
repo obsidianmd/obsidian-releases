@@ -20622,6 +20622,13 @@
     "repo": "kevin23-design/obsidian-transfer-latex-from-gpt-fix"
   },
   {
+    "id": "notor",
+    "name": "Notor",
+    "author": "zachmueller",
+    "description": "A transparent, extensible, autonomous-capable AI assistant for note taking and knowledge management. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zachmueller/notor"
+  },
+  {
     "id": "images-preview",
     "name": "Images Preview",
     "author": "hitctc",
@@ -36589,13 +36596,6 @@
     "repo": "sharbelmarshi/obsidian-math-plotter"
   },
   {
-    "id": "noesis",
-    "name": "Noesis",
-    "author": "Sebastian Brightly",
-    "description": "Ask questions across your notes and get clear, grounded answers. Noesis runs locally on your own LLM by default and keeps your knowledge on your machine.  Built for simplicity, not power users. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sebastianbrightly/Noesis"
-  },
-  {
     "id": "insightmesh-viewer",
     "name": "InsightMesh Viewer",
     "author": "aucontraire",
@@ -38505,13 +38505,6 @@
     "author": "astraaaa",
     "description": "Turns the text cursor into a flickering torch: a warm glow lights the text around the caret while the rest of the note fades into darkness. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "astraaaa02/Obsidian-Torch-Cursor"
-  },
-  {
-    "id": "omni-viewer",
-    "name": "Omni Viewer",
-    "author": "battlecook",
-    "description": "View audio, image, video, archive, csv, DBC, ARXML, A2L, ASC, BLF, MF4, Avro, ROS bag, PCAP, PCAPNG, STEP, DB3, ReqIF, excel, word, powerpoint, parquet, Shapefile, HDF5, MAT, jsonl, yaml, toml, markdown, mermaid, PlantUML, hwp, PSD and PDF files inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "battlecook/omni-viewer-obsidian"
   },
   {
     "id": "schematex",
@@ -48837,13 +48830,6 @@
     "author": "Beth Dean",
     "description": "Export a story to Shunn's standard manuscript format as a .docx or .rtf, ready to submit. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hexennacht666/obsidian-standard-manuscript-format"
-  },
-  {
-    "id": "auto-webp-image-manager",
-    "name": "Auto WebP Image Manager",
-    "author": "gmsz-1603",
-    "description": "粘贴/拖拽图片自动保存为WebP（质量75%、可缩放），按笔记名自动命名，笔记重命名时图片同步重命名。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gmsz-1603/obsidian-auto-webp-image-manager"
   },
   {
     "id": "ugougo-moji",
@@ -64662,7 +64648,7 @@
     "id": "hover-outline",
     "name": "Hover Outline",
     "author": "马自立",
-    "description": "A hidden table of contents in the corner of the editor: a column of short dashes that expands into an outline card on hover. Choose left or right, top, middle or bottom. Journals are split into DONE / DOING / TODO sections. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A hidden table of contents in any corner of the editor: a column of short dashes that expands into an outline card on hover. Journals are split into DONE / DOING / TODO sections. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "matsurimw/hover-outline"
   },
   {
@@ -67074,6 +67060,13 @@
     "repo": "dev-hashemi/pkmrag"
   },
   {
+    "id": "lyx-like-math",
+    "name": "LyX-like Math",
+    "author": "Omer Cooper",
+    "description": "Type math like in LyX: edit formulas as rendered math, finish commands with Space, fill empty boxes, and number equations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "omercooper/lyx-like-math"
+  },
+  {
     "id": "superior-highlighter",
     "name": "Superior Highlighter",
     "author": "WooJIN OH",
@@ -67385,7 +67378,21 @@
     "id": "fortynine-notion-gpt",
     "name": "49 Notion GPT Style",
     "author": "v-49",
-    "description": "Refine reading layout, preserve rich-text paste and web cards, resize table columns, and synchronize scrolling between two note panes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Refine reading layout and rich-text paste, align standalone images, resize table columns, and synchronize scrolling between two note panes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "v-49/obsidian-49-notion-gpt"
+  },
+  {
+    "id": "note-attachment-sorter",
+    "name": "Note Attachment Sorter",
+    "author": "Poro",
+    "description": "Sort attachments directly beneath related notes using filename prefixes or note links, without moving files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "artificialgarden/Note-Attachment-Sorter"
+  },
+  {
+    "id": "card-walk",
+    "name": "Card Walk",
+    "author": "马自立",
+    "description": "Review #card flashcards and ==cloze== blocks from your notes with Anki scheduling. Answers made on your phone reach Anki on your computer within seconds, and every sync step is shown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "matsurimw/card-walk"
   }
 ]
