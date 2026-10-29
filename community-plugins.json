@@ -26754,6 +26754,13 @@
     "repo": "ile-24556/obsidian-plugin-smart-punctuation-on-rendering"
   },
   {
+    "id": "rubik-cube-algorithms",
+    "name": "Rubik Cube algorithms",
+    "author": "Altarok",
+    "description": "Visualizes Rubik's Cubes and gives you a Speedcubing timer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "altarok/RubikCubeAlgoView"
+  },
+  {
     "id": "local-graph-tag-links",
     "name": "Local Graph Tag Links",
     "author": "Lumyo",
@@ -54744,21 +54751,21 @@
     "name": "Mimir Splash",
     "author": "tommyhedgerow",
     "description": "Play a short pixel-art animation over the vault as it opens, then get out of the way. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tommyhedgerow/obsidian-mimir-splash"
+    "repo": "bittanaycha/obsidian-mimir-splash"
   },
   {
     "id": "mimir-controls",
     "name": "Mimir Controls",
     "author": "tommyhedgerow",
     "description": "Step the reading size and switch between light and dark from the note header, without opening settings. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tommyhedgerow/obsidian-mimir-controls"
+    "repo": "bittanaycha/obsidian-mimir-controls"
   },
   {
     "id": "lesson-publisher",
     "name": "Lesson Publisher",
     "author": "tommyhedgerow",
     "description": "Publish a finished note and every file it embeds into a second vault, mirroring the folder structure. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tommyhedgerow/obsidian-lesson-publisher"
+    "repo": "bittanaycha/obsidian-lesson-publisher"
   },
   {
     "id": "stock-valuations",
@@ -55844,6 +55851,13 @@
     "author": "PleiadesM",
     "description": "Draws the vault's link graph as a contour map: notes that link to one another lie close together, the land rises where notes are dense, and each summit is named after its most connected note. Styled by the Tufte theme. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pleiadesm/tufte-map"
+  },
+  {
+    "id": "environment-variables",
+    "name": "Environment Keys",
+    "author": "Emanuell",
+    "description": "Store API tokens and environment variables encrypted, reference them in notes by key, and let AI agents use them in requests without ever seeing the values. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "emanuellcarvalhopires/obsidian-environment-variables"
   },
   {
     "id": "spreadsheet-to-table",
@@ -66150,13 +66164,6 @@
     "repo": "cynthia2023xy/obsidian-wechat-reader"
   },
   {
-    "id": "mcq-tracker",
-    "name": "MCQ Tracker",
-    "author": "Isaac Friedenson",
-    "description": "Extract and study practice questions (MCQs, FRQs, and more) from your notes and PDFs, track progress, use a integrated calendar with connected class notes to know when to study what, import flashcards - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ifriedenson/mcq-tracker"
-  },
-  {
     "id": "rho-network",
     "name": "Rho Network",
     "author": "clowsuzu",
@@ -66885,13 +66892,6 @@
     "repo": "cmdr-hawkeye/writeller-obsidian"
   },
   {
-    "id": "novel-view",
-    "name": "NovelView",
-    "author": "yukisova",
-    "description": "Novel writing mode with auto mode, inline article rename, outline slides, inspiration cards, special pages, and find/replace. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yukisova/obsidian-novel-view"
-  },
-  {
     "id": "keep-sorted",
     "name": "Keep Sorted",
     "author": "torazaburo",
@@ -67583,5 +67583,40 @@
     "author": "megatron",
     "description": "Check your writing on your computer: AI-likeness (local SlopTotal, optional GPTZero), wording and paraphrases shared with your source notes, and hidden characters. Never rewrites your text. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gameboard-dev/authenticity"
+  },
+  {
+    "id": "hormuz-habit",
+    "name": "HormuzHabit",
+    "author": "singhaf9270",
+    "description": "Bilingual habit tracker with Jalali/Gregorian calendars, streak progress, and daily-note previews. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "singhaf9270/hormuz-habit"
+  },
+  {
+    "id": "ai-git-tools",
+    "name": "AI Git Tools",
+    "author": "Emanuell",
+    "description": "Git, GitHub and Bitbucket tools for AI agents, with automatic project history notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "emanuellcarvalhopires/obsidian-ai-git-tools"
+  },
+  {
+    "id": "ai-templates",
+    "name": "AI Templates",
+    "author": "Emanuell",
+    "description": "Deterministic Markdown templates for AI agents. Fill a template with JSON and get aligned tables, images in your attachment folder and notes saved where you want. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "emanuellcarvalhopires/obsidian-ai-templates"
+  },
+  {
+    "id": "telegram-ai-gateway",
+    "name": "Telegram AI Gateway",
+    "author": "Emanuell",
+    "description": "Send notifications and approval requests with buttons to Telegram from AI agents and scripts, with strict security limits. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "emanuellcarvalhopires/obsidian-telegram-ai-gateway"
+  },
+  {
+    "id": "quiz-maker",
+    "name": "Quiz maker",
+    "author": "Yerkebulan Abenov",
+    "description": "Create quizzes from your notes, choose study presets, and practice with timers, flashcards, and readable answers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abenovv/quiz-maker-obsidian-edition"
   }
 ]
