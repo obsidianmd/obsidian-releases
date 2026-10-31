@@ -34134,7 +34134,7 @@
   {
     "id": "note-reader-cosyvoice",
     "name": "Cozy Read Aloud",
-    "author": "Note Reader CosyVoice Contributors",
+    "author": "laginae",
     "description": "Read aloud notes, PDFs, HTML and web pages with local and online voices, highlighting, outline navigation and audio export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "laginae/note-reader-cosyvoice"
   },
@@ -50925,13 +50925,6 @@
     "repo": "toropanov/obsidian-conflict-resolver"
   },
   {
-    "id": "astral-trek",
-    "name": "Astra",
-    "author": "nightfall",
-    "description": "An interactive Obsidian home dashboard for tasks, knowledge graph, plugins, vault health, and writing activity. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "nightfall-yl/obsidian-astral-trek"
-  },
-  {
     "id": "rowbase",
     "name": "Rowbase",
     "author": "soulaymane01",
@@ -59348,7 +59341,7 @@
   {
     "id": "note-reader-mobile",
     "name": "Cozy Read Aloud Mobile",
-    "author": "Note Reader CosyVoice Contributors",
+    "author": "laginae",
     "description": "Read aloud notes, PDFs and local HTML on mobile, with flexible voice options, playback controls, document outlines and audio export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "laginae/note-reader-mobile"
   },
@@ -60385,7 +60378,7 @@
     "id": "table-rollup",
     "name": "Table Rollup",
     "author": "theluckystrike",
-    "description": "Merges the Markdown tables under one heading in many notes into one sortable table, as a Bases view, with a link to each source note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Combine the Markdown tables from many notes into one sortable table in a Bases view. Merge tables by column name, with a link to each source note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/table-rollup"
   },
   {
@@ -60609,7 +60602,7 @@
     "id": "task-date-links",
     "name": "Task Date Links",
     "author": "theluckystrike",
-    "description": "Adds a real daily note link to a task when you complete it, so backlinks show what you finished each day. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Add a daily note link to each completed task, using its completion date from Tasks. Backlinks then show the done tasks of each day. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/task-date-links"
   },
   {
@@ -60630,7 +60623,7 @@
     "id": "toggl-mobile-timer",
     "name": "Mobile Timer for Toggl Track",
     "author": "theluckystrike",
-    "description": "Starts, stops and switches your Toggl Track timer from a note, on phone and desktop, and shows the running timer and today's total. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Start, stop and switch your Toggl Track timer from your notes, for time tracking on phone, tablet and desktop. See the running timer and today's total. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/toggl-mobile-timer"
   },
   {
@@ -61120,7 +61113,7 @@
     "id": "bases-transpose-table",
     "name": "Bases Transpose Table",
     "author": "theluckystrike",
-    "description": "Compare notes in columns and edit simple properties in rows. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Show the notes of a base in a rotated table view, with note names across the top and properties down the left. Compare notes in columns, and edit simple properties in rows. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/bases-transpose-table"
   },
   {
@@ -61785,7 +61778,7 @@
     "id": "shared-tex-preamble",
     "name": "Shared TeX Preamble",
     "author": "theluckystrike",
-    "description": "Load TeX commands from one vault file and use them in math notes on phones and tablets. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Load a LaTeX preamble from one vault file and use its TeX commands and macros in MathJax math notes. It uses only the public API, so it can load on phones and tablets. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/shared-tex-preamble"
   },
   {
@@ -62240,7 +62233,7 @@
     "id": "notestation-nsx-import",
     "name": "Note Station NSX Import",
     "author": "theluckystrike",
-    "description": "Import Note Station backups as notes with notebooks, dates, tags, and local attachments. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Import a Synology Note Station backup as notes. Select an NSX file and migrate notebooks, dates, tags and local attachments into a new folder. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/notestation-nsx-import"
   },
   {
@@ -66328,7 +66321,7 @@
     "id": "tag-pairings",
     "name": "Tag Pairings",
     "author": "theluckystrike",
-    "description": "After you type a tag, suggests the tags that occur most often with it in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Suggest related tags after you type a tag. The suggestions list the common tags that occur together with it in your notes, most often first. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/tag-pairings"
   },
   {
@@ -68026,17 +68019,24 @@
     "repo": "hidontknow/obsidian-theme-hidontknow-support"
   },
   {
-    "id": "agate",
-    "name": "Agate",
-    "author": "Philipp Kats",
-    "description": "Draw Vega and Vega-Lite charts from your Bases views and notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "casyfill/Agate"
-  },
-  {
     "id": "lifeline",
     "name": "Lifeline",
     "author": "Aaqil Ilyas",
     "description": "Back up your YouTube subscriptions, playlists, and Watch Later list into Markdown notes in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aaqil101/obsidian-lifeline"
+  },
+  {
+    "id": "clipmd-desktop-tools",
+    "name": "Clip2MD Desktop Tools",
+    "author": "Clip2MD",
+    "description": "为剪藏笔记补充来源元信息、视频、字幕、图片与评论，素材保存至当前知识库. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "clip2md/clip2md-desktop-tools"
+  },
+  {
+    "id": "papermark",
+    "name": "PaperMark",
+    "author": "laginae",
+    "description": "Merge images into PDFs, add searchable OCR text, and create editable bookmarks from papers or scanned books. Local processing by default. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "laginae/papermark"
   }
 ]
