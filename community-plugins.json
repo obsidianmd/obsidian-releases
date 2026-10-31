@@ -29704,7 +29704,7 @@
     "id": "semlink",
     "name": "Semlink",
     "author": "ouzhongyuan",
-    "description": "Ask questions in natural language, find your notes by meaning, and receive answers grounded in your notes. Supports OpenAI, Anthropic, Gemini, Meta, Grok, OpenRouter, Mistral, DeepSeek, Groq, Qwen... - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "AI assistant for Obsidian: chat with your notes, drag notes for Q&A, and expose an MCP semantic search service for Claude, Codex and other agents - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ouou365/Semlink"
   },
   {
@@ -61239,7 +61239,7 @@
     "id": "kanban-draft-vault",
     "name": "Kanban Draft Vault",
     "author": "theluckystrike",
-    "description": "Keep new-card drafts and copy lost text from a recovery list. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Recover lost text of new Kanban cards when a click outside or Escape closes the form. Keep each draft, open the recovery list and copy the text back. Needs Kanban. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/kanban-draft-vault"
   },
   {
@@ -61309,7 +61309,7 @@
     "id": "move-to-linking-file",
     "name": "Move to Linking File",
     "author": "Helge Tobias Kosuch",
-    "description": "Moves the selected notes to the folders of their backlinking notes if exactly one backlink exists - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Moves the active and selected files to the folders of their backlinking files, if exactly one backlink exists. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "silidev/obsididan-move-to-linking-file"
   },
   {
@@ -61323,7 +61323,7 @@
     "id": "sync-churn-watch",
     "name": "Sync Churn Watch",
     "author": "theluckystrike",
-    "description": "Find the files and settings that your vault rewrites most often, so you can see what fills your sync history. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Find files rewritten often by your vault, such as settings files, to see what fills your sync history size. Start a watch session, use your vault, then read the table. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/sync-churn-watch"
   },
   {
@@ -61750,7 +61750,7 @@
     "id": "frontmatter-link-repair",
     "name": "Frontmatter Link Repair",
     "author": "theluckystrike",
-    "description": "Quote complete wiki links in raw frontmatter after a checked repair preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Quote wikilinks in frontmatter. Find links without quotes in raw YAML frontmatter, preview each change, then add double quotes. It saves a restore copy first. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/frontmatter-link-repair"
   },
   {
@@ -62401,7 +62401,7 @@
     "id": "bases-checkbox-router",
     "name": "Bases Checkbox Router",
     "author": "theluckystrike",
-    "description": "Edit different Boolean properties through one checkbox column with a source key shown for each note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Edit a checkbox property of each note in one Bases column. Each toggle goes to the first Boolean property in your key list that the note has. The column shows its source key. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/bases-checkbox-router"
   },
   {
@@ -64557,7 +64557,7 @@
     "id": "tag-properties",
     "name": "Tag Properties",
     "author": "theluckystrike",
-    "description": "Browse custom list properties as clickable tags with note counts and Bases filters. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Show a custom list property as tags. Browse the property values as clickable tags in a view, with note counts and Bases filters. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/tag-properties"
   },
   {
@@ -66745,13 +66745,6 @@
     "repo": "creasac/wikiship"
   },
   {
-    "id": "fast-find",
-    "name": "Fast Find 10K",
-    "author": "Simon Späti",
-    "description": "Fast fuzzy search for large vaults: titles first, then headings, then content. Live preview, typo tolerance, finds duplicates, instant on 10k+ notes, uses Smart Connections if present. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ssp-data/obsidian-fast-find-10k"
-  },
-  {
     "id": "magpie-activity",
     "name": "Magpie",
     "author": "Divyaraj Murugan",
@@ -68115,5 +68108,12 @@
     "author": "reiuyuu",
     "description": "Create multi-column layouts with callout. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "reiuyuu/obsidian-columns-callout"
+  },
+  {
+    "id": "simple-train",
+    "name": "Simple Train",
+    "author": "Vlad Topchu",
+    "description": "Log workouts with a calendar, custom exercises, muscle groups, and sets in local Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vladtopchu/simple-train-obsidian-plugin"
   }
 ]
