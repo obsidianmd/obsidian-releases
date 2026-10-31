@@ -17804,7 +17804,7 @@
     "id": "workout-planner",
     "name": "Workout Planner",
     "author": "spatariurares",
-    "description": "Visualize workout data with interactive charts and advanced search capabilities.",
+    "description": "Workout tracker for the gym: log sets from your phone and see progress in your notes. Tables, charts, rest timers, personal records, trends and a muscle heat map. Kg or lb per set, all in one CSV.",
     "repo": "spatariurares/obsidian-workout-plugin"
   },
   {
@@ -55237,13 +55237,6 @@
     "repo": "port22-dev/note-quiz-engine"
   },
   {
-    "id": "content-library-dashboard",
-    "name": "Content Library Dashboard",
-    "author": "sourit2001",
-    "description": "A liquid-glass home for books, podcasts, web clips, news, and any Vault folder. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sourit2001/content-library"
-  },
-  {
     "id": "chenggao",
     "name": "Chenggao",
     "author": "ryyai",
@@ -65499,13 +65492,6 @@
     "repo": "nnq7/obsidian-heading-guard"
   },
   {
-    "id": "gnosis",
-    "name": "Gnosis",
-    "author": "Paul",
-    "description": "Search your vault with gnosis's retrieval pipeline, from a portable index built on your own machine. No server, no API key. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ptsouchlos/obsidian-gnosis"
-  },
-  {
     "id": "note-template-sync",
     "name": "Note Template Sync",
     "author": "Joel Oliveira",
@@ -68208,6 +68194,20 @@
     "repo": "gmdveast/finance-capture"
   },
   {
+    "id": "relatetime",
+    "name": "RelateTime",
+    "author": "liushisan",
+    "description": "基于 React 和 D3 的人物关系时间轴与推算图谱. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "deepsealight/obsidian-relatetime"
+  },
+  {
+    "id": "annex-gallery",
+    "name": "Annex Gallery",
+    "author": "Maxim",
+    "description": "Turn git-annex managed image folders into a gallery: generate thumbnails and sidecar Markdown metadata, run git-annex operations, and track uncommitted or annex-missing files in the status bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "flmaximwang/ObsidianPlugin-AnnexGallery"
+  },
+  {
     "id": "vikalp",
     "name": "Vikalp",
     "author": "Tushar",
@@ -68227,5 +68227,12 @@
     "author": "Shubham Raizada",
     "description": "Turn notes into focused flashcards and quizzes using your AI connection, source evidence, and spaced repetition. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "shbhmrzd/rehearse-releases"
+  },
+  {
+    "id": "codex-agent-chat",
+    "name": "Codex",
+    "author": "heungson",
+    "description": "Chat with local Codex or Claude Code CLI using notes, streamed responses, approvals, and saved sessions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "heungson/obsidian-codex"
   }
 ]
