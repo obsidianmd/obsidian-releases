@@ -33657,7 +33657,7 @@
   },
   {
     "id": "auto-sort-checked-items",
-    "name": "Auto Sort Checked Items",
+    "name": "Task Sweep",
     "author": "tom-un",
     "description": "Automatically move checklist items to the bottom of the list as they are checked. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tom-un/obsidian-checkbox-reorder"
@@ -35308,6 +35308,13 @@
     "repo": "jkraccoon/obsidian-fast-graph"
   },
   {
+    "id": "lemma-flashcards",
+    "name": "Lemma",
+    "author": "Sabin Pokharel",
+    "description": "An Obsidian plugin for creating and reviewing flashcards powered by the FSRS spaced repetition algorithm. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fundaments-work/Lemma"
+  },
+  {
     "id": "glossa",
     "name": "Glossa",
     "author": "yiiwang",
@@ -35390,13 +35397,6 @@
     "author": "Meirakami",
     "description": "One-click project time tracking from the macOS menu bar. Stop the timer, tag the project, and a markdown session note lands in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "powderfirm-ship-it/obsidian-menubar-time-tracker"
-  },
-  {
-    "id": "unread-plus",
-    "name": "Unread+",
-    "author": "Lucy",
-    "description": "Marks new files with a dot. Propagates unread counts up the folder tree. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kashicards/unread-plus"
   },
   {
     "id": "real-pin",
@@ -36559,6 +36559,13 @@
     "author": "Viy1204",
     "description": "Convert Obsidian notes to Xiaohongshu (RED) style images - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "viy1204/smart-red-public"
+  },
+  {
+    "id": "momentum-life",
+    "name": "Momentum Life",
+    "author": "Jaime Nagase",
+    "description": "All-in-one life dashboard for habits, tasks, fitness, nutrition and studies, stored as plain Markdown notes in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jnagase/obsidian-momentum"
   },
   {
     "id": "film-artist-search",
@@ -61131,13 +61138,6 @@
     "repo": "radixtenshi/obsidian-img"
   },
   {
-    "id": "bigorneau",
-    "name": "Bigorneau",
-    "author": "Holweck",
-    "description": "Write long documents as a mind map: organise headings visually, then export a typeset PDF with the line breaking of TeX, footnotes, tables, figures and formulas. Suited to academic reports. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "bigorneau15652/bigorneau"
-  },
-  {
     "id": "scene-subtree-mover",
     "name": "Scene Subtree Mover",
     "author": "theluckystrike",
@@ -64610,6 +64610,13 @@
     "repo": "mehmetaktas/obsidian-anchored-sort"
   },
   {
+    "id": "mark-to-go",
+    "name": "MarkToGo",
+    "author": "scstc",
+    "description": "Export shareable Markdown with PicList-hosted images while preserving local notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "scstc/mark-to-go"
+  },
+  {
     "id": "date-property-alerts",
     "name": "Date Property Alerts",
     "author": "theluckystrike",
@@ -66279,7 +66286,7 @@
     "id": "next-day-planner",
     "name": "Next Day Planner",
     "author": "Martin Gallauner",
-    "description": "Open or create tomorrow's daily note using the same folder, format and template as the core Daily notes plugin. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create tomorrows daily note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "martingallauner/next-day-planner"
   },
   {
@@ -68061,10 +68068,24 @@
     "repo": "yesokcool/jot-import"
   },
   {
+    "id": "video-library",
+    "name": "Video Library",
+    "author": "ColorBox",
+    "description": "Collect, organize and watch video links with automatic covers and custom categories. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hotdog-box/obsidian-video-library"
+  },
+  {
     "id": "mechape",
     "name": "MechApe",
     "author": "Coda Languez",
     "description": "A sidebar AI companion with Ollama, OpenRouter, Anthropic, skill profiles, and project-aware note tools. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "codalanguez/MechApe-Obsidian"
+  },
+  {
+    "id": "formative-format",
+    "name": "Formative",
+    "author": "Elara",
+    "description": "Simple, fast, and easy-to-use Markdown formatter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "elaraspace/formative"
   }
 ]
