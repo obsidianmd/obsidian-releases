@@ -21749,6 +21749,13 @@
     "repo": "serafinovsky/bases-heatmap-view"
   },
   {
+    "id": "symlink-manager",
+    "name": "Symlink Manager",
+    "author": "glassvault-ai",
+    "description": "Manage folder symlinks — link external folders into your vault, toggle them on/off, and manage connections from settings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "glassvault-ai/obsidian-symlink-manager"
+  },
+  {
     "id": "task-limiter",
     "name": "Task Limiter",
     "author": "jmondo",
@@ -21999,13 +22006,6 @@
     "author": "jo-minjun",
     "description": "Convert handwriting notes to Excalidraw or Markdown with OCR support to unify your knowledge base. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jo-minjun/petrify"
-  },
-  {
-    "id": "tategaki",
-    "name": "Tategaki",
-    "author": "cat-left-paw",
-    "description": "Edit and read Markdown in vertical writing mode. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cat-left-paw/tategaki-plugin-release"
   },
   {
     "id": "scripture-linker",
@@ -60441,21 +60441,21 @@
     "id": "bases-filter-switches",
     "name": "Bases Filter Switches",
     "author": "theluckystrike",
-    "description": "One-click switches above a base that turn saved filters on and off, in base tabs and embedded bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Toggle saved filters on and off with one-click switches above a base and in embedded bases. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/bases-filter-switches"
   },
   {
     "id": "asciidoc-files",
     "name": "AsciiDoc Files",
     "author": "theluckystrike",
-    "description": "Opens and edits AsciiDoc files in the vault with a highlighted source editor and a safe rendered preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Open AsciiDoc files in a tab with a source editor and a rendered preview. Adds AsciiDoc support for adoc files, with cross reference links, code colors and Mermaid diagrams. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/asciidoc-files"
   },
   {
     "id": "heading-link-sync",
     "name": "Heading Link Sync",
     "author": "theluckystrike",
-    "description": "Updates every link and embed to a heading or block ID when you edit the heading text in the editor, with no rename dialog. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Update links and embeds to a heading when you rename the heading text in the editor, with no rename dialog. Pro adds Markdown and block ID links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/heading-link-sync"
   },
   {
@@ -60504,14 +60504,14 @@
     "id": "bases-note-templates",
     "name": "Bases Note Templates",
     "author": "theluckystrike",
-    "description": "Creates new notes from a base with a template file, the base's filter values as properties, a folder and a name pattern. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create each new note from a template when you press New in Bases. The New button adds the base filter values as properties, in a folder you choose, with a name pattern. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/bases-note-templates"
   },
   {
     "id": "bases-link-graph",
     "name": "Bases Link Graph",
     "author": "theluckystrike",
-    "description": "Draws the notes that a base selects as an interactive graph. Links become edges, and you click a node to open its note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Draw the notes of a base as a graph view. Arrows point each link at its target, and a hover card shows link types such as parent. Click a node to open its note. Pro colors each link type. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/bases-link-graph"
   },
   {
@@ -60616,7 +60616,7 @@
     "id": "context-trees",
     "name": "Context Trees",
     "author": "theluckystrike",
-    "description": "A side view that shows search results and backlinks with their heading path and parent list items. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Show search results and backlinks with context, as an outline of the heading path and the parent list items. Lines with one parent share one tree. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/context-trees"
   },
   {
@@ -61204,7 +61204,7 @@
     "id": "hr-fold-stop",
     "name": "Fold Stop",
     "author": "theluckystrike",
-    "description": "Stop heading folds at horizontal rules so the next section stays visible. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Stop heading folds at a horizontal rule, so the next section stays visible. Fold headings in Live Preview and Source mode. A marker line can end folds at one heading level and deeper. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/hr-fold-stop"
   },
   {
@@ -62352,7 +62352,7 @@
     "id": "pandoc-crossref-preview",
     "name": "Pandoc Crossref Preview",
     "author": "theluckystrike",
-    "description": "Show figure and equation reference numbers from Pandoc labels while you read a note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Show equation numbering and figure references as numbers from Pandoc labels while you read a note. Select a number to open the source line of its target. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/pandoc-crossref-preview"
   },
   {
@@ -64578,7 +64578,7 @@
     "id": "properties-pdf-export",
     "name": "Properties in PDF Export",
     "author": "theluckystrike",
-    "description": "Print note properties as a formatted header in the built-in PDF export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Print note properties, also called frontmatter, as a header in the built-in PDF export. Options set the layout, a hide list and the property order. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/properties-pdf-export"
   },
   {
@@ -65327,7 +65327,7 @@
     "id": "inline-block-embeds",
     "name": "Inline Block Embeds",
     "author": "theluckystrike",
-    "description": "Shows a block embed that sits inside a sentence as inline text in the line, with a hover preview and a jump to the source block. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Render block embeds inline, inside a sentence, as text in the line, with a hover preview and a jump to the source block. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/inline-block-embeds"
   },
   {
@@ -66155,6 +66155,13 @@
     "author": "cynthia-ding",
     "description": "订阅 RSS、Atom 和微信公众号，阅读、收藏并归档为 Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cynthia2023xy/obsidian-wechat-reader"
+  },
+  {
+    "id": "mcq-tracker",
+    "name": "MCQ Tracker",
+    "author": "Isaac Friedenson",
+    "description": "Extract and study practice questions (MCQs, FRQs, and more) from your notes and PDFs, track progress, use a integrated calendar with connected class notes to know when to study what, import flashcards - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ifriedenson/mcq-tracker"
   },
   {
     "id": "rho-network",
@@ -67907,6 +67914,13 @@
     "repo": "matteoandradeboschi/graph-exclusions"
   },
   {
+    "id": "pdl-flashcard",
+    "name": "PDL Flashcard",
+    "author": "luongpd",
+    "description": "AI-assisted flashcards inside Obsidian: generate decks from notes or highlighted text, review with adaptive scheduling. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "luongpham16/pdl-flashcard"
+  },
+  {
     "id": "homewire",
     "name": "Homewire",
     "author": "Jason P.",
@@ -67991,10 +68005,38 @@
     "repo": "vladtopchu/algo-patterns-obsidian-plugin"
   },
   {
+    "id": "basic-ai-tool-for-writers",
+    "name": "Basic AI Tool for Writers",
+    "author": "Alan D. Darfin",
+    "description": "Customizable Obsidian writing suite: Longform, optional modules, AI review, LanguageTool, Markdown tools, snapshots and diagnostics. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alandarfin/Basic-AI-Tools-For-Writers"
+  },
+  {
     "id": "smart-todos",
     "name": "Smart Todo",
     "author": "Vlad Topchu",
     "description": "Календарь, задачи с автопереносом, планы, цели и привычки в обычных Markdown-файлах. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vladtopchu/smart-todos-obsidian-plugin"
+  },
+  {
+    "id": "hidontknow-support",
+    "name": "Hidontknow Support",
+    "author": "hidontknow",
+    "description": "Companion for the Hidontknow theme: makes Live Preview match Reading view for lists in quotes, code blocks in lists, footnotes, %% comments, ordered list numbering and code highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hidontknow/obsidian-theme-hidontknow-support"
+  },
+  {
+    "id": "agate",
+    "name": "Agate",
+    "author": "Philipp Kats",
+    "description": "Draw Vega and Vega-Lite charts from your Bases views and notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "casyfill/Agate"
+  },
+  {
+    "id": "lifeline",
+    "name": "Lifeline",
+    "author": "Aaqil Ilyas",
+    "description": "Back up your YouTube subscriptions, playlists, and Watch Later list into Markdown notes in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aaqil101/obsidian-lifeline"
   }
 ]
