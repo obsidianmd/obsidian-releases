@@ -24290,6 +24290,13 @@
     "repo": "divyanshu9821/pdf-scroll-lock"
   },
   {
+    "id": "url-enricher",
+    "name": "URL Enricher",
+    "author": "mattmarotta",
+    "description": "Non-destructive link preview and enrichment. Automatically displays rich metadata previews for URLs - shows page titles, descriptions, and favicons inline without modifying your markdown source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mattmarotta/obsidian-url-enricher"
+  },
+  {
     "id": "vim-wikilink-nav",
     "name": "Vim Wikilink Suggest Navigation",
     "author": "noxx",
@@ -55202,6 +55209,13 @@
     "repo": "port22-dev/note-quiz-engine"
   },
   {
+    "id": "content-library-dashboard",
+    "name": "Content Library Dashboard",
+    "author": "sourit2001",
+    "description": "A liquid-glass home for books, podcasts, web clips, news, and any Vault folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sourit2001/content-library"
+  },
+  {
     "id": "chenggao",
     "name": "Chenggao",
     "author": "ryyai",
@@ -67574,7 +67588,7 @@
     "id": "selectable-tables",
     "name": "Selectable Tables",
     "author": "Brian Frank",
-    "description": "Make Live Preview tables selectable as whole blocks, like images. Arrow keys to bypass or select, enter to edit. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Select and navigate Markdown tables as blocks in Live Preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "frankreporting/selectable-tables"
   },
   {
@@ -67994,7 +68008,7 @@
     "id": "agate",
     "name": "Agate",
     "author": "Philipp Kats",
-    "description": "Vega and Vega-Lite charts from your Bases views and notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Visualize your notes and Bases with Vega and Vega-Lite, from simple bar charts to interactive maps, networks, and custom graphics. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "casyfill/Agate"
   },
   {
@@ -68463,7 +68477,7 @@
     "id": "notionize",
     "name": "Notionize",
     "author": "lucasvallerius",
-    "description": "Write like in Notion: a slash menu, drag handles to move blocks, and Markdown that stays out of sight while your notes remain plain Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Notion usability inside Obsidian - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "avzlucas/notionize"
   },
   {
@@ -68472,5 +68486,26 @@
     "author": "akikinyan",
     "description": "Manage attachments on AWS S3, with IAM Identity Center authentication and private previews. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "akikinyan/vault-s3-bridge"
+  },
+  {
+    "id": "synclo",
+    "name": "Synclo",
+    "author": "Synclo",
+    "description": "Turn your notes into designed presentations with Synclo, then download them as PowerPoint or PDF. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "synclo-hq/obsidian-synclo"
+  },
+  {
+    "id": "gnuplot-plot-preview",
+    "name": "Gnuplot Plot Preview",
+    "author": "reox86",
+    "description": "Render gnuplot code blocks as plots, including plots of data files in the vault, with a button to flip each one between the plot and its source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "reonarudo/gnuplot-plot-preview"
+  },
+  {
+    "id": "spice-schematic-preview",
+    "name": "SPICE Schematic Preview",
+    "author": "reox86",
+    "description": "Draw SPICE netlists in spice code blocks as circuit schematics, with a button to flip each one between the schematic and its source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "reonarudo/spice-schematic-preview"
   }
 ]
