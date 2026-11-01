@@ -24290,13 +24290,6 @@
     "repo": "divyanshu9821/pdf-scroll-lock"
   },
   {
-    "id": "url-enricher",
-    "name": "URL Enricher",
-    "author": "mattmarotta",
-    "description": "Non-destructive link preview and enrichment. Automatically displays rich metadata previews for URLs - shows page titles, descriptions, and favicons inline without modifying your markdown source. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mattmarotta/obsidian-url-enricher"
-  },
-  {
     "id": "vim-wikilink-nav",
     "name": "Vim Wikilink Suggest Navigation",
     "author": "noxx",
@@ -34832,6 +34825,13 @@
     "repo": "q7jxb7yxdk-star/Note-Calc"
   },
   {
+    "id": "nldates-chinese",
+    "name": "Natural Language Dates - Chinese",
+    "author": "SKYue",
+    "description": "支持中文自然语言输入日期，如 @今天、@下周三、@3天后 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "skyue/obsidian-nldates-chinese"
+  },
+  {
     "id": "intervaults",
     "name": "Intervaults",
     "author": "MrDanRave",
@@ -38358,13 +38358,6 @@
     "author": "Laurent Ferier",
     "description": "Adds a task dashboard, inbox, weekly review, and dependency graph on top of obsidian-pm project notes and Daily Notes checklists. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "laurent-ferier/pm-compass"
-  },
-  {
-    "id": "relation-weaver",
-    "name": "Relation Weaver",
-    "author": "guilier",
-    "description": "管理人物关系、阵营、时间线，支持热力图、亲密度演化、生命周期可视化、写作仪表盘 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "guilier/relation-weaver"
   },
   {
     "id": "folder-backlinks",
@@ -42593,13 +42586,6 @@
     "author": "钟文富",
     "description": "Save the system clipboard content (including a timestamp) to the current note: on desktop, it is automatically appended upon copying, while on mobile, it is saved manually via a command. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhongwenfu00-alt/clipboard-saver"
-  },
-  {
-    "id": "notioneer",
-    "name": "Notioneer",
-    "author": "Lucas Coutinho",
-    "description": "Note header with title, cover and properties, markdown slash commands, and a selection formatting toolbar - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lucscout/notioneer-obsidian"
   },
   {
     "id": "canvas-to-pdf",
@@ -64253,6 +64239,13 @@
     "repo": "abdulkader-safi/obsidian-s-chart-plugins"
   },
   {
+    "id": "drawio-preview",
+    "name": "Drawio Preview",
+    "author": "OLanO",
+    "description": "Preview .drawio diagrams inline as read-only SVGs, with zoom, pan, and multi-page support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nnq7/obsidian-drawio-preview"
+  },
+  {
     "id": "tag-ontology",
     "name": "Tag Ontology",
     "author": "namhyun ko",
@@ -64643,13 +64636,6 @@
     "author": "Ash Otis",
     "description": "A daily writing box with a target that grows as you do, a forgiving streak, and achievements that unlock rest days, titles and looks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ashotis/Writers-Board"
-  },
-  {
-    "id": "mozak",
-    "name": "mozak",
-    "author": "fabijan",
-    "description": "Project scopes and plans shared with AI agents, stored as plain files. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pitfa19/mozak"
   },
   {
     "id": "textfold-bridge",
@@ -68110,6 +68096,13 @@
     "repo": "jareika/cooking-navigator"
   },
   {
+    "id": "math-box",
+    "name": "MathBox",
+    "author": "JiangYan",
+    "description": "A visual LaTeX formula editor: live preview, symbol palette, templates, favorites, and multi-format export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jiangyancoder/MathBox"
+  },
+  {
     "id": "flash-jump",
     "name": "Flash Jump",
     "author": "confuserdotcom",
@@ -68162,7 +68155,7 @@
     "id": "vikalp",
     "name": "Vikalp",
     "author": "Tushar",
-    "description": "Alternative control for writing: keep versions of words, sentences and paragraphs in place, ghost text instead of deleting it, stash spare writing, lint on demand, and run AI passes that never write for you. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Alternative control for writing: keep versions of words, sentences and paragraphs in place, run lint on text to catch issues. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "triptu/vikalp"
   },
   {
@@ -68307,7 +68300,7 @@
   },
   {
     "id": "plugin-zh-notes",
-    "name": "Chinese Notes",
+    "name": "Extension Index",
     "author": "杜鹏飞",
     "description": "Add Chinese aliases, explanations, and personal notes to installed community plugins, with offline references and optional online translation and AI analysis. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "frank998-dpf/plugin-zh-notes"
@@ -68383,6 +68376,13 @@
     "repo": "sunwookwak-polisci/Default-Properties"
   },
   {
+    "id": "column-flow",
+    "name": "Column Flow",
+    "author": "Martynas Jakimcikas",
+    "description": "Side-by-side columns you can edit directly in Live Preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jakimcikas/obsidian-column-flow"
+  },
+  {
     "id": "one-way-backlinks",
     "name": "One-way Backlinks",
     "author": "theluckystrike",
@@ -68418,6 +68418,13 @@
     "repo": "acronita/bard-player-obsidian"
   },
   {
+    "id": "md-annotator",
+    "name": "MD Annotator",
+    "author": "王兴",
+    "description": "选中文字写修改意见，以 CriticMarkup 格式写入 Markdown，方便交给 AI 按批注修改。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wangxingai/obsidian-md-annotator"
+  },
+  {
     "id": "note-shortcut-button",
     "name": "Note Shortcut Button",
     "author": "Omer Cooper",
@@ -68451,5 +68458,19 @@
     "author": "reox86",
     "description": "Render SMILES and SMARTS code blocks as chemical structures, with a button to flip each one between the structures and their source. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "reonarudo/smiles-structure-preview"
+  },
+  {
+    "id": "notionize",
+    "name": "Notionize",
+    "author": "lucasvallerius",
+    "description": "Write like in Notion: a slash menu, drag handles to move blocks, and Markdown that stays out of sight while your notes remain plain Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "avzlucas/notionize"
+  },
+  {
+    "id": "vault-bucket-bridge",
+    "name": "Vault S3 Bridge",
+    "author": "akikinyan",
+    "description": "Manage attachments on AWS S3, with IAM Identity Center authentication and private previews. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "akikinyan/vault-s3-bridge"
   }
 ]
