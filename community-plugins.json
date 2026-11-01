@@ -27671,13 +27671,6 @@
     "repo": "caulfieldsbrain/shadowdark-statblocks"
   },
   {
-    "id": "opencode",
-    "name": "OpenCode",
-    "author": "krisspy",
-    "description": "Use OpenCode CLI without leaving your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kriss-spy/obsidian-opencode"
-  },
-  {
     "id": "claude-panel-ryukyuhub",
     "name": "Claude Panel",
     "author": "Ryukyu HUB Inc.",
@@ -30685,7 +30678,7 @@
     "name": "Date List",
     "author": "Sebastien",
     "description": "Quickly search for and add a single date or an entire list of dates, formatted exactly as you like them. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lumargh/obsidian-date-list"
+    "repo": "sebshq/obsidian-date-list"
   },
   {
     "id": "apex-dashboard",
@@ -31490,7 +31483,7 @@
     "name": "Calendar List",
     "author": "Sebastien",
     "description": "Insert a list of macOS Calendar events between two dates. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lumargh/obsidian-calendar-list"
+    "repo": "sebshq/obsidian-calendar-list"
   },
   {
     "id": "ai-audio-transcription-summary",
@@ -52493,6 +52486,13 @@
     "repo": "agimx-ai/motusai-obsidian-agent"
   },
   {
+    "id": "merlay",
+    "name": "Merlay",
+    "author": "Ali Hashemi",
+    "description": "Visual overlay editor for Mermaid diagrams. Mermaid, your way. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dev-hashemi/merlay"
+  },
+  {
     "id": "morphic",
     "name": "Morphic",
     "author": "lunarch",
@@ -68409,5 +68409,47 @@
     "author": "hui",
     "description": "中文序号：公文 / 微信 / 邮件，支持 1.1 多级与两套自定义模板；回车续号、Tab 换级、自动缩进。Smart numbering for Chinese writers. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "huistin2021/obsidian-chinese-smart-numbering"
+  },
+  {
+    "id": "bard-player",
+    "name": "Bard Player",
+    "author": "Lucas Coutinho",
+    "description": "Music streaming player inside Obsidian, with a mini player and Windows taskbar controls. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "acronita/bard-player-obsidian"
+  },
+  {
+    "id": "note-shortcut-button",
+    "name": "Note Shortcut Button",
+    "author": "Omer Cooper",
+    "description": "Add left-panel buttons that open chosen notes, each with its own icon and optional keyboard shortcut. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "omercooper/note-shortcut-button"
+  },
+  {
+    "id": "pikchr-diagram-preview",
+    "name": "Pikchr Diagram Preview",
+    "author": "reox86",
+    "description": "Render Pikchr code blocks as diagrams, with a button to flip each one between the diagram and its source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "reonarudo/pikchr-diagram-preview"
+  },
+  {
+    "id": "graphviz-diagram-preview",
+    "name": "Graphviz Diagram Preview",
+    "author": "reox86",
+    "description": "Render Graphviz code blocks as diagrams, with a button to flip each one between the diagram and its source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "reonarudo/graphviz-diagram-preview"
+  },
+  {
+    "id": "onnx-graph-preview",
+    "name": "ONNX Graph Preview",
+    "author": "reox86",
+    "description": "Draw ONNX models written as text in onnx code blocks as Netron-style graphs, with a button to flip each one between the graph and its source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "reonarudo/onnx-graph-preview"
+  },
+  {
+    "id": "smiles-structure-preview",
+    "name": "SMILES Structure Preview",
+    "author": "reox86",
+    "description": "Render SMILES and SMARTS code blocks as chemical structures, with a button to flip each one between the structures and their source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "reonarudo/smiles-structure-preview"
   }
 ]
