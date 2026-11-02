@@ -17797,7 +17797,7 @@
     "id": "workout-planner",
     "name": "Workout Planner",
     "author": "spatariurares",
-    "description": "Workout tracker for the gym: log sets from your phone and see progress in your notes. Tables, charts, rest timers, personal records, trends and a muscle heat map. Kg or lb per set, all in one CSV.",
+    "description": "Track workouts in your notes: log sets, follow a guided session, and see progress with tables, charts, timers and a dashboard with PRs, trends and a muscle heat map. Data stays in one CSV file.",
     "repo": "spatariurares/obsidian-workout-plugin"
   },
   {
@@ -24955,6 +24955,13 @@
     "repo": "ialex32x/ai-note-mate"
   },
   {
+    "id": "sheet-music",
+    "name": "Sheet Music",
+    "author": "corecube",
+    "description": "Render ABC notation, strumming patterns, and chord sheets inside notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "corecube/obsidian-sheet-music"
+  },
+  {
     "id": "image-zoom",
     "name": "Image Zoom",
     "author": "liominsb",
@@ -28131,6 +28138,13 @@
     "author": "EltonLabs",
     "description": "Read EPUB, FB2 and PDF books with highlights, notes and vault-synced reading progress. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "swayinfo/elton-reader"
+  },
+  {
+    "id": "jotdrop",
+    "name": "JotDrop",
+    "author": "Diexar Labs",
+    "description": "A private, open-source Google Keep alternative: a Google Keep-style quick-capture card grid with a companion Android app and Chrome web clipper. Offline, no account, plain Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "diexar-labs/jotdrop"
   },
   {
     "id": "markdoist",
@@ -60116,6 +60130,13 @@
     "repo": "paddychenc75/obsidian-code-block-kit"
   },
   {
+    "id": "selfsync",
+    "name": "Selfsync",
+    "author": "Masson17",
+    "description": "Sync your vault through your own server, with no lost edits: automatic merges, conflict copies, deleted file recovery, file history and optional end-to-end encryption. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "darkildo/selfsync"
+  },
+  {
     "id": "graph-plus",
     "name": "Graph+",
     "author": "woodamsclark",
@@ -68817,6 +68838,13 @@
     "repo": "majsnic/Roll-for-Initiative"
   },
   {
+    "id": "tabularium",
+    "name": "Tabularium",
+    "author": "Violaria",
+    "description": "Encrypted note synchronisation with a self-hosted Tabularium server, with file sorting, sharing and Send to Kindle. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "violaria/Tabularium-Obsidian"
+  },
+  {
     "id": "markdown-citations",
     "name": "Markdown Citations",
     "author": "hkohlhoff",
@@ -68838,6 +68866,13 @@
     "repo": "wlunan/MdAssetSync"
   },
   {
+    "id": "mcp-vault-connector",
+    "name": "A2RG MCP Bridge",
+    "author": "Alberto Rosentiehl",
+    "description": "Secure local bridge for the A2RG Obsidian MCP server. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arosentiehl24/A2RG.ObsidianMCP"
+  },
+  {
     "id": "ob-collector",
     "name": "Vault Cloud Sync",
     "author": "Kai zhou",
@@ -68857,5 +68892,12 @@
     "author": "Sanal Tserenov",
     "description": "1C (BSL) Language Support for Markdown files in Obsidian - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sanal/obsidian-onec-syntax-highlight"
+  },
+  {
+    "id": "backlinks-magic",
+    "name": "Backlinks Magic",
+    "author": "Wojciech",
+    "description": "Show linked references the way Logseq does: whole blocks with their children and breadcrumbs, editable in place, under each note and in the sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wlecki/backlinks-magic-for-obsidian"
   }
 ]
