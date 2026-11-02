@@ -37027,7 +37027,7 @@
     "name": "Moon",
     "author": "kneecaps",
     "description": "oneko port // a cat to chase your cursor and nap when you go idle - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "7368697661/moon"
+    "repo": "ble-ss/moon"
   },
   {
     "id": "stonks",
@@ -47957,13 +47957,6 @@
     "repo": "sharfaroz7/Grid-tab-switcher"
   },
   {
-    "id": "folder-nodes",
-    "name": "Folder Nodes",
-    "author": "ZhengYX",
-    "description": "Turn every folder into a same-named node with visual navigation, selection creation, and scalable ordering. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zhyx91/obsidian-folder-nodes"
-  },
-  {
     "id": "final-craft",
     "name": "Final Craft",
     "author": "Domenico Pozzetti",
@@ -50587,13 +50580,6 @@
     "author": "Zach Hannum",
     "description": "Comment on any passage in a note and propose GitHub-style suggested edits. Comments live in the note's frontmatter, so they travel with the file. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zachhannum/obelisk"
-  },
-  {
-    "id": "youspot",
-    "name": "YouSpot",
-    "author": "YouSpot",
-    "description": "Two-way sync between a vault folder and your YouSpot Brain. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "onstartups/youspot-obsidian"
   },
   {
     "id": "terminalogue",
@@ -57617,13 +57603,6 @@
     "repo": "vishwasupponi/auto-reading-view"
   },
   {
-    "id": "pin-toggle",
-    "name": "Pin Toggle",
-    "author": "yaki-blake",
-    "description": "可以将软件呼唤并置顶，再次点击可将软件最小化。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yaki-blake/pin-toggle"
-  },
-  {
     "id": "sidebar-fold",
     "name": "Sidebar Fold",
     "author": "Jeff Bouganim",
@@ -59652,6 +59631,13 @@
     "author": "Slouyang ",
     "description": "Capture flow notes with keyboard-first selection in Markdown and ebooks; annotate PDFs and review highlights and thoughts without editing the source. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "github-oysl/obsidian-annotation-plugin"
+  },
+  {
+    "id": "dedao-book-sync",
+    "name": "Dedao Book Sync",
+    "author": "曹猛",
+    "description": "Sync Dedao (得到) ebook highlights and your margin notes into per-book Markdown folders via the official Dedao Brain OpenAPI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leschamy4-del/obsidian-dedao-book-sync"
   },
   {
     "id": "silentflow-image-host",
@@ -68420,7 +68406,7 @@
   {
     "id": "column-flow",
     "name": "Column Flow",
-    "author": "Martynas Jakimcikas",
+    "author": "Jakimcikas",
     "description": "Side-by-side columns you can edit directly in Live Preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jakimcikas/obsidian-column-flow"
   },
@@ -68464,7 +68450,7 @@
     "name": "MD Annotator",
     "author": "王兴",
     "description": "选中文字写修改意见，以 CriticMarkup 格式写入 Markdown，方便交给 AI 按批注修改。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "wangxingai/obsidian-md-annotator"
+    "repo": "aipmwx/obsidian-md-annotator"
   },
   {
     "id": "note-shortcut-button",
@@ -68677,6 +68663,13 @@
     "repo": "wkasjanowicz/Obsidian-Two-Euro-Collection"
   },
   {
+    "id": "pangu-cn",
+    "name": "Pangu CN",
+    "author": "milubxaq",
+    "description": "自动在中英文、中文与数字之间补空格，整理中文标点；支持粘贴时自动排版与整篇/选区/文件夹批量处理。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "milubxaq/obsidian-pangu-cn"
+  },
+  {
     "id": "omnisync",
     "name": "OmniSync",
     "author": "abismalmx",
@@ -68710,5 +68703,12 @@
     "author": "Fazel Majidfar",
     "description": "Use RTL whenever text contains a Persian word; preserve LTR Latin tokens, symbols, and code, including Persian comments, properties, titles, and file names. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "creativearcana/Obsidian-Persian-RTL-Smart-Direction"
+  },
+  {
+    "id": "prompt-block-copy",
+    "name": "Prompt Block Copy",
+    "author": "Marian Klemm",
+    "description": "Copy prompt code blocks with a single click. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "marianklemm/obsidian-prompt-block-copy"
   }
 ]
