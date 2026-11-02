@@ -51058,13 +51058,6 @@
     "repo": "kellynovax/ai-knowledge-workflow"
   },
   {
-    "id": "tc-bridge",
-    "name": "TC Bridge",
-    "author": "suavecito",
-    "description": "Companion bridge plugin for The 40 Thieves' vault-access MCP server. Extends Local REST API with command dispatch and plugin firepower bridges. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "the-40-thieves/obsidian-tc"
-  },
-  {
     "id": "naviboard",
     "name": "NaviBoard",
     "author": "IvyYang1999",
@@ -58352,6 +58345,13 @@
     "repo": "obsidian-material-plugins/obsidian-root-books-workspace"
   },
   {
+    "id": "unitedshare",
+    "name": "UnitedShare",
+    "author": "united-share",
+    "description": "Ask the model behind api.unitedshare.ai from the current note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "united-share/obsidian-unitedshare"
+  },
+  {
     "id": "multiline-tabs-wheel-scroll",
     "name": "Multiline Tabs Wheel Scroll",
     "author": "ltz6",
@@ -63194,13 +63194,6 @@
     "author": "LIngfengDu",
     "description": "Sync and verify reading positions through Remember Cursor Position and Remotely Save. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dlf2001/reading-progress-sync-bridge"
-  },
-  {
-    "id": "md-journal",
-    "name": "MD Journal",
-    "author": "Tim Apologun",
-    "description": "Write on book pages that fill up and continue onto the next page, in your theme or on ruled journal paper. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "timspace-bot/md-journal"
   },
   {
     "id": "tapedeck",
@@ -68124,13 +68117,6 @@
     "repo": "reiuyuu/obsidian-columns-callout"
   },
   {
-    "id": "hypomnema",
-    "name": "Hypomnema",
-    "author": "floernt",
-    "description": "Augmented reading: comment on passages or points of a note, write and reply in a side panel, and sort comments into coloured categories linked to tags. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "floernt/hypomnema"
-  },
-  {
     "id": "simple-train",
     "name": "Simple Train",
     "author": "Vlad Topchu",
@@ -68358,7 +68344,7 @@
     "id": "plugin-zh-notes",
     "name": "Extension Index",
     "author": "杜鹏飞",
-    "description": "Find and organize installed Obsidian plugins with Chinese aliases, notes, search, sorting, and groups. Includes offline references and optional translation and AI analysis. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "This plugin helps you view and organize your installed third‑party Obsidian plugins. It keeps the original plugin names while displaying their Chinese aliases and descriptions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "frank998-dpf/plugin-zh-notes"
   },
   {
@@ -68782,10 +68768,52 @@
     "repo": "lyra-gen/readable"
   },
   {
+    "id": "clear-unused-attachment",
+    "name": "Clear Unused Attachment",
+    "author": "豌豆射手",
+    "description": "Clear the images that you are not using anymore in your markdown notes to save space. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "superbaseballman/clear-unused-attachment-obsidian"
+  },
+  {
+    "id": "notepages",
+    "name": "NotePages",
+    "author": "0xkurian",
+    "description": "Create multi-page digital notebooks and whiteboards with stylus inking, paper templates, sticky notes, LaTeX math, and continuous scrolling. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "0xkurian/Obsinotes"
+  },
+  {
     "id": "office-lite-viewer",
     "name": "Office Lite Viewer",
     "author": "刘贺同学",
     "description": "Preview CSV, XLS/XLSX, DOC/DOCX and formatted JSON files locally. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "liuhedev/obsidian-office-lite-viewer"
+  },
+  {
+    "id": "mtg-card-primers",
+    "name": "MTG Card Primers",
+    "author": "Diogo Leal",
+    "description": "Write and read study notes (primers) for Magic: The Gathering cards, with card data from Scryfall. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "diogoleal/mtg-card-primers"
+  },
+  {
+    "id": "wardrobe",
+    "name": "Wardrobe",
+    "author": "John McAnearney",
+    "description": "Build outfits from your notes with customisable rows, note properties and templates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johnmcanearney/Wardrobe"
+  },
+  {
+    "id": "logic-electric-circuit-builder",
+    "name": "Logic-Electric Circuit Builder",
+    "author": "Hamza Martin",
+    "description": "Create electrical and logic schematics with explicit connections, touch controls, and portable SVG exports. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hamzamrtn/logic-electric-circuit-builder"
+  },
+  {
+    "id": "roll-initiative",
+    "name": "Roll for Initiative",
+    "author": "Marek Meissner",
+    "description": "Initiative tracker that keeps the fight as plain text in your note. Reads statblocks, live-syncs HP and conditions with character sheets, and supports D&D 5e (2024) and Cyberpunk RED. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "majsnic/Roll-for-Initiative"
   }
 ]
