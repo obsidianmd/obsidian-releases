@@ -22991,7 +22991,7 @@
     "id": "selective-publisher",
     "name": "Selective Publisher",
     "author": "ivan1248",
-    "description": "Publish filtered notes to a Git repository with review of changes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Publish notes to a Git repository with filtering and optional review of changes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ivan1248/obsidian-selective-publisher"
   },
   {
@@ -43568,6 +43568,13 @@
     "repo": "do-md/domd-obsidian"
   },
   {
+    "id": "book-metasearch",
+    "name": "Book Metasearch",
+    "author": "bongho",
+    "description": "Book note maker with metasearch across Aladin, Kakao, Google Books, and Open Library. Successor to anpigon/obsidian-book-search-plugin (Naver EOL 2026-08-01). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bongho/obsidian-book-metasearch"
+  },
+  {
     "id": "aulyckanban",
     "name": "aulycKanban",
     "author": "xaulyc",
@@ -58205,6 +58212,13 @@
     "repo": "heptazero/obsidian-PDF-pager"
   },
   {
+    "id": "mdsync",
+    "name": "MDSync",
+    "author": "k1tbyte",
+    "description": "Sync your vault end-to-end encrypted through your own S3, WebDAV or Google Drive storage, with conflict resolution, file history, shared folders and live editing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "k1tbyte/mdsync"
+  },
+  {
     "id": "discogs-cover",
     "name": "Discogs Cover",
     "author": "Florent",
@@ -59447,7 +59461,7 @@
     "id": "margin-comments",
     "name": "Margin Comments",
     "author": "Jonathan Sanchez",
-    "description": "Add inline comments to your notes with threaded replies, resolve/unresolve, and a sidebar panel. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Comment on your notes like in Google Docs: reply in threads, resolve and review every thread in a side panel. Comments live in a hidden folder, never in your Markdown, and follow the text as you edit. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jonaas-dev/obsidian-margin-comments"
   },
   {
@@ -67613,13 +67627,6 @@
     "repo": "frankreporting/selectable-tables"
   },
   {
-    "id": "japan-work-secretary",
-    "name": "Japan Work Secretary",
-    "author": "rexxall",
-    "description": "Track part-time shifts in Japan: pay by time band and store, a warning before any 7 days go over the 28-hour student limit, calendar sync, and rosters read from text or photos. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "rexxall/japan-work-secretary"
-  },
-  {
     "id": "ai-accounting",
     "name": "AI Accounting",
     "author": "rexxall",
@@ -68922,6 +68929,13 @@
     "repo": "rathnams089/kiln-claude"
   },
   {
+    "id": "followthemoney-builder",
+    "name": "Follow the Money Builder",
+    "author": "noop",
+    "description": "Manually build structured Follow the Money data and upload to OpenAleph instances. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "noop-ptf/FollowTheMoneyBuilder"
+  },
+  {
     "id": "syncstone",
     "name": "Syncstone",
     "author": "syncstone",
@@ -69153,10 +69167,24 @@
     "repo": "kivisolipse/Rakkan"
   },
   {
+    "id": "ytdlpinterface",
+    "name": "yt-dlp Interface",
+    "author": "KfirG",
+    "description": "Download video and audio from YouTube and many other sites with yt-dlp. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kfirgumay2005-hash/yt-dlp-Interface"
+  },
+  {
     "id": "heading-status-tracker",
     "name": "Heading Status Tracker",
     "author": "Atharva Savnerkar ",
     "description": "Track read, written, and missing or extra study topics beside Markdown headings, with progress statistics and navigation commands. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ayush4265/heading-status-tracker"
+  },
+  {
+    "id": "handwritten-notebook",
+    "name": "Handwritten A4 Notebook",
+    "author": "Otho",
+    "description": "Create handwrited notes in Obsidian in a notebook styled format with unlimited pages. You can also export your notes to PDF as well as import your own PDF files to write on them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "otho-dll/Obsidian-Handwriting"
   }
 ]
