@@ -52181,7 +52181,7 @@
     "id": "qiaomu-reader",
     "name": "Qiaomu Reader",
     "author": "向阳乔木",
-    "description": "Read EPUB, PDF, MOBI, FB2, comics, Markdown, TXT and HTML with highlights, notes, reading progress and optional AI assistance. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Read and discover books with linked highlights and notes, optional AI with custom prompts, vocabulary review and read-aloud controls. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "joeseesun/qiaomu-reader"
   },
   {
@@ -62769,6 +62769,13 @@
     "repo": "rainfr0g/frog-encrypter-mobile"
   },
   {
+    "id": "latex-compiler",
+    "name": "Latex Compiler",
+    "author": "moshe kalman weinstock",
+    "description": "Compile LaTeX directly within code blocks to PDF or SVG, and include vault files. No separate LaTeX installation required. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kalmanmoshe/obsidian-latex-compiler"
+  },
+  {
     "id": "git-sync",
     "name": "Auto Git Sync",
     "author": "jeff-stapleton",
@@ -65653,6 +65660,13 @@
     "repo": "dheeraz101/Confitext"
   },
   {
+    "id": "rubric",
+    "name": "Rubric",
+    "author": "Anthirayas",
+    "description": "Drive property autocomplete, option pickers, validation and migration from YAML note schemas kept in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jrayas/obsidian-rubric"
+  },
+  {
     "id": "plugback",
     "name": "Plugback",
     "author": "Muhtasham Nawr al-Mahmud",
@@ -66099,6 +66113,13 @@
     "author": "cynthia-ding",
     "description": "订阅 RSS、Atom 和微信公众号，阅读、收藏并归档为 Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cynthia2023xy/obsidian-wechat-reader"
+  },
+  {
+    "id": "mcq-tracker",
+    "name": "MCQ Tracker",
+    "author": "Isaac Friedenson",
+    "description": "Turn a test bank into trackable MCQs and FRQs, study with spaced repetition flashcards, and plan around exams with an exam-style interface. Connects calendar notes. Optional AI tutor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ifriedenson/mcq-tracker"
   },
   {
     "id": "rho-network",
@@ -68824,6 +68845,13 @@
     "repo": "wuatang-syz/mybrain"
   },
   {
+    "id": "md-asset-sync",
+    "name": "MdAssetSync",
+    "author": "lunan",
+    "description": "Import external Markdown files while resolving images from their original disk folders. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wlunan/MdAssetSync"
+  },
+  {
     "id": "mcp-vault-connector",
     "name": "A2RG MCP Bridge",
     "author": "Alberto Rosentiehl",
@@ -68920,5 +68948,19 @@
     "author": "Elliott Park",
     "description": "A calm agenda for the tasks already in your notes. Add tasks in plain words, see dates as readable chips, and keep the Tasks plugin format. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elliott-json-park/obsidian-doable"
+  },
+  {
+    "id": "merchart",
+    "name": "Merchart",
+    "author": "kieran-FENG",
+    "description": "Write Mermaid diagrams without the syntax. Pick a type, fill in plain lines, insert. 22 types, live preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kiefeng/merchart"
+  },
+  {
+    "id": "ai-paste-cleaner",
+    "name": "AI Paste Cleaner",
+    "author": "Atlas Creative",
+    "description": "Clean markdown pasted from AI chats: fix math delimiters, remove citation markers and copy-button text, normalize lists, and tidy whitespace. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bzucker4/obsidian-ai-paste-cleaner"
   }
 ]
