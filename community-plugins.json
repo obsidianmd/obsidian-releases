@@ -6034,13 +6034,6 @@
     "repo": "a-f-v/obsidian-arcana"
   },
   {
-    "id": "auto-anki",
-    "name": "Auto Anki",
-    "author": "cadrianxyz",
-    "description": "Using AI to automate card creation for Spaced Repetion in Anki.",
-    "repo": "cadrianxyz/obsidian-auto-anki"
-  },
-  {
     "id": "api-request",
     "name": "APIRequest",
     "author": "rooyca",
@@ -20230,6 +20223,13 @@
     "repo": "qustrolabe/zoxide-notes"
   },
   {
+    "id": "vault-coach",
+    "name": "Vault Coach",
+    "author": "wanjin5508",
+    "description": "AI learning assistant that turns Obsidian notes and PDFs into cited answers, exams, knowledge graphs, and personalized mastery tracking. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wanjin5508/vault-coach"
+  },
+  {
     "id": "linkvault",
     "name": "LinkVault",
     "author": "calghar",
@@ -30063,13 +30063,6 @@
     "author": "anton",
     "description": "Decorate exported Apple Notes and Bear Notes with native app icons. Open notes in their source app. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "podviaznikov/notes-exporter-obsidian"
-  },
-  {
-    "id": "dyresearch-sidecar",
-    "name": "DyResearch AI Sidecar",
-    "author": "Dylan Tartarini",
-    "description": "Bridge to the DyResearch Agent system built with Google ADK. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dylantartarini1996/dyresearch-obsidian"
   },
   {
     "id": "miyo-tomo-hashi",
@@ -50148,13 +50141,6 @@
     "repo": "normanchine/obsidian-japanese-reading-assistant"
   },
   {
-    "id": "markdown-memos",
-    "name": "Markdown Memos",
-    "author": "王小",
-    "description": "Capture one memo per Markdown file in an Obsidian-native timeline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tyh-art/markdown-memos"
-  },
-  {
     "id": "hans-safedoc",
     "name": "Hans SafeDoc",
     "author": "Hans Lin 林思翰",
@@ -55906,7 +55892,7 @@
     "name": "Goko",
     "author": "Artem",
     "description": "Collect links, images, videos and PDFs on one visual wall. Sort them into grids and folders, search all of it, and keep every picture and video in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "artem-levchenko-2/obsidian-goko"
+    "repo": "artem-levchenko/obsidian-goko"
   },
   {
     "id": "darjeeling",
@@ -66080,13 +66066,6 @@
     "repo": "xia-ataraxia/obsidian-hermes"
   },
   {
-    "id": "team-relay-sync",
-    "name": "Team Relay Sync",
-    "author": "Entire VC",
-    "description": "Real-time collaboration and web publishing: live cursors, shared folders, AI agent access, self-hosted or hosted. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "entire-vc/evc-team-relay-obsidian"
-  },
-  {
     "id": "kanso-todos",
     "name": "Kanso Todos",
     "author": "Puneeth Shetty",
@@ -66769,7 +66748,7 @@
     "id": "inventexplorer",
     "name": "InventExplorer",
     "author": "solidinvent",
-    "description": "Add custom icons and colors next to file and folder names in the file explorer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Add file and folder icons, colors and text styles to the file explorer. Lucide, Tabler, Boxicons, Phosphor and emoji icons, with regex rules that style many paths at once. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "solidinvent-dev/inventexplorer"
   },
   {
@@ -66811,7 +66790,7 @@
     "id": "inventtasks",
     "name": "InventTasks",
     "author": "solidinvent",
-    "description": "Task management powered by Markdown files in your vault. Spaces, Lists, statuses, priorities, custom fields, multiple views. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Project and task management with Kanban boards, Gantt charts, calendar, timeline, table and list views, custom fields, subtasks and dependencies. Every task is a Markdown file in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "solidinvent-dev/inventtasks"
   },
   {
@@ -68642,6 +68621,13 @@
     "repo": "t0masgutierrez/mathjax-complete"
   },
   {
+    "id": "sketchdown",
+    "name": "Sketchdown",
+    "author": "Magnus Haggren",
+    "description": "Draw Balsamiq-style wireframes in Excalidraw from a short text spec, as native, editable Excalidraw elements. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "magnushaggren/sketchdown"
+  },
+  {
     "id": "mindtree",
     "name": "MindTree",
     "author": "Awen",
@@ -69104,10 +69090,24 @@
     "repo": "jem-code-sss/obsidian-voice-diary-recorder"
   },
   {
+    "id": "status-icon",
+    "name": "Status Icon",
+    "author": "superior",
+    "description": "Adds an icons (emojis) to the filename based on the 'status' property of the file. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kamilslaby/obsidian-plugin-status-icon"
+  },
+  {
     "id": "artcraft-reader",
     "name": "Alchemy Craft",
     "author": "Elyaz Aliverdiyev",
     "description": "Warm Swiss Bento reading and focus mode: eye-friendly paper canvas (#F4F3EF), light green tables, square badges, sentence focus, laser pointer, and built-in Pomodoro dock. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elyazaliverdiyev/alchemy-craft"
+  },
+  {
+    "id": "okay",
+    "name": "okay",
+    "author": "recode",
+    "description": "Brings your day notes and project notes from the okay app into your vault, and suggests your okay tags when you type #. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hokujiro/okay-obsidian"
   }
 ]
