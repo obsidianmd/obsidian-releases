@@ -17936,7 +17936,7 @@
   {
     "id": "post-to-bluesky",
     "name": "Post To Bluesky",
-    "author": "rietamura",
+    "author": "Rie Tamura",
     "description": "Post selected text or entire note to Bluesky.",
     "repo": "rietamura/Post-To-Bluesky"
   },
@@ -38134,6 +38134,13 @@
     "author": "kebl3541",
     "description": "Import PDFs into your vault and save text selections as highlight notes with deep links that reopen the PDF at the highlighted passage. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kebl3541/Obsidian-PDF-Highlight-Notes"
+  },
+  {
+    "id": "tasktodo",
+    "name": "TaskTodo",
+    "author": "SunnyYYLin",
+    "description": "A planning and today dashboard for TaskLite Core. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sunnyyylin/obsidian-tasktodo"
   },
   {
     "id": "title-case-converter",
@@ -60942,6 +60949,13 @@
     "repo": "serena-sheng/obsidian-html-preview"
   },
   {
+    "id": "super-useful-claudian",
+    "name": "Super Useful Claudian",
+    "author": "chengmiaofan",
+    "description": "Run Oh My Pi, DeepSeek Harness, Claude Code, Codex, Grok, OpenCode and Pi inside your vault as chat collaborators. A fork of Claudian with provider readiness checks, a capability matrix and a token usage meter. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "serena-sheng/super-useful-claudian"
+  },
+  {
     "id": "curtis-ai-audit",
     "name": "Curtis AI Audit",
     "author": "Jordan Newell",
@@ -63892,7 +63906,7 @@
     "id": "pdf-report-exporter",
     "name": "PDF Report Exporter",
     "author": "Maxence HAEGMAN",
-    "description": "Export notes as polished PDF reports: cover page, header and footer, clickable table of contents, styled tables, callouts and Mermaid diagrams, with reusable templates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Export notes as professional PDF and Word reports: cover page, table of contents, callouts, Mermaid diagrams, footnotes. Branded templates, your own Word template, client versions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "phdhebde/Obisidian-pdf-export"
   },
   {
@@ -66406,7 +66420,7 @@
     "name": "Multilingual Bible Search",
     "author": "Beomsu Koh | 고범수",
     "description": "Search Korean/English Bible verses and insert with configurable template format. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "xia-ataraxia/obsidian-bible-search"
+    "repo": "goberomsu/obsidian-bible-search"
   },
   {
     "id": "synchronise-outline-folds",
@@ -66950,7 +66964,7 @@
   {
     "id": "post-to-emdash",
     "name": "Post To EmDash",
-    "author": "rietamura",
+    "author": "Rie Tamura",
     "description": "Send notes to an EmDash site as blog posts, with images, tags and categories. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rietamura/Post-To-EmDash"
   },
@@ -67653,6 +67667,13 @@
     "author": "Emanuell",
     "description": "Send notifications and approval requests with buttons to Telegram from AI agents and scripts, with strict security limits. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "emanuellcarvalhopires/obsidian-telegram-ai-gateway"
+  },
+  {
+    "id": "t-three-code",
+    "name": "T3 Code",
+    "author": "jslepx",
+    "description": "Chat with T3, send notes, link folders, and record durable automation events. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "7bgsbm749g-boop/t3-obsidian"
   },
   {
     "id": "quiz-maker",
@@ -68740,13 +68761,6 @@
     "repo": "qnosuke/ledger-view"
   },
   {
-    "id": "skill-zip-export",
-    "name": "Skill Zip Export",
-    "author": "sevetech",
-    "description": "Exports a note as a Claude skill zip, with SKILL.md built from the note properties and the scripts, references, and assets subfolders included. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sevehub/obsidian-skill-zip-export"
-  },
-  {
     "id": "copycel",
     "name": "Copycel",
     "author": "qunetol57",
@@ -69090,13 +69104,6 @@
     "repo": "softlight0629/excerpt-collector"
   },
   {
-    "id": "voice-diary-unified",
-    "name": "Voice Diary Processor",
-    "author": "Siren",
-    "description": "Turn recordings into notes with local SenseVoice transcription and optional text API cleanup. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jem-code-sss/obsidian-voice-diary"
-  },
-  {
     "id": "voice-diary-recorder",
     "name": "Voice Diary Recorder",
     "author": "Siren",
@@ -69170,7 +69177,7 @@
     "id": "handwritten-notebook",
     "name": "Handwritten A4 Notebook",
     "author": "Otho",
-    "description": "Create handwrited notes in Obsidian in a notebook styled format with unlimited pages. You can also export your notes to PDF as well as import your own PDF files to write on them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create handwrited notes in a notebook styled format with unlimited pages. You can also import and export PDF files. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "otho-dll/Obsidian-Handwriting"
   },
   {
@@ -69354,5 +69361,12 @@
     "author": "nickdin",
     "description": "Keep your tasks and your days in plain notes, inspired by the bullet journal method. A task you plan appears in the day's log and in its collection at once, and stays consistent in both. Every move it makes after that is yours. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nickdin/obsidian-effortless"
+  },
+  {
+    "id": "audioscribe-ai",
+    "name": "AudioScribe AI",
+    "author": "B7",
+    "description": "Record and transcribe audio with Gemini, Groq, OpenAI, Deepgram, or a local endpoint. Minimal English/Arabic interface with vault storage and transcript recovery. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bmq-1/obsidian-audioscribe"
   }
 ]
