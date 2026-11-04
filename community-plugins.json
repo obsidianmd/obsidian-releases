@@ -1575,6 +1575,13 @@
     "repo": "onlyafly/number-headings-obsidian"
   },
   {
+    "id": "obsidian-view-mode-by-frontmatter",
+    "name": "Force note view mode",
+    "author": "bwydoogh",
+    "description": "Force the view mode for a note by using frontmatter: YAML block with 'obsidian_ui_mode' as key.",
+    "repo": "bwydoogh/obsidian-force-view-mode-of-note"
+  },
+  {
     "id": "file-explorer-markdown-titles",
     "name": "File Explorer Markdown Titles",
     "author": "dyldog",
@@ -30065,13 +30072,6 @@
     "repo": "podviaznikov/notes-exporter-obsidian"
   },
   {
-    "id": "dyresearch-sidecar",
-    "name": "DyResearch AI Sidecar",
-    "author": "Dylan Tartarini",
-    "description": "Multi-Agent AI research system designed to aid in studying, learning, and managing academic literature and personal knowledge directly inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dylantartarini1996/dyresearch-obsidian"
-  },
-  {
     "id": "miyo-tomo-hashi",
     "name": "MiYo Tomo Hashi",
     "author": "Marcus Breiden",
@@ -30658,6 +30658,13 @@
     "author": "Sebastien",
     "description": "Quickly search for and add a single date or an entire list of dates, formatted exactly as you like them. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sebshq/obsidian-date-list"
+  },
+  {
+    "id": "apex-dashboard",
+    "name": "Apex Dashboard",
+    "author": "PandoraReads",
+    "description": "Your personal command center — memos, todos, files, projects all connected for better workflow. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pandorareads/apex-dashboard"
   },
   {
     "id": "echo-notes",
@@ -38057,6 +38064,13 @@
     "author": "Juan Pérez Sierra",
     "description": "Export your vault to PDF, DOCX, or LaTeX book formats. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "perezsjuan/Obsidian-Document-Export"
+  },
+  {
+    "id": "taskslite",
+    "name": "TaskLite",
+    "author": "SunnyYYLin",
+    "description": "A lightweight tree-aware task manager with Tasks-compatible emoji metadata. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sunnyyylin/obsidian-tasklite"
   },
   {
     "id": "bookmark-list-generator",
@@ -51030,6 +51044,13 @@
     "repo": "kellynovax/ai-knowledge-workflow"
   },
   {
+    "id": "tc-bridge",
+    "name": "TC Bridge",
+    "author": "suavecito",
+    "description": "Companion bridge plugin for The 40 Thieves' vault-access MCP server. Extends Local REST API with command dispatch and plugin firepower bridges. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "the-40-thieves/obsidian-tc"
+  },
+  {
     "id": "naviboard",
     "name": "NaviBoard",
     "author": "IvyYang1999",
@@ -63889,6 +63910,13 @@
     "repo": "matsurimw/obsidian-agent-deck"
   },
   {
+    "id": "pdf-report-exporter",
+    "name": "Report Exporter",
+    "author": "Maxence HAEGMAN",
+    "description": "Export notes as professional PDF and Word reports: cover page, table of contents, callouts, Mermaid diagrams, footnotes. Branded templates, your own Word template, client versions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "phdhebde/Obisidian-pdf-export"
+  },
+  {
     "id": "mermaid-fence-helper",
     "name": "Mermaid Fence Helper",
     "author": "Atharva Savnerkar ",
@@ -68089,6 +68117,13 @@
     "repo": "reiuyuu/obsidian-columns-callout"
   },
   {
+    "id": "hypomnema",
+    "name": "Hypomnema",
+    "author": "floernt",
+    "description": "Augmented reading: comment on passages or points of a note, write and reply in a side panel, and sort comments into coloured categories linked to tags. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "floernt/hypomnema"
+  },
+  {
     "id": "simple-train",
     "name": "Simple Train",
     "author": "Vlad Topchu",
@@ -69363,6 +69398,20 @@
     "repo": "nickdin/obsidian-effortless"
   },
   {
+    "id": "note-blog-publisher",
+    "name": "Note Blog Publisher",
+    "author": "bits47",
+    "description": "Publish selected notes as a static blog: toggle which notes are public from the file explorer, push to GitHub in one click, auto-sync on save, and track build status. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bits4747/obsidian-blog-publisher"
+  },
+  {
+    "id": "note-transit",
+    "name": "note-transit",
+    "author": "maxwell ding",
+    "description": "Keep block references, heading references and moved selections as Markdown cards in the sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "maxwellding/obsidian-note-transit"
+  },
+  {
     "id": "audioscribe-ai",
     "name": "AudioScribe AI",
     "author": "B7",
@@ -69389,5 +69438,40 @@
     "author": "Mk",
     "description": "GitHub-style heatmap of words written per day. Click a day to see words written vs removed and files created vs removed. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kray404/word-count-activity-heatmap"
+  },
+  {
+    "id": "dowse",
+    "name": "Dowse",
+    "author": "Walid",
+    "description": "Find anything in your vault by what's in it: notes, PDFs, images, recordings and videos, searched by meaning, on your computer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "walidhadri-iron/dowse-obsidian"
+  },
+  {
+    "id": "questsound",
+    "name": "QuestSound",
+    "author": "Artem",
+    "description": "Play music, ambience and sound effects for tabletop RPGs: a mood wheel, scenes, weather and sound buttons right in your notes. Russian and English. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "artemfrikk/questsound"
+  },
+  {
+    "id": "discovery-worth-it",
+    "name": "Is Discovery Worth It",
+    "author": "Ruan",
+    "description": "Shows whether each Discovery product is worth what you pay, using your own Budget notes and only the benefits you actually use. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ruanpienaarcode/Is-Discovery-Worth-it-"
+  },
+  {
+    "id": "booklet",
+    "name": "Booklet",
+    "author": "Benjamin Armstrong III",
+    "description": "Opens a Booklet note in a view of its own, and writes the answers given there into the note's records section. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "benthepsychologist/booklet-obsidian"
+  },
+  {
+    "id": "to-substack",
+    "name": "To Substack",
+    "author": "Thierry Crouzet",
+    "description": "Publish Obsidian notes on Substack. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tcrouzet/obsidian-to-substack"
   }
 ]
