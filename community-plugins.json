@@ -28442,7 +28442,7 @@
   },
   {
     "id": "weave-epub-reader",
-    "name": "Weave EPUB Reader",
+    "name": "Weave Reader",
     "author": "zhuzhige123",
     "description": "Standalone EPUB reader with bookshelf, deep links, and reading state persistence. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhuzhige123/obsidian-weave-reader"
@@ -28740,13 +28740,6 @@
     "author": "My Ky Quan",
     "description": "Import Kindle highlights and notes from a local My Clippings.txt file into Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mykyquan/kindle-local-sync"
-  },
-  {
-    "id": "bible-verse",
-    "name": "Bible Verse",
-    "author": "kilrkrow",
-    "description": "Look up and display Bible verses directly in your notes using the HelloAO Bible API. Supports inline references, code blocks, comparison views, and multiple Bible websites. No API key required. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kilrkrow/obsidian-bible-verse"
   },
   {
     "id": "daily-checklist",
@@ -30665,13 +30658,6 @@
     "author": "Sebastien",
     "description": "Quickly search for and add a single date or an entire list of dates, formatted exactly as you like them. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sebshq/obsidian-date-list"
-  },
-  {
-    "id": "apex-dashboard",
-    "name": "Apex Dashboard",
-    "author": "PandoraReads",
-    "description": "Your personal command center — memos, todos, files, projects all connected for better workflow. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pandorareads/apex-dashboard"
   },
   {
     "id": "echo-notes",
@@ -63903,13 +63889,6 @@
     "repo": "matsurimw/obsidian-agent-deck"
   },
   {
-    "id": "pdf-report-exporter",
-    "name": "PDF Report Exporter",
-    "author": "Maxence HAEGMAN",
-    "description": "Export notes as professional PDF and Word reports: cover page, table of contents, callouts, Mermaid diagrams, footnotes. Branded templates, your own Word template, client versions. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "phdhebde/Obisidian-pdf-export"
-  },
-  {
     "id": "mermaid-fence-helper",
     "name": "Mermaid Fence Helper",
     "author": "Atharva Savnerkar ",
@@ -67442,7 +67421,7 @@
     "name": "Equation Refs",
     "author": "dingzy53",
     "description": "Number display equations only when they are linked, and show those links as equation numbers in reading view, live preview, and PDF export. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dingzy53/equation-refs"
+    "repo": "dingzy53/obsidian-equation-refs"
   },
   {
     "id": "biosequence",
@@ -68761,6 +68740,13 @@
     "repo": "qnosuke/ledger-view"
   },
   {
+    "id": "skill-zip-export",
+    "name": "Skill Zip Export",
+    "author": "sevetech",
+    "description": "Exports a note as a Claude skill zip, with SKILL.md built from the note properties and the scripts, references, and assets subfolders included. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sevehub/obsidian-skill-zip-export"
+  },
+  {
     "id": "copycel",
     "name": "Copycel",
     "author": "qunetol57",
@@ -69104,6 +69090,13 @@
     "repo": "softlight0629/excerpt-collector"
   },
   {
+    "id": "voice-diary-unified",
+    "name": "Voice Diary Processor",
+    "author": "Siren",
+    "description": "Turn recordings into notes with local SenseVoice transcription and optional text API cleanup. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jem-code-sss/obsidian-voice-diary"
+  },
+  {
     "id": "voice-diary-recorder",
     "name": "Voice Diary Recorder",
     "author": "Siren",
@@ -69200,6 +69193,13 @@
     "author": "hc-nolan",
     "description": "Write and edit guitar tabs from the keyboard, in fenced code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hc-nolan/tablature-obsidian"
+  },
+  {
+    "id": "polish",
+    "name": "Po1ish",
+    "author": "Haissam Makki",
+    "description": "Select some text and pick “Melhorar desc” to fix its spelling, or “Melhorar desc com IA” to also make it clearer. Works with no setup. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ha1ssam/obsidian-po1ish"
   },
   {
     "id": "certfs-quiz",
@@ -69368,5 +69368,26 @@
     "author": "B7",
     "description": "Record and transcribe audio with Gemini, Groq, OpenAI, Deepgram, or a local endpoint. Minimal English/Arabic interface with vault storage and transcript recovery. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bmq-1/obsidian-audioscribe"
+  },
+  {
+    "id": "chinese-glossary-hover",
+    "name": "Chinese Glossary Hover",
+    "author": "Rion",
+    "description": "从 Markdown 词典读取词条，在阅读视图与实时预览中悬浮显示解释。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mffeiron-ai/obsidian-chinese-glossary-hover"
+  },
+  {
+    "id": "under-the-sun",
+    "name": "Under the Sun",
+    "author": "阿尔旦",
+    "description": "Read RSS feeds, generate a daily digest, and discuss any item with AI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "0xtack/obsidian-under-the-sun"
+  },
+  {
+    "id": "word-count-activity-heatmap",
+    "name": "Word Count Activity Heatmap",
+    "author": "Mk",
+    "description": "GitHub-style heatmap of words written per day. Click a day to see words written vs removed and files created vs removed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kray404/word-count-activity-heatmap"
   }
 ]
