@@ -23803,7 +23803,7 @@
     "id": "mermaid-base-views",
     "name": "Mermaid Base Views",
     "author": "nitero",
-    "description": "Create dynamic mermaid diagrams and charts in bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create mermaid diagrams dynamically from your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nitero/obsidian-mermaid-base-views"
   },
   {
@@ -30072,6 +30072,13 @@
     "repo": "podviaznikov/notes-exporter-obsidian"
   },
   {
+    "id": "dyresearch-sidecar",
+    "name": "DyResearch AI Sidecar",
+    "author": "Dylan Tartarini",
+    "description": "Multi-Agent AI research system designed to aid in studying, learning, and managing academic literature and personal knowledge directly inside Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dylantartarini1996/dyresearch-obsidian"
+  },
+  {
     "id": "miyo-tomo-hashi",
     "name": "MiYo Tomo Hashi",
     "author": "Marcus Breiden",
@@ -34960,7 +34967,7 @@
   {
     "id": "folderandgraphs-plus",
     "name": "Folder and Graphs Plus",
-    "author": "pilafdob",
+    "author": "Filip",
     "description": "Colours Folder2Graph folder nodes with matching native Graph View group colours. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pilafdob/folderandgraphs-plus"
   },
@@ -37480,7 +37487,7 @@
   {
     "id": "nicons",
     "name": "Nicons",
-    "author": "pilafdob",
+    "author": "Filip",
     "description": "Customize File and Folder icons with bundled Phosphor icon assets. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pilafdob/Nicons"
   },
@@ -38971,7 +38978,7 @@
   {
     "id": "pinup",
     "name": "Pinup",
-    "author": "pilafdob",
+    "author": "Filip",
     "description": "Pin files and folders in the File Explorer, or elevate them to a compact pin-up shelf. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pilafdob/Pinup"
   },
@@ -42633,7 +42640,7 @@
     "id": "remarkable-tagged-sync",
     "name": "Tagged Sync for reMarkable",
     "author": "Thomas Hochbichler",
-    "description": "Sync tagged reMarkable notebooks, PDFs and EPUBs into Obsidian as searchable Markdown. Send papers from Zotero, get your highlights back. Unofficial; not affiliated with reMarkable AS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync tagged reMarkable notebooks, PDFs and EPUBs into Obsidian as searchable Markdown. Send papers from Zotero, send highlights back and to Readwise. Unofficial; not affiliated with reMarkable AS. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "thomas-hochbichler/obsidian-remarkable-tagged-sync"
   },
   {
@@ -50076,6 +50083,13 @@
     "author": "shangxin",
     "description": "An agentic AI side panel that edits your vault directly. No copy-pasting required: you ask, it acts, and your notes update right where they are. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "youngsx/piem"
+  },
+  {
+    "id": "office-suite",
+    "name": "Office Suite",
+    "author": "Vishal Rashmika",
+    "description": "View and edit Microsoft Word (.docx), Excel (.xlsx), and CSV/TSV spreadsheet files directly inside Obsidian with native WYSIWYG editing, formatting, and formulas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vishalrashmika/office-suite"
   },
   {
     "id": "dgs-wechat-publisher",
@@ -66098,7 +66112,7 @@
     "name": "Hermes Control Center",
     "author": "Beomsu Koh | 고범수",
     "description": "Monitor and manage remote Hermes Agent profiles over SSH: kanban boards, a profile canvas, skills, cron jobs and chat. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "xia-ataraxia/obsidian-hermes"
+    "repo": "goberomsu/obsidian-hermes"
   },
   {
     "id": "kanso-todos",
@@ -67679,7 +67693,7 @@
     "id": "t-three-code",
     "name": "T3 Code",
     "author": "jslepx",
-    "description": "Chat with T3, send notes, link folders, and record durable automation events. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Bring T3 Code into Obsidian. Send notes as prompts, stream replies into the editor, and more. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "7bgsbm749g-boop/t3-obsidian"
   },
   {
@@ -69473,5 +69487,40 @@
     "author": "Thierry Crouzet",
     "description": "Publish Obsidian notes on Substack. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tcrouzet/obsidian-to-substack"
+  },
+  {
+    "id": "tag-scope",
+    "name": "Tag Scope",
+    "author": "TonyKurts",
+    "description": "Search notes through progressive tag filtering. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tonykurts/obsidian-tag-scope"
+  },
+  {
+    "id": "research-radar",
+    "name": "Research Radar",
+    "author": "iduoduo",
+    "description": "Personalized literature discovery, manual local and online AI translation, and optional Zotero integration. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "iduoduo1002/research-radar"
+  },
+  {
+    "id": "html-widget-embed",
+    "name": "HTML Widget Embed",
+    "author": "sbk-panda-meow",
+    "description": "Embed a vault-local HTML file in a note as a sandboxed iframe, using ![[file.html]] or an html-embed code block. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mrdongshan/obsidian-html-widget"
+  },
+  {
+    "id": "unresolved-link-helper",
+    "name": "Unresolved Link Helper",
+    "author": "岛是海的疤i",
+    "description": "Enhance Ctrl+click on unresolved links with alias and template options. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "miao-aa/unresolved-link-helper"
+  },
+  {
+    "id": "micompress",
+    "name": "MiCompress",
+    "author": "Nguyen Huu Huy",
+    "description": "Compress images, PDFs, audio, video and Office files in your vault with micompress.com. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "huuhuybn/obsidian-micompress"
   }
 ]
