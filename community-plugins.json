@@ -23488,7 +23488,7 @@
     "id": "snipsidian",
     "name": "Snipsy",
     "author": "dimagious",
-    "description": "Expand typed shortcuts into Markdown as you write. Markdown-aware hotstrings, a searchable snippet picker, a community pack catalog, and Espanso import. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Type a short trigger, get Markdown. Hotstrings that stay quiet in code, a searchable snippet picker, community packs, and import from Text Snippets and Espanso. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dimagious/snipsidian"
   },
   {
@@ -57078,6 +57078,13 @@
     "repo": "amelandri/NotesList"
   },
   {
+    "id": "media-speed-enhancer",
+    "name": "Media Speed Enhancer",
+    "author": "liyifan",
+    "description": "Add 10s skip, hold-to-speed, and a custom speed menu to the native HTML5 audio and video players. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "liyifan2004/obsidian-media-speed-enhancer"
+  },
+  {
     "id": "qard",
     "name": "Qard",
     "author": "Kylian",
@@ -59750,13 +59757,6 @@
     "author": "xiaosong8584",
     "description": "Detects non-UTF-8 encodings in your vault and safely converts them to UTF-8 with automatic backup. Repairs double-encoded mojibake, exports conversion logs, and supports 10 UI languages. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xiaosong8584/code-converter"
-  },
-  {
-    "id": "snailkit",
-    "name": "Snailkit",
-    "author": "Arnaud Gastelblum",
-    "description": "Everything your notes need in one shell. A free suite for capturing ideas, gathering tasks and finding your notes again. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "arnaudgastelblum/snailkit"
   },
   {
     "id": "nextsync",
@@ -69741,10 +69741,52 @@
     "repo": "burningburrito/budget-notes"
   },
   {
+    "id": "vault-publisher",
+    "name": "Vault Publisher",
+    "author": "notenerd",
+    "description": "Publishes your vault as a static website, rendered by Obsidian itself, so Dataview, Bases and Mermaid output survives. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "notenerdofficial/vault-publisher"
+  },
+  {
     "id": "pdf-thumbnails",
     "name": "PDF Thumbnails",
     "author": "Genglin Zheng",
     "description": "Render ![[file.pdf]] embeds as a lazy page-thumbnail grid with an in-note lightbox. Powered by pdf.js. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kbmjj123/obsidian-pdf-thumbnails"
+  },
+  {
+    "id": "idea-vault",
+    "name": "Idea Vault",
+    "author": "Nooshin Java",
+    "description": "Capture ideas instantly, organize them later and resurface forgotten ones. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nooshinjava/obsidian-idea-vault"
+  },
+  {
+    "id": "tiro",
+    "name": "Tiro",
+    "author": "The Plato",
+    "description": "Sync your Tiro meeting notes into your vault, search them, and link to them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "plato-corp/tiro-obsidian"
+  },
+  {
+    "id": "literature-tracker",
+    "name": "Literature Tracker",
+    "author": "Nooshin Java",
+    "description": "Track your reading, categorize papers, write paper notes and import from Zotero. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nooshinjava/obsidian-literature-tracker"
+  },
+  {
+    "id": "mindful-focus",
+    "name": "Mindful Focus",
+    "author": "Nooshin Java",
+    "description": "Focus sessions with a status-bar timer, deadline-based goals with labbooks, daily and weekly notes, and a weekly project report. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nooshinjava/obsidian-mindful-focus"
+  },
+  {
+    "id": "latex-vault",
+    "name": "LaTeX Vault",
+    "author": "Giulio Mapelli",
+    "description": "Render LaTeX code blocks (TikZ, pgfplots, matrices, algorithms, code listings, math) to SVG using a local TeX installation (TeX Live/MiKTeX). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "godjeam/latex-vault"
   }
 ]
