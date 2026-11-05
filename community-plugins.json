@@ -7339,7 +7339,7 @@
     "id": "zotlit",
     "name": "ZotLit",
     "author": "Aiden Liu",
-    "description": "Integrate with Zotero, create literature notes, and insert citations from a Zotero library.",
+    "description": "Your Zotero research desk: browse and query your library, read and annotate PDFs, take literature notes, cite as you write, and export to Word with a formatted reference list.",
     "repo": "aidenlx/zotlit"
   },
   {
@@ -17792,6 +17792,13 @@
     "author": "ce-omarbadawy",
     "description": "Registers your own SVGs into the global icon library for use with other plugins or however you want.",
     "repo": "ce-omarbadawy/obsidian-my-svgs"
+  },
+  {
+    "id": "workout-planner",
+    "name": "Workout Planner",
+    "author": "spatariurares",
+    "description": "Track workouts in your notes: log sets, follow a guided session, and see progress with tables, charts, timers and a dashboard with PRs, trends and a muscle heat map. Data stays in one CSV file.",
+    "repo": "spatariurares/obsidian-workout-plugin"
   },
   {
     "id": "ai-transcriber",
@@ -54579,6 +54586,13 @@
     "repo": "xcloud-ai/xu-view-mode"
   },
   {
+    "id": "shard-icons",
+    "name": "Shard Icons",
+    "author": "Somonor Hong",
+    "description": "Give folders an icon from the Material Icon Theme, a brand logo or a symbol, right from the file explorer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cachewraith/shard-icons"
+  },
+  {
     "id": "automatic-file-icons",
     "name": "Automatic File Icons",
     "author": "Philipp Reichelt",
@@ -65271,7 +65285,7 @@
     "id": "onenote-native",
     "name": "Live note",
     "author": "高哲",
-    "description": "Live note：Markdown 笔记本、无限画布、视频学习与阅读批注。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A OneNote-style notebook for Obsidian: infinite block canvas, handwriting, video tools, PDF/EPUB annotations, tables, charts, and formulas. Notes stay Markdown with optional JSON layout sidecars. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhe-seek/world-society"
   },
   {
@@ -69809,5 +69823,26 @@
     "author": "Jorrit van der Heide",
     "description": "Present a note as slides, with its links turned into real citations and your speaker notes on your own screen. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jorritvanderheide/obsidian-take-the-floor"
+  },
+  {
+    "id": "better-images",
+    "name": "Better Images",
+    "author": "mkrullmann",
+    "description": "Sort images you paste onto a canvas into a folder next to it, and move images to the trash once no canvas or note uses them anymore. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "krullmensch/better-images"
+  },
+  {
+    "id": "latex-super-converter",
+    "name": "LaTeX Super Converter",
+    "author": "kimeng",
+    "description": "Convert \\( \\) and \\[ \\] LaTeX delimiters to Obsidian-compatible $ and $$, and auto-detect bare LaTeX formulas that have no delimiters at all. Tables, bold, code, and links are fully preserved. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fqm1149/latex-super-converter"
+  },
+  {
+    "id": "dragon-scroll-home",
+    "name": "Dragon Scroll Home",
+    "author": "jackyoung022",
+    "description": "Browse folders and notes as traditional Chinese scrolls, with vertical summaries, nested volumes, and configurable folder visibility. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jackyoung022/Obsidian-WJLL-plugin"
   }
 ]
