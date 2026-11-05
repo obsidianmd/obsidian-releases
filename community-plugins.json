@@ -42668,7 +42668,7 @@
     "id": "markdown-spreadsheets",
     "name": "Markdown Spreadsheets",
     "author": "ondreu",
-    "description": "Edit any Markdown tables in a spreadsheet-style grid in a dedicated tab. Everything stays plain markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Edit any Markdown tables in a spreadsheet-style grid in a dedicated tab. Everything stays plain markdown and is readable anywhere. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ondreu/markdown-spreadsheets"
   },
   {
@@ -48053,13 +48053,6 @@
     "author": "Ilya Partanskiy",
     "description": "Move daily tasks between notes and a backlog, and materialize scheduled routines. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "partanskiy/daily-flow"
-  },
-  {
-    "id": "single-html-export",
-    "name": "Single HTML Export",
-    "author": "dukhaelee",
-    "description": "Export a note as one self-contained HTML file that works offline. Preview it, then share or save. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ddeok/Obsidian-Single-HTML-Export"
   },
   {
     "id": "dynamic-template-children-updater",
@@ -59752,6 +59745,13 @@
     "repo": "xiaosong8584/code-converter"
   },
   {
+    "id": "snailkit",
+    "name": "Snailkit",
+    "author": "Arnaud Gastelblum",
+    "description": "Everything your notes need in one shell. A free suite for capturing ideas, gathering tasks and finding your notes again. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arnaudgastelblum/snailkit"
+  },
+  {
     "id": "nextsync",
     "name": "NextSync",
     "author": "Klippel",
@@ -63609,13 +63609,6 @@
     "repo": "mariomile/obsidian-horizon"
   },
   {
-    "id": "sixtyfourpadgrid",
-    "name": "64 Pad Grid",
-    "author": "Satoshi Nagata",
-    "description": "Draw clickable pad patterns for grid controllers in your notes - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "supezou/64padgrid"
-  },
-  {
     "id": "commonmark-live-preview",
     "name": "CommonMark Live Preview",
     "author": "lruijsink",
@@ -65770,13 +65763,6 @@
     "author": "mogger-exe",
     "description": "Manage assets in plain folders: a grid of previews, tags, rating and comments for any file, a quick viewer and drag to canvas. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "opus721/obsidian-buba"
-  },
-  {
-    "id": "visual-kit",
-    "name": "Visual Kit",
-    "author": "Pedro Henrique Francisco",
-    "description": "Local evidence workflow: batch paste, deduplicate, annotate, normalize and copy rich text with images. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pedrohf-dev/visual-kit"
   },
   {
     "id": "mermaid-live-link",
@@ -69839,10 +69825,38 @@
     "repo": "fqm1149/latex-super-converter"
   },
   {
+    "id": "protobuf-nanopb",
+    "name": "Protobuf and Nanopb Highlighting",
+    "author": "tfm",
+    "description": "Syntax highlighting for Protocol Buffers and nanopb options in fenced code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tobiasfrahm/obsidian-protobuf-nanopb"
+  },
+  {
     "id": "dragon-scroll-home",
     "name": "Dragon Scroll Home",
     "author": "jackyoung022",
     "description": "Browse folders and notes as traditional Chinese scrolls, with vertical summaries, nested volumes, and configurable folder visibility. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jackyoung022/Obsidian-WJLL-plugin"
+  },
+  {
+    "id": "wikigraph",
+    "name": "WikiGraph",
+    "author": "Waya",
+    "description": "Explore concepts like Wikipedia with AI explanations, a live force-directed relationship graph in the sidebar, and one-click export to your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ravomi/obsidian-wikigraph"
+  },
+  {
+    "id": "local-tags",
+    "name": "Local Tags",
+    "author": "MasatoKoshiba",
+    "description": "File-local tags with completion, highlighting, and a hierarchical search view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mstksb/obsidian-local-tags"
+  },
+  {
+    "id": "recursive-fold",
+    "name": "Recursive Fold",
+    "author": "rogerfan48",
+    "description": "Fold or unfold a heading or list item together with everything nested under it, with a modifier-click on its fold arrow. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rogerfan48/recursive-fold"
   }
 ]
