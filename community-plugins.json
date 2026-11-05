@@ -15911,6 +15911,13 @@
     "repo": "kazhuravlev/obsidian-github"
   },
   {
+    "id": "biblib",
+    "name": "BibLib",
+    "author": "callumalpass",
+    "description": "Create literature notes and manage bibliographic references",
+    "repo": "callumalpass/obsidian-biblib"
+  },
+  {
     "id": "wayback-archiver",
     "name": "Wayback Archiver",
     "author": "ishizueitaro",
@@ -24603,6 +24610,13 @@
     "author": "ragetrip",
     "description": "Multi playlist-based audio player — folder & link playlists, mini-player, shuffle, repeat, fade-out. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ragetrip/audio-pluglist"
+  },
+  {
+    "id": "alyok-autotag",
+    "name": "Alyok Autotag",
+    "author": "24tiy",
+    "description": "Automatically adds tags to notes when created or moved into specific folders. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "24tiy/Alyok-Autotag"
   },
   {
     "id": "favorites",
@@ -62471,7 +62485,7 @@
     "id": "home-cards",
     "name": "Home Cards",
     "author": "ttangents",
-    "description": "Show a start page of note cards, in sections drawn from recent activity, properties, tags and links, styled by your active theme. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Give your vault a homepage: a start page or dashboard of note cards from recent notes, properties, tags, links and Bases, with pins, project boards and pages for any folder or tag. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ttangents/obsidian-home-cards"
   },
   {
@@ -64956,7 +64970,7 @@
     "id": "relate",
     "name": "Relate",
     "author": "ttangents",
-    "description": "Link notes both ways through ordinary properties, then browse and search them by relationship, date or meaning. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Link notes both ways through ordinary properties: two-way relationships kept in sync, with a relationship browser and search by relationship, date or meaning. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ttangents/obsidian-relate"
   },
   {
@@ -65777,6 +65791,13 @@
     "author": "mogger-exe",
     "description": "Manage assets in plain folders: a grid of previews, tags, rating and comments for any file, a quick viewer and drag to canvas. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "opus721/obsidian-buba"
+  },
+  {
+    "id": "visual-kit",
+    "name": "Visual Kit",
+    "author": "Pedro Henrique Francisco",
+    "description": "Local evidence workflow: batch paste, deduplicate, annotate, normalize and copy rich text with images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pedrohf-dev/visual-kit"
   },
   {
     "id": "mermaid-live-link",
@@ -67597,13 +67618,6 @@
     "author": "rexxall",
     "description": "Look up English and Japanese words in your notes and get a study card with meaning, reading, examples and audio, kept in a word list you review. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rexxall/obsidian-polyglot-helper"
-  },
-  {
-    "id": "video-summary",
-    "name": "Video Summary",
-    "author": "rexxall",
-    "description": "Turn video links, local recordings and transcripts into notes with a summary, a timestamped transcript and key points, processed by a backend you run. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "rexxall/obsidian-video-summary"
   },
   {
     "id": "pass-countdown",
@@ -69702,7 +69716,7 @@
     "id": "pagewise",
     "name": "Pagewise",
     "author": "ttangents",
-    "description": "Lay out your notes as word-processor pages, with page numbers and a handy document toolbar, in any theme. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Lay out notes as paginated word-processor pages in A4 or Letter, with page numbers, margins, a document toolbar and linked mentions as cards, in any theme. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ttangents/obsidian-pagewise"
   },
   {
@@ -69935,5 +69949,19 @@
     "author": "Agency Think Tank",
     "description": "Keeps your client folders in step with Agency OS: sends your client notes in, and files the summaries Agency OS writes back into a folder it owns. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "agencythinktank/obsidian-aos-sync"
+  },
+  {
+    "id": "second-brain-starter",
+    "name": "Second Brain Starter",
+    "author": "Jinhan",
+    "description": "Set up a CODE, PARA, and Zettelkasten workspace and create notes in English or Korean. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "go-jinhan/obsidian-second-brain-starter"
+  },
+  {
+    "id": "brewpage-publisher",
+    "name": "BrewPage Publisher",
+    "author": "Maksim Kochetkov ",
+    "description": "Publish the current note or a selection to BrewPage as a web page and copy the shareable link. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kochetkov-ma/brewpage-obsidian"
   }
 ]
