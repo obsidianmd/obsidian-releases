@@ -43883,13 +43883,6 @@
     "repo": "shimeoki/obsidian-store"
   },
   {
-    "id": "obmind",
-    "name": "MindBraid",
-    "author": "soren-ac",
-    "description": "Turn Markdown notes into interactive, editable mind maps (思维导图) with layouts, themes, search, import, and export. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "soren-ac/MindBraid"
-  },
-  {
     "id": "symbat",
     "name": "Symbat",
     "author": "iamrecursion",
@@ -45673,13 +45666,6 @@
     "author": "glam",
     "description": "Connect your vault to a private Cloudflare R2 bucket for controlled synchronization. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ratatulieoi/obsidian-isomite"
-  },
-  {
-    "id": "floating-sticky-notes",
-    "name": "Floating Sticky Notes",
-    "author": "kasairo",
-    "description": "Create and manage floating sticky notes in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kasairo/floating-sticky-notes"
   },
   {
     "id": "papercraft",
@@ -48767,13 +48753,6 @@
     "author": "ReadyStack",
     "description": "Create a structured meeting note in one command, then collect every open action item in the vault into one list. Fully local - no account, no API, no sync service. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jmshinhwa/readystack-obsidian-meeting-notes"
-  },
-  {
-    "id": "tome-connector",
-    "name": "Tome Connector",
-    "author": "tome-vtt",
-    "description": "Sends statblocks, maps, props, encounters and characters to a Tome server, and compiles a folder of notes into a PDF for its reference library. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tome-vtt/tome-connector"
   },
   {
     "id": "justftables",
@@ -54197,7 +54176,7 @@
     "id": "cover-banner",
     "name": "Cinematic Covers",
     "author": "afrograd",
-    "description": "Cinematic cover banners with autoset, icons, parallax, property and title controls, and polished Markdown styling. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Notion-style covers for every note. Clip a YouTube video or web page and its image and favicon come too. Drag to crop. Clearer code, fonts and note styling, in Reading view and Live Preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "frimpsjoek/cover-banner"
   },
   {
@@ -68586,13 +68565,6 @@
     "repo": "reonarudo/spice-schematic-preview"
   },
   {
-    "id": "notewright",
-    "name": "AI Note Agent",
-    "author": "zhang33",
-    "description": "Chat with OpenAI, Claude, DeepSeek or any OpenAI-compatible model in a sidebar and let it read, search, create and edit your notes, with a diff preview and undo for every change. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "open-center/obsidian-ai-note-agent"
-  },
-  {
     "id": "idraaak-arabic-list-fixer",
     "name": "Idraaak Arabic List Fixer",
     "author": "Idraaak",
@@ -69433,6 +69405,13 @@
     "repo": "bmq-1/obsidian-audioscribe"
   },
   {
+    "id": "haoo-cardbox",
+    "name": "Haoo Cardbox",
+    "author": "Haoo",
+    "description": "Turn notes into cards, sort them into domain piles, and arrange them on a board with links and ink to build a MOC. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haoo-7/obsidian-haoo-cardbox"
+  },
+  {
     "id": "chinese-glossary-hover",
     "name": "Chinese Glossary Hover",
     "author": "Rion",
@@ -69636,10 +69615,59 @@
     "repo": "kravlab/seamsync"
   },
   {
+    "id": "any-viewer",
+    "name": "Any Viewer",
+    "author": "tingke",
+    "description": "Insert and preview any file type (Word, Excel, PowerPoint, HTML) in notes, with a file card fallback. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tingke/obsidian-any-viewer"
+  },
+  {
+    "id": "digital-tutor-csv-editor",
+    "name": "CSV Workbench",
+    "author": "leifwebber",
+    "description": "Edit CSV and TSV files in tabs with live preview, adjustable rows and columns, autosave, and conflict recovery. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "leifwebber/digital-tutor-csv-editor"
+  },
+  {
+    "id": "kedge",
+    "name": "Kedge",
+    "author": "Assaf",
+    "description": "Next best step, letters to/from future self, snoozable next steps, one-line lessons. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "assaf/kedge"
+  },
+  {
     "id": "ganttable",
     "name": "Ganttable",
     "author": "jrayaz",
     "description": "Gantt chart from a Markdown table: WBS rollups, dependencies, critical path, drag to edit, print preview and SVG or PNG export. Works for project plans and study plans. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jrayaz/ganttable"
+  },
+  {
+    "id": "ai-note-agent",
+    "name": "AI Note Agent",
+    "author": "zhang33",
+    "description": "Chat with OpenAI, Claude, DeepSeek or any OpenAI-compatible model in a sidebar and let it read, search, create and edit your notes, with a diff preview and undo for every change. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "open-center/ai-note-agent"
+  },
+  {
+    "id": "bingo-garden",
+    "name": "Bingo Garden",
+    "author": "Bowen Zhang",
+    "description": "Turn tasks into customizable bingo boards with quick entry, automatic icons, and line-completion celebrations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dtta520-cpu/bingo-garden"
+  },
+  {
+    "id": "relive",
+    "name": "Relive",
+    "author": "kywk",
+    "description": "Replay GPX journeys with time- and GPS-matched photos. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kywk/relive"
+  },
+  {
+    "id": "reading-ink",
+    "name": "Reading Ink",
+    "author": "公孫了乙",
+    "description": "Draw and annotate Markdown notes in reading view with a stylus. Save ink in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shengbaiwang/reading-ink"
   }
 ]
