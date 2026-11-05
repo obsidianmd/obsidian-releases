@@ -28749,6 +28749,13 @@
     "repo": "mykyquan/kindle-local-sync"
   },
   {
+    "id": "bible-verse",
+    "name": "Bible Verse",
+    "author": "kilrkrow",
+    "description": "Look up and display Bible verses directly in your notes using the HelloAO Bible API. Supports inline references, code blocks, comparison views, and multiple Bible websites. No API key required. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kilrkrow/obsidian-bible-verse"
+  },
+  {
     "id": "daily-checklist",
     "name": "Daily Checklist",
     "author": "Matt Maiorana",
@@ -36377,13 +36384,6 @@
     "author": "Sharbel Marshi",
     "description": "Embed websites and automatically fill URLs and login credentials when you open them. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sharbelmarshi/obsidian-extended-browser"
-  },
-  {
-    "id": "yaml-editor",
-    "name": "YAML Editor",
-    "author": "Ivan Heitmann",
-    "description": "A structured YAML editor. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "idheitmann/obsidian-yaml-editor"
   },
   {
     "id": "teaser-card",
@@ -54600,13 +54600,6 @@
     "repo": "xcloud-ai/xu-view-mode"
   },
   {
-    "id": "shard-icons",
-    "name": "Shard Icons",
-    "author": "Somonor Hong",
-    "description": "Give folders an icon from the Material Icon Theme, a brand logo or a symbol, right from the file explorer. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "cachewraith/shard-icons"
-  },
-  {
     "id": "automatic-file-icons",
     "name": "Automatic File Icons",
     "author": "Philipp Reichelt",
@@ -65411,7 +65404,7 @@
     "id": "canvas-word-pdf-export",
     "name": "Canvas Word + PDF Export",
     "author": "Henrik Korslind",
-    "description": "Export a canvas to PDF or Word, either as drawn or as running text that follows the arrows. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Export a canvas to PDF or Word (.docx), either as drawn or as running text that follows the arrows. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sm7urw/canvas-word-pdf-export"
   },
   {
@@ -66732,7 +66725,7 @@
   },
   {
     "id": "batch-export",
-    "name": "Batch Export",
+    "name": "Folder to PDF",
     "author": "dingzy53",
     "description": "Export a folder of notes to a single PDF with an outline, contents page, cross-references and unfolded callouts. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dingzy53/obsidian-batch-export"
@@ -69090,6 +69083,13 @@
     "repo": "javimey/obsidian-width-ruler"
   },
   {
+    "id": "world-calendar-notes",
+    "name": "World Calendar Notes",
+    "author": "LilambdCrossing",
+    "description": "Calendar sidebar with daily, weekly, monthly, quarterly and yearly notes, public holidays for 247 countries, and dates in 9 other calendars. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "veniwol-li-lambd/world-calendar-notes"
+  },
+  {
     "id": "ttrpg-sheet-kit",
     "name": "TTRPG Sheet Kit",
     "author": "Antonio Porcelli",
@@ -69457,7 +69457,7 @@
     "id": "word-count-activity-heatmap",
     "name": "Word Count Activity Heatmap",
     "author": "Mk",
-    "description": "GitHub-style heatmap of words written per day. Click a day to see words written vs removed and files created vs removed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A simple GitHub-style heatmap of words written per day. Click a day to see words written vs removed and files created vs removed. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kray404/word-count-activity-heatmap"
   },
   {
@@ -69718,5 +69718,33 @@
     "author": "Jinhan",
     "description": "Prevent duplicate characters when toggling bold or italics during IME composition. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "go-jinhan/obsidian-ime-format-guard"
+  },
+  {
+    "id": "recipe-notes",
+    "name": "Recipe Notes",
+    "author": "Tony Herrera",
+    "description": "Add recipes by answering step-by-step questions, save each one as a note, and keep an overview note with a table of every recipe. Link recipes that go well together to plan meals. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "burningburrito/recipe-notes"
+  },
+  {
+    "id": "refactor-lens",
+    "name": "Refactor Lens",
+    "author": "YJ",
+    "description": "Review Markdown revisions with inline diffs, moved-paragraph detection, a scratchpad, and in-place Codex rewriting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lacemou/RefactorLens"
+  },
+  {
+    "id": "budget-notes",
+    "name": "Budget Notes",
+    "author": "Tony Herrera",
+    "description": "Plan a budget in a note: set a total and drag a slider for each category. Saved as plain text in the note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "burningburrito/budget-notes"
+  },
+  {
+    "id": "pdf-thumbnails",
+    "name": "PDF Thumbnails",
+    "author": "Genglin Zheng",
+    "description": "Render ![[file.pdf]] embeds as a lazy page-thumbnail grid with an in-note lightbox. Powered by pdf.js. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kbmjj123/obsidian-pdf-thumbnails"
   }
 ]
