@@ -69737,7 +69737,7 @@
     "id": "refactor-lens",
     "name": "Refactor Lens",
     "author": "YJ",
-    "description": "Review Markdown revisions with inline diffs, moved-paragraph detection, a scratchpad, and in-place Codex rewriting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Compare Markdown drafts inline, restore deleted text, track moved paragraphs, save ideas, and rewrite with Codex CLI or DeepSeek Harness (dsh). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lacemou/RefactorLens"
   },
   {
@@ -69809,13 +69809,6 @@
     "author": "Rion",
     "description": "Track your vault with Git: auto-commit, diff preview, push and pull. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mffeiron-ai/Obsidian-Rion-git"
-  },
-  {
-    "id": "omnibooks",
-    "name": "OmniBooks",
-    "author": "阿尔旦",
-    "description": "Turn book notes into a cover shelf, reader, timeline and reading stats. Sync highlights and reading time from both Apple Books (macOS) and WeRead. Four layouts on desktop and iPad, two on iPhone. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "0xtack/OmniBooks"
   },
   {
     "id": "simply-scroll-next",
@@ -70040,5 +70033,12 @@
     "author": "rexxall",
     "description": "Count down to TaskNotes due dates and see whether you can still make it, with steps left, the pace you need, when to start, and who you are waiting on. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rexxall/tasknotes-countdown"
+  },
+  {
+    "id": "gdrive-crypt-red",
+    "name": "Google Drive+",
+    "author": "strangeteapot",
+    "description": "Sync your vault across devices through your own Google Drive, end-to-end encrypted and compatible with rclone crypt. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "strangeteapot/gdrive-crypt"
   }
 ]
