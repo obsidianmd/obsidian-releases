@@ -3052,6 +3052,13 @@
     "repo": "reorx/obsidian-paste-image-rename"
   },
   {
+    "id": "obsidian-scroll-offset",
+    "name": "Scroll Offset",
+    "author": "lijyze",
+    "description": "Preserve custom distances before or after cursor.",
+    "repo": "lijyze/scroll-offset"
+  },
+  {
     "id": "execute-code",
     "name": "Execute Code",
     "author": "twibiral",
@@ -41071,14 +41078,14 @@
   {
     "id": "tabbed-blocks",
     "name": "Tabbed Blocks",
-    "author": "Quincy",
+    "author": "Bear",
     "description": "Turn fenced code blocks into switchable tabs, with lazy rendering and syntax aids. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "quincysx/obsidian-markdown-tabs"
   },
   {
     "id": "tracetime",
     "name": "TraceTime",
-    "author": "Quincy",
+    "author": "Bear",
     "description": "Show when each block of a note was last edited. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "quincysx/obsidian-tracetime"
   },
@@ -63644,6 +63651,13 @@
     "repo": "mariomile/obsidian-horizon"
   },
   {
+    "id": "sixtyfourpadgrid",
+    "name": "64 Pad Grid",
+    "author": "Satoshi Nagata",
+    "description": "Draw clickable pad patterns for grid controllers in your notes - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "supezou/64padgrid"
+  },
+  {
     "id": "commonmark-live-preview",
     "name": "CommonMark Live Preview",
     "author": "lruijsink",
@@ -70236,5 +70250,12 @@
     "author": "jiaqian",
     "description": "Syncs files above the 5 MB sync limit through your own Cloudflare R2 or S3-compatible bucket. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bogghi/vault-big-file"
+  },
+  {
+    "id": "gjetr",
+    "name": "Gjetr",
+    "author": "Lasse Jellum",
+    "description": "Run persistent agents in your vault locally or remotely using herdr or herdr-core. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nytafar/obsidian-herdr"
   }
 ]
