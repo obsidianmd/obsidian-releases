@@ -24010,13 +24010,6 @@
     "repo": "qingruikz/image-previewer"
   },
   {
-    "id": "intelligence-assistant",
-    "name": "Intelligence Assistant",
-    "author": "qwai-tech",
-    "description": "AI chat, agents, and MCP tooling for your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "qwai-tech/obsidian-plugin-intelligence-assistant"
-  },
-  {
     "id": "open-in-ide",
     "name": "Open in IDE",
     "author": "Erik-Jan",
@@ -65305,7 +65298,7 @@
   {
     "id": "onenote-native",
     "name": "Live note",
-    "author": "高哲",
+    "author": "zhe-seek",
     "description": "A OneNote-style notebook for Obsidian: infinite block canvas, handwriting, video tools, PDF/EPUB annotations, tables, charts, and formulas. Notes stay Markdown with optional JSON layout sidecars. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhe-seek/world-society"
   },
@@ -66356,7 +66349,7 @@
     "id": "banxin",
     "name": "Banxin Typography",
     "author": "simon chen",
-    "description": "像 Word 一样用图形界面排版中文笔记：中文字号、中英文分字体、行距、首行缩进、标题自动编号，内置国标公文、学术论文模板。Chinese typography for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "版心（banxin），让您像用 Word 一样用图形界面排版中文笔记：中文字号、中英文分字体、行距、首行缩进、标题自动编号，内置国标公文、学术论文模板。Chinese typography for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "simoneven/obsidian-banxin"
   },
   {
@@ -68034,7 +68027,7 @@
   },
   {
     "id": "basic-ai-tool-for-writers",
-    "name": "Basic AI Tool for Writers",
+    "name": "Basic",
     "author": "Alan D. Darfin",
     "description": "Customizable Obsidian writing suite: Longform, optional modules, AI review, LanguageTool, Markdown tools, snapshots and diagnostics. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alandarfin/Basic-AI-Tools-For-Writers"
@@ -69902,13 +69895,6 @@
     "repo": "rogerfan48/recursive-fold"
   },
   {
-    "id": "local-vault-agent",
-    "name": "Local Vault Agent",
-    "author": "Tony Peonio",
-    "description": "Search, compile and edit your notes with a fully local AI agent powered by Ollama. Every change is shown as a diff for approval before it is written. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tonypeonio/obsidian-local-vault-agent"
-  },
-  {
     "id": "svg-studio",
     "name": "SVG Studio",
     "author": "Johannes Kaindl",
@@ -69984,5 +69970,54 @@
     "author": "Tim Kovalev",
     "description": "Sync your vault through your own server, with full git history, conflict-aware merges and optional MCP access for AI agents. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kovalevtech/obsidian-rock-sync"
+  },
+  {
+    "id": "permanent-links",
+    "name": "Permanent Links",
+    "author": "Michael Naumov",
+    "description": "Give a note or an attachment a permanent key on request, and open it through a link that keeps working wherever the file moves. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-permanent-links"
+  },
+  {
+    "id": "tag-notes",
+    "name": "Tag Notes",
+    "author": "Michael Naumov",
+    "description": "Make every tag a note: tag a note by linking it, with a tag hierarchy, a tag tree with counts, subtree search and a migration from existing tags. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-tag-notes"
+  },
+  {
+    "id": "summary-base-view",
+    "name": "Simple Summary Base View",
+    "author": "Jared Cherup",
+    "description": "Render grouped summary tables from Bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jarbochov/summary-base-view"
+  },
+  {
+    "id": "not-today",
+    "name": "Not Today",
+    "author": "Alan Victor",
+    "description": "A panic button for urges: surf the wave, fight any vice with a countermeasure, and log the fight to your daily note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alan-veras/not-today"
+  },
+  {
+    "id": "custom-furigana",
+    "name": "Custom Furigana",
+    "author": "robin",
+    "description": "Add automatic and authored Japanese furigana with JLPT colors and local Korean-English dictionaries. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dnfto/custom-furigana"
+  },
+  {
+    "id": "indexed-search",
+    "name": "Indexed Search",
+    "author": "Michael Naumov",
+    "description": "Makes core Search fast on large vaults, with the same results, through a trigram index kept in IndexedDB. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mnaoumov/obsidian-indexed-search"
+  },
+  {
+    "id": "related-tag-suggestions",
+    "name": "Related Tag Suggestions",
+    "author": "masavo",
+    "description": "Sort native tags suggestions by frequency, recent additions, or name. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "masavo/obsidian-related-tag-suggestions"
   }
 ]
