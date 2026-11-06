@@ -38927,6 +38927,13 @@
     "repo": "mehulg/airtable-tabula"
   },
   {
+    "id": "code-linker",
+    "name": "Code Linker",
+    "author": "max-fluff",
+    "description": "Deep-link your notes to your source code. Autocomplete a symbol and jump to the exact line in your IDE (VS Code, JetBrains) or a GitHub/GitLab permalink. Embed live code snippets. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "max-fluff/obsidian-code-linker"
+  },
+  {
     "id": "pg",
     "name": "Postgres DB",
     "author": "Arghyahub",
@@ -40761,11 +40768,25 @@
     "repo": "westb-dev/Solomon-Chat"
   },
   {
+    "id": "heading-linker",
+    "name": "Heading Linker",
+    "author": "max-fluff",
+    "description": "Auto-link unlinked mentions in your notes to headings in your glossary files, in any word form: plurals, declensions, verb endings, with stemming for six languages. Convert them to real wiki links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "max-fluff/obsidian-heading-linker"
+  },
+  {
     "id": "expiry-manager",
     "name": "Expiry Manager",
     "author": "Sahil A",
     "description": "Track anything that expires, renews, or needs periodic attention. Manage subscriptions, documents, licenses, and more. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sahilium/expiry-manager"
+  },
+  {
+    "id": "reference-linker",
+    "name": "Reference Linker",
+    "author": "max-fluff",
+    "description": "Deep-link your notes to PDFs, Office files, and images outside your vault. Autocomplete a document or a PDF section and jump to the exact page. Hover to preview the page, embed it inline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "max-fluff/obsidian-reference-linker"
   },
   {
     "id": "digital-dogear",
@@ -43510,13 +43531,6 @@
     "author": "Ben Hancock",
     "description": "Replaces today's Daily Note tab icon with a solid yellow star. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "benhancock/daily-note-icon"
-  },
-  {
-    "id": "bastion",
-    "name": "Bastion",
-    "author": "Chad Kirkendall",
-    "description": "Bastion turns your Obsidian vault into a full command center — AI search, tasks, projects, a calendar, and dashboards — without asking you to restructure a single note. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "nerdsanddragons/bastion-obsidian-plugin"
   },
   {
     "id": "convert-to-markdown",
@@ -57779,7 +57793,7 @@
   },
   {
     "id": "tikz",
-    "name": "TikZ",
+    "name": "Native TikZ",
     "author": "dingzy53",
     "description": "Render TikZ code blocks with your locally installed TeX distribution (TeX Live, MacTeX, MiKTeX) instead of a browser WASM engine. Full TikZ, real compiler logs, transparent caching. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dingzy53/obsidian-tikz"
@@ -67090,9 +67104,9 @@
   {
     "id": "dm-screen",
     "name": "DM Screen",
-    "author": "Walker Brown",
+    "author": "wickedcreativesystems",
     "description": "Put the table on your players' phones: turn order, clocks and rolls, live from your notes. They open a link or scan a code, nothing to install. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "walkertbrown/dm-screen"
+    "repo": "wickedcreativesystems/dm-screen"
   },
   {
     "id": "notes-activity-calendar",
@@ -70196,10 +70210,31 @@
     "repo": "leftlive/mapdown"
   },
   {
+    "id": "quickcolour",
+    "name": "Quick colour highlights",
+    "author": "Charlotte",
+    "description": "Set your own keys to quickly change highlight colours - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "charlotteharrison1/quickColour-Obsidian"
+  },
+  {
     "id": "garmidian",
     "name": "Garmy",
     "author": "dimagious",
     "description": "Build a Garmin dashboard in a few clicks: paste a Personal API key, pick sports and metrics, insert a ready Dashy dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dimagious/garmidian"
+  },
+  {
+    "id": "event-notes",
+    "name": "Event Notes",
+    "author": "scott-chen",
+    "description": "Keep events and project tasks as Markdown notes linked from your Daily Notes, and see them in a calendar and Gantt chart. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rightson/obsidian-event-notes"
+  },
+  {
+    "id": "vault-big-file",
+    "name": "Vault big file",
+    "author": "jiaqian",
+    "description": "Syncs files above the 5 MB sync limit through your own Cloudflare R2 or S3-compatible bucket. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bogghi/vault-big-file"
   }
 ]
