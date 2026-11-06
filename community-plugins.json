@@ -14049,13 +14049,6 @@
     "repo": "makebit/obsidian-readeck-importer"
   },
   {
-    "id": "data-files-editor",
-    "name": "Data Files Editor",
-    "author": "zuktol",
-    "description": "Create and edit .txt, .json and .xml files.",
-    "repo": "zuktol/obsidian-data-files-editor"
-  },
-  {
     "id": "new-note-fixer",
     "name": "New Note Fixer",
     "author": "Michael Naumov",
@@ -68621,6 +68614,13 @@
     "repo": "neurasthenickid/Manifest"
   },
   {
+    "id": "plugin-radar",
+    "name": "Community Radar",
+    "author": "Ali Tekdemir",
+    "description": "Discover new and updated community plugins, find the ones that came back after a long pause, and track the ones you care about as notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alitekdemir/obsidian-community-radar"
+  },
+  {
     "id": "inline-preview",
     "name": "Inline Preview",
     "author": "Manuel Niehues",
@@ -69632,7 +69632,7 @@
     "id": "copy-color",
     "name": "Copy Color",
     "author": "NotAVirus",
-    "description": "Show a color swatch next to color codes in your notes. Click to copy. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Show a color swatch in your notes. Click to copy, or convert between color formats. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "klaegkev/obsidian-copy-color"
   },
   {
@@ -70243,5 +70243,26 @@
     "author": "Okami",
     "description": "Create journal entries from a template, file them into year and month folders, and browse them all from one hub. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "marturojt/obsidian-journal-hub"
+  },
+  {
+    "id": "gunsnprices",
+    "name": "GunsNPrices",
+    "author": "GunsNPrices",
+    "description": "Turn gun and ammo listing titles into spec tables, total an ammo purchase log with cost per round, and normalize calibers. Works offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gunsnprices/obsidian-gunsnprices"
+  },
+  {
+    "id": "questify-rpg",
+    "name": "Questify RPG",
+    "author": "Nick_Name",
+    "description": "Track personal quests, earn XP, level up, and manage achievements in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "beberbebrovich-hub/Questify-RPG"
+  },
+  {
+    "id": "avificator",
+    "name": "AVIFicator",
+    "author": "wflm",
+    "description": "Convert images you add to notes to AVIF with ImageMagick, and rename them using a template based on the note title and date. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wflm/obsidian-avificator"
   }
 ]
