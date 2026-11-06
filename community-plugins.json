@@ -21185,7 +21185,7 @@
     "id": "library",
     "name": "Library",
     "author": "venv",
-    "description": "Movies, series, anime, books, games, music and YouTube videos as Markdown notes in a gallery of covers. Search fills in each note; AniList, IMDb, Netflix, YouTube, Trakt and Steam sync your lists. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Movies, series, anime, books, audiobooks, games, music, videos and NFTs as Markdown notes in a gallery of covers. Search fills in each note; AniList, IMDb, Netflix, Trakt and Steam sync your lists - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "venvk/obsidian-library-plugin"
   },
   {
@@ -55653,7 +55653,7 @@
     "id": "dashsidian",
     "name": "Dashy",
     "author": "dimagious",
-    "description": "Dashboard blocks for your notes: tiles, number cards, progress bars, a day row, countdowns and a year heatmap. Configured in YAML, no JavaScript. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Describe a dashboard, and your AI agent builds it in your note. Charts, habit streaks, heatmaps and goals from note properties, in YAML you can edit. No JavaScript, no Dataview, works on your phone. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dimagious/dashsidian"
   },
   {
@@ -67055,9 +67055,9 @@
   {
     "id": "tabletop-clocks",
     "name": "Tabletop Clocks",
-    "author": "Walker Brown",
+    "author": "wickedcreativesystems",
     "description": "Segmented progress clocks for tabletop games, drawn from plain text in a note. Click a segment to tick it, race two clocks, and the note keeps the count. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "walkertbrown/tabletop-clocks"
+    "repo": "wickedcreativesystems/tabletop-clocks"
   },
   {
     "id": "pkmrag",
@@ -70126,10 +70126,31 @@
     "repo": "tvolden/obsidian-fountain-codeblock"
   },
   {
+    "id": "papersync",
+    "name": "Papersync",
+    "author": "Papersync",
+    "description": "Sync handwritten scans from Google Drive, iCloud Drive, or any synced folder into your vault as Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "papersync/obsidian-papersync"
+  },
+  {
     "id": "flow-linear",
     "name": "Flow Linear",
     "author": "tavva",
     "description": "Add Linear tickets to Flow's Focus list and complete them when they're done in Linear. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tavva/flow-linear"
+  },
+  {
+    "id": "thoughtfree",
+    "name": "ThoughtFree",
+    "author": "wholenessmedia",
+    "description": "Keep your ThoughtFree thoughts in your vault, one note each, in the folders you choose. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wholenessmedia/thoughtfree-obsidian"
+  },
+  {
+    "id": "math-autocomplete",
+    "name": "Math Autocomplete",
+    "author": "emillaursen2004",
+    "description": "LaTeX autocomplete inside math with rendered previews, ranked by your own notes, plus proof and question templates with Tab placeholders and solution routes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "emil513t/obsidian-math-autocomplete"
   }
 ]
