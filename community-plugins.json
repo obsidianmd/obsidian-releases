@@ -8584,7 +8584,7 @@
   {
     "id": "copy-without-links",
     "name": "Strip Internal Links",
-    "author": "adiron",
+    "author": "Adi Ron",
     "description": "Copy the contents of files or selections within to the clipboard, without internal links.",
     "repo": "adiron/obsidian-strip-internal-links"
   },
@@ -51709,6 +51709,13 @@
     "repo": "hellokunzai/obsidian-vault-encrypted"
   },
   {
+    "id": "color-math",
+    "name": "Color Math",
+    "author": "Aditya",
+    "description": "Automatically apply semantic colors to LaTeX and MathJax equations in Obsidian Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "36ty-blip/obsidian-color-math"
+  },
+  {
     "id": "dependent-properties",
     "name": "Dependent Properties",
     "author": "Dirk Osburg",
@@ -66062,7 +66069,7 @@
     "id": "syntax-palette",
     "name": "Syntax Palette",
     "author": "Frank",
-    "description": "Desktop-only syntax coloring for Markdown fenced code, with 15 theme families and optional backgrounds, line numbers, and editor wrapping. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Syntax coloring for Markdown fenced code, with 15 theme families and optional backgrounds, line numbers, and editor wrapping. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bilibilijojo/obsidian-syntax-palette"
   },
   {
@@ -67753,13 +67760,6 @@
     "repo": "wickedcreativesystems/mapsmith"
   },
   {
-    "id": "llm-wiki-tutor",
-    "name": "LLM Wiki Tutor",
-    "author": "Elliott Park",
-    "description": "Learn the basics and build your first LLM Wiki with a pixel cat that walks your workspace, points at what to click, waits until you have done it and helps if you get stuck. No AI key needed. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "elliott-json-park/obsidian-llm-wiki-tutor"
-  },
-  {
     "id": "github-sync-zev",
     "name": "GitHub Sync - Zev",
     "author": "Zev",
@@ -68827,7 +68827,7 @@
     "id": "logic-electric-circuit-builder",
     "name": "Logic-Electric Circuit Builder",
     "author": "Hamza Martin",
-    "description": "Create electrical and logic schematics with explicit connections, touch controls, and portable SVG exports. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Design electrical and logic circuits with 72 symbols, custom blocks and smart wire routing. Keep editable diagrams in your notes, or export SVG/PNG. Offline on desktop, tablet and phone. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hamzamrtn/logic-electric-circuit-builder"
   },
   {
@@ -69324,7 +69324,7 @@
     "id": "knowledge-graph-smoke",
     "name": "Knowledge Map",
     "author": "何大哥",
-    "description": "Vault-wide knowledge map with drag-and-drop layout that survives file renames and folder restructures. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Explore folders, notes and headings as a nested map with links, previews and editable layouts. Desktop and iPadOS. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xidianhush/knowledge-graph-obsidian-plugin"
   },
   {
@@ -70252,6 +70252,13 @@
     "repo": "wflm/obsidian-avificator"
   },
   {
+    "id": "auto-ui-injector",
+    "name": "Auto UI Injector",
+    "author": "Ljavuras",
+    "description": "Automatically inject UI to notes without modifying their content. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ljavuras/auto-ui-injector"
+  },
+  {
     "id": "camera-capture",
     "name": "Camera Capture",
     "author": "David Galevski",
@@ -70355,5 +70362,40 @@
     "author": "prometheus-maker",
     "description": "Keep base filters and formulas working when you rename or move a note: updates link(), [[links]] and file name checks inside .base files and base blocks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "prometheus-maker/bases-rename-sync"
+  },
+  {
+    "id": "vscode-workbench",
+    "name": "VS Code Workbench",
+    "author": "Dan",
+    "description": "Open vault code files in a real VS Code editor (code serve-web) inside a tab, with VS Code's own terminal in a drawer at the bottom. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "danrfletcher/obsidian-vscode-workbench"
+  },
+  {
+    "id": "monthly-markdown-calendar",
+    "name": "Monthly Markdown Calendar",
+    "author": "lwg342",
+    "description": "View a monthly calendar backed by local Markdown files and edit entries in the native editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lwg342/obsidian-monthly-view"
+  },
+  {
+    "id": "lissex-vault-scope",
+    "name": "VaultScope",
+    "author": "lissex",
+    "description": "A calm dashboard for notes, planning, and activity. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lissex/VaultScope"
+  },
+  {
+    "id": "english-word-boundaries",
+    "name": "English Word Boundaries",
+    "author": "Adi Ron",
+    "description": "Treat apostrophes inside words (can't, won't) as part of the word when deleting or moving by word. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "adiron/obsidian-english-word-boundaries"
+  },
+  {
+    "id": "recordnote",
+    "name": "RecordNote",
+    "author": "Jialin",
+    "description": "Transcribe audio recordings and organize them into summaries, action items, and Markdown notes with AI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "0xcjl/RecordNote"
   }
 ]
