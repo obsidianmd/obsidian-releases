@@ -29239,13 +29239,6 @@
     "repo": "korthomasjeong/Osync-p"
   },
   {
-    "id": "vault-chat-agent",
-    "name": "Vault Chat Agent",
-    "author": "Evgenii Bykovskikh",
-    "description": "Chat with an AI assistant that can search your vault, inspect notes, and prepare edits for review - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "redzumi/vault-chat-agent"
-  },
-  {
     "id": "image-tab-zoom",
     "name": "Image Tab Zoom",
     "author": "jochenbernard",
@@ -29617,6 +29610,13 @@
     "repo": "caezium/obsidian-spotify-control"
   },
   {
+    "id": "monthly-tasks",
+    "name": "Monthly Tasks",
+    "author": "duany",
+    "description": "滴答清单风格的月视图任务管理插件，支持农历、节假日和调休显示 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "duany2026/obsidian-monthly-tasks"
+  },
+  {
     "id": "korean-movie-search",
     "name": "Korean Movie Search",
     "author": "shin-young-in",
@@ -29951,13 +29951,6 @@
     "author": "LJ OS",
     "description": "Create Markdown-based trackers with tappable buttons that log timestamped rows to monthly CSV files, with summaries, dashboards, and settings-based editing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ljrobinson/TapLog"
-  },
-  {
-    "id": "memos-view",
-    "name": "Memos View",
-    "author": "likemuuxi",
-    "description": "A flomo-inspired memos stream built from your daily notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "likemuuxi/obsidian-memos-view"
   },
   {
     "id": "vault-okr-manager",
@@ -43610,13 +43603,6 @@
     "repo": "lukewowo/obsidian-gcal"
   },
   {
-    "id": "doc-sanctum",
-    "name": "DocSanctum",
-    "author": "Sangchul Lee",
-    "description": "Search and browse your DocSanctum knowledge base from Obsidian via MCP. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "docsanctum/doc-sanctum-obsidian"
-  },
-  {
     "id": "close-and-switch-to-recent-tab",
     "name": "Close and Switch to Recent Tab",
     "author": "xzhi",
@@ -45729,13 +45715,6 @@
     "author": "devsdocs",
     "description": "Automatically convert pasted Spotify and YouTube links into embedded players. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "devsdocs/obsidian_media_embed"
-  },
-  {
-    "id": "tasknotes-views",
-    "name": "TaskNotes Views",
-    "author": "Dave Smith",
-    "description": "Adds project progress views to TaskNotes project notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "thisisthedave/tasknotes-views"
   },
   {
     "id": "hemi-sync-helper",
@@ -70355,5 +70334,26 @@
     "author": "parapple",
     "description": "Learn inside your notes: contextual explanations, recall with feedback, and in-document interaction, powered by the Pi agent runtime. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "edwinzhancn/obsidian-icap-agent"
+  },
+  {
+    "id": "total-sync",
+    "name": "TotalSync",
+    "author": "Timur Belov",
+    "description": "Sync notes, attachments and selected vault settings with Mail Cloud WebDAV. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jesterspot1-svg/total-sync"
+  },
+  {
+    "id": "classic-line-moves",
+    "name": "Classic Line Moves",
+    "author": "prometheus-maker",
+    "description": "Move or indent just the current line, the way it worked before 1.15. List children, blank lines and other list items stay where they are. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "prometheus-maker/classic-line-moves"
+  },
+  {
+    "id": "bases-rename-sync",
+    "name": "Bases Rename Sync",
+    "author": "prometheus-maker",
+    "description": "Keep base filters and formulas working when you rename or move a note: updates link(), [[links]] and file name checks inside .base files and base blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "prometheus-maker/bases-rename-sync"
   }
 ]
