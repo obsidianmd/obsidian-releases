@@ -1052,7 +1052,7 @@
   {
     "id": "obsidian-underline",
     "name": "Underline",
-    "author": "benature",
+    "author": "Benature",
     "description": "Add underline with shortcut.",
     "repo": "benature/obsidian-underline"
   },
@@ -1283,7 +1283,7 @@
   {
     "id": "obsidian-text-format",
     "name": "Text Format",
-    "author": "benature",
+    "author": "Benature",
     "description": "Format selected text upper/lower/capitalize.",
     "repo": "benature/obsidian-text-format"
   },
@@ -8633,7 +8633,7 @@
   {
     "id": "metadata-hider",
     "name": "Metadata Hider",
-    "author": "benature",
+    "author": "Benature",
     "description": "Hide specific metadata property or if its value is empty.",
     "repo": "benature/obsidian-metadata-hider"
   },
@@ -9053,7 +9053,7 @@
   {
     "id": "share-my-plugin-list",
     "name": "Share my plugin list",
-    "author": "benature",
+    "author": "Benature",
     "description": "Share the enabled plugins in list/table format.",
     "repo": "benature/obsidian-share-my-plugin-list"
   },
@@ -9319,7 +9319,7 @@
   {
     "id": "metadata-icon",
     "name": "Metadata Icon",
-    "author": "benature",
+    "author": "Benature",
     "description": "Set custom icons for your properties.",
     "repo": "benature/obsidian-metadata-icon"
   },
@@ -9396,7 +9396,7 @@
   {
     "id": "plugin-reloader",
     "name": "Plugin Reloader",
-    "author": "benature",
+    "author": "Benature",
     "description": "Manually reload plugins.",
     "repo": "benature/obsidian-plugin-reloader"
   },
@@ -9781,7 +9781,7 @@
   {
     "id": "default-query-in-backlink",
     "name": "Default query in backlinks",
-    "author": "benature",
+    "author": "Benature",
     "description": "Automatically input default query in search input of backlinks in document.",
     "repo": "benature/obsidian-default-query-in-backlink"
   },
@@ -10089,7 +10089,7 @@
   {
     "id": "automation",
     "name": "Automation",
-    "author": "benature",
+    "author": "Benature",
     "description": "Execute commands on specific events.",
     "repo": "benature/obsidian-automation"
   },
@@ -10246,13 +10246,6 @@
     "author": "tfthacker",
     "description": "AI Extension for the Templater plugin with the OpenAI Client Library.",
     "repo": "tfthacker/obsidian-ai-templater"
-  },
-  {
-    "id": "systemsculpt-ai",
-    "name": "SystemSculpt AI",
-    "author": "systemsculpt",
-    "description": "Chat with your vault using your own Claude Code or Codex on desktop, or hosted AI. The AI agent edits notes with your approval, transcribes audio and finds related notes. Free to start.",
-    "repo": "systemsculpt/obsidian-systemsculpt-ai"
   },
   {
     "id": "markpilot",
@@ -27053,13 +27046,6 @@
     "author": "Sébastien Dubois",
     "description": "Export books (one manifest note + linked chapter notes) to EPUB and PDF via Pandoc. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dsebastien/obsidian-book-exporter"
-  },
-  {
-    "id": "global-book-search",
-    "name": "Global Book Search",
-    "author": "ducktapekiller",
-    "description": "Search for books in Google Books, Goodreads, Open Library and local Calibre libraries to create notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ducktapekiller/global-book-search"
   },
   {
     "id": "shopping-list-automatic-reorder",
@@ -48622,6 +48608,13 @@
     "repo": "brookzeng2023/obsidian-latex-studio"
   },
   {
+    "id": "chess-repertoire",
+    "name": "Chess Repertoire",
+    "author": "moise",
+    "description": "Import a PGN, annotate lines with notes, arrows and move classifications, then drill them back with hints and a report of what you got wrong. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "moise-dev/obsidian-chess-repertoire"
+  },
+  {
     "id": "auto-heading-numbers",
     "name": "Auto Heading Numbers",
     "author": "gaofeng",
@@ -65317,6 +65310,13 @@
     "repo": "leroyw1e/home-llm"
   },
   {
+    "id": "planfold",
+    "name": "Planfold",
+    "author": "remi",
+    "description": "Plan your days, weeks, months and years in plain Markdown, from one home page with to-dos, moods and habits. (Closed source) - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "remi-huang/planfold"
+  },
+  {
     "id": "good-tables",
     "name": "Good Tables",
     "author": "신동준",
@@ -68152,6 +68152,13 @@
     "repo": "confuserdotcom/obsidian-pdf-zathura"
   },
   {
+    "id": "zhaohua-xishi",
+    "name": "Zhaohua Xishi",
+    "author": "Tangerine.Cat",
+    "description": "Revisit journal entries, save reflections to today's note, read notes as books, and export notes or selected passages as images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tangerine-cat888/zhaohua-xishi"
+  },
+  {
     "id": "rainbow-aloha",
     "name": "Rainbow Aloha",
     "author": "Giacomo D’angelo",
@@ -70318,7 +70325,7 @@
     "id": "raindown",
     "name": "Raindown",
     "author": "Raindown",
-    "description": "Write back tables of contents, file lists, components and charts into your notes as you save them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Write back table of contents, lists, tables, charts and components into your notes as you save them. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rainpour/raindown-obsidian"
   },
   {
@@ -70395,7 +70402,7 @@
     "id": "ai-chatbridge",
     "name": "AI ChatBridge",
     "author": "Sundowna",
-    "description": "Sync your claude.ai and ChatGPT chats into your vault as raw JSON plus a readable Markdown transcript. Read-only and unofficial. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync your claude.ai and ChatGPT chats into your vault, including uploads, files & artifacts. Read-only and unofficial. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sundowna/obsidian-ai-chatbridge"
   },
   {
@@ -70406,10 +70413,31 @@
     "repo": "n-kort/task-block"
   },
   {
+    "id": "random-note-filters",
+    "name": "Random Note Filters",
+    "author": "siulved54",
+    "description": "Open or link a random note from a folder, tag, property or the current search results. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "perezamadorluisenrique-gif/random-note-filters"
+  },
+  {
     "id": "property-date-format",
     "name": "Property Date Format",
     "author": "prometheus-maker",
     "description": "Show and type dates in Properties in your own format (DD.MM.YYYY, 24-hour time, ...), independent of your system language. Notes keep the standard value. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "prometheus-maker/property-date-format"
+  },
+  {
+    "id": "notice-history",
+    "name": "Notification History",
+    "author": "prometheus-maker",
+    "description": "Keeps every pop-up notification from Obsidian and your plugins, so you can read the ones that vanished too fast. Bell in the status bar, ribbon and command. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "prometheus-maker/notice-history"
+  },
+  {
+    "id": "tikz-native",
+    "name": "TikZ Native",
+    "author": "Oulin Yang",
+    "description": "Render TikZ with local LaTeX, automatic PDF-to-SVG converter discovery and fallback. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "oulin-yang/obsidian-tikz-native"
   }
 ]
