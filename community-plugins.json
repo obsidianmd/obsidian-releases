@@ -38577,6 +38577,13 @@
     "repo": "maplecheng/obsidian-mirror-archive"
   },
   {
+    "id": "galaxy-graph",
+    "name": "Galaxy Graph",
+    "author": "zachfara",
+    "description": "See your vault as a navigable 3D galaxy, where each linked neighbourhood glows in its own colour. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zachfara/galaxy-graph"
+  },
+  {
     "id": "jira-sync-dashboard",
     "name": "Jira Sync Projects Issues Dashboard",
     "author": "Nabheet Madan",
@@ -44924,13 +44931,6 @@
     "author": "IO",
     "description": "Export obsidian notes as single-page PDF without page breaks. Height is auto-calculated from content. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ilinuxio/obsidian-single-page-pdf"
-  },
-  {
-    "id": "graph-spawn",
-    "name": "Graph Spawn",
-    "author": "Taylor Scott",
-    "description": "Seeds each disconnected cluster of the graph at its own starting position, so components do not spawn on top of each other and stay tangled. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tjqscott/obsidian-graph-spawn"
   },
   {
     "id": "plugins-control",
@@ -70264,5 +70264,26 @@
     "author": "wflm",
     "description": "Convert images you add to notes to AVIF with ImageMagick, and rename them using a template based on the note title and date. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wflm/obsidian-avificator"
+  },
+  {
+    "id": "camera-capture",
+    "name": "Camera Capture",
+    "author": "David Galevski",
+    "description": "Take a photo with your device's camera from the editor menu and embed it at the cursor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "becutandavid/obsidian-camera-capture"
+  },
+  {
+    "id": "print-section",
+    "name": "Print Section",
+    "author": "Charette-AI-Group",
+    "description": "Print just part of a note — the selection, or the section under the cursor — to paper or PDF through the system print dialog, rendered as in Reading view, with page numbers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "charette-ai-group/print-section"
+  },
+  {
+    "id": "betbetter-odds-tools",
+    "name": "Bet Better Odds Tools",
+    "author": "Bet Better",
+    "description": "Convert sports odds and work out the bookmaker margin inside a note. Offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "edushinka/betbetter-obsidian"
   }
 ]
