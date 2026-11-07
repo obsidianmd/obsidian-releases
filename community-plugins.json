@@ -16954,13 +16954,6 @@
     "repo": "shaharyar-developer/remote-fetch"
   },
   {
-    "id": "xiangqi",
-    "name": "Chinese Chess",
-    "author": "weshell",
-    "description": "Chinese chess (xiangqi 象棋) variation tree.",
-    "repo": "west-shell/obsidian-xiangqi"
-  },
-  {
     "id": "yandex-tracker-issue",
     "name": "Yandex Tracker Issue",
     "author": "cubieprog",
@@ -29620,14 +29613,14 @@
     "id": "monthly-tasks",
     "name": "Monthly Tasks",
     "author": "duany",
-    "description": "滴答清单风格的月视图任务管理插件，支持农历、节假日和调休显示 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Manage tasks in a TickTick-style month, week, and three-day timeline, with Chinese lunar dates, public holidays, and makeup workdays. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "duany2026/obsidian-monthly-tasks"
   },
   {
     "id": "important-days",
     "name": "Important Days",
     "author": "duany",
-    "description": "记录生活中的重要日子，支持纪念日、生日倒计时，农历公历互转，属相星座显示 - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Count down to anniversaries, birthdays, and recurring events, with Chinese lunar dates, zodiac signs, and Chinese zodiac animals, all stored in a plain Markdown note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "duany2026/important-days"
   },
   {
@@ -61313,6 +61306,13 @@
     "repo": "theluckystrike/bases-read-only"
   },
   {
+    "id": "easy-quiz",
+    "name": "EasyQuiz",
+    "author": "Anking Lin",
+    "description": "Markdown-native quiz practice: write questions as plain Markdown and practice them in a rendered card UI, with attempt records written back into the note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ankinglin/EasyQuiz"
+  },
+  {
     "id": "boot-booster",
     "name": "Boot Booster",
     "author": "kgway",
@@ -67606,6 +67606,13 @@
     "repo": "rexxall/obsidian-polyglot-helper"
   },
   {
+    "id": "video-summary",
+    "name": "Video Summary",
+    "author": "rexxall",
+    "description": "Turn video links, local recordings and transcripts into notes with a summary, a timestamped transcript and key points, processed by a backend you run. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rexxall/obsidian-video-summary"
+  },
+  {
     "id": "pass-countdown",
     "name": "Pass Countdown",
     "author": "rexxall",
@@ -70537,5 +70544,19 @@
     "author": "Artemiadze",
     "description": "Local-first AI chat and semantic search over your Vault. No cloud APIs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "artemiadze/prometheus"
+  },
+  {
+    "id": "pdf-preview-print",
+    "name": "PDF Preview Print",
+    "author": "H9-",
+    "description": "See a note as PDF pages before saving it, and print it. Choose paper, margins, colour or black and white, and keep every empty line. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "h9-g/pdf-preview-print"
+  },
+  {
+    "id": "leetany",
+    "name": "LeetAny",
+    "author": "Aital Unarov",
+    "description": "Solve Python, C++, Rust, and Go exercises alongside your course notes and check your answers with local tests. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aitalun/LeetAny"
   }
 ]
