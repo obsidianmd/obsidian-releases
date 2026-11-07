@@ -10248,6 +10248,13 @@
     "repo": "tfthacker/obsidian-ai-templater"
   },
   {
+    "id": "systemsculpt-ai",
+    "name": "SystemSculpt AI",
+    "author": "systemsculpt",
+    "description": "Chat with your vault using your own Claude Code or Codex on desktop, or hosted AI. The AI agent edits notes with your approval, transcribes audio and finds related notes. Free to start.",
+    "repo": "systemsculpt/obsidian-systemsculpt-ai"
+  },
+  {
     "id": "markpilot",
     "name": "Markpilot",
     "author": "taichimaeda",
@@ -27615,6 +27622,13 @@
     "repo": "caulfieldsbrain/shadowdark-statblocks"
   },
   {
+    "id": "opencode",
+    "name": "OpenCode",
+    "author": "krisspy",
+    "description": "Use OpenCode CLI without leaving your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kriss-spy/obsidian-opencode"
+  },
+  {
     "id": "claude-panel-ryukyuhub",
     "name": "Claude Panel",
     "author": "Ryukyu HUB Inc.",
@@ -36272,13 +36286,6 @@
     "author": "zoupuyo",
     "description": "Browse Daily Notes in week and month calendars with rich Markdown previews in each day cell. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zoupuyo-obsidian/obsidian-daily-preview-calendar"
-  },
-  {
-    "id": "ratel-vault",
-    "name": "Ratel",
-    "author": "golddream-y",
-    "description": "Graph-native AI agent for your notes. Chat with cited search, run multi-step research, keep memory and skills, edit under permission. DeepSeek, Claude, or Ollama. Local embeddings, no telemetry. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "golddream-y/obsidian-ratel"
   },
   {
     "id": "readlog",
@@ -51877,13 +51884,6 @@
     "repo": "monday-cat/ai-work-review"
   },
   {
-    "id": "class-timetable",
-    "name": "Class Timetable",
-    "author": "Elliott Park",
-    "description": "Weekly class schedule and to-do list for students: exams and assignment deadlines in your sidebar. Paste your timetable or import .ics, open lecture notes in one click. Desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "elliott-json-park/obsidian-class-timetable"
-  },
-  {
     "id": "graphviz",
     "name": "Graphviz View",
     "author": "jw0785",
@@ -61292,13 +61292,6 @@
     "repo": "theluckystrike/bases-read-only"
   },
   {
-    "id": "easy-quiz",
-    "name": "EasyQuiz",
-    "author": "Anking Lin",
-    "description": "Markdown-native quiz practice: write questions as plain Markdown and practice them in a rendered card UI, with attempt records written back into the note. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ankinglin/EasyQuiz"
-  },
-  {
     "id": "boot-booster",
     "name": "Boot Booster",
     "author": "kgway",
@@ -69275,7 +69268,7 @@
     "id": "softmatcha-search",
     "name": "SoftMatcha Search",
     "author": "Yuiga Wada",
-    "description": "Find English and Japanese Markdown passages with local semantic search and highlighted matches. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Fast, powerful local vector search. Find passages beyond exact words, with highlighted matches. English & Japanese, desktop & mobile. No API key or server. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuigawada/obsidian-softmatcha"
   },
   {
@@ -69459,13 +69452,6 @@
     "author": "Ruan",
     "description": "Shows whether each Discovery product is worth what you pay, using your own Budget notes and only the benefits you actually use. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ruanpienaarcode/Is-Discovery-Worth-it-"
-  },
-  {
-    "id": "booklet",
-    "name": "Booklet",
-    "author": "Benjamin Armstrong III",
-    "description": "Opens a Booklet note in a view of its own, and writes the answers given there into the note's records section. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "benthepsychologist/booklet-obsidian"
   },
   {
     "id": "to-substack",
@@ -70168,13 +70154,6 @@
     "repo": "leftlive/mapdown"
   },
   {
-    "id": "quickcolour",
-    "name": "Quick colour highlights",
-    "author": "Charlotte",
-    "description": "Set your own keys to quickly change highlight colours - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "charlotteharrison1/quickColour-Obsidian"
-  },
-  {
     "id": "garmidian",
     "name": "Garmy",
     "author": "dimagious",
@@ -70439,5 +70418,12 @@
     "author": "Oulin Yang",
     "description": "Render TikZ with local LaTeX, automatic PDF-to-SVG converter discovery and fallback. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "oulin-yang/obsidian-tikz-native"
+  },
+  {
+    "id": "tag-relation",
+    "name": "Tag Relation",
+    "author": "bugstack27",
+    "description": "Show a right sidebar panel listing notes that share tags with the current note, grouped by shared tag sets. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bugstack27/obsidian-tag-relation"
   }
 ]
