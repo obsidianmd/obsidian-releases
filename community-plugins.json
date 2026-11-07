@@ -26586,13 +26586,6 @@
     "repo": "neves007/line-ref-copier"
   },
   {
-    "id": "karpathywiki",
-    "name": "Karpathy LLM Wiki",
-    "author": "Greener-Dalii",
-    "description": "Karpathy's LLM Wiki implementation plugin for Obsidian - turns notes and PDFs into a linked, LLM-powered knowledge base with entity pages, concept pages, graph-powered Q&A, and local-first privacy. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gd4ai/obsidian-llm-wiki"
-  },
-  {
     "id": "sync-trakt",
     "name": "Sync Trakt",
     "author": "o1xhack",
@@ -48629,13 +48622,6 @@
     "repo": "brookzeng2023/obsidian-latex-studio"
   },
   {
-    "id": "chess-repertoire",
-    "name": "Chess Repertoire",
-    "author": "moise",
-    "description": "Import a PGN, annotate lines with notes, arrows and move classifications, then drill them back with hints and a report of what you got wrong. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "moise-dev/obsidian-chess-repertoire"
-  },
-  {
     "id": "auto-heading-numbers",
     "name": "Auto Heading Numbers",
     "author": "gaofeng",
@@ -68166,13 +68152,6 @@
     "repo": "confuserdotcom/obsidian-pdf-zathura"
   },
   {
-    "id": "zhaohua-xishi",
-    "name": "Zhaohua Xishi",
-    "author": "Tangerine.Cat",
-    "description": "Browse random journal entries and notes, revisit this day in past years, and add comments to today's daily note. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tangerine-cat888/zhaohua-xishi"
-  },
-  {
     "id": "rainbow-aloha",
     "name": "Rainbow Aloha",
     "author": "Giacomo D’angelo",
@@ -70325,7 +70304,7 @@
     "id": "magical-hamster",
     "name": "Magical Hamster",
     "author": "baconbro",
-    "description": "Meeting assistant: live transcript, enhanced notes, summaries and Q&A grounded in your vault. Runs on your Mac with Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Meeting assistant: live transcript, enhanced notes, summaries and Q&A grounded in your vault. Meeting notes that write themselves, without leaving your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "baconbro/magical-hamster"
   },
   {
@@ -70334,6 +70313,13 @@
     "author": "Avery Gonzales",
     "description": "Search your Zotero library, insert citations, and sync PDF highlights, notes, and Kindle clippings into your literature notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "businesscasual98/scholar-buddy"
+  },
+  {
+    "id": "raindown",
+    "name": "Raindown",
+    "author": "Raindown",
+    "description": "Write back tables of contents, file lists, components and charts into your notes as you save them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rainpour/raindown-obsidian"
   },
   {
     "id": "icap-agent",
@@ -70346,7 +70332,7 @@
     "id": "total-sync",
     "name": "TotalSync",
     "author": "Timur Belov",
-    "description": "Sync notes, attachments and selected vault settings with Mail Cloud WebDAV. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync your notes, files and settings across devices with your own WebDAV server. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jesterspot1-svg/total-sync"
   },
   {
@@ -70397,5 +70383,33 @@
     "author": "Jialin",
     "description": "Transcribe audio recordings and organize them into summaries, action items, and Markdown notes with AI. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "0xcjl/RecordNote"
+  },
+  {
+    "id": "local-finance-notes",
+    "name": "MyPocket",
+    "author": "Zoe Qian",
+    "description": "记录日常收支、独立专项账本与理财持仓，以本地 Markdown 保存，查看分类图表与支出趋势. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zoepiqian/mypocket"
+  },
+  {
+    "id": "ai-chatbridge",
+    "name": "AI ChatBridge",
+    "author": "Sundowna",
+    "description": "Sync your claude.ai and ChatGPT chats into your vault as raw JSON plus a readable Markdown transcript. Read-only and unofficial. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sundowna/obsidian-ai-chatbridge"
+  },
+  {
+    "id": "task-block",
+    "name": "Task Block",
+    "author": "n-kort",
+    "description": "Keep tasks in self-sorting blocks with created, completion and cancelled dates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "n-kort/task-block"
+  },
+  {
+    "id": "property-date-format",
+    "name": "Property Date Format",
+    "author": "prometheus-maker",
+    "description": "Show and type dates in Properties in your own format (DD.MM.YYYY, 24-hour time, ...), independent of your system language. Notes keep the standard value. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "prometheus-maker/property-date-format"
   }
 ]
