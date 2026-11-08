@@ -10251,7 +10251,7 @@
     "id": "systemsculpt-ai",
     "name": "SystemSculpt AI",
     "author": "systemsculpt",
-    "description": "Chat with your vault using your own Claude Code or Codex on desktop, or hosted AI. The AI agent edits notes with your approval, transcribes audio and finds related notes. Free to start.",
+    "description": "Chat with your vault using your own Claude Code or Codex on desktop, or hosted AI. Edit notes, transcribe audio and find related notes. Pro adds images, videos and Studio tools in chat. Free to start.",
     "repo": "systemsculpt/obsidian-systemsculpt-ai"
   },
   {
@@ -16952,6 +16952,13 @@
     "author": "shaharyar-developer",
     "description": "Download files from URLs directly into your vault with CORS proxy support.",
     "repo": "shaharyar-developer/remote-fetch"
+  },
+  {
+    "id": "xiangqi",
+    "name": "Chinese Chess",
+    "author": "weshell",
+    "description": "Chinese chess (xiangqi 象棋) variation tree.",
+    "repo": "west-shell/obsidian-xiangqi"
   },
   {
     "id": "yandex-tracker-issue",
@@ -67690,13 +67697,6 @@
     "repo": "emanuellcarvalhopires/obsidian-telegram-ai-gateway"
   },
   {
-    "id": "t-three-code",
-    "name": "T3 Code",
-    "author": "jslepx",
-    "description": "Bring T3 Code into Obsidian. Send notes as prompts, stream replies into the editor, and more. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "7bgsbm749g-boop/t3-obsidian"
-  },
-  {
     "id": "quiz-maker",
     "name": "Quiz maker",
     "author": "Yerkebulan Abenov",
@@ -70579,5 +70579,12 @@
     "author": "Paul Durham",
     "description": "Find vectorspace relations between notes and blocks via a local Ollama embedding model. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alt-n1tro/local-connections"
+  },
+  {
+    "id": "paper-companion",
+    "name": "Paper Companion",
+    "author": "Tony Peonio",
+    "description": "Search your Zotero library by meaning, create literature notes, and get page-cited reading notes and answers about any paper from a local model (Ollama). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tonypeonio/obsidian-paper-companion"
   }
 ]
