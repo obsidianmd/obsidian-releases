@@ -55097,13 +55097,6 @@
     "repo": "damyo/ray-notes"
   },
   {
-    "id": "note-tidy",
-    "name": "Note Tidy",
-    "author": "Kflho",
-    "description": "Imports external-path images, renames garbled image files, and typesets notes: CJK/English/formula spacing, punctuation width, LaTeX layout, tags, block order and chat logs. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kflho/obsidian-note-tidy"
-  },
-  {
     "id": "placeholder-manager",
     "name": "Placeholder Manager",
     "author": "Gawonii",
@@ -58233,13 +58226,6 @@
     "repo": "hellokunzai/obsidian-markdown-toolkit"
   },
   {
-    "id": "pdf-pager-hz",
-    "name": "PDF Pager",
-    "author": "heptazero",
-    "description": "Read PDFs page by page with mobile landscape paging, resume position, bookmarks, and width controls. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "heptazero/obsidian-PDF-pager"
-  },
-  {
     "id": "mdsync",
     "name": "MDSync",
     "author": "k1tbyte",
@@ -60020,7 +60006,7 @@
   {
     "id": "ignorance-advanced",
     "name": "Ignorance Advanced",
-    "author": "师尧",
+    "author": "shiyao",
     "description": "Companion plugin for the Ignorance theme: Mermaid and ECharts blocks, paged reading, presentations, exports (PDF, Word, PPTX, HTML), image tools, code and table helpers. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ignorance-shiyao/obsidian-ignorance-advanced"
   },
@@ -63894,13 +63880,6 @@
     "author": "Anthirayas",
     "description": "Hide note properties with a single click or hotkey, or take a quick temporary peek before they hide again. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jrayas/properties-peek"
-  },
-  {
-    "id": "garmin-connect",
-    "name": "Garmin Connect",
-    "author": "Tareq Alansari",
-    "description": "Garmin Connect directly in your Obsidian vault. Data is synced, stored in your vault, and rendered in a dashboard. View your data fully offline, compatible on mobile and desktop. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tareqayz/Obsidian-Garmin-Connect"
   },
   {
     "id": "deck-home",
@@ -70343,6 +70322,13 @@
     "repo": "businesscasual98/scholar-buddy"
   },
   {
+    "id": "raindown",
+    "name": "Raindown",
+    "author": "Raindown",
+    "description": "Write back table of contents, lists, tables, charts and components into your notes as you save them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rainpour/raindown-obsidian"
+  },
+  {
     "id": "icap-agent",
     "name": "ICAP Learning Agent",
     "author": "parapple",
@@ -70665,10 +70651,52 @@
     "repo": "hnajafli/obsidian-page-typography"
   },
   {
+    "id": "layer-base",
+    "name": "Layer Base",
+    "author": "CryObs",
+    "description": "Multi-dimensional tables in self-contained .layer files: 16 column types, formulas, relations and rollups. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cryingobsidian-co/obsidian-layer-base"
+  },
+  {
     "id": "mermaid-cards",
     "name": "Mermaid Cards",
     "author": "Huseyn K. Najafli",
     "description": "Readable Mermaid cards with resize handles, saved sizes, and a pan-and-zoom viewer. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hnajafli/mermaid-cards"
+  },
+  {
+    "id": "notebridge",
+    "name": "NoteBridge",
+    "author": "zzzhc",
+    "description": "Publish selected notes and images to a Hexo repository through GitHub. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ckxkx/notebridge"
+  },
+  {
+    "id": "chinese-ui-translator",
+    "name": "Chinese UI Translator",
+    "author": "Tangerine.Cat",
+    "description": "Translate plugin interfaces into Simplified Chinese and reuse saved dictionaries offline, preserving plugin names and original files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tangerine-cat888/chinese-ui-translator"
+  },
+  {
+    "id": "ex-libris",
+    "name": "Ex Libris Bookplate",
+    "author": "Yolkbun",
+    "description": "Turn Douban and Fanqie notes into an iBooks-style bookshelf, and send excerpts back to your notes with back-links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yolkbun/obsidian-ex-libris"
+  },
+  {
+    "id": "rollwright",
+    "name": "Rollwright",
+    "author": "dortus",
+    "description": "Roll dice inside your notes with a full formula notation, draw from tables, lists, sections and tags, and keep a history of every roll. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "thijsduinhouwer2002-coder/rollwright"
+  },
+  {
+    "id": "emoji-insensitive-search",
+    "name": "Emoji Insensitive Search",
+    "author": "Guillermo Gutiérrez Teuler",
+    "description": "Ignore emojis in note names in Quick switcher and link suggestions when the query has none. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "thewillym4ak/obsidian-emoji-insensitive-search"
   }
 ]
