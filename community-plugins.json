@@ -19418,6 +19418,13 @@
     "repo": "tekgadgt/Muse"
   },
   {
+    "id": "plugins-limitter",
+    "name": "Installation Limitter",
+    "author": "Arthur Kh",
+    "description": "Limits the number of installed plugins based on your vault file count to keep you focused. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mainarthur/obsidian-plugins-limitter"
+  },
+  {
     "id": "authorship",
     "name": "Authorship",
     "author": "rflpazini",
@@ -31459,9 +31466,9 @@
   },
   {
     "id": "task-gantt",
-    "name": "Task Gantt",
+    "name": "Task Gantt Board",
     "author": "Kei Kato",
-    "description": "Manage tasks on an interactive Gantt timeline where each note is a single task. Drag bars to reschedule, link FS/SS/FF dependencies, set milestones, and edit details in a side panel. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Gantt and Kanban for your notes: one Markdown file = one task. Drag bars to reschedule, drag cards to change status, and keep several saved views per board. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "katoiek/task-gantt"
   },
   {
@@ -36167,13 +36174,6 @@
     "author": "Steve Crutchfield",
     "description": "Grab your attention by highlighting entire lines matching keywords or regex patterns with custom styles. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "crufi/obsidian-hotlines"
-  },
-  {
-    "id": "weixin-mp-publisher",
-    "name": "WeiXin MP Publisher",
-    "author": "SKYue",
-    "description": "微信公众号发布工具 | Publish WeChat Official Account articles with formatting, image upload, and draft push. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "skyue/obsidian-weixin-mp-publisher"
   },
   {
     "id": "ledger-governance",
@@ -69720,6 +69720,13 @@
     "repo": "lacemou/RefactorLens"
   },
   {
+    "id": "vlook",
+    "name": "Vlook",
+    "author": "shiyao",
+    "description": "Bring the VLOOK typesetting experience from Typora to Obsidian: colour marks, tags, quote columns, merged tables, tab groups, covers, diagrams and polished HTML/PDF export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ignorance-shiyao/VLOOK-for-Obsidian"
+  },
+  {
     "id": "budget-notes",
     "name": "Budget Notes",
     "author": "Tony Herrera",
@@ -70241,7 +70248,7 @@
     "id": "auto-ui-injector",
     "name": "Auto UI Injector",
     "author": "Ljavuras",
-    "description": "Automatically inject UI to notes without modifying their content. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Add UI to notes without modifying their content. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ljavuras/auto-ui-injector"
   },
   {
@@ -70698,5 +70705,12 @@
     "author": "Guillermo Gutiérrez Teuler",
     "description": "Ignore emojis in note names in Quick switcher and link suggestions when the query has none. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "thewillym4ak/obsidian-emoji-insensitive-search"
+  },
+  {
+    "id": "book-media-editor",
+    "name": "Book Media Editor",
+    "author": "Ewin Shen",
+    "description": "Edit collapsible blocks in place and add local, anchored comment threads to Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "le-soleil-se-couche/book-media-editor"
   }
 ]
