@@ -10248,13 +10248,6 @@
     "repo": "tfthacker/obsidian-ai-templater"
   },
   {
-    "id": "systemsculpt-ai",
-    "name": "SystemSculpt AI",
-    "author": "systemsculpt",
-    "description": "Chat with your vault using your own Claude Code or Codex on desktop, or hosted AI. Edit notes, transcribe audio and find related notes. Pro adds images, videos and Studio tools in chat. Free to start.",
-    "repo": "systemsculpt/obsidian-systemsculpt-ai"
-  },
-  {
     "id": "markpilot",
     "name": "Markpilot",
     "author": "taichimaeda",
@@ -39945,7 +39938,7 @@
     "id": "code-playground",
     "name": "Code Playground",
     "author": "touss59",
-    "description": "Live, editable code playgrounds with instant preview inside your notes: HTML/CSS, React, Vue, Svelte, Angular, Solid, Next.js, TypeScript, JavaScript and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Live, editable code playgrounds with instant preview inside your notes: HTML/CSS, React, Vue, Svelte, Angular, Solid, TypeScript, JavaScript, Python and more. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "touss59/obsidian-code-playground"
   },
   {
@@ -63896,6 +63889,13 @@
     "repo": "jrayas/properties-peek"
   },
   {
+    "id": "garmin-connect",
+    "name": "Garmin Connect",
+    "author": "Tareq Alansari",
+    "description": "Garmin Connect directly in your Obsidian vault. Data is synced, stored in your vault, and rendered in a dashboard. View your data fully offline, compatible on mobile and desktop. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tareqayz/Obsidian-Garmin-Connect"
+  },
+  {
     "id": "deck-home",
     "name": "Deck homepage",
     "author": "barontsui",
@@ -65992,7 +65992,7 @@
     "id": "salah-hijri-times",
     "name": "Salah and Hijri Times",
     "author": "AfzGit",
-    "description": "Get Salah and Iqama Timings with notifications and track Islamic Hijri dates. A must-have for practicing Muslims. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Get Salah Timings with notifications, set Iqamah, and track Islamic Hijri dates. A must-have for practicing Muslims. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "afzgit/obsidian-salah-and-hijri-times"
   },
   {
@@ -68621,13 +68621,6 @@
     "repo": "neurasthenickid/Manifest"
   },
   {
-    "id": "plugin-radar",
-    "name": "Community Radar",
-    "author": "Ali Tekdemir",
-    "description": "Discover new and updated community plugins, find the ones that came back after a long pause, and track the ones you care about as notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "alitekdemir/obsidian-community-radar"
-  },
-  {
     "id": "inline-preview",
     "name": "Inline Preview",
     "author": "Manuel Niehues",
@@ -70000,6 +69993,13 @@
     "repo": "kovalevtech/obsidian-rock-sync"
   },
   {
+    "id": "lecture-companion",
+    "name": "Lecture Companion",
+    "author": "Tony Peonio",
+    "description": "Record lectures with live local transcription (whisper.cpp), pull the day's slides from Canvas LMS, and summarize with Ollama into your course notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tonypeonio/obsidian-lecture-companion"
+  },
+  {
     "id": "permanent-links",
     "name": "Permanent Links",
     "author": "Michael Naumov",
@@ -70749,6 +70749,13 @@
     "repo": "thewillym4ak/obsidian-emoji-insensitive-search"
   },
   {
+    "id": "neokeys",
+    "name": "Neokeys",
+    "author": "friesentius",
+    "description": "Neovim-inspired leader keys and sequential keybindings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "friesentius/obsidian-neokeys"
+  },
+  {
     "id": "book-media-editor",
     "name": "Book Media Editor",
     "author": "Ewin Shen",
@@ -70772,14 +70779,14 @@
   {
     "id": "startup-commands",
     "name": "Startup Commands",
-    "author": "Daniel Eshkeri",
+    "author": "Dan",
     "description": "Run Obsidian command palette commands automatically on startup with custom order, delays, and platform filters. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "doozydan/obsidian-startup-commands"
   },
   {
     "id": "vault-react-apps",
     "name": "Vault React Apps",
-    "author": "Daniel Eshkeri",
+    "author": "Dan",
     "description": "Displays React app folders in the vault as single app items in the file tree and opens them in a seamless Obsidian tab. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "doozydan/obsidian-vault-react-apps"
   },
@@ -70817,5 +70824,47 @@
     "author": "AphRO",
     "description": "Count words using Microsoft Word and export Obsidian notes to DOCX. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aphro-o/count-by-msword-obsidian"
+  },
+  {
+    "id": "research-log-companion",
+    "name": "Research Log Companion",
+    "author": "Tony Peonio",
+    "description": "An append-only lab notebook: log experiments, results, decisions and ideas with git commit, parameters, data hashes and figures filled in automatically, then query, compare and report on them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tonypeonio/obsidian-research-log-companion"
+  },
+  {
+    "id": "teaching-companion",
+    "name": "Teaching Companion",
+    "author": "Tony Peonio",
+    "description": "Grade submissions against your own rubric notes with a local model: proposed scores, verbatim evidence, draft comments and a grade book, all on your machine. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tonypeonio/obsidian-teaching-companion"
+  },
+  {
+    "id": "boox-cloud-sync",
+    "name": "BOOX Notes Sync",
+    "author": "bratet",
+    "description": "Import BOOX notebooks, calendar memos and book highlights as PDFs and Markdown, read straight from the BOOX tablet or from the BOOX cloud. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bratet/obsidian-boox-cloud-sync"
+  },
+  {
+    "id": "fellowship-companion",
+    "name": "Fellowship Companion",
+    "author": "Tony Peonio",
+    "description": "Track grants, fellowships and scholarships as notes: paste a call, get deadlines, eligibility, materials and letters in one note, a board of what is due, letter-request drafts and a local-model eligibility screen. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tonypeonio/obsidian-fellowship-companion"
+  },
+  {
+    "id": "job-hunt-companion",
+    "name": "Job Hunt Companion",
+    "author": "Tony Peonio",
+    "description": "Track job applications as notes: paste a posting, get a structured note and a board; a local model tailors your resume bullets and drafts interview questions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tonypeonio/obsidian-job-hunt-companion"
+  },
+  {
+    "id": "hollow-knight-hallownest",
+    "name": "Hollow Knight and Silksong Companion",
+    "author": "SentientShawarma",
+    "description": "Turn empty tabs into a Hallownest or Pharloom title screen with game-style menus, area title cards, a soul vessel HUD and a bench rest on save. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "abdullahhasan42/hollow-knight-and-silksong-plugin"
   }
 ]
