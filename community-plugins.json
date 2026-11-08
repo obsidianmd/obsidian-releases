@@ -44782,7 +44782,7 @@
     "id": "sync-engine",
     "name": "Sync Engine",
     "author": "Hēsperus",
-    "description": "The extensible vault synchronization engine: Fast · Free · Reliable. Supports WebDAV, S3, and Google Drive. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "The extensible vault synchronization engine: Fast · Free · Reliable. Supports WebDAV, S3, Google Drive, and Dropbox. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hesprs/sync-engine"
   },
   {
@@ -70693,6 +70693,13 @@
     "repo": "hnajafli/obsidian-page-typography"
   },
   {
+    "id": "claude-style-enhance",
+    "name": "Claude Style Enhance",
+    "author": "Xv-Bowen",
+    "description": "Adds what the Claude Style theme cannot do with CSS alone, starting with file cards for files linked on a line of their own. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xv-bowen/Claude-Style-Obsidian-Enhance"
+  },
+  {
     "id": "layer-base",
     "name": "Layer Base",
     "author": "CryObs",
@@ -70782,5 +70789,33 @@
     "author": "王咪咪卖尾巴",
     "description": "扫描 Get 笔记同步进来的新笔记，按规则建议目录与标签，确认后自动归类、补双链，并重建知识库地图的目录树。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elowenmimi/inbox-classifier"
+  },
+  {
+    "id": "cheatsheet-exporter",
+    "name": "Cheatsheet Exporter",
+    "author": "Nathan",
+    "description": "Export a note as a dense, double-sided A4 cheatsheet PDF. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "legalunicorn/obsidian-cheatsheet-exporter"
+  },
+  {
+    "id": "typora-keymap",
+    "name": "Typora Keymap",
+    "author": "YuanMouRenYe",
+    "description": "Typora-style editing keymap: heading levels that toggle, heading up/down, task lists, underline, comments, math and image blocks, plus one-click binding of Typora's shortcuts for core commands. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuanmourenye/obsidian-typora-keymap"
+  },
+  {
+    "id": "thejaz-planner",
+    "name": "THEJAZ Planner",
+    "author": "thejaz",
+    "description": "Quick daily planning, accurate credits, and compact reviews using your existing plain Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "thejaz/planner"
+  },
+  {
+    "id": "count-by-msword",
+    "name": "Count By MSWord",
+    "author": "AphRO",
+    "description": "Count words using Microsoft Word and export Obsidian notes to DOCX. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aphro-o/count-by-msword-obsidian"
   }
 ]
