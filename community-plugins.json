@@ -19239,7 +19239,7 @@
     "id": "yoofloe",
     "name": "Yoofloe Calendar Companion",
     "author": "yoofloe",
-    "description": "Ask questions about relevant Yoofloe Calendar records on the same Android device, with local search and optional OpenAI drafts using your own key. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Write and edit Markdown on Android with your own OpenAI key. Add Mermaid diagrams, charts and relevant Yoofloe Calendar context, then review each file change. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yoofloe/yoofloe-obsidian"
   },
   {
@@ -55279,6 +55279,13 @@
     "repo": "raccoon-overlord-dev/obsidian-ticktick-panel"
   },
   {
+    "id": "solenoid-properties",
+    "name": "Solenoid Properties",
+    "author": "bubba8587",
+    "description": "Adds advanced data table property types to your frontmatter with a popup editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bubba8587/Solenoid-Properties"
+  },
+  {
     "id": "mendeley-integration",
     "name": "Mendeley Integration",
     "author": "elipexx",
@@ -60443,13 +60450,6 @@
     "author": "chenglong",
     "description": "Create styled WeChat drafts and X Articles handoffs from Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "haomiaoonline/obsidian-publisher"
-  },
-  {
-    "id": "busqueda-sin-tildes",
-    "name": "Accent Insensitive Search",
-    "author": "Guillermo Gutiérrez Teuler",
-    "description": "Ignore accents and diaereses in Quick switcher and link suggestions. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "thewillym4ak/obsidian-accent-insensitive-search"
   },
   {
     "id": "pdf-cover-cards",
@@ -71321,5 +71321,33 @@
     "author": "Andrey Pankov",
     "description": "Shows a site icon ahead of external links to common websites. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "apankov/obsidian-link-logos"
+  },
+  {
+    "id": "filename-sanitizer",
+    "name": "Filename Sanitizer",
+    "author": "Johannes Kaindl",
+    "description": "Repairs file names that sync or links reject, keeps a log of every change, and offers writing plugins a name API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johannes-kaindl/filename-sanitizer"
+  },
+  {
+    "id": "excaliboard",
+    "name": "Excaliboard",
+    "author": "Wilson Neto",
+    "description": "Draw in your vault with the Excalidraw editor. Each drawing stays a plain .excalidraw file that excalidraw.com opens, written only when you change it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wilsonneto-swe/excaliboard-obsidian"
+  },
+  {
+    "id": "autogallery",
+    "name": "AutoGallery",
+    "author": "Jasper Hwang",
+    "description": "Automatically arrange images and captions in notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jh0531/obsidian-autogallery"
+  },
+  {
+    "id": "herdr-obs",
+    "name": "Herdr Mission Control",
+    "author": "Agrici Daniel",
+    "description": "Run Herdr persistent agent workspaces and interactive PTY terminals inside your vault while letting coding agents inspect, edit, and navigate notes safely over a local Vault Control Bridge. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "agricidaniel/obsidian-herdr"
   }
 ]
