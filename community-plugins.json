@@ -29767,7 +29767,7 @@
     "id": "gallery-view",
     "name": "Gallery View",
     "author": "mkshp",
-    "description": "Create beautiful image galleries in your notes using obs-gallery code blocks. Supports local folders, external URLs, Immich and nextcloud with masonry, justified, thumbnails, carousels, embed layouts - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create beautiful image galleries in your notes using code blocks. Supports local folders, external URLs, Immich and nextcloud with masonry, justified, mosaic, thumbnails, carousels, embed layouts - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mkshp-dev/obsidian-gallery-plugin"
   },
   {
@@ -41363,13 +41363,6 @@
     "repo": "kamijoucen/obsidian-openyolo"
   },
   {
-    "id": "chrono-notes",
-    "name": "Chrono Notes",
-    "author": "ZhengYX",
-    "description": "A calendar workspace for periodic notes, calendar extensions, regional holidays, tasks, and time ranges. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zhyx91/obsidian-chrono-notes"
-  },
-  {
     "id": "local-image-resizer",
     "name": "Local Image Resizer",
     "author": "JSTools Space",
@@ -50083,13 +50076,6 @@
     "author": "shangxin",
     "description": "An agentic AI side panel that edits your vault directly. No copy-pasting required: you ask, it acts, and your notes update right where they are. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "youngsx/piem"
-  },
-  {
-    "id": "office-suite",
-    "name": "Office Suite",
-    "author": "Vishal Rashmika",
-    "description": "View and edit Microsoft Word (.docx), Excel (.xlsx), and CSV/TSV spreadsheet files directly inside Obsidian with native WYSIWYG editing, formatting, and formulas. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "vishalrashmika/office-suite"
   },
   {
     "id": "dgs-wechat-publisher",
@@ -69839,6 +69825,13 @@
     "repo": "nooshinjava/obsidian-literature-tracker"
   },
   {
+    "id": "yunpan-sync",
+    "name": "360AI Cloud Sync",
+    "author": "360aiyunpan",
+    "description": "Sync a vault with 360AI Cloud Disk (360AI云盘) in both directions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qihoo360/obsidian-yunpan-sync"
+  },
+  {
     "id": "mindful-focus",
     "name": "Mindful Focus",
     "author": "Nooshin Java",
@@ -71001,6 +70994,13 @@
     "repo": "nelvin198/deskmate"
   },
   {
+    "id": "doc-to-note",
+    "name": "Doc to Note",
+    "author": "王咪咪卖尾巴",
+    "description": "Turn PDF, Word, PowerPoint, and image files into Obsidian notes. Extracts the text, keeps the original file, and drops the new note into your inbox folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "elowenmimi/doc-to-note"
+  },
+  {
     "id": "vim-editing-extensions",
     "name": "Vim Editing Extensions",
     "author": "xczs666",
@@ -71027,6 +71027,13 @@
     "author": "Benjamin Patterson",
     "description": "Import your workouts and activities as notes. Sync from Garmin Connect or Strava, or import FIT files from Garmin, COROS, Wahoo, Polar, Suunto and other devices. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "benruns/physical-activity-importer"
+  },
+  {
+    "id": "atlas-spell-effects",
+    "name": "Atlas Spell Effects",
+    "author": "dewwwww",
+    "description": "Animated spell areas, walls, light and darkness on Atlas VTT maps, with JB2A's free animations built in. Cast from Atlas statblocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dewwwwwws-stack/atlas-spell-effects"
   },
   {
     "id": "antv-infographic-plus",
@@ -71060,7 +71067,7 @@
     "id": "attachment-cards",
     "name": "Attachment Cards",
     "author": "wing-zlatan",
-    "description": "Display embedded attachments as compact, clickable file cards with file-type icons. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Make PDF and document attachments easy to spot with compact file cards, using your existing embeds. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wing-zlatan/obsidian-attachment-cards"
   },
   {
@@ -71146,5 +71153,40 @@
     "author": "virkiin",
     "description": "Handwrite and annotate PDF pages with pressure, layers and a boolean eraser. Your PDF is never modified. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "virkiin/inkstone-pdf"
+  },
+  {
+    "id": "editor-like-reading-view",
+    "name": "Editor-like Reading View",
+    "author": "H9-",
+    "description": "Show reading view the way the editor shows your note: every empty line, indentation, several spaces and tabs, also in lists, quotes and callouts. Each part can be turned on or off. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "h9-g/editor-like-reading-view"
+  },
+  {
+    "id": "readplace",
+    "name": "Readplace",
+    "author": "Readplace",
+    "description": "Sync articles you saved in Readplace into your vault as Markdown notes, with the full text, the AI summary and reading status. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "readplace/obsidian-readplace"
+  },
+  {
+    "id": "more-periodic-notes",
+    "name": "More Periodic Notes",
+    "author": "RZN",
+    "description": "Open this week's (ISO), this month's and this year's note with one command. Works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nachiketa3299/more-periodic-notes"
+  },
+  {
+    "id": "goaltree",
+    "name": "GoalTree",
+    "author": "t47oun",
+    "description": "Plan life areas, goals, projects, tasks, and habits in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "t47oun/obsidian-goaltree"
+  },
+  {
+    "id": "link-head-icon",
+    "name": "Link Head Icon",
+    "author": "Andrey Pankov",
+    "description": "Shows a site icon ahead of external links to common websites. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "apankov/obsidian-link-head-icon-plugin"
   }
 ]
