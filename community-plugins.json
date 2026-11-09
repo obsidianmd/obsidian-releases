@@ -66783,7 +66783,7 @@
     "id": "code-palette",
     "name": "Code Palette",
     "author": "Skrch",
-    "description": "Theme inline code and code blocks with stable editing, scoped language rules, optional Markdown previews and a vault-wide fallback palette. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Theme code with scoped language rules, optional exercise-code recognition, stable editing and independent themes. Integrates with Notebook Navigator. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tillerion/obsidian-code-palette"
   },
   {
@@ -71029,13 +71029,6 @@
     "repo": "benruns/physical-activity-importer"
   },
   {
-    "id": "atlas-spell-effects",
-    "name": "Atlas Spell Effects",
-    "author": "dewwwww",
-    "description": "Animated spell areas, walls, light and darkness on Atlas VTT maps, with JB2A's free animations built in. Cast from Atlas statblocks. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dewwwwwws-stack/atlas-spell-effects"
-  },
-  {
     "id": "antv-infographic-plus",
     "name": "AntV Infographic",
     "author": "morgenlicht",
@@ -71066,7 +71059,7 @@
   {
     "id": "attachment-cards",
     "name": "Attachment Cards",
-    "author": "mengyz-seu123",
+    "author": "wing-zlatan",
     "description": "Display embedded attachments as compact, clickable file cards with file-type icons. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wing-zlatan/obsidian-attachment-cards"
   },
@@ -71125,5 +71118,33 @@
     "author": "suoyuanxi",
     "description": "An ARC-browser-style sidebar: sweep the mouse to the left edge of the window and the sidebar slides out, and it slides back when you swipe past its right edge. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "goodends/arc-hover-sidebar"
+  },
+  {
+    "id": "ob-plugin-sync",
+    "name": "Cross Vault Sync",
+    "author": "jun7799",
+    "description": "Overview, push and pull community plugins across all your vaults. 查看各仓库插件清单，按仓库挑选安装，或批量推送/拉取插件. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jun7799/ob-plugin-sync"
+  },
+  {
+    "id": "universal-reader",
+    "name": "Universal Reader and File Viewer",
+    "author": "ProgrammedByGod",
+    "description": "Open 1000+ file formats in your vault: EPUB, FB2, MOBI, DjVu, CBZ/CBR comics, DOCX, XLSX, PPTX, RTF, ODT, SQLite, ZIP/RAR/7z archives, EML/MSG email, STL/OBJ 3D models, fonts, GPX/KML maps and code. Read-only, offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "programmedbygod/universal-reader"
+  },
+  {
+    "id": "vaulter",
+    "name": "Vaulter",
+    "author": "Alessandro Chitarrini",
+    "description": "Displays vault statistics like note count and allows toggling display in the status bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chitvs/vaulter"
+  },
+  {
+    "id": "inkstone-pdf",
+    "name": "Inkstone PDF",
+    "author": "virkiin",
+    "description": "Handwrite and annotate PDF pages with pressure, layers and a boolean eraser. Your PDF is never modified. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "virkiin/inkstone-pdf"
   }
 ]
