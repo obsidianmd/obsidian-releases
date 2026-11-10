@@ -19237,9 +19237,9 @@
   },
   {
     "id": "yoofloe",
-    "name": "Yoofloe Calendar Companion",
+    "name": "Yoofloe AI",
     "author": "yoofloe",
-    "description": "Write and edit Markdown on Android with your own OpenAI key. Add Mermaid diagrams, charts and relevant Yoofloe Calendar context, then review each file change. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Write, edit and organize notes with your own OpenAI key. Use Yoofloe AI on its own, or add local Yoofloe Calendar context on Android. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yoofloe/yoofloe-obsidian"
   },
   {
@@ -70098,6 +70098,13 @@
     "repo": "cimuyang/text-reference"
   },
   {
+    "id": "vault-recorder",
+    "name": "Vault Recorder",
+    "author": "nickdin",
+    "description": "Records the microphone, or a meeting (system audio plus microphone), into the daily log or the active note, with a level meter showing that audio is being captured. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nickdin/obsidian-vault-recorder"
+  },
+  {
     "id": "media-manager",
     "name": "Media Manager",
     "author": "Anup Chavan",
@@ -71323,6 +71330,13 @@
     "repo": "johannes-kaindl/filename-sanitizer"
   },
   {
+    "id": "excaliboard",
+    "name": "Excaliboard",
+    "author": "Wilson Neto",
+    "description": "Draw in your vault with the Excalidraw editor. Each drawing stays a plain .excalidraw file that excalidraw.com opens, written only when you change it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "wilsonneto-swe/excaliboard-obsidian"
+  },
+  {
     "id": "autogallery",
     "name": "AutoGallery",
     "author": "Jasper Hwang",
@@ -71335,5 +71349,26 @@
     "author": "Agrici Daniel",
     "description": "Run Herdr persistent agent workspaces and interactive PTY terminals inside your vault while letting coding agents inspect, edit, and navigate notes safely over a local Vault Control Bridge. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "agricidaniel/obsidian-herdr"
+  },
+  {
+    "id": "web-obs",
+    "name": "Web-Obs Site Globe",
+    "author": "Agrici Daniel",
+    "description": "Capture a website into your vault as clean Markdown notes, then explore its structure on an interactive 3D site globe. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "agricidaniel/web-obs"
+  },
+  {
+    "id": "morning-pages-analytics",
+    "name": "Morning Pages Analytics",
+    "author": "remriel",
+    "description": "Test a 750-word writing goal and replay analytics from a saved 750 Words Stats page. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "remriel/morning-pages-analytics"
+  },
+  {
+    "id": "anki-desk",
+    "name": "Anki Desk",
+    "author": "AJ",
+    "description": "Write flashcards in your notes and review them in Anki. Incremental sync over AnkiConnect, card templates as commands, maths that never breaks, and nothing ever deleted. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arangutambo/obsidian-anki-desk"
   }
 ]
