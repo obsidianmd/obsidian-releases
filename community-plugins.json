@@ -20244,6 +20244,13 @@
     "repo": "koshlensky/asciidoc-live"
   },
   {
+    "id": "minimalism-ui",
+    "name": "Minimalism UI",
+    "author": "lucas",
+    "description": "Transform UI into a Typora-like style, with the left side fixing the note status information and the right side focusing on the content of the note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tcyeee/obsidian-minimalism-ui"
+  },
+  {
     "id": "workflowy-sync",
     "name": "Workflowy Sync",
     "author": "rodolfo-terriquez",
@@ -22888,6 +22895,13 @@
     "author": "i'DLisT",
     "description": "Use a single file to collect small pieces of notes, stickies, code snippets and more. View and manage your notes in a horizontal or vertical masonry flow. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "idlist/flakepiles"
+  },
+  {
+    "id": "simple-graph-builder",
+    "name": "Simple Graph Builder",
+    "author": "junhewk",
+    "description": "Build a knowledge graph from your notes using LLM-powered entity extraction. Supports Claude, OpenAI, Gemini, and Ollama. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "junhewk/simple-graph-builder"
   },
   {
     "id": "tile-line-base",
@@ -27136,7 +27150,7 @@
     "name": "Synod",
     "author": "Hamish",
     "description": "Run a council of LLM value agents over your journal to surface decisions you have not made. Local-first via Ollama, OpenRouter, or any OpenAI-compatible endpoint. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "slaymish/Synod"
+    "repo": "hamishburke/Synod"
   },
   {
     "id": "track-changes",
@@ -27710,7 +27724,7 @@
     "name": "Lumen - AI Brain",
     "author": "Hamish",
     "description": "Async research workflow for Obsidian notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "slaymish/Lumen"
+    "repo": "hamishburke/Lumen"
   },
   {
     "id": "magneto",
@@ -30499,13 +30513,6 @@
     "repo": "ziadloo/obsidian-local-rest-api-second-brain-mcp-extension"
   },
   {
-    "id": "slexkit",
-    "name": "SlexKit",
-    "author": "SlexKit",
-    "description": "Render SlexKit fenced UI blocks in Obsidian reading mode. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "slexkit/obsidian-slexkit"
-  },
-  {
     "id": "wikiflash",
     "name": "WikiFlash",
     "author": "Paolo",
@@ -31553,7 +31560,7 @@
     "name": "Checklist Sort",
     "author": "Adam Tweedie",
     "description": "Sort your Todo (checklist) items by undone via custom keybind! - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "profesr-chaos/obsidian-checklist-sort"
+    "repo": "nipsey-cosmo/obsidian-checklist-sort"
   },
   {
     "id": "wechat-capture",
@@ -31574,7 +31581,7 @@
     "name": "Checklist Progress Bar",
     "author": "Adam Tweedie",
     "description": "Display a progress bar for your checklist (todo) items. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "profesr-chaos/obsidian-checklist-progress-bar"
+    "repo": "nipsey-cosmo/obsidian-checklist-progress-bar"
   },
   {
     "id": "stacktube",
@@ -70406,13 +70413,6 @@
     "repo": "rainpour/raindown-obsidian"
   },
   {
-    "id": "icap-agent",
-    "name": "ICAP Learning Agent",
-    "author": "parapple",
-    "description": "Learn inside your notes: contextual explanations, recall with feedback, and in-document interaction, powered by the Pi agent runtime. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "edwinzhancn/obsidian-icap-agent"
-  },
-  {
     "id": "notebook-navigator-folder-tools",
     "name": "Notebook Navigator Folder Tools",
     "author": "letheli710",
@@ -71068,7 +71068,7 @@
     "name": "Ask Your Notes",
     "author": "haochen12",
     "description": "Chat with any OpenAI-compatible LLM using your notes as context. @-mention notes, streaming replies, copy, insert and regenerate. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "howzits/obsidian-ask-your-notes"
+    "repo": "haochen12/obsidian-ask-your-notes"
   },
   {
     "id": "todos-rollup",
@@ -71582,10 +71582,45 @@
     "repo": "zachfara/tag-size-history"
   },
   {
+    "id": "zen-zone",
+    "name": "Zen Zone",
+    "author": "chacha260",
+    "description": "A focus companion: a pomodoro timer with per-cycle ambience from YouTube or local audio, quick-jump checkpoints, and daily note task and focus logging. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chacha260/obsidian-zen-zone"
+  },
+  {
     "id": "modelbrain",
     "name": "ModelBrain",
     "author": "Matthew Firth",
     "description": "Let Claude, ChatGPT and Cursor answer from this vault and remember what you tell them, with the index kept on your computer. Requires the free ModelBrain desktop app. Does not change your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "modelbrain/modelbrain-obsidian"
+  },
+  {
+    "id": "image-embed-kit",
+    "name": "Image Embed Kit",
+    "author": "visitor",
+    "description": "Resize embedded images with side handles, zoom in, and save captions in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "visitor17564/image-embed-kit"
+  },
+  {
+    "id": "knobe-lens",
+    "name": "KNOBE Lens (KnobeDev)",
+    "author": "Joshua Hori",
+    "description": "Verify and inspect sealed KNOBE Protocol v1 knowledge objects in your vault (any sealed Markdown note, conventionally named .knobe.md) - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "knobedev/obsidian-knobe-lens"
+  },
+  {
+    "id": "accessibility-enhancer",
+    "name": "Accessibility Enhancer",
+    "author": "Joshua Hori",
+    "description": "Retrofits WCAG 2.1 AA accessibility onto Obsidian's UI at runtime: keyboard operability, ARIA roles/names/states, visible focus, reduced motion, and live-region announcements. Community-maintained. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "knobedev/obsidian-a11y"
+  },
+  {
+    "id": "knobe-studio",
+    "name": "KNOBE Studio (KnobeDev)",
+    "author": "Joshua Hori",
+    "description": "Create, verify, transform, and adapt sealed KNOBE Protocol v1 knowledge objects in your vault, design assignment journeys, and batch-check cohort submissions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "knobedev/obsidian-knobe-studio"
   }
 ]
