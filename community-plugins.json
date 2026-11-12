@@ -29715,6 +29715,13 @@
     "repo": "ouou365/Semlink"
   },
   {
+    "id": "semantic-todoist-sync",
+    "name": "Semantic Todoist Sync",
+    "author": "Neurocloud",
+    "description": "Leverage your Knowledge base. BYOK Semantic/AI Chat, Private & Cloud AI Providers, Todoist Task Generation and Sync, All-in-One - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "neurocloud-activate/semantic-todoist-sync"
+  },
+  {
     "id": "easy-link-to-daily-note",
     "name": "Easy Link to Daily Note",
     "author": "kdnk",
@@ -32478,13 +32485,6 @@
     "author": "Viggo Meesters",
     "description": "Open SQLite database files as read-only schema, preview, and query views. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "viggomeesters/obsidian-sql-viewer"
-  },
-  {
-    "id": "nextcloud-sync",
-    "name": "Nextcloud Sync",
-    "author": "Daisuke ITO",
-    "description": "Bidirectional sync between Obsidian and Nextcloud using hash-based change detection. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "siosig/obsidian-nextcloudsync"
   },
   {
     "id": "minimal-hidden-files",
@@ -70486,7 +70486,7 @@
     "id": "ai-chatbridge",
     "name": "AI ChatBridge",
     "author": "Sundowna",
-    "description": "Sync your Proton Lumo, Claude, ChatGPT and Gemini chats into your vault, including uploads, files & artifacts. (Karpathy LLM Wiki / Second Brain / Project Brain) Read-only and unofficial. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync your Proton Lumo, Claude, ChatGPT, Gemini and Hermes agents chats into your vault, including uploads, files & artifacts. (Karpathy LLM Wiki / Second Brain / Project Brain) - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sundowna/obsidian-ai-chatbridge"
   },
   {
@@ -71655,7 +71655,7 @@
     "id": "feishu-document-layout",
     "name": "Feishu Document Layout",
     "author": "gasonw",
-    "description": "Style documents with nested lists, automatic heading numbers and adjustable table columns. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Style documents with nested lists, ordered heading numbers and adjustable table columns. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gasonw/feishu-document-layout"
   },
   {
@@ -71946,10 +71946,24 @@
     "repo": "blursedperf/obsidian-inline-autocomplete"
   },
   {
+    "id": "pomodoro-flashcards",
+    "name": "Pomodoro Flashcards",
+    "author": "blursedperf",
+    "description": "Create and study Markdown flashcards using SM-2 spaced repetition with an integrated Pomodoro focus timer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "blursedperf/obsidian-pomodoro-flashcards"
+  },
+  {
     "id": "homebound-webdav",
     "name": "Homebound WebDAV",
     "author": "aurastywear3-netizen",
     "description": "Sync encrypted notes and attachments to one WebDAV vault at home or through your own remote access gateway. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aurastywear3-netizen/homebound-webdav"
+  },
+  {
+    "id": "photomark-plus",
+    "name": "PhotoMark+",
+    "author": "vbv1",
+    "description": "Mark up images without leaving your notes: draw rectangles, ellipses, arrows and numbered markers, pixelate sensitive parts, and save. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vbv11/photomark-plus"
   }
 ]
