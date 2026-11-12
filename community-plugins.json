@@ -25690,6 +25690,13 @@
     "repo": "screvi/screvi-obsidian-plugin"
   },
   {
+    "id": "istart-note-ai",
+    "name": "IStart-Note-AI",
+    "author": "yan-istart",
+    "description": "Generate structured knowledge notes from questions and selected text using DeepSeek AI, with automatic concept pages, bidirectional links, and a question graph. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yan-istart/IStart-Note-AI-Plugin"
+  },
+  {
     "id": "notekeeper",
     "name": "Notekeeper",
     "author": "philemonchiro",
@@ -33143,6 +33150,13 @@
     "author": "Charles Kelsoe",
     "description": "Categorized inline feedback comments for long-form markdown documents. Plain HTML storage, threaded AI conversations, readable by humans and any AI assistant. Works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ckelsoe/obsidian-annoteca"
+  },
+  {
+    "id": "editorialist",
+    "name": "Editorialist",
+    "author": "Eric R Taylor",
+    "description": "Bring in an editor’s Word file or a review an AI has formatted, decide every change scene by scene, then send your replies back. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ericrhystaylor/Editorialist"
   },
   {
     "id": "star-pins",
@@ -51097,7 +51111,7 @@
     "name": "TC Bridge",
     "author": "suavecito",
     "description": "Companion bridge plugin for The 40 Thieves' vault-access MCP server. Extends Local REST API with command dispatch and plugin firepower bridges. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "the-40-thieves/obsidian-tc"
+    "repo": "the-40-thieves/reliquary-tc"
   },
   {
     "id": "naviboard",
@@ -53053,6 +53067,13 @@
     "repo": "albibenni/obsidian-ask-ai"
   },
   {
+    "id": "scvmbirther",
+    "name": "SCVM Birther",
+    "author": "Barrow Rook",
+    "description": "Generate MÖRK BORG-compatible characters as polished Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rbell13/obsidian-scvmbirther"
+  },
+  {
     "id": "list-callouts-improved",
     "name": "List Callouts Improved",
     "author": "Daniel Yim",
@@ -53415,6 +53436,13 @@
     "author": "한지원",
     "description": "Read-only fixed tree Graph View: vault folder structure rendered as a bottom-root trunk-and-branches tree, separate from the default Graph view. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ahrns1/yggdrasil-fixed-tree-view"
+  },
+  {
+    "id": "a-my-island",
+    "name": "A-My-Island",
+    "author": "evinvin",
+    "description": "Build an interactive personal island workspace for tasks, notes, planning, and daily life in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vinvinvin444/A-My-Island-Releases"
   },
   {
     "id": "sermon-studio-public",
@@ -64344,13 +64372,6 @@
     "repo": "ishacm/x-bookmarks-graph"
   },
   {
-    "id": "grid-diary",
-    "name": "Grid Diary",
-    "author": "xingluo",
-    "description": "Write question-guided diary entries in a grid, with a calendar sidebar and a timeline. 问题引导式日记：九宫格记录、右侧日历、下方时间流. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "3388038686-oss/obsidian-gezhi-diary"
-  },
-  {
     "id": "quickdraw",
     "name": "Quickdraw",
     "author": "quickdraw",
@@ -68862,7 +68883,7 @@
     "id": "mtg-card-primers",
     "name": "MTG Card Primers",
     "author": "Diogo Leal",
-    "description": "Write and read study notes (primers) for Magic: The Gathering cards, with card data from Scryfall. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Write and read study notes (primers) for Magic: The Gathering decks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "diogoleal/mtg-card-primers"
   },
   {
@@ -71473,7 +71494,7 @@
     "id": "axion",
     "name": "Axion",
     "author": "mojtaba shoghi",
-    "description": "PDF with OCR highlights, colour-coded sticky notes, translation (Persian, English, German, French), offline read-aloud, voice notes, flashcards with Anki export, and a Pomodoro timer - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "PDF and  Markdown  with OCR highlights, colour-coded sticky notes, translation (Persian, English, German, French), offline read-aloud, voice notes, flashcards with Anki export, and a Pomodoro timer - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mojtabashoghi/axion"
   },
   {
@@ -71946,6 +71967,13 @@
     "repo": "blursedperf/obsidian-inline-autocomplete"
   },
   {
+    "id": "readside",
+    "name": "Readside",
+    "author": "Oleksandr Bilskyi",
+    "description": "Read PDFs and EPUBs with highlights, margin notes and a notebook kept as a note in your vault. Translate text offline with downloadable language models. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bilskyi/obsidian-readside"
+  },
+  {
     "id": "pomodoro-flashcards",
     "name": "Pomodoro Flashcards",
     "author": "blursedperf",
@@ -71965,5 +71993,61 @@
     "author": "vbv1",
     "description": "Mark up images without leaving your notes: draw rectangles, ellipses, arrows and numbered markers, pixelate sensitive parts, and save. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vbv11/photomark-plus"
+  },
+  {
+    "id": "filetypes",
+    "name": "Filetypes",
+    "author": "blursedperf",
+    "description": "Capture notes and tasks to target files or headings, and create notes from templates using dynamic variables. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "blursedperf/obsidian-filetypes-plugin"
+  },
+  {
+    "id": "whole-tree-search",
+    "name": "Whole-Tree Search",
+    "author": "blursedperf",
+    "description": "Search markdown files while preserving hierarchical context: displays the matched line, its immediate parent, and all nested children based on indentation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "blursedperf/obsidian-whole-tree-search"
+  },
+  {
+    "id": "links-in-new-tabs",
+    "name": "Links in New Tabs",
+    "author": "blursedperf",
+    "description": "Opens internal links in a new tab by default, with options for same-note heading links, tab reuse, and Cmd/Ctrl+Click inversion. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "blursedperf/obsidian-links-in-new-tabs"
+  },
+  {
+    "id": "gitlab-includes",
+    "name": "GitLab Includes",
+    "author": "Material Plugins",
+    "description": "Render GitLab Markdown includes as embedded notes while preserving the original file syntax. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "obsidian-material-plugins/obsidian-gitlab-includes"
+  },
+  {
+    "id": "onenote-like-navigator",
+    "name": "OneNote Like Navigator",
+    "author": "kopfkino",
+    "description": "Browse real folders as notebooks with compact navigation, optional folder trees, wrapped titles, and direct file management. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kofkino/onenote-like-navigator"
+  },
+  {
+    "id": "bjj-tracker",
+    "name": "BJJ Tracker",
+    "author": "Diogo Leal",
+    "description": "Log Brazilian Jiu-Jitsu training sessions, positions, drills and goals, with a stats dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "diogoleal/obsidian-bjj-tracker"
+  },
+  {
+    "id": "libghostty-terminal",
+    "name": "Faster Term",
+    "author": "sqjian",
+    "description": "Open a local terminal in the sidebar, powered by libghostty. Supports macOS on Apple Silicon. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sqjian/ob-term"
+  },
+  {
+    "id": "paper-doi-importer",
+    "name": "Paper DOI",
+    "author": "ryan shygun",
+    "description": "Import paper metadata with guided progress, configurable note/PDF paths, and optional PDF download. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "a-shygun/Paper-DOI"
   }
 ]
