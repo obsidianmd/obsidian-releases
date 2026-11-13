@@ -21266,13 +21266,6 @@
     "repo": "tionis/obsidian-hedgesync"
   },
   {
-    "id": "content-publisher",
-    "name": "Content Publisher",
-    "author": "roomi-fields",
-    "description": "Publish your notes to multiple platforms: Substack, WordPress, and LinkedIn. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "roomi-fields/obsidian-content-publisher"
-  },
-  {
     "id": "vim-keynav",
     "name": "Vim KeyNav",
     "author": "guoang",
@@ -49595,13 +49588,6 @@
     "repo": "dev-cadet/obsidian-project-tracker"
   },
   {
-    "id": "articlewriter",
-    "name": "ArticleWriter",
-    "author": "天天",
-    "description": "AI 小说创作工具（Obsidian 版）：建书/建章/建卷、打开文档、保存章节、字数统计，全部基于 Vault MD 文档约定，增加使用说明，增加写作指南的生成，更新章节管理功能，增加书籍磁盘同步功能 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gengbl/articlewriter-obsidian"
-  },
-  {
     "id": "omnichannel-diary",
     "name": "Omnichannel Diary",
     "author": "builtbyxm",
@@ -62958,6 +62944,13 @@
     "repo": "jinchengrui/obsidian-highnote"
   },
   {
+    "id": "hermes-studio",
+    "name": "Hermes Studio",
+    "author": "Guilherme Ceschiatti B. Moreira",
+    "description": "Chat with Hermes Agent in Obsidian — with sessions, model & mode pickers, inline diffs, skills hub, memory review, and live subagent panels. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "6qat/rea-hermes-studio"
+  },
+  {
     "id": "selection-ai-button",
     "name": "Selection AI Button",
     "author": "LIngfengDu",
@@ -65891,6 +65884,13 @@
     "repo": "nexziz/pocket-watch"
   },
   {
+    "id": "md-to-hwpx",
+    "name": "HWPX Exporter",
+    "author": "everydaymind",
+    "description": "Export Markdown notes to Hangul HWPX documents formatted by HWPX templates, with an MCP-like API for AI agent plugins. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "everydaymind/obsidian-hwpx-exporter"
+  },
+  {
     "id": "relative-image-width",
     "name": "Relative Image Width",
     "author": "theluckystrike",
@@ -67730,6 +67730,13 @@
     "author": "alas, poor ophelia",
     "description": "Georeference a map image: pin notes by latitude and longitude. A coordinate system over your picture, not a basemap. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alas-poor-ophelia/u1316c-georeference"
+  },
+  {
+    "id": "file-master",
+    "name": "File Master",
+    "author": "weichen.ink",
+    "description": "Manage vault assets with self-hosted cloud storage, clipboard auto-upload, SHA-256 deduplication, zero-broken-link batch migration, and orphan cleanup. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "weichen-ink/file-master"
   },
   {
     "id": "banana-studio",
@@ -71484,6 +71491,13 @@
     "repo": "hanshs474/aigifmaker-obsidian"
   },
   {
+    "id": "ai-connected",
+    "name": "AI Connected",
+    "author": "Mark",
+    "description": "Connect AI agents (Claude Code, Cursor, Cline, ...) to your vault through MCP, plus a built-in vault-aware agent chat panel. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arcticat14/obsidian-ai-connected"
+  },
+  {
     "id": "movie-buddy",
     "name": "Movie Buddy",
     "author": "maalorn",
@@ -72289,10 +72303,45 @@
     "repo": "renwujun/obsidian-graph-squeeze"
   },
   {
+    "id": "musescorer",
+    "name": "MuseScorer",
+    "author": "kpaede",
+    "description": "Embed, edit and play native MuseScore scores locally with the full notation editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kpaede/Musescorer"
+  },
+  {
     "id": "lan-sync",
     "name": "LAN Sync",
     "author": "swiSwift",
-    "description": "the desktop serves the vault, mobile devices discover it automatically, with no IP, port or key to type. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Zero-configuration, LAN-only, two-way sync for Obsidian. Your desktop serves the vault; phones and tablets are pure clients. No account, no cloud, no relay, and nothing to type. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dlsdgj/obsidian-lan-sync"
+  },
+  {
+    "id": "rich-property",
+    "name": "Rich Property",
+    "author": "sdking",
+    "description": "Edit note properties with dropdowns, type-aware fields and colored values, and flag values that break your schema. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sdkay/obsidian-rich-property"
+  },
+  {
+    "id": "excalidraw-canvas-optimizer",
+    "name": "Excali Canvas Optimizer",
+    "author": "changxi4848",
+    "description": "Excalidraw 配套优化：导航小地图 + 顺滑缩放拖动，几千笔画也不卡。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "changxi4848/excalidraw-canvas-optimizer"
+  },
+  {
+    "id": "merged-table",
+    "name": "Merged Table",
+    "author": "frecely",
+    "description": "Create and edit tables with merged cells, including existing Markdown tables. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "frecely/obsidian-merged-table"
+  },
+  {
+    "id": "hudson-auto-organizer-ai",
+    "name": "Hudson Auto Organizer AI",
+    "author": "Rahul S",
+    "description": "Organize notes with folder rules, manual filing, AI suggestions, previews and Undo. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tutivsoft-com/Hudson-Auto-Organizer-AI"
   }
 ]
