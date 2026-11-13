@@ -36745,9 +36745,9 @@
   {
     "id": "chew-it",
     "name": "Chew It",
-    "author": "Jakob He",
+    "author": "leweiibot",
     "description": "Analyze the current note with an LLM in the sidebar — outline, key-concept explanations, and a distilled summary. Works with Claude (Anthropic) and any OpenAI-compatible API. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "leweii/chew-it"
+    "repo": "leweiibot/chew-it"
   },
   {
     "id": "safi-site-audit",
@@ -65891,13 +65891,6 @@
     "repo": "nexziz/pocket-watch"
   },
   {
-    "id": "md-to-hwpx",
-    "name": "HWPX Exporter",
-    "author": "everydaymind",
-    "description": "Export Markdown notes to Hangul HWPX documents formatted by HWPX templates, with an MCP-like API for AI agent plugins. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "everydaymind/obsidian-hwpx-exporter"
-  },
-  {
     "id": "relative-image-width",
     "name": "Relative Image Width",
     "author": "theluckystrike",
@@ -67737,13 +67730,6 @@
     "author": "alas, poor ophelia",
     "description": "Georeference a map image: pin notes by latitude and longitude. A coordinate system over your picture, not a basemap. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alas-poor-ophelia/u1316c-georeference"
-  },
-  {
-    "id": "file-master",
-    "name": "File Master",
-    "author": "weichen.ink",
-    "description": "Manage vault assets with self-hosted cloud storage, clipboard auto-upload, SHA-256 deduplication, zero-broken-link batch migration, and orphan cleanup. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "weichen-ink/file-master"
   },
   {
     "id": "banana-studio",
@@ -71386,13 +71372,6 @@
     "repo": "arangutambo/obsidian-anki-desk"
   },
   {
-    "id": "kordoc-transform",
-    "name": "KorDoc Transform",
-    "author": "everydaymind",
-    "description": "Convert Korean HWP, HWPX and HWPML documents, PDF, Excel, Word and PowerPoint files to Markdown, preview and edit HWPX, and export Markdown to HWPX offline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "everydaymind/obsidian-kordoc-transform"
-  },
-  {
     "id": "vault-screen-lock",
     "name": "Vault Screen Lock",
     "author": "Zhiyuan Ju",
@@ -72282,6 +72261,13 @@
     "repo": "blursedperf/obsidian-task-docket"
   },
   {
+    "id": "vivid",
+    "name": "Vivid",
+    "author": "a-znk",
+    "description": "ChatGPT and Claude-grade interactive visual rendering fused with Bases, Canvas, Properties, and Wikilinks: sortable super-tables, offline ECharts, live vault analytics, pan-zoom SVGs, KPI cards, and sandboxed HTML artifacts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuki-zik/obsidian-vivid"
+  },
+  {
     "id": "vigg-vault",
     "name": "ViggVault",
     "author": "Viggo Meesters",
@@ -72301,5 +72287,12 @@
     "author": "renwujun",
     "description": "Squeeze the native graph into a wide band using fixed top and bottom directional force areas. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "renwujun/obsidian-graph-squeeze"
+  },
+  {
+    "id": "lan-sync",
+    "name": "LAN Sync",
+    "author": "swiSwift",
+    "description": "the desktop serves the vault, mobile devices discover it automatically, with no IP, port or key to type. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dlsdgj/obsidian-lan-sync"
   }
 ]
