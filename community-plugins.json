@@ -31122,13 +31122,6 @@
     "repo": "london-chen/no-paste"
   },
   {
-    "id": "lan-vault-sync",
-    "name": "LAN Vault Sync",
-    "author": "senjanson",
-    "description": "Real-time vault synchronization over LAN using Yjs CRDT for conflict-free merging. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "senjanson/lan-vault-sync"
-  },
-  {
     "id": "marginnote-sync",
     "name": "MarginNote Sync",
     "author": "cheedfdf",
@@ -59685,7 +59678,7 @@
     "id": "scholiast",
     "name": "Scholiast",
     "author": "Slouyang ",
-    "description": "Capture flow notes with keyboard-first selection in Markdown and ebooks; annotate PDFs and review highlights and thoughts without editing the source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Read and annotate Markdown, PDF and ebooks in place — keyboard-first selection, highlights, notes and tags. Originals untouched, data stays in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "github-oysl/obsidian-annotation-plugin"
   },
   {
@@ -63934,7 +63927,7 @@
     "id": "agent-deck",
     "name": "Agent Deck",
     "author": "马自立",
-    "description": "Track Claude Code, Codex, WorkBuddy and DeepSeek Harness from Obsidian; delegate with a command; keep agent status in the macOS menu bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Track Claude Code, Codex, Antigravity, WorkBuddy and DeepSeek Harness from Obsidian; delegate with a command; keep agent status in the macOS menu bar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "matsurimw/obsidian-agent-deck"
   },
   {
@@ -72224,5 +72217,40 @@
     "author": "bvn13",
     "description": "Edit Markdown project plans as an interactive Gantt chart. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "project-planner-gantt/obsidian-project-planner-plugin"
+  },
+  {
+    "id": "inline-schema-expander",
+    "name": "Inline Schema Expander",
+    "author": "blursedperf",
+    "description": "Expand trigger tags such as #case-law into inline field templates, with the cursor placed in the first field. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "blursedperf/obsidian-inline-schema-expander"
+  },
+  {
+    "id": "svg-sticker-makemd-rimpk",
+    "name": "SVG Sticker",
+    "author": "rimpk901",
+    "description": "Assign custom SVG stickers to notes, folders, and Make.md Spaces in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rimpk901/obsidian-svg-sticker"
+  },
+  {
+    "id": "excalidraw-c-four-model",
+    "name": "Excalidraw C4 Model",
+    "author": "dzoukr",
+    "description": "Draw C4 model diagrams (people, systems, containers, components and their relationships) inside Excalidraw drawings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dzoukr/ExcalidrawC4ObsidianPlugin"
+  },
+  {
+    "id": "alt-quick-keys",
+    "name": "Alt Quick Keys",
+    "author": "Citrussy",
+    "description": "Alt-key shortcuts to insert markup, jump between lines, extend the selection character by character, fill in wikilinks with Tab, and go back or forward without losing the scroll position. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "citrussy/obsidian-alt-quick-keys"
+  },
+  {
+    "id": "onenote-style",
+    "name": "OneNote Style",
+    "author": "Sundowna",
+    "description": "The ribbon you already know: Office-style tabs, groups and buttons for any command, customised by right-click and drag and drop. Plus OneNote-style note tags, subpages, notebooks and section tabs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sundowna/obsidian-onenote-style"
   }
 ]
