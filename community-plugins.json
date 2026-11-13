@@ -30600,7 +30600,7 @@
     "id": "simple-checklist",
     "name": "Simple Checklist",
     "author": "Lasse",
-    "description": "Side panel showing all open todos across your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Collect open todos from across your vault into one side panel to check off, reorder and jump to. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "l-4553/obsidian-simple-checklist"
   },
   {
@@ -39763,7 +39763,7 @@
     "id": "zj-html-studio",
     "name": "ZJ HTML Studio",
     "author": "兆基",
-    "description": "Preview, search, inspect, and embed local HTML files with scoped resources, live reload, zoom, and full screen. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Open local HTML, edit slide notes in the sidebar, present on another display, search across slides, and embed pages in Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aidenxu-1/zj-html-studio"
   },
   {
@@ -72198,6 +72198,13 @@
     "repo": "finarfin12/Seedbed"
   },
   {
+    "id": "broken-heading-links",
+    "name": "Broken Heading Links",
+    "author": "Atlas Creative",
+    "description": "Find links to headings and blocks that no longer exist, like [[Note#Old heading]], and fix them with one click. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bzucker4/obsidian-broken-heading-links"
+  },
+  {
     "id": "scenery",
     "name": "Scenery",
     "author": "chacha260",
@@ -72420,5 +72427,26 @@
     "author": "Kevin Mulholland",
     "description": "Dashboard, projects, tasks, time tracking and research notes for a vault organised by customer; read-only by default. Based on Neon Deck by Yobzs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "27escape/neon-work-obsidian"
+  },
+  {
+    "id": "linked-note-suggester",
+    "name": "Linked Note Suggester",
+    "author": "Atlas Creative",
+    "description": "Suggest related notes to link based on content similarity, with review before inserting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bzucker4/obsidian-linked-note-suggester"
+  },
+  {
+    "id": "smart-daily-capture",
+    "name": "Smart Daily Capture",
+    "author": "Atlas Creative",
+    "description": "Quickly capture thoughts into today's daily note under the right heading. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bzucker4/obsidian-smart-daily-capture"
+  },
+  {
+    "id": "gumroad-sales-ledger",
+    "name": "Gumroad Sales Ledger",
+    "author": "Atlas Creative",
+    "description": "Sync your Gumroad sales into your vault: a sales ledger, totals in each product note, and a block that shows today's sales in your daily note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bzucker4/bzucker4-obsidian-gumroad-sales-ledger"
   }
 ]
