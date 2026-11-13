@@ -71218,13 +71218,6 @@
     "repo": "woutervanranst/Obsidian-Enterprise-Sync"
   },
   {
-    "id": "pageink",
-    "name": "PageInk",
-    "author": "henry",
-    "description": "Write Markdown notes, annotate PDFs, and draw on paginated pages or an infinite canvas, with a separate scratchpad. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zzzdragondyngphx/pageink"
-  },
-  {
     "id": "reflect",
     "name": "Reflect",
     "author": "faradayfury",
@@ -71391,6 +71384,13 @@
     "author": "AJ",
     "description": "Write flashcards in your notes and review them in Anki. Incremental sync over AnkiConnect, card templates as commands, maths that never breaks, and nothing ever deleted. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "arangutambo/obsidian-anki-desk"
+  },
+  {
+    "id": "kordoc-transform",
+    "name": "KorDoc Transform",
+    "author": "everydaymind",
+    "description": "Convert Korean HWP, HWPX and HWPML documents, PDF, Excel, Word and PowerPoint files to Markdown, preview and edit HWPX, and export Markdown to HWPX offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "everydaymind/obsidian-kordoc-transform"
   },
   {
     "id": "vault-screen-lock",
@@ -72306,7 +72306,7 @@
     "id": "vigg-vault",
     "name": "ViggVault",
     "author": "Viggo Meesters",
-    "description": "Check selected notes against the opt-in Work link-style rules. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Check opt-in Work link style and current-note Wiki layout. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "viggomeesters/obsidian-vigg-vault"
   },
   {
@@ -72380,10 +72380,31 @@
     "repo": "thiagomonaco/SDOCX-Importer-Obsidian"
   },
   {
+    "id": "table-drag-resizer",
+    "name": "Table Drag Resizer",
+    "author": "gvinagremartins",
+    "description": "Resize tables with drag handles for the whole table, each column and each row (Live Preview). Work in progress. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gvinagremartins/table-drag-resize"
+  },
+  {
     "id": "docstrive",
     "name": "DocStrive",
     "author": "docstrive",
-    "description": "Bring your DocStrive surgical notes into your vault: one page per procedure with your notes grouped by theme, tags, pictures and a graph by region. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "PRIVATE FOR NOW - Bring your DocStrive surgical notes into your vault: one page per procedure with your notes grouped by theme, tags, pictures and a graph by region. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "thomashusson29/obsidian-docstrive"
+  },
+  {
+    "id": "note-relay",
+    "name": "Note Relay",
+    "author": "KJ Developers",
+    "description": "Open your live Obsidian vault in a browser — Dataview, backlinks and edits included — without uploading it anywhere. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kjdevelopers/note-relay-obsidian_plugin"
+  },
+  {
+    "id": "calcul-inline",
+    "name": "Inline Calcul",
+    "author": "panda09",
+    "description": "Type a calculation ending with = and see the result inline; press Tab to insert it. Supports units, variables, custom functions, LaTeX and function graphs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theshiningroastpanda/calcul-inline"
   }
 ]
