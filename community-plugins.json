@@ -19237,7 +19237,7 @@
   },
   {
     "id": "yoofloe",
-    "name": "Yoofloe AI",
+    "name": "Yoofloe",
     "author": "yoofloe",
     "description": "Research, write and organize notes with your OpenAI key. Search the web, attach files and create images. Calendar is optional. www.yoofloe.com. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yoofloe/yoofloe-obsidian"
@@ -32501,6 +32501,13 @@
     "repo": "viggomeesters/obsidian-sql-viewer"
   },
   {
+    "id": "nextcloud-sync",
+    "name": "Nextcloud Sync",
+    "author": "Daisuke ITO",
+    "description": "Bidirectional sync between Obsidian and Nextcloud using hash-based change detection. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "siosig/obsidian-nextcloudsync"
+  },
+  {
     "id": "minimal-hidden-files",
     "name": "Minimal Hidden Files",
     "author": "Viggo Meesters",
@@ -39935,13 +39942,6 @@
     "repo": "yaye-work/note-diary"
   },
   {
-    "id": "np-rf-analysis",
-    "name": "nPort RF Analysis",
-    "author": "Jerome G Wiltz",
-    "description": "Analyze RF and microwave networks from Markdown and render SVG charts, tables, and Smith plots. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jerrywiltz/np-rf-analysis"
-  },
-  {
     "id": "code-playground",
     "name": "Code Playground",
     "author": "touss59",
@@ -44966,13 +44966,6 @@
     "author": "RUIzg",
     "description": "使用DeepSeek API将Obsidian笔记转换为Anki卡片，支持多种模型、识图、Cloze填空、批量标签等扩展功能 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ruizg/Ankify-plus"
-  },
-  {
-    "id": "find-in-note",
-    "name": "Find in Note",
-    "author": "mikagosz",
-    "description": "Search the current note and highlight every match in place, without unrendering tables, callouts or other blocks. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mikagosz/obsidian-find-in-note"
   },
   {
     "id": "vault-mirror",
@@ -53940,13 +53933,6 @@
     "author": "Ankur Sethi",
     "description": "Organize chronological notes in a date tree directory structure. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "s3thi/date-trees"
-  },
-  {
-    "id": "mindflow",
-    "name": "MindFlow",
-    "author": "auroraechop",
-    "description": "Toggle any note into an editable, radial mind map in the same tab. Every edit writes straight back to the original note, and no new files are ever created. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "auroraechop/MindFlow"
   },
   {
     "id": "font-slider",
@@ -72103,7 +72089,7 @@
     "id": "graph-color-legend",
     "name": "Graph Color Legend",
     "author": "4 Humans",
-    "description": "Show the graph's color groups as a collapsible legend. Rename or hide entries and highlight a group on hover or tap. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Show the graph's color groups, tags and properties as a legend. Highlight, search, reorder, recolor and save sets of groups. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "4-humans/graph-color-legend"
   },
   {
@@ -72121,10 +72107,66 @@
     "repo": "yobzs/neon-deck-obsidian"
   },
   {
+    "id": "treelights",
+    "name": "Treelights",
+    "author": "james-s-pearson",
+    "description": "Highlight code blocks accurately with Tree-sitter, with themes, colour previews and security warnings. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "james-s-pearson/treelights"
+  },
+  {
     "id": "strakes-ttrpg",
     "name": "Strakes TTRPG",
     "author": "Alex Daniel Herrera Sánchez",
     "description": "TTRPG toolkit for game masters: image maps with markers, layers, curved routes, travel times and portals; a player screen for notes and images; and an initiative tracker with conditions, temporary HP and portrait cards. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "strakes99/Strakes-ttrpg"
+  },
+  {
+    "id": "poster-rows",
+    "name": "Poster Rows",
+    "author": "jacksbrokenlaptop",
+    "description": "Adds a Bases view that shows notes as a featured banner and horizontally scrolling rows of cover images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jacksbrokenlaptop/obsidian-poster-rows"
+  },
+  {
+    "id": "floating-graph",
+    "name": "Floating Graph",
+    "author": "Vitor Teixeira",
+    "description": "Explore your vault as a floating, depth-shaded graph with a side panel that previews each note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vitor-tx/obsidian-floating-graph"
+  },
+  {
+    "id": "magazine-rack",
+    "name": "Magazine Rack",
+    "author": "ducktapekiller",
+    "description": "A front page for the magazines you read: their latest articles, with pictures, in one note that keeps itself up to date. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ducktapekiller/magazine-rack"
+  },
+  {
+    "id": "orbit-folders",
+    "name": "Orbit Folders",
+    "author": "Кирилл",
+    "description": "Explore your vault as an animated star system where folders orbit like planets and notes circle them as moons. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mixfixmr/orbit-folders"
+  },
+  {
+    "id": "earmark",
+    "name": "Earmark",
+    "author": "Housni Yakoob",
+    "description": "Keep a catalog of budget items, build budgets from it, and track spending, credits and balances. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "housni/earmark"
+  },
+  {
+    "id": "pocket-recordings",
+    "name": "Pocket Recordings",
+    "author": "bsakdol",
+    "description": "Sync Pocket recordings into conversation and insight notes, with transcripts, summaries, action items, and mind maps. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bsakdol/obsidian-pocket-recordings"
+  },
+  {
+    "id": "coffer",
+    "name": "Coffer",
+    "author": "chauduyphanvu",
+    "description": "Sync your vault between devices, end-to-end encrypted, through storage you control: any S3-compatible bucket or a WebDAV server. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chauduyphanvu/obsidian-coffer"
   }
 ]
