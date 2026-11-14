@@ -39389,13 +39389,6 @@
     "repo": "duybaodg/mindmap-plugin-hbd-dang"
   },
   {
-    "id": "skill-harness-manager",
-    "name": "Skill and Harness Manager",
-    "author": "Joe Utke",
-    "description": "MacOS only - Launch skills stored in your vault with ribbon buttons and contextual right click menu. Register harnesses and agents, assign them to your skills and connect to their active sessions. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "joeutke-dev/skill-harness-manager"
-  },
-  {
     "id": "attachment-type-icons",
     "name": "Attachment Type Icons",
     "author": "GOODJINC",
@@ -44450,6 +44443,13 @@
     "repo": "stashwiseai/stashwise-obsidian"
   },
   {
+    "id": "bases-pill-colors",
+    "name": "Bases Visuals",
+    "author": "Gabriel Bacha",
+    "description": "Add Notion-style pill colors and conditional formatting to Base tables. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gabrielbacha/obsidian-base-visuals"
+  },
+  {
     "id": "markdown-relay",
     "name": "Markdown Relay",
     "author": "luffysolution-svg",
@@ -47687,7 +47687,7 @@
     "id": "re-supercharged-links",
     "name": "Re-supercharged Links",
     "author": "Carl Bechstrom",
-    "description": "Re-Supercharged Links is an advanced link-styling plugin for Obsidian that has evolved far beyond the original fork into a substantially redesigned and expanded implementation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A high-performance plugin that dynamically styles internal links based on target note metadata—including tags, folder paths and YAML frontmatter properties. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "carlb01/re-supercharged-links"
   },
   {
@@ -60858,6 +60858,13 @@
     "repo": "haderlka/obsidian-pivot-tables"
   },
   {
+    "id": "glasscockpit",
+    "name": "Glasscockpit",
+    "author": "Niklas J. Thaler",
+    "description": "Run Claude Code sessions as terminal views inside Obsidian, with a cockpit dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nyko073006/glasscockpit"
+  },
+  {
     "id": "storyteller-comic-drafter",
     "name": "Storyteller Comic Drafter",
     "author": "Jim",
@@ -64626,7 +64633,7 @@
   {
     "id": "pluscan",
     "name": "Pluscan",
-    "author": "Quasicry",
+    "author": "奼某",
     "description": "Install plugins from local folders or zip files inside your vault, with a confirm-before-install card. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "quasicry/pluscan"
   },
@@ -66141,6 +66148,13 @@
     "author": "Max Kurapov",
     "description": "Walk through Mermaid sequence diagrams in a document one step at a time, as a sequence or on a draggable participant map, highlighting the active path. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mkurapov/obsidian-mermaid-walkthrough"
+  },
+  {
+    "id": "purewrite-export",
+    "name": "PureWrite Export",
+    "author": "Yechiel Ben David",
+    "description": "Word (DOCX), PDF, EPUB and HTML books from notes or folders, with footnotes, math equations and Mermaid diagrams. Right-to-left (RTL) Hebrew and Arabic. No Pandoc, offline, on mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yybd/purewrite-export"
   },
   {
     "id": "lab-ai-summary",
@@ -69916,6 +69930,13 @@
     "repo": "tonypeonio/obsidian-local-vault-agent"
   },
   {
+    "id": "svg-studio",
+    "name": "SVG Studio",
+    "author": "Johannes Kaindl",
+    "description": "Describe an icon, logo, diagram or floor plan and get an exact, editable SVG — refined in rounds with a local or OpenAI-compatible model. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johannes-kaindl/svg-studio"
+  },
+  {
     "id": "reading-zoom",
     "name": "Reading Zoom",
     "author": "Roland Matuz",
@@ -71183,6 +71204,13 @@
     "repo": "woutervanranst/Obsidian-Enterprise-Sync"
   },
   {
+    "id": "pageink",
+    "name": "PageInk",
+    "author": "henry",
+    "description": "Write Markdown notes, annotate PDFs, and draw on paginated pages or an infinite canvas, with a separate scratchpad. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zzzdragondyngphx/pageink"
+  },
+  {
     "id": "reflect",
     "name": "Reflect",
     "author": "faradayfury",
@@ -71438,7 +71466,7 @@
     "id": "insightpage-style",
     "name": "insightpage-style",
     "author": "3-ark",
-    "description": "This Plugin lets you create Charts, render abcjs, popover comment callout within Obsidian to match the styles in insightnote - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create complex diagram like a pro using observable plot, make timeline and general charts available by chart DSL, enable sub and superscript, render music notation, maps and inline popover comment. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "3-ark/Insightpage-style"
   },
   {
@@ -72459,7 +72487,7 @@
   {
     "id": "lilium",
     "name": "Lilium",
-    "author": "Quasicry",
+    "author": "奼某",
     "description": "Universal dictionary & transliteration — Sanskrit, Pali, Tibetan, Mongolian, Manchu, Uyghur, Siddham, 'Phags-pa and more. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "quasicry/lilium"
   },
@@ -72751,10 +72779,87 @@
     "repo": "volland/book-companion-reader"
   },
   {
+    "id": "fmhy-safeguard",
+    "name": "FMHY SafeGuard",
+    "author": "Tim Odermatt",
+    "description": "Shows FMHY SafeGuard classifications next to external links. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tim-odermatt/obsidian-fmhy-safeguard"
+  },
+  {
     "id": "mermaid-standard",
     "name": "Mermaid Standard",
     "author": "dmstory",
     "description": "Render mermaid code blocks with upstream mermaid, so standard config like theme, look and themeVariables works again - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dmstory/obsidian-mermaid-standard"
+  },
+  {
+    "id": "note-classifier",
+    "name": "Note Classifier",
+    "author": "Niko",
+    "description": "Classify Markdown notes into configured frontmatter tags using decision models. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "niko32/obsidian-note-classifier"
+  },
+  {
+    "id": "census",
+    "name": "Census",
+    "author": "xwtaidev",
+    "description": "Download counts for the community plugins you track: a curve, a total, and one row per plugin with links to its listing and its repository. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xwtaidev/obsidian-census-plugin"
+  },
+  {
+    "id": "keep-lists",
+    "name": "Keep Lists",
+    "author": "Rafael Marques",
+    "description": "Google Keep-style checklists: drag to reorder, drag right to nest, checked items move to a completed section. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rafzzzzzz/obsidian-keep-lists"
+  },
+  {
+    "id": "zhami",
+    "name": "Zhami",
+    "author": "kote-pdj",
+    "description": "Open or create the note for this week, month, year, or any other period, from a template. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kosyakssss/zhami"
+  },
+  {
+    "id": "transfer-latex-from-ai",
+    "name": "Transfer LaTeX from AI",
+    "author": "zhibin",
+    "description": "Convert LaTeX formulas generated by AI (ChatGPT, DeepSeek, Gemini, etc.) into Obsidian's MathJax format. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "crazy5/obsidian-transfer-latex-from-AI"
+  },
+  {
+    "id": "ownsync",
+    "name": "Ownsync",
+    "author": "Mrithyunjay K",
+    "description": "End-to-end encrypted, real-time sync between your own devices through your own Cloudflare Worker. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "humanglitch191/ownsync"
+  },
+  {
+    "id": "niyoj-daymark",
+    "name": "Daymark Habits",
+    "author": "Niyoj Oli",
+    "description": "Track habits and routines with daily checklists, streak boards, and completion heatmaps inside your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "niyoj/daymark"
+  },
+  {
+    "id": "backgammon-xgid",
+    "name": "Backgammon XGID Display",
+    "author": "johnhscottdev",
+    "description": "Draw backgammon positions and eXtreme Gammon analysis from XGID code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johnhscottdev/obsidian-backgammon"
+  },
+  {
+    "id": "aiditing",
+    "name": "AiDiTing",
+    "author": "DiTIngAI",
+    "description": "Turn audio and video files in your vault into timestamped, chaptered Markdown notes. Only creates new notes; never modifies existing ones. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ditingai/obsidian-aiditing"
+  },
+  {
+    "id": "excalidraw-hotkeys",
+    "name": "Excalidraw Hotkeys",
+    "author": "Liam Gour",
+    "description": "Hotkeys for Excalidraw: colour, fill, resize, align, duplicate with an arrow. Set every key in Settings, Hotkeys. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "virus7976/excalidraw-hotkeys"
   }
 ]
