@@ -21721,6 +21721,13 @@
     "repo": "glassvault-ai/obsidian-symlink-manager"
   },
   {
+    "id": "llm-assistant",
+    "name": "LLM Assistant",
+    "author": "m0370",
+    "description": "Chat with multiple LLMs (Claude, GPT, Gemini) in your vault. Mobile-first design with secure API key management. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "m0370/obsidian-llm-assistant"
+  },
+  {
     "id": "task-limiter",
     "name": "Task Limiter",
     "author": "jmondo",
@@ -29699,6 +29706,13 @@
     "author": "greedyhao",
     "description": "一键发布 Obsidian 笔记到微信公众号等平台 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "greedyhao/obsidian-note-to-public"
+  },
+  {
+    "id": "semlink",
+    "name": "Semlink",
+    "author": "ouzhongyuan",
+    "description": "AI assistant for Obsidian: chat with your notes, drag notes for Q&A, and expose an MCP semantic search service for Claude, Codex and other agents - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ouou365/Semlink"
   },
   {
     "id": "semantic-todoist-sync",
@@ -72226,6 +72240,13 @@
     "repo": "blursedperf/obsidian-inline-schema-expander"
   },
   {
+    "id": "memo-bridge",
+    "name": "Memo Bridge",
+    "author": "Nate Miller",
+    "description": "Import notes from the Samsung Notes app for Windows into your vault. Handwriting becomes SVG images and typed text becomes Markdown. Optional handwriting transcription with a local or online AI model. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "natemiller82/obsidian-memo-bridge"
+  },
+  {
     "id": "svg-sticker-makemd-rimpk",
     "name": "SVG Sticker",
     "author": "rimpk901",
@@ -72478,6 +72499,13 @@
     "repo": "matalina/obsidian-clocks-trackers"
   },
   {
+    "id": "youtube-llm-summarizer",
+    "name": "YouTube LLM Summarizer",
+    "author": "TeiNam",
+    "description": "Summarize YouTube captions into structured study notes with Amazon Bedrock, OpenAI-compatible models, Claude or Gemini. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "teinam/obsidian-youtube-llm-summarizer"
+  },
+  {
     "id": "broken-link-cleaner",
     "name": "Broken Link Cleaner",
     "author": "Atlas Creative",
@@ -72499,10 +72527,59 @@
     "repo": "btchh/motion-database"
   },
   {
+    "id": "outline-flow",
+    "name": "Outline Flow",
+    "author": "Rowen",
+    "description": "Turn indented outlines into mind maps and flowcharts. Edit on the chart with Enter and Tab, pick from 17 themes, drag with snapping, and export to a single HTML page. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rowenfan/outline-flow"
+  },
+  {
+    "id": "deepseek-chat",
+    "name": "DeepSeek Chat",
+    "author": "kivenbig",
+    "description": "Chat with DeepSeek using your own API key: web search, deep search, read links, file input, safety check, auto titles, text-to-speech and speech input. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kivenbig/obsidian-deepseek-chat"
+  },
+  {
     "id": "wujie-translate",
     "name": "Wujie Translate",
     "author": "adventurer",
     "description": "Translate selected text and look up English words with hosted bilingual dictionaries. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "adventurer2008/wujie-translate"
+  },
+  {
+    "id": "word-by-word",
+    "name": "Word by Word",
+    "author": "joshbroa",
+    "description": "Read a note aloud one word at a time, advancing only when you press a key. Built for copying notes out by hand. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "joshbroa/word-by-word"
+  },
+  {
+    "id": "quick-expense",
+    "name": "Quick Expense",
+    "author": "Tang Mo",
+    "description": "Log an expense in seconds: type what and how much, tap a category, done. Your location carries over, and each expense is a plain note you can sum with Bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "moboku/quick-expense"
+  },
+  {
+    "id": "media-offload",
+    "name": "Media Offload",
+    "author": "Tang Mo",
+    "description": "Keep your vault small. Pasted and dropped images and videos are saved to a folder outside the vault and linked, identical files are stored once, and attachments already in the vault can be moved out. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "moboku/media-offload"
+  },
+  {
+    "id": "taskscape",
+    "name": "Taskscape",
+    "author": "Belal Adel",
+    "description": "Visualize your markdown tasks as a Gantt timeline or a grouped summary using a taskscape code block. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "belaladeldev/taskscape"
+  },
+  {
+    "id": "daylight",
+    "name": "Daylight",
+    "author": "Gonsix",
+    "description": "Daily timeline, tasks and projects with inline status and notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gonsix/daylight"
   }
 ]
