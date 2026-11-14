@@ -36757,13 +36757,6 @@
     "repo": "secum3r/table-of-content"
   },
   {
-    "id": "config-drift-watcher",
-    "name": "Config Drift Watcher",
-    "author": "rixct",
-    "description": "Detects when a server's actual configuration has diverged from what you documented in your notes. Read-only over SFTP. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "rixct/config-drift-watcher"
-  },
-  {
     "id": "pantryfin",
     "name": "PantryFin",
     "author": "PantryFin",
@@ -36986,13 +36979,6 @@
     "author": "Adam Tommasi",
     "description": "Plan meals, build grocery lists, and view recipes as interactive cards, all from Markdown notes. Import from the web, scale servings, track what you cook, and share by link. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "adamarcane/obsidian-recipebox"
-  },
-  {
-    "id": "coderecall",
-    "name": "CodeRecall",
-    "author": "rixct",
-    "description": "Anki + LeetCode inside Obsidian: cloze deletions in code with auto-graded active recall and spaced repetition. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "rixct/code-recall"
   },
   {
     "id": "towrite-open-questions",
@@ -37434,13 +37420,6 @@
     "author": "Aiken Lin",
     "description": "Keep note filenames aligned with the first H1 — automatically and safely. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aiken884/obsidian-h1aligner"
-  },
-  {
-    "id": "obsyncian",
-    "name": "Syncian",
-    "author": "Almas Abulkhairov",
-    "description": "Sync and back up your vault across devices with end-to-end encryption. Requires an Obsyncian account; free tier available, paid plans add storage and vault limit - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "aabulkhairov/obsyncian"
   },
   {
     "id": "folder-limit",
@@ -68607,6 +68586,13 @@
     "repo": "neurasthenickid/Manifest"
   },
   {
+    "id": "plugin-radar",
+    "name": "Community Radar",
+    "author": "Ali Tekdemir",
+    "description": "Query the plugin directory like SQL: trending newcomers, comebacks after long silence, alternatives and milestones. Track your picks as notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alitekdemir/obsidian-community-radar"
+  },
+  {
     "id": "inline-preview",
     "name": "Inline Preview",
     "author": "Manuel Niehues",
@@ -71869,6 +71855,13 @@
     "repo": "ckxkx/writing-dashboard"
   },
   {
+    "id": "slipstream",
+    "name": "SlipStream",
+    "author": "gua",
+    "description": "Turn folders and tags into a continuous, draggable card stream for effortless long-form writing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "saltcoffee/slip-stream"
+  },
+  {
     "id": "mdfriday-garden",
     "name": "MDFriday Digital Garden",
     "author": "Sun Wei",
@@ -72651,5 +72644,12 @@
     "author": "chams-bensalem",
     "description": "Turn the active note into an agent-ready backlog (Epics, Stories, Sub-tasks) in Jira or OpenProject, via Refinr. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "chams-bensalem/refinr-obsidian"
+  },
+  {
+    "id": "vim-layer",
+    "name": "Vim Layer",
+    "author": "zulerne",
+    "description": "One Vim keyboard layer for all of Obsidian, in any keyboard layout: a which-key leader menu, Reading view keys and link hints, Harpoon, input method switching and .vimrc. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zulerne/obsidian-vim-layer"
   }
 ]
