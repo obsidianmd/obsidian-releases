@@ -65089,7 +65089,7 @@
     "id": "view-tabs-for-bases",
     "name": "View Tabs for Bases",
     "author": "tttatsuo",
-    "description": "Show a base's views as tabs next to the result count. Drag to reorder, and set each tab's color, size and visibility. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Show a base's views as tabs with view type icons, next to the result count or below the toolbar. Drag to reorder the views, and set each tab's color, size and visibility. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tttatsuo/obsidian-view-tabs-for-bases"
   },
   {
@@ -66092,6 +66092,13 @@
     "author": "Beomsu Koh | 고범수",
     "description": "Monitor and manage remote Hermes Agent profiles over SSH: kanban boards, a profile canvas, skills, cron jobs and chat. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "goberomsu/obsidian-hermes"
+  },
+  {
+    "id": "team-relay-sync",
+    "name": "Team Relay Sync",
+    "author": "Entire VC",
+    "description": "Real-time collaboration and web publishing: live cursors, shared folders, AI agent access, self-hosted or hosted. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "entire-vc/evc-team-relay-obsidian"
   },
   {
     "id": "kanso-todos",
@@ -72310,6 +72317,13 @@
     "repo": "kpaede/Musescorer"
   },
   {
+    "id": "canvas-stickers",
+    "name": "Canvas Stickers",
+    "author": "romubuntu",
+    "description": "Add your own stickers on your Obsidian canvas! - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "romubuntuv2/canvas-stickers"
+  },
+  {
     "id": "lan-sync",
     "name": "LAN Sync",
     "author": "swiSwift",
@@ -72646,10 +72660,38 @@
     "repo": "chams-bensalem/refinr-obsidian"
   },
   {
+    "id": "pendf",
+    "name": "penDF",
+    "author": "Denny Kim",
+    "description": "A standalone, iPad-first PDF viewer with highlights. No other plugins required. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dhwan0112/pendf"
+  },
+  {
     "id": "vim-layer",
     "name": "Vim Layer",
     "author": "zulerne",
-    "description": "One Vim keyboard layer for all of Obsidian, in any keyboard layout: a which-key leader menu, Reading view keys and link hints, Harpoon, input method switching and .vimrc. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Vim keys beyond the editor: Space leader menu with key hints, Reading view navigation and link hints, Harpoon-style file marks, .vimrc mappings, Latin layout outside Insert. Any keyboard layout. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zulerne/obsidian-vim-layer"
+  },
+  {
+    "id": "deepseek-vault-agent",
+    "name": "DeepSeek Vault Agent",
+    "author": "任阿福",
+    "description": "Speak or type — DeepSeek plans, searches the web, reads links, and writes notes or folders in your vault. Bring your own key; runs on iPhone. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "raf-159357/deepseek-vault-agent"
+  },
+  {
+    "id": "recurrent-dates",
+    "name": "Recurrent Dates",
+    "author": "sandi ro",
+    "description": "See what happened on this day in any year, using the dates you already link in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kenkyuusha/recurrent-dates"
+  },
+  {
+    "id": "ai-curator",
+    "name": "AI Curator",
+    "author": "钟思成",
+    "description": "Save anything. Read what matters. AI triages your clippings and bookmarks, tells you what's worth reading, and turns them into connected, actionable notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "martinzhong2026/Obsidian-AI-Curator"
   }
 ]
