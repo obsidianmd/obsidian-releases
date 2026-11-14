@@ -25683,13 +25683,6 @@
     "repo": "screvi/screvi-obsidian-plugin"
   },
   {
-    "id": "istart-note-ai",
-    "name": "IStart-Note-AI",
-    "author": "yan-istart",
-    "description": "Generate structured knowledge notes from questions and selected text using DeepSeek AI, with automatic concept pages, bidirectional links, and a question graph. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yan-istart/IStart-Note-AI-Plugin"
-  },
-  {
     "id": "notekeeper",
     "name": "Notekeeper",
     "author": "philemonchiro",
@@ -27329,10 +27322,10 @@
   },
   {
     "id": "iso-me-maps",
-    "name": "iso.me Maps",
+    "name": "Whereday Maps",
     "author": "codybontecou",
     "description": "Render Leaflet maps inline from iso.me exports. Supports JSON, CSV, Markdown, OwnTracks, Overland, and GPX formats with stats and duration-encoded markers. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "codybontecou/isome-maps"
+    "repo": "codybontecou/whereday-maps"
   },
   {
     "id": "review-builder",
@@ -64918,6 +64911,13 @@
     "repo": "hadesls/MDbase64"
   },
   {
+    "id": "name-dialogue",
+    "name": "Name Dialogue",
+    "author": "Charles Qiang",
+    "description": "An Obsidian plugin that adds formatting to dialogue in scripts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qiangcharles/Name-Dialogue"
+  },
+  {
     "id": "markvis",
     "name": "Markvis Charts",
     "author": "Sean",
@@ -72543,8 +72543,8 @@
   {
     "id": "deepseek-chat",
     "name": "DeepSeek Chat",
-    "author": "kivenbig",
-    "description": "Chat with DeepSeek using your own API key: web search, deep search, read links, file input, safety check, auto titles, text-to-speech and speech input. - This plugin has not been manually reviewed by Obsidian staff.",
+    "author": "kiven大汉堡",
+    "description": "Chat with DeepSeek in Obsidian using your own API key。使用您自己的 API 密钥，在 Obsidian 中与 DeepSeek 进行对话：支持网页搜索、深度搜索、阅读链接与文件、文本转语音以及语音输入功能。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kivenbig/obsidian-deepseek-chat"
   },
   {
@@ -72600,7 +72600,7 @@
     "id": "yazi-fm",
     "name": "Yazi FM",
     "author": "zulerne",
-    "description": "Keyboard-driven file manager that behaves like Yazi and reads your Yazi keymap.toml and yazi.toml. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Yazi in your vault: the same default keys and behavior as Yazi, plus your own keymap.toml and yazi.toml. Nothing new to learn. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zulerne/obsidian-yazi"
   },
   {
@@ -72616,5 +72616,12 @@
     "author": "tuatara",
     "description": "Add a red, gently blinking 2px caret inspired by Bear, with line-height matching and reduced-motion support. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cherishh/obsidian-bear-cursor"
+  },
+  {
+    "id": "image-processor",
+    "name": "Image Processor",
+    "author": "weizwz",
+    "description": "Automatically rename, move, convert, and compress pasted, dropped, and existing note images with batch processing and crash recovery. 对笔记中粘贴或拖拽进来的图片，自动进行重命名、移动位置、格式转换与压缩，还支持全库笔记图片批量处理 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "weizwz/obsidian-image"
   }
 ]
