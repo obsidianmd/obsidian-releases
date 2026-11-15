@@ -23009,13 +23009,6 @@
     "repo": "ppeirce/property-annotations"
   },
   {
-    "id": "citation-extended",
-    "name": "Citation Extended",
-    "author": "akhmialeuski",
-    "description": "Extended functionality to automatically search and insert citations from a Zotero library. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "akhmialeuski/obsidian-citation-extended"
-  },
-  {
     "id": "logically",
     "name": "Logically AI Research Assistant",
     "author": "afforai",
@@ -57291,7 +57284,7 @@
     "id": "reading-vault",
     "name": "Reading Vault",
     "author": "John Hesch",
-    "description": "Read EPUB and PDF books in your vault with highlights, notes, bookmarks and read-aloud. Pro adds 28 natural voices, Ask the book with your own AI key, summaries and highlight review. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "EPUB and PDF ebook reader for your vault. Highlights become notes, plus bookmarks, offline dictionary and read-aloud (text to speech). Pro adds natural voices, audiobook mode and AI with your own key. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "b0xfan/reading-vault"
   },
   {
@@ -66125,7 +66118,7 @@
     "id": "mcq-tracker",
     "name": "MCQ Tracker",
     "author": "Isaac Friedenson",
-    "description": "Turn a testbank into trackable MCQs and FRQs, study with spaced repetition flashcards, and plan around exams with an exam-style interface. Integrated calendar and notes. Optional AI tutor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Multiple choice quiz and exam practice from your notes and PDFs: timed tests, confidence ratings, mistake tags and spaced repetition review. MCQ, FRQ and flashcards. Works offline; AI is optional. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ifriedenson/mcq-tracker"
   },
   {
@@ -72408,13 +72401,6 @@
     "repo": "gvinagremartins/table-drag-resize"
   },
   {
-    "id": "docstrive",
-    "name": "DocStrive",
-    "author": "docstrive",
-    "description": "PRIVATE FOR NOW - Bring your DocStrive surgical notes into your vault: one page per procedure with your notes grouped by theme, tags, pictures and a graph by region. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "thomashusson29/obsidian-docstrive"
-  },
-  {
     "id": "note-relay",
     "name": "Note Relay - Vault in a Browser",
     "author": "KJ Developers",
@@ -73068,8 +73054,22 @@
   {
     "id": "md-format-tool",
     "name": "Markdown Format Tool",
-    "author": "诸葛润兴",
+    "author": "Ricey",
     "description": "Repair LaTeX formatting when pasting content and review repairs in Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zgrx/md-format-tool"
+  },
+  {
+    "id": "library-reader",
+    "name": "Library Reader",
+    "author": "gmleuning",
+    "description": "Turns a vault of PDFs into a reading room: keyboard-first catalogue, per-book notes beside the book, full-text search with context, and a reference desk of new books, recent notes and books needing fixes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gmleuning/ReadingRoom"
+  },
+  {
+    "id": "audio-loop-player",
+    "name": "Music Practice Player",
+    "author": "Damian Evans",
+    "description": "Audio player for practising music: loop sections, slow down without changing pitch, and shift pitch. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "damianeire/obsidian-mp3-player"
   }
 ]
