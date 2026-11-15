@@ -19113,7 +19113,7 @@
     "id": "engram-quest",
     "name": "EngramQuest",
     "author": "bahfahh",
-    "description": "Turn notes into gamified Quest Maps, visual Memory Maps (Canvas), and flashcard Review Decks powered by AI Skills. Supports Claude Code, Gemini CLI, and Cursor. Features FSRS spaced repetition, active recall, memory retention, and AI hints. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Turn notes into AI-built courses, teaching videos and flashcards with FSRS spaced repetition, using the AI tool you already have: Claude Code, Codex, Gemini  or Cursor. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bahfahh/engram-quest"
   },
   {
@@ -21250,6 +21250,13 @@
     "author": "jffaust",
     "description": "Add links to canvas images and open them by double clicking. Links can be an vault URL, web URL or even a file on your computer. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jffaust/obsidian-canvas-images-as-links"
+  },
+  {
+    "id": "hedgesync",
+    "name": "Hedgesync",
+    "author": "tionis",
+    "description": "Sync notes with HedgeDoc documents using frontmatter links and hedgesync. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tionis/obsidian-hedgesync"
   },
   {
     "id": "vim-keynav",
@@ -27249,13 +27256,6 @@
     "author": "Peter Sedmak",
     "description": "Permission-aware encrypted cloud sync for teams. Client-side encryption with KMS-backed server-managed keys, per-file permissions, and full audit logging through AWS. Desktop + mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "peter70700/vaultguard-obsidian"
-  },
-  {
-    "id": "pi-chat",
-    "name": "PiChat",
-    "author": "Geng",
-    "description": "Chat with Pi coding agent locally. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gengyabc/obsidian-pi-plugin"
   },
   {
     "id": "goban-viewer",
@@ -33605,6 +33605,13 @@
     "author": "Aiday Marlen Kyzy",
     "description": "Adds backtick shortcut for code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aiday-mar/code-style-keys"
+  },
+  {
+    "id": "graph-project-buttons",
+    "name": "Graph Project Buttons",
+    "author": "Daniel Kremen",
+    "description": "Adds one-click project filter buttons to the graph view so you never type path queries by hand. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "danielkremen818/obsidian-graph-project-buttons"
   },
   {
     "id": "wandlog",
@@ -47384,7 +47391,7 @@
   },
   {
     "id": "garda-handwriting-text-ocr",
-    "name": "Garda Handwriting Text OCR",
+    "name": "Garda AI Handwriting Text OCR",
     "author": "Rahul S",
     "description": "Transcribe handwritten images and PDFs into searchable Markdown with GPT-5 mini. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/Garda-Handwriting-Text-OCR"
@@ -52592,7 +52599,7 @@
   },
   {
     "id": "tundra-frontmatter-wrangler",
-    "name": "Tundra Frontmatter Wrangler",
+    "name": "Tundra AI Frontmatter Wrangler",
     "author": "Rahul S",
     "description": "Safely preview, apply, and roll back bulk frontmatter and property changes offline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/tool-app-Obsidian-Tundra-Frontmatter-Wrangler"
@@ -68183,7 +68190,7 @@
     "id": "zhaohua-xishi",
     "name": "Zhaohua Xishi",
     "author": "Tangerine.Cat",
-    "description": "Review past notes, read journals as books, export images, and format WeChat articles with reusable templates and HTML export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Review past notes, read journals as books, format WeChat articles, and export notes as images, long images, or cards. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tangerine-cat888/zhaohua-xishi"
   },
   {
@@ -70152,13 +70159,6 @@
     "author": "emillaursen2004",
     "description": "LaTeX autocomplete inside math with rendered previews, ranked by your own notes, plus proof and question templates with Tab placeholders and solution routes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "emil513t/obsidian-math-autocomplete"
-  },
-  {
-    "id": "shudong-diary",
-    "name": "Treehole Diary",
-    "author": "Y.jg",
-    "description": "Import encrypted diary emails from an IMAP mailbox into Markdown notes in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "chnyjg/Treehole-Diary"
   },
   {
     "id": "inventory-ui",
@@ -72709,13 +72709,6 @@
     "repo": "chams-bensalem/refinr-obsidian"
   },
   {
-    "id": "pendf",
-    "name": "penDF",
-    "author": "Denny Kim",
-    "description": "A standalone, iPad-first PDF viewer with highlights. No other plugins required. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dhwan0112/pendf"
-  },
-  {
     "id": "vim-layer",
     "name": "Vim Layer",
     "author": "zulerne",
@@ -73064,5 +73057,19 @@
     "author": "Callum Alpass",
     "description": "Edit mdbase types and mirror hosted collections through mdbase Connect. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mdbase-dev/mdbase-obsidian"
+  },
+  {
+    "id": "fakecard",
+    "name": "fakecard",
+    "author": "godfatherlg",
+    "description": "Spaced-repetition flashcards built from your notes, stored in their own folder - your notes stay untouched. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "godfatherlg/fakecard"
+  },
+  {
+    "id": "md-format-tool",
+    "name": "Markdown Format Tool",
+    "author": "诸葛润兴",
+    "description": "Repair LaTeX formatting when pasting content and review repairs in Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zgrx/md-format-tool"
   }
 ]
