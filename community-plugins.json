@@ -43687,13 +43687,6 @@
     "repo": "obsidian-power-plugins/obsidian-power-explorer"
   },
   {
-    "id": "auto-remove",
-    "name": "Auto Remove",
-    "author": "karfekr",
-    "description": "Automatically expire notes and files using a time-to-live, then trash or move them after a preview. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "karfekr/obsidian-auto-remove"
-  },
-  {
     "id": "documentation-command-center",
     "name": "Documentation Command Center",
     "author": "Akhilesh Upadhyay",
@@ -62244,6 +62237,13 @@
     "repo": "theluckystrike/pocket-letter-chords"
   },
   {
+    "id": "logwell",
+    "name": "Logwell",
+    "author": "MHElnour",
+    "description": "Tasks with natural-language Quick Add, lists, sections, tags, repeats, habits, a calendar, a board, an Eisenhower matrix and a focus timer. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mhelnour/logwell"
+  },
+  {
     "id": "claudian-voice",
     "name": "Claudian Voice",
     "author": "Eli Horne",
@@ -63892,7 +63892,7 @@
     "id": "agent-deck",
     "name": "Agent Deck",
     "author": "马自立",
-    "description": "Track Claude Code, Codex, Antigravity, WorkBuddy and DeepSeek Harness from Obsidian; delegate with a command; keep agent status in the macOS menu bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Track Claude Code, Codex, Antigravity, WorkBuddy and dsh from Obsidian; delegate with a command; keep agent status in the macOS menu bar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "matsurimw/obsidian-agent-deck"
   },
   {
@@ -71732,7 +71732,7 @@
     "id": "anilink",
     "name": "AniLink",
     "author": "北漠海",
-    "description": "Manage anime subscriptions, local downloads, playback, and Bangumi progress and reviews. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "番剧检索、RSS 订阅下载、媒体播放与弹幕，支持 Bangumi 收藏、观看进度和评价同步。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "beimohai/AniLink-Obsidian"
   },
   {
@@ -72252,6 +72252,13 @@
     "author": "blursedperf",
     "description": "Expand trigger tags such as #case-law into inline field templates, with the cursor placed in the first field. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "blursedperf/obsidian-inline-schema-expander"
+  },
+  {
+    "id": "memo-bridge",
+    "name": "Memo Bridge",
+    "author": "Nate Miller",
+    "description": "Import notes from the Samsung Notes app for Windows into your vault. Handwriting becomes SVG images and typed text becomes Markdown. Optional handwriting transcription with a local or online AI model. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "natemiller82/obsidian-memo-bridge"
   },
   {
     "id": "svg-sticker-makemd-rimpk",
@@ -72926,13 +72933,6 @@
     "repo": "hlakarki/pacer"
   },
   {
-    "id": "highlighter-ink",
-    "name": "Highlighter Ink",
-    "author": "yiangos",
-    "description": "Highlighter is a pseudo-native plugin that adds core functionality to the PDF reader. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ypgrimm/Highlighter-Obsidian"
-  },
-  {
     "id": "cycle-tracker",
     "name": "Cycle Tracker",
     "author": "Ana Olivia Jorge",
@@ -73036,5 +73036,12 @@
     "author": "RAMANDALAHY Triomphe",
     "description": "Bible MDG, KJF et KJV, KJV CCDB, Interlinéaire, Péricope, Parole du jour, Hymnes FFPM, DSS Teny Fiainana et Bible en 90 jours. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "triompherivo/baibolintsikaverse-obsidian-release"
+  },
+  {
+    "id": "ribbon-toolbar",
+    "name": "Ribbon toolbar",
+    "author": "ondreu",
+    "description": "An Office-style ribbon: customisable tabs, groups and buttons in two heights, with integrations for Tasks, Markdown Spreadsheets, Templates, Excalidraw and Bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ondreu/ribbon-toolbar"
   }
 ]
