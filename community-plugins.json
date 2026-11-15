@@ -7903,6 +7903,13 @@
     "repo": "odaimoko/tag-project"
   },
   {
+    "id": "multi-properties",
+    "name": "Multi Properties",
+    "author": "technohiker",
+    "description": "Add properties to multiple notes at once. Either right-click a folder or select multiple notes and right-click the selection.",
+    "repo": "technohiker/obsidian-multi-properties"
+  },
+  {
     "id": "slackify-note",
     "name": "Slackify Note",
     "author": "jeremyoverman",
@@ -23009,6 +23016,13 @@
     "repo": "ppeirce/property-annotations"
   },
   {
+    "id": "citation-extended",
+    "name": "Citation Extended",
+    "author": "akhmialeuski",
+    "description": "Extended functionality to automatically search and insert citations from a Zotero library. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "akhmialeuski/obsidian-citation-extended"
+  },
+  {
     "id": "logically",
     "name": "Logically AI Research Assistant",
     "author": "afforai",
@@ -28423,7 +28437,7 @@
     "id": "weave-epub-reader",
     "name": "Weave Reader",
     "author": "zhuzhige123",
-    "description": "Standalone EPUB reader with bookshelf, deep links, and reading state persistence. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Multi-format ebook reader for desktop & mobile: paragraph reading, immersive fullscreen, auto excerpts, bidirectional deep links, and excerpt timelines (EPUB, MOBI, AZW3, FB2, CBZ, TXT). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhuzhige123/obsidian-weave-reader"
   },
   {
@@ -37226,13 +37240,6 @@
     "repo": "khr0907/obsidian-mouse-handwriting"
   },
   {
-    "id": "dxf-viewer-editor",
-    "name": "DXF Viewer and Editor",
-    "author": "ondreu",
-    "description": "Simple light DXF viewer and editor, capable of measuring lenght, area, diameter, angles, and more. Aswell as simple editing like lines, polylines, rectangles, circles, elipses, arcs, fill, hatches... - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ondreu/DXF-Viewer-and-editor"
-  },
-  {
     "id": "bamboo-immortals",
     "name": "Bamboo Immortals",
     "author": "羽鳞君",
@@ -37413,6 +37420,13 @@
     "author": "Aiken Lin",
     "description": "Keep note filenames aligned with the first H1 — automatically and safely. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aiken884/obsidian-h1aligner"
+  },
+  {
+    "id": "obsyncian",
+    "name": "Syncian",
+    "author": "Almas Abulkhairov",
+    "description": "Sync and back up your vault across devices with end-to-end encryption. Requires an Obsyncian account; free tier available, paid plans add storage and vault limit - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aabulkhairov/obsyncian"
   },
   {
     "id": "folder-limit",
@@ -59369,7 +59383,7 @@
   {
     "id": "shared-tasks",
     "name": "Shared Tasks",
-    "author": "OpenLFCP",
+    "author": "Andrey Pankov",
     "description": "Share tasks between vaults, end-to-end encrypted, without uploading your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "openlfcp/obsidian"
   },
@@ -66108,6 +66122,13 @@
     "repo": "cynthia2023xy/obsidian-wechat-reader"
   },
   {
+    "id": "mcq-tracker",
+    "name": "MCQ Tracker",
+    "author": "Isaac Friedenson",
+    "description": "Multiple choice quiz and exam practice from your notes and PDFs: timed tests, confidence ratings, mistake tags and spaced repetition review. MCQ, FRQ and flashcards. Works offline; AI is optional. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ifriedenson/mcq-tracker"
+  },
+  {
     "id": "rho-network",
     "name": "Rho Network",
     "author": "clowsuzu",
@@ -67268,6 +67289,13 @@
     "author": "theluckystrike",
     "description": "Show each number value and its change from the prior row in each Bases group. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "theluckystrike/bases-row-deltas"
+  },
+  {
+    "id": "trew-sync",
+    "name": "TrewSync",
+    "author": "waynehoover",
+    "description": "Self-hosted vault sync with full history and built-in MCP. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "waynehoover/trewsync"
   },
   {
     "id": "augmented-view",
@@ -69461,13 +69489,6 @@
     "repo": "kray404/word-count-activity-heatmap"
   },
   {
-    "id": "dowse",
-    "name": "Dowse",
-    "author": "Walid",
-    "description": "Find anything in your vault by what's in it: notes, PDFs, images, recordings and videos, searched by meaning, on your computer. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "walidhadri-iron/dowse-obsidian"
-  },
-  {
     "id": "questsound",
     "name": "QuestSound",
     "author": "Artem",
@@ -70306,6 +70327,13 @@
     "author": "Tim Disney",
     "description": "Keep your Skyreader highlights and notes in your vault, one note per article, with citation details. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "disnet/skyreader-obsidian"
+  },
+  {
+    "id": "nimble-gm",
+    "name": "Ember Vault",
+    "author": "Dakotah Cote",
+    "description": "Run Nimble TTRPG encounters and campaigns from your notes: a bundled bestiary, encounter blocks rated for your party, a combat tracker, GM maps and 3D dice. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "puddinglord/obsidian-ttrpg-encounter-manager"
   },
   {
     "id": "branching-table-of-contents",
@@ -72138,7 +72166,7 @@
     "id": "nexus-graph",
     "name": "NexusGraph",
     "author": "Nguyễn Duy Tân",
-    "description": "Demonstrates some of the capabilities of the Obsidian API. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Create interactive 3D & 2D vocabulary graphs and mind maps for language learning. Go beyond file-only graphs by generating custom nodes inline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "peonat2804/nexus-graph"
   },
   {
@@ -72590,6 +72618,13 @@
     "repo": "gonsix/daylight"
   },
   {
+    "id": "highlight-boost",
+    "name": "Highlight Boost",
+    "author": "华佳浩",
+    "description": "Highlight prose, code lines and exact code selections with shared semantic colors. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "danlingdan/highlight-boost"
+  },
+  {
     "id": "yazi-fm",
     "name": "Yazi FM",
     "author": "zulerne",
@@ -72805,13 +72840,6 @@
     "author": "johnhscottdev",
     "description": "Draw backgammon positions and eXtreme Gammon analysis from XGID code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "johnhscottdev/obsidian-backgammon"
-  },
-  {
-    "id": "aiditing",
-    "name": "AiDiTing",
-    "author": "DiTIngAI",
-    "description": "Turn audio and video files in your vault into timestamped, chaptered Markdown notes. Only creates new notes; never modifies existing ones. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ditingai/obsidian-aiditing"
   },
   {
     "id": "excalidraw-hotkeys",
@@ -73071,5 +73099,26 @@
     "author": "Jeany",
     "description": "Read Xnotes notebooks and embed or cite their pages. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jeany-b/obsidian-xnotes-embeds"
+  },
+  {
+    "id": "page-width",
+    "name": "Page Width",
+    "author": "Adam Tweedie",
+    "description": "Resize the readable text column by dragging its margins, or pick Narrow, Wide or Max from the status bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nipsey-cosmo/page-width"
+  },
+  {
+    "id": "data-charts",
+    "name": "Data Charts",
+    "author": "albertomercurio",
+    "description": "Create interactive charts from CSV, JSON and JSON Lines files, and show weather forecasts for places and dates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "albertomercurio/Data-Charts-Obsidian-Plugin"
+  },
+  {
+    "id": "iter",
+    "name": "Iter",
+    "author": "mateusdcc",
+    "description": "Shared long-term goal garden with modular trees, subgoals, and habit watering for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mateusdcc/obsidian-iter"
   }
 ]
