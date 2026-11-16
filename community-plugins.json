@@ -30051,13 +30051,6 @@
     "repo": "desmondwen/obsidian-antigravity-cli-sidebar"
   },
   {
-    "id": "mentat",
-    "name": "Mentat",
-    "author": "Mentat Team",
-    "description": "Your local agentic cognitive partner for Obsidian, managing structured knowledge, local command operations, and deep mathematical reasoning. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "secbone/obsidian-mentat"
-  },
-  {
     "id": "plan-panel",
     "name": "Plan Panel",
     "author": "xuhuaya0",
@@ -39380,6 +39373,13 @@
     "author": "William Dang",
     "description": "Brainstorming-focused mind map plugin with auto-organized layouts and keyboard shortcuts - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "duybaodg/mindmap-plugin-hbd-dang"
+  },
+  {
+    "id": "skill-harness-manager",
+    "name": "Skill and Harness Manager",
+    "author": "Joe Utke",
+    "description": "MacOS only - Launch skills stored in your vault with ribbon buttons and contextual right click menu. Register harnesses and agents, assign them to your skills and connect to their active sessions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "joeutke-dev/skill-harness-manager"
   },
   {
     "id": "attachment-type-icons",
@@ -69629,13 +69629,6 @@
     "repo": "yamanor/obsidian-inkmagix"
   },
   {
-    "id": "owla-butler",
-    "name": "OWLA Butler",
-    "author": "Filip",
-    "description": "Chat with Codex using your open note, selected text, images and vault context. Review edits before applying them. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pilafdob/owla-butler"
-  },
-  {
     "id": "copy-color",
     "name": "Copy Color",
     "author": "NotAVirus",
@@ -71412,6 +71405,13 @@
     "author": "markuslitz",
     "description": "Analyze vault disk usage in an ncdu-style interface with attachment attribution, reference inspection, and orphan detection. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "markuslitz/obsidian-obdu"
+  },
+  {
+    "id": "virtual-mount",
+    "name": "Virtual Mount",
+    "author": "zou",
+    "description": "Show a real folder or note as a virtual subfolder anywhere in the file explorer. Files stay in one place, and both locations update together. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ko-ani/obsidian-virtual-mount"
   },
   {
     "id": "doomesque-settings",
@@ -73346,10 +73346,38 @@
     "repo": "kendall051021/obsidian-plugin-catalog"
   },
   {
+    "id": "terminal-dispatch",
+    "name": "Terminal Dispatch",
+    "author": "Josh Medeski",
+    "description": "Send notes to terminal commands and coding agents, and hear back when they finish. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "joshmedeski/obsidian-terminal-dispatch"
+  },
+  {
     "id": "opentodo",
     "name": "OpenTodo",
     "author": "pixari",
     "description": "Send lines from any note to your own OpenTodo server as tasks that link back to the note, and keep a folder of task files in two-way sync. Works offline and with encrypted accounts. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "opentodoapp/obsidian-opentodo"
+  },
+  {
+    "id": "inkline",
+    "name": "Inkline",
+    "author": "viell",
+    "description": "Draw symbols that no font has, then write with them inline in your notes like characters. Each one is saved as a plain PNG image. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "viell-dev/slop-inkline"
+  },
+  {
+    "id": "automatic-time-tracker",
+    "name": "Automatic Time Tracker",
+    "author": "kluesn",
+    "description": "Track time automatically for every note, PDF and drawing. Live sidebar with start, pause and stop, areas and projects, idle detection, Pomodoro, reminders and manual entries. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kluesn/automatic-time-tracker"
+  },
+  {
+    "id": "margin-cards",
+    "name": "Margin Cards",
+    "author": "quinn-7777",
+    "description": "Read-time margin notes in the page gutter: cards or hover bubbles, widths that scale with the pane, a Chinese or English interface, and Markdown files that are never modified. Annotations live in one JSON file. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "quinn-7777/margin-cards"
   }
 ]
