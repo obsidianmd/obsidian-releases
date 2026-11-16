@@ -63518,6 +63518,13 @@
     "repo": "vsaraikin/obsidian-claude-plugin"
   },
   {
+    "id": "abc-solfa",
+    "name": "ABC Sol-fa",
+    "author": "Damian Evans",
+    "description": "Render ABC tunes with sol-fa syllables and Kodály stick rhythm notation, each layer switchable per block. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "damianeire/obsidian-abc-solfa"
+  },
+  {
     "id": "knowledge-curator",
     "name": "Knowledge Curator",
     "author": "Hannah Lin",
@@ -72838,7 +72845,7 @@
     "id": "aiditing",
     "name": "AiDiTing",
     "author": "DiTIngAI",
-    "description": "Transcribe audio/video files in your vault, or Bilibili / Douyin / Xiaohongshu links, into timestamped, chaptered Markdown notes. New files only; never modifies existing. Free: 30 min/month. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Transcribe audio, video and Bilibili links into timestamped Markdown notes. 视频/录音转文字，B站视频做笔记。Free 30 min/month. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ditingai/obsidian-aiditing"
   },
   {
@@ -73323,5 +73330,26 @@
     "author": "mrweschy",
     "description": "Sync Docmost spaces with a folder in your vault in both directions, including images and attachments. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mrweschy/obsidian-docmost-sync"
+  },
+  {
+    "id": "microsoft-todo-panel",
+    "name": "Microsoft To Do Panel",
+    "author": "A B",
+    "description": "Drag your Microsoft To Do tasks into notes from a sidebar, and see which ones a note already holds. Read-only. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "au2mater/obsidian-microsoft-todo-panel"
+  },
+  {
+    "id": "plugin-catalog-guide",
+    "name": "Vault Catalog and Guides",
+    "author": "rainydawn",
+    "description": "List installed plugins in a live panel, keep a Markdown catalog updated, and generate step-by-step Chinese usage guides with settings and current values. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kendall051021/obsidian-plugin-catalog"
+  },
+  {
+    "id": "opentodo",
+    "name": "OpenTodo",
+    "author": "pixari",
+    "description": "Send lines from any note to your own OpenTodo server as tasks that link back to the note, and keep a folder of task files in two-way sync. Works offline and with encrypted accounts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "opentodoapp/obsidian-opentodo"
   }
 ]
