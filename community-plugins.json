@@ -41979,13 +41979,6 @@
     "repo": "xuxiaominger/obsidian-skim-highlights"
   },
   {
-    "id": "taskloops",
-    "name": "TaskLoops",
-    "author": "Sahand",
-    "description": "Plan Markdown tasks with calendars, timelines and Gantt charts. Track deadlines, find overdue tasks, and record why a task can't be scheduled yet. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sahandps/TaskLoops"
-  },
-  {
     "id": "card-dashboard",
     "name": "Card Dashboard",
     "author": "sourit2001",
@@ -58915,7 +58908,7 @@
     "id": "sealbox",
     "name": "Sealbox",
     "author": "scar",
-    "description": "Encrypt notes and attachments with a single password, and keep logins in a built-in secrets manager. Works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Encrypt notes and attachments, edit encrypted Markdown, and organize logins in a built-in secrets manager. Works on desktop and Android. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "scar333/obsidian-sealbox"
   },
   {
@@ -61990,13 +61983,6 @@
     "author": "siulved54",
     "description": "Translate the selection or a whole note into another language with no account, keeping links, code and front matter untouched. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "perezamadorluisenrique-gif/quick-translate"
-  },
-  {
-    "id": "hierarchy-navigator",
-    "name": "Hierarchy Navigator",
-    "author": "ButCool",
-    "description": "Render a parent / siblings / children navigation block at the top of any note. Inspired by SiYuan's hierarchyNavigate plugin. Source files are never modified — the block is injected at render time. Works with the AidenLX Folder Note plugin. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "butfool/obsidian-hierarchy-navigator"
   },
   {
     "id": "brewlang",
@@ -71407,13 +71393,6 @@
     "repo": "markuslitz/obsidian-obdu"
   },
   {
-    "id": "virtual-mount",
-    "name": "Virtual Mount",
-    "author": "zou",
-    "description": "Show a real folder or note as a virtual subfolder anywhere in the file explorer. Files stay in one place, and both locations update together. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ko-ani/obsidian-virtual-mount"
-  },
-  {
     "id": "doomesque-settings",
     "name": "DoomEsque Settings",
     "author": "blursedperf",
@@ -72653,6 +72632,13 @@
     "repo": "weizwz/obsidian-image"
   },
   {
+    "id": "epxsc-syntax",
+    "name": "EpXsC Syntax",
+    "author": "白崎凌泷_Shir0Tak1na",
+    "description": "为述无空语构造记号 EpXsC 的代码块注册 Prism 语法；词表自动读自《述无空语词典》。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "shir0tak1na/EpXsC-Syntax"
+  },
+  {
     "id": "skillflow",
     "name": "SkillFlow",
     "author": "lucas",
@@ -72826,6 +72812,13 @@
     "author": "johnhscottdev",
     "description": "Draw backgammon positions and eXtreme Gammon analysis from XGID code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "johnhscottdev/obsidian-backgammon"
+  },
+  {
+    "id": "aiditing",
+    "name": "AiDiTing",
+    "author": "DiTIngAI",
+    "description": "Transcribe audio/video files in your vault, or Bilibili / Douyin / Xiaohongshu links, into timestamped, chaptered Markdown notes. New files only; never modifies existing. Free: 30 min/month. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ditingai/obsidian-aiditing"
   },
   {
     "id": "excalidraw-hotkeys",
@@ -73262,10 +73255,17 @@
     "repo": "iyulab/obsidian-declart"
   },
   {
+    "id": "vault-fetch",
+    "name": "VaultFetch",
+    "author": "Yukino",
+    "description": "Install and update plugins from private GitHub repositories using device-local credentials. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yukinoshita52/obsidian-vault-fetch"
+  },
+  {
     "id": "yishi",
     "name": "Yishi",
     "author": "Yishi",
-    "description": "Manage projects with a three-column task board, three-level subtasks, Markdown, and local JSON backups. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Manage projects with a bilingual task board, three-level subtasks, Markdown, and local JSON backups. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "talismanh/yishi-obsidian"
   },
   {
@@ -73274,5 +73274,19 @@
     "author": "Amit Giri",
     "description": "One tap turns rough, shorthand notes into clean sentences without changing what you wrote. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "amitgiri0001/tidy-notes"
+  },
+  {
+    "id": "verbex",
+    "name": "Verbex",
+    "author": "everydaymind",
+    "description": "AI agent for document work that uses your vault as its workspace: grounded answers, tool-based facts, and edits you approve and can restore. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "everydaymind/obsidian-verbex"
+  },
+  {
+    "id": "path-to-prod",
+    "name": "Path to Prod",
+    "author": "Alexandre Charbit",
+    "description": "Forecast development, staging, and production delivery dates from Jira history and team availability. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alex3l3t33/path-to-prod"
   }
 ]
