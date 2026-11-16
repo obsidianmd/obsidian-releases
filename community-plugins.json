@@ -28794,7 +28794,7 @@
     "id": "meetings-plus",
     "name": "Meetings Plus",
     "author": "jabaho9523",
-    "description": "Subscribe to calendars and create pre-filled meeting notes in one click. No drag-and-drop, no Outlook required. ICS-based, privacy-first - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Subscribe to your ICS calendars and open a pre-filled meeting note for any meeting in one click. Works with Outlook, Google, iCloud, Proton and Fastmail. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jabaho9523/obsidian-meetings-plus"
   },
   {
@@ -54316,7 +54316,7 @@
     "id": "nectenda",
     "name": "Nectenda",
     "author": "Nectenda",
-    "description": "Collaborate on notes in real time with live cursors, shared folders and offline editing, end-to-end encrypted so the server cannot read them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Collaborate on markdown, canvas, bases, kanban and excalidraw in real time with live cursors. Shared folders with background sync. End-to-end encrypted multiplayer collaboration. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nectenda/nectenda-plugin"
   },
   {
@@ -63875,6 +63875,13 @@
     "repo": "kbmjj123/json-toolbox"
   },
   {
+    "id": "agent-deck",
+    "name": "Agent Deck",
+    "author": "马自立",
+    "description": "Track Claude Code, Codex, Antigravity, WorkBuddy and dsh from Obsidian; delegate with a command; keep agent status in the macOS menu bar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "matsurimw/obsidian-agent-deck"
+  },
+  {
     "id": "pdf-report-exporter",
     "name": "Report Exporter",
     "author": "Maxence HAEGMAN",
@@ -71729,6 +71736,13 @@
     "repo": "zimingwu18/html-external-opener"
   },
   {
+    "id": "chinese-popover-dict",
+    "name": "Chinese Popover Dictionary",
+    "author": "Kantulaev 孔凯风",
+    "description": "Double-click Apple Liquid Glass Chinese popover dictionary with Pinyin, Jyutping, Cantonese pronunciation, and concise definitions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kantulaev/obsidian-chinese-popover"
+  },
+  {
     "id": "writing-sessions",
     "name": "Writing Sessions",
     "author": "ossianhempel",
@@ -72814,13 +72828,6 @@
     "repo": "johnhscottdev/obsidian-backgammon"
   },
   {
-    "id": "aiditing",
-    "name": "AiDiTing",
-    "author": "DiTIngAI",
-    "description": "Transcribe audio/video files in your vault, or Bilibili / Douyin / Xiaohongshu links, into timestamped, chaptered Markdown notes. New files only; never modifies existing. Free: 30 min/month. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ditingai/obsidian-aiditing"
-  },
-  {
     "id": "excalidraw-hotkeys",
     "name": "Excalidraw Hotkeys",
     "author": "Liam Gour",
@@ -73199,6 +73206,13 @@
     "repo": "perufitlife/postwire-obsidian"
   },
   {
+    "id": "memos-hub",
+    "name": "Memos Hub",
+    "author": "Jacko",
+    "description": "把 Memos 备忘同步到本地库：多账户、文件/日记双模式、发送笔记回 Memos、AI 整理、YAML 属性与标签过滤。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aijacko/memos-hub"
+  },
+  {
     "id": "vimflow",
     "name": "Vimflow",
     "author": "async23",
@@ -73206,10 +73220,52 @@
     "repo": "async23/obsidian-vimflow"
   },
   {
+    "id": "book-desk",
+    "name": "Book Desk",
+    "author": "Reza Shokri",
+    "description": "Read PDF and EPUB books like a paper book: pages that turn, a book with thickness, pen and highlighter, sticky notes and index cards. Highlights are saved as links in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rez-shok/book-desk"
+  },
+  {
     "id": "lifepilot",
     "name": "LifePilot",
     "author": "SCSldr",
     "description": "Plan your studies, record daily habits, and review progress offline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "khk-nl/LifePilot"
+  },
+  {
+    "id": "cult-canvas",
+    "name": "Cult Canvas",
+    "author": "Anton Ruban",
+    "description": "Turn canvases into a whiteboard: sticky notes, shapes, a freehand marker, frames, layers, a minimap and a context menu. Needs Advanced Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "saneety/cult-canvas"
+  },
+  {
+    "id": "autocomplete",
+    "name": "yuhanbo-autocomplete",
+    "author": "yuhanbo",
+    "description": "Complete Chinese and English words, note links, and custom phrases offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuhanbo758/obsidian-yuhanbo-autocomplete"
+  },
+  {
+    "id": "cap-sort",
+    "name": "cap-sort",
+    "author": "Nate Theeraphat .C",
+    "description": "Record a screen, one window or a region, with mic and system audio, cursor on or off. Saves small WebM files to your vault and embeds them in the note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "th3r-dev/cap-sort"
+  },
+  {
+    "id": "declart",
+    "name": "Declart",
+    "author": "iyulab",
+    "description": "Render declart code blocks as SVG diagrams. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "iyulab/obsidian-declart"
+  },
+  {
+    "id": "yishi",
+    "name": "Yishi",
+    "author": "Yishi",
+    "description": "Manage projects with a three-column task board, three-level subtasks, Markdown, and local JSON backups. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "talismanh/yishi-obsidian"
   }
 ]
