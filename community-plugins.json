@@ -14126,13 +14126,6 @@
     "repo": "ashwin271/obsidian-vector-search"
   },
   {
-    "id": "feedly-annotations",
-    "name": "Feedly Annotations Sync",
-    "author": "fleker",
-    "description": "Syncs Feedly highlights and annotations to a folder in your vault.",
-    "repo": "fleker/feedly-for-obsidian"
-  },
-  {
     "id": "duplicate-detector",
     "name": "Duplicate Detector",
     "author": "wishmater",
@@ -21254,7 +21247,7 @@
   {
     "id": "hedgesync",
     "name": "Hedgesync",
-    "author": "tionis",
+    "author": "Eric Wendland",
     "description": "Sync notes with HedgeDoc documents using frontmatter links and hedgesync. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tionis/obsidian-hedgesync"
   },
@@ -44137,7 +44130,7 @@
   {
     "id": "seafile-improved",
     "name": "Seafile Sync Improved",
-    "author": "tionis",
+    "author": "Eric Wendland",
     "description": "Sync notes across devices using Seafile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tionis/obsidian-seafile-improved"
   },
@@ -66073,13 +66066,6 @@
     "repo": "viggomeesters/obsidian-mail-drop"
   },
   {
-    "id": "tahoe-ocr",
-    "name": "Tahoe OCR",
-    "author": "Krishnan",
-    "description": "Search the text in your images: screenshots, photos of slides and scanned pages are read on your Mac with macOS Vision (OCR), so you can find an image by its words, copy its text. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "krishnanefx/obsidian-tahoe-ocr"
-  },
-  {
     "id": "latex-references",
     "name": "LaTeX References",
     "author": "jared cui",
@@ -72751,13 +72737,6 @@
     "repo": "chams-bensalem/refinr-obsidian"
   },
   {
-    "id": "pendf",
-    "name": "penDF",
-    "author": "Denny Kim",
-    "description": "A standalone, iPad-first PDF viewer with highlights. No other plugins required. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dhwan0112/pendf"
-  },
-  {
     "id": "vim-layer",
     "name": "Vim Layer",
     "author": "zulerne",
@@ -73106,13 +73085,6 @@
     "author": "Belal Adel",
     "description": "Schedule recurring and rotating tasks into a note, with automatic done and cancelled date stamps and a due-date menu. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "belaladeldev/clockwork-tasks"
-  },
-  {
-    "id": "mdbase-sync",
-    "name": "mdbase",
-    "author": "Callum Alpass",
-    "description": "Edit mdbase types and mirror hosted collections through mdbase Connect. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mdbase-dev/mdbase-obsidian"
   },
   {
     "id": "fakecard",
@@ -73645,5 +73617,33 @@
     "author": "onecat",
     "description": "Handwrite on PDFs, search text, export annotated copies, and create handwritten notebooks. Pro 0.4.6 adds handwriting directly on Markdown notes, linked excerpts, and source navigation. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "onecat-77/moye-notes-free"
+  },
+  {
+    "id": "poincare-disk-view",
+    "name": "Poincare disk view",
+    "author": "UN-MUNG",
+    "description": "Focus on one note in a large vault: put it at the center of a Poincare disk and show its linked neighborhood on a hyperbolic tiling. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hw-and-mj/poincare-disk-view"
+  },
+  {
+    "id": "rightymath",
+    "name": "RightyMath",
+    "author": "moskobosko",
+    "description": "Write Hebrew, Arabic and other RTL text with LaTeX math. Formulas stay left-to-right, each line gets the right direction, and inline math gets a live preview and a keyboard layout fix. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "moskobosko/rightymath"
+  },
+  {
+    "id": "kb-workbench",
+    "name": "xinghe-Workbench",
+    "author": "入眼所处皆星河",
+    "description": "把搜索、快捷新建、收藏、最近、任务、目录、统计、体检（含磁盘全盘扫描）、到期日历、速记本、标签总览（可框选多选）、月历（点日期看当日待办、红点标记）、待办（每日/每周）与写作量集中在一个工作台视图里. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xinghe-1018/kb-workbench"
+  },
+  {
+    "id": "projurista-legislacao",
+    "name": "Projurista Legislacao",
+    "author": "Jaime Zacarias",
+    "description": "Brazilian legislation as literal text: look up, cite and verify statutory provisions deterministically, in your notes and through a local MCP server for Claude. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ja1mez/projurista-legislacao"
   }
 ]
