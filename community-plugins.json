@@ -36967,13 +36967,6 @@
     "repo": "floydv149/JW-Relink"
   },
   {
-    "id": "recipe-box",
-    "name": "Recipe Box",
-    "author": "Adam Tommasi",
-    "description": "Plan meals, build grocery lists, and view recipes as interactive cards, all from Markdown notes. Import from the web, scale servings, track what you cook, and share by link. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "adamarcane/obsidian-recipebox"
-  },
-  {
     "id": "towrite-open-questions",
     "name": "ToWrite Open Questions",
     "author": "Rick",
@@ -38319,7 +38312,7 @@
   },
   {
     "id": "relation-weaver",
-    "name": "relation-weaver",
+    "name": "Relation Weaver",
     "author": "guilier",
     "description": "管理人物关系、阵营、时间线，支持热力图、亲密度演化、生命周期可视化、写作仪表盘 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "guilier/relation-weaver"
@@ -39541,13 +39534,6 @@
     "author": "Max",
     "description": "Will your readers keep up? Pick a readability target (≈ CEFR B1/B2/C1); the status bar shows on or off target while you write. In any language. The panel shows why, per section, click to jump. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "maxonamission/obsidian-readability-compass"
-  },
-  {
-    "id": "digital-archive",
-    "name": "Digital Archive",
-    "author": "HyoYoonNam",
-    "description": "Search books through the Aladin open API, generate notes with cover images and metadata, and browse your library in a card gallery view. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hyoyoonnam/digital-archive"
   },
   {
     "id": "tome",
@@ -59465,13 +59451,6 @@
     "repo": "diana-dcs/property-charts"
   },
   {
-    "id": "sync-and-mcp",
-    "name": "Sync and MCP",
-    "author": "Stefan",
-    "description": "End-to-end encrypted sync of your vaults through a self-hosted server, plus an MCP endpoint that lets AI assistants read, search and suggest edits to the notes you allow. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "nejroseld/sync-and-mcp"
-  },
-  {
     "id": "margin-comments",
     "name": "Margin Comments",
     "author": "Jonathan Sanchez",
@@ -64293,13 +64272,6 @@
     "author": "jase",
     "description": "Shows parent numbers on nested numbered lists (1.2.3.) in Live Preview, stable while scrolling. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jaskaran-sethy/obsidian-nested-list-numbers"
-  },
-  {
-    "id": "mermaid-nixie",
-    "name": "Mermaid Nixie",
-    "author": "jase",
-    "description": "DEPRECATED(MERMAID): Vault-wide Mermaid layout settings: the ELK engine with right-angle edges, plus spacing. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jaskaran-sethy/obsidian-mermaid-nixie"
   },
   {
     "id": "x-bookmarks-graph",
@@ -73164,6 +73136,13 @@
     "repo": "bravenewdesign/DictateBar-Obsidian"
   },
   {
+    "id": "knowledge-workbench",
+    "name": "Knowledge Workbench",
+    "author": "Wintmos",
+    "description": "Organize notes by tags, track due and review tasks, and open or read notes in your vault. All data stays local with zero network requests. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gintmos/knowledge-workbench"
+  },
+  {
     "id": "advanced-web-link-features",
     "name": "Advanced Web Link Features",
     "author": "Krzysztof Gniewek",
@@ -73230,7 +73209,7 @@
     "id": "proton-sdk-sync",
     "name": "Proton-SDK-Sync",
     "author": "ondreu",
-    "description": "Two-way, end-to-end encrypted sync between your vault and Proton Drive, built on Proton's official Drive SDK. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "End-to-end encrypted two-way sync between your vault and Proton Drive, with three-way conflict detection and a headless daemon for Linux servers. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ondreu/proton-sdk-sync"
   },
   {
@@ -73433,7 +73412,7 @@
     "id": "canvas-scenes",
     "name": "Pano",
     "author": "WOOD OFFICE",
-    "description": "Save named views of your canvas and return to them with a shortcut. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Never lose your place.  Pano saves views of your Obsidian Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "woodoffice/obsidian-pano"
   },
   {
@@ -73615,7 +73594,7 @@
     "id": "yinyue-moye",
     "name": "Moye Notes",
     "author": "onecat",
-    "description": "Handwrite on PDFs, search text, export annotated copies, and create handwritten notebooks. Pro 0.4.6 adds handwriting directly on Markdown notes, linked excerpts, and source navigation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Annotate PDFs and create notebooks in Obsidian. Moye Pro adds handwriting on Markdown notes, PDF excerpts, source jump-back, pressure-sensitive pens, handwriting beautification, OCR and AI Q&A. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "onecat-77/moye-notes-free"
   },
   {
@@ -73645,5 +73624,19 @@
     "author": "Jaime Zacarias",
     "description": "Brazilian legislation as literal text: look up, cite and verify statutory provisions deterministically, in your notes and through a local MCP server for Claude. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ja1mez/projurista-legislacao"
+  },
+  {
+    "id": "beautify",
+    "name": "Beautify",
+    "author": "jiangyugang",
+    "description": "让 Obsidian 的文件列表像 Notion 一样工作:目录即页面、手动排序、彩色图标、隐藏规则、按笔记属性自动切换阅读/编辑视图、任务管理(行内日期与优先级、工作台·看板·四象限视图)。原生实现,行为对齐 Branch Note(elfmedy)与 Explorer Order Editor(vcarus)并参考 obsidian-tasks 任务模型,均 MIT。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jiangyugang/obsidian-beautify"
+  },
+  {
+    "id": "image-s-three-upload",
+    "name": "image-s3-upload",
+    "author": "Hardy",
+    "description": "Upload clipboard, local and remote images directly to S3-compatible storage - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jkoor/obsidian-image-s3-upload-plugin"
   }
 ]
