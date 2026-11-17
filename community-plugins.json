@@ -3437,13 +3437,6 @@
     "repo": "jensmtg/obsidian-diagrams-net"
   },
   {
-    "id": "obsidian-weread-plugin",
-    "name": "Weread",
-    "author": "zhaohongxuan",
-    "description": "Sync Tencent Weread highlights and annotations.",
-    "repo": "zhaohongxuan/obsidian-weread-plugin"
-  },
-  {
     "id": "zotero-link",
     "name": "Zotero Link",
     "author": "vanakat",
@@ -5857,13 +5850,6 @@
     "author": "numeroflip",
     "description": "Automatically prompt for a template, when creating a note.",
     "repo": "numeroflip/obsidian-auto-template-trigger"
-  },
-  {
-    "id": "flowershow",
-    "name": "Publish with Flowershow",
-    "author": "Flowershow",
-    "description": "Publish your Obsidian vault as a beautiful website. Perfect for digital gardens, blogs, documentation, wikis, and knowledge bases.",
-    "repo": "flowershow/obsidian-flowershow"
   },
   {
     "id": "ketcher",
@@ -36965,6 +36951,13 @@
     "author": "floydv149",
     "description": "Tranforms links from JW.ORG to JW Library compatible ones. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "floydv149/JW-Relink"
+  },
+  {
+    "id": "recipe-box",
+    "name": "Recipe Box",
+    "author": "Adam Tommasi",
+    "description": "Plan meals, build grocery lists, and view recipes as interactive cards, all from Markdown notes. Import from the web, scale servings, track what you cook, and share by link. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "adamarcane/obsidian-recipebox"
   },
   {
     "id": "towrite-open-questions",
@@ -70329,13 +70322,6 @@
     "repo": "puddinglord/obsidian-ttrpg-encounter-manager"
   },
   {
-    "id": "branching-table-of-contents",
-    "name": "Branching Table of Contents",
-    "author": "Tony Peonio",
-    "description": "Link notes with parent/child properties and see them as a clean, rooted family tree of the current note instead of the tangled graph view. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "tonypeonio/obsidian-branching-table-of-contents"
-  },
-  {
     "id": "character-info",
     "name": "Character Info",
     "author": "zachfara",
@@ -73626,6 +73612,13 @@
     "repo": "ja1mez/projurista-legislacao"
   },
   {
+    "id": "claudius-chat",
+    "name": "Claudius Chat",
+    "author": "Benjamin Reitzammer",
+    "description": "Chat with Claude in the sidebar or in a tab, on desktop and mobile. The agent runs on a server you host, so your sessions keep going when your device sleeps. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "benjmin-r/obsidian-claudius-chat"
+  },
+  {
     "id": "beautify",
     "name": "Beautify",
     "author": "jiangyugang",
@@ -73638,5 +73631,33 @@
     "author": "Hardy",
     "description": "Upload clipboard, local and remote images directly to S3-compatible storage - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jkoor/obsidian-image-s3-upload-plugin"
+  },
+  {
+    "id": "contemporary-theme-settings",
+    "name": "Contemporary Theme Settings",
+    "author": "jsmorabito",
+    "description": "Adds a hover menu to the Files row in the left sidebar that holds the file explorer's actions. Made for the Contemporary theme. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jsmorabito/obsidian-contemporary-theme-settings"
+  },
+  {
+    "id": "recipe-atelier",
+    "name": "Recipe Atelier",
+    "author": "Mario Lung",
+    "description": "Manage baking, cooking and pastry recipes: baker's percentages, multi-part recipes, piece and tray scaling, ingredient prices, photos, variants, export and import. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mariolung/obsidian-recipe-atelier"
+  },
+  {
+    "id": "lifeworld-capture",
+    "name": "LifeWorld Capture",
+    "author": "John Hesch",
+    "description": "A menu bar icon and an optional system-wide shortcut that open a small capture box: today's daily note, an inbox note, a task, or your own note types. Works with LifeWorld. Computers only. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "b0xfan/lifeworld-capture"
+  },
+  {
+    "id": "photo-workspace",
+    "name": "Photo Workspace",
+    "author": "coherence-wizard",
+    "description": "Browse photo folders or digiKam catalogs, organize metadata, and edit and export images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "coherence-wizard/photo-workspace"
   }
 ]
