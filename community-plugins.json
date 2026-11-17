@@ -51653,13 +51653,6 @@
     "repo": "eightk1ll/obsidian-claude-usage"
   },
   {
-    "id": "agentnote",
-    "name": "agentNote",
-    "author": "Xinxin",
-    "description": "Share local notes and files with AI agents through a private HTTP service. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "xinxinrana/agentNote-Obsidian-"
-  },
-  {
     "id": "copy-with-footnotes",
     "name": "Copy with Footnotes",
     "author": "Systina12",
@@ -63161,6 +63154,13 @@
     "repo": "dhwan0112/obsidian-atomview"
   },
   {
+    "id": "stickyflow",
+    "name": "Stickyflow",
+    "author": "StickyFlow Labs",
+    "description": "Render SFL diagram code blocks as interactive diagrams you can pan, zoom and edit in place. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stickyflow/obsidian-sfl"
+  },
+  {
     "id": "weinc-publish",
     "name": "WeInc Publish",
     "author": "weinc",
@@ -71680,6 +71680,13 @@
     "repo": "siliconnomadlucas/Plan-To-Day"
   },
   {
+    "id": "image-icons",
+    "name": "Image Icons",
+    "author": "pesstudios",
+    "description": "Use any image from your vault as the icon of any file or folder in the file explorer and tab headers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pesstudios/image-icons"
+  },
+  {
     "id": "relationship-radar",
     "name": "Relationship Radar",
     "author": "Lennart Friebel",
@@ -72191,6 +72198,13 @@
     "repo": "bsakdol/obsidian-pocket-recordings"
   },
   {
+    "id": "nexus-graph",
+    "name": "NexusGraph",
+    "author": "Nguyễn Duy Tân",
+    "description": "Create interactive 3D & 2D vocabulary graphs and mind maps for language learning. Go beyond file-only graphs by generating custom nodes inline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "peonat2804/nexus-graph"
+  },
+  {
     "id": "coffer",
     "name": "Coffer",
     "author": "chauduyphanvu",
@@ -72609,6 +72623,13 @@
     "author": "joshbroa",
     "description": "Read a note aloud one word at a time, advancing only when you press a key. Built for copying notes out by hand. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "joshbroa/word-by-word"
+  },
+  {
+    "id": "quick-expense",
+    "name": "Quick Expense",
+    "author": "Tang Mo",
+    "description": "Log an expense in seconds: type what and how much, tap a category, done. Your location carries over, and each expense is a plain note you can sum with Bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "moboku/quick-expense"
   },
   {
     "id": "media-offload",
@@ -73559,7 +73580,28 @@
     "id": "components",
     "name": "Components",
     "author": "Raindown",
-    "description": "Reusable blocks for your notes, like templates that stay up to date: write a component once in Markdown, give it different values in each note, and edit it to update every note that uses it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Reusable templates for your notes that stay up to date. Write a component once in Markdown, give it different arguments in each note and edit it to update every note that uses it - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rainpour/obsidian-components"
+  },
+  {
+    "id": "note-peek",
+    "name": "Note Peek",
+    "author": "pesstudios",
+    "description": "Show just a peek of another note: its first or last few lines, or one section, with a link to the rest. Works inside callouts and admonitions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pesstudios/note-peek"
+  },
+  {
+    "id": "aglc-citations",
+    "name": "AGLC4 Citations",
+    "author": "blursedperf",
+    "description": "Write legal citations to the AGLC4 standard: footnotes kept at the bottom of the note, next-element suggestions, live underlining of incorrect or incomplete citations, and Word export with real footnotes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "blursedperf/obsidian-aglc4"
+  },
+  {
+    "id": "livres",
+    "name": "Livres",
+    "author": "Kelly Grass",
+    "description": "Browse your reading list as a 3D bookshelf: books to read, books you're reading, books you've read, and what you wrote about them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kellygrass/livres"
   }
 ]
