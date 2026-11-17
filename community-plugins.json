@@ -33302,7 +33302,7 @@
     "id": "lumina",
     "name": "Lumina",
     "author": "Lumina",
-    "description": "Multilingual AI Assistant & Copilot: Chat with Notes using any local LLM or cloud API, and connect with CLI Agents. Features RAG, Smart Semantic Vector Search, Auto Embeddings & Autonomous MCP Agent. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "AI Copilot, Chat & Autonomous MCP Agent: Connect Claude Code, Gemini, OpenAI Codex, Ollama & Local LLMs. Zero-config RAG, Semantic Vector Search, Auto Embeddings, Inline Diff Edit & Smart Tagging. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lumina-apps/obsidian-lumina"
   },
   {
@@ -70759,7 +70759,7 @@
     "id": "chinese-ui-translator",
     "name": "Chinese UI Translator",
     "author": "Tangerine.Cat",
-    "description": "Translate plugin interfaces into Simplified Chinese and reuse saved dictionaries offline, preserving plugin names and original files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Translate plugin interfaces and current-theme Style Settings into Simplified Chinese with offline dictionaries, preserving original files and setting values. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tangerine-cat888/chinese-ui-translator"
   },
   {
@@ -73526,5 +73526,26 @@
     "author": "scoot",
     "description": "A fast, GPU-rendered graph of your vault with glowing nodes, live layout, focus, and search. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "scott-duby/nebula-graph"
+  },
+  {
+    "id": "note-progress-bar",
+    "name": "Note Progress Bar",
+    "author": "Rob Coles",
+    "description": "Whole-note checkbox progress bar via a code block, with configurable checked/unchecked characters. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "robcoles/obsidian-note-progress-bar"
+  },
+  {
+    "id": "category-workbench",
+    "name": "Category Workbench",
+    "author": "circlemoon",
+    "description": "Manage category indexes, templates, note prefixes and tags from a dockable workbench with previewed, backed-up renames. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "skyswordx/obsidian-category-workbench"
+  },
+  {
+    "id": "accessible-pdf-export",
+    "name": "Accessible PDF Export",
+    "author": "CyberNative AI LLC",
+    "description": "Export notes as tagged PDFs built to pass PDF/UA-1 checks, so screen readers get headings, lists, tables, links and image descriptions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cybernative-ai/accessible-pdf-export"
   }
 ]
