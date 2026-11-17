@@ -72894,7 +72894,7 @@
     "id": "aiditing",
     "name": "AiDiTing",
     "author": "DiTIngAI",
-    "description": "Transcribe audio, video and Bilibili links into timestamped Markdown notes. B站视频转文字、网课转文字、会议录音转文字。Free 30 min/month. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "视频转文字. B站视频转文字. Transcribe Bilibili / Douyin links and audio files into timestamped Obsidian notes. Only creates new notes. Free 30 min/month. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ditingai/obsidian-aiditing"
   },
   {
@@ -73528,6 +73528,13 @@
     "repo": "aiuanyu/obsidian-track-changes"
   },
   {
+    "id": "natlee-word-mode",
+    "name": "Word Mode",
+    "author": "natlee",
+    "description": "Edit Markdown notes like a Word document, with a ribbon toolbar, tables, and images. Notes are still saved as clean Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "natlee/obsidian-word-mode"
+  },
+  {
     "id": "vault-doctor",
     "name": "Vault Doctor",
     "author": "ll905518294",
@@ -73554,6 +73561,13 @@
     "author": "Rob Coles",
     "description": "Whole-note checkbox progress bar via a code block, with configurable checked/unchecked characters. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "robcoles/obsidian-note-progress-bar"
+  },
+  {
+    "id": "popnote",
+    "name": "PopNote",
+    "author": "Jar",
+    "description": "A floating window for your notes. Press one shortcut to show any note over your other apps, pin it on top, fade it with a slider, and hide it again. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "iijarrett/popnote"
   },
   {
     "id": "category-workbench",
@@ -73603,5 +73617,33 @@
     "author": "Kelly Grass",
     "description": "Browse your reading list as a 3D bookshelf: books to read, books you're reading, books you've read, and what you wrote about them. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kellygrass/livres"
+  },
+  {
+    "id": "zync",
+    "name": "Zync",
+    "author": "Arman Hadi",
+    "description": "Two-way sync your vault across devices via S3-compatible storage. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "arman-hadi/zync"
+  },
+  {
+    "id": "srt-vtt-cleaner-iramuteq-fr",
+    "name": "SRT and VTT Cleaner + IRaMuTeQ (FR)",
+    "author": "Jeremie Terral",
+    "description": "Clean French SRT and WebVTT transcripts, merge speaker turns, apply French non-breaking spaces, and export starred IRaMuTeQ interview corpora locally. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zoulouzaza76/obsidian-srt-iramuteq-fr"
+  },
+  {
+    "id": "debugger-highlight",
+    "name": "Debugger Output Highlight",
+    "author": "ott3r07",
+    "description": "Syntax highlighting for GDB, pwndbg, GEF and PEDA output in code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ott3r07/obsidian-debugger-highlight"
+  },
+  {
+    "id": "yinyue-moye",
+    "name": "Moye Notes",
+    "author": "onecat",
+    "description": "Handwrite on PDFs, search text, export annotated copies, and create handwritten notebooks. Pro 0.4.6 adds handwriting directly on Markdown notes, linked excerpts, and source navigation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "onecat-77/moye-notes-free"
   }
 ]
