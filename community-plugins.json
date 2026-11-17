@@ -33040,6 +33040,13 @@
     "repo": "ezdever/obsidian-wechatreading-highlights-sync"
   },
   {
+    "id": "inline-annotation",
+    "name": "Inline Annotation (Ruby)",
+    "author": "Baksi Li",
+    "description": "Add ruby (furigana), translations, bouten, and line marks with [base]^^(ruby) and [base]^_(under) syntax. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "baksili/markdown-inline-annotation"
+  },
+  {
     "id": "owen-wiki",
     "name": "Owen Wiki Template",
     "author": "Owen lee",
@@ -56322,6 +56329,13 @@
     "repo": "drtonks/deepseedian"
   },
   {
+    "id": "taskfinder",
+    "name": "Task Finder",
+    "author": "Raphael Quast",
+    "description": "Find your tasks! - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "raphaelquast/obsidian-task-finder"
+  },
+  {
     "id": "dayspann",
     "name": "dayspann",
     "author": "Shingo Tanaka",
@@ -58315,13 +58329,6 @@
     "author": "Material Plugins",
     "description": "Watch plugin state and settings, manage portable frontmatter, and coordinate Quartz workflows. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "obsidian-material-plugins/obsidian-root-books-workspace"
-  },
-  {
-    "id": "unitedshare",
-    "name": "UnitedShare",
-    "author": "united-share",
-    "description": "Vault agent that reads and writes notes. The model runs on-prem or through the UnitedShare API. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "united-share/obsidian-unitedshare"
   },
   {
     "id": "multiline-tabs-wheel-scroll",
@@ -62109,13 +62116,6 @@
     "author": "Vladislav Plotnikov",
     "description": "Interactive genealogy graph from person note properties, with image and print export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vladushked/genealogy-graph"
-  },
-  {
-    "id": "agentlens-social-importer",
-    "name": "AgentLens Social Importer",
-    "author": "AgentLens",
-    "description": "Save public social content as traceable Markdown research notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "inkad-code/AgentLens-for-Obsidian"
   },
   {
     "id": "s-color-inline",
@@ -69615,6 +69615,13 @@
     "repo": "yamanor/obsidian-inkmagix"
   },
   {
+    "id": "owla-butler",
+    "name": "OWLA Butler",
+    "author": "Filip",
+    "description": "Chat with Codex using your open note, selected text, images and vault context. Review edits before applying them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pilafdob/owla-butler"
+  },
+  {
     "id": "copy-color",
     "name": "Copy Color",
     "author": "NotAVirus",
@@ -70306,6 +70313,13 @@
     "author": "Dakotah Cote",
     "description": "Run Nimble TTRPG encounters and campaigns from your notes: a bundled bestiary, encounter blocks rated for your party, a combat tracker, GM maps and 3D dice. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "puddinglord/obsidian-ttrpg-encounter-manager"
+  },
+  {
+    "id": "branching-table-of-contents",
+    "name": "Branching Table of Contents",
+    "author": "Tony Peonio",
+    "description": "Link notes with parent/child properties and see them as a clean, rooted family tree of the current note instead of the tangled graph view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tonypeonio/obsidian-branching-table-of-contents"
   },
   {
     "id": "character-info",
@@ -73647,18 +73661,25 @@
     "repo": "coherence-wizard/photo-workspace"
   },
   {
+    "id": "resolution-and-random-tables",
+    "name": "Resolution and Random Tables",
+    "author": "matalina",
+    "description": "Roll on random tables kept in your notes, ask the oracle and roll tasks against a level, writing each result into the note from inline code like `pick:loot`, `oracle:+` and `task:4`. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "matalina/obsidian-resolution-random-tables"
+  },
+  {
+    "id": "pele-editor",
+    "name": "Pele Editor",
+    "author": "Alex Hallajian",
+    "description": "Edit colors in Pele diagrams. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alexhallajian/pele-editor-releases"
+  },
+  {
     "id": "liber-music-player",
     "name": "Liber Music Player",
     "author": "Sudhanshu Chaudhary",
     "description": "Play local music files from your vault in the sidebar with synced lyrics, graphic equalizer, and audio bookmarks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sudh29/liber_music"
-  },
-  {
-    "id": "og-task",
-    "name": "OG Tasks",
-    "author": "vn-78",
-    "description": "Sync and manage Google Tasks directly in your notes and sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "vn-78/og-task-plugin"
   },
   {
     "id": "gsync-teams",
@@ -73675,10 +73696,24 @@
     "repo": "chi-li-peppers/obsidian-ad-recap"
   },
   {
+    "id": "literature-matrix",
+    "name": "Literature Matrix",
+    "author": "Dev",
+    "description": "Compare research notes side by side in a synthesis matrix, with papers as rows and sections such as Method, Data, Findings and Gaps as columns. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hackrlife/literature-matrix"
+  },
+  {
     "id": "bases-relations-graph",
     "name": "Bases Relations Graph",
     "author": "pigon",
     "description": "Visualize Bases as an interactive graph using cascading rule tables to show both direct links and relations defined through connector notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "pigon1/bases-relations-graph"
+  },
+  {
+    "id": "chickin-tweaks",
+    "name": "Chickin Tweaks",
+    "author": "chickin",
+    "description": "Small tweaks to the app - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chickchicky/chickin-obsidian-tweaks"
   }
 ]
