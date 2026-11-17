@@ -64298,7 +64298,7 @@
     "id": "mermaid-nixie",
     "name": "Mermaid Nixie",
     "author": "jase",
-    "description": "Vault-wide Mermaid layout settings: the ELK engine with right-angle edges, plus spacing. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "DEPRECATED(MERMAID): Vault-wide Mermaid layout settings: the ELK engine with right-angle edges, plus spacing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jaskaran-sethy/obsidian-mermaid-nixie"
   },
   {
@@ -73463,5 +73463,26 @@
     "author": "Walker Brown",
     "description": "Hexcrawl generator for TTRPGs like D&D and OSR: a hex map from a seed in your note, with terrain, rivers, roads and towns, something in every hex, and a party that travels day by day in fog of war. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "wickedcreativesystems/hexwright"
+  },
+  {
+    "id": "places-wikipedia",
+    "name": "Places - Wikipedia",
+    "author": "bobstanton",
+    "description": "Query nearby Wikipedia articles with VaultQuery and display them in Places. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-wikipedia"
+  },
+  {
+    "id": "places-here",
+    "name": "Places - HERE",
+    "author": "bobstanton",
+    "description": "Map provider for Places using HERE, with raster and vector maps, POI search, directions, and isochrones. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/places-here"
+  },
+  {
+    "id": "consistent-system-design",
+    "name": "Consistent System Design",
+    "author": "jase",
+    "description": "Tag a node as a database, queue or service, and your Obsidian diagrams draw it with the right colour and shape, all in your theme’s palette. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jaskaran-sethy/consistent-system-design"
   }
 ]
