@@ -20482,6 +20482,13 @@
     "repo": "junjieim/better-quote"
   },
   {
+    "id": "incremental-reading",
+    "name": "Incremental Reading",
+    "author": "gpanakkal",
+    "description": "Leverage spaced repetition to incrementally build understanding and retain knowledge. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gpanakkal/incremental-reading-obsidian"
+  },
+  {
     "id": "custom-selectors",
     "name": "Custom Selectors",
     "author": "hodie",
@@ -33031,13 +33038,6 @@
     "author": "EricZheng",
     "description": "Sync WeChat Reading shelf, highlights, notes, and reading stats to Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ezdever/obsidian-wechatreading-highlights-sync"
-  },
-  {
-    "id": "inline-annotation",
-    "name": "Inline Ruby Annotation",
-    "author": "Baksi Li",
-    "description": "Render Inline Annotation ruby, bouten, underline, and two-slot annotations in reading view. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "baksili/obsidian-inline-annotation"
   },
   {
     "id": "owen-wiki",
@@ -55261,7 +55261,7 @@
     "id": "mendeley-integration",
     "name": "Mendeley Integration",
     "author": "elipexx",
-    "description": "Sync your Mendeley library into reading notes: metadata, citekeys, and (soon) annotations and Pandoc-style citations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync your Mendeley library into reading notes with citekeys, folders and on-demand PDFs. Citations and annotations coming soon. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "elisaurrejola16/obsidian-mendeley-integration"
   },
   {
@@ -62531,13 +62531,6 @@
     "repo": "hbergeio/inline-ask"
   },
   {
-    "id": "atlas-vtt-connect",
-    "name": "Connect for Atlas VTT",
-    "author": "Bento's Grimoire of Things",
-    "description": "Online play for Atlas VTT: host sessions, let players join from a web page or a tab, and share notes and maps. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "evoljoaobento/atlas-vtt-connect"
-  },
-  {
     "id": "trader-editor-tools",
     "name": "Mengren Editor",
     "author": "猛人",
@@ -68169,7 +68162,7 @@
     "id": "zhaohua-xishi",
     "name": "Zhaohua Xishi",
     "author": "Tangerine.Cat",
-    "description": "Review past notes, read journals as books, format WeChat articles, and export notes as images, long images, or cards. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Review past notes, read journals as books, format WeChat articles, and export images or cards with callouts. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tangerine-cat888/zhaohua-xishi"
   },
   {
@@ -69620,13 +69613,6 @@
     "author": "Yaman",
     "description": "Convert photos / images of handwriting, whiteboards and diagrams into Markdown notes with Mermaid diagrams or draw.io files using Claude. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yamanor/obsidian-inkmagix"
-  },
-  {
-    "id": "owla-butler",
-    "name": "OWLA Butler",
-    "author": "Filip",
-    "description": "Chat with Codex using your open note, selected text, images and vault context. Review edits before applying them. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "pilafdob/owla-butler"
   },
   {
     "id": "copy-color",
@@ -73321,7 +73307,7 @@
     "id": "path-to-prod",
     "name": "Path to Prod",
     "author": "Alexandre Charbit",
-    "description": "Forecast development, staging, and production delivery dates from Jira history and team availability. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Forecast Jira goals and epics through development, staging, and production with sprint-aware dates, Gantt timelines, and team calendars. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alex3l3t33/path-to-prod"
   },
   {
@@ -73655,9 +73641,44 @@
   },
   {
     "id": "photo-workspace",
-    "name": "Photo Workspace",
+    "name": "Coherence Photo",
     "author": "coherence-wizard",
-    "description": "Browse photo folders or digiKam catalogs, organize metadata, and edit and export images. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Tag and rate local photos with portable image metadata, browse folders, and edit and export images. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "coherence-wizard/photo-workspace"
+  },
+  {
+    "id": "liber-music-player",
+    "name": "Liber Music Player",
+    "author": "Sudhanshu Chaudhary",
+    "description": "Play local music files from your vault in the sidebar with synced lyrics, graphic equalizer, and audio bookmarks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sudh29/liber_music"
+  },
+  {
+    "id": "og-task",
+    "name": "OG Tasks",
+    "author": "vn-78",
+    "description": "Sync and manage Google Tasks directly in your notes and sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vn-78/og-task-plugin"
+  },
+  {
+    "id": "gsync-teams",
+    "name": "GSync Teams",
+    "author": "Dmitry Goncharenko",
+    "description": "Add-on for GSync: sync folders in Google Shared Drives and manage who can view or edit each synced folder. Requires GSync and a paid license. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dg0988/ObsidianGSyncTeams"
+  },
+  {
+    "id": "ad-recap",
+    "name": "Ad Recap",
+    "author": "chilipeppers",
+    "description": "Pull Google Ads and Meta Ads campaign metrics into your notes: spend, clicks, conversions, CPA and ROAS, with daily note automation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chi-li-peppers/obsidian-ad-recap"
+  },
+  {
+    "id": "bases-relations-graph",
+    "name": "Bases Relations Graph",
+    "author": "pigon",
+    "description": "Visualize Bases as an interactive graph using cascading rule tables to show both direct links and relations defined through connector notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pigon1/bases-relations-graph"
   }
 ]
