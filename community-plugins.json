@@ -19719,13 +19719,6 @@
     "repo": "ysf-ad/semantic-auto-linker"
   },
   {
-    "id": "vitepress-theme",
-    "name": "VitePress Theme",
-    "author": "weizwz",
-    "description": "VitePress-style theme with custom containers, enhanced code blocks, and modern typography. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "weizwz/obsidian-vitepress"
-  },
-  {
     "id": "pocket-sync",
     "name": "Pocket Sync",
     "author": "Maclean (Silk Ribbon)",
@@ -19836,13 +19829,6 @@
     "author": "iaremarkus",
     "description": "Look up Bible verses and references from [wol.jw.org](https://wol.jw.org), and add them to your notes inline, in a modal or popover, or in the sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "iaremarkus/wol-reference-viewer"
-  },
-  {
-    "id": "mermaid-exporter",
-    "name": "Mermaid Exporter",
-    "author": "addozhang",
-    "description": "Export rendered mermaid diagrams as PNG images with configurable resolution. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "addozhang/obsidian-mermaid-exporter"
   },
   {
     "id": "graph-edge-notes",
@@ -23684,7 +23670,7 @@
     "id": "regex-replace",
     "name": "Regex Replace",
     "author": "bongho",
-    "description": "Regex find and replace in one note, or search and replace in bulk across your whole vault: preview every match, pick the files, undo the run. Includes reusable multi-step pipelines. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Change thousands of notes at once and undo it. Regex find and replace in one note, or search and replace in bulk across your vault: preview matches, pick files, revert the run. Multi-step pipelines. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bongho/obsidian-regex-replace"
   },
   {
@@ -65121,13 +65107,6 @@
     "repo": "icaotix/obsidian-rich-csv"
   },
   {
-    "id": "tabletop-for-atlas",
-    "name": "Tabletop for Atlas VTT",
-    "author": "Bento's Grimoire of Things",
-    "description": "Opens Atlas VTT maps on a 3D board, with 3D minis on tokens, walls, doors, lights and props. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "evoljoaobento/atlas-vtt-tabletop"
-  },
-  {
     "id": "fast-graph-view",
     "name": "Fast Graph View",
     "author": "cyrill",
@@ -67667,6 +67646,13 @@
     "author": "Emanuell",
     "description": "Send notifications and approval requests with buttons to Telegram from AI agents and scripts, with strict security limits. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "emanuellcarvalhopires/obsidian-telegram-ai-gateway"
+  },
+  {
+    "id": "t-three-code",
+    "name": "T3 Code",
+    "author": "jslepx",
+    "description": "Bring T3 Code into Obsidian. Send notes as prompts, stream replies into the editor, and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "7bgsbm749g-boop/t3-obsidian"
   },
   {
     "id": "quiz-maker",
@@ -73724,13 +73710,6 @@
     "repo": "pigon1/bases-relations-graph"
   },
   {
-    "id": "flowmotion",
-    "name": "FlowMotion",
-    "author": "Vivek Sarin",
-    "description": "Animated, event-driven architecture diagrams from YAML in ```flowmotion code blocks. Fully offline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "vrsarin/obsidian-flowmotion"
-  },
-  {
     "id": "chickin-tweaks",
     "name": "Chickin Tweaks",
     "author": "chickin",
@@ -73757,5 +73736,26 @@
     "author": "methun-mohan",
     "description": "Organize Markdown checkbox tasks by note across four lanes, with a manual task queue. No runtime dependencies. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "methun-mohan/wheelhouse-task-view"
+  },
+  {
+    "id": "boardhydra",
+    "name": "BoardHydra",
+    "author": "madebysaints",
+    "description": "Sync BoardHydra boards with your vault, both ways. Each card becomes a note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "madebysaints/boardhydra-obsidian"
+  },
+  {
+    "id": "export-as-markdown",
+    "name": "Export as Markdown",
+    "author": "Frank Chen",
+    "description": "Export notes to plain Markdown with the obsidian-export command-line tool. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "frankcrc/obsidian-export-plugin"
+  },
+  {
+    "id": "highlight-annotations",
+    "name": "Highlight Annotations",
+    "author": "katananananna",
+    "description": "Highlight any text in notes and attach several notes to each passage. Clean popover, sidebar and export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "katananananna/highlight-annotations"
   }
 ]
