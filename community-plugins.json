@@ -19831,6 +19831,13 @@
     "repo": "iaremarkus/wol-reference-viewer"
   },
   {
+    "id": "mermaid-exporter",
+    "name": "Mermaid Exporter",
+    "author": "addozhang",
+    "description": "Export rendered mermaid diagrams as PNG images with configurable resolution. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "addozhang/obsidian-mermaid-exporter"
+  },
+  {
     "id": "graph-edge-notes",
     "name": "Graph Edge Notes",
     "author": "li-zane",
@@ -22295,13 +22302,6 @@
     "repo": "jefrry/obsidian-typing-cat"
   },
   {
-    "id": "code-folding",
-    "name": "Code Folding",
-    "author": "mr-pounds",
-    "description": "A lightweight plugin that adds smart folding functionality to code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mr-pounds/code-folding"
-  },
-  {
     "id": "focus-timer",
     "name": "Focus Timer",
     "author": "Tianye Zhou",
@@ -22412,13 +22412,6 @@
     "author": "findflowstate",
     "description": "Turn handwriting and voice memos into text - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "findflowstate/obsidian-flow-state"
-  },
-  {
-    "id": "steamgriddb-embedder",
-    "name": "SteamGridDB Embedder",
-    "author": "abduznik",
-    "description": "Embeds images from SteamGridDB based on the note title. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "abduznik/obsidian-steamgriddb"
   },
   {
     "id": "tabjump",
@@ -67455,7 +67448,7 @@
     "id": "shadow-meetings",
     "name": "Shadow Meetings",
     "author": "Jay Song",
-    "description": "Shows Shadow meetings as a week timeline and people cards in Bases, every past meeting with a person, and today's meetings in your daily note. Requires the Shadow Mac app (Apple Silicon, macOS 14.2+). Never edits Shadow's pages. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Shows meetings recorded by the Shadow Mac app, with their AI notes and transcripts, as a week timeline and people cards. Requires Shadow (Apple Silicon, macOS 14.2+). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "taper-labs/shadow-obsidian-plugin"
   },
   {
@@ -70942,7 +70935,7 @@
     "name": "Deskmate",
     "author": "silverbullet",
     "description": "A clean, minimal dashboard: a live clock header, today's goal and tasks, and subject cards with covers. Works fully offline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "nelvin198/deskmate"
+    "repo": "nelvin-labs/deskmate"
   },
   {
     "id": "doc-to-note",
@@ -72341,7 +72334,7 @@
     "id": "patches",
     "name": "Patches",
     "author": "yaroxywithyou@gmail.com",
-    "description": "Focused enhancements for Obsidian: diagrams, covers, visual table and callout editors, math formatting, icons, line width, heading levels, and PDF navigation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Focused fixes and enhancements for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yaroxy/obsidian-patch"
   },
   {
@@ -73633,6 +73626,13 @@
     "repo": "jsmorabito/obsidian-contemporary-theme-settings"
   },
   {
+    "id": "html-card-renderer",
+    "name": "H5 Card Renderer",
+    "author": "jchunyu",
+    "description": "Renders h5-renderer code blocks as visual cards that inherit your note's theme, width, and typography. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jchunyu/h5-in-article-renderer"
+  },
+  {
     "id": "recipe-atelier",
     "name": "Recipe Atelier",
     "author": "Mario Lung",
@@ -73710,6 +73710,13 @@
     "repo": "pigon1/bases-relations-graph"
   },
   {
+    "id": "flowmotion",
+    "name": "FlowMotion",
+    "author": "Vivek Sarin",
+    "description": "Animated, event-driven architecture diagrams from YAML in ```flowmotion code blocks. Fully offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vrsarin/obsidian-flowmotion"
+  },
+  {
     "id": "chickin-tweaks",
     "name": "Chickin Tweaks",
     "author": "chickin",
@@ -73738,6 +73745,13 @@
     "repo": "methun-mohan/wheelhouse-task-view"
   },
   {
+    "id": "modular-calendar",
+    "name": "Modular Calendar",
+    "author": "yuri55448",
+    "description": "Show a customizable month, week, day and year calendar with lunar dates, solar terms, holidays, periodic notes, tasks and recurring items. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuri55448/Modular-Calendar"
+  },
+  {
     "id": "boardhydra",
     "name": "BoardHydra",
     "author": "madebysaints",
@@ -73757,5 +73771,19 @@
     "author": "katananananna",
     "description": "Highlight any text in notes and attach several notes to each passage. Clean popover, sidebar and export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "katananananna/highlight-annotations"
+  },
+  {
+    "id": "statblock-template-installer-for-atlas",
+    "name": "Statblock Template Installer for Atlas",
+    "author": "young-george",
+    "description": "Easily install and update statblock templates for Atlas VTT. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "young-george/statblock-template-importer-for-atlas"
+  },
+  {
+    "id": "git-branch-editor",
+    "name": "Git Branch Editor",
+    "author": "Haiqiang Zhang",
+    "description": "Follow heading ancestry in the editor and reading view with a Git-style branch graph. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haiqiang-zhang/obsidian-git-branch-editor"
   }
 ]
