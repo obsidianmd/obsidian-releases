@@ -19099,7 +19099,7 @@
     "id": "engram-quest",
     "name": "EngramQuest",
     "author": "bahfahh",
-    "description": "Turn notes into AI-built courses, teaching videos and flashcards with FSRS spaced repetition, using the AI tool you already have: Claude Code, Codex, Gemini  or Cursor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Turn notes into AI-built courses, teaching videos and flashcards: a learning system with FSRS spaced repetition, powered by the AI tool you already have (Claude Code, Codex, Gemini or Cursor). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bahfahh/engram-quest"
   },
   {
@@ -23406,13 +23406,6 @@
     "author": "rakushkatop",
     "description": "Automatically generates index notes for specified folders, listing files and subfolders recursively. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rakushkatop/obsidian-auto-index"
-  },
-  {
-    "id": "termux-bridge",
-    "name": "Termux Bridge",
-    "author": "abduznik",
-    "description": "Execute Termux commands directly via a local HTTP bridge. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "abduznik/obsidian-shell-termux"
   },
   {
     "id": "similarity",
@@ -40143,6 +40136,13 @@
     "author": "Ryan Hardy",
     "description": "A more productive way to build good typing habits. Compiles advanced typing stats as you take notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ryyhardy/obsidian-typing-stats"
+  },
+  {
+    "id": "hyo",
+    "name": "Hyo Claude Code Agent",
+    "author": "Ev Chapman",
+    "description": "Chat with Claude Code inside your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "evielync/hyo-claude-code-obsidian-plugin"
   },
   {
     "id": "granola-api-sync",
@@ -72264,7 +72264,7 @@
     "id": "vivid",
     "name": "Vivid",
     "author": "a-znk",
-    "description": "ChatGPT and Claude-grade interactive visual rendering fused with Bases, Canvas, Properties, and Wikilinks: sortable super-tables, offline ECharts, live vault analytics, pan-zoom SVGs, KPI cards, and sandboxed HTML artifacts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Turn ChatGPT & Claude replies into sortable super-tables, offline ECharts, KPI cards, and pan-zoom SVGs, with 1-click export to native Obsidian .base databases and .canvas boards. 100% local, zero CDN - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuki-zik/obsidian-vivid"
   },
   {
@@ -73785,5 +73785,12 @@
     "author": "Haiqiang Zhang",
     "description": "Follow heading ancestry in the editor and reading view with a Git-style branch graph. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "haiqiang-zhang/obsidian-git-branch-editor"
+  },
+  {
+    "id": "whatsapp-desktop-sync",
+    "name": "WhatsApp Desktop (macOS)",
+    "author": "Guilherme Vinicius Schroder",
+    "description": "Sincroniza suas conversas do WhatsApp Desktop com o seu vault. Somente macOS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gvschroder/obsidian-whatsapp-desktop-notes"
   }
 ]
