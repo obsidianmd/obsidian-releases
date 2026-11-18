@@ -72418,7 +72418,7 @@
     "id": "neon-work",
     "name": "Neon Work",
     "author": "Kevin Mulholland",
-    "description": "Dashboard, projects, tasks, time tracking and research notes for a vault organised by customer; read-only by default. Based on Neon Deck by Yobzs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Dashboard, project planning (Gantt, board, holidays, reports), tasks, time tracking and research notes, by customer or PARA. Local and read-only by default. Based on Neon Deck by Yobzs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "27escape/neon-work-obsidian"
   },
   {
@@ -73038,6 +73038,13 @@
     "repo": "belaladeldev/clockwork-tasks"
   },
   {
+    "id": "mdbase-sync",
+    "name": "mdbase",
+    "author": "Callum Alpass",
+    "description": "Edit mdbase types and mirror hosted collections through mdbase Connect. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mdbase-dev/mdbase-obsidian"
+  },
+  {
     "id": "fakecard",
     "name": "fakecard",
     "author": "godfatherlg",
@@ -73493,13 +73500,6 @@
     "repo": "robcoles/obsidian-note-progress-bar"
   },
   {
-    "id": "popnote",
-    "name": "PopNote",
-    "author": "Jar",
-    "description": "A floating window for your notes. Press one shortcut to show any note over your other apps, pin it on top, fade it with a slider, and hide it again. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "iijarrett/popnote"
-  },
-  {
     "id": "category-workbench",
     "name": "Category Workbench",
     "author": "circlemoon",
@@ -73841,5 +73841,19 @@
     "author": "XR",
     "description": "Selectively transfer or sync Obsidian notes across Windows, macOS, iPhone, and iPad on a trusted LAN. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xr-7777/private-qr-sync"
+  },
+  {
+    "id": "wavejson",
+    "name": "WaveJSON",
+    "author": "udarent",
+    "description": "Render WaveJSON timing diagrams in your notes and edit them in place. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "udarent/obsidian-plugins-wavejson"
+  },
+  {
+    "id": "fountain-stage",
+    "name": "Fountain Stage",
+    "author": "Timothy D. Smith",
+    "description": "Write Fountain scripts with formatting as you type, and export them as stage-play PDFs in a choice of house styles. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "timothydsmith/obsidian-fountain-stage"
   }
 ]
