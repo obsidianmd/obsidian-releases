@@ -32179,6 +32179,13 @@
     "repo": "g-chist/obsidian-graph-untangler-plugin"
   },
   {
+    "id": "html-page-viewer",
+    "name": "HTML Page Viewer",
+    "author": "Viggo Meesters",
+    "description": "Open .html and .htm files in Obsidian as a sandboxed rendered preview or syntax-highlighted source. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "viggomeesters/obsidian-html-page-viewer"
+  },
+  {
     "id": "html-viewer-plus",
     "name": "HTML Viewer Plus",
     "author": "lzq",
@@ -60963,13 +60970,6 @@
     "repo": "serena-sheng/super-useful-claudian"
   },
   {
-    "id": "curtis-ai-audit",
-    "name": "Curtis AI Audit",
-    "author": "Jordan Newell",
-    "description": "(changes coming)  Local-first audit trail for AI agent activity. Every agent inference gets an append-only markdown receipt in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "jordannewell/curtis-ai-audit"
-  },
-  {
     "id": "chromatic-tuner",
     "name": "Chromatic Tuner",
     "author": "Damian Evans",
@@ -64235,7 +64235,7 @@
     "id": "tag-ontology",
     "name": "Tag Ontology",
     "author": "namhyun ko",
-    "description": "Link your tags the way you link notes, with parents, children, and related tags. Explore your tag hierarchy in interactive 2D and 3D graph views with tree layouts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Build a tag-based knowledge graph for your LLM Wiki. Link tags like notes with parent, child, and related relationships. Explore them in 2D/3D graphs, mind maps, and tree views. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "namhyeonko/obsidian-tag-ontology"
   },
   {
@@ -74102,10 +74102,45 @@
     "repo": "fnfirst/specgit-obsidian"
   },
   {
+    "id": "statblock-forge",
+    "name": "Statblock Forge for Atlas VTT",
+    "author": "Guilherme B. Lopes",
+    "description": "Statblock Forge for Atlas VTT is a community extension. It is not made, endorsed or supported by Atlas VTT or Atlas Online. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "guilhermebergerlopes-oss/statblock-forge-for-atlas-vtt"
+  },
+  {
     "id": "quick-date-entry",
     "name": "Quick Date Entry",
     "author": "leoray",
     "description": "Insert dates from quick shortcuts or a keyboard-friendly calendar while editing a note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "leoray1990/obsidian-quick-date-entry"
+  },
+  {
+    "id": "au-legal-core",
+    "name": "Legal Core (Australia)",
+    "author": "blursedperf",
+    "description": "Shared foundation for Australian legal-writing plugins: one store of cases, legislation and sources, a Word export engine with AGLC4 formatting, and an API that other plugins extend. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "blursedperf/obsidian-legal-core"
+  },
+  {
+    "id": "canvas-authoring",
+    "name": "Canvas Authoring",
+    "author": "guopanqi",
+    "description": "Canvas Authoring 节点创作。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "guopanqi/obsidian-canvas-authoring"
+  },
+  {
+    "id": "take-note",
+    "name": "Take Note",
+    "author": "Steve Loh",
+    "description": "Record meetings, transcribe them locally with Whisper, tell speakers apart, and turn them into summaries, action items, tickets, questions and AI assignments with any OpenAI-compatible LLM. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "stevelohwc/obsidian-take-note"
+  },
+  {
+    "id": "folder-forge",
+    "name": "Folder Forge",
+    "author": "gowntn",
+    "description": "从缩进文本或名称列表批量生成文件夹与 Markdown 笔记。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gowntn/obsidian-folder-forge"
   }
 ]
