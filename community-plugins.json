@@ -61341,20 +61341,6 @@
     "repo": "mooncodee/crypt-drive-sync"
   },
   {
-    "id": "vaultos",
-    "name": "VaultOS",
-    "author": "Bennett",
-    "description": "Vault operating system, customizable bento dashboard, telemetry, and non-blocking multi-model AI assistant for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "rbm3267/obsidian-vaultos"
-  },
-  {
-    "id": "vaultflow",
-    "name": "VaultFlow",
-    "author": "Bennett",
-    "description": "Intelligent note ingestion, meeting synthesis, account intelligence, and knowledge graphs powered by your choice of LLM. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "rbm3267/obsidian-flow"
-  },
-  {
     "id": "kanban-to-bases",
     "name": "Kanban to Bases",
     "author": "Brievora",
@@ -62655,13 +62641,6 @@
     "author": "Krishnan",
     "description": "On-device AI for your notes: ask your notes, related notes, distill permanent notes, name untitled files, fill in properties, link by meaning, find duplicate ideas, writing help. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "krishnanefx/obsidian-tahoe-intelligence"
-  },
-  {
-    "id": "taskgift",
-    "name": "Task Gift",
-    "author": "KfirG",
-    "description": "Two-way Google Tasks sync with a Kanban board and a gift mode that reveals one random task at a time. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kfirgumay2005-hash/Task-Gift"
   },
   {
     "id": "tasks-view",
@@ -70633,7 +70612,7 @@
     "id": "advanced-mermaid",
     "name": "Advanced Mermaid",
     "author": "indubyagee",
-    "description": "Render Mermaid diagrams locally with inline editing, style overrides, and reusable preset classes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Render Mermaid diagrams inline editing, style overrides, reusable preset classes, and SVG/PNG/Canvas export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "indubyagee/advanced-mermaid"
   },
   {
@@ -73017,13 +72996,6 @@
     "repo": "351jklbhjk/obsidian-baidu-sync"
   },
   {
-    "id": "annotations",
-    "name": "Annotations",
-    "author": "Aru Gyani",
-    "description": "Highlight passages and add notes to selections, blocks, sections, or entire files. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "arugyani/annotations"
-  },
-  {
     "id": "pinyin-companion",
     "name": "Pinyin Companion",
     "author": "katananananna",
@@ -73141,13 +73113,6 @@
     "author": "Brave New Design",
     "description": "Render Dictate Bar dictations with readable timestamps and native Markdown formatting. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bravenewdesign/DictateBar-Obsidian"
-  },
-  {
-    "id": "knowledge-workbench",
-    "name": "Knowledge Workbench",
-    "author": "Wintmos",
-    "description": "Organize notes by tags, track due and review tasks, and open or read notes in your vault. All data stays local with zero network requests. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gintmos/knowledge-workbench"
   },
   {
     "id": "advanced-web-link-features",
@@ -73559,7 +73524,7 @@
     "id": "aglc-citations",
     "name": "AGLC4 Citations",
     "author": "blursedperf",
-    "description": "Write legal citations to the AGLC4 standard: footnotes kept at the bottom of the note, next-element suggestions, live underlining of incorrect or incomplete citations, and Word export with real footnotes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Write legal citations to the AGLC4 standard: footnotes kept at the bottom of the note, live underlining of incorrect or incomplete citations, and Word export with real footnotes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "blursedperf/obsidian-aglc4"
   },
   {
@@ -73783,8 +73748,8 @@
     "id": "wheelhouse-task-view",
     "name": "Wheelhouse Task View",
     "author": "methun-mohan",
-    "description": "Organize Markdown checkbox tasks by note across four lanes, with a manual task queue. No runtime dependencies. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "methun-mohan/wheelhouse-task-view"
+    "description": "Turn your notes into a visual board of projects and tasks, so you can see your workload and choose where to focus. Local-only, no dependencies. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "methunmohan/wheelhouse-task-view"
   },
   {
     "id": "modular-calendar",
@@ -73834,13 +73799,6 @@
     "author": "Haiqiang Zhang",
     "description": "Follow heading ancestry in the editor and reading view with a Git-style branch graph. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "haiqiang-zhang/obsidian-git-branch-editor"
-  },
-  {
-    "id": "whatsapp-desktop-sync",
-    "name": "WhatsApp Desktop (macOS)",
-    "author": "Guilherme Vinicius Schroder",
-    "description": "Sincroniza suas conversas do WhatsApp Desktop com o seu vault. Somente macOS. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gvschroder/obsidian-whatsapp-desktop-notes"
   },
   {
     "id": "native-file-drag",
@@ -73991,9 +73949,44 @@
   },
   {
     "id": "runepen-import",
-    "name": "Markdown Handoff",
+    "name": "Send to Rune and Quill",
     "author": "lawley",
     "description": "Send Markdown notes to Rune & Quill as PDFs on iPhone and iPad. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "christopherlawley/obsidian-rune-quill"
+  },
+  {
+    "id": "web-lookup",
+    "name": "Web-Lookup",
+    "author": "insekt",
+    "description": "Hold Ctrl + hover a word, click to search it on the web. Works in the editor, reading view and PDFs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "insekter/obisidan-web-lookup"
+  },
+  {
+    "id": "blyg",
+    "name": "Blyg",
+    "author": "Florian Lohse",
+    "description": "Publish to your own Blygger Studio, and read, quote and reply to other blygs, on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "florianlohse/blyg-obsidian"
+  },
+  {
+    "id": "academic-pdf",
+    "name": "Academic PDF",
+    "author": "Giacomo Berti",
+    "description": "Export notes as LaTeX quality PDF s: academic typography, theorem and algorithm blocks, Booktabs tables, table of contents, and live paginated preview. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bertigiacomo/academic-pdf-obsidian"
+  },
+  {
+    "id": "backtest-blocks",
+    "name": "Backtest Blocks",
+    "author": "chauduyphanvu",
+    "description": "Write a trading strategy (long, short or leveraged) as readable rules in a note and see its backtest drawn underneath. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chauduyphanvu/obsidian-backtest"
+  },
+  {
+    "id": "curiosity-learning",
+    "name": "Curiosity Learning",
+    "author": "Hir43th",
+    "description": "Test your understanding with a learning queue, confidence calibration, and spaced review. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "finarfin12/curiosity-learning"
   }
 ]
