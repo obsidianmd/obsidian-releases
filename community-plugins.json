@@ -3892,13 +3892,6 @@
     "repo": "zfei/obsidian-url-namer"
   },
   {
-    "id": "obsidian-douban-plugin",
-    "name": "Douban",
-    "author": "wanxp",
-    "description": "Import movies, books, music, notes, games info from Douban.",
-    "repo": "wanxp/obsidian-douban"
-  },
-  {
     "id": "insert-unsplash-image",
     "name": "Image Inserter",
     "author": "cloudy9101",
@@ -68820,7 +68813,7 @@
     "id": "logic-electric-circuit-builder",
     "name": "Logic-Electric Circuit Builder",
     "author": "Hamza Martin",
-    "description": "Design electrical and logic circuits with 72 symbols, custom blocks and smart wire routing. Keep editable diagrams in your notes, or export SVG/PNG. Offline on desktop, tablet and phone. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Build complex circuits and run live simulations on all devices. Smart wire routing, 72 symbols and custom blocks. Embed circuits in your notes, or export as SVG/PNG. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "hamzamrtn/logic-electric-circuit-builder"
   },
   {
@@ -70432,6 +70425,13 @@
     "author": "Zoe Qian",
     "description": "记录日常收支、独立专项账本与理财持仓，以本地 Markdown 保存，查看分类图表与支出趋势. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zoepiqian/mypocket"
+  },
+  {
+    "id": "ai-chatbridge",
+    "name": "AI ChatBridge",
+    "author": "Sundowna",
+    "description": "Import & sync your AI chats: Proton Lumo, Claude, ChatGPT, Gemini and Hermes chats in your vault, incl. files & artifacts. (Karpathy LLM Wiki / Second Brain / Project Brain) - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sundowna/obsidian-ai-chatbridge"
   },
   {
     "id": "task-block",
@@ -74221,6 +74221,13 @@
     "repo": "quilldedcodez/obsidian-active-review"
   },
   {
+    "id": "anki-cloze-sync-pro",
+    "name": "Anki Flashcard Sync Pro",
+    "author": "Rebirth",
+    "description": "https://github.com/Xrebirth/obsidian-anki-cloze-sync-pro - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xrebirth/obsidian-anki-cloze-sync-pro"
+  },
+  {
     "id": "get-my-scripts-and-templates",
     "name": "Get My Scripts and Templates",
     "author": "diogo1080",
@@ -74240,5 +74247,54 @@
     "author": "A B",
     "description": "Sync contacts from Microsoft 365 (or import CSV/vCard) and autocomplete them as links. A minimal person note is created the first time you mention someone. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "au2mater/obsidian-contacts"
+  },
+  {
+    "id": "floating-search-next",
+    "name": "Floating Search Next",
+    "author": "hugoh",
+    "description": "Search in a floating modal, split, tab or window, with a quick switcher, filters and saved searches. A maintained continuation of Floating Search by Boninall. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hugoh/obsidian-floating-search-next"
+  },
+  {
+    "id": "agent-hub",
+    "name": "DuoAI-Agent-hub",
+    "author": "sxpwx",
+    "description": "Run QwenWork, Qoder CN, WorkBuddy, Claude Code, Codex and Doubao agents on your vault with built-in protocols, one-click browser sign-in, vault-only tools and three-tier permission confirmations. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sxpwx/DuoAI-Agent-hub"
+  },
+  {
+    "id": "notionalize",
+    "name": "Notionalize",
+    "author": "willybrauner",
+    "description": "Notion-like pages and databases: folder pages, select chips with colors, icons, board and timeline views, side peek. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "willybrauner/notionalize"
+  },
+  {
+    "id": "task-sweeper",
+    "name": "Task Sweeper",
+    "author": "Bryan Hogan",
+    "description": "Move completed top-level tasks to a managed Done section at the bottom of your note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bryanhogan/task-sweeper"
+  },
+  {
+    "id": "journalify",
+    "name": "Journalify",
+    "author": "markuslitz",
+    "description": "Turn daily notes into an interactive diary feed, vertical timeline, or two-page book view with mood & weather tracking, photo galleries, calendar insights, and Day One import. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "markuslitz/obsidian-journalify"
+  },
+  {
+    "id": "note-to-powerpoint",
+    "name": "Note to PowerPoint",
+    "author": "EditablePPT",
+    "description": "Export a note as an editable PowerPoint deck. Headings become slides with real text boxes, native tables and embedded images. Works offline. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "a474516631/editableppt-obsidian"
+  },
+  {
+    "id": "code-block-context-fold",
+    "name": "Code Block Parameter Fold",
+    "author": "zonvon",
+    "description": "Fold name[options] inside code blocks into a clickable tag, or show the options and comments in a hover popup. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhongxiaguchen/code-block-context-fold"
   }
 ]
