@@ -7779,7 +7779,7 @@
   {
     "id": "jira-linker",
     "name": "Jira Linker",
-    "author": "srz2",
+    "author": "Steven Zilberberg",
     "description": "Quickly format a Jira issue tag as a link to you Jira instance.",
     "repo": "srz2/obsidian-jira-linker"
   },
@@ -10481,7 +10481,7 @@
   {
     "id": "azure-linker",
     "name": "Azure DevOps Linker",
-    "author": "srz2",
+    "author": "Steven Zilberberg",
     "description": "Quickly format an Azure DevOps issue tag as a link to you Azure DevOps instance.",
     "repo": "srz2/obsidian-azure-devops-linker"
   },
@@ -11685,7 +11685,7 @@
   {
     "id": "system3-relay",
     "name": "Relay",
-    "author": "Relay.md",
+    "author": "Relay",
     "description": "Collaborate in real time with live cursors. Share folders. Manage access to updates.",
     "repo": "no-instructions/Relay"
   },
@@ -28721,6 +28721,13 @@
     "repo": "mattmaiorana/daily-checklist"
   },
   {
+    "id": "git-obsi-sync",
+    "name": "Git Sync",
+    "author": "Livan Kumar",
+    "description": "Sync your vault across all devices using your own GitHub account. Free forever. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "livan116/github-valut-sync"
+  },
+  {
     "id": "etymology-multilingual",
     "name": "Etymology Multilingual",
     "author": "ducktapekiller",
@@ -34508,6 +34515,13 @@
     "author": "c-miles",
     "description": "Render your vault's link graph as a cinematic, auto-rotating 3D orrery: bloom-lit nodes, a nebula backdrop, and a starfield. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "c-miles/orrery"
+  },
+  {
+    "id": "writing-menu",
+    "name": "Writing Menu",
+    "author": "zpzp13",
+    "description": "A writing environment customization plugin with typography controls, focus mode, smart quotes, text substitution, typewriter scroll, word counter, and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zpzp13/obsidian-writing-menu"
   },
   {
     "id": "pinball-db",
@@ -45670,7 +45684,7 @@
   {
     "id": "relay-comments",
     "name": "Relay Comments",
-    "author": "Relay.md",
+    "author": "Relay",
     "description": "Add Relay-aware comments and suggestions to Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "no-instructions/Relay-Comments"
   },
@@ -53275,6 +53289,13 @@
     "author": "rosswang",
     "description": "AI vault agent powered by China-accessible LLM APIs — DeepSeek, GLM, Kimi, Qwen or any OpenAI-compatible endpoint. Agentic read/search/create/edit of notes. No CLI, no proxy, 中文优先. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yanqingwang/opensource-AI-vault-agent"
+  },
+  {
+    "id": "elias-hivemind",
+    "name": "Elias HiveMind",
+    "author": "elias north",
+    "description": "Summarize notes, suggest tags and find unlinked mentions, offline or with a local Ollama model. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "elias-hivemind/obsidian-elias-hivemind"
   },
   {
     "id": "plain-text-editor",
@@ -73577,6 +73598,13 @@
     "repo": "xinghe-1018/kb-workbench"
   },
   {
+    "id": "daily-media-gallery",
+    "name": "Daily Media Gallery",
+    "author": "akymaster",
+    "description": "Shows the photos and videos from a folder on your disk inside your daily notes, matched by the real capture date stored in the file's metadata. Nothing is copied into the vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "akshayaky/daily-media-gallery"
+  },
+  {
     "id": "projurista-legislacao",
     "name": "Projurista Legislacao",
     "author": "Jaime Zacarias",
@@ -74058,5 +74086,19 @@
     "author": "caichen",
     "description": "Drag the inner edge of Just Vertical Tabs to resize the tab bar and remember its width. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "caichen2333/obsidian-just-vertical-tabs-resize"
+  },
+  {
+    "id": "chat-log-render",
+    "name": "Chat Log Render",
+    "author": "muzaijian",
+    "description": "Render chat logs into bubble-style cards from chat code blocks. Paste raw chat exports and they become chat cards in reading view. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "muzaijian/obsidian-chat-log-render"
+  },
+  {
+    "id": "salary-calculator",
+    "name": "Salary Calculator",
+    "author": "Steven Zilberberg",
+    "description": "Turn an hourly rate or annual salary into an hourly, daily, weekly, monthly, quarterly, and annual pay table. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "srz2/Obsidian-Salary-Calculator"
   }
 ]
