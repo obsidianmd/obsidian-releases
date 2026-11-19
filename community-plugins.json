@@ -31073,18 +31073,18 @@
     "repo": "london-chen/no-paste"
   },
   {
+    "id": "lan-vault-sync",
+    "name": "LAN Vault Sync",
+    "author": "senjanson",
+    "description": "Real-time vault synchronization over LAN using Yjs CRDT for conflict-free merging. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "senjanson/lan-vault-sync"
+  },
+  {
     "id": "marginnote-sync",
     "name": "MarginNote Sync",
     "author": "cheedfdf",
     "description": "Sync annotations, notes, and mind maps from MarginNote 4. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cheendfdf/marginnote-obsidian-sync"
-  },
-  {
-    "id": "scroll-anchor",
-    "name": "Scroll Anchor",
-    "author": "senjanson",
-    "description": "Remembers scroll and cursor position for every note across all tabs. Restores all open tabs on app restart — great for mobile. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "senjanson/obsidian-scroll-anchor"
   },
   {
     "id": "roam-graph",
@@ -70420,13 +70420,6 @@
     "repo": "zoepiqian/mypocket"
   },
   {
-    "id": "ai-chatbridge",
-    "name": "AI ChatBridge",
-    "author": "Sundowna",
-    "description": "Sync your Proton Lumo, Claude, ChatGPT, Gemini and Hermes agents chats into your vault, including uploads, files & artifacts. (Karpathy LLM Wiki / Second Brain / Project Brain) - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sundowna/obsidian-ai-chatbridge"
-  },
-  {
     "id": "task-block",
     "name": "Task Block",
     "author": "n-kort",
@@ -73479,6 +73472,13 @@
     "repo": "robcoles/obsidian-note-progress-bar"
   },
   {
+    "id": "popnote",
+    "name": "PopNote",
+    "author": "Jar",
+    "description": "A floating window for your notes. Press one shortcut to show any note over your other apps, pin it on top, fade it with a slider, and hide it again. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "iijarrett/popnote"
+  },
+  {
     "id": "category-workbench",
     "name": "Category Workbench",
     "author": "circlemoon",
@@ -74142,5 +74142,12 @@
     "author": "gowntn",
     "description": "从缩进文本或名称列表批量生成文件夹与 Markdown 笔记。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "gowntn/obsidian-folder-forge"
+  },
+  {
+    "id": "gitlab-ondemand-sync",
+    "name": "Git On-Demand Sync",
+    "author": "Tongchai Choemcharung",
+    "description": "Sync text-only vault files with a private GitHub or GitLab repository via REST API and load/upload images on-demand in memory with zero mobile disk storage. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "noniva/obsidian-git-ondemand-sync"
   }
 ]
