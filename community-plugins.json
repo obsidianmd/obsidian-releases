@@ -14126,6 +14126,13 @@
     "repo": "ashwin271/obsidian-vector-search"
   },
   {
+    "id": "feedly-annotations",
+    "name": "Feedly Annotations Sync",
+    "author": "fleker",
+    "description": "Syncs Feedly highlights and annotations to a folder in your vault.",
+    "repo": "fleker/feedly-for-obsidian"
+  },
+  {
     "id": "duplicate-detector",
     "name": "Duplicate Detector",
     "author": "wishmater",
@@ -66871,13 +66878,6 @@
     "repo": "cmdr-hawkeye/writeller-obsidian"
   },
   {
-    "id": "novel-view",
-    "name": "Novel View",
-    "author": "yukisova",
-    "description": "Novel writing mode with auto mode, inline article rename, outline slides, inspiration cards, special pages, and find/replace. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "yukisova/obsidian-novel-view"
-  },
-  {
     "id": "keep-sorted",
     "name": "Keep Sorted",
     "author": "torazaburo",
@@ -72135,13 +72135,6 @@
     "repo": "bsakdol/obsidian-pocket-recordings"
   },
   {
-    "id": "nexus-graph",
-    "name": "NexusGraph",
-    "author": "Nguyễn Duy Tân",
-    "description": "Create interactive 3D & 2D vocabulary graphs and mind maps for language learning. Go beyond file-only graphs by generating custom nodes inline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "peonat2804/nexus-graph"
-  },
-  {
     "id": "coffer",
     "name": "Coffer",
     "author": "chauduyphanvu",
@@ -73745,13 +73738,6 @@
     "repo": "chickchicky/chickin-obsidian-tweaks"
   },
   {
-    "id": "gamebook-press",
-    "name": "Gamebook Press",
-    "author": "Michael Spredemann",
-    "description": "Write playable gamebooks in plain Markdown: insert read-aloud text, stat blocks and roll tables, play the book beside the manuscript, and export it for gamebook.press. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "live-to-role/gamebook-plugin"
-  },
-  {
     "id": "advanced-daily-tracker",
     "name": "Advanced Daily Tracker",
     "author": "Krzysztof Gniewek",
@@ -74032,6 +74018,13 @@
     "repo": "chauduyphanvu/obsidian-backtest"
   },
   {
+    "id": "orbis-reader",
+    "name": "Orbis Reader",
+    "author": "Rob Stewart",
+    "description": "Read, listen to and annotate ebooks in your vault, and make your reading part of your knowledge base. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rastewart/obsidian-orbis-reader"
+  },
+  {
     "id": "curiosity-learning",
     "name": "Curiosity Learning",
     "author": "Hir43th",
@@ -74116,6 +74109,13 @@
     "repo": "fnfirst/specgit-obsidian"
   },
   {
+    "id": "local-plantuml",
+    "name": "Local PlantUML",
+    "author": "DeeliN",
+    "description": "Render PlantUML diagrams fully offline, with the bundled engine and standard library. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "deelin221/obsidian-local-plantuml"
+  },
+  {
     "id": "statblock-forge",
     "name": "Statblock Forge for Atlas VTT",
     "author": "Guilherme B. Lopes",
@@ -74170,5 +74170,33 @@
     "author": "s-ed",
     "description": "Show your own display names for vaults in the vault switcher, the vault name label and the window title. Folders and paths are not changed. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "s-ed/obsidian-vault-aliases"
+  },
+  {
+    "id": "zadachi",
+    "name": "Zadachi",
+    "author": "bu4ak",
+    "description": "Create task lists in Markdown notes, set priorities, and archive completed tasks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bu4ak/zadachi"
+  },
+  {
+    "id": "caspee",
+    "name": "Caspee",
+    "author": "Caspee",
+    "description": "Send the notes of the folders you pick to your Caspee brain, so your team and its agents can read them with their sources. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "caspee-ai/obsidian-caspee"
+  },
+  {
+    "id": "pie-study",
+    "name": "Pie Study",
+    "author": "Pie Of Mind",
+    "description": "Map your lessons, track how well you understand each one, and review on a spaced schedule. Pairs with Pie Agent to study any lesson in one click. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pieofmind/pie-study-obsidian"
+  },
+  {
+    "id": "get-my-scripts-and-templates",
+    "name": "Get My Scripts and Templates",
+    "author": "diogo1080",
+    "description": "Sync templates and scripts from a GitHub repository into vault folders, and ask before applying each new version. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "diogo1080/GetMyScriptsAndTemplates"
   }
 ]
