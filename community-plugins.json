@@ -20496,6 +20496,13 @@
     "repo": "nikolay-eltsov/obsidian-yadisk-sync"
   },
   {
+    "id": "supabase-jump",
+    "name": "SupaBase Jump",
+    "author": "brianstm",
+    "description": "Sync your vault with Supabase in real time. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "brianstm/obsidian-supabase-jump"
+  },
+  {
     "id": "better-quote",
     "name": "Better Quote",
     "author": "junjieim",
@@ -39186,6 +39193,13 @@
     "repo": "maxcohn/obsidian-simple-table-formulas"
   },
   {
+    "id": "maguilanote",
+    "name": "Nodeboard",
+    "author": "acronita",
+    "description": "A visual workspace boards inside Obsidian: infinite canvas, notes, images, links, columns, to-do lists, arrows and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "acronita/nodeboard-obsidian"
+  },
+  {
     "id": "checkbox-context-menu",
     "name": "Checkbox Context Menu",
     "author": "carbongo",
@@ -42586,6 +42600,13 @@
     "author": "钟文富",
     "description": "Save the system clipboard content (including a timestamp) to the current note: on desktop, it is automatically appended upon copying, while on mobile, it is saved manually via a command. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhongwenfu00-alt/clipboard-saver"
+  },
+  {
+    "id": "notioneer",
+    "name": "Notioneer",
+    "author": "acronita",
+    "description": "Note header with title, cover and properties, markdown slash commands, and a selection formatting toolbar - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "acronita/notioneer-obsidian"
   },
   {
     "id": "canvas-to-pdf",
@@ -47007,21 +47028,21 @@
   {
     "id": "torbert-text-ai",
     "name": "Torbert Text AI",
-    "author": "Rahul S",
+    "author": "TutivSoft",
     "description": "Clean up Markdown, apply text transformations, and use OpenRouter for AI-assisted note editing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/Torbert-Text-AI-Obsidian"
   },
   {
     "id": "denali-ai-file-renamer-front-matter",
     "name": "Denali AI Renamer",
-    "author": "Rahul S",
+    "author": "TutivSoft",
     "description": "Generate filenames from Markdown notes with AI, then rename automatically or after review. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/Denali-AI-Renamer-and-Front-Matter-Obsidian"
   },
   {
     "id": "culebra-ai-spell-correct",
     "name": "Culebra AI Spell Correct",
-    "author": "Rahul S",
+    "author": "TutivSoft",
     "description": "Correct spelling, grammar, and punctuation in selected text, notes, and Markdown files using OpenRouter. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/Culebra-Obsidian-AI-Auto-Correct-Spelling"
   },
@@ -47392,7 +47413,7 @@
   {
     "id": "garda-handwriting-text-ocr",
     "name": "Garda AI Handwriting Text OCR",
-    "author": "Rahul S",
+    "author": "TutivSoft",
     "description": "Transcribe handwritten images and PDFs into searchable Markdown with GPT-5 mini. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/Garda-Handwriting-Text-OCR"
   },
@@ -52600,35 +52621,35 @@
   {
     "id": "kairo-quick-capture",
     "name": "Kairo Quick Capture",
-    "author": "Rahul S",
+    "author": "TutivSoft",
     "description": "Capture fleeting thoughts quickly and deliver them safely to an inbox or daily note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/tool-app-Obsidian-Kairo-Quick-Capture"
   },
   {
     "id": "cairn-vault-linter",
     "name": "Cairn Vault Linter",
-    "author": "Rahul S",
+    "author": "TutivSoft",
     "description": "Offline vault health report for broken links, duplicate references, block IDs, and dangling stubs. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/tool-app-Obsidian-Cairn-Vault-Linter"
   },
   {
     "id": "tundra-frontmatter-wrangler",
     "name": "Tundra AI Frontmatter Wrangler",
-    "author": "Rahul S",
+    "author": "TutivSoft",
     "description": "Safely preview, apply, and roll back bulk frontmatter and property changes offline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/tool-app-Obsidian-Tundra-Frontmatter-Wrangler"
   },
   {
     "id": "meridian-timeline",
     "name": "Meridian Timeline",
-    "author": "Rahul S",
+    "author": "TutivSoft",
     "description": "Explore dated notes and historical spans on an interactive, local-only timeline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/tool-app-Obsidian-Meridian-Timeline"
   },
   {
     "id": "aegis-note-locker",
     "name": "Aegis Note Locker",
-    "author": "Rahul S",
+    "author": "TutivSoft",
     "description": "Protect note bodies and selected frontmatter values with local authenticated encryption. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/tool-app-Obsidian-Aegis-Note-Locker"
   },
@@ -52656,7 +52677,7 @@
   {
     "id": "mica-webp-optimizer",
     "name": "Mica WebP Optimizer",
-    "author": "Rahul S",
+    "author": "TutivSoft",
     "description": "Optimize PNG and JPEG media locally as verified WebP files without breaking Obsidian links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/tool-app-Obsidian-Mica-WebP-Optimizer"
   },
@@ -68455,7 +68476,7 @@
   {
     "id": "bard-player",
     "name": "Bard Player",
-    "author": "Lucas Coutinho",
+    "author": "acronita",
     "description": "Music streaming player inside Obsidian, with a mini player and Windows taskbar controls. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "acronita/bard-player-obsidian"
   },
@@ -72368,7 +72389,7 @@
   {
     "id": "hudson-auto-organizer-ai",
     "name": "Hudson Auto Organizer AI",
-    "author": "Rahul S",
+    "author": "TutivSoft",
     "description": "Organize notes with folder rules, manual filing, AI suggestions, previews and Undo. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tutivsoft-com/Hudson-Auto-Organizer-AI"
   },
@@ -72707,13 +72728,6 @@
     "author": "jackiechan24",
     "description": "Independent Obsidian studio for Xiaohongshu cover/detail PNGs with multiple templates, local images, draggable custom modules, and high-resolution export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jackiechan24/xhs_card_studio"
-  },
-  {
-    "id": "deepseek-vault-agent",
-    "name": "DeepSeek Vault Agent",
-    "author": "任阿福",
-    "description": "Speak or type — DeepSeek plans, searches the web, reads links, and writes notes or folders in your vault. Bring your own key; runs on iPhone. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "raf-159357/deepseek-vault-agent"
   },
   {
     "id": "recurrent-dates",
@@ -74067,13 +74081,6 @@
     "repo": "williamwasen/second-brain-black-hole"
   },
   {
-    "id": "volis",
-    "name": "Volis",
-    "author": "Lak",
-    "description": "Turns canvas cards into first-class objects with inline editing, groups, connections and AI analysis. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "r529/volis"
-  },
-  {
     "id": "motto-code-block",
     "name": "Motto Code Block",
     "author": "bugen",
@@ -74391,7 +74398,7 @@
   {
     "id": "the-switcher",
     "name": "The Switcher",
-    "author": "yyh",
+    "author": "somebodil",
     "description": "Go to a file by its name or find text in your notes, and hide paths you never want to see with regular expressions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "somebodil/the-switcher"
   },
