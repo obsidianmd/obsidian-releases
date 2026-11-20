@@ -22173,7 +22173,7 @@
     "name": "Active Note",
     "author": "davidszp",
     "description": "Writes the active note path and selection to a JSON pointer file for external tool integration (e.g. Claude Code, Gemini CLI etc.). - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "davidszp/obsidian-active-note"
+    "repo": "davszp/obsidian-active-note"
   },
   {
     "id": "time-tracker-statistics",
@@ -47201,6 +47201,13 @@
     "repo": "lindongyan1992/llm-settings-translator"
   },
   {
+    "id": "local-font-loader",
+    "name": "Local Font Loader",
+    "author": "InVerse",
+    "description": "Load local fonts (TTF/OTF/WOFF/WOFF2) straight from your vault. Manage UI, text, code, and math fonts separately. Support cross-device font presets. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lmce72/obsidian-local-font-loader"
+  },
+  {
     "id": "local-note-share",
     "name": "NoteLAN",
     "author": "Olivier LB",
@@ -68828,7 +68835,7 @@
     "name": "Edgerunner Character Sheet",
     "author": "Marek Meissner",
     "description": "Unofficial interactive character sheet for the Cyberpunk RED tabletop RPG: STATs, skills with d10 rolls, HP and wounds, armor ablation, weapons, cyberware, lifepath, IP upgrades, phone layout. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "majsnic/Endgerunner-Character-Sheet"
+    "repo": "majsnic/Edgerunner-Character-Sheet"
   },
   {
     "id": "tabularium",
@@ -73892,13 +73899,6 @@
     "repo": "yuchenwang-leslie/ObsidianPlannerForApple"
   },
   {
-    "id": "skill-insight",
-    "name": "Skill Insight",
-    "author": "Vito Wang",
-    "description": "Auto-detects installed skills, mines recent agent session transcripts for skill usage, and visualizes usage, sessions, and revisions. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "minybear/obsidian-skill-insight"
-  },
-  {
     "id": "date-compass",
     "name": "Date Compass",
     "author": "carlesba",
@@ -74046,6 +74046,13 @@
     "repo": "finarfin12/curiosity-learning"
   },
   {
+    "id": "week-life-circles",
+    "name": "Week Life Circles",
+    "author": "Dmytro Kuzhel",
+    "description": "Life-in-weeks grid journal: one colored circle per week or day of your life, each linked to a note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dimathink/week-life-circles"
+  },
+  {
     "id": "better-folder-notes",
     "name": "Better Folder Notes",
     "author": "C",
@@ -74149,13 +74156,6 @@
     "author": "blursedperf",
     "description": "Shared foundation for Australian legal-writing plugins: one store of cases, legislation and sources, a Word export engine with AGLC4 formatting, and an API that other plugins extend. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "blursedperf/obsidian-legal-core"
-  },
-  {
-    "id": "canvas-authoring",
-    "name": "Canvas Authoring",
-    "author": "guopanqi",
-    "description": "Canvas Authoring 节点创作。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "guopanqi/obsidian-canvas-authoring"
   },
   {
     "id": "take-note",
@@ -74317,5 +74317,12 @@
     "author": "Arnaud ",
     "description": "Manage agenda items: news and topics to raise with people and meetings, one note per item, ticked off one audience at a time. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "arnaudmm/obsidian-talking-points"
+  },
+  {
+    "id": "filename-paste-fullwidth",
+    "name": "Filename Paste Fullwidth",
+    "author": "Dan V",
+    "description": "Convert Windows-reserved punctuation to fullwidth forms when pasting into file names. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "danv23610-cmd/filename-paste-fullwidth"
   }
 ]
