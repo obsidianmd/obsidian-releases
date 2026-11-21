@@ -27765,7 +27765,7 @@
     "id": "codex-echoink",
     "name": "EchoInk Agent",
     "author": "Akin-Lvyf",
-    "description": "Chat with your notes, get cited answers from your vault, and let AI agents organize sources into a knowledge base. Keeps long-term memory you can view and edit. Works with OpenAI-compatible models usi - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Chat with your notes, get cited answers, and build an LLM Wiki knowledge base maintained by AI agents. Editable long-term memory, multi-agent tasks, and MCP. Bring your own API key. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "akin-lvyifang/codex-echoink"
   },
   {
@@ -43998,7 +43998,7 @@
     "id": "snowflake-method",
     "name": "Snowflake Method",
     "author": "PoLaris",
-    "description": "Plan fiction with a bilingual ten-step Snowflake Method workspace backed by portable Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A multilingual workspace for planning and writing fiction in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zzpolariszz/obsidian-snowflake-method"
   },
   {
@@ -44980,6 +44980,13 @@
     "author": "Knut Hagane-Lunden",
     "description": "Track bonsai care windows (repotting, feeding, pruning, wiring, and more) from species notes written in Markdown with frontmatter, right inside your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dotknewt/bonsai-almanac"
+  },
+  {
+    "id": "link-integrity",
+    "name": "Link Integrity",
+    "author": "ZhengYX",
+    "description": "Continuously find broken internal links and isolated files across your Vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhyx91/obsidian-link-integrity"
   },
   {
     "id": "html-table-toolbar",
@@ -73465,6 +73472,13 @@
     "repo": "onchito-walks/tracing-paper"
   },
   {
+    "id": "simple-track-changes",
+    "name": "Simple Track Changes",
+    "author": "Oivánngí",
+    "description": "Track Changes mode for Live Preview and Source Mode using ++additions++ and %%~~deletions~~%%. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aiuanyu/obsidian-track-changes"
+  },
+  {
     "id": "natlee-word-mode",
     "name": "Word Mode",
     "author": "natlee",
@@ -74270,13 +74284,6 @@
     "repo": "au2mater/obsidian-contacts"
   },
   {
-    "id": "floating-search-next",
-    "name": "Floating Search Next",
-    "author": "hugoh",
-    "description": "Search in a floating modal, split, tab or window, with a quick switcher, filters and saved searches. A maintained continuation of Floating Search by Boninall. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hugoh/obsidian-floating-search-next"
-  },
-  {
     "id": "agent-hub",
     "name": "DuoAI-Agent-hub",
     "author": "sxpwx",
@@ -74667,5 +74674,33 @@
     "author": "psiqaq",
     "description": "Manage knowledge bases, review changes and sync each Git repository from the sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "psiqaq/obsidian-kb-manager"
+  },
+  {
+    "id": "inknote-highlight",
+    "name": "InkNote Highlight",
+    "author": "aiwlgp",
+    "description": "Structural syntax highlighting for Chinese notes: book titles, quotes, heading levels, meta key-value pairs, ordinals and dates, layered with an innermost-wins palette. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aiwlgp/obsidian-inknote-highlight"
+  },
+  {
+    "id": "sediment",
+    "name": "Sediment",
+    "author": "miyavis",
+    "description": "Local-first knowledge dashboard with heatmaps, quick memos, weekly reviews, and agent knowledge deposition via MCP. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "miyavis/Sediment"
+  },
+  {
+    "id": "peer-vault-sync",
+    "name": "Peer Vault Sync",
+    "author": "eliaya",
+    "description": "Peer-to-peer vault sync with an optional relay. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "eliaya/obsidian-p2p-sync"
+  },
+  {
+    "id": "ecu-codekit",
+    "name": "ecu-codekit",
+    "author": "Eren Can ",
+    "description": "Code in your notes: detects pasted code, runs commands in the terminal, edits code files and previews HTML. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "erencanucarr/ecu-codekit"
   }
 ]
