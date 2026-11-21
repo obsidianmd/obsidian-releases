@@ -21036,7 +21036,7 @@
   },
   {
     "id": "weave",
-    "name": "Weave Deck",
+    "name": "Weave Review",
     "author": "zhuzhige123",
     "description": "Best vault flashcard plugin: create cards from the active note with Markdown thinking, live-parse into multiple question types, and review with FSRS6. Core features free. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zhuzhige123/obsidian---Weave"
@@ -58865,7 +58865,7 @@
   {
     "id": "octavo",
     "name": "Octavo Reader",
-    "author": "digitaltroubadour",
+    "author": "Eliud Munyala",
     "description": "Read EPUB and PDF books with highlights that live in your vault as linked Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mealuda/OctavoRelease"
   },
@@ -74235,6 +74235,13 @@
     "repo": "noniva/obsidian-git-ondemand-sync"
   },
   {
+    "id": "cortana",
+    "name": "Cortana",
+    "author": "Fabian Ferno",
+    "description": "Talk to your vault. Cortana is a voice agent powered by Claude Code, Codex or Antigravity, with briefings and kanban check-ins. Local speech by default. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fabianferno/obsidian-cortana"
+  },
+  {
     "id": "vault-aliases",
     "name": "Vault Aliases",
     "author": "s-ed",
@@ -74713,28 +74720,28 @@
   {
     "id": "ecu-codekit",
     "name": "ecu-codekit",
-    "author": "Eren Can ",
+    "author": "Eren Can",
     "description": "Code in your notes: detects pasted code, runs commands in the terminal, edits code files and previews HTML. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "erencanucarr/ecu-codekit"
   },
   {
     "id": "ecu-terminal",
     "name": "ecu-terminal",
-    "author": "Eren Can ",
+    "author": "Eren Can",
     "description": "A terminal inside Obsidian, with split panes and command output to notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "erencanucarr/ecu-terminal"
   },
   {
     "id": "ecu-newtab",
     "name": "ecu-newtab",
-    "author": "Eren Can ",
+    "author": "Eren Can",
     "description": "A useful new tab: search, recent notes, bookmarks and recent terminal commands. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "erencanucarr/ecu-newtab"
   },
   {
     "id": "ecu-kube",
     "name": "ecu-kube",
-    "author": "Eren Can ",
+    "author": "Eren Can",
     "description": "Checks YAML and Kubernetes manifests in your notes as you write: typos, wrong types, removed APIs and labels that don't match. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "erencanucarr/ecu-kube"
   },
@@ -74751,5 +74758,19 @@
     "author": "Timo Hansman",
     "description": "Turn Bible references typed in any language into links that open in JW Library, in the language you choose. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "londonspeed/jw-bible-linker"
+  },
+  {
+    "id": "not-a-pin",
+    "name": "Not a Pin",
+    "author": "Кирилл Горин",
+    "description": "Shrink pinned note tabs to icons and preserve their Iconize icons. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kirilgorin/not-a-pin"
+  },
+  {
+    "id": "folder-column-home",
+    "name": "Folder Column Home",
+    "author": "杜鹏飞",
+    "description": "按文件夹列浏览 Vault，并管理首页显示内容与快速进入笔记. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "frank998-dpf/folder-column-home"
   }
 ]
