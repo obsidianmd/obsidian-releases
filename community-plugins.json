@@ -27765,7 +27765,7 @@
     "id": "codex-echoink",
     "name": "EchoInk Agent",
     "author": "Akin-Lvyf",
-    "description": "EchoInk is a personal knowledge agent in your Obsidian sidebar — it chats, remembers, and keeps your vault's knowledge organized. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Chat with your notes, get cited answers from your vault, and let AI agents organize sources into a knowledge base. Keeps long-term memory you can view and edit. Works with OpenAI-compatible models usi - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "akin-lvyifang/codex-echoink"
   },
   {
@@ -28866,13 +28866,6 @@
     "author": "Nasser Alansari",
     "description": "Renders Mermaid diagrams using the latest version, independent of the built-in bundled version. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dacrystal/obsidian-mermaid-next-plugin"
-  },
-  {
-    "id": "click-to-edit",
-    "name": "Click to Edit",
-    "author": "alpppine",
-    "description": "Open notes in reader mode and click anywhere to switch to edit mode with the cursor placed at the end of the note. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "alpppine/click-to-edit"
   },
   {
     "id": "feynman-research-agent",
@@ -44987,13 +44980,6 @@
     "author": "Knut Hagane-Lunden",
     "description": "Track bonsai care windows (repotting, feeding, pruning, wiring, and more) from species notes written in Markdown with frontmatter, right inside your vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dotknewt/bonsai-almanac"
-  },
-  {
-    "id": "link-integrity",
-    "name": "Link Integrity",
-    "author": "ZhengYX",
-    "description": "Continuously find broken internal links and isolated files across your Vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zhyx91/obsidian-link-integrity"
   },
   {
     "id": "html-table-toolbar",
@@ -62426,6 +62412,13 @@
     "repo": "theluckystrike/conventional-commit-draft"
   },
   {
+    "id": "openers",
+    "name": "Openers",
+    "author": "Roman",
+    "description": "One code block — one line of buttons that open a directory or file in Finder, the system terminal, or any CLI (zed, cursor, …). Global defaults, per-block overrides. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "exemplarov/openers"
+  },
+  {
     "id": "relative-scroll-lock",
     "name": "Relative Scroll Lock",
     "author": "v-49",
@@ -69338,7 +69331,7 @@
     "id": "knowledge-graph-smoke",
     "name": "Knowledge Map",
     "author": "何大哥",
-    "description": "Explore folders, notes and headings as a nested map with links, previews and editable layouts. Desktop and iPadOS. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Explore and arrange your Obsidian knowledge map. Layout sync for Windows and iPadOS using your own file-sync service. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xidianhush/knowledge-graph-obsidian-plugin"
   },
   {
@@ -74551,10 +74544,10 @@
   },
   {
     "id": "citation-range-preview",
-    "name": "Citation Range Preview",
+    "name": "Citation Preview",
     "author": "dengchuangwu",
-    "description": "Preview all references in a numeric citation range or group in a single hover card. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lyingtree/obsidian-citation-range-preview"
+    "description": "Preview and navigate numeric citations: single references, multiple references, and ranges. Requires a supported citation and bibliography format. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lyingtree/citation-preview"
   },
   {
     "id": "rowstitch",
@@ -74660,5 +74653,19 @@
     "author": "kaka",
     "description": "Preview dragged Markdown files in temporary tabs and save copies to your vault when needed. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kakak001/temporary-markdown-preview"
+  },
+  {
+    "id": "ethiopian-calendar",
+    "name": "Ethiopian Calendar",
+    "author": "Ashenafi",
+    "description": "Ethiopian calendar view, date and time commands, and template variables. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ashenafidl/obsidian-ethiopian-calendar"
+  },
+  {
+    "id": "knowledge-base-manager",
+    "name": "Knowledge Base Manager",
+    "author": "psiqaq",
+    "description": "Manage knowledge bases, review changes and sync each Git repository from the sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "psiqaq/obsidian-kb-manager"
   }
 ]
