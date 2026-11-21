@@ -27765,7 +27765,7 @@
     "id": "codex-echoink",
     "name": "EchoInk Agent",
     "author": "Akin-Lvyf",
-    "description": "Chat with your notes, get cited answers, and build an LLM Wiki knowledge base maintained by AI agents. Editable long-term memory, multi-agent tasks, and MCP. Bring your own API key. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Chat with your notes, get cited answers from your vault, and let AI agents organize sources into a knowledge base. Keeps long-term memory you can view and edit. Works with OpenAI-compatible models usi - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "akin-lvyifang/codex-echoink"
   },
   {
@@ -50589,6 +50589,13 @@
     "repo": "zachhannum/obelisk"
   },
   {
+    "id": "youspot",
+    "name": "YouSpot",
+    "author": "YouSpot",
+    "description": "Two-way sync between a vault folder and your YouSpot Brain. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "onstartups/youspot-obsidian"
+  },
+  {
     "id": "terminalogue",
     "name": "Terminalogue",
     "author": "Yuichi Mizutani",
@@ -53447,8 +53454,8 @@
   {
     "id": "baidu-netdisk-sync",
     "name": "Baidu Netdisk Sync",
-    "author": "owl234",
-    "description": "Cross-platform bi-directional synchronization with Baidu Netdisk for your vaults. - This plugin has not been manually reviewed by Obsidian staff.",
+    "author": "OWL234",
+    "description": "Free cross-platform two-way sync with Baidu Netdisk (iOS/Android/Desktop), featuring E2EE v2, conflict copies & one-click pairing. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "owl234/obsidian-baidu-netdisk-sync"
   },
   {
@@ -64988,6 +64995,13 @@
     "repo": "shiyi-sun/obsidian-plugins-sun-home"
   },
   {
+    "id": "handnote",
+    "name": "HandNote",
+    "author": "Yanzhe Shao",
+    "description": "Write by hand on iPad with Apple Pencil, touch or mouse, convert handwriting to text on your device, and annotate PDF, Word, PowerPoint and Excel files in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pilgrimagecoding/obsidian-handnote-public"
+  },
+  {
     "id": "yuzu-bases-plus",
     "name": "Yuzu Bases Plus",
     "author": "yuzuvalentine",
@@ -74172,13 +74186,6 @@
     "repo": "triplestepab/t3-attachment-tools"
   },
   {
-    "id": "statblock-forge",
-    "name": "Statblock Forge for Atlas VTT",
-    "author": "Guilherme B. Lopes",
-    "description": "Statblock Forge for Atlas VTT is a community extension. It is not made, endorsed or supported by Atlas VTT or Atlas Online. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "guilhermebergerlopes-oss/statblock-forge-for-atlas-vtt"
-  },
-  {
     "id": "quick-date-entry",
     "name": "Quick Date Entry",
     "author": "leoray",
@@ -74553,7 +74560,7 @@
     "id": "citation-range-preview",
     "name": "Citation Preview",
     "author": "dengchuangwu",
-    "description": "Preview and navigate numeric citations: single references, multiple references, and ranges. Requires a supported citation and bibliography format. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Preview numeric citation groups in Page preview using the numbered bibliography in the same note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lyingtree/citation-preview"
   },
   {
@@ -74702,5 +74709,19 @@
     "author": "Eren Can ",
     "description": "Code in your notes: detects pasted code, runs commands in the terminal, edits code files and previews HTML. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "erencanucarr/ecu-codekit"
+  },
+  {
+    "id": "ecu-terminal",
+    "name": "ecu-terminal",
+    "author": "Eren Can ",
+    "description": "A terminal inside Obsidian, with split panes and command output to notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "erencanucarr/ecu-terminal"
+  },
+  {
+    "id": "ecu-newtab",
+    "name": "ecu-newtab",
+    "author": "Eren Can ",
+    "description": "A useful new tab: search, recent notes, bookmarks and recent terminal commands. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "erencanucarr/ecu-newtab"
   }
 ]
