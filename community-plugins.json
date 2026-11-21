@@ -57806,13 +57806,6 @@
     "repo": "martinellison/mythic-gme-support"
   },
   {
-    "id": "tikz",
-    "name": "Native TikZ",
-    "author": "dingzy53",
-    "description": "Render TikZ code blocks with your locally installed TeX distribution (TeX Live, MacTeX, MiKTeX) instead of a browser WASM engine. Full TikZ, real compiler logs, transparent caching. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "dingzy53/obsidian-tikz"
-  },
-  {
     "id": "sidebar-tasks",
     "name": "Sidebar Tasks",
     "author": "Alejandro G. Lacasa",
@@ -74599,6 +74592,13 @@
     "repo": "kurotsuki-studio/KuroAI"
   },
   {
+    "id": "obsigama",
+    "name": "GAMA Hub",
+    "author": "NomberFax",
+    "description": "Browse a game catalog, keep a player profile with friends, achievements, badges and leaderboards, and sync results from game plugins that opt in. Requires an online account. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nomber/ObsiGama"
+  },
+  {
     "id": "optical-zoom",
     "name": "Optical Zoom",
     "author": "Bara Zalloum",
@@ -74772,5 +74772,12 @@
     "author": "杜鹏飞",
     "description": "按文件夹列浏览 Vault，并管理首页显示内容与快速进入笔记. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "frank998-dpf/folder-column-home"
+  },
+  {
+    "id": "random-note-shuffle",
+    "name": "Random Note Shuffle",
+    "author": "nesoy",
+    "description": "Open a random note from your vault with weighted spaced repetition. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nesoy/random-note-shuffle"
   }
 ]
