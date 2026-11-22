@@ -49553,13 +49553,6 @@
     "repo": "dev-cadet/obsidian-project-tracker"
   },
   {
-    "id": "articlewriter",
-    "name": "ArticleWriter",
-    "author": "天天",
-    "description": "AI 小说创作工具（Obsidian 版）：建书/建章/建卷、打开文档、保存章节、字数统计，全部基于 Vault MD 文档约定，增加使用说明，增加写作指南的生成，更新章节管理功能，增加书籍磁盘同步功能 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gengbl/articlewriter-obsidian"
-  },
-  {
     "id": "omnichannel-diary",
     "name": "Omnichannel Diary",
     "author": "builtbyxm",
@@ -63896,13 +63889,6 @@
     "repo": "bartolomeozisa/obsidian-slide-autosummarize"
   },
   {
-    "id": "gloss-reader",
-    "name": "Banana Reader",
-    "author": "banana",
-    "description": "Read and annotate Markdown, PDF and EPUB, ask about selected passages, and export notes with source links. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "treydong/banana-reader"
-  },
-  {
     "id": "recall-lab",
     "name": "Recall Lab",
     "author": "Muhammad Younas",
@@ -74949,6 +74935,13 @@
     "repo": "hello-my-neighborhood/obsidian-red-sheet"
   },
   {
+    "id": "diff-sync-webdav",
+    "name": "Diff Sync (WebDAV)",
+    "author": "sun xiao",
+    "description": "Content-defined-chunk differential sync over WebDAV. Only changed blocks are transferred; conflicts are kept as copies. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sylvaire/obsidian-diff-sync"
+  },
+  {
     "id": "citation-snowball",
     "name": "Citation Snowball",
     "author": "Dev",
@@ -74956,10 +74949,31 @@
     "repo": "hackrlife/Citation-Snowball"
   },
   {
+    "id": "threecode",
+    "name": "threecode",
+    "author": "krisspy",
+    "description": "Use T3 Code in Obsidian with note context and vault-scoped navigation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kriss-spy/obsidian-t3code"
+  },
+  {
     "id": "thingsmd",
     "name": "ThingsMD",
     "author": "Arthur Kotylevskiy",
     "description": "Things-inspired personal task manager with native Markdown notes and inline task cards. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kotylevskiy/thingsmd"
+  },
+  {
+    "id": "flomo-link-preview",
+    "name": "flomo Link Preview",
+    "author": "qiujv",
+    "description": "Preview private flomo memo links without changing your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qiujv/obsidian_flomo_preview"
+  },
+  {
+    "id": "smartmd",
+    "name": "SmartMD",
+    "author": "ChYX",
+    "description": "Publish Markdown to SmartKeep, sync Markdown on Windows, and review AI edits before applying them. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chen-muxi/smartmd-obsidian"
   }
 ]
