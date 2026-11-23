@@ -6027,6 +6027,13 @@
     "repo": "a-f-v/obsidian-arcana"
   },
   {
+    "id": "auto-anki",
+    "name": "Auto Anki",
+    "author": "cadrianxyz",
+    "description": "Using AI to automate card creation for Spaced Repetion in Anki.",
+    "repo": "cadrianxyz/obsidian-auto-anki"
+  },
+  {
     "id": "api-request",
     "name": "APIRequest",
     "author": "rooyca",
@@ -19099,7 +19106,7 @@
     "id": "engram-quest",
     "name": "EngramQuest",
     "author": "bahfahh",
-    "description": "Turn notes into AI-built courses, teaching videos and flashcards: a learning system with FSRS spaced repetition, powered by the AI tool you already have (Claude Code, Codex, Gemini or Cursor). - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Turn notes into AI-built courses, teaching videos, quizzes and flashcards: a learning system with FSRS spaced repetition, powered by the AI tool you already have (Claude Code, Codex, Gemini, Cursor). - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bahfahh/engram-quest"
   },
   {
@@ -42602,13 +42609,6 @@
     "repo": "deltaplanoo/git-ribbon-sync"
   },
   {
-    "id": "mybrain",
-    "name": "myBrain",
-    "author": "Carl Bechstrom",
-    "description": "A high-performance semantic network graph displaying notes in structured Parents, Children, Friends, and Siblings quadrants. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "carlb01/myBrain"
-  },
-  {
     "id": "reading-progress-bookmarks",
     "name": "Reading Progress and Bookmarks",
     "author": "Maxy Park",
@@ -47096,6 +47096,13 @@
     "repo": "mikolajsapek/obsidian-havemind"
   },
   {
+    "id": "worklife-calendar",
+    "name": "WorkLife Calendar",
+    "author": "RavenLife",
+    "description": "Calendar, task tracker, habit tracker, and financial planner — all in one plugin for Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "atinss/WorkLife-Calendar-for-Obsidian"
+  },
+  {
     "id": "task-sorter",
     "name": "Task Sorter",
     "author": "Artem Oreshkin",
@@ -50314,6 +50321,13 @@
     "author": "Tyson Gern",
     "description": "View static HTML files in a strict no-script, no-network sandbox. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "initialcapacity/obsidian-html-viewer"
+  },
+  {
+    "id": "reading-goal",
+    "name": "Reading Goal",
+    "author": "vsht3",
+    "description": "Track progress through books, or anything with a total and a current number. Draws a progress bar from note properties, moves it with buttons and hotkeys, and adds everything up against a goal. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "vsht3/obsidian-reading-goal"
   },
   {
     "id": "chapter-diff",
@@ -75425,10 +75439,52 @@
     "repo": "andyzhengyan/obsidian-doubao-importer"
   },
   {
+    "id": "catchup",
+    "name": "Catchup",
+    "author": "CalC",
+    "description": "Save and organize links, notes and ideas in a searchable list or Kanban board. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "07calc/catchup"
+  },
+  {
     "id": "simple-note-sync",
     "name": "Blueee Notes",
     "author": "kristinblues",
     "description": "Sync selected notes and attachments across devices. A Blueee Notes account and registration invite are required for new users. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kristinblue/blueee-notes"
+  },
+  {
+    "id": "red-sync",
+    "name": "Red Sync",
+    "author": "Karan Parashar",
+    "description": "Synchronise your vault between your devices through your own server. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "whyredfire/obsidian-redsync"
+  },
+  {
+    "id": "linked-folder-pane",
+    "name": "Linked Folder Pane",
+    "author": "aether-cell",
+    "description": "Show an external folder from your disk next to the note that links to it, updated live as files are added or removed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aether-cell/linked-folder-pane"
+  },
+  {
+    "id": "note-attachment-folder",
+    "name": "Note Attachment Folder",
+    "author": "CharlesChou",
+    "description": "Organizes note attachments into a same-name folder and syncs the folder and links when notes are renamed, moved, or deleted. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "charleschoux/note-attachment-folder"
+  },
+  {
+    "id": "rast",
+    "name": "Rast",
+    "author": "roj",
+    "description": "Check Kurdish spelling and orthography in notes and selections with Rast. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "rojvv/rast-obsidian"
+  },
+  {
+    "id": "confession-reference",
+    "name": "Confession Reference",
+    "author": "Patrick Bigelow",
+    "description": "Look up and insert references to the historic Reformed confessions and catechisms. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "jpbigs/confession-reference"
   }
 ]
