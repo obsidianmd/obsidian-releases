@@ -3430,6 +3430,13 @@
     "repo": "jensmtg/obsidian-diagrams-net"
   },
   {
+    "id": "obsidian-weread-plugin",
+    "name": "Weread",
+    "author": "zhaohongxuan",
+    "description": "Sync Tencent Weread highlights and annotations.",
+    "repo": "zhaohongxuan/obsidian-weread-plugin"
+  },
+  {
     "id": "zotero-link",
     "name": "Zotero Link",
     "author": "vanakat",
@@ -41216,13 +41223,6 @@
     "repo": "13green13/kcal-calc"
   },
   {
-    "id": "grill",
-    "name": "Grill",
-    "author": "Adam Danielsson",
-    "description": "An agentic learning system. Grill keeps state on what you know, note by note. Chat, tests and your other agents all work from it. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "theadamdanielsson/grill"
-  },
-  {
     "id": "chartdown",
     "name": "Chartdown",
     "author": "Nossimonov",
@@ -50499,10 +50499,10 @@
   },
   {
     "id": "dnd-character-sheet-helper",
-    "name": "DnD Character Sheet Helper",
+    "name": "DnD Vault Companion",
     "author": "Ionas Politis",
-    "description": "A complete DnD 5.5e Character Sheet right in your notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ionaspolitis/DnD-Character-Sheet-Helper"
+    "description": "A complete DnD 5.5e Character Sheet right in your Notes and additional DM Tools. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ionaspolitis/DnD-Vault-Companion"
   },
   {
     "id": "aware-line-capitalizer",
@@ -64113,13 +64113,6 @@
     "repo": "tcrouzet/obsidian-french-typos"
   },
   {
-    "id": "wujie-sync",
-    "name": "Wujie Sync",
-    "author": "adventurer",
-    "description": "Sync notes and attachments with client-side encryption and commercial cloud storage. Customize sorting, pin notes and revisit recent files. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "adventurer2008/obsidian-smart-sync-release-cn"
-  },
-  {
     "id": "free-ai-agents",
     "name": "Free AI and Agents",
     "author": "Ikechukwu Mokelu",
@@ -73283,6 +73276,13 @@
     "repo": "tobiasvl/obsidian-reopen-tab-in-place"
   },
   {
+    "id": "send-to-todoist",
+    "name": "Send to Todoist",
+    "author": "davison",
+    "description": "Move a task line into Todoist, one way: the line becomes [>] with a link to the Todoist task. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chrisdavison/send-to-todoist"
+  },
+  {
     "id": "plugin-catalog-guide",
     "name": "Vault Catalog and Guides",
     "author": "rainydawn",
@@ -74425,7 +74425,7 @@
   },
   {
     "id": "the-switcher",
-    "name": "The Switcher",
+    "name": "the-switcher",
     "author": "somebodil",
     "description": "Go to a file by its name or find text in your notes, and hide paths you never want to see with regular expressions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "somebodil/the-switcher"
@@ -74450,13 +74450,6 @@
     "author": "Precieux Fassinou",
     "description": "A colorful 3D view of your vault: one color per top-level folder, soft glow, starfield, search and neighbor highlighting. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "precieuxfassinou/galaxie-3d"
-  },
-  {
-    "id": "locale-mirror",
-    "name": "Locale Mirror",
-    "author": "Exekit",
-    "description": "Toggle seamlessly between original notes and mirrored local translations stored in a Locales/<LANG>/ folder, matched by frontmatter UUID, relative path, or filename suffix. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "exekit-dev/Locale-Mirror"
   },
   {
     "id": "study-pilot",
@@ -74601,7 +74594,7 @@
   {
     "id": "code-embed",
     "name": "Code Embed",
-    "author": "zuzdwi",
+    "author": "JavaMiner",
     "description": "Expand reusable note fragments and preview structured prompts. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "javaminer/obsidian-code-embed"
   },
@@ -74681,6 +74674,13 @@
     "author": "aiwlgp",
     "description": "Structural syntax highlighting for Chinese notes: book titles, quotes, heading levels, meta key-value pairs, ordinals and dates, layered with an innermost-wins palette. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aiwlgp/obsidian-inknote-highlight"
+  },
+  {
+    "id": "sediment",
+    "name": "Sediment",
+    "author": "miyavis",
+    "description": "Local-first knowledge dashboard with heatmaps, quick memos, weekly reviews, and agent knowledge deposition via MCP. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "miyavis/Sediment"
   },
   {
     "id": "peer-vault-sync",
@@ -74842,6 +74842,13 @@
     "author": "chauduyphanvu",
     "description": "Turn a note's frontmatter into a working app. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "chauduyphanvu/obsidian-gizmo"
+  },
+  {
+    "id": "fractal",
+    "name": "Fractal",
+    "author": "Alessandro Abrami",
+    "description": "Visualize and edit notes in a 2D card tree layout using standard Markdown heading hierarchy. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ide-ale/obsidian-fractal"
   },
   {
     "id": "cad-lab",
@@ -75339,5 +75346,26 @@
     "author": "Alex Totolici",
     "description": "Edit embedded notes, headings and blocks in place, in Live Preview. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "toto1384/editable-embeds"
+  },
+  {
+    "id": "drive-sync",
+    "name": "Drive Sync",
+    "author": "daniel",
+    "description": "Sync your vault with a folder in Google Drive using one command. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "danielzangene/obsidian-sync"
+  },
+  {
+    "id": "langdock-sync",
+    "name": "Langdock Sync",
+    "author": "Nico Blum",
+    "description": "Sync Obsidian notes with Langdock. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nblum/obsidian-langdock-sync"
+  },
+  {
+    "id": "figure-suite",
+    "name": "Figure Suite",
+    "author": "Joy Shen",
+    "description": "Draw textbook-style figures of arrays, tables, trees, graphs and linked lists from a short text description, and insert them into notes as editable PNG or SVG. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xiao-la/figure-suite"
   }
 ]
