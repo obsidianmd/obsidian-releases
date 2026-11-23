@@ -44199,9 +44199,9 @@
   },
   {
     "id": "recto",
-    "name": "Zotero PDF OCR and Translation - Recto",
+    "name": "Zotero PDF OCR and Translation - RectoPaper",
     "author": "Jensen Zheng",
-    "description": "Import your Zotero library and PDFs, convert papers to Markdown with OCR, and translate them into multiple languages for side-by-side reading. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Import Zotero papers or add them by DOI or arXiv, convert PDFs to Markdown with OCR, translate them for bilingual side-by-side reading, and copy citations in APA, IEEE, GB/T 7714 or BibTeX. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "jensen-zheng-cmd/Recto-plugin"
   },
   {
@@ -72352,13 +72352,6 @@
     "repo": "gvinagremartins/table-drag-resize"
   },
   {
-    "id": "note-relay",
-    "name": "Note Relay - Vault in a Browser",
-    "author": "KJ Developers",
-    "description": "A web version of your vault: open it in any browser, at work or on your phone. Dataview, backlinks and your theme keep working because your vault renders them. Nothing is uploaded. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kjdevelopers/note-relay-obsidian_plugin"
-  },
-  {
     "id": "oh-my-bullet",
     "name": "Oh My Bullet",
     "author": "June",
@@ -72511,6 +72504,13 @@
     "author": "Rowen",
     "description": "Turn indented outlines into mind maps and flowcharts. Edit on the chart with Enter and Tab, pick from 17 themes, drag with snapping, and export to a single HTML page. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "rowenfan/outline-flow"
+  },
+  {
+    "id": "deepseek-chat",
+    "name": "DeepSeek Chat",
+    "author": "kiven大汉堡",
+    "description": "Chat with DeepSeek in Obsidian using your own API key。使用您自己的 API 密钥，在 Obsidian 中与 DeepSeek 进行对话：支持网页搜索、深度搜索、阅读链接与文件、文本转语音以及语音输入功能。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kivenbig/obsidian-deepseek-chat"
   },
   {
     "id": "wujie-translate",
@@ -75213,5 +75213,19 @@
     "author": "ke xue",
     "description": "Annotate selected text and whole notes with local discussion threads, replies, and reactions in a sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kexue-nju/selection-comments"
+  },
+  {
+    "id": "print-ready-pdf",
+    "name": "Print-Ready PDF Export",
+    "author": "James Husted",
+    "description": "Export notes to PDF with print-optimized or formatting-preserving modes, page-break controls and full layout customization. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hustedev/obsidian-print-ready-pdf"
+  },
+  {
+    "id": "aibirthday-video-generator",
+    "name": "AI Birthday Video Generator",
+    "author": "33",
+    "description": "AI birthday video generator from a single photo: they pop champagne on a park bench, blow out a Scorpio cake, or light a crown cake at the car window. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hanshs474/abvg-obsidian"
   }
 ]
