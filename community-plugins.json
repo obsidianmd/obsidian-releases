@@ -48196,10 +48196,10 @@
   },
   {
     "id": "tradecraft",
-    "name": "Tradecraft",
-    "author": "Michael Boyle",
+    "name": "Fieldkit",
+    "author": "tradecraftso",
     "description": "Contextual backlinks, readable Daily Note dates, compact week navigation, and a continuous desktop timeline. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mboyle/obsidian-tradecraft"
+    "repo": "tradecraftso/fieldkit"
   },
   {
     "id": "wadjet",
@@ -49572,13 +49572,6 @@
     "author": "DevCadet",
     "description": "Project tracker inspired by Atlassian and GitHub's own project tooling. Display kanban boards and table views. Compatible with Obsidian Sync, plugin works with local notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dev-cadet/obsidian-project-tracker"
-  },
-  {
-    "id": "articlewriter",
-    "name": "ArticleWriter",
-    "author": "天天",
-    "description": "AI 小说创作工具（Obsidian 版）：建书/建章/建卷、打开文档、保存章节、字数统计，全部基于 Vault MD 文档约定，增加使用说明，增加写作指南的生成，更新章节管理功能，增加书籍磁盘同步功能 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gengbl/articlewriter-obsidian"
   },
   {
     "id": "omnichannel-diary",
@@ -75453,6 +75446,13 @@
     "repo": "martingryner/diff-anything-obsidian"
   },
   {
+    "id": "full-calendar-plus",
+    "name": "Full Calendar Plus",
+    "author": "Alex Totolici",
+    "description": "Keep your calendar in your vault: events as notes, daily notes, ICS and CalDAV calendars, with categories, live previews and keyboard shortcuts. A maintained fork of Full Calendar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "toto1384/obsidian-full-calendar-fork"
+  },
+  {
     "id": "editable-embeds",
     "name": "Editable Embeds",
     "author": "Alex Totolici",
@@ -75871,5 +75871,33 @@
     "author": "bugstack27",
     "description": "Open web pages as workspace tabs and switch back to your notes when the cursor leaves the page. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bugstack27/obsidian-moyu-mode"
+  },
+  {
+    "id": "markmap-preview",
+    "name": "Markmap Preview",
+    "author": "airmour",
+    "description": "Preview the current Markdown note as an interactive Markmap. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "airmour/Markmap-Obsidian"
+  },
+  {
+    "id": "sermon-illustration-finder",
+    "name": "Sermon Illustration Finder",
+    "author": "주명철",
+    "description": "Find sermon illustrations and quotes by theme, type, tone, audience, season or Bible passage, then insert a link, the text or the application point into your note. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myoungcheul-joo/sermon-illustration-finder"
+  },
+  {
+    "id": "passage-guide",
+    "name": "Passage Guide",
+    "author": "주명철",
+    "description": "Gather the commentaries, your notes, sermons, illustrations and books that touch a Bible passage into one sidebar, ordered by a priority list you control. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myoungcheul-joo/passage-guide"
+  },
+  {
+    "id": "seongdo-notebook",
+    "name": "Seongdo Notebook",
+    "author": "주명철",
+    "description": "Keep a prayer, thanksgiving, evangelism-contact and daily McCheyne Bible reading notebook in your vault, with no internet or AI use. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "myoungcheul-joo/seongdo-notebook"
   }
 ]
