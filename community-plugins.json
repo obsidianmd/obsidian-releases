@@ -16586,7 +16586,7 @@
     "id": "github-issues",
     "name": "Github Issues",
     "author": "lonoxx",
-    "description": "Track Github Issues and pull requests directly in your vault",
+    "description": "Sync issues and pull requests from GitHub, GitLab, Gitea, Forgejo and Codeberg into your vault.",
     "repo": "lonoxx/obsidian-github-issues"
   },
   {
@@ -37968,13 +37968,6 @@
     "repo": "israerusan/vault-router"
   },
   {
-    "id": "character-companion",
-    "name": "Character Companion",
-    "author": "DevilSurvivor2",
-    "description": "A customizable stage for your own characters, living in the side panel and walking along the bottom edge, with click animations, speech bubbles, and an optional reactive comment feed. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "devilsurvivor2/character-companion"
-  },
-  {
     "id": "starter-packs",
     "name": "Starter Packs",
     "author": "Grub Basket",
@@ -43745,7 +43738,7 @@
   {
     "id": "yuhanbo-task",
     "name": "Yuhanbo Task",
-    "author": "yuhanbo",
+    "author": "余汉波",
     "description": "一个简单易用的任务管理插件，支持任务创建、编辑、删除和状态管理，帮助您高效管理待办事项。 - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuhanbo758/obsidian-yuhanbo-task"
   },
@@ -43864,14 +43857,14 @@
   {
     "id": "yuhanbo-search",
     "name": "Yuhanbo Search",
-    "author": "yuhanbo",
+    "author": "余汉波",
     "description": "Search your vault with customizable weights and insert matching text, headings, or block links. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuhanbo758/obsidian-yuhanbo-search"
   },
   {
     "id": "yuhanbo-voice-assistant",
     "name": "Yuhanbo Voice Assistant",
-    "author": "yuhanbo",
+    "author": "余汉波",
     "description": "Use voice recognition, speech synthesis, wake words, and optional AI providers from your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuhanbo758/obsidian-yuhanbo-voice_assistant"
   },
@@ -44480,7 +44473,7 @@
   {
     "id": "yuhanbo-python-runner",
     "name": "Yuhanbo Python Runner",
-    "author": "yuhanbo",
+    "author": "余汉波",
     "description": "Run Python code blocks with a local interpreter and view their output inside your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuhanbo758/obsidian-yuhanbo-python"
   },
@@ -53459,13 +53452,6 @@
     "repo": "titaniumon23/linb-kanban"
   },
   {
-    "id": "kavel-image-generator",
-    "name": "Kavel AI Image Generator",
-    "author": "33",
-    "description": "Generate images into your notes and edit vault images with one sentence. Works without an API key. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hanshs474/kavel-obsidian"
-  },
-  {
     "id": "hexcrawl",
     "name": "Hexcrawl",
     "author": "Vasilii Negrebetskii",
@@ -56369,6 +56355,13 @@
     "author": "Vijay Kasibhatla",
     "description": "Create, edit (via the native Markdown/CodeMirror editor) and preview .mdx files with a sandboxed JSX renderer and support for vault-supplied custom components. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "kloudlinq/obsidian-mdx-view"
+  },
+  {
+    "id": "tree-work",
+    "name": "Tree Work",
+    "author": "Felix Isensee",
+    "description": "Break down complex projects into visual, interactive task trees with nested subtasks and deep focus. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fiesensee/tree-work"
   },
   {
     "id": "easy-symlinker",
@@ -62123,6 +62116,13 @@
     "author": "Vladislav Plotnikov",
     "description": "Interactive genealogy graph from person note properties, with image and print export. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vladushked/genealogy-graph"
+  },
+  {
+    "id": "agentlens-social-importer",
+    "name": "AgentLens Social Importer",
+    "author": "AgentLens",
+    "description": "Save public social content as traceable Markdown research notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "inkad-code/AgentLens-for-Obsidian"
   },
   {
     "id": "s-color-inline",
@@ -73264,7 +73264,7 @@
   {
     "id": "autocomplete",
     "name": "yuhanbo-autocomplete",
-    "author": "yuhanbo",
+    "author": "余汉波",
     "description": "Complete Chinese and English words, note links, and custom phrases offline. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuhanbo758/obsidian-yuhanbo-autocomplete"
   },
@@ -74993,7 +74993,7 @@
   {
     "id": "yuhanbo-editing",
     "name": "yuhanbo-editing",
-    "author": "yuhanbo",
+    "author": "余汉波",
     "description": "Edit headings, links, and Markdown with shortcuts, Chinese text tools, and table paste. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuhanbo758/obsidian-yuhanb-editing"
   },
@@ -75311,6 +75311,13 @@
     "author": "Claude Code",
     "description": "My calendar heatmap - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mxncrou/Calendar-heatmap-simple"
+  },
+  {
+    "id": "saga",
+    "name": "Saga",
+    "author": "Leon Obrenov",
+    "description": "A mobile-compatible map Bases view, custom note renderers and more for TTRPG world-building vaults. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lobrenov/saga-obsidian"
   },
   {
     "id": "openaleph-omnisearch",
@@ -75873,6 +75880,13 @@
     "repo": "bugstack27/obsidian-moyu-mode"
   },
   {
+    "id": "pdfmark",
+    "name": "PDFmark",
+    "author": "Walden_Jiao",
+    "description": "Read and annotate PDFs in Obsidian: highlight, underline, strike out, freehand ink, shapes and sticky notes. Free and offline, exports to Markdown, burns the marks into the PDF. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "johns18104/obsidian-pdfmark"
+  },
+  {
     "id": "markmap-preview",
     "name": "Markmap Preview",
     "author": "airmour",
@@ -75899,5 +75913,19 @@
     "author": "주명철",
     "description": "Keep a prayer, thanksgiving, evangelism-contact and daily McCheyne Bible reading notebook in your vault, with no internet or AI use. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "myoungcheul-joo/seongdo-notebook"
+  },
+  {
+    "id": "flomo-zip-import",
+    "name": "Flomo ZIP Import",
+    "author": "Blink",
+    "description": "Import Flomo ZIP exports locally, preview Markdown and attachments, and save them to your vault or a ZIP. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "iblinkq/Flomo2Obsidian"
+  },
+  {
+    "id": "knapsack",
+    "name": "Knapsack",
+    "author": "bobstanton",
+    "description": "Editor, tester and note creator for Knap templates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bobstanton/knapsack"
   }
 ]
