@@ -67126,7 +67126,7 @@
     "id": "midad-arabic-sources",
     "name": "Midad Arabic Sources",
     "author": "Joseph Hill",
-    "description": "Import classical Arabic sources (tafsīrs, Qur'ān translations, ḥadīth, riwāyāt) into the vault, transliterate Arabic, and export references to Zotero. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Import classical Arabic sources (tafsīrs, Qur'ān translations, ḥadīth, riwāyāt) into the vault, transcribe and translate PDFs, transliterate Arabic, and export references to Zotero. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nebedaay/Midad-Arabic-Sources"
   },
   {
@@ -71391,13 +71391,6 @@
     "author": "dingzy53",
     "description": "List every file that differs from the last Git commit, with status letters and a simple diff. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dingzy53/obsidian-uncommited"
-  },
-  {
-    "id": "aigifmaker",
-    "name": "AI GIF Maker",
-    "author": "33",
-    "description": "Turn text into animated GIFs with AI GIF Maker, saved to your vault and embedded at the cursor. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "hanshs474/aigifmaker-obsidian"
   },
   {
     "id": "ai-connected",
@@ -75908,10 +75901,52 @@
     "repo": "heungson/obsidian-connect-with-ai"
   },
   {
+    "id": "typeset",
+    "name": "Typeset",
+    "author": "Johannes Hans",
+    "description": "Adds a split view LaTeX and Typst Editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "commandjoo/Typeset"
+  },
+  {
     "id": "better-calender",
     "name": "better-calender",
     "author": "nkyeah",
     "description": "View, open, and create daily notes from a calendar in the right sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "newkingyeah/better-calender"
+  },
+  {
+    "id": "anti-dian",
+    "name": "Anti-dian",
+    "author": "quangliz",
+    "description": "Noting harness powered by the official Antigravity CLI (ACP). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "quangliz/anti-dian"
+  },
+  {
+    "id": "canvas-extra-colors",
+    "name": "Canvas Extra Colors",
+    "author": "spaceface",
+    "description": "Adds additional favorite color swatches to the Canvas editor. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gittermarie/canvas_extra_colors"
+  },
+  {
+    "id": "mentor",
+    "name": "Mentor",
+    "author": "Precieux Fassinou",
+    "description": "Personal tutor built from your notes: guided lessons, quizzes, timed challenges and spaced review (FSRS). Runs your own local Claude Code. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "precieuxfassinou/mentor"
+  },
+  {
+    "id": "revisit",
+    "name": "Revisit",
+    "author": "Alan Victor",
+    "description": "Spaced repetition flashcards with FSRS. Pick your time and review. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alan-veras/revisit"
+  },
+  {
+    "id": "peerpedia",
+    "name": "Peerpedia",
+    "author": "Peerpedia",
+    "description": "Write and preview papers offline, and import, compare, or submit them to Peerpedia on Apple silicon Macs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "peerpedia/peerpedia"
   }
 ]
