@@ -65901,7 +65901,7 @@
     "id": "salah-hijri-times",
     "name": "Salah and Hijri Times",
     "author": "AfzGit",
-    "description": "Get Salah Timings with notifications, set Iqamah, and track Islamic Hijri dates. A must-have for practicing Muslims. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Get Islamic Prayer Timings with notifications, set Iqamah, and track Hijri dates. A must-have for practicing Muslims. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "afzgit/obsidian-salah-and-hijri-times"
   },
   {
@@ -73458,13 +73458,6 @@
     "repo": "aiuanyu/obsidian-track-changes"
   },
   {
-    "id": "natlee-word-mode",
-    "name": "Word Mode",
-    "author": "natlee",
-    "description": "Edit Markdown notes like a Word document, with a ribbon toolbar, tables, and images. Notes are still saved as clean Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "natlee/obsidian-word-mode"
-  },
-  {
     "id": "vault-doctor",
     "name": "Vault Doctor",
     "author": "ll905518294",
@@ -75463,8 +75456,15 @@
     "id": "figure-suite",
     "name": "Figure Suite",
     "author": "Joy Shen",
-    "description": "Draw figures for algorithms, data structures and theoretical computer science from short text, and insert them into notes as editable PNG or SVG. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Draw figures for algorithms, data structures and theoretical CS from short text: trees, graphs, automata, plots, Venn and sequence diagrams. Insert them as editable PNG or SVG. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "xiao-la/figure-suite"
+  },
+  {
+    "id": "pseudocode-suite",
+    "name": "Pseudocode Suite",
+    "author": "Joy Shen",
+    "description": "Write algorithms in CLRS textbook style. Type or paste pseudocode into a visual builder and get numbered, typeset blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xiao-la/pseudocode-suite"
   },
   {
     "id": "doubao-sync",
@@ -75668,5 +75668,33 @@
     "author": "chenduola",
     "description": "Organize daily tasks, projects, habits, journals, and reading in a customizable local dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zibochen6/dora-dashboard"
+  },
+  {
+    "id": "table-stats-calc",
+    "name": "Table Stats Calc",
+    "author": "sumi-1124",
+    "description": "Spreadsheet-style calculations (mean, sum, median, min, max, count, stdev...) inside markdown tables. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sumi1124/obsidian-table-calc"
+  },
+  {
+    "id": "formula-to-note",
+    "name": "Formula to Note",
+    "author": "zhibird",
+    "description": "Turn pasted ChatGPT explanations into notes with intact equations, symbol tables, and code blocks. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhibird/gptchat-to-obsidian"
+  },
+  {
+    "id": "canvas-joy",
+    "name": "Canvas Joy",
+    "author": "Joy",
+    "description": "Heptabase-style visual thinking for Canvas: tinted note cards, collapsible cards and sections, focus mode, in-canvas search, minimap, alignment bar, mindmaps, and text formatting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "joyitang/canvas-joy"
+  },
+  {
+    "id": "vertical-tabs-lite",
+    "name": "Vertical Tabs Lite",
+    "author": "sumi-1124",
+    "description": "A vertical list of your open notes in the sidebar, like vertical tabs in a browser. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sumi1124/vertical-tabs-lite"
   }
 ]
