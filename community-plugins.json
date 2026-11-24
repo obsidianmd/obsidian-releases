@@ -62622,6 +62622,13 @@
     "repo": "andy-spike/obsidian-reader-plugin"
   },
   {
+    "id": "tahoe-code",
+    "name": "Tahoe Code",
+    "author": "Krishnan",
+    "description": "An IDE in your code blocks: smart Enter and indentation, closing brackets, suggestions and templates, coloured brackets and sticky headers; on desktop, checking as you type, quick fixes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "krishnanefx/obsidian-tahoe-code"
+  },
+  {
     "id": "tahoe-organize",
     "name": "Tahoe Organize",
     "author": "Krishnan",
@@ -64125,6 +64132,13 @@
     "author": "Thierry Crouzet",
     "description": "Automatic typographic apostrophe, French quotation marks and dialog mark for Obsidian - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tcrouzet/obsidian-french-typos"
+  },
+  {
+    "id": "wujie-sync",
+    "name": "Wujie Sync",
+    "author": "adventurer",
+    "description": "Sync notes and attachments with client-side encryption and commercial cloud storage. Customize sorting, pin notes and revisit recent files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "adventurer2008/obsidian-smart-sync-release-cn"
   },
   {
     "id": "free-ai-agents",
@@ -68642,13 +68656,6 @@
     "repo": "timonwendland/obsidian-note-repetition"
   },
   {
-    "id": "two-euro-collection",
-    "name": "2 Euro Collection",
-    "author": "Wojciech Kasjanowicz",
-    "description": "2 Euro coin collection with filtered ownership totals, enforced title normalization, owned-card highlighting and complete English documentation. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "wkasjanowicz/Obsidian-Two-Euro-Collection"
-  },
-  {
     "id": "pangu-cn",
     "name": "Pangu CN",
     "author": "milubxaq",
@@ -72653,6 +72660,13 @@
     "repo": "chams-bensalem/refinr-obsidian"
   },
   {
+    "id": "trama",
+    "name": "Trama",
+    "author": "Andrea Casarin",
+    "description": "Local-first AI for conversing with your vault through Voce, discovering related notes through Filo, and searching indexed notes through Lente. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "andreacasarin/Trama"
+  },
+  {
     "id": "vim-layer",
     "name": "Vim Layer",
     "author": "zulerne",
@@ -75202,7 +75216,7 @@
   },
   {
     "id": "piecemeal-git",
-    "name": "Piecemeal Git",
+    "name": "piecemeal-git",
     "author": "somebodil",
     "description": "Sync a vault with a git repository in small pieces, so that it works on a phone. No git program needed. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "somebodil/piecemeal-git"
@@ -75535,5 +75549,103 @@
     "author": "Rajdeep",
     "description": "Send a Markdown copy of your vault to your personal Chrome Notepad account. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "barmanrajdeep/chrome-notepad-obsidian-sync"
+  },
+  {
+    "id": "csv-importer",
+    "name": "CSV Importer",
+    "author": "Luis Mendez",
+    "description": "Turn CSV files into one note per row with typed properties that Bases can sum and filter. Re-import safely when the CSV changes: your edits are kept. Includes table view, preview and undo. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "luis85/obsidian-csv-importer"
+  },
+  {
+    "id": "vivarium",
+    "name": "Vivarium",
+    "author": "Daniel Bösch",
+    "description": "Run terminals, coding agents and dev servers as live tiles on your canvas. They keep running in tmux when you close Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "encrux/vivarium"
+  },
+  {
+    "id": "drawing-image-export",
+    "name": "Automated Drawing Exporter",
+    "author": "Anmol Dash",
+    "description": "Export the open tldraw drawing as SVG or PNG when it saves. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "anmoldash98/drawing-image-export"
+  },
+  {
+    "id": "vaultdav",
+    "name": "VaultDAV",
+    "author": "Stefan Stark",
+    "description": "Synchronize your vault bidirectionally with Nextcloud via WebDAV. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "akjir/vaultdav"
+  },
+  {
+    "id": "home-project-manager",
+    "name": "Home Project Manager",
+    "author": "TheronWang",
+    "description": "A home dashboard and project pages built from plain notes: an activity feed, session notes that carry tasks forward, and an update format that coding agents can write to. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "theronwang/home-project-manager"
+  },
+  {
+    "id": "traffic-recap",
+    "name": "Traffic Recap",
+    "author": "chilipeppers",
+    "description": "Pull Google Analytics 4, Google Search Console, Plausible and PostHog traffic metrics into your notes, with daily note automation. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chi-li-peppers/obsidian-traffic-recap"
+  },
+  {
+    "id": "utm-vault",
+    "name": "UTM Vault",
+    "author": "chilipeppers",
+    "description": "Build, normalise, validate and organise UTM tracking links with channel presets, a Markdown registry and Bases support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chi-li-peppers/obsidian-utm-vault"
+  },
+  {
+    "id": "bases-conditional-format",
+    "name": "Bases Conditional Format",
+    "author": "chilipeppers",
+    "description": "Add conditional formatting, colour badges, row highlights and inline progress bars to Bases tables and cards. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chi-li-peppers/obsidian-bases-conditional-format"
+  },
+  {
+    "id": "needle",
+    "name": "Needle",
+    "author": "Hevar Magron",
+    "description": "Find text across your vault, with ranked results, clear note paths and a live preview of every match. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hevar/needle"
+  },
+  {
+    "id": "media-cover-gallery",
+    "name": "Media Cover Gallery",
+    "author": "Krzysztof Gniewek",
+    "description": "Turn lists of movies, books, games and albums into a clean gallery of posters and covers. Works out of the box, with no account or API key needed. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kgniewek/media-cover-gallery"
+  },
+  {
+    "id": "noctilucent",
+    "name": "Noctilucent",
+    "author": "Sarah Ling",
+    "description": "Local PDF, Office Viewer and Markdown Reading View highlights/annotations, with non-destructive Markdown export and Traditional Chinese/English UI. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sarahokra/noctilucent"
+  },
+  {
+    "id": "health-record",
+    "name": "Health Record",
+    "author": "duany",
+    "description": "Log sleep and personal habits from a sidebar panel, then review them with day-over-day and week-over-week comparisons, all stored in plain Markdown files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "duany2026/obsidian-health-record"
+  },
+  {
+    "id": "quran-recitation-tracker",
+    "name": "Quran Recitation Tracker",
+    "author": "HoseinTanha",
+    "description": "Track daily Quran recitation by page or surah with a khatm progress map, goals, streaks and reports. Persian interface, data stored in your own notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tanhahoseine-stack/Quran_teacher"
+  },
+  {
+    "id": "fleeting-notes-capture",
+    "name": "Fleeting Notes Capture",
+    "author": "duany",
+    "description": "快速记录闪念笔记，支持按月/周/年归档，支持手机端。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "duany2026/obsidian-fleeting-notes"
   }
 ]
