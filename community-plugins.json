@@ -22435,6 +22435,13 @@
     "repo": "findflowstate/obsidian-flow-state"
   },
   {
+    "id": "yandex-disk-sync",
+    "name": "Yandex Disk Sync",
+    "author": "Ivan Sushkin",
+    "description": "Syncing files with Yandex Disk. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ivansushkin/obsidian-yandex-disk-sync"
+  },
+  {
     "id": "tabjump",
     "name": "TabJump",
     "author": "shitcoding",
@@ -31617,13 +31624,6 @@
     "author": "Olivier Rouiller",
     "description": "Open and Embed Google Drive shortcut files (.gdoc, .gsheet, etc.) in a Web View. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "oilandrust/obsidian-gdocs"
-  },
-  {
-    "id": "pimate",
-    "name": "Pimate",
-    "author": "Gorazen",
-    "description": "Pimate embeds Pi Coding Agent into Obsidian as an AI collaborator for your vault. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "gorazenxu/pimate"
   },
   {
     "id": "auto-close-oldest-tabs",
@@ -75740,6 +75740,13 @@
     "repo": "sumi1124/vertical-tabs-lite"
   },
   {
+    "id": "lan-share",
+    "name": "LAN Share",
+    "author": "uuyisen",
+    "description": "在局域网内把 Obsidian 笔记分享给朋友：浏览器打开链接即可只读预览，支持 Markdown、双链、嵌入图片与 Mermaid 图表。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "uuyisen/obsidian-lan-share"
+  },
+  {
     "id": "quark-note-sync",
     "name": "Quark Note Sync",
     "author": "Skyone",
@@ -75817,11 +75824,25 @@
     "repo": "lhak1341/obsidian-pokedex"
   },
   {
+    "id": "module-host",
+    "name": "Module Host",
+    "author": "1653lin4",
+    "description": "Load and hot-reload standalone local JavaScript drawer modules from your vault with lifecycle cleanup and secret storage support. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "1653lin4/module-host"
+  },
+  {
     "id": "bible-translation-compare",
     "name": "Bible Translation Compare",
     "author": "주명철",
     "description": "Compare a Bible reference at the cursor or in the selection across several translations and insert the chosen ones into your note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "myoungcheul-joo/bible-translation-compare"
+  },
+  {
+    "id": "timeblock-planner",
+    "name": "Timeblock Planner",
+    "author": "chirs",
+    "description": "Plan your day with time blocks on a visual timeline and break goals into actionable steps. Track progress by hours invested. Time blocks are saved as plain Markdown in daily notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chris-kong361/obsidian-timeblock-planner"
   },
   {
     "id": "fluent-windows-native",
@@ -75831,10 +75852,24 @@
     "repo": "zyraxi21/fluent2-windows-native"
   },
   {
+    "id": "local-lan-sync",
+    "name": "Local LAN Sync",
+    "author": "Mahdi Valizadeh",
+    "description": "Manual vault synchronization over local Wi-Fi/LAN with automatic network discovery for desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "white-wolf-dv/obsidian-local-lan-sync"
+  },
+  {
     "id": "wrap-with-hotkeys",
     "name": "Wrap with Hotkeys",
     "author": "Omer Cooper",
     "description": "Wrap selected text in custom tags, and set each wrapper's hotkey right where you create it. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "omercooper/wrap-with-hotkeys"
+  },
+  {
+    "id": "moyu-mode",
+    "name": "Moyu Mode",
+    "author": "bugstack27",
+    "description": "Open web pages as workspace tabs and switch back to your notes when the cursor leaves the page. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "bugstack27/obsidian-moyu-mode"
   }
 ]
