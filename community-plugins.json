@@ -38584,13 +38584,6 @@
     "repo": "p1tt1/obsidian-logbook"
   },
   {
-    "id": "commonplace-notes",
-    "name": "Commonplace Notes",
-    "author": "zachmueller",
-    "description": "Publish your notes with sliding panes and link to others notes - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zachmueller/commonplace-notes"
-  },
-  {
     "id": "mdflow-publisher",
     "name": "Jacky-mdflow",
     "author": "Jackywxsz",
@@ -60018,13 +60011,6 @@
     "repo": "itsdionis/MyOnePage"
   },
   {
-    "id": "documents-activity-tracker",
-    "name": "Documents Activity Tracker",
-    "author": "InVerse",
-    "description": "跟踪每个文档的阅读时长（区分窗口内/脱离窗口），并提供独立的手动计时；侧栏统一查看，数据存于 SQLite。 - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "lmce72/documents-activity-tracker"
-  },
-  {
     "id": "pdf-editor",
     "name": "PDF Editor",
     "author": "holtsdav",
@@ -71029,6 +71015,13 @@
     "repo": "chitvs/vaulter"
   },
   {
+    "id": "inkstone-pdf",
+    "name": "Inkstone PDF",
+    "author": "virkiin",
+    "description": "Handwrite and annotate PDF pages with pressure, layers and a boolean eraser. Your PDF is never modified. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "virkiin/inkstone-pdf"
+  },
+  {
     "id": "editor-like-reading-view",
     "name": "Editor-like Reading View",
     "author": "H9-",
@@ -72369,15 +72362,8 @@
     "id": "revision-marks",
     "name": "Revision Marks",
     "author": "Committed Sins",
-    "description": "Beta: Update timestamps and optional revision counts after editing sessions. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Update timestamps and optional revision counts after editing sessions. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "committed-sins/obsidian-plugin-revision-marks"
-  },
-  {
-    "id": "lilium",
-    "name": "Lilium",
-    "author": "奼某",
-    "description": "Universal dictionary & transliteration — Sanskrit, Pali, Tibetan, Mongolian, Manchu, Uyghur, Siddham, 'Phags-pa and more. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "quasicry/lilium"
   },
   {
     "id": "webdavrsync",
@@ -74270,13 +74256,6 @@
     "repo": "a474516631/editableppt-obsidian"
   },
   {
-    "id": "nora-html-exporter",
-    "name": "Nora HTML Exporter",
-    "author": "singhaf9270",
-    "description": "Bilingual (FA/EN) Obsidian plugin to export notes or entire folders as standalone Nora HTML Reader files, including a single merged HTML book with embedded Vault attachments. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "singhaf9270/nora-html-exlplorer"
-  },
-  {
     "id": "code-block-context-fold",
     "name": "Code Block Parameter Fold",
     "author": "zonvon",
@@ -74597,13 +74576,6 @@
     "author": "Adam Pearce",
     "description": "Create typed notes, link them to Maps, file them by kind, and start Efforts, following the ACE folder framework. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "adamhp/obsidian-ace"
-  },
-  {
-    "id": "code-embed",
-    "name": "Code Embed",
-    "author": "JavaMiner",
-    "description": "Expand reusable note fragments and preview structured prompts. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "javaminer/obsidian-code-embed"
   },
   {
     "id": "folder-marker",
@@ -76200,5 +76172,47 @@
     "author": "Atharva Savnerkar ",
     "description": "Mobile-ready (iPadOS & Android) medical image finder using DuckDuckGo, AI Visual Scanner, Fast Batch Review, and point-level note insertion. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "ayush4265/medical-image-finder-mobile"
+  },
+  {
+    "id": "file-dropper",
+    "name": "File Dropper",
+    "author": "A B",
+    "description": "Drop a file from your computer into a note to insert a clickable link to where it lives, instead of copying it into the vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "au2mater/obsidian-filedropper"
+  },
+  {
+    "id": "readdeck",
+    "name": "ReadDeck",
+    "author": "fjordor-dev",
+    "description": "A local book library, reading journal, and built-in EPUB reader for Obsidian. Find books, customize metadata, and keep ordinary Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fjordor-dev/readdeck"
+  },
+  {
+    "id": "flashidian",
+    "name": "Flashy",
+    "author": "dimagious",
+    "description": "Turn notes you already have into flashcards: headings, tables, lists and callouts. Review with swipes on your phone, scheduled by FSRS. Nothing is written into your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "dimagious/flashidian"
+  },
+  {
+    "id": "yuhanbo-image-upload",
+    "name": "yuhanbo-image-upload",
+    "author": "余汉波",
+    "description": "支持批量上传本地图片和右键上传单张图片，上传后自动替换笔记中的图片链接. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yuhanbo758/obsidian-yuhanbo-image_upload"
+  },
+  {
+    "id": "japanese-text-breakdown",
+    "name": "Japanese Text Breakdown",
+    "author": "t-ruki",
+    "description": "Count the characters, lines and sentences of the open note or selection, with hiragana, katakana and kanji counted separately. Shows numbers only. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "t-ruki/japanese-text-breakdown"
+  },
+  {
+    "id": "right-click-task-status",
+    "name": "Right-Click Task Status",
+    "author": "Alex Totolici",
+    "description": "Right-click any task in a note to set its status. Works with the Tasks plugin: uses your Tasks statuses, done and cancelled dates, and creates the next recurring task. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "toto1384/obsidian-right-click-task-status"
   }
 ]
