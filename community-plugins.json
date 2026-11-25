@@ -1141,13 +1141,6 @@
     "repo": "elias-sundqvist/obsidian-react-components"
   },
   {
-    "id": "obsidian-tasks-plugin",
-    "name": "Tasks",
-    "author": "obsidian-tasks-group",
-    "description": "Track tasks across your vault. Supports due dates, recurring tasks, done dates, sub-set of checklist items, and filtering. Maintained by Clare Macrae and Ilyas Landikov, created by Martin Schenck.",
-    "repo": "obsidian-tasks-group/obsidian-tasks"
-  },
-  {
     "id": "readwise-mirror",
     "name": "Readwise Mirror",
     "author": "jsonmartin",
@@ -46991,6 +46984,13 @@
     "repo": "albertaizic/obsidian-issues"
   },
   {
+    "id": "pokemon-collection",
+    "name": "Pokemon Collection Manager",
+    "author": "erni",
+    "description": "Manage a Pokémon TCG collection inside your vault using the TCGdex API. Search cards, track variants, prices and view a dashboard. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "erni0k/PokeObsidian"
+  },
+  {
     "id": "gdrive-bisync",
     "name": "OmniSync GDrive",
     "author": "donespeak",
@@ -68524,10 +68524,10 @@
   },
   {
     "id": "plugin-radar",
-    "name": "Community Radar",
+    "name": "Pindex",
     "author": "Ali Tekdemir",
-    "description": "Query the plugin directory like SQL: trending newcomers, comebacks after long silence, alternatives and milestones. Track your picks as notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "alitekdemir/obsidian-community-radar"
+    "description": "Query, pin and track the plugin directory: trending newcomers, comebacks after long silence, alternatives and milestones, kept as library notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alitekdemir/obsidian-pindex"
   },
   {
     "id": "inline-preview",
@@ -72366,6 +72366,13 @@
     "repo": "committed-sins/obsidian-plugin-revision-marks"
   },
   {
+    "id": "lilium",
+    "name": "Lilium",
+    "author": "奼某",
+    "description": "Universal dictionary & transliteration — Sanskrit, Pali, Tibetan, Mongolian, Manchu, Uyghur, Siddham, 'Phags-pa and more. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "quasicry/lilium"
+  },
+  {
     "id": "webdavrsync",
     "name": "WebDAVrSync",
     "author": "Eton Xie",
@@ -75867,10 +75874,10 @@
   },
   {
     "id": "anti-dian",
-    "name": "Anti-dian",
+    "name": "Antidian",
     "author": "quangliz",
     "description": "Noting harness powered by the official Antigravity CLI (ACP). - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "quangliz/anti-dian"
+    "repo": "quangliz/antidian"
   },
   {
     "id": "hotkey-fallback",
@@ -76174,6 +76181,20 @@
     "repo": "ayush4265/medical-image-finder-mobile"
   },
   {
+    "id": "chemhover",
+    "name": "ChemHover",
+    "author": "Tiago",
+    "description": "Hover over marked chemical names to see their structures and properties. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tiaguinho-code/ChemHover"
+  },
+  {
+    "id": "vault-to-site",
+    "name": "vault-to-site",
+    "author": "somebodil",
+    "description": "Build the notes you choose into a read-only website that looks like your vault and opens from a file. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "somebodil/vault-to-site"
+  },
+  {
     "id": "file-dropper",
     "name": "File Dropper",
     "author": "A B",
@@ -76214,5 +76235,12 @@
     "author": "Alex Totolici",
     "description": "Right-click any task in a note to set its status. Works with the Tasks plugin: uses your Tasks statuses, done and cancelled dates, and creates the next recurring task. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "toto1384/obsidian-right-click-task-status"
+  },
+  {
+    "id": "task-trail",
+    "name": "Task Trail",
+    "author": "isseii10",
+    "description": "Leave a trail of when each task was started, finished or dropped: click a checkbox to move it to its next state, and the time is stamped on the line. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "isseii10/obsidian-task-trail"
   }
 ]
