@@ -28924,13 +28924,6 @@
     "repo": "hornatx/super-zen"
   },
   {
-    "id": "pensea",
-    "name": "Pensea",
-    "author": "odo",
-    "description": "PARA-based knowledge management with idea flow, spaced repetition, and LLM-powered wiki. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "y15865708228-pixel/yang"
-  },
-  {
     "id": "sync-wechat-data",
     "name": "Sync Wechat Data",
     "author": "frank",
@@ -57078,6 +57071,13 @@
     "repo": "kulikala/obsidian-agent-sessions"
   },
   {
+    "id": "wiki-paste",
+    "name": "Wiki Paste",
+    "author": "xfjbnlsnflb",
+    "description": "Preserve copied wiki text when pasting into Obsidian Markdown. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hawaka6667-dev/obsidian-wiki-paste"
+  },
+  {
     "id": "whenreset",
     "name": "Codex Reset Radar (WhenReset)",
     "author": "zack",
@@ -75635,6 +75635,13 @@
     "repo": "zhibird/gptchat-to-obsidian"
   },
   {
+    "id": "canvas-joy",
+    "name": "Canvas Joy",
+    "author": "Joy",
+    "description": "Heptabase-style visual thinking for Canvas: tinted note cards, collapsible cards and sections, focus mode, in-canvas search, minimap, alignment bar, mindmaps, and text formatting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "joyitang/canvas-joy"
+  },
+  {
     "id": "vertical-tabs-lite",
     "name": "Vertical Tabs Lite",
     "author": "sumi-1124",
@@ -75654,6 +75661,13 @@
     "author": "Skyone",
     "description": "Sync notes through Quark Drive between Windows and Android. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "18030838922/quark-note-sync"
+  },
+  {
+    "id": "pure-mind-map",
+    "name": "Pure Mind Map",
+    "author": "entao chen",
+    "description": "Create and edit interactive mind maps backed by standard Markdown files, with one-click switching between mind map view and source mode. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "userchenentao5/pure-mind-map"
   },
   {
     "id": "latex-to-pdf",
@@ -76013,6 +76027,13 @@
     "repo": "magicbaobaoli/obsidian-getnote"
   },
   {
+    "id": "memos-bridge",
+    "name": "Memos Bridge",
+    "author": "will ray",
+    "description": "Sync your self-hosted Memos (supports latest /api/memos and legacy /api/v1) into Obsidian with attachment auto-download and non-destructive note updates. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "santimental0617-cyber/obsidian-memos-bridge"
+  },
+  {
     "id": "json-helper",
     "name": "JSON Helper",
     "author": "sancodeee",
@@ -76067,5 +76088,33 @@
     "author": "CliveG",
     "description": "Arrange and resize reference images, and choose asset folders, in native Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cliveglitch/canvas-art-ref"
+  },
+  {
+    "id": "okvault",
+    "name": "okvault",
+    "author": "baschen-dev",
+    "description": "Ask the vault's FAQ the way agents do (kb_ask), and see the OKF bundle: sections, types, links and notes that need review. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "baschen-dev/okvault"
+  },
+  {
+    "id": "feishu-lite-blocks",
+    "name": "Feishu Lite Blocks",
+    "author": "continue kai",
+    "description": "Adds Feishu-style paragraph spacing, soft breaks, and a quick-insert toolbar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "continuing2022/Feishu-Lite-Blocks"
+  },
+  {
+    "id": "meeting-notes-everywhere",
+    "name": "Meeting Notes Everywhere",
+    "author": "hornhaut",
+    "description": "Create a meeting note and pick which of your meeting folders it goes into. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hornhaut/obsidian-meeting-notes-everywhere"
+  },
+  {
+    "id": "redvars",
+    "name": "RedVars - Live Target Variables",
+    "author": "sideswipe",
+    "description": "Collapsible side panel for filling in hacking/security variable values (LHOST, RHOST, passwords, hashes …) that are live-substituted inside code blocks in Reading View. Copy buttons paste the real values, not the placeholders. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "sideswipeishacking/redvars"
   }
 ]
