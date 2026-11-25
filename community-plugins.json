@@ -1141,6 +1141,13 @@
     "repo": "elias-sundqvist/obsidian-react-components"
   },
   {
+    "id": "obsidian-tasks-plugin",
+    "name": "Tasks",
+    "author": "Clare Macrae",
+    "description": "Track tasks across your vault. Supports due dates, recurring tasks, done dates, sub-set of checklist items, and filtering. Maintained by Clare Macrae and Ilyas Landikov, created by Martin Schenck.",
+    "repo": "obsidian-tasks-group/obsidian-tasks"
+  },
+  {
     "id": "readwise-mirror",
     "name": "Readwise Mirror",
     "author": "jsonmartin",
@@ -24978,9 +24985,9 @@
   {
     "id": "callout-studio",
     "name": "Callout Studio",
-    "author": "niv20",
+    "author": "callout-studio",
     "description": "Callout Studio is the only callout plugin you'll ever need to download. It offers regular callouts, inline callouts, and callout headings. Plus, you can easily design your own custom styles! - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "niv20/obsidian-Plugin-Callout-Studio"
+    "repo": "callout-studio/obsidian"
   },
   {
     "id": "akaire",
@@ -66815,6 +66822,13 @@
     "repo": "cmdr-hawkeye/writeller-obsidian"
   },
   {
+    "id": "novel-view",
+    "name": "Novel View",
+    "author": "yukisova",
+    "description": "Novel writing mode with auto mode, inline article rename, outline slides, inspiration cards, special pages, and find/replace. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yukisova/obsidian-novel-view"
+  },
+  {
     "id": "keep-sorted",
     "name": "Keep Sorted",
     "author": "torazaburo",
@@ -70143,7 +70157,7 @@
     "id": "journal-hub",
     "name": "Journal Hub",
     "author": "Okami",
-    "description": "Create journal entries from a template, file them into year and month folders, and browse them all from one hub. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Keep a journal or diary: create dated entries from a template, file them into year and month folders, and browse them in a timeline, calendar and activity heatmap with streaks. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "marturojt/obsidian-journal-hub"
   },
   {
@@ -75117,13 +75131,6 @@
     "repo": "carradine-io/ghost-complete"
   },
   {
-    "id": "open-threads",
-    "name": "Open Threads",
-    "author": "Arnaud ",
-    "description": "Remember what's still open with each person: one note per thread, with due dates, follow-ups and check-ins, listed in their note. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "arnaudmm/obsidian-open-threads"
-  },
-  {
     "id": "othoughts",
     "name": "Othoughts",
     "author": "Luis Leandro Garcia Valiña",
@@ -75873,13 +75880,6 @@
     "repo": "newkingyeah/better-calender"
   },
   {
-    "id": "anti-dian",
-    "name": "Antidian",
-    "author": "quangliz",
-    "description": "Noting harness powered by the official Antigravity CLI (ACP). - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "quangliz/antidian"
-  },
-  {
     "id": "hotkey-fallback",
     "name": "Hotkey Fallback",
     "author": "Michael Naumov",
@@ -76142,7 +76142,7 @@
     "id": "bases-to-html",
     "name": "Bases to HTML",
     "author": "Hossein Fard",
-    "description": "Export Bases views to standalone, interactive, and responsive HTML pages for static hosting. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Transform Obsidian Bases into interactive, responsive, standalone HTML pages. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fardm/bases-to-html"
   },
   {
@@ -76242,5 +76242,26 @@
     "author": "isseii10",
     "description": "Leave a trail of when each task was started, finished or dropped: click a checkbox to move it to its next state, and the time is stamped on the line. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "isseii10/obsidian-task-trail"
+  },
+  {
+    "id": "pomodoro-study-logger",
+    "name": "Pomodoro Study Logger",
+    "author": "HoseinTanha",
+    "description": "ثبت پومودوروهای مطالعه در یادداشت روزانه، با انتخاب کتاب و محاسبه‌ی خودکار صفحات. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tanhahoseine-stack/pomodoro-study-logger"
+  },
+  {
+    "id": "antidian",
+    "name": "Antidian",
+    "author": "quangliz",
+    "description": "Noting harness powered by the official Antigravity CLI (ACP). - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "quangliz/antidian-obsidian-plugin"
+  },
+  {
+    "id": "goal-metadata",
+    "name": "Goal Metadata",
+    "author": "Rob",
+    "description": "Create goals, track dependencies and ratings, and save dashboard views with parent rollups. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "not-really-rob/goal-metadata"
   }
 ]
