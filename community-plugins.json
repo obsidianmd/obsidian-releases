@@ -31332,6 +31332,13 @@
     "repo": "ar4l/obsidian-papers"
   },
   {
+    "id": "lorebase",
+    "name": "Lorebase",
+    "author": "Murch1k",
+    "description": "Lorebase is a media library built into Obsidian for games, anime, movies, TV shows, books, and manga. Cards, metadata, ratings, progress, and statistics are stored locally in Markdown - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "murchi1k/obsidian-lorebase-plugin"
+  },
+  {
     "id": "streamradio",
     "name": "StreamRadio",
     "author": "Fozi",
@@ -45099,13 +45106,6 @@
     "author": "mikagosz",
     "description": "Colour note and folder titles in the file explorer from the right-click menu, using states you define yourself. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mikagosz/obsidian-color-note"
-  },
-  {
-    "id": "litesync",
-    "name": "LiteSync",
-    "author": "kjoner",
-    "description": "Sync your vault with your own self-hosted LiteSync server. End-to-end encryption, version history, and automatic three-way merge. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "kjoner/litesync"
   },
   {
     "id": "fleurpilot",
@@ -68134,7 +68134,7 @@
     "id": "zhaohua-xishi",
     "name": "Zhaohua Xishi",
     "author": "Tangerine.Cat",
-    "description": "Review past notes, read journals as books, format WeChat articles, and export images or cards with callouts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Review past notes, browse journals by their covers, format WeChat articles, and export images or cards with callouts. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "tangerine-cat888/zhaohua-xishi"
   },
   {
@@ -74048,7 +74048,7 @@
   {
     "id": "better-folder-notes",
     "name": "Better Folder Notes",
-    "author": "C",
+    "author": "menomemo",
     "description": "Turn any note into a folder's table of contents: collapsible tree, drag-to-reorder without renaming, and create files right where they belong. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "menomemo/better-folder-notes"
   },
@@ -76571,5 +76571,33 @@
     "author": "AiurArtanis",
     "description": "Open native search in a floating window, preview matches, and use Quick Search with a Chinese input method. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "aiurartanis/Obsidian-Float-Search-Window"
+  },
+  {
+    "id": "reading-workflow",
+    "name": "Reading Workflow",
+    "author": "XXY910",
+    "description": "Quickly manage reading progress across any number of saved articles with one-click status switching, synced YAML status tags, and automatic folder moves. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "xxy910/reading-workflow"
+  },
+  {
+    "id": "clipverb",
+    "name": "Clipverb",
+    "author": "Hardbound Studio",
+    "description": "Send a video link to the Clipverb desktop app, which files the video's captions or a summary as a note in your vault. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hardbound-studio/clipverb-obsidian"
+  },
+  {
+    "id": "meeting-transcriber",
+    "name": "Meeting Transcriber",
+    "author": "bboidin",
+    "description": "Record online and in-person meetings, then insert a speaker-labelled transcript and summary into your notes using local models only. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "benoitboidin/obsidian-meeting-transcriber"
+  },
+  {
+    "id": "data-architecture-mapper",
+    "name": "Data Architecture Mapper",
+    "author": "Alexandre Charbit",
+    "description": "Discover, visualize, validate, and document Kafka Connect and data platform architecture from vault configuration files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "alex3l3t33/data-architecture-mapper"
   }
 ]
