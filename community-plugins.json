@@ -30712,7 +30712,7 @@
     "id": "csvzall",
     "name": "csvzall",
     "author": "Vincent La",
-    "description": "A fast CSV and TSV viewer, editor, and charting plugin for Obsidian. Use SQLite queries over CSV files, and export them as tables directly to your notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "A fast CSV/TSV and JSON viewer, editor, and charting plugin for Obsidian. Use SQLite queries over CSV files, and export them as tables directly to your notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "vincentlaucsb/obsidian-csvzall"
   },
   {
@@ -76020,6 +76020,13 @@
     "repo": "magicbaobaoli/obsidian-getnote"
   },
   {
+    "id": "tag-search-rookie",
+    "name": "Tag Search (rookie)",
+    "author": "Revulo",
+    "description": "Update, search, and manage inline and frontmatter tags in your notes, with vault-wide and file-name searches. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "modulomedito/obsidian-tag-search"
+  },
+  {
     "id": "memos-bridge",
     "name": "Memos Bridge",
     "author": "will ray",
@@ -76368,5 +76375,19 @@
     "author": "SungJu Yun",
     "description": "Read Mermaid flowcharts with interactive branches, step-by-step navigation, and layouts that fit the note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "yuyu04/mermaid-flowchart-navigator"
+  },
+  {
+    "id": "typora-flow",
+    "name": "Better Line Breaks",
+    "author": "qianhanglv",
+    "description": "Typora-like line breaking: Enter starts a new paragraph, Shift+Enter inserts a soft break, Backspace at a paragraph start steps back cleanly, and pasted plain text is split into paragraphs. Typora 式换行 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "qianhanglv/obsidian-better-line-breaks"
+  },
+  {
+    "id": "todo",
+    "name": "TODO",
+    "author": "zhuzhige123",
+    "description": "Sidebar task manager with My Day, smart suggestions, and a calendar day workspace. Compatible with Tasks plugin syntax. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "zhuzhige123/obsidian-todo"
   }
 ]
