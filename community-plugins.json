@@ -31332,13 +31332,6 @@
     "repo": "ar4l/obsidian-papers"
   },
   {
-    "id": "lorebase",
-    "name": "Lorebase",
-    "author": "Murch1k",
-    "description": "Lorebase is a media library built into Obsidian for games, anime, movies, TV shows, books, and manga. Cards, metadata, ratings, progress, and statistics are stored locally in Markdown - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "murchi1k/obsidian-lorebase-plugin"
-  },
-  {
     "id": "streamradio",
     "name": "StreamRadio",
     "author": "Fozi",
@@ -33703,6 +33696,13 @@
     "author": "nsyout",
     "description": "Generate safe Markdown indexes from folders, tags, properties, and filename patterns. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "nsyout/obsidian-concordance"
+  },
+  {
+    "id": "scholarium",
+    "name": "Scholarium",
+    "author": "tenor-john",
+    "description": "An all-in-one scholarly workspace with AI-assisted writing, literature management, notes, and productivity tools. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tenor-john/obsidian-scholarium"
   },
   {
     "id": "mv-obcc",
@@ -75397,13 +75397,6 @@
     "repo": "martingryner/diff-anything-obsidian"
   },
   {
-    "id": "full-calendar-plus",
-    "name": "Full Calendar Plus",
-    "author": "Alex Totolici",
-    "description": "Keep your calendar in your vault: events as notes, daily notes, ICS and CalDAV calendars, with categories, live previews and keyboard shortcuts. A maintained fork of Full Calendar. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "toto1384/obsidian-full-calendar-fork"
-  },
-  {
     "id": "editable-embeds",
     "name": "Editable Embeds",
     "author": "Alex Totolici",
@@ -75978,13 +75971,6 @@
     "repo": "peerpedia/peerpedia"
   },
   {
-    "id": "sutodoku",
-    "name": "suToDoku",
-    "author": "Tagir Enikeev",
-    "description": "Plan one goal through eight directions and 64 steps, with confirmation history and an archive. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "enikeevtg/sutodoku"
-  },
-  {
     "id": "pen-ink",
     "name": "Pen Ink",
     "author": "Zach H",
@@ -76510,11 +76496,25 @@
     "repo": "flowersea111222/obsidian-video-note-studio"
   },
   {
+    "id": "mixed-alphabetical-sort",
+    "name": "Mixed alphabetical sort",
+    "author": "Matt",
+    "description": "Sorts files and folders together alphabetically in the file explorer instead of placing folders first. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mschmidt/obsidian-mixed-alphabetical-sort"
+  },
+  {
     "id": "note-named-attachments",
     "name": "Note-named attachments",
     "author": "Matt",
     "description": "Adds an attachment location that saves files in a sibling folder with the same name as the current note. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "mschmidt/obsidian-note-named-attachments"
+  },
+  {
+    "id": "self-contained-markdown-exporter",
+    "name": "FlatMD - Self Contained Exporter",
+    "author": "FRXN",
+    "description": "Copy or export Markdown notes with local images embedded as Base64 data URIs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "frxn4f/Obsidian-FlatMD"
   },
   {
     "id": "gridpin-geocode",
@@ -76531,10 +76531,24 @@
     "repo": "simonx8x/vault-cosmos"
   },
   {
+    "id": "watchdeck",
+    "name": "WatchDeck",
+    "author": "fjordor-dev",
+    "description": "A local-first movie & TV library for Obsidian. Track watchlists, log watches, and keep ordinary Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "fjordor-dev/watchdeck"
+  },
+  {
     "id": "pdf-tagger",
     "name": "PDF Tagger",
     "author": "sumi-1124",
     "description": "Tag passages inside PDFs with colored highlights, notes, and a tag browser. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "sumi1124/obsidian-pdf-tagger"
+  },
+  {
+    "id": "float-search-window",
+    "name": "Float Search Window",
+    "author": "AiurArtanis",
+    "description": "Open native search in a floating window and preview matches as you type with a Chinese input method. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "aiurartanis/Obsidian-Float-Search-Window"
   }
 ]
