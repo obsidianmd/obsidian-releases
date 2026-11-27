@@ -70280,13 +70280,6 @@
     "repo": "zoepiqian/mypocket"
   },
   {
-    "id": "ai-chatbridge",
-    "name": "AI ChatBridge",
-    "author": "Sundowna",
-    "description": "Import & sync your AI chats: Proton Lumo, Claude, ChatGPT, Gemini and Hermes chats in your vault, incl. files & artifacts. (Karpathy LLM Wiki / Second Brain / Project Brain) - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "sundowna/obsidian-ai-chatbridge"
-  },
-  {
     "id": "task-block",
     "name": "Task Block",
     "author": "n-kort",
@@ -70334,6 +70327,13 @@
     "author": "bugstack27",
     "description": "Show a right sidebar panel listing notes that share tags with the current note, grouped by shared tag sets. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "bugstack27/obsidian-tag-relation"
+  },
+  {
+    "id": "literacy-assessment",
+    "name": "Literacy Teacher Workbench",
+    "author": "dreamook",
+    "description": "本地优先的素养评估工作台：按项目/行动收素材，AI 整理证据，生成行动、项目与学期总报告，并支持对外脱敏版。 - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pbl-edu/literacy-assessment"
   },
   {
     "id": "lovebites",
@@ -73432,9 +73432,9 @@
   {
     "id": "srt-vtt-cleaner-iramuteq-fr",
     "name": "SRT and VTT Cleaner + IRaMuTeQ (FR)",
-    "author": "Jeremie Terral",
+    "author": "lescribeaudio",
     "description": "Clean French SRT and WebVTT transcripts, merge speaker turns, apply French non-breaking spaces, and export starred IRaMuTeQ interview corpora locally. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zoulouzaza76/obsidian-srt-iramuteq-fr"
+    "repo": "lescribeaudio/obsidian-srt-iramuteq-fr"
   },
   {
     "id": "debugger-highlight",
@@ -76622,13 +76622,6 @@
     "repo": "jeremym/obsidian-audience"
   },
   {
-    "id": "bambu-print-sync",
-    "name": "Bambu Print Sync",
-    "author": "GeorgeP",
-    "description": "Plan 3D prints, import print history from the Bambu Lab cloud, and track filament spools and cost with Bases. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "grissspy/obsidian-bambu-print-sync"
-  },
-  {
     "id": "ollama-prompts",
     "name": "Ollama Prompts",
     "author": "Soulbits",
@@ -76641,6 +76634,27 @@
     "author": "fjordor-dev",
     "description": "A local music library and listening journal. Find albums, track spins, challenges, and ratings, and keep ordinary Markdown notes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "fjordor-dev/spindeck"
+  },
+  {
+    "id": "pm-workbench",
+    "name": "PM Workbench",
+    "author": "Matheus Faveri",
+    "description": "Personal spin-off of dotpm for Obsidian: Markdown project management with Table, Gantt and Kanban views, CPM critical path, baseline tracking, FS/SS/FF dependencies with lag/lead, duration risk, parent rollup and workload analysis. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mfaveri/obsidian-pm-mod"
+  },
+  {
+    "id": "verbex-dataview-bridge",
+    "name": "Verbex Dataview Bridge",
+    "author": "everydaymind",
+    "description": "Lets the Verbex AI agent run read-only Dataview (DQL) queries and reports the source note of every row so private notes can be refused. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "everydaymind/obsidian-verbex-dataview-bridge"
+  },
+  {
+    "id": "verbex-tasks-bridge",
+    "name": "Verbex Tasks Bridge",
+    "author": "everydaymind",
+    "description": "Lets the Verbex AI agent compute Tasks check-off results (including recurrence) through the Tasks plugin; nothing is written without the host's approval. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "everydaymind/obsidian-verbex-tasks-bridge"
   },
   {
     "id": "latex-bridge",
@@ -76725,5 +76739,89 @@
     "author": "kevin",
     "description": "Turn pasted URLs into titled Markdown links, with a browser-session fallback for sites that reject ordinary requests. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "cantbeblank96/Session_Link_Titles"
+  },
+  {
+    "id": "ecu-claude",
+    "name": "ecu-ai",
+    "author": "Eren Can",
+    "description": "Run AI coding agents like Claude Code and Codex or etc. in your Obsidian sidebar. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "erencanucarr/ecu-ai"
+  },
+  {
+    "id": "cross-vault-switcher",
+    "name": "Cross Vault Switcher",
+    "author": "Yurden",
+    "description": "Left-click to switch vaults in the current window; Ctrl/Cmd-click to open another window and keep the current one. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yurden-mskv/obsidian-vault-switcher"
+  },
+  {
+    "id": "html-scenes",
+    "name": "Interactive HTML Embeds",
+    "author": "Colin",
+    "description": "Link to a specific state of an interactive HTML file, embed it in a note, and find notes that reference the scene. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "colinleeo/embeds-html-notes"
+  },
+  {
+    "id": "structured-grid-graph",
+    "name": "GridBoard",
+    "author": "Ivan Sushkin",
+    "description": "See your notes and their links on a grid, grouped by folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ivansushkin/obsidian-gridboard"
+  },
+  {
+    "id": "excalidraw-mcp-antidian",
+    "name": "Excalidraw MCP",
+    "author": "quangliz",
+    "description": "Control Excalidraw drawings from AI agents via a local MCP bridge with layout checks and image export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "quangliz/excalidraw-mcp-obsidian-plugin"
+  },
+  {
+    "id": "page-strider",
+    "name": "Page Strider",
+    "author": "Matthew",
+    "description": "Read neighboring notes as one continuous page: notes before and after the current one load as you scroll, in file explorer order. Click any note to edit it in place. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "matthew-pot/obsidian-page-strider"
+  },
+  {
+    "id": "clip-reader",
+    "name": "ClipReader",
+    "author": "chilipeppers",
+    "description": "Read-it-later reader for Web Clipper articles with reading queue, progress tracking, color highlights, and margin notes. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chi-li-peppers/obsidian-clip-reader"
+  },
+  {
+    "id": "bases-sheets-sync",
+    "name": "Bases Sheets Sync",
+    "author": "chilipeppers",
+    "description": "Two-way sync between Obsidian Bases and Google Sheets. Pull rows into notes, push frontmatter updates, and preview conflicts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "chi-li-peppers/obsidian-bases-sheets-sync"
+  },
+  {
+    "id": "langsoft",
+    "name": "Langsoft",
+    "author": "Benjamin Kirk",
+    "description": "Highlight words by how well you know them, keep definitions with the sentence you found them in, and share dictionaries with coworkers. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "benbkirk/Obsidian-Langsoft"
+  },
+  {
+    "id": "gemtext",
+    "name": "Gemtext",
+    "author": "karelbilek",
+    "description": "Edit and preview Gemini protocol gemtext (.gmi) files. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "karelbilek/gemtext-obsidian"
+  },
+  {
+    "id": "textpack",
+    "name": "TextPack",
+    "author": "tlwt",
+    "description": "Pack notes and folders into searchable .textpack archives (TextBundle format) and read, search, edit and manage them in their own view. Convert to and from .textbundle folders. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "tlwt/obsidian-plugin-textpack"
+  },
+  {
+    "id": "vault-branch-sync",
+    "name": "Vault Branch Sync",
+    "author": "feichai0017",
+    "description": "Sync notes and attachments with a private GitHub branch on desktop and mobile, and keep both copies when edits conflict. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "feichai0017/vault-branch-sync"
   }
 ]
