@@ -16593,7 +16593,7 @@
     "id": "similar-notes",
     "name": "Similar Notes",
     "author": "joybro",
-    "description": "Find semantically similar notes using AI. Local models (mobile & desktop) or cloud APIs.",
+    "description": "Find semantically similar notes using AI. A built-in model on desktop, Ollama, or cloud APIs like OpenAI and Gemini.",
     "repo": "joybro/obsidian-similar-notes"
   },
   {
@@ -76650,6 +76650,13 @@
     "repo": "tokarievnikitas/latex-bridge"
   },
   {
+    "id": "sealed-note",
+    "name": "Sealed Note",
+    "author": "kaka",
+    "description": "Encrypt selected notes and inline blocks with Obsidian's native editor. Password, TOTP, or recovery key unlock - no keyring file, no sidecar: each note's own body holds the ciphertext. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "njuptlzf/obsidian-sealed-note"
+  },
+  {
     "id": "paper-bridge",
     "name": "Paper Bridge",
     "author": "Pengyuan Min",
@@ -76697,5 +76704,26 @@
     "author": "zihoou",
     "description": "Open and create daily, weekly, and monthly notes from a theme-aware popup calendar. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "zihoou/daily-notes-calendar"
+  },
+  {
+    "id": "table-studio",
+    "name": "Table Studio",
+    "author": "Pu",
+    "description": "Notion-style Markdown tables: drag to resize columns, header highlighting, table styles, roomier spacing, frozen headers, row and column colors, alignment, transpose and copy as CSV or LaTeX. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "pupu31415926-ux/obsidian-table-studio"
+  },
+  {
+    "id": "simple-encrypted-sync",
+    "name": "Simple Encrypted Sync",
+    "author": "mirowin",
+    "description": "Sync an Obsidian vault between devices through a self-hosted, end-to-end encrypted server. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "mirowin/simple-sync-obsidian"
+  },
+  {
+    "id": "session-link-titles",
+    "name": "Session Link Titles",
+    "author": "kevin",
+    "description": "Turn pasted URLs into titled Markdown links, with a browser-session fallback for sites that reject ordinary requests. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "cantbeblank96/Session_Link_Titles"
   }
 ]
