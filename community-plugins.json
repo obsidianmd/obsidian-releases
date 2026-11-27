@@ -25860,7 +25860,7 @@
   {
     "id": "owen-editor",
     "name": "Owen Editor",
-    "author": "Owen lee",
+    "author": "Owen Lee",
     "description": "Markdown editing toolbar with Owen Graphite report and table helpers. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "towishy/owen-editor"
   },
@@ -32286,7 +32286,7 @@
   {
     "id": "owen-exporter",
     "name": "Owen Exporter",
-    "author": "Owen lee",
+    "author": "Owen Lee",
     "description": "Export SVG embeds as PNG/JPEG and copy or save selected Markdown as HTML. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "towishy/owen-exporter"
   },
@@ -33028,7 +33028,7 @@
   {
     "id": "owen-wiki",
     "name": "Owen Wiki Template",
-    "author": "Owen lee",
+    "author": "Owen Lee",
     "description": "Installs and refreshes the Owen-WIKI LLM wiki template kit in an Obsidian vault. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "towishy/owen-wiki-plugin"
   },
@@ -33050,7 +33050,7 @@
     "id": "book-search-covers",
     "name": "Book Search + Covers",
     "author": "lksrpp",
-    "description": "Search for books with high-resolution covers and create new notes based on your template. Supports searching via Google Book API, Open Library, Apple Store. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Find books by title, author or ISBN as you type, and create notes from your own template with high-resolution covers that look great in gallery views. Works on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "lksrpp/obsidian-book-search-covers"
   },
   {
@@ -33231,7 +33231,7 @@
   {
     "id": "owen-mermaid",
     "name": "Owen Mermaid",
-    "author": "Owen lee",
+    "author": "Owen Lee",
     "description": "Zoom, visually edit, and export Mermaid SVG diagrams in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "towishy/owen-mermaid"
   },
@@ -49789,6 +49789,13 @@
     "author": "Luis Vierroth",
     "description": "An expansive toolkit for Shadowdark GMs - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "p-mercury/obsidian-shadow-dark"
+  },
+  {
+    "id": "pptx-studio",
+    "name": "PPTX Studio",
+    "author": "Yuto Takagi",
+    "description": "Open, edit and inspect PowerPoint (.pptx) decks natively in Obsidian: a PowerPoint-style editing surface, an OOXML property inspector, slide embeds, Markdown extraction and PNG export. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "yut0takagi/obsidian-pptx-studio"
   },
   {
     "id": "markdown-trip-planner",
@@ -71463,13 +71470,6 @@
     "repo": "yaloalo/obsidian_relationship_radar"
   },
   {
-    "id": "vellum",
-    "name": "Vellum",
-    "author": "Zaviel",
-    "description": "Mobile mockups for plugins and vault apps: lay out screens on real phone frames, saved as small JSON files your coding agent reads and builds from. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "zelvet-velvet/vellum"
-  },
-  {
     "id": "artoo-veetoo",
     "name": "R2V2",
     "author": "Daiki Yoshimitsu",
@@ -76622,6 +76622,13 @@
     "repo": "jeremym/obsidian-audience"
   },
   {
+    "id": "bambu-print-sync",
+    "name": "Bambu Print Sync",
+    "author": "GeorgeP",
+    "description": "Plan 3D prints, import print history from the Bambu Lab cloud, and track filament spools and cost with Bases. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "grissspy/obsidian-bambu-print-sync"
+  },
+  {
     "id": "ollama-prompts",
     "name": "Ollama Prompts",
     "author": "Soulbits",
@@ -76762,13 +76769,6 @@
     "repo": "colinleeo/embeds-html-notes"
   },
   {
-    "id": "structured-grid-graph",
-    "name": "GridBoard",
-    "author": "Ivan Sushkin",
-    "description": "See your notes and their links on a grid, grouped by folder. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "ivansushkin/obsidian-gridboard"
-  },
-  {
     "id": "excalidraw-mcp-antidian",
     "name": "Excalidraw MCP",
     "author": "quangliz",
@@ -76823,5 +76823,40 @@
     "author": "feichai0017",
     "description": "Sync notes and attachments with a private GitHub branch on desktop and mobile, and keep both copies when edits conflict. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "feichai0017/vault-branch-sync"
+  },
+  {
+    "id": "sharpdown",
+    "name": "Sharpdown",
+    "author": "Saad Zahem",
+    "description": "Extends and enhances obsidian markdown syntax - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "saadzahem/obsidian-sharpdown"
+  },
+  {
+    "id": "folio-shelf",
+    "name": "Folio Shelf",
+    "author": "Klaus",
+    "description": "Remote PDF library with notes and reading progress in Obsidian. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "klawns/folio-shelf"
+  },
+  {
+    "id": "quick-link-cards",
+    "name": "Quick Link Cards",
+    "author": "gooozmen",
+    "description": "Turn a link on its own line into a preview card with the site image, title and description. Edit, open or copy the link from the card. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "gooozmen/quick-link-cards"
+  },
+  {
+    "id": "gridboard",
+    "name": "Grid Board",
+    "author": "Ivan Sushkin",
+    "description": "See your notes and their links on a grid, grouped by folder. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "ivansushkin/obsidian-gridboard-graph"
+  },
+  {
+    "id": "ja-auto-title",
+    "name": "Japanese Auto Title",
+    "author": "KT",
+    "description": "Generate Japanese titles for untitled notes with AI and rename them automatically. Works with Google Gemini (free tier available) or Anthropic Claude, on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "skmo0507/ja-auto-title"
   }
 ]
