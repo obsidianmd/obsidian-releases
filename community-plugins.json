@@ -47362,13 +47362,6 @@
     "repo": "pengd0t/TimelineLayout"
   },
   {
-    "id": "gcal-sync",
-    "name": "Google Calendar Sync",
-    "author": "Murat Can Uste",
-    "description": "Sync Google Calendar events declared in vault notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "mcuste/obsidian-gcal-sync"
-  },
-  {
     "id": "garda-handwriting-text-ocr",
     "name": "Garda AI Handwriting Text OCR",
     "author": "TutivSoft",
@@ -76650,6 +76643,13 @@
     "repo": "everydaymind/obsidian-verbex-tasks-bridge"
   },
   {
+    "id": "verbex-templater-bridge",
+    "name": "Verbex Templater Bridge",
+    "author": "everydaymind",
+    "description": "Gives the Verbex AI agent a guide to Templater templates and tp.* syntax. It runs no templates and offers no tools. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "everydaymind/obsidian-verbex-templater-bridge"
+  },
+  {
     "id": "latex-bridge",
     "name": "LaTeX Bridge",
     "author": "tokarievnikitas",
@@ -77054,5 +77054,40 @@
     "author": "alcatrazyu",
     "description": "Import OneNote notebooks as Markdown from OneDrive, a OneDrive download or a OneNote for Windows export, with highlights, links, attachments, printouts and handwriting kept, and bring in later changes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alcatrazyu/onenote-ferry"
+  },
+  {
+    "id": "yuque-kb",
+    "name": "Yuque Knowledge Base",
+    "author": "threed",
+    "description": "Manage local-first Yuque-style knowledge bases with isolated sidebars, nested doc-as-folder hierarchy, manual ordering, and .lakebook import. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "threed33/obsidian-yuque-kb"
+  },
+  {
+    "id": "lite-sync",
+    "name": "Lite Sync",
+    "author": "haoyu99",
+    "description": "End-to-end encrypted sync through your own server, with full version history. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "haoyu99/lite-sync"
+  },
+  {
+    "id": "accent-color-drift",
+    "name": "Accent Color Drift",
+    "author": "RznBrn",
+    "description": "Smoothly shift your accent color through a custom palette over time. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nachiketa3299/accent-color-drift"
+  },
+  {
+    "id": "todos",
+    "name": "Todos",
+    "author": "lorenzo",
+    "description": "Display Markdown tasks in a sidebar tab alongside Outline and jump to their position on click. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "lorenzozanee/obsidian-todos"
+  },
+  {
+    "id": "note-cli",
+    "name": "Claude Note CLI",
+    "author": "Matthew",
+    "description": "Turn a note into a Claude Code session. Write instructions in the note and get the answers, tool approvals, and results back in it. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "matthew-pot/claude-note-cli"
   }
 ]
