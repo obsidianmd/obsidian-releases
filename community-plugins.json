@@ -27279,13 +27279,6 @@
     "repo": "napard-web/liminal-plugin"
   },
   {
-    "id": "dndbeyond-importer",
-    "name": "DnD Beyond Importer",
-    "author": "jktaisa",
-    "description": "Import public D&D Beyond characters as beautifully formatted Obsidian notes. - This plugin has not been manually reviewed by Obsidian staff.",
-    "repo": "webcreator3478/D-D-Beyond-Character-Importer---Obsidian-Plugin"
-  },
-  {
     "id": "iso-me-maps",
     "name": "Whereday Maps",
     "author": "codybontecou",
@@ -54964,6 +54957,13 @@
     "repo": "damyo/ray-notes"
   },
   {
+    "id": "note-tidy",
+    "name": "Note Tidy",
+    "author": "Kflho",
+    "description": "Imports external-path images, renames garbled image files, and typesets notes: CJK/English/formula spacing, punctuation width, LaTeX layout, tags, block order and chat logs. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "kflho/obsidian-note-tidy"
+  },
+  {
     "id": "placeholder-manager",
     "name": "Placeholder Manager",
     "author": "Gawonii",
@@ -73864,6 +73864,13 @@
     "repo": "elisianw/obsidian-line-breaker"
   },
   {
+    "id": "blyg",
+    "name": "Blyg",
+    "author": "Florian Lohse",
+    "description": "Publish to your own Blygger Studio, and read, quote and reply to other blygs, on desktop and mobile. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "florianlohse/blyg-obsidian"
+  },
+  {
     "id": "academic-pdf",
     "name": "Academic PDF",
     "author": "Giacomo Berti",
@@ -74707,7 +74714,7 @@
     "id": "rudonium-anki-toolkit",
     "name": "Rudonium Anki Toolkit",
     "author": "dashiwak",
-    "description": "Sync Markdown flashcards with Anki, review planned changes, and audit decks for missing notes and conflicts. - This plugin has not been manually reviewed by Obsidian staff.",
+    "description": "Sync Markdown flashcards with Anki, review planned changes, and audit decks for missing notes and conflicts. Rudonium is based on Obsidian_to_Anki 3.6.0, by Pseudonium and the upstream contributors. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "dashiwak/rudonium-anki-toolkit"
   },
   {
@@ -77009,7 +77016,7 @@
   {
     "id": "custom-visuals",
     "name": "Custom Visuals",
-    "author": "Vadym M.",
+    "author": "Alvadio",
     "description": "Customize colors, fonts, reading layout, and tables from a live sidebar with built-in dark/light presets and saved custom themes. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "alvadio/obsidian-custom-visuals"
   },
@@ -77117,5 +77124,26 @@
     "author": "邵九璃",
     "description": "iThoughts-style mindmap branching & OneNote-style freeform cards with paragraph annotations and free edges for Obsidian Canvas. - This plugin has not been manually reviewed by Obsidian staff.",
     "repo": "shaojiuli/thoughtnote-canvas"
+  },
+  {
+    "id": "git-sync-encrypted",
+    "name": "Git Sync Encrypted",
+    "author": "Kara",
+    "description": "Fork of Git Sync (livan116/github-valut-sync, MIT) with end-to-end encryption: AES-256-GCM, per-device keys, smart incremental sync. Sync your vault across all devices using your own GitHub account. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "hinatara/Git-Sync-Encrypted"
+  },
+  {
+    "id": "diagram-studio",
+    "name": "Diagram Studio",
+    "author": "tjuliu",
+    "description": "Edit and preview DBML and PlantUML diagrams side by side, with diagnostics, auto-save, zoom and pan. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "eujuliu/obsidian-diagram-studio"
+  },
+  {
+    "id": "saascity-launch-checklist",
+    "name": "SaaSCity Launch Checklist",
+    "author": "SaaSCity",
+    "description": "Generate SaaS launch readiness checklists and audit any URL's public launch metadata, Open Graph tags, and robots.txt. - This plugin has not been manually reviewed by Obsidian staff.",
+    "repo": "nyyhao/obsidian-saascity-launch-checklist"
   }
 ]
